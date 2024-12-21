@@ -9,4 +9,10 @@ elif [ "$1" = "prod-server" ]; then
     ./main
     rm main
     cd ..
+elif [ "$1" = "dev-client" ]; then
+    npx nodemon --watch client/src --ext ts,tsx,css --exec "cd client; yarn build"
+elif [ "$1" = "prod-client" ]; then
+    cd client
+    yarn build
+    cd ..
 fi
