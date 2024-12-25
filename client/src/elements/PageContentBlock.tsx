@@ -8,6 +8,8 @@ interface Props {
 
 const MainDiv = styled.div`
     display: flex;
+    flex-direction: column;
+    align-items: center;
     min-height: 100%;
 
     @media (orientation: portrait) {
@@ -24,7 +26,7 @@ export default ({ title, children }: Props) => {
 
     return (
         <>
-            <main style={{ overflowY: "scroll" }}>
+            <main id={"mainDiv"} style={{ overflowY: "scroll" }}>
                 <MainDiv>
                     {children}
                 </MainDiv>
