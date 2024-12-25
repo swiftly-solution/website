@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
     return (
         <footer className="w-full bg-white dark:bg-background">
@@ -5,13 +7,13 @@ export default function Footer() {
 
             <section className="container mx-auto py-20 grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-x-12 gap-y-8">
                 <div className="col-span-full xl:col-span-2">
-                    <a
+                    <Link
                         rel="noreferrer noopener"
-                        href="/"
+                        to={"/"}
                         className="font-bold text-xl flex"
                     >
                         SwiftlyS2
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="flex flex-col gap-2">
@@ -30,56 +32,56 @@ export default function Footer() {
                 <div className="flex flex-col gap-2">
                     <h3 className="font-bold text-lg">Platforms</h3>
                     <div>
-                        <a
+                        <Link
                             rel="noreferrer noopener"
-                            href="/plugin-sharing"
+                            to="/plugin-sharing"
                             className="opacity-60 hover:opacity-100"
                         >
                             Plugin Sharing
-                        </a>
+                        </Link>
                     </div>
 
                     <div>
-                        <a
+                        <Link
                             rel="noreferrer noopener"
-                            href="/ext-sharing"
+                            to="/ext-sharing"
                             className="opacity-60 hover:opacity-100"
                         >
                             Extension Sharing
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
                 <div className="flex flex-col gap-2">
                     <h3 className="font-bold text-lg">Documentation</h3>
                     <div>
-                        <a
+                        <Link
                             rel="noreferrer noopener"
-                            href="/plugin-docs"
+                            to="/plugin-docs"
                             className="opacity-60 hover:opacity-100"
                         >
                             Plugin Docs
-                        </a>
+                        </Link>
                     </div>
 
                     <div>
-                        <a
+                        <Link
                             rel="noreferrer noopener"
-                            href="/ext-docs"
+                            to="/ext-docs"
                             className="opacity-60 hover:opacity-100"
                         >
                             Extension Docs
-                        </a>
+                        </Link>
                     </div>
 
                     <div>
-                        <a
+                        <Link
                             rel="noreferrer noopener"
-                            href="/sdk"
+                            to="/sdk"
                             className="opacity-60 hover:opacity-100"
                         >
                             SDK
-                        </a>
+                        </Link>
                     </div>
                 </div>
 

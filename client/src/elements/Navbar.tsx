@@ -16,6 +16,7 @@ import { DiscordLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
+import { Link } from "react-router-dom";
 
 interface RouteProps {
     href: string;
@@ -52,13 +53,13 @@ export const Navbar = () => {
             <NavigationMenu className="mx-auto">
                 <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
                     <NavigationMenuItem className="font-bold flex">
-                        <a
+                        <Link
                             rel="noreferrer noopener"
-                            href="/"
+                            to="/"
                             className="ml-2 font-bold text-xl flex"
                         >
                             SwiftlyS2
-                        </a>
+                        </Link>
                     </NavigationMenuItem>
 
                     {/* mobile */}
@@ -81,20 +82,20 @@ export const Navbar = () => {
                             <SheetContent side={"left"}>
                                 <SheetHeader>
                                     <SheetTitle className="font-bold text-xl">
-                                        SwiftlyCS2
+                                        SwiftlyS2
                                     </SheetTitle>
                                 </SheetHeader>
                                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
                                     {routeList.map(({ href, label }: RouteProps) => (
-                                        <a
+                                        <Link
                                             rel="noreferrer noopener"
                                             key={label}
-                                            href={href}
+                                            to={href}
                                             onClick={() => setIsOpen(false)}
                                             className={buttonVariants({ variant: "ghost" })}
                                         >
                                             {label}
-                                        </a>
+                                        </Link>
                                     ))}
                                     <a
                                         rel="noreferrer noopener"
@@ -126,16 +127,16 @@ export const Navbar = () => {
                     {/* desktop */}
                     <nav className="hidden md:flex gap-2">
                         {routeList.map((route: RouteProps, i) => (
-                            <a
+                            <Link
                                 rel="noreferrer noopener"
-                                href={route.href}
+                                to={route.href}
                                 key={i}
                                 className={`text-[17px] ${buttonVariants({
                                     variant: "ghost",
                                 })}`}
                             >
                                 {route.label}
-                            </a>
+                            </Link>
                         ))}
                     </nav>
 
