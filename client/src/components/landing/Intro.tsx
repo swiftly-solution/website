@@ -32,7 +32,7 @@ export default function Intro() {
                         >
                             <a
                                 rel="noreferrer noopener"
-                                href="https://github.com/swiftly-solution"
+                                href="https://github.com/swiftly-solution/swiftly"
                                 target="_blank"
                             >
                                 Github Homepage

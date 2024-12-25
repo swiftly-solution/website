@@ -114,7 +114,7 @@ export default function Footer() {
                         rel="noreferrer noopener"
                         target="_blank"
                         href="https://github.com/swiftly-solution"
-                        className="text-primary transition-all border-primary hover:border-b-2"
+                        className="text-primary transition-all duration-100 border-primary hover:border-b-2"
                     >
                         Swiftly Solution
                     </a>
