@@ -1,12 +1,14 @@
 import { Button } from "@/elements/button";
-import {
+import { useTheme } from "./theme-provider";
+import { Moon, Sun } from "lucide-react";
+import { lazily } from "react-lazily";
+
+const {
     DropdownMenu,
     DropdownMenuContent,
     DropdownMenuItem,
     DropdownMenuTrigger,
-} from "./dropdown-menu";
-import { useTheme } from "./theme-provider";
-import { Moon, Sun } from "lucide-react";
+} = lazily(() => import("./dropdown-menu"))
 
 export function ModeToggle() {
     const { setTheme } = useTheme();
