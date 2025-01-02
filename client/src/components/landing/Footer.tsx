@@ -111,7 +111,7 @@ export default function Footer() {
 
             <section className="container pb-14 text-center mx-auto">
                 <h3>
-                    &copy; 2024 Copyright{" "}
+                    &copy; 2025 Copyright{" "}
                     <a
                         rel="noreferrer noopener"
                         target="_blank"
