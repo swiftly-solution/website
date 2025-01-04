@@ -132,7 +132,7 @@ export default function Features() {
                         className="bg-muted/50 hover:bg-muted/80 transition-colors shadow-md dark:shadow-slate-900"
                     >
                         <CardHeader>
-                            <CardTitle className="flex flex-row gap-4">
+                            <CardTitle className="flex flex-row gap-4 items-center">
                                 {icon}
                                 {title}
                             </CardTitle>
