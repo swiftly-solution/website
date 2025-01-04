@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import Snowfall from 'react-snowfall';
 import styled from 'styled-components';
 
 interface Props {
@@ -25,10 +26,13 @@ export default ({ title, children }: Props) => {
     }, [title])
 
     return (
-        <main id={"mainDiv"} style={{ overflowY: "scroll" }}>
-            <MainDiv>
-                {children}
-            </MainDiv>
-        </main>
+        <>
+            <Snowfall />
+            <main id={"mainDiv"} style={{ overflowY: "scroll" }}>
+                <MainDiv>
+                    {children}
+                </MainDiv>
+            </main>
+        </>
     )
 }
