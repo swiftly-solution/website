@@ -35,3 +35,11 @@ model Session {
   otpLogged Boolean  @default(false)
   createdAt DateTime @default(now())
 }
+
+model ForgotPassword {
+  id        BigInt   @id @default(autoincrement())
+  uuid      String   @unique
+  email     String
+  timestamp DateTime @default(now())
+  used      Boolean  @default(false)
+}
