@@ -5,7 +5,10 @@ export default async (uuid: string, email: string, filterByEmail?: boolean) => {
         where: {
             uuid: filterByEmail ? { not: "" } : uuid,
             email,
-            used: false
+            used: false,
+            timestamp: {
+                gte: (new Date())
+            }
         },
     })
 
