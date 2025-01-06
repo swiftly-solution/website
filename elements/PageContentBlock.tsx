@@ -1,5 +1,5 @@
+import dynamic from 'next/dynamic';
 import { useEffect } from 'react';
-import Snowfall from 'react-snowfall';
 import styled from 'styled-components';
 
 interface Props {
@@ -19,20 +19,22 @@ const MainDiv = styled.div`
     }
 `
 
+const Toaster = dynamic(import("react-hot-toast").then((mod) => mod.Toaster));
+
 export default ({ title, children }: Props) => {
 
     useEffect(() => {
-        document.title = title;
+        document.title = `${title} | SwiftlyS2`;
     }, [title])
 
     return (
         <>
-            <Snowfall />
-            <main id={"mainDiv"} style={{ overflowY: "scroll" }}>
+            <main id={"mainDiv"} className='bg-white dark:bg-background' style={{ overflowY: "scroll" }}>
                 <MainDiv>
                     {children}
                 </MainDiv>
             </main>
+            <Toaster position={'bottom-right'} reverseOrder={true} toastOptions={{ duration: 2500 }} />
         </>
     )
 }

@@ -1,0 +1,1 @@
+export type Notification = string | Record<string, any>
