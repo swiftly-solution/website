@@ -17,7 +17,7 @@ export default async (user: User, ip: string, user_agent: string, req: NextApiRe
         }
     })
 
-    const signedCookie = sign({ userId: user.id, token: sessionToken }, String(process.env.AUTH_SECRET), { expiresIn: "6h" })
+    const signedCookie = sign({ userId: Number(user.id), token: sessionToken }, String(process.env.AUTH_SECRET), { expiresIn: "6h" })
 
     setCookie("session_token", signedCookie, { req, res, maxAge: 3600 * 6, path: "/" })
 
