@@ -6,7 +6,7 @@ export const ErrorCard = ({ text }: { text?: string }) => (
         <AlertOctagonIcon className="h-6 w-6 stroke-white" />
         <AlertTitle className="ml-1 text-lg flex gap-2 items-center">Error</AlertTitle>
         <AlertDescription className="ml-1">
-            {text || "Unknown Error"}
+            <div dangerouslySetInnerHTML={{ __html: text || "Unknown Error" }} />
         </AlertDescription>
     </Alert>
 )
@@ -16,7 +16,7 @@ export const SuccessCard = ({ text }: { text?: string }) => (
         <CheckCircleIcon className="h-6 w-6 stroke-white" />
         <AlertTitle className="ml-1 text-lg flex gap-2 items-center">Success</AlertTitle>
         <AlertDescription className="ml-1">
-            {text || "Unknown Success"}
+            <div dangerouslySetInnerHTML={{ __html: text || "Unknown Success" }} />
         </AlertDescription>
     </Alert>
 )
@@ -26,7 +26,7 @@ export const WarningCard = ({ text }: { text?: string }) => (
         <TriangleAlertIcon className="h-6 w-6 stroke-white" />
         <AlertTitle className="ml-1 text-lg flex gap-2 items-center">Warning</AlertTitle>
         <AlertDescription className="ml-1">
-            {text || "Unknown Warning"}
+            <div dangerouslySetInnerHTML={{ __html: text || "Unknown Warning" }} />
         </AlertDescription>
     </Alert>
 )
@@ -36,7 +36,7 @@ export const NoteCard = ({ text }: { text?: string }) => (
         <InfoIcon className="h-6 w-6 stroke-white" />
         <AlertTitle className="ml-1 text-lg flex gap-2 items-center">Note</AlertTitle>
         <AlertDescription className="ml-1">
-            {text || "Unknown Note"}
+            <div dangerouslySetInnerHTML={{ __html: text || "Unknown Note" }} />
         </AlertDescription>
     </Alert>
 )

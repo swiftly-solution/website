@@ -125,3 +125,13 @@ a {
 html {
   scroll-behavior: smooth;
 }
+
+code {
+	padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    background: #1E2124;
+    border-radius: 0.25rem;
+    display: inline-block;
+}

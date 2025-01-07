@@ -20,7 +20,7 @@ const adminRoutes = [
     }
 ]
 
-export default function AdminDocsView({ children }: { children: ReactNode }) {
+export default function AdminDocsView({ children, title }: { children: ReactNode, title: string }) {
     const path = useRouter().pathname
 
     return (
@@ -32,7 +32,7 @@ export default function AdminDocsView({ children }: { children: ReactNode }) {
                         <SidebarMenu>
                         {adminRoutes.map((item) => (
                             <SidebarMenuItem key={item.name}>
-                                <SidebarMenuButton isActive={path.startsWith(item.url)} asChild>
+                                <SidebarMenuButton isActive={path == item.url} asChild>
                                     <Link href={item.url}>
                                         <item.icon />
                                         <span>{item.name}</span>
@@ -49,6 +49,7 @@ export default function AdminDocsView({ children }: { children: ReactNode }) {
                 <header className="flex h-16 shrink-0 items-center gap-2">
                     <div className="flex items-center gap-2 px-4">
                         <SidebarTrigger className="-ml-1" />
+                        {title}
                     </div>
                 </header>
                 <div className="flex flex-1 flex-col gap-4 p-4 pt-4">

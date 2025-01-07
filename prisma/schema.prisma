@@ -45,7 +45,8 @@ model ForgotPassword {
 }
 
 model Documentation {
-  key      String @unique @db.VarChar(1024)
+  id       Int    @id @default(autoincrement())
+  key      String @db.Text
   title    String @db.Text
   icon     String @db.Text
   content  String @db.LongText

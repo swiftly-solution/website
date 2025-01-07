@@ -6,7 +6,7 @@ export default function AdminDocsHome() {
 
     return (
         <PageContentBlock title={"Documentation - Admin"} adminOnly>
-            <AdminDocsView>
+            <AdminDocsView title="Home">
                 <CardsInfo />
             </AdminDocsView>
         </PageContentBlock>
