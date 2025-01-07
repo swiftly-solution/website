@@ -41,9 +41,9 @@ export default function AdminPagesNav() {
                             align="end"
                             sideOffset={4}
                         >
-                            {pages.map((page) => (
-                                <Link href={page.route}>
-                                    <DropdownMenuItem>
+                            {pages.map((page, idx) => (
+                                <Link href={page.route} key={idx}>
+                                    <DropdownMenuItem key={idx}>
                                         <page.icon />
                                         {page.title}
                                     </DropdownMenuItem>
