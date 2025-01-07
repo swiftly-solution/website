@@ -1,7 +1,7 @@
 import { FormEvent } from "react";
 
 export function PrepareForm(e: FormEvent): Record<string, string> {
-    let output = {}
+    const output = {}
 
     let form = e.target
     // @ts-expect-error

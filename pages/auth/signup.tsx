@@ -7,23 +7,33 @@ import { sendPostRequest } from "@/lib/http";
 import { ProcessNotification, ToastError, ToastSuccess } from "@/modules/notifications/toasts";
 import signupSchema from "@/modules/schemas/auth/signup";
 import { handleZodValidation, ValidationError } from "@/modules/schemas/HandleValidation";
+import { ApplicationStore } from "@/modules/state";
 import { Notification } from "@/modules/types/Notification";
+import { State, useStoreState } from "easy-peasy";
 import Image from "next/image";
 import Link from "next/link";
-import Router, { useRouter } from "next/router";
-import { FormEvent, useState } from "react";
+import { useRouter } from "next/router";
+import { FormEvent, useEffect, useState } from "react";
 
 export default function SignUpPage() {
     const [submitting, setSubmitting] = useState(false)
     const router = useRouter()
-
+    const user = useStoreState((state: State<ApplicationStore>) => state.user.data)
     const [errors, setErrors] = useState<ValidationError<typeof signupSchema>>({})
+
+    useEffect(() => {
+        if(user) {
+            // @ts-expect-error
+            window.location = (String(router.query.from || "/"))
+        }
+    }, [user])
+    
 
     const changeSignUp = (e: FormEvent<HTMLFormElement>) => {
         handleZodValidation({
             onError: setErrors,
             data: PrepareForm(e),
-            onSuccess: (res) => {
+            onSuccess: () => {
                 setErrors({})
             },
             schema: signupSchema
@@ -41,14 +51,15 @@ export default function SignUpPage() {
                 (response) => {
                     ProcessNotification(response.message, ToastSuccess)
                     setTimeout(() => {
-                        Router.push(String(router.query.from || "/"))
+                        // @ts-expect-error
+                        window.location = (String(router.query.from || "/"))
                     }, 3000)
                 }, 
                 (response) => {
                     ProcessNotification(response.message, ToastError)
                     setSubmitting(false)
                 },
-                (err) => {
+                () => {
                     ToastError("A system error has occurred. Please try again later.")
                     setSubmitting(false)
                 }
