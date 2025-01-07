@@ -3,7 +3,7 @@ import { Sidebar, SidebarFooter } from "./sidebar";
 
 export function AppSidebar({ children, ...props }: React.ComponentProps<typeof Sidebar>) {
     return (
-        <Sidebar collapsible={"offcanvas"} {...props}>
+        <Sidebar {...props}>
             {children}
             <SidebarFooter>
                 <UserBox />

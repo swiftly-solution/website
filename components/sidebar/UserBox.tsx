@@ -4,10 +4,10 @@ import { useRouter } from "next/router";
 import { State, useStoreState } from "easy-peasy";
 import { ApplicationStore, store } from "@/modules/state";
 import { SidebarMenu, SidebarMenuButton, SidebarMenuItem, useSidebar } from "../ui/sidebar";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "../ui/dropdown-menu";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuGroup, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "../ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 import gravatarUrl from 'gravatar-url';
-import { ChevronsUpDown, LogOut } from "lucide-react";
+import { Book, ChevronsUpDown, LogOut } from "lucide-react";
 import { sendPostRequest } from "@/lib/http";
 
 export default function UserBox() {
@@ -53,6 +53,17 @@ export default function UserBox() {
                                 </div>
                             </DropdownMenuLabel>
                             <DropdownMenuSeparator />
+                            {user.admin ? <>
+                                <DropdownMenuGroup>
+                                    <Link href={"/admin/docs"}>
+                                        <DropdownMenuItem>
+                                            <Book />
+                                            Admin - Documentation
+                                        </DropdownMenuItem>
+                                    </Link>
+                                </DropdownMenuGroup>
+                                <DropdownMenuSeparator />
+                            </> : null}
                             <DropdownMenuItem onClick={() => {
                                 setTimeout(async () => {
                                     sendPostRequest<boolean>("/api/account/logout", {}, () => {

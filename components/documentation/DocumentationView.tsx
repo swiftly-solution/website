@@ -2,6 +2,7 @@ import SecondaryNav from "../sidebar/SecondaryNav";
 import { AppSidebar } from "../ui/app-sidebar";
 import { Separator } from "../ui/separator";
 import { SidebarContent, SidebarInset, SidebarProvider, SidebarTrigger } from "../ui/sidebar";
+import DocumentationBreadcrumb from "./DocumentationBreadcrumb";
 
 export default function DocumentationView({ category }: { category: string }) {
     return (
@@ -16,6 +17,7 @@ export default function DocumentationView({ category }: { category: string }) {
                     <div className="flex items-center gap-2 px-4">
                         <SidebarTrigger className="-ml-1" />
                         <Separator orientation="vertical" className="mr-2 h-4" />
+                        <DocumentationBreadcrumb />
                     </div>
                 </header>
             </SidebarInset>

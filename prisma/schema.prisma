@@ -43,3 +43,11 @@ model ForgotPassword {
   timestamp DateTime @default(now())
   used      Boolean  @default(false)
 }
+
+model Documentation {
+  key      String @unique @db.VarChar(1024)
+  title    String @db.Text
+  icon     String @db.Text
+  content  String @db.LongText
+  category String
+}
