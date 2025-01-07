@@ -5,7 +5,7 @@ import PageContentBlock from "@/elements/PageContentBlock";
 import { PrepareForm } from "@/lib/forms";
 import { sendPostRequest } from "@/lib/http";
 import { ProcessNotification, ToastError, ToastSuccess } from "@/modules/notifications/toasts";
-import loginSchema from "@/modules/schemas/auth/login";
+import forgotPasswordSchema from "@/modules/schemas/auth/forgot";
 import { handleZodValidation, ValidationError } from "@/modules/schemas/HandleValidation";
 import { ApplicationStore } from "@/modules/state";
 import { Notification } from "@/modules/types/Notification";
@@ -15,7 +15,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { FormEvent, useEffect, useState } from "react";
 
-export default function LoginPage() {
+export default function ForgotPage() {
     const [submitting, setSubmitting] = useState(false)
     const router = useRouter()
     const user = useStoreState((state: State<ApplicationStore>) => state.user.data)
@@ -27,33 +27,30 @@ export default function LoginPage() {
         }
     }, [user])
 
-    const [errors, setErrors] = useState<ValidationError<typeof loginSchema>>({})
+    const [errors, setErrors] = useState<ValidationError<typeof forgotPasswordSchema>>({})
 
-    const changeLogin = (e: FormEvent<HTMLFormElement>) => {
+    const changeForgot = (e: FormEvent<HTMLFormElement>) => {
         handleZodValidation({
             onError: setErrors,
             data: PrepareForm(e),
             onSuccess: () => {
                 setErrors({})
             },
-            schema: loginSchema
+            schema: forgotPasswordSchema
         })
     }
 
-    const submitLogin = (e: FormEvent<HTMLFormElement>) => {
+    const submitForgot = (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
-        if(errors.email || errors.password) return;
+        if(errors.email) return;
 
         setSubmitting(true)
 
         setTimeout(() => {
-            sendPostRequest<Notification>("/api/auth/login", PrepareForm(e), 
+            sendPostRequest<Notification>("/api/auth/forgot", PrepareForm(e), 
                 (response) => {
                     ProcessNotification(response.message, ToastSuccess)
-                    setTimeout(() => {
-                        // @ts-expect-error
-                        window.location = (String(router.query.from || "/"))
-                    }, 3000)
+                    setSubmitting(false)
                 }, 
                 (response) => {
                     ProcessNotification(response.message, ToastError)
@@ -68,10 +65,10 @@ export default function LoginPage() {
     }
 
     return (
-        <PageContentBlock title={"Authenticate"}>
+        <PageContentBlock title={"Forgot Password"}>
             <div className="flex min-h-svh flex-col items-center justify-center gap-6 bg-background p-6 md:p-10 w-full">
                 <div className="w-full max-w-sm">
-                    <form onSubmit={submitLogin} onChange={changeLogin}>
+                    <form onSubmit={submitForgot} onChange={changeForgot}>
                         <div className="flex flex-col gap-6">
                             <div className="flex flex-col items-center gap-2">
                                 <Link href={"/"} className="flex flex-col items-center gap-2 font-medium">
@@ -82,9 +79,9 @@ export default function LoginPage() {
                                 </Link>
                                 <h1 className="text-xl font-bold">Welcome to SwiftlyS2.</h1>
                                 <div className="text-center text-sm">
-                                    Don&apos;t have an account?{" "}
-                                    <Link href={`/auth/signup${router.query.from ? `?from=${encodeURIComponent(String(router.query.from))}` : ""}`} className="underline underline-offset-4">
-                                        Sign up
+                                    Remembered back your password?{" "}
+                                    <Link href={`/auth/login${router.query.from ? `?from=${encodeURIComponent(String(router.query.from))}` : ""}`} className="underline underline-offset-4">
+                                        Login
                                     </Link>
                                 </div>
                             </div>
@@ -99,23 +96,9 @@ export default function LoginPage() {
                                         required
                                         error={errors["email"]}
                                     />
-
-                                    <Label htmlFor="password">Password</Label>
-                                    <Input
-                                        disabled={submitting}
-                                        id="password"
-                                        type="password"
-                                        placeholder="Password"
-                                        minLength={8}
-                                        required
-                                        error={errors["password"]}
-                                    />
-                                    <Link href={`/auth/forgot${router.query.from ? `?from=${encodeURIComponent(String(router.query.from))}` : ""}`} className="underline underline-offset-4 text-right cursor-pointer">
-                                        <Label>Forgot password?</Label>
-                                    </Link>
                                 </div>
-                                <Button type="submit" className="w-full" disabled={submitting || errors["password"] != undefined || errors["email"] != undefined}>
-                                    Authenticate
+                                <Button type="submit" className="w-full" disabled={submitting || errors["email"] != undefined}>
+                                    Forgot Password
                                 </Button>
                             </div>
                         </div>
