@@ -83,7 +83,7 @@ export default function DeletePageDialog({ pagekey, pagecategory }: { pagekey: s
                             value={pagecategory}
                             className="hidden"
                         />
-                        Are you sure that you want to delete <code>{pagekey}</code> from <code className="capitalize">{pagecategory}</code>?
+                        Are you sure that you want to delete <code id={"code"}>{pagekey}</code> from <code id={"code"} className="capitalize">{pagecategory}</code>?
                     </div>
                     <DialogFooter className="justify-end">
                         <Button type={"submit"} variant={"destructive"} disabled={submitting || Object.keys(errors).length != 0}>

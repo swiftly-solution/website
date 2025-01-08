@@ -1,6 +1,31 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap";
 
 @tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  h4 {
+    @apply text-base;
+  }
+  h5 {
+    @apply text-sm;
+  }
+  h6 {
+    @apply text-xs;
+  }
+  a {
+    @apply text-blue-600 underline;
+  }
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -26,17 +51,12 @@ body {
   height: 100vh;
 }
 
-* {
-  font-family: "Poppins" !important;
-}
-
 html {
   scroll-behavior: smooth;
 }
 
 a {
-  text-decoration: none;
-  color: inherit;
+  color: #fff;
 }
 
 @layer base {
@@ -126,12 +146,27 @@ html {
   scroll-behavior: smooth;
 }
 
-code {
-	padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    background: #1E2124;
-    border-radius: 0.25rem;
-    display: inline-block;
+code#code {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  background: #1e2124;
+  border-radius: 0.25rem;
+  display: inline-block;
+}
+
+div[data-remark-code-title="true"] {
+  padding: 0.5em 1em;
+  font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
+    'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
+    'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
+    monospace;
+
+  background-color: black;
+  color: white;
+  z-index: 0;
+
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
 }

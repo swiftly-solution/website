@@ -35,7 +35,7 @@ const columns: ColumnDef<Documentation>[] = [
         cell({ row }) {
             return (
                 <div className="flex gap-2">
-                    <Link href={`/admin/docs/edit?page=${row.getValue("key")}&category=${row.getValue("category")}`}>
+                    <Link href={`/admin/docs/pages/edit?page=${row.getValue("key")}&category=${row.getValue("category")}`}>
                         <Button variant={"secondary"}>
                             <PencilIcon />
                         </Button>
