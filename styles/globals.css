@@ -2,28 +2,12 @@
 
 @tailwind base;
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 @layer base {
-  h1 {
-    @apply text-2xl;
-  }
-  h2 {
-    @apply text-xl;
-  }
-  h3 {
-    @apply text-lg;
-  }
-  h4 {
-    @apply text-base;
-  }
-  h5 {
-    @apply text-sm;
-  }
-  h6 {
-    @apply text-xs;
-  }
-  a {
-    @apply text-blue-600 underline;
-  }
 }
 
 @tailwind components;
@@ -53,10 +37,6 @@ body {
 
 html {
   scroll-behavior: smooth;
-}
-
-a {
-  color: #fff;
 }
 
 @layer base {
@@ -156,17 +136,27 @@ code#code {
   display: inline-block;
 }
 
-div[data-remark-code-title="true"] {
+div[data-remark-code-title] {
   padding: 0.5em 1em;
   font-family: Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console',
     'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
     'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
     monospace;
 
-  background-color: black;
+  background-color: #151b23;
   color: white;
   z-index: 0;
+  @apply border-b border-b-slate-600;
 
   border-top-left-radius: 0.3em;
   border-top-right-radius: 0.3em;
+}
+
+.code-copy-btn {
+  color: white;
+  right: 10px;
+  top: -2px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }

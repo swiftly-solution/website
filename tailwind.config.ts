@@ -11,6 +11,9 @@ export default {
 	fontFamily: {
 		"docs": ["-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "Noto Sans", "STHeiti", "Microsoft YaHei", "SimSun", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
 	},
+	markdownBase: {
+		wrapperClass: "contentmarkdown"
+	},
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
@@ -71,5 +74,5 @@ export default {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require('@geoffcodesthings/tailwind-md-base'),require("tailwindcss-animate")],
 } satisfies Config;
