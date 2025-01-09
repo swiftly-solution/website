@@ -34,10 +34,7 @@ export default function EditPage() {
             sendPostRequest<Notification>("/api/admin/docs/save", { key: data.message.key, category: data.message.category, content }, 
                 (response) => {
                     ProcessNotification(response.message, ToastSuccess)
-                    setTimeout(() => {
-                        // @ts-expect-error
-                        window.location = (String(router.query.from || "/"))
-                    }, 3000)
+                    setSubmitting(false)
                 }, 
                 (response) => {
                     ProcessNotification(response.message, ToastError)
