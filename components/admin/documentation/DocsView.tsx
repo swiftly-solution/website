@@ -21,7 +21,7 @@ const adminRoutes = [
 ]
 
 export default function AdminDocsView({ children, title }: { children: ReactNode, title: string }) {
-    const path = useRouter().pathname
+    const path = useRouter().asPath
 
     return (
         <SidebarProvider>

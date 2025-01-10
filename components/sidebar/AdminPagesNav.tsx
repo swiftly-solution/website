@@ -14,7 +14,7 @@ const pages = [
 
 export default function AdminPagesNav() {
     const router = useRouter()
-    const path = router.pathname
+    const path = router.asPath
     const findActivePage = pages.filter((page) => path.startsWith(page.route))[0]
     const { isMobile } = useSidebar()
 

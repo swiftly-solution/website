@@ -15,6 +15,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ErrorCard } from '../ui/alert-cards'
 import { ErrorBoundary } from "react-error-boundary";
 import { Button } from '../ui/button'
+import { useTheme } from '../ui/theme-provider'
 
 function FallbackRender({ error, resetErrorBoundary }: { error: Error, resetErrorBoundary: any }) {
     return (
@@ -30,7 +31,7 @@ export default function DocumentationRender({ content }: { content: string }) {
     return (
         <ErrorBoundary FallbackComponent={FallbackRender}>
             <Markdown 
-                className="markdown-body"
+                className={`markdown-${useTheme().theme}`}
                 remarkPlugins={[remarkParse, remarkCodeTitle, remarkGfm, [remarkGithub, { repository: "https://github.com/swiftly-solution/swiftly" }], remarkAlert]} 
                 rehypePlugins={[rehypeAccessibleEmojis, rehypeHighlight, rehypeSlug, [
                     rehypeReact,

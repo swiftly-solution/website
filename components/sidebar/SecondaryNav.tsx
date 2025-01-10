@@ -8,7 +8,7 @@ export default function SecondaryNav() {
     return (
         <SidebarGroup className="mt-auto">
             <SidebarGroupContent>
-                <div className="hidden md:flex gap-2">
+                <div className="flex gap-2">
                     <Link
                         rel="noreferrer noopener"
                         href="/"

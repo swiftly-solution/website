@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ErrorCard, NoteCard, SuccessCard, WarningCard } from "@/components/ui/alert-cards";
+import { ErrorCard } from "@/components/ui/alert-cards";
 import { fetcher } from "@/lib/utils";
 import { DocsStats } from "@/modules/types/admin/docs/Stats";
 import { APIResponse } from "@/modules/types/APIResponse";

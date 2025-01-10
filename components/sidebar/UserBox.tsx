@@ -14,7 +14,7 @@ export default function UserBox() {
     const user = useStoreState((state: State<ApplicationStore>) => state.user.data)
     const { isMobile } = useSidebar()
 
-    const path = useRouter().pathname
+    const path = useRouter().asPath
 
     if(user) {
         return (
