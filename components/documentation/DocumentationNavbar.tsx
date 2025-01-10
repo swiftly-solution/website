@@ -34,7 +34,7 @@ function RenderProcessedNavbar({ value, route, pagekey }: { value: ProcessedDocs
                                         <SidebarMenuItem key={val.title}>
                                             <SidebarMenuButton isActive={route.split("/").length == 2 ? val.key == "home" : route == val.url} asChild>
                                                 <Link href={val.url}>
-                                                    <FontAwesomeIcon icon={value.icon as IconProp} />
+                                                    <FontAwesomeIcon icon={val.icon as IconProp} />
                                                     <span>{val.title}</span>
                                                 </Link>
                                             </SidebarMenuButton>
