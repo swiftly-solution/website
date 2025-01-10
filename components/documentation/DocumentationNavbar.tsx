@@ -6,6 +6,8 @@ import { useRouter } from "next/router";
 import { useMemo } from "react";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
 
 function RenderProcessedNavbar({ value, route, pagekey }: { value: ProcessedDocs, route: string, pagekey: string }) {
     return (
@@ -13,7 +15,7 @@ function RenderProcessedNavbar({ value, route, pagekey }: { value: ProcessedDocs
             <SidebarMenuItem>
                 <SidebarMenuButton isActive={route.split("/").length == 2 ? value.key == "home" : route == value.url} asChild tooltip={value.title}>
                     <Link href={value.url}>
-                        <i className={value.icon} />
+                        <FontAwesomeIcon icon={value.icon as IconProp} />
                         <span>{value.title}</span>
                     </Link>
                 </SidebarMenuButton>
@@ -32,7 +34,7 @@ function RenderProcessedNavbar({ value, route, pagekey }: { value: ProcessedDocs
                                         <SidebarMenuItem key={val.title}>
                                             <SidebarMenuButton isActive={route.split("/").length == 2 ? val.key == "home" : route == val.url} asChild>
                                                 <Link href={val.url}>
-                                                    <i className={value.icon} />
+                                                    <FontAwesomeIcon icon={value.icon as IconProp} />
                                                     <span>{val.title}</span>
                                                 </Link>
                                             </SidebarMenuButton>

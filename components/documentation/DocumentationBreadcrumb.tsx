@@ -3,6 +3,8 @@ import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbP
 import { useMemo } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { IconProp } from "@fortawesome/fontawesome-svg-core";
 
 let joinTemp = ""
 
@@ -24,12 +26,12 @@ export default function DocumentationBreadcrumb({ navbarData, pagekey }: { navba
                     if(!docdata) return null;
 
                     if(idx == pagekeys.length-1) return <BreadcrumbItem>
-                        <BreadcrumbPage><i className={docdata.icon} /> <span className="ml-1">{docdata!.title}</span></BreadcrumbPage>
+                        <BreadcrumbPage><FontAwesomeIcon icon={docdata.icon as IconProp} /> <span className="ml-1">{docdata!.title}</span></BreadcrumbPage>
                     </BreadcrumbItem>
                     else return <>
                         <BreadcrumbItem className="hidden md:block">
                             <Link href={`/${docCategory}/${joinTemp.replace(/\./g, "/")}`}>
-                                <i className={docdata.icon} /> <span className="ml-1">{docdata!.title}</span>
+                                <FontAwesomeIcon icon={docdata.icon as IconProp} /> <span className="ml-1">{docdata!.title}</span>
                             </Link>
                         </BreadcrumbItem>
                         <BreadcrumbSeparator className="hidden md:block" />
