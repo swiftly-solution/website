@@ -24,12 +24,12 @@ export default function DocumentationBreadcrumb({ navbarData, pagekey }: { navba
                     if(!docdata) return null;
 
                     if(idx == pagekeys.length-1) return <BreadcrumbItem>
-                        <BreadcrumbPage>{docdata!.title}</BreadcrumbPage>
+                        <BreadcrumbPage><i className={docdata.icon} /> <span className="ml-1">{docdata!.title}</span></BreadcrumbPage>
                     </BreadcrumbItem>
                     else return <>
                         <BreadcrumbItem className="hidden md:block">
                             <Link href={`/${docCategory}/${joinTemp.replace(/\./g, "/")}`}>
-                                {docdata!.title}
+                                <i className={docdata.icon} /> <span className="ml-1">{docdata!.title}</span>
                             </Link>
                         </BreadcrumbItem>
                         <BreadcrumbSeparator className="hidden md:block" />
