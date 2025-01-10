@@ -15,6 +15,7 @@ import http from "@/lib/http";
 import { ProcessNotification, ToastError } from "@/modules/notifications/toasts";
 import DocumentationNavbar from "./DocumentationNavbar";
 import DocumentationNav from "../sidebar/DocumentationNav";
+import { useTheme } from "../ui/theme-provider";
 
 export default function DocumentationView({ category, pagekey }: { category: string, pagekey: string }) {
     const { data, error, isLoading } = useSWR<APIResponse<Documentation>>(`/api/docs/getpage?page=${pagekey}&category=${category}`, fetcher)
@@ -45,7 +46,8 @@ export default function DocumentationView({ category, pagekey }: { category: str
                         <DocumentationBreadcrumb navbarData={navbarData} pagekey={pagekey} />
                     </div>
                 </header>
-                <div className="px-4">
+                <div className="px-4 pb-4 grid grid-cols-[3fr_1fr]">
+                    <div>
                     {
                         isLoading ? <LoaderIcon className="animate-spin" /> : (
                             error || !data ? <ErrorCard text={error?.message} /> : (
@@ -53,6 +55,10 @@ export default function DocumentationView({ category, pagekey }: { category: str
                             )
                         )
                     }
+                    </div>
+                    <div className="mx-auto">
+                        <iframe src={`https://ptb.discord.com/widget?id=1178027657594687608&theme=${useTheme().theme}`} width="350" height="500" frameBorder={0} sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                    </div>
                 </div>
             </SidebarInset>
         </SidebarProvider>
