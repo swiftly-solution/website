@@ -11,7 +11,7 @@ function RenderProcessedNavbar({ value, route, pagekey }: { value: ProcessedDocs
     return (
         <Collapsible key={value.title} asChild defaultOpen={route.startsWith(value.url)}>
             <SidebarMenuItem>
-                <SidebarMenuButton isActive={route == value.url} asChild tooltip={value.title}>
+                <SidebarMenuButton isActive={route.split("/").length == 2 ? value.key == "home" : route == value.url} asChild tooltip={value.title}>
                     <Link href={value.url}>
                         <i className={value.icon} />
                         <span>{value.title}</span>
@@ -30,7 +30,7 @@ function RenderProcessedNavbar({ value, route, pagekey }: { value: ProcessedDocs
                                 {value.items.map((val) => {
                                     if(val.items.length == 0) return (
                                         <SidebarMenuItem key={val.title}>
-                                            <SidebarMenuButton isActive={route == val.url} asChild>
+                                            <SidebarMenuButton isActive={route.split("/").length == 2 ? val.key == "home" : route == val.url} asChild>
                                                 <Link href={val.url}>
                                                     <i className={value.icon} />
                                                     <span>{val.title}</span>
@@ -63,8 +63,6 @@ export default function DocumentationNavbar({ navbarData, pagekey, beenSet, data
     const route = useRouter().asPath
     const docCategory = useMemo(() => route.split("/")[1], [route])
     const data = dataSet ? ((navbarData as unknown) as ProcessedDocs[]) : prepareDocsData(navbarData, docCategory)
-
-    console.log(data)
 
     return data.map((value) => <RenderProcessedNavbar value={value} route={route} pagekey={pagekey} />)
 }
