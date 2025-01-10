@@ -46,12 +46,12 @@ export default function DocumentationView({ category, pagekey }: { category: str
                         <DocumentationBreadcrumb navbarData={navbarData} pagekey={pagekey} />
                     </div>
                 </header>
-                <div className="px-4 pb-4 grid grid-cols-[3fr_1fr]">
+                <div className="px-4 pb-4 sm:flex sm:flex-col md:grid md:grid-cols-[3fr_1fr] gap-4">
                     <div>
                     {
                         isLoading ? <LoaderIcon className="animate-spin" /> : (
                             error || !data ? <ErrorCard text={error?.message} /> : (
-                                data.status != 200 ? <ErrorCard text={String(data.message)} /> : <DocumentationRender content={data.message.content} />
+                                data.status != 200 ? <ErrorCard text={String(data.message)} /> : <DocumentationRender navbarData={navbarData} content={data.message.content} />
                             )
                         )
                     }

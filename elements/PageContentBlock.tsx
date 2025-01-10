@@ -31,11 +31,6 @@ const MainDiv = styled.div`
 const Toaster = dynamic(import("react-hot-toast").then((mod) => mod.Toaster));
 
 export default ({ title, children, adminOnly }: Props) => {
-
-    useEffect(() => {
-        document.title = `${title} | SwiftlyS2`;
-    }, [title])
-
     useEffect(() => {
         if(hasCookie("session_token")) {
             http.get("/api/account").then((response) => {
@@ -59,6 +54,7 @@ export default ({ title, children, adminOnly }: Props) => {
     return (
         <>
             <Head>
+            <title>{title} | SwiftlyS2</title>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg==" crossOrigin="anonymous" referrerPolicy="no-referrer"></script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossOrigin="anonymous" referrerPolicy="no-referrer" />
             </Head>

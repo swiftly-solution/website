@@ -16,6 +16,8 @@ import { ErrorCard } from '../ui/alert-cards'
 import { ErrorBoundary } from "react-error-boundary";
 import { Button } from '../ui/button'
 import { useTheme } from '../ui/theme-provider'
+import { Documentation } from '@prisma/client'
+import Catalog from './render/catalog/Catalog'
 
 function FallbackRender({ error, resetErrorBoundary }: { error: Error, resetErrorBoundary: any }) {
     return (
@@ -26,7 +28,7 @@ function FallbackRender({ error, resetErrorBoundary }: { error: Error, resetErro
     )
 }
 
-export default function DocumentationRender({ content }: { content: string }) {
+export default function DocumentationRender({ content, navbarData }: { content: string, navbarData: Documentation[] }) {
     return (
         <ErrorBoundary FallbackComponent={FallbackRender}>
             <Markdown 
@@ -36,7 +38,7 @@ export default function DocumentationRender({ content }: { content: string }) {
                     rehypeReact,
                     {
                         createElement: createElement,
-                        components: { Tabs, TabsContent, TabsList, TabsTrigger }
+                        components: { Tabs, TabsContent, TabsList, TabsTrigger, Catalog }
                     }
                 ], rehypeRaw]}
                 components={{
@@ -52,9 +54,9 @@ export default function DocumentationRender({ content }: { content: string }) {
                     tabscontent: ({node, children, ...props}) => {
                         // @ts-expect-error
                         return <TabsContent {...props}>
-                            {typeof children == "string" ? <DocumentationRender content={children} /> : (
+                            {typeof children == "string" ? <DocumentationRender content={children} navbarData={navbarData} /> : (
                                 children.map((childs: any) => {
-                                    if(typeof childs == "string") return <DocumentationRender content={childs} />
+                                    if(typeof childs == "string") return <DocumentationRender content={childs} navbarData={navbarData} />
                                     else return <>{childs}</>
                                 })
                             )}
@@ -64,6 +66,8 @@ export default function DocumentationRender({ content }: { content: string }) {
                     tabslist: ({node, children, ...props}) => <TabsList {...props}>{children}</TabsList>,
                     // @ts-expect-error
                     tabstrigger: ({node, children, ...props}) => <TabsTrigger {...props}>{children}</TabsTrigger>,
+                    // @ts-expect-error
+                    catalog: (props) => <Catalog {...props} navbarData={navbarData} />
                 }}
             >{content}</Markdown>
         </ErrorBoundary>
