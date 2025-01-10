@@ -13,6 +13,8 @@ import { ErrorCard } from "../ui/alert-cards";
 import { useEffect, useState } from "react";
 import http from "@/lib/http";
 import { ProcessNotification, ToastError } from "@/modules/notifications/toasts";
+import DocumentationNavbar from "./DocumentationNavbar";
+import DocumentationNav from "../sidebar/DocumentationNav";
 
 export default function DocumentationView({ category, pagekey }: { category: string, pagekey: string }) {
     const { data, error, isLoading } = useSWR<APIResponse<Documentation>>(`/api/docs/getpage?page=${pagekey}&category=${category}`, fetcher)
@@ -29,7 +31,9 @@ export default function DocumentationView({ category, pagekey }: { category: str
     return (
         <SidebarProvider>
             <AppSidebar>
+                <DocumentationNav />
                 <SidebarContent>
+                    <DocumentationNavbar navbarData={navbarData} pagekey={pagekey} />
                     <SecondaryNav />
                 </SidebarContent>
             </AppSidebar>
@@ -38,7 +42,7 @@ export default function DocumentationView({ category, pagekey }: { category: str
                     <div className="flex items-center gap-2 px-4">
                         <SidebarTrigger className="-ml-1" />
                         <Separator orientation="vertical" className="mr-2 h-4" />
-                        <DocumentationBreadcrumb navbarData={navbarData} category={category} pagekey={pagekey} />
+                        <DocumentationBreadcrumb navbarData={navbarData} pagekey={pagekey} />
                     </div>
                 </header>
                 <div className="px-4">

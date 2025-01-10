@@ -27,7 +27,6 @@ function FallbackRender({ error, resetErrorBoundary }: { error: Error, resetErro
 }
 
 export default function DocumentationRender({ content }: { content: string }) {
-    console.log(content)
     return (
         <ErrorBoundary FallbackComponent={FallbackRender}>
             <Markdown 

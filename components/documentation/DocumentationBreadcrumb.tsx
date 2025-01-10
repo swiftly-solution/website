@@ -6,7 +6,7 @@ import Link from "next/link";
 
 let joinTemp = ""
 
-export default function DocumentationBreadcrumb({ navbarData, category, pagekey }: { navbarData: Documentation[], category: string, pagekey: string }) {
+export default function DocumentationBreadcrumb({ navbarData, pagekey }: { navbarData: Documentation[], pagekey: string }) {
     const pagekeys = useMemo(() => pagekey.split("."), [pagekey])
     if(joinTemp != "") joinTemp = ""
 
