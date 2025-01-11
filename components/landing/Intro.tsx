@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "../ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Intro() {
     return (
@@ -21,10 +22,12 @@ export default function Intro() {
                     </p>
 
                     <div className="space-y-4 md:space-y-0 md:space-x-4">
-                        <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-                            Get Started
-                            <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
-                        </Button>
+                        <Link href={"/plugin-docs"}>
+                            <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
+                                Get Started
+                                <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+                            </Button>
+                        </Link>
 
                         <Button
                             asChild
