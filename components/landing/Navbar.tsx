@@ -67,7 +67,6 @@ export default function Navbar() {
                                     className="flex md:hidden h-5 w-5"
                                     onClick={() => setIsOpen(true)}
                                 >
-                                    <span className="sr-only">Menu Icon</span>
                                 </Menu>
                             </SheetTrigger>
 
