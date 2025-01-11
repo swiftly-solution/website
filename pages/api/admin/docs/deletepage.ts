@@ -1,5 +1,4 @@
 import prisma from "@/lib/prisma";
-import createPageSchema from "@/modules/schemas/admin/docs/createpage";
 import deletePageSchema from "@/modules/schemas/admin/docs/deletepage";
 import SessionIsAdmin from "@/modules/session/SessionIsAdmin";
 import { NextApiRequest, NextApiResponse } from "next";

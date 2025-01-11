@@ -27,7 +27,7 @@ export default function DocumentationView({ category, pagekey }: { category: str
             if(data.status != 200) return ProcessNotification(data.message, ToastError)
             setNavbarData(data.message);
         })
-    }, [])
+    }, [category])
 
     return (
         <SidebarProvider>

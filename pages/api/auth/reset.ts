@@ -1,5 +1,4 @@
 import FetchAccount from "@/modules/accounts/FetchAccount";
-import FetchAccountByUsername from "@/modules/accounts/FetchAccountByUsername";
 import CheckForgotPassword from "@/modules/accounts/forgotPassword/CheckForgotPassword";
 import FetchForgotPassword from "@/modules/accounts/forgotPassword/FetchForgotPassword";
 import InvalidateForgotPassword from "@/modules/accounts/forgotPassword/InvalidateForgotPassword";

@@ -15,6 +15,7 @@ export async function fetcher<JSON = any>(
   try {
     return JSON.parse(text)
   } catch(err) {
+    console.log(err)
     throw Error(text)
   }
 }

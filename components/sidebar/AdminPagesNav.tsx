@@ -1,4 +1,4 @@
-import { Book, ChevronsUpDown, Command, Router } from "lucide-react";
+import { Book, ChevronsUpDown } from "lucide-react";
 import { SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem, useSidebar } from "../ui/sidebar";
 import { useRouter } from "next/router";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../ui/dropdown-menu";

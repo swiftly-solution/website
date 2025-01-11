@@ -8,7 +8,7 @@ export interface ProcessedDocs {
     items: ProcessedDocs[];
 }
 
-export default function(docsData: Documentation[], category: string) {
+export default function prepareDocsData(docsData: Documentation[], category: string) {
     const nodeMap: { [key: string]: ProcessedDocs } = {};
 
     docsData.forEach(doc => {

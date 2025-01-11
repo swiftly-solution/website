@@ -47,25 +47,25 @@ export default function DocumentationRender({ content, navbarData }: { content: 
                         return <Link href={String(href)}>{children}</Link>
                     },
                     // @ts-expect-error
-                    tabs: ({node, children, defaultvalue, ...props}) => {
+                    tabs: ({children, defaultvalue, ...props}) => {
                         return <Tabs defaultValue={defaultvalue} {...props}>{children}</Tabs>
                     },
                     // @ts-expect-error
-                    tabscontent: ({node, children, ...props}) => {
+                    tabscontent: ({children, ...props}) => {
                         // @ts-expect-error
                         return <TabsContent {...props}>
                             {typeof children == "string" ? <DocumentationRender content={children} navbarData={navbarData} /> : (
-                                children.map((childs: any) => {
-                                    if(typeof childs == "string") return <DocumentationRender content={childs} navbarData={navbarData} />
+                                children.map((childs: any, idx: number) => {
+                                    if(typeof childs == "string") return <DocumentationRender key={idx} content={childs} navbarData={navbarData} />
                                     else return <>{childs}</>
                                 })
                             )}
                         </TabsContent>
                     },
                     // @ts-expect-error
-                    tabslist: ({node, children, ...props}) => <TabsList {...props}>{children}</TabsList>,
+                    tabslist: ({children, ...props}) => <TabsList {...props}>{children}</TabsList>,
                     // @ts-expect-error
-                    tabstrigger: ({node, children, ...props}) => <TabsTrigger {...props}>{children}</TabsTrigger>,
+                    tabstrigger: ({children, ...props}) => <TabsTrigger {...props}>{children}</TabsTrigger>,
                     // @ts-expect-error
                     catalog: (props) => <Catalog {...props} navbarData={navbarData} />
                 }}

@@ -9,7 +9,7 @@ export interface ProcessedCatalog {
     items: ProcessedDocs[];
 }
 
-export default function(docsData: Documentation[], category: string, interestKey: string) {
+export default function prepareCatalogData(docsData: Documentation[], category: string, interestKey: string) {
     const nodeMap: { [key: string]: ProcessedDocs } = {};
 
     docsData.forEach(doc => {

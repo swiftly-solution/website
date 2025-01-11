@@ -1,6 +1,6 @@
 import { Documentation } from "@prisma/client";
 import prepareDocsData, { ProcessedDocs } from "./render/navbar/prepareDocsData";
-import { SidebarGroup, SidebarMenu, SidebarMenuAction, SidebarMenuButton, SidebarMenuItem, SidebarMenuSub, SidebarMenuSubButton, SidebarMenuSubItem } from "../ui/sidebar";
+import { SidebarGroup, SidebarMenu, SidebarMenuAction, SidebarMenuButton, SidebarMenuItem } from "../ui/sidebar";
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from "../ui/collapsible";
 import { useRouter } from "next/router";
 import { useMemo } from "react";
@@ -40,7 +40,7 @@ function RenderProcessedNavbar({ value, route, pagekey }: { value: ProcessedDocs
                                             </SidebarMenuButton>
                                         </SidebarMenuItem>
                                     )
-                                    else return <DocumentationNavbar navbarData={([val] as unknown) as Documentation[]} pagekey={pagekey} beenSet={false} dataSet={true} />
+                                    else return <DocumentationNavbar key={val.title} navbarData={([val] as unknown) as Documentation[]} pagekey={pagekey} beenSet={false} dataSet={true} />
                                 })}
                             </SidebarMenu>
                         </CollapsibleContent>
@@ -52,6 +52,8 @@ function RenderProcessedNavbar({ value, route, pagekey }: { value: ProcessedDocs
 }
 
 export default function DocumentationNavbar({ navbarData, pagekey, beenSet, dataSet }: { navbarData: Documentation[], pagekey: string, beenSet?: boolean, dataSet?: boolean }) {
+    const route = useRouter().asPath
+    const docCategory = useMemo(() => route.split("/")[1], [route])
     if(!beenSet && !dataSet) {
         return (
             <SidebarGroup>
@@ -62,9 +64,7 @@ export default function DocumentationNavbar({ navbarData, pagekey, beenSet, data
         )
     }
 
-    const route = useRouter().asPath
-    const docCategory = useMemo(() => route.split("/")[1], [route])
     const data = dataSet ? ((navbarData as unknown) as ProcessedDocs[]) : prepareDocsData(navbarData, docCategory)
 
-    return data.map((value) => <RenderProcessedNavbar value={value} route={route} pagekey={pagekey} />)
+    return data.map((value, iiddx) => <RenderProcessedNavbar key={iiddx} value={value} route={route} pagekey={pagekey} />)
 }

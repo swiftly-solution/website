@@ -1,5 +1,5 @@
 import { Book } from "lucide-react";
-import { SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem, useSidebar } from "../ui/sidebar";
+import { SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "../ui/sidebar";
 import Link from "next/link";
 
 export default function DocumentationNav() {

@@ -1,5 +1,4 @@
 import prisma from "@/lib/prisma";
-import pageSchema from "@/modules/schemas/docs/page";
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {

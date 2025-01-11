@@ -61,7 +61,7 @@ export default function EditPage() {
                     if(!touched) setTouched(true)
                     setContent(val || "")
                 }} theme={"vs-dark"} />
-                <DocumentationRender content={touched ? content : data.message.content} />
+                <DocumentationRender navbarData={[]} content={touched ? content : data.message.content} />
             </div>
         </div>
     )
