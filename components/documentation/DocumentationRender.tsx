@@ -29,10 +29,17 @@ function FallbackRender({ error, resetErrorBoundary }: { error: Error, resetErro
 }
 
 export default function DocumentationRender({ content, navbarData }: { content: string, navbarData: Documentation[] }) {
+    const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
+        .matches
+        ? "dark"
+        : "light";
+
+    const theme = useTheme().theme
+
     return (
         <ErrorBoundary FallbackComponent={FallbackRender}>
             <Markdown 
-                className={`markdown-${useTheme().theme}`}
+                className={`markdown-${theme == "system" ? systemTheme : theme}`}
                 remarkPlugins={[remarkParse, remarkCodeTitle, remarkGfm, [remarkGithub, { repository: "https://github.com/swiftly-solution/swiftly" }], remarkAlert]} 
                 rehypePlugins={[rehypeAccessibleEmojis, rehypeHighlight, rehypeSlug, [
                     rehypeReact,
