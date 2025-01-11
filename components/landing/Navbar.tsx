@@ -5,7 +5,9 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "../u
 import { Menu } from "lucide-react";
 import { buttonVariants } from "../ui/button";
 import { DiscordLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
-import { ModeToggle } from "../ui/mode-toggle";
+import dynamic from "next/dynamic";
+
+const ModeToggle = dynamic(() => import("../ui/mode-toggle").then((mod) => mod.ModeToggle), { ssr: false })
 
 interface RouteProps {
     href: string;

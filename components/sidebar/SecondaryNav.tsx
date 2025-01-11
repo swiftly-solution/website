@@ -1,8 +1,10 @@
 import { DiscordLogoIcon, GitHubLogoIcon, HomeIcon } from "@radix-ui/react-icons";
 import { SidebarGroup, SidebarGroupContent } from "../ui/sidebar";
 import { buttonVariants } from "../ui/button";
-import { ModeToggle } from "../ui/mode-toggle";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
+const ModeToggle = dynamic(() => import("../ui/mode-toggle").then((mod) => mod.ModeToggle), { ssr: false })
 
 export default function SecondaryNav() {
     return (
