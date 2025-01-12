@@ -8,7 +8,7 @@ const titles = {
     "plugin-docs": "Plugin Documentation",
     "ext-docs": "Ext. Documentation",
     "sdk": "SDK Documentation",
-    "beginners": "Beginners Docs."
+    "for-beginners": "Beginners Docs."
 }
 
 export default function DocumentationNav() {
