@@ -30,7 +30,7 @@ export default function Catalog({ navbarData }: { navbarData: Documentation[] })
                     >
                         <CardHeader>
                             <CardTitle className="flex flex-row gap-4 items-center">
-                                <FontAwesomeIcon icon={value.icon as IconProp} />
+                                {value.icon != "" ? <FontAwesomeIcon icon={value.icon as IconProp} /> : null}
                                 {value.title}
                             </CardTitle>
                         </CardHeader>

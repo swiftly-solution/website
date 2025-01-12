@@ -10,7 +10,7 @@ import Link from 'next/link'
 import rehypeRaw from 'rehype-raw'
 import remarkParse from 'remark-parse';
 import rehypeReact from 'rehype-react'
-import { createElement } from 'react'
+import { createElement, memo } from 'react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ErrorCard } from '../ui/alert-cards'
 import { ErrorBoundary } from "react-error-boundary";

@@ -8,8 +8,25 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { IconProp } from "@fortawesome/fontawesome-svg-core";
+import { FixedSizeList } from 'react-window';
 
 function RenderProcessedNavbar({ value, route, pagekey }: { value: ProcessedDocs, route: string, pagekey: string }) {
+    const RenderSubmenu = ({ index, style }: { index: any, style: any }) => {
+        const val = value.items[index]
+
+        if(val.items.length == 0) return (
+            <SidebarMenuItem key={val.title} style={style}>
+                <SidebarMenuButton isActive={route.split("/").length == 2 ? val.key == "home" : route == val.url} asChild>
+                    <Link href={val.url}>
+                        {val.icon != "" ? <FontAwesomeIcon icon={val.icon as IconProp} /> : null}
+                        <span>{val.title}</span>
+                    </Link>
+                </SidebarMenuButton>
+            </SidebarMenuItem>
+        )
+        else return <DocumentationNavbar key={val.title} navbarData={([val] as unknown) as Documentation[]} pagekey={pagekey} beenSet={false} dataSet={true} />
+    }
+
     return (
         <Collapsible key={value.title} asChild defaultOpen={route.startsWith(value.url)}>
             <SidebarMenuItem>
@@ -29,19 +46,9 @@ function RenderProcessedNavbar({ value, route, pagekey }: { value: ProcessedDocs
                         </CollapsibleTrigger>
                         <CollapsibleContent>
                             <SidebarMenu className="pl-1.5 mt-1 border-l-0">
-                                {value.items.map((val) => {
-                                    if(val.items.length == 0) return (
-                                        <SidebarMenuItem key={val.title}>
-                                            <SidebarMenuButton isActive={route.split("/").length == 2 ? val.key == "home" : route == val.url} asChild>
-                                                <Link href={val.url}>
-                                                    <FontAwesomeIcon icon={val.icon as IconProp} />
-                                                    <span>{val.title}</span>
-                                                </Link>
-                                            </SidebarMenuButton>
-                                        </SidebarMenuItem>
-                                    )
-                                    else return <DocumentationNavbar key={val.title} navbarData={([val] as unknown) as Documentation[]} pagekey={pagekey} beenSet={false} dataSet={true} />
-                                })}
+                                <FixedSizeList itemSize={32} height={value.items.length <= 50 ? 32 * value.items.length : 650} itemCount={value.items.length} width={"100%"}>
+                                    {RenderSubmenu}
+                                </FixedSizeList>
                             </SidebarMenu>
                         </CollapsibleContent>
                     </>

@@ -1,6 +1,14 @@
 import prisma from "@/lib/prisma";
 import { NextApiRequest, NextApiResponse } from "next";
 
+export const config = {
+    api: {
+        bodyParser: {
+            sizeLimit: '50mb'
+        }
+    }
+}
+
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     // Later add Cloudflare Ban
     if(req.method != "POST") return res.status(403).send("Unauthorized.")
