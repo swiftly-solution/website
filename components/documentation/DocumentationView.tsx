@@ -18,7 +18,7 @@ import DocumentationNav from "../sidebar/DocumentationNav";
 import { useTheme } from "../ui/theme-provider";
 
 export default function DocumentationView({ category, pagekey }: { category: string, pagekey: string }) {
-    const { data, error, isLoading } = useSWR<APIResponse<Documentation>>(`/api/docs/getpage?page=${pagekey}&category=${category}`, fetcher)
+    const { data, error, isLoading } = useSWR<APIResponse<Documentation>>(`/api/docs/getpage?page=${encodeURIComponent(pagekey)}&category=${category}`, fetcher)
     const [ navbarData, setNavbarData ] = useState<Documentation[]>([]);
 
     useEffect(() => {
