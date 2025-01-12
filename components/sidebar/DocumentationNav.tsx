@@ -7,7 +7,7 @@ import { useMemo } from "react";
 const titles = {
     "plugin-docs": "Plugin Documentation",
     "ext-docs": "Ext. Documentation",
-    "sdk": "SDK"
+    "sdk": "SDK Documentation"
 }
 
 export default function DocumentationNav() {

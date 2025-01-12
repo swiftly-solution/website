@@ -12,7 +12,7 @@ export default function Footer() {
                         href={"/"}
                         className="font-bold text-xl flex"
                     >
-                        SwiftlyS2
+                        SwiftlyCS2
                     </Link>
                 </div>
 

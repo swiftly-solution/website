@@ -78,11 +78,11 @@ export default function ResetPassPage() {
                             <div className="flex flex-col items-center gap-2">
                                 <Link href={"/"} className="flex flex-col items-center gap-2 font-medium">
                                     <div className="flex h-16 w-16 items-center justify-center rounded-md">
-                                        <Image src={"/favicon.png"} alt="SwiftlyS2" width={64} height={64} />
+                                        <Image src={"/favicon.png"} alt="SwiftlyCS2" width={64} height={64} />
                                     </div>
-                                    <span className="sr-only">SwiftlyS2</span>
+                                    <span className="sr-only">SwiftlyCS2</span>
                                 </Link>
-                                <h1 className="text-xl font-bold">Welcome to SwiftlyS2.</h1>
+                                <h1 className="text-xl font-bold">Welcome to SwiftlyCS2.</h1>
                                 <div className="text-center text-sm">
                                     Remembered your password?{" "}
                                     <Link href={`/auth/login${router.query.from ? `?from=${encodeURIComponent(String(router.query.from))}` : ""}`} className="underline underline-offset-4">

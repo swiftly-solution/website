@@ -7,19 +7,19 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     const authToken = (req.headers.authorization || '').split("Bearer ").at(1)
     if(authToken != process.env.AUTH_REMOTE_TOKEN) return res.status(403).send("Unauthorized.")
 
-    const { pages, metadata } = req.body
+    const { pages, metadata, startingKey, category } = req.body
 
-    const scriptingPages = await prisma.documentation.findMany({ where: { category: "plugin", key: { startsWith: `scripting.` } } })
+    const scriptingPages = await prisma.documentation.findMany({ where: { category: category, key: { startsWith: `${startingKey}.` } } })
     const ids = scriptingPages.map((v) => v.id)
     await prisma.documentation.deleteMany({ where: { id: { in: ids } } })
 
     const pagesObject = []
     for(const page of Object.keys(pages)) {
         pagesObject.push({
-            category: "plugin",
+            category: category,
             content: pages[page],
             icon: metadata[page].icon,
-            key: `scripting.${page}`,
+            key: `${startingKey}.${page}`,
             title: metadata[page].title
         })
     }

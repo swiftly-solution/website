@@ -50,7 +50,7 @@ export default function Navbar() {
                             href="/"
                             className="ml-2 font-bold text-xl flex"
                         >
-                            SwiftlyS2
+                            SwiftlyCS2
                         </Link>
                     </NavigationMenuItem>
 
@@ -73,7 +73,7 @@ export default function Navbar() {
                             <SheetContent side={"left"}>
                                 <SheetHeader>
                                     <SheetTitle className="font-bold text-xl">
-                                        SwiftlyS2
+                                        SwiftlyCS2
                                     </SheetTitle>
                                 </SheetHeader>
                                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">

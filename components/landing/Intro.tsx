@@ -12,13 +12,13 @@ export default function Intro() {
                     <div className="max-w-screen-lg mx-auto text-center text-3xl md:text-5xl font-bold">
                         <h1>
                             <span className="text-transparent px-2 bg-gradient-to-r from-[#2cc66d] to-primary bg-clip-text">
-                                Swiftly - Source 2 Scripting
+                                Swiftly - CS2 Scripting
                             </span>
                         </h1>
                     </div>
 
                     <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-                        {`Swiftly is a server modification plugin for Source 2 based games which is using Metamod:Source.`}
+                        {`Swiftly is a server modification plugin for Counter-Strike 2 which is using Metamod:Source.`}
                     </p>
 
                     <div className="space-y-4 md:space-y-0 md:space-x-4">
