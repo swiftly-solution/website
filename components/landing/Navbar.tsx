@@ -27,14 +27,14 @@ const routeList: RouteProps[] = [
         href: "/sdk",
         label: "SDK",
     },
-    {
-        href: "/plugin-sharing",
-        label: "Plugin Sharing",
-    },
-    {
-        href: "/ext-sharing",
-        label: "Extension Sharing",
-    },
+    // {
+    //     href: "/plugin-sharing",
+    //     label: "Plugin Sharing",
+    // },
+    // {
+    //     href: "/ext-sharing",
+    //     label: "Extension Sharing",
+    // },
 ];
 
 export default function Navbar() {

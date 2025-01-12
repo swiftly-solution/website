@@ -29,7 +29,7 @@ export default function Footer() {
                     </div>
                 </div>
 
-                <div className="flex flex-col gap-2">
+                {/* <div className="flex flex-col gap-2">
                     <h3 className="font-bold text-lg">Platforms</h3>
                     <div>
                         <Link
@@ -50,7 +50,7 @@ export default function Footer() {
                             Extension Sharing
                         </Link>
                     </div>
-                </div>
+                </div> */}
 
                 <div className="flex flex-col gap-2">
                     <h3 className="font-bold text-lg">Documentation</h3>
