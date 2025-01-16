@@ -1,4 +1,4 @@
-import { AnchorIcon, BrainCogIcon, ClockIcon, Code2Icon, CodeIcon, CodeSquareIcon, CogIcon, ComputerIcon, DatabaseIcon, FileIcon, FilesIcon, GlobeIcon, LaptopIcon, ListIcon, MemoryStickIcon, MenuIcon, MessageSquareIcon, PuzzleIcon, UserIcon, UsersIcon } from "lucide-react";
+import { AnchorIcon, BrainCogIcon, ClockIcon, Code2Icon, CodeIcon, CodeSquareIcon, CogIcon, ComputerIcon, DatabaseIcon, FilesIcon, GlobeIcon, LaptopIcon, ListIcon, MemoryStickIcon, MenuIcon, MessageSquareIcon, PuzzleIcon, Rows3Icon, UserIcon, UsersIcon } from "lucide-react";
 import { ReactNode, useMemo } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card";
 
@@ -106,9 +106,9 @@ export default function Features() {
             description: "Access to add API in plugins and to create everything without limitations."
         },
         {
-            icon: <FileIcon />,
-            title: "License",
-            description: "This project is licensed under MIT License."
+            icon: <Rows3Icon />,
+            title: "VGUI",
+            description: "Access to create texts and panels on the screen."
         }
     ], []);
 
