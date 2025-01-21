@@ -16,6 +16,10 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
     {
+        href: "/for-beginners",
+        label: "Beginners",
+    },
+    {
         href: "/plugin-docs",
         label: "Plugin Docs",
     },

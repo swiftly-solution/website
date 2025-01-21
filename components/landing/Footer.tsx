@@ -86,17 +86,20 @@ export default function Footer() {
                 </div>
 
                 <div className="flex flex-col gap-2">
-                    <h3 className="font-bold text-lg">Community</h3>
+                    <h3 className="font-bold text-lg">Guides</h3>
                     <div>
-                        <a
+                        <Link
                             rel="noreferrer noopener"
-                            href="https://www.youtube.com/@skuzzi8088"
+                            href="/for-beginners"
                             className="opacity-60 hover:opacity-100"
                         >
-                            Youtube
-                        </a>
+                            Beginners
+                        </Link>
                     </div>
+                </div>
 
+                <div className="flex flex-col gap-2">
+                    <h3 className="font-bold text-lg">Community</h3>
                     <div>
                         <a
                             rel="noreferrer noopener"
