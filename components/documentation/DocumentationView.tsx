@@ -16,6 +16,7 @@ import { ProcessNotification, ToastError } from "@/modules/notifications/toasts"
 import DocumentationNavbar from "./DocumentationNavbar";
 import DocumentationNav from "../sidebar/DocumentationNav";
 import { useTheme } from "../ui/theme-provider";
+import DocumentationSearch from "./DocumentationSearch";
 
 export default function DocumentationView({ category, pagekey }: { category: string, pagekey: string }) {
     const { data, error, isLoading } = useSWR<APIResponse<Documentation>>(`/api/docs/getpage?page=${encodeURIComponent(pagekey)}&category=${category}`, fetcher)
@@ -40,10 +41,13 @@ export default function DocumentationView({ category, pagekey }: { category: str
             </AppSidebar>
             <SidebarInset>
                 <header className="flex h-16 shrink-0 items-center gap-2">
-                    <div className="flex items-center gap-2 px-4">
+                    <div className="flex items-center gap-2 px-4 w-full">
                         <SidebarTrigger className="-ml-1" />
                         <Separator orientation="vertical" className="mr-2 h-4" />
                         <DocumentationBreadcrumb navbarData={navbarData} pagekey={pagekey} />
+                        <div className="ml-auto">
+                            <DocumentationSearch />
+                        </div>
                     </div>
                 </header>
                 <div className="px-4 pb-4 sm:flex sm:flex-col md:grid md:grid-cols-[3fr_1fr] gap-4">

@@ -11,6 +11,13 @@ const titles = {
     "for-beginners": "Beginners Docs."
 }
 
+export const keys: Record<string, string> = {
+    "plugin": "plugin-docs",
+    "ext": "ext-docs",
+    "sdk": "sdk",
+    "beginners": "for-beginners"
+}
+
 export default function DocumentationNav() {
     const router = useRouter()
     const docCategory = useMemo(() => router.asPath.split("/")[1], [router.asPath])
