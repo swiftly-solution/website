@@ -14,7 +14,7 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@geoffcodesthings/tailwind-md-base": "^1.1.0",
     "@monaco-editor/react": "^4.6.0",
-    "@prisma/client": "^6.2.1",
+    "@prisma/client": "6.2.1",
     "@radix-ui/react-avatar": "^1.1.2",
     "@radix-ui/react-collapsible": "^1.1.2",
     "@radix-ui/react-dialog": "^1.1.4",
