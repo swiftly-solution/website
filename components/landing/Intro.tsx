@@ -2,6 +2,7 @@ import { ArrowRight } from "lucide-react";
 import { Button } from "../ui/button";
 import Image from "next/image";
 import Link from "next/link";
+import panelImage from "../../public/panel.png"
 
 export default function Intro() {
     return (
@@ -51,8 +52,9 @@ export default function Intro() {
                         width={1200}
                         height={1200}
                         className="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
-                        src={"/panel.png"}
+                        src={panelImage}
                         alt="dashboard"
+                        priority
                     />
 
                     <div className="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-background/0 via-background/50 to-background rounded-lg"></div>
