@@ -37,7 +37,7 @@
     "@types/uuid": "^10.0.0",
     "axios": "^1.7.9",
     "bcrypt": "^5.1.1",
-    "cached-prisma": "^1.4.0",
+    "cached-prisma": "^1.7.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "1.0.0",
