@@ -23,12 +23,13 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          npm install
+          npm i -g yarn
+          yarn install
           rm -rf node_modules/@prisma/client
           npx prisma generate
 
       - name: Build Next.js App
-        run: npm run build
+        run: yarn build
 
       - name: Upload .next Folder as Artifact
         uses: actions/upload-artifact@v4
