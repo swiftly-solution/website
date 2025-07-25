@@ -1,1 +1,1 @@
-# SwiftlyCS2.net Website
+# SwiftlyS2.net Website
