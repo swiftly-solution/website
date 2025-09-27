@@ -28,15 +28,9 @@ jobs:
       - name: Build Next.js App
         run: npm run build
 
-      - name: Upload .next Folder as Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: next-build
-          path: .next/
-
       - name: Zip .next Folder
         run: |
-          tar czvf next-build.tar.gz .next node_modules
+          cd out; tar czvf next-build.tar.gz *
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
