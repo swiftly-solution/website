@@ -1,0 +1,82 @@
+---
+title: EventRoundEnd
+---
+
+```csharp
+public interface EventRoundEnd : IGameEvent<EventRoundEnd>
+```
+
+#### Implements
+
+## Properties
+
+**Legacy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L48)
+
+```csharp
+byte Legacy { get; set; }
+```
+
+#### Property Value
+
+- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+
+**Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L36)
+
+```csharp
+string Message { get; set; }
+```
+
+#### Property Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+**NoMusic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L62)
+
+```csharp
+byte NoMusic { get; set; }
+```
+
+#### Property Value
+
+- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+
+**PlayerCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L55)
+
+```csharp
+short PlayerCount { get; set; }
+```
+
+#### Property Value
+
+- [short](https://learn.microsoft.com/dotnet/api/system.int16)
+
+**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L29)
+
+```csharp
+byte Reason { get; set; }
+```
+
+#### Property Value
+
+- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+
+**Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L41)
+
+```csharp
+float Time { get; set; }
+```
+
+#### Property Value
+
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+**Winner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L22)
+
+```csharp
+byte Winner { get; set; }
+```
+
+#### Property Value
+
+- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
+

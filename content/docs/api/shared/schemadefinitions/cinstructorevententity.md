@@ -1,0 +1,42 @@
+---
+title: CInstructorEventEntity
+---
+
+```csharp
+public interface CInstructorEventEntity : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CInstructorEventEntity>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+## Properties
+
+**HintTargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstructorEventEntity.cs#L18)
+
+```csharp
+ref CUtlSymbolLarge HintTargetEntity { get; }
+```
+
+#### Property Value
+
+- [CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)
+
+**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstructorEventEntity.cs#L16)
+
+```csharp
+ref CUtlSymbolLarge Name { get; }
+```
+
+#### Property Value
+
+- [CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)
+
+**TargetPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstructorEventEntity.cs#L20)
+
+```csharp
+ref CHandle<CBasePlayerPawn> TargetPlayer { get; }
+```
+
+#### Property Value
+
+- [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>
+

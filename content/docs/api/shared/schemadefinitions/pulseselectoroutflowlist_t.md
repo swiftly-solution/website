@@ -1,0 +1,22 @@
+---
+title: PulseSelectorOutflowList_t
+---
+
+```csharp
+public interface PulseSelectorOutflowList_t : ISchemaClass<PulseSelectorOutflowList_t>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+## Properties
+
+**Outflows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseSelectorOutflowList_t.cs#L17)
+
+```csharp
+ref CUtlVector Outflows { get; }
+```
+
+#### Property Value
+
+- [CUtlVector](/docs/api/shared/natives/cutlvector)
+

@@ -1,0 +1,62 @@
+---
+title: CBoneConstraintPoseSpaceMorph
+---
+
+```csharp
+public interface CBoneConstraintPoseSpaceMorph : CBoneConstraintBase, ISchemaClass<CBoneConstraintBase>, ISchemaClass<CBoneConstraintPoseSpaceMorph>, ISchemaField, ISchemaClass, INativeHandle
+```
+
+#### Implements
+
+## Properties
+
+**AttachmentName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceMorph.cs#L18)
+
+```csharp
+ref CUtlString AttachmentName { get; }
+```
+
+#### Property Value
+
+- [CUtlString](/docs/api/shared/natives/cutlstring)
+
+**BoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceMorph.cs#L16)
+
+```csharp
+ref CUtlString BoneName { get; }
+```
+
+#### Property Value
+
+- [CUtlString](/docs/api/shared/natives/cutlstring)
+
+**Clamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceMorph.cs#L25)
+
+```csharp
+ref bool Clamp { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+**InputList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceMorph.cs#L23)
+
+```csharp
+ref CUtlVector InputList { get; }
+```
+
+#### Property Value
+
+- [CUtlVector](/docs/api/shared/natives/cutlvector)
+
+**OutputMorph** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/master/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceMorph.cs#L20)
+
+```csharp
+ref CUtlVector<CUtlString> OutputMorph { get; }
+```
+
+#### Property Value
+
+- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+

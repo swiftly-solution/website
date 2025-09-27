@@ -1,0 +1,25 @@
+---
+title: Class_T
+---
+
+```csharp
+public enum Class_T : uint
+```
+
+## Fields
+
+- **CLASS_C4_FOR_RADAR**: 3
+- **CLASS_DOOR**: 11
+- **CLASS_FOOT_CONTACT_SHADOW**: 4
+- **CLASS_HUDMODEL_ADDON**: 9
+- **CLASS_HUDMODEL_ARMS**: 8
+- **CLASS_HUDMODEL_WEAPON**: 7
+- **CLASS_NONE**: 0
+- **CLASS_PLANTED_C4**: 12
+- **CLASS_PLAYER**: 1
+- **CLASS_PLAYER_ALLY**: 2
+- **CLASS_WATER_SPLASHER**: 6
+- **CLASS_WEAPON**: 5
+- **CLASS_WORLDMODEL_GLOVES**: 10
+- **NUM_CLASSIFY_CLASSES**: 13
+
