@@ -30,7 +30,7 @@ jobs:
 
       - name: Zip .next Folder
         run: |
-          cd out; tar czvf next-build.tar.gz *
+          tar czvf next-build.tar.gz .next node_modules
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
