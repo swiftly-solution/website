@@ -26,7 +26,7 @@ export default function HomePage() {
                 Get Started
               </Link>
               <Link
-                href="/api"
+                href="/docs/api"
                 className="border border-neutral-600 hover:bg-gray-800 px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 API Reference

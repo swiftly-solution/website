@@ -1,0 +1,32 @@
+---
+title: Installation
+---
+
+This guide will walk you through the steps to install **SwiftlyS2** on your **Counter-Strike 2 server**.
+
+Swiftly works in conjunction with **MetaMod:Source**, so both need to be installed on your server to unlock the full potential of this powerful plugin.
+
+## Prerequisites
+
+- [MetaMod Source 2.X](https://www.metamodsource.net/downloads.php?branch=dev) (compatible with your system: Linux/Windows)
+- [Latest Swiftly Release](https://github.com/swiftly-solution/swiftlys2/releases)
+
+## Installing MetaMod
+
+Follow these steps to install **MetaMod:Source**:
+
+1. Download the latest [MetaMod](https://www.metamodsource.net/downloads.php?branch=dev) (compatible with your system: Linux/Windows)
+2. Extract the contents and copy the `/addons/` directory to `/game/csgo/`.
+3. Locate the `gameinfo.gi` file inside `/game/csgo/` and open it.
+4. Below the line: `Game_LowViolence csgo_lv` add this line: `Game csgo/addons/metamod`.
+5. Restart your game server and type `meta list` to test if the installation was successful.
+
+## Installing SwiftlyS2
+
+Now that MetaMod is ready, follow these steps to install Swiftly:
+
+1. Download the latest [Swiftly Release](https://github.com/swiftly-solution/swiftlys2/releases)
+2. Extract the contents and copy the `/addons` directory to `/game/csgo/`.
+3. Restart your server and type `sw version` to test if the installation was successful.
+
+Hooray! You've sucesfully installed Swiftly on your game server and are one step closer to making your server better!

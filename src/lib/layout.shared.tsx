@@ -19,7 +19,7 @@ export function baseOptions(): BaseLayoutProps {
     links: [
       {
         text: "Discord",
-        url: "https://discord.gg/SRYnAEWmb4",
+        url: "https://swiftlys2.net/discord",
         external: true,
       },
       {
