@@ -1,11 +1,7 @@
 import { CodeBlock, Pre } from "fumadocs-ui/components/codeblock";
 import { DynamicCodeBlock } from "fumadocs-ui/components/dynamic-codeblock";
 
-
-interface VersionGetterProps {
-}
-
-export const VersionGetter: React.FC<VersionGetterProps> = async ({
+export const VersionGetter: React.FC = async ({
 }) => {
   const version = await fetch('https://api.github.com/repos/swiftly-solution/swiftlys2/releases/latest')
     .then(res => res.json())
