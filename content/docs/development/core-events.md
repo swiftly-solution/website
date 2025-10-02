@@ -1,5 +1,0 @@
----
-title: Core Events
----
-
-todo

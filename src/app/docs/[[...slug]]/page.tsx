@@ -10,7 +10,8 @@ import { notFound } from 'next/navigation';
 import { createRelativeLink } from 'fumadocs-ui/mdx';
 import { getMDXComponents } from '@/mdx-components';
 import { DotnetTemplateGenerator } from '@/components/dotnet-template-generator';
-import { CodeBlock, Pre } from 'fumadocs-ui/components/codeblock';
+import { CodeBlock, Pre, CodeBlockTab, CodeBlockTabs, CodeBlockTabsList, CodeBlockTabsTrigger } from 'fumadocs-ui/components/codeblock';
+import { Tabs, Tab } from 'fumadocs-ui/components/tabs';
 import { VersionGetter } from '@/components/version-getter';
 import { Files, Folder, File } from 'fumadocs-ui/components/files';
 
@@ -31,8 +32,9 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
             a: createRelativeLink(source, page),
             DotnetTemplateGenerator,
             VersionGetter,
-            CodeBlock, Pre,
-            Files, Folder, File 
+            CodeBlock, Pre, CodeBlockTabs, CodeBlockTabsList, CodeBlockTabsTrigger, CodeBlockTab,
+            Files, Folder, File,
+            Tabs, Tab
           })}
         />
       </DocsBody>
