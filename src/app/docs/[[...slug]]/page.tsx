@@ -9,6 +9,10 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { createRelativeLink } from 'fumadocs-ui/mdx';
 import { getMDXComponents } from '@/mdx-components';
+import { DotnetTemplateGenerator } from '@/components/dotnet-template-generator';
+import { CodeBlock, Pre } from 'fumadocs-ui/components/codeblock';
+import { VersionGetter } from '@/components/version-getter';
+import { Files, Folder, File } from 'fumadocs-ui/components/files';
 
 export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
   const params = await props.params;
@@ -25,6 +29,10 @@ export default async function Page(props: PageProps<'/docs/[[...slug]]'>) {
         <MDXContent
           components={getMDXComponents({
             a: createRelativeLink(source, page),
+            DotnetTemplateGenerator,
+            VersionGetter,
+            CodeBlock, Pre,
+            Files, Folder, File 
           })}
         />
       </DocsBody>
