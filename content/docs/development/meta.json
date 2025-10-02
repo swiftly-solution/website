@@ -2,6 +2,7 @@
   "pages": [
     "getting-started",
     "swiftly-core",
+    "using-attributes",
     "..."
   ]
 }
