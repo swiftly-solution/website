@@ -1,0 +1,63 @@
+---
+title: Getting Started
+---
+
+## Prerequisites
+To start develop on SwiftlyS2, you will need the following prerequisites:
+- .NET 8.0 SDK
+
+## Install package
+After you have installed the .NET 8.0 SDK and ensure that `dotnet` command is in your PATH, you can install the SwiftlyS2 package using the following command:
+<CodeBlock>
+  <Pre className='px-4'>
+    {"dotnet new install SwiftlyS2.CS2.PluginTemplate"}
+  </Pre>
+</CodeBlock>
+
+## Create a plugin from template
+Use the following command to create a plugin from the template.
+Fill in the information as you want, and run the generated command.
+
+<DotnetTemplateGenerator/>
+
+After it's properly generated, the folder structure should looks like this:
+<Files>
+  <Folder name="build" />
+  <Folder name="examples">
+    <File name="Commands.example.cs" />
+    <File name="Events.example.cs" />
+    <File name="GameEvents.example.cs" />
+    <File name="HookAndCallNativeFunctions.example.cs" />
+    <File name="NetMessage.example.cs" />
+    <File name="SoundEvent.example.cs" />
+  </Folder>
+  <Folder name="src">
+    <File name="PluginClassName.cs" />
+  </Folder>
+  <File name="manifest.json" />
+  <File name="README.md" />
+  <File name="PluginId.csproj" />
+</Files>
+
+
+## Update version
+The package version in template might not be the latest version.
+Update the following line to update it.
+<VersionGetter/>
+
+## About manifest.json
+The manifest.json file is used to define the plugin's metadata, including plugin id, author, description and etc.
+By default, template will automatically ship the manifest.json in published package, which is necessary for the plugin to be loaded by SwiftlyS2.
+
+## Publishing
+Use the following command to build a publish version of the plugin.
+```bash
+dotnet publish
+```
+If it's built successfully, you will find the published package in `build/publish` directory.
+You can directly copy the package to the SwiftlyS2's plugin directory for test, and use the .zip file for release.
+
+## Explore
+To explore the API reference, you can check the `examples` folder in the template, which contains some examples of a few features.
+You can also check the following pages for more detailed API documentation.
+
