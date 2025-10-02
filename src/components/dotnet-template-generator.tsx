@@ -3,10 +3,7 @@
 import { CodeBlock, CodeBlockTab, CodeBlockTabs, CodeBlockTabsList, CodeBlockTabsTrigger, Pre } from 'fumadocs-ui/components/codeblock';
 import React, { useMemo, useState } from 'react';
 
-interface DotnetTemplateGeneratorProps {
-}
-
-export const DotnetTemplateGenerator: React.FC<DotnetTemplateGeneratorProps> = ({
+export const DotnetTemplateGenerator: React.FC = ({
 }) => {
   const [pluginId, setPluginId] = useState('TestPlugin');
   const [pluginClassName, setPluginClassName] = useState('TestPlugin');
