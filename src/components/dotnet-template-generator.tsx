@@ -22,8 +22,6 @@ export const DotnetTemplateGenerator: React.FC = ({
     if (safePluginId.length > 0) {
       parts.push('-n');
       parts.push(`"${safePluginId}"`);
-      parts.push('--PluginId');
-      parts.push(`"${safePluginId}"`);
     }
     if (pluginName.length > 0) {
       parts.push('--PluginName');

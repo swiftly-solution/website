@@ -1,5 +1,0 @@
----
-title: Entity System
----
-
-todo

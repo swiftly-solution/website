@@ -3,6 +3,13 @@
     "getting-started",
     "swiftly-core",
     "using-attributes",
-    "..."
+    "entity",
+    "game-events",
+    "core-events",
+    "netmessages",
+    "convars",
+    "native-functions-and-hooks",
+    "scheduler",
+    "database"
   ]
 }
