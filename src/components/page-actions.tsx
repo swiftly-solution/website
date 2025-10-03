@@ -50,7 +50,8 @@ export function LLMCopyButton({
     }
   });
 
-  return (
+  return ( null // Nullified 'cos Skuzzi needs to think how to handle this (fetching) or just remove it xD
+  /* Commented out temporarily to avoid fetch errors
     <button
       disabled={isLoading}
       className={cn(
@@ -65,6 +66,7 @@ export function LLMCopyButton({
       {checked ? <Check /> : <Copy />}
       Copy Markdown
     </button>
+  */
   );
 }
 
