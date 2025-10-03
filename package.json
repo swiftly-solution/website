@@ -12,13 +12,16 @@
   "dependencies": {
     "@fumadocs/mdx-remote": "^1.4.0",
     "@orama/orama": "^3.1.14",
+    "class-variance-authority": "^0.7.1",
     "fumadocs-core": "15.8.0",
     "fumadocs-mdx": "12.0.1",
     "fumadocs-ui": "15.8.0",
+    "lucide-react": "^0.544.0",
     "next": "15.5.4",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "shiki": "^3.13.0"
+    "shiki": "^3.13.0",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
