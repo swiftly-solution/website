@@ -34,7 +34,6 @@ After it's properly generated, the folder structure should looks like this:
   <Folder name="src">
     <File name="PluginClassName.cs" />
   </Folder>
-  <File name="manifest.json" />
   <File name="README.md" />
   <File name="PluginId.csproj" />
 </Files>
@@ -44,10 +43,6 @@ After it's properly generated, the folder structure should looks like this:
 The package version in template might not be the latest version.
 Update the following line to update it.
 <VersionGetter/>
-
-## About manifest.json
-The manifest.json file is used to define the plugin's metadata, including plugin id, author, description and etc.
-By default, template will automatically ship the manifest.json in published package, which is necessary for the plugin to be loaded by SwiftlyS2.
 
 ## Publishing
 Use the following command to build a publish version of the plugin.

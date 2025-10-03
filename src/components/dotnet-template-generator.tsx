@@ -6,14 +6,13 @@ import React, { useMemo, useState } from 'react';
 export const DotnetTemplateGenerator: React.FC = ({
 }) => {
   const [pluginId, setPluginId] = useState('TestPlugin');
-  const [pluginClassName, setPluginClassName] = useState('TestPlugin');
+  const [pluginName, setPluginName] = useState('TestPlugin');
   const [pluginAuthor, setPluginAuthor] = useState('Anonymous');
   const [pluginVersion, setPluginVersion] = useState('1.0.0');
   const [pluginDescription, setPluginDescription] = useState('');
 
   const command = useMemo(() => {
     const safePluginId = pluginId.trim();
-    const safeClassName = pluginClassName.trim();
     const parts: string[] = [
       'dotnet',
       'new',
@@ -26,9 +25,9 @@ export const DotnetTemplateGenerator: React.FC = ({
       parts.push('--PluginId');
       parts.push(`"${safePluginId}"`);
     }
-    if (safeClassName.length > 0) {
-      parts.push('--PluginClassName');
-      parts.push(`"${safeClassName}"`);
+    if (pluginName.length > 0) {
+      parts.push('--PluginName');
+      parts.push(`"${pluginName}"`);
     }
     if (pluginAuthor.length > 0) {
       parts.push('--PluginAuthor');
@@ -44,7 +43,7 @@ export const DotnetTemplateGenerator: React.FC = ({
     }
 
     return parts.join(' ');
-  }, [pluginId, pluginClassName, pluginAuthor, pluginVersion, pluginDescription]);
+  }, [pluginId, pluginName, pluginAuthor, pluginVersion, pluginDescription]);
 
   const handleCopy = async () => {
     try {
@@ -69,13 +68,13 @@ export const DotnetTemplateGenerator: React.FC = ({
         </div>
 
         <div className="flex flex-col gap-2">
-          <label htmlFor="plugin-class">Main class name of the plugin.</label>
+          <label htmlFor="plugin-class">Name of the plugin.</label>
           <input
             id="plugin-class"
             type="text"
             placeholder="TestPlugin"
-            value={pluginClassName}
-            onChange={(e) => setPluginClassName(e.target.value)}
+            value={pluginName}
+            onChange={(e) => setPluginName(e.target.value)}
             className="bg-fd-background text-fd-text p-3 border border-fd-border rounded-md outline-none"
           />
         </div>
