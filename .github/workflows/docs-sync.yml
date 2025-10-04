@@ -45,8 +45,7 @@ jobs:
         run: pip install pyyaml
 
       - name: Run docs generator
-        working-directory: swiftlys2
-        run: python generator/docs_generator/generator.py
+        run: cd swiftlys2/generator/docs_generator && python generator.py
 
       - name: Remove old API docs
         run: |
