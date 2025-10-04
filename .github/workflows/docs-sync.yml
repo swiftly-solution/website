@@ -1,0 +1,67 @@
+name: Sync Update
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+jobs:
+  check-updates:
+    permissions:
+      contents: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout website repository
+        uses: actions/checkout@v4
+        with:
+          repository: swiftly-solution/website
+          path: website
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Checkout swiftlys2 repository
+        uses: actions/checkout@v4
+        with:
+          repository: swiftly-solution/swiftlys2
+          path: swiftlys2
+
+      - name: Setup .NET 8.x
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+
+      - name: Run docfx metadata
+        working-directory: swiftlys2
+        run: |
+          dotnet tool install -g docfx
+          docfx metadata
+
+      - name: Setup Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Run docs generator
+        working-directory: swiftlys2
+        run: python generators/docs_generator/generator.py
+
+      - name: Remove old API docs
+        run: |
+          rm -rf website/content/docs/api/shared
+          rm -rf website/content/docs/api/plugin
+
+      - name: Copy new API docs
+        run: cp -r swiftlys2/docs/* website/content/docs/api/
+
+      - name: Check for changes and commit
+        working-directory: website
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes detected"
+          else
+            git commit -m "chore: sync API documentation from swiftlys2"
+            git push
+          fi
