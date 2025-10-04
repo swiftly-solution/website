@@ -10,7 +10,10 @@ import {
 export const docs = defineDocs({
   docs: {
     schema: frontmatterSchema,
-    async: true
+    async: true,
+    postprocess: {
+      includeProcessedMarkdown: true
+    }
   },
   meta: {
     schema: metaSchema,
