@@ -34,7 +34,7 @@ jobs:
         working-directory: swiftlys2
         run: |
           dotnet tool install -g docfx
-          docfx metadata
+          docfx metadata ./docfx.json
 
       - name: Setup Python 3.13
         uses: actions/setup-python@v5
