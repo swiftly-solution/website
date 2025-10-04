@@ -42,7 +42,7 @@ jobs:
           python-version: '3.13'
 
       - name: Install dependencies
-        run: pip install yaml
+        run: pip install pyyaml
 
       - name: Run docs generator
         working-directory: swiftlys2
