@@ -10,6 +10,7 @@
     "convars",
     "native-functions-and-hooks",
     "scheduler",
-    "database"
+    "database",
+    "soundevents"
   ]
 }
