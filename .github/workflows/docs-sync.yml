@@ -43,7 +43,7 @@ jobs:
 
       - name: Run docs generator
         working-directory: swiftlys2
-        run: python generators/docs_generator/generator.py
+        run: python generator/docs_generator/generator.py
 
       - name: Remove old API docs
         run: |
