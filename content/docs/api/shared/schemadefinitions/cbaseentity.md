@@ -878,12 +878,6 @@ void CBodyComponentUpdated()
 void ClientSideRagdollUpdated()
 ```
 
-**CollisionRulesChanged()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L35)
-
-```csharp
-void CollisionRulesChanged()
-```
-
 **CreateTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L191)
 
 ```csharp
