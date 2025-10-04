@@ -6,7 +6,15 @@ const withMDX = createMDX();
 const config = {
   reactStrictMode: true,
   trailingSlash: true,
-  images: { unoptimized: true }
+  images: { unoptimized: true },
+  async rewrites() {
+    return [
+      {
+        source: '/docs/:path*.mdx',
+        destination: '/llms.mdx/:path*',
+      },
+    ];
+  },
 };
 
 export default withMDX(config);
