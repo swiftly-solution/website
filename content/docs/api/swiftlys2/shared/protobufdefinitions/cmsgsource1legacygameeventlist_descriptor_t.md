@@ -1,0 +1,42 @@
+---
+title: CMsgSource1LegacyGameEventList_descriptor_t
+---
+
+```csharp
+public interface CMsgSource1LegacyGameEventList_descriptor_t : ITypedProtobuf<CMsgSource1LegacyGameEventList_descriptor_t>, INativeHandle
+```
+
+#### Implements
+
+## Properties
+
+**Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEventList_descriptor_t.cs#L13)
+
+```csharp
+int Eventid { get; set; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+**Keys** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEventList_descriptor_t.cs#L19)
+
+```csharp
+IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEventList_key_t> Keys { get; }
+```
+
+#### Property Value
+
+- [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSource1LegacyGameEventList_key_t](/docs/api/shared/protobufdefinitions/cmsgsource1legacygameeventlist_key_t)>
+
+**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEventList_descriptor_t.cs#L16)
+
+```csharp
+string Name { get; set; }
+```
+
+#### Property Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
