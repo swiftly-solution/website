@@ -41,6 +41,9 @@ jobs:
         with:
           python-version: '3.13'
 
+      - name: Install dependencies
+        run: pip install yaml
+
       - name: Run docs generator
         working-directory: swiftlys2
         run: python generator/docs_generator/generator.py
