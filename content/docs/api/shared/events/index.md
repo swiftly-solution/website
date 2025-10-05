@@ -19,6 +19,7 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [IOnEntityParentChangedEvent](/docs/api/shared/events/ionentityparentchangedevent) - Called when an entity's parent changes.
 - [IOnEntitySpawnedEvent](/docs/api/shared/events/ionentityspawnedevent) - Called when an entity is spawned.
 - [IOnEntityTakeDamageEvent](/docs/api/shared/events/ionentitytakedamageevent) - Called when an entity takes damage.
+- [IOnItemServicesCanAcquireHookEvent](/docs/api/shared/events/ionitemservicescanacquirehookevent)
 - [IOnMapLoadEvent](/docs/api/shared/events/ionmaploadevent) - Called when the map is loaded.
 - [IOnMapUnloadEvent](/docs/api/shared/events/ionmapunloadevent) - Called when the map is unloaded.
 - [IOnPrecacheResourceEvent](/docs/api/shared/events/ionprecacheresourceevent)
@@ -41,6 +42,7 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [EventDelegates.OnEntityParentChanged](/docs/api/shared/events/eventdelegates/onentityparentchanged) - Called when an entity's parent changes.
 - [EventDelegates.OnEntitySpawned](/docs/api/shared/events/eventdelegates/onentityspawned) - Called when an entity is spawned.
 - [EventDelegates.OnEntityTakeDamage](/docs/api/shared/events/eventdelegates/onentitytakedamage) - Called when an entity takes damage.
+- [EventDelegates.OnItemServicesCanAcquireHook](/docs/api/shared/events/eventdelegates/onitemservicescanacquirehook) - Called when an item services can acquire hook is triggered.
 - [EventDelegates.OnMapLoad](/docs/api/shared/events/eventdelegates/onmapload) - Called when a map is loaded.
 - [EventDelegates.OnMapUnload](/docs/api/shared/events/eventdelegates/onmapunload) - Called when a map is unloaded.
 - [EventDelegates.OnPrecacheResource](/docs/api/shared/events/eventdelegates/onprecacheresource) - Called when the game is precaching resources.

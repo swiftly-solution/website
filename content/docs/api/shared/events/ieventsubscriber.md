@@ -126,6 +126,16 @@ event EventDelegates.OnEntityTakeDamage? OnEntityTakeDamage
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityTakeDamage](/docs/api/shared/events/eventdelegates/onentitytakedamage)?
 
+**OnItemServicesCanAcquireHook** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L93)
+
+```csharp
+event EventDelegates.OnItemServicesCanAcquireHook? OnItemServicesCanAcquireHook
+```
+
+#### Event Type
+
+- [EventDelegates](/docs/api/shared/events/eventdelegates).[OnItemServicesCanAcquireHook](/docs/api/shared/events/eventdelegates/onitemservicescanacquirehook)?
+
 **OnMapLoad** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L67)
 
 ```csharp

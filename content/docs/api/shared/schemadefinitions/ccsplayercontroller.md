@@ -1232,6 +1232,12 @@ void QuestProgressReasonUpdated()
 void RecentKillQueueUpdated()
 ```
 
+**Respawn()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSPlayerController.cs#L8)
+
+```csharp
+void Respawn()
+```
+
 **RtActiveMissionPeriodUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController.cs#L224)
 
 ```csharp

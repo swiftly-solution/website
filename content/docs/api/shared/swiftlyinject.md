@@ -3,7 +3,7 @@ title: SwiftlyInject
 ---
 
 ```csharp
-[AttributeUsage(AttributeTargets.Field)]
+[AttributeUsage(AttributeTargets.Property|AttributeTargets.Field)]
 public class SwiftlyInject : Attribute
 ```
 
