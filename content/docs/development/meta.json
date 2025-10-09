@@ -3,13 +3,17 @@
     "getting-started",
     "swiftly-core",
     "using-attributes",
+    "commands",
     "entity",
     "game-events",
     "core-events",
     "netmessages",
+    "menus",
     "convars",
     "native-functions-and-hooks",
     "scheduler",
+    "permissions",
+    "profiler",
     "database",
     "soundevents"
   ]

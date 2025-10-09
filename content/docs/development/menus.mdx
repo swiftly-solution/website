@@ -1,0 +1,216 @@
+---
+title: Menus
+---
+
+## Creating a Menu
+
+Use `Core.Menus.CreateMenu` to create a new menu instance.
+
+```csharp
+IMenu menu = Core.Menus.CreateMenu("Menu Title", freezePlayer: true, hasSound: true, canExit: true);
+```
+
+Parameters:
+- `title`: The title of the menu
+- `freezePlayer`: Whether to freeze the player while the menu is open
+- `hasSound`: Whether the menu has sound effects
+- `canExit`: Whether the menu can be exited
+
+## Opening and Closing Menus
+
+### Open a Menu
+
+```csharp
+Core.Menus.OpenMenu(player, menu);
+```
+
+### Close a Menu
+
+```csharp
+Core.Menus.CloseMenu(player);
+```
+
+### Open a Submenu
+
+```csharp
+Core.Menus.OpenSubMenu(player, submenu);
+```
+
+This will close the current menu and open the submenu.
+
+## Menu Options
+
+### Button Option
+
+A simple button that executes a callback when selected.
+
+```csharp
+menu.AddOption("Click me", (player, option, menu) => {
+    player.PrintToChat("Button clicked!");
+});
+```
+
+### Boolean Option
+
+A toggle option that can be true or false.
+
+```csharp
+menu.AddBoolOption("Enable feature", defaultValue: true, (player, option, menu) => {
+    bool isEnabled = (bool)option.Value;
+    player.PrintToChat($"Feature is now {(isEnabled ? "enabled" : "disabled")}");
+});
+```
+
+### Input Option
+
+An option that prompts the player for text input.
+
+```csharp
+menu.AddInputOption(
+    display: "Enter your name",
+    placeholder: "Name",
+    inputRequestMessage: "Please enter your name:",
+    onInput: (player, option, menu, input) => {
+        player.PrintToChat($"You entered: {input}");
+    }
+);
+```
+
+### Slider Option
+
+An option that allows selecting from a list of values.
+
+```csharp
+var values = new List<object> { "Easy", "Medium", "Hard", "Expert" };
+menu.AddSliderOption(
+    display: "Difficulty",
+    values: values,
+    defaultValue: "Medium",
+    displayItems: 3,
+    onSlide: (player, option, menu, index, value) => {
+        player.PrintToChat($"Difficulty set to: {value}");
+    }
+);
+```
+
+## Menu State
+
+### Check if Menu is Open
+
+```csharp
+bool isOpen = Core.Menus.IsMenuOpen(player);
+```
+
+### Get Current Menu
+
+```csharp
+IMenu? currentMenu = Core.Menus.GetCurrentMenu(player);
+```
+
+### Get Player from Menu
+
+```csharp
+IPlayer? player = Core.Menus.GetPlayerFromMenu(menu);
+```
+
+## Input State Management
+
+For custom input handling, you can set an input state callback:
+
+```csharp
+Core.Menus.SetInputState(player, (player, option, menu, input) => {
+    // Handle custom input
+});
+
+bool hasInputState = Core.Menus.HasInputState(player);
+var inputStateCallback = Core.Menus.GetInputState(player);
+```
+
+## Menu Events
+
+Subscribe to menu events to track when menus are opened or closed.
+
+```csharp
+Core.Menus.OnMenuOpened += (player, menu) => {
+    Console.WriteLine($"Menu opened for {player.Name}");
+};
+
+Core.Menus.OnMenuClosed += (player, menu) => {
+    Console.WriteLine($"Menu closed for {player.Name}");
+};
+```
+
+## Menu Properties
+
+You can customize various menu properties:
+
+```csharp
+menu.Title = "New Title";
+menu.MaxTitleLength = 32;
+menu.FreezePlayer = true;
+menu.HasSound = true;
+menu.CanExit = true;
+menu.Kind = MenuType.CenterMenu;
+menu.Color = new Color(255, 255, 255, 255);
+```
+
+## Advanced Features
+
+### Disabled Options
+
+You can disable options to make them non-interactive:
+
+```csharp
+var option = menu.AddOption("Disabled option", null, defaultDisabled: true);
+```
+
+Or dynamically:
+
+```csharp
+option.Disabled = true;
+```
+
+### Navigation
+
+Change the current position in the menu:
+
+```csharp
+menu.ChangePosition(1);  // Move forward
+menu.ChangePosition(-1); // Move backward
+```
+
+## Complete Example
+
+```csharp
+// Create a settings menu
+IMenu settingsMenu = Core.Menus.CreateMenu("Settings", freezePlayer: true, hasSound: true, canExit: true);
+
+// Add a boolean option
+settingsMenu.AddBoolOption("Enable HUD", defaultValue: true, (player, option, menu) => {
+    bool enabled = (bool)option.Value;
+    player.PrintToChat($"HUD {(enabled ? "enabled" : "disabled")}");
+});
+
+// Add a slider option
+var volumes = new List<object> { 0, 25, 50, 75, 100 };
+settingsMenu.AddSliderOption("Volume", volumes, defaultValue: 50, displayItems: 3, (player, option, menu, index, value) => {
+    player.PrintToChat($"Volume set to: {value}%");
+});
+
+// Add an input option
+settingsMenu.AddInputOption("Set nickname", "Nickname", "Enter your nickname:", (player, option, menu, input) => {
+    player.PrintToChat($"Nickname set to: {input}");
+});
+
+// Add a button to close the menu
+settingsMenu.AddOption("Close", (player, option, menu) => {
+    Core.Menus.CloseMenu(player);
+});
+
+// Open the menu for a player
+Core.Menus.OpenMenu(player, settingsMenu);
+```
+
+## Reference
+
+See [IMenuManager](/docs/api/shared/menus/imenumanager), [IMenu](/docs/api/shared/menus/imenu), and [IMenuOption](/docs/api/shared/menus/imenuoption) for more details.
