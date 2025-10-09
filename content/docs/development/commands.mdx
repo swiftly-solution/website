@@ -83,7 +83,7 @@ public void OnInfoCommand(ICommandContext context)
     if (context.IsSentByPlayer)
     {
         var player = context.Sender!;
-        context.Reply($"You are {player.Name}");
+        context.Reply($"You are {player.Controller.PlayerName}");
     }
     else
     {
@@ -145,7 +145,7 @@ Hook into all client commands to intercept or modify behavior:
 [ClientCommandHookHandler]
 public HookResult OnClientCommand(int playerId, string commandLine)
 {
-    var player = Core.PlayerManager.GetPlayerByIndex(playerId);
+    var player = Core.PlayerManager.GetPlayer(playerId);
 
     if (commandLine.StartsWith("say"))
     {
@@ -183,7 +183,7 @@ Hook into player chat messages:
 [ClientChatHookHandler]
 public HookResult OnClientChat(int playerId, string text, bool teamonly)
 {
-    var player = Core.PlayerManager.GetPlayerByIndex(playerId);
+    var player = Core.PlayerManager.GetPlayer(playerId);
 
     if (text.Contains("badword"))
     {
@@ -279,7 +279,7 @@ public class AdminCommands
 [ClientChatHookHandler]
 public HookResult OnChatFilter(int playerId, string text, bool teamonly)
 {
-    var player = Core.PlayerManager.GetPlayerByIndex(playerId);
+    var player = Core.PlayerManager.GetPlayer(playerId);
     if (player == null) return HookResult.Continue;
 
     // Block spam (messages too short)
@@ -301,7 +301,7 @@ public HookResult OnChatFilter(int playerId, string text, bool teamonly)
     }
 
     // Log all chat
-    Console.WriteLine($"[{(teamonly ? "TEAM" : "ALL")}] {player.Name}: {text}");
+    Console.WriteLine($"[{(teamonly ? "TEAM" : "ALL")}] {player.Controller.PlayerName}: {text}");
 
     return HookResult.Continue;
 }
