@@ -18,6 +18,16 @@ string BasePath { get; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+**BasePathExists** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L53)
+
+```csharp
+bool BasePathExists { get; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 **Manager** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L48)
 
 ```csharp

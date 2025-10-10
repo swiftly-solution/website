@@ -10,7 +10,7 @@ public interface EventAmmoPickup : IGameEvent<EventAmmoPickup>
 
 ## Properties
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L47)
+**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L51)
 
 ```csharp
 int Index { get; set; }
@@ -20,7 +20,7 @@ int Index { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Item** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L40)
+**Item** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L44)
 
 ```csharp
 string Item { get; set; }
@@ -30,7 +30,7 @@ string Item { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L33)
+**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L37)
 
 ```csharp
 int UserId { get; set; }
@@ -40,7 +40,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L21)
+**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L22)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -50,7 +50,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L27)
+**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L28)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -59,4 +59,14 @@ CCSPlayerPawn UserIdPawn { get; }
 #### Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
+
+**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventAmmoPickup.cs#L31)
+
+```csharp
+IPlayer UserIdPlayer { get; }
+```
+
+#### Property Value
+
+- [IPlayer](/docs/api/shared/players/iplayer)
 

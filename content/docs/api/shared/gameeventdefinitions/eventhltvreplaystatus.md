@@ -10,7 +10,7 @@ public interface EventHltvReplayStatus : IGameEvent<EventHltvReplayStatus>
 
 ## Properties
 
-**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvReplayStatus.cs#L22)
+**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvReplayStatus.cs#L23)
 
 ```csharp
 int Reason { get; set; }

@@ -7,9 +7,12 @@ title: GameEventDefinitions
 - [EventAchievementEvent](/docs/api/shared/gameeventdefinitions/eventachievementevent) - Event "achievement_event"
 - [EventAchievementInfoLoaded](/docs/api/shared/gameeventdefinitions/eventachievementinfoloaded) - Event "achievement_info_loaded"
 - [EventAchievementWriteFailed](/docs/api/shared/gameeventdefinitions/eventachievementwritefailed) - Event "achievement_write_failed"
+- [EventAddBulletHitMarker](/docs/api/shared/gameeventdefinitions/eventaddbullethitmarker) - Event "add_bullet_hit_marker"
+- [EventAddPlayerSonarIcon](/docs/api/shared/gameeventdefinitions/eventaddplayersonaricon) - Event "add_player_sonar_icon"
 - [EventAmmoPickup](/docs/api/shared/gameeventdefinitions/eventammopickup) - Event "ammo_pickup"
 - [EventAmmoRefill](/docs/api/shared/gameeventdefinitions/eventammorefill) - Event "ammo_refill"
 - [EventAnnouncePhaseEnd](/docs/api/shared/gameeventdefinitions/eventannouncephaseend) - Event "announce_phase_end"
+- [EventBeginNewMatch](/docs/api/shared/gameeventdefinitions/eventbeginnewmatch) - Event "begin_new_match"
 - [EventBombAbortdefuse](/docs/api/shared/gameeventdefinitions/eventbombabortdefuse) - Event "bomb_abortdefuse"
 - [EventBombAbortplant](/docs/api/shared/gameeventdefinitions/eventbombabortplant) - Event "bomb_abortplant"
 - [EventBombBeep](/docs/api/shared/gameeventdefinitions/eventbombbeep) - Event "bomb_beep"
@@ -34,6 +37,7 @@ title: GameEventDefinitions
 - [EventCartUpdated](/docs/api/shared/gameeventdefinitions/eventcartupdated) - Event "cart_updated"
 - [EventChoppersIncomingWarning](/docs/api/shared/gameeventdefinitions/eventchoppersincomingwarning) - Event "choppers_incoming_warning"
 - [EventClientDisconnect](/docs/api/shared/gameeventdefinitions/eventclientdisconnect) - Event "client_disconnect"
+- [EventClientLoadoutChanged](/docs/api/shared/gameeventdefinitions/eventclientloadoutchanged) - Event "client_loadout_changed"
 - [EventClientsideLessonClosed](/docs/api/shared/gameeventdefinitions/eventclientsidelessonclosed) - Event "clientside_lesson_closed"
 - [EventClientsideReloadCustomEcon](/docs/api/shared/gameeventdefinitions/eventclientsidereloadcustomecon) - Event "clientside_reload_custom_econ"
 - [EventCsGameDisconnected](/docs/api/shared/gameeventdefinitions/eventcsgamedisconnected) - Event "cs_game_disconnected"
@@ -54,8 +58,12 @@ title: GameEventDefinitions
 - [EventDemoStart](/docs/api/shared/gameeventdefinitions/eventdemostart) - Event "demo_start"
 - [EventDemoStop](/docs/api/shared/gameeventdefinitions/eventdemostop) - Event "demo_stop"
 - [EventDifficultyChanged](/docs/api/shared/gameeventdefinitions/eventdifficultychanged) - Event "difficulty_changed"
+- [EventDmBonusWeaponStart](/docs/api/shared/gameeventdefinitions/eventdmbonusweaponstart) - Event "dm_bonus_weapon_start"
+- [EventDoorBreak](/docs/api/shared/gameeventdefinitions/eventdoorbreak) - Event "door_break"
 - [EventDoorClose](/docs/api/shared/gameeventdefinitions/eventdoorclose) - Event "door_close"
+- [EventDoorClosed](/docs/api/shared/gameeventdefinitions/eventdoorclosed) - Event "door_closed"
 - [EventDoorMoving](/docs/api/shared/gameeventdefinitions/eventdoormoving) - Event "door_moving"
+- [EventDoorOpen](/docs/api/shared/gameeventdefinitions/eventdooropen) - Event "door_open"
 - [EventDroneAboveRoof](/docs/api/shared/gameeventdefinitions/eventdroneaboveroof) - Event "drone_above_roof"
 - [EventDroneCargoDetached](/docs/api/shared/gameeventdefinitions/eventdronecargodetached) - Event "drone_cargo_detached"
 - [EventDroneDispatched](/docs/api/shared/gameeventdefinitions/eventdronedispatched) - Event "drone_dispatched"
@@ -64,6 +72,8 @@ title: GameEventDefinitions
 - [EventDynamicShadowLightChanged](/docs/api/shared/gameeventdefinitions/eventdynamicshadowlightchanged) - Event "dynamic_shadow_light_changed"
 - [EventDzItemInteraction](/docs/api/shared/gameeventdefinitions/eventdziteminteraction) - Event "dz_item_interaction"
 - [EventEnableRestartVoting](/docs/api/shared/gameeventdefinitions/eventenablerestartvoting) - Event "enable_restart_voting"
+- [EventEndmatchCmmStartRevealItems](/docs/api/shared/gameeventdefinitions/eventendmatchcmmstartrevealitems) - Event "endmatch_cmm_start_reveal_items"
+- [EventEndmatchMapvoteSelectingMap](/docs/api/shared/gameeventdefinitions/eventendmatchmapvoteselectingmap) - Event "endmatch_mapvote_selecting_map"
 - [EventEnterBombzone](/docs/api/shared/gameeventdefinitions/evententerbombzone) - Event "enter_bombzone"
 - [EventEnterBuyzone](/docs/api/shared/gameeventdefinitions/evententerbuyzone) - Event "enter_buyzone"
 - [EventEnterRescueZone](/docs/api/shared/gameeventdefinitions/evententerrescuezone) - Event "enter_rescue_zone"
@@ -77,11 +87,17 @@ title: GameEventDefinitions
 - [EventFirstbombsIncomingWarning](/docs/api/shared/gameeventdefinitions/eventfirstbombsincomingwarning) - Event "firstbombs_incoming_warning"
 - [EventFlareIgniteNpc](/docs/api/shared/gameeventdefinitions/eventflareignitenpc) - Event "flare_ignite_npc"
 - [EventFlashbangDetonate](/docs/api/shared/gameeventdefinitions/eventflashbangdetonate) - Event "flashbang_detonate"
+- [EventGameEnd](/docs/api/shared/gameeventdefinitions/eventgameend) - Event "game_end"
+a game ended
+- [EventGameInit](/docs/api/shared/gameeventdefinitions/eventgameinit) - Event "game_init"
+sent when a new game is started
 - [EventGameMessage](/docs/api/shared/gameeventdefinitions/eventgamemessage) - Event "game_message"
 a message send by game logic to everyone
 - [EventGameNewmap](/docs/api/shared/gameeventdefinitions/eventgamenewmap) - Event "game_newmap"
 send when new map is completely loaded
 - [EventGamePhaseChanged](/docs/api/shared/gameeventdefinitions/eventgamephasechanged) - Event "game_phase_changed"
+- [EventGameStart](/docs/api/shared/gameeventdefinitions/eventgamestart) - Event "game_start"
+a new game starts
 - [EventGameinstructorDraw](/docs/api/shared/gameeventdefinitions/eventgameinstructordraw) - Event "gameinstructor_draw"
 - [EventGameinstructorNodraw](/docs/api/shared/gameeventdefinitions/eventgameinstructornodraw) - Event "gameinstructor_nodraw"
 - [EventGameuiHidden](/docs/api/shared/gameeventdefinitions/eventgameuihidden) - Event "gameui_hidden"
@@ -174,6 +190,7 @@ a new client connected
 player has sent final message in the connection sequence
 - [EventPlayerDeath](/docs/api/shared/gameeventdefinitions/eventplayerdeath) - Event "player_death"
 a game event, name may be 32 charaters long
+- [EventPlayerDecal](/docs/api/shared/gameeventdefinitions/eventplayerdecal) - Event "player_decal"
 - [EventPlayerDisconnect](/docs/api/shared/gameeventdefinitions/eventplayerdisconnect) - Event "player_disconnect"
 a client was disconnected
 - [EventPlayerFalldamage](/docs/api/shared/gameeventdefinitions/eventplayerfalldamage) - Event "player_falldamage"
@@ -189,6 +206,10 @@ a player changed his name
 - [EventPlayerPingStop](/docs/api/shared/gameeventdefinitions/eventplayerpingstop) - Event "player_ping_stop"
 - [EventPlayerRadio](/docs/api/shared/gameeventdefinitions/eventplayerradio) - Event "player_radio"
 - [EventPlayerResetVote](/docs/api/shared/gameeventdefinitions/eventplayerresetvote) - Event "player_reset_vote"
+- [EventPlayerScore](/docs/api/shared/gameeventdefinitions/eventplayerscore) - Event "player_score"
+players scores changed
+- [EventPlayerShoot](/docs/api/shared/gameeventdefinitions/eventplayershoot) - Event "player_shoot"
+player shoot his weapon
 - [EventPlayerSound](/docs/api/shared/gameeventdefinitions/eventplayersound) - Event "player_sound"
 - [EventPlayerSpawn](/docs/api/shared/gameeventdefinitions/eventplayerspawn) - Event "player_spawn"
 player spawned in game
@@ -196,10 +217,21 @@ player spawned in game
 - [EventPlayerStatsUpdated](/docs/api/shared/gameeventdefinitions/eventplayerstatsupdated) - Event "player_stats_updated"
 - [EventPlayerTeam](/docs/api/shared/gameeventdefinitions/eventplayerteam) - Event "player_team"
 - [EventRagdollDissolved](/docs/api/shared/gameeventdefinitions/eventragdolldissolved) - Event "ragdoll_dissolved"
+- [EventReadGameTitledata](/docs/api/shared/gameeventdefinitions/eventreadgametitledata) - Event "read_game_titledata"
+read user titledata from profile
 - [EventRepostXboxAchievements](/docs/api/shared/gameeventdefinitions/eventrepostxboxachievements) - Event "repost_xbox_achievements"
+- [EventResetGameTitledata](/docs/api/shared/gameeventdefinitions/eventresetgametitledata) - Event "reset_game_titledata"
+reset user titledata; do not automatically write profile
+- [EventRoundAnnounceFinal](/docs/api/shared/gameeventdefinitions/eventroundannouncefinal) - Event "round_announce_final"
+- [EventRoundAnnounceLastRoundHalf](/docs/api/shared/gameeventdefinitions/eventroundannouncelastroundhalf) - Event "round_announce_last_round_half"
+- [EventRoundAnnounceMatchPoint](/docs/api/shared/gameeventdefinitions/eventroundannouncematchpoint) - Event "round_announce_match_point"
+- [EventRoundAnnounceMatchStart](/docs/api/shared/gameeventdefinitions/eventroundannouncematchstart) - Event "round_announce_match_start"
+- [EventRoundAnnounceWarmup](/docs/api/shared/gameeventdefinitions/eventroundannouncewarmup) - Event "round_announce_warmup"
 - [EventRoundEnd](/docs/api/shared/gameeventdefinitions/eventroundend) - Event "round_end"
+- [EventRoundEndUploadStats](/docs/api/shared/gameeventdefinitions/eventroundenduploadstats) - Event "round_end_upload_stats"
 - [EventRoundFreezeEnd](/docs/api/shared/gameeventdefinitions/eventroundfreezeend) - Event "round_freeze_end"
 - [EventRoundMvp](/docs/api/shared/gameeventdefinitions/eventroundmvp) - Event "round_mvp"
+- [EventRoundOfficiallyEnded](/docs/api/shared/gameeventdefinitions/eventroundofficiallyended) - Event "round_officially_ended"
 - [EventRoundPoststart](/docs/api/shared/gameeventdefinitions/eventroundpoststart) - Event "round_poststart"
 sent after all other round restart actions
 - [EventRoundPrestart](/docs/api/shared/gameeventdefinitions/eventroundprestart) - Event "round_prestart"
@@ -207,6 +239,7 @@ sent before all other round restart actions
 - [EventRoundStart](/docs/api/shared/gameeventdefinitions/eventroundstart) - Event "round_start"
 - [EventRoundStartPostNav](/docs/api/shared/gameeventdefinitions/eventroundstartpostnav) - Event "round_start_post_nav"
 - [EventRoundStartPreEntity](/docs/api/shared/gameeventdefinitions/eventroundstartpreentity) - Event "round_start_pre_entity"
+- [EventRoundTimeWarning](/docs/api/shared/gameeventdefinitions/eventroundtimewarning) - Event "round_time_warning"
 - [EventSeasoncoinLevelup](/docs/api/shared/gameeventdefinitions/eventseasoncoinlevelup) - Event "seasoncoin_levelup"
 - [EventServerCvar](/docs/api/shared/gameeventdefinitions/eventservercvar) - Event "server_cvar"
 a server console var has changed
@@ -233,6 +266,7 @@ send once a server starts
 - [EventStartHalftime](/docs/api/shared/gameeventdefinitions/eventstarthalftime) - Event "start_halftime"
 - [EventStartVote](/docs/api/shared/gameeventdefinitions/eventstartvote) - Event "start_vote"
 - [EventStorePricesheetUpdated](/docs/api/shared/gameeventdefinitions/eventstorepricesheetupdated) - Event "store_pricesheet_updated"
+- [EventSurvivalAnnouncePhase](/docs/api/shared/gameeventdefinitions/eventsurvivalannouncephase) - Event "survival_announce_phase"
 - [EventSurvivalNoRespawnsFinal](/docs/api/shared/gameeventdefinitions/eventsurvivalnorespawnsfinal) - Event "survival_no_respawns_final"
 - [EventSurvivalNoRespawnsWarning](/docs/api/shared/gameeventdefinitions/eventsurvivalnorespawnswarning) - Event "survival_no_respawns_warning"
 - [EventSurvivalParadropBreak](/docs/api/shared/gameeventdefinitions/eventsurvivalparadropbreak) - Event "survival_paradrop_break"
@@ -253,21 +287,33 @@ emits a sound to everyone on a team
 round restart
 - [EventTournamentReward](/docs/api/shared/gameeventdefinitions/eventtournamentreward) - Event "tournament_reward"
 - [EventTrialTimeExpired](/docs/api/shared/gameeventdefinitions/eventtrialtimeexpired) - Event "trial_time_expired"
+- [EventUgcFileDownloadFinished](/docs/api/shared/gameeventdefinitions/eventugcfiledownloadfinished) - Event "ugc_file_download_finished"
+- [EventUgcFileDownloadStart](/docs/api/shared/gameeventdefinitions/eventugcfiledownloadstart) - Event "ugc_file_download_start"
+- [EventUgcMapDownloadError](/docs/api/shared/gameeventdefinitions/eventugcmapdownloaderror) - Event "ugc_map_download_error"
+- [EventUgcMapInfoReceived](/docs/api/shared/gameeventdefinitions/eventugcmapinforeceived) - Event "ugc_map_info_received"
+- [EventUgcMapUnsubscribed](/docs/api/shared/gameeventdefinitions/eventugcmapunsubscribed) - Event "ugc_map_unsubscribed"
 - [EventUpdateMatchmakingStats](/docs/api/shared/gameeventdefinitions/eventupdatematchmakingstats) - Event "update_matchmaking_stats"
 - [EventUserDataDownloaded](/docs/api/shared/gameeventdefinitions/eventuserdatadownloaded) - Event "user_data_downloaded"
 fired when achievements/stats are downloaded from Steam or XBox Live
 - [EventVipEscaped](/docs/api/shared/gameeventdefinitions/eventvipescaped) - Event "vip_escaped"
 - [EventVipKilled](/docs/api/shared/gameeventdefinitions/eventvipkilled) - Event "vip_killed"
+- [EventVoteCast](/docs/api/shared/gameeventdefinitions/eventvotecast) - Event "vote_cast"
 - [EventVoteCastNo](/docs/api/shared/gameeventdefinitions/eventvotecastno) - Event "vote_cast_no"
 - [EventVoteCastYes](/docs/api/shared/gameeventdefinitions/eventvotecastyes) - Event "vote_cast_yes"
 - [EventVoteChanged](/docs/api/shared/gameeventdefinitions/eventvotechanged) - Event "vote_changed"
+- [EventVoteEnded](/docs/api/shared/gameeventdefinitions/eventvoteended) - Event "vote_ended"
 - [EventVoteFailed](/docs/api/shared/gameeventdefinitions/eventvotefailed) - Event "vote_failed"
+- [EventVoteOptions](/docs/api/shared/gameeventdefinitions/eventvoteoptions) - Event "vote_options"
 - [EventVotePassed](/docs/api/shared/gameeventdefinitions/eventvotepassed) - Event "vote_passed"
 - [EventVoteStarted](/docs/api/shared/gameeventdefinitions/eventvotestarted) - Event "vote_started"
+- [EventWarmupEnd](/docs/api/shared/gameeventdefinitions/eventwarmupend) - Event "warmup_end"
 - [EventWeaponFire](/docs/api/shared/gameeventdefinitions/eventweaponfire) - Event "weapon_fire"
 - [EventWeaponFireOnEmpty](/docs/api/shared/gameeventdefinitions/eventweaponfireonempty) - Event "weapon_fire_on_empty"
 - [EventWeaponReload](/docs/api/shared/gameeventdefinitions/eventweaponreload) - Event "weapon_reload"
 - [EventWeaponZoom](/docs/api/shared/gameeventdefinitions/eventweaponzoom) - Event "weapon_zoom"
 - [EventWeaponZoomRifle](/docs/api/shared/gameeventdefinitions/eventweaponzoomrifle) - Event "weapon_zoom_rifle"
+- [EventWeaponhudSelection](/docs/api/shared/gameeventdefinitions/eventweaponhudselection) - Event "weaponhud_selection"
+- [EventWriteGameTitledata](/docs/api/shared/gameeventdefinitions/eventwritegametitledata) - Event "write_game_titledata"
+write user titledata in profile
 - [EventWriteProfileData](/docs/api/shared/gameeventdefinitions/eventwriteprofiledata) - Event "write_profile_data"
 

@@ -10,7 +10,7 @@ public interface EventServerSpawn : IGameEvent<EventServerSpawn>
 
 ## Properties
 
-**AddonName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L58)
+**AddonName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L59)
 
 ```csharp
 string AddonName { get; set; }
@@ -20,7 +20,7 @@ string AddonName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Address** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L30)
+**Address** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L31)
 
 ```csharp
 string Address { get; set; }
@@ -30,7 +30,7 @@ string Address { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Dedicated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L79)
+**Dedicated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L80)
 
 ```csharp
 bool Dedicated { get; set; }
@@ -40,7 +40,7 @@ bool Dedicated { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Game** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L44)
+**Game** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L45)
 
 ```csharp
 string Game { get; set; }
@@ -50,7 +50,7 @@ string Game { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Hostname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L23)
+**Hostname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L24)
 
 ```csharp
 string Hostname { get; set; }
@@ -60,7 +60,7 @@ string Hostname { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L51)
+**MapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L52)
 
 ```csharp
 string MapName { get; set; }
@@ -70,7 +70,7 @@ string MapName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MaxPlayers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L65)
+**MaxPlayers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L66)
 
 ```csharp
 int MaxPlayers { get; set; }
@@ -80,7 +80,7 @@ int MaxPlayers { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Os** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L72)
+**Os** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L73)
 
 ```csharp
 string Os { get; set; }
@@ -90,7 +90,7 @@ string Os { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Password** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L86)
+**Password** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L87)
 
 ```csharp
 bool Password { get; set; }
@@ -100,7 +100,7 @@ bool Password { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Port** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L37)
+**Port** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerSpawn.cs#L38)
 
 ```csharp
 short Port { get; set; }

@@ -10,7 +10,7 @@ public interface EventBrokenBreakable : IGameEvent<EventBrokenBreakable>
 
 ## Properties
 
-**EntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L20)
+**EntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L21)
 
 ```csharp
 int EntIndex { get; set; }
@@ -20,7 +20,7 @@ int EntIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L45)
+**Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L49)
 
 ```csharp
 byte Material { get; set; }
@@ -30,7 +30,7 @@ byte Material { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L38)
+**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L42)
 
 ```csharp
 int UserId { get; set; }
@@ -40,7 +40,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L26)
+**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L27)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -50,7 +50,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L32)
+**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L33)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -59,4 +59,14 @@ CCSPlayerPawn UserIdPawn { get; }
 #### Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
+
+**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L36)
+
+```csharp
+IPlayer UserIdPlayer { get; }
+```
+
+#### Property Value
+
+- [IPlayer](/docs/api/shared/players/iplayer)
 

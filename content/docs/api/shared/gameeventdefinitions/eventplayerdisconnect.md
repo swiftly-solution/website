@@ -10,7 +10,7 @@ public interface EventPlayerDisconnect : IGameEvent<EventPlayerDisconnect>
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L51)
+**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L56)
 
 ```csharp
 string Name { get; set; }
@@ -20,7 +20,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NetworkID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L58)
+**NetworkID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L63)
 
 ```csharp
 string NetworkID { get; set; }
@@ -30,7 +30,7 @@ string NetworkID { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PlayerID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L70)
+**PlayerID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L75)
 
 ```csharp
 short PlayerID { get; set; }
@@ -40,7 +40,7 @@ short PlayerID { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L44)
+**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L49)
 
 ```csharp
 short Reason { get; set; }
@@ -50,7 +50,7 @@ short Reason { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L37)
+**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L42)
 
 ```csharp
 int UserId { get; set; }
@@ -60,7 +60,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L23)
+**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L24)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -70,7 +70,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L30)
+**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L31)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -80,7 +80,17 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**XuID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L65)
+**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L35)
+
+```csharp
+IPlayer UserIdPlayer { get; }
+```
+
+#### Property Value
+
+- [IPlayer](/docs/api/shared/players/iplayer)
+
+**XuID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerDisconnect.cs#L70)
 
 ```csharp
 ulong XuID { get; set; }

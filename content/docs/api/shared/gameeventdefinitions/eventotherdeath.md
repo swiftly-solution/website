@@ -10,7 +10,7 @@ public interface EventOtherDeath : IGameEvent<EventOtherDeath>
 
 ## Properties
 
-**Attacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L36)
+**Attacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L37)
 
 ```csharp
 short Attacker { get; set; }
@@ -20,7 +20,7 @@ short Attacker { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**AttackerBlind** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L97)
+**AttackerBlind** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L98)
 
 ```csharp
 bool AttackerBlind { get; set; }
@@ -30,7 +30,7 @@ bool AttackerBlind { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Headshot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L69)
+**Headshot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L70)
 
 ```csharp
 bool Headshot { get; set; }
@@ -40,7 +40,7 @@ bool Headshot { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NoScope** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L83)
+**NoScope** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L84)
 
 ```csharp
 bool NoScope { get; set; }
@@ -50,7 +50,7 @@ bool NoScope { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OtherID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L22)
+**OtherID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L23)
 
 ```csharp
 short OtherID { get; set; }
@@ -60,7 +60,7 @@ short OtherID { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**OtherType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L29)
+**OtherType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L30)
 
 ```csharp
 string OtherType { get; set; }
@@ -70,7 +70,7 @@ string OtherType { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Penetrated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L76)
+**Penetrated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L77)
 
 ```csharp
 short Penetrated { get; set; }
@@ -80,7 +80,7 @@ short Penetrated { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**ThruSmoke** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L90)
+**ThruSmoke** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L91)
 
 ```csharp
 bool ThruSmoke { get; set; }
@@ -90,7 +90,7 @@ bool ThruSmoke { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Weapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L43)
+**Weapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L44)
 
 ```csharp
 string Weapon { get; set; }
@@ -100,7 +100,7 @@ string Weapon { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**WeaponFauxitemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L57)
+**WeaponFauxitemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L58)
 
 ```csharp
 string WeaponFauxitemid { get; set; }
@@ -110,7 +110,7 @@ string WeaponFauxitemid { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**WeaponItemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L50)
+**WeaponItemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L51)
 
 ```csharp
 string WeaponItemid { get; set; }
@@ -120,7 +120,7 @@ string WeaponItemid { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**WeaponOriginalownerXuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L62)
+**WeaponOriginalownerXuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventOtherDeath.cs#L63)
 
 ```csharp
 string WeaponOriginalownerXuid { get; set; }

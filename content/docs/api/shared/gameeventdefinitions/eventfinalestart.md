@@ -10,7 +10,7 @@ public interface EventFinaleStart : IGameEvent<EventFinaleStart>
 
 ## Properties
 
-**Rushes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventFinaleStart.cs#L20)
+**Rushes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventFinaleStart.cs#L21)
 
 ```csharp
 short Rushes { get; set; }

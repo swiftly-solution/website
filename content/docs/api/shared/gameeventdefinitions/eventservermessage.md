@@ -10,7 +10,7 @@ public interface EventServerMessage : IGameEvent<EventServerMessage>
 
 ## Properties
 
-**Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerMessage.cs#L23)
+**Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerMessage.cs#L24)
 
 ```csharp
 string Text { get; set; }

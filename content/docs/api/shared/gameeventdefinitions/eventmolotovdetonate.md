@@ -10,7 +10,7 @@ public interface EventMolotovDetonate : IGameEvent<EventMolotovDetonate>
 
 ## Properties
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L33)
+**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L37)
 
 ```csharp
 int UserId { get; set; }
@@ -20,7 +20,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L21)
+**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L22)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -30,7 +30,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L27)
+**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L28)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -40,7 +40,17 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L38)
+**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L31)
+
+```csharp
+IPlayer UserIdPlayer { get; }
+```
+
+#### Property Value
+
+- [IPlayer](/docs/api/shared/players/iplayer)
+
+**X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L42)
 
 ```csharp
 float X { get; set; }
@@ -50,7 +60,7 @@ float X { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L43)
+**Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L47)
 
 ```csharp
 float Y { get; set; }
@@ -60,7 +70,7 @@ float Y { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L48)
+**Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventMolotovDetonate.cs#L52)
 
 ```csharp
 float Z { get; set; }

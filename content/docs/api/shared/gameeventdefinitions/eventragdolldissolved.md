@@ -10,7 +10,7 @@ public interface EventRagdollDissolved : IGameEvent<EventRagdollDissolved>
 
 ## Properties
 
-**EntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRagdollDissolved.cs#L20)
+**EntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRagdollDissolved.cs#L21)
 
 ```csharp
 int EntIndex { get; set; }

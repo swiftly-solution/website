@@ -10,7 +10,7 @@ public interface EventHostnameChanged : IGameEvent<EventHostnameChanged>
 
 ## Properties
 
-**Hostname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHostnameChanged.cs#L20)
+**Hostname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHostnameChanged.cs#L21)
 
 ```csharp
 string Hostname { get; set; }

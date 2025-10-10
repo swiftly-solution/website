@@ -44,7 +44,7 @@ IEnumerable<IPlayer> GetAllPlayers()
 
 #### Returns
 
-- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)<[IPlayer](/docs/api/shared/services/iplayer)> - An enumerable collection of <xref href="SwiftlyS2.Shared.Services.IPlayer" data-throw-if-not-resolved="false"></xref> instances representing all online players.
+- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)<[IPlayer](/docs/api/shared/players/iplayer)> - An enumerable collection of <xref href="SwiftlyS2.Shared.Players.IPlayer" data-throw-if-not-resolved="false"></xref> instances representing all online players.
 
 **GetPlayer(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L44)
 
@@ -58,7 +58,7 @@ IPlayer GetPlayer(int playerid)
 
 #### Returns
 
-- [IPlayer](/docs/api/shared/services/iplayer) - An <xref href="SwiftlyS2.Shared.Services.IPlayer" data-throw-if-not-resolved="false"></xref> instance representing the player with the specified ID, or <code>null</code> if no such
+- [IPlayer](/docs/api/shared/players/iplayer) - An <xref href="SwiftlyS2.Shared.Players.IPlayer" data-throw-if-not-resolved="false"></xref> instance representing the player with the specified ID, or <code>null</code> if no such
     player exists.
 
 **IsPlayerOnline(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L9)
@@ -83,7 +83,7 @@ void SendMessage(MessageType kind, string message)
 
 #### Parameters
 
-- **kind**: [MessageType](/docs/api/shared/services/messagetype) - The type of message display.
+- **kind**: [MessageType](/docs/api/shared/players/messagetype) - The type of message display.
 - **message**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The text content to send to players.
 
 **ShouldBlockTransmitEntity(int, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L31)

@@ -10,7 +10,7 @@ public interface EventInstructorServerHintCreate : IGameEvent<EventInstructorSer
 
 ## Properties
 
-**HintActivatorCaption** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L107)
+**HintActivatorCaption** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L112)
 
 ```csharp
 string HintActivatorCaption { get; set; }
@@ -20,7 +20,7 @@ string HintActivatorCaption { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HintActivatorUserid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L72)
+**HintActivatorUserid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L77)
 
 ```csharp
 int HintActivatorUserid { get; set; }
@@ -30,7 +30,7 @@ int HintActivatorUserid { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HintAllowNodrawTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L149)
+**HintAllowNodrawTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L154)
 
 ```csharp
 bool HintAllowNodrawTarget { get; set; }
@@ -40,7 +40,7 @@ bool HintAllowNodrawTarget { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HintBinding** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L142)
+**HintBinding** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L147)
 
 ```csharp
 string HintBinding { get; set; }
@@ -50,7 +50,7 @@ string HintBinding { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HintCaption** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L100)
+**HintCaption** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L105)
 
 ```csharp
 string HintCaption { get; set; }
@@ -60,7 +60,7 @@ string HintCaption { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HintColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L114)
+**HintColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L119)
 
 ```csharp
 string HintColor { get; set; }
@@ -70,7 +70,7 @@ string HintColor { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HintEntindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L44)
+**HintEntindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L49)
 
 ```csharp
 int HintEntindex { get; set; }
@@ -80,7 +80,7 @@ int HintEntindex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HintFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L135)
+**HintFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L140)
 
 ```csharp
 int HintFlags { get; set; }
@@ -90,7 +90,7 @@ int HintFlags { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HintForcecaption** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L163)
+**HintForcecaption** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L168)
 
 ```csharp
 bool HintForcecaption { get; set; }
@@ -100,7 +100,17 @@ bool HintForcecaption { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HintIconOffscreen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L93)
+**HintGamepadBinding** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L231)
+
+```csharp
+string HintGamepadBinding { get; set; }
+```
+
+#### Property Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+**HintIconOffscreen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L98)
 
 ```csharp
 string HintIconOffscreen { get; set; }
@@ -110,7 +120,7 @@ string HintIconOffscreen { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HintIconOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L121)
+**HintIconOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L126)
 
 ```csharp
 float HintIconOffset { get; set; }
@@ -120,7 +130,7 @@ float HintIconOffset { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HintIconOnscreen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L86)
+**HintIconOnscreen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L91)
 
 ```csharp
 string HintIconOnscreen { get; set; }
@@ -130,7 +140,7 @@ string HintIconOnscreen { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HintLayoutfile** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L184)
+**HintLayoutfile** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L189)
 
 ```csharp
 string HintLayoutfile { get; set; }
@@ -140,7 +150,7 @@ string HintLayoutfile { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HintLocalPlayerOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L170)
+**HintLocalPlayerOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L175)
 
 ```csharp
 bool HintLocalPlayerOnly { get; set; }
@@ -150,7 +160,7 @@ bool HintLocalPlayerOnly { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HintName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L51)
+**HintName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L56)
 
 ```csharp
 string HintName { get; set; }
@@ -160,7 +170,7 @@ string HintName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HintNooffscreen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L156)
+**HintNooffscreen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L161)
 
 ```csharp
 bool HintNooffscreen { get; set; }
@@ -170,7 +180,7 @@ bool HintNooffscreen { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HintRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L128)
+**HintRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L133)
 
 ```csharp
 float HintRange { get; set; }
@@ -180,7 +190,7 @@ float HintRange { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HintReplaceKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L58)
+**HintReplaceKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L63)
 
 ```csharp
 string HintReplaceKey { get; set; }
@@ -190,7 +200,7 @@ string HintReplaceKey { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HintStartSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L177)
+**HintStartSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L182)
 
 ```csharp
 string HintStartSound { get; set; }
@@ -200,7 +210,7 @@ string HintStartSound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HintTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L65)
+**HintTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L70)
 
 ```csharp
 int HintTarget { get; set; }
@@ -210,7 +220,7 @@ int HintTarget { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HintTimeout** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L79)
+**HintTimeout** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L84)
 
 ```csharp
 short HintTimeout { get; set; }
@@ -220,7 +230,7 @@ short HintTimeout { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**HintVrHeightOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L198)
+**HintVrHeightOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L203)
 
 ```csharp
 float HintVrHeightOffset { get; set; }
@@ -230,7 +240,7 @@ float HintVrHeightOffset { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HintVrOffsetX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L205)
+**HintVrOffsetX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L210)
 
 ```csharp
 float HintVrOffsetX { get; set; }
@@ -240,7 +250,7 @@ float HintVrOffsetX { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HintVrOffsetY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L212)
+**HintVrOffsetY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L217)
 
 ```csharp
 float HintVrOffsetY { get; set; }
@@ -250,7 +260,7 @@ float HintVrOffsetY { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HintVrOffsetZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L219)
+**HintVrOffsetZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L224)
 
 ```csharp
 float HintVrOffsetZ { get; set; }
@@ -260,7 +270,7 @@ float HintVrOffsetZ { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HintVrPanelType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L191)
+**HintVrPanelType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L196)
 
 ```csharp
 short HintVrPanelType { get; set; }
@@ -270,7 +280,7 @@ short HintVrPanelType { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L37)
+**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L42)
 
 ```csharp
 int UserId { get; set; }
@@ -280,7 +290,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L23)
+**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L24)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -290,7 +300,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L30)
+**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L31)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -299,4 +309,14 @@ CCSPlayerPawn UserIdPawn { get; }
 #### Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
+
+**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintCreate.cs#L35)
+
+```csharp
+IPlayer UserIdPlayer { get; }
+```
+
+#### Property Value
+
+- [IPlayer](/docs/api/shared/players/iplayer)
 

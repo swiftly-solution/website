@@ -10,7 +10,7 @@ public interface EventShowDeathpanel : IGameEvent<EventShowDeathpanel>
 
 ## Properties
 
-**DamageGiven** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L54)
+**DamageGiven** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L55)
 
 ```csharp
 short DamageGiven { get; set; }
@@ -20,7 +20,7 @@ short DamageGiven { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**DamageTaken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L44)
+**DamageTaken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L45)
 
 ```csharp
 short DamageTaken { get; set; }
@@ -30,7 +30,7 @@ short DamageTaken { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**HitsGiven** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L49)
+**HitsGiven** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L50)
 
 ```csharp
 short HitsGiven { get; set; }
@@ -40,7 +40,7 @@ short HitsGiven { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**HitsTaken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L39)
+**HitsTaken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L40)
 
 ```csharp
 short HitsTaken { get; set; }
@@ -50,7 +50,7 @@ short HitsTaken { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Killer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L29)
+**Killer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L30)
 
 ```csharp
 nint Killer { get; set; }
@@ -60,7 +60,7 @@ nint Killer { get; set; }
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-**KillerController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L34)
+**KillerController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L35)
 
 ```csharp
 int KillerController { get; set; }
@@ -70,7 +70,7 @@ int KillerController { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Victim** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L22)
+**Victim** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowDeathpanel.cs#L23)
 
 ```csharp
 int Victim { get; set; }

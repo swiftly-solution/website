@@ -40,15 +40,15 @@ protected ISwiftlyCore Core { get; }
 
 ## Methods
 
-**ConfigureSharedServices(IServiceCollection)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/BasePlugin.cs#L26)
+**ConfigureSharedInterface(IInterfaceManager)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/BasePlugin.cs#L26)
 
 ```csharp
-public virtual void ConfigureSharedServices(IServiceCollection sharedServices)
+public virtual void ConfigureSharedInterface(IInterfaceManager interfaceManager)
 ```
 
 #### Parameters
 
-- **sharedServices**: [IServiceCollection](https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection)
+- **interfaceManager**: [IInterfaceManager](/docs/api/shared/iinterfacemanager)
 
 **Load(bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/BasePlugin.cs#L30)
 
@@ -66,13 +66,13 @@ public abstract void Load(bool hotReload)
 public abstract void Unload()
 ```
 
-**UseSharedServices(IServiceProvider)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/BasePlugin.cs#L28)
+**UseSharedInterface(IInterfaceManager)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Plugins/BasePlugin.cs#L28)
 
 ```csharp
-public virtual void UseSharedServices(IServiceProvider sharedProvider)
+public virtual void UseSharedInterface(IInterfaceManager interfaceManager)
 ```
 
 #### Parameters
 
-- **sharedProvider**: [IServiceProvider](https://learn.microsoft.com/dotnet/api/system.iserviceprovider)
+- **interfaceManager**: [IInterfaceManager](/docs/api/shared/iinterfacemanager)
 

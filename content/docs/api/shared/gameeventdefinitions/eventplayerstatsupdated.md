@@ -10,7 +10,7 @@ public interface EventPlayerStatsUpdated : IGameEvent<EventPlayerStatsUpdated>
 
 ## Properties
 
-**ForceUpload** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerStatsUpdated.cs#L20)
+**ForceUpload** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerStatsUpdated.cs#L21)
 
 ```csharp
 bool ForceUpload { get; set; }
