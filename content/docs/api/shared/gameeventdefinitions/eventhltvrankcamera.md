@@ -10,7 +10,7 @@ public interface EventHltvRankCamera : IGameEvent<EventHltvRankCamera>
 
 ## Properties
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvRankCamera.cs#L23)
+**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvRankCamera.cs#L24)
 
 ```csharp
 byte Index { get; set; }
@@ -20,7 +20,7 @@ byte Index { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**Rank** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvRankCamera.cs#L30)
+**Rank** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvRankCamera.cs#L31)
 
 ```csharp
 float Rank { get; set; }
@@ -30,7 +30,7 @@ float Rank { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvRankCamera.cs#L37)
+**Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvRankCamera.cs#L38)
 
 ```csharp
 int Target { get; set; }

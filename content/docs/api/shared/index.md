@@ -10,10 +10,12 @@ title: Shared
 - [SwiftlyS2.Shared.GameEventDefinitions](/docs/api/shared/gameeventdefinitions)
 - [SwiftlyS2.Shared.GameEvents](/docs/api/shared/gameevents)
 - [SwiftlyS2.Shared.Memory](/docs/api/shared/memory)
+- [SwiftlyS2.Shared.Menus](/docs/api/shared/menus)
 - [SwiftlyS2.Shared.Misc](/docs/api/shared/misc)
 - [SwiftlyS2.Shared.Natives](/docs/api/shared/natives)
 - [SwiftlyS2.Shared.NetMessages](/docs/api/shared/netmessages)
 - [SwiftlyS2.Shared.Permissions](/docs/api/shared/permissions)
+- [SwiftlyS2.Shared.Players](/docs/api/shared/players)
 - [SwiftlyS2.Shared.Plugins](/docs/api/shared/plugins)
 - [SwiftlyS2.Shared.Profiler](/docs/api/shared/profiler)
 - [SwiftlyS2.Shared.ProtobufDefinitions](/docs/api/shared/protobufdefinitions)
@@ -22,10 +24,13 @@ title: Shared
 - [SwiftlyS2.Shared.Schemas](/docs/api/shared/schemas)
 - [SwiftlyS2.Shared.Services](/docs/api/shared/services)
 - [SwiftlyS2.Shared.Sounds](/docs/api/shared/sounds)
+- [SwiftlyS2.Shared.Translation](/docs/api/shared/translation)
 
+- [Helper](/docs/api/shared/helper)
 - [PluginMetadata](/docs/api/shared/pluginmetadata)
 - [SwiftlyCoreInjection](/docs/api/shared/swiftlycoreinjection)
 - [SwiftlyInject](/docs/api/shared/swiftlyinject)
 
+- [IInterfaceManager](/docs/api/shared/iinterfacemanager)
 - [ISwiftlyCore](/docs/api/shared/iswiftlycore) - Core interface of SwiftlyS2 framework.
 

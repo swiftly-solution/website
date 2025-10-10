@@ -10,7 +10,7 @@ public interface EventPlayerSound : IGameEvent<EventPlayerSound>
 
 ## Properties
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L43)
+**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L47)
 
 ```csharp
 float Duration { get; set; }
@@ -20,7 +20,7 @@ float Duration { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L38)
+**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L42)
 
 ```csharp
 int Radius { get; set; }
@@ -30,7 +30,7 @@ int Radius { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Step** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L48)
+**Step** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L52)
 
 ```csharp
 bool Step { get; set; }
@@ -40,7 +40,7 @@ bool Step { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L33)
+**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L37)
 
 ```csharp
 int UserId { get; set; }
@@ -50,7 +50,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L21)
+**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L22)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -60,7 +60,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L27)
+**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L28)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -69,4 +69,14 @@ CCSPlayerPawn UserIdPawn { get; }
 #### Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
+
+**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerSound.cs#L31)
+
+```csharp
+IPlayer UserIdPlayer { get; }
+```
+
+#### Property Value
+
+- [IPlayer](/docs/api/shared/players/iplayer)
 

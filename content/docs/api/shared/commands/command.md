@@ -13,16 +13,17 @@ public class Command : Attribute
 
 ## Constructors
 
-**Command(string, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L9)
+**Command(string, bool, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L11)
 
 ```csharp
-public Command(string name, bool registerRaw = false)
+public Command(string name, bool registerRaw = false, string permission = "")
 ```
 
 #### Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **registerRaw**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+- **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Properties
 
@@ -30,6 +31,16 @@ public Command(string name, bool registerRaw = false)
 
 ```csharp
 public string Name { get; set; }
+```
+
+#### Property Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+**Permission** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L9)
+
+```csharp
+public string Permission { get; set; }
 ```
 
 #### Property Value

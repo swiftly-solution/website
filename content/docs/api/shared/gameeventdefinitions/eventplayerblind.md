@@ -10,7 +10,7 @@ public interface EventPlayerBlind : IGameEvent<EventPlayerBlind>
 
 ## Properties
 
-**Attacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L40)
+**Attacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L44)
 
 ```csharp
 int Attacker { get; set; }
@@ -20,7 +20,7 @@ int Attacker { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**BlindDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L52)
+**BlindDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L56)
 
 ```csharp
 float BlindDuration { get; set; }
@@ -30,7 +30,7 @@ float BlindDuration { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EntityID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L47)
+**EntityID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L51)
 
 ```csharp
 short EntityID { get; set; }
@@ -40,7 +40,7 @@ short EntityID { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L33)
+**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L37)
 
 ```csharp
 int UserId { get; set; }
@@ -50,7 +50,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L21)
+**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L22)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -60,7 +60,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L27)
+**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L28)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -69,4 +69,14 @@ CCSPlayerPawn UserIdPawn { get; }
 #### Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
+
+**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerBlind.cs#L31)
+
+```csharp
+IPlayer UserIdPlayer { get; }
+```
+
+#### Property Value
+
+- [IPlayer](/docs/api/shared/players/iplayer)
 

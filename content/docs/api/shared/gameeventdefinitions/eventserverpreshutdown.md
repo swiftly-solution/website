@@ -10,7 +10,7 @@ public interface EventServerPreShutdown : IGameEvent<EventServerPreShutdown>
 
 ## Properties
 
-**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerPreShutdown.cs#L23)
+**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerPreShutdown.cs#L24)
 
 ```csharp
 string Reason { get; set; }

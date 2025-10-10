@@ -10,7 +10,7 @@ public interface EventTeamplayBroadcastAudio : IGameEvent<EventTeamplayBroadcast
 
 ## Properties
 
-**Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventTeamplayBroadcastAudio.cs#L30)
+**Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventTeamplayBroadcastAudio.cs#L31)
 
 ```csharp
 string Sound { get; set; }
@@ -20,7 +20,7 @@ string Sound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventTeamplayBroadcastAudio.cs#L23)
+**Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventTeamplayBroadcastAudio.cs#L24)
 
 ```csharp
 byte Team { get; set; }

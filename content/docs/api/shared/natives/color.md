@@ -3,8 +3,10 @@ title: Color
 ---
 
 ```csharp
-public struct Color
+public struct Color : IEquatable<Color>
 ```
+
+#### Implements
 
 #### Inherited Members
 
@@ -35,7 +37,32 @@ public Color(byte r, byte g, byte b)
 - **g**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 - **b**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**Color(char, char, char, char)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L23)
+**Color(int, int, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L23)
+
+```csharp
+public Color(int r, int g, int b)
+```
+
+#### Parameters
+
+- **r**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
+- **g**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
+- **b**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+**Color(int, int, int, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L25)
+
+```csharp
+public Color(int r, int g, int b, int a)
+```
+
+#### Parameters
+
+- **r**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
+- **g**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
+- **b**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
+- **a**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+**Color(char, char, char, char)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L28)
 
 ```csharp
 public Color(char r, char g, char b, char a)
@@ -48,7 +75,7 @@ public Color(char r, char g, char b, char a)
 - **b**: [char](https://learn.microsoft.com/dotnet/api/system.char)
 - **a**: [char](https://learn.microsoft.com/dotnet/api/system.char)
 
-**Color(char, char, char)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L26)
+**Color(char, char, char)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L31)
 
 ```csharp
 public Color(char r, char g, char b)
@@ -104,7 +131,35 @@ public byte R
 
 ## Methods
 
-**FromBuiltin(Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L29)
+**Equals(object?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L71)
+
+```csharp
+public override bool Equals(object? obj)
+```
+
+#### Parameters
+
+- **obj**: [object](https://learn.microsoft.com/dotnet/api/system.object)? - The object to compare with the current instance.
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+
+**Equals(Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L74)
+
+```csharp
+public bool Equals(Color other)
+```
+
+#### Parameters
+
+- **other**: [Color](/docs/api/shared/natives/color) - An object to compare with this object.
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+
+**FromBuiltin(Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L34)
 
 ```csharp
 public static Color FromBuiltin(Color color)
@@ -118,7 +173,7 @@ public static Color FromBuiltin(Color color)
 
 - [Color](/docs/api/shared/natives/color)
 
-**FromHex(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L37)
+**FromHex(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L42)
 
 ```csharp
 public static Color FromHex(string hex)
@@ -132,7 +187,7 @@ public static Color FromHex(string hex)
 
 - [Color](/docs/api/shared/natives/color)
 
-**FromInt32(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L62)
+**FromInt32(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L67)
 
 ```csharp
 public static Color FromInt32(int color)
@@ -146,7 +201,17 @@ public static Color FromInt32(int color)
 
 - [Color](/docs/api/shared/natives/color)
 
-**ToBuiltin()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L33)
+**GetHashCode()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L72)
+
+```csharp
+public override int GetHashCode()
+```
+
+#### Returns
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
+
+**ToBuiltin()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L38)
 
 ```csharp
 public Color ToBuiltin()
@@ -156,7 +221,7 @@ public Color ToBuiltin()
 
 - [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-**ToHex(bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L50)
+**ToHex(bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L55)
 
 ```csharp
 public string ToHex(bool includeAlpha = false)
@@ -170,7 +235,7 @@ public string ToHex(bool includeAlpha = false)
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ToInt32()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L58)
+**ToInt32()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L63)
 
 ```csharp
 public int ToInt32()
@@ -180,7 +245,7 @@ public int ToInt32()
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ToString()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L54)
+**ToString()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L59)
 
 ```csharp
 public override string ToString()
@@ -189,4 +254,36 @@ public override string ToString()
 #### Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The fully qualified type name.
+
+## Operators
+
+**operator ==(Color, Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L79)
+
+```csharp
+public static bool operator ==(Color left, Color right)
+```
+
+#### Parameters
+
+- **left**: [Color](/docs/api/shared/natives/color)
+- **right**: [Color](/docs/api/shared/natives/color)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+**operator !=(Color, Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L80)
+
+```csharp
+public static bool operator !=(Color left, Color right)
+```
+
+#### Parameters
+
+- **left**: [Color](/docs/api/shared/natives/color)
+- **right**: [Color](/docs/api/shared/natives/color)
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

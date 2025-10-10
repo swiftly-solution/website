@@ -10,7 +10,7 @@ public interface EventDifficultyChanged : IGameEvent<EventDifficultyChanged>
 
 ## Properties
 
-**NewDifficulty** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventDifficultyChanged.cs#L20)
+**NewDifficulty** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventDifficultyChanged.cs#L21)
 
 ```csharp
 short NewDifficulty { get; set; }
@@ -20,7 +20,7 @@ short NewDifficulty { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**OldDifficulty** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventDifficultyChanged.cs#L25)
+**OldDifficulty** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventDifficultyChanged.cs#L26)
 
 ```csharp
 short OldDifficulty { get; set; }
@@ -30,7 +30,7 @@ short OldDifficulty { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**StrDifficulty** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventDifficultyChanged.cs#L32)
+**StrDifficulty** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventDifficultyChanged.cs#L33)
 
 ```csharp
 string StrDifficulty { get; set; }

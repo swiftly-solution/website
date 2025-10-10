@@ -34,7 +34,7 @@ public static Language Arabic
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Brazilian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L66)
 
@@ -44,7 +44,7 @@ public static Language Brazilian
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Bulgarian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L47)
 
@@ -54,7 +54,7 @@ public static Language Bulgarian
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **ChineseCN** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L48)
 
@@ -64,7 +64,7 @@ public static Language ChineseCN
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **ChineseTW** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L49)
 
@@ -74,7 +74,7 @@ public static Language ChineseTW
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Czech** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L50)
 
@@ -84,7 +84,7 @@ public static Language Czech
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Danish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L51)
 
@@ -94,7 +94,7 @@ public static Language Danish
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Dutch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L52)
 
@@ -104,7 +104,7 @@ public static Language Dutch
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **English** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L53)
 
@@ -114,7 +114,7 @@ public static Language English
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Finnish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L54)
 
@@ -124,7 +124,7 @@ public static Language Finnish
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **French** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L55)
 
@@ -134,7 +134,7 @@ public static Language French
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **German** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L56)
 
@@ -144,7 +144,7 @@ public static Language German
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Greek** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L57)
 
@@ -154,7 +154,7 @@ public static Language Greek
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Hungarian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L58)
 
@@ -164,7 +164,7 @@ public static Language Hungarian
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Indonesian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L59)
 
@@ -174,7 +174,7 @@ public static Language Indonesian
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Italian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L60)
 
@@ -184,7 +184,7 @@ public static Language Italian
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Japanese** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L61)
 
@@ -194,7 +194,7 @@ public static Language Japanese
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Korean** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L62)
 
@@ -204,7 +204,7 @@ public static Language Korean
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **LatinAmerica** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L70)
 
@@ -214,7 +214,7 @@ public static Language LatinAmerica
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Norwegian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L63)
 
@@ -224,7 +224,7 @@ public static Language Norwegian
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Polish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L64)
 
@@ -234,7 +234,7 @@ public static Language Polish
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Portuguese** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L65)
 
@@ -244,7 +244,7 @@ public static Language Portuguese
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Romanian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L67)
 
@@ -254,7 +254,7 @@ public static Language Romanian
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Russian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L68)
 
@@ -264,7 +264,7 @@ public static Language Russian
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Spanish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L69)
 
@@ -274,7 +274,7 @@ public static Language Spanish
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Swedish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L71)
 
@@ -284,7 +284,7 @@ public static Language Swedish
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Thai** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L72)
 
@@ -294,7 +294,7 @@ public static Language Thai
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Turkish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L73)
 
@@ -304,7 +304,7 @@ public static Language Turkish
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Ukrainian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L74)
 
@@ -314,7 +314,7 @@ public static Language Ukrainian
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 **Vietnamese** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L75)
 
@@ -324,7 +324,7 @@ public static Language Vietnamese
 
 #### Field Value
 
-- [Language](/docs/api/shared/services/language)
+- [Language](/docs/api/shared/translation/language)
 
 ## Properties
 
@@ -348,7 +348,7 @@ public bool Equals(Language? other)
 
 #### Parameters
 
-- **other**: [Language](/docs/api/shared/services/language)? - An object to compare with this object.
+- **other**: [Language](/docs/api/shared/translation/language)? - An object to compare with this object.
 
 #### Returns
 
@@ -398,7 +398,7 @@ public static implicit operator string(Language language)
 
 #### Parameters
 
-- **language**: [Language](/docs/api/shared/services/language)
+- **language**: [Language](/docs/api/shared/translation/language)
 
 #### Returns
 

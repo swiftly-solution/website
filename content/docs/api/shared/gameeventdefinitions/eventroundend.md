@@ -10,7 +10,7 @@ public interface EventRoundEnd : IGameEvent<EventRoundEnd>
 
 ## Properties
 
-**Legacy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L48)
+**Legacy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L49)
 
 ```csharp
 byte Legacy { get; set; }
@@ -20,7 +20,7 @@ byte Legacy { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L36)
+**Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L37)
 
 ```csharp
 string Message { get; set; }
@@ -30,7 +30,7 @@ string Message { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NoMusic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L62)
+**NoMusic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L63)
 
 ```csharp
 byte NoMusic { get; set; }
@@ -40,7 +40,7 @@ byte NoMusic { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**PlayerCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L55)
+**PlayerCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L56)
 
 ```csharp
 short PlayerCount { get; set; }
@@ -50,7 +50,7 @@ short PlayerCount { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L29)
+**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L30)
 
 ```csharp
 byte Reason { get; set; }
@@ -60,7 +60,7 @@ byte Reason { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L41)
+**Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L42)
 
 ```csharp
 float Time { get; set; }
@@ -70,7 +70,7 @@ float Time { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Winner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L22)
+**Winner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRoundEnd.cs#L23)
 
 ```csharp
 byte Winner { get; set; }

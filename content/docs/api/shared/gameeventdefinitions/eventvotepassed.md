@@ -10,7 +10,7 @@ public interface EventVotePassed : IGameEvent<EventVotePassed>
 
 ## Properties
 
-**Details** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVotePassed.cs#L20)
+**Details** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVotePassed.cs#L21)
 
 ```csharp
 string Details { get; set; }
@@ -20,7 +20,7 @@ string Details { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Param1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVotePassed.cs#L25)
+**Param1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVotePassed.cs#L26)
 
 ```csharp
 string Param1 { get; set; }
@@ -30,7 +30,7 @@ string Param1 { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVotePassed.cs#L30)
+**Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVotePassed.cs#L31)
 
 ```csharp
 byte Team { get; set; }

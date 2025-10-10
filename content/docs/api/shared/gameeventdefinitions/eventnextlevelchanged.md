@@ -10,7 +10,7 @@ public interface EventNextlevelChanged : IGameEvent<EventNextlevelChanged>
 
 ## Properties
 
-**MapGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventNextlevelChanged.cs#L26)
+**MapGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventNextlevelChanged.cs#L27)
 
 ```csharp
 string MapGroup { get; set; }
@@ -20,7 +20,7 @@ string MapGroup { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NextLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventNextlevelChanged.cs#L21)
+**NextLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventNextlevelChanged.cs#L22)
 
 ```csharp
 string NextLevel { get; set; }
@@ -30,7 +30,7 @@ string NextLevel { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SkirmishMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventNextlevelChanged.cs#L31)
+**SkirmishMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventNextlevelChanged.cs#L32)
 
 ```csharp
 string SkirmishMode { get; set; }

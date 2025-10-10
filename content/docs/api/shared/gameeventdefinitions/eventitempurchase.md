@@ -10,7 +10,7 @@ public interface EventItemPurchase : IGameEvent<EventItemPurchase>
 
 ## Properties
 
-**LoadOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L43)
+**LoadOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L47)
 
 ```csharp
 short LoadOut { get; set; }
@@ -20,7 +20,7 @@ short LoadOut { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L38)
+**Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L42)
 
 ```csharp
 short Team { get; set; }
@@ -30,7 +30,7 @@ short Team { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L33)
+**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L37)
 
 ```csharp
 int UserId { get; set; }
@@ -40,7 +40,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L21)
+**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L22)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -50,7 +50,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L27)
+**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L28)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -60,7 +60,17 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**Weapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L48)
+**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L31)
+
+```csharp
+IPlayer UserIdPlayer { get; }
+```
+
+#### Property Value
+
+- [IPlayer](/docs/api/shared/players/iplayer)
+
+**Weapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemPurchase.cs#L52)
 
 ```csharp
 string Weapon { get; set; }

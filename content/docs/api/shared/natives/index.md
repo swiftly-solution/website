@@ -33,8 +33,8 @@ title: Natives
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 - [CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)
-- [CUtlVector](/docs/api/shared/natives/cutlvector) - Unsafe untyped cutlvector.
 - [CUtlVector<T>](/docs/api/shared/natives/cutlvector-1)
+- [CUtlVector](/docs/api/shared/natives/cutlvector) - Unsafe untyped cutlvector.
 - [CapsuleTrace](/docs/api/shared/natives/capsuletrace)
 - [ChangeAccessorFieldPathIndex_t](/docs/api/shared/natives/changeaccessorfieldpathindex_t)
 - [Color](/docs/api/shared/natives/color)

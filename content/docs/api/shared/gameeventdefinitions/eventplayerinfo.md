@@ -10,7 +10,7 @@ public interface EventPlayerInfo : IGameEvent<EventPlayerInfo>
 
 ## Properties
 
-**Bot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L58)
+**Bot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L63)
 
 ```csharp
 bool Bot { get; set; }
@@ -20,7 +20,7 @@ bool Bot { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L23)
+**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L24)
 
 ```csharp
 string Name { get; set; }
@@ -30,7 +30,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SteamID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L51)
+**SteamID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L56)
 
 ```csharp
 ulong SteamID { get; set; }
@@ -40,7 +40,7 @@ ulong SteamID { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L44)
+**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L49)
 
 ```csharp
 int UserId { get; set; }
@@ -50,7 +50,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L30)
+**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L31)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -60,7 +60,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L37)
+**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L38)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -69,4 +69,14 @@ CCSPlayerPawn UserIdPawn { get; }
 #### Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
+
+**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerInfo.cs#L42)
+
+```csharp
+IPlayer UserIdPlayer { get; }
+```
+
+#### Property Value
+
+- [IPlayer](/docs/api/shared/players/iplayer)
 
