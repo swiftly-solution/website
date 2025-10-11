@@ -10,7 +10,7 @@ public interface C_OP_LerpToOtherAttribute : CParticleFunctionOperator, CParticl
 
 ## Properties
 
-**FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToOtherAttribute.cs#L20)
+### **FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToOtherAttribute.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldInputFrom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToOtherAttribute.cs#L18)
+### **FieldInputFrom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToOtherAttribute.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldInputFrom { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldInputFrom { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToOtherAttribute.cs#L22)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToOtherAttribute.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToOtherAttribute.cs#L16)
+### **Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToOtherAttribute.cs#L16)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }

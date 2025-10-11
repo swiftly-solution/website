@@ -10,7 +10,7 @@ public interface MaterialVariable_t : ISchemaClass<MaterialVariable_t>, ISchemaF
 
 ## Properties
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialVariable_t.cs#L20)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialVariable_t.cs#L20)
 
 ```csharp
 ref float Scale { get; }
@@ -20,7 +20,7 @@ ref float Scale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StrVariable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialVariable_t.cs#L16)
+### **StrVariable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialVariable_t.cs#L16)
 
 ```csharp
 string StrVariable { get; set; }
@@ -30,7 +30,7 @@ string StrVariable { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**VariableField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialVariable_t.cs#L18)
+### **VariableField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialVariable_t.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t VariableField { get; }

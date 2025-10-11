@@ -10,7 +10,7 @@ public interface CMathRemap : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CE
 
 ## Properties
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L26)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L26)
 
 ```csharp
 ref bool Enabled { get; }
@@ -20,7 +20,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L18)
+### **InMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L18)
 
 ```csharp
 ref float InMax { get; }
@@ -30,7 +30,7 @@ ref float InMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L16)
+### **InMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L16)
 
 ```csharp
 ref float InMin { get; }
@@ -40,7 +40,7 @@ ref float InMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OldInValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L24)
+### **OldInValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L24)
 
 ```csharp
 ref float OldInValue { get; }
@@ -50,7 +50,7 @@ ref float OldInValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OnFellBelowMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L37)
+### **OnFellBelowMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L37)
 
 ```csharp
 CEntityIOOutput OnFellBelowMax { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnFellBelowMax { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnFellBelowMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L35)
+### **OnFellBelowMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L35)
 
 ```csharp
 CEntityIOOutput OnFellBelowMin { get; }
@@ -70,7 +70,7 @@ CEntityIOOutput OnFellBelowMin { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnRoseAboveMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L33)
+### **OnRoseAboveMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L33)
 
 ```csharp
 CEntityIOOutput OnRoseAboveMax { get; }
@@ -80,7 +80,7 @@ CEntityIOOutput OnRoseAboveMax { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnRoseAboveMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L31)
+### **OnRoseAboveMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L31)
 
 ```csharp
 CEntityIOOutput OnRoseAboveMin { get; }
@@ -90,7 +90,7 @@ CEntityIOOutput OnRoseAboveMin { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**Out1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L20)
+### **Out1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L20)
 
 ```csharp
 ref float Out1 { get; }
@@ -100,7 +100,7 @@ ref float Out1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Out2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L22)
+### **Out2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L22)
 
 ```csharp
 ref float Out2 { get; }
@@ -110,7 +110,7 @@ ref float Out2 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L29)
+### **OutValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathRemap.cs#L29)
 
 ```csharp
 SchemaUntypedField OutValue { get; }

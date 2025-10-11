@@ -10,7 +10,7 @@ public interface CMorphRectData : ISchemaClass<CMorphRectData>, ISchemaField, IS
 
 ## Properties
 
-**BundleDatas** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L25)
+### **BundleDatas** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L25)
 
 ```csharp
 ref CUtlVector BundleDatas { get; }
@@ -18,9 +18,9 @@ ref CUtlVector BundleDatas { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**UWidthSrc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L20)
+### **UWidthSrc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L20)
 
 ```csharp
 ref float UWidthSrc { get; }
@@ -30,7 +30,7 @@ ref float UWidthSrc { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**VHeightSrc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L22)
+### **VHeightSrc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L22)
 
 ```csharp
 ref float VHeightSrc { get; }
@@ -40,7 +40,7 @@ ref float VHeightSrc { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**XLeftDst** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L16)
+### **XLeftDst** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L16)
 
 ```csharp
 ref short XLeftDst { get; }
@@ -50,7 +50,7 @@ ref short XLeftDst { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**YTopDst** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L18)
+### **YTopDst** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphRectData.cs#L18)
 
 ```csharp
 ref short YTopDst { get; }

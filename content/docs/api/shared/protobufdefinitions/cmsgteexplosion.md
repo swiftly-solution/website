@@ -10,7 +10,7 @@ public interface CMsgTEExplosion : ITypedProtobuf<CMsgTEExplosion>, INativeHandl
 
 ## Properties
 
-**AffectRagdolls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L33)
+### **AffectRagdolls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L33)
 
 ```csharp
 bool AffectRagdolls { get; set; }
@@ -20,7 +20,7 @@ bool AffectRagdolls { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**CreateDebris** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L42)
+### **CreateDebris** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L42)
 
 ```csharp
 bool CreateDebris { get; set; }
@@ -30,7 +30,7 @@ bool CreateDebris { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DebrisOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L45)
+### **DebrisOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L45)
 
 ```csharp
 Vector DebrisOrigin { get; set; }
@@ -40,7 +40,7 @@ Vector DebrisOrigin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**DebrisSurfaceprop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L48)
+### **DebrisSurfaceprop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L48)
 
 ```csharp
 uint DebrisSurfaceprop { get; set; }
@@ -50,7 +50,7 @@ uint DebrisSurfaceprop { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ExplosionType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L39)
+### **ExplosionType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L39)
 
 ```csharp
 uint ExplosionType { get; set; }
@@ -60,7 +60,7 @@ uint ExplosionType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L21)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L21)
 
 ```csharp
 uint Flags { get; set; }
@@ -70,7 +70,7 @@ uint Flags { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Magnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L30)
+### **Magnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L30)
 
 ```csharp
 uint Magnitude { get; set; }
@@ -80,7 +80,7 @@ uint Magnitude { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L24)
+### **Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L24)
 
 ```csharp
 Vector Normal { get; set; }
@@ -90,7 +90,7 @@ Vector Normal { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L18)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L18)
 
 ```csharp
 Vector Origin { get; set; }
@@ -100,7 +100,7 @@ Vector Origin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L27)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L27)
 
 ```csharp
 uint Radius { get; set; }
@@ -110,7 +110,7 @@ uint Radius { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SoundName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L36)
+### **SoundName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEExplosion.cs#L36)
 
 ```csharp
 string SoundName { get; set; }

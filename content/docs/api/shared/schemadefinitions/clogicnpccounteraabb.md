@@ -10,7 +10,7 @@ public interface CLogicNPCCounterAABB : CLogicNPCCounter, CBaseEntity, CEntityIn
 
 ## Properties
 
-**DistanceOuterMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounterAABB.cs#L18)
+### **DistanceOuterMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounterAABB.cs#L18)
 
 ```csharp
 ref Vector DistanceOuterMaxs { get; }
@@ -20,7 +20,7 @@ ref Vector DistanceOuterMaxs { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**DistanceOuterMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounterAABB.cs#L16)
+### **DistanceOuterMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounterAABB.cs#L16)
 
 ```csharp
 ref Vector DistanceOuterMins { get; }
@@ -30,7 +30,7 @@ ref Vector DistanceOuterMins { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OuterMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounterAABB.cs#L22)
+### **OuterMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounterAABB.cs#L22)
 
 ```csharp
 ref Vector OuterMaxs { get; }
@@ -40,7 +40,7 @@ ref Vector OuterMaxs { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OuterMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounterAABB.cs#L20)
+### **OuterMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNPCCounterAABB.cs#L20)
 
 ```csharp
 ref Vector OuterMins { get; }

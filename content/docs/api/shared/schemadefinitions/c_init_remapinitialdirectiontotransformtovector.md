@@ -10,7 +10,7 @@ public interface C_INIT_RemapInitialDirectionToTransformToVector : CParticleFunc
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Normalize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L26)
+### **Normalize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L26)
 
 ```csharp
 ref bool Normalize { get; }
@@ -30,7 +30,7 @@ ref bool Normalize { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OffsetAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L24)
+### **OffsetAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L24)
 
 ```csharp
 ref Vector OffsetAxis { get; }
@@ -40,7 +40,7 @@ ref Vector OffsetAxis { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OffsetRot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L22)
+### **OffsetRot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L22)
 
 ```csharp
 ref float OffsetRot { get; }
@@ -50,7 +50,7 @@ ref float OffsetRot { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L20)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L20)
 
 ```csharp
 ref float Scale { get; }
@@ -60,7 +60,7 @@ ref float Scale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L16)
+### **TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapInitialDirectionToTransformToVector.cs#L16)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

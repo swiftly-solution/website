@@ -10,7 +10,7 @@ public interface CCSUsrMsg_RoundBackupFilenames : ITypedProtobuf<CCSUsrMsg_Round
 
 ## Properties
 
-**Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundBackupFilenames.cs#L18)
+### **Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundBackupFilenames.cs#L18)
 
 ```csharp
 int Count { get; set; }
@@ -20,7 +20,7 @@ int Count { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Filename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundBackupFilenames.cs#L24)
+### **Filename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundBackupFilenames.cs#L24)
 
 ```csharp
 string Filename { get; set; }
@@ -30,7 +30,7 @@ string Filename { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundBackupFilenames.cs#L21)
+### **Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundBackupFilenames.cs#L21)
 
 ```csharp
 int Index { get; set; }
@@ -40,7 +40,7 @@ int Index { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Nicename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundBackupFilenames.cs#L27)
+### **Nicename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundBackupFilenames.cs#L27)
 
 ```csharp
 string Nicename { get; set; }

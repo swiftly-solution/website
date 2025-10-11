@@ -10,7 +10,7 @@ public interface CAnimScriptBase : ISchemaClass<CAnimScriptBase>, ISchemaField, 
 
 ## Properties
 
-**IsValid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimScriptBase.cs#L16)
+### **IsValid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimScriptBase.cs#L16)
 
 ```csharp
 ref bool IsValid { get; }

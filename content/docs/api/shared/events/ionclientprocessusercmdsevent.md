@@ -8,7 +8,7 @@ public interface IOnClientProcessUsercmdsEvent
 
 ## Properties
 
-**Margin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L29)
+### **Margin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L29)
 
 ```csharp
 float Margin { get; }
@@ -18,7 +18,7 @@ float Margin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Paused** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L24)
+### **Paused** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L24)
 
 ```csharp
 bool Paused { get; }
@@ -28,7 +28,7 @@ bool Paused { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PlayerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L14)
+### **PlayerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L14)
 
 ```csharp
 int PlayerId { get; }
@@ -38,7 +38,7 @@ int PlayerId { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Usercmds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L19)
+### **Usercmds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientProcessUsercmdsEvent.cs#L19)
 
 ```csharp
 List<CSGOUserCmdPB> Usercmds { get; }

@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_ClientToGCRequestTicket : ITypedProtobuf<CMs
 
 ## Properties
 
-**AuthorizedPublicIp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientToGCRequestTicket.cs#L16)
+### **AuthorizedPublicIp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientToGCRequestTicket.cs#L16)
 
 ```csharp
 uint AuthorizedPublicIp { get; set; }
@@ -20,7 +20,7 @@ uint AuthorizedPublicIp { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**AuthorizedSteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientToGCRequestTicket.cs#L13)
+### **AuthorizedSteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientToGCRequestTicket.cs#L13)
 
 ```csharp
 ulong AuthorizedSteamId { get; set; }
@@ -30,7 +30,7 @@ ulong AuthorizedSteamId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**GameserverSdrRouting** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientToGCRequestTicket.cs#L22)
+### **GameserverSdrRouting** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientToGCRequestTicket.cs#L22)
 
 ```csharp
 string GameserverSdrRouting { get; set; }
@@ -40,7 +40,7 @@ string GameserverSdrRouting { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**GameserverSteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientToGCRequestTicket.cs#L19)
+### **GameserverSteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientToGCRequestTicket.cs#L19)
 
 ```csharp
 ulong GameserverSteamId { get; set; }

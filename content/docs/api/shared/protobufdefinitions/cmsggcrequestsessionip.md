@@ -10,7 +10,7 @@ public interface CMsgGCRequestSessionIP : ITypedProtobuf<CMsgGCRequestSessionIP>
 
 ## Properties
 
-**Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCRequestSessionIP.cs#L13)
+### **Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCRequestSessionIP.cs#L13)
 
 ```csharp
 ulong Steamid { get; set; }

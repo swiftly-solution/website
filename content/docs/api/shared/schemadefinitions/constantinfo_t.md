@@ -10,7 +10,7 @@ public interface ConstantInfo_t : ISchemaClass<ConstantInfo_t>, ISchemaField, IS
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -20,7 +20,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NameToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L18)
+### **NameToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L18)
 
 ```csharp
 ref CUtlStringToken NameToken { get; }
@@ -30,7 +30,7 @@ ref CUtlStringToken NameToken { get; }
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L20)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ConstantInfo_t.cs#L20)
 
 ```csharp
 ref float Value { get; }

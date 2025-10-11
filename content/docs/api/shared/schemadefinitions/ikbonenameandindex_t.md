@@ -10,7 +10,7 @@ public interface IKBoneNameAndIndex_t : ISchemaClass<IKBoneNameAndIndex_t>, ISch
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKBoneNameAndIndex_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKBoneNameAndIndex_t.cs#L16)
 
 ```csharp
 string Name { get; set; }

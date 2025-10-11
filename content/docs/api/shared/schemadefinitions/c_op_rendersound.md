@@ -10,7 +10,7 @@ public interface C_OP_RenderSound : CParticleFunctionRenderer, CParticleFunction
 
 ## Properties
 
-**CPReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L34)
+### **CPReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L34)
 
 ```csharp
 ref int CPReference { get; }
@@ -20,7 +20,7 @@ ref int CPReference { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Channel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L32)
+### **Channel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L32)
 
 ```csharp
 ref int Channel { get; }
@@ -30,7 +30,7 @@ ref int Channel { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DurationField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L26)
+### **DurationField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t DurationField { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t DurationField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**DurationScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L16)
+### **DurationScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L16)
 
 ```csharp
 ref float DurationScale { get; }
@@ -50,7 +50,7 @@ ref float DurationScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PitchField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L28)
+### **PitchField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L28)
 
 ```csharp
 ParticleAttributeIndex_t PitchField { get; }
@@ -60,7 +60,7 @@ ParticleAttributeIndex_t PitchField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**PitchScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L20)
+### **PitchScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L20)
 
 ```csharp
 ref float PitchScale { get; }
@@ -70,7 +70,7 @@ ref float PitchScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SndLvlField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L24)
+### **SndLvlField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t SndLvlField { get; }
@@ -80,7 +80,7 @@ ParticleAttributeIndex_t SndLvlField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**SndLvlScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L18)
+### **SndLvlScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L18)
 
 ```csharp
 ref float SndLvlScale { get; }
@@ -90,7 +90,7 @@ ref float SndLvlScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SoundName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L36)
+### **SoundName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L36)
 
 ```csharp
 string SoundName { get; set; }
@@ -100,7 +100,7 @@ string SoundName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SuppressStopSoundEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L38)
+### **SuppressStopSoundEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L38)
 
 ```csharp
 ref bool SuppressStopSoundEvent { get; }
@@ -110,7 +110,7 @@ ref bool SuppressStopSoundEvent { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**VolumeField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L30)
+### **VolumeField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L30)
 
 ```csharp
 ParticleAttributeIndex_t VolumeField { get; }
@@ -120,7 +120,7 @@ ParticleAttributeIndex_t VolumeField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**VolumeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L22)
+### **VolumeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSound.cs#L22)
 
 ```csharp
 ref float VolumeScale { get; }

@@ -10,7 +10,7 @@ public interface CVoiceContainerParameterBlender : CVoiceContainerBase, ISchemaC
 
 ## Properties
 
-**Curve1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L23)
+### **Curve1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L23)
 
 ```csharp
 SchemaUntypedField Curve1 { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Curve1 { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Curve2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L26)
+### **Curve2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L26)
 
 ```csharp
 SchemaUntypedField Curve2 { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField Curve2 { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Curve3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L31)
+### **Curve3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L31)
 
 ```csharp
 SchemaUntypedField Curve3 { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField Curve3 { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Curve4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L34)
+### **Curve4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L34)
 
 ```csharp
 SchemaUntypedField Curve4 { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField Curve4 { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**EnableDistanceBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L28)
+### **EnableDistanceBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L28)
 
 ```csharp
 ref bool EnableDistanceBlend { get; }
@@ -60,7 +60,7 @@ ref bool EnableDistanceBlend { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EnableOcclusionBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L20)
+### **EnableOcclusionBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L20)
 
 ```csharp
 ref bool EnableOcclusionBlend { get; }
@@ -70,7 +70,7 @@ ref bool EnableOcclusionBlend { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FirstSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L16)
+### **FirstSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L16)
 
 ```csharp
 CSoundContainerReference FirstSound { get; }
@@ -80,7 +80,7 @@ CSoundContainerReference FirstSound { get; }
 
 - [CSoundContainerReference](/docs/api/shared/schemadefinitions/csoundcontainerreference)
 
-**SecondSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L18)
+### **SecondSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerParameterBlender.cs#L18)
 
 ```csharp
 CSoundContainerReference SecondSound { get; }

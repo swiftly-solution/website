@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_WatchInfoUsers : ITypedProtobuf<CMsgGCCStrik
 
 ## Properties
 
-**AccountIds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_WatchInfoUsers.cs#L16)
+### **AccountIds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_WatchInfoUsers.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> AccountIds { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldValueType<uint> AccountIds { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**ExtendedTimeout** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_WatchInfoUsers.cs#L22)
+### **ExtendedTimeout** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_WatchInfoUsers.cs#L22)
 
 ```csharp
 uint ExtendedTimeout { get; set; }
@@ -30,7 +30,7 @@ uint ExtendedTimeout { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RequestId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_WatchInfoUsers.cs#L13)
+### **RequestId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_WatchInfoUsers.cs#L13)
 
 ```csharp
 uint RequestId { get; set; }
@@ -40,7 +40,7 @@ uint RequestId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**WatchableMatchInfos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_WatchInfoUsers.cs#L19)
+### **WatchableMatchInfos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_WatchInfoUsers.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<WatchableMatchInfo> WatchableMatchInfos { get; }

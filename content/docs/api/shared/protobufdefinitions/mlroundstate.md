@@ -10,7 +10,7 @@ public interface MLRoundState : ITypedProtobuf<MLRoundState>, INativeHandle
 
 ## Properties
 
-**BombState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLRoundState.cs#L19)
+### **BombState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLRoundState.cs#L19)
 
 ```csharp
 string BombState { get; set; }
@@ -20,7 +20,7 @@ string BombState { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Phase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLRoundState.cs#L13)
+### **Phase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLRoundState.cs#L13)
 
 ```csharp
 string Phase { get; set; }
@@ -30,7 +30,7 @@ string Phase { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**WinTeam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLRoundState.cs#L16)
+### **WinTeam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLRoundState.cs#L16)
 
 ```csharp
 ETeam WinTeam { get; set; }

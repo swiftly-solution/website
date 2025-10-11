@@ -10,7 +10,7 @@ public interface CCSUsrMsg_SurvivalStats : ITypedProtobuf<CCSUsrMsg_SurvivalStat
 
 ## Properties
 
-**Damages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SurvivalStats.cs#L27)
+### **Damages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SurvivalStats.cs#L27)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Damage> Damages { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Damage> Damages { g
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_SurvivalStats_Damage](/docs/api/shared/protobufdefinitions/ccsusrmsg_survivalstats_damage)>
 
-**Facts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SurvivalStats.cs#L21)
+### **Facts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SurvivalStats.cs#L21)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Fact> Facts { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Fact> Facts { get; 
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_SurvivalStats_Fact](/docs/api/shared/protobufdefinitions/ccsusrmsg_survivalstats_fact)>
 
-**Ticknumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SurvivalStats.cs#L30)
+### **Ticknumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SurvivalStats.cs#L30)
 
 ```csharp
 int Ticknumber { get; set; }
@@ -40,7 +40,7 @@ int Ticknumber { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Users** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SurvivalStats.cs#L24)
+### **Users** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SurvivalStats.cs#L24)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Placement> Users { get; }
@@ -50,7 +50,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Placement> Users { 
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_SurvivalStats_Placement](/docs/api/shared/protobufdefinitions/ccsusrmsg_survivalstats_placement)>
 
-**Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SurvivalStats.cs#L18)
+### **Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SurvivalStats.cs#L18)
 
 ```csharp
 ulong Xuid { get; set; }

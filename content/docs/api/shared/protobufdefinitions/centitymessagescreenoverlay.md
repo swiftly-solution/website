@@ -10,7 +10,7 @@ public interface CEntityMessageScreenOverlay : ITypedProtobuf<CEntityMessageScre
 
 ## Properties
 
-**EntityMsg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageScreenOverlay.cs#L16)
+### **EntityMsg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageScreenOverlay.cs#L16)
 
 ```csharp
 CEntityMsg EntityMsg { get; }
@@ -20,7 +20,7 @@ CEntityMsg EntityMsg { get; }
 
 - [CEntityMsg](/docs/api/shared/protobufdefinitions/centitymsg)
 
-**StartEffect** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageScreenOverlay.cs#L13)
+### **StartEffect** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageScreenOverlay.cs#L13)
 
 ```csharp
 bool StartEffect { get; set; }

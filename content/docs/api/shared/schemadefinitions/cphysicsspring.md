@@ -10,7 +10,7 @@ public interface CPhysicsSpring : CBaseEntity, CEntityInstance, ISchemaClass<CEn
 
 ## Properties
 
-**DampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L18)
+### **DampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L18)
 
 ```csharp
 ref float DampingRatio { get; }
@@ -20,7 +20,7 @@ ref float DampingRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L28)
+### **End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L28)
 
 ```csharp
 ref Vector End { get; }
@@ -30,7 +30,7 @@ ref Vector End { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Frequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L16)
+### **Frequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L16)
 
 ```csharp
 ref float Frequency { get; }
@@ -40,7 +40,7 @@ ref float Frequency { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NameAttachEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L24)
+### **NameAttachEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L24)
 
 ```csharp
 string NameAttachEnd { get; set; }
@@ -50,7 +50,7 @@ string NameAttachEnd { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NameAttachStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L22)
+### **NameAttachStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L22)
 
 ```csharp
 string NameAttachStart { get; set; }
@@ -60,7 +60,7 @@ string NameAttachStart { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**RestLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L20)
+### **RestLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L20)
 
 ```csharp
 ref float RestLength { get; }
@@ -70,7 +70,7 @@ ref float RestLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L26)
+### **Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L26)
 
 ```csharp
 ref Vector Start { get; }
@@ -80,7 +80,7 @@ ref Vector Start { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**TeleportTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L30)
+### **TeleportTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsSpring.cs#L30)
 
 ```csharp
 ref uint TeleportTick { get; }

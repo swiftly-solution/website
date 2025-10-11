@@ -10,7 +10,7 @@ public interface EventHltvTitle : IGameEvent<EventHltvTitle>
 
 ## Properties
 
-**Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvTitle.cs#L21)
+### **Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvTitle.cs#L21)
 
 ```csharp
 string Text { get; set; }

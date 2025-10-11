@@ -10,7 +10,7 @@ public interface JiggleBoneSettings_t : ISchemaClass<JiggleBoneSettings_t>, ISch
 
 ## Properties
 
-**BoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L16)
+### **BoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L16)
 
 ```csharp
 ref int BoneIndex { get; }
@@ -20,7 +20,7 @@ ref int BoneIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**BoundsMaxLS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L24)
+### **BoundsMaxLS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L24)
 
 ```csharp
 ref Vector BoundsMaxLS { get; }
@@ -30,7 +30,7 @@ ref Vector BoundsMaxLS { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**BoundsMinLS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L26)
+### **BoundsMinLS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L26)
 
 ```csharp
 ref Vector BoundsMinLS { get; }
@@ -40,7 +40,7 @@ ref Vector BoundsMinLS { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Damping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L22)
+### **Damping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L22)
 
 ```csharp
 ref float Damping { get; }
@@ -50,7 +50,7 @@ ref float Damping { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxTimeStep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L20)
+### **MaxTimeStep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L20)
 
 ```csharp
 ref float MaxTimeStep { get; }
@@ -60,7 +60,7 @@ ref float MaxTimeStep { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SimSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L28)
+### **SimSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L28)
 
 ```csharp
 ref JiggleBoneSimSpace SimSpace { get; }
@@ -70,7 +70,7 @@ ref JiggleBoneSimSpace SimSpace { get; }
 
 - [JiggleBoneSimSpace](/docs/api/shared/schemadefinitions/jigglebonesimspace)
 
-**SpringStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L18)
+### **SpringStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettings_t.cs#L18)
 
 ```csharp
 ref float SpringStrength { get; }

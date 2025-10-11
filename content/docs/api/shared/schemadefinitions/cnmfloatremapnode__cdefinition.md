@@ -10,7 +10,7 @@ public interface CNmFloatRemapNode__CDefinition : CNmFloatValueNode__CDefinition
 
 ## Properties
 
-**InputRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L18)
+### **InputRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L18)
 
 ```csharp
 CNmFloatRemapNode__RemapRange_t InputRange { get; }
@@ -20,7 +20,7 @@ CNmFloatRemapNode__RemapRange_t InputRange { get; }
 
 - [CNmFloatRemapNode__RemapRange_t](/docs/api/shared/schemadefinitions/cnmfloatremapnode__remaprange_t)
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L16)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -30,7 +30,7 @@ ref short InputValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**OutputRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L20)
+### **OutputRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__CDefinition.cs#L20)
 
 ```csharp
 CNmFloatRemapNode__RemapRange_t OutputRange { get; }

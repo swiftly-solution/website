@@ -10,7 +10,7 @@ public interface CFilterModel : CBaseFilter, CLogicalEntity, CServerOnlyEntity, 
 
 ## Properties
 
-**FilterModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterModel.cs#L16)
+### **FilterModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterModel.cs#L16)
 
 ```csharp
 string FilterModel { get; set; }

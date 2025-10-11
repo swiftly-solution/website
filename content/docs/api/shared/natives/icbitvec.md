@@ -8,7 +8,7 @@ public interface ICBitVec
 
 ## Methods
 
-**Clear(uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L14)
+### **Clear(uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L14)
 
 ```csharp
 void Clear(uint index)
@@ -18,7 +18,7 @@ void Clear(uint index)
 
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Clear(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L15)
+### **Clear(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L15)
 
 ```csharp
 void Clear(int index)
@@ -28,13 +28,13 @@ void Clear(int index)
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ClearAll()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L10)
+### **ClearAll()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L10)
 
 ```csharp
 void ClearAll()
 ```
 
-**Count()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L18)
+### **Count()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L18)
 
 ```csharp
 int Count()
@@ -44,7 +44,7 @@ int Count()
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**GetNumBits()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L9)
+### **GetNumBits()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L9)
 
 ```csharp
 uint GetNumBits()
@@ -54,7 +54,7 @@ uint GetNumBits()
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**IsAllClear()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L19)
+### **IsAllClear()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L19)
 
 ```csharp
 bool IsAllClear()
@@ -64,7 +64,7 @@ bool IsAllClear()
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsFixedSize()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L7)
+### **IsFixedSize()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L7)
 
 ```csharp
 bool IsFixedSize()
@@ -74,7 +74,7 @@ bool IsFixedSize()
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsSet(uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L16)
+### **IsSet(uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L16)
 
 ```csharp
 bool IsSet(uint index)
@@ -88,7 +88,7 @@ bool IsSet(uint index)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsSet(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L17)
+### **IsSet(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L17)
 
 ```csharp
 bool IsSet(int index)
@@ -102,7 +102,7 @@ bool IsSet(int index)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NumDWords()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L8)
+### **NumDWords()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L8)
 
 ```csharp
 uint NumDWords()
@@ -112,7 +112,7 @@ uint NumDWords()
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Set(uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L12)
+### **Set(uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L12)
 
 ```csharp
 void Set(uint index)
@@ -122,7 +122,7 @@ void Set(uint index)
 
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Set(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L13)
+### **Set(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L13)
 
 ```csharp
 void Set(int index)
@@ -132,7 +132,7 @@ void Set(int index)
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SetAll()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L11)
+### **SetAll()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CBitVec.cs#L11)
 
 ```csharp
 void SetAll()

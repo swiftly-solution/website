@@ -10,7 +10,7 @@ public interface CPointTemplate : CLogicalEntity, CServerOnlyEntity, CBaseEntity
 
 ## Properties
 
-**AsynchronouslySpawnEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L24)
+### **AsynchronouslySpawnEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L24)
 
 ```csharp
 ref bool AsynchronouslySpawnEntities { get; }
@@ -20,7 +20,7 @@ ref bool AsynchronouslySpawnEntities { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ClientOnlyEntityBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L26)
+### **ClientOnlyEntityBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L26)
 
 ```csharp
 ref PointTemplateClientOnlyEntityBehavior_t ClientOnlyEntityBehavior { get; }
@@ -30,7 +30,7 @@ ref PointTemplateClientOnlyEntityBehavior_t ClientOnlyEntityBehavior { get; }
 
 - [PointTemplateClientOnlyEntityBehavior_t](/docs/api/shared/schemadefinitions/pointtemplateclientonlyentitybehavior_t)
 
-**CreatedSpawnGroupHandles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L30)
+### **CreatedSpawnGroupHandles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L30)
 
 ```csharp
 ref CUtlVector<uint> CreatedSpawnGroupHandles { get; }
@@ -38,9 +38,9 @@ ref CUtlVector<uint> CreatedSpawnGroupHandles { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
+- [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**EntityFilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L20)
+### **EntityFilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L20)
 
 ```csharp
 string EntityFilterName { get; set; }
@@ -50,7 +50,7 @@ string EntityFilterName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OwnerSpawnGroupType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L28)
+### **OwnerSpawnGroupType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L28)
 
 ```csharp
 ref PointTemplateOwnerSpawnGroupType_t OwnerSpawnGroupType { get; }
@@ -60,7 +60,7 @@ ref PointTemplateOwnerSpawnGroupType_t OwnerSpawnGroupType { get; }
 
 - [PointTemplateOwnerSpawnGroupType_t](/docs/api/shared/schemadefinitions/pointtemplateownerspawngrouptype_t)
 
-**ScriptCallbackScope** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L38)
+### **ScriptCallbackScope** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L38)
 
 ```csharp
 SchemaUntypedField ScriptCallbackScope { get; }
@@ -70,7 +70,7 @@ SchemaUntypedField ScriptCallbackScope { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ScriptSpawnCallback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L35)
+### **ScriptSpawnCallback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L35)
 
 ```csharp
 SchemaUntypedField ScriptSpawnCallback { get; }
@@ -80,7 +80,7 @@ SchemaUntypedField ScriptSpawnCallback { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Source2EntityLumpName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L18)
+### **Source2EntityLumpName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L18)
 
 ```csharp
 string Source2EntityLumpName { get; set; }
@@ -90,7 +90,7 @@ string Source2EntityLumpName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SpawnedEntityHandles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L32)
+### **SpawnedEntityHandles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L32)
 
 ```csharp
 ref CUtlVector<CHandle<CEntityInstance>> SpawnedEntityHandles { get; }
@@ -98,9 +98,9 @@ ref CUtlVector<CHandle<CEntityInstance>> SpawnedEntityHandles { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>>
+- [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>>
 
-**TimeoutInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L22)
+### **TimeoutInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L22)
 
 ```csharp
 ref float TimeoutInterval { get; }
@@ -110,7 +110,7 @@ ref float TimeoutInterval { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WorldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L16)
+### **WorldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointTemplate.cs#L16)
 
 ```csharp
 string WorldName { get; set; }

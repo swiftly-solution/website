@@ -10,7 +10,7 @@ public interface CFuncWater : CBaseModelEntity, CBaseEntity, CEntityInstance, IS
 
 ## Properties
 
-**BuoyancyHelper** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncWater.cs#L16)
+### **BuoyancyHelper** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncWater.cs#L16)
 
 ```csharp
 CBuoyancyHelper BuoyancyHelper { get; }

@@ -10,7 +10,7 @@ public interface CPhysPulley : CPhysConstraint, CLogicalEntity, CServerOnlyEntit
 
 ## Properties
 
-**AddLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L20)
+### **AddLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L20)
 
 ```csharp
 ref float AddLength { get; }
@@ -20,7 +20,7 @@ ref float AddLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GearRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L22)
+### **GearRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L22)
 
 ```csharp
 ref float GearRatio { get; }
@@ -30,7 +30,7 @@ ref float GearRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L18)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L18)
 
 ```csharp
 ISchemaFixedArray<Vector> Offset { get; }
@@ -40,7 +40,7 @@ ISchemaFixedArray<Vector> Offset { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
-**Position2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L16)
+### **Position2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysPulley.cs#L16)
 
 ```csharp
 ref Vector Position2 { get; }

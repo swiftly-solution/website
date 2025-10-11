@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_SetParticleClusterGrowth : ITypedProto
 
 ## Properties
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleClusterGrowth.cs#L13)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleClusterGrowth.cs#L13)
 
 ```csharp
 float Duration { get; set; }
@@ -20,7 +20,7 @@ float Duration { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleClusterGrowth.cs#L16)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleClusterGrowth.cs#L16)
 
 ```csharp
 Vector Origin { get; set; }

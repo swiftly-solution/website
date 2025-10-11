@@ -10,7 +10,7 @@ public interface CMsgDevNewItemRequest : ITypedProtobuf<CMsgDevNewItemRequest>, 
 
 ## Properties
 
-**Criteria** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgDevNewItemRequest.cs#L16)
+### **Criteria** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgDevNewItemRequest.cs#L16)
 
 ```csharp
 CSOItemCriteria Criteria { get; }
@@ -20,7 +20,7 @@ CSOItemCriteria Criteria { get; }
 
 - [CSOItemCriteria](/docs/api/shared/protobufdefinitions/csoitemcriteria)
 
-**Receiver** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgDevNewItemRequest.cs#L13)
+### **Receiver** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgDevNewItemRequest.cs#L13)
 
 ```csharp
 ulong Receiver { get; set; }

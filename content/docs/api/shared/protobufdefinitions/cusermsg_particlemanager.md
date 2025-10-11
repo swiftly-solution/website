@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager : ITypedProtobuf<CUserMsg_ParticleMana
 
 ## Properties
 
-**AddFan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L124)
+### **AddFan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L124)
 
 ```csharp
 CUserMsg_ParticleManager_AddFan AddFan { get; }
@@ -20,7 +20,7 @@ CUserMsg_ParticleManager_AddFan AddFan { get; }
 
 - [CUserMsg_ParticleManager_AddFan](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_addfan)
 
-**AddModellistOverrideElement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L106)
+### **AddModellistOverrideElement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L106)
 
 ```csharp
 CUserMsg_ParticleManager_AddModellistOverrideElement AddModellistOverrideElement { get; }
@@ -30,7 +30,7 @@ CUserMsg_ParticleManager_AddModellistOverrideElement AddModellistOverrideElement
 
 - [CUserMsg_ParticleManager_AddModellistOverrideElement](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_addmodellistoverrideelement)
 
-**ChangeControlPointAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L55)
+### **ChangeControlPointAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L55)
 
 ```csharp
 CUserMsg_ParticleManager_ChangeControlPointAttachment ChangeControlPointAttachment { get; }
@@ -40,7 +40,7 @@ CUserMsg_ParticleManager_ChangeControlPointAttachment ChangeControlPointAttachme
 
 - [CUserMsg_ParticleManager_ChangeControlPointAttachment](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_changecontrolpointattachment)
 
-**ClearModellistOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L109)
+### **ClearModellistOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L109)
 
 ```csharp
 CUserMsg_ParticleManager_ClearModellistOverride ClearModellistOverride { get; }
@@ -50,7 +50,7 @@ CUserMsg_ParticleManager_ClearModellistOverride ClearModellistOverride { get; }
 
 - [CUserMsg_ParticleManager_ClearModellistOverride](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_clearmodellistoverride)
 
-**CreateParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L22)
+### **CreateParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L22)
 
 ```csharp
 CUserMsg_ParticleManager_CreateParticle CreateParticle { get; }
@@ -60,7 +60,7 @@ CUserMsg_ParticleManager_CreateParticle CreateParticle { get; }
 
 - [CUserMsg_ParticleManager_CreateParticle](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_createparticle)
 
-**CreatePhysicsSim** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L112)
+### **CreatePhysicsSim** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L112)
 
 ```csharp
 CUserMsg_ParticleManager_CreatePhysicsSim CreatePhysicsSim { get; }
@@ -70,7 +70,7 @@ CUserMsg_ParticleManager_CreatePhysicsSim CreatePhysicsSim { get; }
 
 - [CUserMsg_ParticleManager_CreatePhysicsSim](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_createphysicssim)
 
-**DestroyParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L25)
+### **DestroyParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L25)
 
 ```csharp
 CUserMsg_ParticleManager_DestroyParticle DestroyParticle { get; }
@@ -80,7 +80,7 @@ CUserMsg_ParticleManager_DestroyParticle DestroyParticle { get; }
 
 - [CUserMsg_ParticleManager_DestroyParticle](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_destroyparticle)
 
-**DestroyParticleInvolving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L28)
+### **DestroyParticleInvolving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L28)
 
 ```csharp
 CUserMsg_ParticleManager_DestroyParticleInvolving DestroyParticleInvolving { get; }
@@ -90,7 +90,7 @@ CUserMsg_ParticleManager_DestroyParticleInvolving DestroyParticleInvolving { get
 
 - [CUserMsg_ParticleManager_DestroyParticleInvolving](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_destroyparticleinvolving)
 
-**DestroyParticleNamed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L85)
+### **DestroyParticleNamed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L85)
 
 ```csharp
 CUserMsg_ParticleManager_DestroyParticleNamed DestroyParticleNamed { get; }
@@ -100,7 +100,7 @@ CUserMsg_ParticleManager_DestroyParticleNamed DestroyParticleNamed { get; }
 
 - [CUserMsg_ParticleManager_DestroyParticleNamed](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_destroyparticlenamed)
 
-**DestroyPhysicsSim** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L115)
+### **DestroyPhysicsSim** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L115)
 
 ```csharp
 CUserMsg_ParticleManager_DestroyPhysicsSim DestroyPhysicsSim { get; }
@@ -110,7 +110,7 @@ CUserMsg_ParticleManager_DestroyPhysicsSim DestroyPhysicsSim { get; }
 
 - [CUserMsg_ParticleManager_DestroyPhysicsSim](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_destroyphysicssim)
 
-**FreezeParticleInvolving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L103)
+### **FreezeParticleInvolving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L103)
 
 ```csharp
 CUserMsg_ParticleManager_FreezeParticleInvolving FreezeParticleInvolving { get; }
@@ -120,7 +120,7 @@ CUserMsg_ParticleManager_FreezeParticleInvolving FreezeParticleInvolving { get; 
 
 - [CUserMsg_ParticleManager_FreezeParticleInvolving](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_freezeparticleinvolving)
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L16)
+### **Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L16)
 
 ```csharp
 uint Index { get; set; }
@@ -130,7 +130,7 @@ uint Index { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ParticleCanFreeze** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L91)
+### **ParticleCanFreeze** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L91)
 
 ```csharp
 CUserMsg_ParticleManager_ParticleCanFreeze ParticleCanFreeze { get; }
@@ -140,7 +140,7 @@ CUserMsg_ParticleManager_ParticleCanFreeze ParticleCanFreeze { get; }
 
 - [CUserMsg_ParticleManager_ParticleCanFreeze](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_particlecanfreeze)
 
-**ParticleFreezeTransitionOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L100)
+### **ParticleFreezeTransitionOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L100)
 
 ```csharp
 CUserMsg_ParticleManager_ParticleFreezeTransitionOverride ParticleFreezeTransitionOverride { get; }
@@ -150,7 +150,7 @@ CUserMsg_ParticleManager_ParticleFreezeTransitionOverride ParticleFreezeTransiti
 
 - [CUserMsg_ParticleManager_ParticleFreezeTransitionOverride](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_particlefreezetransitionoverride)
 
-**ParticleSkipToTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L88)
+### **ParticleSkipToTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L88)
 
 ```csharp
 CUserMsg_ParticleManager_ParticleSkipToTime ParticleSkipToTime { get; }
@@ -160,7 +160,7 @@ CUserMsg_ParticleManager_ParticleSkipToTime ParticleSkipToTime { get; }
 
 - [CUserMsg_ParticleManager_ParticleSkipToTime](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_particleskiptotime)
 
-**ReleaseParticleIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L19)
+### **ReleaseParticleIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L19)
 
 ```csharp
 CUserMsg_ParticleManager_ReleaseParticleIndex ReleaseParticleIndex { get; }
@@ -170,7 +170,7 @@ CUserMsg_ParticleManager_ReleaseParticleIndex ReleaseParticleIndex { get; }
 
 - [CUserMsg_ParticleManager_ReleaseParticleIndex](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_releaseparticleindex)
 
-**RemoveFan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L133)
+### **RemoveFan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L133)
 
 ```csharp
 CUserMsg_ParticleManager_RemoveFan RemoveFan { get; }
@@ -180,7 +180,7 @@ CUserMsg_ParticleManager_RemoveFan RemoveFan { get; }
 
 - [CUserMsg_ParticleManager_RemoveFan](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_removefan)
 
-**SetControlPointModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L70)
+### **SetControlPointModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L70)
 
 ```csharp
 CUserMsg_ParticleManager_SetControlPointModel SetControlPointModel { get; }
@@ -190,7 +190,7 @@ CUserMsg_ParticleManager_SetControlPointModel SetControlPointModel { get; }
 
 - [CUserMsg_ParticleManager_SetControlPointModel](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setcontrolpointmodel)
 
-**SetControlPointSnapshot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L73)
+### **SetControlPointSnapshot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L73)
 
 ```csharp
 CUserMsg_ParticleManager_SetControlPointSnapshot SetControlPointSnapshot { get; }
@@ -200,7 +200,7 @@ CUserMsg_ParticleManager_SetControlPointSnapshot SetControlPointSnapshot { get; 
 
 - [CUserMsg_ParticleManager_SetControlPointSnapshot](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setcontrolpointsnapshot)
 
-**SetMaterialOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L121)
+### **SetMaterialOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L121)
 
 ```csharp
 CUserMsg_ParticleManager_SetMaterialOverride SetMaterialOverride { get; }
@@ -210,7 +210,7 @@ CUserMsg_ParticleManager_SetMaterialOverride SetMaterialOverride { get; }
 
 - [CUserMsg_ParticleManager_SetMaterialOverride](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setmaterialoverride)
 
-**SetNamedValueContext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L94)
+### **SetNamedValueContext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L94)
 
 ```csharp
 CUserMsg_ParticleManager_SetParticleNamedValueContext SetNamedValueContext { get; }
@@ -220,7 +220,7 @@ CUserMsg_ParticleManager_SetParticleNamedValueContext SetNamedValueContext { get
 
 - [CUserMsg_ParticleManager_SetParticleNamedValueContext](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setparticlenamedvaluecontext)
 
-**SetParticleClusterGrowth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L130)
+### **SetParticleClusterGrowth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L130)
 
 ```csharp
 CUserMsg_ParticleManager_SetParticleClusterGrowth SetParticleClusterGrowth { get; }
@@ -230,7 +230,7 @@ CUserMsg_ParticleManager_SetParticleClusterGrowth SetParticleClusterGrowth { get
 
 - [CUserMsg_ParticleManager_SetParticleClusterGrowth](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setparticleclustergrowth)
 
-**SetParticleFowProperties** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L61)
+### **SetParticleFowProperties** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L61)
 
 ```csharp
 CUserMsg_ParticleManager_SetParticleFoWProperties SetParticleFowProperties { get; }
@@ -240,7 +240,7 @@ CUserMsg_ParticleManager_SetParticleFoWProperties SetParticleFowProperties { get
 
 - [CUserMsg_ParticleManager_SetParticleFoWProperties](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setparticlefowproperties)
 
-**SetParticleShouldCheckFow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L67)
+### **SetParticleShouldCheckFow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L67)
 
 ```csharp
 CUserMsg_ParticleManager_SetParticleShouldCheckFoW SetParticleShouldCheckFow { get; }
@@ -250,7 +250,7 @@ CUserMsg_ParticleManager_SetParticleShouldCheckFoW SetParticleShouldCheckFow { g
 
 - [CUserMsg_ParticleManager_SetParticleShouldCheckFoW](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setparticleshouldcheckfow)
 
-**SetParticleText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L64)
+### **SetParticleText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L64)
 
 ```csharp
 CUserMsg_ParticleManager_SetParticleText SetParticleText { get; }
@@ -260,7 +260,7 @@ CUserMsg_ParticleManager_SetParticleText SetParticleText { get; }
 
 - [CUserMsg_ParticleManager_SetParticleText](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setparticletext)
 
-**SetSceneObjectGenericFlag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L79)
+### **SetSceneObjectGenericFlag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L79)
 
 ```csharp
 CUserMsg_ParticleManager_SetSceneObjectGenericFlag SetSceneObjectGenericFlag { get; }
@@ -270,7 +270,7 @@ CUserMsg_ParticleManager_SetSceneObjectGenericFlag SetSceneObjectGenericFlag { g
 
 - [CUserMsg_ParticleManager_SetSceneObjectGenericFlag](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setsceneobjectgenericflag)
 
-**SetSceneObjectTintAndDesat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L82)
+### **SetSceneObjectTintAndDesat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L82)
 
 ```csharp
 CUserMsg_ParticleManager_SetSceneObjectTintAndDesat SetSceneObjectTintAndDesat { get; }
@@ -280,7 +280,7 @@ CUserMsg_ParticleManager_SetSceneObjectTintAndDesat SetSceneObjectTintAndDesat {
 
 - [CUserMsg_ParticleManager_SetSceneObjectTintAndDesat](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setsceneobjecttintanddesat)
 
-**SetTextureAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L76)
+### **SetTextureAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L76)
 
 ```csharp
 CUserMsg_ParticleManager_SetTextureAttribute SetTextureAttribute { get; }
@@ -290,7 +290,7 @@ CUserMsg_ParticleManager_SetTextureAttribute SetTextureAttribute { get; }
 
 - [CUserMsg_ParticleManager_SetTextureAttribute](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_settextureattribute)
 
-**SetVdata** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L118)
+### **SetVdata** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L118)
 
 ```csharp
 CUserMsg_ParticleManager_SetVData SetVdata { get; }
@@ -300,7 +300,7 @@ CUserMsg_ParticleManager_SetVData SetVdata { get; }
 
 - [CUserMsg_ParticleManager_SetVData](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setvdata)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L13)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L13)
 
 ```csharp
 PARTICLE_MESSAGE Type { get; set; }
@@ -310,7 +310,7 @@ PARTICLE_MESSAGE Type { get; set; }
 
 - [PARTICLE_MESSAGE](/docs/api/shared/protobufdefinitions/particle_message)
 
-**UpdateEntityPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L58)
+### **UpdateEntityPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L58)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateEntityPosition UpdateEntityPosition { get; }
@@ -320,7 +320,7 @@ CUserMsg_ParticleManager_UpdateEntityPosition UpdateEntityPosition { get; }
 
 - [CUserMsg_ParticleManager_UpdateEntityPosition](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateentityposition)
 
-**UpdateFan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L127)
+### **UpdateFan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L127)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateFan UpdateFan { get; }
@@ -330,7 +330,7 @@ CUserMsg_ParticleManager_UpdateFan UpdateFan { get; }
 
 - [CUserMsg_ParticleManager_UpdateFan](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updatefan)
 
-**UpdateParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L31)
+### **UpdateParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L31)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateParticle_OBSOLETE UpdateParticle { get; }
@@ -340,7 +340,7 @@ CUserMsg_ParticleManager_UpdateParticle_OBSOLETE UpdateParticle { get; }
 
 - [CUserMsg_ParticleManager_UpdateParticle_OBSOLETE](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticle_obsolete)
 
-**UpdateParticleEnt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L46)
+### **UpdateParticleEnt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L46)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateParticleEnt UpdateParticleEnt { get; }
@@ -350,7 +350,7 @@ CUserMsg_ParticleManager_UpdateParticleEnt UpdateParticleEnt { get; }
 
 - [CUserMsg_ParticleManager_UpdateParticleEnt](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticleent)
 
-**UpdateParticleFallback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L40)
+### **UpdateParticleFallback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L40)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateParticleFallback UpdateParticleFallback { get; }
@@ -360,7 +360,7 @@ CUserMsg_ParticleManager_UpdateParticleFallback UpdateParticleFallback { get; }
 
 - [CUserMsg_ParticleManager_UpdateParticleFallback](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticlefallback)
 
-**UpdateParticleFwd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L34)
+### **UpdateParticleFwd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L34)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE UpdateParticleFwd { get; }
@@ -370,7 +370,7 @@ CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE UpdateParticleFwd { get; }
 
 - [CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticlefwd_obsolete)
 
-**UpdateParticleOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L43)
+### **UpdateParticleOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L43)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateParticleOffset UpdateParticleOffset { get; }
@@ -380,7 +380,7 @@ CUserMsg_ParticleManager_UpdateParticleOffset UpdateParticleOffset { get; }
 
 - [CUserMsg_ParticleManager_UpdateParticleOffset](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticleoffset)
 
-**UpdateParticleOrient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L37)
+### **UpdateParticleOrient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L37)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE UpdateParticleOrient { get; }
@@ -390,7 +390,7 @@ CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE UpdateParticleOrient { ge
 
 - [CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticleorient_obsolete)
 
-**UpdateParticleSetFrozen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L52)
+### **UpdateParticleSetFrozen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L52)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateParticleSetFrozen UpdateParticleSetFrozen { get; }
@@ -400,7 +400,7 @@ CUserMsg_ParticleManager_UpdateParticleSetFrozen UpdateParticleSetFrozen { get; 
 
 - [CUserMsg_ParticleManager_UpdateParticleSetFrozen](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticlesetfrozen)
 
-**UpdateParticleShouldDraw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L49)
+### **UpdateParticleShouldDraw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L49)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateParticleShouldDraw UpdateParticleShouldDraw { get; }
@@ -410,7 +410,7 @@ CUserMsg_ParticleManager_UpdateParticleShouldDraw UpdateParticleShouldDraw { get
 
 - [CUserMsg_ParticleManager_UpdateParticleShouldDraw](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticleshoulddraw)
 
-**UpdateParticleTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L97)
+### **UpdateParticleTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager.cs#L97)
 
 ```csharp
 CUserMsg_ParticleManager_UpdateParticleTransform UpdateParticleTransform { get; }

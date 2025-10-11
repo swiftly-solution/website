@@ -10,7 +10,7 @@ public interface CPointVelocitySensor : CPointEntity, CBaseEntity, CEntityInstan
 
 ## Properties
 
-**AvgInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L24)
+### **AvgInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L24)
 
 ```csharp
 ref float AvgInterval { get; }
@@ -20,7 +20,7 @@ ref float AvgInterval { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Axis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L18)
+### **Axis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L18)
 
 ```csharp
 ref Vector Axis { get; }
@@ -30,7 +30,7 @@ ref Vector Axis { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L20)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L20)
 
 ```csharp
 ref bool Enabled { get; }
@@ -40,7 +40,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PrevVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L22)
+### **PrevVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L22)
 
 ```csharp
 ref float PrevVelocity { get; }
@@ -50,7 +50,7 @@ ref float PrevVelocity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L16)
+### **TargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L16)
 
 ```csharp
 ref CHandle<CBaseEntity> TargetEntity { get; }
@@ -60,7 +60,7 @@ ref CHandle<CBaseEntity> TargetEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**Velocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L27)
+### **Velocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointVelocitySensor.cs#L27)
 
 ```csharp
 SchemaUntypedField Velocity { get; }

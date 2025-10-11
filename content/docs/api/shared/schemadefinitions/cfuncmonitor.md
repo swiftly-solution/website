@@ -10,7 +10,7 @@ public interface CFuncMonitor : CFuncBrush, CBaseModelEntity, CBaseEntity, CEnti
 
 ## Properties
 
-**BrushModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L24)
+### **BrushModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L24)
 
 ```csharp
 string BrushModelName { get; set; }
@@ -20,7 +20,7 @@ string BrushModelName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Draw3DSkybox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L30)
+### **Draw3DSkybox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L30)
 
 ```csharp
 ref bool Draw3DSkybox { get; }
@@ -30,7 +30,7 @@ ref bool Draw3DSkybox { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L28)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L28)
 
 ```csharp
 ref bool Enabled { get; }
@@ -40,7 +40,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RenderShadows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L20)
+### **RenderShadows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L20)
 
 ```csharp
 ref bool RenderShadows { get; }
@@ -50,7 +50,7 @@ ref bool RenderShadows { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ResolutionEnum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L18)
+### **ResolutionEnum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L18)
 
 ```csharp
 ref int ResolutionEnum { get; }
@@ -60,7 +60,7 @@ ref int ResolutionEnum { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L32)
+### **StartEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L32)
 
 ```csharp
 ref bool StartEnabled { get; }
@@ -70,7 +70,7 @@ ref bool StartEnabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetCamera** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L16)
+### **TargetCamera** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L16)
 
 ```csharp
 string TargetCamera { get; set; }
@@ -80,7 +80,7 @@ string TargetCamera { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TargetCamera1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L26)
+### **TargetCamera1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L26)
 
 ```csharp
 ref CHandle<CBaseEntity> TargetCamera1 { get; }
@@ -90,7 +90,7 @@ ref CHandle<CBaseEntity> TargetCamera1 { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**UseUniqueColorTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L22)
+### **UseUniqueColorTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L22)
 
 ```csharp
 ref bool UseUniqueColorTarget { get; }
@@ -102,49 +102,49 @@ ref bool UseUniqueColorTarget { get; }
 
 ## Methods
 
-**BrushModelNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L38)
+### **BrushModelNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L38)
 
 ```csharp
 void BrushModelNameUpdated()
 ```
 
-**Draw3DSkyboxUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L41)
+### **Draw3DSkyboxUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L41)
 
 ```csharp
 void Draw3DSkyboxUpdated()
 ```
 
-**EnabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L40)
+### **EnabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L40)
 
 ```csharp
 void EnabledUpdated()
 ```
 
-**RenderShadowsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L36)
+### **RenderShadowsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L36)
 
 ```csharp
 void RenderShadowsUpdated()
 ```
 
-**ResolutionEnumUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L35)
+### **ResolutionEnumUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L35)
 
 ```csharp
 void ResolutionEnumUpdated()
 ```
 
-**TargetCamera1Updated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L39)
+### **TargetCamera1Updated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L39)
 
 ```csharp
 void TargetCamera1Updated()
 ```
 
-**TargetCameraUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L34)
+### **TargetCameraUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L34)
 
 ```csharp
 void TargetCameraUpdated()
 ```
 
-**UseUniqueColorTargetUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L37)
+### **UseUniqueColorTargetUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMonitor.cs#L37)
 
 ```csharp
 void UseUniqueColorTargetUpdated()

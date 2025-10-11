@@ -10,7 +10,7 @@ public interface RsDepthStencilStateDesc_t : ISchemaClass<RsDepthStencilStateDes
 
 ## Properties
 
-**DepthFunc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L22)
+### **DepthFunc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L22)
 
 ```csharp
 ref RsComparison_t DepthFunc { get; }
@@ -20,7 +20,7 @@ ref RsComparison_t DepthFunc { get; }
 
 - [RsComparison_t](/docs/api/shared/schemadefinitions/rscomparison_t)
 
-**DepthTestEnable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L17)
+### **DepthTestEnable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L17)
 
 ```csharp
 SchemaUntypedField DepthTestEnable { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField DepthTestEnable { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**DepthWriteEnable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L20)
+### **DepthWriteEnable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L20)
 
 ```csharp
 SchemaUntypedField DepthWriteEnable { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField DepthWriteEnable { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**StencilState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L24)
+### **StencilState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RsDepthStencilStateDesc_t.cs#L24)
 
 ```csharp
 RsStencilStateDesc_t StencilState { get; }

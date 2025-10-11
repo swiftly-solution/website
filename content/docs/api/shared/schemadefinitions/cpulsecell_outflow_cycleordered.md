@@ -10,7 +10,7 @@ public interface CPulseCell_Outflow_CycleOrdered : CPulseCell_BaseFlow, CPulseCe
 
 ## Properties
 
-**Outputs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleOrdered.cs#L17)
+### **Outputs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleOrdered.cs#L17)
 
 ```csharp
 ref CUtlVector Outputs { get; }
@@ -18,5 +18,5 @@ ref CUtlVector Outputs { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

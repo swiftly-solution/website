@@ -10,7 +10,7 @@ public interface CLogicAchievement : CLogicalEntity, CServerOnlyEntity, CBaseEnt
 
 ## Properties
 
-**AchievementEventID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L18)
+### **AchievementEventID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L18)
 
 ```csharp
 string AchievementEventID { get; set; }
@@ -20,7 +20,7 @@ string AchievementEventID { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L16)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L16)
 
 ```csharp
 ref bool Disabled { get; }
@@ -30,7 +30,7 @@ ref bool Disabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OnFired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L20)
+### **OnFired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAchievement.cs#L20)
 
 ```csharp
 CEntityIOOutput OnFired { get; }

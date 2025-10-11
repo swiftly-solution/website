@@ -10,7 +10,7 @@ public interface CAnimationGraphVisualizerAxis : CAnimationGraphVisualizerPrimit
 
 ## Properties
 
-**AxisSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerAxis.cs#L18)
+### **AxisSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerAxis.cs#L18)
 
 ```csharp
 ref float AxisSize { get; }
@@ -20,7 +20,7 @@ ref float AxisSize { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**XWsTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerAxis.cs#L16)
+### **XWsTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerAxis.cs#L16)
 
 ```csharp
 ref CTransform XWsTransform { get; }

@@ -10,7 +10,7 @@ public interface CMsgGCIncrementKillCountResponse : ITypedProtobuf<CMsgGCIncreme
 
 ## Properties
 
-**ItemDef** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCIncrementKillCountResponse.cs#L19)
+### **ItemDef** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCIncrementKillCountResponse.cs#L19)
 
 ```csharp
 uint ItemDef { get; set; }
@@ -20,7 +20,7 @@ uint ItemDef { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**KillerAccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCIncrementKillCountResponse.cs#L13)
+### **KillerAccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCIncrementKillCountResponse.cs#L13)
 
 ```csharp
 uint KillerAccountId { get; set; }
@@ -30,7 +30,7 @@ uint KillerAccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**LevelType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCIncrementKillCountResponse.cs#L22)
+### **LevelType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCIncrementKillCountResponse.cs#L22)
 
 ```csharp
 uint LevelType { get; set; }
@@ -40,7 +40,7 @@ uint LevelType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**NumKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCIncrementKillCountResponse.cs#L16)
+### **NumKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCIncrementKillCountResponse.cs#L16)
 
 ```csharp
 uint NumKills { get; set; }

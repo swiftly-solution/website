@@ -10,7 +10,7 @@ public interface C_OP_RemapAverageHitboxSpeedtoCP : CParticleFunctionPreEmission
 
 ## Properties
 
-**ComparisonVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L34)
+### **ComparisonVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L34)
 
 ```csharp
 CParticleCollectionVecInput ComparisonVelocity { get; }
@@ -20,7 +20,7 @@ CParticleCollectionVecInput ComparisonVelocity { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L20)
+### **Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L20)
 
 ```csharp
 ref int Field { get; }
@@ -30,7 +30,7 @@ ref int Field { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HeightControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L32)
+### **HeightControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L32)
 
 ```csharp
 ref int HeightControlPointNumber { get; }
@@ -40,7 +40,7 @@ ref int HeightControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HitboxDataType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L22)
+### **HitboxDataType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L22)
 
 ```csharp
 ref ParticleHitboxDataSelection_t HitboxDataType { get; }
@@ -50,7 +50,7 @@ ref ParticleHitboxDataSelection_t HitboxDataType { get; }
 
 - [ParticleHitboxDataSelection_t](/docs/api/shared/schemadefinitions/particlehitboxdataselection_t)
 
-**HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L36)
+### **HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L36)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -60,7 +60,7 @@ string HitboxSetName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**InControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L16)
+### **InControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L16)
 
 ```csharp
 ref int InControlPointNumber { get; }
@@ -70,7 +70,7 @@ ref int InControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L26)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput InputMax { get; }
@@ -80,7 +80,7 @@ CParticleCollectionFloatInput InputMax { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L24)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput InputMin { get; }
@@ -90,7 +90,7 @@ CParticleCollectionFloatInput InputMin { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**OutControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L18)
+### **OutControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L18)
 
 ```csharp
 ref int OutControlPointNumber { get; }
@@ -100,7 +100,7 @@ ref int OutControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L30)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput OutputMax { get; }
@@ -110,7 +110,7 @@ CParticleCollectionFloatInput OutputMax { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L28)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapAverageHitboxSpeedtoCP.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput OutputMin { get; }

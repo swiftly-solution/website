@@ -10,7 +10,7 @@ public interface CNmFloatRangeComparisonNode__CDefinition : CNmBoolValueNode__CD
 
 ## Properties
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRangeComparisonNode__CDefinition.cs#L19)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRangeComparisonNode__CDefinition.cs#L19)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short InputValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**IsInclusiveCheck** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRangeComparisonNode__CDefinition.cs#L21)
+### **IsInclusiveCheck** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRangeComparisonNode__CDefinition.cs#L21)
 
 ```csharp
 ref bool IsInclusiveCheck { get; }
@@ -30,7 +30,7 @@ ref bool IsInclusiveCheck { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRangeComparisonNode__CDefinition.cs#L17)
+### **Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRangeComparisonNode__CDefinition.cs#L17)
 
 ```csharp
 SchemaUntypedField Range { get; }

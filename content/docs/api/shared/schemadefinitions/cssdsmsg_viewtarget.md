@@ -10,7 +10,7 @@ public interface CSSDSMsg_ViewTarget : ISchemaClass<CSSDSMsg_ViewTarget>, ISchem
 
 ## Properties
 
-**Depth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L30)
+### **Depth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L30)
 
 ```csharp
 ref int Depth { get; }
@@ -20,7 +20,7 @@ ref int Depth { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Format** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L34)
+### **Format** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L34)
 
 ```csharp
 ref int Format { get; }
@@ -30,7 +30,7 @@ ref int Format { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Height** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L22)
+### **Height** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L22)
 
 ```csharp
 ref int Height { get; }
@@ -40,7 +40,7 @@ ref int Height { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MultisampleNumSamples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L32)
+### **MultisampleNumSamples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L32)
 
 ```csharp
 ref int MultisampleNumSamples { get; }
@@ -50,7 +50,7 @@ ref int MultisampleNumSamples { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -60,7 +60,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NumMipLevels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L28)
+### **NumMipLevels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L28)
 
 ```csharp
 ref int NumMipLevels { get; }
@@ -70,7 +70,7 @@ ref int NumMipLevels { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RequestedHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L26)
+### **RequestedHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L26)
 
 ```csharp
 ref int RequestedHeight { get; }
@@ -80,7 +80,7 @@ ref int RequestedHeight { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RequestedWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L24)
+### **RequestedWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L24)
 
 ```csharp
 ref int RequestedWidth { get; }
@@ -90,7 +90,7 @@ ref int RequestedWidth { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TextureId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L18)
+### **TextureId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L18)
 
 ```csharp
 ref ulong TextureId { get; }
@@ -100,7 +100,7 @@ ref ulong TextureId { get; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Width** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L20)
+### **Width** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_ViewTarget.cs#L20)
 
 ```csharp
 ref int Width { get; }

@@ -10,7 +10,7 @@ public interface CParticleVecInput : CParticleInput, ISchemaClass<CParticleInput
 
 ## Properties
 
-**CPRelativeDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L39)
+### **CPRelativeDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L39)
 
 ```csharp
 ref Vector CPRelativeDir { get; }
@@ -20,7 +20,7 @@ ref Vector CPRelativeDir { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**CPRelativePosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L37)
+### **CPRelativePosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L37)
 
 ```csharp
 ref Vector CPRelativePosition { get; }
@@ -30,7 +30,7 @@ ref Vector CPRelativePosition { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**CPValueScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L35)
+### **CPValueScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L35)
 
 ```csharp
 ref Vector CPValueScale { get; }
@@ -40,7 +40,7 @@ ref Vector CPValueScale { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L31)
+### **ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L31)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -50,7 +50,7 @@ ref int ControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DeltaControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L33)
+### **DeltaControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L33)
 
 ```csharp
 ref int DeltaControlPoint { get; }
@@ -60,7 +60,7 @@ ref int DeltaControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FloatComponentX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L41)
+### **FloatComponentX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L41)
 
 ```csharp
 CParticleFloatInput FloatComponentX { get; }
@@ -70,7 +70,7 @@ CParticleFloatInput FloatComponentX { get; }
 
 - [CParticleFloatInput](/docs/api/shared/schemadefinitions/cparticlefloatinput)
 
-**FloatComponentY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L43)
+### **FloatComponentY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L43)
 
 ```csharp
 CParticleFloatInput FloatComponentY { get; }
@@ -80,7 +80,7 @@ CParticleFloatInput FloatComponentY { get; }
 
 - [CParticleFloatInput](/docs/api/shared/schemadefinitions/cparticlefloatinput)
 
-**FloatComponentZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L45)
+### **FloatComponentZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L45)
 
 ```csharp
 CParticleFloatInput FloatComponentZ { get; }
@@ -90,7 +90,7 @@ CParticleFloatInput FloatComponentZ { get; }
 
 - [CParticleFloatInput](/docs/api/shared/schemadefinitions/cparticlefloatinput)
 
-**FloatInterp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L47)
+### **FloatInterp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L47)
 
 ```csharp
 CParticleFloatInput FloatInterp { get; }
@@ -100,7 +100,7 @@ CParticleFloatInput FloatInterp { get; }
 
 - [CParticleFloatInput](/docs/api/shared/schemadefinitions/cparticlefloatinput)
 
-**FollowNamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L25)
+### **FollowNamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L25)
 
 ```csharp
 ref bool FollowNamedValue { get; }
@@ -110,7 +110,7 @@ ref bool FollowNamedValue { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Gradient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L58)
+### **Gradient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L58)
 
 ```csharp
 SchemaUntypedField Gradient { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField Gradient { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**InterpInput0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L49)
+### **InterpInput0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L49)
 
 ```csharp
 ref float InterpInput0 { get; }
@@ -130,7 +130,7 @@ ref float InterpInput0 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InterpInput1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L51)
+### **InterpInput1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L51)
 
 ```csharp
 ref float InterpInput1 { get; }
@@ -140,7 +140,7 @@ ref float InterpInput1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InterpOutput0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L53)
+### **InterpOutput0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L53)
 
 ```csharp
 ref Vector InterpOutput0 { get; }
@@ -150,7 +150,7 @@ ref Vector InterpOutput0 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**InterpOutput1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L55)
+### **InterpOutput1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L55)
 
 ```csharp
 ref Vector InterpOutput1 { get; }
@@ -160,7 +160,7 @@ ref Vector InterpOutput1 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**LiteralColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L20)
+### **LiteralColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L20)
 
 ```csharp
 ref Color LiteralColor { get; }
@@ -170,7 +170,7 @@ ref Color LiteralColor { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**LiteralValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L18)
+### **LiteralValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L18)
 
 ```csharp
 ref Vector LiteralValue { get; }
@@ -180,7 +180,7 @@ ref Vector LiteralValue { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**NamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L23)
+### **NamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L23)
 
 ```csharp
 SchemaUntypedField NamedValue { get; }
@@ -190,7 +190,7 @@ SchemaUntypedField NamedValue { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**RandomMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L62)
+### **RandomMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L62)
 
 ```csharp
 ref Vector RandomMax { get; }
@@ -200,7 +200,7 @@ ref Vector RandomMax { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RandomMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L60)
+### **RandomMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L60)
 
 ```csharp
 ref Vector RandomMin { get; }
@@ -210,7 +210,7 @@ ref Vector RandomMin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L16)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L16)
 
 ```csharp
 ref ParticleVecType_t Type { get; }
@@ -220,7 +220,7 @@ ref ParticleVecType_t Type { get; }
 
 - [ParticleVecType_t](/docs/api/shared/schemadefinitions/particlevectype_t)
 
-**VectorAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L27)
+### **VectorAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L27)
 
 ```csharp
 ParticleAttributeIndex_t VectorAttribute { get; }
@@ -230,7 +230,7 @@ ParticleAttributeIndex_t VectorAttribute { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**VectorAttributeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L29)
+### **VectorAttributeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVecInput.cs#L29)
 
 ```csharp
 ref Vector VectorAttributeScale { get; }

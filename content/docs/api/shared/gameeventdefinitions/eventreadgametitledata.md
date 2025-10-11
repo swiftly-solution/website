@@ -10,7 +10,7 @@ public interface EventReadGameTitledata : IGameEvent<EventReadGameTitledata>
 
 ## Properties
 
-**ControllerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventReadGameTitledata.cs#L24)
+### **ControllerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventReadGameTitledata.cs#L24)
 
 ```csharp
 short ControllerId { get; set; }

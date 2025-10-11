@@ -10,7 +10,7 @@ public interface C_OP_ColorInterpolate : CParticleFunctionOperator, CParticleFun
 
 ## Properties
 
-**ColorFade** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L16)
+### **ColorFade** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L16)
 
 ```csharp
 ref Color ColorFade { get; }
@@ -20,7 +20,7 @@ ref Color ColorFade { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**EaseInOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L24)
+### **EaseInOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L24)
 
 ```csharp
 ref bool EaseInOut { get; }
@@ -30,7 +30,7 @@ ref bool EaseInOut { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FadeEndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L20)
+### **FadeEndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L20)
 
 ```csharp
 ref float FadeEndTime { get; }
@@ -40,7 +40,7 @@ ref float FadeEndTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FadeStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L18)
+### **FadeStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L18)
 
 ```csharp
 ref float FadeStartTime { get; }
@@ -50,7 +50,7 @@ ref float FadeStartTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L22)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorInterpolate.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }

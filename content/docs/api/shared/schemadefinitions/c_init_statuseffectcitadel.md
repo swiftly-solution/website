@@ -10,7 +10,7 @@ public interface C_INIT_StatusEffectCitadel : CParticleFunctionInitializer, CPar
 
 ## Properties
 
-**DetailCombo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L40)
+### **DetailCombo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L40)
 
 ```csharp
 ref DetailCombo_t DetailCombo { get; }
@@ -20,7 +20,7 @@ ref DetailCombo_t DetailCombo { get; }
 
 - [DetailCombo_t](/docs/api/shared/schemadefinitions/detailcombo_t)
 
-**SFXColorWarpAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L16)
+### **SFXColorWarpAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L16)
 
 ```csharp
 ref float SFXColorWarpAmount { get; }
@@ -30,7 +30,7 @@ ref float SFXColorWarpAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXMetalnessAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L20)
+### **SFXMetalnessAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L20)
 
 ```csharp
 ref float SFXMetalnessAmount { get; }
@@ -40,7 +40,7 @@ ref float SFXMetalnessAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXNormalAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L18)
+### **SFXNormalAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L18)
 
 ```csharp
 ref float SFXNormalAmount { get; }
@@ -50,7 +50,7 @@ ref float SFXNormalAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXRoughnessAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L22)
+### **SFXRoughnessAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L22)
 
 ```csharp
 ref float SFXRoughnessAmount { get; }
@@ -60,7 +60,7 @@ ref float SFXRoughnessAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSDetailAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L42)
+### **SFXSDetailAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L42)
 
 ```csharp
 ref float SFXSDetailAmount { get; }
@@ -70,7 +70,7 @@ ref float SFXSDetailAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSDetailScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L44)
+### **SFXSDetailScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L44)
 
 ```csharp
 ref float SFXSDetailScale { get; }
@@ -80,7 +80,7 @@ ref float SFXSDetailScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSDetailScrollX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L46)
+### **SFXSDetailScrollX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L46)
 
 ```csharp
 ref float SFXSDetailScrollX { get; }
@@ -90,7 +90,7 @@ ref float SFXSDetailScrollX { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSDetailScrollY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L48)
+### **SFXSDetailScrollY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L48)
 
 ```csharp
 ref float SFXSDetailScrollY { get; }
@@ -100,7 +100,7 @@ ref float SFXSDetailScrollY { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSDetailScrollZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L50)
+### **SFXSDetailScrollZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L50)
 
 ```csharp
 ref float SFXSDetailScrollZ { get; }
@@ -110,7 +110,7 @@ ref float SFXSDetailScrollZ { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSOffsetX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L34)
+### **SFXSOffsetX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L34)
 
 ```csharp
 ref float SFXSOffsetX { get; }
@@ -120,7 +120,7 @@ ref float SFXSOffsetX { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSOffsetY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L36)
+### **SFXSOffsetY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L36)
 
 ```csharp
 ref float SFXSOffsetY { get; }
@@ -130,7 +130,7 @@ ref float SFXSOffsetY { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSOffsetZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L38)
+### **SFXSOffsetZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L38)
 
 ```csharp
 ref float SFXSOffsetZ { get; }
@@ -140,7 +140,7 @@ ref float SFXSOffsetZ { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L26)
+### **SFXSScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L26)
 
 ```csharp
 ref float SFXSScale { get; }
@@ -150,7 +150,7 @@ ref float SFXSScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSScrollX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L28)
+### **SFXSScrollX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L28)
 
 ```csharp
 ref float SFXSScrollX { get; }
@@ -160,7 +160,7 @@ ref float SFXSScrollX { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSScrollY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L30)
+### **SFXSScrollY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L30)
 
 ```csharp
 ref float SFXSScrollY { get; }
@@ -170,7 +170,7 @@ ref float SFXSScrollY { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSScrollZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L32)
+### **SFXSScrollZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L32)
 
 ```csharp
 ref float SFXSScrollZ { get; }
@@ -180,7 +180,7 @@ ref float SFXSScrollZ { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSUseModelUVs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L52)
+### **SFXSUseModelUVs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L52)
 
 ```csharp
 ref float SFXSUseModelUVs { get; }
@@ -190,7 +190,7 @@ ref float SFXSUseModelUVs { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SFXSelfIllumAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L24)
+### **SFXSelfIllumAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_StatusEffectCitadel.cs#L24)
 
 ```csharp
 ref float SFXSelfIllumAmount { get; }

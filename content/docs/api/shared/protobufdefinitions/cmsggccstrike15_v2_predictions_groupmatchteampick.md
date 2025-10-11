@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick : ITypedProto
 
 ## Properties
 
-**Groupid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick.cs#L16)
+### **Groupid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick.cs#L16)
 
 ```csharp
 int Groupid { get; set; }
@@ -20,7 +20,7 @@ int Groupid { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick.cs#L19)
+### **Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick.cs#L19)
 
 ```csharp
 int Index { get; set; }
@@ -30,7 +30,7 @@ int Index { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Itemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick.cs#L25)
+### **Itemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick.cs#L25)
 
 ```csharp
 ulong Itemid { get; set; }
@@ -40,7 +40,7 @@ ulong Itemid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Sectionid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick.cs#L13)
+### **Sectionid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick.cs#L13)
 
 ```csharp
 int Sectionid { get; set; }
@@ -50,7 +50,7 @@ int Sectionid { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Teamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick.cs#L22)
+### **Teamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick.cs#L22)
 
 ```csharp
 int Teamid { get; set; }

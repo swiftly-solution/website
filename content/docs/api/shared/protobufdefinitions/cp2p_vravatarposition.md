@@ -10,7 +10,7 @@ public interface CP2P_VRAvatarPosition : ITypedProtobuf<CP2P_VRAvatarPosition>, 
 
 ## Properties
 
-**BodyParts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_VRAvatarPosition.cs#L13)
+### **BodyParts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_VRAvatarPosition.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CP2P_VRAvatarPosition_COrientation> BodyParts { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<CP2P_VRAvatarPosition_COrientation> BodyPar
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CP2P_VRAvatarPosition_COrientation](/docs/api/shared/protobufdefinitions/cp2p_vravatarposition_corientation)>
 
-**HatId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_VRAvatarPosition.cs#L16)
+### **HatId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_VRAvatarPosition.cs#L16)
 
 ```csharp
 int HatId { get; set; }
@@ -30,7 +30,7 @@ int HatId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SceneId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_VRAvatarPosition.cs#L19)
+### **SceneId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_VRAvatarPosition.cs#L19)
 
 ```csharp
 int SceneId { get; set; }
@@ -40,7 +40,7 @@ int SceneId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**WorldScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_VRAvatarPosition.cs#L22)
+### **WorldScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_VRAvatarPosition.cs#L22)
 
 ```csharp
 int WorldScale { get; set; }

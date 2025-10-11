@@ -10,7 +10,7 @@ public interface CConcreteAnimParameter : CAnimParameterBase, ISchemaClass<CAnim
 
 ## Properties
 
-**AutoReset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L22)
+### **AutoReset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L22)
 
 ```csharp
 ref bool AutoReset { get; }
@@ -20,7 +20,7 @@ ref bool AutoReset { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**GameWritable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L24)
+### **GameWritable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L24)
 
 ```csharp
 ref bool GameWritable { get; }
@@ -30,7 +30,7 @@ ref bool GameWritable { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**GraphWritable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L26)
+### **GraphWritable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L26)
 
 ```csharp
 ref bool GraphWritable { get; }
@@ -40,7 +40,7 @@ ref bool GraphWritable { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NetworkSetting** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L18)
+### **NetworkSetting** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L18)
 
 ```csharp
 ref AnimParamNetworkSetting NetworkSetting { get; }
@@ -50,7 +50,7 @@ ref AnimParamNetworkSetting NetworkSetting { get; }
 
 - [AnimParamNetworkSetting](/docs/api/shared/schemadefinitions/animparamnetworksetting)
 
-**PreviewButton** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L16)
+### **PreviewButton** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L16)
 
 ```csharp
 ref AnimParamButton_t PreviewButton { get; }
@@ -60,7 +60,7 @@ ref AnimParamButton_t PreviewButton { get; }
 
 - [AnimParamButton_t](/docs/api/shared/schemadefinitions/animparambutton_t)
 
-**UseMostRecentValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L20)
+### **UseMostRecentValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L20)
 
 ```csharp
 ref bool UseMostRecentValue { get; }

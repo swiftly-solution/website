@@ -10,7 +10,7 @@ public interface CSceneEventInfo : ISchemaClass<CSceneEventInfo>, ISchemaField, 
 
 ## Properties
 
-**ClientSide** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L38)
+### **ClientSide** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L38)
 
 ```csharp
 ref bool ClientSide { get; }
@@ -20,7 +20,7 @@ ref bool ClientSide { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HasArrived** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L24)
+### **HasArrived** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L24)
 
 ```csharp
 ref bool HasArrived { get; }
@@ -30,7 +30,7 @@ ref bool HasArrived { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsGesture** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L30)
+### **IsGesture** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L30)
 
 ```csharp
 ref bool IsGesture { get; }
@@ -40,7 +40,7 @@ ref bool IsGesture { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Layer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L16)
+### **Layer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L16)
 
 ```csharp
 ref int Layer { get; }
@@ -50,7 +50,7 @@ ref int Layer { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Next** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L28)
+### **Next** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L28)
 
 ```csharp
 GameTime_t Next { get; }
@@ -60,7 +60,7 @@ GameTime_t Next { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L18)
+### **Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L18)
 
 ```csharp
 ref int Priority { get; }
@@ -70,7 +70,7 @@ ref int Priority { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SceneEventId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L36)
+### **SceneEventId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L36)
 
 ```csharp
 SceneEventId_t SceneEventId { get; }
@@ -80,7 +80,7 @@ SceneEventId_t SceneEventId { get; }
 
 - [SceneEventId_t](/docs/api/shared/schemadefinitions/sceneeventid_t)
 
-**Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L20)
+### **Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L20)
 
 ```csharp
 HSequence Sequence { get; }
@@ -90,7 +90,7 @@ HSequence Sequence { get; }
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
-**ShouldRemove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L32)
+### **ShouldRemove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L32)
 
 ```csharp
 ref bool ShouldRemove { get; }
@@ -100,7 +100,7 @@ ref bool ShouldRemove { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Started** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L40)
+### **Started** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L40)
 
 ```csharp
 ref bool Started { get; }
@@ -110,7 +110,7 @@ ref bool Started { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L34)
+### **Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L34)
 
 ```csharp
 ref CHandle<CBaseEntity> Target { get; }
@@ -120,7 +120,7 @@ ref CHandle<CBaseEntity> Target { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L26)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L26)
 
 ```csharp
 ref int Type { get; }
@@ -130,7 +130,7 @@ ref int Type { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L22)
+### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneEventInfo.cs#L22)
 
 ```csharp
 ref float Weight { get; }

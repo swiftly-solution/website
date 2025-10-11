@@ -10,7 +10,7 @@ public interface CBinaryUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpda
 
 ## Properties
 
-**Child1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L16)
+### **Child1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L16)
 
 ```csharp
 CAnimUpdateNodeRef Child1 { get; }
@@ -20,7 +20,7 @@ CAnimUpdateNodeRef Child1 { get; }
 
 - [CAnimUpdateNodeRef](/docs/api/shared/schemadefinitions/canimupdatenoderef)
 
-**Child2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L18)
+### **Child2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L18)
 
 ```csharp
 CAnimUpdateNodeRef Child2 { get; }
@@ -30,7 +30,7 @@ CAnimUpdateNodeRef Child2 { get; }
 
 - [CAnimUpdateNodeRef](/docs/api/shared/schemadefinitions/canimupdatenoderef)
 
-**ResetChild1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L24)
+### **ResetChild1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L24)
 
 ```csharp
 ref bool ResetChild1 { get; }
@@ -40,7 +40,7 @@ ref bool ResetChild1 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ResetChild2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L26)
+### **ResetChild2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L26)
 
 ```csharp
 ref bool ResetChild2 { get; }
@@ -50,7 +50,7 @@ ref bool ResetChild2 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TimingBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L20)
+### **TimingBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L20)
 
 ```csharp
 ref BinaryNodeTiming TimingBehavior { get; }
@@ -60,7 +60,7 @@ ref BinaryNodeTiming TimingBehavior { get; }
 
 - [BinaryNodeTiming](/docs/api/shared/schemadefinitions/binarynodetiming)
 
-**TimingBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L22)
+### **TimingBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBinaryUpdateNode.cs#L22)
 
 ```csharp
 ref float TimingBlend { get; }

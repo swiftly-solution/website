@@ -10,7 +10,7 @@ public interface FeNodeReverseOffset_t : ISchemaClass<FeNodeReverseOffset_t>, IS
 
 ## Properties
 
-**BoneCtrl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeReverseOffset_t.cs#L18)
+### **BoneCtrl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeReverseOffset_t.cs#L18)
 
 ```csharp
 ref ushort BoneCtrl { get; }
@@ -20,7 +20,7 @@ ref ushort BoneCtrl { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeReverseOffset_t.cs#L16)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeReverseOffset_t.cs#L16)
 
 ```csharp
 ref Vector Offset { get; }
@@ -30,7 +30,7 @@ ref Vector Offset { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**TargetNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeReverseOffset_t.cs#L20)
+### **TargetNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeReverseOffset_t.cs#L20)
 
 ```csharp
 ref ushort TargetNode { get; }

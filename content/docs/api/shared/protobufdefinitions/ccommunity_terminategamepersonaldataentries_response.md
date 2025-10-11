@@ -10,7 +10,7 @@ public interface CCommunity_TerminateGamePersonalDataEntries_Response : ITypedPr
 
 ## Properties
 
-**Gceresult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_TerminateGamePersonalDataEntries_Response.cs#L13)
+### **Gceresult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_TerminateGamePersonalDataEntries_Response.cs#L13)
 
 ```csharp
 uint Gceresult { get; set; }

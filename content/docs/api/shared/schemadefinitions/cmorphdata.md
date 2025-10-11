@@ -10,7 +10,7 @@ public interface CMorphData : ISchemaClass<CMorphData>, ISchemaField, ISchemaCla
 
 ## Properties
 
-**MorphRectDatas** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphData.cs#L19)
+### **MorphRectDatas** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphData.cs#L19)
 
 ```csharp
 ref CUtlVector MorphRectDatas { get; }
@@ -18,9 +18,9 @@ ref CUtlVector MorphRectDatas { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphData.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphData.cs#L16)
 
 ```csharp
 string Name { get; set; }

@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_ClearModellistOverride : ITypedProtobu
 
 ## Properties
 
-**Groupid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ClearModellistOverride.cs#L13)
+### **Groupid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ClearModellistOverride.cs#L13)
 
 ```csharp
 uint Groupid { get; set; }

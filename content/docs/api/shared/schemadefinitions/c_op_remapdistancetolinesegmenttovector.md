@@ -10,7 +10,7 @@ public interface C_OP_RemapDistanceToLineSegmentToVector : C_OP_RemapDistanceToL
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToVector.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToVector.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**MaxOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToVector.cs#L20)
+### **MaxOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToVector.cs#L20)
 
 ```csharp
 ref Vector MaxOutputValue { get; }
@@ -30,7 +30,7 @@ ref Vector MaxOutputValue { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**MinOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToVector.cs#L18)
+### **MinOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToVector.cs#L18)
 
 ```csharp
 ref Vector MinOutputValue { get; }

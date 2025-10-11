@@ -10,7 +10,7 @@ public interface SceneViewId_t : ISchemaClass<SceneViewId_t>, ISchemaField, ISch
 
 ## Properties
 
-**FrameCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneViewId_t.cs#L18)
+### **FrameCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneViewId_t.cs#L18)
 
 ```csharp
 ref ulong FrameCount { get; }
@@ -20,7 +20,7 @@ ref ulong FrameCount { get; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ViewId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneViewId_t.cs#L16)
+### **ViewId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneViewId_t.cs#L16)
 
 ```csharp
 ref ulong ViewId { get; }

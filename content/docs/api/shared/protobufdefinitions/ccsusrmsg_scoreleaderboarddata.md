@@ -10,7 +10,7 @@ public interface CCSUsrMsg_ScoreLeaderboardData : ITypedProtobuf<CCSUsrMsg_Score
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ScoreLeaderboardData.cs#L18)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ScoreLeaderboardData.cs#L18)
 
 ```csharp
 ScoreLeaderboardData Data { get; }

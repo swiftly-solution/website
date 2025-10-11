@@ -10,7 +10,7 @@ public interface VertexPositionColor_t : ISchemaClass<VertexPositionColor_t>, IS
 
 ## Properties
 
-**Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VertexPositionColor_t.cs#L16)
+### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VertexPositionColor_t.cs#L16)
 
 ```csharp
 ref Vector Position { get; }

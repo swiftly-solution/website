@@ -10,7 +10,7 @@ public interface CSVCMsg_Sounds : ITypedProtobuf<CSVCMsg_Sounds>, INativeHandle,
 
 ## Properties
 
-**ReliableSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_Sounds.cs#L18)
+### **ReliableSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_Sounds.cs#L18)
 
 ```csharp
 bool ReliableSound { get; set; }
@@ -20,7 +20,7 @@ bool ReliableSound { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Sounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_Sounds.cs#L21)
+### **Sounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_Sounds.cs#L21)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CSVCMsg_Sounds_sounddata_t> Sounds { get; }

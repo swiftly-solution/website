@@ -10,7 +10,7 @@ public interface CMsgGCReportAbuse : ITypedProtobuf<CMsgGCReportAbuse>, INativeH
 
 ## Properties
 
-**AbuseType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L22)
+### **AbuseType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L22)
 
 ```csharp
 uint AbuseType { get; set; }
@@ -20,7 +20,7 @@ uint AbuseType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ContentType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L25)
+### **ContentType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L25)
 
 ```csharp
 uint ContentType { get; set; }
@@ -30,7 +30,7 @@ uint ContentType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L16)
+### **Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L16)
 
 ```csharp
 string Description { get; set; }
@@ -40,7 +40,7 @@ string Description { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Gid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L19)
+### **Gid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L19)
 
 ```csharp
 ulong Gid { get; set; }
@@ -50,7 +50,7 @@ ulong Gid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**TargetGameServerIp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L28)
+### **TargetGameServerIp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L28)
 
 ```csharp
 uint TargetGameServerIp { get; set; }
@@ -60,7 +60,7 @@ uint TargetGameServerIp { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TargetGameServerPort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L31)
+### **TargetGameServerPort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L31)
 
 ```csharp
 uint TargetGameServerPort { get; set; }
@@ -70,7 +70,7 @@ uint TargetGameServerPort { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TargetSteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L13)
+### **TargetSteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCReportAbuse.cs#L13)
 
 ```csharp
 ulong TargetSteamId { get; set; }

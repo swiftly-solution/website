@@ -10,7 +10,7 @@ public interface CAudioEmphasisSample : ISchemaClass<CAudioEmphasisSample>, ISch
 
 ## Properties
 
-**Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioEmphasisSample.cs#L16)
+### **Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioEmphasisSample.cs#L16)
 
 ```csharp
 ref float Time { get; }
@@ -20,7 +20,7 @@ ref float Time { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioEmphasisSample.cs#L18)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioEmphasisSample.cs#L18)
 
 ```csharp
 ref float Value { get; }

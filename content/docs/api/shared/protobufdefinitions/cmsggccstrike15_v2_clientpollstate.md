@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_ClientPollState : ITypedProtobuf<CMsgGCCStri
 
 ## Properties
 
-**Names** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPollState.cs#L16)
+### **Names** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPollState.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<string> Names { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldValueType<string> Names { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
-**Pollid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPollState.cs#L13)
+### **Pollid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPollState.cs#L13)
 
 ```csharp
 uint Pollid { get; set; }
@@ -30,7 +30,7 @@ uint Pollid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPollState.cs#L19)
+### **Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPollState.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Values { get; }

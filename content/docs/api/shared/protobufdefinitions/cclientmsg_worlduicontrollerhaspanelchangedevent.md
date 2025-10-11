@@ -10,7 +10,7 @@ public interface CClientMsg_WorldUIControllerHasPanelChangedEvent : ITypedProtob
 
 ## Properties
 
-**ClientEhandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_WorldUIControllerHasPanelChangedEvent.cs#L16)
+### **ClientEhandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_WorldUIControllerHasPanelChangedEvent.cs#L16)
 
 ```csharp
 uint ClientEhandle { get; set; }
@@ -20,7 +20,7 @@ uint ClientEhandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**HasPanel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_WorldUIControllerHasPanelChangedEvent.cs#L13)
+### **HasPanel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_WorldUIControllerHasPanelChangedEvent.cs#L13)
 
 ```csharp
 bool HasPanel { get; set; }
@@ -30,7 +30,7 @@ bool HasPanel { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LiteralHandType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_WorldUIControllerHasPanelChangedEvent.cs#L19)
+### **LiteralHandType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_WorldUIControllerHasPanelChangedEvent.cs#L19)
 
 ```csharp
 uint LiteralHandType { get; set; }

@@ -10,7 +10,7 @@ public interface MaterialParamInt_t : MaterialParam_t, ISchemaClass<MaterialPara
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialParamInt_t.cs#L16)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialParamInt_t.cs#L16)
 
 ```csharp
 ref int Value { get; }

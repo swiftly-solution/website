@@ -10,7 +10,7 @@ public interface C_OP_SetControlPointToVectorExpression : CParticleFunctionPreEm
 
 ## Properties
 
-**Expression** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L16)
+### **Expression** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L16)
 
 ```csharp
 ref VectorExpressionType_t Expression { get; }
@@ -20,7 +20,7 @@ ref VectorExpressionType_t Expression { get; }
 
 - [VectorExpressionType_t](/docs/api/shared/schemadefinitions/vectorexpressiontype_t)
 
-**Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L20)
+### **Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L20)
 
 ```csharp
 CParticleCollectionVecInput Input1 { get; }
@@ -30,7 +30,7 @@ CParticleCollectionVecInput Input1 { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**Input2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L22)
+### **Input2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L22)
 
 ```csharp
 CParticleCollectionVecInput Input2 { get; }
@@ -40,7 +40,7 @@ CParticleCollectionVecInput Input2 { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**Lerp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L24)
+### **Lerp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L24)
 
 ```csharp
 CPerParticleFloatInput Lerp { get; }
@@ -50,7 +50,7 @@ CPerParticleFloatInput Lerp { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**NormalizedOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L26)
+### **NormalizedOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L26)
 
 ```csharp
 ref bool NormalizedOutput { get; }
@@ -60,7 +60,7 @@ ref bool NormalizedOutput { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OutputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L18)
+### **OutputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToVectorExpression.cs#L18)
 
 ```csharp
 ref int OutputCP { get; }

@@ -10,7 +10,7 @@ public interface CPulseCell_Outflow_ListenForAnimgraphTag : CPulseCell_BaseYield
 
 ## Properties
 
-**OnCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L20)
+### **OnCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L20)
 
 ```csharp
 CPulse_ResumePoint OnCanceled { get; }
@@ -20,7 +20,7 @@ CPulse_ResumePoint OnCanceled { get; }
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
-**OnEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L18)
+### **OnEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L18)
 
 ```csharp
 CPulse_ResumePoint OnEnd { get; }
@@ -30,7 +30,7 @@ CPulse_ResumePoint OnEnd { get; }
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
-**OnStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L16)
+### **OnStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L16)
 
 ```csharp
 CPulse_ResumePoint OnStart { get; }
@@ -40,7 +40,7 @@ CPulse_ResumePoint OnStart { get; }
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
-**TagName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L22)
+### **TagName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForAnimgraphTag.cs#L22)
 
 ```csharp
 ref CGlobalSymbol TagName { get; }

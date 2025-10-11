@@ -10,7 +10,7 @@ public interface CDirectPlaybackTagData : ISchemaClass<CDirectPlaybackTagData>, 
 
 ## Properties
 
-**SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackTagData.cs#L16)
+### **SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackTagData.cs#L16)
 
 ```csharp
 string SequenceName { get; set; }
@@ -20,7 +20,7 @@ string SequenceName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackTagData.cs#L19)
+### **Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackTagData.cs#L19)
 
 ```csharp
 ref CUtlVector Tags { get; }
@@ -28,5 +28,5 @@ ref CUtlVector Tags { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

@@ -10,7 +10,7 @@ public interface CSosGroupActionSoundeventMinMaxValuesSchema : CSosGroupActionSc
 
 ## Properties
 
-**ExcludSoundsAboveThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L28)
+### **ExcludSoundsAboveThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L28)
 
 ```csharp
 ref bool ExcludSoundsAboveThreshold { get; }
@@ -20,7 +20,7 @@ ref bool ExcludSoundsAboveThreshold { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ExcludeDelayedSounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L22)
+### **ExcludeDelayedSounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L22)
 
 ```csharp
 ref bool ExcludeDelayedSounds { get; }
@@ -30,7 +30,7 @@ ref bool ExcludeDelayedSounds { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ExcludeSoundsBelowThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L24)
+### **ExcludeSoundsBelowThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L24)
 
 ```csharp
 ref bool ExcludeSoundsBelowThreshold { get; }
@@ -40,7 +40,7 @@ ref bool ExcludeSoundsBelowThreshold { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ExcludeSoundsMaxThresholdValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L30)
+### **ExcludeSoundsMaxThresholdValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L30)
 
 ```csharp
 ref float ExcludeSoundsMaxThresholdValue { get; }
@@ -50,7 +50,7 @@ ref float ExcludeSoundsMaxThresholdValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ExcludeSoundsMinThresholdValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L26)
+### **ExcludeSoundsMinThresholdValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L26)
 
 ```csharp
 ref float ExcludeSoundsMinThresholdValue { get; }
@@ -60,7 +60,7 @@ ref float ExcludeSoundsMinThresholdValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ExcludeStoppedSounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L20)
+### **ExcludeStoppedSounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L20)
 
 ```csharp
 ref bool ExcludeStoppedSounds { get; }
@@ -70,7 +70,7 @@ ref bool ExcludeStoppedSounds { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StrDelayPublicFieldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L18)
+### **StrDelayPublicFieldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L18)
 
 ```csharp
 string StrDelayPublicFieldName { get; set; }
@@ -80,7 +80,7 @@ string StrDelayPublicFieldName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StrMaxValueName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L34)
+### **StrMaxValueName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L34)
 
 ```csharp
 string StrMaxValueName { get; set; }
@@ -90,7 +90,7 @@ string StrMaxValueName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StrMinValueName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L32)
+### **StrMinValueName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L32)
 
 ```csharp
 string StrMinValueName { get; set; }
@@ -100,7 +100,7 @@ string StrMinValueName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StrQueryPublicFieldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L16)
+### **StrQueryPublicFieldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L16)
 
 ```csharp
 string StrQueryPublicFieldName { get; set; }

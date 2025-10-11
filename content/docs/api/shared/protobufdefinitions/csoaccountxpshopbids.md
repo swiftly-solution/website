@@ -10,7 +10,7 @@ public interface CSOAccountXpShopBids : ITypedProtobuf<CSOAccountXpShopBids>, IN
 
 ## Properties
 
-**CampaignId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L13)
+### **CampaignId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L13)
 
 ```csharp
 uint CampaignId { get; set; }
@@ -20,7 +20,7 @@ uint CampaignId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ExpectedCost** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L19)
+### **ExpectedCost** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L19)
 
 ```csharp
 uint ExpectedCost { get; set; }
@@ -30,7 +30,7 @@ uint ExpectedCost { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**GenerationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L22)
+### **GenerationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L22)
 
 ```csharp
 uint GenerationTime { get; set; }
@@ -40,7 +40,7 @@ uint GenerationTime { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RedeemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L16)
+### **RedeemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShopBids.cs#L16)
 
 ```csharp
 uint RedeemId { get; set; }

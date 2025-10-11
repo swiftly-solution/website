@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleEnt : ITypedProtobuf<CUs
 
 ## Properties
 
-**AttachType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L19)
+### **AttachType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L19)
 
 ```csharp
 int AttachType { get; set; }
@@ -20,7 +20,7 @@ int AttachType { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Attachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L22)
+### **Attachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L22)
 
 ```csharp
 int Attachment { get; set; }
@@ -30,7 +30,7 @@ int Attachment { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L13)
+### **ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L13)
 
 ```csharp
 int ControlPoint { get; set; }
@@ -40,7 +40,7 @@ int ControlPoint { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EntityHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L16)
+### **EntityHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L16)
 
 ```csharp
 uint EntityHandle { get; set; }
@@ -50,7 +50,7 @@ uint EntityHandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**FallbackPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L25)
+### **FallbackPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L25)
 
 ```csharp
 Vector FallbackPosition { get; set; }
@@ -60,7 +60,7 @@ Vector FallbackPosition { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**IncludeWearables** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L28)
+### **IncludeWearables** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L28)
 
 ```csharp
 bool IncludeWearables { get; set; }
@@ -70,7 +70,7 @@ bool IncludeWearables { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OffsetAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L34)
+### **OffsetAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L34)
 
 ```csharp
 QAngle OffsetAngles { get; set; }
@@ -80,7 +80,7 @@ QAngle OffsetAngles { get; set; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**OffsetPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L31)
+### **OffsetPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleEnt.cs#L31)
 
 ```csharp
 Vector OffsetPosition { get; set; }

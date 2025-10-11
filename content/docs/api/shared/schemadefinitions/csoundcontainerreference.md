@@ -10,7 +10,7 @@ public interface CSoundContainerReference : ISchemaClass<CSoundContainerReferenc
 
 ## Properties
 
-**Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReference.cs#L18)
+### **Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReference.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> Sound { get; }
@@ -20,7 +20,7 @@ ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> Sound { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>
 
-**Sound1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReference.cs#L20)
+### **Sound1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReference.cs#L20)
 
 ```csharp
 CVoiceContainerBase? Sound1 { get; }
@@ -30,7 +30,7 @@ CVoiceContainerBase? Sound1 { get; }
 
 - [CVoiceContainerBase](/docs/api/shared/schemadefinitions/cvoicecontainerbase)?
 
-**UseReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReference.cs#L16)
+### **UseReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReference.cs#L16)
 
 ```csharp
 ref bool UseReference { get; }

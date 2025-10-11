@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_SetMaterialOverride : ITypedProtobuf<C
 
 ## Properties
 
-**IncludeChildren** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetMaterialOverride.cs#L16)
+### **IncludeChildren** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetMaterialOverride.cs#L16)
 
 ```csharp
 bool IncludeChildren { get; set; }
@@ -20,7 +20,7 @@ bool IncludeChildren { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaterialName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetMaterialOverride.cs#L13)
+### **MaterialName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetMaterialOverride.cs#L13)
 
 ```csharp
 string MaterialName { get; set; }

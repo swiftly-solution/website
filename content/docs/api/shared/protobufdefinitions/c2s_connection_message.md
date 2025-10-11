@@ -10,7 +10,7 @@ public interface C2S_CONNECTION_Message : ITypedProtobuf<C2S_CONNECTION_Message>
 
 ## Properties
 
-**AddonName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/C2S_CONNECTION_Message.cs#L13)
+### **AddonName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/C2S_CONNECTION_Message.cs#L13)
 
 ```csharp
 string AddonName { get; set; }
@@ -20,7 +20,7 @@ string AddonName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**LocalhostSameProcessCheck** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/C2S_CONNECTION_Message.cs#L16)
+### **LocalhostSameProcessCheck** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/C2S_CONNECTION_Message.cs#L16)
 
 ```csharp
 C2S_CONNECT_SameProcessCheck LocalhostSameProcessCheck { get; }

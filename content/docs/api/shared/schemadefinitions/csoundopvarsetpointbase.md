@@ -10,7 +10,7 @@ public interface CSoundOpvarSetPointBase : CBaseEntity, CEntityInstance, ISchema
 
 ## Properties
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L16)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L16)
 
 ```csharp
 ref bool Disabled { get; }
@@ -20,7 +20,7 @@ ref bool Disabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LastPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L22)
+### **LastPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L22)
 
 ```csharp
 ref Vector LastPosition { get; }
@@ -30,7 +30,7 @@ ref Vector LastPosition { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OperatorName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L26)
+### **OperatorName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L26)
 
 ```csharp
 string OperatorName { get; set; }
@@ -40,7 +40,7 @@ string OperatorName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OpvarIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L30)
+### **OpvarIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L30)
 
 ```csharp
 ref int OpvarIndex { get; }
@@ -50,7 +50,7 @@ ref int OpvarIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OpvarName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L28)
+### **OpvarName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L28)
 
 ```csharp
 string OpvarName { get; set; }
@@ -60,7 +60,7 @@ string OpvarName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Source** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L18)
+### **Source** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L18)
 
 ```csharp
 ref CHandle<CEntityInstance> Source { get; }
@@ -70,7 +70,7 @@ ref CHandle<CEntityInstance> Source { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
-**SourceEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L20)
+### **SourceEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L20)
 
 ```csharp
 string SourceEntityName { get; set; }
@@ -80,7 +80,7 @@ string SourceEntityName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StackName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L24)
+### **StackName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L24)
 
 ```csharp
 string StackName { get; set; }
@@ -90,7 +90,7 @@ string StackName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**UseAutoCompare** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L32)
+### **UseAutoCompare** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L32)
 
 ```csharp
 ref bool UseAutoCompare { get; }
@@ -102,31 +102,31 @@ ref bool UseAutoCompare { get; }
 
 ## Methods
 
-**OperatorNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L35)
+### **OperatorNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L35)
 
 ```csharp
 void OperatorNameUpdated()
 ```
 
-**OpvarIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L37)
+### **OpvarIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L37)
 
 ```csharp
 void OpvarIndexUpdated()
 ```
 
-**OpvarNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L36)
+### **OpvarNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L36)
 
 ```csharp
 void OpvarNameUpdated()
 ```
 
-**StackNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L34)
+### **StackNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L34)
 
 ```csharp
 void StackNameUpdated()
 ```
 
-**UseAutoCompareUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L38)
+### **UseAutoCompareUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetPointBase.cs#L38)
 
 ```csharp
 void UseAutoCompareUpdated()

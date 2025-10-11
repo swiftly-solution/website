@@ -10,7 +10,7 @@ public interface CNmCachedTargetNode__CDefinition : CNmTargetValueNode__CDefinit
 
 ## Properties
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmCachedTargetNode__CDefinition.cs#L16)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmCachedTargetNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short InputValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmCachedTargetNode__CDefinition.cs#L18)
+### **Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmCachedTargetNode__CDefinition.cs#L18)
 
 ```csharp
 ref NmCachedValueMode_t Mode { get; }

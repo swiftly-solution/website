@@ -10,7 +10,7 @@ public interface EventBulletImpact : IGameEvent<EventBulletImpact>
 
 ## Properties
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L37)
+### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L37)
 
 ```csharp
 int UserId { get; set; }
@@ -20,7 +20,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L22)
+### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L22)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -30,7 +30,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L28)
+### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L28)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -40,7 +40,7 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L31)
+### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L31)
 
 ```csharp
 IPlayer UserIdPlayer { get; }
@@ -50,7 +50,7 @@ IPlayer UserIdPlayer { get; }
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 
-**X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L42)
+### **X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L42)
 
 ```csharp
 float X { get; set; }
@@ -60,7 +60,7 @@ float X { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L47)
+### **Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L47)
 
 ```csharp
 float Y { get; set; }
@@ -70,7 +70,7 @@ float Y { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L52)
+### **Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBulletImpact.cs#L52)
 
 ```csharp
 float Z { get; set; }

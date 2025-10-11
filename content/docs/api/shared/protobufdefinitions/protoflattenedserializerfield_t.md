@@ -10,7 +10,7 @@ public interface ProtoFlattenedSerializerField_t : ITypedProtobuf<ProtoFlattened
 
 ## Properties
 
-**BitCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L19)
+### **BitCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L19)
 
 ```csharp
 int BitCount { get; set; }
@@ -20,7 +20,7 @@ int BitCount { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EncodeFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L28)
+### **EncodeFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L28)
 
 ```csharp
 int EncodeFlags { get; set; }
@@ -30,7 +30,7 @@ int EncodeFlags { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FieldSerializerNameSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L31)
+### **FieldSerializerNameSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L31)
 
 ```csharp
 int FieldSerializerNameSym { get; set; }
@@ -40,7 +40,7 @@ int FieldSerializerNameSym { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FieldSerializerVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L34)
+### **FieldSerializerVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L34)
 
 ```csharp
 int FieldSerializerVersion { get; set; }
@@ -50,7 +50,7 @@ int FieldSerializerVersion { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HighValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L25)
+### **HighValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L25)
 
 ```csharp
 float HighValue { get; set; }
@@ -60,7 +60,7 @@ float HighValue { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LowValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L22)
+### **LowValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L22)
 
 ```csharp
 float LowValue { get; set; }
@@ -70,7 +70,7 @@ float LowValue { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PolymorphicTypes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L43)
+### **PolymorphicTypes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L43)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializerField_t_polymorphic_field_t> PolymorphicTypes { get; }
@@ -80,7 +80,7 @@ IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializerField_t_polymorphic
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ProtoFlattenedSerializerField_t_polymorphic_field_t](/docs/api/shared/protobufdefinitions/protoflattenedserializerfield_t_polymorphic_field_t)>
 
-**SendNodeSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L37)
+### **SendNodeSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L37)
 
 ```csharp
 int SendNodeSym { get; set; }
@@ -90,7 +90,7 @@ int SendNodeSym { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VarEncoderSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L40)
+### **VarEncoderSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L40)
 
 ```csharp
 int VarEncoderSym { get; set; }
@@ -100,7 +100,7 @@ int VarEncoderSym { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VarNameSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L16)
+### **VarNameSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L16)
 
 ```csharp
 int VarNameSym { get; set; }
@@ -110,7 +110,7 @@ int VarNameSym { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VarSerializerSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L46)
+### **VarSerializerSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L46)
 
 ```csharp
 int VarSerializerSym { get; set; }
@@ -120,7 +120,7 @@ int VarSerializerSym { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VarTypeSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L13)
+### **VarTypeSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializerField_t.cs#L13)
 
 ```csharp
 int VarTypeSym { get; set; }

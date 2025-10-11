@@ -10,7 +10,7 @@ public interface C_OP_PinRopeSegmentParticleToParent : CParticleFunctionOperator
 
 ## Properties
 
-**Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinRopeSegmentParticleToParent.cs#L20)
+### **Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinRopeSegmentParticleToParent.cs#L20)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }
@@ -20,7 +20,7 @@ CPerParticleFloatInput Interpolation { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**ParticleNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinRopeSegmentParticleToParent.cs#L18)
+### **ParticleNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinRopeSegmentParticleToParent.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput ParticleNumber { get; }
@@ -30,7 +30,7 @@ CParticleCollectionFloatInput ParticleNumber { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ParticleSelection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinRopeSegmentParticleToParent.cs#L16)
+### **ParticleSelection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PinRopeSegmentParticleToParent.cs#L16)
 
 ```csharp
 ref ParticleSelection_t ParticleSelection { get; }

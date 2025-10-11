@@ -10,7 +10,7 @@ public interface C_OP_ConstrainLineLength : CParticleFunctionConstraint, CPartic
 
 ## Properties
 
-**MaxDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainLineLength.cs#L18)
+### **MaxDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainLineLength.cs#L18)
 
 ```csharp
 ref float MaxDistance { get; }
@@ -20,7 +20,7 @@ ref float MaxDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainLineLength.cs#L16)
+### **MinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainLineLength.cs#L16)
 
 ```csharp
 ref float MinDistance { get; }

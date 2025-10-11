@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_ParticleSkipToTime : ITypedProtobuf<CU
 
 ## Properties
 
-**SkipToTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ParticleSkipToTime.cs#L13)
+### **SkipToTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ParticleSkipToTime.cs#L13)
 
 ```csharp
 float SkipToTime { get; set; }

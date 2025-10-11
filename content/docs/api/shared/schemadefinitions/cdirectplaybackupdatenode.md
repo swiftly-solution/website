@@ -10,7 +10,7 @@ public interface CDirectPlaybackUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBa
 
 ## Properties
 
-**AllTags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L21)
+### **AllTags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L21)
 
 ```csharp
 ref CUtlVector AllTags { get; }
@@ -18,9 +18,9 @@ ref CUtlVector AllTags { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**FinishEarly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L16)
+### **FinishEarly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L16)
 
 ```csharp
 ref bool FinishEarly { get; }
@@ -30,7 +30,7 @@ ref bool FinishEarly { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ResetOnFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L18)
+### **ResetOnFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L18)
 
 ```csharp
 ref bool ResetOnFinish { get; }

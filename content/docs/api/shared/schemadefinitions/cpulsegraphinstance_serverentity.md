@@ -10,7 +10,7 @@ public interface CPulseGraphInstance_ServerEntity : CBasePulseGraphInstance, ISc
 
 ## Properties
 
-**Activated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L18)
+### **Activated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L18)
 
 ```csharp
 ref bool Activated { get; }
@@ -20,7 +20,7 @@ ref bool Activated { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NameFixupLocal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L24)
+### **NameFixupLocal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L24)
 
 ```csharp
 string NameFixupLocal { get; set; }
@@ -30,7 +30,7 @@ string NameFixupLocal { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NameFixupParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L22)
+### **NameFixupParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L22)
 
 ```csharp
 string NameFixupParent { get; set; }
@@ -40,7 +40,7 @@ string NameFixupParent { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NameFixupStaticPrefix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L20)
+### **NameFixupStaticPrefix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L20)
 
 ```csharp
 string NameFixupStaticPrefix { get; set; }
@@ -50,7 +50,7 @@ string NameFixupStaticPrefix { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Owner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L16)
+### **Owner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L16)
 
 ```csharp
 ref CHandle<CBaseEntity> Owner { get; }
@@ -60,7 +60,7 @@ ref CHandle<CBaseEntity> Owner { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**ProceduralWorldNameForRelays** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L26)
+### **ProceduralWorldNameForRelays** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_ServerEntity.cs#L26)
 
 ```csharp
 string ProceduralWorldNameForRelays { get; set; }

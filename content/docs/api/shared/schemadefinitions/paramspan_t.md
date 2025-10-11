@@ -10,7 +10,7 @@ public interface ParamSpan_t : ISchemaClass<ParamSpan_t>, ISchemaField, ISchemaC
 
 ## Properties
 
-**EndCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L25)
+### **EndCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L25)
 
 ```csharp
 ref float EndCycle { get; }
@@ -20,7 +20,7 @@ ref float EndCycle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L19)
+### **Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L19)
 
 ```csharp
 CAnimParamHandle Param { get; }
@@ -30,7 +30,7 @@ CAnimParamHandle Param { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**ParamType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L21)
+### **ParamType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L21)
 
 ```csharp
 ref AnimParamType_t ParamType { get; }
@@ -40,7 +40,7 @@ ref AnimParamType_t ParamType { get; }
 
 - [AnimParamType_t](/docs/api/shared/schemadefinitions/animparamtype_t)
 
-**Samples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L17)
+### **Samples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L17)
 
 ```csharp
 ref CUtlVector Samples { get; }
@@ -48,9 +48,9 @@ ref CUtlVector Samples { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**StartCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L23)
+### **StartCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L23)
 
 ```csharp
 ref float StartCycle { get; }

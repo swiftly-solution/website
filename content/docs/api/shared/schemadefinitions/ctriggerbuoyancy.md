@@ -10,7 +10,7 @@ public interface CTriggerBuoyancy : CBaseTrigger, CBaseToggle, CBaseModelEntity,
 
 ## Properties
 
-**BuoyancyHelper** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBuoyancy.cs#L16)
+### **BuoyancyHelper** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBuoyancy.cs#L16)
 
 ```csharp
 CBuoyancyHelper BuoyancyHelper { get; }
@@ -20,7 +20,7 @@ CBuoyancyHelper BuoyancyHelper { get; }
 
 - [CBuoyancyHelper](/docs/api/shared/schemadefinitions/cbuoyancyhelper)
 
-**FluidDensity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBuoyancy.cs#L18)
+### **FluidDensity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBuoyancy.cs#L18)
 
 ```csharp
 ref float FluidDensity { get; }
@@ -32,7 +32,7 @@ ref float FluidDensity { get; }
 
 ## Methods
 
-**FluidDensityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBuoyancy.cs#L20)
+### **FluidDensityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBuoyancy.cs#L20)
 
 ```csharp
 void FluidDensityUpdated()

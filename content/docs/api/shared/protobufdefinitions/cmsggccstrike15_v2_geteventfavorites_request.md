@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_GetEventFavorites_Request : ITypedProtobuf<C
 
 ## Properties
 
-**AllEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GetEventFavorites_Request.cs#L13)
+### **AllEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GetEventFavorites_Request.cs#L13)
 
 ```csharp
 bool AllEvents { get; set; }

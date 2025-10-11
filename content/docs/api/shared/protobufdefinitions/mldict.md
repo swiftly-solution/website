@@ -10,7 +10,7 @@ public interface MLDict : ITypedProtobuf<MLDict>, INativeHandle
 
 ## Properties
 
-**Key** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDict.cs#L13)
+### **Key** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDict.cs#L13)
 
 ```csharp
 string Key { get; set; }
@@ -20,7 +20,7 @@ string Key { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ValFloat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDict.cs#L22)
+### **ValFloat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDict.cs#L22)
 
 ```csharp
 float ValFloat { get; set; }
@@ -30,7 +30,7 @@ float ValFloat { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ValInt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDict.cs#L19)
+### **ValInt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDict.cs#L19)
 
 ```csharp
 int ValInt { get; set; }
@@ -40,7 +40,7 @@ int ValInt { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ValString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDict.cs#L16)
+### **ValString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDict.cs#L16)
 
 ```csharp
 string ValString { get; set; }

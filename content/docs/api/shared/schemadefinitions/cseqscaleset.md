@@ -10,7 +10,7 @@ public interface CSeqScaleSet : ISchemaClass<CSeqScaleSet>, ISchemaField, ISchem
 
 ## Properties
 
-**BoneScaleArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L24)
+### **BoneScaleArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L24)
 
 ```csharp
 ref CUtlVector<float> BoneScaleArray { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<float> BoneScaleArray { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
+- [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**LocalBoneArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L22)
+### **LocalBoneArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L22)
 
 ```csharp
 ref CUtlVector<short> LocalBoneArray { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<short> LocalBoneArray { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[short](https://learn.microsoft.com/dotnet/api/system.int16)>
+- [CUtlVector](/docs/api/-1)<[short](https://learn.microsoft.com/dotnet/api/system.int16)>
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L16)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -40,7 +40,7 @@ ref CBufferString Name { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**RootOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L18)
+### **RootOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L18)
 
 ```csharp
 ref bool RootOffset { get; }
@@ -50,7 +50,7 @@ ref bool RootOffset { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RootOffset1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L20)
+### **RootOffset1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqScaleSet.cs#L20)
 
 ```csharp
 ref Vector RootOffset1 { get; }

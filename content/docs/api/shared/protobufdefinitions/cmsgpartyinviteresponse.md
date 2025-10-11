@@ -10,7 +10,7 @@ public interface CMsgPartyInviteResponse : ITypedProtobuf<CMsgPartyInviteRespons
 
 ## Properties
 
-**Accept** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPartyInviteResponse.cs#L16)
+### **Accept** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPartyInviteResponse.cs#L16)
 
 ```csharp
 bool Accept { get; set; }
@@ -20,7 +20,7 @@ bool Accept { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ClientVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPartyInviteResponse.cs#L19)
+### **ClientVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPartyInviteResponse.cs#L19)
 
 ```csharp
 uint ClientVersion { get; set; }
@@ -30,7 +30,7 @@ uint ClientVersion { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PartyId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPartyInviteResponse.cs#L13)
+### **PartyId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPartyInviteResponse.cs#L13)
 
 ```csharp
 ulong PartyId { get; set; }
@@ -40,7 +40,7 @@ ulong PartyId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**TeamInvite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPartyInviteResponse.cs#L22)
+### **TeamInvite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPartyInviteResponse.cs#L22)
 
 ```csharp
 uint TeamInvite { get; set; }

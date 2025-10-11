@@ -10,7 +10,7 @@ public interface C_OP_TeleportBeam : CParticleFunctionOperator, CParticleFunctio
 
 ## Properties
 
-**Alpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L36)
+### **Alpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L36)
 
 ```csharp
 ref float Alpha { get; }
@@ -20,7 +20,7 @@ ref float Alpha { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ArcMaxDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L30)
+### **ArcMaxDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L30)
 
 ```csharp
 ref float ArcMaxDuration { get; }
@@ -30,7 +30,7 @@ ref float ArcMaxDuration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ArcSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L34)
+### **ArcSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L34)
 
 ```csharp
 ref float ArcSpeed { get; }
@@ -40,7 +40,7 @@ ref float ArcSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CPColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L22)
+### **CPColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L22)
 
 ```csharp
 ref int CPColor { get; }
@@ -50,7 +50,7 @@ ref int CPColor { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CPExtraArcData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L26)
+### **CPExtraArcData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L26)
 
 ```csharp
 ref int CPExtraArcData { get; }
@@ -60,7 +60,7 @@ ref int CPExtraArcData { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CPInvalidColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L24)
+### **CPInvalidColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L24)
 
 ```csharp
 ref int CPInvalidColor { get; }
@@ -70,7 +70,7 @@ ref int CPInvalidColor { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CPMisc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L20)
+### **CPMisc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L20)
 
 ```csharp
 ref int CPMisc { get; }
@@ -80,7 +80,7 @@ ref int CPMisc { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CPPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L16)
+### **CPPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L16)
 
 ```csharp
 ref int CPPosition { get; }
@@ -90,7 +90,7 @@ ref int CPPosition { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CPVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L18)
+### **CPVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L18)
 
 ```csharp
 ref int CPVelocity { get; }
@@ -100,7 +100,7 @@ ref int CPVelocity { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Gravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L28)
+### **Gravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L28)
 
 ```csharp
 ref Vector Gravity { get; }
@@ -110,7 +110,7 @@ ref Vector Gravity { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**SegmentBreak** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L32)
+### **SegmentBreak** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TeleportBeam.cs#L32)
 
 ```csharp
 ref float SegmentBreak { get; }

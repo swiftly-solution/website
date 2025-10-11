@@ -10,7 +10,7 @@ public interface CCSUsrMsg_ShowMenu : ITypedProtobuf<CCSUsrMsg_ShowMenu>, INativ
 
 ## Properties
 
-**BitsValidSlots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ShowMenu.cs#L18)
+### **BitsValidSlots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ShowMenu.cs#L18)
 
 ```csharp
 int BitsValidSlots { get; set; }
@@ -20,7 +20,7 @@ int BitsValidSlots { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DisplayTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ShowMenu.cs#L21)
+### **DisplayTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ShowMenu.cs#L21)
 
 ```csharp
 int DisplayTime { get; set; }
@@ -30,7 +30,7 @@ int DisplayTime { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MenuString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ShowMenu.cs#L24)
+### **MenuString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ShowMenu.cs#L24)
 
 ```csharp
 string MenuString { get; set; }

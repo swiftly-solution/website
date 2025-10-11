@@ -10,7 +10,7 @@ public struct Vector
 
 ## Constructors
 
-**Vector(float, float, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L18)
+### **Vector(float, float, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L18)
 
 ```csharp
 public Vector(float x, float y, float z)
@@ -22,7 +22,7 @@ public Vector(float x, float y, float z)
 - **y**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **z**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Vector(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L24)
+### **Vector(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L24)
 
 ```csharp
 public Vector(Vector other)
@@ -34,7 +34,7 @@ public Vector(Vector other)
 
 ## Fields
 
-**X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L14)
+### **X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L14)
 
 ```csharp
 public float X
@@ -44,7 +44,7 @@ public float X
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L15)
+### **Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L15)
 
 ```csharp
 public float Y
@@ -54,7 +54,7 @@ public float Y
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L16)
+### **Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L16)
 
 ```csharp
 public float Z
@@ -66,7 +66,7 @@ public float Z
 
 ## Properties
 
-**One** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L98)
+### **One** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L98)
 
 ```csharp
 public static Vector One { get; }
@@ -76,7 +76,7 @@ public static Vector One { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Zero** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L96)
+### **Zero** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L96)
 
 ```csharp
 public static Vector Zero { get; }
@@ -88,7 +88,7 @@ public static Vector Zero { get; }
 
 ## Methods
 
-**Cross(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L55)
+### **Cross(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L55)
 
 ```csharp
 public Vector Cross(Vector other)
@@ -102,7 +102,7 @@ public Vector Cross(Vector other)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Deconstruct(out float, out float, out float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L85)
+### **Deconstruct(out float, out float, out float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L85)
 
 ```csharp
 public void Deconstruct(out float x, out float y, out float z)
@@ -114,7 +114,7 @@ public void Deconstruct(out float x, out float y, out float z)
 - **y**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **z**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Distance(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L47)
+### **Distance(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L47)
 
 ```csharp
 public float Distance(Vector other)
@@ -128,7 +128,7 @@ public float Distance(Vector other)
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DistanceSquared(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L51)
+### **DistanceSquared(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L51)
 
 ```csharp
 public float DistanceSquared(Vector other)
@@ -142,7 +142,7 @@ public float DistanceSquared(Vector other)
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Dot(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L58)
+### **Dot(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L58)
 
 ```csharp
 public static float Dot(Vector a, Vector b)
@@ -157,7 +157,7 @@ public static float Dot(Vector a, Vector b)
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Dot(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L61)
+### **Dot(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L61)
 
 ```csharp
 public float Dot(Vector other)
@@ -171,7 +171,7 @@ public float Dot(Vector other)
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Equals(object?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L92)
+### **Equals(object?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L92)
 
 ```csharp
 public override bool Equals(object? obj)
@@ -185,7 +185,7 @@ public override bool Equals(object? obj)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
-**FromBuiltin(Vector3)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L35)
+### **FromBuiltin(Vector3)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L35)
 
 ```csharp
 public static Vector FromBuiltin(Vector3 vector)
@@ -199,7 +199,7 @@ public static Vector FromBuiltin(Vector3 vector)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**GetHashCode()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L93)
+### **GetHashCode()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L93)
 
 ```csharp
 public override int GetHashCode()
@@ -209,7 +209,7 @@ public override int GetHashCode()
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
-**Length()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L40)
+### **Length()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L40)
 
 ```csharp
 public float Length()
@@ -219,7 +219,7 @@ public float Length()
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LengthSquared()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L44)
+### **LengthSquared()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L44)
 
 ```csharp
 public float LengthSquared()
@@ -229,13 +229,13 @@ public float LengthSquared()
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Normalize()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L64)
+### **Normalize()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L64)
 
 ```csharp
 public void Normalize()
 ```
 
-**Normalized()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L75)
+### **Normalized()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L75)
 
 ```csharp
 public Vector Normalized()
@@ -245,7 +245,7 @@ public Vector Normalized()
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ToBuiltin()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L30)
+### **ToBuiltin()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L30)
 
 ```csharp
 public Vector3 ToBuiltin()
@@ -255,7 +255,7 @@ public Vector3 ToBuiltin()
 
 - [Vector3](https://learn.microsoft.com/dotnet/api/system.numerics.vector3)
 
-**ToString()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L94)
+### **ToString()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L94)
 
 ```csharp
 public override string ToString()
@@ -267,7 +267,7 @@ public override string ToString()
 
 ## Operators
 
-**operator +(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L101)
+### **operator +(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L101)
 
 ```csharp
 public static Vector operator +(Vector a, Vector b)
@@ -282,7 +282,7 @@ public static Vector operator +(Vector a, Vector b)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**operator /(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L111)
+### **operator /(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L111)
 
 ```csharp
 public static Vector operator /(Vector a, Vector b)
@@ -297,7 +297,7 @@ public static Vector operator /(Vector a, Vector b)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**operator /(Vector, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L120)
+### **operator /(Vector, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L120)
 
 ```csharp
 public static Vector operator /(Vector a, float b)
@@ -312,7 +312,7 @@ public static Vector operator /(Vector a, float b)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**operator ==(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L132)
+### **operator ==(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L132)
 
 ```csharp
 public static bool operator ==(Vector a, Vector b)
@@ -327,7 +327,7 @@ public static bool operator ==(Vector a, Vector b)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**operator !=(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L135)
+### **operator !=(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L135)
 
 ```csharp
 public static bool operator !=(Vector a, Vector b)
@@ -342,7 +342,7 @@ public static bool operator !=(Vector a, Vector b)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**operator *(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L108)
+### **operator *(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L108)
 
 ```csharp
 public static Vector operator *(Vector a, Vector b)
@@ -357,7 +357,7 @@ public static Vector operator *(Vector a, Vector b)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**operator *(Vector, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L114)
+### **operator *(Vector, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L114)
 
 ```csharp
 public static Vector operator *(Vector a, float b)
@@ -372,7 +372,7 @@ public static Vector operator *(Vector a, float b)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**operator *(float, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L117)
+### **operator *(float, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L117)
 
 ```csharp
 public static Vector operator *(float b, Vector a)
@@ -387,7 +387,7 @@ public static Vector operator *(float b, Vector a)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**operator -(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L105)
+### **operator -(Vector, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L105)
 
 ```csharp
 public static Vector operator -(Vector a, Vector b)
@@ -402,7 +402,7 @@ public static Vector operator -(Vector a, Vector b)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**operator -(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L129)
+### **operator -(Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector.cs#L129)
 
 ```csharp
 public static Vector operator -(Vector a)

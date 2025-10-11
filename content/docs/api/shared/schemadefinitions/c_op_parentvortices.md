@@ -10,7 +10,7 @@ public interface C_OP_ParentVortices : CParticleFunctionForce, CParticleFunction
 
 ## Properties
 
-**FlipBasedOnYaw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ParentVortices.cs#L20)
+### **FlipBasedOnYaw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ParentVortices.cs#L20)
 
 ```csharp
 ref bool FlipBasedOnYaw { get; }
@@ -20,7 +20,7 @@ ref bool FlipBasedOnYaw { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ForceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ParentVortices.cs#L16)
+### **ForceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ParentVortices.cs#L16)
 
 ```csharp
 ref float ForceScale { get; }
@@ -30,7 +30,7 @@ ref float ForceScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TwistAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ParentVortices.cs#L18)
+### **TwistAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ParentVortices.cs#L18)
 
 ```csharp
 ref Vector TwistAxis { get; }

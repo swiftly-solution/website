@@ -10,7 +10,7 @@ public interface CBot : ISchemaClass<CBot>, ISchemaField, ISchemaClass, INativeH
 
 ## Properties
 
-**ButtonFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L34)
+### **ButtonFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L34)
 
 ```csharp
 ref ulong ButtonFlags { get; }
@@ -20,7 +20,7 @@ ref ulong ButtonFlags { get; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Controller** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L16)
+### **Controller** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L16)
 
 ```csharp
 CCSPlayerController? Controller { get; }
@@ -30,7 +30,7 @@ CCSPlayerController? Controller { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)?
 
-**ForwardSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L28)
+### **ForwardSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L28)
 
 ```csharp
 ref float ForwardSpeed { get; }
@@ -40,7 +40,7 @@ ref float ForwardSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HasSpawned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L20)
+### **HasSpawned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L20)
 
 ```csharp
 ref bool HasSpawned { get; }
@@ -50,7 +50,7 @@ ref bool HasSpawned { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Id** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L22)
+### **Id** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L22)
 
 ```csharp
 ref uint Id { get; }
@@ -60,7 +60,7 @@ ref uint Id { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**IsCrouching** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L26)
+### **IsCrouching** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L26)
 
 ```csharp
 ref bool IsCrouching { get; }
@@ -70,7 +70,7 @@ ref bool IsCrouching { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsRunning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L24)
+### **IsRunning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L24)
 
 ```csharp
 ref bool IsRunning { get; }
@@ -80,7 +80,7 @@ ref bool IsRunning { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**JumpTimestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L36)
+### **JumpTimestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L36)
 
 ```csharp
 ref float JumpTimestamp { get; }
@@ -90,7 +90,7 @@ ref float JumpTimestamp { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LeftSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L30)
+### **LeftSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L30)
 
 ```csharp
 ref float LeftSpeed { get; }
@@ -100,7 +100,7 @@ ref float LeftSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L18)
+### **Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L18)
 
 ```csharp
 CCSPlayerPawn? Player { get; }
@@ -110,7 +110,7 @@ CCSPlayerPawn? Player { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)?
 
-**PostureStackIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L40)
+### **PostureStackIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L40)
 
 ```csharp
 ref int PostureStackIndex { get; }
@@ -120,7 +120,7 @@ ref int PostureStackIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VerticalSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L32)
+### **VerticalSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L32)
 
 ```csharp
 ref float VerticalSpeed { get; }
@@ -130,7 +130,7 @@ ref float VerticalSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ViewForward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L38)
+### **ViewForward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBot.cs#L38)
 
 ```csharp
 ref Vector ViewForward { get; }

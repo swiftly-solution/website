@@ -10,7 +10,7 @@ public interface C_INIT_RandomNamedModelElement : CParticleFunctionInitializer, 
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L26)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L26)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Linear** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L22)
+### **Linear** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L22)
 
 ```csharp
 ref bool Linear { get; }
@@ -30,7 +30,7 @@ ref bool Linear { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L16)
+### **Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -40,7 +40,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
-**ModelFromRenderer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L24)
+### **ModelFromRenderer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L24)
 
 ```csharp
 ref bool ModelFromRenderer { get; }
@@ -50,7 +50,7 @@ ref bool ModelFromRenderer { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Names** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L18)
+### **Names** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L18)
 
 ```csharp
 ref CUtlVector<CUtlString> Names { get; }
@@ -58,9 +58,9 @@ ref CUtlVector<CUtlString> Names { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**Shuffle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L20)
+### **Shuffle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomNamedModelElement.cs#L20)
 
 ```csharp
 ref bool Shuffle { get; }

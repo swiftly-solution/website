@@ -10,7 +10,7 @@ public interface CMsgGCStorePurchaseFinalizeResponse : ITypedProtobuf<CMsgGCStor
 
 ## Properties
 
-**ItemIds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseFinalizeResponse.cs#L16)
+### **ItemIds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseFinalizeResponse.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<ulong> ItemIds { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldValueType<ulong> ItemIds { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
-**Result** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseFinalizeResponse.cs#L13)
+### **Result** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseFinalizeResponse.cs#L13)
 
 ```csharp
 uint Result { get; set; }

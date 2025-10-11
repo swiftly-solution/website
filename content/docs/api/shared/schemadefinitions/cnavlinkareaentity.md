@@ -10,7 +10,7 @@ public interface CNavLinkAreaEntity : CPointEntity, CBaseEntity, CEntityInstance
 
 ## Properties
 
-**AllowCrossMovableConnections** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L28)
+### **AllowCrossMovableConnections** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L28)
 
 ```csharp
 ref bool AllowCrossMovableConnections { get; }
@@ -20,7 +20,7 @@ ref bool AllowCrossMovableConnections { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L26)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L26)
 
 ```csharp
 ref bool Enabled { get; }
@@ -30,7 +30,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L32)
+### **Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L32)
 
 ```csharp
 ref CHandle<CBaseFilter> Filter { get; }
@@ -40,7 +40,7 @@ ref CHandle<CBaseFilter> Filter { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseFilter](/docs/api/shared/schemadefinitions/cbasefilter)>
 
-**IsTerminus** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L38)
+### **IsTerminus** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L38)
 
 ```csharp
 ref bool IsTerminus { get; }
@@ -50,7 +50,7 @@ ref bool IsTerminus { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LocatorAnglesOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L20)
+### **LocatorAnglesOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L20)
 
 ```csharp
 ref QAngle LocatorAnglesOffset { get; }
@@ -60,7 +60,7 @@ ref QAngle LocatorAnglesOffset { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**LocatorOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L18)
+### **LocatorOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L18)
 
 ```csharp
 ref Vector LocatorOffset { get; }
@@ -70,7 +70,7 @@ ref Vector LocatorOffset { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OnNavLinkFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L36)
+### **OnNavLinkFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L36)
 
 ```csharp
 CEntityIOOutput OnNavLinkFinish { get; }
@@ -80,7 +80,7 @@ CEntityIOOutput OnNavLinkFinish { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnNavLinkStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L34)
+### **OnNavLinkStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L34)
 
 ```csharp
 CEntityIOOutput OnNavLinkStart { get; }
@@ -90,7 +90,7 @@ CEntityIOOutput OnNavLinkStart { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**Splits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L40)
+### **Splits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L40)
 
 ```csharp
 ref int Splits { get; }
@@ -100,7 +100,7 @@ ref int Splits { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StrFilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L30)
+### **StrFilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L30)
 
 ```csharp
 string StrFilterName { get; set; }
@@ -110,7 +110,7 @@ string StrFilterName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StrMovementForward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L22)
+### **StrMovementForward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L22)
 
 ```csharp
 string StrMovementForward { get; set; }
@@ -120,7 +120,7 @@ string StrMovementForward { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StrMovementReverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L24)
+### **StrMovementReverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L24)
 
 ```csharp
 string StrMovementReverse { get; set; }
@@ -130,7 +130,7 @@ string StrMovementReverse { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Width** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L16)
+### **Width** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAreaEntity.cs#L16)
 
 ```csharp
 ref float Width { get; }

@@ -10,7 +10,7 @@ public interface CNmStateCompletedConditionNode__CDefinition : CNmBoolValueNode_
 
 ## Properties
 
-**SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L16)
+### **SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L16)
 
 ```csharp
 ref short SourceStateNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short SourceStateNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**TransitionDurationOverrideNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L18)
+### **TransitionDurationOverrideNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L18)
 
 ```csharp
 ref short TransitionDurationOverrideNodeIdx { get; }
@@ -30,7 +30,7 @@ ref short TransitionDurationOverrideNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**TransitionDurationSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L20)
+### **TransitionDurationSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateCompletedConditionNode__CDefinition.cs#L20)
 
 ```csharp
 ref float TransitionDurationSeconds { get; }

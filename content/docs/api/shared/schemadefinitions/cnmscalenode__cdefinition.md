@@ -10,7 +10,7 @@ public interface CNmScaleNode__CDefinition : CNmPassthroughNode__CDefinition, CN
 
 ## Properties
 
-**EnableNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmScaleNode__CDefinition.cs#L18)
+### **EnableNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmScaleNode__CDefinition.cs#L18)
 
 ```csharp
 ref short EnableNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short EnableNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**MaskNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmScaleNode__CDefinition.cs#L16)
+### **MaskNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmScaleNode__CDefinition.cs#L16)
 
 ```csharp
 ref short MaskNodeIdx { get; }

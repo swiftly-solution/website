@@ -10,7 +10,7 @@ public interface EventFirstbombsIncomingWarning : IGameEvent<EventFirstbombsInco
 
 ## Properties
 
-**Global** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventFirstbombsIncomingWarning.cs#L21)
+### **Global** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventFirstbombsIncomingWarning.cs#L21)
 
 ```csharp
 bool Global { get; set; }

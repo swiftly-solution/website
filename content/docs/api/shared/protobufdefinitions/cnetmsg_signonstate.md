@@ -10,7 +10,7 @@ public interface CNETMsg_SignonState : ITypedProtobuf<CNETMsg_SignonState>, INat
 
 ## Properties
 
-**Addons** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L33)
+### **Addons** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L33)
 
 ```csharp
 string Addons { get; set; }
@@ -20,7 +20,7 @@ string Addons { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L30)
+### **MapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L30)
 
 ```csharp
 string MapName { get; set; }
@@ -30,7 +30,7 @@ string MapName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NumServerPlayers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L24)
+### **NumServerPlayers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L24)
 
 ```csharp
 uint NumServerPlayers { get; set; }
@@ -40,7 +40,7 @@ uint NumServerPlayers { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PlayersNetworkids** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L27)
+### **PlayersNetworkids** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L27)
 
 ```csharp
 IProtobufRepeatedFieldValueType<string> PlayersNetworkids { get; }
@@ -50,7 +50,7 @@ IProtobufRepeatedFieldValueType<string> PlayersNetworkids { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
-**SignonState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L18)
+### **SignonState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L18)
 
 ```csharp
 SignonState_t SignonState { get; set; }
@@ -60,7 +60,7 @@ SignonState_t SignonState { get; set; }
 
 - [SignonState_t](/docs/api/shared/protobufdefinitions/signonstate_t)
 
-**SpawnCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L21)
+### **SpawnCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SignonState.cs#L21)
 
 ```csharp
 uint SpawnCount { get; set; }

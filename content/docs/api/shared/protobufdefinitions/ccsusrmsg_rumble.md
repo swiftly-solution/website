@@ -10,7 +10,7 @@ public interface CCSUsrMsg_Rumble : ITypedProtobuf<CCSUsrMsg_Rumble>, INativeHan
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Rumble.cs#L21)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Rumble.cs#L21)
 
 ```csharp
 int Data { get; set; }
@@ -20,7 +20,7 @@ int Data { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Rumble.cs#L24)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Rumble.cs#L24)
 
 ```csharp
 int Flags { get; set; }
@@ -30,7 +30,7 @@ int Flags { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Rumble.cs#L18)
+### **Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Rumble.cs#L18)
 
 ```csharp
 int Index { get; set; }

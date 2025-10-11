@@ -10,7 +10,7 @@ public interface CMsgPlayerInfo : ITypedProtobuf<CMsgPlayerInfo>, INativeHandle
 
 ## Properties
 
-**Fakeplayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L25)
+### **Fakeplayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L25)
 
 ```csharp
 bool Fakeplayer { get; set; }
@@ -20,7 +20,7 @@ bool Fakeplayer { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Ishltv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L28)
+### **Ishltv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L28)
 
 ```csharp
 bool Ishltv { get; set; }
@@ -30,7 +30,7 @@ bool Ishltv { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L13)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L13)
 
 ```csharp
 string Name { get; set; }
@@ -40,7 +40,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L22)
+### **Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L22)
 
 ```csharp
 ulong Steamid { get; set; }
@@ -50,7 +50,7 @@ ulong Steamid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Userid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L19)
+### **Userid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L19)
 
 ```csharp
 int Userid { get; set; }
@@ -60,7 +60,7 @@ int Userid { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L16)
+### **Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlayerInfo.cs#L16)
 
 ```csharp
 ulong Xuid { get; set; }

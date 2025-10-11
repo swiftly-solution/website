@@ -10,7 +10,7 @@ public interface CWorkshop_PopulateItemDescriptions_Request : ITypedProtobuf<CWo
 
 ## Properties
 
-**Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request.cs#L13)
+### **Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request.cs#L13)
 
 ```csharp
 uint Appid { get; set; }
@@ -20,7 +20,7 @@ uint Appid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Languages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request.cs#L16)
+### **Languages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock> Languages { get; }

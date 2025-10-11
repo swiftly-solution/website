@@ -10,7 +10,7 @@ public interface CUserMessage_PlayResponseConditional : ITypedProtobuf<CUserMess
 
 ## Properties
 
-**EntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L18)
+### **EntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L18)
 
 ```csharp
 int EntIndex { get; set; }
@@ -20,7 +20,7 @@ int EntIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EntOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L27)
+### **EntOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L27)
 
 ```csharp
 Vector EntOrigin { get; set; }
@@ -30,7 +30,7 @@ Vector EntOrigin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**MixPriority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L33)
+### **MixPriority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L33)
 
 ```csharp
 int MixPriority { get; set; }
@@ -40,7 +40,7 @@ int MixPriority { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PlayerSlots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L21)
+### **PlayerSlots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L21)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> PlayerSlots { get; }
@@ -50,7 +50,7 @@ IProtobufRepeatedFieldValueType<int> PlayerSlots { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**PreDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L30)
+### **PreDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L30)
 
 ```csharp
 float PreDelay { get; set; }
@@ -60,7 +60,7 @@ float PreDelay { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Response** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L24)
+### **Response** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_PlayResponseConditional.cs#L24)
 
 ```csharp
 string Response { get; set; }

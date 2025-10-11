@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName : ITypedProtobu
 
 ## Properties
 
-**LeaderboardSafeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName.cs#L13)
+### **LeaderboardSafeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName.cs#L13)
 
 ```csharp
 string LeaderboardSafeName { get; set; }

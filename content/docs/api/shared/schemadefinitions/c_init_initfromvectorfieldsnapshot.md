@@ -10,7 +10,7 @@ public interface C_INIT_InitFromVectorFieldSnapshot : CParticleFunctionInitializ
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LocalSpaceCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L18)
+### **LocalSpaceCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L18)
 
 ```csharp
 ref int LocalSpaceCP { get; }
@@ -30,7 +30,7 @@ ref int LocalSpaceCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L24)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L24)
 
 ```csharp
 CPerParticleVecInput Scale { get; }
@@ -40,7 +40,7 @@ CPerParticleVecInput Scale { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**UseVerticalVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L22)
+### **UseVerticalVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L22)
 
 ```csharp
 ref bool UseVerticalVelocity { get; }
@@ -50,7 +50,7 @@ ref bool UseVerticalVelocity { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WeightUpdateCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L20)
+### **WeightUpdateCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromVectorFieldSnapshot.cs#L20)
 
 ```csharp
 ref int WeightUpdateCP { get; }

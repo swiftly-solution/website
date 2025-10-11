@@ -10,7 +10,7 @@ public interface C_OP_SequenceFromModel : CParticleFunctionOperator, CParticleFu
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldOutputAnim** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L20)
+### **FieldOutputAnim** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutputAnim { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t FieldOutputAnim { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L24)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L24)
 
 ```csharp
 ref float InputMax { get; }
@@ -50,7 +50,7 @@ ref float InputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L22)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L22)
 
 ```csharp
 ref float InputMin { get; }
@@ -60,7 +60,7 @@ ref float InputMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L28)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L28)
 
 ```csharp
 ref float OutputMax { get; }
@@ -70,7 +70,7 @@ ref float OutputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L26)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L26)
 
 ```csharp
 ref float OutputMin { get; }
@@ -80,7 +80,7 @@ ref float OutputMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L30)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SequenceFromModel.cs#L30)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

@@ -10,7 +10,7 @@ public interface CMolotovProjectile : CBaseCSGrenadeProjectile, CBaseGrenade, CB
 
 ## Properties
 
-**Detonated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMolotovProjectile.cs#L18)
+### **Detonated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMolotovProjectile.cs#L18)
 
 ```csharp
 ref bool Detonated { get; }
@@ -20,7 +20,7 @@ ref bool Detonated { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HasBouncedOffPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMolotovProjectile.cs#L22)
+### **HasBouncedOffPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMolotovProjectile.cs#L22)
 
 ```csharp
 ref bool HasBouncedOffPlayer { get; }
@@ -30,7 +30,7 @@ ref bool HasBouncedOffPlayer { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsIncGrenade** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMolotovProjectile.cs#L16)
+### **IsIncGrenade** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMolotovProjectile.cs#L16)
 
 ```csharp
 ref bool IsIncGrenade { get; }
@@ -40,7 +40,7 @@ ref bool IsIncGrenade { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StillTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMolotovProjectile.cs#L20)
+### **StillTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMolotovProjectile.cs#L20)
 
 ```csharp
 IntervalTimer StillTimer { get; }
@@ -52,7 +52,7 @@ IntervalTimer StillTimer { get; }
 
 ## Methods
 
-**IsIncGrenadeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMolotovProjectile.cs#L24)
+### **IsIncGrenadeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMolotovProjectile.cs#L24)
 
 ```csharp
 void IsIncGrenadeUpdated()

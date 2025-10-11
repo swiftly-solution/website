@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_Transform
 
 ## Properties
 
-**Angles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_TransformContextValue.cs#L16)
+### **Angles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_TransformContextValue.cs#L16)
 
 ```csharp
 QAngle Angles { get; set; }
@@ -20,7 +20,7 @@ QAngle Angles { get; set; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**Translation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_TransformContextValue.cs#L19)
+### **Translation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_TransformContextValue.cs#L19)
 
 ```csharp
 Vector Translation { get; set; }
@@ -30,7 +30,7 @@ Vector Translation { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ValueNameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_TransformContextValue.cs#L13)
+### **ValueNameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_TransformContextValue.cs#L13)
 
 ```csharp
 uint ValueNameHash { get; set; }

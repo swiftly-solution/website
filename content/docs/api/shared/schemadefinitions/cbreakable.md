@@ -10,7 +10,7 @@ public interface CBreakable : CBaseModelEntity, CBaseEntity, CEntityInstance, IS
 
 ## Properties
 
-**Breaker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L20)
+### **Breaker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> Breaker { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> Breaker { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**CPropDataComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L16)
+### **CPropDataComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L16)
 
 ```csharp
 CPropDataComponent CPropDataComponent { get; }
@@ -30,7 +30,7 @@ CPropDataComponent CPropDataComponent { get; }
 
 - [CPropDataComponent](/docs/api/shared/schemadefinitions/cpropdatacomponent)
 
-**Explosion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L22)
+### **Explosion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L22)
 
 ```csharp
 ref Explosions Explosion { get; }
@@ -40,7 +40,7 @@ ref Explosions Explosion { get; }
 
 - [Explosions](/docs/api/shared/schemadefinitions/explosions)
 
-**ImpactEnergyScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L32)
+### **ImpactEnergyScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L32)
 
 ```csharp
 ref float ImpactEnergyScale { get; }
@@ -50,7 +50,7 @@ ref float ImpactEnergyScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LastPhysicsInfluenceTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L45)
+### **LastPhysicsInfluenceTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L45)
 
 ```csharp
 GameTime_t LastPhysicsInfluenceTime { get; }
@@ -60,7 +60,7 @@ GameTime_t LastPhysicsInfluenceTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L18)
+### **Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L18)
 
 ```csharp
 ref Materials Material { get; }
@@ -70,7 +70,7 @@ ref Materials Material { get; }
 
 - [Materials](/docs/api/shared/schemadefinitions/materials)
 
-**MinHealthDmg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L28)
+### **MinHealthDmg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L28)
 
 ```csharp
 ref int MinHealthDmg { get; }
@@ -80,7 +80,7 @@ ref int MinHealthDmg { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OnBreak** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L36)
+### **OnBreak** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L36)
 
 ```csharp
 CEntityIOOutput OnBreak { get; }
@@ -90,7 +90,7 @@ CEntityIOOutput OnBreak { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnHealthChanged** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L39)
+### **OnHealthChanged** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L39)
 
 ```csharp
 SchemaUntypedField OnHealthChanged { get; }
@@ -100,7 +100,7 @@ SchemaUntypedField OnHealthChanged { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**OverrideBlockLOS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L34)
+### **OverrideBlockLOS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L34)
 
 ```csharp
 ref EOverrideBlockLOS_t OverrideBlockLOS { get; }
@@ -110,7 +110,7 @@ ref EOverrideBlockLOS_t OverrideBlockLOS { get; }
 
 - [EOverrideBlockLOS_t](/docs/api/shared/schemadefinitions/eoverrideblocklos_t)
 
-**PerformanceMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L41)
+### **PerformanceMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L41)
 
 ```csharp
 ref PerformanceMode_t PerformanceMode { get; }
@@ -120,7 +120,7 @@ ref PerformanceMode_t PerformanceMode { get; }
 
 - [PerformanceMode_t](/docs/api/shared/schemadefinitions/performancemode_t)
 
-**PhysicsAttacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L43)
+### **PhysicsAttacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L43)
 
 ```csharp
 ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
@@ -130,7 +130,7 @@ ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>
 
-**PressureDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L26)
+### **PressureDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L26)
 
 ```csharp
 ref float PressureDelay { get; }
@@ -140,7 +140,7 @@ ref float PressureDelay { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PropData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L30)
+### **PropData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L30)
 
 ```csharp
 string PropData { get; set; }
@@ -150,7 +150,7 @@ string PropData { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SpawnObject** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L24)
+### **SpawnObject** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L24)
 
 ```csharp
 string SpawnObject { get; set; }
@@ -162,7 +162,7 @@ string SpawnObject { get; set; }
 
 ## Methods
 
-**CPropDataComponentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L47)
+### **CPropDataComponentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBreakable.cs#L47)
 
 ```csharp
 void CPropDataComponentUpdated()

@@ -10,7 +10,7 @@ public interface CUserMessageCameraTransition_Transition_DataDriven : ITypedProt
 
 ## Properties
 
-**AttachEntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition_Transition_DataDriven.cs#L16)
+### **AttachEntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition_Transition_DataDriven.cs#L16)
 
 ```csharp
 int AttachEntIndex { get; set; }
@@ -20,7 +20,7 @@ int AttachEntIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition_Transition_DataDriven.cs#L19)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition_Transition_DataDriven.cs#L19)
 
 ```csharp
 float Duration { get; set; }
@@ -30,7 +30,7 @@ float Duration { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Filename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition_Transition_DataDriven.cs#L13)
+### **Filename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition_Transition_DataDriven.cs#L13)
 
 ```csharp
 string Filename { get; set; }

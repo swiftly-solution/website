@@ -10,7 +10,7 @@ public interface CFootTrajectories : ISchemaClass<CFootTrajectories>, ISchemaFie
 
 ## Properties
 
-**Trajectories** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootTrajectories.cs#L17)
+### **Trajectories** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootTrajectories.cs#L17)
 
 ```csharp
 ref CUtlVector Trajectories { get; }
@@ -18,5 +18,5 @@ ref CUtlVector Trajectories { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

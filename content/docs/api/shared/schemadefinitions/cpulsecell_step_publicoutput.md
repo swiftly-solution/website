@@ -10,7 +10,7 @@ public interface CPulseCell_Step_PublicOutput : CPulseCell_BaseFlow, CPulseCell_
 
 ## Properties
 
-**OutputIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_PublicOutput.cs#L16)
+### **OutputIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_PublicOutput.cs#L16)
 
 ```csharp
 PulseRuntimeOutputIndex_t OutputIndex { get; }

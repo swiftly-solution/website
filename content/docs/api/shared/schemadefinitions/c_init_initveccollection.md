@@ -10,7 +10,7 @@ public interface C_INIT_InitVecCollection : CParticleFunctionInitializer, CParti
 
 ## Properties
 
-**InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVecCollection.cs#L16)
+### **InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVecCollection.cs#L16)
 
 ```csharp
 CParticleCollectionVecInput InputValue { get; }
@@ -20,7 +20,7 @@ CParticleCollectionVecInput InputValue { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVecCollection.cs#L18)
+### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVecCollection.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }

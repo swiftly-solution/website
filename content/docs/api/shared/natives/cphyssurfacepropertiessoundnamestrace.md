@@ -10,7 +10,7 @@ public struct CPhysSurfacePropertiesSoundNamesTrace
 
 ## Fields
 
-**Break** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L14)
+### **Break** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L14)
 
 ```csharp
 public CUtlString Break
@@ -20,7 +20,7 @@ public CUtlString Break
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**BulletImpact** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L12)
+### **BulletImpact** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L12)
 
 ```csharp
 public CUtlString BulletImpact
@@ -30,7 +30,7 @@ public CUtlString BulletImpact
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**ImpactHard** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L9)
+### **ImpactHard** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L9)
 
 ```csharp
 public CUtlString ImpactHard
@@ -40,7 +40,7 @@ public CUtlString ImpactHard
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**ImpactSoft** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L8)
+### **ImpactSoft** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L8)
 
 ```csharp
 public CUtlString ImpactSoft
@@ -50,7 +50,7 @@ public CUtlString ImpactSoft
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**MeleeImpact** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L16)
+### **MeleeImpact** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L16)
 
 ```csharp
 public CUtlString MeleeImpact
@@ -60,7 +60,7 @@ public CUtlString MeleeImpact
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**PushOff** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L17)
+### **PushOff** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L17)
 
 ```csharp
 public CUtlString PushOff
@@ -70,7 +70,7 @@ public CUtlString PushOff
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**Rolling** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L13)
+### **Rolling** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L13)
 
 ```csharp
 public CUtlString Rolling
@@ -80,7 +80,7 @@ public CUtlString Rolling
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**ScrapeRough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L11)
+### **ScrapeRough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L11)
 
 ```csharp
 public CUtlString ScrapeRough
@@ -90,7 +90,7 @@ public CUtlString ScrapeRough
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**ScrapeSmooth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L10)
+### **ScrapeSmooth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L10)
 
 ```csharp
 public CUtlString ScrapeSmooth
@@ -100,7 +100,7 @@ public CUtlString ScrapeSmooth
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**SkidStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L18)
+### **SkidStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L18)
 
 ```csharp
 public CUtlString SkidStop
@@ -110,7 +110,7 @@ public CUtlString SkidStop
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**Strain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L15)
+### **Strain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesSoundNames.cs#L15)
 
 ```csharp
 public CUtlString Strain

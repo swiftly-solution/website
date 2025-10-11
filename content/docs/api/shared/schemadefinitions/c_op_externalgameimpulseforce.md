@@ -10,7 +10,7 @@ public interface C_OP_ExternalGameImpulseForce : CParticleFunctionForce, CPartic
 
 ## Properties
 
-**Explosions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L22)
+### **Explosions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L22)
 
 ```csharp
 ref bool Explosions { get; }
@@ -20,7 +20,7 @@ ref bool Explosions { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ForceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L16)
+### **ForceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L16)
 
 ```csharp
 CPerParticleFloatInput ForceScale { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput ForceScale { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**Particles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L24)
+### **Particles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L24)
 
 ```csharp
 ref bool Particles { get; }
@@ -40,7 +40,7 @@ ref bool Particles { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Ropes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L18)
+### **Ropes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L18)
 
 ```csharp
 ref bool Ropes { get; }
@@ -50,7 +50,7 @@ ref bool Ropes { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RopesZOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L20)
+### **RopesZOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ExternalGameImpulseForce.cs#L20)
 
 ```csharp
 ref bool RopesZOnly { get; }

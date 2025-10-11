@@ -10,7 +10,7 @@ public interface CNmVectorCreateNode__CDefinition : CNmVectorValueNode__CDefinit
 
 ## Properties
 
-**InputValueXNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorCreateNode__CDefinition.cs#L18)
+### **InputValueXNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorCreateNode__CDefinition.cs#L18)
 
 ```csharp
 ref short InputValueXNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short InputValueXNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**InputValueYNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorCreateNode__CDefinition.cs#L20)
+### **InputValueYNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorCreateNode__CDefinition.cs#L20)
 
 ```csharp
 ref short InputValueYNodeIdx { get; }
@@ -30,7 +30,7 @@ ref short InputValueYNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**InputValueZNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorCreateNode__CDefinition.cs#L22)
+### **InputValueZNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorCreateNode__CDefinition.cs#L22)
 
 ```csharp
 ref short InputValueZNodeIdx { get; }
@@ -40,7 +40,7 @@ ref short InputValueZNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**InputVectorValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorCreateNode__CDefinition.cs#L16)
+### **InputVectorValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorCreateNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputVectorValueNodeIdx { get; }

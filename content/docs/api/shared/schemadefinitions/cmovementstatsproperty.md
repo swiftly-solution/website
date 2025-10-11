@@ -10,7 +10,7 @@ public interface CMovementStatsProperty : ISchemaClass<CMovementStatsProperty>, 
 
 ## Properties
 
-**EmaMovementDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementStatsProperty.cs#L18)
+### **EmaMovementDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementStatsProperty.cs#L18)
 
 ```csharp
 CVectorExponentialMovingAverage EmaMovementDirection { get; }
@@ -20,7 +20,7 @@ CVectorExponentialMovingAverage EmaMovementDirection { get; }
 
 - [CVectorExponentialMovingAverage](/docs/api/shared/schemadefinitions/cvectorexponentialmovingaverage)
 
-**UseCounter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementStatsProperty.cs#L16)
+### **UseCounter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMovementStatsProperty.cs#L16)
 
 ```csharp
 ref int UseCounter { get; }

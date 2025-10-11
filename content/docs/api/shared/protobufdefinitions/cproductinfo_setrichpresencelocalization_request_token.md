@@ -10,7 +10,7 @@ public interface CProductInfo_SetRichPresenceLocalization_Request_Token : ITyped
 
 ## Properties
 
-**Token** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request_Token.cs#L13)
+### **Token** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request_Token.cs#L13)
 
 ```csharp
 string Token { get; set; }
@@ -20,7 +20,7 @@ string Token { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request_Token.cs#L16)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request_Token.cs#L16)
 
 ```csharp
 string Value { get; set; }

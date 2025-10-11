@@ -10,7 +10,7 @@ public interface CMsgGCToGCDirtyMultipleSDOCache : ITypedProtobuf<CMsgGCToGCDirt
 
 ## Properties
 
-**KeyUint64** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCDirtyMultipleSDOCache.cs#L16)
+### **KeyUint64** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCDirtyMultipleSDOCache.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<ulong> KeyUint64 { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldValueType<ulong> KeyUint64 { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
-**SdoType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCDirtyMultipleSDOCache.cs#L13)
+### **SdoType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCDirtyMultipleSDOCache.cs#L13)
 
 ```csharp
 uint SdoType { get; set; }

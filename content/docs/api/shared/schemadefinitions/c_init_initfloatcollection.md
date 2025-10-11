@@ -10,7 +10,7 @@ public interface C_INIT_InitFloatCollection : CParticleFunctionInitializer, CPar
 
 ## Properties
 
-**InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloatCollection.cs#L16)
+### **InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloatCollection.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput InputValue { get; }
@@ -20,7 +20,7 @@ CParticleCollectionFloatInput InputValue { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloatCollection.cs#L18)
+### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFloatCollection.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }

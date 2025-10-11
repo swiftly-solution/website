@@ -10,7 +10,7 @@ public interface CFootAdjustmentUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBa
 
 ## Properties
 
-**AnimationDriven** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L33)
+### **AnimationDriven** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L33)
 
 ```csharp
 ref bool AnimationDriven { get; }
@@ -20,7 +20,7 @@ ref bool AnimationDriven { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**BasePoseCacheHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L19)
+### **BasePoseCacheHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L19)
 
 ```csharp
 CPoseHandle BasePoseCacheHandle { get; }
@@ -30,7 +30,7 @@ CPoseHandle BasePoseCacheHandle { get; }
 
 - [CPoseHandle](/docs/api/shared/schemadefinitions/cposehandle)
 
-**Clips** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L17)
+### **Clips** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L17)
 
 ```csharp
 ref CUtlVector Clips { get; }
@@ -38,9 +38,9 @@ ref CUtlVector Clips { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**FacingTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L21)
+### **FacingTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L21)
 
 ```csharp
 CAnimParamHandle FacingTarget { get; }
@@ -50,7 +50,7 @@ CAnimParamHandle FacingTarget { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**ResetChild** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L31)
+### **ResetChild** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L31)
 
 ```csharp
 ref bool ResetChild { get; }
@@ -60,7 +60,7 @@ ref bool ResetChild { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StepHeightMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L27)
+### **StepHeightMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L27)
 
 ```csharp
 ref float StepHeightMax { get; }
@@ -70,7 +70,7 @@ ref float StepHeightMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StepHeightMaxAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L29)
+### **StepHeightMaxAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L29)
 
 ```csharp
 ref float StepHeightMaxAngle { get; }
@@ -80,7 +80,7 @@ ref float StepHeightMaxAngle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TurnTimeMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L25)
+### **TurnTimeMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L25)
 
 ```csharp
 ref float TurnTimeMax { get; }
@@ -90,7 +90,7 @@ ref float TurnTimeMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TurnTimeMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L23)
+### **TurnTimeMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootAdjustmentUpdateNode.cs#L23)
 
 ```csharp
 ref float TurnTimeMin { get; }

@@ -10,7 +10,7 @@ public interface C_OP_InheritFromParentParticles : CParticleFunctionOperator, CP
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticles.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticles.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Increment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticles.cs#L20)
+### **Increment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticles.cs#L20)
 
 ```csharp
 ref int Increment { get; }
@@ -30,7 +30,7 @@ ref int Increment { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RandomDistribution** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticles.cs#L22)
+### **RandomDistribution** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticles.cs#L22)
 
 ```csharp
 ref bool RandomDistribution { get; }
@@ -40,7 +40,7 @@ ref bool RandomDistribution { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticles.cs#L16)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticles.cs#L16)
 
 ```csharp
 ref float Scale { get; }

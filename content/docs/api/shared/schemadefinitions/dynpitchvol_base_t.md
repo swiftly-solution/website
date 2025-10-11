@@ -10,7 +10,7 @@ public interface dynpitchvol_base_t : ISchemaClass<dynpitchvol_base_t>, ISchemaF
 
 ## Properties
 
-**Cspincount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L44)
+### **Cspincount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L44)
 
 ```csharp
 ref int Cspincount { get; }
@@ -20,7 +20,7 @@ ref int Cspincount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Cspinup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L42)
+### **Cspinup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L42)
 
 ```csharp
 ref int Cspinup { get; }
@@ -30,7 +30,7 @@ ref int Cspinup { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Fadein** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L30)
+### **Fadein** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L30)
 
 ```csharp
 ref int Fadein { get; }
@@ -40,7 +40,7 @@ ref int Fadein { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Fadeinsav** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L56)
+### **Fadeinsav** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L56)
 
 ```csharp
 ref int Fadeinsav { get; }
@@ -50,7 +50,7 @@ ref int Fadeinsav { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Fadeout** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L32)
+### **Fadeout** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L32)
 
 ```csharp
 ref int Fadeout { get; }
@@ -60,7 +60,7 @@ ref int Fadeout { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Fadeoutsav** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L58)
+### **Fadeoutsav** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L58)
 
 ```csharp
 ref int Fadeoutsav { get; }
@@ -70,7 +70,7 @@ ref int Fadeoutsav { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Lfofrac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L62)
+### **Lfofrac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L62)
 
 ```csharp
 ref int Lfofrac { get; }
@@ -80,7 +80,7 @@ ref int Lfofrac { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Lfomodpitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L38)
+### **Lfomodpitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L38)
 
 ```csharp
 ref int Lfomodpitch { get; }
@@ -90,7 +90,7 @@ ref int Lfomodpitch { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Lfomodvol** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L40)
+### **Lfomodvol** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L40)
 
 ```csharp
 ref int Lfomodvol { get; }
@@ -100,7 +100,7 @@ ref int Lfomodvol { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Lfomult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L64)
+### **Lfomult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L64)
 
 ```csharp
 ref int Lfomult { get; }
@@ -110,7 +110,7 @@ ref int Lfomult { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Lforate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L36)
+### **Lforate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L36)
 
 ```csharp
 ref int Lforate { get; }
@@ -120,7 +120,7 @@ ref int Lforate { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Lfotype** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L34)
+### **Lfotype** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L34)
 
 ```csharp
 ref int Lfotype { get; }
@@ -130,7 +130,7 @@ ref int Lfotype { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Pitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L46)
+### **Pitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L46)
 
 ```csharp
 ref int Pitch { get; }
@@ -140,7 +140,7 @@ ref int Pitch { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Pitchfrac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L52)
+### **Pitchfrac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L52)
 
 ```csharp
 ref int Pitchfrac { get; }
@@ -150,7 +150,7 @@ ref int Pitchfrac { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Pitchrun** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L18)
+### **Pitchrun** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L18)
 
 ```csharp
 ref int Pitchrun { get; }
@@ -160,7 +160,7 @@ ref int Pitchrun { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Pitchstart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L20)
+### **Pitchstart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L20)
 
 ```csharp
 ref int Pitchstart { get; }
@@ -170,7 +170,7 @@ ref int Pitchstart { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Preset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L16)
+### **Preset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L16)
 
 ```csharp
 ref int Preset { get; }
@@ -180,7 +180,7 @@ ref int Preset { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Spindown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L24)
+### **Spindown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L24)
 
 ```csharp
 ref int Spindown { get; }
@@ -190,7 +190,7 @@ ref int Spindown { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Spindownsav** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L50)
+### **Spindownsav** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L50)
 
 ```csharp
 ref int Spindownsav { get; }
@@ -200,7 +200,7 @@ ref int Spindownsav { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Spinup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L22)
+### **Spinup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L22)
 
 ```csharp
 ref int Spinup { get; }
@@ -210,7 +210,7 @@ ref int Spinup { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Spinupsav** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L48)
+### **Spinupsav** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L48)
 
 ```csharp
 ref int Spinupsav { get; }
@@ -220,7 +220,7 @@ ref int Spinupsav { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Vol** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L54)
+### **Vol** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L54)
 
 ```csharp
 ref int Vol { get; }
@@ -230,7 +230,7 @@ ref int Vol { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Volfrac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L60)
+### **Volfrac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L60)
 
 ```csharp
 ref int Volfrac { get; }
@@ -240,7 +240,7 @@ ref int Volfrac { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Volrun** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L26)
+### **Volrun** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L26)
 
 ```csharp
 ref int Volrun { get; }
@@ -250,7 +250,7 @@ ref int Volrun { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Volstart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L28)
+### **Volstart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/dynpitchvol_base_t.cs#L28)
 
 ```csharp
 ref int Volstart { get; }

@@ -10,7 +10,7 @@ public interface CPlayer_ObserverServices : CPlayerPawnComponent, ISchemaClass<C
 
 ## Properties
 
-**ForcedObserverMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L22)
+### **ForcedObserverMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L22)
 
 ```csharp
 ref bool ForcedObserverMode { get; }
@@ -20,7 +20,7 @@ ref bool ForcedObserverMode { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ObserverLastMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L20)
+### **ObserverLastMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L20)
 
 ```csharp
 ref ObserverMode_t ObserverLastMode { get; }
@@ -30,7 +30,7 @@ ref ObserverMode_t ObserverLastMode { get; }
 
 - [ObserverMode_t](/docs/api/shared/schemadefinitions/observermode_t)
 
-**ObserverMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L16)
+### **ObserverMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L16)
 
 ```csharp
 ref byte ObserverMode { get; }
@@ -40,7 +40,7 @@ ref byte ObserverMode { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**ObserverTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L18)
+### **ObserverTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> ObserverTarget { get; }
@@ -52,13 +52,13 @@ ref CHandle<CBaseEntity> ObserverTarget { get; }
 
 ## Methods
 
-**ObserverModeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L24)
+### **ObserverModeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L24)
 
 ```csharp
 void ObserverModeUpdated()
 ```
 
-**ObserverTargetUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L25)
+### **ObserverTargetUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_ObserverServices.cs#L25)
 
 ```csharp
 void ObserverTargetUpdated()

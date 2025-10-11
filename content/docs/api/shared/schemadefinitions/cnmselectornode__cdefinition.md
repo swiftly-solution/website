@@ -10,7 +10,7 @@ public interface CNmSelectorNode__CDefinition : CNmPoseNode__CDefinition, CNmGra
 
 ## Properties
 
-**ConditionNodeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSelectorNode__CDefinition.cs#L20)
+### **ConditionNodeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSelectorNode__CDefinition.cs#L20)
 
 ```csharp
 SchemaUntypedField ConditionNodeIndices { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField ConditionNodeIndices { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**OptionNodeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSelectorNode__CDefinition.cs#L17)
+### **OptionNodeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSelectorNode__CDefinition.cs#L17)
 
 ```csharp
 SchemaUntypedField OptionNodeIndices { get; }

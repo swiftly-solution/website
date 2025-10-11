@@ -10,7 +10,7 @@ public interface C_OP_RemapParticleCountOnScalarEndCap : CParticleFunctionOperat
 
 ## Properties
 
-**Backwards** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L26)
+### **Backwards** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L26)
 
 ```csharp
 ref bool Backwards { get; }
@@ -20,7 +20,7 @@ ref bool Backwards { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L20)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L20)
 
 ```csharp
 ref int InputMax { get; }
@@ -40,7 +40,7 @@ ref int InputMax { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L18)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L18)
 
 ```csharp
 ref int InputMin { get; }
@@ -50,7 +50,7 @@ ref int InputMin { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L24)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L24)
 
 ```csharp
 ref float OutputMax { get; }
@@ -60,7 +60,7 @@ ref float OutputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L22)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L22)
 
 ```csharp
 ref float OutputMin { get; }
@@ -70,7 +70,7 @@ ref float OutputMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L28)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountOnScalarEndCap.cs#L28)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

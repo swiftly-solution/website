@@ -10,7 +10,7 @@ public interface CMsgSosStartSoundEvent : ITypedProtobuf<CMsgSosStartSoundEvent>
 
 ## Properties
 
-**PackedParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L30)
+### **PackedParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L30)
 
 ```csharp
 byte[] PackedParams { get; set; }
@@ -20,7 +20,7 @@ byte[] PackedParams { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Seed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L27)
+### **Seed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L27)
 
 ```csharp
 int Seed { get; set; }
@@ -30,7 +30,7 @@ int Seed { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SoundeventGuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L18)
+### **SoundeventGuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L18)
 
 ```csharp
 int SoundeventGuid { get; set; }
@@ -40,7 +40,7 @@ int SoundeventGuid { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SoundeventHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L21)
+### **SoundeventHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L21)
 
 ```csharp
 uint SoundeventHash { get; set; }
@@ -50,7 +50,7 @@ uint SoundeventHash { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SourceEntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L24)
+### **SourceEntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L24)
 
 ```csharp
 int SourceEntityIndex { get; set; }
@@ -60,7 +60,7 @@ int SourceEntityIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L33)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L33)
 
 ```csharp
 float StartTime { get; set; }

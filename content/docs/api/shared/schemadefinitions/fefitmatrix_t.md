@@ -10,7 +10,7 @@ public interface FeFitMatrix_t : ISchemaClass<FeFitMatrix_t>, ISchemaField, ISch
 
 ## Properties
 
-**BeginDynamic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L24)
+### **BeginDynamic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L24)
 
 ```csharp
 ref ushort BeginDynamic { get; }
@@ -20,7 +20,7 @@ ref ushort BeginDynamic { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Bone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L16)
+### **Bone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L16)
 
 ```csharp
 ref CTransform Bone { get; }
@@ -30,7 +30,7 @@ ref CTransform Bone { get; }
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-**Center** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L18)
+### **Center** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L18)
 
 ```csharp
 ref Vector Center { get; }
@@ -40,7 +40,7 @@ ref Vector Center { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L20)
+### **End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L20)
 
 ```csharp
 ref ushort End { get; }
@@ -50,7 +50,7 @@ ref ushort End { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L22)
+### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitMatrix_t.cs#L22)
 
 ```csharp
 ref ushort Node { get; }

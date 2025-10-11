@@ -10,7 +10,7 @@ public interface CMsgServerHello : ITypedProtobuf<CMsgServerHello>, INativeHandl
 
 ## Properties
 
-**ClientLauncher** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L22)
+### **ClientLauncher** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L22)
 
 ```csharp
 uint ClientLauncher { get; set; }
@@ -20,7 +20,7 @@ uint ClientLauncher { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**LegacyClientSessionNeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L19)
+### **LegacyClientSessionNeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L19)
 
 ```csharp
 uint LegacyClientSessionNeed { get; set; }
@@ -30,7 +30,7 @@ uint LegacyClientSessionNeed { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**LegacySteamdatagramRouting** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L25)
+### **LegacySteamdatagramRouting** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L25)
 
 ```csharp
 byte[] LegacySteamdatagramRouting { get; set; }
@@ -40,7 +40,7 @@ byte[] LegacySteamdatagramRouting { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**RequiredInternalAddr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L28)
+### **RequiredInternalAddr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L28)
 
 ```csharp
 uint RequiredInternalAddr { get; set; }
@@ -50,7 +50,7 @@ uint RequiredInternalAddr { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SocacheControl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L34)
+### **SocacheControl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L34)
 
 ```csharp
 uint SocacheControl { get; set; }
@@ -60,7 +60,7 @@ uint SocacheControl { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SocacheHaveVersions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L16)
+### **SocacheHaveVersions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSOCacheHaveVersion> SocacheHaveVersions { get; }
@@ -70,7 +70,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSOCacheHaveVersion> SocacheHaveVersions
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSOCacheHaveVersion](/docs/api/shared/protobufdefinitions/cmsgsocachehaveversion)>
 
-**SteamdatagramLogin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L31)
+### **SteamdatagramLogin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L31)
 
 ```csharp
 byte[] SteamdatagramLogin { get; set; }
@@ -80,7 +80,7 @@ byte[] SteamdatagramLogin { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L13)
+### **Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerHello.cs#L13)
 
 ```csharp
 uint Version { get; set; }

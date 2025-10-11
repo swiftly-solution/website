@@ -10,7 +10,7 @@ public interface CEconWearable : CEconEntity, CBaseFlex, CBaseAnimGraph, CBaseMo
 
 ## Properties
 
-**AlwaysAllow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconWearable.cs#L18)
+### **AlwaysAllow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconWearable.cs#L18)
 
 ```csharp
 ref bool AlwaysAllow { get; }
@@ -20,7 +20,7 @@ ref bool AlwaysAllow { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ForceSkin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconWearable.cs#L16)
+### **ForceSkin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconWearable.cs#L16)
 
 ```csharp
 ref int ForceSkin { get; }

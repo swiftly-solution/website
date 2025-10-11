@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_ClientRequestSouvenir : ITypedProtobuf<CMsgG
 
 ## Properties
 
-**Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientRequestSouvenir.cs#L19)
+### **Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientRequestSouvenir.cs#L19)
 
 ```csharp
 int Eventid { get; set; }
@@ -20,7 +20,7 @@ int Eventid { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Itemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientRequestSouvenir.cs#L13)
+### **Itemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientRequestSouvenir.cs#L13)
 
 ```csharp
 ulong Itemid { get; set; }
@@ -30,7 +30,7 @@ ulong Itemid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Matchid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientRequestSouvenir.cs#L16)
+### **Matchid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientRequestSouvenir.cs#L16)
 
 ```csharp
 ulong Matchid { get; set; }

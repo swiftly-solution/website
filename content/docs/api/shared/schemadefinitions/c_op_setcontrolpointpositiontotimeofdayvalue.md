@@ -10,7 +10,7 @@ public interface C_OP_SetControlPointPositionToTimeOfDayValue : CParticleFunctio
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositionToTimeOfDayValue.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositionToTimeOfDayValue.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositionToTimeOfDayValue.cs#L20)
+### **DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositionToTimeOfDayValue.cs#L20)
 
 ```csharp
 ref Vector DefaultValue { get; }
@@ -30,7 +30,7 @@ ref Vector DefaultValue { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**TimeOfDayParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositionToTimeOfDayValue.cs#L18)
+### **TimeOfDayParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointPositionToTimeOfDayValue.cs#L18)
 
 ```csharp
 string TimeOfDayParameter { get; set; }

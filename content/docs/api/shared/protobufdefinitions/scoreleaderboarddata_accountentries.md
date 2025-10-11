@@ -10,7 +10,7 @@ public interface ScoreLeaderboardData_AccountEntries : ITypedProtobuf<ScoreLeade
 
 ## Properties
 
-**Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData_AccountEntries.cs#L13)
+### **Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData_AccountEntries.cs#L13)
 
 ```csharp
 uint Accountid { get; set; }
@@ -20,7 +20,7 @@ uint Accountid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Entries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData_AccountEntries.cs#L16)
+### **Entries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData_AccountEntries.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<ScoreLeaderboardData_Entry> Entries { get; }

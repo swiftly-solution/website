@@ -10,7 +10,7 @@ public interface CMsgSource1LegacyGameEventList : ITypedProtobuf<CMsgSource1Lega
 
 ## Properties
 
-**Descriptors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEventList.cs#L18)
+### **Descriptors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEventList.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEventList_descriptor_t> Descriptors { get; }

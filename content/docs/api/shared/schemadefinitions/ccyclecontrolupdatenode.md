@@ -10,7 +10,7 @@ public interface CCycleControlUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase
 
 ## Properties
 
-**LockWhenWaning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlUpdateNode.cs#L20)
+### **LockWhenWaning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlUpdateNode.cs#L20)
 
 ```csharp
 ref bool LockWhenWaning { get; }
@@ -20,7 +20,7 @@ ref bool LockWhenWaning { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ParamIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlUpdateNode.cs#L18)
+### **ParamIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlUpdateNode.cs#L18)
 
 ```csharp
 CAnimParamHandle ParamIndex { get; }
@@ -30,7 +30,7 @@ CAnimParamHandle ParamIndex { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**ValueSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlUpdateNode.cs#L16)
+### **ValueSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleControlUpdateNode.cs#L16)
 
 ```csharp
 ref AnimValueSource ValueSource { get; }

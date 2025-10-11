@@ -10,7 +10,7 @@ public interface CFlexDesc : ISchemaClass<CFlexDesc>, ISchemaField, ISchemaClass
 
 ## Properties
 
-**Facs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexDesc.cs#L16)
+### **Facs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexDesc.cs#L16)
 
 ```csharp
 string Facs { get; set; }

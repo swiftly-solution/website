@@ -10,7 +10,7 @@ public interface CItemDefuser : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEn
 
 ## Properties
 
-**EntitySpottedState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDefuser.cs#L16)
+### **EntitySpottedState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDefuser.cs#L16)
 
 ```csharp
 EntitySpottedState_t EntitySpottedState { get; }
@@ -20,7 +20,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 
 - [EntitySpottedState_t](/docs/api/shared/schemadefinitions/entityspottedstate_t)
 
-**SpotRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDefuser.cs#L18)
+### **SpotRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemDefuser.cs#L18)
 
 ```csharp
 ref int SpotRules { get; }

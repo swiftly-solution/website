@@ -10,7 +10,7 @@ public interface CAnimParamHandleMap : ISchemaClass<CAnimParamHandleMap>, ISchem
 
 ## Properties
 
-**List** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParamHandleMap.cs#L17)
+### **List** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParamHandleMap.cs#L17)
 
 ```csharp
 SchemaUntypedField List { get; }

@@ -10,7 +10,7 @@ public interface CGameSceneNodeHandle : ISchemaClass<CGameSceneNodeHandle>, ISch
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L18)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L18)
 
 ```csharp
 ref CUtlStringToken Name { get; }
@@ -20,7 +20,7 @@ ref CUtlStringToken Name { get; }
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
-**Owner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L16)
+### **Owner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L16)
 
 ```csharp
 ref CHandle<CEntityInstance> Owner { get; }
@@ -32,13 +32,13 @@ ref CHandle<CEntityInstance> Owner { get; }
 
 ## Methods
 
-**NameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L21)
+### **NameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L21)
 
 ```csharp
 void NameUpdated()
 ```
 
-**OwnerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L20)
+### **OwnerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L20)
 
 ```csharp
 void OwnerUpdated()

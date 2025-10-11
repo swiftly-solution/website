@@ -10,7 +10,7 @@ public interface CParticleModelInput : CParticleInput, ISchemaClass<CParticleInp
 
 ## Properties
 
-**ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleModelInput.cs#L21)
+### **ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleModelInput.cs#L21)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -20,7 +20,7 @@ ref int ControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleModelInput.cs#L19)
+### **NamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleModelInput.cs#L19)
 
 ```csharp
 SchemaUntypedField NamedValue { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField NamedValue { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleModelInput.cs#L16)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleModelInput.cs#L16)
 
 ```csharp
 ref ParticleModelType_t Type { get; }

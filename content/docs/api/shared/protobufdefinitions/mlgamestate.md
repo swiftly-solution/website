@@ -10,7 +10,7 @@ public interface MLGameState : ITypedProtobuf<MLGameState>, INativeHandle
 
 ## Properties
 
-**Match** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLGameState.cs#L13)
+### **Match** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLGameState.cs#L13)
 
 ```csharp
 MLMatchState Match { get; }
@@ -20,7 +20,7 @@ MLMatchState Match { get; }
 
 - [MLMatchState](/docs/api/shared/protobufdefinitions/mlmatchstate)
 
-**Players** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLGameState.cs#L19)
+### **Players** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLGameState.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<MLPlayerState> Players { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldSubMessageType<MLPlayerState> Players { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[MLPlayerState](/docs/api/shared/protobufdefinitions/mlplayerstate)>
 
-**Round** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLGameState.cs#L16)
+### **Round** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLGameState.cs#L16)
 
 ```csharp
 MLRoundState Round { get; }

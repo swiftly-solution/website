@@ -10,7 +10,7 @@ public interface MLTick : ITypedProtobuf<MLTick>, INativeHandle
 
 ## Properties
 
-**Events** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLTick.cs#L19)
+### **Events** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLTick.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<MLEvent> Events { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<MLEvent> Events { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[MLEvent](/docs/api/shared/protobufdefinitions/mlevent)>
 
-**State** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLTick.cs#L16)
+### **State** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLTick.cs#L16)
 
 ```csharp
 MLGameState State { get; }
@@ -30,7 +30,7 @@ MLGameState State { get; }
 
 - [MLGameState](/docs/api/shared/protobufdefinitions/mlgamestate)
 
-**TickCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLTick.cs#L13)
+### **TickCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLTick.cs#L13)
 
 ```csharp
 int TickCount { get; set; }

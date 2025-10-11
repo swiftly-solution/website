@@ -10,7 +10,7 @@ public interface CDistanceRemainingMetricEvaluator : CMotionMetricEvaluator, ISc
 
 ## Properties
 
-**FilterFixedMinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L24)
+### **FilterFixedMinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L24)
 
 ```csharp
 ref bool FilterFixedMinDistance { get; }
@@ -20,7 +20,7 @@ ref bool FilterFixedMinDistance { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FilterGoalDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L26)
+### **FilterGoalDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L26)
 
 ```csharp
 ref bool FilterGoalDistance { get; }
@@ -30,7 +30,7 @@ ref bool FilterGoalDistance { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FilterGoalOvershoot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L28)
+### **FilterGoalOvershoot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L28)
 
 ```csharp
 ref bool FilterGoalOvershoot { get; }
@@ -40,7 +40,7 @@ ref bool FilterGoalOvershoot { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L16)
+### **MaxDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L16)
 
 ```csharp
 ref float MaxDistance { get; }
@@ -50,7 +50,7 @@ ref float MaxDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxGoalOvershootScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L22)
+### **MaxGoalOvershootScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L22)
 
 ```csharp
 ref float MaxGoalOvershootScale { get; }
@@ -60,7 +60,7 @@ ref float MaxGoalOvershootScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L18)
+### **MinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L18)
 
 ```csharp
 ref float MinDistance { get; }
@@ -70,7 +70,7 @@ ref float MinDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartGoalFilterDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L20)
+### **StartGoalFilterDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDistanceRemainingMetricEvaluator.cs#L20)
 
 ```csharp
 ref float StartGoalFilterDistance { get; }

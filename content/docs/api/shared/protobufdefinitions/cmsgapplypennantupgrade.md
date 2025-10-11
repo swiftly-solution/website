@@ -10,7 +10,7 @@ public interface CMsgApplyPennantUpgrade : ITypedProtobuf<CMsgApplyPennantUpgrad
 
 ## Properties
 
-**PennantItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyPennantUpgrade.cs#L16)
+### **PennantItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyPennantUpgrade.cs#L16)
 
 ```csharp
 ulong PennantItemId { get; set; }
@@ -20,7 +20,7 @@ ulong PennantItemId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**UpgradeItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyPennantUpgrade.cs#L13)
+### **UpgradeItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyPennantUpgrade.cs#L13)
 
 ```csharp
 ulong UpgradeItemId { get; set; }

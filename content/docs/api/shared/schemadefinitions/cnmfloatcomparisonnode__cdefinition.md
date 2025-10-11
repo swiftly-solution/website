@@ -10,7 +10,7 @@ public interface CNmFloatComparisonNode__CDefinition : CNmBoolValueNode__CDefini
 
 ## Properties
 
-**ComparandValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L18)
+### **ComparandValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L18)
 
 ```csharp
 ref short ComparandValueNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short ComparandValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Comparison** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L20)
+### **Comparison** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L20)
 
 ```csharp
 ref CNmFloatComparisonNode__Comparison_t Comparison { get; }
@@ -30,7 +30,7 @@ ref CNmFloatComparisonNode__Comparison_t Comparison { get; }
 
 - [CNmFloatComparisonNode__Comparison_t](/docs/api/shared/schemadefinitions/cnmfloatcomparisonnode__comparison_t)
 
-**ComparisonValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L24)
+### **ComparisonValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L24)
 
 ```csharp
 ref float ComparisonValue { get; }
@@ -40,7 +40,7 @@ ref float ComparisonValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Epsilon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L22)
+### **Epsilon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L22)
 
 ```csharp
 ref float Epsilon { get; }
@@ -50,7 +50,7 @@ ref float Epsilon { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L16)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatComparisonNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputValueNodeIdx { get; }

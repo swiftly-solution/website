@@ -10,7 +10,7 @@ public interface COrientationWarpUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeB
 
 ## Properties
 
-**Damping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L30)
+### **Damping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L30)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -20,7 +20,7 @@ CAnimInputDamping Damping { get; }
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
-**EnablePreferredRotationDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L36)
+### **EnablePreferredRotationDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L36)
 
 ```csharp
 ref bool EnablePreferredRotationDirection { get; }
@@ -30,7 +30,7 @@ ref bool EnablePreferredRotationDirection { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FallbackTargetPositionParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L22)
+### **FallbackTargetPositionParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle FallbackTargetPositionParam { get; }
@@ -40,7 +40,7 @@ CAnimParamHandle FallbackTargetPositionParam { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**MaxRootMotionScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L34)
+### **MaxRootMotionScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L34)
 
 ```csharp
 ref float MaxRootMotionScale { get; }
@@ -50,7 +50,7 @@ ref float MaxRootMotionScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L16)
+### **Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L16)
 
 ```csharp
 ref OrientationWarpMode_t Mode { get; }
@@ -60,7 +60,7 @@ ref OrientationWarpMode_t Mode { get; }
 
 - [OrientationWarpMode_t](/docs/api/shared/schemadefinitions/orientationwarpmode_t)
 
-**PreferredRotationDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L38)
+### **PreferredRotationDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L38)
 
 ```csharp
 ref AnimValueSource PreferredRotationDirection { get; }
@@ -70,7 +70,7 @@ ref AnimValueSource PreferredRotationDirection { get; }
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 
-**PreferredRotationThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L40)
+### **PreferredRotationThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L40)
 
 ```csharp
 ref float PreferredRotationThreshold { get; }
@@ -80,7 +80,7 @@ ref float PreferredRotationThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RootMotionSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L32)
+### **RootMotionSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L32)
 
 ```csharp
 ref OrientationWarpRootMotionSource_t RootMotionSource { get; }
@@ -90,7 +90,7 @@ ref OrientationWarpRootMotionSource_t RootMotionSource { get; }
 
 - [OrientationWarpRootMotionSource_t](/docs/api/shared/schemadefinitions/orientationwarprootmotionsource_t)
 
-**TargetOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L26)
+### **TargetOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L26)
 
 ```csharp
 ref float TargetOffset { get; }
@@ -100,7 +100,7 @@ ref float TargetOffset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TargetOffsetMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L24)
+### **TargetOffsetMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L24)
 
 ```csharp
 ref OrientationWarpTargetOffsetMode_t TargetOffsetMode { get; }
@@ -110,7 +110,7 @@ ref OrientationWarpTargetOffsetMode_t TargetOffsetMode { get; }
 
 - [OrientationWarpTargetOffsetMode_t](/docs/api/shared/schemadefinitions/orientationwarptargetoffsetmode_t)
 
-**TargetOffsetParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L28)
+### **TargetOffsetParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L28)
 
 ```csharp
 CAnimParamHandle TargetOffsetParam { get; }
@@ -120,7 +120,7 @@ CAnimParamHandle TargetOffsetParam { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**TargetParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L18)
+### **TargetParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L18)
 
 ```csharp
 CAnimParamHandle TargetParam { get; }
@@ -130,7 +130,7 @@ CAnimParamHandle TargetParam { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**TargetPositionParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L20)
+### **TargetPositionParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COrientationWarpUpdateNode.cs#L20)
 
 ```csharp
 CAnimParamHandle TargetPositionParam { get; }

@@ -10,7 +10,7 @@ public interface HitReactFixedSettings_t : ISchemaClass<HitReactFixedSettings_t>
 
 ## Properties
 
-**CounterRotationScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L26)
+### **CounterRotationScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L26)
 
 ```csharp
 ref float CounterRotationScale { get; }
@@ -20,7 +20,7 @@ ref float CounterRotationScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DistanceFadeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L28)
+### **DistanceFadeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L28)
 
 ```csharp
 ref float DistanceFadeScale { get; }
@@ -30,7 +30,7 @@ ref float DistanceFadeScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EffectedBoneCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L18)
+### **EffectedBoneCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L18)
 
 ```csharp
 ref int EffectedBoneCount { get; }
@@ -40,7 +40,7 @@ ref int EffectedBoneCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HipBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L40)
+### **HipBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L40)
 
 ```csharp
 ref int HipBoneIndex { get; }
@@ -50,7 +50,7 @@ ref int HipBoneIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HipBoneTranslationScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L42)
+### **HipBoneTranslationScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L42)
 
 ```csharp
 ref float HipBoneTranslationScale { get; }
@@ -60,7 +60,7 @@ ref float HipBoneTranslationScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HipDipDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L48)
+### **HipDipDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L48)
 
 ```csharp
 ref float HipDipDelay { get; }
@@ -70,7 +70,7 @@ ref float HipDipDelay { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HipDipImpactScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L46)
+### **HipDipImpactScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L46)
 
 ```csharp
 ref float HipDipImpactScale { get; }
@@ -80,7 +80,7 @@ ref float HipDipImpactScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HipDipSpringStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L44)
+### **HipDipSpringStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L44)
 
 ```csharp
 ref float HipDipSpringStrength { get; }
@@ -90,7 +90,7 @@ ref float HipDipSpringStrength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxAngleRadians** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L38)
+### **MaxAngleRadians** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L38)
 
 ```csharp
 ref float MaxAngleRadians { get; }
@@ -100,7 +100,7 @@ ref float MaxAngleRadians { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxImpactForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L20)
+### **MaxImpactForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L20)
 
 ```csharp
 ref float MaxImpactForce { get; }
@@ -110,7 +110,7 @@ ref float MaxImpactForce { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinImpactForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L22)
+### **MinImpactForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L22)
 
 ```csharp
 ref float MinImpactForce { get; }
@@ -120,7 +120,7 @@ ref float MinImpactForce { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PropagationScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L30)
+### **PropagationScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L30)
 
 ```csharp
 ref float PropagationScale { get; }
@@ -130,7 +130,7 @@ ref float PropagationScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SpringStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L34)
+### **SpringStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L34)
 
 ```csharp
 ref float SpringStrength { get; }
@@ -140,7 +140,7 @@ ref float SpringStrength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WeightListIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L16)
+### **WeightListIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L16)
 
 ```csharp
 ref int WeightListIndex { get; }
@@ -150,7 +150,7 @@ ref int WeightListIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**WhipDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L32)
+### **WhipDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L32)
 
 ```csharp
 ref float WhipDelay { get; }
@@ -160,7 +160,7 @@ ref float WhipDelay { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WhipImpactScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L24)
+### **WhipImpactScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L24)
 
 ```csharp
 ref float WhipImpactScale { get; }
@@ -170,7 +170,7 @@ ref float WhipImpactScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WhipSpringStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L36)
+### **WhipSpringStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/HitReactFixedSettings_t.cs#L36)
 
 ```csharp
 ref float WhipSpringStrength { get; }

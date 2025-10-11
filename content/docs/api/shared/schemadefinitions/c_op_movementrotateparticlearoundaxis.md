@@ -10,7 +10,7 @@ public interface C_OP_MovementRotateParticleAroundAxis : CParticleFunctionOperat
 
 ## Properties
 
-**LocalSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L22)
+### **LocalSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L22)
 
 ```csharp
 ref bool LocalSpace { get; }
@@ -20,7 +20,7 @@ ref bool LocalSpace { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RotAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L16)
+### **RotAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L16)
 
 ```csharp
 CParticleCollectionVecInput RotAxis { get; }
@@ -30,7 +30,7 @@ CParticleCollectionVecInput RotAxis { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**RotRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L18)
+### **RotRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput RotRate { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput RotRate { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L20)
+### **TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementRotateParticleAroundAxis.cs#L20)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

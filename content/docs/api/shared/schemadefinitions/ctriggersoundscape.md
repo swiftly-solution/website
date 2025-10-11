@@ -10,7 +10,7 @@ public interface CTriggerSoundscape : CBaseTrigger, CBaseToggle, CBaseModelEntit
 
 ## Properties
 
-**Soundscape** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L16)
+### **Soundscape** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L16)
 
 ```csharp
 ref CHandle<CEnvSoundscapeTriggerable> Soundscape { get; }
@@ -20,7 +20,7 @@ ref CHandle<CEnvSoundscapeTriggerable> Soundscape { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEnvSoundscapeTriggerable](/docs/api/shared/schemadefinitions/cenvsoundscapetriggerable)>
 
-**SoundscapeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L18)
+### **SoundscapeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L18)
 
 ```csharp
 string SoundscapeName { get; set; }
@@ -30,7 +30,7 @@ string SoundscapeName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Spectators** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L20)
+### **Spectators** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSoundscape.cs#L20)
 
 ```csharp
 ref CUtlVector<CHandle<CBasePlayerPawn>> Spectators { get; }
@@ -38,5 +38,5 @@ ref CUtlVector<CHandle<CBasePlayerPawn>> Spectators { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>>
+- [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>>
 

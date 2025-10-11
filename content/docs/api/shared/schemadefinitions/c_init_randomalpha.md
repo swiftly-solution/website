@@ -10,7 +10,7 @@ public interface C_INIT_RandomAlpha : CParticleFunctionInitializer, CParticleFun
 
 ## Properties
 
-**AlphaMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlpha.cs#L20)
+### **AlphaMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlpha.cs#L20)
 
 ```csharp
 ref int AlphaMax { get; }
@@ -20,7 +20,7 @@ ref int AlphaMax { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**AlphaMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlpha.cs#L18)
+### **AlphaMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlpha.cs#L18)
 
 ```csharp
 ref int AlphaMin { get; }
@@ -30,7 +30,7 @@ ref int AlphaMin { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**AlphaRandExponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlpha.cs#L22)
+### **AlphaRandExponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlpha.cs#L22)
 
 ```csharp
 ref float AlphaRandExponent { get; }
@@ -40,7 +40,7 @@ ref float AlphaRandExponent { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlpha.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlpha.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }

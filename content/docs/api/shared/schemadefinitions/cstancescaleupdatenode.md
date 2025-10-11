@@ -10,7 +10,7 @@ public interface CStanceScaleUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase,
 
 ## Properties
 
-**Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceScaleUpdateNode.cs#L16)
+### **Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceScaleUpdateNode.cs#L16)
 
 ```csharp
 CAnimParamHandle Param { get; }

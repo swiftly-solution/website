@@ -10,7 +10,7 @@ public interface CMessage : CPointEntity, CBaseEntity, CEntityInstance, ISchemaC
 
 ## Properties
 
-**Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L16)
+### **Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L16)
 
 ```csharp
 string Message { get; set; }
@@ -20,7 +20,7 @@ string Message { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MessageAttenuation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L20)
+### **MessageAttenuation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L20)
 
 ```csharp
 ref int MessageAttenuation { get; }
@@ -30,7 +30,7 @@ ref int MessageAttenuation { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MessageVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L18)
+### **MessageVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L18)
 
 ```csharp
 ref float MessageVolume { get; }
@@ -40,7 +40,7 @@ ref float MessageVolume { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Noise** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L24)
+### **Noise** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L24)
 
 ```csharp
 string Noise { get; set; }
@@ -50,7 +50,7 @@ string Noise { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OnShowMessage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L26)
+### **OnShowMessage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L26)
 
 ```csharp
 CEntityIOOutput OnShowMessage { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnShowMessage { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L22)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessage.cs#L22)
 
 ```csharp
 ref float Radius { get; }

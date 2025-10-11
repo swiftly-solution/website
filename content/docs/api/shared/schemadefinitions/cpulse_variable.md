@@ -10,7 +10,7 @@ public interface CPulse_Variable : ISchemaClass<CPulse_Variable>, ISchemaField, 
 
 ## Properties
 
-**DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L25)
+### **DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L25)
 
 ```csharp
 SchemaUntypedField DefaultValue { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField DefaultValue { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L19)
+### **Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L19)
 
 ```csharp
 string Description { get; set; }
@@ -30,7 +30,7 @@ string Description { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EditorNodeID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L33)
+### **EditorNodeID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L33)
 
 ```csharp
 PulseDocNodeID_t EditorNodeID { get; }
@@ -40,7 +40,7 @@ PulseDocNodeID_t EditorNodeID { get; }
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
-**IsObservable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L31)
+### **IsObservable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L31)
 
 ```csharp
 ref bool IsObservable { get; }
@@ -50,7 +50,7 @@ ref bool IsObservable { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsPublicBlackboardVariable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L29)
+### **IsPublicBlackboardVariable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L29)
 
 ```csharp
 ref bool IsPublicBlackboardVariable { get; }
@@ -60,7 +60,7 @@ ref bool IsPublicBlackboardVariable { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**KeysSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L27)
+### **KeysSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L27)
 
 ```csharp
 ref PulseVariableKeysSource_t KeysSource { get; }
@@ -70,7 +70,7 @@ ref PulseVariableKeysSource_t KeysSource { get; }
 
 - [PulseVariableKeysSource_t](/docs/api/shared/schemadefinitions/pulsevariablekeyssource_t)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L17)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L17)
 
 ```csharp
 SchemaUntypedField Name { get; }
@@ -80,7 +80,7 @@ SchemaUntypedField Name { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L22)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Variable.cs#L22)
 
 ```csharp
 SchemaUntypedField Type { get; }

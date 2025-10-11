@@ -10,7 +10,7 @@ public interface CFuncPlat : CBasePlatTrain, CBaseToggle, CBaseModelEntity, CBas
 
 ## Properties
 
-**Noise** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncPlat.cs#L16)
+### **Noise** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncPlat.cs#L16)
 
 ```csharp
 string Noise { get; set; }

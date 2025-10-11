@@ -10,7 +10,7 @@ public interface CMsgServerUserCmd : ITypedProtobuf<CMsgServerUserCmd>, INativeH
 
 ## Properties
 
-**ClientTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerUserCmd.cs#L25)
+### **ClientTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerUserCmd.cs#L25)
 
 ```csharp
 int ClientTick { get; set; }
@@ -20,7 +20,7 @@ int ClientTick { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CmdNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerUserCmd.cs#L16)
+### **CmdNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerUserCmd.cs#L16)
 
 ```csharp
 int CmdNumber { get; set; }
@@ -30,7 +30,7 @@ int CmdNumber { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerUserCmd.cs#L13)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerUserCmd.cs#L13)
 
 ```csharp
 byte[] Data { get; set; }
@@ -40,7 +40,7 @@ byte[] Data { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**PlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerUserCmd.cs#L19)
+### **PlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerUserCmd.cs#L19)
 
 ```csharp
 int PlayerSlot { get; set; }
@@ -50,7 +50,7 @@ int PlayerSlot { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ServerTickExecuted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerUserCmd.cs#L22)
+### **ServerTickExecuted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgServerUserCmd.cs#L22)
 
 ```csharp
 int ServerTickExecuted { get; set; }

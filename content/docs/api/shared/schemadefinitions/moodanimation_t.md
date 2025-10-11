@@ -10,7 +10,7 @@ public interface MoodAnimation_t : ISchemaClass<MoodAnimation_t>, ISchemaField, 
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimation_t.cs#L17)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimation_t.cs#L17)
 
 ```csharp
 SchemaUntypedField Name { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Name { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimation_t.cs#L19)
+### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MoodAnimation_t.cs#L19)
 
 ```csharp
 ref float Weight { get; }

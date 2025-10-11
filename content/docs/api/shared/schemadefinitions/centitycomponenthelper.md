@@ -10,7 +10,7 @@ public interface CEntityComponentHelper : ISchemaClass<CEntityComponentHelper>, 
 
 ## Properties
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L16)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L16)
 
 ```csharp
 ref uint Flags { get; }
@@ -20,7 +20,7 @@ ref uint Flags { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Info** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L18)
+### **Info** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L18)
 
 ```csharp
 EntComponentInfo_t? Info { get; }
@@ -30,7 +30,7 @@ EntComponentInfo_t? Info { get; }
 
 - [EntComponentInfo_t](/docs/api/shared/schemadefinitions/entcomponentinfo_t)?
 
-**Next** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L22)
+### **Next** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L22)
 
 ```csharp
 CEntityComponentHelper? Next { get; }
@@ -40,7 +40,7 @@ CEntityComponentHelper? Next { get; }
 
 - [CEntityComponentHelper](/docs/api/shared/schemadefinitions/centitycomponenthelper)?
 
-**Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L20)
+### **Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityComponentHelper.cs#L20)
 
 ```csharp
 ref int Priority { get; }

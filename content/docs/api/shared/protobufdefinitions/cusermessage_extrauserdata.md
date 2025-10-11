@@ -10,7 +10,7 @@ public interface CUserMessage_ExtraUserData : ITypedProtobuf<CUserMessage_ExtraU
 
 ## Properties
 
-**Detail1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_ExtraUserData.cs#L27)
+### **Detail1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_ExtraUserData.cs#L27)
 
 ```csharp
 IProtobufRepeatedFieldValueType<byte[]> Detail1 { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldValueType<byte[]> Detail1 { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
-**Detail2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_ExtraUserData.cs#L30)
+### **Detail2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_ExtraUserData.cs#L30)
 
 ```csharp
 IProtobufRepeatedFieldValueType<byte[]> Detail2 { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldValueType<byte[]> Detail2 { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
-**Item** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_ExtraUserData.cs#L18)
+### **Item** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_ExtraUserData.cs#L18)
 
 ```csharp
 int Item { get; set; }
@@ -40,7 +40,7 @@ int Item { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Value1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_ExtraUserData.cs#L21)
+### **Value1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_ExtraUserData.cs#L21)
 
 ```csharp
 long Value1 { get; set; }
@@ -50,7 +50,7 @@ long Value1 { get; set; }
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-**Value2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_ExtraUserData.cs#L24)
+### **Value2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_ExtraUserData.cs#L24)
 
 ```csharp
 long Value2 { get; set; }

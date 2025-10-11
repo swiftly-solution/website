@@ -10,7 +10,7 @@ public interface CSVCMsg_FullFrameSplit : ITypedProtobuf<CSVCMsg_FullFrameSplit>
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FullFrameSplit.cs#L27)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FullFrameSplit.cs#L27)
 
 ```csharp
 byte[] Data { get; set; }
@@ -20,7 +20,7 @@ byte[] Data { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Section** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FullFrameSplit.cs#L21)
+### **Section** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FullFrameSplit.cs#L21)
 
 ```csharp
 int Section { get; set; }
@@ -30,7 +30,7 @@ int Section { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FullFrameSplit.cs#L18)
+### **Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FullFrameSplit.cs#L18)
 
 ```csharp
 int Tick { get; set; }
@@ -40,7 +40,7 @@ int Tick { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Total** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FullFrameSplit.cs#L24)
+### **Total** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FullFrameSplit.cs#L24)
 
 ```csharp
 int Total { get; set; }

@@ -10,7 +10,7 @@ public interface CSeqPoseParamDesc : ISchemaClass<CSeqPoseParamDesc>, ISchemaFie
 
 ## Properties
 
-**End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L20)
+### **End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L20)
 
 ```csharp
 ref float End { get; }
@@ -20,7 +20,7 @@ ref float End { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L22)
+### **Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L22)
 
 ```csharp
 ref float Loop { get; }
@@ -30,7 +30,7 @@ ref float Loop { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Looping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L24)
+### **Looping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L24)
 
 ```csharp
 ref bool Looping { get; }
@@ -40,7 +40,7 @@ ref bool Looping { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L16)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -50,7 +50,7 @@ ref CBufferString Name { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L18)
+### **Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseParamDesc.cs#L18)
 
 ```csharp
 ref float Start { get; }

@@ -10,7 +10,7 @@ public interface CPredictionEvent_StringCommand : ITypedProtobuf<CPredictionEven
 
 ## Properties
 
-**Command** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CPredictionEvent_StringCommand.cs#L13)
+### **Command** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CPredictionEvent_StringCommand.cs#L13)
 
 ```csharp
 string Command { get; set; }

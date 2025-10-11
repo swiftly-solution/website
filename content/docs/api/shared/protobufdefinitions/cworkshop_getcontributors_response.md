@@ -10,7 +10,7 @@ public interface CWorkshop_GetContributors_Response : ITypedProtobuf<CWorkshop_G
 
 ## Properties
 
-**Contributors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_GetContributors_Response.cs#L13)
+### **Contributors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_GetContributors_Response.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldValueType<ulong> Contributors { get; }

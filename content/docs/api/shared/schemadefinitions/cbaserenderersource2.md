@@ -10,7 +10,7 @@ public interface CBaseRendererSource2 : CParticleFunctionRenderer, CParticleFunc
 
 ## Properties
 
-**AddSelfAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L69)
+### **AddSelfAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L69)
 
 ```csharp
 CParticleCollectionRendererFloatInput AddSelfAmount { get; }
@@ -20,7 +20,7 @@ CParticleCollectionRendererFloatInput AddSelfAmount { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**Alpha2Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L22)
+### **Alpha2Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t Alpha2Field { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t Alpha2Field { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**AlphaReferenceSoftness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L91)
+### **AlphaReferenceSoftness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L91)
 
 ```csharp
 CParticleCollectionRendererFloatInput AlphaReferenceSoftness { get; }
@@ -40,7 +40,7 @@ CParticleCollectionRendererFloatInput AlphaReferenceSoftness { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**AlphaReferenceType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L89)
+### **AlphaReferenceType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L89)
 
 ```csharp
 ref ParticleAlphaReferenceType_t AlphaReferenceType { get; }
@@ -50,7 +50,7 @@ ref ParticleAlphaReferenceType_t AlphaReferenceType { get; }
 
 - [ParticleAlphaReferenceType_t](/docs/api/shared/schemadefinitions/particlealphareferencetype_t)
 
-**AlphaScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L18)
+### **AlphaScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L18)
 
 ```csharp
 CParticleCollectionRendererFloatInput AlphaScale { get; }
@@ -60,7 +60,7 @@ CParticleCollectionRendererFloatInput AlphaScale { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**AnimateInFPS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L47)
+### **AnimateInFPS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L47)
 
 ```csharp
 ref bool AnimateInFPS { get; }
@@ -70,7 +70,7 @@ ref bool AnimateInFPS { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AnimationRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L43)
+### **AnimationRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L43)
 
 ```csharp
 ref float AnimationRate { get; }
@@ -80,7 +80,7 @@ ref float AnimationRate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AnimationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L45)
+### **AnimationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L45)
 
 ```csharp
 ref AnimationType_t AnimationType { get; }
@@ -90,7 +90,7 @@ ref AnimationType_t AnimationType { get; }
 
 - [AnimationType_t](/docs/api/shared/schemadefinitions/animationtype_t)
 
-**BlendFramesSeq0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L143)
+### **BlendFramesSeq0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L143)
 
 ```csharp
 ref bool BlendFramesSeq0 { get; }
@@ -100,7 +100,7 @@ ref bool BlendFramesSeq0 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**BumpStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L36)
+### **BumpStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L36)
 
 ```csharp
 ref float BumpStrength { get; }
@@ -110,7 +110,7 @@ ref float BumpStrength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CenterXOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L32)
+### **CenterXOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L32)
 
 ```csharp
 CParticleCollectionRendererFloatInput CenterXOffset { get; }
@@ -120,7 +120,7 @@ CParticleCollectionRendererFloatInput CenterXOffset { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**CenterYOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L34)
+### **CenterYOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L34)
 
 ```csharp
 CParticleCollectionRendererFloatInput CenterYOffset { get; }
@@ -130,7 +130,7 @@ CParticleCollectionRendererFloatInput CenterYOffset { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**ColorBlendType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L26)
+### **ColorBlendType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L26)
 
 ```csharp
 ref ParticleColorBlendType_t ColorBlendType { get; }
@@ -140,7 +140,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
-**ColorScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L24)
+### **ColorScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L24)
 
 ```csharp
 CParticleCollectionRendererVecInput ColorScale { get; }
@@ -150,7 +150,7 @@ CParticleCollectionRendererVecInput ColorScale { get; }
 
 - [CParticleCollectionRendererVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionrenderervecinput)
 
-**CropTextureOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L38)
+### **CropTextureOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L38)
 
 ```csharp
 ref ParticleSequenceCropOverride_t CropTextureOverride { get; }
@@ -160,7 +160,7 @@ ref ParticleSequenceCropOverride_t CropTextureOverride { get; }
 
 - [ParticleSequenceCropOverride_t](/docs/api/shared/schemadefinitions/particlesequencecropoverride_t)
 
-**DepthBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L139)
+### **DepthBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L139)
 
 ```csharp
 CParticleCollectionRendererFloatInput DepthBias { get; }
@@ -170,7 +170,7 @@ CParticleCollectionRendererFloatInput DepthBias { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**Desaturation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L71)
+### **Desaturation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L71)
 
 ```csharp
 CParticleCollectionRendererFloatInput Desaturation { get; }
@@ -180,7 +180,7 @@ CParticleCollectionRendererFloatInput Desaturation { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**DiffuseAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L55)
+### **DiffuseAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L55)
 
 ```csharp
 CParticleCollectionRendererFloatInput DiffuseAmount { get; }
@@ -190,7 +190,7 @@ CParticleCollectionRendererFloatInput DiffuseAmount { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**DiffuseClamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L57)
+### **DiffuseClamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L57)
 
 ```csharp
 CParticleCollectionRendererFloatInput DiffuseClamp { get; }
@@ -200,7 +200,7 @@ CParticleCollectionRendererFloatInput DiffuseClamp { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**DisableZBuffering** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L127)
+### **DisableZBuffering** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L127)
 
 ```csharp
 ref bool DisableZBuffering { get; }
@@ -210,7 +210,7 @@ ref bool DisableZBuffering { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FeatheringDepthMapFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L137)
+### **FeatheringDepthMapFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L137)
 
 ```csharp
 CParticleCollectionRendererFloatInput FeatheringDepthMapFilter { get; }
@@ -220,7 +220,7 @@ CParticleCollectionRendererFloatInput FeatheringDepthMapFilter { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**FeatheringFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L135)
+### **FeatheringFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L135)
 
 ```csharp
 CParticleCollectionRendererFloatInput FeatheringFilter { get; }
@@ -230,7 +230,7 @@ CParticleCollectionRendererFloatInput FeatheringFilter { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**FeatheringMaxDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L133)
+### **FeatheringMaxDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L133)
 
 ```csharp
 CParticleCollectionRendererFloatInput FeatheringMaxDist { get; }
@@ -240,7 +240,7 @@ CParticleCollectionRendererFloatInput FeatheringMaxDist { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**FeatheringMinDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L131)
+### **FeatheringMinDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L131)
 
 ```csharp
 CParticleCollectionRendererFloatInput FeatheringMinDist { get; }
@@ -250,7 +250,7 @@ CParticleCollectionRendererFloatInput FeatheringMinDist { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**FeatheringMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L129)
+### **FeatheringMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L129)
 
 ```csharp
 ref ParticleDepthFeatheringMode_t FeatheringMode { get; }
@@ -260,7 +260,7 @@ ref ParticleDepthFeatheringMode_t FeatheringMode { get; }
 
 - [ParticleDepthFeatheringMode_t](/docs/api/shared/schemadefinitions/particledepthfeatheringmode_t)
 
-**FogAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L79)
+### **FogAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L79)
 
 ```csharp
 CParticleCollectionRendererFloatInput FogAmount { get; }
@@ -270,7 +270,7 @@ CParticleCollectionRendererFloatInput FogAmount { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**FogType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L77)
+### **FogType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L77)
 
 ```csharp
 ref ParticleFogType_t FogType { get; }
@@ -280,7 +280,7 @@ ref ParticleFogType_t FogType { get; }
 
 - [ParticleFogType_t](/docs/api/shared/schemadefinitions/particlefogtype_t)
 
-**GammaCorrectVertexColors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L65)
+### **GammaCorrectVertexColors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L65)
 
 ```csharp
 ref bool GammaCorrectVertexColors { get; }
@@ -290,7 +290,7 @@ ref bool GammaCorrectVertexColors { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HSVShiftControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L75)
+### **HSVShiftControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L75)
 
 ```csharp
 ref int HSVShiftControlPoint { get; }
@@ -300,7 +300,7 @@ ref int HSVShiftControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LightingControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L59)
+### **LightingControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L59)
 
 ```csharp
 ref int LightingControlPoint { get; }
@@ -310,7 +310,7 @@ ref int LightingControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MaxLuminanceBlendingSequence0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L145)
+### **MaxLuminanceBlendingSequence0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L145)
 
 ```csharp
 ref bool MaxLuminanceBlendingSequence0 { get; }
@@ -320,7 +320,7 @@ ref bool MaxLuminanceBlendingSequence0 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MotionVectorScaleU** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L49)
+### **MotionVectorScaleU** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L49)
 
 ```csharp
 CParticleCollectionRendererFloatInput MotionVectorScaleU { get; }
@@ -330,7 +330,7 @@ CParticleCollectionRendererFloatInput MotionVectorScaleU { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**MotionVectorScaleV** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L51)
+### **MotionVectorScaleV** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L51)
 
 ```csharp
 CParticleCollectionRendererFloatInput MotionVectorScaleV { get; }
@@ -340,7 +340,7 @@ CParticleCollectionRendererFloatInput MotionVectorScaleV { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**OnlyRenderInEffecsGameOverlay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L113)
+### **OnlyRenderInEffecsGameOverlay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L113)
 
 ```csharp
 ref bool OnlyRenderInEffecsGameOverlay { get; }
@@ -350,7 +350,7 @@ ref bool OnlyRenderInEffecsGameOverlay { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OnlyRenderInEffectsBloomPass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L107)
+### **OnlyRenderInEffectsBloomPass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L107)
 
 ```csharp
 ref bool OnlyRenderInEffectsBloomPass { get; }
@@ -360,7 +360,7 @@ ref bool OnlyRenderInEffectsBloomPass { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OnlyRenderInEffectsWaterPass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L109)
+### **OnlyRenderInEffectsWaterPass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L109)
 
 ```csharp
 ref bool OnlyRenderInEffectsWaterPass { get; }
@@ -370,7 +370,7 @@ ref bool OnlyRenderInEffectsWaterPass { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OutputBlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L63)
+### **OutputBlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L63)
 
 ```csharp
 ref ParticleOutputBlendMode_t OutputBlendMode { get; }
@@ -380,7 +380,7 @@ ref ParticleOutputBlendMode_t OutputBlendMode { get; }
 
 - [ParticleOutputBlendMode_t](/docs/api/shared/schemadefinitions/particleoutputblendmode_t)
 
-**OverbrightFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L73)
+### **OverbrightFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L73)
 
 ```csharp
 CParticleCollectionRendererFloatInput OverbrightFactor { get; }
@@ -390,7 +390,7 @@ CParticleCollectionRendererFloatInput OverbrightFactor { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**PerParticleAlphaRefWindow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L87)
+### **PerParticleAlphaRefWindow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L87)
 
 ```csharp
 ref SpriteCardPerParticleScale_t PerParticleAlphaRefWindow { get; }
@@ -400,7 +400,7 @@ ref SpriteCardPerParticleScale_t PerParticleAlphaRefWindow { get; }
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
-**PerParticleAlphaReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L85)
+### **PerParticleAlphaReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L85)
 
 ```csharp
 ref SpriteCardPerParticleScale_t PerParticleAlphaReference { get; }
@@ -410,7 +410,7 @@ ref SpriteCardPerParticleScale_t PerParticleAlphaReference { get; }
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
-**RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L16)
+### **RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L16)
 
 ```csharp
 CParticleCollectionRendererFloatInput RadiusScale { get; }
@@ -420,7 +420,7 @@ CParticleCollectionRendererFloatInput RadiusScale { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**Refract** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L97)
+### **Refract** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L97)
 
 ```csharp
 ref bool Refract { get; }
@@ -430,7 +430,7 @@ ref bool Refract { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RefractAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L101)
+### **RefractAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L101)
 
 ```csharp
 CParticleCollectionRendererFloatInput RefractAmount { get; }
@@ -440,7 +440,7 @@ CParticleCollectionRendererFloatInput RefractAmount { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**RefractBlurRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L103)
+### **RefractBlurRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L103)
 
 ```csharp
 ref int RefractBlurRadius { get; }
@@ -450,7 +450,7 @@ ref int RefractBlurRadius { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RefractBlurType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L105)
+### **RefractBlurType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L105)
 
 ```csharp
 ref BlurFilterType_t RefractBlurType { get; }
@@ -460,7 +460,7 @@ ref BlurFilterType_t RefractBlurType { get; }
 
 - [BlurFilterType_t](/docs/api/shared/schemadefinitions/blurfiltertype_t)
 
-**RefractSolid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L99)
+### **RefractSolid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L99)
 
 ```csharp
 ref bool RefractSolid { get; }
@@ -470,7 +470,7 @@ ref bool RefractSolid { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ReverseZBuffering** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L125)
+### **ReverseZBuffering** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L125)
 
 ```csharp
 ref bool ReverseZBuffering { get; }
@@ -480,7 +480,7 @@ ref bool ReverseZBuffering { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RollScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L20)
+### **RollScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L20)
 
 ```csharp
 CParticleCollectionRendererFloatInput RollScale { get; }
@@ -490,7 +490,7 @@ CParticleCollectionRendererFloatInput RollScale { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**SaturateColorPreAlphaBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L67)
+### **SaturateColorPreAlphaBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L67)
 
 ```csharp
 ref bool SaturateColorPreAlphaBlend { get; }
@@ -500,7 +500,7 @@ ref bool SaturateColorPreAlphaBlend { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SelfIllumAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L53)
+### **SelfIllumAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L53)
 
 ```csharp
 CParticleCollectionRendererFloatInput SelfIllumAmount { get; }
@@ -510,7 +510,7 @@ CParticleCollectionRendererFloatInput SelfIllumAmount { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**SelfIllumPerParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L61)
+### **SelfIllumPerParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L61)
 
 ```csharp
 ParticleAttributeIndex_t SelfIllumPerParticle { get; }
@@ -520,7 +520,7 @@ ParticleAttributeIndex_t SelfIllumPerParticle { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**ShaderType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L28)
+### **ShaderType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L28)
 
 ```csharp
 ref SpriteCardShaderType_t ShaderType { get; }
@@ -530,7 +530,7 @@ ref SpriteCardShaderType_t ShaderType { get; }
 
 - [SpriteCardShaderType_t](/docs/api/shared/schemadefinitions/spritecardshadertype_t)
 
-**SortMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L141)
+### **SortMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L141)
 
 ```csharp
 ref ParticleSortingChoiceList_t SortMethod { get; }
@@ -540,7 +540,7 @@ ref ParticleSortingChoiceList_t SortMethod { get; }
 
 - [ParticleSortingChoiceList_t](/docs/api/shared/schemadefinitions/particlesortingchoicelist_t)
 
-**SourceAlphaValueToMapToOne** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L95)
+### **SourceAlphaValueToMapToOne** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L95)
 
 ```csharp
 CParticleCollectionRendererFloatInput SourceAlphaValueToMapToOne { get; }
@@ -550,7 +550,7 @@ CParticleCollectionRendererFloatInput SourceAlphaValueToMapToOne { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**SourceAlphaValueToMapToZero** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L93)
+### **SourceAlphaValueToMapToZero** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L93)
 
 ```csharp
 CParticleCollectionRendererFloatInput SourceAlphaValueToMapToZero { get; }
@@ -560,7 +560,7 @@ CParticleCollectionRendererFloatInput SourceAlphaValueToMapToZero { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**StencilTestExclude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L117)
+### **StencilTestExclude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L117)
 
 ```csharp
 ref bool StencilTestExclude { get; }
@@ -570,7 +570,7 @@ ref bool StencilTestExclude { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StencilTestID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L115)
+### **StencilTestID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L115)
 
 ```csharp
 string StencilTestID { get; set; }
@@ -580,7 +580,7 @@ string StencilTestID { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StencilWriteID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L119)
+### **StencilWriteID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L119)
 
 ```csharp
 string StencilWriteID { get; set; }
@@ -590,7 +590,7 @@ string StencilWriteID { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StrShaderOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L30)
+### **StrShaderOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L30)
 
 ```csharp
 string StrShaderOverride { get; set; }
@@ -600,7 +600,7 @@ string StrShaderOverride { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TexturesInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L41)
+### **TexturesInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L41)
 
 ```csharp
 SchemaUntypedField TexturesInput { get; }
@@ -610,7 +610,7 @@ SchemaUntypedField TexturesInput { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**TintByFOW** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L81)
+### **TintByFOW** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L81)
 
 ```csharp
 ref bool TintByFOW { get; }
@@ -620,7 +620,7 @@ ref bool TintByFOW { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TintByGlobalLight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L83)
+### **TintByGlobalLight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L83)
 
 ```csharp
 ref bool TintByGlobalLight { get; }
@@ -630,7 +630,7 @@ ref bool TintByGlobalLight { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UseMixedResolutionRendering** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L111)
+### **UseMixedResolutionRendering** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L111)
 
 ```csharp
 ref bool UseMixedResolutionRendering { get; }
@@ -640,7 +640,7 @@ ref bool UseMixedResolutionRendering { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WriteStencilOnDepthFail** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L123)
+### **WriteStencilOnDepthFail** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L123)
 
 ```csharp
 ref bool WriteStencilOnDepthFail { get; }
@@ -650,7 +650,7 @@ ref bool WriteStencilOnDepthFail { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WriteStencilOnDepthPass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L121)
+### **WriteStencilOnDepthPass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseRendererSource2.cs#L121)
 
 ```csharp
 ref bool WriteStencilOnDepthPass { get; }

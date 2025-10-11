@@ -10,7 +10,7 @@ public interface CBaseCSGrenade : CCSWeaponBase, CBasePlayerWeapon, CEconEntity,
 
 ## Properties
 
-**DropTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L30)
+### **DropTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L30)
 
 ```csharp
 GameTime_t DropTime { get; }
@@ -20,7 +20,7 @@ GameTime_t DropTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**IsHeldByPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L18)
+### **IsHeldByPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L18)
 
 ```csharp
 ref bool IsHeldByPlayer { get; }
@@ -30,7 +30,7 @@ ref bool IsHeldByPlayer { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**JumpThrow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L22)
+### **JumpThrow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L22)
 
 ```csharp
 ref bool JumpThrow { get; }
@@ -40,7 +40,7 @@ ref bool JumpThrow { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**JustPulledPin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L34)
+### **JustPulledPin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L34)
 
 ```csharp
 ref bool JustPulledPin { get; }
@@ -50,7 +50,7 @@ ref bool JustPulledPin { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NextHoldFrac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L38)
+### **NextHoldFrac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L38)
 
 ```csharp
 ref float NextHoldFrac { get; }
@@ -60,7 +60,7 @@ ref float NextHoldFrac { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NextHoldTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L36)
+### **NextHoldTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L36)
 
 ```csharp
 GameTick_t NextHoldTick { get; }
@@ -70,7 +70,7 @@ GameTick_t NextHoldTick { get; }
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
-**PinPullTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L32)
+### **PinPullTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L32)
 
 ```csharp
 GameTime_t PinPullTime { get; }
@@ -80,7 +80,7 @@ GameTime_t PinPullTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**PinPulled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L20)
+### **PinPulled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L20)
 
 ```csharp
 ref bool PinPulled { get; }
@@ -90,7 +90,7 @@ ref bool PinPulled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Redraw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L16)
+### **Redraw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L16)
 
 ```csharp
 ref bool Redraw { get; }
@@ -100,7 +100,7 @@ ref bool Redraw { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SwitchToWeaponAfterThrow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L40)
+### **SwitchToWeaponAfterThrow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L40)
 
 ```csharp
 ref CHandle<CCSWeaponBase> SwitchToWeaponAfterThrow { get; }
@@ -110,7 +110,7 @@ ref CHandle<CCSWeaponBase> SwitchToWeaponAfterThrow { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSWeaponBase](/docs/api/shared/schemadefinitions/ccsweaponbase)>
 
-**ThrowAnimating** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L24)
+### **ThrowAnimating** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L24)
 
 ```csharp
 ref bool ThrowAnimating { get; }
@@ -120,7 +120,7 @@ ref bool ThrowAnimating { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ThrowStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L28)
+### **ThrowStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L28)
 
 ```csharp
 ref float ThrowStrength { get; }
@@ -130,7 +130,7 @@ ref float ThrowStrength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ThrowTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L26)
+### **ThrowTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L26)
 
 ```csharp
 GameTime_t ThrowTime { get; }
@@ -142,79 +142,79 @@ GameTime_t ThrowTime { get; }
 
 ## Methods
 
-**DropTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L49)
+### **DropTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L49)
 
 ```csharp
 void DropTimeUpdated()
 ```
 
-**IsHeldByPlayerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L43)
+### **IsHeldByPlayerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L43)
 
 ```csharp
 void IsHeldByPlayerUpdated()
 ```
 
-**JumpThrowUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L45)
+### **JumpThrowUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L45)
 
 ```csharp
 void JumpThrowUpdated()
 ```
 
-**JustPulledPinUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L51)
+### **JustPulledPinUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L51)
 
 ```csharp
 void JustPulledPinUpdated()
 ```
 
-**NextHoldFracUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L53)
+### **NextHoldFracUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L53)
 
 ```csharp
 void NextHoldFracUpdated()
 ```
 
-**NextHoldTickUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L52)
+### **NextHoldTickUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L52)
 
 ```csharp
 void NextHoldTickUpdated()
 ```
 
-**PinPullTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L50)
+### **PinPullTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L50)
 
 ```csharp
 void PinPullTimeUpdated()
 ```
 
-**PinPulledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L44)
+### **PinPulledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L44)
 
 ```csharp
 void PinPulledUpdated()
 ```
 
-**RedrawUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L42)
+### **RedrawUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L42)
 
 ```csharp
 void RedrawUpdated()
 ```
 
-**SwitchToWeaponAfterThrowUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L54)
+### **SwitchToWeaponAfterThrowUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L54)
 
 ```csharp
 void SwitchToWeaponAfterThrowUpdated()
 ```
 
-**ThrowAnimatingUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L46)
+### **ThrowAnimatingUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L46)
 
 ```csharp
 void ThrowAnimatingUpdated()
 ```
 
-**ThrowStrengthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L48)
+### **ThrowStrengthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L48)
 
 ```csharp
 void ThrowStrengthUpdated()
 ```
 
-**ThrowTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L47)
+### **ThrowTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenade.cs#L47)
 
 ```csharp
 void ThrowTimeUpdated()

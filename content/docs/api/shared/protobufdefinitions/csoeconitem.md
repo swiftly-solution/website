@@ -10,7 +10,7 @@ public interface CSOEconItem : ITypedProtobuf<CSOEconItem>, INativeHandle
 
 ## Properties
 
-**AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L16)
+### **AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L16)
 
 ```csharp
 uint AccountId { get; set; }
@@ -20,7 +20,7 @@ uint AccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Attribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L46)
+### **Attribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L46)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CSOEconItemAttribute> Attribute { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldSubMessageType<CSOEconItemAttribute> Attribute { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSOEconItemAttribute](/docs/api/shared/protobufdefinitions/csoeconitemattribute)>
 
-**CustomDesc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L43)
+### **CustomDesc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L43)
 
 ```csharp
 string CustomDesc { get; set; }
@@ -40,7 +40,7 @@ string CustomDesc { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**CustomName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L40)
+### **CustomName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L40)
 
 ```csharp
 string CustomName { get; set; }
@@ -50,7 +50,7 @@ string CustomName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L22)
+### **DefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L22)
 
 ```csharp
 uint DefIndex { get; set; }
@@ -60,7 +60,7 @@ uint DefIndex { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**EquippedState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L61)
+### **EquippedState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L61)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CSOEconItemEquipped> EquippedState { get; }
@@ -70,7 +70,7 @@ IProtobufRepeatedFieldSubMessageType<CSOEconItemEquipped> EquippedState { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSOEconItemEquipped](/docs/api/shared/protobufdefinitions/csoeconitemequipped)>
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L34)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L34)
 
 ```csharp
 uint Flags { get; set; }
@@ -80,7 +80,7 @@ uint Flags { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Id** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L13)
+### **Id** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L13)
 
 ```csharp
 ulong Id { get; set; }
@@ -90,7 +90,7 @@ ulong Id { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**InUse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L52)
+### **InUse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L52)
 
 ```csharp
 bool InUse { get; set; }
@@ -100,7 +100,7 @@ bool InUse { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InteriorItem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L49)
+### **InteriorItem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L49)
 
 ```csharp
 CSOEconItem InteriorItem { get; }
@@ -110,7 +110,7 @@ CSOEconItem InteriorItem { get; }
 
 - [CSOEconItem](/docs/api/shared/protobufdefinitions/csoeconitem)
 
-**Inventory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L19)
+### **Inventory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L19)
 
 ```csharp
 uint Inventory { get; set; }
@@ -120,7 +120,7 @@ uint Inventory { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Level** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L28)
+### **Level** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L28)
 
 ```csharp
 uint Level { get; set; }
@@ -130,7 +130,7 @@ uint Level { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L37)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L37)
 
 ```csharp
 uint Origin { get; set; }
@@ -140,7 +140,7 @@ uint Origin { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**OriginalId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L58)
+### **OriginalId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L58)
 
 ```csharp
 ulong OriginalId { get; set; }
@@ -150,7 +150,7 @@ ulong OriginalId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Quality** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L31)
+### **Quality** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L31)
 
 ```csharp
 uint Quality { get; set; }
@@ -160,7 +160,7 @@ uint Quality { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Quantity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L25)
+### **Quantity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L25)
 
 ```csharp
 uint Quantity { get; set; }
@@ -170,7 +170,7 @@ uint Quantity { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Rarity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L64)
+### **Rarity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L64)
 
 ```csharp
 uint Rarity { get; set; }
@@ -180,7 +180,7 @@ uint Rarity { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Style** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L55)
+### **Style** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItem.cs#L55)
 
 ```csharp
 uint Style { get; set; }

@@ -10,7 +10,7 @@ public interface CCSUsrMsg_DamagePrediction : ITypedProtobuf<CCSUsrMsg_DamagePre
 
 ## Properties
 
-**AimPunch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L39)
+### **AimPunch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L39)
 
 ```csharp
 QAngle AimPunch { get; set; }
@@ -20,7 +20,7 @@ QAngle AimPunch { get; set; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**CommandNum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L18)
+### **CommandNum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L18)
 
 ```csharp
 int CommandNum { get; set; }
@@ -30,7 +30,7 @@ int CommandNum { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PelletIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L21)
+### **PelletIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L21)
 
 ```csharp
 int PelletIdx { get; set; }
@@ -40,7 +40,7 @@ int PelletIdx { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ShootDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L36)
+### **ShootDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L36)
 
 ```csharp
 QAngle ShootDir { get; set; }
@@ -50,7 +50,7 @@ QAngle ShootDir { get; set; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**ShootPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L33)
+### **ShootPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L33)
 
 ```csharp
 Vector ShootPos { get; set; }
@@ -60,7 +60,7 @@ Vector ShootPos { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**VictimDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L30)
+### **VictimDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L30)
 
 ```csharp
 int VictimDamage { get; set; }
@@ -70,7 +70,7 @@ int VictimDamage { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VictimSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L24)
+### **VictimSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L24)
 
 ```csharp
 int VictimSlot { get; set; }
@@ -80,7 +80,7 @@ int VictimSlot { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VictimStartingHealth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L27)
+### **VictimStartingHealth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DamagePrediction.cs#L27)
 
 ```csharp
 int VictimStartingHealth { get; set; }

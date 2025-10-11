@@ -10,7 +10,7 @@ public interface CNmFollowBoneNode__CDefinition : CNmPassthroughNode__CDefinitio
 
 ## Properties
 
-**Bone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L16)
+### **Bone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L16)
 
 ```csharp
 ref CGlobalSymbol Bone { get; }
@@ -20,7 +20,7 @@ ref CGlobalSymbol Bone { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**EnabledNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L20)
+### **EnabledNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L20)
 
 ```csharp
 ref short EnabledNodeIdx { get; }
@@ -30,7 +30,7 @@ ref short EnabledNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**FollowTargetBone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L18)
+### **FollowTargetBone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L18)
 
 ```csharp
 ref CGlobalSymbol FollowTargetBone { get; }
@@ -40,7 +40,7 @@ ref CGlobalSymbol FollowTargetBone { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L22)
+### **Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFollowBoneNode__CDefinition.cs#L22)
 
 ```csharp
 ref NmFollowBoneMode_t Mode { get; }

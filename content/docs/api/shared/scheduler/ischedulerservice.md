@@ -8,7 +8,7 @@ public interface ISchedulerService
 
 ## Methods
 
-**Delay(int, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L17)
+### **Delay(int, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L17)
 
 ```csharp
 CancellationTokenSource Delay(int delayTick, Action task)
@@ -23,7 +23,7 @@ CancellationTokenSource Delay(int delayTick, Action task)
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
-**DelayAndRepeat(int, int, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L35)
+### **DelayAndRepeat(int, int, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L35)
 
 ```csharp
 CancellationTokenSource DelayAndRepeat(int delayTick, int periodTick, Action task)
@@ -39,7 +39,7 @@ CancellationTokenSource DelayAndRepeat(int delayTick, int periodTick, Action tas
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
-**DelayAndRepeatBySeconds(float, float, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L68)
+### **DelayAndRepeatBySeconds(float, float, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L68)
 
 ```csharp
 CancellationTokenSource DelayAndRepeatBySeconds(float delaySeconds, float periodSeconds, Action task)
@@ -55,7 +55,7 @@ CancellationTokenSource DelayAndRepeatBySeconds(float delaySeconds, float period
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
-**DelayBySeconds(float, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L46)
+### **DelayBySeconds(float, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L46)
 
 ```csharp
 CancellationTokenSource DelayBySeconds(float delaySeconds, Action task)
@@ -70,7 +70,7 @@ CancellationTokenSource DelayBySeconds(float delaySeconds, Action task)
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
-**NextTick(Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L9)
+### **NextTick(Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L9)
 
 ```csharp
 void NextTick(Action task)
@@ -80,7 +80,7 @@ void NextTick(Action task)
 
 - **task**: [Action](https://learn.microsoft.com/dotnet/api/system.action) - The task to execute.
 
-**Repeat(int, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L26)
+### **Repeat(int, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L26)
 
 ```csharp
 CancellationTokenSource Repeat(int periodTick, Action task)
@@ -95,7 +95,7 @@ CancellationTokenSource Repeat(int periodTick, Action task)
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
-**RepeatBySeconds(float, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L57)
+### **RepeatBySeconds(float, Action)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L57)
 
 ```csharp
 CancellationTokenSource RepeatBySeconds(float periodSeconds, Action task)
@@ -110,7 +110,7 @@ CancellationTokenSource RepeatBySeconds(float periodSeconds, Action task)
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
-**StopOnMapChange(CancellationTokenSource)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L74)
+### **StopOnMapChange(CancellationTokenSource)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Scheduler/ISchedulerService.cs#L74)
 
 ```csharp
 void StopOnMapChange(CancellationTokenSource cts)

@@ -10,7 +10,7 @@ public interface C_OP_LazyCullCompareFloat : CParticleFunctionOperator, CParticl
 
 ## Properties
 
-**Comparsion1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LazyCullCompareFloat.cs#L16)
+### **Comparsion1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LazyCullCompareFloat.cs#L16)
 
 ```csharp
 CPerParticleFloatInput Comparsion1 { get; }
@@ -20,7 +20,7 @@ CPerParticleFloatInput Comparsion1 { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**Comparsion2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LazyCullCompareFloat.cs#L18)
+### **Comparsion2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LazyCullCompareFloat.cs#L18)
 
 ```csharp
 CPerParticleFloatInput Comparsion2 { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput Comparsion2 { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**CullTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LazyCullCompareFloat.cs#L20)
+### **CullTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LazyCullCompareFloat.cs#L20)
 
 ```csharp
 CPerParticleFloatInput CullTime { get; }

@@ -10,7 +10,7 @@ public interface CCSUsrMsg_PlayerDecalDigitalSignature : ITypedProtobuf<CCSUsrMs
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerDecalDigitalSignature.cs#L18)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerDecalDigitalSignature.cs#L18)
 
 ```csharp
 PlayerDecalDigitalSignature Data { get; }

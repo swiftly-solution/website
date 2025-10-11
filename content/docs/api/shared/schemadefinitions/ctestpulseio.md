@@ -10,7 +10,7 @@ public interface CTestPulseIO : CLogicalEntity, CServerOnlyEntity, CBaseEntity, 
 
 ## Properties
 
-**AllowEmptyInputs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L30)
+### **AllowEmptyInputs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L30)
 
 ```csharp
 ref bool AllowEmptyInputs { get; }
@@ -20,7 +20,7 @@ ref bool AllowEmptyInputs { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OnVariantBool** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L18)
+### **OnVariantBool** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L18)
 
 ```csharp
 CEntityIOOutput OnVariantBool { get; }
@@ -30,7 +30,7 @@ CEntityIOOutput OnVariantBool { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnVariantColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L26)
+### **OnVariantColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L26)
 
 ```csharp
 CEntityIOOutput OnVariantColor { get; }
@@ -40,7 +40,7 @@ CEntityIOOutput OnVariantColor { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnVariantFloat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L22)
+### **OnVariantFloat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L22)
 
 ```csharp
 CEntityIOOutput OnVariantFloat { get; }
@@ -50,7 +50,7 @@ CEntityIOOutput OnVariantFloat { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnVariantInt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L20)
+### **OnVariantInt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L20)
 
 ```csharp
 CEntityIOOutput OnVariantInt { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnVariantInt { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnVariantString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L24)
+### **OnVariantString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L24)
 
 ```csharp
 CEntityIOOutput OnVariantString { get; }
@@ -70,7 +70,7 @@ CEntityIOOutput OnVariantString { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnVariantVector** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L28)
+### **OnVariantVector** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L28)
 
 ```csharp
 CEntityIOOutput OnVariantVector { get; }
@@ -80,7 +80,7 @@ CEntityIOOutput OnVariantVector { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnVariantVoid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L16)
+### **OnVariantVoid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestPulseIO.cs#L16)
 
 ```csharp
 CEntityIOOutput OnVariantVoid { get; }

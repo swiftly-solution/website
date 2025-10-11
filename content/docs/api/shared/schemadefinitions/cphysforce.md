@@ -10,7 +10,7 @@ public interface CPhysForce : CPointEntity, CBaseEntity, CEntityInstance, ISchem
 
 ## Properties
 
-**AttachedObject** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L22)
+### **AttachedObject** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L22)
 
 ```csharp
 ref CHandle<CBaseEntity> AttachedObject { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> AttachedObject { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**Force** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L18)
+### **Force** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L18)
 
 ```csharp
 ref float Force { get; }
@@ -30,7 +30,7 @@ ref float Force { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ForceTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L20)
+### **ForceTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L20)
 
 ```csharp
 ref float ForceTime { get; }
@@ -40,7 +40,7 @@ ref float ForceTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Integrator** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L26)
+### **Integrator** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L26)
 
 ```csharp
 CConstantForceController Integrator { get; }
@@ -50,7 +50,7 @@ CConstantForceController Integrator { get; }
 
 - [CConstantForceController](/docs/api/shared/schemadefinitions/cconstantforcecontroller)
 
-**NameAttach** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L16)
+### **NameAttach** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L16)
 
 ```csharp
 string NameAttach { get; set; }
@@ -60,7 +60,7 @@ string NameAttach { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**WasRestored** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L24)
+### **WasRestored** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysForce.cs#L24)
 
 ```csharp
 ref bool WasRestored { get; }

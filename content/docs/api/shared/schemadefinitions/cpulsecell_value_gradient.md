@@ -10,7 +10,7 @@ public interface CPulseCell_Value_Gradient : CPulseCell_BaseValue, CPulseCell_Ba
 
 ## Properties
 
-**Gradient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Value_Gradient.cs#L17)
+### **Gradient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Value_Gradient.cs#L17)
 
 ```csharp
 SchemaUntypedField Gradient { get; }

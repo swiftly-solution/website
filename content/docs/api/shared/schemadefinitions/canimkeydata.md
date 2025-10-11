@@ -10,7 +10,7 @@ public interface CAnimKeyData : ISchemaClass<CAnimKeyData>, ISchemaField, ISchem
 
 ## Properties
 
-**BoneArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L19)
+### **BoneArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L19)
 
 ```csharp
 ref CUtlVector BoneArray { get; }
@@ -18,9 +18,9 @@ ref CUtlVector BoneArray { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**ChannelElements** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L26)
+### **ChannelElements** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L26)
 
 ```csharp
 ref int ChannelElements { get; }
@@ -30,7 +30,7 @@ ref int ChannelElements { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DataChannelArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L29)
+### **DataChannelArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L29)
 
 ```csharp
 ref CUtlVector DataChannelArray { get; }
@@ -38,9 +38,9 @@ ref CUtlVector DataChannelArray { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**MorphArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L24)
+### **MorphArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L24)
 
 ```csharp
 ref CUtlVector<CBufferString> MorphArray { get; }
@@ -48,9 +48,9 @@ ref CUtlVector<CBufferString> MorphArray { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
+- [CUtlVector](/docs/api/-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L16)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -60,7 +60,7 @@ ref CBufferString Name { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**UserArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L22)
+### **UserArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimKeyData.cs#L22)
 
 ```csharp
 ref CUtlVector UserArray { get; }
@@ -68,5 +68,5 @@ ref CUtlVector UserArray { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

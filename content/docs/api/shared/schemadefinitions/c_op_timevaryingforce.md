@@ -10,7 +10,7 @@ public interface C_OP_TimeVaryingForce : CParticleFunctionForce, CParticleFuncti
 
 ## Properties
 
-**EndLerpTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TimeVaryingForce.cs#L20)
+### **EndLerpTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TimeVaryingForce.cs#L20)
 
 ```csharp
 ref float EndLerpTime { get; }
@@ -20,7 +20,7 @@ ref float EndLerpTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndingForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TimeVaryingForce.cs#L22)
+### **EndingForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TimeVaryingForce.cs#L22)
 
 ```csharp
 ref Vector EndingForce { get; }
@@ -30,7 +30,7 @@ ref Vector EndingForce { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**StartLerpTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TimeVaryingForce.cs#L16)
+### **StartLerpTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TimeVaryingForce.cs#L16)
 
 ```csharp
 ref float StartLerpTime { get; }
@@ -40,7 +40,7 @@ ref float StartLerpTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartingForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TimeVaryingForce.cs#L18)
+### **StartingForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TimeVaryingForce.cs#L18)
 
 ```csharp
 ref Vector StartingForce { get; }

@@ -10,7 +10,7 @@ public interface CScriptedSequence : CBaseEntity, CEntityInstance, ISchemaClass<
 
 ## Properties
 
-**AllowCustomInterruptConditions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L132)
+### **AllowCustomInterruptConditions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L132)
 
 ```csharp
 ref bool AllowCustomInterruptConditions { get; }
@@ -20,7 +20,7 @@ ref bool AllowCustomInterruptConditions { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AngRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L98)
+### **AngRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L98)
 
 ```csharp
 ref float AngRate { get; }
@@ -30,7 +30,7 @@ ref float AngRate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CanOverrideNPCState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L58)
+### **CanOverrideNPCState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L58)
 
 ```csharp
 ref bool CanOverrideNPCState { get; }
@@ -40,7 +40,7 @@ ref bool CanOverrideNPCState { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ConflictResponse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L146)
+### **ConflictResponse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L146)
 
 ```csharp
 ref ScriptedConflictResponse_t ConflictResponse { get; }
@@ -50,7 +50,7 @@ ref ScriptedConflictResponse_t ConflictResponse { get; }
 
 - [ScriptedConflictResponse_t](/docs/api/shared/schemadefinitions/scriptedconflictresponse_t)
 
-**ContinueOnDeath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L66)
+### **ContinueOnDeath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L66)
 
 ```csharp
 ref bool ContinueOnDeath { get; }
@@ -60,7 +60,7 @@ ref bool ContinueOnDeath { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DisableAimingWhileMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L86)
+### **DisableAimingWhileMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L86)
 
 ```csharp
 ref bool DisableAimingWhileMoving { get; }
@@ -70,7 +70,7 @@ ref bool DisableAimingWhileMoving { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DisableNPCCollisions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L80)
+### **DisableNPCCollisions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L80)
 
 ```csharp
 ref bool DisableNPCCollisions { get; }
@@ -80,7 +80,7 @@ ref bool DisableNPCCollisions { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DisallowInterrupts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L56)
+### **DisallowInterrupts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L56)
 
 ```csharp
 ref bool DisallowInterrupts { get; }
@@ -90,7 +90,7 @@ ref bool DisallowInterrupts { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DontAddModifiers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L84)
+### **DontAddModifiers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L84)
 
 ```csharp
 ref bool DontAddModifiers { get; }
@@ -100,7 +100,7 @@ ref bool DontAddModifiers { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DontCancelOtherSequences** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L136)
+### **DontCancelOtherSequences** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L136)
 
 ```csharp
 ref bool DontCancelOtherSequences { get; }
@@ -110,7 +110,7 @@ ref bool DontCancelOtherSequences { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DontRotateOther** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L48)
+### **DontRotateOther** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L48)
 
 ```csharp
 ref bool DontRotateOther { get; }
@@ -120,7 +120,7 @@ ref bool DontRotateOther { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DontTeleportAtEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L60)
+### **DontTeleportAtEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L60)
 
 ```csharp
 ref bool DontTeleportAtEnd { get; }
@@ -130,7 +130,7 @@ ref bool DontTeleportAtEnd { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EnsureOnNavmeshOnFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L142)
+### **EnsureOnNavmeshOnFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L142)
 
 ```csharp
 ref bool EnsureOnNavmeshOnFinish { get; }
@@ -140,7 +140,7 @@ ref bool EnsureOnNavmeshOnFinish { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L28)
+### **Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L28)
 
 ```csharp
 string Entity { get; set; }
@@ -150,7 +150,7 @@ string Entity { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Entry** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L16)
+### **Entry** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L16)
 
 ```csharp
 string Entry { get; set; }
@@ -160,7 +160,7 @@ string Entry { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ForceSynch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L138)
+### **ForceSynch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L138)
 
 ```csharp
 ref bool ForceSynch { get; }
@@ -170,7 +170,7 @@ ref bool ForceSynch { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ForcedCrouchState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L38)
+### **ForcedCrouchState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L38)
 
 ```csharp
 ref ForcedCrouchState_t ForcedCrouchState { get; }
@@ -180,7 +180,7 @@ ref ForcedCrouchState_t ForcedCrouchState { get; }
 
 - [ForcedCrouchState_t](/docs/api/shared/schemadefinitions/forcedcrouchstate_t)
 
-**ForcedTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L134)
+### **ForcedTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L134)
 
 ```csharp
 ref CHandle<CBaseAnimGraph> ForcedTarget { get; }
@@ -190,7 +190,7 @@ ref CHandle<CBaseAnimGraph> ForcedTarget { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseAnimGraph](/docs/api/shared/schemadefinitions/cbaseanimgraph)>
 
-**HeldWeaponBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L36)
+### **HeldWeaponBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L36)
 
 ```csharp
 ref ScriptedHeldWeaponBehavior_t HeldWeaponBehavior { get; }
@@ -200,7 +200,7 @@ ref ScriptedHeldWeaponBehavior_t HeldWeaponBehavior { get; }
 
 - [ScriptedHeldWeaponBehavior_t](/docs/api/shared/schemadefinitions/scriptedheldweaponbehavior_t)
 
-**HideDebugComplaints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L64)
+### **HideDebugComplaints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L64)
 
 ```csharp
 ref bool HideDebugComplaints { get; }
@@ -210,7 +210,7 @@ ref bool HideDebugComplaints { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HighPriority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L62)
+### **HighPriority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L62)
 
 ```csharp
 ref bool HighPriority { get; }
@@ -220,7 +220,7 @@ ref bool HighPriority { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IgnoreGravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L78)
+### **IgnoreGravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L78)
 
 ```csharp
 ref bool IgnoreGravity { get; }
@@ -230,7 +230,7 @@ ref bool IgnoreGravity { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IgnoreLookAt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L76)
+### **IgnoreLookAt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L76)
 
 ```csharp
 ref bool IgnoreLookAt { get; }
@@ -240,7 +240,7 @@ ref bool IgnoreLookAt { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IgnoreRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L88)
+### **IgnoreRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L88)
 
 ```csharp
 ref bool IgnoreRotation { get; }
@@ -250,7 +250,7 @@ ref bool IgnoreRotation { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InitiatedSelfDelete** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L128)
+### **InitiatedSelfDelete** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L128)
 
 ```csharp
 ref bool InitiatedSelfDelete { get; }
@@ -260,7 +260,7 @@ ref bool InitiatedSelfDelete { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InteractionMainEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L165)
+### **InteractionMainEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L165)
 
 ```csharp
 ref CHandle<CBaseEntity> InteractionMainEntity { get; }
@@ -270,7 +270,7 @@ ref CHandle<CBaseEntity> InteractionMainEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**Interruptable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L116)
+### **Interruptable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L116)
 
 ```csharp
 ref bool Interruptable { get; }
@@ -280,7 +280,7 @@ ref bool Interruptable { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsPlayingAction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L44)
+### **IsPlayingAction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L44)
 
 ```csharp
 ref bool IsPlayingAction { get; }
@@ -290,7 +290,7 @@ ref bool IsPlayingAction { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsPlayingEntry** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L42)
+### **IsPlayingEntry** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L42)
 
 ```csharp
 ref bool IsPlayingEntry { get; }
@@ -300,7 +300,7 @@ ref bool IsPlayingEntry { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsPlayingPostIdle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L46)
+### **IsPlayingPostIdle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L46)
 
 ```csharp
 ref bool IsPlayingPostIdle { get; }
@@ -310,7 +310,7 @@ ref bool IsPlayingPostIdle { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsPlayingPreIdle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L40)
+### **IsPlayingPreIdle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L40)
 
 ```csharp
 ref bool IsPlayingPreIdle { get; }
@@ -320,7 +320,7 @@ ref bool IsPlayingPreIdle { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsRepeatable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L50)
+### **IsRepeatable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L50)
 
 ```csharp
 ref bool IsRepeatable { get; }
@@ -330,7 +330,7 @@ ref bool IsRepeatable { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsTeleportingDueToMoveTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L130)
+### **IsTeleportingDueToMoveTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L130)
 
 ```csharp
 ref bool IsTeleportingDueToMoveTo { get; }
@@ -340,7 +340,7 @@ ref bool IsTeleportingDueToMoveTo { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**KeepAnimgraphLockedPost** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L82)
+### **KeepAnimgraphLockedPost** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L82)
 
 ```csharp
 ref bool KeepAnimgraphLockedPost { get; }
@@ -350,7 +350,7 @@ ref bool KeepAnimgraphLockedPost { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LoopActionSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L70)
+### **LoopActionSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L70)
 
 ```csharp
 ref bool LoopActionSequence { get; }
@@ -360,7 +360,7 @@ ref bool LoopActionSequence { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LoopPostIdleSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L72)
+### **LoopPostIdleSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L72)
 
 ```csharp
 ref bool LoopPostIdleSequence { get; }
@@ -370,7 +370,7 @@ ref bool LoopPostIdleSequence { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LoopPreIdleSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L68)
+### **LoopPreIdleSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L68)
 
 ```csharp
 ref bool LoopPreIdleSequence { get; }
@@ -380,7 +380,7 @@ ref bool LoopPreIdleSequence { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MatOtherToMain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L163)
+### **MatOtherToMain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L163)
 
 ```csharp
 ref CTransform MatOtherToMain { get; }
@@ -390,7 +390,7 @@ ref CTransform MatOtherToMain { get; }
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-**ModifierToAddOnPlay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L24)
+### **ModifierToAddOnPlay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L24)
 
 ```csharp
 string ModifierToAddOnPlay { get; set; }
@@ -400,7 +400,7 @@ string ModifierToAddOnPlay { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MoveInterpTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L96)
+### **MoveInterpTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L96)
 
 ```csharp
 ref float MoveInterpTime { get; }
@@ -410,7 +410,7 @@ ref float MoveInterpTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MoveSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L100)
+### **MoveSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L100)
 
 ```csharp
 ref float MoveSpeed { get; }
@@ -420,7 +420,7 @@ ref float MoveSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MoveTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L32)
+### **MoveTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L32)
 
 ```csharp
 ref ScriptedMoveTo_t MoveTo { get; }
@@ -430,7 +430,7 @@ ref ScriptedMoveTo_t MoveTo { get; }
 
 - [ScriptedMoveTo_t](/docs/api/shared/schemadefinitions/scriptedmoveto_t)
 
-**MoveToGait** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L34)
+### **MoveToGait** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L34)
 
 ```csharp
 ref SharedMovementGait_t MoveToGait { get; }
@@ -440,7 +440,7 @@ ref SharedMovementGait_t MoveToGait { get; }
 
 - [SharedMovementGait_t](/docs/api/shared/schemadefinitions/sharedmovementgait_t)
 
-**NextCine** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L124)
+### **NextCine** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L124)
 
 ```csharp
 ref CHandle<CScriptedSequence> NextCine { get; }
@@ -450,7 +450,7 @@ ref CHandle<CScriptedSequence> NextCine { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CScriptedSequence](/docs/api/shared/schemadefinitions/cscriptedsequence)>
 
-**NextScript** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L26)
+### **NextScript** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L26)
 
 ```csharp
 string NextScript { get; set; }
@@ -460,7 +460,7 @@ string NextScript { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NotReadySequenceCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L104)
+### **NotReadySequenceCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L104)
 
 ```csharp
 ref int NotReadySequenceCount { get; }
@@ -470,7 +470,7 @@ ref int NotReadySequenceCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OnActionStartOrLoop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L150)
+### **OnActionStartOrLoop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L150)
 
 ```csharp
 CEntityIOOutput OnActionStartOrLoop { get; }
@@ -480,7 +480,7 @@ CEntityIOOutput OnActionStartOrLoop { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnBeginSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L148)
+### **OnBeginSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L148)
 
 ```csharp
 CEntityIOOutput OnBeginSequence { get; }
@@ -490,7 +490,7 @@ CEntityIOOutput OnBeginSequence { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnCancelFailedSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L158)
+### **OnCancelFailedSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L158)
 
 ```csharp
 CEntityIOOutput OnCancelFailedSequence { get; }
@@ -500,7 +500,7 @@ CEntityIOOutput OnCancelFailedSequence { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnCancelSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L156)
+### **OnCancelSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L156)
 
 ```csharp
 CEntityIOOutput OnCancelSequence { get; }
@@ -510,7 +510,7 @@ CEntityIOOutput OnCancelSequence { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnDeathBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L144)
+### **OnDeathBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L144)
 
 ```csharp
 ref ScriptedOnDeath_t OnDeathBehavior { get; }
@@ -520,7 +520,7 @@ ref ScriptedOnDeath_t OnDeathBehavior { get; }
 
 - [ScriptedOnDeath_t](/docs/api/shared/schemadefinitions/scriptedondeath_t)
 
-**OnEndSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L152)
+### **OnEndSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L152)
 
 ```csharp
 CEntityIOOutput OnEndSequence { get; }
@@ -530,7 +530,7 @@ CEntityIOOutput OnEndSequence { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnPostIdleEndSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L154)
+### **OnPostIdleEndSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L154)
 
 ```csharp
 CEntityIOOutput OnPostIdleEndSequence { get; }
@@ -540,7 +540,7 @@ CEntityIOOutput OnPostIdleEndSequence { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnScriptEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L161)
+### **OnScriptEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L161)
 
 ```csharp
 SchemaUntypedField OnScriptEvent { get; }
@@ -550,7 +550,7 @@ SchemaUntypedField OnScriptEvent { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Play** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L20)
+### **Play** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L20)
 
 ```csharp
 string Play { get; set; }
@@ -560,7 +560,7 @@ string Play { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PlayAnimFadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L94)
+### **PlayAnimFadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L94)
 
 ```csharp
 ref float PlayAnimFadeInTime { get; }
@@ -570,7 +570,7 @@ ref float PlayAnimFadeInTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PlayerDeathBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L167)
+### **PlayerDeathBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L167)
 
 ```csharp
 ref int PlayerDeathBehavior { get; }
@@ -580,7 +580,7 @@ ref int PlayerDeathBehavior { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PositionRelativeToOtherEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L120)
+### **PositionRelativeToOtherEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L120)
 
 ```csharp
 ref bool PositionRelativeToOtherEntity { get; }
@@ -590,7 +590,7 @@ ref bool PositionRelativeToOtherEntity { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PostIdle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L22)
+### **PostIdle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L22)
 
 ```csharp
 string PostIdle { get; set; }
@@ -600,7 +600,7 @@ string PostIdle { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PreIdle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L18)
+### **PreIdle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L18)
 
 ```csharp
 string PreIdle { get; set; }
@@ -610,7 +610,7 @@ string PreIdle { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PreventUpdateYawOnFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L140)
+### **PreventUpdateYawOnFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L140)
 
 ```csharp
 ref bool PreventUpdateYawOnFinish { get; }
@@ -620,7 +620,7 @@ ref bool PreventUpdateYawOnFinish { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L90)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L90)
 
 ```csharp
 ref float Radius { get; }
@@ -630,7 +630,7 @@ ref float Radius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Repeat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L92)
+### **Repeat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L92)
 
 ```csharp
 ref float Repeat { get; }
@@ -640,7 +640,7 @@ ref float Repeat { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SavedCollisionGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L114)
+### **SavedCollisionGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L114)
 
 ```csharp
 ref int SavedCollisionGroup { get; }
@@ -650,7 +650,7 @@ ref int SavedCollisionGroup { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SavedFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L112)
+### **SavedFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L112)
 
 ```csharp
 ref int SavedFlags { get; }
@@ -660,7 +660,7 @@ ref int SavedFlags { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Saved_effects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L110)
+### **Saved_effects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L110)
 
 ```csharp
 ref int Saved_effects { get; }
@@ -670,7 +670,7 @@ ref int Saved_effects { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SequenceStarted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L118)
+### **SequenceStarted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L118)
 
 ```csharp
 ref bool SequenceStarted { get; }
@@ -680,7 +680,7 @@ ref bool SequenceStarted { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ShouldLeaveCorpse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L52)
+### **ShouldLeaveCorpse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L52)
 
 ```csharp
 ref bool ShouldLeaveCorpse { get; }
@@ -690,7 +690,7 @@ ref bool ShouldLeaveCorpse { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SkipFadeIn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L169)
+### **SkipFadeIn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L169)
 
 ```csharp
 ref bool SkipFadeIn { get; }
@@ -700,7 +700,7 @@ ref bool SkipFadeIn { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartOnSpawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L54)
+### **StartOnSpawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L54)
 
 ```csharp
 ref bool StartOnSpawn { get; }
@@ -710,7 +710,7 @@ ref bool StartOnSpawn { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L106)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L106)
 
 ```csharp
 GameTime_t StartTime { get; }
@@ -720,7 +720,7 @@ GameTime_t StartTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**SyncGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L30)
+### **SyncGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L30)
 
 ```csharp
 string SyncGroup { get; set; }
@@ -730,7 +730,7 @@ string SyncGroup { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SynchPostIdles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L74)
+### **SynchPostIdles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L74)
 
 ```csharp
 ref bool SynchPostIdles { get; }
@@ -740,7 +740,7 @@ ref bool SynchPostIdles { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetEnt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L122)
+### **TargetEnt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L122)
 
 ```csharp
 ref CHandle<CBaseEntity> TargetEnt { get; }
@@ -750,7 +750,7 @@ ref CHandle<CBaseEntity> TargetEnt { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**Thinking** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L126)
+### **Thinking** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L126)
 
 ```csharp
 ref bool Thinking { get; }
@@ -760,7 +760,7 @@ ref bool Thinking { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WaitForBeginSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L108)
+### **WaitForBeginSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L108)
 
 ```csharp
 ref bool WaitForBeginSequence { get; }
@@ -770,7 +770,7 @@ ref bool WaitForBeginSequence { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WaitUntilMoveCompletesToStartAnimation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L102)
+### **WaitUntilMoveCompletesToStartAnimation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptedSequence.cs#L102)
 
 ```csharp
 ref bool WaitUntilMoveCompletesToStartAnimation { get; }

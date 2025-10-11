@@ -10,7 +10,7 @@ public interface CBodyComponentPoint : CBodyComponent, CEntityComponent, ISchema
 
 ## Properties
 
-**SceneNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentPoint.cs#L16)
+### **SceneNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentPoint.cs#L16)
 
 ```csharp
 CGameSceneNode SceneNode { get; }
@@ -22,7 +22,7 @@ CGameSceneNode SceneNode { get; }
 
 ## Methods
 
-**SceneNodeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentPoint.cs#L18)
+### **SceneNodeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentPoint.cs#L18)
 
 ```csharp
 void SceneNodeUpdated()

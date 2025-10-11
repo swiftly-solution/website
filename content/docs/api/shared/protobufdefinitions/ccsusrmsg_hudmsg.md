@@ -10,7 +10,7 @@ public interface CCSUsrMsg_HudMsg : ITypedProtobuf<CCSUsrMsg_HudMsg>, INativeHan
 
 ## Properties
 
-**Channel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L18)
+### **Channel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L18)
 
 ```csharp
 int Channel { get; set; }
@@ -20,7 +20,7 @@ int Channel { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Clr1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L24)
+### **Clr1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L24)
 
 ```csharp
 Color Clr1 { get; set; }
@@ -30,7 +30,7 @@ Color Clr1 { get; set; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**Clr2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L27)
+### **Clr2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L27)
 
 ```csharp
 Color Clr2 { get; set; }
@@ -40,7 +40,7 @@ Color Clr2 { get; set; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**Effect** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L30)
+### **Effect** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L30)
 
 ```csharp
 int Effect { get; set; }
@@ -50,7 +50,7 @@ int Effect { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L33)
+### **FadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L33)
 
 ```csharp
 float FadeInTime { get; set; }
@@ -60,7 +60,7 @@ float FadeInTime { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FadeOutTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L36)
+### **FadeOutTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L36)
 
 ```csharp
 float FadeOutTime { get; set; }
@@ -70,7 +70,7 @@ float FadeOutTime { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FxTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L42)
+### **FxTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L42)
 
 ```csharp
 float FxTime { get; set; }
@@ -80,7 +80,7 @@ float FxTime { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HoldTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L39)
+### **HoldTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L39)
 
 ```csharp
 float HoldTime { get; set; }
@@ -90,7 +90,7 @@ float HoldTime { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L21)
+### **Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L21)
 
 ```csharp
 Vector2D Pos { get; set; }
@@ -100,7 +100,7 @@ Vector2D Pos { get; set; }
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
-**Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L45)
+### **Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_HudMsg.cs#L45)
 
 ```csharp
 string Text { get; set; }

@@ -10,7 +10,7 @@ public interface CEntityMsg : ITypedProtobuf<CEntityMsg>, INativeHandle
 
 ## Properties
 
-**TargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMsg.cs#L13)
+### **TargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMsg.cs#L13)
 
 ```csharp
 uint TargetEntity { get; set; }

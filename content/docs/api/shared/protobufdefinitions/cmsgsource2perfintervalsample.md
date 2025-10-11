@@ -10,7 +10,7 @@ public interface CMsgSource2PerfIntervalSample : ITypedProtobuf<CMsgSource2PerfI
 
 ## Properties
 
-**FrameCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L22)
+### **FrameCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L22)
 
 ```csharp
 int FrameCount { get; set; }
@@ -20,7 +20,7 @@ int FrameCount { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FrameTimeAvgMs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L16)
+### **FrameTimeAvgMs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L16)
 
 ```csharp
 float FrameTimeAvgMs { get; set; }
@@ -30,7 +30,7 @@ float FrameTimeAvgMs { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FrameTimeMaxMs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L13)
+### **FrameTimeMaxMs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L13)
 
 ```csharp
 float FrameTimeMaxMs { get; set; }
@@ -40,7 +40,7 @@ float FrameTimeMaxMs { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FrameTimeMinMs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L19)
+### **FrameTimeMinMs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L19)
 
 ```csharp
 float FrameTimeMinMs { get; set; }
@@ -50,7 +50,7 @@ float FrameTimeMinMs { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FrameTimeTotalMs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L25)
+### **FrameTimeTotalMs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L25)
 
 ```csharp
 float FrameTimeTotalMs { get; set; }
@@ -60,7 +60,7 @@ float FrameTimeTotalMs { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L28)
+### **Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2PerfIntervalSample.cs#L28)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSource2PerfIntervalSample_Tag> Tags { get; }

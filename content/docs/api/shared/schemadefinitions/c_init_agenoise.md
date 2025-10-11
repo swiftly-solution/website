@@ -10,7 +10,7 @@ public interface C_INIT_AgeNoise : CParticleFunctionInitializer, CParticleFuncti
 
 ## Properties
 
-**AbsVal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L16)
+### **AbsVal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L16)
 
 ```csharp
 ref bool AbsVal { get; }
@@ -20,7 +20,7 @@ ref bool AbsVal { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AbsValInv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L18)
+### **AbsValInv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L18)
 
 ```csharp
 ref bool AbsValInv { get; }
@@ -30,7 +30,7 @@ ref bool AbsValInv { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AgeMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L24)
+### **AgeMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L24)
 
 ```csharp
 ref float AgeMax { get; }
@@ -40,7 +40,7 @@ ref float AgeMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AgeMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L22)
+### **AgeMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L22)
 
 ```csharp
 ref float AgeMin { get; }
@@ -50,7 +50,7 @@ ref float AgeMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L26)
+### **NoiseScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L26)
 
 ```csharp
 ref float NoiseScale { get; }
@@ -60,7 +60,7 @@ ref float NoiseScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseScaleLoc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L28)
+### **NoiseScaleLoc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L28)
 
 ```csharp
 ref float NoiseScaleLoc { get; }
@@ -70,7 +70,7 @@ ref float NoiseScaleLoc { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L20)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L20)
 
 ```csharp
 ref float Offset { get; }
@@ -80,7 +80,7 @@ ref float Offset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OffsetLoc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L30)
+### **OffsetLoc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AgeNoise.cs#L30)
 
 ```csharp
 ref Vector OffsetLoc { get; }

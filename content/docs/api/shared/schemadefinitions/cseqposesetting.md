@@ -10,7 +10,7 @@ public interface CSeqPoseSetting : ISchemaClass<CSeqPoseSetting>, ISchemaField, 
 
 ## Properties
 
-**Attachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L18)
+### **Attachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L18)
 
 ```csharp
 ref CBufferString Attachment { get; }
@@ -20,7 +20,7 @@ ref CBufferString Attachment { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**PoseParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L16)
+### **PoseParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L16)
 
 ```csharp
 ref CBufferString PoseParameter { get; }
@@ -30,7 +30,7 @@ ref CBufferString PoseParameter { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**ReferenceSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L20)
+### **ReferenceSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L20)
 
 ```csharp
 ref CBufferString ReferenceSequence { get; }
@@ -40,7 +40,7 @@ ref CBufferString ReferenceSequence { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L30)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L30)
 
 ```csharp
 ref int Type { get; }
@@ -50,7 +50,7 @@ ref int Type { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L22)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L22)
 
 ```csharp
 ref float Value { get; }
@@ -60,7 +60,7 @@ ref float Value { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L24)
+### **X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L24)
 
 ```csharp
 ref bool X { get; }
@@ -70,7 +70,7 @@ ref bool X { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L26)
+### **Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L26)
 
 ```csharp
 ref bool Y { get; }
@@ -80,7 +80,7 @@ ref bool Y { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L28)
+### **Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqPoseSetting.cs#L28)
 
 ```csharp
 ref bool Z { get; }

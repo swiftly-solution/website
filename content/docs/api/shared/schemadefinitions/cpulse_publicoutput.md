@@ -10,7 +10,7 @@ public interface CPulse_PublicOutput : ISchemaClass<CPulse_PublicOutput>, ISchem
 
 ## Properties
 
-**Args** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L22)
+### **Args** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L22)
 
 ```csharp
 SchemaUntypedField Args { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Args { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L19)
+### **Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L19)
 
 ```csharp
 string Description { get; set; }
@@ -30,7 +30,7 @@ string Description { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L17)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_PublicOutput.cs#L17)
 
 ```csharp
 SchemaUntypedField Name { get; }

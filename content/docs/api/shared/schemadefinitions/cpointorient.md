@@ -10,7 +10,7 @@ public interface CPointOrient : CBaseEntity, CEntityInstance, ISchemaClass<CEnti
 
 ## Properties
 
-**Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L20)
+### **Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L20)
 
 ```csharp
 ref bool Active { get; }
@@ -20,7 +20,7 @@ ref bool Active { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Constraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L24)
+### **Constraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L24)
 
 ```csharp
 ref PointOrientConstraint_t Constraint { get; }
@@ -30,7 +30,7 @@ ref PointOrientConstraint_t Constraint { get; }
 
 - [PointOrientConstraint_t](/docs/api/shared/schemadefinitions/pointorientconstraint_t)
 
-**GoalDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L22)
+### **GoalDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L22)
 
 ```csharp
 ref PointOrientGoalDirectionType_t GoalDirection { get; }
@@ -40,7 +40,7 @@ ref PointOrientGoalDirectionType_t GoalDirection { get; }
 
 - [PointOrientGoalDirectionType_t](/docs/api/shared/schemadefinitions/pointorientgoaldirectiontype_t)
 
-**LastGameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L28)
+### **LastGameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L28)
 
 ```csharp
 GameTime_t LastGameTime { get; }
@@ -50,7 +50,7 @@ GameTime_t LastGameTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**MaxTurnRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L26)
+### **MaxTurnRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L26)
 
 ```csharp
 ref float MaxTurnRate { get; }
@@ -60,7 +60,7 @@ ref float MaxTurnRate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SpawnTargetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L16)
+### **SpawnTargetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L16)
 
 ```csharp
 string SpawnTargetName { get; set; }
@@ -70,7 +70,7 @@ string SpawnTargetName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L18)
+### **Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointOrient.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> Target { get; }

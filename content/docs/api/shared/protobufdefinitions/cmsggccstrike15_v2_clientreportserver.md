@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_ClientReportServer : ITypedProtobuf<CMsgGCCS
 
 ## Properties
 
-**MatchId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L28)
+### **MatchId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L28)
 
 ```csharp
 ulong MatchId { get; set; }
@@ -20,7 +20,7 @@ ulong MatchId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**RptAbusivemodels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L16)
+### **RptAbusivemodels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L16)
 
 ```csharp
 uint RptAbusivemodels { get; set; }
@@ -30,7 +30,7 @@ uint RptAbusivemodels { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RptBadmotd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L19)
+### **RptBadmotd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L19)
 
 ```csharp
 uint RptBadmotd { get; set; }
@@ -40,7 +40,7 @@ uint RptBadmotd { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RptInventoryabuse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L25)
+### **RptInventoryabuse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L25)
 
 ```csharp
 uint RptInventoryabuse { get; set; }
@@ -50,7 +50,7 @@ uint RptInventoryabuse { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RptListingabuse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L22)
+### **RptListingabuse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L22)
 
 ```csharp
 uint RptListingabuse { get; set; }
@@ -60,7 +60,7 @@ uint RptListingabuse { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RptPoorperf** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L13)
+### **RptPoorperf** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientReportServer.cs#L13)
 
 ```csharp
 uint RptPoorperf { get; set; }

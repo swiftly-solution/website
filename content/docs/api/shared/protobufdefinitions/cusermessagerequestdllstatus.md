@@ -10,7 +10,7 @@ public interface CUserMessageRequestDllStatus : ITypedProtobuf<CUserMessageReque
 
 ## Properties
 
-**DllAction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestDllStatus.cs#L18)
+### **DllAction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestDllStatus.cs#L18)
 
 ```csharp
 string DllAction { get; set; }
@@ -20,7 +20,7 @@ string DllAction { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**FullReport** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestDllStatus.cs#L21)
+### **FullReport** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestDllStatus.cs#L21)
 
 ```csharp
 bool FullReport { get; set; }

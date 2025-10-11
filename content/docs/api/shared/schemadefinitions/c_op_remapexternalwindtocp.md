@@ -10,7 +10,7 @@ public interface C_OP_RemapExternalWindToCP : CParticleFunctionPreEmission, CPar
 
 ## Properties
 
-**CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L16)
+### **CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L16)
 
 ```csharp
 ref int CP { get; }
@@ -20,7 +20,7 @@ ref int CP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CPOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L18)
+### **CPOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L18)
 
 ```csharp
 ref int CPOutput { get; }
@@ -30,7 +30,7 @@ ref int CPOutput { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutVectorField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L24)
+### **OutVectorField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L24)
 
 ```csharp
 ref int OutVectorField { get; }
@@ -40,7 +40,7 @@ ref int OutVectorField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L20)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L20)
 
 ```csharp
 CParticleCollectionVecInput Scale { get; }
@@ -50,7 +50,7 @@ CParticleCollectionVecInput Scale { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**SetMagnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L22)
+### **SetMagnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapExternalWindToCP.cs#L22)
 
 ```csharp
 ref bool SetMagnitude { get; }

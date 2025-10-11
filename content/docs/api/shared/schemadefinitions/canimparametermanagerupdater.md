@@ -10,7 +10,7 @@ public interface CAnimParameterManagerUpdater : ISchemaClass<CAnimParameterManag
 
 ## Properties
 
-**AutoResetMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L32)
+### **AutoResetMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L32)
 
 ```csharp
 SchemaUntypedField AutoResetMap { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField AutoResetMap { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**AutoResetParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L29)
+### **AutoResetParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L29)
 
 ```csharp
 ref CUtlVector AutoResetParams { get; }
@@ -28,9 +28,9 @@ ref CUtlVector AutoResetParams { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**IdToIndexMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L20)
+### **IdToIndexMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L20)
 
 ```csharp
 SchemaUntypedField IdToIndexMap { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField IdToIndexMap { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**IndexToHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L26)
+### **IndexToHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L26)
 
 ```csharp
 ref CUtlVector IndexToHandle { get; }
@@ -48,9 +48,9 @@ ref CUtlVector IndexToHandle { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**NameToIndexMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L23)
+### **NameToIndexMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L23)
 
 ```csharp
 SchemaUntypedField NameToIndexMap { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField NameToIndexMap { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Parameters** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L17)
+### **Parameters** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimParameterManagerUpdater.cs#L17)
 
 ```csharp
 ref CUtlVector Parameters { get; }
@@ -68,5 +68,5 @@ ref CUtlVector Parameters { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

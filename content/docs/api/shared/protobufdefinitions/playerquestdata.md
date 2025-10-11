@@ -10,7 +10,7 @@ public interface PlayerQuestData : ITypedProtobuf<PlayerQuestData>, INativeHandl
 
 ## Properties
 
-**ItemUpdates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L28)
+### **ItemUpdates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L28)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<MatchEndItemUpdates> ItemUpdates { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<MatchEndItemUpdates> ItemUpdates { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[MatchEndItemUpdates](/docs/api/shared/protobufdefinitions/matchenditemupdates)>
 
-**MmGameMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L25)
+### **MmGameMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L25)
 
 ```csharp
 uint MmGameMode { get; set; }
@@ -30,7 +30,7 @@ uint MmGameMode { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**OperationPointsEligible** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L31)
+### **OperationPointsEligible** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L31)
 
 ```csharp
 bool OperationPointsEligible { get; set; }
@@ -40,7 +40,7 @@ bool OperationPointsEligible { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**QuestItemData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L16)
+### **QuestItemData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<PlayerQuestData_QuestItemData> QuestItemData { get; }
@@ -50,7 +50,7 @@ IProtobufRepeatedFieldSubMessageType<PlayerQuestData_QuestItemData> QuestItemDat
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[PlayerQuestData_QuestItemData](/docs/api/shared/protobufdefinitions/playerquestdata_questitemdata)>
 
-**QuesterAccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L13)
+### **QuesterAccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L13)
 
 ```csharp
 uint QuesterAccountId { get; set; }
@@ -60,7 +60,7 @@ uint QuesterAccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TimePlayed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L22)
+### **TimePlayed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L22)
 
 ```csharp
 uint TimePlayed { get; set; }
@@ -70,7 +70,7 @@ uint TimePlayed { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Userstatchanges** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L34)
+### **Userstatchanges** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L34)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgCsgoSteamUserStatChange> Userstatchanges { get; }
@@ -80,7 +80,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgCsgoSteamUserStatChange> Userstatchange
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgCsgoSteamUserStatChange](/docs/api/shared/protobufdefinitions/cmsgcsgosteamuserstatchange)>
 
-**XpProgressData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L19)
+### **XpProgressData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerQuestData.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<XpProgressData> XpProgressData { get; }

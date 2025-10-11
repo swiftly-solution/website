@@ -10,7 +10,7 @@ public interface C_OP_RotateVector : CParticleFunctionOperator, CParticleFunctio
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Normalize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L26)
+### **Normalize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L26)
 
 ```csharp
 ref bool Normalize { get; }
@@ -30,7 +30,7 @@ ref bool Normalize { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RotAxisMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L20)
+### **RotAxisMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L20)
 
 ```csharp
 ref Vector RotAxisMax { get; }
@@ -40,7 +40,7 @@ ref Vector RotAxisMax { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RotAxisMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L18)
+### **RotAxisMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L18)
 
 ```csharp
 ref Vector RotAxisMin { get; }
@@ -50,7 +50,7 @@ ref Vector RotAxisMin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RotRateMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L24)
+### **RotRateMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L24)
 
 ```csharp
 ref float RotRateMax { get; }
@@ -60,7 +60,7 @@ ref float RotRateMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RotRateMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L22)
+### **RotRateMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L22)
 
 ```csharp
 ref float RotRateMin { get; }
@@ -70,7 +70,7 @@ ref float RotRateMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L28)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RotateVector.cs#L28)
 
 ```csharp
 CPerParticleFloatInput Scale { get; }

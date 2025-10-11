@@ -10,7 +10,7 @@ public interface CGameServers_AggregationQuery_Request : ITypedProtobuf<CGameSer
 
 ## Properties
 
-**Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGameServers_AggregationQuery_Request.cs#L13)
+### **Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGameServers_AggregationQuery_Request.cs#L13)
 
 ```csharp
 string Filter { get; set; }
@@ -20,7 +20,7 @@ string Filter { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**GroupFields** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGameServers_AggregationQuery_Request.cs#L16)
+### **GroupFields** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGameServers_AggregationQuery_Request.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<string> GroupFields { get; }

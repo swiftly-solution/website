@@ -10,7 +10,7 @@ public interface VMixDiffusorDesc_t : ISchemaClass<VMixDiffusorDesc_t>, ISchemaF
 
 ## Properties
 
-**Complexity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDiffusorDesc_t.cs#L18)
+### **Complexity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDiffusorDesc_t.cs#L18)
 
 ```csharp
 ref float Complexity { get; }
@@ -20,7 +20,7 @@ ref float Complexity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Feedback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDiffusorDesc_t.cs#L20)
+### **Feedback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDiffusorDesc_t.cs#L20)
 
 ```csharp
 ref float Feedback { get; }
@@ -30,7 +30,7 @@ ref float Feedback { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDiffusorDesc_t.cs#L22)
+### **OutputGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDiffusorDesc_t.cs#L22)
 
 ```csharp
 ref float OutputGain { get; }
@@ -40,7 +40,7 @@ ref float OutputGain { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Size** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDiffusorDesc_t.cs#L16)
+### **Size** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDiffusorDesc_t.cs#L16)
 
 ```csharp
 ref float Size { get; }

@@ -10,7 +10,7 @@ public interface CPoseHandle : ISchemaClass<CPoseHandle>, ISchemaField, ISchemaC
 
 ## Properties
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPoseHandle.cs#L16)
+### **Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPoseHandle.cs#L16)
 
 ```csharp
 ref ushort Index { get; }
@@ -20,7 +20,7 @@ ref ushort Index { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPoseHandle.cs#L18)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPoseHandle.cs#L18)
 
 ```csharp
 ref PoseType_t Type { get; }

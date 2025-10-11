@@ -10,7 +10,7 @@ public interface CKeepUpright : CPointEntity, CBaseEntity, CEntityInstance, ISch
 
 ## Properties
 
-**Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L26)
+### **Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L26)
 
 ```csharp
 ref bool Active { get; }
@@ -20,7 +20,7 @@ ref bool Active { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AngularLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L24)
+### **AngularLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L24)
 
 ```csharp
 ref float AngularLimit { get; }
@@ -30,7 +30,7 @@ ref float AngularLimit { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AttachedObject** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L22)
+### **AttachedObject** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L22)
 
 ```csharp
 ref CHandle<CBaseEntity> AttachedObject { get; }
@@ -40,7 +40,7 @@ ref CHandle<CBaseEntity> AttachedObject { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**DampAllRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L28)
+### **DampAllRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L28)
 
 ```csharp
 ref bool DampAllRotation { get; }
@@ -50,7 +50,7 @@ ref bool DampAllRotation { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LocalTestAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L18)
+### **LocalTestAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L18)
 
 ```csharp
 ref Vector LocalTestAxis { get; }
@@ -60,7 +60,7 @@ ref Vector LocalTestAxis { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**NameAttach** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L20)
+### **NameAttach** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L20)
 
 ```csharp
 string NameAttach { get; set; }
@@ -70,7 +70,7 @@ string NameAttach { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**WorldGoalAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L16)
+### **WorldGoalAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CKeepUpright.cs#L16)
 
 ```csharp
 ref Vector WorldGoalAxis { get; }

@@ -10,7 +10,7 @@ public interface C_OP_SetPerChildControlPoint : CParticleFunctionOperator, CPart
 
 ## Properties
 
-**ChildGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L16)
+### **ChildGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L16)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -20,7 +20,7 @@ ref int ChildGroupID { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FirstControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L18)
+### **FirstControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L18)
 
 ```csharp
 ref int FirstControlPoint { get; }
@@ -30,7 +30,7 @@ ref int FirstControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FirstSourcePoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L24)
+### **FirstSourcePoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput FirstSourcePoint { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput FirstSourcePoint { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**NumBasedOnParticleCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L30)
+### **NumBasedOnParticleCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L30)
 
 ```csharp
 ref bool NumBasedOnParticleCount { get; }
@@ -50,7 +50,7 @@ ref bool NumBasedOnParticleCount { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NumControlPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L20)
+### **NumControlPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L20)
 
 ```csharp
 ref int NumControlPoints { get; }
@@ -60,7 +60,7 @@ ref int NumControlPoints { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OrientationField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L28)
+### **OrientationField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L28)
 
 ```csharp
 ParticleAttributeIndex_t OrientationField { get; }
@@ -70,7 +70,7 @@ ParticleAttributeIndex_t OrientationField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**ParticleIncrement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L22)
+### **ParticleIncrement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput ParticleIncrement { get; }
@@ -80,7 +80,7 @@ CParticleCollectionFloatInput ParticleIncrement { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**SetOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L26)
+### **SetOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetPerChildControlPoint.cs#L26)
 
 ```csharp
 ref bool SetOrientation { get; }

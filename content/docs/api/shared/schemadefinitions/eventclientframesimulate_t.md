@@ -10,7 +10,7 @@ public interface EventClientFrameSimulate_t : ISchemaClass<EventClientFrameSimul
 
 ## Properties
 
-**FrameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientFrameSimulate_t.cs#L20)
+### **FrameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientFrameSimulate_t.cs#L20)
 
 ```csharp
 ref float FrameTime { get; }
@@ -20,7 +20,7 @@ ref float FrameTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientFrameSimulate_t.cs#L16)
+### **LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientFrameSimulate_t.cs#L16)
 
 ```csharp
 EngineLoopState_t LoopState { get; }
@@ -30,7 +30,7 @@ EngineLoopState_t LoopState { get; }
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
-**RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientFrameSimulate_t.cs#L18)
+### **RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientFrameSimulate_t.cs#L18)
 
 ```csharp
 ref float RealTime { get; }
@@ -40,7 +40,7 @@ ref float RealTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ScheduleSendTickPacket** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientFrameSimulate_t.cs#L22)
+### **ScheduleSendTickPacket** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientFrameSimulate_t.cs#L22)
 
 ```csharp
 ref bool ScheduleSendTickPacket { get; }

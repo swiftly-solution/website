@@ -10,7 +10,7 @@ public interface CParamSpanUpdater : ISchemaClass<CParamSpanUpdater>, ISchemaFie
 
 ## Properties
 
-**Spans** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParamSpanUpdater.cs#L17)
+### **Spans** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParamSpanUpdater.cs#L17)
 
 ```csharp
 ref CUtlVector Spans { get; }
@@ -18,5 +18,5 @@ ref CUtlVector Spans { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

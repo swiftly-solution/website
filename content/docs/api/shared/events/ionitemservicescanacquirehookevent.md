@@ -8,7 +8,7 @@ public interface IOnItemServicesCanAcquireHookEvent
 
 ## Properties
 
-**AcquireMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L21)
+### **AcquireMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L21)
 
 ```csharp
 AcquireMethod AcquireMethod { get; }
@@ -18,7 +18,7 @@ AcquireMethod AcquireMethod { get; }
 
 - [AcquireMethod](/docs/api/shared/misc/acquiremethod)
 
-**EconItemView** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L16)
+### **EconItemView** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L16)
 
 ```csharp
 CEconItemView EconItemView { get; }
@@ -28,7 +28,7 @@ CEconItemView EconItemView { get; }
 
 - [CEconItemView](/docs/api/shared/schemadefinitions/ceconitemview)
 
-**ItemServices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L11)
+### **ItemServices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L11)
 
 ```csharp
 CCSPlayer_ItemServices ItemServices { get; }
@@ -38,7 +38,7 @@ CCSPlayer_ItemServices ItemServices { get; }
 
 - [CCSPlayer_ItemServices](/docs/api/shared/schemadefinitions/ccsplayer_itemservices)
 
-**OriginalResult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L26)
+### **OriginalResult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L26)
 
 ```csharp
 AcquireResult OriginalResult { get; }
@@ -50,7 +50,7 @@ AcquireResult OriginalResult { get; }
 
 ## Methods
 
-**SetAcquireResult(AcquireResult)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L33)
+### **SetAcquireResult(AcquireResult)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L33)
 
 ```csharp
 void SetAcquireResult(AcquireResult result)

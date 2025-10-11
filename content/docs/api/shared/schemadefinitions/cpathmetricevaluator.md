@@ -10,7 +10,7 @@ public interface CPathMetricEvaluator : CMotionMetricEvaluator, ISchemaClass<CMo
 
 ## Properties
 
-**Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L18)
+### **Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L18)
 
 ```csharp
 ref float Distance { get; }
@@ -20,7 +20,7 @@ ref float Distance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ExtrapolateMovement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L20)
+### **ExtrapolateMovement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L20)
 
 ```csharp
 ref bool ExtrapolateMovement { get; }
@@ -30,7 +30,7 @@ ref bool ExtrapolateMovement { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MinExtrapolationSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L22)
+### **MinExtrapolationSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L22)
 
 ```csharp
 ref float MinExtrapolationSpeed { get; }
@@ -40,7 +40,7 @@ ref float MinExtrapolationSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PathTimeSamples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L16)
+### **PathTimeSamples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathMetricEvaluator.cs#L16)
 
 ```csharp
 ref CUtlVector<float> PathTimeSamples { get; }
@@ -48,5 +48,5 @@ ref CUtlVector<float> PathTimeSamples { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
+- [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

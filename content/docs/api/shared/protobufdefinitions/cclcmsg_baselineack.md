@@ -10,7 +10,7 @@ public interface CCLCMsg_BaselineAck : ITypedProtobuf<CCLCMsg_BaselineAck>, INat
 
 ## Properties
 
-**BaselineNr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_BaselineAck.cs#L21)
+### **BaselineNr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_BaselineAck.cs#L21)
 
 ```csharp
 int BaselineNr { get; set; }
@@ -20,7 +20,7 @@ int BaselineNr { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**BaselineTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_BaselineAck.cs#L18)
+### **BaselineTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_BaselineAck.cs#L18)
 
 ```csharp
 int BaselineTick { get; set; }

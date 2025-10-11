@@ -10,7 +10,7 @@ public interface CFuncMover : CBaseModelEntity, CBaseEntity, CEntityInstance, IS
 
 ## Properties
 
-**AllowMovableNavMeshDockingOnEntireEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L94)
+### **AllowMovableNavMeshDockingOnEntireEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L94)
 
 ```csharp
 ref bool AllowMovableNavMeshDockingOnEntireEntity { get; }
@@ -20,7 +20,7 @@ ref bool AllowMovableNavMeshDockingOnEntireEntity { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ArriveAtDestinationSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L74)
+### **ArriveAtDestinationSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L74)
 
 ```csharp
 string ArriveAtDestinationSound { get; set; }
@@ -30,7 +30,7 @@ string ArriveAtDestinationSound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**CreateMovableNavMesh** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L92)
+### **CreateMovableNavMesh** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L92)
 
 ```csharp
 ref bool CreateMovableNavMesh { get; }
@@ -40,7 +40,7 @@ ref bool CreateMovableNavMesh { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**CurFollowEntityT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L128)
+### **CurFollowEntityT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L128)
 
 ```csharp
 ref float CurFollowEntityT { get; }
@@ -50,7 +50,7 @@ ref float CurFollowEntityT { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CurFollowSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L130)
+### **CurFollowSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L130)
 
 ```csharp
 ref float CurFollowSpeed { get; }
@@ -60,7 +60,7 @@ ref float CurFollowSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CurrentNodeIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L38)
+### **CurrentNodeIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L38)
 
 ```csharp
 ref int CurrentNodeIndex { get; }
@@ -70,7 +70,7 @@ ref int CurrentNodeIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DelayedTeleportToNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L118)
+### **DelayedTeleportToNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L118)
 
 ```csharp
 ref int DelayedTeleportToNode { get; }
@@ -80,7 +80,7 @@ ref int DelayedTeleportToNode { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DistanceToReachMaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L48)
+### **DistanceToReachMaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L48)
 
 ```csharp
 ref float DistanceToReachMaxSpeed { get; }
@@ -90,7 +90,7 @@ ref float DistanceToReachMaxSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DistanceToReachZeroSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L52)
+### **DistanceToReachZeroSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L52)
 
 ```csharp
 ref float DistanceToReachZeroSpeed { get; }
@@ -100,7 +100,7 @@ ref float DistanceToReachZeroSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DurationBlendToNewOrientationRan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L88)
+### **DurationBlendToNewOrientationRan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L88)
 
 ```csharp
 ref float DurationBlendToNewOrientationRan { get; }
@@ -110,7 +110,7 @@ ref float DurationBlendToNewOrientationRan { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FollowDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L124)
+### **FollowDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L124)
 
 ```csharp
 ref float FollowDistance { get; }
@@ -120,7 +120,7 @@ ref float FollowDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FollowEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L122)
+### **FollowEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L122)
 
 ```csharp
 ref CHandle<CBaseEntity> FollowEntity { get; }
@@ -130,7 +130,7 @@ ref CHandle<CBaseEntity> FollowEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**FollowEntityDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L150)
+### **FollowEntityDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L150)
 
 ```csharp
 ref CFuncMover__FollowEntityDirection_t FollowEntityDirection { get; }
@@ -140,7 +140,7 @@ ref CFuncMover__FollowEntityDirection_t FollowEntityDirection { get; }
 
 - [CFuncMover__FollowEntityDirection_t](/docs/api/shared/schemadefinitions/cfuncmover__followentitydirection_t)
 
-**FollowMinimumSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L126)
+### **FollowMinimumSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L126)
 
 ```csharp
 ref float FollowMinimumSpeed { get; }
@@ -150,7 +150,7 @@ ref float FollowMinimumSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IsMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L44)
+### **IsMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L44)
 
 ```csharp
 ref bool IsMoving { get; }
@@ -160,7 +160,7 @@ ref bool IsMoving { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsPaused** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L114)
+### **IsPaused** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L114)
 
 ```csharp
 ref bool IsPaused { get; }
@@ -170,7 +170,7 @@ ref bool IsPaused { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsReversing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L28)
+### **IsReversing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L28)
 
 ```csharp
 ref bool IsReversing { get; }
@@ -180,7 +180,7 @@ ref bool IsReversing { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsVerboseLogging** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L120)
+### **IsVerboseLogging** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L120)
 
 ```csharp
 ref bool IsVerboseLogging { get; }
@@ -190,7 +190,7 @@ ref bool IsVerboseLogging { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LerpToNewPosEndInPathEntitySpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L106)
+### **LerpToNewPosEndInPathEntitySpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L106)
 
 ```csharp
 ref Vector LerpToNewPosEndInPathEntitySpace { get; }
@@ -200,7 +200,7 @@ ref Vector LerpToNewPosEndInPathEntitySpace { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**LerpToNewPosStartInPathEntitySpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L104)
+### **LerpToNewPosStartInPathEntitySpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L104)
 
 ```csharp
 ref Vector LerpToNewPosStartInPathEntitySpace { get; }
@@ -210,7 +210,7 @@ ref Vector LerpToNewPosStartInPathEntitySpace { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**LerpToPositionDeltaT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L110)
+### **LerpToPositionDeltaT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L110)
 
 ```csharp
 ref float LerpToPositionDeltaT { get; }
@@ -220,7 +220,7 @@ ref float LerpToPositionDeltaT { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LerpToPositionT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L108)
+### **LerpToPositionT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L108)
 
 ```csharp
 ref float LerpToPositionT { get; }
@@ -230,7 +230,7 @@ ref float LerpToPositionT { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LoopForwardSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L64)
+### **LoopForwardSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L64)
 
 ```csharp
 string LoopForwardSound { get; set; }
@@ -240,7 +240,7 @@ string LoopForwardSound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**LoopReverseSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L70)
+### **LoopReverseSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L70)
 
 ```csharp
 string LoopReverseSound { get; set; }
@@ -250,7 +250,7 @@ string LoopReverseSound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MoveType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L26)
+### **MoveType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L26)
 
 ```csharp
 ref CFuncMover__Move_t MoveType { get; }
@@ -260,7 +260,7 @@ ref CFuncMover__Move_t MoveType { get; }
 
 - [CFuncMover__Move_t](/docs/api/shared/schemadefinitions/cfuncmover__move_t)
 
-**NextNodeReturnsCurrent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L146)
+### **NextNodeReturnsCurrent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L146)
 
 ```csharp
 ref bool NextNodeReturnsCurrent { get; }
@@ -270,7 +270,7 @@ ref bool NextNodeReturnsCurrent { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OnLerpToPositionComplete** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L112)
+### **OnLerpToPositionComplete** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L112)
 
 ```csharp
 CEntityIOOutput OnLerpToPositionComplete { get; }
@@ -280,7 +280,7 @@ CEntityIOOutput OnLerpToPositionComplete { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnMovementEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L76)
+### **OnMovementEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L76)
 
 ```csharp
 CEntityIOOutput OnMovementEnd { get; }
@@ -290,7 +290,7 @@ CEntityIOOutput OnMovementEnd { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnNodePassed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L96)
+### **OnNodePassed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L96)
 
 ```csharp
 CEntityIOOutput OnNodePassed { get; }
@@ -300,7 +300,7 @@ CEntityIOOutput OnNodePassed { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L136)
+### **OnStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L136)
 
 ```csharp
 CEntityIOOutput OnStart { get; }
@@ -310,7 +310,7 @@ CEntityIOOutput OnStart { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStartForward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L138)
+### **OnStartForward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L138)
 
 ```csharp
 CEntityIOOutput OnStartForward { get; }
@@ -320,7 +320,7 @@ CEntityIOOutput OnStartForward { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStartReverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L140)
+### **OnStartReverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L140)
 
 ```csharp
 CEntityIOOutput OnStartReverse { get; }
@@ -330,7 +330,7 @@ CEntityIOOutput OnStartReverse { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L142)
+### **OnStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L142)
 
 ```csharp
 CEntityIOOutput OnStop { get; }
@@ -340,7 +340,7 @@ CEntityIOOutput OnStop { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStopped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L144)
+### **OnStopped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L144)
 
 ```csharp
 CEntityIOOutput OnStopped { get; }
@@ -350,7 +350,7 @@ CEntityIOOutput OnStopped { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OrientationFaceEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L134)
+### **OrientationFaceEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L134)
 
 ```csharp
 ref CHandle<CBaseEntity> OrientationFaceEntity { get; }
@@ -360,7 +360,7 @@ ref CHandle<CBaseEntity> OrientationFaceEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**OrientationMatchEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L100)
+### **OrientationMatchEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L100)
 
 ```csharp
 ref CHandle<CBaseEntity> OrientationMatchEntity { get; }
@@ -370,7 +370,7 @@ ref CHandle<CBaseEntity> OrientationMatchEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**OrientationMatchEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L98)
+### **OrientationMatchEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L98)
 
 ```csharp
 string OrientationMatchEntityName { get; set; }
@@ -380,7 +380,7 @@ string OrientationMatchEntityName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OrientationUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L82)
+### **OrientationUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L82)
 
 ```csharp
 ref CFuncMover__OrientationUpdate_t OrientationUpdate { get; }
@@ -390,7 +390,7 @@ ref CFuncMover__OrientationUpdate_t OrientationUpdate { get; }
 
 - [CFuncMover__OrientationUpdate_t](/docs/api/shared/schemadefinitions/cfuncmover__orientationupdate_t)
 
-**OriginalOrientationIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L90)
+### **OriginalOrientationIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L90)
 
 ```csharp
 ref int OriginalOrientationIndex { get; }
@@ -400,7 +400,7 @@ ref int OriginalOrientationIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PathLocation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L34)
+### **PathLocation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L34)
 
 ```csharp
 ref float PathLocation { get; }
@@ -410,7 +410,7 @@ ref float PathLocation { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PathLocationToBeginStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L60)
+### **PathLocationToBeginStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L60)
 
 ```csharp
 ref float PathLocationToBeginStop { get; }
@@ -420,7 +420,7 @@ ref float PathLocationToBeginStop { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PathMover** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L18)
+### **PathMover** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L18)
 
 ```csharp
 ref CHandle<CPathMover> PathMover { get; }
@@ -430,7 +430,7 @@ ref CHandle<CPathMover> PathMover { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPathMover](/docs/api/shared/schemadefinitions/cpathmover)>
 
-**PathName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L16)
+### **PathName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L16)
 
 ```csharp
 string PathName { get; set; }
@@ -440,7 +440,7 @@ string PathName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PathNodeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L24)
+### **PathNodeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L24)
 
 ```csharp
 string PathNodeEnd { get; set; }
@@ -450,7 +450,7 @@ string PathNodeEnd { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PathNodeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L22)
+### **PathNodeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L22)
 
 ```csharp
 string PathNodeStart { get; set; }
@@ -460,7 +460,7 @@ string PathNodeStart { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PrevPathMover** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L20)
+### **PrevPathMover** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L20)
 
 ```csharp
 ref CHandle<CPathMover> PrevPathMover { get; }
@@ -470,7 +470,7 @@ ref CHandle<CPathMover> PrevPathMover { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPathMover](/docs/api/shared/schemadefinitions/cpathmover)>
 
-**PreviousNodeIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L40)
+### **PreviousNodeIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L40)
 
 ```csharp
 ref int PreviousNodeIndex { get; }
@@ -480,7 +480,7 @@ ref int PreviousNodeIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SolidType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L42)
+### **SolidType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L42)
 
 ```csharp
 ref SolidType_t SolidType { get; }
@@ -490,7 +490,7 @@ ref SolidType_t SolidType { get; }
 
 - [SolidType_t](/docs/api/shared/schemadefinitions/solidtype_t)
 
-**StartAtClosestPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L78)
+### **StartAtClosestPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L78)
 
 ```csharp
 ref bool StartAtClosestPoint { get; }
@@ -500,7 +500,7 @@ ref bool StartAtClosestPoint { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartAtEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L80)
+### **StartAtEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L80)
 
 ```csharp
 ref bool StartAtEnd { get; }
@@ -510,7 +510,7 @@ ref bool StartAtEnd { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartForwardSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L62)
+### **StartForwardSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L62)
 
 ```csharp
 string StartForwardSound { get; set; }
@@ -520,7 +520,7 @@ string StartForwardSound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StartReverseSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L68)
+### **StartReverseSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L68)
 
 ```csharp
 string StartReverseSound { get; set; }
@@ -530,7 +530,7 @@ string StartReverseSound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StartSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L32)
+### **StartSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L32)
 
 ```csharp
 ref float StartSpeed { get; }
@@ -540,7 +540,7 @@ ref float StartSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartedMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L148)
+### **StartedMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L148)
 
 ```csharp
 ref bool StartedMoving { get; }
@@ -550,7 +550,7 @@ ref bool StartedMoving { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StopAtNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L58)
+### **StopAtNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L58)
 
 ```csharp
 ref CHandle<CMoverPathNode> StopAtNode { get; }
@@ -560,7 +560,7 @@ ref CHandle<CMoverPathNode> StopAtNode { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CMoverPathNode](/docs/api/shared/schemadefinitions/cmoverpathnode)>
 
-**StopForwardSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L66)
+### **StopForwardSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L66)
 
 ```csharp
 string StopForwardSound { get; set; }
@@ -570,7 +570,7 @@ string StopForwardSound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StopReverseSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L72)
+### **StopReverseSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L72)
 
 ```csharp
 string StopReverseSound { get; set; }
@@ -580,7 +580,7 @@ string StopReverseSound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StrOrientationFaceEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L132)
+### **StrOrientationFaceEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L132)
 
 ```csharp
 string StrOrientationFaceEntityName { get; set; }
@@ -590,7 +590,7 @@ string StrOrientationFaceEntityName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**T** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L36)
+### **T** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L36)
 
 ```csharp
 ref float T { get; }
@@ -600,7 +600,7 @@ ref float T { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L30)
+### **Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L30)
 
 ```csharp
 ref Vector Target { get; }
@@ -610,7 +610,7 @@ ref Vector Target { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**TimeMovementStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L54)
+### **TimeMovementStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L54)
 
 ```csharp
 GameTime_t TimeMovementStart { get; }
@@ -620,7 +620,7 @@ GameTime_t TimeMovementStart { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**TimeMovementStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L56)
+### **TimeMovementStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L56)
 
 ```csharp
 GameTime_t TimeMovementStop { get; }
@@ -630,7 +630,7 @@ GameTime_t TimeMovementStop { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**TimeStartOrientationChange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L84)
+### **TimeStartOrientationChange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L84)
 
 ```csharp
 GameTime_t TimeStartOrientationChange { get; }
@@ -640,7 +640,7 @@ GameTime_t TimeStartOrientationChange { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**TimeToBlendToNewOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L86)
+### **TimeToBlendToNewOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L86)
 
 ```csharp
 ref float TimeToBlendToNewOrientation { get; }
@@ -650,7 +650,7 @@ ref float TimeToBlendToNewOrientation { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TimeToReachMaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L46)
+### **TimeToReachMaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L46)
 
 ```csharp
 ref float TimeToReachMaxSpeed { get; }
@@ -660,7 +660,7 @@ ref float TimeToReachMaxSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TimeToReachZeroSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L50)
+### **TimeToReachZeroSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L50)
 
 ```csharp
 ref float TimeToReachZeroSpeed { get; }
@@ -670,7 +670,7 @@ ref float TimeToReachZeroSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TimeToTraverseToNextNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L102)
+### **TimeToTraverseToNextNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L102)
 
 ```csharp
 ref float TimeToTraverseToNextNode { get; }
@@ -680,7 +680,7 @@ ref float TimeToTraverseToNextNode { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TransitionedToPathNodeAction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L116)
+### **TransitionedToPathNodeAction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncMover.cs#L116)
 
 ```csharp
 ref CFuncMover__TransitionToPathNodeAction_t TransitionedToPathNodeAction { get; }

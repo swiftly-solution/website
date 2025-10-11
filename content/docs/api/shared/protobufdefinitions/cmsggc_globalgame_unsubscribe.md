@@ -10,7 +10,7 @@ public interface CMsgGC_GlobalGame_Unsubscribe : ITypedProtobuf<CMsgGC_GlobalGam
 
 ## Properties
 
-**Timeleft** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGC_GlobalGame_Unsubscribe.cs#L13)
+### **Timeleft** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGC_GlobalGame_Unsubscribe.cs#L13)
 
 ```csharp
 int Timeleft { get; set; }

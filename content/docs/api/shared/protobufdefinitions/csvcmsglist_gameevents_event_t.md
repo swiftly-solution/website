@@ -10,7 +10,7 @@ public interface CSVCMsgList_GameEvents_event_t : ITypedProtobuf<CSVCMsgList_Gam
 
 ## Properties
 
-**Event** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsgList_GameEvents_event_t.cs#L16)
+### **Event** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsgList_GameEvents_event_t.cs#L16)
 
 ```csharp
 CSVCMsg_GameEvent Event { get; }
@@ -20,7 +20,7 @@ CSVCMsg_GameEvent Event { get; }
 
 - [CSVCMsg_GameEvent](/docs/api/shared/protobufdefinitions/csvcmsg_gameevent)
 
-**Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsgList_GameEvents_event_t.cs#L13)
+### **Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsgList_GameEvents_event_t.cs#L13)
 
 ```csharp
 int Tick { get; set; }

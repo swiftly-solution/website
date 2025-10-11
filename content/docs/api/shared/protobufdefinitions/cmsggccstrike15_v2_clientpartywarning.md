@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_ClientPartyWarning : ITypedProtobuf<CMsgGCCS
 
 ## Properties
 
-**Entries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPartyWarning.cs#L13)
+### **Entries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPartyWarning.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_ClientPartyWarning_Entry> Entries { get; }

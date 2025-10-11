@@ -10,7 +10,7 @@ public interface CAnimationGroup : ISchemaClass<CAnimationGroup>, ISchemaField, 
 
 ## Properties
 
-**AdditionalExtRefs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L31)
+### **AdditionalExtRefs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L31)
 
 ```csharp
 ref CUtlVector AdditionalExtRefs { get; }
@@ -18,9 +18,9 @@ ref CUtlVector AdditionalExtRefs { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**DecodeKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L26)
+### **DecodeKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L26)
 
 ```csharp
 CAnimKeyData DecodeKey { get; }
@@ -30,7 +30,7 @@ CAnimKeyData DecodeKey { get; }
 
 - [CAnimKeyData](/docs/api/shared/schemadefinitions/canimkeydata)
 
-**DirectHSeqGroup_Handle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L24)
+### **DirectHSeqGroup_Handle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L24)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCSequenceGroupData> DirectHSeqGroup_Handle { get; }
@@ -40,7 +40,7 @@ ref CStrongHandle<InfoForResourceTypeCSequenceGroupData> DirectHSeqGroup_Handle 
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCSequenceGroupData](/docs/api/shared/schemadefinitions/infoforresourcetypecsequencegroupdata)>
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L16)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L16)
 
 ```csharp
 ref uint Flags { get; }
@@ -50,7 +50,7 @@ ref uint Flags { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**IncludedGroupArray_Handle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L22)
+### **IncludedGroupArray_Handle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L22)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>> IncludedGroupArray_Handle { get; }
@@ -58,9 +58,9 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>> IncludedGroupA
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCAnimationGroup](/docs/api/shared/schemadefinitions/infoforresourcetypecanimationgroup)>>
+- [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCAnimationGroup](/docs/api/shared/schemadefinitions/infoforresourcetypecanimationgroup)>>
 
-**LocalHAnimArray_Handle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L20)
+### **LocalHAnimArray_Handle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L20)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimData>> LocalHAnimArray_Handle { get; }
@@ -68,9 +68,9 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimData>> LocalHAnimArray_Hand
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCAnimData](/docs/api/shared/schemadefinitions/infoforresourcetypecanimdata)>>
+- [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCAnimData](/docs/api/shared/schemadefinitions/infoforresourcetypecanimdata)>>
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L18)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L18)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -80,7 +80,7 @@ ref CBufferString Name { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**Scripts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L28)
+### **Scripts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGroup.cs#L28)
 
 ```csharp
 ref CUtlVector<CBufferString> Scripts { get; }
@@ -88,5 +88,5 @@ ref CUtlVector<CBufferString> Scripts { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
+- [CUtlVector](/docs/api/-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
 

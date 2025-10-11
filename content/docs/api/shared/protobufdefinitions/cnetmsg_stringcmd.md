@@ -10,7 +10,7 @@ public interface CNETMsg_StringCmd : ITypedProtobuf<CNETMsg_StringCmd>, INativeH
 
 ## Properties
 
-**Command** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_StringCmd.cs#L18)
+### **Command** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_StringCmd.cs#L18)
 
 ```csharp
 string Command { get; set; }
@@ -20,7 +20,7 @@ string Command { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PredictionSync** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_StringCmd.cs#L21)
+### **PredictionSync** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_StringCmd.cs#L21)
 
 ```csharp
 uint PredictionSync { get; set; }

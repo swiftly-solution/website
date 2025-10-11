@@ -10,7 +10,7 @@ public interface CCSUsrMsg_VoteStart : ITypedProtobuf<CCSUsrMsg_VoteStart>, INat
 
 ## Properties
 
-**DetailsStr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L30)
+### **DetailsStr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L30)
 
 ```csharp
 string DetailsStr { get; set; }
@@ -20,7 +20,7 @@ string DetailsStr { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DispStr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L27)
+### **DispStr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L27)
 
 ```csharp
 string DispStr { get; set; }
@@ -30,7 +30,7 @@ string DispStr { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**IsYesNoVote** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L36)
+### **IsYesNoVote** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L36)
 
 ```csharp
 bool IsYesNoVote { get; set; }
@@ -40,7 +40,7 @@ bool IsYesNoVote { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OtherTeamStr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L33)
+### **OtherTeamStr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L33)
 
 ```csharp
 string OtherTeamStr { get; set; }
@@ -50,7 +50,7 @@ string OtherTeamStr { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L21)
+### **PlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L21)
 
 ```csharp
 int PlayerSlot { get; set; }
@@ -60,7 +60,7 @@ int PlayerSlot { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PlayerSlotTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L39)
+### **PlayerSlotTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L39)
 
 ```csharp
 int PlayerSlotTarget { get; set; }
@@ -70,7 +70,7 @@ int PlayerSlotTarget { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L18)
+### **Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L18)
 
 ```csharp
 int Team { get; set; }
@@ -80,7 +80,7 @@ int Team { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VoteType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L24)
+### **VoteType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteStart.cs#L24)
 
 ```csharp
 int VoteType { get; set; }

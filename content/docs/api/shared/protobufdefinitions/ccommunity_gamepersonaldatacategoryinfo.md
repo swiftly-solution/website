@@ -10,7 +10,7 @@ public interface CCommunity_GamePersonalDataCategoryInfo : ITypedProtobuf<CCommu
 
 ## Properties
 
-**LocalizationToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_GamePersonalDataCategoryInfo.cs#L16)
+### **LocalizationToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_GamePersonalDataCategoryInfo.cs#L16)
 
 ```csharp
 string LocalizationToken { get; set; }
@@ -20,7 +20,7 @@ string LocalizationToken { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TemplateFile** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_GamePersonalDataCategoryInfo.cs#L19)
+### **TemplateFile** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_GamePersonalDataCategoryInfo.cs#L19)
 
 ```csharp
 string TemplateFile { get; set; }
@@ -30,7 +30,7 @@ string TemplateFile { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_GamePersonalDataCategoryInfo.cs#L13)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_GamePersonalDataCategoryInfo.cs#L13)
 
 ```csharp
 string Type { get; set; }

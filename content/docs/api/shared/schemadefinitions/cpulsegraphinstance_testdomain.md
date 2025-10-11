@@ -10,7 +10,7 @@ public interface CPulseGraphInstance_TestDomain : CBasePulseGraphInstance, ISche
 
 ## Properties
 
-**CursorsTerminatedDueToMaxInstructions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L26)
+### **CursorsTerminatedDueToMaxInstructions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L26)
 
 ```csharp
 ref int CursorsTerminatedDueToMaxInstructions { get; }
@@ -20,7 +20,7 @@ ref int CursorsTerminatedDueToMaxInstructions { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ExpectingCursorTerminatedDueToMaxInstructions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L24)
+### **ExpectingCursorTerminatedDueToMaxInstructions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L24)
 
 ```csharp
 ref bool ExpectingCursorTerminatedDueToMaxInstructions { get; }
@@ -30,7 +30,7 @@ ref bool ExpectingCursorTerminatedDueToMaxInstructions { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ExpectingToDestroyWithYieldedCursors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L20)
+### **ExpectingToDestroyWithYieldedCursors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L20)
 
 ```csharp
 ref bool ExpectingToDestroyWithYieldedCursors { get; }
@@ -40,7 +40,7 @@ ref bool ExpectingToDestroyWithYieldedCursors { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ExplicitTimeStepping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L18)
+### **ExplicitTimeStepping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L18)
 
 ```csharp
 ref bool ExplicitTimeStepping { get; }
@@ -50,7 +50,7 @@ ref bool ExplicitTimeStepping { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsRunningUnitTests** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L16)
+### **IsRunningUnitTests** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L16)
 
 ```csharp
 ref bool IsRunningUnitTests { get; }
@@ -60,7 +60,7 @@ ref bool IsRunningUnitTests { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NextValidateIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L28)
+### **NextValidateIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L28)
 
 ```csharp
 ref int NextValidateIndex { get; }
@@ -70,7 +70,7 @@ ref int NextValidateIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**QuietTracepoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L22)
+### **QuietTracepoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L22)
 
 ```csharp
 ref bool QuietTracepoints { get; }
@@ -80,7 +80,7 @@ ref bool QuietTracepoints { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TestYesOrNoPath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L32)
+### **TestYesOrNoPath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L32)
 
 ```csharp
 ref bool TestYesOrNoPath { get; }
@@ -90,7 +90,7 @@ ref bool TestYesOrNoPath { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Tracepoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L30)
+### **Tracepoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain.cs#L30)
 
 ```csharp
 ref CUtlVector<CUtlString> Tracepoints { get; }
@@ -98,5 +98,5 @@ ref CUtlVector<CUtlString> Tracepoints { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 

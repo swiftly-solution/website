@@ -10,7 +10,7 @@ public interface VariableInfo_t : ISchemaClass<VariableInfo_t>, ISchemaField, IS
 
 ## Properties
 
-**Access** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L26)
+### **Access** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L26)
 
 ```csharp
 ref FuseVariableAccess_t Access { get; }
@@ -20,7 +20,7 @@ ref FuseVariableAccess_t Access { get; }
 
 - [FuseVariableAccess_t](/docs/api/shared/schemadefinitions/fusevariableaccess_t)
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L20)
+### **Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L20)
 
 ```csharp
 FuseVariableIndex_t Index { get; }
@@ -30,7 +30,7 @@ FuseVariableIndex_t Index { get; }
 
 - [FuseVariableIndex_t](/docs/api/shared/schemadefinitions/fusevariableindex_t)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -40,7 +40,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NameToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L18)
+### **NameToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L18)
 
 ```csharp
 ref CUtlStringToken NameToken { get; }
@@ -50,7 +50,7 @@ ref CUtlStringToken NameToken { get; }
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
-**NumComponents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L22)
+### **NumComponents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L22)
 
 ```csharp
 ref byte NumComponents { get; }
@@ -60,7 +60,7 @@ ref byte NumComponents { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**VarType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L24)
+### **VarType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VariableInfo_t.cs#L24)
 
 ```csharp
 ref FuseVariableType_t VarType { get; }

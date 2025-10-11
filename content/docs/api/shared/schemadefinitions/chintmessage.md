@@ -10,7 +10,7 @@ public interface CHintMessage : ISchemaClass<CHintMessage>, ISchemaField, ISchem
 
 ## Properties
 
-**Args** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L18)
+### **Args** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L18)
 
 ```csharp
 ref CUtlVector<CString> Args { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<CString> Args { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CString](/docs/api/shared/natives/cstring)>
+- [CUtlVector](/docs/api/-1)<[CString](/docs/api/shared/natives/cstring)>
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L20)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L20)
 
 ```csharp
 ref float Duration { get; }
@@ -30,7 +30,7 @@ ref float Duration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HintString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L16)
+### **HintString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHintMessage.cs#L16)
 
 ```csharp
 string HintString { get; set; }

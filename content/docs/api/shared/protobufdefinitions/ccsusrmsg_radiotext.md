@@ -10,7 +10,7 @@ public interface CCSUsrMsg_RadioText : ITypedProtobuf<CCSUsrMsg_RadioText>, INat
 
 ## Properties
 
-**Client** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RadioText.cs#L21)
+### **Client** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RadioText.cs#L21)
 
 ```csharp
 int Client { get; set; }
@@ -20,7 +20,7 @@ int Client { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MsgDst** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RadioText.cs#L18)
+### **MsgDst** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RadioText.cs#L18)
 
 ```csharp
 int MsgDst { get; set; }
@@ -30,7 +30,7 @@ int MsgDst { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MsgName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RadioText.cs#L24)
+### **MsgName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RadioText.cs#L24)
 
 ```csharp
 string MsgName { get; set; }
@@ -40,7 +40,7 @@ string MsgName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Params** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RadioText.cs#L27)
+### **Params** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RadioText.cs#L27)
 
 ```csharp
 IProtobufRepeatedFieldValueType<string> Params { get; }

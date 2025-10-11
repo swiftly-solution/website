@@ -10,7 +10,7 @@ public interface VecInputMaterialVariable_t : ISchemaClass<VecInputMaterialVaria
 
 ## Properties
 
-**Input** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VecInputMaterialVariable_t.cs#L18)
+### **Input** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VecInputMaterialVariable_t.cs#L18)
 
 ```csharp
 CParticleCollectionVecInput Input { get; }
@@ -20,7 +20,7 @@ CParticleCollectionVecInput Input { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**StrVariable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VecInputMaterialVariable_t.cs#L16)
+### **StrVariable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VecInputMaterialVariable_t.cs#L16)
 
 ```csharp
 string StrVariable { get; set; }

@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_Predictions : ITypedProtobuf<CMsgGCCStrike15
 
 ## Properties
 
-**EventId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions.cs#L13)
+### **EventId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions.cs#L13)
 
 ```csharp
 uint EventId { get; set; }
@@ -20,7 +20,7 @@ uint EventId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**GroupMatchTeamPicks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions.cs#L16)
+### **GroupMatchTeamPicks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Predictions.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick> GroupMatchTeamPicks { get; }

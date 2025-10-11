@@ -10,7 +10,7 @@ public interface CCSUsrMsg_CounterStrafe : ITypedProtobuf<CCSUsrMsg_CounterStraf
 
 ## Properties
 
-**PressToReleaseNs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_CounterStrafe.cs#L18)
+### **PressToReleaseNs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_CounterStrafe.cs#L18)
 
 ```csharp
 int PressToReleaseNs { get; set; }
@@ -20,7 +20,7 @@ int PressToReleaseNs { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TotalKeysDown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_CounterStrafe.cs#L21)
+### **TotalKeysDown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_CounterStrafe.cs#L21)
 
 ```csharp
 int TotalKeysDown { get; set; }

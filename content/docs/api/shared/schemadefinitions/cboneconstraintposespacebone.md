@@ -10,7 +10,7 @@ public interface CBoneConstraintPoseSpaceBone : CBaseConstraint, CBoneConstraint
 
 ## Properties
 
-**InputList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone.cs#L17)
+### **InputList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone.cs#L17)
 
 ```csharp
 ref CUtlVector InputList { get; }
@@ -18,5 +18,5 @@ ref CUtlVector InputList { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

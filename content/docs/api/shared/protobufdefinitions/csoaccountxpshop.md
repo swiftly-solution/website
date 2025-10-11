@@ -10,7 +10,7 @@ public interface CSOAccountXpShop : ITypedProtobuf<CSOAccountXpShop>, INativeHan
 
 ## Properties
 
-**GenerationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShop.cs#L13)
+### **GenerationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShop.cs#L13)
 
 ```csharp
 uint GenerationTime { get; set; }
@@ -20,7 +20,7 @@ uint GenerationTime { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RedeemableBalance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShop.cs#L16)
+### **RedeemableBalance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShop.cs#L16)
 
 ```csharp
 uint RedeemableBalance { get; set; }
@@ -30,7 +30,7 @@ uint RedeemableBalance { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**XpTracks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShop.cs#L19)
+### **XpTracks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountXpShop.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> XpTracks { get; }

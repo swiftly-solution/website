@@ -10,7 +10,7 @@ public interface C_OP_SetAttributeToScalarExpression : CParticleFunctionOperator
 
 ## Properties
 
-**Expression** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L16)
+### **Expression** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L16)
 
 ```csharp
 ref ScalarExpressionType_t Expression { get; }
@@ -20,7 +20,7 @@ ref ScalarExpressionType_t Expression { get; }
 
 - [ScalarExpressionType_t](/docs/api/shared/schemadefinitions/scalarexpressiontype_t)
 
-**Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L18)
+### **Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L18)
 
 ```csharp
 CPerParticleFloatInput Input1 { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput Input1 { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**Input2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L20)
+### **Input2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L20)
 
 ```csharp
 CPerParticleFloatInput Input2 { get; }
@@ -40,7 +40,7 @@ CPerParticleFloatInput Input2 { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L24)
+### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }
@@ -50,7 +50,7 @@ ParticleAttributeIndex_t OutputField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**OutputRemap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L22)
+### **OutputRemap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L22)
 
 ```csharp
 CParticleRemapFloatInput OutputRemap { get; }
@@ -60,7 +60,7 @@ CParticleRemapFloatInput OutputRemap { get; }
 
 - [CParticleRemapFloatInput](/docs/api/shared/schemadefinitions/cparticleremapfloatinput)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L26)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetAttributeToScalarExpression.cs#L26)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

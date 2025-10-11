@@ -10,7 +10,7 @@ public interface C_OP_RenderSprites : CBaseRendererSource2, CParticleFunctionRen
 
 ## Properties
 
-**AlphaAdjustWithSizeAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L30)
+### **AlphaAdjustWithSizeAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L30)
 
 ```csharp
 CParticleCollectionRendererFloatInput AlphaAdjustWithSizeAdjust { get; }
@@ -20,7 +20,7 @@ CParticleCollectionRendererFloatInput AlphaAdjustWithSizeAdjust { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**DistanceAlpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L40)
+### **DistanceAlpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L40)
 
 ```csharp
 ref bool DistanceAlpha { get; }
@@ -30,7 +30,7 @@ ref bool DistanceAlpha { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EdgeSoftnessEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L46)
+### **EdgeSoftnessEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L46)
 
 ```csharp
 ref float EdgeSoftnessEnd { get; }
@@ -40,7 +40,7 @@ ref float EdgeSoftnessEnd { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EdgeSoftnessStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L44)
+### **EdgeSoftnessStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L44)
 
 ```csharp
 ref float EdgeSoftnessStart { get; }
@@ -50,7 +50,7 @@ ref float EdgeSoftnessStart { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndFadeDot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L38)
+### **EndFadeDot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L38)
 
 ```csharp
 ref float EndFadeDot { get; }
@@ -60,7 +60,7 @@ ref float EndFadeDot { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndFadeSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L34)
+### **EndFadeSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L34)
 
 ```csharp
 CParticleCollectionRendererFloatInput EndFadeSize { get; }
@@ -70,7 +70,7 @@ CParticleCollectionRendererFloatInput EndFadeSize { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**LightingDirectionality** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L66)
+### **LightingDirectionality** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L66)
 
 ```csharp
 CParticleCollectionRendererFloatInput LightingDirectionality { get; }
@@ -80,7 +80,7 @@ CParticleCollectionRendererFloatInput LightingDirectionality { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**LightingMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L62)
+### **LightingMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L62)
 
 ```csharp
 ref ParticleLightingQuality_t LightingMode { get; }
@@ -90,7 +90,7 @@ ref ParticleLightingQuality_t LightingMode { get; }
 
 - [ParticleLightingQuality_t](/docs/api/shared/schemadefinitions/particlelightingquality_t)
 
-**LightingTessellation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L64)
+### **LightingTessellation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L64)
 
 ```csharp
 CParticleCollectionRendererFloatInput LightingTessellation { get; }
@@ -100,7 +100,7 @@ CParticleCollectionRendererFloatInput LightingTessellation { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**MaxSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L28)
+### **MaxSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L28)
 
 ```csharp
 CParticleCollectionRendererFloatInput MaxSize { get; }
@@ -110,7 +110,7 @@ CParticleCollectionRendererFloatInput MaxSize { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**MinSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L26)
+### **MinSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L26)
 
 ```csharp
 CParticleCollectionRendererFloatInput MinSize { get; }
@@ -120,7 +120,7 @@ CParticleCollectionRendererFloatInput MinSize { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**OrientationControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L22)
+### **OrientationControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L22)
 
 ```csharp
 ref int OrientationControlPoint { get; }
@@ -130,7 +130,7 @@ ref int OrientationControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OrientationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L20)
+### **OrientationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L20)
 
 ```csharp
 ref ParticleOrientationChoiceList_t OrientationType { get; }
@@ -140,7 +140,7 @@ ref ParticleOrientationChoiceList_t OrientationType { get; }
 
 - [ParticleOrientationChoiceList_t](/docs/api/shared/schemadefinitions/particleorientationchoicelist_t)
 
-**Outline** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L48)
+### **Outline** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L48)
 
 ```csharp
 ref bool Outline { get; }
@@ -150,7 +150,7 @@ ref bool Outline { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OutlineAlpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L52)
+### **OutlineAlpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L52)
 
 ```csharp
 ref int OutlineAlpha { get; }
@@ -160,7 +160,7 @@ ref int OutlineAlpha { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutlineColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L50)
+### **OutlineColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L50)
 
 ```csharp
 ref Color OutlineColor { get; }
@@ -170,7 +170,7 @@ ref Color OutlineColor { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**OutlineEnd0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L58)
+### **OutlineEnd0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L58)
 
 ```csharp
 ref float OutlineEnd0 { get; }
@@ -180,7 +180,7 @@ ref float OutlineEnd0 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutlineEnd1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L60)
+### **OutlineEnd1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L60)
 
 ```csharp
 ref float OutlineEnd1 { get; }
@@ -190,7 +190,7 @@ ref float OutlineEnd1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutlineStart0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L54)
+### **OutlineStart0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L54)
 
 ```csharp
 ref float OutlineStart0 { get; }
@@ -200,7 +200,7 @@ ref float OutlineStart0 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutlineStart1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L56)
+### **OutlineStart1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L56)
 
 ```csharp
 ref float OutlineStart1 { get; }
@@ -210,7 +210,7 @@ ref float OutlineStart1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ParticleShadows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L68)
+### **ParticleShadows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L68)
 
 ```csharp
 ref bool ParticleShadows { get; }
@@ -220,7 +220,7 @@ ref bool ParticleShadows { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ReplicationParameters** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L72)
+### **ReplicationParameters** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L72)
 
 ```csharp
 CReplicationParameters ReplicationParameters { get; }
@@ -230,7 +230,7 @@ CReplicationParameters ReplicationParameters { get; }
 
 - [CReplicationParameters](/docs/api/shared/schemadefinitions/creplicationparameters)
 
-**SequenceNumbersAreRawSequenceIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L18)
+### **SequenceNumbersAreRawSequenceIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L18)
 
 ```csharp
 ref bool SequenceNumbersAreRawSequenceIndices { get; }
@@ -240,7 +240,7 @@ ref bool SequenceNumbersAreRawSequenceIndices { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SequenceOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L16)
+### **SequenceOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L16)
 
 ```csharp
 CParticleCollectionRendererFloatInput SequenceOverride { get; }
@@ -250,7 +250,7 @@ CParticleCollectionRendererFloatInput SequenceOverride { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**ShadowDensity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L70)
+### **ShadowDensity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L70)
 
 ```csharp
 ref float ShadowDensity { get; }
@@ -260,7 +260,7 @@ ref float ShadowDensity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SoftEdges** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L42)
+### **SoftEdges** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L42)
 
 ```csharp
 ref bool SoftEdges { get; }
@@ -270,7 +270,7 @@ ref bool SoftEdges { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartFadeDot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L36)
+### **StartFadeDot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L36)
 
 ```csharp
 ref float StartFadeDot { get; }
@@ -280,7 +280,7 @@ ref float StartFadeDot { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartFadeSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L32)
+### **StartFadeSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L32)
 
 ```csharp
 CParticleCollectionRendererFloatInput StartFadeSize { get; }
@@ -290,7 +290,7 @@ CParticleCollectionRendererFloatInput StartFadeSize { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**UseYawWithNormalAligned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L24)
+### **UseYawWithNormalAligned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSprites.cs#L24)
 
 ```csharp
 ref bool UseYawWithNormalAligned { get; }

@@ -10,7 +10,7 @@ public interface C_OP_RampScalarLinearSimple : CParticleFunctionOperator, CParti
 
 ## Properties
 
-**EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L20)
+### **EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L20)
 
 ```csharp
 ref float EndTime { get; }
@@ -20,7 +20,7 @@ ref float EndTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L22)
+### **Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t Field { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t Field { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Rate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L16)
+### **Rate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L16)
 
 ```csharp
 ref float Rate { get; }
@@ -40,7 +40,7 @@ ref float Rate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L18)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinearSimple.cs#L18)
 
 ```csharp
 ref float StartTime { get; }

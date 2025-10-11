@@ -8,7 +8,7 @@ public interface IDatabaseService
 
 ## Methods
 
-**GetConnection(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Database/IDatabaseService.cs#L19)
+### **GetConnection(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Database/IDatabaseService.cs#L19)
 
 ```csharp
 IDbConnection GetConnection(string connectionName)
@@ -22,7 +22,7 @@ IDbConnection GetConnection(string connectionName)
 
 - [IDbConnection](https://learn.microsoft.com/dotnet/api/system.data.idbconnection) - A connection to the database. Return the default connection if the connection name is not found.
 
-**GetConnectionString(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Database/IDatabaseService.cs#L12)
+### **GetConnectionString(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Database/IDatabaseService.cs#L12)
 
 ```csharp
 string GetConnectionString(string connectionName)

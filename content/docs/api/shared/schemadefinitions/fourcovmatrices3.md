@@ -10,7 +10,7 @@ public interface FourCovMatrices3 : ISchemaClass<FourCovMatrices3>, ISchemaField
 
 ## Properties
 
-**Diag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L16)
+### **Diag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L16)
 
 ```csharp
 ref FourVectors Diag { get; }
@@ -20,7 +20,7 @@ ref FourVectors Diag { get; }
 
 - [FourVectors](/docs/api/shared/natives/fourvectors)
 
-**XY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L18)
+### **XY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L18)
 
 ```csharp
 ref fltx4 XY { get; }
@@ -30,7 +30,7 @@ ref fltx4 XY { get; }
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
-**XZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L20)
+### **XZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L20)
 
 ```csharp
 ref fltx4 XZ { get; }
@@ -40,7 +40,7 @@ ref fltx4 XZ { get; }
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
-**YZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L22)
+### **YZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L22)
 
 ```csharp
 ref fltx4 YZ { get; }

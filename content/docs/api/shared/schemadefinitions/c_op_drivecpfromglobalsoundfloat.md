@@ -10,7 +10,7 @@ public interface C_OP_DriveCPFromGlobalSoundFloat : CParticleFunctionPreEmission
 
 ## Properties
 
-**FieldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L32)
+### **FieldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L32)
 
 ```csharp
 string FieldName { get; set; }
@@ -20,7 +20,7 @@ string FieldName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L22)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L22)
 
 ```csharp
 ref float InputMax { get; }
@@ -30,7 +30,7 @@ ref float InputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L20)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L20)
 
 ```csharp
 ref float InputMin { get; }
@@ -40,7 +40,7 @@ ref float InputMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OperatorName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L30)
+### **OperatorName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L30)
 
 ```csharp
 string OperatorName { get; set; }
@@ -50,7 +50,7 @@ string OperatorName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OutputControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L16)
+### **OutputControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L16)
 
 ```csharp
 ref int OutputControlPoint { get; }
@@ -60,7 +60,7 @@ ref int OutputControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L18)
+### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L18)
 
 ```csharp
 ref int OutputField { get; }
@@ -70,7 +70,7 @@ ref int OutputField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L26)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L26)
 
 ```csharp
 ref float OutputMax { get; }
@@ -80,7 +80,7 @@ ref float OutputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L24)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L24)
 
 ```csharp
 ref float OutputMin { get; }
@@ -90,7 +90,7 @@ ref float OutputMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StackName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L28)
+### **StackName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DriveCPFromGlobalSoundFloat.cs#L28)
 
 ```csharp
 string StackName { get; set; }

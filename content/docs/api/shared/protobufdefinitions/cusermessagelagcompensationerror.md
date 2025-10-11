@@ -10,7 +10,7 @@ public interface CUserMessageLagCompensationError : ITypedProtobuf<CUserMessageL
 
 ## Properties
 
-**Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageLagCompensationError.cs#L18)
+### **Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageLagCompensationError.cs#L18)
 
 ```csharp
 float Distance { get; set; }

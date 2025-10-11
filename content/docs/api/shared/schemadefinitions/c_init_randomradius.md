@@ -10,7 +10,7 @@ public interface C_INIT_RandomRadius : CParticleFunctionInitializer, CParticleFu
 
 ## Properties
 
-**RadiusMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomRadius.cs#L18)
+### **RadiusMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomRadius.cs#L18)
 
 ```csharp
 ref float RadiusMax { get; }
@@ -20,7 +20,7 @@ ref float RadiusMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RadiusMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomRadius.cs#L16)
+### **RadiusMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomRadius.cs#L16)
 
 ```csharp
 ref float RadiusMin { get; }
@@ -30,7 +30,7 @@ ref float RadiusMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RadiusRandExponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomRadius.cs#L20)
+### **RadiusRandExponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomRadius.cs#L20)
 
 ```csharp
 ref float RadiusRandExponent { get; }

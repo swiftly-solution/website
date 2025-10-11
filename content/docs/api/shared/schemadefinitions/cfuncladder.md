@@ -10,7 +10,7 @@ public interface CFuncLadder : CBaseModelEntity, CBaseEntity, CEntityInstance, I
 
 ## Properties
 
-**AutoRideSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L26)
+### **AutoRideSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L26)
 
 ```csharp
 ref float AutoRideSpeed { get; }
@@ -20,7 +20,7 @@ ref float AutoRideSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L28)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L28)
 
 ```csharp
 ref bool Disabled { get; }
@@ -30,7 +30,7 @@ ref bool Disabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Dismounts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L18)
+### **Dismounts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L18)
 
 ```csharp
 ref CUtlVector<CHandle<CInfoLadderDismount>> Dismounts { get; }
@@ -38,9 +38,9 @@ ref CUtlVector<CHandle<CInfoLadderDismount>> Dismounts { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CInfoLadderDismount](/docs/api/shared/schemadefinitions/cinfoladderdismount)>>
+- [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CInfoLadderDismount](/docs/api/shared/schemadefinitions/cinfoladderdismount)>>
 
-**FakeLadder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L30)
+### **FakeLadder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L30)
 
 ```csharp
 ref bool FakeLadder { get; }
@@ -50,7 +50,7 @@ ref bool FakeLadder { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HasSlack** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L32)
+### **HasSlack** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L32)
 
 ```csharp
 ref bool HasSlack { get; }
@@ -60,7 +60,7 @@ ref bool HasSlack { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LadderDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L16)
+### **LadderDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L16)
 
 ```csharp
 ref Vector LadderDir { get; }
@@ -70,7 +70,7 @@ ref Vector LadderDir { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**LocalTop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L20)
+### **LocalTop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L20)
 
 ```csharp
 ref Vector LocalTop { get; }
@@ -80,7 +80,7 @@ ref Vector LocalTop { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OnPlayerGotOffLadder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L38)
+### **OnPlayerGotOffLadder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L38)
 
 ```csharp
 CEntityIOOutput OnPlayerGotOffLadder { get; }
@@ -90,7 +90,7 @@ CEntityIOOutput OnPlayerGotOffLadder { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnPlayerGotOnLadder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L36)
+### **OnPlayerGotOnLadder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L36)
 
 ```csharp
 CEntityIOOutput OnPlayerGotOnLadder { get; }
@@ -100,7 +100,7 @@ CEntityIOOutput OnPlayerGotOnLadder { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**PlayerMountPositionBottom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L24)
+### **PlayerMountPositionBottom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L24)
 
 ```csharp
 ref Vector PlayerMountPositionBottom { get; }
@@ -110,7 +110,7 @@ ref Vector PlayerMountPositionBottom { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**PlayerMountPositionTop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L22)
+### **PlayerMountPositionTop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L22)
 
 ```csharp
 ref Vector PlayerMountPositionTop { get; }
@@ -120,7 +120,7 @@ ref Vector PlayerMountPositionTop { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**SurfacePropName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L34)
+### **SurfacePropName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L34)
 
 ```csharp
 string SurfacePropName { get; set; }
@@ -132,31 +132,31 @@ string SurfacePropName { get; set; }
 
 ## Methods
 
-**AutoRideSpeedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L43)
+### **AutoRideSpeedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L43)
 
 ```csharp
 void AutoRideSpeedUpdated()
 ```
 
-**FakeLadderUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L44)
+### **FakeLadderUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L44)
 
 ```csharp
 void FakeLadderUpdated()
 ```
 
-**LadderDirUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L40)
+### **LadderDirUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L40)
 
 ```csharp
 void LadderDirUpdated()
 ```
 
-**PlayerMountPositionBottomUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L42)
+### **PlayerMountPositionBottomUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L42)
 
 ```csharp
 void PlayerMountPositionBottomUpdated()
 ```
 
-**PlayerMountPositionTopUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L41)
+### **PlayerMountPositionTopUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncLadder.cs#L41)
 
 ```csharp
 void PlayerMountPositionTopUpdated()

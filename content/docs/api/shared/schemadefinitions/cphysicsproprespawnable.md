@@ -10,7 +10,7 @@ public interface CPhysicsPropRespawnable : CPhysicsProp, CBreakableProp, CBasePr
 
 ## Properties
 
-**OriginalMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L22)
+### **OriginalMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L22)
 
 ```csharp
 ref Vector OriginalMaxs { get; }
@@ -20,7 +20,7 @@ ref Vector OriginalMaxs { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OriginalMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L20)
+### **OriginalMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L20)
 
 ```csharp
 ref Vector OriginalMins { get; }
@@ -30,7 +30,7 @@ ref Vector OriginalMins { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OriginalSpawnAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L18)
+### **OriginalSpawnAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L18)
 
 ```csharp
 ref QAngle OriginalSpawnAngles { get; }
@@ -40,7 +40,7 @@ ref QAngle OriginalSpawnAngles { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**OriginalSpawnOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L16)
+### **OriginalSpawnOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L16)
 
 ```csharp
 ref Vector OriginalSpawnOrigin { get; }
@@ -50,7 +50,7 @@ ref Vector OriginalSpawnOrigin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RespawnDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L24)
+### **RespawnDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsPropRespawnable.cs#L24)
 
 ```csharp
 ref float RespawnDuration { get; }

@@ -10,7 +10,7 @@ public interface C_OP_SetFloat : CParticleFunctionOperator, CParticleFunction, I
 
 ## Properties
 
-**InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloat.cs#L16)
+### **InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloat.cs#L16)
 
 ```csharp
 CPerParticleFloatInput InputValue { get; }
@@ -20,7 +20,7 @@ CPerParticleFloatInput InputValue { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**Lerp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloat.cs#L22)
+### **Lerp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloat.cs#L22)
 
 ```csharp
 CPerParticleFloatInput Lerp { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput Lerp { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloat.cs#L18)
+### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloat.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t OutputField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloat.cs#L20)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFloat.cs#L20)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

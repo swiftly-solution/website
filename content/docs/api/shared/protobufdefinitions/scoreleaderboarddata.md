@@ -10,7 +10,7 @@ public interface ScoreLeaderboardData : ITypedProtobuf<ScoreLeaderboardData>, IN
 
 ## Properties
 
-**Accountentries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData.cs#L19)
+### **Accountentries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<ScoreLeaderboardData_AccountEntries> Accountentries { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<ScoreLeaderboardData_AccountEntries> Accoun
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ScoreLeaderboardData_AccountEntries](/docs/api/shared/protobufdefinitions/scoreleaderboarddata_accountentries)>
 
-**LeaderboardName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData.cs#L25)
+### **LeaderboardName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData.cs#L25)
 
 ```csharp
 string LeaderboardName { get; set; }
@@ -30,7 +30,7 @@ string LeaderboardName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Matchentries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData.cs#L22)
+### **Matchentries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData.cs#L22)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<ScoreLeaderboardData_Entry> Matchentries { get; }
@@ -40,7 +40,7 @@ IProtobufRepeatedFieldSubMessageType<ScoreLeaderboardData_Entry> Matchentries { 
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ScoreLeaderboardData_Entry](/docs/api/shared/protobufdefinitions/scoreleaderboarddata_entry)>
 
-**QuestId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData.cs#L13)
+### **QuestId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData.cs#L13)
 
 ```csharp
 ulong QuestId { get; set; }
@@ -50,7 +50,7 @@ ulong QuestId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Score** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData.cs#L16)
+### **Score** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData.cs#L16)
 
 ```csharp
 uint Score { get; set; }

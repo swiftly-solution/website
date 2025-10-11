@@ -10,7 +10,7 @@ public interface CBasePlayerWeapon : CEconEntity, CBaseFlex, CBaseAnimGraph, CBa
 
 ## Properties
 
-**Clip1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L24)
+### **Clip1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L24)
 
 ```csharp
 ref int Clip1 { get; }
@@ -20,7 +20,7 @@ ref int Clip1 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Clip2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L26)
+### **Clip2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L26)
 
 ```csharp
 ref int Clip2 { get; }
@@ -30,7 +30,7 @@ ref int Clip2 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NextPrimaryAttackTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L16)
+### **NextPrimaryAttackTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L16)
 
 ```csharp
 GameTick_t NextPrimaryAttackTick { get; }
@@ -40,7 +40,7 @@ GameTick_t NextPrimaryAttackTick { get; }
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
-**NextPrimaryAttackTickRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L18)
+### **NextPrimaryAttackTickRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L18)
 
 ```csharp
 ref float NextPrimaryAttackTickRatio { get; }
@@ -50,7 +50,7 @@ ref float NextPrimaryAttackTickRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NextSecondaryAttackTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L20)
+### **NextSecondaryAttackTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L20)
 
 ```csharp
 GameTick_t NextSecondaryAttackTick { get; }
@@ -60,7 +60,7 @@ GameTick_t NextSecondaryAttackTick { get; }
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
-**NextSecondaryAttackTickRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L22)
+### **NextSecondaryAttackTickRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L22)
 
 ```csharp
 ref float NextSecondaryAttackTickRatio { get; }
@@ -70,7 +70,7 @@ ref float NextSecondaryAttackTickRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OnPlayerUse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L30)
+### **OnPlayerUse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L30)
 
 ```csharp
 CEntityIOOutput OnPlayerUse { get; }
@@ -80,7 +80,7 @@ CEntityIOOutput OnPlayerUse { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**PlayerWeaponVData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBasePlayerWeapon.cs#L5)
+### **PlayerWeaponVData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBasePlayerWeapon.cs#L5)
 
 ```csharp
 CBasePlayerWeaponVData PlayerWeaponVData { get; }
@@ -90,7 +90,7 @@ CBasePlayerWeaponVData PlayerWeaponVData { get; }
 
 - [CBasePlayerWeaponVData](/docs/api/shared/schemadefinitions/cbaseplayerweaponvdata)
 
-**ReserveAmmo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L28)
+### **ReserveAmmo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L28)
 
 ```csharp
 ISchemaFixedArray<int> ReserveAmmo { get; }
@@ -102,43 +102,43 @@ ISchemaFixedArray<int> ReserveAmmo { get; }
 
 ## Methods
 
-**Clip1Updated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L36)
+### **Clip1Updated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L36)
 
 ```csharp
 void Clip1Updated()
 ```
 
-**Clip2Updated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L37)
+### **Clip2Updated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L37)
 
 ```csharp
 void Clip2Updated()
 ```
 
-**NextPrimaryAttackTickRatioUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L33)
+### **NextPrimaryAttackTickRatioUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L33)
 
 ```csharp
 void NextPrimaryAttackTickRatioUpdated()
 ```
 
-**NextPrimaryAttackTickUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L32)
+### **NextPrimaryAttackTickUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L32)
 
 ```csharp
 void NextPrimaryAttackTickUpdated()
 ```
 
-**NextSecondaryAttackTickRatioUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L35)
+### **NextSecondaryAttackTickRatioUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L35)
 
 ```csharp
 void NextSecondaryAttackTickRatioUpdated()
 ```
 
-**NextSecondaryAttackTickUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L34)
+### **NextSecondaryAttackTickUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L34)
 
 ```csharp
 void NextSecondaryAttackTickUpdated()
 ```
 
-**ReserveAmmoUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L38)
+### **ReserveAmmoUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeapon.cs#L38)
 
 ```csharp
 void ReserveAmmoUpdated()

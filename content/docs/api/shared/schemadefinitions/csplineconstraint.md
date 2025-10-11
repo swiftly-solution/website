@@ -10,7 +10,7 @@ public interface CSplineConstraint : CPhysConstraint, CLogicalEntity, CServerOnl
 
 ## Properties
 
-**AnchorOffsetRestore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L16)
+### **AnchorOffsetRestore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L16)
 
 ```csharp
 ref Vector AnchorOffsetRestore { get; }
@@ -20,7 +20,7 @@ ref Vector AnchorOffsetRestore { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**EnableAngularConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L24)
+### **EnableAngularConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L24)
 
 ```csharp
 ref bool EnableAngularConstraint { get; }
@@ -30,7 +30,7 @@ ref bool EnableAngularConstraint { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EnableLateralConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L20)
+### **EnableLateralConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L20)
 
 ```csharp
 ref bool EnableLateralConstraint { get; }
@@ -40,7 +40,7 @@ ref bool EnableLateralConstraint { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EnableLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L26)
+### **EnableLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L26)
 
 ```csharp
 ref bool EnableLimit { get; }
@@ -50,7 +50,7 @@ ref bool EnableLimit { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EnableVerticalConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L22)
+### **EnableVerticalConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L22)
 
 ```csharp
 ref bool EnableVerticalConstraint { get; }
@@ -60,7 +60,7 @@ ref bool EnableVerticalConstraint { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FireEventsOnPath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L28)
+### **FireEventsOnPath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L28)
 
 ```csharp
 ref bool FireEventsOnPath { get; }
@@ -70,7 +70,7 @@ ref bool FireEventsOnPath { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**JointFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L34)
+### **JointFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L34)
 
 ```csharp
 ref float JointFriction { get; }
@@ -80,7 +80,7 @@ ref float JointFriction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LinarDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L32)
+### **LinarDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L32)
 
 ```csharp
 ref float LinarDampingRatio { get; }
@@ -90,7 +90,7 @@ ref float LinarDampingRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LinearFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L30)
+### **LinearFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L30)
 
 ```csharp
 ref float LinearFrequency { get; }
@@ -100,7 +100,7 @@ ref float LinearFrequency { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PreSolveAnchorPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L36)
+### **PreSolveAnchorPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L36)
 
 ```csharp
 ref Vector PreSolveAnchorPos { get; }
@@ -110,7 +110,7 @@ ref Vector PreSolveAnchorPos { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**SplineEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L18)
+### **SplineEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSplineConstraint.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> SplineEntity { get; }

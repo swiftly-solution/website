@@ -10,7 +10,7 @@ public interface CAnimTagBase : ISchemaClass<CAnimTagBase>, ISchemaField, ISchem
 
 ## Properties
 
-**Comment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L18)
+### **Comment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L18)
 
 ```csharp
 string Comment { get; set; }
@@ -20,7 +20,7 @@ string Comment { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Group** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L20)
+### **Group** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L20)
 
 ```csharp
 ref CGlobalSymbol Group { get; }
@@ -30,7 +30,7 @@ ref CGlobalSymbol Group { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**IsReferenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L24)
+### **IsReferenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L24)
 
 ```csharp
 ref bool IsReferenced { get; }
@@ -40,7 +40,7 @@ ref bool IsReferenced { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L16)
 
 ```csharp
 ref CGlobalSymbol Name { get; }
@@ -50,7 +50,7 @@ ref CGlobalSymbol Name { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**TagID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L22)
+### **TagID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagBase.cs#L22)
 
 ```csharp
 AnimTagID TagID { get; }

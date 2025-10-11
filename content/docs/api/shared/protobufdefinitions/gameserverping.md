@@ -10,7 +10,7 @@ public interface GameServerPing : ITypedProtobuf<GameServerPing>, INativeHandle
 
 ## Properties
 
-**Instances** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/GameServerPing.cs#L19)
+### **Instances** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/GameServerPing.cs#L19)
 
 ```csharp
 uint Instances { get; set; }
@@ -20,7 +20,7 @@ uint Instances { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Ip** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/GameServerPing.cs#L16)
+### **Ip** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/GameServerPing.cs#L16)
 
 ```csharp
 uint Ip { get; set; }
@@ -30,7 +30,7 @@ uint Ip { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Ping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/GameServerPing.cs#L13)
+### **Ping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/GameServerPing.cs#L13)
 
 ```csharp
 int Ping { get; set; }

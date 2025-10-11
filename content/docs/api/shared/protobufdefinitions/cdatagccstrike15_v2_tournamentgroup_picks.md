@@ -10,7 +10,7 @@ public interface CDataGCCStrike15_v2_TournamentGroup_Picks : ITypedProtobuf<CDat
 
 ## Properties
 
-**Pickids** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDataGCCStrike15_v2_TournamentGroup_Picks.cs#L13)
+### **Pickids** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDataGCCStrike15_v2_TournamentGroup_Picks.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Pickids { get; }

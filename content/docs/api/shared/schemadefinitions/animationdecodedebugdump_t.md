@@ -10,7 +10,7 @@ public interface AnimationDecodeDebugDump_t : ISchemaClass<AnimationDecodeDebugD
 
 ## Properties
 
-**Elems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDump_t.cs#L19)
+### **Elems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDump_t.cs#L19)
 
 ```csharp
 ref CUtlVector Elems { get; }
@@ -18,9 +18,9 @@ ref CUtlVector Elems { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**ProcessingType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDump_t.cs#L16)
+### **ProcessingType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDump_t.cs#L16)
 
 ```csharp
 ref AnimationProcessingType_t ProcessingType { get; }

@@ -10,7 +10,7 @@ public interface FeEffectDesc_t : ISchemaClass<FeEffectDesc_t>, ISchemaField, IS
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEffectDesc_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEffectDesc_t.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -20,7 +20,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEffectDesc_t.cs#L18)
+### **NameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEffectDesc_t.cs#L18)
 
 ```csharp
 ref uint NameHash { get; }
@@ -30,7 +30,7 @@ ref uint NameHash { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Params** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEffectDesc_t.cs#L23)
+### **Params** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEffectDesc_t.cs#L23)
 
 ```csharp
 SchemaUntypedField Params { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField Params { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEffectDesc_t.cs#L20)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeEffectDesc_t.cs#L20)
 
 ```csharp
 ref int Type { get; }

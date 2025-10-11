@@ -10,7 +10,7 @@ public interface CPathKeyFrame : CLogicalEntity, CServerOnlyEntity, CBaseEntity,
 
 ## Properties
 
-**Angle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L20)
+### **Angle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L20)
 
 ```csharp
 ref Quaternion Angle { get; }
@@ -20,7 +20,7 @@ ref Quaternion Angle { get; }
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
-**Angles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L18)
+### **Angles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L18)
 
 ```csharp
 ref QAngle Angles { get; }
@@ -30,7 +30,7 @@ ref QAngle Angles { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**MoveSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L30)
+### **MoveSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L30)
 
 ```csharp
 ref float MoveSpeed { get; }
@@ -40,7 +40,7 @@ ref float MoveSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NextKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L22)
+### **NextKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L22)
 
 ```csharp
 string NextKey { get; set; }
@@ -50,7 +50,7 @@ string NextKey { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NextKey1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L26)
+### **NextKey1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L26)
 
 ```csharp
 CPathKeyFrame? NextKey1 { get; }
@@ -60,7 +60,7 @@ CPathKeyFrame? NextKey1 { get; }
 
 - [CPathKeyFrame](/docs/api/shared/schemadefinitions/cpathkeyframe)?
 
-**NextTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L24)
+### **NextTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L24)
 
 ```csharp
 ref float NextTime { get; }
@@ -70,7 +70,7 @@ ref float NextTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L16)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L16)
 
 ```csharp
 ref Vector Origin { get; }
@@ -80,7 +80,7 @@ ref Vector Origin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**PrevKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L28)
+### **PrevKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathKeyFrame.cs#L28)
 
 ```csharp
 CPathKeyFrame? PrevKey { get; }

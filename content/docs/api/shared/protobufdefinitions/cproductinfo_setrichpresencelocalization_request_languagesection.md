@@ -10,7 +10,7 @@ public interface CProductInfo_SetRichPresenceLocalization_Request_LanguageSectio
 
 ## Properties
 
-**Language** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request_LanguageSection.cs#L13)
+### **Language** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request_LanguageSection.cs#L13)
 
 ```csharp
 string Language { get; set; }
@@ -20,7 +20,7 @@ string Language { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Tokens** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request_LanguageSection.cs#L16)
+### **Tokens** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request_LanguageSection.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CProductInfo_SetRichPresenceLocalization_Request_Token> Tokens { get; }

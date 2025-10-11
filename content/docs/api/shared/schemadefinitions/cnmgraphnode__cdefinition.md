@@ -10,7 +10,7 @@ public interface CNmGraphNode__CDefinition : ISchemaClass<CNmGraphNode__CDefinit
 
 ## Properties
 
-**NodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphNode__CDefinition.cs#L16)
+### **NodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphNode__CDefinition.cs#L16)
 
 ```csharp
 ref short NodeIdx { get; }

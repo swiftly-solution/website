@@ -10,7 +10,7 @@ public interface CAttribute_String : ITypedProtobuf<CAttribute_String>, INativeH
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CAttribute_String.cs#L13)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CAttribute_String.cs#L13)
 
 ```csharp
 string Value { get; set; }

@@ -10,7 +10,7 @@ public interface CPhysExplosion : CPointEntity, CBaseEntity, CEntityInstance, IS
 
 ## Properties
 
-**AffectInvulnerableEnts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L32)
+### **AffectInvulnerableEnts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L32)
 
 ```csharp
 ref bool AffectInvulnerableEnts { get; }
@@ -20,7 +20,7 @@ ref bool AffectInvulnerableEnts { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ConvertToDebrisWhenPossible** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L30)
+### **ConvertToDebrisWhenPossible** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L30)
 
 ```csharp
 ref bool ConvertToDebrisWhenPossible { get; }
@@ -30,7 +30,7 @@ ref bool ConvertToDebrisWhenPossible { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Damage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L20)
+### **Damage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L20)
 
 ```csharp
 ref float Damage { get; }
@@ -40,7 +40,7 @@ ref float Damage { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ExplodeOnSpawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L16)
+### **ExplodeOnSpawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L16)
 
 ```csharp
 ref bool ExplodeOnSpawn { get; }
@@ -50,7 +50,7 @@ ref bool ExplodeOnSpawn { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InnerRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L26)
+### **InnerRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L26)
 
 ```csharp
 ref float InnerRadius { get; }
@@ -60,7 +60,7 @@ ref float InnerRadius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Magnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L18)
+### **Magnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L18)
 
 ```csharp
 ref float Magnitude { get; }
@@ -70,7 +70,7 @@ ref float Magnitude { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OnPushedPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L34)
+### **OnPushedPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L34)
 
 ```csharp
 CEntityIOOutput OnPushedPlayer { get; }
@@ -80,7 +80,7 @@ CEntityIOOutput OnPushedPlayer { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**PushScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L28)
+### **PushScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L28)
 
 ```csharp
 ref float PushScale { get; }
@@ -90,7 +90,7 @@ ref float PushScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L22)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L22)
 
 ```csharp
 ref float Radius { get; }
@@ -100,7 +100,7 @@ ref float Radius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TargetEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L24)
+### **TargetEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysExplosion.cs#L24)
 
 ```csharp
 string TargetEntityName { get; set; }

@@ -10,7 +10,7 @@ public interface CPulse_Constant : ISchemaClass<CPulse_Constant>, ISchemaField, 
 
 ## Properties
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Constant.cs#L17)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Constant.cs#L17)
 
 ```csharp
 SchemaUntypedField Type { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Type { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Constant.cs#L20)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Constant.cs#L20)
 
 ```csharp
 SchemaUntypedField Value { get; }

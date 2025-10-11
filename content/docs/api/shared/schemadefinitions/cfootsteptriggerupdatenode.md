@@ -10,7 +10,7 @@ public interface CFootStepTriggerUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeB
 
 ## Properties
 
-**Tolerance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootStepTriggerUpdateNode.cs#L19)
+### **Tolerance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootStepTriggerUpdateNode.cs#L19)
 
 ```csharp
 ref float Tolerance { get; }
@@ -20,7 +20,7 @@ ref float Tolerance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Triggers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootStepTriggerUpdateNode.cs#L17)
+### **Triggers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootStepTriggerUpdateNode.cs#L17)
 
 ```csharp
 ref CUtlVector Triggers { get; }
@@ -28,5 +28,5 @@ ref CUtlVector Triggers { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

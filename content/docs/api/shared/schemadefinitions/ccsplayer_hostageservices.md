@@ -10,7 +10,7 @@ public interface CCSPlayer_HostageServices : CPlayerPawnComponent, ISchemaClass<
 
 ## Properties
 
-**CarriedHostage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L16)
+### **CarriedHostage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L16)
 
 ```csharp
 ref CHandle<CBaseEntity> CarriedHostage { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> CarriedHostage { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**CarriedHostageProp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L18)
+### **CarriedHostageProp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> CarriedHostageProp { get; }
@@ -32,13 +32,13 @@ ref CHandle<CBaseEntity> CarriedHostageProp { get; }
 
 ## Methods
 
-**CarriedHostagePropUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L21)
+### **CarriedHostagePropUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L21)
 
 ```csharp
 void CarriedHostagePropUpdated()
 ```
 
-**CarriedHostageUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L20)
+### **CarriedHostageUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_HostageServices.cs#L20)
 
 ```csharp
 void CarriedHostageUpdated()

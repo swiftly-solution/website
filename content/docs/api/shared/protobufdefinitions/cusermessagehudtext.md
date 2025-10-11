@@ -10,7 +10,7 @@ public interface CUserMessageHudText : ITypedProtobuf<CUserMessageHudText>, INat
 
 ## Properties
 
-**Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHudText.cs#L18)
+### **Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHudText.cs#L18)
 
 ```csharp
 string Message { get; set; }

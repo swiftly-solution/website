@@ -10,7 +10,7 @@ public interface CMsgSortItems : ITypedProtobuf<CMsgSortItems>, INativeHandle
 
 ## Properties
 
-**SortType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSortItems.cs#L13)
+### **SortType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSortItems.cs#L13)
 
 ```csharp
 uint SortType { get; set; }

@@ -10,7 +10,7 @@ public interface CMsgTEFizz : ITypedProtobuf<CMsgTEFizz>, INativeHandle, INetMes
 
 ## Properties
 
-**Current** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFizz.cs#L24)
+### **Current** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFizz.cs#L24)
 
 ```csharp
 int Current { get; set; }
@@ -20,7 +20,7 @@ int Current { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Density** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFizz.cs#L21)
+### **Density** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFizz.cs#L21)
 
 ```csharp
 uint Density { get; set; }
@@ -30,7 +30,7 @@ uint Density { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFizz.cs#L18)
+### **Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFizz.cs#L18)
 
 ```csharp
 int Entity { get; set; }

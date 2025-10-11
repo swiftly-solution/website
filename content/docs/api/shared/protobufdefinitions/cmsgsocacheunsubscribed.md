@@ -10,7 +10,7 @@ public interface CMsgSOCacheUnsubscribed : ITypedProtobuf<CMsgSOCacheUnsubscribe
 
 ## Properties
 
-**OwnerSoid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheUnsubscribed.cs#L13)
+### **OwnerSoid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheUnsubscribed.cs#L13)
 
 ```csharp
 CMsgSOIDOwner OwnerSoid { get; }

@@ -10,7 +10,7 @@ public interface C_INIT_ColorLitPerParticle : CParticleFunctionInitializer, CPar
 
 ## Properties
 
-**ColorMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L18)
+### **ColorMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L18)
 
 ```csharp
 ref Color ColorMax { get; }
@@ -20,7 +20,7 @@ ref Color ColorMax { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**ColorMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L16)
+### **ColorMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L16)
 
 ```csharp
 ref Color ColorMin { get; }
@@ -30,7 +30,7 @@ ref Color ColorMin { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**LightAmplification** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L28)
+### **LightAmplification** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L28)
 
 ```csharp
 ref float LightAmplification { get; }
@@ -40,7 +40,7 @@ ref float LightAmplification { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TintBlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L26)
+### **TintBlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L26)
 
 ```csharp
 ref ParticleColorBlendMode_t TintBlendMode { get; }
@@ -50,7 +50,7 @@ ref ParticleColorBlendMode_t TintBlendMode { get; }
 
 - [ParticleColorBlendMode_t](/docs/api/shared/schemadefinitions/particlecolorblendmode_t)
 
-**TintMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L22)
+### **TintMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L22)
 
 ```csharp
 ref Color TintMax { get; }
@@ -60,7 +60,7 @@ ref Color TintMax { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**TintMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L20)
+### **TintMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L20)
 
 ```csharp
 ref Color TintMin { get; }
@@ -70,7 +70,7 @@ ref Color TintMin { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**TintPerc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L24)
+### **TintPerc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ColorLitPerParticle.cs#L24)
 
 ```csharp
 ref float TintPerc { get; }

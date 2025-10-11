@@ -10,7 +10,7 @@ public interface CBtActionMoveTo : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<
 
 ## Properties
 
-**AdditionalArrivalEpsilon2D** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L38)
+### **AdditionalArrivalEpsilon2D** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L38)
 
 ```csharp
 ref float AdditionalArrivalEpsilon2D { get; }
@@ -20,7 +20,7 @@ ref float AdditionalArrivalEpsilon2D { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ArrivalEpsilon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L36)
+### **ArrivalEpsilon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L36)
 
 ```csharp
 ref float ArrivalEpsilon { get; }
@@ -30,7 +30,7 @@ ref float ArrivalEpsilon { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AutoLookAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L24)
+### **AutoLookAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L24)
 
 ```csharp
 ref bool AutoLookAdjust { get; }
@@ -40,7 +40,7 @@ ref bool AutoLookAdjust { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**CheckApproximateCornersTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L30)
+### **CheckApproximateCornersTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L30)
 
 ```csharp
 CountdownTimer CheckApproximateCornersTimer { get; }
@@ -50,7 +50,7 @@ CountdownTimer CheckApproximateCornersTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**CheckHighPriorityItem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L32)
+### **CheckHighPriorityItem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L32)
 
 ```csharp
 CountdownTimer CheckHighPriorityItem { get; }
@@ -60,7 +60,7 @@ CountdownTimer CheckHighPriorityItem { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**ComputePath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L26)
+### **ComputePath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L26)
 
 ```csharp
 ref bool ComputePath { get; }
@@ -70,7 +70,7 @@ ref bool ComputePath { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DamagingAreasPenaltyCost** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L28)
+### **DamagingAreasPenaltyCost** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L28)
 
 ```csharp
 ref float DamagingAreasPenaltyCost { get; }
@@ -80,7 +80,7 @@ ref float DamagingAreasPenaltyCost { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Destination** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L22)
+### **Destination** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L22)
 
 ```csharp
 ref Vector Destination { get; }
@@ -90,7 +90,7 @@ ref Vector Destination { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**DestinationInputKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L16)
+### **DestinationInputKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L16)
 
 ```csharp
 string DestinationInputKey { get; set; }
@@ -100,7 +100,7 @@ string DestinationInputKey { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HidingSpotCheckDistanceThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L40)
+### **HidingSpotCheckDistanceThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L40)
 
 ```csharp
 ref float HidingSpotCheckDistanceThreshold { get; }
@@ -110,7 +110,7 @@ ref float HidingSpotCheckDistanceThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HidingSpotInputKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L18)
+### **HidingSpotInputKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L18)
 
 ```csharp
 string HidingSpotInputKey { get; set; }
@@ -120,7 +120,7 @@ string HidingSpotInputKey { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NearestAreaDistanceThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L42)
+### **NearestAreaDistanceThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L42)
 
 ```csharp
 ref float NearestAreaDistanceThreshold { get; }
@@ -130,7 +130,7 @@ ref float NearestAreaDistanceThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RepathTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L34)
+### **RepathTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L34)
 
 ```csharp
 CountdownTimer RepathTimer { get; }
@@ -140,7 +140,7 @@ CountdownTimer RepathTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**ThreatInputKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L20)
+### **ThreatInputKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionMoveTo.cs#L20)
 
 ```csharp
 string ThreatInputKey { get; set; }

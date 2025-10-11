@@ -10,7 +10,7 @@ public interface CPairedSequenceUpdateNode : CSequenceUpdateNodeBase, CLeafUpdat
 
 ## Properties
 
-**PairedSequenceRole** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPairedSequenceUpdateNode.cs#L16)
+### **PairedSequenceRole** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPairedSequenceUpdateNode.cs#L16)
 
 ```csharp
 ref CGlobalSymbol PairedSequenceRole { get; }

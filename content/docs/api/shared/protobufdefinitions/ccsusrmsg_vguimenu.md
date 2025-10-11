@@ -10,7 +10,7 @@ public interface CCSUsrMsg_VGUIMenu : ITypedProtobuf<CCSUsrMsg_VGUIMenu>, INativ
 
 ## Properties
 
-**Keys** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VGUIMenu.cs#L24)
+### **Keys** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VGUIMenu.cs#L24)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_VGUIMenu_Keys> Keys { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_VGUIMenu_Keys> Keys { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_VGUIMenu_Keys](/docs/api/shared/protobufdefinitions/ccsusrmsg_vguimenu_keys)>
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VGUIMenu.cs#L18)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VGUIMenu.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -30,7 +30,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Show** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VGUIMenu.cs#L21)
+### **Show** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VGUIMenu.cs#L21)
 
 ```csharp
 bool Show { get; set; }

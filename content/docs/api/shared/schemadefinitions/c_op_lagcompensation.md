@@ -10,7 +10,7 @@ public interface C_OP_LagCompensation : CParticleFunctionOperator, CParticleFunc
 
 ## Properties
 
-**DesiredVelocityCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L16)
+### **DesiredVelocityCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L16)
 
 ```csharp
 ref int DesiredVelocityCP { get; }
@@ -20,7 +20,7 @@ ref int DesiredVelocityCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DesiredVelocityCPField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L22)
+### **DesiredVelocityCPField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L22)
 
 ```csharp
 ref int DesiredVelocityCPField { get; }
@@ -30,7 +30,7 @@ ref int DesiredVelocityCPField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LatencyCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L18)
+### **LatencyCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L18)
 
 ```csharp
 ref int LatencyCP { get; }
@@ -40,7 +40,7 @@ ref int LatencyCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LatencyCPField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L20)
+### **LatencyCPField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LagCompensation.cs#L20)
 
 ```csharp
 ref int LatencyCPField { get; }

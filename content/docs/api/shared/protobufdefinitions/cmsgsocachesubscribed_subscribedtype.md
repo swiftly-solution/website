@@ -10,7 +10,7 @@ public interface CMsgSOCacheSubscribed_SubscribedType : ITypedProtobuf<CMsgSOCac
 
 ## Properties
 
-**ObjectData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscribed_SubscribedType.cs#L16)
+### **ObjectData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscribed_SubscribedType.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<byte[]> ObjectData { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldValueType<byte[]> ObjectData { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
-**TypeId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscribed_SubscribedType.cs#L13)
+### **TypeId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscribed_SubscribedType.cs#L13)
 
 ```csharp
 int TypeId { get; set; }

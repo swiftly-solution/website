@@ -10,7 +10,7 @@ public interface CGCToGCMsgRoutedReply : ITypedProtobuf<CGCToGCMsgRoutedReply>, 
 
 ## Properties
 
-**MsgType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRoutedReply.cs#L13)
+### **MsgType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRoutedReply.cs#L13)
 
 ```csharp
 uint MsgType { get; set; }
@@ -20,7 +20,7 @@ uint MsgType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**NetMessage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRoutedReply.cs#L16)
+### **NetMessage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRoutedReply.cs#L16)
 
 ```csharp
 byte[] NetMessage { get; set; }

@@ -10,7 +10,7 @@ public interface CHostageExpresserShim : CBaseCombatCharacter, CBaseFlex, CBaseA
 
 ## Properties
 
-**Expresser** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostageExpresserShim.cs#L16)
+### **Expresser** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostageExpresserShim.cs#L16)
 
 ```csharp
 CAI_Expresser? Expresser { get; }

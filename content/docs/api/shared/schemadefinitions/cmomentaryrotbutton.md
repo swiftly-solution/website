@@ -10,7 +10,7 @@ public interface CMomentaryRotButton : CRotButton, CBaseButton, CBaseToggle, CBa
 
 ## Properties
 
-**Direction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L39)
+### **Direction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L39)
 
 ```csharp
 ref int Direction { get; }
@@ -20,7 +20,7 @@ ref int Direction { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L31)
+### **End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L31)
 
 ```csharp
 ref QAngle End { get; }
@@ -30,7 +30,7 @@ ref QAngle End { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**IdealYaw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L33)
+### **IdealYaw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L33)
 
 ```csharp
 ref float IdealYaw { get; }
@@ -40,7 +40,7 @@ ref float IdealYaw { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LastUsed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L27)
+### **LastUsed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L27)
 
 ```csharp
 ref int LastUsed { get; }
@@ -50,7 +50,7 @@ ref int LastUsed { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Noise** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L35)
+### **Noise** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L35)
 
 ```csharp
 string Noise { get; set; }
@@ -60,7 +60,7 @@ string Noise { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OnFullyClosed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L23)
+### **OnFullyClosed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L23)
 
 ```csharp
 CEntityIOOutput OnFullyClosed { get; }
@@ -70,7 +70,7 @@ CEntityIOOutput OnFullyClosed { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnFullyOpen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L21)
+### **OnFullyOpen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L21)
 
 ```csharp
 CEntityIOOutput OnFullyOpen { get; }
@@ -80,7 +80,7 @@ CEntityIOOutput OnFullyOpen { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnReachedPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L25)
+### **OnReachedPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L25)
 
 ```csharp
 CEntityIOOutput OnReachedPosition { get; }
@@ -90,7 +90,7 @@ CEntityIOOutput OnReachedPosition { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnUnpressed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L19)
+### **OnUnpressed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L19)
 
 ```csharp
 CEntityIOOutput OnUnpressed { get; }
@@ -100,7 +100,7 @@ CEntityIOOutput OnUnpressed { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L17)
+### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L17)
 
 ```csharp
 SchemaUntypedField Position { get; }
@@ -110,7 +110,7 @@ SchemaUntypedField Position { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ReturnSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L41)
+### **ReturnSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L41)
 
 ```csharp
 ref float ReturnSpeed { get; }
@@ -120,7 +120,7 @@ ref float ReturnSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L29)
+### **Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L29)
 
 ```csharp
 ref QAngle Start { get; }
@@ -130,7 +130,7 @@ ref QAngle Start { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**StartPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L43)
+### **StartPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L43)
 
 ```csharp
 ref float StartPosition { get; }
@@ -140,7 +140,7 @@ ref float StartPosition { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UpdateTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L37)
+### **UpdateTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMomentaryRotButton.cs#L37)
 
 ```csharp
 ref bool UpdateTarget { get; }

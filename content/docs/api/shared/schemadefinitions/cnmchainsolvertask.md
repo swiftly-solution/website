@@ -10,7 +10,7 @@ public interface CNmChainSolverTask : CNmPoseTask, ISchemaClass<CNmPoseTask>, IS
 
 ## Properties
 
-**BlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L26)
+### **BlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L26)
 
 ```csharp
 ref NmIKBlendMode_t BlendMode { get; }
@@ -20,7 +20,7 @@ ref NmIKBlendMode_t BlendMode { get; }
 
 - [NmIKBlendMode_t](/docs/api/shared/schemadefinitions/nmikblendmode_t)
 
-**BlendWeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L28)
+### **BlendWeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L28)
 
 ```csharp
 ref float BlendWeight { get; }
@@ -30,7 +30,7 @@ ref float BlendWeight { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ChainStartTransformMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L36)
+### **ChainStartTransformMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L36)
 
 ```csharp
 ref CTransform ChainStartTransformMS { get; }
@@ -40,7 +40,7 @@ ref CTransform ChainStartTransformMS { get; }
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-**DebugEffectorBoneID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L34)
+### **DebugEffectorBoneID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L34)
 
 ```csharp
 ref CGlobalSymbol DebugEffectorBoneID { get; }
@@ -50,7 +50,7 @@ ref CGlobalSymbol DebugEffectorBoneID { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**DebugRequestedTargetTransformMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L38)
+### **DebugRequestedTargetTransformMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L38)
 
 ```csharp
 ref CTransform DebugRequestedTargetTransformMS { get; }
@@ -60,7 +60,7 @@ ref CTransform DebugRequestedTargetTransformMS { get; }
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-**DebugTotalChainLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L40)
+### **DebugTotalChainLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L40)
 
 ```csharp
 ref float DebugTotalChainLength { get; }
@@ -70,7 +70,7 @@ ref float DebugTotalChainLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EffectorBoneIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L16)
+### **EffectorBoneIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L16)
 
 ```csharp
 ref int EffectorBoneIdx { get; }
@@ -80,7 +80,7 @@ ref int EffectorBoneIdx { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EffectorTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L24)
+### **EffectorTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L24)
 
 ```csharp
 CNmTarget EffectorTarget { get; }
@@ -90,7 +90,7 @@ CNmTarget EffectorTarget { get; }
 
 - [CNmTarget](/docs/api/shared/schemadefinitions/cnmtarget)
 
-**EffectorTargetBoneIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L18)
+### **EffectorTargetBoneIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L18)
 
 ```csharp
 ref int EffectorTargetBoneIdx { get; }
@@ -100,7 +100,7 @@ ref int EffectorTargetBoneIdx { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**IsRunningFromDeserializedData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L32)
+### **IsRunningFromDeserializedData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L32)
 
 ```csharp
 ref bool IsRunningFromDeserializedData { get; }
@@ -110,7 +110,7 @@ ref bool IsRunningFromDeserializedData { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsTargetInWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L30)
+### **IsTargetInWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L30)
 
 ```csharp
 ref bool IsTargetInWorldSpace { get; }
@@ -120,7 +120,7 @@ ref bool IsTargetInWorldSpace { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NumBonesInChain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L22)
+### **NumBonesInChain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L22)
 
 ```csharp
 ref int NumBonesInChain { get; }
@@ -130,7 +130,7 @@ ref int NumBonesInChain { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TargetTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L20)
+### **TargetTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmChainSolverTask.cs#L20)
 
 ```csharp
 ref CTransform TargetTransform { get; }

@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleSetFrozen : ITypedProtob
 
 ## Properties
 
-**SetFrozen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleSetFrozen.cs#L13)
+### **SetFrozen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleSetFrozen.cs#L13)
 
 ```csharp
 bool SetFrozen { get; set; }
@@ -20,7 +20,7 @@ bool SetFrozen { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TransitionDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleSetFrozen.cs#L16)
+### **TransitionDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleSetFrozen.cs#L16)
 
 ```csharp
 float TransitionDuration { get; set; }

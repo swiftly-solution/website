@@ -10,7 +10,7 @@ public interface CMsgGCToGCRequestPassportItemGrant : ITypedProtobuf<CMsgGCToGCR
 
 ## Properties
 
-**LeagueId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCRequestPassportItemGrant.cs#L16)
+### **LeagueId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCRequestPassportItemGrant.cs#L16)
 
 ```csharp
 uint LeagueId { get; set; }
@@ -20,7 +20,7 @@ uint LeagueId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RewardFlag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCRequestPassportItemGrant.cs#L19)
+### **RewardFlag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCRequestPassportItemGrant.cs#L19)
 
 ```csharp
 int RewardFlag { get; set; }
@@ -30,7 +30,7 @@ int RewardFlag { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCRequestPassportItemGrant.cs#L13)
+### **SteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCRequestPassportItemGrant.cs#L13)
 
 ```csharp
 ulong SteamId { get; set; }

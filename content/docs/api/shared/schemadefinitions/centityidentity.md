@@ -10,7 +10,7 @@ public interface CEntityIdentity : ISchemaClass<CEntityIdentity>, ISchemaField, 
 
 ## Properties
 
-**DataObjectTypes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L26)
+### **DataObjectTypes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L26)
 
 ```csharp
 ref uint DataObjectTypes { get; }
@@ -20,7 +20,7 @@ ref uint DataObjectTypes { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**DesignerName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L20)
+### **DesignerName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L20)
 
 ```csharp
 string DesignerName { get; set; }
@@ -30,7 +30,7 @@ string DesignerName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EntityHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityIdentity.cs#L8)
+### **EntityHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityIdentity.cs#L8)
 
 ```csharp
 CHandle<CEntityInstance> EntityHandle { get; }
@@ -40,7 +40,7 @@ CHandle<CEntityInstance> EntityHandle { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
-**EntityInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityIdentity.cs#L6)
+### **EntityInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityIdentity.cs#L6)
 
 ```csharp
 CEntityInstance EntityInstance { get; }
@@ -50,7 +50,7 @@ CEntityInstance EntityInstance { get; }
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L22)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L22)
 
 ```csharp
 ref uint Flags { get; }
@@ -60,7 +60,7 @@ ref uint Flags { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L18)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -70,7 +70,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NameStringableIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L16)
+### **NameStringableIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L16)
 
 ```csharp
 ref int NameStringableIndex { get; }
@@ -80,7 +80,7 @@ ref int NameStringableIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Next** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L32)
+### **Next** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L32)
 
 ```csharp
 CEntityIdentity? Next { get; }
@@ -90,7 +90,7 @@ CEntityIdentity? Next { get; }
 
 - [CEntityIdentity](/docs/api/shared/schemadefinitions/centityidentity)?
 
-**NextByClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L36)
+### **NextByClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L36)
 
 ```csharp
 CEntityIdentity? NextByClass { get; }
@@ -100,7 +100,7 @@ CEntityIdentity? NextByClass { get; }
 
 - [CEntityIdentity](/docs/api/shared/schemadefinitions/centityidentity)?
 
-**PathIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L28)
+### **PathIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L28)
 
 ```csharp
 ref ChangeAccessorFieldPathIndex_t PathIndex { get; }
@@ -110,7 +110,7 @@ ref ChangeAccessorFieldPathIndex_t PathIndex { get; }
 
 - [ChangeAccessorFieldPathIndex_t](/docs/api/shared/natives/changeaccessorfieldpathindex_t)
 
-**Prev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L30)
+### **Prev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L30)
 
 ```csharp
 CEntityIdentity? Prev { get; }
@@ -120,7 +120,7 @@ CEntityIdentity? Prev { get; }
 
 - [CEntityIdentity](/docs/api/shared/schemadefinitions/centityidentity)?
 
-**PrevByClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L34)
+### **PrevByClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L34)
 
 ```csharp
 CEntityIdentity? PrevByClass { get; }
@@ -130,7 +130,7 @@ CEntityIdentity? PrevByClass { get; }
 
 - [CEntityIdentity](/docs/api/shared/schemadefinitions/centityidentity)?
 
-**WorldGroupId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L24)
+### **WorldGroupId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L24)
 
 ```csharp
 ref uint WorldGroupId { get; }
@@ -142,7 +142,7 @@ ref uint WorldGroupId { get; }
 
 ## Methods
 
-**NameStringableIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L38)
+### **NameStringableIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityIdentity.cs#L38)
 
 ```csharp
 void NameStringableIndexUpdated()

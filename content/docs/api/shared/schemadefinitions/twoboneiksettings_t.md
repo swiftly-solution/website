@@ -10,7 +10,7 @@ public interface TwoBoneIKSettings_t : ISchemaClass<TwoBoneIKSettings_t>, ISchem
 
 ## Properties
 
-**AlwaysUseFallbackHinge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L30)
+### **AlwaysUseFallbackHinge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L30)
 
 ```csharp
 ref bool AlwaysUseFallbackHinge { get; }
@@ -20,7 +20,7 @@ ref bool AlwaysUseFallbackHinge { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ConstrainTwist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L42)
+### **ConstrainTwist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L42)
 
 ```csharp
 ref bool ConstrainTwist { get; }
@@ -30,7 +30,7 @@ ref bool ConstrainTwist { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EndBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L38)
+### **EndBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L38)
 
 ```csharp
 ref int EndBoneIndex { get; }
@@ -40,7 +40,7 @@ ref int EndBoneIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EndEffectorAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L18)
+### **EndEffectorAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L18)
 
 ```csharp
 CAnimAttachment EndEffectorAttachment { get; }
@@ -50,7 +50,7 @@ CAnimAttachment EndEffectorAttachment { get; }
 
 - [CAnimAttachment](/docs/api/shared/schemadefinitions/canimattachment)
 
-**EndEffectorType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L16)
+### **EndEffectorType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L16)
 
 ```csharp
 ref IkEndEffectorType EndEffectorType { get; }
@@ -60,7 +60,7 @@ ref IkEndEffectorType EndEffectorType { get; }
 
 - [IkEndEffectorType](/docs/api/shared/schemadefinitions/ikendeffectortype)
 
-**FixedBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L34)
+### **FixedBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L34)
 
 ```csharp
 ref int FixedBoneIndex { get; }
@@ -70,7 +70,7 @@ ref int FixedBoneIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LsFallbackHingeAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L32)
+### **LsFallbackHingeAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L32)
 
 ```csharp
 ref Vector LsFallbackHingeAxis { get; }
@@ -80,7 +80,7 @@ ref Vector LsFallbackHingeAxis { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**MatchTargetOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L40)
+### **MatchTargetOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L40)
 
 ```csharp
 ref bool MatchTargetOrientation { get; }
@@ -90,7 +90,7 @@ ref bool MatchTargetOrientation { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxTwist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L44)
+### **MaxTwist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L44)
 
 ```csharp
 ref float MaxTwist { get; }
@@ -100,7 +100,7 @@ ref float MaxTwist { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MiddleBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L36)
+### **MiddleBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L36)
 
 ```csharp
 ref int MiddleBoneIndex { get; }
@@ -110,7 +110,7 @@ ref int MiddleBoneIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PositionParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L26)
+### **PositionParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L26)
 
 ```csharp
 CAnimParamHandle PositionParam { get; }
@@ -120,7 +120,7 @@ CAnimParamHandle PositionParam { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**RotationParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L28)
+### **RotationParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L28)
 
 ```csharp
 CAnimParamHandle RotationParam { get; }
@@ -130,7 +130,7 @@ CAnimParamHandle RotationParam { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**TargetAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L22)
+### **TargetAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L22)
 
 ```csharp
 CAnimAttachment TargetAttachment { get; }
@@ -140,7 +140,7 @@ CAnimAttachment TargetAttachment { get; }
 
 - [CAnimAttachment](/docs/api/shared/schemadefinitions/canimattachment)
 
-**TargetBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L24)
+### **TargetBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L24)
 
 ```csharp
 ref int TargetBoneIndex { get; }
@@ -150,7 +150,7 @@ ref int TargetBoneIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TargetType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L20)
+### **TargetType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TwoBoneIKSettings_t.cs#L20)
 
 ```csharp
 ref IkTargetType TargetType { get; }

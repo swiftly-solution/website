@@ -10,7 +10,7 @@ public interface CPulse_Chunk : ISchemaClass<CPulse_Chunk>, ISchemaField, ISchem
 
 ## Properties
 
-**InstructionEditorIDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L23)
+### **InstructionEditorIDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L23)
 
 ```csharp
 SchemaUntypedField InstructionEditorIDs { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField InstructionEditorIDs { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Instructions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L17)
+### **Instructions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L17)
 
 ```csharp
 SchemaUntypedField Instructions { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField Instructions { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Registers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L20)
+### **Registers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L20)
 
 ```csharp
 SchemaUntypedField Registers { get; }

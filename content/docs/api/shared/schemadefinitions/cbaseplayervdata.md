@@ -10,7 +10,7 @@ public interface CBasePlayerVData : CEntitySubclassVDataBase, ISchemaClass<CEnti
 
 ## Properties
 
-**ArmDamageMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L25)
+### **ArmDamageMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L25)
 
 ```csharp
 CSkillFloat ArmDamageMultiplier { get; }
@@ -20,7 +20,7 @@ CSkillFloat ArmDamageMultiplier { get; }
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
-**ChestDamageMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L21)
+### **ChestDamageMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L21)
 
 ```csharp
 CSkillFloat ChestDamageMultiplier { get; }
@@ -30,7 +30,7 @@ CSkillFloat ChestDamageMultiplier { get; }
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
-**CrouchTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L43)
+### **CrouchTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L43)
 
 ```csharp
 ref float CrouchTime { get; }
@@ -40,7 +40,7 @@ ref float CrouchTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DrowningDamageInitial** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L33)
+### **DrowningDamageInitial** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L33)
 
 ```csharp
 ref int DrowningDamageInitial { get; }
@@ -50,7 +50,7 @@ ref int DrowningDamageInitial { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DrowningDamageInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L31)
+### **DrowningDamageInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L31)
 
 ```csharp
 ref float DrowningDamageInterval { get; }
@@ -60,7 +60,7 @@ ref float DrowningDamageInterval { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DrowningDamageMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L35)
+### **DrowningDamageMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L35)
 
 ```csharp
 ref int DrowningDamageMax { get; }
@@ -70,7 +70,7 @@ ref int DrowningDamageMax { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HeadDamageMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L19)
+### **HeadDamageMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L19)
 
 ```csharp
 CSkillFloat HeadDamageMultiplier { get; }
@@ -80,7 +80,7 @@ CSkillFloat HeadDamageMultiplier { get; }
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
-**HoldBreathTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L29)
+### **HoldBreathTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L29)
 
 ```csharp
 ref float HoldBreathTime { get; }
@@ -90,7 +90,7 @@ ref float HoldBreathTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LegDamageMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L27)
+### **LegDamageMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L27)
 
 ```csharp
 CSkillFloat LegDamageMultiplier { get; }
@@ -100,7 +100,7 @@ CSkillFloat LegDamageMultiplier { get; }
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
-**ModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L17)
+### **ModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L17)
 
 ```csharp
 SchemaUntypedField ModelName { get; }
@@ -110,7 +110,7 @@ SchemaUntypedField ModelName { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**StomachDamageMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L23)
+### **StomachDamageMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L23)
 
 ```csharp
 CSkillFloat StomachDamageMultiplier { get; }
@@ -120,7 +120,7 @@ CSkillFloat StomachDamageMultiplier { get; }
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
-**UseAngleTolerance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L41)
+### **UseAngleTolerance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L41)
 
 ```csharp
 ref float UseAngleTolerance { get; }
@@ -130,7 +130,7 @@ ref float UseAngleTolerance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UseRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L39)
+### **UseRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L39)
 
 ```csharp
 ref float UseRange { get; }
@@ -140,7 +140,7 @@ ref float UseRange { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WaterSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L37)
+### **WaterSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerVData.cs#L37)
 
 ```csharp
 ref int WaterSpeed { get; }

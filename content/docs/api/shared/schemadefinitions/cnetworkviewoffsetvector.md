@@ -10,7 +10,7 @@ public interface CNetworkViewOffsetVector : ISchemaClass<CNetworkViewOffsetVecto
 
 ## Properties
 
-**X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L16)
+### **X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L16)
 
 ```csharp
 ref CNetworkedQuantizedFloat X { get; }
@@ -20,7 +20,7 @@ ref CNetworkedQuantizedFloat X { get; }
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 
-**Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L18)
+### **Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L18)
 
 ```csharp
 ref CNetworkedQuantizedFloat Y { get; }
@@ -30,7 +30,7 @@ ref CNetworkedQuantizedFloat Y { get; }
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 
-**Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L20)
+### **Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L20)
 
 ```csharp
 ref CNetworkedQuantizedFloat Z { get; }
@@ -42,19 +42,19 @@ ref CNetworkedQuantizedFloat Z { get; }
 
 ## Methods
 
-**XUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L22)
+### **XUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L22)
 
 ```csharp
 void XUpdated()
 ```
 
-**YUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L23)
+### **YUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L23)
 
 ```csharp
 void YUpdated()
 ```
 
-**ZUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L24)
+### **ZUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkViewOffsetVector.cs#L24)
 
 ```csharp
 void ZUpdated()

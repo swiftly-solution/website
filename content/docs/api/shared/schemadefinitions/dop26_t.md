@@ -10,7 +10,7 @@ public interface Dop26_t : ISchemaClass<Dop26_t>, ISchemaField, ISchemaClass, IN
 
 ## Properties
 
-**Support** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/Dop26_t.cs#L16)
+### **Support** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/Dop26_t.cs#L16)
 
 ```csharp
 ISchemaFixedArray<float> Support { get; }

@@ -10,7 +10,7 @@ public interface CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule
 
 ## Properties
 
-**RuleDescription** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule.cs#L16)
+### **RuleDescription** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule.cs#L16)
 
 ```csharp
 string RuleDescription { get; set; }
@@ -20,7 +20,7 @@ string RuleDescription { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**WorkshopFileId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule.cs#L13)
+### **WorkshopFileId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule.cs#L13)
 
 ```csharp
 ulong WorkshopFileId { get; set; }

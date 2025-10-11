@@ -10,7 +10,7 @@ public interface C_OP_RampCPLinearRandom : CParticleFunctionPreEmission, CPartic
 
 ## Properties
 
-**OutControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampCPLinearRandom.cs#L16)
+### **OutControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampCPLinearRandom.cs#L16)
 
 ```csharp
 ref int OutControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int OutControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RateMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampCPLinearRandom.cs#L20)
+### **RateMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampCPLinearRandom.cs#L20)
 
 ```csharp
 ref Vector RateMax { get; }
@@ -30,7 +30,7 @@ ref Vector RateMax { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RateMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampCPLinearRandom.cs#L18)
+### **RateMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampCPLinearRandom.cs#L18)
 
 ```csharp
 ref Vector RateMin { get; }

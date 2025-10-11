@@ -10,7 +10,7 @@ public interface CMsgSosStopSoundEvent : ITypedProtobuf<CMsgSosStopSoundEvent>, 
 
 ## Properties
 
-**SoundeventGuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStopSoundEvent.cs#L18)
+### **SoundeventGuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStopSoundEvent.cs#L18)
 
 ```csharp
 int SoundeventGuid { get; set; }

@@ -10,7 +10,7 @@ public interface SkeletonAnimCapture_t__FrameStamp_t : ISchemaClass<SkeletonAnim
 
 ## Properties
 
-**CurTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L24)
+### **CurTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L24)
 
 ```csharp
 ref float CurTime { get; }
@@ -20,7 +20,7 @@ ref float CurTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EntitySimTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L18)
+### **EntitySimTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L18)
 
 ```csharp
 ref float EntitySimTime { get; }
@@ -30,7 +30,7 @@ ref float EntitySimTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FrameCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L28)
+### **FrameCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L28)
 
 ```csharp
 ref int FrameCount { get; }
@@ -40,7 +40,7 @@ ref int FrameCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Predicted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L22)
+### **Predicted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L22)
 
 ```csharp
 ref bool Predicted { get; }
@@ -50,7 +50,7 @@ ref bool Predicted { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L26)
+### **RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L26)
 
 ```csharp
 ref float RealTime { get; }
@@ -60,7 +60,7 @@ ref float RealTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TeleportTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L20)
+### **TeleportTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L20)
 
 ```csharp
 ref bool TeleportTick { get; }
@@ -70,7 +70,7 @@ ref bool TeleportTick { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TickCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L30)
+### **TickCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L30)
 
 ```csharp
 ref int TickCount { get; }
@@ -80,7 +80,7 @@ ref int TickCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L16)
+### **Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__FrameStamp_t.cs#L16)
 
 ```csharp
 ref float Time { get; }

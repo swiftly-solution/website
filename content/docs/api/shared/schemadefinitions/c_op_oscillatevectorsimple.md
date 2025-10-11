@@ -10,7 +10,7 @@ public interface C_OP_OscillateVectorSimple : CParticleFunctionOperator, CPartic
 
 ## Properties
 
-**Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L20)
+### **Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t Field { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t Field { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Frequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L18)
+### **Frequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L18)
 
 ```csharp
 ref Vector Frequency { get; }
@@ -30,7 +30,7 @@ ref Vector Frequency { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L26)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L26)
 
 ```csharp
 ref bool Offset { get; }
@@ -40,7 +40,7 @@ ref bool Offset { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OscAdd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L24)
+### **OscAdd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L24)
 
 ```csharp
 ref float OscAdd { get; }
@@ -50,7 +50,7 @@ ref float OscAdd { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OscMult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L22)
+### **OscMult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L22)
 
 ```csharp
 ref float OscMult { get; }
@@ -60,7 +60,7 @@ ref float OscMult { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Rate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L16)
+### **Rate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateVectorSimple.cs#L16)
 
 ```csharp
 ref Vector Rate { get; }

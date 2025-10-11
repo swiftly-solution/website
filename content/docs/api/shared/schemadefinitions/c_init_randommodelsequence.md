@@ -10,7 +10,7 @@ public interface C_INIT_RandomModelSequence : CParticleFunctionInitializer, CPar
 
 ## Properties
 
-**ActivityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomModelSequence.cs#L16)
+### **ActivityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomModelSequence.cs#L16)
 
 ```csharp
 string ActivityName { get; set; }
@@ -20,7 +20,7 @@ string ActivityName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomModelSequence.cs#L20)
+### **Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomModelSequence.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -30,7 +30,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
-**SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomModelSequence.cs#L18)
+### **SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomModelSequence.cs#L18)
 
 ```csharp
 string SequenceName { get; set; }

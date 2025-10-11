@@ -10,7 +10,7 @@ public interface CBasePlayerWeaponVData : CEntitySubclassVDataBase, ISchemaClass
 
 ## Properties
 
-**AllowFlipping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L24)
+### **AllowFlipping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L24)
 
 ```csharp
 ref bool AllowFlipping { get; }
@@ -20,7 +20,7 @@ ref bool AllowFlipping { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AutoSwitchFrom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L67)
+### **AutoSwitchFrom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L67)
 
 ```csharp
 ref bool AutoSwitchFrom { get; }
@@ -30,7 +30,7 @@ ref bool AutoSwitchFrom { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AutoSwitchTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L65)
+### **AutoSwitchTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L65)
 
 ```csharp
 ref bool AutoSwitchTo { get; }
@@ -40,7 +40,7 @@ ref bool AutoSwitchTo { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**BarrelSmokeParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L35)
+### **BarrelSmokeParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L35)
 
 ```csharp
 SchemaUntypedField BarrelSmokeParticle { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField BarrelSmokeParticle { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**BuiltRightHanded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L22)
+### **BuiltRightHanded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L22)
 
 ```csharp
 ref bool BuiltRightHanded { get; }
@@ -60,7 +60,7 @@ ref bool BuiltRightHanded { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DefaultClip1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L55)
+### **DefaultClip1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L55)
 
 ```csharp
 ref int DefaultClip1 { get; }
@@ -70,7 +70,7 @@ ref int DefaultClip1 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DefaultClip2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L57)
+### **DefaultClip2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L57)
 
 ```csharp
 ref int DefaultClip2 { get; }
@@ -80,7 +80,7 @@ ref int DefaultClip2 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DropSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L71)
+### **DropSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L71)
 
 ```csharp
 ref float DropSpeed { get; }
@@ -90,7 +90,7 @@ ref float DropSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L45)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L45)
 
 ```csharp
 ref ItemFlagTypes_t Flags { get; }
@@ -100,7 +100,7 @@ ref ItemFlagTypes_t Flags { get; }
 
 - [ItemFlagTypes_t](/docs/api/shared/schemadefinitions/itemflagtypes_t)
 
-**LinkedCooldowns** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L43)
+### **LinkedCooldowns** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L43)
 
 ```csharp
 ref bool LinkedCooldowns { get; }
@@ -110,7 +110,7 @@ ref bool LinkedCooldowns { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxClip1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L51)
+### **MaxClip1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L51)
 
 ```csharp
 ref int MaxClip1 { get; }
@@ -120,7 +120,7 @@ ref int MaxClip1 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MaxClip2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L53)
+### **MaxClip2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L53)
 
 ```csharp
 ref int MaxClip2 { get; }
@@ -130,7 +130,7 @@ ref int MaxClip2 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MuzzleAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L27)
+### **MuzzleAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L27)
 
 ```csharp
 SchemaUntypedField MuzzleAttachment { get; }
@@ -140,7 +140,7 @@ SchemaUntypedField MuzzleAttachment { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**MuzzleFlashParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L30)
+### **MuzzleFlashParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L30)
 
 ```csharp
 SchemaUntypedField MuzzleFlashParticle { get; }
@@ -150,7 +150,7 @@ SchemaUntypedField MuzzleFlashParticle { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**MuzzleFlashParticleConfig** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L32)
+### **MuzzleFlashParticleConfig** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L32)
 
 ```csharp
 string MuzzleFlashParticleConfig { get; set; }
@@ -160,7 +160,7 @@ string MuzzleFlashParticleConfig { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MuzzleSmokeDecrementRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L41)
+### **MuzzleSmokeDecrementRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L41)
 
 ```csharp
 ref float MuzzleSmokeDecrementRate { get; }
@@ -170,7 +170,7 @@ ref float MuzzleSmokeDecrementRate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MuzzleSmokeShotThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L37)
+### **MuzzleSmokeShotThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L37)
 
 ```csharp
 ref byte MuzzleSmokeShotThreshold { get; }
@@ -180,7 +180,7 @@ ref byte MuzzleSmokeShotThreshold { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**MuzzleSmokeTimeout** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L39)
+### **MuzzleSmokeTimeout** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L39)
 
 ```csharp
 ref float MuzzleSmokeTimeout { get; }
@@ -190,7 +190,7 @@ ref float MuzzleSmokeTimeout { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L75)
+### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L75)
 
 ```csharp
 ref int Position { get; }
@@ -200,7 +200,7 @@ ref int Position { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PrimaryAmmoType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L47)
+### **PrimaryAmmoType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L47)
 
 ```csharp
 AmmoIndex_t PrimaryAmmoType { get; }
@@ -210,7 +210,7 @@ AmmoIndex_t PrimaryAmmoType { get; }
 
 - [AmmoIndex_t](/docs/api/shared/schemadefinitions/ammoindex_t)
 
-**ReserveAmmoAsClips** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L59)
+### **ReserveAmmoAsClips** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L59)
 
 ```csharp
 ref bool ReserveAmmoAsClips { get; }
@@ -220,7 +220,7 @@ ref bool ReserveAmmoAsClips { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RumbleEffect** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L69)
+### **RumbleEffect** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L69)
 
 ```csharp
 ref RumbleEffect_t RumbleEffect { get; }
@@ -230,7 +230,7 @@ ref RumbleEffect_t RumbleEffect { get; }
 
 - [RumbleEffect_t](/docs/api/shared/schemadefinitions/rumbleeffect_t)
 
-**SecondaryAmmoType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L49)
+### **SecondaryAmmoType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L49)
 
 ```csharp
 AmmoIndex_t SecondaryAmmoType { get; }
@@ -240,7 +240,7 @@ AmmoIndex_t SecondaryAmmoType { get; }
 
 - [AmmoIndex_t](/docs/api/shared/schemadefinitions/ammoindex_t)
 
-**ShootSounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L78)
+### **ShootSounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L78)
 
 ```csharp
 SchemaUntypedField ShootSounds { get; }
@@ -250,7 +250,7 @@ SchemaUntypedField ShootSounds { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L73)
+### **Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L73)
 
 ```csharp
 ref int Slot { get; }
@@ -260,7 +260,7 @@ ref int Slot { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ToolsOnlyOwnerModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L20)
+### **ToolsOnlyOwnerModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L20)
 
 ```csharp
 SchemaUntypedField ToolsOnlyOwnerModelName { get; }
@@ -270,7 +270,7 @@ SchemaUntypedField ToolsOnlyOwnerModelName { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**TreatAsSingleClip** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L61)
+### **TreatAsSingleClip** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L61)
 
 ```csharp
 ref bool TreatAsSingleClip { get; }
@@ -280,7 +280,7 @@ ref bool TreatAsSingleClip { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L63)
+### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L63)
 
 ```csharp
 ref int Weight { get; }
@@ -290,7 +290,7 @@ ref int Weight { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**WorldModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L17)
+### **WorldModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlayerWeaponVData.cs#L17)
 
 ```csharp
 SchemaUntypedField WorldModel { get; }

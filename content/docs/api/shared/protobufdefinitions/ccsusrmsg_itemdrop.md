@@ -10,7 +10,7 @@ public interface CCSUsrMsg_ItemDrop : ITypedProtobuf<CCSUsrMsg_ItemDrop>, INativ
 
 ## Properties
 
-**Death** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ItemDrop.cs#L21)
+### **Death** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ItemDrop.cs#L21)
 
 ```csharp
 bool Death { get; set; }
@@ -20,7 +20,7 @@ bool Death { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Itemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ItemDrop.cs#L18)
+### **Itemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ItemDrop.cs#L18)
 
 ```csharp
 long Itemid { get; set; }

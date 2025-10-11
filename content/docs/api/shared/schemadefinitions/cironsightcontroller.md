@@ -10,7 +10,7 @@ public interface CIronSightController : ISchemaClass<CIronSightController>, ISch
 
 ## Properties
 
-**IronSightAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L18)
+### **IronSightAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L18)
 
 ```csharp
 ref float IronSightAmount { get; }
@@ -20,7 +20,7 @@ ref float IronSightAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IronSightAmountBiased** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L22)
+### **IronSightAmountBiased** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L22)
 
 ```csharp
 ref float IronSightAmountBiased { get; }
@@ -30,7 +30,7 @@ ref float IronSightAmountBiased { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IronSightAmountGained** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L20)
+### **IronSightAmountGained** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L20)
 
 ```csharp
 ref float IronSightAmountGained { get; }
@@ -40,7 +40,7 @@ ref float IronSightAmountGained { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IronSightAvailable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L16)
+### **IronSightAvailable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIronSightController.cs#L16)
 
 ```csharp
 ref bool IronSightAvailable { get; }

@@ -10,7 +10,7 @@ public interface CCommunity_TerminateGamePersonalDataEntries_Request : ITypedPro
 
 ## Properties
 
-**Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_TerminateGamePersonalDataEntries_Request.cs#L13)
+### **Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_TerminateGamePersonalDataEntries_Request.cs#L13)
 
 ```csharp
 uint Appid { get; set; }
@@ -20,7 +20,7 @@ uint Appid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_TerminateGamePersonalDataEntries_Request.cs#L16)
+### **Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_TerminateGamePersonalDataEntries_Request.cs#L16)
 
 ```csharp
 ulong Steamid { get; set; }

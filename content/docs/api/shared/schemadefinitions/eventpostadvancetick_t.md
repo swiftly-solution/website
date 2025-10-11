@@ -10,7 +10,7 @@ public interface EventPostAdvanceTick_t : EventSimulate_t, ISchemaClass<EventSim
 
 ## Properties
 
-**CurrentTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventPostAdvanceTick_t.cs#L16)
+### **CurrentTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventPostAdvanceTick_t.cs#L16)
 
 ```csharp
 ref int CurrentTick { get; }
@@ -20,7 +20,7 @@ ref int CurrentTick { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CurrentTickThisFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventPostAdvanceTick_t.cs#L18)
+### **CurrentTickThisFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventPostAdvanceTick_t.cs#L18)
 
 ```csharp
 ref int CurrentTickThisFrame { get; }
@@ -30,7 +30,7 @@ ref int CurrentTickThisFrame { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TotalTicks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventPostAdvanceTick_t.cs#L22)
+### **TotalTicks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventPostAdvanceTick_t.cs#L22)
 
 ```csharp
 ref int TotalTicks { get; }
@@ -40,7 +40,7 @@ ref int TotalTicks { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TotalTicksThisFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventPostAdvanceTick_t.cs#L20)
+### **TotalTicksThisFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventPostAdvanceTick_t.cs#L20)
 
 ```csharp
 ref int TotalTicksThisFrame { get; }

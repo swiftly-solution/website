@@ -10,7 +10,7 @@ public interface C_OP_RepeatedTriggerChildGroup : CParticleFunctionPreEmission, 
 
 ## Properties
 
-**ChildGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L16)
+### **ChildGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L16)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -20,7 +20,7 @@ ref int ChildGroupID { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ClusterCooldown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L22)
+### **ClusterCooldown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput ClusterCooldown { get; }
@@ -30,7 +30,7 @@ CParticleCollectionFloatInput ClusterCooldown { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ClusterRefireTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L18)
+### **ClusterRefireTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput ClusterRefireTime { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput ClusterRefireTime { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ClusterSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L20)
+### **ClusterSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput ClusterSize { get; }
@@ -50,7 +50,7 @@ CParticleCollectionFloatInput ClusterSize { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**LimitChildCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L24)
+### **LimitChildCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RepeatedTriggerChildGroup.cs#L24)
 
 ```csharp
 ref bool LimitChildCount { get; }

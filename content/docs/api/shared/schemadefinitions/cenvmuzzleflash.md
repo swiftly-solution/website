@@ -10,7 +10,7 @@ public interface CEnvMuzzleFlash : CPointEntity, CBaseEntity, CEntityInstance, I
 
 ## Properties
 
-**ParentAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvMuzzleFlash.cs#L18)
+### **ParentAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvMuzzleFlash.cs#L18)
 
 ```csharp
 string ParentAttachment { get; set; }
@@ -20,7 +20,7 @@ string ParentAttachment { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvMuzzleFlash.cs#L16)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvMuzzleFlash.cs#L16)
 
 ```csharp
 ref float Scale { get; }

@@ -10,7 +10,7 @@ public interface CWayPointHelperUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBa
 
 ## Properties
 
-**EndCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L18)
+### **EndCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L18)
 
 ```csharp
 ref float EndCycle { get; }
@@ -20,7 +20,7 @@ ref float EndCycle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OnlyGoals** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L20)
+### **OnlyGoals** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L20)
 
 ```csharp
 ref bool OnlyGoals { get; }
@@ -30,7 +30,7 @@ ref bool OnlyGoals { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PreventOvershoot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L22)
+### **PreventOvershoot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L22)
 
 ```csharp
 ref bool PreventOvershoot { get; }
@@ -40,7 +40,7 @@ ref bool PreventOvershoot { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PreventUndershoot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L24)
+### **PreventUndershoot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L24)
 
 ```csharp
 ref bool PreventUndershoot { get; }
@@ -50,7 +50,7 @@ ref bool PreventUndershoot { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L16)
+### **StartCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWayPointHelperUpdateNode.cs#L16)
 
 ```csharp
 ref float StartCycle { get; }

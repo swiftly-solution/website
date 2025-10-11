@@ -10,7 +10,7 @@ public interface FeSourceEdge_t : ISchemaClass<FeSourceEdge_t>, ISchemaField, IS
 
 ## Properties
 
-**Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSourceEdge_t.cs#L16)
+### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSourceEdge_t.cs#L16)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }

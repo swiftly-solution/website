@@ -10,7 +10,7 @@ public struct AttackerInfo_t
 
 ## Fields
 
-**AttackerPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L14)
+### **AttackerPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L14)
 
 ```csharp
 public CHandle<CCSPlayerPawn> AttackerPawn
@@ -20,7 +20,7 @@ public CHandle<CCSPlayerPawn> AttackerPawn
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
-**AttackerPlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L15)
+### **AttackerPlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L15)
 
 ```csharp
 public int AttackerPlayerSlot
@@ -30,7 +30,7 @@ public int AttackerPlayerSlot
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**IsPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L12)
+### **IsPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L12)
 
 ```csharp
 public bool IsPawn
@@ -40,7 +40,7 @@ public bool IsPawn
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsWorld** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L13)
+### **IsWorld** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L13)
 
 ```csharp
 public bool IsWorld
@@ -50,7 +50,7 @@ public bool IsWorld
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NeedInit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L11)
+### **NeedInit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L11)
 
 ```csharp
 public bool NeedInit
@@ -60,7 +60,7 @@ public bool NeedInit
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L17)
+### **Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L17)
 
 ```csharp
 public int Team
@@ -70,7 +70,7 @@ public int Team
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TeamChecked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L16)
+### **TeamChecked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L16)
 
 ```csharp
 public int TeamChecked

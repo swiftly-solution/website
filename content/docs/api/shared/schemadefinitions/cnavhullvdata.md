@@ -10,7 +10,7 @@ public interface CNavHullVData : ISchemaClass<CNavHullVData>, ISchemaField, ISch
 
 ## Properties
 
-**AgentBorderErosion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L40)
+### **AgentBorderErosion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L40)
 
 ```csharp
 ref int AgentBorderErosion { get; }
@@ -20,7 +20,7 @@ ref int AgentBorderErosion { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**AgentCrawlEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L26)
+### **AgentCrawlEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L26)
 
 ```csharp
 ref bool AgentCrawlEnabled { get; }
@@ -30,7 +30,7 @@ ref bool AgentCrawlEnabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AgentCrawlHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L28)
+### **AgentCrawlHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L28)
 
 ```csharp
 ref float AgentCrawlHeight { get; }
@@ -40,7 +40,7 @@ ref float AgentCrawlHeight { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AgentEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L16)
+### **AgentEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L16)
 
 ```csharp
 ref bool AgentEnabled { get; }
@@ -50,7 +50,7 @@ ref bool AgentEnabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AgentHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L20)
+### **AgentHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L20)
 
 ```csharp
 ref float AgentHeight { get; }
@@ -60,7 +60,7 @@ ref float AgentHeight { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AgentMaxClimb** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L30)
+### **AgentMaxClimb** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L30)
 
 ```csharp
 ref float AgentMaxClimb { get; }
@@ -70,7 +70,7 @@ ref float AgentMaxClimb { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AgentMaxJumpDownDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L34)
+### **AgentMaxJumpDownDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L34)
 
 ```csharp
 ref float AgentMaxJumpDownDist { get; }
@@ -80,7 +80,7 @@ ref float AgentMaxJumpDownDist { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AgentMaxJumpHorizDistBase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L36)
+### **AgentMaxJumpHorizDistBase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L36)
 
 ```csharp
 ref float AgentMaxJumpHorizDistBase { get; }
@@ -90,7 +90,7 @@ ref float AgentMaxJumpHorizDistBase { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AgentMaxJumpUpDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L38)
+### **AgentMaxJumpUpDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L38)
 
 ```csharp
 ref float AgentMaxJumpUpDist { get; }
@@ -100,7 +100,7 @@ ref float AgentMaxJumpUpDist { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AgentMaxSlope** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L32)
+### **AgentMaxSlope** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L32)
 
 ```csharp
 ref int AgentMaxSlope { get; }
@@ -110,7 +110,7 @@ ref int AgentMaxSlope { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**AgentRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L18)
+### **AgentRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L18)
 
 ```csharp
 ref float AgentRadius { get; }
@@ -120,7 +120,7 @@ ref float AgentRadius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AgentShortHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L24)
+### **AgentShortHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L24)
 
 ```csharp
 ref float AgentShortHeight { get; }
@@ -130,7 +130,7 @@ ref float AgentShortHeight { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AgentShortHeightEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L22)
+### **AgentShortHeightEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L22)
 
 ```csharp
 ref bool AgentShortHeightEnabled { get; }
@@ -140,7 +140,7 @@ ref bool AgentShortHeightEnabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FlowMapGenerationEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L42)
+### **FlowMapGenerationEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L42)
 
 ```csharp
 ref bool FlowMapGenerationEnabled { get; }
@@ -150,7 +150,7 @@ ref bool FlowMapGenerationEnabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FlowMapNodeMaxRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L44)
+### **FlowMapNodeMaxRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullVData.cs#L44)
 
 ```csharp
 ref float FlowMapNodeMaxRadius { get; }

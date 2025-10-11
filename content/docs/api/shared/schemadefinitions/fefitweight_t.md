@@ -10,7 +10,7 @@ public interface FeFitWeight_t : ISchemaClass<FeFitWeight_t>, ISchemaField, ISch
 
 ## Properties
 
-**Dummy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitWeight_t.cs#L20)
+### **Dummy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitWeight_t.cs#L20)
 
 ```csharp
 ref ushort Dummy { get; }
@@ -20,7 +20,7 @@ ref ushort Dummy { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitWeight_t.cs#L18)
+### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitWeight_t.cs#L18)
 
 ```csharp
 ref ushort Node { get; }
@@ -30,7 +30,7 @@ ref ushort Node { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitWeight_t.cs#L16)
+### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeFitWeight_t.cs#L16)
 
 ```csharp
 ref float Weight { get; }

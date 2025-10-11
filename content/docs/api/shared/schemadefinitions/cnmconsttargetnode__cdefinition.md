@@ -10,7 +10,7 @@ public interface CNmConstTargetNode__CDefinition : CNmTargetValueNode__CDefiniti
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmConstTargetNode__CDefinition.cs#L16)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmConstTargetNode__CDefinition.cs#L16)
 
 ```csharp
 CNmTarget Value { get; }

@@ -10,7 +10,7 @@ public interface CVectorQuantizer : ISchemaClass<CVectorQuantizer>, ISchemaField
 
 ## Properties
 
-**CentroidVectors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorQuantizer.cs#L16)
+### **CentroidVectors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorQuantizer.cs#L16)
 
 ```csharp
 ref CUtlVector<float> CentroidVectors { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<float> CentroidVectors { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
+- [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**Centroids** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorQuantizer.cs#L18)
+### **Centroids** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorQuantizer.cs#L18)
 
 ```csharp
 ref int Centroids { get; }
@@ -30,7 +30,7 @@ ref int Centroids { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Dimensions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorQuantizer.cs#L20)
+### **Dimensions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorQuantizer.cs#L20)
 
 ```csharp
 ref int Dimensions { get; }

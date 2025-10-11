@@ -10,7 +10,7 @@ public interface NavGravity_t : ISchemaClass<NavGravity_t>, ISchemaField, ISchem
 
 ## Properties
 
-**Default** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NavGravity_t.cs#L18)
+### **Default** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NavGravity_t.cs#L18)
 
 ```csharp
 ref bool Default { get; }
@@ -20,7 +20,7 @@ ref bool Default { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Gravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NavGravity_t.cs#L16)
+### **Gravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NavGravity_t.cs#L16)
 
 ```csharp
 ref Vector Gravity { get; }

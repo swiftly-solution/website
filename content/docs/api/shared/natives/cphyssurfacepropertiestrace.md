@@ -10,7 +10,7 @@ public struct CPhysSurfacePropertiesTrace
 
 ## Fields
 
-**AudioParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L17)
+### **AudioParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L17)
 
 ```csharp
 public CPhysSurfacePropertiesAudioTrace AudioParams
@@ -20,7 +20,7 @@ public CPhysSurfacePropertiesAudioTrace AudioParams
 
 - [CPhysSurfacePropertiesAudioTrace](/docs/api/shared/natives/cphyssurfacepropertiesaudiotrace)
 
-**AudioSounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L16)
+### **AudioSounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L16)
 
 ```csharp
 public CPhysSurfacePropertiesSoundNamesTrace AudioSounds
@@ -30,7 +30,7 @@ public CPhysSurfacePropertiesSoundNamesTrace AudioSounds
 
 - [CPhysSurfacePropertiesSoundNamesTrace](/docs/api/shared/natives/cphyssurfacepropertiessoundnamestrace)
 
-**BaseListIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L12)
+### **BaseListIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L12)
 
 ```csharp
 public int BaseListIndex
@@ -40,7 +40,7 @@ public int BaseListIndex
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**BaseNameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L10)
+### **BaseNameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L10)
 
 ```csharp
 public uint BaseNameHash
@@ -50,7 +50,7 @@ public uint BaseNameHash
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L14)
+### **Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L14)
 
 ```csharp
 public CUtlString Description
@@ -60,7 +60,7 @@ public CUtlString Description
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**Hidden** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L13)
+### **Hidden** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L13)
 
 ```csharp
 public bool Hidden
@@ -70,7 +70,7 @@ public bool Hidden
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ListIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L11)
+### **ListIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L11)
 
 ```csharp
 public int ListIndex
@@ -80,7 +80,7 @@ public int ListIndex
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L8)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L8)
 
 ```csharp
 public CUtlString Name
@@ -90,7 +90,7 @@ public CUtlString Name
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
-**NameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L9)
+### **NameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L9)
 
 ```csharp
 public uint NameHash
@@ -100,7 +100,7 @@ public uint NameHash
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Physics** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L15)
+### **Physics** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfaceProperties.cs#L15)
 
 ```csharp
 public CPhysSurfacePropertiesPhysicsTrace Physics

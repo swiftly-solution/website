@@ -10,7 +10,7 @@ public interface CNmEntityAttributeFloatEvent : CNmEntityAttributeEventBase, CNm
 
 ## Properties
 
-**FloatValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEntityAttributeFloatEvent.cs#L17)
+### **FloatValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEntityAttributeFloatEvent.cs#L17)
 
 ```csharp
 SchemaUntypedField FloatValue { get; }

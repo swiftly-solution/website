@@ -10,7 +10,7 @@ public interface CParticleFunctionInitializer : CParticleFunction, ISchemaClass<
 
 ## Properties
 
-**AssociatedEmitterIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionInitializer.cs#L16)
+### **AssociatedEmitterIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionInitializer.cs#L16)
 
 ```csharp
 ref int AssociatedEmitterIndex { get; }

@@ -10,7 +10,7 @@ public interface MatchEndItemUpdates : ITypedProtobuf<MatchEndItemUpdates>, INat
 
 ## Properties
 
-**ItemAttrDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MatchEndItemUpdates.cs#L16)
+### **ItemAttrDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MatchEndItemUpdates.cs#L16)
 
 ```csharp
 uint ItemAttrDefidx { get; set; }
@@ -20,7 +20,7 @@ uint ItemAttrDefidx { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemAttrDeltaValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MatchEndItemUpdates.cs#L19)
+### **ItemAttrDeltaValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MatchEndItemUpdates.cs#L19)
 
 ```csharp
 uint ItemAttrDeltaValue { get; set; }
@@ -30,7 +30,7 @@ uint ItemAttrDeltaValue { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MatchEndItemUpdates.cs#L13)
+### **ItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MatchEndItemUpdates.cs#L13)
 
 ```csharp
 ulong ItemId { get; set; }

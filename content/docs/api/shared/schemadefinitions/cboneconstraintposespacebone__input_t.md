@@ -10,7 +10,7 @@ public interface CBoneConstraintPoseSpaceBone__Input_t : ISchemaClass<CBoneConst
 
 ## Properties
 
-**InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone__Input_t.cs#L16)
+### **InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone__Input_t.cs#L16)
 
 ```csharp
 ref Vector InputValue { get; }
@@ -20,7 +20,7 @@ ref Vector InputValue { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OutputTransformList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone__Input_t.cs#L18)
+### **OutputTransformList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone__Input_t.cs#L18)
 
 ```csharp
 ref CUtlVector<CTransform> OutputTransformList { get; }
@@ -28,5 +28,5 @@ ref CUtlVector<CTransform> OutputTransformList { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CTransform](/docs/api/shared/natives/ctransform)>
+- [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 

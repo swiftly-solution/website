@@ -10,7 +10,7 @@ public interface VMixDynamicsCompressorDesc_t : ISchemaClass<VMixDynamicsCompres
 
 ## Properties
 
-**AttackTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L24)
+### **AttackTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L24)
 
 ```csharp
 ref float AttackTimeMS { get; }
@@ -20,7 +20,7 @@ ref float AttackTimeMS { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CompressionRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L22)
+### **CompressionRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L22)
 
 ```csharp
 ref float CompressionRatio { get; }
@@ -30,7 +30,7 @@ ref float CompressionRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FldbCompressionThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L18)
+### **FldbCompressionThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L18)
 
 ```csharp
 ref float FldbCompressionThreshold { get; }
@@ -40,7 +40,7 @@ ref float FldbCompressionThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FldbKneeWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L20)
+### **FldbKneeWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L20)
 
 ```csharp
 ref float FldbKneeWidth { get; }
@@ -50,7 +50,7 @@ ref float FldbKneeWidth { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FldbOutputGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L16)
+### **FldbOutputGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L16)
 
 ```csharp
 ref float FldbOutputGain { get; }
@@ -60,7 +60,7 @@ ref float FldbOutputGain { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PeakMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L32)
+### **PeakMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L32)
 
 ```csharp
 ref bool PeakMode { get; }
@@ -70,7 +70,7 @@ ref bool PeakMode { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RMSTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L28)
+### **RMSTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L28)
 
 ```csharp
 ref float RMSTimeMS { get; }
@@ -80,7 +80,7 @@ ref float RMSTimeMS { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ReleaseTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L26)
+### **ReleaseTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L26)
 
 ```csharp
 ref float ReleaseTimeMS { get; }
@@ -90,7 +90,7 @@ ref float ReleaseTimeMS { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WetMix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L30)
+### **WetMix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamicsCompressorDesc_t.cs#L30)
 
 ```csharp
 ref float WetMix { get; }

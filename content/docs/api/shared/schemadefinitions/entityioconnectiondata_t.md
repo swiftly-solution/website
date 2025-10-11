@@ -10,7 +10,7 @@ public interface EntityIOConnectionData_t : ISchemaClass<EntityIOConnectionData_
 
 ## Properties
 
-**Delay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L26)
+### **Delay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L26)
 
 ```csharp
 ref float Delay { get; }
@@ -20,7 +20,7 @@ ref float Delay { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InputName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L22)
+### **InputName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L22)
 
 ```csharp
 string InputName { get; set; }
@@ -30,7 +30,7 @@ string InputName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OutputName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L16)
+### **OutputName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L16)
 
 ```csharp
 string OutputName { get; set; }
@@ -40,7 +40,7 @@ string OutputName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OverrideParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L24)
+### **OverrideParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L24)
 
 ```csharp
 string OverrideParam { get; set; }
@@ -50,7 +50,7 @@ string OverrideParam { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ParamMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L31)
+### **ParamMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L31)
 
 ```csharp
 SchemaUntypedField ParamMap { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField ParamMap { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**TargetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L20)
+### **TargetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L20)
 
 ```csharp
 string TargetName { get; set; }
@@ -70,7 +70,7 @@ string TargetName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TargetType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L18)
+### **TargetType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L18)
 
 ```csharp
 ref uint TargetType { get; }
@@ -80,7 +80,7 @@ ref uint TargetType { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TimesToFire** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L28)
+### **TimesToFire** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityIOConnectionData_t.cs#L28)
 
 ```csharp
 ref int TimesToFire { get; }

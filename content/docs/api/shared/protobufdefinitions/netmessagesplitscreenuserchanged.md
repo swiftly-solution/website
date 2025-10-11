@@ -10,7 +10,7 @@ public interface NetMessageSplitscreenUserChanged : ITypedProtobuf<NetMessageSpl
 
 ## Properties
 
-**Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/NetMessageSplitscreenUserChanged.cs#L13)
+### **Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/NetMessageSplitscreenUserChanged.cs#L13)
 
 ```csharp
 uint Slot { get; set; }

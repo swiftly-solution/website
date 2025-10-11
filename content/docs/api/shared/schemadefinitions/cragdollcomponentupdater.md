@@ -10,7 +10,7 @@ public interface CRagdollComponentUpdater : CAnimComponentUpdater, ISchemaClass<
 
 ## Properties
 
-**BoneIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L22)
+### **BoneIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L22)
 
 ```csharp
 ref CUtlVector<int> BoneIndices { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<int> BoneIndices { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
+- [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**BoneNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L24)
+### **BoneNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L24)
 
 ```csharp
 ref CUtlVector<CUtlString> BoneNames { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<CUtlString> BoneNames { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**BoneToWeightIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L29)
+### **BoneToWeightIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L29)
 
 ```csharp
 ref CUtlVector<int> BoneToWeightIndices { get; }
@@ -38,9 +38,9 @@ ref CUtlVector<int> BoneToWeightIndices { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
+- [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**FollowAttachmentNodePaths** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L20)
+### **FollowAttachmentNodePaths** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L20)
 
 ```csharp
 ref CUtlVector FollowAttachmentNodePaths { get; }
@@ -48,9 +48,9 @@ ref CUtlVector FollowAttachmentNodePaths { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**MaxStretch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L35)
+### **MaxStretch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L35)
 
 ```csharp
 ref float MaxStretch { get; }
@@ -60,7 +60,7 @@ ref float MaxStretch { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RagdollNodePaths** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L17)
+### **RagdollNodePaths** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L17)
 
 ```csharp
 ref CUtlVector RagdollNodePaths { get; }
@@ -68,9 +68,9 @@ ref CUtlVector RagdollNodePaths { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**SolidCollisionAtZeroWeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L37)
+### **SolidCollisionAtZeroWeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L37)
 
 ```csharp
 ref bool SolidCollisionAtZeroWeight { get; }
@@ -80,7 +80,7 @@ ref bool SolidCollisionAtZeroWeight { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SpringFrequencyMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L33)
+### **SpringFrequencyMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L33)
 
 ```csharp
 ref float SpringFrequencyMax { get; }
@@ -90,7 +90,7 @@ ref float SpringFrequencyMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SpringFrequencyMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L31)
+### **SpringFrequencyMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L31)
 
 ```csharp
 ref float SpringFrequencyMin { get; }
@@ -100,7 +100,7 @@ ref float SpringFrequencyMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WeightLists** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L27)
+### **WeightLists** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollComponentUpdater.cs#L27)
 
 ```csharp
 ref CUtlVector WeightLists { get; }
@@ -108,5 +108,5 @@ ref CUtlVector WeightLists { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

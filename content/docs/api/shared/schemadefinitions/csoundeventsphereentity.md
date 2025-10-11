@@ -10,7 +10,7 @@ public interface CSoundEventSphereEntity : CSoundEventEntity, CBaseEntity, CEnti
 
 ## Properties
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventSphereEntity.cs#L16)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventSphereEntity.cs#L16)
 
 ```csharp
 ref float Radius { get; }
@@ -22,7 +22,7 @@ ref float Radius { get; }
 
 ## Methods
 
-**RadiusUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventSphereEntity.cs#L18)
+### **RadiusUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventSphereEntity.cs#L18)
 
 ```csharp
 void RadiusUpdated()

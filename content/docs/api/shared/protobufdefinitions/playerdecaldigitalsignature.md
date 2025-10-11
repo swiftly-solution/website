@@ -10,7 +10,7 @@ public interface PlayerDecalDigitalSignature : ITypedProtobuf<PlayerDecalDigital
 
 ## Properties
 
-**Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L16)
+### **Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L16)
 
 ```csharp
 uint Accountid { get; set; }
@@ -20,7 +20,7 @@ uint Accountid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Creationtime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L40)
+### **Creationtime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L40)
 
 ```csharp
 float Creationtime { get; set; }
@@ -30,7 +30,7 @@ float Creationtime { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Endpos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L22)
+### **Endpos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L22)
 
 ```csharp
 IProtobufRepeatedFieldValueType<float> Endpos { get; }
@@ -40,7 +40,7 @@ IProtobufRepeatedFieldValueType<float> Endpos { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**Entindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L34)
+### **Entindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L34)
 
 ```csharp
 int Entindex { get; set; }
@@ -50,7 +50,7 @@ int Entindex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Equipslot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L43)
+### **Equipslot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L43)
 
 ```csharp
 uint Equipslot { get; set; }
@@ -60,7 +60,7 @@ uint Equipslot { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Hitbox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L37)
+### **Hitbox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L37)
 
 ```csharp
 uint Hitbox { get; set; }
@@ -70,7 +70,7 @@ uint Hitbox { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Left** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L28)
+### **Left** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L28)
 
 ```csharp
 IProtobufRepeatedFieldValueType<float> Left { get; }
@@ -80,7 +80,7 @@ IProtobufRepeatedFieldValueType<float> Left { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L49)
+### **Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L49)
 
 ```csharp
 IProtobufRepeatedFieldValueType<float> Normal { get; }
@@ -90,7 +90,7 @@ IProtobufRepeatedFieldValueType<float> Normal { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**Rtime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L19)
+### **Rtime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L19)
 
 ```csharp
 uint Rtime { get; set; }
@@ -100,7 +100,7 @@ uint Rtime { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Signature** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L13)
+### **Signature** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L13)
 
 ```csharp
 byte[] Signature { get; set; }
@@ -110,7 +110,7 @@ byte[] Signature { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Startpos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L25)
+### **Startpos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L25)
 
 ```csharp
 IProtobufRepeatedFieldValueType<float> Startpos { get; }
@@ -120,7 +120,7 @@ IProtobufRepeatedFieldValueType<float> Startpos { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**TintId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L52)
+### **TintId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L52)
 
 ```csharp
 uint TintId { get; set; }
@@ -130,7 +130,7 @@ uint TintId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TraceId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L46)
+### **TraceId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L46)
 
 ```csharp
 uint TraceId { get; set; }
@@ -140,7 +140,7 @@ uint TraceId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TxDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L31)
+### **TxDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerDecalDigitalSignature.cs#L31)
 
 ```csharp
 uint TxDefidx { get; set; }

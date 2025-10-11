@@ -10,7 +10,7 @@ public interface CGameScriptedMoveDef_t : ISchemaClass<CGameScriptedMoveDef_t>, 
 
 ## Properties
 
-**AimDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L28)
+### **AimDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L28)
 
 ```csharp
 ref bool AimDisabled { get; }
@@ -20,7 +20,7 @@ ref bool AimDisabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AngRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L24)
+### **AngRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L24)
 
 ```csharp
 ref float AngRate { get; }
@@ -30,7 +30,7 @@ ref float AngRate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Dest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L20)
+### **Dest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L20)
 
 ```csharp
 ref QAngle Dest { get; }
@@ -40,7 +40,7 @@ ref QAngle Dest { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**DestEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L18)
+### **DestEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> DestEntity { get; }
@@ -50,7 +50,7 @@ ref CHandle<CBaseEntity> DestEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**DestOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L16)
+### **DestOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L16)
 
 ```csharp
 ref Vector DestOffset { get; }
@@ -60,7 +60,7 @@ ref Vector DestOffset { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L22)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L22)
 
 ```csharp
 ref float Duration { get; }
@@ -70,7 +70,7 @@ ref float Duration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ForcedCrouchState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L32)
+### **ForcedCrouchState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L32)
 
 ```csharp
 ref ForcedCrouchState_t ForcedCrouchState { get; }
@@ -80,7 +80,7 @@ ref ForcedCrouchState_t ForcedCrouchState { get; }
 
 - [ForcedCrouchState_t](/docs/api/shared/schemadefinitions/forcedcrouchstate_t)
 
-**IgnoreRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L30)
+### **IgnoreRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L30)
 
 ```csharp
 ref bool IgnoreRotation { get; }
@@ -90,7 +90,7 @@ ref bool IgnoreRotation { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MoveSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L26)
+### **MoveSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveDef_t.cs#L26)
 
 ```csharp
 ref float MoveSpeed { get; }

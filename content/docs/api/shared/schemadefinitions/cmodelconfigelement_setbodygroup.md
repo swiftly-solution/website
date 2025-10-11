@@ -10,7 +10,7 @@ public interface CModelConfigElement_SetBodygroup : CModelConfigElement, ISchema
 
 ## Properties
 
-**Choice** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroup.cs#L18)
+### **Choice** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroup.cs#L18)
 
 ```csharp
 ref int Choice { get; }
@@ -20,7 +20,7 @@ ref int Choice { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**GroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroup.cs#L16)
+### **GroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroup.cs#L16)
 
 ```csharp
 ref CGlobalSymbol GroupName { get; }

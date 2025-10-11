@@ -10,7 +10,7 @@ public interface CSVCMsg_PacketReliable : ITypedProtobuf<CSVCMsg_PacketReliable>
 
 ## Properties
 
-**Messagessize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PacketReliable.cs#L21)
+### **Messagessize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PacketReliable.cs#L21)
 
 ```csharp
 int Messagessize { get; set; }
@@ -20,7 +20,7 @@ int Messagessize { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**State** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PacketReliable.cs#L24)
+### **State** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PacketReliable.cs#L24)
 
 ```csharp
 bool State { get; set; }
@@ -30,7 +30,7 @@ bool State { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PacketReliable.cs#L18)
+### **Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PacketReliable.cs#L18)
 
 ```csharp
 int Tick { get; set; }

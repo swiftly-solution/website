@@ -10,7 +10,7 @@ public struct Vector4D
 
 ## Constructors
 
-**Vector4D(float, float, float, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L13)
+### **Vector4D(float, float, float, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L13)
 
 ```csharp
 public Vector4D(float x, float y, float z, float w)
@@ -23,7 +23,7 @@ public Vector4D(float x, float y, float z, float w)
 - **z**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **w**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Vector4D(Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L20)
+### **Vector4D(Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L20)
 
 ```csharp
 public Vector4D(Vector4D other)
@@ -35,7 +35,7 @@ public Vector4D(Vector4D other)
 
 ## Fields
 
-**W** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L11)
+### **W** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L11)
 
 ```csharp
 public float W
@@ -45,7 +45,7 @@ public float W
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L8)
+### **X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L8)
 
 ```csharp
 public float X
@@ -55,7 +55,7 @@ public float X
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L9)
+### **Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L9)
 
 ```csharp
 public float Y
@@ -65,7 +65,7 @@ public float Y
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L10)
+### **Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L10)
 
 ```csharp
 public float Z
@@ -77,7 +77,7 @@ public float Z
 
 ## Properties
 
-**One** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L41)
+### **One** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L41)
 
 ```csharp
 public static Vector4D One { get; }
@@ -87,7 +87,7 @@ public static Vector4D One { get; }
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**Zero** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L39)
+### **Zero** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L39)
 
 ```csharp
 public static Vector4D Zero { get; }
@@ -99,7 +99,7 @@ public static Vector4D Zero { get; }
 
 ## Methods
 
-**Deconstruct(out float, out float, out float, out float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L77)
+### **Deconstruct(out float, out float, out float, out float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L77)
 
 ```csharp
 public void Deconstruct(out float x, out float y, out float z, out float w)
@@ -112,7 +112,7 @@ public void Deconstruct(out float x, out float y, out float z, out float w)
 - **z**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **w**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Dot(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L43)
+### **Dot(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L43)
 
 ```csharp
 public static float Dot(Vector4D a, Vector4D b)
@@ -127,7 +127,7 @@ public static float Dot(Vector4D a, Vector4D b)
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Dot(Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L46)
+### **Dot(Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L46)
 
 ```csharp
 public float Dot(Vector4D other)
@@ -141,7 +141,7 @@ public float Dot(Vector4D other)
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Equals(object?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L35)
+### **Equals(object?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L35)
 
 ```csharp
 public override bool Equals(object? obj)
@@ -155,7 +155,7 @@ public override bool Equals(object? obj)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
-**FromBuiltin(Vector4)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L31)
+### **FromBuiltin(Vector4)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L31)
 
 ```csharp
 public static Vector4D FromBuiltin(Vector4 vector)
@@ -169,7 +169,7 @@ public static Vector4D FromBuiltin(Vector4 vector)
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**GetHashCode()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L36)
+### **GetHashCode()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L36)
 
 ```csharp
 public override int GetHashCode()
@@ -179,7 +179,7 @@ public override int GetHashCode()
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
-**Length()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L49)
+### **Length()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L49)
 
 ```csharp
 public float Length()
@@ -189,7 +189,7 @@ public float Length()
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LengthSquared()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L52)
+### **LengthSquared()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L52)
 
 ```csharp
 public float LengthSquared()
@@ -199,13 +199,13 @@ public float LengthSquared()
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Normalize()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L55)
+### **Normalize()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L55)
 
 ```csharp
 public void Normalize()
 ```
 
-**Normalized()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L67)
+### **Normalized()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L67)
 
 ```csharp
 public Vector4D Normalized()
@@ -215,7 +215,7 @@ public Vector4D Normalized()
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**ToBuiltin()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L27)
+### **ToBuiltin()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L27)
 
 ```csharp
 public Vector4 ToBuiltin()
@@ -225,7 +225,7 @@ public Vector4 ToBuiltin()
 
 - [Vector4](https://learn.microsoft.com/dotnet/api/system.numerics.vector4)
 
-**ToString()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L37)
+### **ToString()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L37)
 
 ```csharp
 public override string ToString()
@@ -237,7 +237,7 @@ public override string ToString()
 
 ## Operators
 
-**operator +(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L84)
+### **operator +(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L84)
 
 ```csharp
 public static Vector4D operator +(Vector4D a, Vector4D b)
@@ -252,7 +252,7 @@ public static Vector4D operator +(Vector4D a, Vector4D b)
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**operator /(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L94)
+### **operator /(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L94)
 
 ```csharp
 public static Vector4D operator /(Vector4D a, Vector4D b)
@@ -267,7 +267,7 @@ public static Vector4D operator /(Vector4D a, Vector4D b)
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**operator /(Vector4D, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L106)
+### **operator /(Vector4D, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L106)
 
 ```csharp
 public static Vector4D operator /(Vector4D a, float b)
@@ -282,7 +282,7 @@ public static Vector4D operator /(Vector4D a, float b)
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**operator ==(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L120)
+### **operator ==(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L120)
 
 ```csharp
 public static bool operator ==(Vector4D a, Vector4D b)
@@ -297,7 +297,7 @@ public static bool operator ==(Vector4D a, Vector4D b)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**operator !=(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L124)
+### **operator !=(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L124)
 
 ```csharp
 public static bool operator !=(Vector4D a, Vector4D b)
@@ -312,7 +312,7 @@ public static bool operator !=(Vector4D a, Vector4D b)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**operator *(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L90)
+### **operator *(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L90)
 
 ```csharp
 public static Vector4D operator *(Vector4D a, Vector4D b)
@@ -327,7 +327,7 @@ public static Vector4D operator *(Vector4D a, Vector4D b)
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**operator *(Vector4D, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L98)
+### **operator *(Vector4D, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L98)
 
 ```csharp
 public static Vector4D operator *(Vector4D a, float b)
@@ -342,7 +342,7 @@ public static Vector4D operator *(Vector4D a, float b)
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**operator *(float, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L102)
+### **operator *(float, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L102)
 
 ```csharp
 public static Vector4D operator *(float b, Vector4D a)
@@ -357,7 +357,7 @@ public static Vector4D operator *(float b, Vector4D a)
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**operator -(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L87)
+### **operator -(Vector4D, Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L87)
 
 ```csharp
 public static Vector4D operator -(Vector4D a, Vector4D b)
@@ -372,7 +372,7 @@ public static Vector4D operator -(Vector4D a, Vector4D b)
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**operator -(Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L116)
+### **operator -(Vector4D)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Vector4D.cs#L116)
 
 ```csharp
 public static Vector4D operator -(Vector4D a)

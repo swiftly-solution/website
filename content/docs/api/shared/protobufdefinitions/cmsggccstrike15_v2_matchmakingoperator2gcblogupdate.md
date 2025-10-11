@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate : ITypedPro
 
 ## Properties
 
-**MainPostUrl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate.cs#L13)
+### **MainPostUrl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate.cs#L13)
 
 ```csharp
 string MainPostUrl { get; set; }

@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_AddModellistOverrideElement : ITypedPr
 
 ## Properties
 
-**Groupid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_AddModellistOverrideElement.cs#L19)
+### **Groupid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_AddModellistOverrideElement.cs#L19)
 
 ```csharp
 uint Groupid { get; set; }
@@ -20,7 +20,7 @@ uint Groupid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_AddModellistOverrideElement.cs#L13)
+### **ModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_AddModellistOverrideElement.cs#L13)
 
 ```csharp
 string ModelName { get; set; }
@@ -30,7 +30,7 @@ string ModelName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SpawnProbability** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_AddModellistOverrideElement.cs#L16)
+### **SpawnProbability** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_AddModellistOverrideElement.cs#L16)
 
 ```csharp
 float SpawnProbability { get; set; }

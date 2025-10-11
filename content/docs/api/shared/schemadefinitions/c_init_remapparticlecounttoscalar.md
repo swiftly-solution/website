@@ -10,7 +10,7 @@ public interface C_INIT_RemapParticleCountToScalar : CParticleFunctionInitialize
 
 ## Properties
 
-**ActiveRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L32)
+### **ActiveRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L32)
 
 ```csharp
 ref bool ActiveRange { get; }
@@ -20,7 +20,7 @@ ref bool ActiveRange { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L20)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L20)
 
 ```csharp
 ref int InputMax { get; }
@@ -40,7 +40,7 @@ ref int InputMax { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L18)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L18)
 
 ```csharp
 ref int InputMin { get; }
@@ -50,7 +50,7 @@ ref int InputMin { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Invert** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L34)
+### **Invert** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L34)
 
 ```csharp
 ref bool Invert { get; }
@@ -60,7 +60,7 @@ ref bool Invert { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L28)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L28)
 
 ```csharp
 ref float OutputMax { get; }
@@ -70,7 +70,7 @@ ref float OutputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L26)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L26)
 
 ```csharp
 ref float OutputMin { get; }
@@ -80,7 +80,7 @@ ref float OutputMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RemapBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L38)
+### **RemapBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L38)
 
 ```csharp
 ref float RemapBias { get; }
@@ -90,7 +90,7 @@ ref float RemapBias { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ScaleControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L22)
+### **ScaleControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L22)
 
 ```csharp
 ref int ScaleControlPoint { get; }
@@ -100,7 +100,7 @@ ref int ScaleControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ScaleControlPointField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L24)
+### **ScaleControlPointField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L24)
 
 ```csharp
 ref int ScaleControlPointField { get; }
@@ -110,7 +110,7 @@ ref int ScaleControlPointField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L30)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L30)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -120,7 +120,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 
-**Wrap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L36)
+### **Wrap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToScalar.cs#L36)
 
 ```csharp
 ref bool Wrap { get; }

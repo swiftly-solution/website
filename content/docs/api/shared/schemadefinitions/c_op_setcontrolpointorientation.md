@@ -10,7 +10,7 @@ public interface C_OP_SetControlPointOrientation : CParticleFunctionPreEmission,
 
 ## Properties
 
-**CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L22)
+### **CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L22)
 
 ```csharp
 ref int CP { get; }
@@ -20,7 +20,7 @@ ref int CP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HeadLocation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L24)
+### **HeadLocation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L24)
 
 ```csharp
 ref int HeadLocation { get; }
@@ -30,7 +30,7 @@ ref int HeadLocation { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L30)
+### **Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput Interpolation { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput Interpolation { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**Randomize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L18)
+### **Randomize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L18)
 
 ```csharp
 ref bool Randomize { get; }
@@ -50,7 +50,7 @@ ref bool Randomize { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Rotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L26)
+### **Rotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L26)
 
 ```csharp
 ref QAngle Rotation { get; }
@@ -60,7 +60,7 @@ ref QAngle Rotation { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**RotationB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L28)
+### **RotationB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L28)
 
 ```csharp
 ref QAngle RotationB { get; }
@@ -70,7 +70,7 @@ ref QAngle RotationB { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**SetOnce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L20)
+### **SetOnce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L20)
 
 ```csharp
 ref bool SetOnce { get; }
@@ -80,7 +80,7 @@ ref bool SetOnce { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UseWorldLocation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L16)
+### **UseWorldLocation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointOrientation.cs#L16)
 
 ```csharp
 ref bool UseWorldLocation { get; }

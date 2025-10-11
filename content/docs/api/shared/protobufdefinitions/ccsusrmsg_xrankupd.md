@@ -10,7 +10,7 @@ public interface CCSUsrMsg_XRankUpd : ITypedProtobuf<CCSUsrMsg_XRankUpd>, INativ
 
 ## Properties
 
-**Controller** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_XRankUpd.cs#L21)
+### **Controller** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_XRankUpd.cs#L21)
 
 ```csharp
 int Controller { get; set; }
@@ -20,7 +20,7 @@ int Controller { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ModeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_XRankUpd.cs#L18)
+### **ModeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_XRankUpd.cs#L18)
 
 ```csharp
 int ModeIdx { get; set; }
@@ -30,7 +30,7 @@ int ModeIdx { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Ranking** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_XRankUpd.cs#L24)
+### **Ranking** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_XRankUpd.cs#L24)
 
 ```csharp
 int Ranking { get; set; }

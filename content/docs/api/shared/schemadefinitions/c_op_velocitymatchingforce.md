@@ -10,7 +10,7 @@ public interface C_OP_VelocityMatchingForce : CParticleFunctionOperator, CPartic
 
 ## Properties
 
-**CPBroadcast** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L26)
+### **CPBroadcast** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L26)
 
 ```csharp
 ref int CPBroadcast { get; }
@@ -20,7 +20,7 @@ ref int CPBroadcast { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DirScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L16)
+### **DirScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L16)
 
 ```csharp
 ref float DirScale { get; }
@@ -30,7 +30,7 @@ ref float DirScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FacingStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L22)
+### **FacingStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L22)
 
 ```csharp
 ref float FacingStrength { get; }
@@ -40,7 +40,7 @@ ref float FacingStrength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NeighborDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L20)
+### **NeighborDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L20)
 
 ```csharp
 ref float NeighborDistance { get; }
@@ -50,7 +50,7 @@ ref float NeighborDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SpdScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L18)
+### **SpdScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L18)
 
 ```csharp
 ref float SpdScale { get; }
@@ -60,7 +60,7 @@ ref float SpdScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UseAABB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L24)
+### **UseAABB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityMatchingForce.cs#L24)
 
 ```csharp
 ref bool UseAABB { get; }

@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_GC2ClientInitSystem : ITypedProtobuf<CMsgGCC
 
 ## Properties
 
-**Cookie** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L28)
+### **Cookie** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L28)
 
 ```csharp
 int Cookie { get; set; }
@@ -20,7 +20,7 @@ int Cookie { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**KeyData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L22)
+### **KeyData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L22)
 
 ```csharp
 byte[] KeyData { get; set; }
@@ -30,7 +30,7 @@ byte[] KeyData { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Load** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L13)
+### **Load** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L13)
 
 ```csharp
 bool Load { get; set; }
@@ -40,7 +40,7 @@ bool Load { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LoadSystem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L37)
+### **LoadSystem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L37)
 
 ```csharp
 bool LoadSystem { get; set; }
@@ -50,7 +50,7 @@ bool LoadSystem { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Manifest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L31)
+### **Manifest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L31)
 
 ```csharp
 string Manifest { get; set; }
@@ -60,7 +60,7 @@ string Manifest { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -70,7 +70,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Outputname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L19)
+### **Outputname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L19)
 
 ```csharp
 string Outputname { get; set; }
@@ -80,7 +80,7 @@ string Outputname { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ShaHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L25)
+### **ShaHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L25)
 
 ```csharp
 byte[] ShaHash { get; set; }
@@ -90,7 +90,7 @@ byte[] ShaHash { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**SystemPackage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L34)
+### **SystemPackage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientInitSystem.cs#L34)
 
 ```csharp
 byte[] SystemPackage { get; set; }

@@ -10,7 +10,7 @@ public interface NmFloatCurveCompressionSettings_t : ISchemaClass<NmFloatCurveCo
 
 ## Properties
 
-**IsStatic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmFloatCurveCompressionSettings_t.cs#L18)
+### **IsStatic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmFloatCurveCompressionSettings_t.cs#L18)
 
 ```csharp
 ref bool IsStatic { get; }
@@ -20,7 +20,7 @@ ref bool IsStatic { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmFloatCurveCompressionSettings_t.cs#L16)
+### **Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmFloatCurveCompressionSettings_t.cs#L16)
 
 ```csharp
 NmCompressionSettings_t__QuantizationRange_t Range { get; }

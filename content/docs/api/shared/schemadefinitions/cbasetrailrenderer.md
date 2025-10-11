@@ -10,7 +10,7 @@ public interface CBaseTrailRenderer : CBaseRendererSource2, CParticleFunctionRen
 
 ## Properties
 
-**ClampV** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L28)
+### **ClampV** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L28)
 
 ```csharp
 ref bool ClampV { get; }
@@ -20,7 +20,7 @@ ref bool ClampV { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EndFadeSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L26)
+### **EndFadeSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L26)
 
 ```csharp
 CParticleCollectionRendererFloatInput EndFadeSize { get; }
@@ -30,7 +30,7 @@ CParticleCollectionRendererFloatInput EndFadeSize { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**MaxSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L22)
+### **MaxSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L22)
 
 ```csharp
 ref float MaxSize { get; }
@@ -40,7 +40,7 @@ ref float MaxSize { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L20)
+### **MinSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L20)
 
 ```csharp
 ref float MinSize { get; }
@@ -50,7 +50,7 @@ ref float MinSize { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OrientationControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L18)
+### **OrientationControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L18)
 
 ```csharp
 ref int OrientationControlPoint { get; }
@@ -60,7 +60,7 @@ ref int OrientationControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OrientationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L16)
+### **OrientationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L16)
 
 ```csharp
 ref ParticleOrientationChoiceList_t OrientationType { get; }
@@ -70,7 +70,7 @@ ref ParticleOrientationChoiceList_t OrientationType { get; }
 
 - [ParticleOrientationChoiceList_t](/docs/api/shared/schemadefinitions/particleorientationchoicelist_t)
 
-**StartFadeSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L24)
+### **StartFadeSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseTrailRenderer.cs#L24)
 
 ```csharp
 CParticleCollectionRendererFloatInput StartFadeSize { get; }

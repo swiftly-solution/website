@@ -10,7 +10,7 @@ public interface ParticleNamedValueSource_t : ISchemaClass<ParticleNamedValueSou
 
 ## Properties
 
-**DefaultConfig** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L22)
+### **DefaultConfig** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L22)
 
 ```csharp
 ParticleNamedValueConfiguration_t DefaultConfig { get; }
@@ -20,7 +20,7 @@ ParticleNamedValueConfiguration_t DefaultConfig { get; }
 
 - [ParticleNamedValueConfiguration_t](/docs/api/shared/schemadefinitions/particlenamedvalueconfiguration_t)
 
-**IsPublic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L18)
+### **IsPublic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L18)
 
 ```csharp
 ref bool IsPublic { get; }
@@ -30,7 +30,7 @@ ref bool IsPublic { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -40,7 +40,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NamedConfigs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L25)
+### **NamedConfigs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L25)
 
 ```csharp
 ref CUtlVector NamedConfigs { get; }
@@ -48,9 +48,9 @@ ref CUtlVector NamedConfigs { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**ValueType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L20)
+### **ValueType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNamedValueSource_t.cs#L20)
 
 ```csharp
 ref PulseValueType_t ValueType { get; }

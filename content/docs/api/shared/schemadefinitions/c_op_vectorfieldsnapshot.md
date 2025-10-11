@@ -10,7 +10,7 @@ public interface C_OP_VectorFieldSnapshot : CParticleFunctionOperator, CParticle
 
 ## Properties
 
-**AttributeToWrite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L18)
+### **AttributeToWrite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t AttributeToWrite { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t AttributeToWrite { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**BoundaryDampening** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L26)
+### **BoundaryDampening** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L26)
 
 ```csharp
 ref float BoundaryDampening { get; }
@@ -30,7 +30,7 @@ ref float BoundaryDampening { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -40,7 +40,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**GridSpacing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L32)
+### **GridSpacing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L32)
 
 ```csharp
 ref float GridSpacing { get; }
@@ -50,7 +50,7 @@ ref float GridSpacing { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L22)
+### **Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L22)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput Interpolation { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**LocalSpaceCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L20)
+### **LocalSpaceCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L20)
 
 ```csharp
 ref int LocalSpaceCP { get; }
@@ -70,7 +70,7 @@ ref int LocalSpaceCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LockToSurface** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L30)
+### **LockToSurface** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L30)
 
 ```csharp
 ref bool LockToSurface { get; }
@@ -80,7 +80,7 @@ ref bool LockToSurface { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L24)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L24)
 
 ```csharp
 CPerParticleVecInput Scale { get; }
@@ -90,7 +90,7 @@ CPerParticleVecInput Scale { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**SetVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L28)
+### **SetVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VectorFieldSnapshot.cs#L28)
 
 ```csharp
 ref bool SetVelocity { get; }

@@ -10,7 +10,7 @@ public interface CBoneConstraintRbf : CBoneConstraintBase, ISchemaClass<CBoneCon
 
 ## Properties
 
-**InputBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintRbf.cs#L17)
+### **InputBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintRbf.cs#L17)
 
 ```csharp
 ref CUtlVector InputBones { get; }
@@ -18,9 +18,9 @@ ref CUtlVector InputBones { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**OutputBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintRbf.cs#L20)
+### **OutputBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintRbf.cs#L20)
 
 ```csharp
 ref CUtlVector OutputBones { get; }
@@ -28,5 +28,5 @@ ref CUtlVector OutputBones { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

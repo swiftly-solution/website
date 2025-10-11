@@ -10,7 +10,7 @@ public interface CAnimActivity : ISchemaClass<CAnimActivity>, ISchemaField, ISch
 
 ## Properties
 
-**Activity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L18)
+### **Activity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L18)
 
 ```csharp
 ref int Activity { get; }
@@ -20,7 +20,7 @@ ref int Activity { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L20)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L20)
 
 ```csharp
 ref int Flags { get; }
@@ -30,7 +30,7 @@ ref int Flags { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L16)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -40,7 +40,7 @@ ref CBufferString Name { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L22)
+### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimActivity.cs#L22)
 
 ```csharp
 ref int Weight { get; }

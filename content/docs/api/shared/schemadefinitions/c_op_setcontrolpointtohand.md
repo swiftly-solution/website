@@ -10,7 +10,7 @@ public interface C_OP_SetControlPointToHand : CParticleFunctionPreEmission, CPar
 
 ## Properties
 
-**CP1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHand.cs#L16)
+### **CP1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHand.cs#L16)
 
 ```csharp
 ref int CP1 { get; }
@@ -20,7 +20,7 @@ ref int CP1 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CP1Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHand.cs#L20)
+### **CP1Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHand.cs#L20)
 
 ```csharp
 ref Vector CP1Pos { get; }
@@ -30,7 +30,7 @@ ref Vector CP1Pos { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Hand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHand.cs#L18)
+### **Hand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHand.cs#L18)
 
 ```csharp
 ref int Hand { get; }
@@ -40,7 +40,7 @@ ref int Hand { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OrientToHand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHand.cs#L22)
+### **OrientToHand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointToHand.cs#L22)
 
 ```csharp
 ref bool OrientToHand { get; }

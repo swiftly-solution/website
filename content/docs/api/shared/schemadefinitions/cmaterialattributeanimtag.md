@@ -10,7 +10,7 @@ public interface CMaterialAttributeAnimTag : CAnimTagBase, ISchemaClass<CAnimTag
 
 ## Properties
 
-**AttributeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L16)
+### **AttributeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L16)
 
 ```csharp
 string AttributeName { get; set; }
@@ -20,7 +20,7 @@ string AttributeName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**AttributeType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L18)
+### **AttributeType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L18)
 
 ```csharp
 ref MatterialAttributeTagType_t AttributeType { get; }
@@ -30,7 +30,7 @@ ref MatterialAttributeTagType_t AttributeType { get; }
 
 - [MatterialAttributeTagType_t](/docs/api/shared/schemadefinitions/matterialattributetagtype_t)
 
-**Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L22)
+### **Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L22)
 
 ```csharp
 ref Color Color { get; }
@@ -40,7 +40,7 @@ ref Color Color { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L20)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialAttributeAnimTag.cs#L20)
 
 ```csharp
 ref float Value { get; }

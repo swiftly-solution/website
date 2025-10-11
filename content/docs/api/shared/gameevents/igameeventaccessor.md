@@ -10,7 +10,7 @@ public interface IGameEventAccessor : INativeHandle
 
 ## Properties
 
-**DontBroadcast** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L15)
+### **DontBroadcast** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L15)
 
 ```csharp
 bool DontBroadcast { get; set; }
@@ -22,7 +22,7 @@ bool DontBroadcast { get; set; }
 
 ## Methods
 
-**GetBool(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L29)
+### **GetBool(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L29)
 
 ```csharp
 bool GetBool(string key)
@@ -36,7 +36,7 @@ bool GetBool(string key)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Boolean value.
 
-**GetEntity<K>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L101)
+### **GetEntity<K>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L101)
 
 ```csharp
 K GetEntity<K>(string key) where K : CEntityInstance
@@ -54,7 +54,7 @@ K GetEntity<K>(string key) where K : CEntityInstance
 
 - **K**:  - Entity type derived from <xref href="SwiftlyS2.Shared.SchemaDefinitions.CEntityInstance" data-throw-if-not-resolved="false"></xref>.
 
-**GetEntityIndex(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L115)
+### **GetEntityIndex(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L115)
 
 ```csharp
 int GetEntityIndex(string key)
@@ -68,7 +68,7 @@ int GetEntityIndex(string key)
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - Entity index.
 
-**GetFloat(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L71)
+### **GetFloat(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L71)
 
 ```csharp
 float GetFloat(string key)
@@ -82,7 +82,7 @@ float GetFloat(string key)
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single) - Float value.
 
-**GetInt32(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L43)
+### **GetInt32(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L43)
 
 ```csharp
 int GetInt32(string key)
@@ -96,7 +96,7 @@ int GetInt32(string key)
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - Integer value.
 
-**GetPawnEntityIndex(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L171)
+### **GetPawnEntityIndex(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L171)
 
 ```csharp
 int GetPawnEntityIndex(string key)
@@ -110,7 +110,7 @@ int GetPawnEntityIndex(string key)
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - Pawn entity index.
 
-**GetPlayer(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L150)
+### **GetPlayer(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L150)
 
 ```csharp
 IPlayer GetPlayer(string key)
@@ -124,7 +124,7 @@ IPlayer GetPlayer(string key)
 
 - [IPlayer](/docs/api/shared/players/iplayer) - Player.
 
-**GetPlayerController(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L136)
+### **GetPlayerController(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L136)
 
 ```csharp
 CCSPlayerController GetPlayerController(string key)
@@ -138,7 +138,7 @@ CCSPlayerController GetPlayerController(string key)
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller) - Player controller.
 
-**GetPlayerPawn(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L143)
+### **GetPlayerPawn(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L143)
 
 ```csharp
 CCSPlayerPawn GetPlayerPawn(string key)
@@ -152,7 +152,7 @@ CCSPlayerPawn GetPlayerPawn(string key)
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn) - Player pawn.
 
-**GetPlayerSlot(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L129)
+### **GetPlayerSlot(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L129)
 
 ```csharp
 int GetPlayerSlot(string key)
@@ -166,7 +166,7 @@ int GetPlayerSlot(string key)
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - Player slot.
 
-**GetPtr(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L164)
+### **GetPtr(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L164)
 
 ```csharp
 nint GetPtr(string key)
@@ -180,7 +180,7 @@ nint GetPtr(string key)
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - Pointer value.
 
-**GetString(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L85)
+### **GetString(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L85)
 
 ```csharp
 string GetString(string key)
@@ -194,7 +194,7 @@ string GetString(string key)
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - String value.
 
-**GetUInt64(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L57)
+### **GetUInt64(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L57)
 
 ```csharp
 ulong GetUInt64(string key)
@@ -208,7 +208,7 @@ ulong GetUInt64(string key)
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - Unsigned 64-bit value.
 
-**IsLocal()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L183)
+### **IsLocal()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L183)
 
 ```csharp
 bool IsLocal()
@@ -218,7 +218,7 @@ bool IsLocal()
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if local.
 
-**IsReliable()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L177)
+### **IsReliable()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L177)
 
 ```csharp
 bool IsReliable()
@@ -228,7 +228,7 @@ bool IsReliable()
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if reliable.
 
-**SetBool(string, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L22)
+### **SetBool(string, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L22)
 
 ```csharp
 void SetBool(string key, bool value)
@@ -239,7 +239,7 @@ void SetBool(string key, bool value)
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Boolean value.
 
-**SetEntity<K>(string, K)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L93)
+### **SetEntity<K>(string, K)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L93)
 
 ```csharp
 void SetEntity<K>(string key, K value) where K : CEntityInstance
@@ -254,7 +254,7 @@ void SetEntity<K>(string key, K value) where K : CEntityInstance
 
 - **K**:  - Entity type derived from <xref href="SwiftlyS2.Shared.SchemaDefinitions.CEntityInstance" data-throw-if-not-resolved="false"></xref>.
 
-**SetEntityIndex(string, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L108)
+### **SetEntityIndex(string, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L108)
 
 ```csharp
 void SetEntityIndex(string key, int value)
@@ -265,7 +265,7 @@ void SetEntityIndex(string key, int value)
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - Entity index.
 
-**SetFloat(string, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L64)
+### **SetFloat(string, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L64)
 
 ```csharp
 void SetFloat(string key, float value)
@@ -276,7 +276,7 @@ void SetFloat(string key, float value)
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [float](https://learn.microsoft.com/dotnet/api/system.single) - Float value.
 
-**SetInt32(string, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L36)
+### **SetInt32(string, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L36)
 
 ```csharp
 void SetInt32(string key, int value)
@@ -287,7 +287,7 @@ void SetInt32(string key, int value)
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - Integer value.
 
-**SetPlayerSlot(string, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L122)
+### **SetPlayerSlot(string, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L122)
 
 ```csharp
 void SetPlayerSlot(string key, int value)
@@ -298,7 +298,7 @@ void SetPlayerSlot(string key, int value)
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - Player slot.
 
-**SetPtr(string, nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L157)
+### **SetPtr(string, nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L157)
 
 ```csharp
 void SetPtr(string key, nint value)
@@ -309,7 +309,7 @@ void SetPtr(string key, nint value)
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - Pointer value.
 
-**SetString(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L78)
+### **SetString(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L78)
 
 ```csharp
 void SetString(string key, string value)
@@ -320,7 +320,7 @@ void SetString(string key, string value)
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [string](https://learn.microsoft.com/dotnet/api/system.string) - String value.
 
-**SetUInt64(string, ulong)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L50)
+### **SetUInt64(string, ulong)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEventAccessor.cs#L50)
 
 ```csharp
 void SetUInt64(string key, ulong value)

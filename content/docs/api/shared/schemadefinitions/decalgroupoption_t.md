@@ -10,7 +10,7 @@ public interface DecalGroupOption_t : ISchemaClass<DecalGroupOption_t>, ISchemaF
 
 ## Properties
 
-**EnableAngleBetweenNormalAndGravityRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L22)
+### **EnableAngleBetweenNormalAndGravityRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L22)
 
 ```csharp
 ref bool EnableAngleBetweenNormalAndGravityRange { get; }
@@ -20,7 +20,7 @@ ref bool EnableAngleBetweenNormalAndGravityRange { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L16)
+### **Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
@@ -30,7 +30,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
-**MaxAngleBetweenNormalAndGravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L26)
+### **MaxAngleBetweenNormalAndGravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L26)
 
 ```csharp
 ref float MaxAngleBetweenNormalAndGravity { get; }
@@ -40,7 +40,7 @@ ref float MaxAngleBetweenNormalAndGravity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinAngleBetweenNormalAndGravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L24)
+### **MinAngleBetweenNormalAndGravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L24)
 
 ```csharp
 ref float MinAngleBetweenNormalAndGravity { get; }
@@ -50,7 +50,7 @@ ref float MinAngleBetweenNormalAndGravity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Probability** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L20)
+### **Probability** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L20)
 
 ```csharp
 ref float Probability { get; }
@@ -60,7 +60,7 @@ ref float Probability { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L18)
+### **SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DecalGroupOption_t.cs#L18)
 
 ```csharp
 ref CGlobalSymbol SequenceName { get; }

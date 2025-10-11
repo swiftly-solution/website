@@ -10,7 +10,7 @@ public interface PulseNodeDynamicOutflows_t__DynamicOutflow_t : ISchemaClass<Pul
 
 ## Properties
 
-**Connection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseNodeDynamicOutflows_t__DynamicOutflow_t.cs#L18)
+### **Connection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseNodeDynamicOutflows_t__DynamicOutflow_t.cs#L18)
 
 ```csharp
 CPulse_OutflowConnection Connection { get; }
@@ -20,7 +20,7 @@ CPulse_OutflowConnection Connection { get; }
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
-**OutflowID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseNodeDynamicOutflows_t__DynamicOutflow_t.cs#L16)
+### **OutflowID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseNodeDynamicOutflows_t__DynamicOutflow_t.cs#L16)
 
 ```csharp
 ref CGlobalSymbol OutflowID { get; }

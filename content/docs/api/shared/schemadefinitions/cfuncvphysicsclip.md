@@ -10,7 +10,7 @@ public interface CFuncVPhysicsClip : CBaseModelEntity, CBaseEntity, CEntityInsta
 
 ## Properties
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncVPhysicsClip.cs#L16)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncVPhysicsClip.cs#L16)
 
 ```csharp
 ref bool Disabled { get; }

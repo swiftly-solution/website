@@ -10,7 +10,7 @@ public interface ParticleNode_t : ISchemaClass<ParticleNode_t>, ISchemaField, IS
 
 ## Properties
 
-**EndcapTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L26)
+### **EndcapTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L26)
 
 ```csharp
 ref float EndcapTime { get; }
@@ -20,7 +20,7 @@ ref float EndcapTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L16)
+### **Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L16)
 
 ```csharp
 ref CHandle<CBaseEntity> Entity { get; }
@@ -30,7 +30,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**GrowthDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L22)
+### **GrowthDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L22)
 
 ```csharp
 ref float GrowthDuration { get; }
@@ -40,7 +40,7 @@ ref float GrowthDuration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GrowthOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L24)
+### **GrowthOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L24)
 
 ```csharp
 ref Vector GrowthOrigin { get; }
@@ -50,7 +50,7 @@ ref Vector GrowthOrigin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L18)
+### **Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L18)
 
 ```csharp
 ParticleIndex_t Index { get; }
@@ -60,7 +60,7 @@ ParticleIndex_t Index { get; }
 
 - [ParticleIndex_t](/docs/api/shared/schemadefinitions/particleindex_t)
 
-**MarkedForDelete** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L28)
+### **MarkedForDelete** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L28)
 
 ```csharp
 ref bool MarkedForDelete { get; }
@@ -70,7 +70,7 @@ ref bool MarkedForDelete { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L20)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleNode_t.cs#L20)
 
 ```csharp
 GameTime_t StartTime { get; }

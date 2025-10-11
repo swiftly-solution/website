@@ -10,7 +10,7 @@ public interface AnimStateID : ISchemaClass<AnimStateID>, ISchemaField, ISchemaC
 
 ## Properties
 
-**Id** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimStateID.cs#L16)
+### **Id** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimStateID.cs#L16)
 
 ```csharp
 ref uint Id { get; }

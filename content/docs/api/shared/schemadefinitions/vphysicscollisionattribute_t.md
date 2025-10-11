@@ -10,7 +10,7 @@ public interface VPhysicsCollisionAttribute_t : ISchemaClass<VPhysicsCollisionAt
 
 ## Properties
 
-**CollisionFunctionMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L30)
+### **CollisionFunctionMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L30)
 
 ```csharp
 ref byte CollisionFunctionMask { get; }
@@ -20,7 +20,7 @@ ref byte CollisionFunctionMask { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**CollisionGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L28)
+### **CollisionGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L28)
 
 ```csharp
 ref byte CollisionGroup { get; }
@@ -30,7 +30,7 @@ ref byte CollisionGroup { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**EntityId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L22)
+### **EntityId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L22)
 
 ```csharp
 ref uint EntityId { get; }
@@ -40,7 +40,7 @@ ref uint EntityId { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**HierarchyId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L26)
+### **HierarchyId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L26)
 
 ```csharp
 ref ushort HierarchyId { get; }
@@ -50,7 +50,7 @@ ref ushort HierarchyId { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**InteractsAs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L16)
+### **InteractsAs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L16)
 
 ```csharp
 ref ulong InteractsAs { get; }
@@ -60,7 +60,7 @@ ref ulong InteractsAs { get; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**InteractsExclude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L20)
+### **InteractsExclude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L20)
 
 ```csharp
 ref ulong InteractsExclude { get; }
@@ -70,7 +70,7 @@ ref ulong InteractsExclude { get; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**InteractsWith** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L18)
+### **InteractsWith** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L18)
 
 ```csharp
 ref ulong InteractsWith { get; }
@@ -80,7 +80,7 @@ ref ulong InteractsWith { get; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**OwnerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L24)
+### **OwnerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L24)
 
 ```csharp
 ref uint OwnerId { get; }
@@ -92,49 +92,49 @@ ref uint OwnerId { get; }
 
 ## Methods
 
-**CollisionFunctionMaskUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L39)
+### **CollisionFunctionMaskUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L39)
 
 ```csharp
 void CollisionFunctionMaskUpdated()
 ```
 
-**CollisionGroupUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L38)
+### **CollisionGroupUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L38)
 
 ```csharp
 void CollisionGroupUpdated()
 ```
 
-**EntityIdUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L35)
+### **EntityIdUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L35)
 
 ```csharp
 void EntityIdUpdated()
 ```
 
-**HierarchyIdUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L37)
+### **HierarchyIdUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L37)
 
 ```csharp
 void HierarchyIdUpdated()
 ```
 
-**InteractsAsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L32)
+### **InteractsAsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L32)
 
 ```csharp
 void InteractsAsUpdated()
 ```
 
-**InteractsExcludeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L34)
+### **InteractsExcludeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L34)
 
 ```csharp
 void InteractsExcludeUpdated()
 ```
 
-**InteractsWithUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L33)
+### **InteractsWithUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L33)
 
 ```csharp
 void InteractsWithUpdated()
 ```
 
-**OwnerIdUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L36)
+### **OwnerIdUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysicsCollisionAttribute_t.cs#L36)
 
 ```csharp
 void OwnerIdUpdated()

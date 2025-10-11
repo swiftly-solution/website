@@ -10,7 +10,7 @@ public interface CFuncElectrifiedVolume : CFuncBrush, CBaseModelEntity, CBaseEnt
 
 ## Properties
 
-**EffectInterpenetrateName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L18)
+### **EffectInterpenetrateName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L18)
 
 ```csharp
 string EffectInterpenetrateName { get; set; }
@@ -20,7 +20,7 @@ string EffectInterpenetrateName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EffectName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L16)
+### **EffectName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L16)
 
 ```csharp
 string EffectName { get; set; }
@@ -30,7 +30,7 @@ string EffectName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EffectSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L22)
+### **EffectSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L22)
 
 ```csharp
 string EffectSource { get; set; }
@@ -40,7 +40,7 @@ string EffectSource { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EffectZapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L20)
+### **EffectZapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L20)
 
 ```csharp
 string EffectZapName { get; set; }
@@ -52,7 +52,7 @@ string EffectZapName { get; set; }
 
 ## Methods
 
-**EffectNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L24)
+### **EffectNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncElectrifiedVolume.cs#L24)
 
 ```csharp
 void EffectNameUpdated()

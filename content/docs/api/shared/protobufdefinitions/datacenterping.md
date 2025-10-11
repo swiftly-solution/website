@@ -10,7 +10,7 @@ public interface DataCenterPing : ITypedProtobuf<DataCenterPing>, INativeHandle
 
 ## Properties
 
-**DataCenterId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DataCenterPing.cs#L13)
+### **DataCenterId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DataCenterPing.cs#L13)
 
 ```csharp
 uint DataCenterId { get; set; }
@@ -20,7 +20,7 @@ uint DataCenterId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Ping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DataCenterPing.cs#L16)
+### **Ping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DataCenterPing.cs#L16)
 
 ```csharp
 int Ping { get; set; }

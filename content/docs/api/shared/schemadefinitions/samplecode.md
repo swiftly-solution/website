@@ -10,7 +10,7 @@ public interface SampleCode : ISchemaClass<SampleCode>, ISchemaField, ISchemaCla
 
 ## Properties
 
-**SubCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SampleCode.cs#L16)
+### **SubCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SampleCode.cs#L16)
 
 ```csharp
 ISchemaFixedArray<byte> SubCode { get; }

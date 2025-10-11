@@ -10,7 +10,7 @@ public interface CSoundEnvelope : ISchemaClass<CSoundEnvelope>, ISchemaField, IS
 
 ## Properties
 
-**Current** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L16)
+### **Current** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L16)
 
 ```csharp
 ref float Current { get; }
@@ -20,7 +20,7 @@ ref float Current { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Forceupdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L22)
+### **Forceupdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L22)
 
 ```csharp
 ref bool Forceupdate { get; }
@@ -30,7 +30,7 @@ ref bool Forceupdate { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Rate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L20)
+### **Rate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L20)
 
 ```csharp
 ref float Rate { get; }
@@ -40,7 +40,7 @@ ref float Rate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L18)
+### **Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L18)
 
 ```csharp
 ref float Target { get; }

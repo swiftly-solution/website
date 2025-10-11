@@ -10,7 +10,7 @@ public interface CTestEffect : CBaseEntity, CEntityInstance, ISchemaClass<CEntit
 
 ## Properties
 
-**Beam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L18)
+### **Beam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L18)
 
 ```csharp
 ref int Beam { get; }
@@ -20,7 +20,7 @@ ref int Beam { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Beam1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L21)
+### **Beam1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L21)
 
 ```csharp
 SchemaUntypedField Beam1 { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField Beam1 { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**BeamTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L24)
+### **BeamTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L24)
 
 ```csharp
 SchemaUntypedField BeamTime { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField BeamTime { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L16)
+### **Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L16)
 
 ```csharp
 ref int Loop { get; }
@@ -50,7 +50,7 @@ ref int Loop { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L26)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTestEffect.cs#L26)
 
 ```csharp
 GameTime_t StartTime { get; }

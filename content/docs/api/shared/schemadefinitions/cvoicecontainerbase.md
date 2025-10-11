@@ -10,7 +10,7 @@ public interface CVoiceContainerBase : ISchemaClass<CVoiceContainerBase>, ISchem
 
 ## Properties
 
-**EnvelopeAnalyzer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBase.cs#L18)
+### **EnvelopeAnalyzer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBase.cs#L18)
 
 ```csharp
 CVoiceContainerAnalysisBase? EnvelopeAnalyzer { get; }
@@ -20,7 +20,7 @@ CVoiceContainerAnalysisBase? EnvelopeAnalyzer { get; }
 
 - [CVoiceContainerAnalysisBase](/docs/api/shared/schemadefinitions/cvoicecontaineranalysisbase)?
 
-**Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBase.cs#L16)
+### **Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBase.cs#L16)
 
 ```csharp
 CVSound Sound { get; }

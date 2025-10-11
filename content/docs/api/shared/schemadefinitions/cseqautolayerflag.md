@@ -10,7 +10,7 @@ public interface CSeqAutoLayerFlag : ISchemaClass<CSeqAutoLayerFlag>, ISchemaFie
 
 ## Properties
 
-**FetchFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L28)
+### **FetchFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L28)
 
 ```csharp
 ref bool FetchFrame { get; }
@@ -20,7 +20,7 @@ ref bool FetchFrame { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Local** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L24)
+### **Local** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L24)
 
 ```csharp
 ref bool Local { get; }
@@ -30,7 +30,7 @@ ref bool Local { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NoBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L22)
+### **NoBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L22)
 
 ```csharp
 ref bool NoBlend { get; }
@@ -40,7 +40,7 @@ ref bool NoBlend { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Pose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L26)
+### **Pose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L26)
 
 ```csharp
 ref bool Pose { get; }
@@ -50,7 +50,7 @@ ref bool Pose { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Post** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L16)
+### **Post** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L16)
 
 ```csharp
 ref bool Post { get; }
@@ -60,7 +60,7 @@ ref bool Post { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Spline** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L18)
+### **Spline** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L18)
 
 ```csharp
 ref bool Spline { get; }
@@ -70,7 +70,7 @@ ref bool Spline { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Subtract** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L30)
+### **Subtract** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L30)
 
 ```csharp
 ref bool Subtract { get; }
@@ -80,7 +80,7 @@ ref bool Subtract { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**XFade** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L20)
+### **XFade** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayerFlag.cs#L20)
 
 ```csharp
 ref bool XFade { get; }

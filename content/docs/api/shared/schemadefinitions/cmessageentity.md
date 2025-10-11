@@ -10,7 +10,7 @@ public interface CMessageEntity : CPointEntity, CBaseEntity, CEntityInstance, IS
 
 ## Properties
 
-**DeveloperOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L22)
+### **DeveloperOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L22)
 
 ```csharp
 ref bool DeveloperOnly { get; }
@@ -20,7 +20,7 @@ ref bool DeveloperOnly { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DrawText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L20)
+### **DrawText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L20)
 
 ```csharp
 ref bool DrawText { get; }
@@ -30,7 +30,7 @@ ref bool DrawText { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L24)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L24)
 
 ```csharp
 ref bool Enabled { get; }
@@ -40,7 +40,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MessageText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L18)
+### **MessageText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L18)
 
 ```csharp
 string MessageText { get; set; }
@@ -50,7 +50,7 @@ string MessageText { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L16)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMessageEntity.cs#L16)
 
 ```csharp
 ref int Radius { get; }

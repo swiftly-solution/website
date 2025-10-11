@@ -10,7 +10,7 @@ public interface C_INIT_DistanceToNeighborCull : CParticleFunctionInitializer, C
 
 ## Properties
 
-**Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L16)
+### **Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L16)
 
 ```csharp
 CPerParticleFloatInput Distance { get; }
@@ -20,7 +20,7 @@ CPerParticleFloatInput Distance { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**FieldModify** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L22)
+### **FieldModify** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t FieldModify { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldModify { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**IncludeRadii** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L18)
+### **IncludeRadii** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L18)
 
 ```csharp
 ref bool IncludeRadii { get; }
@@ -40,7 +40,7 @@ ref bool IncludeRadii { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LifespanOverlap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L20)
+### **LifespanOverlap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L20)
 
 ```csharp
 CPerParticleFloatInput LifespanOverlap { get; }
@@ -50,7 +50,7 @@ CPerParticleFloatInput LifespanOverlap { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**Modify** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L24)
+### **Modify** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L24)
 
 ```csharp
 CPerParticleFloatInput Modify { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput Modify { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L26)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L26)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -70,7 +70,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 
-**UseNeighbor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L28)
+### **UseNeighbor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToNeighborCull.cs#L28)
 
 ```csharp
 ref bool UseNeighbor { get; }

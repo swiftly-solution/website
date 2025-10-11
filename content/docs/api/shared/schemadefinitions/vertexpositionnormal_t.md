@@ -10,7 +10,7 @@ public interface VertexPositionNormal_t : ISchemaClass<VertexPositionNormal_t>, 
 
 ## Properties
 
-**Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VertexPositionNormal_t.cs#L18)
+### **Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VertexPositionNormal_t.cs#L18)
 
 ```csharp
 ref Vector Normal { get; }
@@ -20,7 +20,7 @@ ref Vector Normal { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VertexPositionNormal_t.cs#L16)
+### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VertexPositionNormal_t.cs#L16)
 
 ```csharp
 ref Vector Position { get; }

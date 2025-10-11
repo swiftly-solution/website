@@ -10,7 +10,7 @@ public interface CNmIKEffector : ISchemaClass<CNmIKEffector>, ISchemaField, ISch
 
 ## Properties
 
-**BodyIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L16)
+### **BodyIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L16)
 
 ```csharp
 ref int BodyIndex { get; }
@@ -20,7 +20,7 @@ ref int BodyIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L18)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L18)
 
 ```csharp
 ref bool Enabled { get; }
@@ -30,7 +30,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L22)
+### **TargetOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L22)
 
 ```csharp
 ref Quaternion TargetOrientation { get; }
@@ -40,7 +40,7 @@ ref Quaternion TargetOrientation { get; }
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
-**TargetPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L20)
+### **TargetPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L20)
 
 ```csharp
 ref Vector TargetPosition { get; }
@@ -50,7 +50,7 @@ ref Vector TargetPosition { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L24)
+### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKEffector.cs#L24)
 
 ```csharp
 ref float Weight { get; }

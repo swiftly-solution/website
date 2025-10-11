@@ -10,7 +10,7 @@ public interface CNavLinkAnimgraphVar : ISchemaClass<CNavLinkAnimgraphVar>, ISch
 
 ## Properties
 
-**AlignmentDegrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAnimgraphVar.cs#L18)
+### **AlignmentDegrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAnimgraphVar.cs#L18)
 
 ```csharp
 ref uint AlignmentDegrees { get; }
@@ -20,7 +20,7 @@ ref uint AlignmentDegrees { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**AnimGraphNavlinkType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAnimgraphVar.cs#L16)
+### **AnimGraphNavlinkType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkAnimgraphVar.cs#L16)
 
 ```csharp
 ref CGlobalSymbol AnimGraphNavlinkType { get; }

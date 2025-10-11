@@ -10,7 +10,7 @@ public interface CTimeRemainingMetricEvaluator : CMotionMetricEvaluator, ISchema
 
 ## Properties
 
-**FilterByTimeRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L20)
+### **FilterByTimeRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L20)
 
 ```csharp
 ref bool FilterByTimeRemaining { get; }
@@ -20,7 +20,7 @@ ref bool FilterByTimeRemaining { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MatchByTimeRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L16)
+### **MatchByTimeRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L16)
 
 ```csharp
 ref bool MatchByTimeRemaining { get; }
@@ -30,7 +30,7 @@ ref bool MatchByTimeRemaining { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxTimeRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L18)
+### **MaxTimeRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L18)
 
 ```csharp
 ref float MaxTimeRemaining { get; }
@@ -40,7 +40,7 @@ ref float MaxTimeRemaining { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinTimeRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L22)
+### **MinTimeRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTimeRemainingMetricEvaluator.cs#L22)
 
 ```csharp
 ref float MinTimeRemaining { get; }

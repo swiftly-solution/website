@@ -10,7 +10,7 @@ public interface AggregateMeshInfo_t : ISchemaClass<AggregateMeshInfo_t>, ISchem
 
 ## Properties
 
-**DrawCallIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L24)
+### **DrawCallIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L24)
 
 ```csharp
 ref short DrawCallIndex { get; }
@@ -20,7 +20,7 @@ ref short DrawCallIndex { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**HasTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L20)
+### **HasTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L20)
 
 ```csharp
 ref bool HasTransform { get; }
@@ -30,7 +30,7 @@ ref bool HasTransform { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InstanceStreamOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L34)
+### **InstanceStreamOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L34)
 
 ```csharp
 ref uint InstanceStreamOffset { get; }
@@ -40,7 +40,7 @@ ref uint InstanceStreamOffset { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**InstanceStreams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L38)
+### **InstanceStreams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L38)
 
 ```csharp
 ref AggregateInstanceStream_t InstanceStreams { get; }
@@ -50,7 +50,7 @@ ref AggregateInstanceStream_t InstanceStreams { get; }
 
 - [AggregateInstanceStream_t](/docs/api/shared/schemadefinitions/aggregateinstancestream_t)
 
-**LODGroupMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L22)
+### **LODGroupMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L22)
 
 ```csharp
 ref byte LODGroupMask { get; }
@@ -60,7 +60,7 @@ ref byte LODGroupMask { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**LODSetupIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L26)
+### **LODSetupIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L26)
 
 ```csharp
 ref short LODSetupIndex { get; }
@@ -70,7 +70,7 @@ ref short LODSetupIndex { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**LightProbeVolumePrecomputedHandshake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L32)
+### **LightProbeVolumePrecomputedHandshake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L32)
 
 ```csharp
 ref int LightProbeVolumePrecomputedHandshake { get; }
@@ -80,7 +80,7 @@ ref int LightProbeVolumePrecomputedHandshake { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ObjectFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L30)
+### **ObjectFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L30)
 
 ```csharp
 ref ObjectTypeFlags_t ObjectFlags { get; }
@@ -90,7 +90,7 @@ ref ObjectTypeFlags_t ObjectFlags { get; }
 
 - [ObjectTypeFlags_t](/docs/api/shared/schemadefinitions/objecttypeflags_t)
 
-**TintColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L28)
+### **TintColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L28)
 
 ```csharp
 ref Color TintColor { get; }
@@ -100,7 +100,7 @@ ref Color TintColor { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**VertexAlbedoStreamOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L36)
+### **VertexAlbedoStreamOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L36)
 
 ```csharp
 ref uint VertexAlbedoStreamOffset { get; }
@@ -110,7 +110,7 @@ ref uint VertexAlbedoStreamOffset { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**VisClusterMemberCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L18)
+### **VisClusterMemberCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L18)
 
 ```csharp
 ref byte VisClusterMemberCount { get; }
@@ -120,7 +120,7 @@ ref byte VisClusterMemberCount { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**VisClusterMemberOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L16)
+### **VisClusterMemberOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateMeshInfo_t.cs#L16)
 
 ```csharp
 ref uint VisClusterMemberOffset { get; }

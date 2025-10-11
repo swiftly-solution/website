@@ -10,7 +10,7 @@ public interface CNmSkeleton__SecondarySkeleton_t : ISchemaClass<CNmSkeleton__Se
 
 ## Properties
 
-**AttachToBoneID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton__SecondarySkeleton_t.cs#L16)
+### **AttachToBoneID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton__SecondarySkeleton_t.cs#L16)
 
 ```csharp
 ref CGlobalSymbol AttachToBoneID { get; }
@@ -20,7 +20,7 @@ ref CGlobalSymbol AttachToBoneID { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**Skeleton** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton__SecondarySkeleton_t.cs#L18)
+### **Skeleton** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton__SecondarySkeleton_t.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }

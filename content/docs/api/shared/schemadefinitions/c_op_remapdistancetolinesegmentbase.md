@@ -10,7 +10,7 @@ public interface C_OP_RemapDistanceToLineSegmentBase : CParticleFunctionOperator
 
 ## Properties
 
-**CP0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L16)
+### **CP0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L16)
 
 ```csharp
 ref int CP0 { get; }
@@ -20,7 +20,7 @@ ref int CP0 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CP1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L18)
+### **CP1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L18)
 
 ```csharp
 ref int CP1 { get; }
@@ -30,7 +30,7 @@ ref int CP1 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InfiniteLine** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L24)
+### **InfiniteLine** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L24)
 
 ```csharp
 ref bool InfiniteLine { get; }
@@ -40,7 +40,7 @@ ref bool InfiniteLine { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxInputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L22)
+### **MaxInputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L22)
 
 ```csharp
 ref float MaxInputValue { get; }
@@ -50,7 +50,7 @@ ref float MaxInputValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinInputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L20)
+### **MinInputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentBase.cs#L20)
 
 ```csharp
 ref float MinInputValue { get; }

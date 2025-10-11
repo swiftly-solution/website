@@ -10,7 +10,7 @@ public interface C_OP_RenderStatusEffectCitadel : CParticleFunctionRenderer, CPa
 
 ## Properties
 
-**TextureColorWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L16)
+### **TextureColorWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureColorWarp { get; }
@@ -20,7 +20,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureColorWarp { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureDetail** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L26)
+### **TextureDetail** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L26)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDetail { get; }
@@ -30,7 +30,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDetail { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureMetalness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L20)
+### **TextureMetalness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureMetalness { get; }
@@ -40,7 +40,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureMetalness { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L18)
+### **TextureNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureNormal { get; }
@@ -50,7 +50,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureNormal { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureRoughness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L22)
+### **TextureRoughness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureRoughness { get; }
@@ -60,7 +60,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureRoughness { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureSelfIllum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L24)
+### **TextureSelfIllum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffectCitadel.cs#L24)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureSelfIllum { get; }

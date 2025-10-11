@@ -10,7 +10,7 @@ public interface CAnimGraphControllerBase : ISchemaClass<CAnimGraphControllerBas
 
 ## Properties
 
-**ParamsToResetInPostGraphUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphControllerBase.cs#L17)
+### **ParamsToResetInPostGraphUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphControllerBase.cs#L17)
 
 ```csharp
 SchemaUntypedField ParamsToResetInPostGraphUpdate { get; }

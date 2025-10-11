@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_SetEventFavorite : ITypedProtobuf<CMsgGCCStr
 
 ## Properties
 
-**Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_SetEventFavorite.cs#L13)
+### **Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_SetEventFavorite.cs#L13)
 
 ```csharp
 ulong Eventid { get; set; }
@@ -20,7 +20,7 @@ ulong Eventid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**IsFavorite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_SetEventFavorite.cs#L16)
+### **IsFavorite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_SetEventFavorite.cs#L16)
 
 ```csharp
 bool IsFavorite { get; set; }

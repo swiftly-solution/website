@@ -10,7 +10,7 @@ public interface C_OP_RemapDensityToVector : CParticleFunctionOperator, CParticl
 
 ## Properties
 
-**DensityMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L22)
+### **DensityMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L22)
 
 ```csharp
 ref float DensityMax { get; }
@@ -20,7 +20,7 @@ ref float DensityMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DensityMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L20)
+### **DensityMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L20)
 
 ```csharp
 ref float DensityMin { get; }
@@ -30,7 +30,7 @@ ref float DensityMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L26)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L26)
 
 ```csharp
 ref Vector OutputMax { get; }
@@ -50,7 +50,7 @@ ref Vector OutputMax { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L24)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L24)
 
 ```csharp
 ref Vector OutputMin { get; }
@@ -60,7 +60,7 @@ ref Vector OutputMin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L16)
+### **RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L16)
 
 ```csharp
 ref float RadiusScale { get; }
@@ -70,7 +70,7 @@ ref float RadiusScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UseParentDensity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L28)
+### **UseParentDensity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L28)
 
 ```csharp
 ref bool UseParentDensity { get; }
@@ -80,7 +80,7 @@ ref bool UseParentDensity { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**VoxelGridResolution** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L30)
+### **VoxelGridResolution** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDensityToVector.cs#L30)
 
 ```csharp
 ref int VoxelGridResolution { get; }

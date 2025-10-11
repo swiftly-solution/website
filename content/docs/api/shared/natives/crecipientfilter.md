@@ -10,7 +10,7 @@ public struct CRecipientFilter
 
 ## Constructors
 
-**CRecipientFilter(NetChannelBufType_t, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L21)
+### **CRecipientFilter(NetChannelBufType_t, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L21)
 
 ```csharp
 public CRecipientFilter(NetChannelBufType_t BufType = NetChannelBufType_t.BUF_RELIABLE, bool bInitMessage = false)
@@ -23,7 +23,7 @@ public CRecipientFilter(NetChannelBufType_t BufType = NetChannelBufType_t.BUF_RE
 
 ## Fields
 
-**BufferType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L18)
+### **BufferType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L18)
 
 ```csharp
 public NetChannelBufType_t BufferType
@@ -33,7 +33,7 @@ public NetChannelBufType_t BufferType
 
 - [NetChannelBufType_t](/docs/api/shared/natives/netchannelbuftype_t)
 
-**InitMessage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L19)
+### **InitMessage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L19)
 
 ```csharp
 public bool InitMessage
@@ -43,7 +43,7 @@ public bool InitMessage
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RecipientsMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L17)
+### **RecipientsMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L17)
 
 ```csharp
 public ulong RecipientsMask
@@ -55,13 +55,13 @@ public ulong RecipientsMask
 
 ## Methods
 
-**AddAllPlayers()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L57)
+### **AddAllPlayers()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L57)
 
 ```csharp
 public void AddAllPlayers()
 ```
 
-**AddRecipient(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L68)
+### **AddRecipient(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L68)
 
 ```csharp
 public void AddRecipient(int playerid)
@@ -71,7 +71,7 @@ public void AddRecipient(int playerid)
 
 - **playerid**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FromMask(ulong)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L29)
+### **FromMask(ulong)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L29)
 
 ```csharp
 public static CRecipientFilter FromMask(ulong playerMask)
@@ -85,7 +85,7 @@ public static CRecipientFilter FromMask(ulong playerMask)
 
 - [CRecipientFilter](/docs/api/shared/natives/crecipientfilter)
 
-**FromPlayers(params int[])** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L36)
+### **FromPlayers(params int[])** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L36)
 
 ```csharp
 public static CRecipientFilter FromPlayers(params int[] players)
@@ -99,7 +99,7 @@ public static CRecipientFilter FromPlayers(params int[] players)
 
 - [CRecipientFilter](/docs/api/shared/natives/crecipientfilter)
 
-**FromSingle(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L45)
+### **FromSingle(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L45)
 
 ```csharp
 public static CRecipientFilter FromSingle(int player)
@@ -113,7 +113,7 @@ public static CRecipientFilter FromSingle(int player)
 
 - [CRecipientFilter](/docs/api/shared/natives/crecipientfilter)
 
-**GetRecipientCount()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L82)
+### **GetRecipientCount()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L82)
 
 ```csharp
 public int GetRecipientCount()
@@ -123,13 +123,13 @@ public int GetRecipientCount()
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RemoveAllPlayers()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L63)
+### **RemoveAllPlayers()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L63)
 
 ```csharp
 public void RemoveAllPlayers()
 ```
 
-**RemoveRecipient(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L75)
+### **RemoveRecipient(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L75)
 
 ```csharp
 public void RemoveRecipient(int playerid)
@@ -139,7 +139,7 @@ public void RemoveRecipient(int playerid)
 
 - **playerid**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ToMask()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L52)
+### **ToMask()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L52)
 
 ```csharp
 public ulong ToMask()

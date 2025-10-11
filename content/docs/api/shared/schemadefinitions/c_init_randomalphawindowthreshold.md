@@ -10,7 +10,7 @@ public interface C_INIT_RandomAlphaWindowThreshold : CParticleFunctionInitialize
 
 ## Properties
 
-**Exponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlphaWindowThreshold.cs#L20)
+### **Exponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlphaWindowThreshold.cs#L20)
 
 ```csharp
 ref float Exponent { get; }
@@ -20,7 +20,7 @@ ref float Exponent { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlphaWindowThreshold.cs#L18)
+### **Max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlphaWindowThreshold.cs#L18)
 
 ```csharp
 ref float Max { get; }
@@ -30,7 +30,7 @@ ref float Max { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlphaWindowThreshold.cs#L16)
+### **Min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomAlphaWindowThreshold.cs#L16)
 
 ```csharp
 ref float Min { get; }

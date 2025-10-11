@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_MatchListRequestFullGameInfo : ITypedProtobu
 
 ## Properties
 
-**Matchid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListRequestFullGameInfo.cs#L13)
+### **Matchid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListRequestFullGameInfo.cs#L13)
 
 ```csharp
 ulong Matchid { get; set; }
@@ -20,7 +20,7 @@ ulong Matchid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Outcomeid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListRequestFullGameInfo.cs#L16)
+### **Outcomeid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListRequestFullGameInfo.cs#L16)
 
 ```csharp
 ulong Outcomeid { get; set; }
@@ -30,7 +30,7 @@ ulong Outcomeid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Token** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListRequestFullGameInfo.cs#L19)
+### **Token** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListRequestFullGameInfo.cs#L19)
 
 ```csharp
 uint Token { get; set; }

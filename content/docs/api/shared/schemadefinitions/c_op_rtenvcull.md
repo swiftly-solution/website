@@ -10,7 +10,7 @@ public interface C_OP_RtEnvCull : CParticleFunctionOperator, CParticleFunction, 
 
 ## Properties
 
-**Component** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L28)
+### **Component** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L28)
 
 ```csharp
 ref int Component { get; }
@@ -20,7 +20,7 @@ ref int Component { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CullOnMiss** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L20)
+### **CullOnMiss** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L20)
 
 ```csharp
 ref bool CullOnMiss { get; }
@@ -30,7 +30,7 @@ ref bool CullOnMiss { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RTEnvCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L26)
+### **RTEnvCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L26)
 
 ```csharp
 ref int RTEnvCP { get; }
@@ -40,7 +40,7 @@ ref int RTEnvCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RtEnvName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L24)
+### **RtEnvName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L24)
 
 ```csharp
 string RtEnvName { get; set; }
@@ -50,7 +50,7 @@ string RtEnvName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StickInsteadOfCull** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L22)
+### **StickInsteadOfCull** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L22)
 
 ```csharp
 ref bool StickInsteadOfCull { get; }
@@ -60,7 +60,7 @@ ref bool StickInsteadOfCull { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TestDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L16)
+### **TestDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L16)
 
 ```csharp
 ref Vector TestDir { get; }
@@ -70,7 +70,7 @@ ref Vector TestDir { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**TestNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L18)
+### **TestNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RtEnvCull.cs#L18)
 
 ```csharp
 ref Vector TestNormal { get; }

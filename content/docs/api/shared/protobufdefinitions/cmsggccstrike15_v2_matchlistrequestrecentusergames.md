@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_MatchListRequestRecentUserGames : ITypedProt
 
 ## Properties
 
-**Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListRequestRecentUserGames.cs#L13)
+### **Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListRequestRecentUserGames.cs#L13)
 
 ```csharp
 uint Accountid { get; set; }

@@ -10,7 +10,7 @@ public interface CMsgLegacySource1ClientWelcome : ITypedProtobuf<CMsgLegacySourc
 
 ## Properties
 
-**Balance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L37)
+### **Balance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L37)
 
 ```csharp
 uint Balance { get; set; }
@@ -20,7 +20,7 @@ uint Balance { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**BalanceUrl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L40)
+### **BalanceUrl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L40)
 
 ```csharp
 string BalanceUrl { get; set; }
@@ -30,7 +30,7 @@ string BalanceUrl { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Currency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L34)
+### **Currency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L34)
 
 ```csharp
 uint Currency { get; set; }
@@ -40,7 +40,7 @@ uint Currency { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**GameData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L16)
+### **GameData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L16)
 
 ```csharp
 byte[] GameData { get; set; }
@@ -50,7 +50,7 @@ byte[] GameData { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**GameData2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L28)
+### **GameData2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L28)
 
 ```csharp
 byte[] GameData2 { get; set; }
@@ -60,7 +60,7 @@ byte[] GameData2 { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Location** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L25)
+### **Location** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L25)
 
 ```csharp
 CMsgLegacySource1ClientWelcome_Location Location { get; }
@@ -70,7 +70,7 @@ CMsgLegacySource1ClientWelcome_Location Location { get; }
 
 - [CMsgLegacySource1ClientWelcome_Location](/docs/api/shared/protobufdefinitions/cmsglegacysource1clientwelcome_location)
 
-**OutofdateSubscribedCaches** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L19)
+### **OutofdateSubscribedCaches** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSOCacheSubscribed> OutofdateSubscribedCaches { get; }
@@ -80,7 +80,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSOCacheSubscribed> OutofdateSubscribedC
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSOCacheSubscribed](/docs/api/shared/protobufdefinitions/cmsgsocachesubscribed)>
 
-**Rtime32GcWelcomeTimestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L31)
+### **Rtime32GcWelcomeTimestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L31)
 
 ```csharp
 uint Rtime32GcWelcomeTimestamp { get; set; }
@@ -90,7 +90,7 @@ uint Rtime32GcWelcomeTimestamp { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TxnCountryCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L43)
+### **TxnCountryCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L43)
 
 ```csharp
 string TxnCountryCode { get; set; }
@@ -100,7 +100,7 @@ string TxnCountryCode { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**UptodateSubscribedCaches** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L22)
+### **UptodateSubscribedCaches** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L22)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSOCacheSubscriptionCheck> UptodateSubscribedCaches { get; }
@@ -110,7 +110,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSOCacheSubscriptionCheck> UptodateSubsc
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSOCacheSubscriptionCheck](/docs/api/shared/protobufdefinitions/cmsgsocachesubscriptioncheck)>
 
-**Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L13)
+### **Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLegacySource1ClientWelcome.cs#L13)
 
 ```csharp
 uint Version { get; set; }

@@ -13,7 +13,7 @@ public class Command : Attribute
 
 ## Constructors
 
-**Command(string, bool, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L11)
+### **Command(string, bool, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L11)
 
 ```csharp
 public Command(string name, bool registerRaw = false, string permission = "")
@@ -27,7 +27,7 @@ public Command(string name, bool registerRaw = false, string permission = "")
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L5)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L5)
 
 ```csharp
 public string Name { get; set; }
@@ -37,7 +37,7 @@ public string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Permission** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L9)
+### **Permission** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L9)
 
 ```csharp
 public string Permission { get; set; }
@@ -47,7 +47,7 @@ public string Permission { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**RegisterRaw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L7)
+### **RegisterRaw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/CommandAttribute.cs#L7)
 
 ```csharp
 public bool RegisterRaw { get; set; }

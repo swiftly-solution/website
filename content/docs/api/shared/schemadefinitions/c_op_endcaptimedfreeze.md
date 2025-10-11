@@ -10,7 +10,7 @@ public interface C_OP_EndCapTimedFreeze : CParticleFunctionOperator, CParticleFu
 
 ## Properties
 
-**FreezeTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EndCapTimedFreeze.cs#L16)
+### **FreezeTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EndCapTimedFreeze.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput FreezeTime { get; }

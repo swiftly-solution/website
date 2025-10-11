@@ -10,7 +10,7 @@ public interface CVoiceContainerSelector : CVoiceContainerBase, ISchemaClass<CVo
 
 ## Properties
 
-**Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSelector.cs#L16)
+### **Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSelector.cs#L16)
 
 ```csharp
 ref PlayBackMode_t Mode { get; }
@@ -20,7 +20,7 @@ ref PlayBackMode_t Mode { get; }
 
 - [PlayBackMode_t](/docs/api/shared/schemadefinitions/playbackmode_t)
 
-**ProbabilityWeights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSelector.cs#L20)
+### **ProbabilityWeights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSelector.cs#L20)
 
 ```csharp
 ref CUtlVector<float> ProbabilityWeights { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<float> ProbabilityWeights { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
+- [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**SoundsToPlay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSelector.cs#L18)
+### **SoundsToPlay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSelector.cs#L18)
 
 ```csharp
 CSoundContainerReferenceArray SoundsToPlay { get; }

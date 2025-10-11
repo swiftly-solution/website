@@ -10,7 +10,7 @@ public interface CSVCMsg_Broadcast_Command : ITypedProtobuf<CSVCMsg_Broadcast_Co
 
 ## Properties
 
-**Cmd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_Broadcast_Command.cs#L18)
+### **Cmd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_Broadcast_Command.cs#L18)
 
 ```csharp
 string Cmd { get; set; }

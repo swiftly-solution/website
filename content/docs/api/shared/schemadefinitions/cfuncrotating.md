@@ -10,7 +10,7 @@ public interface CFuncRotating : CBaseModelEntity, CBaseEntity, CEntityInstance,
 
 ## Properties
 
-**AccelDecel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L41)
+### **AccelDecel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L41)
 
 ```csharp
 ref bool AccelDecel { get; }
@@ -20,7 +20,7 @@ ref bool AccelDecel { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Attenuation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L27)
+### **Attenuation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L27)
 
 ```csharp
 ref float Attenuation { get; }
@@ -30,7 +30,7 @@ ref float Attenuation { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BlockDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L35)
+### **BlockDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L35)
 
 ```csharp
 ref float BlockDamage { get; }
@@ -40,7 +40,7 @@ ref float BlockDamage { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ClientAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L51)
+### **ClientAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L51)
 
 ```csharp
 ref QAngle ClientAngles { get; }
@@ -50,7 +50,7 @@ ref QAngle ClientAngles { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**ClientOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L49)
+### **ClientOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L49)
 
 ```csharp
 ref Vector ClientOrigin { get; }
@@ -60,7 +60,7 @@ ref Vector ClientOrigin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FanFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L25)
+### **FanFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L25)
 
 ```csharp
 ref float FanFriction { get; }
@@ -70,7 +70,7 @@ ref float FanFriction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LocalRotationVector** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L23)
+### **LocalRotationVector** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L23)
 
 ```csharp
 SchemaUntypedField LocalRotationVector { get; }
@@ -80,7 +80,7 @@ SchemaUntypedField LocalRotationVector { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**MaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L33)
+### **MaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L33)
 
 ```csharp
 ref float MaxSpeed { get; }
@@ -90,7 +90,7 @@ ref float MaxSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseRunning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L37)
+### **NoiseRunning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L37)
 
 ```csharp
 string NoiseRunning { get; set; }
@@ -100,7 +100,7 @@ string NoiseRunning { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OnReachedStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L20)
+### **OnReachedStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L20)
 
 ```csharp
 CEntityIOOutput OnReachedStart { get; }
@@ -110,7 +110,7 @@ CEntityIOOutput OnReachedStart { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStarted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L18)
+### **OnStarted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L18)
 
 ```csharp
 CEntityIOOutput OnStarted { get; }
@@ -120,7 +120,7 @@ CEntityIOOutput OnStarted { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStopped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L16)
+### **OnStopped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L16)
 
 ```csharp
 CEntityIOOutput OnStopped { get; }
@@ -130,7 +130,7 @@ CEntityIOOutput OnStopped { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**PrevLocalAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L43)
+### **PrevLocalAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L43)
 
 ```csharp
 ref QAngle PrevLocalAngles { get; }
@@ -140,7 +140,7 @@ ref QAngle PrevLocalAngles { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**Reversed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L39)
+### **Reversed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L39)
 
 ```csharp
 ref bool Reversed { get; }
@@ -150,7 +150,7 @@ ref bool Reversed { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L45)
+### **Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L45)
 
 ```csharp
 ref QAngle Start { get; }
@@ -160,7 +160,7 @@ ref QAngle Start { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**StopAtStartPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L47)
+### **StopAtStartPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L47)
 
 ```csharp
 ref bool StopAtStartPos { get; }
@@ -170,7 +170,7 @@ ref bool StopAtStartPos { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L31)
+### **TargetSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L31)
 
 ```csharp
 ref float TargetSpeed { get; }
@@ -180,7 +180,7 @@ ref float TargetSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Volume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L29)
+### **Volume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncRotating.cs#L29)
 
 ```csharp
 ref float Volume { get; }

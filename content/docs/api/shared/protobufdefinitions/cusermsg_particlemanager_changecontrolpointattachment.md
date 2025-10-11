@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_ChangeControlPointAttachment : ITypedP
 
 ## Properties
 
-**AttachmentNew** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ChangeControlPointAttachment.cs#L16)
+### **AttachmentNew** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ChangeControlPointAttachment.cs#L16)
 
 ```csharp
 int AttachmentNew { get; set; }
@@ -20,7 +20,7 @@ int AttachmentNew { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**AttachmentOld** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ChangeControlPointAttachment.cs#L13)
+### **AttachmentOld** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ChangeControlPointAttachment.cs#L13)
 
 ```csharp
 int AttachmentOld { get; set; }
@@ -30,7 +30,7 @@ int AttachmentOld { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EntityHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ChangeControlPointAttachment.cs#L19)
+### **EntityHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ChangeControlPointAttachment.cs#L19)
 
 ```csharp
 uint EntityHandle { get; set; }

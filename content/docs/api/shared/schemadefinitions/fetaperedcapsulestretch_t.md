@@ -10,7 +10,7 @@ public interface FeTaperedCapsuleStretch_t : ISchemaClass<FeTaperedCapsuleStretc
 
 ## Properties
 
-**CollisionMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L18)
+### **CollisionMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L18)
 
 ```csharp
 ref ushort CollisionMask { get; }
@@ -20,7 +20,7 @@ ref ushort CollisionMask { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Dummy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L20)
+### **Dummy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L20)
 
 ```csharp
 ref ushort Dummy { get; }
@@ -30,7 +30,7 @@ ref ushort Dummy { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L16)
+### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L16)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
@@ -40,7 +40,7 @@ ISchemaFixedArray<ushort> Node { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L22)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeTaperedCapsuleStretch_t.cs#L22)
 
 ```csharp
 ISchemaFixedArray<float> Radius { get; }

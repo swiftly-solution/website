@@ -10,7 +10,7 @@ public interface CCSPlayer_BulletServices : CPlayerPawnComponent, ISchemaClass<C
 
 ## Properties
 
-**TotalHitsOnServer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_BulletServices.cs#L16)
+### **TotalHitsOnServer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_BulletServices.cs#L16)
 
 ```csharp
 ref int TotalHitsOnServer { get; }
@@ -22,7 +22,7 @@ ref int TotalHitsOnServer { get; }
 
 ## Methods
 
-**TotalHitsOnServerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_BulletServices.cs#L18)
+### **TotalHitsOnServerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_BulletServices.cs#L18)
 
 ```csharp
 void TotalHitsOnServerUpdated()

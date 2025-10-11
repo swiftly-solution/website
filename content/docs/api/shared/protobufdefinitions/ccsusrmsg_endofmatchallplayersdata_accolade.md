@@ -10,7 +10,7 @@ public interface CCSUsrMsg_EndOfMatchAllPlayersData_Accolade : ITypedProtobuf<CC
 
 ## Properties
 
-**Eaccolade** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_Accolade.cs#L13)
+### **Eaccolade** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_Accolade.cs#L13)
 
 ```csharp
 int Eaccolade { get; set; }
@@ -20,7 +20,7 @@ int Eaccolade { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_Accolade.cs#L19)
+### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_Accolade.cs#L19)
 
 ```csharp
 int Position { get; set; }
@@ -30,7 +30,7 @@ int Position { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_Accolade.cs#L16)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_Accolade.cs#L16)
 
 ```csharp
 float Value { get; set; }

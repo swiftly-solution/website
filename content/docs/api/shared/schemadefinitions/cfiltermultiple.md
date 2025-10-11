@@ -10,7 +10,7 @@ public interface CFilterMultiple : CBaseFilter, CLogicalEntity, CServerOnlyEntit
 
 ## Properties
 
-**Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L20)
+### **Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L20)
 
 ```csharp
 ISchemaFixedArray<CHandle<CBaseEntity>> Filter { get; }
@@ -20,7 +20,7 @@ ISchemaFixedArray<CHandle<CBaseEntity>> Filter { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
-**FilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L18)
+### **FilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L18)
 
 ```csharp
 string FilterName { get; set; }
@@ -30,7 +30,7 @@ string FilterName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**FilterType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L16)
+### **FilterType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterMultiple.cs#L16)
 
 ```csharp
 ref filter_t FilterType { get; }

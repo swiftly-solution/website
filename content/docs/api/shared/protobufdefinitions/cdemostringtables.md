@@ -10,7 +10,7 @@ public interface CDemoStringTables : ITypedProtobuf<CDemoStringTables>, INativeH
 
 ## Properties
 
-**Tables** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoStringTables.cs#L13)
+### **Tables** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoStringTables.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CDemoStringTables_table_t> Tables { get; }

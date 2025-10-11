@@ -10,7 +10,7 @@ public interface SolveIKChainPoseOpFixedSettings_t : ISchemaClass<SolveIKChainPo
 
 ## Properties
 
-**ChainsToSolveData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SolveIKChainPoseOpFixedSettings_t.cs#L17)
+### **ChainsToSolveData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SolveIKChainPoseOpFixedSettings_t.cs#L17)
 
 ```csharp
 ref CUtlVector ChainsToSolveData { get; }
@@ -18,5 +18,5 @@ ref CUtlVector ChainsToSolveData { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

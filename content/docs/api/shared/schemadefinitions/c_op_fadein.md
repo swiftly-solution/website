@@ -10,7 +10,7 @@ public interface C_OP_FadeIn : CParticleFunctionOperator, CParticleFunction, ISc
 
 ## Properties
 
-**FadeInTimeExp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeIn.cs#L20)
+### **FadeInTimeExp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeIn.cs#L20)
 
 ```csharp
 ref float FadeInTimeExp { get; }
@@ -20,7 +20,7 @@ ref float FadeInTimeExp { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FadeInTimeMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeIn.cs#L18)
+### **FadeInTimeMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeIn.cs#L18)
 
 ```csharp
 ref float FadeInTimeMax { get; }
@@ -30,7 +30,7 @@ ref float FadeInTimeMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FadeInTimeMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeIn.cs#L16)
+### **FadeInTimeMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeIn.cs#L16)
 
 ```csharp
 ref float FadeInTimeMin { get; }
@@ -40,7 +40,7 @@ ref float FadeInTimeMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Proportional** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeIn.cs#L22)
+### **Proportional** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeIn.cs#L22)
 
 ```csharp
 ref bool Proportional { get; }

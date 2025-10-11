@@ -10,7 +10,7 @@ public interface CTransitionUpdateData : ISchemaClass<CTransitionUpdateData>, IS
 
 ## Properties
 
-**DestStateIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L18)
+### **DestStateIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L18)
 
 ```csharp
 ref byte DestStateIndex { get; }
@@ -20,7 +20,7 @@ ref byte DestStateIndex { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L24)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L24)
 
 ```csharp
 SchemaUntypedField Disabled { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField Disabled { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**HandshakeMaskToDisableFirst** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L21)
+### **HandshakeMaskToDisableFirst** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L21)
 
 ```csharp
 SchemaUntypedField HandshakeMaskToDisableFirst { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField HandshakeMaskToDisableFirst { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**SrcStateIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L16)
+### **SrcStateIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTransitionUpdateData.cs#L16)
 
 ```csharp
 ref byte SrcStateIndex { get; }

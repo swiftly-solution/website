@@ -8,7 +8,7 @@ public interface IOnPrecacheResourceEvent
 
 ## Methods
 
-**AddItem(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnPrecacheResourceEvent.cs#L9)
+### **AddItem(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnPrecacheResourceEvent.cs#L9)
 
 ```csharp
 void AddItem(string path)

@@ -10,7 +10,7 @@ public interface CExampleSchemaVData_PolymorphicDerivedB : CExampleSchemaVData_P
 
 ## Properties
 
-**DerivedB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExampleSchemaVData_PolymorphicDerivedB.cs#L16)
+### **DerivedB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExampleSchemaVData_PolymorphicDerivedB.cs#L16)
 
 ```csharp
 ref int DerivedB { get; }

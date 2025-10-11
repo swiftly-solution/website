@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleOffset : ITypedProtobuf<
 
 ## Properties
 
-**AngleOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleOffset.cs#L19)
+### **AngleOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleOffset.cs#L19)
 
 ```csharp
 QAngle AngleOffset { get; set; }
@@ -20,7 +20,7 @@ QAngle AngleOffset { get; set; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleOffset.cs#L13)
+### **ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleOffset.cs#L13)
 
 ```csharp
 int ControlPoint { get; set; }
@@ -30,7 +30,7 @@ int ControlPoint { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OriginOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleOffset.cs#L16)
+### **OriginOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleOffset.cs#L16)
 
 ```csharp
 Vector OriginOffset { get; set; }

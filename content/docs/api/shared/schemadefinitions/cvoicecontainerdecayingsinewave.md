@@ -10,7 +10,7 @@ public interface CVoiceContainerDecayingSineWave : CVoiceContainerBase, ISchemaC
 
 ## Properties
 
-**DecayTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerDecayingSineWave.cs#L18)
+### **DecayTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerDecayingSineWave.cs#L18)
 
 ```csharp
 ref float DecayTime { get; }
@@ -20,7 +20,7 @@ ref float DecayTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Frequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerDecayingSineWave.cs#L16)
+### **Frequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerDecayingSineWave.cs#L16)
 
 ```csharp
 ref float Frequency { get; }

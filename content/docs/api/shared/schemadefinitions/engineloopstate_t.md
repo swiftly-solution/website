@@ -10,7 +10,7 @@ public interface EngineLoopState_t : ISchemaClass<EngineLoopState_t>, ISchemaFie
 
 ## Properties
 
-**PlatWindowHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineLoopState_t.cs#L18)
+### **PlatWindowHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineLoopState_t.cs#L18)
 
 ```csharp
 ref int PlatWindowHeight { get; }
@@ -20,7 +20,7 @@ ref int PlatWindowHeight { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PlatWindowWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineLoopState_t.cs#L16)
+### **PlatWindowWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineLoopState_t.cs#L16)
 
 ```csharp
 ref int PlatWindowWidth { get; }
@@ -30,7 +30,7 @@ ref int PlatWindowWidth { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RenderHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineLoopState_t.cs#L22)
+### **RenderHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineLoopState_t.cs#L22)
 
 ```csharp
 ref int RenderHeight { get; }
@@ -40,7 +40,7 @@ ref int RenderHeight { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RenderWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineLoopState_t.cs#L20)
+### **RenderWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineLoopState_t.cs#L20)
 
 ```csharp
 ref int RenderWidth { get; }

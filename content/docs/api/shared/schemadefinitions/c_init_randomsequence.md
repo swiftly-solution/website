@@ -10,7 +10,7 @@ public interface C_INIT_RandomSequence : CParticleFunctionInitializer, CParticle
 
 ## Properties
 
-**Linear** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L22)
+### **Linear** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L22)
 
 ```csharp
 ref bool Linear { get; }
@@ -20,7 +20,7 @@ ref bool Linear { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SequenceMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L18)
+### **SequenceMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L18)
 
 ```csharp
 ref int SequenceMax { get; }
@@ -30,7 +30,7 @@ ref int SequenceMax { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SequenceMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L16)
+### **SequenceMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L16)
 
 ```csharp
 ref int SequenceMin { get; }
@@ -40,7 +40,7 @@ ref int SequenceMin { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Shuffle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L20)
+### **Shuffle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L20)
 
 ```csharp
 ref bool Shuffle { get; }
@@ -50,7 +50,7 @@ ref bool Shuffle { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WeightedList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L25)
+### **WeightedList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RandomSequence.cs#L25)
 
 ```csharp
 ref CUtlVector WeightedList { get; }
@@ -58,5 +58,5 @@ ref CUtlVector WeightedList { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

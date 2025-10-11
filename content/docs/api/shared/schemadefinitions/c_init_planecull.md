@@ -10,7 +10,7 @@ public interface C_INIT_PlaneCull : CParticleFunctionInitializer, CParticleFunct
 
 ## Properties
 
-**ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PlaneCull.cs#L16)
+### **ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PlaneCull.cs#L16)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -20,7 +20,7 @@ ref int ControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CullInside** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PlaneCull.cs#L20)
+### **CullInside** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PlaneCull.cs#L20)
 
 ```csharp
 ref bool CullInside { get; }
@@ -30,7 +30,7 @@ ref bool CullInside { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PlaneCull.cs#L18)
+### **Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PlaneCull.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput Distance { get; }

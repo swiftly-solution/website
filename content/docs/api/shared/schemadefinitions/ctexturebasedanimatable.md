@@ -10,7 +10,7 @@ public interface CTextureBasedAnimatable : CBaseModelEntity, CBaseEntity, CEntit
 
 ## Properties
 
-**AnimationBoundsMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L26)
+### **AnimationBoundsMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L26)
 
 ```csharp
 ref Vector AnimationBoundsMax { get; }
@@ -20,7 +20,7 @@ ref Vector AnimationBoundsMax { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**AnimationBoundsMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L24)
+### **AnimationBoundsMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L24)
 
 ```csharp
 ref Vector AnimationBoundsMin { get; }
@@ -30,7 +30,7 @@ ref Vector AnimationBoundsMin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FPS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L18)
+### **FPS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L18)
 
 ```csharp
 ref float FPS { get; }
@@ -40,7 +40,7 @@ ref float FPS { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L16)
+### **Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L16)
 
 ```csharp
 ref bool Loop { get; }
@@ -50,7 +50,7 @@ ref bool Loop { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PositionKeys** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L20)
+### **PositionKeys** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> PositionKeys { get; }
@@ -60,7 +60,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> PositionKeys { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**RotationKeys** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L22)
+### **RotationKeys** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> RotationKeys { get; }
@@ -70,7 +70,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> RotationKeys { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**StartFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L30)
+### **StartFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L30)
 
 ```csharp
 ref float StartFrame { get; }
@@ -80,7 +80,7 @@ ref float StartFrame { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L28)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L28)
 
 ```csharp
 ref float StartTime { get; }
@@ -92,49 +92,49 @@ ref float StartTime { get; }
 
 ## Methods
 
-**AnimationBoundsMaxUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L37)
+### **AnimationBoundsMaxUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L37)
 
 ```csharp
 void AnimationBoundsMaxUpdated()
 ```
 
-**AnimationBoundsMinUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L36)
+### **AnimationBoundsMinUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L36)
 
 ```csharp
 void AnimationBoundsMinUpdated()
 ```
 
-**FPSUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L33)
+### **FPSUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L33)
 
 ```csharp
 void FPSUpdated()
 ```
 
-**LoopUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L32)
+### **LoopUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L32)
 
 ```csharp
 void LoopUpdated()
 ```
 
-**PositionKeysUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L34)
+### **PositionKeysUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L34)
 
 ```csharp
 void PositionKeysUpdated()
 ```
 
-**RotationKeysUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L35)
+### **RotationKeysUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L35)
 
 ```csharp
 void RotationKeysUpdated()
 ```
 
-**StartFrameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L39)
+### **StartFrameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L39)
 
 ```csharp
 void StartFrameUpdated()
 ```
 
-**StartTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L38)
+### **StartTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTextureBasedAnimatable.cs#L38)
 
 ```csharp
 void StartTimeUpdated()

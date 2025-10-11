@@ -10,7 +10,7 @@ public interface CAnimDesc_Flag : ISchemaClass<CAnimDesc_Flag>, ISchemaField, IS
 
 ## Properties
 
-**AllZeros** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L18)
+### **AllZeros** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L18)
 
 ```csharp
 ref bool AllZeros { get; }
@@ -20,7 +20,7 @@ ref bool AllZeros { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AnimGraphAdditive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L30)
+### **AnimGraphAdditive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L30)
 
 ```csharp
 ref bool AnimGraphAdditive { get; }
@@ -30,7 +30,7 @@ ref bool AnimGraphAdditive { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Delta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L22)
+### **Delta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L22)
 
 ```csharp
 ref bool Delta { get; }
@@ -40,7 +40,7 @@ ref bool Delta { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Hidden** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L20)
+### **Hidden** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L20)
 
 ```csharp
 ref bool Hidden { get; }
@@ -50,7 +50,7 @@ ref bool Hidden { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ImplicitSeqIgnoreDelta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L28)
+### **ImplicitSeqIgnoreDelta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L28)
 
 ```csharp
 ref bool ImplicitSeqIgnoreDelta { get; }
@@ -60,7 +60,7 @@ ref bool ImplicitSeqIgnoreDelta { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LegacyWorldspace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L24)
+### **LegacyWorldspace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L24)
 
 ```csharp
 ref bool LegacyWorldspace { get; }
@@ -70,7 +70,7 @@ ref bool LegacyWorldspace { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Looping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L16)
+### **Looping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L16)
 
 ```csharp
 ref bool Looping { get; }
@@ -80,7 +80,7 @@ ref bool Looping { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ModelDoc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L26)
+### **ModelDoc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDesc_Flag.cs#L26)
 
 ```csharp
 ref bool ModelDoc { get; }

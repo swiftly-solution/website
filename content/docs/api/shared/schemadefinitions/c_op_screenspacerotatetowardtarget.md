@@ -10,7 +10,7 @@ public interface C_OP_ScreenSpaceRotateTowardTarget : CParticleFunctionOperator,
 
 ## Properties
 
-**OutputRemap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceRotateTowardTarget.cs#L18)
+### **OutputRemap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceRotateTowardTarget.cs#L18)
 
 ```csharp
 CParticleRemapFloatInput OutputRemap { get; }
@@ -20,7 +20,7 @@ CParticleRemapFloatInput OutputRemap { get; }
 
 - [CParticleRemapFloatInput](/docs/api/shared/schemadefinitions/cparticleremapfloatinput)
 
-**ScreenEdgeAlignmentDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceRotateTowardTarget.cs#L22)
+### **ScreenEdgeAlignmentDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceRotateTowardTarget.cs#L22)
 
 ```csharp
 CPerParticleFloatInput ScreenEdgeAlignmentDistance { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput ScreenEdgeAlignmentDistance { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceRotateTowardTarget.cs#L20)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceRotateTowardTarget.cs#L20)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -40,7 +40,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 
-**TargetPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceRotateTowardTarget.cs#L16)
+### **TargetPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceRotateTowardTarget.cs#L16)
 
 ```csharp
 CPerParticleVecInput TargetPosition { get; }

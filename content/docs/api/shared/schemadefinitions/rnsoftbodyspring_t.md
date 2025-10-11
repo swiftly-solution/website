@@ -10,7 +10,7 @@ public interface RnSoftbodySpring_t : ISchemaClass<RnSoftbodySpring_t>, ISchemaF
 
 ## Properties
 
-**Length** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodySpring_t.cs#L18)
+### **Length** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodySpring_t.cs#L18)
 
 ```csharp
 ref float Length { get; }
@@ -20,7 +20,7 @@ ref float Length { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Particle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodySpring_t.cs#L16)
+### **Particle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodySpring_t.cs#L16)
 
 ```csharp
 ISchemaFixedArray<ushort> Particle { get; }

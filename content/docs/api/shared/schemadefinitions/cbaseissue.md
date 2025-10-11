@@ -10,7 +10,7 @@ public interface CBaseIssue : ISchemaClass<CBaseIssue>, ISchemaField, ISchemaCla
 
 ## Properties
 
-**DetailsString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L18)
+### **DetailsString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L18)
 
 ```csharp
 string DetailsString { get; set; }
@@ -20,7 +20,7 @@ string DetailsString { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NumNoVotes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L22)
+### **NumNoVotes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L22)
 
 ```csharp
 ref int NumNoVotes { get; }
@@ -30,7 +30,7 @@ ref int NumNoVotes { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumPotentialVotes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L24)
+### **NumPotentialVotes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L24)
 
 ```csharp
 ref int NumPotentialVotes { get; }
@@ -40,7 +40,7 @@ ref int NumPotentialVotes { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumYesVotes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L20)
+### **NumYesVotes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L20)
 
 ```csharp
 ref int NumYesVotes { get; }
@@ -50,7 +50,7 @@ ref int NumYesVotes { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TypeString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L16)
+### **TypeString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L16)
 
 ```csharp
 string TypeString { get; set; }
@@ -60,7 +60,7 @@ string TypeString { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**VoteController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L26)
+### **VoteController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseIssue.cs#L26)
 
 ```csharp
 CVoteController? VoteController { get; }

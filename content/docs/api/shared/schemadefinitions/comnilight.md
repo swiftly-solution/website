@@ -10,7 +10,7 @@ public interface COmniLight : CBarnLight, CBaseModelEntity, CBaseEntity, CEntity
 
 ## Properties
 
-**InnerAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L16)
+### **InnerAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L16)
 
 ```csharp
 ref float InnerAngle { get; }
@@ -20,7 +20,7 @@ ref float InnerAngle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OuterAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L18)
+### **OuterAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L18)
 
 ```csharp
 ref float OuterAngle { get; }
@@ -30,7 +30,7 @@ ref float OuterAngle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ShowLight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L20)
+### **ShowLight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L20)
 
 ```csharp
 ref bool ShowLight { get; }
@@ -42,19 +42,19 @@ ref bool ShowLight { get; }
 
 ## Methods
 
-**InnerAngleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L22)
+### **InnerAngleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L22)
 
 ```csharp
 void InnerAngleUpdated()
 ```
 
-**OuterAngleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L23)
+### **OuterAngleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L23)
 
 ```csharp
 void OuterAngleUpdated()
 ```
 
-**ShowLightUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L24)
+### **ShowLightUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/COmniLight.cs#L24)
 
 ```csharp
 void ShowLightUpdated()

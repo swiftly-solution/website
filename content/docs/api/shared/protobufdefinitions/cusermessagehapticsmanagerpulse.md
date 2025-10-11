@@ -10,7 +10,7 @@ public interface CUserMessageHapticsManagerPulse : ITypedProtobuf<CUserMessageHa
 
 ## Properties
 
-**EffectAmplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerPulse.cs#L21)
+### **EffectAmplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerPulse.cs#L21)
 
 ```csharp
 float EffectAmplitude { get; set; }
@@ -20,7 +20,7 @@ float EffectAmplitude { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EffectDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerPulse.cs#L27)
+### **EffectDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerPulse.cs#L27)
 
 ```csharp
 float EffectDuration { get; set; }
@@ -30,7 +30,7 @@ float EffectDuration { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EffectFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerPulse.cs#L24)
+### **EffectFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerPulse.cs#L24)
 
 ```csharp
 float EffectFrequency { get; set; }
@@ -40,7 +40,7 @@ float EffectFrequency { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HandId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerPulse.cs#L18)
+### **HandId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerPulse.cs#L18)
 
 ```csharp
 int HandId { get; set; }

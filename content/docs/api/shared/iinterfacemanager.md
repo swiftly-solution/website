@@ -8,7 +8,7 @@ public interface IInterfaceManager
 
 ## Methods
 
-**AddSharedInterface<TInterface, TImpl>(string, TImpl)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/IInterfaceManager.cs#L13)
+### **AddSharedInterface<TInterface, TImpl>(string, TImpl)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/IInterfaceManager.cs#L13)
 
 ```csharp
 void AddSharedInterface<TInterface, TImpl>(string key, TImpl implInstance) where TInterface : class where TImpl : class, TInterface
@@ -24,7 +24,7 @@ void AddSharedInterface<TInterface, TImpl>(string key, TImpl implInstance) where
 - **TInterface**:  - The interface to add.
 - **TImpl**:  - The implementation of the interface.
 
-**GetSharedInterface<TInterface>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/IInterfaceManager.cs#L30)
+### **GetSharedInterface<TInterface>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/IInterfaceManager.cs#L30)
 
 ```csharp
 TInterface GetSharedInterface<TInterface>(string key) where TInterface : class
@@ -42,7 +42,7 @@ TInterface GetSharedInterface<TInterface>(string key) where TInterface : class
 
 - **TInterface**:  - The interface to get.
 
-**HasSharedInterface(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/IInterfaceManager.cs#L22)
+### **HasSharedInterface(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/IInterfaceManager.cs#L22)
 
 ```csharp
 bool HasSharedInterface(string key)

@@ -10,7 +10,7 @@ public interface CPulseCell_Inflow_BaseEntrypoint : CPulseCell_BaseFlow, CPulseC
 
 ## Properties
 
-**EntryChunk** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_BaseEntrypoint.cs#L16)
+### **EntryChunk** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_BaseEntrypoint.cs#L16)
 
 ```csharp
 PulseRuntimeChunkIndex_t EntryChunk { get; }
@@ -20,7 +20,7 @@ PulseRuntimeChunkIndex_t EntryChunk { get; }
 
 - [PulseRuntimeChunkIndex_t](/docs/api/shared/schemadefinitions/pulseruntimechunkindex_t)
 
-**RegisterMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_BaseEntrypoint.cs#L18)
+### **RegisterMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_BaseEntrypoint.cs#L18)
 
 ```csharp
 PulseRegisterMap_t RegisterMap { get; }

@@ -10,7 +10,7 @@ public interface CPulseCell_Step_CallExternalMethod : CPulseCell_BaseYieldingInf
 
 ## Properties
 
-**AsyncCallMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L25)
+### **AsyncCallMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L25)
 
 ```csharp
 ref PulseMethodCallMode_t AsyncCallMode { get; }
@@ -20,7 +20,7 @@ ref PulseMethodCallMode_t AsyncCallMode { get; }
 
 - [PulseMethodCallMode_t](/docs/api/shared/schemadefinitions/pulsemethodcallmode_t)
 
-**ExpectedArgs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L23)
+### **ExpectedArgs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L23)
 
 ```csharp
 SchemaUntypedField ExpectedArgs { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField ExpectedArgs { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**GameBlackboard** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L20)
+### **GameBlackboard** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L20)
 
 ```csharp
 SchemaUntypedField GameBlackboard { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField GameBlackboard { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**MethodName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L17)
+### **MethodName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L17)
 
 ```csharp
 SchemaUntypedField MethodName { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField MethodName { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**OnFinished** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L27)
+### **OnFinished** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Step_CallExternalMethod.cs#L27)
 
 ```csharp
 CPulse_ResumePoint OnFinished { get; }

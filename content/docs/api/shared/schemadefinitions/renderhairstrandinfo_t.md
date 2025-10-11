@@ -10,7 +10,7 @@ public interface RenderHairStrandInfo_t : ISchemaClass<RenderHairStrandInfo_t>, 
 
 ## Properties
 
-**DataOffset_Segments** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L28)
+### **DataOffset_Segments** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L28)
 
 ```csharp
 ref uint DataOffset_Segments { get; }
@@ -20,7 +20,7 @@ ref uint DataOffset_Segments { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**GuideBary_vBaseBary** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L18)
+### **GuideBary_vBaseBary** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<ushort> GuideBary_vBaseBary { get; }
@@ -30,7 +30,7 @@ ISchemaFixedArray<ushort> GuideBary_vBaseBary { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
-**GuideHairIndices_nSurfaceTriIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L16)
+### **GuideHairIndices_nSurfaceTriIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L16)
 
 ```csharp
 ISchemaFixedArray<uint> GuideHairIndices_nSurfaceTriIndex { get; }
@@ -40,7 +40,7 @@ ISchemaFixedArray<uint> GuideHairIndices_nSurfaceTriIndex { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**PackedBaseUv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L22)
+### **PackedBaseUv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L22)
 
 ```csharp
 ISchemaFixedArray<ushort> PackedBaseUv { get; }
@@ -50,7 +50,7 @@ ISchemaFixedArray<ushort> PackedBaseUv { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
-**PackedSurfaceNormalOs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L24)
+### **PackedSurfaceNormalOs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L24)
 
 ```csharp
 ref uint PackedSurfaceNormalOs { get; }
@@ -60,7 +60,7 @@ ref uint PackedSurfaceNormalOs { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PackedSurfaceTangentOs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L26)
+### **PackedSurfaceTangentOs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L26)
 
 ```csharp
 ref uint PackedSurfaceTangentOs { get; }
@@ -70,7 +70,7 @@ ref uint PackedSurfaceTangentOs { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RootOffset_flLengthScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L20)
+### **RootOffset_flLengthScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderHairStrandInfo_t.cs#L20)
 
 ```csharp
 ISchemaFixedArray<ushort> RootOffset_flLengthScale { get; }

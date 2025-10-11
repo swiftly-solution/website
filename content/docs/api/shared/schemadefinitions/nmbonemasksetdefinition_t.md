@@ -10,7 +10,7 @@ public interface NmBoneMaskSetDefinition_t : ISchemaClass<NmBoneMaskSetDefinitio
 
 ## Properties
 
-**ID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L16)
+### **ID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L16)
 
 ```csharp
 ref CGlobalSymbol ID { get; }
@@ -20,7 +20,7 @@ ref CGlobalSymbol ID { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**PrimaryWeightList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L18)
+### **PrimaryWeightList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L18)
 
 ```csharp
 CNmBoneWeightList PrimaryWeightList { get; }
@@ -30,7 +30,7 @@ CNmBoneWeightList PrimaryWeightList { get; }
 
 - [CNmBoneWeightList](/docs/api/shared/schemadefinitions/cnmboneweightlist)
 
-**SecondaryWeightLists** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L21)
+### **SecondaryWeightLists** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L21)
 
 ```csharp
 SchemaUntypedField SecondaryWeightLists { get; }

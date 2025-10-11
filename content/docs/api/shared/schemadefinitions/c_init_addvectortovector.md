@@ -10,7 +10,7 @@ public interface C_INIT_AddVectorToVector : CParticleFunctionInitializer, CParti
 
 ## Properties
 
-**FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L20)
+### **FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**OffsetMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L24)
+### **OffsetMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L24)
 
 ```csharp
 ref Vector OffsetMax { get; }
@@ -40,7 +40,7 @@ ref Vector OffsetMax { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OffsetMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L22)
+### **OffsetMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L22)
 
 ```csharp
 ref Vector OffsetMin { get; }
@@ -50,7 +50,7 @@ ref Vector OffsetMin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RandomnessParameters** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L26)
+### **RandomnessParameters** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L26)
 
 ```csharp
 CRandomNumberGeneratorParameters RandomnessParameters { get; }
@@ -60,7 +60,7 @@ CRandomNumberGeneratorParameters RandomnessParameters { get; }
 
 - [CRandomNumberGeneratorParameters](/docs/api/shared/schemadefinitions/crandomnumbergeneratorparameters)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L16)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_AddVectorToVector.cs#L16)
 
 ```csharp
 ref Vector Scale { get; }

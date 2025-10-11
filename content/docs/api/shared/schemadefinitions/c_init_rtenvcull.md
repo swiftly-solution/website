@@ -10,7 +10,7 @@ public interface C_INIT_RtEnvCull : CParticleFunctionInitializer, CParticleFunct
 
 ## Properties
 
-**Component** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L30)
+### **Component** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L30)
 
 ```csharp
 ref int Component { get; }
@@ -20,7 +20,7 @@ ref int Component { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CullOnMiss** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L22)
+### **CullOnMiss** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L22)
 
 ```csharp
 ref bool CullOnMiss { get; }
@@ -30,7 +30,7 @@ ref bool CullOnMiss { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LifeAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L24)
+### **LifeAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L24)
 
 ```csharp
 ref bool LifeAdjust { get; }
@@ -40,7 +40,7 @@ ref bool LifeAdjust { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RTEnvCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L28)
+### **RTEnvCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L28)
 
 ```csharp
 ref int RTEnvCP { get; }
@@ -50,7 +50,7 @@ ref int RTEnvCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RtEnvName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L26)
+### **RtEnvName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L26)
 
 ```csharp
 string RtEnvName { get; set; }
@@ -60,7 +60,7 @@ string RtEnvName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TestDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L16)
+### **TestDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L16)
 
 ```csharp
 ref Vector TestDir { get; }
@@ -70,7 +70,7 @@ ref Vector TestDir { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**TestNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L18)
+### **TestNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L18)
 
 ```csharp
 ref Vector TestNormal { get; }
@@ -80,7 +80,7 @@ ref Vector TestNormal { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**UseVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L20)
+### **UseVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RtEnvCull.cs#L20)
 
 ```csharp
 ref bool UseVelocity { get; }

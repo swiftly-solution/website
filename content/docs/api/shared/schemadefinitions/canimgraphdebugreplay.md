@@ -10,7 +10,7 @@ public interface CAnimGraphDebugReplay : ISchemaClass<CAnimGraphDebugReplay>, IS
 
 ## Properties
 
-**AnimGraphFileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L16)
+### **AnimGraphFileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L16)
 
 ```csharp
 string AnimGraphFileName { get; set; }
@@ -20,7 +20,7 @@ string AnimGraphFileName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**FrameCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L25)
+### **FrameCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L25)
 
 ```csharp
 ref int FrameCount { get; }
@@ -30,7 +30,7 @@ ref int FrameCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FrameList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L19)
+### **FrameList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L19)
 
 ```csharp
 ref CUtlVector FrameList { get; }
@@ -38,9 +38,9 @@ ref CUtlVector FrameList { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**StartIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L21)
+### **StartIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L21)
 
 ```csharp
 ref int StartIndex { get; }
@@ -50,7 +50,7 @@ ref int StartIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**WriteIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L23)
+### **WriteIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphDebugReplay.cs#L23)
 
 ```csharp
 ref int WriteIndex { get; }

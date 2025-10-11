@@ -10,7 +10,7 @@ public interface CTriggerVolume : CBaseModelEntity, CBaseEntity, CEntityInstance
 
 ## Properties
 
-**Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerVolume.cs#L18)
+### **Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerVolume.cs#L18)
 
 ```csharp
 ref CHandle<CBaseFilter> Filter { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseFilter> Filter { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseFilter](/docs/api/shared/schemadefinitions/cbasefilter)>
 
-**FilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerVolume.cs#L16)
+### **FilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerVolume.cs#L16)
 
 ```csharp
 string FilterName { get; set; }

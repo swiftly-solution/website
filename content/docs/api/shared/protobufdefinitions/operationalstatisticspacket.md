@@ -10,7 +10,7 @@ public interface OperationalStatisticsPacket : ITypedProtobuf<OperationalStatist
 
 ## Properties
 
-**Mstimestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticsPacket.cs#L16)
+### **Mstimestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticsPacket.cs#L16)
 
 ```csharp
 int Mstimestamp { get; set; }
@@ -20,7 +20,7 @@ int Mstimestamp { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Packetid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticsPacket.cs#L13)
+### **Packetid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticsPacket.cs#L13)
 
 ```csharp
 int Packetid { get; set; }
@@ -30,7 +30,7 @@ int Packetid { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticsPacket.cs#L19)
+### **Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticsPacket.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<OperationalStatisticElement> Values { get; }

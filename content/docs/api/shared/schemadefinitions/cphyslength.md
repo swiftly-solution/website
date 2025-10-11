@@ -10,7 +10,7 @@ public interface CPhysLength : CPhysConstraint, CLogicalEntity, CServerOnlyEntit
 
 ## Properties
 
-**AddLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L20)
+### **AddLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L20)
 
 ```csharp
 ref float AddLength { get; }
@@ -20,7 +20,7 @@ ref float AddLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Attach** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L18)
+### **Attach** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L18)
 
 ```csharp
 ref Vector Attach { get; }
@@ -30,7 +30,7 @@ ref Vector Attach { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**EnableCollision** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L26)
+### **EnableCollision** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L26)
 
 ```csharp
 ref bool EnableCollision { get; }
@@ -40,7 +40,7 @@ ref bool EnableCollision { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MinLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L22)
+### **MinLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L22)
 
 ```csharp
 ref float MinLength { get; }
@@ -50,7 +50,7 @@ ref float MinLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L16)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L16)
 
 ```csharp
 ISchemaFixedArray<Vector> Offset { get; }
@@ -60,7 +60,7 @@ ISchemaFixedArray<Vector> Offset { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
-**TotalLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L24)
+### **TotalLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysLength.cs#L24)
 
 ```csharp
 ref float TotalLength { get; }

@@ -10,7 +10,7 @@ public interface CFilterAttributeInt : CBaseFilter, CLogicalEntity, CServerOnlyE
 
 ## Properties
 
-**AttributeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterAttributeInt.cs#L16)
+### **AttributeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterAttributeInt.cs#L16)
 
 ```csharp
 string AttributeName { get; set; }

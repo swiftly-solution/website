@@ -10,7 +10,7 @@ public struct CPhysSurfacePropertiesAudioTrace
 
 ## Fields
 
-**HardThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L12)
+### **HardThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L12)
 
 ```csharp
 public float HardThreshold
@@ -20,7 +20,7 @@ public float HardThreshold
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HardVelocityThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L13)
+### **HardVelocityThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L13)
 
 ```csharp
 public float HardVelocityThreshold
@@ -30,7 +30,7 @@ public float HardVelocityThreshold
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HardnessFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L9)
+### **HardnessFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L9)
 
 ```csharp
 public float HardnessFactor
@@ -40,7 +40,7 @@ public float HardnessFactor
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OcclusionFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L15)
+### **OcclusionFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L15)
 
 ```csharp
 public float OcclusionFactor
@@ -50,7 +50,7 @@ public float OcclusionFactor
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Reflectivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L8)
+### **Reflectivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L8)
 
 ```csharp
 public float Reflectivity
@@ -60,7 +60,7 @@ public float Reflectivity
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RoughThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L11)
+### **RoughThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L11)
 
 ```csharp
 public float RoughThreshold
@@ -70,7 +70,7 @@ public float RoughThreshold
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RoughnessFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L10)
+### **RoughnessFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L10)
 
 ```csharp
 public float RoughnessFactor
@@ -80,7 +80,7 @@ public float RoughnessFactor
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StaticImpactVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L14)
+### **StaticImpactVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesAudio.cs#L14)
 
 ```csharp
 public float StaticImpactVolume

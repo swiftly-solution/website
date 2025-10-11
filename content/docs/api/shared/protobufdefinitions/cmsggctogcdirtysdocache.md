@@ -10,7 +10,7 @@ public interface CMsgGCToGCDirtySDOCache : ITypedProtobuf<CMsgGCToGCDirtySDOCach
 
 ## Properties
 
-**KeyUint64** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCDirtySDOCache.cs#L16)
+### **KeyUint64** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCDirtySDOCache.cs#L16)
 
 ```csharp
 ulong KeyUint64 { get; set; }
@@ -20,7 +20,7 @@ ulong KeyUint64 { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**SdoType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCDirtySDOCache.cs#L13)
+### **SdoType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCDirtySDOCache.cs#L13)
 
 ```csharp
 uint SdoType { get; set; }

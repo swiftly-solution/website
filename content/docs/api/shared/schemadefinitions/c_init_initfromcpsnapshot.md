@@ -10,7 +10,7 @@ public interface C_INIT_InitFromCPSnapshot : CParticleFunctionInitializer, CPart
 
 ## Properties
 
-**AttributeToRead** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L20)
+### **AttributeToRead** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t AttributeToRead { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t AttributeToRead { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**AttributeToWrite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L22)
+### **AttributeToWrite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t AttributeToWrite { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t AttributeToWrite { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -40,7 +40,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LocalSpaceAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L36)
+### **LocalSpaceAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L36)
 
 ```csharp
 ref bool LocalSpaceAngles { get; }
@@ -50,7 +50,7 @@ ref bool LocalSpaceAngles { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LocalSpaceCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L24)
+### **LocalSpaceCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L24)
 
 ```csharp
 ref int LocalSpaceCP { get; }
@@ -60,7 +60,7 @@ ref int LocalSpaceCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ManualSnapshotIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L32)
+### **ManualSnapshotIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L32)
 
 ```csharp
 CPerParticleFloatInput ManualSnapshotIndex { get; }
@@ -70,7 +70,7 @@ CPerParticleFloatInput ManualSnapshotIndex { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**Random** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L26)
+### **Random** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L26)
 
 ```csharp
 ref bool Random { get; }
@@ -80,7 +80,7 @@ ref bool Random { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RandomSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L34)
+### **RandomSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L34)
 
 ```csharp
 ref int RandomSeed { get; }
@@ -90,7 +90,7 @@ ref int RandomSeed { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Reverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L28)
+### **Reverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L28)
 
 ```csharp
 ref bool Reverse { get; }
@@ -100,7 +100,7 @@ ref bool Reverse { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SnapShotIncrement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L30)
+### **SnapShotIncrement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput SnapShotIncrement { get; }
@@ -110,7 +110,7 @@ CParticleCollectionFloatInput SnapShotIncrement { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**StrSnapshotSubset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L18)
+### **StrSnapshotSubset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromCPSnapshot.cs#L18)
 
 ```csharp
 string StrSnapshotSubset { get; set; }

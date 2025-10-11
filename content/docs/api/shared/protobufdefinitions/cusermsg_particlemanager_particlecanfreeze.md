@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_ParticleCanFreeze : ITypedProtobuf<CUs
 
 ## Properties
 
-**CanFreeze** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ParticleCanFreeze.cs#L13)
+### **CanFreeze** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_ParticleCanFreeze.cs#L13)
 
 ```csharp
 bool CanFreeze { get; set; }

@@ -10,7 +10,7 @@ public interface CBodyGroupAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, I
 
 ## Properties
 
-**BodyGroupSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupAnimTag.cs#L19)
+### **BodyGroupSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupAnimTag.cs#L19)
 
 ```csharp
 ref CUtlVector BodyGroupSettings { get; }
@@ -18,9 +18,9 @@ ref CUtlVector BodyGroupSettings { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupAnimTag.cs#L16)
+### **Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupAnimTag.cs#L16)
 
 ```csharp
 ref int Priority { get; }

@@ -10,7 +10,7 @@ public interface CSVCMsg_HLTVStatus : ITypedProtobuf<CSVCMsg_HLTVStatus>, INativ
 
 ## Properties
 
-**Clients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_HLTVStatus.cs#L21)
+### **Clients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_HLTVStatus.cs#L21)
 
 ```csharp
 int Clients { get; set; }
@@ -20,7 +20,7 @@ int Clients { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Master** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_HLTVStatus.cs#L18)
+### **Master** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_HLTVStatus.cs#L18)
 
 ```csharp
 string Master { get; set; }
@@ -30,7 +30,7 @@ string Master { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Proxies** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_HLTVStatus.cs#L27)
+### **Proxies** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_HLTVStatus.cs#L27)
 
 ```csharp
 int Proxies { get; set; }
@@ -40,7 +40,7 @@ int Proxies { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Slots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_HLTVStatus.cs#L24)
+### **Slots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_HLTVStatus.cs#L24)
 
 ```csharp
 int Slots { get; set; }

@@ -10,7 +10,7 @@ public interface CCSUsrMsg_AmmoDenied : ITypedProtobuf<CCSUsrMsg_AmmoDenied>, IN
 
 ## Properties
 
-**Ammoidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_AmmoDenied.cs#L18)
+### **Ammoidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_AmmoDenied.cs#L18)
 
 ```csharp
 int Ammoidx { get; set; }

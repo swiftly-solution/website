@@ -10,7 +10,7 @@ public interface CMsgApplyEggEssence : ITypedProtobuf<CMsgApplyEggEssence>, INat
 
 ## Properties
 
-**EggItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyEggEssence.cs#L16)
+### **EggItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyEggEssence.cs#L16)
 
 ```csharp
 ulong EggItemId { get; set; }
@@ -20,7 +20,7 @@ ulong EggItemId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**EssenceItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyEggEssence.cs#L13)
+### **EssenceItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyEggEssence.cs#L13)
 
 ```csharp
 ulong EssenceItemId { get; set; }

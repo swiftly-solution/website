@@ -10,7 +10,7 @@ public interface C_OP_MoveToHitbox : CParticleFunctionOperator, CParticleFunctio
 
 ## Properties
 
-**HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L26)
+### **HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L26)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -20,7 +20,7 @@ string HitboxSetName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L32)
+### **Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L32)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput Interpolation { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**LerpType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L30)
+### **LerpType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L30)
 
 ```csharp
 ref HitboxLerpType_t LerpType { get; }
@@ -40,7 +40,7 @@ ref HitboxLerpType_t LerpType { get; }
 
 - [HitboxLerpType_t](/docs/api/shared/schemadefinitions/hitboxlerptype_t)
 
-**LifeTimeLerpEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L22)
+### **LifeTimeLerpEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L22)
 
 ```csharp
 ref float LifeTimeLerpEnd { get; }
@@ -50,7 +50,7 @@ ref float LifeTimeLerpEnd { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LifeTimeLerpStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L20)
+### **LifeTimeLerpStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L20)
 
 ```csharp
 ref float LifeTimeLerpStart { get; }
@@ -60,7 +60,7 @@ ref float LifeTimeLerpStart { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ModelInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L16)
+### **ModelInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L16)
 
 ```csharp
 CParticleModelInput ModelInput { get; }
@@ -70,7 +70,7 @@ CParticleModelInput ModelInput { get; }
 
 - [CParticleModelInput](/docs/api/shared/schemadefinitions/cparticlemodelinput)
 
-**PrevPosScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L24)
+### **PrevPosScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L24)
 
 ```csharp
 ref float PrevPosScale { get; }
@@ -80,7 +80,7 @@ ref float PrevPosScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L18)
+### **TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L18)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }
@@ -90,7 +90,7 @@ CParticleTransformInput TransformInput { get; }
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 
-**UseBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L28)
+### **UseBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MoveToHitbox.cs#L28)
 
 ```csharp
 ref bool UseBones { get; }

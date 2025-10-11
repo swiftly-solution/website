@@ -10,7 +10,7 @@ public interface VacNetShot : ITypedProtobuf<VacNetShot>, INativeHandle
 
 ## Properties
 
-**DeltaPitchWindow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L31)
+### **DeltaPitchWindow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L31)
 
 ```csharp
 IProtobufRepeatedFieldValueType<float> DeltaPitchWindow { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldValueType<float> DeltaPitchWindow { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**DeltaYawWindow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L28)
+### **DeltaYawWindow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L28)
 
 ```csharp
 IProtobufRepeatedFieldValueType<float> DeltaYawWindow { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldValueType<float> DeltaYawWindow { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**DistanceToHurtTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L25)
+### **DistanceToHurtTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L25)
 
 ```csharp
 float DistanceToHurtTarget { get; set; }
@@ -40,7 +40,7 @@ float DistanceToHurtTarget { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HitType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L19)
+### **HitType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L19)
 
 ```csharp
 int HitType { get; set; }
@@ -50,7 +50,7 @@ int HitType { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RoundNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L16)
+### **RoundNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L16)
 
 ```csharp
 int RoundNumber { get; set; }
@@ -60,7 +60,7 @@ int RoundNumber { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SteamidPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L13)
+### **SteamidPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L13)
 
 ```csharp
 ulong SteamidPlayer { get; set; }
@@ -70,7 +70,7 @@ ulong SteamidPlayer { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**WeaponType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L22)
+### **WeaponType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/VacNetShot.cs#L22)
 
 ```csharp
 int WeaponType { get; set; }

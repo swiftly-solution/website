@@ -10,7 +10,7 @@ public interface C_OP_RestartAfterDuration : CParticleFunctionOperator, CParticl
 
 ## Properties
 
-**CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L20)
+### **CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L20)
 
 ```csharp
 ref int CP { get; }
@@ -20,7 +20,7 @@ ref int CP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CPField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L22)
+### **CPField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L22)
 
 ```csharp
 ref int CPField { get; }
@@ -30,7 +30,7 @@ ref int CPField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ChildGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L24)
+### **ChildGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L24)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -40,7 +40,7 @@ ref int ChildGroupID { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DurationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L18)
+### **DurationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L18)
 
 ```csharp
 ref float DurationMax { get; }
@@ -50,7 +50,7 @@ ref float DurationMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DurationMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L16)
+### **DurationMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L16)
 
 ```csharp
 ref float DurationMin { get; }
@@ -60,7 +60,7 @@ ref float DurationMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OnlyChildren** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L26)
+### **OnlyChildren** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RestartAfterDuration.cs#L26)
 
 ```csharp
 ref bool OnlyChildren { get; }

@@ -10,7 +10,7 @@ public interface CCLCMsg_VoiceData : ITypedProtobuf<CCLCMsg_VoiceData>, INativeH
 
 ## Properties
 
-**Audio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_VoiceData.cs#L18)
+### **Audio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_VoiceData.cs#L18)
 
 ```csharp
 CMsgVoiceAudio Audio { get; }
@@ -20,7 +20,7 @@ CMsgVoiceAudio Audio { get; }
 
 - [CMsgVoiceAudio](/docs/api/shared/protobufdefinitions/cmsgvoiceaudio)
 
-**Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_VoiceData.cs#L24)
+### **Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_VoiceData.cs#L24)
 
 ```csharp
 uint Tick { get; set; }
@@ -30,7 +30,7 @@ uint Tick { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_VoiceData.cs#L21)
+### **Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_VoiceData.cs#L21)
 
 ```csharp
 ulong Xuid { get; set; }

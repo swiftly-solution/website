@@ -10,7 +10,7 @@ public interface CPhysSlideConstraint : CPhysConstraint, CLogicalEntity, CServer
 
 ## Properties
 
-**AxisEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L16)
+### **AxisEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L16)
 
 ```csharp
 ref Vector AxisEnd { get; }
@@ -20,7 +20,7 @@ ref Vector AxisEnd { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**EnableAngularConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L26)
+### **EnableAngularConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L26)
 
 ```csharp
 ref bool EnableAngularConstraint { get; }
@@ -30,7 +30,7 @@ ref bool EnableAngularConstraint { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EnableLinearConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L24)
+### **EnableLinearConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L24)
 
 ```csharp
 ref bool EnableLinearConstraint { get; }
@@ -40,7 +40,7 @@ ref bool EnableLinearConstraint { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InitialOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L22)
+### **InitialOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L22)
 
 ```csharp
 ref float InitialOffset { get; }
@@ -50,7 +50,7 @@ ref float InitialOffset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MotorDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L30)
+### **MotorDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L30)
 
 ```csharp
 ref float MotorDampingRatio { get; }
@@ -60,7 +60,7 @@ ref float MotorDampingRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MotorFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L28)
+### **MotorFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L28)
 
 ```csharp
 ref float MotorFrequency { get; }
@@ -70,7 +70,7 @@ ref float MotorFrequency { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SlideFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L18)
+### **SlideFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L18)
 
 ```csharp
 ref float SlideFriction { get; }
@@ -80,7 +80,7 @@ ref float SlideFriction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SoundInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L34)
+### **SoundInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L34)
 
 ```csharp
 ConstraintSoundInfo SoundInfo { get; }
@@ -90,7 +90,7 @@ ConstraintSoundInfo SoundInfo { get; }
 
 - [ConstraintSoundInfo](/docs/api/shared/schemadefinitions/constraintsoundinfo)
 
-**SystemLoadScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L20)
+### **SystemLoadScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L20)
 
 ```csharp
 ref float SystemLoadScale { get; }
@@ -100,7 +100,7 @@ ref float SystemLoadScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UseEntityPivot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L32)
+### **UseEntityPivot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSlideConstraint.cs#L32)
 
 ```csharp
 ref bool UseEntityPivot { get; }

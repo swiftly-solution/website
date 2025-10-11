@@ -10,7 +10,7 @@ public interface FloatInputMaterialVariable_t : ISchemaClass<FloatInputMaterialV
 
 ## Properties
 
-**Input** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FloatInputMaterialVariable_t.cs#L18)
+### **Input** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FloatInputMaterialVariable_t.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput Input { get; }
@@ -20,7 +20,7 @@ CParticleCollectionFloatInput Input { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**StrVariable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FloatInputMaterialVariable_t.cs#L16)
+### **StrVariable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FloatInputMaterialVariable_t.cs#L16)
 
 ```csharp
 string StrVariable { get; set; }

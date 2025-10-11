@@ -10,7 +10,7 @@ public interface PulseGraphExecutionHistoryNodeDesc_t : ISchemaClass<PulseGraphE
 
 ## Properties
 
-**StrBindingName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryNodeDesc_t.cs#L19)
+### **StrBindingName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryNodeDesc_t.cs#L19)
 
 ```csharp
 SchemaUntypedField StrBindingName { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField StrBindingName { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**StrCellDesc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryNodeDesc_t.cs#L16)
+### **StrCellDesc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryNodeDesc_t.cs#L16)
 
 ```csharp
 ref CBufferString StrCellDesc { get; }

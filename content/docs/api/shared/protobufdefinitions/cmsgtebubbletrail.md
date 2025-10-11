@@ -10,7 +10,7 @@ public interface CMsgTEBubbleTrail : ITypedProtobuf<CMsgTEBubbleTrail>, INativeH
 
 ## Properties
 
-**Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBubbleTrail.cs#L27)
+### **Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBubbleTrail.cs#L27)
 
 ```csharp
 uint Count { get; set; }
@@ -20,7 +20,7 @@ uint Count { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Maxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBubbleTrail.cs#L21)
+### **Maxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBubbleTrail.cs#L21)
 
 ```csharp
 Vector Maxs { get; set; }
@@ -30,7 +30,7 @@ Vector Maxs { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Mins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBubbleTrail.cs#L18)
+### **Mins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBubbleTrail.cs#L18)
 
 ```csharp
 Vector Mins { get; set; }
@@ -40,7 +40,7 @@ Vector Mins { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Speed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBubbleTrail.cs#L30)
+### **Speed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBubbleTrail.cs#L30)
 
 ```csharp
 float Speed { get; set; }
@@ -50,7 +50,7 @@ float Speed { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Waterz** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBubbleTrail.cs#L24)
+### **Waterz** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBubbleTrail.cs#L24)
 
 ```csharp
 float Waterz { get; set; }

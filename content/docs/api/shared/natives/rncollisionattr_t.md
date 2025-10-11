@@ -10,7 +10,7 @@ public struct RnCollisionAttr_t
 
 ## Fields
 
-**CollisionFunctionMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L25)
+### **CollisionFunctionMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L25)
 
 ```csharp
 public CollisionFunctionMask_t CollisionFunctionMask
@@ -20,7 +20,7 @@ public CollisionFunctionMask_t CollisionFunctionMask
 
 - [CollisionFunctionMask_t](/docs/api/shared/natives/collisionfunctionmask_t)
 
-**CollisionGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L24)
+### **CollisionGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L24)
 
 ```csharp
 public CollisionGroup CollisionGroup
@@ -30,7 +30,7 @@ public CollisionGroup CollisionGroup
 
 - [CollisionGroup](/docs/api/shared/natives/collisiongroup)
 
-**EntityId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L21)
+### **EntityId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L21)
 
 ```csharp
 public uint EntityId
@@ -40,7 +40,7 @@ public uint EntityId
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**HierarchyId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L23)
+### **HierarchyId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L23)
 
 ```csharp
 public ushort HierarchyId
@@ -50,7 +50,7 @@ public ushort HierarchyId
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**InteractsAs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L18)
+### **InteractsAs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L18)
 
 ```csharp
 public ulong InteractsAs
@@ -60,7 +60,7 @@ public ulong InteractsAs
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**InteractsExclude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L20)
+### **InteractsExclude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L20)
 
 ```csharp
 public ulong InteractsExclude
@@ -70,7 +70,7 @@ public ulong InteractsExclude
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**InteractsWith** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L19)
+### **InteractsWith** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L19)
 
 ```csharp
 public ulong InteractsWith
@@ -80,7 +80,7 @@ public ulong InteractsWith
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**OwnerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L22)
+### **OwnerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnCollisionAttr_t.cs#L22)
 
 ```csharp
 public uint OwnerId

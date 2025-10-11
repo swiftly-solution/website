@@ -10,7 +10,7 @@ public interface CUserMessageColoredText : ITypedProtobuf<CUserMessageColoredTex
 
 ## Properties
 
-**Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L18)
+### **Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L18)
 
 ```csharp
 uint Color { get; set; }
@@ -20,7 +20,7 @@ uint Color { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ContextPlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L27)
+### **ContextPlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L27)
 
 ```csharp
 int ContextPlayerSlot { get; set; }
@@ -30,7 +30,7 @@ int ContextPlayerSlot { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ContextTeamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L33)
+### **ContextTeamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L33)
 
 ```csharp
 int ContextTeamId { get; set; }
@@ -40,7 +40,7 @@ int ContextTeamId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ContextValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L30)
+### **ContextValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L30)
 
 ```csharp
 int ContextValue { get; set; }
@@ -50,7 +50,7 @@ int ContextValue { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Reset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L24)
+### **Reset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L24)
 
 ```csharp
 bool Reset { get; set; }
@@ -60,7 +60,7 @@ bool Reset { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L21)
+### **Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageColoredText.cs#L21)
 
 ```csharp
 string Text { get; set; }

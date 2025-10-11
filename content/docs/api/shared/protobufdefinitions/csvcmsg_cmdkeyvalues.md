@@ -10,7 +10,7 @@ public interface CSVCMsg_CmdKeyValues : ITypedProtobuf<CSVCMsg_CmdKeyValues>, IN
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_CmdKeyValues.cs#L18)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_CmdKeyValues.cs#L18)
 
 ```csharp
 byte[] Data { get; set; }

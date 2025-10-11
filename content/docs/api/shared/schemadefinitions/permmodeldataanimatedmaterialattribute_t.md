@@ -10,7 +10,7 @@ public interface PermModelDataAnimatedMaterialAttribute_t : ISchemaClass<PermMod
 
 ## Properties
 
-**AttributeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelDataAnimatedMaterialAttribute_t.cs#L16)
+### **AttributeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelDataAnimatedMaterialAttribute_t.cs#L16)
 
 ```csharp
 string AttributeName { get; set; }
@@ -20,7 +20,7 @@ string AttributeName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NumChannels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelDataAnimatedMaterialAttribute_t.cs#L18)
+### **NumChannels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelDataAnimatedMaterialAttribute_t.cs#L18)
 
 ```csharp
 ref int NumChannels { get; }

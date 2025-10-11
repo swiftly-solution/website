@@ -10,7 +10,7 @@ public interface C_OP_AttractToControlPoint : CParticleFunctionForce, CParticleF
 
 ## Properties
 
-**ApplyMinForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L26)
+### **ApplyMinForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L26)
 
 ```csharp
 ref bool ApplyMinForce { get; }
@@ -20,7 +20,7 @@ ref bool ApplyMinForce { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ComponentScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L16)
+### **ComponentScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L16)
 
 ```csharp
 ref Vector ComponentScale { get; }
@@ -30,7 +30,7 @@ ref Vector ComponentScale { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FalloffPower** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L20)
+### **FalloffPower** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L20)
 
 ```csharp
 ref float FalloffPower { get; }
@@ -40,7 +40,7 @@ ref float FalloffPower { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ForceAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L18)
+### **ForceAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L18)
 
 ```csharp
 CPerParticleFloatInput ForceAmount { get; }
@@ -50,7 +50,7 @@ CPerParticleFloatInput ForceAmount { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**ForceAmountMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L24)
+### **ForceAmountMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L24)
 
 ```csharp
 CPerParticleFloatInput ForceAmountMin { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput ForceAmountMin { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L22)
+### **TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_AttractToControlPoint.cs#L22)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

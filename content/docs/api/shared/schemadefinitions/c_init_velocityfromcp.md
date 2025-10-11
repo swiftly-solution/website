@@ -10,7 +10,7 @@ public interface C_INIT_VelocityFromCP : CParticleFunctionInitializer, CParticle
 
 ## Properties
 
-**DirectionOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L22)
+### **DirectionOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L22)
 
 ```csharp
 ref bool DirectionOnly { get; }
@@ -20,7 +20,7 @@ ref bool DirectionOnly { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L18)
+### **TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L18)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }
@@ -30,7 +30,7 @@ CParticleTransformInput TransformInput { get; }
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 
-**VelocityInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L16)
+### **VelocityInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L16)
 
 ```csharp
 CParticleCollectionVecInput VelocityInput { get; }
@@ -40,7 +40,7 @@ CParticleCollectionVecInput VelocityInput { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**VelocityScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L20)
+### **VelocityScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityFromCP.cs#L20)
 
 ```csharp
 ref float VelocityScale { get; }

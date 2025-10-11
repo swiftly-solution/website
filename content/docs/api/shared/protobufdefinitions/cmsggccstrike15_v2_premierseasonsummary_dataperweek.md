@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek : ITypedPro
 
 ## Properties
 
-**MatchesPlayed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek.cs#L19)
+### **MatchesPlayed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek.cs#L19)
 
 ```csharp
 uint MatchesPlayed { get; set; }
@@ -20,7 +20,7 @@ uint MatchesPlayed { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RankId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek.cs#L16)
+### **RankId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek.cs#L16)
 
 ```csharp
 uint RankId { get; set; }
@@ -30,7 +30,7 @@ uint RankId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**WeekId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek.cs#L13)
+### **WeekId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek.cs#L13)
 
 ```csharp
 ulong WeekId { get; set; }

@@ -10,7 +10,7 @@ public interface CPhysicsBodyGameMarkupData : ISchemaClass<CPhysicsBodyGameMarku
 
 ## Properties
 
-**PhysicsBodyMarkupByBoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsBodyGameMarkupData.cs#L17)
+### **PhysicsBodyMarkupByBoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsBodyGameMarkupData.cs#L17)
 
 ```csharp
 SchemaUntypedField PhysicsBodyMarkupByBoneName { get; }

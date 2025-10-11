@@ -10,7 +10,7 @@ public interface CSolveIKChainUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase
 
 ## Properties
 
-**OpFixedData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSolveIKChainUpdateNode.cs#L19)
+### **OpFixedData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSolveIKChainUpdateNode.cs#L19)
 
 ```csharp
 SolveIKChainPoseOpFixedSettings_t OpFixedData { get; }
@@ -20,7 +20,7 @@ SolveIKChainPoseOpFixedSettings_t OpFixedData { get; }
 
 - [SolveIKChainPoseOpFixedSettings_t](/docs/api/shared/schemadefinitions/solveikchainposeopfixedsettings_t)
 
-**TargetHandles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSolveIKChainUpdateNode.cs#L17)
+### **TargetHandles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSolveIKChainUpdateNode.cs#L17)
 
 ```csharp
 ref CUtlVector TargetHandles { get; }
@@ -28,5 +28,5 @@ ref CUtlVector TargetHandles { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

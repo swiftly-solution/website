@@ -10,7 +10,7 @@ public interface CMsgUpdateItemSchema : ITypedProtobuf<CMsgUpdateItemSchema>, IN
 
 ## Properties
 
-**ItemSchemaVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgUpdateItemSchema.cs#L16)
+### **ItemSchemaVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgUpdateItemSchema.cs#L16)
 
 ```csharp
 uint ItemSchemaVersion { get; set; }
@@ -20,7 +20,7 @@ uint ItemSchemaVersion { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemsGame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgUpdateItemSchema.cs#L13)
+### **ItemsGame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgUpdateItemSchema.cs#L13)
 
 ```csharp
 byte[] ItemsGame { get; set; }
@@ -30,7 +30,7 @@ byte[] ItemsGame { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**ItemsGameUrl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgUpdateItemSchema.cs#L19)
+### **ItemsGameUrl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgUpdateItemSchema.cs#L19)
 
 ```csharp
 string ItemsGameUrl { get; set; }

@@ -10,7 +10,7 @@ public interface AimMatrixOpFixedSettings_t : ISchemaClass<AimMatrixOpFixedSetti
 
 ## Properties
 
-**Attachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L16)
+### **Attachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L16)
 
 ```csharp
 CAnimAttachment Attachment { get; }
@@ -20,7 +20,7 @@ CAnimAttachment Attachment { get; }
 
 - [CAnimAttachment](/docs/api/shared/schemadefinitions/canimattachment)
 
-**BiasAndClampBlendCurve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L41)
+### **BiasAndClampBlendCurve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L41)
 
 ```csharp
 CBlendCurve BiasAndClampBlendCurve { get; }
@@ -30,7 +30,7 @@ CBlendCurve BiasAndClampBlendCurve { get; }
 
 - [CBlendCurve](/docs/api/shared/schemadefinitions/cblendcurve)
 
-**BiasAndClampPitchOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L39)
+### **BiasAndClampPitchOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L39)
 
 ```csharp
 ref float BiasAndClampPitchOffset { get; }
@@ -40,7 +40,7 @@ ref float BiasAndClampPitchOffset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BiasAndClampYawOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L37)
+### **BiasAndClampYawOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L37)
 
 ```csharp
 ref float BiasAndClampYawOffset { get; }
@@ -50,7 +50,7 @@ ref float BiasAndClampYawOffset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L23)
+### **BlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L23)
 
 ```csharp
 ref AimMatrixBlendMode BlendMode { get; }
@@ -60,7 +60,7 @@ ref AimMatrixBlendMode BlendMode { get; }
 
 - [AimMatrixBlendMode](/docs/api/shared/schemadefinitions/aimmatrixblendmode)
 
-**BoneMaskIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L31)
+### **BoneMaskIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L31)
 
 ```csharp
 ref int BoneMaskIndex { get; }
@@ -70,7 +70,7 @@ ref int BoneMaskIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Damping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L18)
+### **Damping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L18)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -80,7 +80,7 @@ CAnimInputDamping Damping { get; }
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
-**MaxPitchAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L27)
+### **MaxPitchAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L27)
 
 ```csharp
 ref float MaxPitchAngle { get; }
@@ -90,7 +90,7 @@ ref float MaxPitchAngle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxYawAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L25)
+### **MaxYawAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L25)
 
 ```csharp
 ref float MaxYawAngle { get; }
@@ -100,7 +100,7 @@ ref float MaxYawAngle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PoseCacheHandles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L21)
+### **PoseCacheHandles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L21)
 
 ```csharp
 SchemaUntypedField PoseCacheHandles { get; }
@@ -110,7 +110,7 @@ SchemaUntypedField PoseCacheHandles { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**SequenceMaxFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L29)
+### **SequenceMaxFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L29)
 
 ```csharp
 ref int SequenceMaxFrame { get; }
@@ -120,7 +120,7 @@ ref int SequenceMaxFrame { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TargetIsPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L33)
+### **TargetIsPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L33)
 
 ```csharp
 ref bool TargetIsPosition { get; }
@@ -130,7 +130,7 @@ ref bool TargetIsPosition { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UseBiasAndClamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L35)
+### **UseBiasAndClamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimMatrixOpFixedSettings_t.cs#L35)
 
 ```csharp
 ref bool UseBiasAndClamp { get; }

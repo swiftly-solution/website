@@ -10,7 +10,7 @@ public interface CFuseProgram : ISchemaClass<CFuseProgram>, ISchemaField, ISchem
 
 ## Properties
 
-**MaxTempVarsUsed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L24)
+### **MaxTempVarsUsed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L24)
 
 ```csharp
 ref int MaxTempVarsUsed { get; }
@@ -20,7 +20,7 @@ ref int MaxTempVarsUsed { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ProgramBuffer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L16)
+### **ProgramBuffer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L16)
 
 ```csharp
 ref CUtlVector<byte> ProgramBuffer { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<byte> ProgramBuffer { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
+- [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
-**VariablesRead** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L19)
+### **VariablesRead** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L19)
 
 ```csharp
 ref CUtlVector VariablesRead { get; }
@@ -38,9 +38,9 @@ ref CUtlVector VariablesRead { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**VariablesWritten** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L22)
+### **VariablesWritten** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuseProgram.cs#L22)
 
 ```csharp
 ref CUtlVector VariablesWritten { get; }
@@ -48,5 +48,5 @@ ref CUtlVector VariablesWritten { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

@@ -10,7 +10,7 @@ public interface CBoneMaskUpdateNode : CBinaryUpdateNode, CAnimUpdateNodeBase, I
 
 ## Properties
 
-**BlendParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L28)
+### **BlendParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L28)
 
 ```csharp
 CAnimParamHandle BlendParameter { get; }
@@ -20,7 +20,7 @@ CAnimParamHandle BlendParameter { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**BlendSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L20)
+### **BlendSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L20)
 
 ```csharp
 ref BoneMaskBlendSpace BlendSpace { get; }
@@ -30,7 +30,7 @@ ref BoneMaskBlendSpace BlendSpace { get; }
 
 - [BoneMaskBlendSpace](/docs/api/shared/schemadefinitions/bonemaskblendspace)
 
-**BlendValueSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L26)
+### **BlendValueSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L26)
 
 ```csharp
 ref AnimValueSource BlendValueSource { get; }
@@ -40,7 +40,7 @@ ref AnimValueSource BlendValueSource { get; }
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 
-**FootMotionTiming** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L22)
+### **FootMotionTiming** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L22)
 
 ```csharp
 ref BinaryNodeChildOption FootMotionTiming { get; }
@@ -50,7 +50,7 @@ ref BinaryNodeChildOption FootMotionTiming { get; }
 
 - [BinaryNodeChildOption](/docs/api/shared/schemadefinitions/binarynodechildoption)
 
-**RootMotionBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L18)
+### **RootMotionBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L18)
 
 ```csharp
 ref float RootMotionBlend { get; }
@@ -60,7 +60,7 @@ ref float RootMotionBlend { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UseBlendScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L24)
+### **UseBlendScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L24)
 
 ```csharp
 ref bool UseBlendScale { get; }
@@ -70,7 +70,7 @@ ref bool UseBlendScale { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WeightListIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L16)
+### **WeightListIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneMaskUpdateNode.cs#L16)
 
 ```csharp
 ref int WeightListIndex { get; }

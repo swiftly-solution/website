@@ -10,7 +10,7 @@ public interface C_OP_SDFConstraint : CParticleFunctionConstraint, CParticleFunc
 
 ## Properties
 
-**MaxDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SDFConstraint.cs#L18)
+### **MaxDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SDFConstraint.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput MaxDist { get; }
@@ -20,7 +20,7 @@ CParticleCollectionFloatInput MaxDist { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**MaxIterations** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SDFConstraint.cs#L20)
+### **MaxIterations** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SDFConstraint.cs#L20)
 
 ```csharp
 ref int MaxIterations { get; }
@@ -30,7 +30,7 @@ ref int MaxIterations { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MinDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SDFConstraint.cs#L16)
+### **MinDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SDFConstraint.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput MinDist { get; }

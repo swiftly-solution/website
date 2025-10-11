@@ -10,7 +10,7 @@ public interface CGeneralRandomRotation : CParticleFunctionInitializer, CParticl
 
 ## Properties
 
-**Degrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L18)
+### **Degrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L18)
 
 ```csharp
 ref float Degrees { get; }
@@ -20,7 +20,7 @@ ref float Degrees { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DegreesMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L22)
+### **DegreesMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L22)
 
 ```csharp
 ref float DegreesMax { get; }
@@ -30,7 +30,7 @@ ref float DegreesMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DegreesMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L20)
+### **DegreesMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L20)
 
 ```csharp
 ref float DegreesMin { get; }
@@ -40,7 +40,7 @@ ref float DegreesMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -50,7 +50,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**RandomlyFlipDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L26)
+### **RandomlyFlipDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L26)
 
 ```csharp
 ref bool RandomlyFlipDirection { get; }
@@ -60,7 +60,7 @@ ref bool RandomlyFlipDirection { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RotationRandExponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L24)
+### **RotationRandExponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralRandomRotation.cs#L24)
 
 ```csharp
 ref float RotationRandExponent { get; }

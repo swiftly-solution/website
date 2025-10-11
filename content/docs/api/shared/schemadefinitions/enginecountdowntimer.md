@@ -10,7 +10,7 @@ public interface EngineCountdownTimer : ISchemaClass<EngineCountdownTimer>, ISch
 
 ## Properties
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L16)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L16)
 
 ```csharp
 ref float Duration { get; }
@@ -20,7 +20,7 @@ ref float Duration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Timescale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L20)
+### **Timescale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L20)
 
 ```csharp
 ref float Timescale { get; }
@@ -30,7 +30,7 @@ ref float Timescale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Timestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L18)
+### **Timestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L18)
 
 ```csharp
 ref float Timestamp { get; }
@@ -42,19 +42,19 @@ ref float Timestamp { get; }
 
 ## Methods
 
-**DurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L22)
+### **DurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L22)
 
 ```csharp
 void DurationUpdated()
 ```
 
-**TimescaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L24)
+### **TimescaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L24)
 
 ```csharp
 void TimescaleUpdated()
 ```
 
-**TimestampUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L23)
+### **TimestampUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EngineCountdownTimer.cs#L23)
 
 ```csharp
 void TimestampUpdated()

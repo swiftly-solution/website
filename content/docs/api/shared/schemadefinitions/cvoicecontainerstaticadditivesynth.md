@@ -10,7 +10,7 @@ public interface CVoiceContainerStaticAdditiveSynth : CVoiceContainerBase, ISche
 
 ## Properties
 
-**Tones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth.cs#L17)
+### **Tones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth.cs#L17)
 
 ```csharp
 ref CUtlVector Tones { get; }
@@ -18,5 +18,5 @@ ref CUtlVector Tones { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

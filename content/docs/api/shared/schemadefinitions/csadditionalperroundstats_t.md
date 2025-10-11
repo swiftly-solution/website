@@ -10,7 +10,7 @@ public interface CSAdditionalPerRoundStats_t : ISchemaClass<CSAdditionalPerRound
 
 ## Properties
 
-**BlastDamageInflicted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L24)
+### **BlastDamageInflicted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L24)
 
 ```csharp
 ref float BlastDamageInflicted { get; }
@@ -20,7 +20,7 @@ ref float BlastDamageInflicted { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BombCarrierkills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L20)
+### **BombCarrierkills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L20)
 
 ```csharp
 ref int BombCarrierkills { get; }
@@ -30,7 +30,7 @@ ref int BombCarrierkills { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**BurnDamageInflicted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L22)
+### **BurnDamageInflicted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L22)
 
 ```csharp
 ref float BurnDamageInflicted { get; }
@@ -40,7 +40,7 @@ ref float BurnDamageInflicted { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Dinks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L26)
+### **Dinks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L26)
 
 ```csharp
 ref int Dinks { get; }
@@ -50,7 +50,7 @@ ref int Dinks { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**KillsWhileBlind** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L18)
+### **KillsWhileBlind** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L18)
 
 ```csharp
 ref int KillsWhileBlind { get; }
@@ -60,7 +60,7 @@ ref int KillsWhileBlind { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumChickensKilled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L16)
+### **NumChickensKilled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalPerRoundStats_t.cs#L16)
 
 ```csharp
 ref int NumChickensKilled { get; }

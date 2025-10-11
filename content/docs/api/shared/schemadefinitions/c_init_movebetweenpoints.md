@@ -10,7 +10,7 @@ public interface C_INIT_MoveBetweenPoints : CParticleFunctionInitializer, CParti
 
 ## Properties
 
-**EndControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L26)
+### **EndControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L26)
 
 ```csharp
 ref int EndControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int EndControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EndOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L24)
+### **EndOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L24)
 
 ```csharp
 CPerParticleFloatInput EndOffset { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput EndOffset { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**EndSpread** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L20)
+### **EndSpread** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L20)
 
 ```csharp
 CPerParticleFloatInput EndSpread { get; }
@@ -40,7 +40,7 @@ CPerParticleFloatInput EndSpread { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L18)
+### **SpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L18)
 
 ```csharp
 CPerParticleFloatInput SpeedMax { get; }
@@ -50,7 +50,7 @@ CPerParticleFloatInput SpeedMax { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L16)
+### **SpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L16)
 
 ```csharp
 CPerParticleFloatInput SpeedMin { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput SpeedMin { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**StartOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L22)
+### **StartOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L22)
 
 ```csharp
 CPerParticleFloatInput StartOffset { get; }
@@ -70,7 +70,7 @@ CPerParticleFloatInput StartOffset { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**TrailBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L28)
+### **TrailBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_MoveBetweenPoints.cs#L28)
 
 ```csharp
 ref bool TrailBias { get; }

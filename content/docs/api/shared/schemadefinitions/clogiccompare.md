@@ -10,7 +10,7 @@ public interface CLogicCompare : CLogicalEntity, CServerOnlyEntity, CBaseEntity,
 
 ## Properties
 
-**CompareValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L18)
+### **CompareValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L18)
 
 ```csharp
 ref float CompareValue { get; }
@@ -20,7 +20,7 @@ ref float CompareValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L16)
+### **InValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L16)
 
 ```csharp
 ref float InValue { get; }
@@ -30,7 +30,7 @@ ref float InValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OnEqualTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L24)
+### **OnEqualTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L24)
 
 ```csharp
 SchemaUntypedField OnEqualTo { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField OnEqualTo { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**OnGreaterThan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L30)
+### **OnGreaterThan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L30)
 
 ```csharp
 SchemaUntypedField OnGreaterThan { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField OnGreaterThan { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**OnLessThan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L21)
+### **OnLessThan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L21)
 
 ```csharp
 SchemaUntypedField OnLessThan { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField OnLessThan { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**OnNotEqualTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L27)
+### **OnNotEqualTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCompare.cs#L27)
 
 ```csharp
 SchemaUntypedField OnNotEqualTo { get; }

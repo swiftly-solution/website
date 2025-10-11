@@ -10,7 +10,7 @@ public interface CVectorAnimParameter : CConcreteAnimParameter, CAnimParameterBa
 
 ## Properties
 
-**DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorAnimParameter.cs#L16)
+### **DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorAnimParameter.cs#L16)
 
 ```csharp
 ref Vector DefaultValue { get; }
@@ -20,7 +20,7 @@ ref Vector DefaultValue { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Interpolate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorAnimParameter.cs#L18)
+### **Interpolate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVectorAnimParameter.cs#L18)
 
 ```csharp
 ref bool Interpolate { get; }

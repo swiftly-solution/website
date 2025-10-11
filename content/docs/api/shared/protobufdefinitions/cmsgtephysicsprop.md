@@ -10,7 +10,7 @@ public interface CMsgTEPhysicsProp : ITypedProtobuf<CMsgTEPhysicsProp>, INativeH
 
 ## Properties
 
-**Angles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L24)
+### **Angles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L24)
 
 ```csharp
 QAngle Angles { get; set; }
@@ -20,7 +20,7 @@ QAngle Angles { get; set; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L36)
+### **Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L36)
 
 ```csharp
 uint Color { get; set; }
@@ -30,7 +30,7 @@ uint Color { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Dmgdir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L51)
+### **Dmgdir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L51)
 
 ```csharp
 Vector Dmgdir { get; set; }
@@ -40,7 +40,7 @@ Vector Dmgdir { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Dmgpos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L48)
+### **Dmgpos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L48)
 
 ```csharp
 Vector Dmgpos { get; set; }
@@ -50,7 +50,7 @@ Vector Dmgpos { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Dmgtype** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L54)
+### **Dmgtype** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L54)
 
 ```csharp
 int Dmgtype { get; set; }
@@ -60,7 +60,7 @@ int Dmgtype { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Effects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L33)
+### **Effects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L33)
 
 ```csharp
 uint Effects { get; set; }
@@ -70,7 +70,7 @@ uint Effects { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L30)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L30)
 
 ```csharp
 uint Flags { get; set; }
@@ -80,7 +80,7 @@ uint Flags { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Modelindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L39)
+### **Modelindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L39)
 
 ```csharp
 ulong Modelindex { get; set; }
@@ -90,7 +90,7 @@ ulong Modelindex { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L18)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L18)
 
 ```csharp
 Vector Origin { get; set; }
@@ -100,7 +100,7 @@ Vector Origin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L45)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L45)
 
 ```csharp
 float Scale { get; set; }
@@ -110,7 +110,7 @@ float Scale { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Skin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L27)
+### **Skin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L27)
 
 ```csharp
 uint Skin { get; set; }
@@ -120,7 +120,7 @@ uint Skin { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**UnusedBreakmodelsnottomake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L42)
+### **UnusedBreakmodelsnottomake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L42)
 
 ```csharp
 uint UnusedBreakmodelsnottomake { get; set; }
@@ -130,7 +130,7 @@ uint UnusedBreakmodelsnottomake { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Velocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L21)
+### **Velocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPhysicsProp.cs#L21)
 
 ```csharp
 Vector Velocity { get; set; }

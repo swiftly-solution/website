@@ -10,7 +10,7 @@ public interface CSVCMsg_GameEventList : ITypedProtobuf<CSVCMsg_GameEventList>, 
 
 ## Properties
 
-**Descriptors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEventList.cs#L13)
+### **Descriptors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEventList.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CSVCMsg_GameEventList_descriptor_t> Descriptors { get; }

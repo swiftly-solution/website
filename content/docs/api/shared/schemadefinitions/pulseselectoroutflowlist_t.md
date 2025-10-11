@@ -10,7 +10,7 @@ public interface PulseSelectorOutflowList_t : ISchemaClass<PulseSelectorOutflowL
 
 ## Properties
 
-**Outflows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseSelectorOutflowList_t.cs#L17)
+### **Outflows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseSelectorOutflowList_t.cs#L17)
 
 ```csharp
 ref CUtlVector Outflows { get; }
@@ -18,5 +18,5 @@ ref CUtlVector Outflows { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

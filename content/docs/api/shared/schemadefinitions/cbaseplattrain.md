@@ -10,7 +10,7 @@ public interface CBasePlatTrain : CBaseToggle, CBaseModelEntity, CBaseEntity, CE
 
 ## Properties
 
-**NoiseArrived** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlatTrain.cs#L18)
+### **NoiseArrived** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlatTrain.cs#L18)
 
 ```csharp
 string NoiseArrived { get; set; }
@@ -20,7 +20,7 @@ string NoiseArrived { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NoiseMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlatTrain.cs#L16)
+### **NoiseMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlatTrain.cs#L16)
 
 ```csharp
 string NoiseMoving { get; set; }
@@ -30,7 +30,7 @@ string NoiseMoving { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlatTrain.cs#L24)
+### **TLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlatTrain.cs#L24)
 
 ```csharp
 ref float TLength { get; }
@@ -40,7 +40,7 @@ ref float TLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlatTrain.cs#L22)
+### **TWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlatTrain.cs#L22)
 
 ```csharp
 ref float TWidth { get; }
@@ -50,7 +50,7 @@ ref float TWidth { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Volume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlatTrain.cs#L20)
+### **Volume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBasePlatTrain.cs#L20)
 
 ```csharp
 ref float Volume { get; }

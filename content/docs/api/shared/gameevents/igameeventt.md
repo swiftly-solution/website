@@ -12,7 +12,7 @@ public interface IGameEvent<T> where T : IGameEvent<T>
 
 ## Properties
 
-**Accessor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEvent.cs#L5)
+### **Accessor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEvent.cs#L5)
 
 ```csharp
 IGameEventAccessor Accessor { get; }
@@ -22,7 +22,7 @@ IGameEventAccessor Accessor { get; }
 
 - [IGameEventAccessor](/docs/api/shared/gameevents/igameeventaccessor)
 
-**DontBroadcast** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEvent.cs#L14)
+### **DontBroadcast** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/IGameEvent.cs#L14)
 
 ```csharp
 bool DontBroadcast { get; set; }

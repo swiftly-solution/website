@@ -10,7 +10,7 @@ public interface CNmSkeleton : ISchemaClass<CNmSkeleton>, ISchemaField, ISchemaC
 
 ## Properties
 
-**BoneIDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L19)
+### **BoneIDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L19)
 
 ```csharp
 SchemaUntypedField BoneIDs { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField BoneIDs { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L16)
+### **ID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L16)
 
 ```csharp
 ref CGlobalSymbol ID { get; }
@@ -30,7 +30,7 @@ ref CGlobalSymbol ID { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**IsPropSkeleton** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L35)
+### **IsPropSkeleton** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L35)
 
 ```csharp
 ref bool IsPropSkeleton { get; }
@@ -40,7 +40,7 @@ ref bool IsPropSkeleton { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaskDefinitions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L30)
+### **MaskDefinitions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L30)
 
 ```csharp
 SchemaUntypedField MaskDefinitions { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField MaskDefinitions { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ModelSpaceReferencePose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L25)
+### **ModelSpaceReferencePose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L25)
 
 ```csharp
 ref CUtlVector<CTransform> ModelSpaceReferencePose { get; }
@@ -58,9 +58,9 @@ ref CUtlVector<CTransform> ModelSpaceReferencePose { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CTransform](/docs/api/shared/natives/ctransform)>
+- [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
-**NumBonesToSampleAtLowLOD** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L27)
+### **NumBonesToSampleAtLowLOD** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L27)
 
 ```csharp
 ref int NumBonesToSampleAtLowLOD { get; }
@@ -70,7 +70,7 @@ ref int NumBonesToSampleAtLowLOD { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ParentIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L21)
+### **ParentIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L21)
 
 ```csharp
 ref CUtlVector<int> ParentIndices { get; }
@@ -78,9 +78,9 @@ ref CUtlVector<int> ParentIndices { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
+- [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**ParentSpaceReferencePose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L23)
+### **ParentSpaceReferencePose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L23)
 
 ```csharp
 ref CUtlVector<CTransform> ParentSpaceReferencePose { get; }
@@ -88,9 +88,9 @@ ref CUtlVector<CTransform> ParentSpaceReferencePose { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CTransform](/docs/api/shared/natives/ctransform)>
+- [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
-**SecondarySkeletons** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L33)
+### **SecondarySkeletons** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSkeleton.cs#L33)
 
 ```csharp
 SchemaUntypedField SecondarySkeletons { get; }

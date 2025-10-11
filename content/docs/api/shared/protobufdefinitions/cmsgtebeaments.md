@@ -10,7 +10,7 @@ public interface CMsgTEBeamEnts : ITypedProtobuf<CMsgTEBeamEnts>, INativeHandle,
 
 ## Properties
 
-**Base** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBeamEnts.cs#L18)
+### **Base** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBeamEnts.cs#L18)
 
 ```csharp
 CMsgTEBaseBeam Base { get; }
@@ -20,7 +20,7 @@ CMsgTEBaseBeam Base { get; }
 
 - [CMsgTEBaseBeam](/docs/api/shared/protobufdefinitions/cmsgtebasebeam)
 
-**Endentity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBeamEnts.cs#L24)
+### **Endentity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBeamEnts.cs#L24)
 
 ```csharp
 uint Endentity { get; set; }
@@ -30,7 +30,7 @@ uint Endentity { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Startentity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBeamEnts.cs#L21)
+### **Startentity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEBeamEnts.cs#L21)
 
 ```csharp
 uint Startentity { get; set; }

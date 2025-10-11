@@ -10,7 +10,7 @@ public interface CCSUsrMsg_RoundEndReportData_RerEvent : ITypedProtobuf<CCSUsrMs
 
 ## Properties
 
-**AllDamageData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L31)
+### **AllDamageData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L31)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_RoundEndReportData_RerEvent_Damage> AllDamageData { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_RoundEndReportData_RerEvent_Damag
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_RoundEndReportData_RerEvent_Damage](/docs/api/shared/protobufdefinitions/ccsusrmsg_roundendreportdata_rerevent_damage)>
 
-**CtAlive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L19)
+### **CtAlive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L19)
 
 ```csharp
 int CtAlive { get; set; }
@@ -30,7 +30,7 @@ int CtAlive { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ObjectiveData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L28)
+### **ObjectiveData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L28)
 
 ```csharp
 CCSUsrMsg_RoundEndReportData_RerEvent_Objective ObjectiveData { get; }
@@ -40,7 +40,7 @@ CCSUsrMsg_RoundEndReportData_RerEvent_Objective ObjectiveData { get; }
 
 - [CCSUsrMsg_RoundEndReportData_RerEvent_Objective](/docs/api/shared/protobufdefinitions/ccsusrmsg_roundendreportdata_rerevent_objective)
 
-**TAlive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L22)
+### **TAlive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L22)
 
 ```csharp
 int TAlive { get; set; }
@@ -50,7 +50,7 @@ int TAlive { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TerroristOdds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L16)
+### **TerroristOdds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L16)
 
 ```csharp
 int TerroristOdds { get; set; }
@@ -60,7 +60,7 @@ int TerroristOdds { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Timestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L13)
+### **Timestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L13)
 
 ```csharp
 float Timestamp { get; set; }
@@ -70,7 +70,7 @@ float Timestamp { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**VictimData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L25)
+### **VictimData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent.cs#L25)
 
 ```csharp
 CCSUsrMsg_RoundEndReportData_RerEvent_Victim VictimData { get; }

@@ -10,7 +10,7 @@ public interface SkeletonAnimCapture_t__Frame_t : ISchemaClass<SkeletonAnimCaptu
 
 ## Properties
 
-**CompositeBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L24)
+### **CompositeBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L24)
 
 ```csharp
 ref CUtlVector<CTransform> CompositeBones { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<CTransform> CompositeBones { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CTransform](/docs/api/shared/natives/ctransform)>
+- [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
-**FeModelAnims** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L28)
+### **FeModelAnims** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L28)
 
 ```csharp
 ref CUtlVector<CTransform> FeModelAnims { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<CTransform> FeModelAnims { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CTransform](/docs/api/shared/natives/ctransform)>
+- [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
-**FeModelPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L30)
+### **FeModelPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L30)
 
 ```csharp
 ref CUtlVector<Vector> FeModelPos { get; }
@@ -38,9 +38,9 @@ ref CUtlVector<Vector> FeModelPos { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[Vector](/docs/api/shared/natives/vector)>
+- [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
-**FlexControllerWeights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L32)
+### **FlexControllerWeights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L32)
 
 ```csharp
 ref CUtlVector<float> FlexControllerWeights { get; }
@@ -48,9 +48,9 @@ ref CUtlVector<float> FlexControllerWeights { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
+- [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**SimStateBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L26)
+### **SimStateBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L26)
 
 ```csharp
 ref CUtlVector<CTransform> SimStateBones { get; }
@@ -58,9 +58,9 @@ ref CUtlVector<CTransform> SimStateBones { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CTransform](/docs/api/shared/natives/ctransform)>
+- [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
-**Stamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L18)
+### **Stamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L18)
 
 ```csharp
 SkeletonAnimCapture_t__FrameStamp_t Stamp { get; }
@@ -70,7 +70,7 @@ SkeletonAnimCapture_t__FrameStamp_t Stamp { get; }
 
 - [SkeletonAnimCapture_t__FrameStamp_t](/docs/api/shared/schemadefinitions/skeletonanimcapture_t__framestamp_t)
 
-**Teleport** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L22)
+### **Teleport** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L22)
 
 ```csharp
 ref bool Teleport { get; }
@@ -80,7 +80,7 @@ ref bool Teleport { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L16)
+### **Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L16)
 
 ```csharp
 ref float Time { get; }
@@ -90,7 +90,7 @@ ref float Time { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Transform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L20)
+### **Transform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Frame_t.cs#L20)
 
 ```csharp
 ref CTransform Transform { get; }

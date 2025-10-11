@@ -10,7 +10,7 @@ public interface CEnvSpark : CPointEntity, CBaseEntity, CEntityInstance, ISchema
 
 ## Properties
 
-**Delay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L16)
+### **Delay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L16)
 
 ```csharp
 ref float Delay { get; }
@@ -20,7 +20,7 @@ ref float Delay { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Magnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L18)
+### **Magnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L18)
 
 ```csharp
 ref int Magnitude { get; }
@@ -30,7 +30,7 @@ ref int Magnitude { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OnSpark** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L24)
+### **OnSpark** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L24)
 
 ```csharp
 CEntityIOOutput OnSpark { get; }
@@ -40,7 +40,7 @@ CEntityIOOutput OnSpark { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**TrailLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L20)
+### **TrailLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L20)
 
 ```csharp
 ref int TrailLength { get; }
@@ -50,7 +50,7 @@ ref int TrailLength { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L22)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvSpark.cs#L22)
 
 ```csharp
 ref int Type { get; }

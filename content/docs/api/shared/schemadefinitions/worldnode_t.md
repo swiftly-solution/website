@@ -10,7 +10,7 @@ public interface WorldNode_t : ISchemaClass<WorldNode_t>, ISchemaField, ISchemaC
 
 ## Properties
 
-**AggregateInstanceStreams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L37)
+### **AggregateInstanceStreams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L37)
 
 ```csharp
 ref CUtlVector AggregateInstanceStreams { get; }
@@ -18,9 +18,9 @@ ref CUtlVector AggregateInstanceStreams { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**AggregateSceneObjects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L22)
+### **AggregateSceneObjects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L22)
 
 ```csharp
 ref CUtlVector AggregateSceneObjects { get; }
@@ -28,9 +28,9 @@ ref CUtlVector AggregateSceneObjects { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**ClutterSceneObjects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L25)
+### **ClutterSceneObjects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L25)
 
 ```csharp
 ref CUtlVector ClutterSceneObjects { get; }
@@ -38,9 +38,9 @@ ref CUtlVector ClutterSceneObjects { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**ExtraVertexStreamOverrides** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L28)
+### **ExtraVertexStreamOverrides** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L28)
 
 ```csharp
 ref CUtlVector ExtraVertexStreamOverrides { get; }
@@ -48,9 +48,9 @@ ref CUtlVector ExtraVertexStreamOverrides { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**ExtraVertexStreams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L34)
+### **ExtraVertexStreams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L34)
 
 ```csharp
 ref CUtlVector ExtraVertexStreams { get; }
@@ -58,9 +58,9 @@ ref CUtlVector ExtraVertexStreams { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**GrassFileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L46)
+### **GrassFileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L46)
 
 ```csharp
 string GrassFileName { get; set; }
@@ -70,7 +70,7 @@ string GrassFileName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HasBakedGeometryFlag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L50)
+### **HasBakedGeometryFlag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L50)
 
 ```csharp
 ref bool HasBakedGeometryFlag { get; }
@@ -80,7 +80,7 @@ ref bool HasBakedGeometryFlag { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LayerNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L42)
+### **LayerNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L42)
 
 ```csharp
 ref CUtlVector<CUtlString> LayerNames { get; }
@@ -88,9 +88,9 @@ ref CUtlVector<CUtlString> LayerNames { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**MaterialOverrides** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L31)
+### **MaterialOverrides** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L31)
 
 ```csharp
 ref CUtlVector MaterialOverrides { get; }
@@ -98,9 +98,9 @@ ref CUtlVector MaterialOverrides { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**NodeLightingInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L48)
+### **NodeLightingInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L48)
 
 ```csharp
 BakedLightingInfo_t NodeLightingInfo { get; }
@@ -110,7 +110,7 @@ BakedLightingInfo_t NodeLightingInfo { get; }
 
 - [BakedLightingInfo_t](/docs/api/shared/schemadefinitions/bakedlightinginfo_t)
 
-**SceneObjectLayerIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L44)
+### **SceneObjectLayerIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L44)
 
 ```csharp
 ref CUtlVector<byte> SceneObjectLayerIndices { get; }
@@ -118,9 +118,9 @@ ref CUtlVector<byte> SceneObjectLayerIndices { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
+- [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
-**SceneObjects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L17)
+### **SceneObjects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L17)
 
 ```csharp
 ref CUtlVector SceneObjects { get; }
@@ -128,9 +128,9 @@ ref CUtlVector SceneObjects { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**VertexAlbedoStreams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L40)
+### **VertexAlbedoStreams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L40)
 
 ```csharp
 ref CUtlVector VertexAlbedoStreams { get; }
@@ -138,9 +138,9 @@ ref CUtlVector VertexAlbedoStreams { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**VisClusterMembership** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L19)
+### **VisClusterMembership** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldNode_t.cs#L19)
 
 ```csharp
 ref CUtlVector<ushort> VisClusterMembership { get; }
@@ -148,5 +148,5 @@ ref CUtlVector<ushort> VisClusterMembership { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
+- [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 

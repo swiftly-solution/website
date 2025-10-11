@@ -10,7 +10,7 @@ public interface C_OP_RemapDistanceToLineSegmentToScalar : C_OP_RemapDistanceToL
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToScalar.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToScalar.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**MaxOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToScalar.cs#L20)
+### **MaxOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToScalar.cs#L20)
 
 ```csharp
 ref float MaxOutputValue { get; }
@@ -30,7 +30,7 @@ ref float MaxOutputValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToScalar.cs#L18)
+### **MinOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDistanceToLineSegmentToScalar.cs#L18)
 
 ```csharp
 ref float MinOutputValue { get; }

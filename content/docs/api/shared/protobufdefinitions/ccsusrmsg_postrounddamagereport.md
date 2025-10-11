@@ -10,7 +10,7 @@ public interface CCSUsrMsg_PostRoundDamageReport : ITypedProtobuf<CCSUsrMsg_Post
 
 ## Properties
 
-**GivenHealthRemoved** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L24)
+### **GivenHealthRemoved** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L24)
 
 ```csharp
 int GivenHealthRemoved { get; set; }
@@ -20,7 +20,7 @@ int GivenHealthRemoved { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**GivenKillType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L21)
+### **GivenKillType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L21)
 
 ```csharp
 int GivenKillType { get; set; }
@@ -30,7 +30,7 @@ int GivenKillType { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**GivenNumHits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L27)
+### **GivenNumHits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L27)
 
 ```csharp
 int GivenNumHits { get; set; }
@@ -40,7 +40,7 @@ int GivenNumHits { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OtherXuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L18)
+### **OtherXuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L18)
 
 ```csharp
 ulong OtherXuid { get; set; }
@@ -50,7 +50,7 @@ ulong OtherXuid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**TakenHealthRemoved** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L33)
+### **TakenHealthRemoved** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L33)
 
 ```csharp
 int TakenHealthRemoved { get; set; }
@@ -60,7 +60,7 @@ int TakenHealthRemoved { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TakenKillType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L30)
+### **TakenKillType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L30)
 
 ```csharp
 int TakenKillType { get; set; }
@@ -70,7 +70,7 @@ int TakenKillType { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TakenNumHits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L36)
+### **TakenNumHits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PostRoundDamageReport.cs#L36)
 
 ```csharp
 int TakenNumHits { get; set; }

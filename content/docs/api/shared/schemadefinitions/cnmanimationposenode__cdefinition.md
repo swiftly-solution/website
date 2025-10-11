@@ -10,7 +10,7 @@ public interface CNmAnimationPoseNode__CDefinition : CNmPoseNode__CDefinition, C
 
 ## Properties
 
-**DataSlotIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L18)
+### **DataSlotIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L18)
 
 ```csharp
 ref short DataSlotIdx { get; }
@@ -20,7 +20,7 @@ ref short DataSlotIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**InputTimeRemapRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L21)
+### **InputTimeRemapRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L21)
 
 ```csharp
 SchemaUntypedField InputTimeRemapRange { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField InputTimeRemapRange { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**PoseTimeValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L16)
+### **PoseTimeValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L16)
 
 ```csharp
 ref short PoseTimeValueNodeIdx { get; }
@@ -40,7 +40,7 @@ ref short PoseTimeValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**UseFramesAsInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L25)
+### **UseFramesAsInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L25)
 
 ```csharp
 ref bool UseFramesAsInput { get; }
@@ -50,7 +50,7 @@ ref bool UseFramesAsInput { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UserSpecifiedTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L23)
+### **UserSpecifiedTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAnimationPoseNode__CDefinition.cs#L23)
 
 ```csharp
 ref float UserSpecifiedTime { get; }

@@ -10,7 +10,7 @@ public interface CCSUsrMsg_QuestProgress : ITypedProtobuf<CCSUsrMsg_QuestProgres
 
 ## Properties
 
-**BonusPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_QuestProgress.cs#L24)
+### **BonusPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_QuestProgress.cs#L24)
 
 ```csharp
 uint BonusPoints { get; set; }
@@ -20,7 +20,7 @@ uint BonusPoints { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**IsEventQuest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_QuestProgress.cs#L27)
+### **IsEventQuest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_QuestProgress.cs#L27)
 
 ```csharp
 bool IsEventQuest { get; set; }
@@ -30,7 +30,7 @@ bool IsEventQuest { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NormalPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_QuestProgress.cs#L21)
+### **NormalPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_QuestProgress.cs#L21)
 
 ```csharp
 uint NormalPoints { get; set; }
@@ -40,7 +40,7 @@ uint NormalPoints { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**QuestId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_QuestProgress.cs#L18)
+### **QuestId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_QuestProgress.cs#L18)
 
 ```csharp
 uint QuestId { get; set; }

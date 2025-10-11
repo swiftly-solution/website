@@ -10,7 +10,7 @@ public interface NetMessageConnectionClosed : ITypedProtobuf<NetMessageConnectio
 
 ## Properties
 
-**Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/NetMessageConnectionClosed.cs#L16)
+### **Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/NetMessageConnectionClosed.cs#L16)
 
 ```csharp
 string Message { get; set; }
@@ -20,7 +20,7 @@ string Message { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/NetMessageConnectionClosed.cs#L13)
+### **Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/NetMessageConnectionClosed.cs#L13)
 
 ```csharp
 uint Reason { get; set; }

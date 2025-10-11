@@ -10,7 +10,7 @@ public interface CDampedPathAnimMotorUpdater : CPathAnimMotorUpdaterBase, CAnimM
 
 ## Properties
 
-**AnticipationHeadingParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L22)
+### **AnticipationHeadingParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L22)
 
 ```csharp
 CAnimParamHandle AnticipationHeadingParam { get; }
@@ -20,7 +20,7 @@ CAnimParamHandle AnticipationHeadingParam { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**AnticipationPosParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L20)
+### **AnticipationPosParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L20)
 
 ```csharp
 CAnimParamHandle AnticipationPosParam { get; }
@@ -30,7 +30,7 @@ CAnimParamHandle AnticipationPosParam { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**AnticipationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L16)
+### **AnticipationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L16)
 
 ```csharp
 ref float AnticipationTime { get; }
@@ -40,7 +40,7 @@ ref float AnticipationTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxSpringTension** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L28)
+### **MaxSpringTension** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L28)
 
 ```csharp
 ref float MaxSpringTension { get; }
@@ -50,7 +50,7 @@ ref float MaxSpringTension { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinSpeedScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L18)
+### **MinSpeedScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L18)
 
 ```csharp
 ref float MinSpeedScale { get; }
@@ -60,7 +60,7 @@ ref float MinSpeedScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinSpringTension** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L26)
+### **MinSpringTension** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L26)
 
 ```csharp
 ref float MinSpringTension { get; }
@@ -70,7 +70,7 @@ ref float MinSpringTension { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SpringConstant** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L24)
+### **SpringConstant** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedPathAnimMotorUpdater.cs#L24)
 
 ```csharp
 ref float SpringConstant { get; }

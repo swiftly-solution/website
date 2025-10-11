@@ -10,7 +10,7 @@ public interface CMeshletDescriptor : ISchemaClass<CMeshletDescriptor>, ISchemaF
 
 ## Properties
 
-**CullingData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L18)
+### **CullingData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L18)
 
 ```csharp
 CDrawCullingData CullingData { get; }
@@ -20,7 +20,7 @@ CDrawCullingData CullingData { get; }
 
 - [CDrawCullingData](/docs/api/shared/schemadefinitions/cdrawcullingdata)
 
-**PackedAABB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L16)
+### **PackedAABB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L16)
 
 ```csharp
 PackedAABB_t PackedAABB { get; }
@@ -30,7 +30,7 @@ PackedAABB_t PackedAABB { get; }
 
 - [PackedAABB_t](/docs/api/shared/schemadefinitions/packedaabb_t)
 
-**TriangleCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L26)
+### **TriangleCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L26)
 
 ```csharp
 ref byte TriangleCount { get; }
@@ -40,7 +40,7 @@ ref byte TriangleCount { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**TriangleOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L22)
+### **TriangleOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L22)
 
 ```csharp
 ref uint TriangleOffset { get; }
@@ -50,7 +50,7 @@ ref uint TriangleOffset { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**VertexCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L24)
+### **VertexCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L24)
 
 ```csharp
 ref byte VertexCount { get; }
@@ -60,7 +60,7 @@ ref byte VertexCount { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**VertexOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L20)
+### **VertexOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMeshletDescriptor.cs#L20)
 
 ```csharp
 ref uint VertexOffset { get; }

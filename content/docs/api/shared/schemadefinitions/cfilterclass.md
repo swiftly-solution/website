@@ -10,7 +10,7 @@ public interface CFilterClass : CBaseFilter, CLogicalEntity, CServerOnlyEntity, 
 
 ## Properties
 
-**FilterClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterClass.cs#L16)
+### **FilterClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterClass.cs#L16)
 
 ```csharp
 string FilterClass { get; set; }

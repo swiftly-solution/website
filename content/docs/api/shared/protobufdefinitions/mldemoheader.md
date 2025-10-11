@@ -10,7 +10,7 @@ public interface MLDemoHeader : ITypedProtobuf<MLDemoHeader>, INativeHandle
 
 ## Properties
 
-**MapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDemoHeader.cs#L13)
+### **MapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDemoHeader.cs#L13)
 
 ```csharp
 string MapName { get; set; }
@@ -20,7 +20,7 @@ string MapName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SteamUniverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDemoHeader.cs#L22)
+### **SteamUniverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDemoHeader.cs#L22)
 
 ```csharp
 uint SteamUniverse { get; set; }
@@ -30,7 +30,7 @@ uint SteamUniverse { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TickRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDemoHeader.cs#L16)
+### **TickRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDemoHeader.cs#L16)
 
 ```csharp
 int TickRate { get; set; }
@@ -40,7 +40,7 @@ int TickRate { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDemoHeader.cs#L19)
+### **Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/MLDemoHeader.cs#L19)
 
 ```csharp
 uint Version { get; set; }

@@ -10,7 +10,7 @@ public interface CConstraintAnchor : CBaseAnimGraph, CBaseModelEntity, CBaseEnti
 
 ## Properties
 
-**MassScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintAnchor.cs#L16)
+### **MassScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintAnchor.cs#L16)
 
 ```csharp
 ref float MassScale { get; }

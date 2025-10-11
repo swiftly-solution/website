@@ -10,7 +10,7 @@ public interface CAnimEnum : ISchemaClass<CAnimEnum>, ISchemaField, ISchemaClass
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEnum.cs#L16)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEnum.cs#L16)
 
 ```csharp
 ref byte Value { get; }

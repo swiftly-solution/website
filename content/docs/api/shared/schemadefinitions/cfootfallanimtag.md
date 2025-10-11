@@ -10,7 +10,7 @@ public interface CFootFallAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, IS
 
 ## Properties
 
-**Foot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootFallAnimTag.cs#L16)
+### **Foot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootFallAnimTag.cs#L16)
 
 ```csharp
 ref FootFallTagFoot_t Foot { get; }

@@ -10,7 +10,7 @@ public interface EventSetTime_t : ISchemaClass<EventSetTime_t>, ISchemaField, IS
 
 ## Properties
 
-**ClientOutputFrames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L18)
+### **ClientOutputFrames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L18)
 
 ```csharp
 ref int ClientOutputFrames { get; }
@@ -20,7 +20,7 @@ ref int ClientOutputFrames { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L16)
+### **LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L16)
 
 ```csharp
 EngineLoopState_t LoopState { get; }
@@ -30,7 +30,7 @@ EngineLoopState_t LoopState { get; }
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
-**RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L20)
+### **RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L20)
 
 ```csharp
 ref double RealTime { get; }
@@ -40,7 +40,7 @@ ref double RealTime { get; }
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-**RenderFrameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L24)
+### **RenderFrameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L24)
 
 ```csharp
 ref double RenderFrameTime { get; }
@@ -50,7 +50,7 @@ ref double RenderFrameTime { get; }
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-**RenderFrameTimeUnbounded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L26)
+### **RenderFrameTimeUnbounded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L26)
 
 ```csharp
 ref double RenderFrameTimeUnbounded { get; }
@@ -60,7 +60,7 @@ ref double RenderFrameTimeUnbounded { get; }
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-**RenderFrameTimeUnscaled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L28)
+### **RenderFrameTimeUnscaled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L28)
 
 ```csharp
 ref double RenderFrameTimeUnscaled { get; }
@@ -70,7 +70,7 @@ ref double RenderFrameTimeUnscaled { get; }
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-**RenderTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L22)
+### **RenderTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L22)
 
 ```csharp
 ref double RenderTime { get; }
@@ -80,7 +80,7 @@ ref double RenderTime { get; }
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-**TickRemainder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L30)
+### **TickRemainder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSetTime_t.cs#L30)
 
 ```csharp
 ref double TickRemainder { get; }

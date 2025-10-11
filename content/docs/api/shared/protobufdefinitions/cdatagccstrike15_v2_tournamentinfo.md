@@ -10,7 +10,7 @@ public interface CDataGCCStrike15_v2_TournamentInfo : ITypedProtobuf<CDataGCCStr
 
 ## Properties
 
-**Sections** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDataGCCStrike15_v2_TournamentInfo.cs#L13)
+### **Sections** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDataGCCStrike15_v2_TournamentInfo.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentSection> Sections { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentSection> Sect
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDataGCCStrike15_v2_TournamentSection](/docs/api/shared/protobufdefinitions/cdatagccstrike15_v2_tournamentsection)>
 
-**TournamentEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDataGCCStrike15_v2_TournamentInfo.cs#L16)
+### **TournamentEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDataGCCStrike15_v2_TournamentInfo.cs#L16)
 
 ```csharp
 TournamentEvent TournamentEvent { get; }
@@ -30,7 +30,7 @@ TournamentEvent TournamentEvent { get; }
 
 - [TournamentEvent](/docs/api/shared/protobufdefinitions/tournamentevent)
 
-**TournamentTeams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDataGCCStrike15_v2_TournamentInfo.cs#L19)
+### **TournamentTeams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDataGCCStrike15_v2_TournamentInfo.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<TournamentTeam> TournamentTeams { get; }

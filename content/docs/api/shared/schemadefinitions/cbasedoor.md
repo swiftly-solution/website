@@ -10,7 +10,7 @@ public interface CBaseDoor : CBaseToggle, CBaseModelEntity, CBaseEntity, CEntity
 
 ## Properties
 
-**BlockDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L34)
+### **BlockDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L34)
 
 ```csharp
 ref float BlockDamage { get; }
@@ -20,7 +20,7 @@ ref float BlockDamage { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ChainTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L44)
+### **ChainTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L44)
 
 ```csharp
 string ChainTarget { get; set; }
@@ -30,7 +30,7 @@ string ChainTarget { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**CreateNavObstacle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L66)
+### **CreateNavObstacle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L66)
 
 ```csharp
 ref bool CreateNavObstacle { get; }
@@ -40,7 +40,7 @@ ref bool CreateNavObstacle { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DoorGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L24)
+### **DoorGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L24)
 
 ```csharp
 ref bool DoorGroup { get; }
@@ -50,7 +50,7 @@ ref bool DoorGroup { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ForceClosed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L22)
+### **ForceClosed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L22)
 
 ```csharp
 ref bool ForceClosed { get; }
@@ -60,7 +60,7 @@ ref bool ForceClosed { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IgnoreDebris** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L28)
+### **IgnoreDebris** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L28)
 
 ```csharp
 ref bool IgnoreDebris { get; }
@@ -70,7 +70,7 @@ ref bool IgnoreDebris { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsChaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L68)
+### **IsChaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L68)
 
 ```csharp
 ref bool IsChaining { get; }
@@ -80,7 +80,7 @@ ref bool IsChaining { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsUsable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L70)
+### **IsUsable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L70)
 
 ```csharp
 ref bool IsUsable { get; }
@@ -90,7 +90,7 @@ ref bool IsUsable { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Locked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L26)
+### **Locked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L26)
 
 ```csharp
 ref bool Locked { get; }
@@ -100,7 +100,7 @@ ref bool Locked { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LoopMoveSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L64)
+### **LoopMoveSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L64)
 
 ```csharp
 ref bool LoopMoveSound { get; }
@@ -110,7 +110,7 @@ ref bool LoopMoveSound { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Ls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L20)
+### **Ls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L20)
 
 ```csharp
 locksound_t Ls { get; }
@@ -120,7 +120,7 @@ locksound_t Ls { get; }
 
 - [locksound_t](/docs/api/shared/schemadefinitions/locksound_t)
 
-**MoveDirParentSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L18)
+### **MoveDirParentSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L18)
 
 ```csharp
 ref Vector MoveDirParentSpace { get; }
@@ -130,7 +130,7 @@ ref Vector MoveDirParentSpace { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**MoveEntitySpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L16)
+### **MoveEntitySpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L16)
 
 ```csharp
 ref QAngle MoveEntitySpace { get; }
@@ -140,7 +140,7 @@ ref QAngle MoveEntitySpace { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**NoNPCs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L30)
+### **NoNPCs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L30)
 
 ```csharp
 ref bool NoNPCs { get; }
@@ -150,7 +150,7 @@ ref bool NoNPCs { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NoiseArrived** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L38)
+### **NoiseArrived** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L38)
 
 ```csharp
 string NoiseArrived { get; set; }
@@ -160,7 +160,7 @@ string NoiseArrived { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NoiseArrivedClosed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L42)
+### **NoiseArrivedClosed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L42)
 
 ```csharp
 string NoiseArrivedClosed { get; set; }
@@ -170,7 +170,7 @@ string NoiseArrivedClosed { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NoiseMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L36)
+### **NoiseMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L36)
 
 ```csharp
 string NoiseMoving { get; set; }
@@ -180,7 +180,7 @@ string NoiseMoving { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NoiseMovingClosed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L40)
+### **NoiseMovingClosed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L40)
 
 ```csharp
 string NoiseMovingClosed { get; set; }
@@ -190,7 +190,7 @@ string NoiseMovingClosed { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OnBlockedClosing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L46)
+### **OnBlockedClosing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L46)
 
 ```csharp
 CEntityIOOutput OnBlockedClosing { get; }
@@ -200,7 +200,7 @@ CEntityIOOutput OnBlockedClosing { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnBlockedOpening** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L48)
+### **OnBlockedOpening** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L48)
 
 ```csharp
 CEntityIOOutput OnBlockedOpening { get; }
@@ -210,7 +210,7 @@ CEntityIOOutput OnBlockedOpening { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnClose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L58)
+### **OnClose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L58)
 
 ```csharp
 CEntityIOOutput OnClose { get; }
@@ -220,7 +220,7 @@ CEntityIOOutput OnClose { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnFullyClosed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L54)
+### **OnFullyClosed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L54)
 
 ```csharp
 CEntityIOOutput OnFullyClosed { get; }
@@ -230,7 +230,7 @@ CEntityIOOutput OnFullyClosed { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnFullyOpen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L56)
+### **OnFullyOpen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L56)
 
 ```csharp
 CEntityIOOutput OnFullyOpen { get; }
@@ -240,7 +240,7 @@ CEntityIOOutput OnFullyOpen { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnLockedUse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L62)
+### **OnLockedUse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L62)
 
 ```csharp
 CEntityIOOutput OnLockedUse { get; }
@@ -250,7 +250,7 @@ CEntityIOOutput OnLockedUse { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnOpen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L60)
+### **OnOpen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L60)
 
 ```csharp
 CEntityIOOutput OnOpen { get; }
@@ -260,7 +260,7 @@ CEntityIOOutput OnOpen { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnUnblockedClosing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L50)
+### **OnUnblockedClosing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L50)
 
 ```csharp
 CEntityIOOutput OnUnblockedClosing { get; }
@@ -270,7 +270,7 @@ CEntityIOOutput OnUnblockedClosing { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnUnblockedOpening** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L52)
+### **OnUnblockedOpening** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L52)
 
 ```csharp
 CEntityIOOutput OnUnblockedOpening { get; }
@@ -280,7 +280,7 @@ CEntityIOOutput OnUnblockedOpening { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**SpawnPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L32)
+### **SpawnPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L32)
 
 ```csharp
 ref FuncDoorSpawnPos_t SpawnPosition { get; }
@@ -292,7 +292,7 @@ ref FuncDoorSpawnPos_t SpawnPosition { get; }
 
 ## Methods
 
-**IsUsableUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L72)
+### **IsUsableUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseDoor.cs#L72)
 
 ```csharp
 void IsUsableUpdated()

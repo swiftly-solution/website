@@ -10,7 +10,7 @@ public interface C_OP_LockToSavedSequentialPath : CParticleFunctionOperator, CPa
 
 ## Properties
 
-**CPPairs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPath.cs#L20)
+### **CPPairs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPath.cs#L20)
 
 ```csharp
 ref bool CPPairs { get; }
@@ -20,7 +20,7 @@ ref bool CPPairs { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FadeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPath.cs#L18)
+### **FadeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPath.cs#L18)
 
 ```csharp
 ref float FadeEnd { get; }
@@ -30,7 +30,7 @@ ref float FadeEnd { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FadeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPath.cs#L16)
+### **FadeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPath.cs#L16)
 
 ```csharp
 ref float FadeStart { get; }
@@ -40,7 +40,7 @@ ref float FadeStart { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PathParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPath.cs#L22)
+### **PathParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPath.cs#L22)
 
 ```csharp
 CPathParameters PathParams { get; }

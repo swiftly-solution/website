@@ -10,7 +10,7 @@ public interface C_OP_ForceControlPointStub : CParticleFunctionPreEmission, CPar
 
 ## Properties
 
-**ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceControlPointStub.cs#L16)
+### **ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ForceControlPointStub.cs#L16)
 
 ```csharp
 ref int ControlPoint { get; }

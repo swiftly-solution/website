@@ -10,7 +10,7 @@ public interface CBlendUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdat
 
 ## Properties
 
-**BlendKeyType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L31)
+### **BlendKeyType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L31)
 
 ```csharp
 ref BlendKeyType BlendKeyType { get; }
@@ -20,7 +20,7 @@ ref BlendKeyType BlendKeyType { get; }
 
 - [BlendKeyType](/docs/api/shared/schemadefinitions/blendkeytype)
 
-**BlendValueSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L23)
+### **BlendValueSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L23)
 
 ```csharp
 ref AnimValueSource BlendValueSource { get; }
@@ -30,7 +30,7 @@ ref AnimValueSource BlendValueSource { get; }
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 
-**Children** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L17)
+### **Children** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L17)
 
 ```csharp
 ref CUtlVector Children { get; }
@@ -38,9 +38,9 @@ ref CUtlVector Children { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**Damping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L29)
+### **Damping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L29)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -50,7 +50,7 @@ CAnimInputDamping Damping { get; }
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
-**IsAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L41)
+### **IsAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L41)
 
 ```csharp
 ref bool IsAngle { get; }
@@ -60,7 +60,7 @@ ref bool IsAngle { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LinearRootMotionBlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L25)
+### **LinearRootMotionBlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L25)
 
 ```csharp
 ref LinearRootMotionBlendMode_t LinearRootMotionBlendMode { get; }
@@ -70,7 +70,7 @@ ref LinearRootMotionBlendMode_t LinearRootMotionBlendMode { get; }
 
 - [LinearRootMotionBlendMode_t](/docs/api/shared/schemadefinitions/linearrootmotionblendmode_t)
 
-**LockBlendOnReset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L33)
+### **LockBlendOnReset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L33)
 
 ```csharp
 ref bool LockBlendOnReset { get; }
@@ -80,7 +80,7 @@ ref bool LockBlendOnReset { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LockWhenWaning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L39)
+### **LockWhenWaning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L39)
 
 ```csharp
 ref bool LockWhenWaning { get; }
@@ -90,7 +90,7 @@ ref bool LockWhenWaning { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L37)
+### **Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L37)
 
 ```csharp
 ref bool Loop { get; }
@@ -100,7 +100,7 @@ ref bool Loop { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ParamIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L27)
+### **ParamIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L27)
 
 ```csharp
 CAnimParamHandle ParamIndex { get; }
@@ -110,7 +110,7 @@ CAnimParamHandle ParamIndex { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**SortedOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L19)
+### **SortedOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L19)
 
 ```csharp
 ref CUtlVector<byte> SortedOrder { get; }
@@ -118,9 +118,9 @@ ref CUtlVector<byte> SortedOrder { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
+- [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
-**SyncCycles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L35)
+### **SyncCycles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L35)
 
 ```csharp
 ref bool SyncCycles { get; }
@@ -130,7 +130,7 @@ ref bool SyncCycles { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L21)
+### **TargetValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBlendUpdateNode.cs#L21)
 
 ```csharp
 ref CUtlVector<float> TargetValues { get; }
@@ -138,5 +138,5 @@ ref CUtlVector<float> TargetValues { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
+- [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

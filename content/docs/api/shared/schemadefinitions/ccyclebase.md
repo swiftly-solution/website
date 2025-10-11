@@ -10,7 +10,7 @@ public interface CCycleBase : ISchemaClass<CCycleBase>, ISchemaField, ISchemaCla
 
 ## Properties
 
-**Cycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleBase.cs#L16)
+### **Cycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCycleBase.cs#L16)
 
 ```csharp
 ref float Cycle { get; }

@@ -10,7 +10,7 @@ public interface CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate : ITyp
 
 ## Properties
 
-**AngleY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L28)
+### **AngleY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L28)
 
 ```csharp
 int AngleY { get; set; }
@@ -20,7 +20,7 @@ int AngleY { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ClassId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L16)
+### **ClassId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L16)
 
 ```csharp
 int ClassId { get; set; }
@@ -30,7 +30,7 @@ int ClassId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Defuser** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L31)
+### **Defuser** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L31)
 
 ```csharp
 bool Defuser { get; set; }
@@ -40,7 +40,7 @@ bool Defuser { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EntityIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L13)
+### **EntityIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L13)
 
 ```csharp
 int EntityIdx { get; set; }
@@ -50,7 +50,7 @@ int EntityIdx { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OriginX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L19)
+### **OriginX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L19)
 
 ```csharp
 int OriginX { get; set; }
@@ -60,7 +60,7 @@ int OriginX { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OriginY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L22)
+### **OriginY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L22)
 
 ```csharp
 int OriginY { get; set; }
@@ -70,7 +70,7 @@ int OriginY { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OriginZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L25)
+### **OriginZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L25)
 
 ```csharp
 int OriginZ { get; set; }
@@ -80,7 +80,7 @@ int OriginZ { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PlayerHasC4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L37)
+### **PlayerHasC4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L37)
 
 ```csharp
 bool PlayerHasC4 { get; set; }
@@ -90,7 +90,7 @@ bool PlayerHasC4 { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PlayerHasDefuser** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L34)
+### **PlayerHasDefuser** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate.cs#L34)
 
 ```csharp
 bool PlayerHasDefuser { get; set; }

@@ -10,7 +10,7 @@ public interface PlayerRankingInfo_PerMapRank : ITypedProtobuf<PlayerRankingInfo
 
 ## Properties
 
-**MapId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerRankingInfo_PerMapRank.cs#L13)
+### **MapId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerRankingInfo_PerMapRank.cs#L13)
 
 ```csharp
 uint MapId { get; set; }
@@ -20,7 +20,7 @@ uint MapId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RankId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerRankingInfo_PerMapRank.cs#L16)
+### **RankId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerRankingInfo_PerMapRank.cs#L16)
 
 ```csharp
 uint RankId { get; set; }
@@ -30,7 +30,7 @@ uint RankId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Wins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerRankingInfo_PerMapRank.cs#L19)
+### **Wins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerRankingInfo_PerMapRank.cs#L19)
 
 ```csharp
 uint Wins { get; set; }

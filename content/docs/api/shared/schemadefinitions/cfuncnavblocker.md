@@ -10,7 +10,7 @@ public interface CFuncNavBlocker : CBaseModelEntity, CBaseEntity, CEntityInstanc
 
 ## Properties
 
-**BlockedTeamNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncNavBlocker.cs#L18)
+### **BlockedTeamNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncNavBlocker.cs#L18)
 
 ```csharp
 ref int BlockedTeamNumber { get; }
@@ -20,7 +20,7 @@ ref int BlockedTeamNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncNavBlocker.cs#L16)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncNavBlocker.cs#L16)
 
 ```csharp
 ref bool Disabled { get; }

@@ -10,7 +10,7 @@ public interface CEnvLaser : CBeam, CBaseModelEntity, CBaseEntity, CEntityInstan
 
 ## Properties
 
-**FirePosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L22)
+### **FirePosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L22)
 
 ```csharp
 ref Vector FirePosition { get; }
@@ -20,7 +20,7 @@ ref Vector FirePosition { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**LaserTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L16)
+### **LaserTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L16)
 
 ```csharp
 string LaserTarget { get; set; }
@@ -30,7 +30,7 @@ string LaserTarget { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Sprite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L18)
+### **Sprite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L18)
 
 ```csharp
 CSprite? Sprite { get; }
@@ -40,7 +40,7 @@ CSprite? Sprite { get; }
 
 - [CSprite](/docs/api/shared/schemadefinitions/csprite)?
 
-**SpriteName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L20)
+### **SpriteName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L20)
 
 ```csharp
 string SpriteName { get; set; }
@@ -50,7 +50,7 @@ string SpriteName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StartFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L24)
+### **StartFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L24)
 
 ```csharp
 ref float StartFrame { get; }

@@ -10,7 +10,7 @@ public interface CSVCMsg_SendTable_sendprop_t : ITypedProtobuf<CSVCMsg_SendTable
 
 ## Properties
 
-**DtName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L25)
+### **DtName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L25)
 
 ```csharp
 string DtName { get; set; }
@@ -20,7 +20,7 @@ string DtName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L19)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L19)
 
 ```csharp
 int Flags { get; set; }
@@ -30,7 +30,7 @@ int Flags { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HighValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L34)
+### **HighValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L34)
 
 ```csharp
 float HighValue { get; set; }
@@ -40,7 +40,7 @@ float HighValue { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LowValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L31)
+### **LowValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L31)
 
 ```csharp
 float LowValue { get; set; }
@@ -50,7 +50,7 @@ float LowValue { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NumBits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L37)
+### **NumBits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L37)
 
 ```csharp
 int NumBits { get; set; }
@@ -60,7 +60,7 @@ int NumBits { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumElements** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L28)
+### **NumElements** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L28)
 
 ```csharp
 int NumElements { get; set; }
@@ -70,7 +70,7 @@ int NumElements { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L22)
+### **Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L22)
 
 ```csharp
 int Priority { get; set; }
@@ -80,7 +80,7 @@ int Priority { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L13)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L13)
 
 ```csharp
 int Type { get; set; }
@@ -90,7 +90,7 @@ int Type { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VarName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L16)
+### **VarName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable_sendprop_t.cs#L16)
 
 ```csharp
 string VarName { get; set; }

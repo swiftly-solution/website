@@ -10,7 +10,7 @@ public interface C_OP_RemapVectortoCP : CParticleFunctionOperator, CParticleFunc
 
 ## Properties
 
-**FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectortoCP.cs#L18)
+### **FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectortoCP.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**OutControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectortoCP.cs#L16)
+### **OutControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectortoCP.cs#L16)
 
 ```csharp
 ref int OutControlPointNumber { get; }
@@ -30,7 +30,7 @@ ref int OutControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ParticleNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectortoCP.cs#L20)
+### **ParticleNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectortoCP.cs#L20)
 
 ```csharp
 ref int ParticleNumber { get; }

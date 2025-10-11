@@ -10,7 +10,7 @@ public interface CNmTargetPointNode__CDefinition : CNmVectorValueNode__CDefiniti
 
 ## Properties
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetPointNode__CDefinition.cs#L16)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetPointNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short InputValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**IsWorldSpaceTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetPointNode__CDefinition.cs#L18)
+### **IsWorldSpaceTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetPointNode__CDefinition.cs#L18)
 
 ```csharp
 ref bool IsWorldSpaceTarget { get; }

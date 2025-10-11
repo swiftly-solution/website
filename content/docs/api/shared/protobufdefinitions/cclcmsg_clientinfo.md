@@ -10,7 +10,7 @@ public interface CCLCMsg_ClientInfo : ITypedProtobuf<CCLCMsg_ClientInfo>, INativ
 
 ## Properties
 
-**FriendsId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ClientInfo.cs#L27)
+### **FriendsId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ClientInfo.cs#L27)
 
 ```csharp
 uint FriendsId { get; set; }
@@ -20,7 +20,7 @@ uint FriendsId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**FriendsName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ClientInfo.cs#L30)
+### **FriendsName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ClientInfo.cs#L30)
 
 ```csharp
 string FriendsName { get; set; }
@@ -30,7 +30,7 @@ string FriendsName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**IsHltv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ClientInfo.cs#L24)
+### **IsHltv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ClientInfo.cs#L24)
 
 ```csharp
 bool IsHltv { get; set; }
@@ -40,7 +40,7 @@ bool IsHltv { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SendTableCrc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ClientInfo.cs#L18)
+### **SendTableCrc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ClientInfo.cs#L18)
 
 ```csharp
 uint SendTableCrc { get; set; }
@@ -50,7 +50,7 @@ uint SendTableCrc { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ServerCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ClientInfo.cs#L21)
+### **ServerCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ClientInfo.cs#L21)
 
 ```csharp
 uint ServerCount { get; set; }

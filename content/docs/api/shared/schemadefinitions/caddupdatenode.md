@@ -10,7 +10,7 @@ public interface CAddUpdateNode : CBinaryUpdateNode, CAnimUpdateNodeBase, ISchem
 
 ## Properties
 
-**ApplyChannelsSeparately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L20)
+### **ApplyChannelsSeparately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L20)
 
 ```csharp
 ref bool ApplyChannelsSeparately { get; }
@@ -20,7 +20,7 @@ ref bool ApplyChannelsSeparately { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ApplyScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L24)
+### **ApplyScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L24)
 
 ```csharp
 ref bool ApplyScale { get; }
@@ -30,7 +30,7 @@ ref bool ApplyScale { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ApplyToFootMotion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L18)
+### **ApplyToFootMotion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L18)
 
 ```csharp
 ref bool ApplyToFootMotion { get; }
@@ -40,7 +40,7 @@ ref bool ApplyToFootMotion { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FootMotionTiming** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L16)
+### **FootMotionTiming** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L16)
 
 ```csharp
 ref BinaryNodeChildOption FootMotionTiming { get; }
@@ -50,7 +50,7 @@ ref BinaryNodeChildOption FootMotionTiming { get; }
 
 - [BinaryNodeChildOption](/docs/api/shared/schemadefinitions/binarynodechildoption)
 
-**UseModelSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L22)
+### **UseModelSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAddUpdateNode.cs#L22)
 
 ```csharp
 ref bool UseModelSpace { get; }

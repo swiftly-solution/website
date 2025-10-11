@@ -10,7 +10,7 @@ public interface CEnvGlobal : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CE
 
 ## Properties
 
-**Counter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L25)
+### **Counter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L25)
 
 ```csharp
 ref int Counter { get; }
@@ -20,7 +20,7 @@ ref int Counter { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Globalstate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L19)
+### **Globalstate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L19)
 
 ```csharp
 string Globalstate { get; set; }
@@ -30,7 +30,7 @@ string Globalstate { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Initialstate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L23)
+### **Initialstate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L23)
 
 ```csharp
 ref int Initialstate { get; }
@@ -40,7 +40,7 @@ ref int Initialstate { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutCounter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L17)
+### **OutCounter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L17)
 
 ```csharp
 SchemaUntypedField OutCounter { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField OutCounter { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Triggermode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L21)
+### **Triggermode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvGlobal.cs#L21)
 
 ```csharp
 ref int Triggermode { get; }

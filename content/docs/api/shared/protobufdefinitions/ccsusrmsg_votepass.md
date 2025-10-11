@@ -10,7 +10,7 @@ public interface CCSUsrMsg_VotePass : ITypedProtobuf<CCSUsrMsg_VotePass>, INativ
 
 ## Properties
 
-**DetailsStr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VotePass.cs#L27)
+### **DetailsStr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VotePass.cs#L27)
 
 ```csharp
 string DetailsStr { get; set; }
@@ -20,7 +20,7 @@ string DetailsStr { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DispStr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VotePass.cs#L24)
+### **DispStr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VotePass.cs#L24)
 
 ```csharp
 string DispStr { get; set; }
@@ -30,7 +30,7 @@ string DispStr { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VotePass.cs#L18)
+### **Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VotePass.cs#L18)
 
 ```csharp
 int Team { get; set; }
@@ -40,7 +40,7 @@ int Team { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VoteType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VotePass.cs#L21)
+### **VoteType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VotePass.cs#L21)
 
 ```csharp
 int VoteType { get; set; }

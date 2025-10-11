@@ -10,7 +10,7 @@ public interface CBodyComponentSkeletonInstance : CBodyComponent, CEntityCompone
 
 ## Properties
 
-**SkeletonInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentSkeletonInstance.cs#L16)
+### **SkeletonInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentSkeletonInstance.cs#L16)
 
 ```csharp
 CSkeletonInstance SkeletonInstance { get; }
@@ -22,7 +22,7 @@ CSkeletonInstance SkeletonInstance { get; }
 
 ## Methods
 
-**SkeletonInstanceUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentSkeletonInstance.cs#L18)
+### **SkeletonInstanceUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponentSkeletonInstance.cs#L18)
 
 ```csharp
 void SkeletonInstanceUpdated()

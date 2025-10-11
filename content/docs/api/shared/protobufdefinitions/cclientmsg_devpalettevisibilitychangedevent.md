@@ -10,7 +10,7 @@ public interface CClientMsg_DevPaletteVisibilityChangedEvent : ITypedProtobuf<CC
 
 ## Properties
 
-**Visible** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_DevPaletteVisibilityChangedEvent.cs#L13)
+### **Visible** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_DevPaletteVisibilityChangedEvent.cs#L13)
 
 ```csharp
 bool Visible { get; set; }

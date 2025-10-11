@@ -10,7 +10,7 @@ public interface CStopwatchBase : CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>
 
 ## Properties
 
-**IsRunning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopwatchBase.cs#L16)
+### **IsRunning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopwatchBase.cs#L16)
 
 ```csharp
 ref bool IsRunning { get; }

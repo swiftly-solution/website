@@ -8,7 +8,7 @@ public interface IEngineService
 
 ## Properties
 
-**CurrentTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L36)
+### **CurrentTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L36)
 
 ```csharp
 float CurrentTime { get; }
@@ -18,7 +18,7 @@ float CurrentTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Map** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L13)
+### **Map** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L13)
 
 ```csharp
 string Map { get; }
@@ -28,7 +28,7 @@ string Map { get; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MaxPlayers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L25)
+### **MaxPlayers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L25)
 
 ```csharp
 int MaxPlayers { get; }
@@ -38,7 +38,7 @@ int MaxPlayers { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ServerIP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L8)
+### **ServerIP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L8)
 
 ```csharp
 string ServerIP { get; }
@@ -48,7 +48,7 @@ string ServerIP { get; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TickCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L41)
+### **TickCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L41)
 
 ```csharp
 int TickCount { get; }
@@ -60,7 +60,7 @@ int TickCount { get; }
 
 ## Methods
 
-**ExecuteCommand(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L31)
+### **ExecuteCommand(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L31)
 
 ```csharp
 void ExecuteCommand(string command)
@@ -70,7 +70,7 @@ void ExecuteCommand(string command)
 
 - **command**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The command to execute. Cannot be null or empty.
 
-**IsMapValid(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L20)
+### **IsMapValid(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L20)
 
 ```csharp
 bool IsMapValid(string map)

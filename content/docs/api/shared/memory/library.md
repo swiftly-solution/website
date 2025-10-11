@@ -12,7 +12,7 @@ public static class Library
 
 ## Fields
 
-**Engine** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L7)
+### **Engine** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L7)
 
 ```csharp
 public static readonly string Engine
@@ -22,7 +22,7 @@ public static readonly string Engine
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NetworkSystem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L13)
+### **NetworkSystem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L13)
 
 ```csharp
 public static readonly string NetworkSystem
@@ -32,7 +32,7 @@ public static readonly string NetworkSystem
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Server** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L11)
+### **Server** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L11)
 
 ```csharp
 public static readonly string Server
@@ -42,7 +42,7 @@ public static readonly string Server
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Tier0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L9)
+### **Tier0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L9)
 
 ```csharp
 public static readonly string Tier0

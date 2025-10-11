@@ -10,7 +10,7 @@ public interface FourVectors2D : ISchemaClass<FourVectors2D>, ISchemaField, ISch
 
 ## Properties
 
-**X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourVectors2D.cs#L16)
+### **X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourVectors2D.cs#L16)
 
 ```csharp
 ref fltx4 X { get; }
@@ -20,7 +20,7 @@ ref fltx4 X { get; }
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
-**Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourVectors2D.cs#L18)
+### **Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourVectors2D.cs#L18)
 
 ```csharp
 ref fltx4 Y { get; }

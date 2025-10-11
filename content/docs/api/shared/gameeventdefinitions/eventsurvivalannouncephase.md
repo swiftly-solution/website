@@ -10,7 +10,7 @@ public interface EventSurvivalAnnouncePhase : IGameEvent<EventSurvivalAnnouncePh
 
 ## Properties
 
-**Phase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventSurvivalAnnouncePhase.cs#L23)
+### **Phase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventSurvivalAnnouncePhase.cs#L23)
 
 ```csharp
 short Phase { get; set; }

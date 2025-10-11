@@ -10,7 +10,7 @@ public interface CIntAnimParameter : CConcreteAnimParameter, CAnimParameterBase,
 
 ## Properties
 
-**DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIntAnimParameter.cs#L16)
+### **DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIntAnimParameter.cs#L16)
 
 ```csharp
 ref int DefaultValue { get; }
@@ -20,7 +20,7 @@ ref int DefaultValue { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MaxValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIntAnimParameter.cs#L20)
+### **MaxValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIntAnimParameter.cs#L20)
 
 ```csharp
 ref int MaxValue { get; }
@@ -30,7 +30,7 @@ ref int MaxValue { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MinValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIntAnimParameter.cs#L18)
+### **MinValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CIntAnimParameter.cs#L18)
 
 ```csharp
 ref int MinValue { get; }

@@ -10,7 +10,7 @@ public interface CConstraintTarget : ISchemaClass<CConstraintTarget>, ISchemaFie
 
 ## Properties
 
-**BoneHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L20)
+### **BoneHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L20)
 
 ```csharp
 ref uint BoneHash { get; }
@@ -20,7 +20,7 @@ ref uint BoneHash { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**IsAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L26)
+### **IsAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L26)
 
 ```csharp
 ref bool IsAttachment { get; }
@@ -30,7 +30,7 @@ ref bool IsAttachment { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L22)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L22)
 
 ```csharp
 string Name { get; set; }
@@ -40,7 +40,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L16)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L16)
 
 ```csharp
 ref Quaternion Offset { get; }
@@ -50,7 +50,7 @@ ref Quaternion Offset { get; }
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
-**Offset1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L18)
+### **Offset1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L18)
 
 ```csharp
 ref Vector Offset1 { get; }
@@ -60,7 +60,7 @@ ref Vector Offset1 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L24)
+### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L24)
 
 ```csharp
 ref float Weight { get; }

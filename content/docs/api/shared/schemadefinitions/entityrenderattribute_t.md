@@ -10,7 +10,7 @@ public interface EntityRenderAttribute_t : ISchemaClass<EntityRenderAttribute_t>
 
 ## Properties
 
-**ID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityRenderAttribute_t.cs#L16)
+### **ID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityRenderAttribute_t.cs#L16)
 
 ```csharp
 ref CUtlStringToken ID { get; }
@@ -20,7 +20,7 @@ ref CUtlStringToken ID { get; }
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
-**Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityRenderAttribute_t.cs#L18)
+### **Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityRenderAttribute_t.cs#L18)
 
 ```csharp
 ref Vector4D Values { get; }
@@ -32,13 +32,13 @@ ref Vector4D Values { get; }
 
 ## Methods
 
-**IDUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityRenderAttribute_t.cs#L20)
+### **IDUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityRenderAttribute_t.cs#L20)
 
 ```csharp
 void IDUpdated()
 ```
 
-**ValuesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityRenderAttribute_t.cs#L21)
+### **ValuesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityRenderAttribute_t.cs#L21)
 
 ```csharp
 void ValuesUpdated()

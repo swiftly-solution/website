@@ -10,7 +10,7 @@ public interface CCS2WeaponGraphController : CAnimGraphControllerBase, ISchemaCl
 
 ## Properties
 
-**Action** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L17)
+### **Action** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L17)
 
 ```csharp
 SchemaUntypedField Action { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Action { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ActionReset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L20)
+### **ActionReset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L20)
 
 ```csharp
 SchemaUntypedField ActionReset { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField ActionReset { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**AttackThrowStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L59)
+### **AttackThrowStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L59)
 
 ```csharp
 SchemaUntypedField AttackThrowStrength { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField AttackThrowStrength { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**AttackType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L56)
+### **AttackType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L56)
 
 ```csharp
 SchemaUntypedField AttackType { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField AttackType { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**AttackVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L62)
+### **AttackVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L62)
 
 ```csharp
 SchemaUntypedField AttackVariation { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField AttackVariation { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**DeployVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L53)
+### **DeployVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L53)
 
 ```csharp
 SchemaUntypedField DeployVariation { get; }
@@ -70,7 +70,7 @@ SchemaUntypedField DeployVariation { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**IdleVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L50)
+### **IdleVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L50)
 
 ```csharp
 SchemaUntypedField IdleVariation { get; }
@@ -80,7 +80,7 @@ SchemaUntypedField IdleVariation { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**InspectExtraInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L68)
+### **InspectExtraInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L68)
 
 ```csharp
 SchemaUntypedField InspectExtraInfo { get; }
@@ -90,7 +90,7 @@ SchemaUntypedField InspectExtraInfo { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**InspectVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L65)
+### **InspectVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L65)
 
 ```csharp
 SchemaUntypedField InspectVariation { get; }
@@ -100,7 +100,7 @@ SchemaUntypedField InspectVariation { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**IsUsingLegacyModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L47)
+### **IsUsingLegacyModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L47)
 
 ```csharp
 SchemaUntypedField IsUsingLegacyModel { get; }
@@ -110,7 +110,7 @@ SchemaUntypedField IsUsingLegacyModel { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ReloadStage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L71)
+### **ReloadStage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L71)
 
 ```csharp
 SchemaUntypedField ReloadStage { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField ReloadStage { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**WeaponAmmo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L32)
+### **WeaponAmmo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L32)
 
 ```csharp
 SchemaUntypedField WeaponAmmo { get; }
@@ -130,7 +130,7 @@ SchemaUntypedField WeaponAmmo { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**WeaponAmmoMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L35)
+### **WeaponAmmoMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L35)
 
 ```csharp
 SchemaUntypedField WeaponAmmoMax { get; }
@@ -140,7 +140,7 @@ SchemaUntypedField WeaponAmmoMax { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**WeaponAmmoReserve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L38)
+### **WeaponAmmoReserve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L38)
 
 ```csharp
 SchemaUntypedField WeaponAmmoReserve { get; }
@@ -150,7 +150,7 @@ SchemaUntypedField WeaponAmmoReserve { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**WeaponCategory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L23)
+### **WeaponCategory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L23)
 
 ```csharp
 SchemaUntypedField WeaponCategory { get; }
@@ -160,7 +160,7 @@ SchemaUntypedField WeaponCategory { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**WeaponExtraInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L29)
+### **WeaponExtraInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L29)
 
 ```csharp
 SchemaUntypedField WeaponExtraInfo { get; }
@@ -170,7 +170,7 @@ SchemaUntypedField WeaponExtraInfo { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**WeaponIronsightAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L44)
+### **WeaponIronsightAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L44)
 
 ```csharp
 SchemaUntypedField WeaponIronsightAmount { get; }
@@ -180,7 +180,7 @@ SchemaUntypedField WeaponIronsightAmount { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**WeaponIsSilenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L41)
+### **WeaponIsSilenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L41)
 
 ```csharp
 SchemaUntypedField WeaponIsSilenced { get; }
@@ -190,7 +190,7 @@ SchemaUntypedField WeaponIsSilenced { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**WeaponType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L26)
+### **WeaponType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L26)
 
 ```csharp
 SchemaUntypedField WeaponType { get; }

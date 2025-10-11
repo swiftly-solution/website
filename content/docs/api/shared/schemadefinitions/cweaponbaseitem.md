@@ -10,7 +10,7 @@ public interface CWeaponBaseItem : CCSWeaponBase, CBasePlayerWeapon, CEconEntity
 
 ## Properties
 
-**Redraw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponBaseItem.cs#L18)
+### **Redraw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponBaseItem.cs#L18)
 
 ```csharp
 ref bool Redraw { get; }
@@ -20,7 +20,7 @@ ref bool Redraw { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SequenceInProgress** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponBaseItem.cs#L16)
+### **SequenceInProgress** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponBaseItem.cs#L16)
 
 ```csharp
 ref bool SequenceInProgress { get; }
@@ -32,13 +32,13 @@ ref bool SequenceInProgress { get; }
 
 ## Methods
 
-**RedrawUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponBaseItem.cs#L21)
+### **RedrawUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponBaseItem.cs#L21)
 
 ```csharp
 void RedrawUpdated()
 ```
 
-**SequenceInProgressUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponBaseItem.cs#L20)
+### **SequenceInProgressUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWeaponBaseItem.cs#L20)
 
 ```csharp
 void SequenceInProgressUpdated()

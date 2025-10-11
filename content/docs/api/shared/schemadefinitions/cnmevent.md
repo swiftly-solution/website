@@ -10,7 +10,7 @@ public interface CNmEvent : ISchemaClass<CNmEvent>, ISchemaField, ISchemaClass, 
 
 ## Properties
 
-**ClientOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEvent.cs#L22)
+### **ClientOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEvent.cs#L22)
 
 ```csharp
 ref bool ClientOnly { get; }
@@ -20,7 +20,7 @@ ref bool ClientOnly { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DurationSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEvent.cs#L18)
+### **DurationSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEvent.cs#L18)
 
 ```csharp
 ref float DurationSeconds { get; }
@@ -30,7 +30,7 @@ ref float DurationSeconds { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartTimeSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEvent.cs#L16)
+### **StartTimeSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEvent.cs#L16)
 
 ```csharp
 ref float StartTimeSeconds { get; }
@@ -40,7 +40,7 @@ ref float StartTimeSeconds { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SyncID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEvent.cs#L20)
+### **SyncID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmEvent.cs#L20)
 
 ```csharp
 ref CGlobalSymbol SyncID { get; }

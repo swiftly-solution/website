@@ -10,7 +10,7 @@ public interface C_OP_LightningSnapshotGenerator : CParticleFunctionPreEmission,
 
 ## Properties
 
-**BranchBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L38)
+### **BranchBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L38)
 
 ```csharp
 ref ParticleLightnintBranchBehavior_t BranchBehavior { get; }
@@ -20,7 +20,7 @@ ref ParticleLightnintBranchBehavior_t BranchBehavior { get; }
 
 - [ParticleLightnintBranchBehavior_t](/docs/api/shared/schemadefinitions/particlelightnintbranchbehavior_t)
 
-**BranchTwist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L36)
+### **BranchTwist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L36)
 
 ```csharp
 CParticleCollectionFloatInput BranchTwist { get; }
@@ -30,7 +30,7 @@ CParticleCollectionFloatInput BranchTwist { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**CPEndPnt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L20)
+### **CPEndPnt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L20)
 
 ```csharp
 ref int CPEndPnt { get; }
@@ -40,7 +40,7 @@ ref int CPEndPnt { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CPSnapshot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L16)
+### **CPSnapshot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L16)
 
 ```csharp
 ref int CPSnapshot { get; }
@@ -50,7 +50,7 @@ ref int CPSnapshot { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CPStartPnt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L18)
+### **CPStartPnt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L18)
 
 ```csharp
 ref int CPStartPnt { get; }
@@ -60,7 +60,7 @@ ref int CPStartPnt { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DedicatedPool** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L44)
+### **DedicatedPool** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L44)
 
 ```csharp
 CParticleCollectionFloatInput DedicatedPool { get; }
@@ -70,7 +70,7 @@ CParticleCollectionFloatInput DedicatedPool { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L24)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput Offset { get; }
@@ -80,7 +80,7 @@ CParticleCollectionFloatInput Offset { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**OffsetDecay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L26)
+### **OffsetDecay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput OffsetDecay { get; }
@@ -90,7 +90,7 @@ CParticleCollectionFloatInput OffsetDecay { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**RadiusEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L42)
+### **RadiusEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L42)
 
 ```csharp
 CParticleCollectionFloatInput RadiusEnd { get; }
@@ -100,7 +100,7 @@ CParticleCollectionFloatInput RadiusEnd { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**RadiusStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L40)
+### **RadiusStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L40)
 
 ```csharp
 CParticleCollectionFloatInput RadiusStart { get; }
@@ -110,7 +110,7 @@ CParticleCollectionFloatInput RadiusStart { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**RecalcRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L28)
+### **RecalcRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput RecalcRate { get; }
@@ -120,7 +120,7 @@ CParticleCollectionFloatInput RecalcRate { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**Segments** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L22)
+### **Segments** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput Segments { get; }
@@ -130,7 +130,7 @@ CParticleCollectionFloatInput Segments { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**SplitRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L34)
+### **SplitRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L34)
 
 ```csharp
 CParticleCollectionFloatInput SplitRate { get; }
@@ -140,7 +140,7 @@ CParticleCollectionFloatInput SplitRate { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**UVOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L32)
+### **UVOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L32)
 
 ```csharp
 CParticleCollectionFloatInput UVOffset { get; }
@@ -150,7 +150,7 @@ CParticleCollectionFloatInput UVOffset { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**UVScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L30)
+### **UVScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LightningSnapshotGenerator.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput UVScale { get; }

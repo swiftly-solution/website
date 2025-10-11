@@ -10,7 +10,7 @@ public interface CMsgSource1LegacyGameEvent : ITypedProtobuf<CMsgSource1LegacyGa
 
 ## Properties
 
-**EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L18)
+### **EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L18)
 
 ```csharp
 string EventName { get; set; }
@@ -20,7 +20,7 @@ string EventName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L21)
+### **Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L21)
 
 ```csharp
 int Eventid { get; set; }
@@ -30,7 +30,7 @@ int Eventid { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Keys** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L24)
+### **Keys** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L24)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEvent_key_t> Keys { get; }
@@ -40,7 +40,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEvent_key_t> Keys { ge
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSource1LegacyGameEvent_key_t](/docs/api/shared/protobufdefinitions/cmsgsource1legacygameevent_key_t)>
 
-**Passthrough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L30)
+### **Passthrough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L30)
 
 ```csharp
 int Passthrough { get; set; }
@@ -50,7 +50,7 @@ int Passthrough { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ServerTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L27)
+### **ServerTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent.cs#L27)
 
 ```csharp
 int ServerTick { get; set; }

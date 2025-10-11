@@ -10,7 +10,7 @@ public interface EventNavBlocked : IGameEvent<EventNavBlocked>
 
 ## Properties
 
-**Area** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventNavBlocked.cs#L21)
+### **Area** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventNavBlocked.cs#L21)
 
 ```csharp
 int Area { get; set; }
@@ -20,7 +20,7 @@ int Area { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Blocked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventNavBlocked.cs#L26)
+### **Blocked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventNavBlocked.cs#L26)
 
 ```csharp
 bool Blocked { get; set; }

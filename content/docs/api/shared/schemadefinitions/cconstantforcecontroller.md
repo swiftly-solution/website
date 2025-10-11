@@ -10,7 +10,7 @@ public interface CConstantForceController : ISchemaClass<CConstantForceControlle
 
 ## Properties
 
-**Angular** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstantForceController.cs#L19)
+### **Angular** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstantForceController.cs#L19)
 
 ```csharp
 SchemaUntypedField Angular { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Angular { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**AngularSave** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstantForceController.cs#L24)
+### **AngularSave** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstantForceController.cs#L24)
 
 ```csharp
 SchemaUntypedField AngularSave { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField AngularSave { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Linear** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstantForceController.cs#L16)
+### **Linear** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstantForceController.cs#L16)
 
 ```csharp
 ref Vector Linear { get; }
@@ -40,7 +40,7 @@ ref Vector Linear { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**LinearSave** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstantForceController.cs#L21)
+### **LinearSave** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstantForceController.cs#L21)
 
 ```csharp
 ref Vector LinearSave { get; }

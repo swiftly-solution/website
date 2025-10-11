@@ -10,7 +10,7 @@ public interface C_OP_RenderBlobs : CParticleFunctionRenderer, CParticleFunction
 
 ## Properties
 
-**CubeWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L16)
+### **CubeWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L16)
 
 ```csharp
 CParticleCollectionRendererFloatInput CubeWidth { get; }
@@ -20,7 +20,7 @@ CParticleCollectionRendererFloatInput CubeWidth { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**CutoffRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L18)
+### **CutoffRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L18)
 
 ```csharp
 CParticleCollectionRendererFloatInput CutoffRadius { get; }
@@ -30,7 +30,7 @@ CParticleCollectionRendererFloatInput CutoffRadius { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**IndexCountKb** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L24)
+### **IndexCountKb** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L24)
 
 ```csharp
 ref uint IndexCountKb { get; }
@@ -40,7 +40,7 @@ ref uint IndexCountKb { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L31)
+### **Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L31)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
@@ -50,7 +50,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
-**MaterialVars** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L29)
+### **MaterialVars** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L29)
 
 ```csharp
 ref CUtlVector MaterialVars { get; }
@@ -58,9 +58,9 @@ ref CUtlVector MaterialVars { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**RenderRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L20)
+### **RenderRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L20)
 
 ```csharp
 CParticleCollectionRendererFloatInput RenderRadius { get; }
@@ -70,7 +70,7 @@ CParticleCollectionRendererFloatInput RenderRadius { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**ScaleCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L26)
+### **ScaleCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L26)
 
 ```csharp
 ref int ScaleCP { get; }
@@ -80,7 +80,7 @@ ref int ScaleCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VertexCountKb** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L22)
+### **VertexCountKb** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderBlobs.cs#L22)
 
 ```csharp
 ref uint VertexCountKb { get; }

@@ -10,7 +10,7 @@ public interface AmmoTypeInfo_t : ISchemaClass<AmmoTypeInfo_t>, ISchemaField, IS
 
 ## Properties
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoTypeInfo_t.cs#L20)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoTypeInfo_t.cs#L20)
 
 ```csharp
 ref AmmoFlags_t Flags { get; }
@@ -20,7 +20,7 @@ ref AmmoFlags_t Flags { get; }
 
 - [AmmoFlags_t](/docs/api/shared/schemadefinitions/ammoflags_t)
 
-**Mass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoTypeInfo_t.cs#L22)
+### **Mass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoTypeInfo_t.cs#L22)
 
 ```csharp
 ref float Mass { get; }
@@ -30,7 +30,7 @@ ref float Mass { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxCarry** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoTypeInfo_t.cs#L16)
+### **MaxCarry** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoTypeInfo_t.cs#L16)
 
 ```csharp
 ref int MaxCarry { get; }
@@ -40,7 +40,7 @@ ref int MaxCarry { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Speed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoTypeInfo_t.cs#L24)
+### **Speed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoTypeInfo_t.cs#L24)
 
 ```csharp
 CRangeFloat Speed { get; }
@@ -50,7 +50,7 @@ CRangeFloat Speed { get; }
 
 - [CRangeFloat](/docs/api/shared/schemadefinitions/crangefloat)
 
-**SplashSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoTypeInfo_t.cs#L18)
+### **SplashSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoTypeInfo_t.cs#L18)
 
 ```csharp
 CRangeInt SplashSize { get; }

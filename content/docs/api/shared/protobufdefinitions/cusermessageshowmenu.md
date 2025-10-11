@@ -10,7 +10,7 @@ public interface CUserMessageShowMenu : ITypedProtobuf<CUserMessageShowMenu>, IN
 
 ## Properties
 
-**Displaytime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageShowMenu.cs#L21)
+### **Displaytime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageShowMenu.cs#L21)
 
 ```csharp
 uint Displaytime { get; set; }
@@ -20,7 +20,7 @@ uint Displaytime { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Menustring** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageShowMenu.cs#L27)
+### **Menustring** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageShowMenu.cs#L27)
 
 ```csharp
 string Menustring { get; set; }
@@ -30,7 +30,7 @@ string Menustring { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Needmore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageShowMenu.cs#L24)
+### **Needmore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageShowMenu.cs#L24)
 
 ```csharp
 bool Needmore { get; set; }
@@ -40,7 +40,7 @@ bool Needmore { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Validslots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageShowMenu.cs#L18)
+### **Validslots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageShowMenu.cs#L18)
 
 ```csharp
 uint Validslots { get; set; }

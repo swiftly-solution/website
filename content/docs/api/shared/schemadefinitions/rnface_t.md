@@ -10,7 +10,7 @@ public interface RnFace_t : ISchemaClass<RnFace_t>, ISchemaField, ISchemaClass, 
 
 ## Properties
 
-**Edge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnFace_t.cs#L16)
+### **Edge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnFace_t.cs#L16)
 
 ```csharp
 ref byte Edge { get; }

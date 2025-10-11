@@ -10,7 +10,7 @@ public interface VMixVocoderDesc_t : ISchemaClass<VMixVocoderDesc_t>, ISchemaFie
 
 ## Properties
 
-**AttackTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L28)
+### **AttackTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L28)
 
 ```csharp
 ref float AttackTimeMS { get; }
@@ -20,7 +20,7 @@ ref float AttackTimeMS { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BandCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L16)
+### **BandCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L16)
 
 ```csharp
 ref int BandCount { get; }
@@ -30,7 +30,7 @@ ref int BandCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Bandwidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L18)
+### **Bandwidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L18)
 
 ```csharp
 ref float Bandwidth { get; }
@@ -40,7 +40,7 @@ ref float Bandwidth { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DebugBand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L32)
+### **DebugBand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L32)
 
 ```csharp
 ref int DebugBand { get; }
@@ -50,7 +50,7 @@ ref int DebugBand { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FldBModGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L20)
+### **FldBModGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L20)
 
 ```csharp
 ref float FldBModGain { get; }
@@ -60,7 +60,7 @@ ref float FldBModGain { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FldBUnvoicedGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L26)
+### **FldBUnvoicedGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L26)
 
 ```csharp
 ref float FldBUnvoicedGain { get; }
@@ -70,7 +70,7 @@ ref float FldBUnvoicedGain { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FreqRangeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L24)
+### **FreqRangeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L24)
 
 ```csharp
 ref float FreqRangeEnd { get; }
@@ -80,7 +80,7 @@ ref float FreqRangeEnd { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FreqRangeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L22)
+### **FreqRangeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L22)
 
 ```csharp
 ref float FreqRangeStart { get; }
@@ -90,7 +90,7 @@ ref float FreqRangeStart { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PeakMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L34)
+### **PeakMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L34)
 
 ```csharp
 ref bool PeakMode { get; }
@@ -100,7 +100,7 @@ ref bool PeakMode { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ReleaseTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L30)
+### **ReleaseTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixVocoderDesc_t.cs#L30)
 
 ```csharp
 ref float ReleaseTimeMS { get; }

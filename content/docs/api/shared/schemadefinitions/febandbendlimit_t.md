@@ -10,7 +10,7 @@ public interface FeBandBendLimit_t : ISchemaClass<FeBandBendLimit_t>, ISchemaFie
 
 ## Properties
 
-**DistMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L18)
+### **DistMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L18)
 
 ```csharp
 ref float DistMax { get; }
@@ -20,7 +20,7 @@ ref float DistMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DistMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L16)
+### **DistMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L16)
 
 ```csharp
 ref float DistMin { get; }
@@ -30,7 +30,7 @@ ref float DistMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L20)
+### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBandBendLimit_t.cs#L20)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }

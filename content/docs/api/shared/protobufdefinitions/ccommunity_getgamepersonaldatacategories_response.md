@@ -10,7 +10,7 @@ public interface CCommunity_GetGamePersonalDataCategories_Response : ITypedProto
 
 ## Properties
 
-**AppAssetsBasename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_GetGamePersonalDataCategories_Response.cs#L16)
+### **AppAssetsBasename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_GetGamePersonalDataCategories_Response.cs#L16)
 
 ```csharp
 string AppAssetsBasename { get; set; }
@@ -20,7 +20,7 @@ string AppAssetsBasename { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Categories** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_GetGamePersonalDataCategories_Response.cs#L13)
+### **Categories** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCommunity_GetGamePersonalDataCategories_Response.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CCommunity_GamePersonalDataCategoryInfo> Categories { get; }

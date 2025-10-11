@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_DestroyParticle : ITypedProtobuf<CUser
 
 ## Properties
 
-**DestroyImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_DestroyParticle.cs#L13)
+### **DestroyImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_DestroyParticle.cs#L13)
 
 ```csharp
 bool DestroyImmediately { get; set; }

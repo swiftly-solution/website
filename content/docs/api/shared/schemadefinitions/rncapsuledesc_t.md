@@ -10,7 +10,7 @@ public interface RnCapsuleDesc_t : RnShapeDesc_t, ISchemaClass<RnShapeDesc_t>, I
 
 ## Properties
 
-**Capsule** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnCapsuleDesc_t.cs#L16)
+### **Capsule** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnCapsuleDesc_t.cs#L16)
 
 ```csharp
 RnCapsule_t Capsule { get; }

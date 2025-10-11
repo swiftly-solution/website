@@ -10,7 +10,7 @@ public interface C_OP_RampScalarLinear : CParticleFunctionOperator, CParticleFun
 
 ## Properties
 
-**EndTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L26)
+### **EndTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L26)
 
 ```csharp
 ref float EndTime_max { get; }
@@ -20,7 +20,7 @@ ref float EndTime_max { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L24)
+### **EndTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L24)
 
 ```csharp
 ref float EndTime_min { get; }
@@ -30,7 +30,7 @@ ref float EndTime_min { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L28)
+### **Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L28)
 
 ```csharp
 ParticleAttributeIndex_t Field { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t Field { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**ProportionalOp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L30)
+### **ProportionalOp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L30)
 
 ```csharp
 ref bool ProportionalOp { get; }
@@ -50,7 +50,7 @@ ref bool ProportionalOp { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RateMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L18)
+### **RateMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L18)
 
 ```csharp
 ref float RateMax { get; }
@@ -60,7 +60,7 @@ ref float RateMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RateMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L16)
+### **RateMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L16)
 
 ```csharp
 ref float RateMin { get; }
@@ -70,7 +70,7 @@ ref float RateMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L22)
+### **StartTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L22)
 
 ```csharp
 ref float StartTime_max { get; }
@@ -80,7 +80,7 @@ ref float StartTime_max { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L20)
+### **StartTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RampScalarLinear.cs#L20)
 
 ```csharp
 ref float StartTime_min { get; }

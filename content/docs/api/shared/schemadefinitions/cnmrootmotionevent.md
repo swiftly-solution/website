@@ -10,7 +10,7 @@ public interface CNmRootMotionEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaC
 
 ## Properties
 
-**BlendTimeSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionEvent.cs#L16)
+### **BlendTimeSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionEvent.cs#L16)
 
 ```csharp
 ref float BlendTimeSeconds { get; }

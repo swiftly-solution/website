@@ -10,7 +10,7 @@ public interface CLogicCase : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CE
 
 ## Properties
 
-**Case** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L16)
+### **Case** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L16)
 
 ```csharp
 string Case { get; set; }
@@ -20,7 +20,7 @@ string Case { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**LastShuffleCase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L20)
+### **LastShuffleCase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L20)
 
 ```csharp
 ref int LastShuffleCase { get; }
@@ -30,7 +30,7 @@ ref int LastShuffleCase { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OnCase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L25)
+### **OnCase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L25)
 
 ```csharp
 SchemaUntypedField OnCase { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField OnCase { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**OnDefault** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L28)
+### **OnDefault** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L28)
 
 ```csharp
 SchemaUntypedField OnDefault { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField OnDefault { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ShuffleCases** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L18)
+### **ShuffleCases** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L18)
 
 ```csharp
 ref int ShuffleCases { get; }
@@ -60,7 +60,7 @@ ref int ShuffleCases { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UchShuffleCaseMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L22)
+### **UchShuffleCaseMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicCase.cs#L22)
 
 ```csharp
 ISchemaFixedArray<byte> UchShuffleCaseMap { get; }

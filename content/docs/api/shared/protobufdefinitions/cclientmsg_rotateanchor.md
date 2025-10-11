@@ -10,7 +10,7 @@ public interface CClientMsg_RotateAnchor : ITypedProtobuf<CClientMsg_RotateAncho
 
 ## Properties
 
-**Angle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_RotateAnchor.cs#L13)
+### **Angle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_RotateAnchor.cs#L13)
 
 ```csharp
 float Angle { get; set; }

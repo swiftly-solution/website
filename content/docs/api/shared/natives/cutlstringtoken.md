@@ -10,7 +10,7 @@ public struct CUtlStringToken
 
 ## Constructors
 
-**CUtlStringToken(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlStringToken.cs#L14)
+### **CUtlStringToken(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlStringToken.cs#L14)
 
 ```csharp
 public CUtlStringToken(string str)
@@ -22,7 +22,7 @@ public CUtlStringToken(string str)
 
 ## Fields
 
-**HashCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlStringToken.cs#L12)
+### **HashCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlStringToken.cs#L12)
 
 ```csharp
 public uint HashCode

@@ -8,7 +8,7 @@ public interface IGameDataService
 
 ## Methods
 
-**ApplyPatch(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L60)
+### **ApplyPatch(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L60)
 
 ```csharp
 void ApplyPatch(string patchName)
@@ -18,7 +18,7 @@ void ApplyPatch(string patchName)
 
 - **patchName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Patch name defined in `patchs.jsonc` file.
 
-**GetOffset(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L39)
+### **GetOffset(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L39)
 
 ```csharp
 nint GetOffset(string offsetName)
@@ -32,7 +32,7 @@ nint GetOffset(string offsetName)
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The offset.
 
-**GetSignature(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L17)
+### **GetSignature(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L17)
 
 ```csharp
 nint GetSignature(string signatureName)
@@ -46,7 +46,7 @@ nint GetSignature(string signatureName)
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The signature.
 
-**HasOffset(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L32)
+### **HasOffset(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L32)
 
 ```csharp
 bool HasOffset(string offsetName)
@@ -60,7 +60,7 @@ bool HasOffset(string offsetName)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the offset exists.
 
-**HasPatch(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L54)
+### **HasPatch(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L54)
 
 ```csharp
 bool HasPatch(string patchName)
@@ -74,7 +74,7 @@ bool HasPatch(string patchName)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the patch exists.
 
-**HasSignature(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L10)
+### **HasSignature(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L10)
 
 ```csharp
 bool HasSignature(string signatureName)
@@ -88,7 +88,7 @@ bool HasSignature(string signatureName)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the signature exists.
 
-**TryGetOffset(string, out nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L47)
+### **TryGetOffset(string, out nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L47)
 
 ```csharp
 bool TryGetOffset(string offsetName, out nint offset)
@@ -103,7 +103,7 @@ bool TryGetOffset(string offsetName, out nint offset)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the offset exists.
 
-**TryGetSignature(string, out nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L25)
+### **TryGetSignature(string, out nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameData/IGameDataService.cs#L25)
 
 ```csharp
 bool TryGetSignature(string signatureName, out nint signature)

@@ -10,7 +10,7 @@ public interface C_OP_SelectivelyEnableChildren : CParticleFunctionPreEmission, 
 
 ## Properties
 
-**ChildGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L16)
+### **ChildGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput ChildGroupID { get; }
@@ -20,7 +20,7 @@ CParticleCollectionFloatInput ChildGroupID { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**DestroyImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L24)
+### **DestroyImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L24)
 
 ```csharp
 ref bool DestroyImmediately { get; }
@@ -30,7 +30,7 @@ ref bool DestroyImmediately { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FirstChild** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L18)
+### **FirstChild** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput FirstChild { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput FirstChild { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**NumChildrenToEnable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L20)
+### **NumChildrenToEnable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput NumChildrenToEnable { get; }
@@ -50,7 +50,7 @@ CParticleCollectionFloatInput NumChildrenToEnable { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**PlayEndcapOnStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L22)
+### **PlayEndcapOnStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SelectivelyEnableChildren.cs#L22)
 
 ```csharp
 ref bool PlayEndcapOnStop { get; }

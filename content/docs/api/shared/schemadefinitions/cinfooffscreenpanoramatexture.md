@@ -10,7 +10,7 @@ public interface CInfoOffscreenPanoramaTexture : CPointEntity, CBaseEntity, CEnt
 
 ## Properties
 
-**AdditionalTargetEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L34)
+### **AdditionalTargetEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L34)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseModelEntity>> AdditionalTargetEntities { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<CHandle<CBaseModelEntity>> AdditionalTargetEntities { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>>
+- [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>>
 
-**CSSClasses** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L30)
+### **CSSClasses** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L30)
 
 ```csharp
 ref CUtlVector<CUtlSymbolLarge> CSSClasses { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<CUtlSymbolLarge> CSSClasses { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)>
+- [CUtlVector](/docs/api/-1)<[CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)>
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L16)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L16)
 
 ```csharp
 ref bool Disabled { get; }
@@ -40,7 +40,7 @@ ref bool Disabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LayoutFileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L22)
+### **LayoutFileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L22)
 
 ```csharp
 string LayoutFileName { get; set; }
@@ -50,7 +50,7 @@ string LayoutFileName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**RenderAttrName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L24)
+### **RenderAttrName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L24)
 
 ```csharp
 string RenderAttrName { get; set; }
@@ -60,7 +60,7 @@ string RenderAttrName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ResolutionX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L18)
+### **ResolutionX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L18)
 
 ```csharp
 ref int ResolutionX { get; }
@@ -70,7 +70,7 @@ ref int ResolutionX { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ResolutionY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L20)
+### **ResolutionY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L20)
 
 ```csharp
 ref int ResolutionY { get; }
@@ -80,7 +80,7 @@ ref int ResolutionY { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TargetChangeCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L28)
+### **TargetChangeCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L28)
 
 ```csharp
 ref int TargetChangeCount { get; }
@@ -90,7 +90,7 @@ ref int TargetChangeCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TargetEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L26)
+### **TargetEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L26)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseModelEntity>> TargetEntities { get; }
@@ -98,9 +98,9 @@ ref CUtlVector<CHandle<CBaseModelEntity>> TargetEntities { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>>
+- [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>>
 
-**TargetsName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L32)
+### **TargetsName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L32)
 
 ```csharp
 string TargetsName { get; set; }
@@ -112,49 +112,49 @@ string TargetsName { get; set; }
 
 ## Methods
 
-**CSSClassesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L43)
+### **CSSClassesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L43)
 
 ```csharp
 void CSSClassesUpdated()
 ```
 
-**DisabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L36)
+### **DisabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L36)
 
 ```csharp
 void DisabledUpdated()
 ```
 
-**LayoutFileNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L39)
+### **LayoutFileNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L39)
 
 ```csharp
 void LayoutFileNameUpdated()
 ```
 
-**RenderAttrNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L40)
+### **RenderAttrNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L40)
 
 ```csharp
 void RenderAttrNameUpdated()
 ```
 
-**ResolutionXUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L37)
+### **ResolutionXUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L37)
 
 ```csharp
 void ResolutionXUpdated()
 ```
 
-**ResolutionYUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L38)
+### **ResolutionYUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L38)
 
 ```csharp
 void ResolutionYUpdated()
 ```
 
-**TargetChangeCountUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L42)
+### **TargetChangeCountUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L42)
 
 ```csharp
 void TargetChangeCountUpdated()
 ```
 
-**TargetEntitiesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L41)
+### **TargetEntitiesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoOffscreenPanoramaTexture.cs#L41)
 
 ```csharp
 void TargetEntitiesUpdated()

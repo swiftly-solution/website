@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_UpdateFan : ITypedProtobuf<CUserMsg_Pa
 
 ## Properties
 
-**Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L13)
+### **Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L13)
 
 ```csharp
 bool Active { get; set; }
@@ -20,7 +20,7 @@ bool Active { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**BoundsMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L31)
+### **BoundsMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L31)
 
 ```csharp
 Vector BoundsMaxs { get; set; }
@@ -30,7 +30,7 @@ Vector BoundsMaxs { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**BoundsMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L28)
+### **BoundsMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L28)
 
 ```csharp
 Vector BoundsMins { get; set; }
@@ -40,7 +40,7 @@ Vector BoundsMins { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FanDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L22)
+### **FanDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L22)
 
 ```csharp
 Vector FanDirection { get; set; }
@@ -50,7 +50,7 @@ Vector FanDirection { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FanOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L16)
+### **FanOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L16)
 
 ```csharp
 Vector FanOrigin { get; set; }
@@ -60,7 +60,7 @@ Vector FanOrigin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FanOriginOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L19)
+### **FanOriginOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L19)
 
 ```csharp
 Vector FanOriginOffset { get; set; }
@@ -70,7 +70,7 @@ Vector FanOriginOffset { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FanRampRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L25)
+### **FanRampRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateFan.cs#L25)
 
 ```csharp
 float FanRampRatio { get; set; }

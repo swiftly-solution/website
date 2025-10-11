@@ -10,7 +10,7 @@ public interface CCSUsrMsg_KeyHintText : ITypedProtobuf<CCSUsrMsg_KeyHintText>, 
 
 ## Properties
 
-**Messages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_KeyHintText.cs#L18)
+### **Messages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_KeyHintText.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldValueType<string> Messages { get; }

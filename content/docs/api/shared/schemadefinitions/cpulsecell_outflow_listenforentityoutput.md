@@ -10,7 +10,7 @@ public interface CPulseCell_Outflow_ListenForEntityOutput : CPulseCell_BaseYield
 
 ## Properties
 
-**ListenUntilCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput.cs#L24)
+### **ListenUntilCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput.cs#L24)
 
 ```csharp
 ref bool ListenUntilCanceled { get; }
@@ -20,7 +20,7 @@ ref bool ListenUntilCanceled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OnCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput.cs#L18)
+### **OnCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput.cs#L18)
 
 ```csharp
 CPulse_ResumePoint OnCanceled { get; }
@@ -30,7 +30,7 @@ CPulse_ResumePoint OnCanceled { get; }
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
-**OnFired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput.cs#L16)
+### **OnFired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput.cs#L16)
 
 ```csharp
 SignatureOutflow_Resume OnFired { get; }
@@ -40,7 +40,7 @@ SignatureOutflow_Resume OnFired { get; }
 
 - [SignatureOutflow_Resume](/docs/api/shared/schemadefinitions/signatureoutflow_resume)
 
-**StrEntityOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput.cs#L20)
+### **StrEntityOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput.cs#L20)
 
 ```csharp
 ref CGlobalSymbol StrEntityOutput { get; }
@@ -50,7 +50,7 @@ ref CGlobalSymbol StrEntityOutput { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**StrEntityOutputParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput.cs#L22)
+### **StrEntityOutputParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ListenForEntityOutput.cs#L22)
 
 ```csharp
 string StrEntityOutputParam { get; set; }

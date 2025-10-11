@@ -10,7 +10,7 @@ public interface ParticleControlPointConfiguration_t : ISchemaClass<ParticleCont
 
 ## Properties
 
-**Drivers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointConfiguration_t.cs#L19)
+### **Drivers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointConfiguration_t.cs#L19)
 
 ```csharp
 ref CUtlVector Drivers { get; }
@@ -18,9 +18,9 @@ ref CUtlVector Drivers { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointConfiguration_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointConfiguration_t.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -30,7 +30,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PreviewState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointConfiguration_t.cs#L21)
+### **PreviewState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointConfiguration_t.cs#L21)
 
 ```csharp
 ParticlePreviewState_t PreviewState { get; }

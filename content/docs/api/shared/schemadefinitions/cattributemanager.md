@@ -10,7 +10,7 @@ public interface CAttributeManager : ISchemaClass<CAttributeManager>, ISchemaFie
 
 ## Properties
 
-**CachedResults** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L27)
+### **CachedResults** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L27)
 
 ```csharp
 ref CUtlVector CachedResults { get; }
@@ -18,9 +18,9 @@ ref CUtlVector CachedResults { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**Outer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L20)
+### **Outer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> Outer { get; }
@@ -30,7 +30,7 @@ ref CHandle<CBaseEntity> Outer { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**PreventLoopback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L22)
+### **PreventLoopback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L22)
 
 ```csharp
 ref bool PreventLoopback { get; }
@@ -40,7 +40,7 @@ ref bool PreventLoopback { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ProviderType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L24)
+### **ProviderType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L24)
 
 ```csharp
 ref attributeprovidertypes_t ProviderType { get; }
@@ -50,7 +50,7 @@ ref attributeprovidertypes_t ProviderType { get; }
 
 - [attributeprovidertypes_t](/docs/api/shared/schemadefinitions/attributeprovidertypes_t)
 
-**Providers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L16)
+### **Providers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L16)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseEntity>> Providers { get; }
@@ -58,9 +58,9 @@ ref CUtlVector<CHandle<CBaseEntity>> Providers { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
+- [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
-**ReapplyProvisionParity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L18)
+### **ReapplyProvisionParity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L18)
 
 ```csharp
 ref int ReapplyProvisionParity { get; }
@@ -72,19 +72,19 @@ ref int ReapplyProvisionParity { get; }
 
 ## Methods
 
-**OuterUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L30)
+### **OuterUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L30)
 
 ```csharp
 void OuterUpdated()
 ```
 
-**ProviderTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L31)
+### **ProviderTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L31)
 
 ```csharp
 void ProviderTypeUpdated()
 ```
 
-**ReapplyProvisionParityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L29)
+### **ReapplyProvisionParityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager.cs#L29)
 
 ```csharp
 void ReapplyProvisionParityUpdated()

@@ -10,7 +10,7 @@ public interface CInfoGameEventProxy : CPointEntity, CBaseEntity, CEntityInstanc
 
 ## Properties
 
-**EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoGameEventProxy.cs#L16)
+### **EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoGameEventProxy.cs#L16)
 
 ```csharp
 string EventName { get; set; }
@@ -20,7 +20,7 @@ string EventName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoGameEventProxy.cs#L18)
+### **Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoGameEventProxy.cs#L18)
 
 ```csharp
 ref float Range { get; }

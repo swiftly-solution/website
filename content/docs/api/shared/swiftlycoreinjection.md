@@ -12,7 +12,7 @@ public static class SwiftlyCoreInjection
 
 ## Methods
 
-**AddSwiftly(IServiceCollection, ISwiftlyCore, bool, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/SwiftlyCoreInjection.cs#L10)
+### **AddSwiftly(IServiceCollection, ISwiftlyCore, bool, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/SwiftlyCoreInjection.cs#L10)
 
 ```csharp
 public static IServiceCollection AddSwiftly(this IServiceCollection self, ISwiftlyCore core, bool addLogger = true, bool addConfiguration = true)

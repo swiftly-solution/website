@@ -10,7 +10,7 @@ public interface C_OP_PositionLock : CParticleFunctionOperator, CParticleFunctio
 
 ## Properties
 
-**EndTime_exp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L28)
+### **EndTime_exp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L28)
 
 ```csharp
 ref float EndTime_exp { get; }
@@ -20,7 +20,7 @@ ref float EndTime_exp { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L26)
+### **EndTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L26)
 
 ```csharp
 ref float EndTime_max { get; }
@@ -30,7 +30,7 @@ ref float EndTime_max { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L24)
+### **EndTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L24)
 
 ```csharp
 ref float EndTime_min { get; }
@@ -40,7 +40,7 @@ ref float EndTime_min { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L42)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L42)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -50,7 +50,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldOutputPrev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L44)
+### **FieldOutputPrev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L44)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutputPrev { get; }
@@ -60,7 +60,7 @@ ParticleAttributeIndex_t FieldOutputPrev { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**JumpThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L34)
+### **JumpThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L34)
 
 ```csharp
 ref float JumpThreshold { get; }
@@ -70,7 +70,7 @@ ref float JumpThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LockRot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L38)
+### **LockRot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L38)
 
 ```csharp
 ref bool LockRot { get; }
@@ -80,7 +80,7 @@ ref bool LockRot { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PrevPosScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L36)
+### **PrevPosScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L36)
 
 ```csharp
 ref float PrevPosScale { get; }
@@ -90,7 +90,7 @@ ref float PrevPosScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L30)
+### **Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L30)
 
 ```csharp
 ref float Range { get; }
@@ -100,7 +100,7 @@ ref float Range { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RangeBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L32)
+### **RangeBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L32)
 
 ```csharp
 CParticleCollectionFloatInput RangeBias { get; }
@@ -110,7 +110,7 @@ CParticleCollectionFloatInput RangeBias { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L40)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L40)
 
 ```csharp
 CParticleCollectionVecInput Scale { get; }
@@ -120,7 +120,7 @@ CParticleCollectionVecInput Scale { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**StartTime_exp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L22)
+### **StartTime_exp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L22)
 
 ```csharp
 ref float StartTime_exp { get; }
@@ -130,7 +130,7 @@ ref float StartTime_exp { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L20)
+### **StartTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L20)
 
 ```csharp
 ref float StartTime_max { get; }
@@ -140,7 +140,7 @@ ref float StartTime_max { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L18)
+### **StartTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L18)
 
 ```csharp
 ref float StartTime_min { get; }
@@ -150,7 +150,7 @@ ref float StartTime_min { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L16)
+### **TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PositionLock.cs#L16)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

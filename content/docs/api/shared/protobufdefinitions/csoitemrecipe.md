@@ -10,7 +10,7 @@ public interface CSOItemRecipe : ITypedProtobuf<CSOItemRecipe>, INativeHandle
 
 ## Properties
 
-**ClassUsageForOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L52)
+### **ClassUsageForOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L52)
 
 ```csharp
 int ClassUsageForOutput { get; set; }
@@ -20,7 +20,7 @@ int ClassUsageForOutput { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L13)
+### **DefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L13)
 
 ```csharp
 uint DefIndex { get; set; }
@@ -30,7 +30,7 @@ uint DefIndex { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**DescInputs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L22)
+### **DescInputs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L22)
 
 ```csharp
 string DescInputs { get; set; }
@@ -40,7 +40,7 @@ string DescInputs { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DescOutputs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L25)
+### **DescOutputs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L25)
 
 ```csharp
 string DescOutputs { get; set; }
@@ -50,7 +50,7 @@ string DescOutputs { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DiA** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L28)
+### **DiA** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L28)
 
 ```csharp
 string DiA { get; set; }
@@ -60,7 +60,7 @@ string DiA { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DiB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L31)
+### **DiB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L31)
 
 ```csharp
 string DiB { get; set; }
@@ -70,7 +70,7 @@ string DiB { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DiC** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L34)
+### **DiC** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L34)
 
 ```csharp
 string DiC { get; set; }
@@ -80,7 +80,7 @@ string DiC { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DoA** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L37)
+### **DoA** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L37)
 
 ```csharp
 string DoA { get; set; }
@@ -90,7 +90,7 @@ string DoA { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DoB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L40)
+### **DoB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L40)
 
 ```csharp
 string DoB { get; set; }
@@ -100,7 +100,7 @@ string DoB { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DoC** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L43)
+### **DoC** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L43)
 
 ```csharp
 string DoC { get; set; }
@@ -110,7 +110,7 @@ string DoC { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**InputItemDupeCounts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L67)
+### **InputItemDupeCounts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L67)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> InputItemDupeCounts { get; }
@@ -120,7 +120,7 @@ IProtobufRepeatedFieldValueType<uint> InputItemDupeCounts { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**InputItemsCriteria** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L61)
+### **InputItemsCriteria** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L61)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CSOItemCriteria> InputItemsCriteria { get; }
@@ -130,7 +130,7 @@ IProtobufRepeatedFieldSubMessageType<CSOItemCriteria> InputItemsCriteria { get; 
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSOItemCriteria](/docs/api/shared/protobufdefinitions/csoitemcriteria)>
 
-**NA** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L19)
+### **NA** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L19)
 
 ```csharp
 string NA { get; set; }
@@ -140,7 +140,7 @@ string NA { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -150,7 +150,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OutputItemsCriteria** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L64)
+### **OutputItemsCriteria** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L64)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CSOItemCriteria> OutputItemsCriteria { get; }
@@ -160,7 +160,7 @@ IProtobufRepeatedFieldSubMessageType<CSOItemCriteria> OutputItemsCriteria { get;
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSOItemCriteria](/docs/api/shared/protobufdefinitions/csoitemcriteria)>
 
-**RequiresAllSameClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L46)
+### **RequiresAllSameClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L46)
 
 ```csharp
 bool RequiresAllSameClass { get; set; }
@@ -170,7 +170,7 @@ bool RequiresAllSameClass { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RequiresAllSameSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L49)
+### **RequiresAllSameSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L49)
 
 ```csharp
 bool RequiresAllSameSlot { get; set; }
@@ -180,7 +180,7 @@ bool RequiresAllSameSlot { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SetForOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L58)
+### **SetForOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L58)
 
 ```csharp
 int SetForOutput { get; set; }
@@ -190,7 +190,7 @@ int SetForOutput { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SlotUsageForOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L55)
+### **SlotUsageForOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemRecipe.cs#L55)
 
 ```csharp
 int SlotUsageForOutput { get; set; }

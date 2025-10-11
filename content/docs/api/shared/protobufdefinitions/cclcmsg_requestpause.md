@@ -10,7 +10,7 @@ public interface CCLCMsg_RequestPause : ITypedProtobuf<CCLCMsg_RequestPause>, IN
 
 ## Properties
 
-**PauseGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_RequestPause.cs#L21)
+### **PauseGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_RequestPause.cs#L21)
 
 ```csharp
 int PauseGroup { get; set; }
@@ -20,7 +20,7 @@ int PauseGroup { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PauseType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_RequestPause.cs#L18)
+### **PauseType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_RequestPause.cs#L18)
 
 ```csharp
 RequestPause_t PauseType { get; set; }

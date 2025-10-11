@@ -10,7 +10,7 @@ public interface CMsgRecurringMissionSchema_MissionTemplateList : ITypedProtobuf
 
 ## Properties
 
-**MissionTemplates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRecurringMissionSchema_MissionTemplateList.cs#L16)
+### **MissionTemplates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRecurringMissionSchema_MissionTemplateList.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<byte[]> MissionTemplates { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldValueType<byte[]> MissionTemplates { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
-**Period** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRecurringMissionSchema_MissionTemplateList.cs#L13)
+### **Period** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRecurringMissionSchema_MissionTemplateList.cs#L13)
 
 ```csharp
 uint Period { get; set; }

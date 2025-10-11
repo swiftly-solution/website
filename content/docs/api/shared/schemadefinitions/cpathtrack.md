@@ -10,7 +10,7 @@ public interface CPathTrack : CPointEntity, CBaseEntity, CEntityInstance, ISchem
 
 ## Properties
 
-**AltName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L26)
+### **AltName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L26)
 
 ```csharp
 string AltName { get; set; }
@@ -20,7 +20,7 @@ string AltName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**IterVal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L28)
+### **IterVal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L28)
 
 ```csharp
 ref int IterVal { get; }
@@ -30,7 +30,7 @@ ref int IterVal { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Length** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L24)
+### **Length** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L24)
 
 ```csharp
 ref float Length { get; }
@@ -40,7 +40,7 @@ ref float Length { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OnPass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L32)
+### **OnPass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L32)
 
 ```csharp
 CEntityIOOutput OnPass { get; }
@@ -50,7 +50,7 @@ CEntityIOOutput OnPass { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OrientationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L30)
+### **OrientationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L30)
 
 ```csharp
 ref TrackOrientationType_t OrientationType { get; }
@@ -60,7 +60,7 @@ ref TrackOrientationType_t OrientationType { get; }
 
 - [TrackOrientationType_t](/docs/api/shared/schemadefinitions/trackorientationtype_t)
 
-**Paltpath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L20)
+### **Paltpath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L20)
 
 ```csharp
 CPathTrack? Paltpath { get; }
@@ -70,7 +70,7 @@ CPathTrack? Paltpath { get; }
 
 - [CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)?
 
-**Pnext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L16)
+### **Pnext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L16)
 
 ```csharp
 CPathTrack? Pnext { get; }
@@ -80,7 +80,7 @@ CPathTrack? Pnext { get; }
 
 - [CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)?
 
-**Pprevious** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L18)
+### **Pprevious** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L18)
 
 ```csharp
 CPathTrack? Pprevious { get; }
@@ -90,7 +90,7 @@ CPathTrack? Pprevious { get; }
 
 - [CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)?
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L22)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathTrack.cs#L22)
 
 ```csharp
 ref float Radius { get; }

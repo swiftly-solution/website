@@ -10,7 +10,7 @@ public interface CPulse_OutflowConnection : ISchemaClass<CPulse_OutflowConnectio
 
 ## Properties
 
-**DestChunk** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutflowConnection.cs#L19)
+### **DestChunk** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutflowConnection.cs#L19)
 
 ```csharp
 PulseRuntimeChunkIndex_t DestChunk { get; }
@@ -20,7 +20,7 @@ PulseRuntimeChunkIndex_t DestChunk { get; }
 
 - [PulseRuntimeChunkIndex_t](/docs/api/shared/schemadefinitions/pulseruntimechunkindex_t)
 
-**Instruction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutflowConnection.cs#L21)
+### **Instruction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutflowConnection.cs#L21)
 
 ```csharp
 ref int Instruction { get; }
@@ -30,7 +30,7 @@ ref int Instruction { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutflowRegisterMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutflowConnection.cs#L23)
+### **OutflowRegisterMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutflowConnection.cs#L23)
 
 ```csharp
 PulseRegisterMap_t OutflowRegisterMap { get; }
@@ -40,7 +40,7 @@ PulseRegisterMap_t OutflowRegisterMap { get; }
 
 - [PulseRegisterMap_t](/docs/api/shared/schemadefinitions/pulseregistermap_t)
 
-**SourceOutflowName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutflowConnection.cs#L17)
+### **SourceOutflowName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutflowConnection.cs#L17)
 
 ```csharp
 SchemaUntypedField SourceOutflowName { get; }

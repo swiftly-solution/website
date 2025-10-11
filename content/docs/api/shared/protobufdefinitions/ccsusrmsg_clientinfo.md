@@ -10,7 +10,7 @@ public interface CCSUsrMsg_ClientInfo : ITypedProtobuf<CCSUsrMsg_ClientInfo>, IN
 
 ## Properties
 
-**Dummy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ClientInfo.cs#L18)
+### **Dummy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ClientInfo.cs#L18)
 
 ```csharp
 int Dummy { get; set; }

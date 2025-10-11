@@ -10,7 +10,7 @@ public interface CMathColorBlend : CLogicalEntity, CServerOnlyEntity, CBaseEntit
 
 ## Properties
 
-**InMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L18)
+### **InMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L18)
 
 ```csharp
 ref float InMax { get; }
@@ -20,7 +20,7 @@ ref float InMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L16)
+### **InMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L16)
 
 ```csharp
 ref float InMin { get; }
@@ -30,7 +30,7 @@ ref float InMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutColor1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L20)
+### **OutColor1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L20)
 
 ```csharp
 ref Color OutColor1 { get; }
@@ -40,7 +40,7 @@ ref Color OutColor1 { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**OutColor2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L22)
+### **OutColor2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L22)
 
 ```csharp
 ref Color OutColor2 { get; }
@@ -50,7 +50,7 @@ ref Color OutColor2 { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**OutValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L25)
+### **OutValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMathColorBlend.cs#L25)
 
 ```csharp
 SchemaUntypedField OutValue { get; }

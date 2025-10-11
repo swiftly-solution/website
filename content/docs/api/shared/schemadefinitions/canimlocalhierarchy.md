@@ -10,7 +10,7 @@ public interface CAnimLocalHierarchy : ISchemaClass<CAnimLocalHierarchy>, ISchem
 
 ## Properties
 
-**Bone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L16)
+### **Bone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L16)
 
 ```csharp
 ref CBufferString Bone { get; }
@@ -20,7 +20,7 @@ ref CBufferString Bone { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**EndFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L26)
+### **EndFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L26)
 
 ```csharp
 ref int EndFrame { get; }
@@ -30,7 +30,7 @@ ref int EndFrame { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NewParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L18)
+### **NewParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L18)
 
 ```csharp
 ref CBufferString NewParent { get; }
@@ -40,7 +40,7 @@ ref CBufferString NewParent { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**PeakFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L22)
+### **PeakFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L22)
 
 ```csharp
 ref int PeakFrame { get; }
@@ -50,7 +50,7 @@ ref int PeakFrame { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L20)
+### **StartFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L20)
 
 ```csharp
 ref int StartFrame { get; }
@@ -60,7 +60,7 @@ ref int StartFrame { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TailFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L24)
+### **TailFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimLocalHierarchy.cs#L24)
 
 ```csharp
 ref int TailFrame { get; }

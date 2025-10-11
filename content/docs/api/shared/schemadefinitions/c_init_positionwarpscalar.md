@@ -10,7 +10,7 @@ public interface C_INIT_PositionWarpScalar : CParticleFunctionInitializer, CPart
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L26)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L26)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L20)
+### **InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L20)
 
 ```csharp
 CPerParticleFloatInput InputValue { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput InputValue { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**PrevPosScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L22)
+### **PrevPosScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L22)
 
 ```csharp
 ref float PrevPosScale { get; }
@@ -40,7 +40,7 @@ ref float PrevPosScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ScaleControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L24)
+### **ScaleControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L24)
 
 ```csharp
 ref int ScaleControlPointNumber { get; }
@@ -50,7 +50,7 @@ ref int ScaleControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**WarpMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L18)
+### **WarpMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L18)
 
 ```csharp
 ref Vector WarpMax { get; }
@@ -60,7 +60,7 @@ ref Vector WarpMax { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**WarpMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L16)
+### **WarpMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_PositionWarpScalar.cs#L16)
 
 ```csharp
 ref Vector WarpMin { get; }

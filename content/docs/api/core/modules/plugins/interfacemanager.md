@@ -14,7 +14,7 @@ public class InterfaceManager : IInterfaceManager, IDisposable
 
 ## Methods
 
-**AddSharedInterface<TInterface, TImpl>(string, TImpl)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Plugins/InterfaceManager.cs#L11)
+### **AddSharedInterface<TInterface, TImpl>(string, TImpl)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Plugins/InterfaceManager.cs#L11)
 
 ```csharp
 public void AddSharedInterface<TInterface, TImpl>(string key, TImpl implInstance) where TInterface : class where TImpl : class, TInterface
@@ -30,19 +30,19 @@ public void AddSharedInterface<TInterface, TImpl>(string key, TImpl implInstance
 - **TInterface**:  - The interface to add.
 - **TImpl**:  - The implementation of the interface.
 
-**Build()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Plugins/InterfaceManager.cs#L37)
+### **Build()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Plugins/InterfaceManager.cs#L37)
 
 ```csharp
 public void Build()
 ```
 
-**Dispose()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Plugins/InterfaceManager.cs#L42)
+### **Dispose()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Plugins/InterfaceManager.cs#L42)
 
 ```csharp
 public void Dispose()
 ```
 
-**GetSharedInterface<TInterface>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Plugins/InterfaceManager.cs#L28)
+### **GetSharedInterface<TInterface>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Plugins/InterfaceManager.cs#L28)
 
 ```csharp
 public TInterface GetSharedInterface<TInterface>(string key) where TInterface : class
@@ -60,7 +60,7 @@ public TInterface GetSharedInterface<TInterface>(string key) where TInterface : 
 
 - **TInterface**:  - The interface to get.
 
-**HasSharedInterface(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Plugins/InterfaceManager.cs#L23)
+### **HasSharedInterface(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Plugins/InterfaceManager.cs#L23)
 
 ```csharp
 public bool HasSharedInterface(string key)

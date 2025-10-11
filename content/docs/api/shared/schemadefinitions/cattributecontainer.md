@@ -10,7 +10,7 @@ public interface CAttributeContainer : CAttributeManager, ISchemaClass<CAttribut
 
 ## Properties
 
-**Item** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeContainer.cs#L16)
+### **Item** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeContainer.cs#L16)
 
 ```csharp
 CEconItemView Item { get; }
@@ -22,7 +22,7 @@ CEconItemView Item { get; }
 
 ## Methods
 
-**ItemUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeContainer.cs#L18)
+### **ItemUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeContainer.cs#L18)
 
 ```csharp
 void ItemUpdated()

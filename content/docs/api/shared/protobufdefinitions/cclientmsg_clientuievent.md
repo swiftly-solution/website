@@ -10,7 +10,7 @@ public interface CClientMsg_ClientUIEvent : ITypedProtobuf<CClientMsg_ClientUIEv
 
 ## Properties
 
-**ClientEhandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_ClientUIEvent.cs#L19)
+### **ClientEhandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_ClientUIEvent.cs#L19)
 
 ```csharp
 uint ClientEhandle { get; set; }
@@ -20,7 +20,7 @@ uint ClientEhandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Data1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_ClientUIEvent.cs#L22)
+### **Data1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_ClientUIEvent.cs#L22)
 
 ```csharp
 string Data1 { get; set; }
@@ -30,7 +30,7 @@ string Data1 { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Data2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_ClientUIEvent.cs#L25)
+### **Data2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_ClientUIEvent.cs#L25)
 
 ```csharp
 string Data2 { get; set; }
@@ -40,7 +40,7 @@ string Data2 { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EntEhandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_ClientUIEvent.cs#L16)
+### **EntEhandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_ClientUIEvent.cs#L16)
 
 ```csharp
 uint EntEhandle { get; set; }
@@ -50,7 +50,7 @@ uint EntEhandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Event** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_ClientUIEvent.cs#L13)
+### **Event** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_ClientUIEvent.cs#L13)
 
 ```csharp
 EClientUIEvent Event { get; set; }

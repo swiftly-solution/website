@@ -10,7 +10,7 @@ public interface CCSUsrMsg_SendPlayerItemFound : ITypedProtobuf<CCSUsrMsg_SendPl
 
 ## Properties
 
-**Iteminfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerItemFound.cs#L18)
+### **Iteminfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerItemFound.cs#L18)
 
 ```csharp
 CEconItemPreviewDataBlock Iteminfo { get; }
@@ -20,7 +20,7 @@ CEconItemPreviewDataBlock Iteminfo { get; }
 
 - [CEconItemPreviewDataBlock](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock)
 
-**Playerslot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerItemFound.cs#L21)
+### **Playerslot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerItemFound.cs#L21)
 
 ```csharp
 int Playerslot { get; set; }

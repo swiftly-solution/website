@@ -10,7 +10,7 @@ public interface C_OP_SetControlPointRotation : CParticleFunctionPreEmission, CP
 
 ## Properties
 
-**CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L20)
+### **CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L20)
 
 ```csharp
 ref int CP { get; }
@@ -20,7 +20,7 @@ ref int CP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LocalCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L22)
+### **LocalCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L22)
 
 ```csharp
 ref int LocalCP { get; }
@@ -30,7 +30,7 @@ ref int LocalCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RotAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L16)
+### **RotAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L16)
 
 ```csharp
 CParticleCollectionVecInput RotAxis { get; }
@@ -40,7 +40,7 @@ CParticleCollectionVecInput RotAxis { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**RotRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L18)
+### **RotRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointRotation.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput RotRate { get; }

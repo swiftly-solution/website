@@ -14,13 +14,13 @@ public class SoundEvent : IDisposable
 
 ## Constructors
 
-**SoundEvent()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L56)
+### **SoundEvent()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L56)
 
 ```csharp
 public SoundEvent()
 ```
 
-**SoundEvent(string, float, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L63)
+### **SoundEvent(string, float, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L63)
 
 ```csharp
 public SoundEvent(string name, float volume = 1, float pitch = 1)
@@ -34,7 +34,7 @@ public SoundEvent(string name, float volume = 1, float pitch = 1)
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L15)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L15)
 
 ```csharp
 public string Name { get; set; }
@@ -44,7 +44,7 @@ public string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Pitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L43)
+### **Pitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L43)
 
 ```csharp
 public float Pitch { get; set; }
@@ -54,7 +54,7 @@ public float Pitch { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Recipients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L54)
+### **Recipients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L54)
 
 ```csharp
 public ref CRecipientFilter Recipients { get; }
@@ -64,7 +64,7 @@ public ref CRecipientFilter Recipients { get; }
 
 - [CRecipientFilter](/docs/api/shared/natives/crecipientfilter)
 
-**SourceEntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L25)
+### **SourceEntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L25)
 
 ```csharp
 public int SourceEntityIndex { get; set; }
@@ -74,7 +74,7 @@ public int SourceEntityIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Volume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L34)
+### **Volume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L34)
 
 ```csharp
 public float Volume { get; set; }
@@ -86,19 +86,19 @@ public float Volume { get; set; }
 
 ## Methods
 
-**Dispose()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L143)
+### **Dispose()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L143)
 
 ```csharp
 public void Dispose()
 ```
 
-**Emit()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L137)
+### **Emit()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L137)
 
 ```csharp
 public void Emit()
 ```
 
-**GetBool(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L83)
+### **GetBool(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L83)
 
 ```csharp
 public bool GetBool(string fieldName)
@@ -112,7 +112,7 @@ public bool GetBool(string fieldName)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**GetFloat(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L113)
+### **GetFloat(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L113)
 
 ```csharp
 public float GetFloat(string fieldName)
@@ -126,7 +126,7 @@ public float GetFloat(string fieldName)
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GetFloat3(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L129)
+### **GetFloat3(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L129)
 
 ```csharp
 public Vector GetFloat3(string fieldName)
@@ -140,7 +140,7 @@ public Vector GetFloat3(string fieldName)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**GetInt32(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L93)
+### **GetInt32(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L93)
 
 ```csharp
 public int GetInt32(string fieldName)
@@ -154,7 +154,7 @@ public int GetInt32(string fieldName)
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**GetUInt32(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L103)
+### **GetUInt32(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L103)
 
 ```csharp
 public uint GetUInt32(string fieldName)
@@ -168,7 +168,7 @@ public uint GetUInt32(string fieldName)
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SetBool(string, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L78)
+### **SetBool(string, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L78)
 
 ```csharp
 public void SetBool(string fieldName, bool value)
@@ -179,7 +179,7 @@ public void SetBool(string fieldName, bool value)
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SetFloat(string, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L108)
+### **SetFloat(string, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L108)
 
 ```csharp
 public void SetFloat(string fieldName, float value)
@@ -190,7 +190,7 @@ public void SetFloat(string fieldName, float value)
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SetFloat3(string, float, float, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L118)
+### **SetFloat3(string, float, float, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L118)
 
 ```csharp
 public void SetFloat3(string fieldName, float x, float y, float z)
@@ -203,7 +203,7 @@ public void SetFloat3(string fieldName, float x, float y, float z)
 - **y**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **z**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SetFloat3(string, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L124)
+### **SetFloat3(string, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L124)
 
 ```csharp
 public void SetFloat3(string fieldName, Vector vec)
@@ -214,7 +214,7 @@ public void SetFloat3(string fieldName, Vector vec)
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **vec**: [Vector](/docs/api/shared/natives/vector)
 
-**SetInt32(string, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L88)
+### **SetInt32(string, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L88)
 
 ```csharp
 public void SetInt32(string fieldName, int value)
@@ -225,7 +225,7 @@ public void SetInt32(string fieldName, int value)
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SetSourceEntity(CEntityInstance)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L73)
+### **SetSourceEntity(CEntityInstance)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L73)
 
 ```csharp
 public void SetSourceEntity(CEntityInstance entity)
@@ -235,7 +235,7 @@ public void SetSourceEntity(CEntityInstance entity)
 
 - **entity**: [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
 
-**SetUInt32(string, uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L98)
+### **SetUInt32(string, uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Sounds/SoundEvent.cs#L98)
 
 ```csharp
 public void SetUInt32(string fieldName, uint value)

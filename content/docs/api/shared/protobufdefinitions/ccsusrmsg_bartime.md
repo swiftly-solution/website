@@ -10,7 +10,7 @@ public interface CCSUsrMsg_BarTime : ITypedProtobuf<CCSUsrMsg_BarTime>, INativeH
 
 ## Properties
 
-**Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_BarTime.cs#L18)
+### **Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_BarTime.cs#L18)
 
 ```csharp
 string Time { get; set; }

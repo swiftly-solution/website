@@ -10,7 +10,7 @@ public interface FeHingeLimitBuild_t : ISchemaClass<FeHingeLimitBuild_t>, ISchem
 
 ## Properties
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimitBuild_t.cs#L18)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimitBuild_t.cs#L18)
 
 ```csharp
 ref uint Flags { get; }
@@ -20,7 +20,7 @@ ref uint Flags { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**LimitCCW** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimitBuild_t.cs#L22)
+### **LimitCCW** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimitBuild_t.cs#L22)
 
 ```csharp
 ref float LimitCCW { get; }
@@ -30,7 +30,7 @@ ref float LimitCCW { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LimitCW** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimitBuild_t.cs#L20)
+### **LimitCW** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimitBuild_t.cs#L20)
 
 ```csharp
 ref float LimitCW { get; }
@@ -40,7 +40,7 @@ ref float LimitCW { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimitBuild_t.cs#L16)
+### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeHingeLimitBuild_t.cs#L16)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }

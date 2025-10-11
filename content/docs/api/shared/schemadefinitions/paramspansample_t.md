@@ -10,7 +10,7 @@ public interface ParamSpanSample_t : ISchemaClass<ParamSpanSample_t>, ISchemaFie
 
 ## Properties
 
-**Cycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpanSample_t.cs#L19)
+### **Cycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpanSample_t.cs#L19)
 
 ```csharp
 ref float Cycle { get; }
@@ -20,7 +20,7 @@ ref float Cycle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpanSample_t.cs#L17)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpanSample_t.cs#L17)
 
 ```csharp
 SchemaUntypedField Value { get; }

@@ -10,7 +10,7 @@ public interface CMsgSosSetSoundEventParams : ITypedProtobuf<CMsgSosSetSoundEven
 
 ## Properties
 
-**PackedParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosSetSoundEventParams.cs#L21)
+### **PackedParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosSetSoundEventParams.cs#L21)
 
 ```csharp
 byte[] PackedParams { get; set; }
@@ -20,7 +20,7 @@ byte[] PackedParams { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**SoundeventGuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosSetSoundEventParams.cs#L18)
+### **SoundeventGuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosSetSoundEventParams.cs#L18)
 
 ```csharp
 int SoundeventGuid { get; set; }

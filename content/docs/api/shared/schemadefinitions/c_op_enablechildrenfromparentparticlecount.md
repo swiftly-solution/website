@@ -10,7 +10,7 @@ public interface C_OP_EnableChildrenFromParentParticleCount : CParticleFunctionP
 
 ## Properties
 
-**ChildGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L16)
+### **ChildGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L16)
 
 ```csharp
 ref int ChildGroupID { get; }
@@ -20,7 +20,7 @@ ref int ChildGroupID { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DestroyImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L26)
+### **DestroyImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L26)
 
 ```csharp
 ref bool DestroyImmediately { get; }
@@ -30,7 +30,7 @@ ref bool DestroyImmediately { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DisableChildren** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L22)
+### **DisableChildren** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L22)
 
 ```csharp
 ref bool DisableChildren { get; }
@@ -40,7 +40,7 @@ ref bool DisableChildren { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FirstChild** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L18)
+### **FirstChild** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L18)
 
 ```csharp
 ref int FirstChild { get; }
@@ -50,7 +50,7 @@ ref int FirstChild { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumChildrenToEnable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L20)
+### **NumChildrenToEnable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput NumChildrenToEnable { get; }
@@ -60,7 +60,7 @@ CParticleCollectionFloatInput NumChildrenToEnable { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**PlayEndcapOnStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L24)
+### **PlayEndcapOnStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EnableChildrenFromParentParticleCount.cs#L24)
 
 ```csharp
 ref bool PlayEndcapOnStop { get; }

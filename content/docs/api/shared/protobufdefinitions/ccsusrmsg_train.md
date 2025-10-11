@@ -10,7 +10,7 @@ public interface CCSUsrMsg_Train : ITypedProtobuf<CCSUsrMsg_Train>, INativeHandl
 
 ## Properties
 
-**Train** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Train.cs#L18)
+### **Train** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Train.cs#L18)
 
 ```csharp
 int Train { get; set; }

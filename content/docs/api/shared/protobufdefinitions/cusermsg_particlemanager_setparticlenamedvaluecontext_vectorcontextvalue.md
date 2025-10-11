@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorCon
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorContextValue.cs#L16)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorContextValue.cs#L16)
 
 ```csharp
 Vector Value { get; set; }
@@ -20,7 +20,7 @@ Vector Value { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ValueNameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorContextValue.cs#L13)
+### **ValueNameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorContextValue.cs#L13)
 
 ```csharp
 uint ValueNameHash { get; set; }

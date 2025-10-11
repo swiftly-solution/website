@@ -10,7 +10,7 @@ public interface CEnvDecal : CBaseModelEntity, CBaseEntity, CEntityInstance, ISc
 
 ## Properties
 
-**DecalMaterial** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L16)
+### **DecalMaterial** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> DecalMaterial { get; }
@@ -20,7 +20,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> DecalMaterial { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
-**Depth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L22)
+### **Depth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L22)
 
 ```csharp
 ref float Depth { get; }
@@ -30,7 +30,7 @@ ref float Depth { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DepthSortBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L32)
+### **DepthSortBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L32)
 
 ```csharp
 ref float DepthSortBias { get; }
@@ -40,7 +40,7 @@ ref float DepthSortBias { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Height** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L20)
+### **Height** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L20)
 
 ```csharp
 ref float Height { get; }
@@ -50,7 +50,7 @@ ref float Height { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ProjectOnCharacters** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L28)
+### **ProjectOnCharacters** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L28)
 
 ```csharp
 ref bool ProjectOnCharacters { get; }
@@ -60,7 +60,7 @@ ref bool ProjectOnCharacters { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ProjectOnWater** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L30)
+### **ProjectOnWater** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L30)
 
 ```csharp
 ref bool ProjectOnWater { get; }
@@ -70,7 +70,7 @@ ref bool ProjectOnWater { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ProjectOnWorld** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L26)
+### **ProjectOnWorld** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L26)
 
 ```csharp
 ref bool ProjectOnWorld { get; }
@@ -80,7 +80,7 @@ ref bool ProjectOnWorld { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RenderOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L24)
+### **RenderOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L24)
 
 ```csharp
 ref uint RenderOrder { get; }
@@ -90,7 +90,7 @@ ref uint RenderOrder { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Width** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L18)
+### **Width** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L18)
 
 ```csharp
 ref float Width { get; }
@@ -102,55 +102,55 @@ ref float Width { get; }
 
 ## Methods
 
-**DecalMaterialUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L34)
+### **DecalMaterialUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L34)
 
 ```csharp
 void DecalMaterialUpdated()
 ```
 
-**DepthSortBiasUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L42)
+### **DepthSortBiasUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L42)
 
 ```csharp
 void DepthSortBiasUpdated()
 ```
 
-**DepthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L37)
+### **DepthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L37)
 
 ```csharp
 void DepthUpdated()
 ```
 
-**HeightUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L36)
+### **HeightUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L36)
 
 ```csharp
 void HeightUpdated()
 ```
 
-**ProjectOnCharactersUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L40)
+### **ProjectOnCharactersUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L40)
 
 ```csharp
 void ProjectOnCharactersUpdated()
 ```
 
-**ProjectOnWaterUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L41)
+### **ProjectOnWaterUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L41)
 
 ```csharp
 void ProjectOnWaterUpdated()
 ```
 
-**ProjectOnWorldUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L39)
+### **ProjectOnWorldUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L39)
 
 ```csharp
 void ProjectOnWorldUpdated()
 ```
 
-**RenderOrderUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L38)
+### **RenderOrderUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L38)
 
 ```csharp
 void RenderOrderUpdated()
 ```
 
-**WidthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L35)
+### **WidthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvDecal.cs#L35)
 
 ```csharp
 void WidthUpdated()

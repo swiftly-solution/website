@@ -10,7 +10,7 @@ public interface CUserMsg_HudError : ITypedProtobuf<CUserMsg_HudError>, INativeH
 
 ## Properties
 
-**OrderId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_HudError.cs#L13)
+### **OrderId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_HudError.cs#L13)
 
 ```csharp
 int OrderId { get; set; }

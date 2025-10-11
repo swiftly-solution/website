@@ -10,7 +10,7 @@ public interface CVoiceContainerBlender : CVoiceContainerBase, ISchemaClass<CVoi
 
 ## Properties
 
-**BlendFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L20)
+### **BlendFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L20)
 
 ```csharp
 ref float BlendFactor { get; }
@@ -20,7 +20,7 @@ ref float BlendFactor { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FirstSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L16)
+### **FirstSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L16)
 
 ```csharp
 CSoundContainerReference FirstSound { get; }
@@ -30,7 +30,7 @@ CSoundContainerReference FirstSound { get; }
 
 - [CSoundContainerReference](/docs/api/shared/schemadefinitions/csoundcontainerreference)
 
-**SecondSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L18)
+### **SecondSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBlender.cs#L18)
 
 ```csharp
 CSoundContainerReference SecondSound { get; }

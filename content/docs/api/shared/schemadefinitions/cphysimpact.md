@@ -10,7 +10,7 @@ public interface CPhysImpact : CPointEntity, CBaseEntity, CEntityInstance, ISche
 
 ## Properties
 
-**Damage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysImpact.cs#L16)
+### **Damage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysImpact.cs#L16)
 
 ```csharp
 ref float Damage { get; }
@@ -20,7 +20,7 @@ ref float Damage { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DirectionEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysImpact.cs#L20)
+### **DirectionEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysImpact.cs#L20)
 
 ```csharp
 string DirectionEntityName { get; set; }
@@ -30,7 +30,7 @@ string DirectionEntityName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysImpact.cs#L18)
+### **Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysImpact.cs#L18)
 
 ```csharp
 ref float Distance { get; }

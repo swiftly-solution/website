@@ -10,7 +10,7 @@ public interface CGameScriptedMoveData : ISchemaClass<CGameScriptedMoveData>, IS
 
 ## Properties
 
-**AccumulatedRootMotion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L16)
+### **AccumulatedRootMotion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L16)
 
 ```csharp
 ref Vector AccumulatedRootMotion { get; }
@@ -20,7 +20,7 @@ ref Vector AccumulatedRootMotion { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**AccumulatedRootMotionRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L18)
+### **AccumulatedRootMotionRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L18)
 
 ```csharp
 ref QAngle AccumulatedRootMotionRotation { get; }
@@ -30,7 +30,7 @@ ref QAngle AccumulatedRootMotionRotation { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L34)
+### **Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L34)
 
 ```csharp
 ref bool Active { get; }
@@ -40,7 +40,7 @@ ref bool Active { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AngRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L28)
+### **AngRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L28)
 
 ```csharp
 ref float AngRate { get; }
@@ -50,7 +50,7 @@ ref float AngRate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Current** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L24)
+### **Current** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L24)
 
 ```csharp
 ref QAngle Current { get; }
@@ -60,7 +60,7 @@ ref QAngle Current { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**Dest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L46)
+### **Dest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L46)
 
 ```csharp
 ref Vector Dest { get; }
@@ -70,7 +70,7 @@ ref Vector Dest { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**DestEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L50)
+### **DestEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L50)
 
 ```csharp
 ref CHandle<CBaseEntity> DestEntity { get; }
@@ -80,7 +80,7 @@ ref CHandle<CBaseEntity> DestEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**Dst** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L48)
+### **Dst** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L48)
 
 ```csharp
 ref QAngle Dst { get; }
@@ -90,7 +90,7 @@ ref QAngle Dst { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L30)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L30)
 
 ```csharp
 ref float Duration { get; }
@@ -100,7 +100,7 @@ ref float Duration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ForcedCrouchState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L42)
+### **ForcedCrouchState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L42)
 
 ```csharp
 ref ForcedCrouchState_t ForcedCrouchState { get; }
@@ -110,7 +110,7 @@ ref ForcedCrouchState_t ForcedCrouchState { get; }
 
 - [ForcedCrouchState_t](/docs/api/shared/schemadefinitions/forcedcrouchstate_t)
 
-**IgnoreCollisions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L44)
+### **IgnoreCollisions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L44)
 
 ```csharp
 ref bool IgnoreCollisions { get; }
@@ -120,7 +120,7 @@ ref bool IgnoreCollisions { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IgnoreRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L38)
+### **IgnoreRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L38)
 
 ```csharp
 ref bool IgnoreRotation { get; }
@@ -130,7 +130,7 @@ ref bool IgnoreRotation { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LockedSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L26)
+### **LockedSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L26)
 
 ```csharp
 ref float LockedSpeed { get; }
@@ -140,7 +140,7 @@ ref float LockedSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Src** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L20)
+### **Src** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L20)
 
 ```csharp
 ref Vector Src { get; }
@@ -150,7 +150,7 @@ ref Vector Src { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Src1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L22)
+### **Src1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L22)
 
 ```csharp
 ref QAngle Src1 { get; }
@@ -160,7 +160,7 @@ ref QAngle Src1 { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L32)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L32)
 
 ```csharp
 GameTime_t StartTime { get; }
@@ -170,7 +170,7 @@ GameTime_t StartTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**Success** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L40)
+### **Success** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L40)
 
 ```csharp
 ref bool Success { get; }
@@ -180,7 +180,7 @@ ref bool Success { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TeleportOnEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L36)
+### **TeleportOnEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameScriptedMoveData.cs#L36)
 
 ```csharp
 ref bool TeleportOnEnd { get; }

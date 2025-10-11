@@ -10,7 +10,7 @@ public interface C_OP_RenderSimpleModelCollection : CParticleFunctionRenderer, C
 
 ## Properties
 
-**AcceptsDecals** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L28)
+### **AcceptsDecals** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L28)
 
 ```csharp
 ref bool AcceptsDecals { get; }
@@ -20,7 +20,7 @@ ref bool AcceptsDecals { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AngularVelocityField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L32)
+### **AngularVelocityField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L32)
 
 ```csharp
 ParticleAttributeIndex_t AngularVelocityField { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t AngularVelocityField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**CenterOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L16)
+### **CenterOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L16)
 
 ```csharp
 ref bool CenterOffset { get; }
@@ -40,7 +40,7 @@ ref bool CenterOffset { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DisableMotionBlur** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L26)
+### **DisableMotionBlur** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L26)
 
 ```csharp
 ref bool DisableMotionBlur { get; }
@@ -50,7 +50,7 @@ ref bool DisableMotionBlur { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DisableShadows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L24)
+### **DisableShadows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L24)
 
 ```csharp
 ref bool DisableShadows { get; }
@@ -60,7 +60,7 @@ ref bool DisableShadows { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DrawFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L30)
+### **DrawFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L30)
 
 ```csharp
 CPerParticleFloatInput DrawFilter { get; }
@@ -70,7 +70,7 @@ CPerParticleFloatInput DrawFilter { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L18)
+### **Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -80,7 +80,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
-**ModelInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L20)
+### **ModelInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L20)
 
 ```csharp
 CParticleModelInput ModelInput { get; }
@@ -90,7 +90,7 @@ CParticleModelInput ModelInput { get; }
 
 - [CParticleModelInput](/docs/api/shared/schemadefinitions/cparticlemodelinput)
 
-**SizeCullScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L22)
+### **SizeCullScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderSimpleModelCollection.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput SizeCullScale { get; }

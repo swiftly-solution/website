@@ -10,7 +10,7 @@ public interface CovMatrix3 : ISchemaClass<CovMatrix3>, ISchemaField, ISchemaCla
 
 ## Properties
 
-**Diag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CovMatrix3.cs#L16)
+### **Diag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CovMatrix3.cs#L16)
 
 ```csharp
 ref Vector Diag { get; }
@@ -20,7 +20,7 @@ ref Vector Diag { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**XY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CovMatrix3.cs#L18)
+### **XY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CovMatrix3.cs#L18)
 
 ```csharp
 ref float XY { get; }
@@ -30,7 +30,7 @@ ref float XY { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**XZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CovMatrix3.cs#L20)
+### **XZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CovMatrix3.cs#L20)
 
 ```csharp
 ref float XZ { get; }
@@ -40,7 +40,7 @@ ref float XZ { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**YZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CovMatrix3.cs#L22)
+### **YZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CovMatrix3.cs#L22)
 
 ```csharp
 ref float YZ { get; }

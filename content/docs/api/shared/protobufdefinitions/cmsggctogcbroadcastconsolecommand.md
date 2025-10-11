@@ -10,7 +10,7 @@ public interface CMsgGCToGCBroadcastConsoleCommand : ITypedProtobuf<CMsgGCToGCBr
 
 ## Properties
 
-**ConCommand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCBroadcastConsoleCommand.cs#L13)
+### **ConCommand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCBroadcastConsoleCommand.cs#L13)
 
 ```csharp
 string ConCommand { get; set; }

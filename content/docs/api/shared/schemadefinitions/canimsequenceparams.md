@@ -10,7 +10,7 @@ public interface CAnimSequenceParams : ISchemaClass<CAnimSequenceParams>, ISchem
 
 ## Properties
 
-**FadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSequenceParams.cs#L16)
+### **FadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSequenceParams.cs#L16)
 
 ```csharp
 ref float FadeInTime { get; }
@@ -20,7 +20,7 @@ ref float FadeInTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FadeOutTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSequenceParams.cs#L18)
+### **FadeOutTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSequenceParams.cs#L18)
 
 ```csharp
 ref float FadeOutTime { get; }

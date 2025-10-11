@@ -10,7 +10,7 @@ public interface C_OP_RenderAsModels : CParticleFunctionRenderer, CParticleFunct
 
 ## Properties
 
-**FitToModelSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L21)
+### **FitToModelSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L21)
 
 ```csharp
 ref bool FitToModelSize { get; }
@@ -20,7 +20,7 @@ ref bool FitToModelSize { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ModelList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L17)
+### **ModelList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L17)
 
 ```csharp
 ref CUtlVector ModelList { get; }
@@ -28,9 +28,9 @@ ref CUtlVector ModelList { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**ModelScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L19)
+### **ModelScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L19)
 
 ```csharp
 ref float ModelScale { get; }
@@ -40,7 +40,7 @@ ref float ModelScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NonUniformScaling** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L23)
+### **NonUniformScaling** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L23)
 
 ```csharp
 ref bool NonUniformScaling { get; }
@@ -50,7 +50,7 @@ ref bool NonUniformScaling { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SizeCullBloat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L31)
+### **SizeCullBloat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L31)
 
 ```csharp
 ref int SizeCullBloat { get; }
@@ -60,7 +60,7 @@ ref int SizeCullBloat { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**XAxisScalingAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L25)
+### **XAxisScalingAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L25)
 
 ```csharp
 ParticleAttributeIndex_t XAxisScalingAttribute { get; }
@@ -70,7 +70,7 @@ ParticleAttributeIndex_t XAxisScalingAttribute { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**YAxisScalingAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L27)
+### **YAxisScalingAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L27)
 
 ```csharp
 ParticleAttributeIndex_t YAxisScalingAttribute { get; }
@@ -80,7 +80,7 @@ ParticleAttributeIndex_t YAxisScalingAttribute { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**ZAxisScalingAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L29)
+### **ZAxisScalingAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderAsModels.cs#L29)
 
 ```csharp
 ParticleAttributeIndex_t ZAxisScalingAttribute { get; }

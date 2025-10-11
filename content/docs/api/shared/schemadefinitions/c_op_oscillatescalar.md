@@ -10,7 +10,7 @@ public interface C_OP_OscillateScalar : CParticleFunctionOperator, CParticleFunc
 
 ## Properties
 
-**EndTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L36)
+### **EndTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L36)
 
 ```csharp
 ref float EndTime_max { get; }
@@ -20,7 +20,7 @@ ref float EndTime_max { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L34)
+### **EndTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L34)
 
 ```csharp
 ref float EndTime_min { get; }
@@ -30,7 +30,7 @@ ref float EndTime_min { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L24)
+### **Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L24)
 
 ```csharp
 ParticleAttributeIndex_t Field { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t Field { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FrequencyMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L22)
+### **FrequencyMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L22)
 
 ```csharp
 ref float FrequencyMax { get; }
@@ -50,7 +50,7 @@ ref float FrequencyMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FrequencyMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L20)
+### **FrequencyMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L20)
 
 ```csharp
 ref float FrequencyMin { get; }
@@ -60,7 +60,7 @@ ref float FrequencyMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OscAdd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L40)
+### **OscAdd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L40)
 
 ```csharp
 ref float OscAdd { get; }
@@ -70,7 +70,7 @@ ref float OscAdd { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OscMult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L38)
+### **OscMult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L38)
 
 ```csharp
 ref float OscMult { get; }
@@ -80,7 +80,7 @@ ref float OscMult { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Proportional** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L26)
+### **Proportional** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L26)
 
 ```csharp
 ref bool Proportional { get; }
@@ -90,7 +90,7 @@ ref bool Proportional { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ProportionalOp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L28)
+### **ProportionalOp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L28)
 
 ```csharp
 ref bool ProportionalOp { get; }
@@ -100,7 +100,7 @@ ref bool ProportionalOp { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RateMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L18)
+### **RateMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L18)
 
 ```csharp
 ref float RateMax { get; }
@@ -110,7 +110,7 @@ ref float RateMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RateMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L16)
+### **RateMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L16)
 
 ```csharp
 ref float RateMin { get; }
@@ -120,7 +120,7 @@ ref float RateMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L32)
+### **StartTime_max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L32)
 
 ```csharp
 ref float StartTime_max { get; }
@@ -130,7 +130,7 @@ ref float StartTime_max { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L30)
+### **StartTime_min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_OscillateScalar.cs#L30)
 
 ```csharp
 ref float StartTime_min { get; }

@@ -10,7 +10,7 @@ public interface CCSUsrMsg_StopSpectatorMode : ITypedProtobuf<CCSUsrMsg_StopSpec
 
 ## Properties
 
-**Dummy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_StopSpectatorMode.cs#L18)
+### **Dummy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_StopSpectatorMode.cs#L18)
 
 ```csharp
 int Dummy { get; set; }

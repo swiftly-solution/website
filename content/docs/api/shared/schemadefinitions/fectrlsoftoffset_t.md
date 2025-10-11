@@ -10,7 +10,7 @@ public interface FeCtrlSoftOffset_t : ISchemaClass<FeCtrlSoftOffset_t>, ISchemaF
 
 ## Properties
 
-**Alpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlSoftOffset_t.cs#L22)
+### **Alpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlSoftOffset_t.cs#L22)
 
 ```csharp
 ref float Alpha { get; }
@@ -20,7 +20,7 @@ ref float Alpha { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CtrlChild** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlSoftOffset_t.cs#L18)
+### **CtrlChild** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlSoftOffset_t.cs#L18)
 
 ```csharp
 ref ushort CtrlChild { get; }
@@ -30,7 +30,7 @@ ref ushort CtrlChild { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**CtrlParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlSoftOffset_t.cs#L16)
+### **CtrlParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlSoftOffset_t.cs#L16)
 
 ```csharp
 ref ushort CtrlParent { get; }
@@ -40,7 +40,7 @@ ref ushort CtrlParent { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlSoftOffset_t.cs#L20)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlSoftOffset_t.cs#L20)
 
 ```csharp
 ref Vector Offset { get; }

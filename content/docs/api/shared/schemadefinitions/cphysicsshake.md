@@ -10,7 +10,7 @@ public interface CPhysicsShake : ISchemaClass<CPhysicsShake>, ISchemaField, ISch
 
 ## Properties
 
-**Force** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsShake.cs#L16)
+### **Force** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsShake.cs#L16)
 
 ```csharp
 ref Vector Force { get; }

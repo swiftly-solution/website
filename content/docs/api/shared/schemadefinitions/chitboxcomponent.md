@@ -10,7 +10,7 @@ public interface CHitboxComponent : CEntityComponent, ISchemaClass<CEntityCompon
 
 ## Properties
 
-**BoundsExpandRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitboxComponent.cs#L16)
+### **BoundsExpandRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHitboxComponent.cs#L16)
 
 ```csharp
 ref float BoundsExpandRadius { get; }

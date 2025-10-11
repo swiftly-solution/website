@@ -10,7 +10,7 @@ public interface CAudioPhonemeTag : ISchemaClass<CAudioPhonemeTag>, ISchemaField
 
 ## Properties
 
-**EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioPhonemeTag.cs#L18)
+### **EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioPhonemeTag.cs#L18)
 
 ```csharp
 ref float EndTime { get; }
@@ -20,7 +20,7 @@ ref float EndTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PhonemeCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioPhonemeTag.cs#L20)
+### **PhonemeCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioPhonemeTag.cs#L20)
 
 ```csharp
 ref int PhonemeCode { get; }
@@ -30,7 +30,7 @@ ref int PhonemeCode { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioPhonemeTag.cs#L16)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioPhonemeTag.cs#L16)
 
 ```csharp
 ref float StartTime { get; }

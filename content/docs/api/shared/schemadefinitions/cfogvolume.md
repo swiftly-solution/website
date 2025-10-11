@@ -10,7 +10,7 @@ public interface CFogVolume : CServerOnlyModelEntity, CBaseModelEntity, CBaseEnt
 
 ## Properties
 
-**ColorCorrectionName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L20)
+### **ColorCorrectionName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L20)
 
 ```csharp
 string ColorCorrectionName { get; set; }
@@ -20,7 +20,7 @@ string ColorCorrectionName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L22)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L22)
 
 ```csharp
 ref bool Disabled { get; }
@@ -30,7 +30,7 @@ ref bool Disabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FogName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L16)
+### **FogName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L16)
 
 ```csharp
 string FogName { get; set; }
@@ -40,7 +40,7 @@ string FogName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**InFogVolumesList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L24)
+### **InFogVolumesList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L24)
 
 ```csharp
 ref bool InFogVolumesList { get; }
@@ -50,7 +50,7 @@ ref bool InFogVolumesList { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PostProcessName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L18)
+### **PostProcessName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFogVolume.cs#L18)
 
 ```csharp
 string PostProcessName { get; set; }
