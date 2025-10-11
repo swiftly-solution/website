@@ -10,7 +10,7 @@ public interface CMsgGCMultiplexMessage_Response : ITypedProtobuf<CMsgGCMultiple
 
 ## Properties
 
-**Msgtype** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCMultiplexMessage_Response.cs#L13)
+### **Msgtype** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCMultiplexMessage_Response.cs#L13)
 
 ```csharp
 uint Msgtype { get; set; }

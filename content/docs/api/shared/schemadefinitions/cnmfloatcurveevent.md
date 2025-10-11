@@ -10,7 +10,7 @@ public interface CNmFloatCurveEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaC
 
 ## Properties
 
-**Curve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEvent.cs#L19)
+### **Curve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEvent.cs#L19)
 
 ```csharp
 SchemaUntypedField Curve { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Curve { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEvent.cs#L16)
+### **ID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEvent.cs#L16)
 
 ```csharp
 ref CGlobalSymbol ID { get; }

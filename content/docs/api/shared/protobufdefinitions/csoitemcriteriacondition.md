@@ -10,7 +10,7 @@ public interface CSOItemCriteriaCondition : ITypedProtobuf<CSOItemCriteriaCondit
 
 ## Properties
 
-**Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemCriteriaCondition.cs#L16)
+### **Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemCriteriaCondition.cs#L16)
 
 ```csharp
 string Field { get; set; }
@@ -20,7 +20,7 @@ string Field { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**FloatValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemCriteriaCondition.cs#L22)
+### **FloatValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemCriteriaCondition.cs#L22)
 
 ```csharp
 float FloatValue { get; set; }
@@ -30,7 +30,7 @@ float FloatValue { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Op** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemCriteriaCondition.cs#L13)
+### **Op** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemCriteriaCondition.cs#L13)
 
 ```csharp
 int Op { get; set; }
@@ -40,7 +40,7 @@ int Op { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Required** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemCriteriaCondition.cs#L19)
+### **Required** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemCriteriaCondition.cs#L19)
 
 ```csharp
 bool Required { get; set; }
@@ -50,7 +50,7 @@ bool Required { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StringValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemCriteriaCondition.cs#L25)
+### **StringValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOItemCriteriaCondition.cs#L25)
 
 ```csharp
 string StringValue { get; set; }

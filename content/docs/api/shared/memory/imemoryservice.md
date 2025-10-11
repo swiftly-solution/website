@@ -8,7 +8,7 @@ public interface IMemoryService
 
 ## Methods
 
-**GetAddressBySignature(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L38)
+### **GetAddressBySignature(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L44)
 
 ```csharp
 nint? GetAddressBySignature(string library, string signature)
@@ -23,7 +23,7 @@ nint? GetAddressBySignature(string library, string signature)
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)? - The address of the function. Return null if not found.
 
-**GetInterfaceByName(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L30)
+### **GetInterfaceByName(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L36)
 
 ```csharp
 nint? GetInterfaceByName(string name)
@@ -37,7 +37,7 @@ nint? GetInterfaceByName(string name)
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)? - The address of the interface. Return null if not found.
 
-**GetUnmanagedFunctionByAddress<TDelegate>(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L13)
+### **GetUnmanagedFunctionByAddress<TDelegate>(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L14)
 
 ```csharp
 IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByAddress<TDelegate>(nint address) where TDelegate : Delegate
@@ -55,7 +55,7 @@ IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByAddress<TDelegate>(nint addr
 
 - **TDelegate**:  - The delegate type of the unmanaged function.
 
-**GetUnmanagedFunctionByVTable<TDelegate>(nint, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L22)
+### **GetUnmanagedFunctionByVTable<TDelegate>(nint, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L23)
 
 ```csharp
 IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByVTable<TDelegate>(nint pVTable, int index) where TDelegate : Delegate
@@ -74,7 +74,21 @@ IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByVTable<TDelegate>(nint pVTab
 
 - **TDelegate**: 
 
-**GetVTableAddress(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L46)
+### **GetUnmanagedMemoryByAddress(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L29)
+
+```csharp
+IUnmanagedMemory GetUnmanagedMemoryByAddress(nint address)
+```
+
+#### Parameters
+
+- **address**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address from which to create the Unmanaged Memory wrapper.
+
+#### Returns
+
+- [IUnmanagedMemory](/docs/api/shared/memory/iunmanagedmemory)
+
+### **GetVTableAddress(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L52)
 
 ```csharp
 nint? GetVTableAddress(string library, string vtableName)
@@ -89,7 +103,7 @@ nint? GetVTableAddress(string library, string vtableName)
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)? - The address of the vtable. Return null if not found.
 
-**ResolveXrefAddress(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L53)
+### **ResolveXrefAddress(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L59)
 
 ```csharp
 nint ResolveXrefAddress(nint xrefAddress)
@@ -103,7 +117,7 @@ nint ResolveXrefAddress(nint xrefAddress)
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The resolved address.
 
-**ToSchemaClass<T>(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L62)
+### **ToSchemaClass<T>(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L68)
 
 ```csharp
 T ToSchemaClass<T>(nint address) where T : class, ISchemaClass<T>

@@ -10,7 +10,7 @@ public interface CWorkshop_PopulateItemDescriptions_Request_SingleItemDescriptio
 
 ## Properties
 
-**Gameitemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L13)
+### **Gameitemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L13)
 
 ```csharp
 uint Gameitemid { get; set; }
@@ -20,7 +20,7 @@ uint Gameitemid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemDescription** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L16)
+### **ItemDescription** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L16)
 
 ```csharp
 string ItemDescription { get; set; }
@@ -30,7 +30,7 @@ string ItemDescription { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OnePerAccount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L19)
+### **OnePerAccount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L19)
 
 ```csharp
 bool OnePerAccount { get; set; }

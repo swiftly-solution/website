@@ -10,7 +10,7 @@ public interface CActionComponentUpdater : CAnimComponentUpdater, ISchemaClass<C
 
 ## Properties
 
-**Actions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CActionComponentUpdater.cs#L17)
+### **Actions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CActionComponentUpdater.cs#L17)
 
 ```csharp
 ref CUtlVector Actions { get; }
@@ -18,5 +18,5 @@ ref CUtlVector Actions { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

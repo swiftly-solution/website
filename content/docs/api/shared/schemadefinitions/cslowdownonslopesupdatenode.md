@@ -10,7 +10,7 @@ public interface CSlowDownOnSlopesUpdateNode : CUnaryUpdateNode, CAnimUpdateNode
 
 ## Properties
 
-**SlowDownStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlowDownOnSlopesUpdateNode.cs#L16)
+### **SlowDownStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSlowDownOnSlopesUpdateNode.cs#L16)
 
 ```csharp
 ref float SlowDownStrength { get; }

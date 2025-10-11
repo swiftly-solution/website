@@ -33,8 +33,6 @@ title: Natives
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 - [CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)
-- [CUtlVector<T>](/docs/api/shared/natives/cutlvector-1)
-- [CUtlVector](/docs/api/shared/natives/cutlvector) - Unsafe untyped cutlvector.
 - [CapsuleTrace](/docs/api/shared/natives/capsuletrace)
 - [ChangeAccessorFieldPathIndex_t](/docs/api/shared/natives/changeaccessorfieldpathindex_t)
 - [Color](/docs/api/shared/natives/color)
@@ -69,6 +67,7 @@ and handled within the core.
 - [INativeHandle](/docs/api/shared/natives/inativehandle) - Native handle from swiftly c++ native side, either allocated or borrowed from game.
 - [ISizedNativeHandle](/docs/api/shared/natives/isizednativehandle)
 
+- [BufferMarkers](/docs/api/shared/natives/buffermarkers)
 - [CollisionFunctionMask_t](/docs/api/shared/natives/collisionfunctionmask_t)
 - [CollisionGroup](/docs/api/shared/natives/collisiongroup)
 - [InteractionLayer](/docs/api/shared/natives/interactionlayer)

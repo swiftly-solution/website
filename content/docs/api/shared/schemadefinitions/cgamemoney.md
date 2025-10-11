@@ -10,7 +10,7 @@ public interface CGameMoney : CRulePointEntity, CRuleEntity, CBaseModelEntity, C
 
 ## Properties
 
-**Money** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameMoney.cs#L20)
+### **Money** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameMoney.cs#L20)
 
 ```csharp
 ref int Money { get; }
@@ -20,7 +20,7 @@ ref int Money { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OnMoneySpent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameMoney.cs#L16)
+### **OnMoneySpent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameMoney.cs#L16)
 
 ```csharp
 CEntityIOOutput OnMoneySpent { get; }
@@ -30,7 +30,7 @@ CEntityIOOutput OnMoneySpent { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnMoneySpentFail** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameMoney.cs#L18)
+### **OnMoneySpentFail** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameMoney.cs#L18)
 
 ```csharp
 CEntityIOOutput OnMoneySpentFail { get; }
@@ -40,7 +40,7 @@ CEntityIOOutput OnMoneySpentFail { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**StrAwardText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameMoney.cs#L22)
+### **StrAwardText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameMoney.cs#L22)
 
 ```csharp
 string StrAwardText { get; set; }

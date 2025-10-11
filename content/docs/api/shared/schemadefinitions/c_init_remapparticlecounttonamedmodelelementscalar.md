@@ -10,7 +10,7 @@ public interface C_INIT_RemapParticleCountToNamedModelElementScalar : C_INIT_Rem
 
 ## Properties
 
-**Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L16)
+### **Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -20,7 +20,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
-**ModelFromRenderer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L22)
+### **ModelFromRenderer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L22)
 
 ```csharp
 ref bool ModelFromRenderer { get; }
@@ -30,7 +30,7 @@ ref bool ModelFromRenderer { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OutputMaxName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L20)
+### **OutputMaxName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L20)
 
 ```csharp
 string OutputMaxName { get; set; }
@@ -40,7 +40,7 @@ string OutputMaxName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OutputMinName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L18)
+### **OutputMinName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapParticleCountToNamedModelElementScalar.cs#L18)
 
 ```csharp
 string OutputMinName { get; set; }

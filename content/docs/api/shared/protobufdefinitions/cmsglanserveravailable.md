@@ -10,7 +10,7 @@ public interface CMsgLANServerAvailable : ITypedProtobuf<CMsgLANServerAvailable>
 
 ## Properties
 
-**LobbyId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLANServerAvailable.cs#L13)
+### **LobbyId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLANServerAvailable.cs#L13)
 
 ```csharp
 ulong LobbyId { get; set; }

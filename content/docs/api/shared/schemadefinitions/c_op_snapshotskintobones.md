@@ -10,7 +10,7 @@ public interface C_OP_SnapshotSkinToBones : CParticleFunctionOperator, CParticle
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L20)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L20)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**JumpThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L26)
+### **JumpThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L26)
 
 ```csharp
 ref float JumpThreshold { get; }
@@ -30,7 +30,7 @@ ref float JumpThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LifeTimeFadeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L24)
+### **LifeTimeFadeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L24)
 
 ```csharp
 ref float LifeTimeFadeEnd { get; }
@@ -40,7 +40,7 @@ ref float LifeTimeFadeEnd { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LifeTimeFadeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L22)
+### **LifeTimeFadeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L22)
 
 ```csharp
 ref float LifeTimeFadeStart { get; }
@@ -50,7 +50,7 @@ ref float LifeTimeFadeStart { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PrevPosScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L28)
+### **PrevPosScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L28)
 
 ```csharp
 ref float PrevPosScale { get; }
@@ -60,7 +60,7 @@ ref float PrevPosScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TransformNormals** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L16)
+### **TransformNormals** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L16)
 
 ```csharp
 ref bool TransformNormals { get; }
@@ -70,7 +70,7 @@ ref bool TransformNormals { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TransformRadii** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L18)
+### **TransformRadii** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SnapshotSkinToBones.cs#L18)
 
 ```csharp
 ref bool TransformRadii { get; }

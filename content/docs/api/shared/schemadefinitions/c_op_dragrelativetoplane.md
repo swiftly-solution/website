@@ -10,7 +10,7 @@ public interface C_OP_DragRelativeToPlane : CParticleFunctionOperator, CParticle
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DragRelativeToPlane.cs#L24)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DragRelativeToPlane.cs#L24)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Directional** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DragRelativeToPlane.cs#L20)
+### **Directional** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DragRelativeToPlane.cs#L20)
 
 ```csharp
 ref bool Directional { get; }
@@ -30,7 +30,7 @@ ref bool Directional { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DragAtPlane** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DragRelativeToPlane.cs#L16)
+### **DragAtPlane** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DragRelativeToPlane.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput DragAtPlane { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput DragAtPlane { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**Falloff** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DragRelativeToPlane.cs#L18)
+### **Falloff** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DragRelativeToPlane.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput Falloff { get; }
@@ -50,7 +50,7 @@ CParticleCollectionFloatInput Falloff { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**PlaneNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DragRelativeToPlane.cs#L22)
+### **PlaneNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_DragRelativeToPlane.cs#L22)
 
 ```csharp
 CParticleCollectionVecInput PlaneNormal { get; }

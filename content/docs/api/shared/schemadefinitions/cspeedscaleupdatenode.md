@@ -10,7 +10,7 @@ public interface CSpeedScaleUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 
 ## Properties
 
-**ParamIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpeedScaleUpdateNode.cs#L16)
+### **ParamIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSpeedScaleUpdateNode.cs#L16)
 
 ```csharp
 CAnimParamHandle ParamIndex { get; }

@@ -10,7 +10,7 @@ public interface CGCToGCMsgRouted : ITypedProtobuf<CGCToGCMsgRouted>, INativeHan
 
 ## Properties
 
-**Ip** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRouted.cs#L22)
+### **Ip** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRouted.cs#L22)
 
 ```csharp
 uint Ip { get; set; }
@@ -20,7 +20,7 @@ uint Ip { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**MsgType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRouted.cs#L13)
+### **MsgType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRouted.cs#L13)
 
 ```csharp
 uint MsgType { get; set; }
@@ -30,7 +30,7 @@ uint MsgType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**NetMessage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRouted.cs#L19)
+### **NetMessage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRouted.cs#L19)
 
 ```csharp
 byte[] NetMessage { get; set; }
@@ -40,7 +40,7 @@ byte[] NetMessage { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**SenderId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRouted.cs#L16)
+### **SenderId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGCToGCMsgRouted.cs#L16)
 
 ```csharp
 ulong SenderId { get; set; }

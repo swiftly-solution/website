@@ -10,7 +10,7 @@ public interface CModelConfigElement_RandomPick : CModelConfigElement, ISchemaCl
 
 ## Properties
 
-**ChoiceWeights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_RandomPick.cs#L18)
+### **ChoiceWeights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_RandomPick.cs#L18)
 
 ```csharp
 ref CUtlVector<float> ChoiceWeights { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<float> ChoiceWeights { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
+- [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**Choices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_RandomPick.cs#L16)
+### **Choices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_RandomPick.cs#L16)
 
 ```csharp
 ref CUtlVector<CUtlString> Choices { get; }
@@ -28,5 +28,5 @@ ref CUtlVector<CUtlString> Choices { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 

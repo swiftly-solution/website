@@ -10,7 +10,7 @@ public interface CRulePointEntity : CRuleEntity, CBaseModelEntity, CBaseEntity, 
 
 ## Properties
 
-**Score** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRulePointEntity.cs#L16)
+### **Score** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRulePointEntity.cs#L16)
 
 ```csharp
 ref int Score { get; }

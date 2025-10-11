@@ -10,7 +10,7 @@ public interface CPointChildModifier : CPointEntity, CBaseEntity, CEntityInstanc
 
 ## Properties
 
-**OrphanInsteadOfDeletingChildrenOnRemove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointChildModifier.cs#L16)
+### **OrphanInsteadOfDeletingChildrenOnRemove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointChildModifier.cs#L16)
 
 ```csharp
 ref bool OrphanInsteadOfDeletingChildrenOnRemove { get; }

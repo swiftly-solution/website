@@ -10,7 +10,7 @@ public interface CTriggerRemove : CBaseTrigger, CBaseToggle, CBaseModelEntity, C
 
 ## Properties
 
-**OnRemove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerRemove.cs#L16)
+### **OnRemove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerRemove.cs#L16)
 
 ```csharp
 CEntityIOOutput OnRemove { get; }

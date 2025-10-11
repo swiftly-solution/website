@@ -10,7 +10,7 @@ public interface FeVertexMapBuild_t : ISchemaClass<FeVertexMapBuild_t>, ISchemaF
 
 ## Properties
 
-**Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L20)
+### **Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L20)
 
 ```csharp
 ref Color Color { get; }
@@ -20,7 +20,7 @@ ref Color Color { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**NameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L18)
+### **NameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L18)
 
 ```csharp
 ref uint NameHash { get; }
@@ -30,7 +30,7 @@ ref uint NameHash { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ScaleSourceNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L24)
+### **ScaleSourceNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L24)
 
 ```csharp
 ref int ScaleSourceNode { get; }
@@ -40,7 +40,7 @@ ref int ScaleSourceNode { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VertexMapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L16)
+### **VertexMapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L16)
 
 ```csharp
 string VertexMapName { get; set; }
@@ -50,7 +50,7 @@ string VertexMapName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**VolumetricSolveStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L22)
+### **VolumetricSolveStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L22)
 
 ```csharp
 ref float VolumetricSolveStrength { get; }
@@ -60,7 +60,7 @@ ref float VolumetricSolveStrength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Weights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L26)
+### **Weights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeVertexMapBuild_t.cs#L26)
 
 ```csharp
 ref CUtlVector<float> Weights { get; }
@@ -68,5 +68,5 @@ ref CUtlVector<float> Weights { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
+- [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

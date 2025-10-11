@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_ClientDeepStats_DeepStatsRange : ITypedProtobuf
 
 ## Properties
 
-**Begin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats_DeepStatsRange.cs#L13)
+### **Begin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats_DeepStatsRange.cs#L13)
 
 ```csharp
 uint Begin { get; set; }
@@ -20,7 +20,7 @@ uint Begin { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats_DeepStatsRange.cs#L16)
+### **End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats_DeepStatsRange.cs#L16)
 
 ```csharp
 uint End { get; set; }
@@ -30,7 +30,7 @@ uint End { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Frozen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats_DeepStatsRange.cs#L19)
+### **Frozen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats_DeepStatsRange.cs#L19)
 
 ```csharp
 bool Frozen { get; set; }

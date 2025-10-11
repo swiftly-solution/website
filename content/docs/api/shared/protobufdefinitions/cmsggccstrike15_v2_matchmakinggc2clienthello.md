@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientHello : ITypedProtobuf<C
 
 ## Properties
 
-**AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L13)
+### **AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L13)
 
 ```csharp
 uint AccountId { get; set; }
@@ -20,7 +20,7 @@ uint AccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Activity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L55)
+### **Activity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L55)
 
 ```csharp
 AccountActivity Activity { get; }
@@ -30,7 +30,7 @@ AccountActivity Activity { get; }
 
 - [AccountActivity](/docs/api/shared/protobufdefinitions/accountactivity)
 
-**Commendation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L34)
+### **Commendation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L34)
 
 ```csharp
 PlayerCommendationInfo Commendation { get; }
@@ -40,7 +40,7 @@ PlayerCommendationInfo Commendation { get; }
 
 - [PlayerCommendationInfo](/docs/api/shared/protobufdefinitions/playercommendationinfo)
 
-**GlobalStats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L19)
+### **GlobalStats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L19)
 
 ```csharp
 GlobalStatistics GlobalStats { get; }
@@ -50,7 +50,7 @@ GlobalStatistics GlobalStats { get; }
 
 - [GlobalStatistics](/docs/api/shared/protobufdefinitions/globalstatistics)
 
-**Medals** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L37)
+### **Medals** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L37)
 
 ```csharp
 PlayerMedalsInfo Medals { get; }
@@ -60,7 +60,7 @@ PlayerMedalsInfo Medals { get; }
 
 - [PlayerMedalsInfo](/docs/api/shared/protobufdefinitions/playermedalsinfo)
 
-**MyCurrentEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L40)
+### **MyCurrentEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L40)
 
 ```csharp
 TournamentEvent MyCurrentEvent { get; }
@@ -70,7 +70,7 @@ TournamentEvent MyCurrentEvent { get; }
 
 - [TournamentEvent](/docs/api/shared/protobufdefinitions/tournamentevent)
 
-**MyCurrentEventStages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L49)
+### **MyCurrentEventStages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L49)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<TournamentEvent> MyCurrentEventStages { get; }
@@ -80,7 +80,7 @@ IProtobufRepeatedFieldSubMessageType<TournamentEvent> MyCurrentEventStages { get
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[TournamentEvent](/docs/api/shared/protobufdefinitions/tournamentevent)>
 
-**MyCurrentEventTeams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L43)
+### **MyCurrentEventTeams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L43)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<TournamentTeam> MyCurrentEventTeams { get; }
@@ -90,7 +90,7 @@ IProtobufRepeatedFieldSubMessageType<TournamentTeam> MyCurrentEventTeams { get; 
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[TournamentTeam](/docs/api/shared/protobufdefinitions/tournamentteam)>
 
-**MyCurrentTeam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L46)
+### **MyCurrentTeam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L46)
 
 ```csharp
 TournamentTeam MyCurrentTeam { get; }
@@ -100,7 +100,7 @@ TournamentTeam MyCurrentTeam { get; }
 
 - [TournamentTeam](/docs/api/shared/protobufdefinitions/tournamentteam)
 
-**Ongoingmatch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L16)
+### **Ongoingmatch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L16)
 
 ```csharp
 CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve Ongoingmatch { get; }
@@ -110,7 +110,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve Ongoingmatch { get; }
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2clientreserve)
 
-**Owcaseid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L70)
+### **Owcaseid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L70)
 
 ```csharp
 ulong Owcaseid { get; set; }
@@ -120,7 +120,7 @@ ulong Owcaseid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**PenaltyReason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L25)
+### **PenaltyReason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L25)
 
 ```csharp
 uint PenaltyReason { get; set; }
@@ -130,7 +130,7 @@ uint PenaltyReason { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PenaltySeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L22)
+### **PenaltySeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L22)
 
 ```csharp
 uint PenaltySeconds { get; set; }
@@ -140,7 +140,7 @@ uint PenaltySeconds { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PlayerCurXp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L61)
+### **PlayerCurXp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L61)
 
 ```csharp
 int PlayerCurXp { get; set; }
@@ -150,7 +150,7 @@ int PlayerCurXp { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PlayerLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L58)
+### **PlayerLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L58)
 
 ```csharp
 int PlayerLevel { get; set; }
@@ -160,7 +160,7 @@ int PlayerLevel { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PlayerXpBonusFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L64)
+### **PlayerXpBonusFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L64)
 
 ```csharp
 int PlayerXpBonusFlags { get; set; }
@@ -170,7 +170,7 @@ int PlayerXpBonusFlags { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Ranking** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L31)
+### **Ranking** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L31)
 
 ```csharp
 PlayerRankingInfo Ranking { get; }
@@ -180,7 +180,7 @@ PlayerRankingInfo Ranking { get; }
 
 - [PlayerRankingInfo](/docs/api/shared/protobufdefinitions/playerrankinginfo)
 
-**Rankings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L67)
+### **Rankings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L67)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<PlayerRankingInfo> Rankings { get; }
@@ -190,7 +190,7 @@ IProtobufRepeatedFieldSubMessageType<PlayerRankingInfo> Rankings { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[PlayerRankingInfo](/docs/api/shared/protobufdefinitions/playerrankinginfo)>
 
-**SurveyVote** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L52)
+### **SurveyVote** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L52)
 
 ```csharp
 uint SurveyVote { get; set; }
@@ -200,7 +200,7 @@ uint SurveyVote { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**VacBanned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L28)
+### **VacBanned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientHello.cs#L28)
 
 ```csharp
 int VacBanned { get; set; }

@@ -10,7 +10,7 @@ public interface CPulseCell_Inflow_ObservableVariableListener : CPulseCell_Inflo
 
 ## Properties
 
-**BlackboardReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_ObservableVariableListener.cs#L16)
+### **BlackboardReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_ObservableVariableListener.cs#L16)
 
 ```csharp
 PulseRuntimeBlackboardReferenceIndex_t BlackboardReference { get; }
@@ -20,7 +20,7 @@ PulseRuntimeBlackboardReferenceIndex_t BlackboardReference { get; }
 
 - [PulseRuntimeBlackboardReferenceIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeblackboardreferenceindex_t)
 
-**SelfReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_ObservableVariableListener.cs#L18)
+### **SelfReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_ObservableVariableListener.cs#L18)
 
 ```csharp
 ref bool SelfReference { get; }

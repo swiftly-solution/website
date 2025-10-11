@@ -10,7 +10,7 @@ public interface CSAdditionalMatchStats_t : CSAdditionalPerRoundStats_t, ISchema
 
 ## Properties
 
-**MaxNumRoundsSurvived** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L18)
+### **MaxNumRoundsSurvived** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L18)
 
 ```csharp
 ref int MaxNumRoundsSurvived { get; }
@@ -20,7 +20,7 @@ ref int MaxNumRoundsSurvived { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumClutchKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L28)
+### **NumClutchKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L28)
 
 ```csharp
 ref int NumClutchKills { get; }
@@ -30,7 +30,7 @@ ref int NumClutchKills { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumFirstKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L26)
+### **NumFirstKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L26)
 
 ```csharp
 ref int NumFirstKills { get; }
@@ -40,7 +40,7 @@ ref int NumFirstKills { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumPistolKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L30)
+### **NumPistolKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L30)
 
 ```csharp
 ref int NumPistolKills { get; }
@@ -50,7 +50,7 @@ ref int NumPistolKills { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumRoundsSurvived** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L16)
+### **NumRoundsSurvived** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L16)
 
 ```csharp
 ref int NumRoundsSurvived { get; }
@@ -60,7 +60,7 @@ ref int NumRoundsSurvived { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumRoundsSurvivedTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L20)
+### **NumRoundsSurvivedTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L20)
 
 ```csharp
 ref int NumRoundsSurvivedTotal { get; }
@@ -70,7 +70,7 @@ ref int NumRoundsSurvivedTotal { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumSniperKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L32)
+### **NumSniperKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L32)
 
 ```csharp
 ref int NumSniperKills { get; }
@@ -80,7 +80,7 @@ ref int NumSniperKills { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumSuicides** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L34)
+### **NumSuicides** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L34)
 
 ```csharp
 ref int NumSuicides { get; }
@@ -90,7 +90,7 @@ ref int NumSuicides { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumTeamKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L36)
+### **NumTeamKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L36)
 
 ```csharp
 ref int NumTeamKills { get; }
@@ -100,7 +100,7 @@ ref int NumTeamKills { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RoundsWonWithoutPurchase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L22)
+### **RoundsWonWithoutPurchase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L22)
 
 ```csharp
 ref int RoundsWonWithoutPurchase { get; }
@@ -110,7 +110,7 @@ ref int RoundsWonWithoutPurchase { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RoundsWonWithoutPurchaseTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L24)
+### **RoundsWonWithoutPurchaseTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L24)
 
 ```csharp
 ref int RoundsWonWithoutPurchaseTotal { get; }
@@ -120,7 +120,7 @@ ref int RoundsWonWithoutPurchaseTotal { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TeamDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L38)
+### **TeamDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSAdditionalMatchStats_t.cs#L38)
 
 ```csharp
 ref float TeamDamage { get; }

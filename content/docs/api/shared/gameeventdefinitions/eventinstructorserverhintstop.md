@@ -10,7 +10,7 @@ public interface EventInstructorServerHintStop : IGameEvent<EventInstructorServe
 
 ## Properties
 
-**HintEntindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintStop.cs#L31)
+### **HintEntindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintStop.cs#L31)
 
 ```csharp
 int HintEntindex { get; set; }
@@ -20,7 +20,7 @@ int HintEntindex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HintName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintStop.cs#L24)
+### **HintName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInstructorServerHintStop.cs#L24)
 
 ```csharp
 string HintName { get; set; }

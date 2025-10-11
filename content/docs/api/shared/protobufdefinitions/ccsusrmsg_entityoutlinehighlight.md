@@ -10,7 +10,7 @@ public interface CCSUsrMsg_EntityOutlineHighlight : ITypedProtobuf<CCSUsrMsg_Ent
 
 ## Properties
 
-**Entidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EntityOutlineHighlight.cs#L18)
+### **Entidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EntityOutlineHighlight.cs#L18)
 
 ```csharp
 int Entidx { get; set; }
@@ -20,7 +20,7 @@ int Entidx { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Removehighlight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EntityOutlineHighlight.cs#L21)
+### **Removehighlight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EntityOutlineHighlight.cs#L21)
 
 ```csharp
 bool Removehighlight { get; set; }

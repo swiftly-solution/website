@@ -10,7 +10,7 @@ public interface CEconItemAttribute : ISchemaClass<CEconItemAttribute>, ISchemaF
 
 ## Properties
 
-**AttributeDefinitionIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L16)
+### **AttributeDefinitionIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L16)
 
 ```csharp
 ref ushort AttributeDefinitionIndex { get; }
@@ -20,7 +20,7 @@ ref ushort AttributeDefinitionIndex { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**InitialValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L20)
+### **InitialValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L20)
 
 ```csharp
 ref float InitialValue { get; }
@@ -30,7 +30,7 @@ ref float InitialValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RefundableCurrency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L22)
+### **RefundableCurrency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L22)
 
 ```csharp
 ref int RefundableCurrency { get; }
@@ -40,7 +40,7 @@ ref int RefundableCurrency { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SetBonus** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L24)
+### **SetBonus** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L24)
 
 ```csharp
 ref bool SetBonus { get; }
@@ -50,7 +50,7 @@ ref bool SetBonus { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L18)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L18)
 
 ```csharp
 ref float Value { get; }
@@ -62,31 +62,31 @@ ref float Value { get; }
 
 ## Methods
 
-**AttributeDefinitionIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L26)
+### **AttributeDefinitionIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L26)
 
 ```csharp
 void AttributeDefinitionIndexUpdated()
 ```
 
-**InitialValueUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L28)
+### **InitialValueUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L28)
 
 ```csharp
 void InitialValueUpdated()
 ```
 
-**RefundableCurrencyUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L29)
+### **RefundableCurrencyUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L29)
 
 ```csharp
 void RefundableCurrencyUpdated()
 ```
 
-**SetBonusUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L30)
+### **SetBonusUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L30)
 
 ```csharp
 void SetBonusUpdated()
 ```
 
-**ValueUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L27)
+### **ValueUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemAttribute.cs#L27)
 
 ```csharp
 void ValueUpdated()

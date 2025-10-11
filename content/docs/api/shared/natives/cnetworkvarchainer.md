@@ -10,7 +10,7 @@ public struct CNetworkVarChainer
 
 ## Fields
 
-**PathIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L18)
+### **PathIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L18)
 
 ```csharp
 public ChangeAccessorFieldPathIndex_t PathIndex
@@ -20,7 +20,7 @@ public ChangeAccessorFieldPathIndex_t PathIndex
 
 - [ChangeAccessorFieldPathIndex_t](/docs/api/shared/natives/changeaccessorfieldpathindex_t)
 
-**pEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L16)
+### **pEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L16)
 
 ```csharp
 public void* pEntity
@@ -32,7 +32,7 @@ public void* pEntity
 
 ## Properties
 
-**Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L21)
+### **Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L21)
 
 ```csharp
 public readonly CEntityInstance Entity { get; }

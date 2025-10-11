@@ -10,7 +10,7 @@ public interface C_OP_InstantaneousEmitter : CParticleFunctionEmitter, CParticle
 
 ## Properties
 
-**EventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L22)
+### **EventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L22)
 
 ```csharp
 ref EventTypeSelection_t EventType { get; }
@@ -20,7 +20,7 @@ ref EventTypeSelection_t EventType { get; }
 
 - [EventTypeSelection_t](/docs/api/shared/schemadefinitions/eventtypeselection_t)
 
-**InitFromKilledParentParticles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L20)
+### **InitFromKilledParentParticles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L20)
 
 ```csharp
 ref float InitFromKilledParentParticles { get; }
@@ -30,7 +30,7 @@ ref float InitFromKilledParentParticles { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxEmittedPerFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L26)
+### **MaxEmittedPerFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L26)
 
 ```csharp
 ref int MaxEmittedPerFrame { get; }
@@ -40,7 +40,7 @@ ref int MaxEmittedPerFrame { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ParentParticleScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L24)
+### **ParentParticleScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput ParentParticleScale { get; }
@@ -50,7 +50,7 @@ CParticleCollectionFloatInput ParentParticleScale { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ParticlesToEmit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L16)
+### **ParticlesToEmit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput ParticlesToEmit { get; }
@@ -60,7 +60,7 @@ CParticleCollectionFloatInput ParticlesToEmit { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**SnapshotControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L28)
+### **SnapshotControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L28)
 
 ```csharp
 ref int SnapshotControlPoint { get; }
@@ -70,7 +70,7 @@ ref int SnapshotControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L18)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput StartTime { get; }
@@ -80,7 +80,7 @@ CParticleCollectionFloatInput StartTime { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**StrSnapshotSubset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L30)
+### **StrSnapshotSubset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InstantaneousEmitter.cs#L30)
 
 ```csharp
 string StrSnapshotSubset { get; set; }

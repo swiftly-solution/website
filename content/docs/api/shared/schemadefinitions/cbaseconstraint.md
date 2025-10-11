@@ -10,7 +10,7 @@ public interface CBaseConstraint : CBoneConstraintBase, ISchemaClass<CBoneConstr
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -20,7 +20,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Slaves** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L21)
+### **Slaves** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L21)
 
 ```csharp
 SchemaUntypedField Slaves { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField Slaves { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Targets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L24)
+### **Targets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L24)
 
 ```csharp
 ref CUtlVector Targets { get; }
@@ -38,9 +38,9 @@ ref CUtlVector Targets { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**UpVector** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L18)
+### **UpVector** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L18)
 
 ```csharp
 ref Vector UpVector { get; }

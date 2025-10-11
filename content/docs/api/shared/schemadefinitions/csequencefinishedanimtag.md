@@ -10,7 +10,7 @@ public interface CSequenceFinishedAnimTag : CAnimTagBase, ISchemaClass<CAnimTagB
 
 ## Properties
 
-**SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceFinishedAnimTag.cs#L16)
+### **SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceFinishedAnimTag.cs#L16)
 
 ```csharp
 string SequenceName { get; set; }

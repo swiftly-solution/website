@@ -14,7 +14,7 @@ public abstract class AllocableNativeHandle : SafeHandleZeroOrMinusOneIsInvalid,
 
 ## Constructors
 
-**AllocableNativeHandle(nint, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L11)
+### **AllocableNativeHandle(nint, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L11)
 
 ```csharp
 protected AllocableNativeHandle(nint handle, bool ownsHandle)
@@ -27,7 +27,7 @@ protected AllocableNativeHandle(nint handle, bool ownsHandle)
 
 ## Properties
 
-**Address** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L15)
+### **Address** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L15)
 
 ```csharp
 public nint Address { get; }
@@ -37,7 +37,7 @@ public nint Address { get; }
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-**IsValid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L9)
+### **IsValid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L9)
 
 ```csharp
 public bool IsValid { get; }
@@ -49,7 +49,7 @@ public bool IsValid { get; }
 
 ## Methods
 
-**Free()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L17)
+### **Free()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L17)
 
 ```csharp
 protected abstract bool Free()
@@ -59,7 +59,7 @@ protected abstract bool Free()
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ReleaseHandle()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L19)
+### **ReleaseHandle()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/AllocableNativeHandle.cs#L19)
 
 ```csharp
 protected override bool ReleaseHandle()

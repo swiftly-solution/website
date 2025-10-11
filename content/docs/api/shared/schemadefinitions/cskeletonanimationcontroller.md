@@ -10,7 +10,7 @@ public interface CSkeletonAnimationController : ISkeletonAnimationController, IS
 
 ## Properties
 
-**SkeletonInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonAnimationController.cs#L16)
+### **SkeletonInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkeletonAnimationController.cs#L16)
 
 ```csharp
 CSkeletonInstance? SkeletonInstance { get; }

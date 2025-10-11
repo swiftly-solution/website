@@ -10,7 +10,7 @@ public interface CVoiceContainerRandomSampler : CVoiceContainerBase, ISchemaClas
 
 ## Properties
 
-**Amplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L16)
+### **Amplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L16)
 
 ```csharp
 ref float Amplitude { get; }
@@ -20,7 +20,7 @@ ref float Amplitude { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AmplitudeJitter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L18)
+### **AmplitudeJitter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L18)
 
 ```csharp
 ref float AmplitudeJitter { get; }
@@ -30,7 +30,7 @@ ref float AmplitudeJitter { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GrainResources** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L26)
+### **GrainResources** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L26)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>> GrainResources { get; }
@@ -38,9 +38,9 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>> GrainResou
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>>
+- [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>>
 
-**MaxLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L22)
+### **MaxLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L22)
 
 ```csharp
 ref float MaxLength { get; }
@@ -50,7 +50,7 @@ ref float MaxLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NumDelayVariations** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L24)
+### **NumDelayVariations** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L24)
 
 ```csharp
 ref int NumDelayVariations { get; }
@@ -60,7 +60,7 @@ ref int NumDelayVariations { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TimeJitter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L20)
+### **TimeJitter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRandomSampler.cs#L20)
 
 ```csharp
 ref float TimeJitter { get; }

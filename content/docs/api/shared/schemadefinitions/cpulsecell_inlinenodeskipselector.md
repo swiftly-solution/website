@@ -10,7 +10,7 @@ public interface CPulseCell_InlineNodeSkipSelector : CPulseCell_BaseFlow, CPulse
 
 ## Properties
 
-**And** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L18)
+### **And** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L18)
 
 ```csharp
 ref bool And { get; }
@@ -20,7 +20,7 @@ ref bool And { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FailOutflow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L22)
+### **FailOutflow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L22)
 
 ```csharp
 CPulse_OutflowConnection FailOutflow { get; }
@@ -30,7 +30,7 @@ CPulse_OutflowConnection FailOutflow { get; }
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
-**FlowNodeID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L16)
+### **FlowNodeID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L16)
 
 ```csharp
 PulseDocNodeID_t FlowNodeID { get; }
@@ -40,7 +40,7 @@ PulseDocNodeID_t FlowNodeID { get; }
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
-**PassOutflow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L20)
+### **PassOutflow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_InlineNodeSkipSelector.cs#L20)
 
 ```csharp
 PulseSelectorOutflowList_t PassOutflow { get; }

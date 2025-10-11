@@ -10,7 +10,7 @@ public interface CNmGraphEventConditionNode__Condition_t : ISchemaClass<CNmGraph
 
 ## Properties
 
-**EventID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphEventConditionNode__Condition_t.cs#L16)
+### **EventID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphEventConditionNode__Condition_t.cs#L16)
 
 ```csharp
 ref CGlobalSymbol EventID { get; }
@@ -20,7 +20,7 @@ ref CGlobalSymbol EventID { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**EventTypeCondition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphEventConditionNode__Condition_t.cs#L18)
+### **EventTypeCondition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphEventConditionNode__Condition_t.cs#L18)
 
 ```csharp
 ref NmGraphEventTypeCondition_t EventTypeCondition { get; }

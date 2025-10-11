@@ -10,7 +10,7 @@ public interface CParticleFloatInput : CParticleInput, ISchemaClass<CParticleInp
 
 ## Properties
 
-**BiasParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L109)
+### **BiasParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L109)
 
 ```csharp
 ref float BiasParameter { get; }
@@ -20,7 +20,7 @@ ref float BiasParameter { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BiasType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L107)
+### **BiasType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L107)
 
 ```csharp
 ref ParticleFloatBiasType_t BiasType { get; }
@@ -30,7 +30,7 @@ ref ParticleFloatBiasType_t BiasType { get; }
 
 - [ParticleFloatBiasType_t](/docs/api/shared/schemadefinitions/particlefloatbiastype_t)
 
-**ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L25)
+### **ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L25)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -40,7 +40,7 @@ ref int ControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Curve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L112)
+### **Curve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L112)
 
 ```csharp
 SchemaUntypedField Curve { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField Curve { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**HasRandomSignFlip** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L39)
+### **HasRandomSignFlip** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L39)
 
 ```csharp
 ref bool HasRandomSignFlip { get; }
@@ -60,7 +60,7 @@ ref bool HasRandomSignFlip { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Input0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L89)
+### **Input0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L89)
 
 ```csharp
 ref float Input0 { get; }
@@ -70,7 +70,7 @@ ref float Input0 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L91)
+### **Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L91)
 
 ```csharp
 ref float Input1 { get; }
@@ -80,7 +80,7 @@ ref float Input1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InputMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L85)
+### **InputMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L85)
 
 ```csharp
 ref ParticleFloatInputMode_t InputMode { get; }
@@ -90,7 +90,7 @@ ref ParticleFloatInputMode_t InputMode { get; }
 
 - [ParticleFloatInputMode_t](/docs/api/shared/schemadefinitions/particlefloatinputmode_t)
 
-**LOD0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L45)
+### **LOD0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L45)
 
 ```csharp
 ref float LOD0 { get; }
@@ -100,7 +100,7 @@ ref float LOD0 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LOD1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L47)
+### **LOD1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L47)
 
 ```csharp
 ref float LOD1 { get; }
@@ -110,7 +110,7 @@ ref float LOD1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LOD2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L49)
+### **LOD2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L49)
 
 ```csharp
 ref float LOD2 { get; }
@@ -120,7 +120,7 @@ ref float LOD2 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LOD3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L51)
+### **LOD3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L51)
 
 ```csharp
 ref float LOD3 { get; }
@@ -130,7 +130,7 @@ ref float LOD3 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LiteralValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L20)
+### **LiteralValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L20)
 
 ```csharp
 ref float LiteralValue { get; }
@@ -140,7 +140,7 @@ ref float LiteralValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MapType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L18)
+### **MapType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L18)
 
 ```csharp
 ref ParticleFloatMapType_t MapType { get; }
@@ -150,7 +150,7 @@ ref ParticleFloatMapType_t MapType { get; }
 
 - [ParticleFloatMapType_t](/docs/api/shared/schemadefinitions/particlefloatmaptype_t)
 
-**MultFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L87)
+### **MultFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L87)
 
 ```csharp
 ref float MultFactor { get; }
@@ -160,7 +160,7 @@ ref float MultFactor { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L23)
+### **NamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L23)
 
 ```csharp
 SchemaUntypedField NamedValue { get; }
@@ -170,7 +170,7 @@ SchemaUntypedField NamedValue { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**NoCameraFallback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L81)
+### **NoCameraFallback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L81)
 
 ```csharp
 ref float NoCameraFallback { get; }
@@ -180,7 +180,7 @@ ref float NoCameraFallback { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseImgPreviewLive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L79)
+### **NoiseImgPreviewLive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L79)
 
 ```csharp
 ref bool NoiseImgPreviewLive { get; }
@@ -190,7 +190,7 @@ ref bool NoiseImgPreviewLive { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NoiseImgPreviewScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L77)
+### **NoiseImgPreviewScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L77)
 
 ```csharp
 ref float NoiseImgPreviewScale { get; }
@@ -200,7 +200,7 @@ ref float NoiseImgPreviewScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseInputVectorAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L53)
+### **NoiseInputVectorAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L53)
 
 ```csharp
 ParticleAttributeIndex_t NoiseInputVectorAttribute { get; }
@@ -210,7 +210,7 @@ ParticleAttributeIndex_t NoiseInputVectorAttribute { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**NoiseModifier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L71)
+### **NoiseModifier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L71)
 
 ```csharp
 ref PFNoiseModifier_t NoiseModifier { get; }
@@ -220,7 +220,7 @@ ref PFNoiseModifier_t NoiseModifier { get; }
 
 - [PFNoiseModifier_t](/docs/api/shared/schemadefinitions/pfnoisemodifier_t)
 
-**NoiseOctaves** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L65)
+### **NoiseOctaves** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L65)
 
 ```csharp
 ref int NoiseOctaves { get; }
@@ -230,7 +230,7 @@ ref int NoiseOctaves { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NoiseOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L63)
+### **NoiseOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L63)
 
 ```csharp
 ref float NoiseOffset { get; }
@@ -240,7 +240,7 @@ ref float NoiseOffset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseOffsetRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L61)
+### **NoiseOffsetRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L61)
 
 ```csharp
 ref Vector NoiseOffsetRate { get; }
@@ -250,7 +250,7 @@ ref Vector NoiseOffsetRate { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**NoiseOutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L57)
+### **NoiseOutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L57)
 
 ```csharp
 ref float NoiseOutputMax { get; }
@@ -260,7 +260,7 @@ ref float NoiseOutputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseOutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L55)
+### **NoiseOutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L55)
 
 ```csharp
 ref float NoiseOutputMin { get; }
@@ -270,7 +270,7 @@ ref float NoiseOutputMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L59)
+### **NoiseScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L59)
 
 ```csharp
 ref float NoiseScale { get; }
@@ -280,7 +280,7 @@ ref float NoiseScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseTurbulence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L67)
+### **NoiseTurbulence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L67)
 
 ```csharp
 ref PFNoiseTurbulence_t NoiseTurbulence { get; }
@@ -290,7 +290,7 @@ ref PFNoiseTurbulence_t NoiseTurbulence { get; }
 
 - [PFNoiseTurbulence_t](/docs/api/shared/schemadefinitions/pfnoiseturbulence_t)
 
-**NoiseTurbulenceMix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L75)
+### **NoiseTurbulenceMix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L75)
 
 ```csharp
 ref float NoiseTurbulenceMix { get; }
@@ -300,7 +300,7 @@ ref float NoiseTurbulenceMix { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseTurbulenceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L73)
+### **NoiseTurbulenceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L73)
 
 ```csharp
 ref float NoiseTurbulenceScale { get; }
@@ -310,7 +310,7 @@ ref float NoiseTurbulenceScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L69)
+### **NoiseType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L69)
 
 ```csharp
 ref PFNoiseType_t NoiseType { get; }
@@ -320,7 +320,7 @@ ref PFNoiseType_t NoiseType { get; }
 
 - [PFNoiseType_t](/docs/api/shared/schemadefinitions/pfnoisetype_t)
 
-**NotchedOutputInside** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L103)
+### **NotchedOutputInside** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L103)
 
 ```csharp
 ref float NotchedOutputInside { get; }
@@ -330,7 +330,7 @@ ref float NotchedOutputInside { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NotchedOutputOutside** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L101)
+### **NotchedOutputOutside** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L101)
 
 ```csharp
 ref float NotchedOutputOutside { get; }
@@ -340,7 +340,7 @@ ref float NotchedOutputOutside { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NotchedRangeMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L99)
+### **NotchedRangeMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L99)
 
 ```csharp
 ref float NotchedRangeMax { get; }
@@ -350,7 +350,7 @@ ref float NotchedRangeMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NotchedRangeMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L97)
+### **NotchedRangeMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L97)
 
 ```csharp
 ref float NotchedRangeMin { get; }
@@ -360,7 +360,7 @@ ref float NotchedRangeMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Output0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L93)
+### **Output0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L93)
 
 ```csharp
 ref float Output0 { get; }
@@ -370,7 +370,7 @@ ref float Output0 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Output1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L95)
+### **Output1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L95)
 
 ```csharp
 ref float Output1 { get; }
@@ -380,7 +380,7 @@ ref float Output1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RandomMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L37)
+### **RandomMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L37)
 
 ```csharp
 ref float RandomMax { get; }
@@ -390,7 +390,7 @@ ref float RandomMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RandomMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L35)
+### **RandomMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L35)
 
 ```csharp
 ref float RandomMin { get; }
@@ -400,7 +400,7 @@ ref float RandomMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RandomMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L43)
+### **RandomMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L43)
 
 ```csharp
 ref ParticleFloatRandomMode_t RandomMode { get; }
@@ -410,7 +410,7 @@ ref ParticleFloatRandomMode_t RandomMode { get; }
 
 - [ParticleFloatRandomMode_t](/docs/api/shared/schemadefinitions/particlefloatrandommode_t)
 
-**RandomSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L41)
+### **RandomSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L41)
 
 ```csharp
 ref int RandomSeed { get; }
@@ -420,7 +420,7 @@ ref int RandomSeed { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ReverseOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L33)
+### **ReverseOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L33)
 
 ```csharp
 ref bool ReverseOrder { get; }
@@ -430,7 +430,7 @@ ref bool ReverseOrder { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RoundType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L105)
+### **RoundType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L105)
 
 ```csharp
 ref ParticleFloatRoundType_t RoundType { get; }
@@ -440,7 +440,7 @@ ref ParticleFloatRoundType_t RoundType { get; }
 
 - [ParticleFloatRoundType_t](/docs/api/shared/schemadefinitions/particlefloatroundtype_t)
 
-**ScalarAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L27)
+### **ScalarAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L27)
 
 ```csharp
 ParticleAttributeIndex_t ScalarAttribute { get; }
@@ -450,7 +450,7 @@ ParticleAttributeIndex_t ScalarAttribute { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L16)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L16)
 
 ```csharp
 ref ParticleFloatType_t Type { get; }
@@ -460,7 +460,7 @@ ref ParticleFloatType_t Type { get; }
 
 - [ParticleFloatType_t](/docs/api/shared/schemadefinitions/particlefloattype_t)
 
-**UseBoundsCenter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L83)
+### **UseBoundsCenter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L83)
 
 ```csharp
 ref bool UseBoundsCenter { get; }
@@ -470,7 +470,7 @@ ref bool UseBoundsCenter { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**VectorAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L29)
+### **VectorAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L29)
 
 ```csharp
 ParticleAttributeIndex_t VectorAttribute { get; }
@@ -480,7 +480,7 @@ ParticleAttributeIndex_t VectorAttribute { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**VectorComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L31)
+### **VectorComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFloatInput.cs#L31)
 
 ```csharp
 ref int VectorComponent { get; }

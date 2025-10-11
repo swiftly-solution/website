@@ -10,7 +10,7 @@ public interface CUserMessageAnimStateGraphState : ITypedProtobuf<CUserMessageAn
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAnimStateGraphState.cs#L16)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAnimStateGraphState.cs#L16)
 
 ```csharp
 byte[] Data { get; set; }
@@ -20,7 +20,7 @@ byte[] Data { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**EntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAnimStateGraphState.cs#L13)
+### **EntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAnimStateGraphState.cs#L13)
 
 ```csharp
 int EntityIndex { get; set; }

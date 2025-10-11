@@ -10,7 +10,7 @@ public interface CAmbientGeneric : CPointEntity, CBaseEntity, CEntityInstance, I
 
 ## Properties
 
-**Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L24)
+### **Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L24)
 
 ```csharp
 ref bool Active { get; }
@@ -20,7 +20,7 @@ ref bool Active { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Dpv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L22)
+### **Dpv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L22)
 
 ```csharp
 dynpitchvol_t Dpv { get; }
@@ -30,7 +30,7 @@ dynpitchvol_t Dpv { get; }
 
 - [dynpitchvol_t](/docs/api/shared/schemadefinitions/dynpitchvol_t)
 
-**Looping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L26)
+### **Looping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L26)
 
 ```csharp
 ref bool Looping { get; }
@@ -40,7 +40,7 @@ ref bool Looping { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L18)
+### **MaxRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L18)
 
 ```csharp
 ref float MaxRadius { get; }
@@ -50,7 +50,7 @@ ref float MaxRadius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L16)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L16)
 
 ```csharp
 ref float Radius { get; }
@@ -60,7 +60,7 @@ ref float Radius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L28)
+### **Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L28)
 
 ```csharp
 string Sound { get; set; }
@@ -70,7 +70,7 @@ string Sound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SoundLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L20)
+### **SoundLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L20)
 
 ```csharp
 ref soundlevel_t SoundLevel { get; }
@@ -80,7 +80,7 @@ ref soundlevel_t SoundLevel { get; }
 
 - [soundlevel_t](/docs/api/shared/schemadefinitions/soundlevel_t)
 
-**SoundSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L32)
+### **SoundSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L32)
 
 ```csharp
 ref CHandle<CBaseEntity> SoundSource { get; }
@@ -90,7 +90,7 @@ ref CHandle<CBaseEntity> SoundSource { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**SoundSourceEntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L34)
+### **SoundSourceEntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L34)
 
 ```csharp
 ref uint SoundSourceEntIndex { get; }
@@ -100,7 +100,7 @@ ref uint SoundSourceEntIndex { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SourceEntName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L30)
+### **SourceEntName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAmbientGeneric.cs#L30)
 
 ```csharp
 string SourceEntName { get; set; }

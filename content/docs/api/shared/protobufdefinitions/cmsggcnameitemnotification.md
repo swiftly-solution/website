@@ -10,7 +10,7 @@ public interface CMsgGCNameItemNotification : ITypedProtobuf<CMsgGCNameItemNotif
 
 ## Properties
 
-**ItemDefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCNameItemNotification.cs#L16)
+### **ItemDefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCNameItemNotification.cs#L16)
 
 ```csharp
 uint ItemDefIndex { get; set; }
@@ -20,7 +20,7 @@ uint ItemDefIndex { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemNameCustom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCNameItemNotification.cs#L19)
+### **ItemNameCustom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCNameItemNotification.cs#L19)
 
 ```csharp
 string ItemNameCustom { get; set; }
@@ -30,7 +30,7 @@ string ItemNameCustom { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PlayerSteamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCNameItemNotification.cs#L13)
+### **PlayerSteamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCNameItemNotification.cs#L13)
 
 ```csharp
 ulong PlayerSteamid { get; set; }

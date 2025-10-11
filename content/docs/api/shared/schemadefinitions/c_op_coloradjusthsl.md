@@ -10,7 +10,7 @@ public interface C_OP_ColorAdjustHSL : CParticleFunctionOperator, CParticleFunct
 
 ## Properties
 
-**HueAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorAdjustHSL.cs#L16)
+### **HueAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorAdjustHSL.cs#L16)
 
 ```csharp
 CPerParticleFloatInput HueAdjust { get; }
@@ -20,7 +20,7 @@ CPerParticleFloatInput HueAdjust { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**LightnessAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorAdjustHSL.cs#L20)
+### **LightnessAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorAdjustHSL.cs#L20)
 
 ```csharp
 CPerParticleFloatInput LightnessAdjust { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput LightnessAdjust { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SaturationAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorAdjustHSL.cs#L18)
+### **SaturationAdjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ColorAdjustHSL.cs#L18)
 
 ```csharp
 CPerParticleFloatInput SaturationAdjust { get; }

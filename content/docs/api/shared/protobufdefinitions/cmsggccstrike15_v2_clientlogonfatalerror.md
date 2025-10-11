@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_ClientLogonFatalError : ITypedProtobuf<CMsgG
 
 ## Properties
 
-**Country** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientLogonFatalError.cs#L19)
+### **Country** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientLogonFatalError.cs#L19)
 
 ```csharp
 string Country { get; set; }
@@ -20,7 +20,7 @@ string Country { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Errorcode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientLogonFatalError.cs#L13)
+### **Errorcode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientLogonFatalError.cs#L13)
 
 ```csharp
 uint Errorcode { get; set; }
@@ -30,7 +30,7 @@ uint Errorcode { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientLogonFatalError.cs#L16)
+### **Message** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientLogonFatalError.cs#L16)
 
 ```csharp
 string Message { get; set; }

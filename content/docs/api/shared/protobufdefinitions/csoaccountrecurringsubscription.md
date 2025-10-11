@@ -10,7 +10,7 @@ public interface CSOAccountRecurringSubscription : ITypedProtobuf<CSOAccountRecu
 
 ## Properties
 
-**TimeInitiated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountRecurringSubscription.cs#L16)
+### **TimeInitiated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountRecurringSubscription.cs#L16)
 
 ```csharp
 uint TimeInitiated { get; set; }
@@ -20,7 +20,7 @@ uint TimeInitiated { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TimeNextCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountRecurringSubscription.cs#L13)
+### **TimeNextCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountRecurringSubscription.cs#L13)
 
 ```csharp
 uint TimeNextCycle { get; set; }

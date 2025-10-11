@@ -10,7 +10,7 @@ public interface CMsgTEPlayerAnimEvent : ITypedProtobuf<CMsgTEPlayerAnimEvent>, 
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPlayerAnimEvent.cs#L24)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPlayerAnimEvent.cs#L24)
 
 ```csharp
 int Data { get; set; }
@@ -20,7 +20,7 @@ int Data { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Event** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPlayerAnimEvent.cs#L21)
+### **Event** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPlayerAnimEvent.cs#L21)
 
 ```csharp
 uint Event { get; set; }
@@ -30,7 +30,7 @@ uint Event { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPlayerAnimEvent.cs#L18)
+### **Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEPlayerAnimEvent.cs#L18)
 
 ```csharp
 uint Player { get; set; }

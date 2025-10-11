@@ -10,7 +10,7 @@ public interface C_OP_RemapModelVolumetoCP : CParticleFunctionPreEmission, CPart
 
 ## Properties
 
-**BBoxOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L34)
+### **BBoxOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L34)
 
 ```csharp
 ref bool BBoxOnly { get; }
@@ -20,7 +20,7 @@ ref bool BBoxOnly { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**BBoxType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L16)
+### **BBoxType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L16)
 
 ```csharp
 ref BBoxVolumeType_t BBoxType { get; }
@@ -30,7 +30,7 @@ ref BBoxVolumeType_t BBoxType { get; }
 
 - [BBoxVolumeType_t](/docs/api/shared/schemadefinitions/bboxvolumetype_t)
 
-**CubeRoot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L36)
+### **CubeRoot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L36)
 
 ```csharp
 ref bool CubeRoot { get; }
@@ -40,7 +40,7 @@ ref bool CubeRoot { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L24)
+### **Field** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L24)
 
 ```csharp
 ref int Field { get; }
@@ -50,7 +50,7 @@ ref int Field { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L18)
+### **InControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L18)
 
 ```csharp
 ref int InControlPointNumber { get; }
@@ -60,7 +60,7 @@ ref int InControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L28)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L28)
 
 ```csharp
 ref float InputMax { get; }
@@ -70,7 +70,7 @@ ref float InputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L26)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L26)
 
 ```csharp
 ref float InputMin { get; }
@@ -80,7 +80,7 @@ ref float InputMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutControlPointMaxNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L22)
+### **OutControlPointMaxNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L22)
 
 ```csharp
 ref int OutControlPointMaxNumber { get; }
@@ -90,7 +90,7 @@ ref int OutControlPointMaxNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L20)
+### **OutControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L20)
 
 ```csharp
 ref int OutControlPointNumber { get; }
@@ -100,7 +100,7 @@ ref int OutControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L32)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L32)
 
 ```csharp
 ref float OutputMax { get; }
@@ -110,7 +110,7 @@ ref float OutputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L30)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapModelVolumetoCP.cs#L30)
 
 ```csharp
 ref float OutputMin { get; }

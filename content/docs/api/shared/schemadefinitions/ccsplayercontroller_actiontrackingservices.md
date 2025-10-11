@@ -10,7 +10,7 @@ public interface CCSPlayerController_ActionTrackingServices : CPlayerControllerC
 
 ## Properties
 
-**MatchStats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L19)
+### **MatchStats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L19)
 
 ```csharp
 CSMatchStats_t MatchStats { get; }
@@ -20,7 +20,7 @@ CSMatchStats_t MatchStats { get; }
 
 - [CSMatchStats_t](/docs/api/shared/schemadefinitions/csmatchstats_t)
 
-**NumRoundKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L21)
+### **NumRoundKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L21)
 
 ```csharp
 ref int NumRoundKills { get; }
@@ -30,7 +30,7 @@ ref int NumRoundKills { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NumRoundKillsHeadshots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L23)
+### **NumRoundKillsHeadshots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L23)
 
 ```csharp
 ref int NumRoundKillsHeadshots { get; }
@@ -40,7 +40,7 @@ ref int NumRoundKillsHeadshots { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PerRoundStats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L17)
+### **PerRoundStats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L17)
 
 ```csharp
 ref CUtlVector PerRoundStats { get; }
@@ -48,9 +48,9 @@ ref CUtlVector PerRoundStats { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**TotalRoundDamageDealt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L25)
+### **TotalRoundDamageDealt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L25)
 
 ```csharp
 ref float TotalRoundDamageDealt { get; }
@@ -62,31 +62,31 @@ ref float TotalRoundDamageDealt { get; }
 
 ## Methods
 
-**MatchStatsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L28)
+### **MatchStatsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L28)
 
 ```csharp
 void MatchStatsUpdated()
 ```
 
-**NumRoundKillsHeadshotsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L30)
+### **NumRoundKillsHeadshotsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L30)
 
 ```csharp
 void NumRoundKillsHeadshotsUpdated()
 ```
 
-**NumRoundKillsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L29)
+### **NumRoundKillsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L29)
 
 ```csharp
 void NumRoundKillsUpdated()
 ```
 
-**PerRoundStatsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L27)
+### **PerRoundStatsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L27)
 
 ```csharp
 void PerRoundStatsUpdated()
 ```
 
-**TotalRoundDamageDealtUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L31)
+### **TotalRoundDamageDealtUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_ActionTrackingServices.cs#L31)
 
 ```csharp
 void TotalRoundDamageDealtUpdated()

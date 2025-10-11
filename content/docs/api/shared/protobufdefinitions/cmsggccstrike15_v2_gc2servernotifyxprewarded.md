@@ -10,7 +10,7 @@ public interface CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded : ITypedProtobuf<C
 
 ## Properties
 
-**AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L16)
+### **AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L16)
 
 ```csharp
 uint AccountId { get; set; }
@@ -20,7 +20,7 @@ uint AccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**CurrentLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L22)
+### **CurrentLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L22)
 
 ```csharp
 uint CurrentLevel { get; set; }
@@ -30,7 +30,7 @@ uint CurrentLevel { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**CurrentXp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L19)
+### **CurrentXp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L19)
 
 ```csharp
 uint CurrentXp { get; set; }
@@ -40,7 +40,7 @@ uint CurrentXp { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**FreeRewards** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L31)
+### **FreeRewards** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L31)
 
 ```csharp
 uint FreeRewards { get; set; }
@@ -50,7 +50,7 @@ uint FreeRewards { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**OperationPointsAwarded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L28)
+### **OperationPointsAwarded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L28)
 
 ```csharp
 uint OperationPointsAwarded { get; set; }
@@ -60,7 +60,7 @@ uint OperationPointsAwarded { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**UpgradedDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L25)
+### **UpgradedDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L25)
 
 ```csharp
 uint UpgradedDefidx { get; set; }
@@ -70,7 +70,7 @@ uint UpgradedDefidx { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**XpProgressData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L13)
+### **XpProgressData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<XpProgressData> XpProgressData { get; }
@@ -80,7 +80,7 @@ IProtobufRepeatedFieldSubMessageType<XpProgressData> XpProgressData { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[XpProgressData](/docs/api/shared/protobufdefinitions/xpprogressdata)>
 
-**XpTrailLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L40)
+### **XpTrailLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L40)
 
 ```csharp
 uint XpTrailLevel { get; set; }
@@ -90,7 +90,7 @@ uint XpTrailLevel { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**XpTrailRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L34)
+### **XpTrailRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L34)
 
 ```csharp
 uint XpTrailRemaining { get; set; }
@@ -100,7 +100,7 @@ uint XpTrailRemaining { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**XpTrailXpNeeded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L37)
+### **XpTrailXpNeeded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded.cs#L37)
 
 ```csharp
 int XpTrailXpNeeded { get; set; }

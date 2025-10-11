@@ -10,7 +10,7 @@ public interface CNmOrientationWarpNode__CDefinition : CNmPoseNode__CDefinition,
 
 ## Properties
 
-**ClipReferenceNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmOrientationWarpNode__CDefinition.cs#L16)
+### **ClipReferenceNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmOrientationWarpNode__CDefinition.cs#L16)
 
 ```csharp
 ref short ClipReferenceNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short ClipReferenceNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**IsOffsetNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmOrientationWarpNode__CDefinition.cs#L20)
+### **IsOffsetNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmOrientationWarpNode__CDefinition.cs#L20)
 
 ```csharp
 ref bool IsOffsetNode { get; }
@@ -30,7 +30,7 @@ ref bool IsOffsetNode { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsOffsetRelativeToCharacter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmOrientationWarpNode__CDefinition.cs#L22)
+### **IsOffsetRelativeToCharacter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmOrientationWarpNode__CDefinition.cs#L22)
 
 ```csharp
 ref bool IsOffsetRelativeToCharacter { get; }
@@ -40,7 +40,7 @@ ref bool IsOffsetRelativeToCharacter { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SamplingMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmOrientationWarpNode__CDefinition.cs#L24)
+### **SamplingMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmOrientationWarpNode__CDefinition.cs#L24)
 
 ```csharp
 ref CNmRootMotionData__SamplingMode_t SamplingMode { get; }
@@ -50,7 +50,7 @@ ref CNmRootMotionData__SamplingMode_t SamplingMode { get; }
 
 - [CNmRootMotionData__SamplingMode_t](/docs/api/shared/schemadefinitions/cnmrootmotiondata__samplingmode_t)
 
-**TargetValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmOrientationWarpNode__CDefinition.cs#L18)
+### **TargetValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmOrientationWarpNode__CDefinition.cs#L18)
 
 ```csharp
 ref short TargetValueNodeIdx { get; }

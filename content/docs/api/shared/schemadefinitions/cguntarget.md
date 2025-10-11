@@ -10,7 +10,7 @@ public interface CGunTarget : CBaseToggle, CBaseModelEntity, CBaseEntity, CEntit
 
 ## Properties
 
-**True** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGunTarget.cs#L16)
+### **True** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGunTarget.cs#L16)
 
 ```csharp
 ref bool On { get; }
@@ -20,7 +20,7 @@ ref bool On { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OnDeath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGunTarget.cs#L20)
+### **OnDeath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGunTarget.cs#L20)
 
 ```csharp
 CEntityIOOutput OnDeath { get; }
@@ -30,7 +30,7 @@ CEntityIOOutput OnDeath { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**TargetEnt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGunTarget.cs#L18)
+### **TargetEnt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGunTarget.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> TargetEnt { get; }

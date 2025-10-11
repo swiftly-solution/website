@@ -10,7 +10,7 @@ public interface CMsgSerializedSOCache_Cache_Version : ITypedProtobuf<CMsgSerial
 
 ## Properties
 
-**Service** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache_Version.cs#L13)
+### **Service** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache_Version.cs#L13)
 
 ```csharp
 uint Service { get; set; }
@@ -20,7 +20,7 @@ uint Service { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache_Version.cs#L16)
+### **Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache_Version.cs#L16)
 
 ```csharp
 ulong Version { get; set; }

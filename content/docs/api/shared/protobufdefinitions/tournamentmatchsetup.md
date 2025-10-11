@@ -10,7 +10,7 @@ public interface TournamentMatchSetup : ITypedProtobuf<TournamentMatchSetup>, IN
 
 ## Properties
 
-**EventId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentMatchSetup.cs#L13)
+### **EventId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentMatchSetup.cs#L13)
 
 ```csharp
 int EventId { get; set; }
@@ -20,7 +20,7 @@ int EventId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EventStageId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentMatchSetup.cs#L22)
+### **EventStageId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentMatchSetup.cs#L22)
 
 ```csharp
 int EventStageId { get; set; }
@@ -30,7 +30,7 @@ int EventStageId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TeamIdCt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentMatchSetup.cs#L16)
+### **TeamIdCt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentMatchSetup.cs#L16)
 
 ```csharp
 int TeamIdCt { get; set; }
@@ -40,7 +40,7 @@ int TeamIdCt { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TeamIdT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentMatchSetup.cs#L19)
+### **TeamIdT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentMatchSetup.cs#L19)
 
 ```csharp
 int TeamIdT { get; set; }

@@ -10,7 +10,7 @@ public interface CDestructiblePart_DamageLevel : ISchemaClass<CDestructiblePart_
 
 ## Properties
 
-**BodyGroupValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L20)
+### **BodyGroupValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L20)
 
 ```csharp
 ref int BodyGroupValue { get; }
@@ -20,7 +20,7 @@ ref int BodyGroupValue { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**BreakablePieceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L18)
+### **BreakablePieceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L18)
 
 ```csharp
 ref CGlobalSymbol BreakablePieceName { get; }
@@ -30,7 +30,7 @@ ref CGlobalSymbol BreakablePieceName { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**CustomDeathHandshake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L28)
+### **CustomDeathHandshake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L28)
 
 ```csharp
 ref CGlobalSymbol CustomDeathHandshake { get; }
@@ -40,7 +40,7 @@ ref CGlobalSymbol CustomDeathHandshake { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**DamagePassthroughType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L24)
+### **DamagePassthroughType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L24)
 
 ```csharp
 ref EDestructiblePartDamagePassThroughType DamagePassthroughType { get; }
@@ -50,7 +50,7 @@ ref EDestructiblePartDamagePassThroughType DamagePassthroughType { get; }
 
 - [EDestructiblePartDamagePassThroughType](/docs/api/shared/schemadefinitions/edestructiblepartdamagepassthroughtype)
 
-**DeathDestroyTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L32)
+### **DeathDestroyTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L32)
 
 ```csharp
 CRangeFloat DeathDestroyTime { get; }
@@ -60,7 +60,7 @@ CRangeFloat DeathDestroyTime { get; }
 
 - [CRangeFloat](/docs/api/shared/schemadefinitions/crangefloat)
 
-**DestructionDeathBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L26)
+### **DestructionDeathBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L26)
 
 ```csharp
 ref DestructiblePartDestructionDeathBehavior_t DestructionDeathBehavior { get; }
@@ -70,7 +70,7 @@ ref DestructiblePartDestructionDeathBehavior_t DestructionDeathBehavior { get; }
 
 - [DestructiblePartDestructionDeathBehavior_t](/docs/api/shared/schemadefinitions/destructiblepartdestructiondeathbehavior_t)
 
-**Health** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L22)
+### **Health** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L22)
 
 ```csharp
 CSkillInt Health { get; }
@@ -80,7 +80,7 @@ CSkillInt Health { get; }
 
 - [CSkillInt](/docs/api/shared/schemadefinitions/cskillint)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -90,7 +90,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ShouldDestroyOnDeath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L30)
+### **ShouldDestroyOnDeath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePart_DamageLevel.cs#L30)
 
 ```csharp
 ref bool ShouldDestroyOnDeath { get; }

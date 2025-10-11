@@ -10,7 +10,7 @@ public interface SkeletonAnimCapture_t__Bone_t : ISchemaClass<SkeletonAnimCaptur
 
 ## Properties
 
-**BindPose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Bone_t.cs#L18)
+### **BindPose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Bone_t.cs#L18)
 
 ```csharp
 ref CTransform BindPose { get; }
@@ -20,7 +20,7 @@ ref CTransform BindPose { get; }
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Bone_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Bone_t.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -30,7 +30,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Parent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Bone_t.cs#L20)
+### **Parent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Bone_t.cs#L20)
 
 ```csharp
 ref int Parent { get; }

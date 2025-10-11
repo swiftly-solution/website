@@ -10,7 +10,7 @@ public interface CGameInfo_CCSGameInfo : ITypedProtobuf<CGameInfo_CCSGameInfo>, 
 
 ## Properties
 
-**RoundStartTicks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGameInfo_CCSGameInfo.cs#L13)
+### **RoundStartTicks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGameInfo_CCSGameInfo.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> RoundStartTicks { get; }

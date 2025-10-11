@@ -10,7 +10,7 @@ public interface C_OP_RenderScreenVelocityRotate : CParticleFunctionRenderer, CP
 
 ## Properties
 
-**ForwardDegrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenVelocityRotate.cs#L18)
+### **ForwardDegrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenVelocityRotate.cs#L18)
 
 ```csharp
 ref float ForwardDegrees { get; }
@@ -20,7 +20,7 @@ ref float ForwardDegrees { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RotateRateDegrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenVelocityRotate.cs#L16)
+### **RotateRateDegrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderScreenVelocityRotate.cs#L16)
 
 ```csharp
 ref float RotateRateDegrees { get; }

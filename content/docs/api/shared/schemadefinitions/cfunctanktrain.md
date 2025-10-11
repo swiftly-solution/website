@@ -10,7 +10,7 @@ public interface CFuncTankTrain : CFuncTrackTrain, CBaseModelEntity, CBaseEntity
 
 ## Properties
 
-**OnDeath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTankTrain.cs#L16)
+### **OnDeath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTankTrain.cs#L16)
 
 ```csharp
 CEntityIOOutput OnDeath { get; }

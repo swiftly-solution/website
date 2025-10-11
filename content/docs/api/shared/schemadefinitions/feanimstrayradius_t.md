@@ -10,7 +10,7 @@ public interface FeAnimStrayRadius_t : ISchemaClass<FeAnimStrayRadius_t>, ISchem
 
 ## Properties
 
-**MaxDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAnimStrayRadius_t.cs#L18)
+### **MaxDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAnimStrayRadius_t.cs#L18)
 
 ```csharp
 ref float MaxDist { get; }
@@ -20,7 +20,7 @@ ref float MaxDist { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAnimStrayRadius_t.cs#L16)
+### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAnimStrayRadius_t.cs#L16)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
@@ -30,7 +30,7 @@ ISchemaFixedArray<ushort> Node { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
-**RelaxationFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAnimStrayRadius_t.cs#L20)
+### **RelaxationFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAnimStrayRadius_t.cs#L20)
 
 ```csharp
 ref float RelaxationFactor { get; }

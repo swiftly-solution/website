@@ -10,7 +10,7 @@ public interface CRemapValueComponentUpdater : CAnimComponentUpdater, ISchemaCla
 
 ## Properties
 
-**Items** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueComponentUpdater.cs#L17)
+### **Items** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueComponentUpdater.cs#L17)
 
 ```csharp
 ref CUtlVector Items { get; }
@@ -18,5 +18,5 @@ ref CUtlVector Items { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

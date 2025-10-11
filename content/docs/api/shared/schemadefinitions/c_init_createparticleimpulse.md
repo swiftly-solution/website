@@ -10,7 +10,7 @@ public interface C_INIT_CreateParticleImpulse : CParticleFunctionInitializer, CP
 
 ## Properties
 
-**FalloffFunction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateParticleImpulse.cs#L20)
+### **FalloffFunction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateParticleImpulse.cs#L20)
 
 ```csharp
 ref ParticleFalloffFunction_t FalloffFunction { get; }
@@ -20,7 +20,7 @@ ref ParticleFalloffFunction_t FalloffFunction { get; }
 
 - [ParticleFalloffFunction_t](/docs/api/shared/schemadefinitions/particlefallofffunction_t)
 
-**ImpulseType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateParticleImpulse.cs#L24)
+### **ImpulseType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateParticleImpulse.cs#L24)
 
 ```csharp
 ref ParticleImpulseType_t ImpulseType { get; }
@@ -30,7 +30,7 @@ ref ParticleImpulseType_t ImpulseType { get; }
 
 - [ParticleImpulseType_t](/docs/api/shared/schemadefinitions/particleimpulsetype_t)
 
-**InputFalloffExp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateParticleImpulse.cs#L22)
+### **InputFalloffExp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateParticleImpulse.cs#L22)
 
 ```csharp
 CPerParticleFloatInput InputFalloffExp { get; }
@@ -40,7 +40,7 @@ CPerParticleFloatInput InputFalloffExp { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**InputMagnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateParticleImpulse.cs#L18)
+### **InputMagnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateParticleImpulse.cs#L18)
 
 ```csharp
 CPerParticleFloatInput InputMagnitude { get; }
@@ -50,7 +50,7 @@ CPerParticleFloatInput InputMagnitude { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**InputRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateParticleImpulse.cs#L16)
+### **InputRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateParticleImpulse.cs#L16)
 
 ```csharp
 CPerParticleFloatInput InputRadius { get; }

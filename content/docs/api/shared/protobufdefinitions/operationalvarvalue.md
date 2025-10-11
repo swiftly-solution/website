@@ -10,7 +10,7 @@ public interface OperationalVarValue : ITypedProtobuf<OperationalVarValue>, INat
 
 ## Properties
 
-**Fvalue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalVarValue.cs#L19)
+### **Fvalue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalVarValue.cs#L19)
 
 ```csharp
 float Fvalue { get; set; }
@@ -20,7 +20,7 @@ float Fvalue { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Ivalue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalVarValue.cs#L16)
+### **Ivalue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalVarValue.cs#L16)
 
 ```csharp
 int Ivalue { get; set; }
@@ -30,7 +30,7 @@ int Ivalue { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalVarValue.cs#L13)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalVarValue.cs#L13)
 
 ```csharp
 string Name { get; set; }
@@ -40,7 +40,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Svalue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalVarValue.cs#L22)
+### **Svalue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalVarValue.cs#L22)
 
 ```csharp
 byte[] Svalue { get; set; }

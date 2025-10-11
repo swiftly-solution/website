@@ -14,7 +14,7 @@ public interface ISchemaFixedArray<T> : ISchemaField, INativeHandle where T : un
 
 ## Properties
 
-**ElementAlignment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaFixedArray.cs#L6)
+### **ElementAlignment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaFixedArray.cs#L6)
 
 ```csharp
 int ElementAlignment { get; }
@@ -24,7 +24,7 @@ int ElementAlignment { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ElementCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaFixedArray.cs#L8)
+### **ElementCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaFixedArray.cs#L8)
 
 ```csharp
 int ElementCount { get; }
@@ -34,7 +34,7 @@ int ElementCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ElementSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaFixedArray.cs#L10)
+### **ElementSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaFixedArray.cs#L10)
 
 ```csharp
 int ElementSize { get; }
@@ -44,7 +44,7 @@ int ElementSize { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**this[int]** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaFixedArray.cs#L12)
+### **this[int]** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaFixedArray.cs#L12)
 
 ```csharp
 ref T this[int index] { get; }

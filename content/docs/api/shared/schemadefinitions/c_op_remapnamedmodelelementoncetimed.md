@@ -10,7 +10,7 @@ public interface C_OP_RemapNamedModelElementOnceTimed : CParticleFunctionOperato
 
 ## Properties
 
-**FallbackNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L22)
+### **FallbackNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L22)
 
 ```csharp
 ref CUtlVector<CUtlString> FallbackNames { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<CUtlString> FallbackNames { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L28)
+### **FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L28)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L30)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L30)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**InNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L18)
+### **InNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L18)
 
 ```csharp
 ref CUtlVector<CUtlString> InNames { get; }
@@ -48,9 +48,9 @@ ref CUtlVector<CUtlString> InNames { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L16)
+### **Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -60,7 +60,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
-**ModelFromRenderer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L24)
+### **ModelFromRenderer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L24)
 
 ```csharp
 ref bool ModelFromRenderer { get; }
@@ -70,7 +70,7 @@ ref bool ModelFromRenderer { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OutNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L20)
+### **OutNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L20)
 
 ```csharp
 ref CUtlVector<CUtlString> OutNames { get; }
@@ -78,9 +78,9 @@ ref CUtlVector<CUtlString> OutNames { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**Proportional** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L26)
+### **Proportional** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L26)
 
 ```csharp
 ref bool Proportional { get; }
@@ -90,7 +90,7 @@ ref bool Proportional { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RemapTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L32)
+### **RemapTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapNamedModelElementOnceTimed.cs#L32)
 
 ```csharp
 ref float RemapTime { get; }

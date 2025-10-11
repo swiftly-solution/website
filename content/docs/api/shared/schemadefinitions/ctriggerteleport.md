@@ -10,7 +10,7 @@ public interface CTriggerTeleport : CBaseTrigger, CBaseToggle, CBaseModelEntity,
 
 ## Properties
 
-**CheckDestIfClearForPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L22)
+### **CheckDestIfClearForPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L22)
 
 ```csharp
 ref bool CheckDestIfClearForPlayer { get; }
@@ -20,7 +20,7 @@ ref bool CheckDestIfClearForPlayer { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Landmark** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L16)
+### **Landmark** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L16)
 
 ```csharp
 string Landmark { get; set; }
@@ -30,7 +30,7 @@ string Landmark { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MirrorPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L20)
+### **MirrorPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L20)
 
 ```csharp
 ref bool MirrorPlayer { get; }
@@ -40,7 +40,7 @@ ref bool MirrorPlayer { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UseLandmarkAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L18)
+### **UseLandmarkAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L18)
 
 ```csharp
 ref bool UseLandmarkAngles { get; }

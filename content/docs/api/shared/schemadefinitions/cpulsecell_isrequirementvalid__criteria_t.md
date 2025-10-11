@@ -10,7 +10,7 @@ public interface CPulseCell_IsRequirementValid__Criteria_t : ISchemaClass<CPulse
 
 ## Properties
 
-**IsValid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IsRequirementValid__Criteria_t.cs#L16)
+### **IsValid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IsRequirementValid__Criteria_t.cs#L16)
 
 ```csharp
 ref bool IsValid { get; }

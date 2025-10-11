@@ -10,7 +10,7 @@ public interface CMultiSource : CLogicalEntity, CServerOnlyEntity, CBaseEntity, 
 
 ## Properties
 
-**Globalstate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L24)
+### **Globalstate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L24)
 
 ```csharp
 string Globalstate { get; set; }
@@ -20,7 +20,7 @@ string Globalstate { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OnTrigger** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L20)
+### **OnTrigger** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L20)
 
 ```csharp
 CEntityIOOutput OnTrigger { get; }
@@ -30,7 +30,7 @@ CEntityIOOutput OnTrigger { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**RgEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L16)
+### **RgEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L16)
 
 ```csharp
 ISchemaFixedArray<CHandle<CBaseEntity>> RgEntities { get; }
@@ -40,7 +40,7 @@ ISchemaFixedArray<CHandle<CBaseEntity>> RgEntities { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
-**RgTriggered** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L18)
+### **RgTriggered** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L18)
 
 ```csharp
 ISchemaFixedArray<int> RgTriggered { get; }
@@ -50,7 +50,7 @@ ISchemaFixedArray<int> RgTriggered { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**Total** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L22)
+### **Total** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiSource.cs#L22)
 
 ```csharp
 ref int Total { get; }

@@ -10,7 +10,7 @@ public interface C_OP_QuantizeCPComponent : CParticleFunctionPreEmission, CParti
 
 ## Properties
 
-**CPOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L18)
+### **CPOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L18)
 
 ```csharp
 ref int CPOutput { get; }
@@ -20,7 +20,7 @@ ref int CPOutput { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L16)
+### **InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput InputValue { get; }
@@ -30,7 +30,7 @@ CParticleCollectionFloatInput InputValue { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**OutVectorField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L20)
+### **OutVectorField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L20)
 
 ```csharp
 ref int OutVectorField { get; }
@@ -40,7 +40,7 @@ ref int OutVectorField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**QuantizeValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L22)
+### **QuantizeValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_QuantizeCPComponent.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput QuantizeValue { get; }

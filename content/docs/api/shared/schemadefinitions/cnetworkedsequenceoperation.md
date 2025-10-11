@@ -10,7 +10,7 @@ public interface CNetworkedSequenceOperation : ISchemaClass<CNetworkedSequenceOp
 
 ## Properties
 
-**Cycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L20)
+### **Cycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L20)
 
 ```csharp
 ref float Cycle { get; }
@@ -20,7 +20,7 @@ ref float Cycle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Discontinuity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L26)
+### **Discontinuity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L26)
 
 ```csharp
 ref bool Discontinuity { get; }
@@ -30,7 +30,7 @@ ref bool Discontinuity { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PrevCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L18)
+### **PrevCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L18)
 
 ```csharp
 ref float PrevCycle { get; }
@@ -40,7 +40,7 @@ ref float PrevCycle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PrevCycleForAnimEventDetection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L30)
+### **PrevCycleForAnimEventDetection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L30)
 
 ```csharp
 ref float PrevCycleForAnimEventDetection { get; }
@@ -50,7 +50,7 @@ ref float PrevCycleForAnimEventDetection { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PrevCycleFromDiscontinuity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L28)
+### **PrevCycleFromDiscontinuity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L28)
 
 ```csharp
 ref float PrevCycleFromDiscontinuity { get; }
@@ -60,7 +60,7 @@ ref float PrevCycleFromDiscontinuity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L16)
+### **Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L16)
 
 ```csharp
 HSequence Sequence { get; }
@@ -70,7 +70,7 @@ HSequence Sequence { get; }
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
-**SequenceChangeNetworked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L24)
+### **SequenceChangeNetworked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L24)
 
 ```csharp
 ref bool SequenceChangeNetworked { get; }
@@ -80,7 +80,7 @@ ref bool SequenceChangeNetworked { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L22)
+### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L22)
 
 ```csharp
 ref CNetworkedQuantizedFloat Weight { get; }
@@ -92,25 +92,25 @@ ref CNetworkedQuantizedFloat Weight { get; }
 
 ## Methods
 
-**CycleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L34)
+### **CycleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L34)
 
 ```csharp
 void CycleUpdated()
 ```
 
-**PrevCycleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L33)
+### **PrevCycleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L33)
 
 ```csharp
 void PrevCycleUpdated()
 ```
 
-**SequenceUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L32)
+### **SequenceUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L32)
 
 ```csharp
 void SequenceUpdated()
 ```
 
-**WeightUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L35)
+### **WeightUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkedSequenceOperation.cs#L35)
 
 ```csharp
 void WeightUpdated()

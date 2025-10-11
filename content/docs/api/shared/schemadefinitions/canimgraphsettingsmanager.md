@@ -10,7 +10,7 @@ public interface CAnimGraphSettingsManager : ISchemaClass<CAnimGraphSettingsMana
 
 ## Properties
 
-**SettingsGroups** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphSettingsManager.cs#L17)
+### **SettingsGroups** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphSettingsManager.cs#L17)
 
 ```csharp
 ref CUtlVector SettingsGroups { get; }
@@ -18,5 +18,5 @@ ref CUtlVector SettingsGroups { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

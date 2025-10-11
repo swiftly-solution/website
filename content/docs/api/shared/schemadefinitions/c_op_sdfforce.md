@@ -10,7 +10,7 @@ public interface C_OP_SDFForce : CParticleFunctionForce, CParticleFunction, ISch
 
 ## Properties
 
-**ForceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SDFForce.cs#L16)
+### **ForceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SDFForce.cs#L16)
 
 ```csharp
 ref float ForceScale { get; }

@@ -10,7 +10,7 @@ public interface CFootTrajectory : ISchemaClass<CFootTrajectory>, ISchemaField, 
 
 ## Properties
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootTrajectory.cs#L16)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootTrajectory.cs#L16)
 
 ```csharp
 ref Vector Offset { get; }
@@ -20,7 +20,7 @@ ref Vector Offset { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Progression** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootTrajectory.cs#L20)
+### **Progression** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootTrajectory.cs#L20)
 
 ```csharp
 ref float Progression { get; }
@@ -30,7 +30,7 @@ ref float Progression { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RotationOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootTrajectory.cs#L18)
+### **RotationOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootTrajectory.cs#L18)
 
 ```csharp
 ref float RotationOffset { get; }

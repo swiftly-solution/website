@@ -10,7 +10,7 @@ public interface CCSPlayer_RadioServices : CPlayerPawnComponent, ISchemaClass<CP
 
 ## Properties
 
-**C4PlantTalkTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L20)
+### **C4PlantTalkTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L20)
 
 ```csharp
 GameTime_t C4PlantTalkTimer { get; }
@@ -20,7 +20,7 @@ GameTime_t C4PlantTalkTimer { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**DefusingTalkTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L18)
+### **DefusingTalkTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L18)
 
 ```csharp
 GameTime_t DefusingTalkTimer { get; }
@@ -30,7 +30,7 @@ GameTime_t DefusingTalkTimer { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**GotHostageTalkTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L16)
+### **GotHostageTalkTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L16)
 
 ```csharp
 GameTime_t GotHostageTalkTimer { get; }
@@ -40,7 +40,7 @@ GameTime_t GotHostageTalkTimer { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**IgnoreRadio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L25)
+### **IgnoreRadio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L25)
 
 ```csharp
 ref bool IgnoreRadio { get; }
@@ -50,7 +50,7 @@ ref bool IgnoreRadio { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RadioTokenSlots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L23)
+### **RadioTokenSlots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_RadioServices.cs#L23)
 
 ```csharp
 SchemaUntypedField RadioTokenSlots { get; }

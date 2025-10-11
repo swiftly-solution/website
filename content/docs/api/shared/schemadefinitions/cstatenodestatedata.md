@@ -10,7 +10,7 @@ public interface CStateNodeStateData : ISchemaClass<CStateNodeStateData>, ISchem
 
 ## Properties
 
-**Child** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeStateData.cs#L16)
+### **Child** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeStateData.cs#L16)
 
 ```csharp
 CAnimUpdateNodeRef Child { get; }
@@ -20,7 +20,7 @@ CAnimUpdateNodeRef Child { get; }
 
 - [CAnimUpdateNodeRef](/docs/api/shared/schemadefinitions/canimupdatenoderef)
 
-**ExclusiveRootMotion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeStateData.cs#L19)
+### **ExclusiveRootMotion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeStateData.cs#L19)
 
 ```csharp
 SchemaUntypedField ExclusiveRootMotion { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField ExclusiveRootMotion { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ExclusiveRootMotionFirstFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeStateData.cs#L22)
+### **ExclusiveRootMotionFirstFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateNodeStateData.cs#L22)
 
 ```csharp
 SchemaUntypedField ExclusiveRootMotionFirstFrame { get; }

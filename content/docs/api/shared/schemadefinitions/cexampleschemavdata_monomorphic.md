@@ -10,7 +10,7 @@ public interface CExampleSchemaVData_Monomorphic : ISchemaClass<CExampleSchemaVD
 
 ## Properties
 
-**Example1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExampleSchemaVData_Monomorphic.cs#L16)
+### **Example1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExampleSchemaVData_Monomorphic.cs#L16)
 
 ```csharp
 ref int Example1 { get; }
@@ -20,7 +20,7 @@ ref int Example1 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Example2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExampleSchemaVData_Monomorphic.cs#L18)
+### **Example2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExampleSchemaVData_Monomorphic.cs#L18)
 
 ```csharp
 ref int Example2 { get; }

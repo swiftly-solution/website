@@ -10,7 +10,7 @@ public interface C_INIT_InitFromParentKilled : CParticleFunctionInitializer, CPa
 
 ## Properties
 
-**AttributeToCopy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromParentKilled.cs#L16)
+### **AttributeToCopy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromParentKilled.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t AttributeToCopy { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t AttributeToCopy { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**EventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromParentKilled.cs#L18)
+### **EventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitFromParentKilled.cs#L18)
 
 ```csharp
 ref EventTypeSelection_t EventType { get; }

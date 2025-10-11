@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest : IType
 
 ## Properties
 
-**ParamA** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest.cs#L16)
+### **ParamA** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest.cs#L16)
 
 ```csharp
 ulong ParamA { get; set; }
@@ -20,7 +20,7 @@ ulong ParamA { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ParamD** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest.cs#L19)
+### **ParamD** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest.cs#L19)
 
 ```csharp
 ulong ParamD { get; set; }
@@ -30,7 +30,7 @@ ulong ParamD { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ParamM** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest.cs#L22)
+### **ParamM** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest.cs#L22)
 
 ```csharp
 ulong ParamM { get; set; }
@@ -40,7 +40,7 @@ ulong ParamM { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ParamS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest.cs#L13)
+### **ParamS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest.cs#L13)
 
 ```csharp
 ulong ParamS { get; set; }

@@ -10,7 +10,7 @@ public interface CRevertSaved : CModelPointEntity, CBaseModelEntity, CBaseEntity
 
 ## Properties
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L18)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L18)
 
 ```csharp
 ref float Duration { get; }
@@ -20,7 +20,7 @@ ref float Duration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HoldTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L20)
+### **HoldTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L20)
 
 ```csharp
 ref float HoldTime { get; }
@@ -30,7 +30,7 @@ ref float HoldTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LoadTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L16)
+### **LoadTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRevertSaved.cs#L16)
 
 ```csharp
 ref float LoadTime { get; }

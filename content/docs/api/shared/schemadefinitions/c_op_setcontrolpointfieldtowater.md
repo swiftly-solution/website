@@ -10,7 +10,7 @@ public interface C_OP_SetControlPointFieldToWater : CParticleFunctionPreEmission
 
 ## Properties
 
-**CPField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToWater.cs#L20)
+### **CPField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToWater.cs#L20)
 
 ```csharp
 ref int CPField { get; }
@@ -20,7 +20,7 @@ ref int CPField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DestCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToWater.cs#L18)
+### **DestCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToWater.cs#L18)
 
 ```csharp
 ref int DestCP { get; }
@@ -30,7 +30,7 @@ ref int DestCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SourceCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToWater.cs#L16)
+### **SourceCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToWater.cs#L16)
 
 ```csharp
 ref int SourceCP { get; }

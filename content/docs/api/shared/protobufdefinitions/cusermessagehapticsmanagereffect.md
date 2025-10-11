@@ -10,7 +10,7 @@ public interface CUserMessageHapticsManagerEffect : ITypedProtobuf<CUserMessageH
 
 ## Properties
 
-**EffectNameHashCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerEffect.cs#L21)
+### **EffectNameHashCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerEffect.cs#L21)
 
 ```csharp
 uint EffectNameHashCode { get; set; }
@@ -20,7 +20,7 @@ uint EffectNameHashCode { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**EffectScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerEffect.cs#L24)
+### **EffectScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerEffect.cs#L24)
 
 ```csharp
 float EffectScale { get; set; }
@@ -30,7 +30,7 @@ float EffectScale { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HandId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerEffect.cs#L18)
+### **HandId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageHapticsManagerEffect.cs#L18)
 
 ```csharp
 int HandId { get; set; }

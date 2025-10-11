@@ -10,7 +10,7 @@ public interface CPointPrefab : CServerOnlyPointEntity, CServerOnlyEntity, CBase
 
 ## Properties
 
-**AssociatedRelayEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L26)
+### **AssociatedRelayEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L26)
 
 ```csharp
 ref CHandle<CPointPrefab> AssociatedRelayEntity { get; }
@@ -20,7 +20,7 @@ ref CHandle<CPointPrefab> AssociatedRelayEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPointPrefab](/docs/api/shared/schemadefinitions/cpointprefab)>
 
-**AssociatedRelayTargetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L20)
+### **AssociatedRelayTargetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L20)
 
 ```csharp
 string AssociatedRelayTargetName { get; set; }
@@ -30,7 +30,7 @@ string AssociatedRelayTargetName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**FixupNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L22)
+### **FixupNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L22)
 
 ```csharp
 ref bool FixupNames { get; }
@@ -40,7 +40,7 @@ ref bool FixupNames { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ForceWorldGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L18)
+### **ForceWorldGroupID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L18)
 
 ```csharp
 string ForceWorldGroupID { get; set; }
@@ -50,7 +50,7 @@ string ForceWorldGroupID { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**LoadDynamic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L24)
+### **LoadDynamic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L24)
 
 ```csharp
 ref bool LoadDynamic { get; }
@@ -60,7 +60,7 @@ ref bool LoadDynamic { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetMapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L16)
+### **TargetMapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPrefab.cs#L16)
 
 ```csharp
 string TargetMapName { get; set; }

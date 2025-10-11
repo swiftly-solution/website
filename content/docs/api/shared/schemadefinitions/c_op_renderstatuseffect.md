@@ -10,7 +10,7 @@ public interface C_OP_RenderStatusEffect : CParticleFunctionRenderer, CParticleF
 
 ## Properties
 
-**TextureColorWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L16)
+### **TextureColorWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureColorWarp { get; }
@@ -20,7 +20,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureColorWarp { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureDetail2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L18)
+### **TextureDetail2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDetail2 { get; }
@@ -30,7 +30,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDetail2 { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureDiffuseWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L20)
+### **TextureDiffuseWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDiffuseWarp { get; }
@@ -40,7 +40,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDiffuseWarp { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureEnvMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L28)
+### **TextureEnvMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L28)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureEnvMap { get; }
@@ -50,7 +50,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureEnvMap { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureFresnelColorWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L22)
+### **TextureFresnelColorWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureFresnelColorWarp { get; }
@@ -60,7 +60,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureFresnelColorWarp { get
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureFresnelWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L24)
+### **TextureFresnelWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L24)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureFresnelWarp { get; }
@@ -70,7 +70,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureFresnelWarp { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-**TextureSpecularWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L26)
+### **TextureSpecularWarp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStatusEffect.cs#L26)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureSpecularWarp { get; }

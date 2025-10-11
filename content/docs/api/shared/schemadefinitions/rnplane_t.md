@@ -10,7 +10,7 @@ public interface RnPlane_t : ISchemaClass<RnPlane_t>, ISchemaField, ISchemaClass
 
 ## Properties
 
-**Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnPlane_t.cs#L16)
+### **Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnPlane_t.cs#L16)
 
 ```csharp
 ref Vector Normal { get; }
@@ -20,7 +20,7 @@ ref Vector Normal { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnPlane_t.cs#L18)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnPlane_t.cs#L18)
 
 ```csharp
 ref float Offset { get; }

@@ -10,7 +10,7 @@ public interface EventPlayerHurt : IGameEvent<EventPlayerHurt>
 
 ## Properties
 
-**Armor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L62)
+### **Armor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L62)
 
 ```csharp
 byte Armor { get; set; }
@@ -20,7 +20,7 @@ byte Armor { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**Attacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L48)
+### **Attacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L48)
 
 ```csharp
 int Attacker { get; set; }
@@ -30,7 +30,7 @@ int Attacker { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DmgArmor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L83)
+### **DmgArmor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L83)
 
 ```csharp
 byte DmgArmor { get; set; }
@@ -40,7 +40,7 @@ byte DmgArmor { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**DmgHealth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L76)
+### **DmgHealth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L76)
 
 ```csharp
 short DmgHealth { get; set; }
@@ -50,7 +50,7 @@ short DmgHealth { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Health** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L55)
+### **Health** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L55)
 
 ```csharp
 byte Health { get; set; }
@@ -60,7 +60,7 @@ byte Health { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**HitGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L90)
+### **HitGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L90)
 
 ```csharp
 byte HitGroup { get; set; }
@@ -70,7 +70,7 @@ byte HitGroup { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L41)
+### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L41)
 
 ```csharp
 int UserId { get; set; }
@@ -80,7 +80,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L23)
+### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L23)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -90,7 +90,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L30)
+### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L30)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -100,7 +100,7 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L34)
+### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L34)
 
 ```csharp
 IPlayer UserIdPlayer { get; }
@@ -110,7 +110,7 @@ IPlayer UserIdPlayer { get; }
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 
-**Weapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L69)
+### **Weapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHurt.cs#L69)
 
 ```csharp
 string Weapon { get; set; }

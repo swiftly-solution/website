@@ -10,7 +10,7 @@ public interface CMsgTEImpact : ITypedProtobuf<CMsgTEImpact>, INativeHandle, INe
 
 ## Properties
 
-**Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEImpact.cs#L21)
+### **Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEImpact.cs#L21)
 
 ```csharp
 Vector Normal { get; set; }
@@ -20,7 +20,7 @@ Vector Normal { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEImpact.cs#L18)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEImpact.cs#L18)
 
 ```csharp
 Vector Origin { get; set; }
@@ -30,7 +30,7 @@ Vector Origin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEImpact.cs#L24)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEImpact.cs#L24)
 
 ```csharp
 uint Type { get; set; }

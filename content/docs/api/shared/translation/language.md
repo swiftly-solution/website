@@ -14,7 +14,7 @@ public sealed class Language : IEquatable<Language>
 
 ## Constructors
 
-**Language(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L8)
+### **Language(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L8)
 
 ```csharp
 public Language(string value)
@@ -26,7 +26,7 @@ public Language(string value)
 
 ## Fields
 
-**Arabic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L46)
+### **Arabic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L46)
 
 ```csharp
 public static Language Arabic
@@ -36,7 +36,7 @@ public static Language Arabic
 
 - [Language](/docs/api/shared/translation/language)
 
-**Brazilian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L66)
+### **Brazilian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L66)
 
 ```csharp
 public static Language Brazilian
@@ -46,7 +46,7 @@ public static Language Brazilian
 
 - [Language](/docs/api/shared/translation/language)
 
-**Bulgarian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L47)
+### **Bulgarian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L47)
 
 ```csharp
 public static Language Bulgarian
@@ -56,7 +56,7 @@ public static Language Bulgarian
 
 - [Language](/docs/api/shared/translation/language)
 
-**ChineseCN** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L48)
+### **ChineseCN** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L48)
 
 ```csharp
 public static Language ChineseCN
@@ -66,7 +66,7 @@ public static Language ChineseCN
 
 - [Language](/docs/api/shared/translation/language)
 
-**ChineseTW** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L49)
+### **ChineseTW** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L49)
 
 ```csharp
 public static Language ChineseTW
@@ -76,7 +76,7 @@ public static Language ChineseTW
 
 - [Language](/docs/api/shared/translation/language)
 
-**Czech** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L50)
+### **Czech** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L50)
 
 ```csharp
 public static Language Czech
@@ -86,7 +86,7 @@ public static Language Czech
 
 - [Language](/docs/api/shared/translation/language)
 
-**Danish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L51)
+### **Danish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L51)
 
 ```csharp
 public static Language Danish
@@ -96,7 +96,7 @@ public static Language Danish
 
 - [Language](/docs/api/shared/translation/language)
 
-**Dutch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L52)
+### **Dutch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L52)
 
 ```csharp
 public static Language Dutch
@@ -106,7 +106,7 @@ public static Language Dutch
 
 - [Language](/docs/api/shared/translation/language)
 
-**English** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L53)
+### **English** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L53)
 
 ```csharp
 public static Language English
@@ -116,7 +116,7 @@ public static Language English
 
 - [Language](/docs/api/shared/translation/language)
 
-**Finnish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L54)
+### **Finnish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L54)
 
 ```csharp
 public static Language Finnish
@@ -126,7 +126,7 @@ public static Language Finnish
 
 - [Language](/docs/api/shared/translation/language)
 
-**French** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L55)
+### **French** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L55)
 
 ```csharp
 public static Language French
@@ -136,7 +136,7 @@ public static Language French
 
 - [Language](/docs/api/shared/translation/language)
 
-**German** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L56)
+### **German** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L56)
 
 ```csharp
 public static Language German
@@ -146,7 +146,7 @@ public static Language German
 
 - [Language](/docs/api/shared/translation/language)
 
-**Greek** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L57)
+### **Greek** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L57)
 
 ```csharp
 public static Language Greek
@@ -156,7 +156,7 @@ public static Language Greek
 
 - [Language](/docs/api/shared/translation/language)
 
-**Hungarian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L58)
+### **Hungarian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L58)
 
 ```csharp
 public static Language Hungarian
@@ -166,7 +166,7 @@ public static Language Hungarian
 
 - [Language](/docs/api/shared/translation/language)
 
-**Indonesian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L59)
+### **Indonesian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L59)
 
 ```csharp
 public static Language Indonesian
@@ -176,7 +176,7 @@ public static Language Indonesian
 
 - [Language](/docs/api/shared/translation/language)
 
-**Italian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L60)
+### **Italian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L60)
 
 ```csharp
 public static Language Italian
@@ -186,7 +186,7 @@ public static Language Italian
 
 - [Language](/docs/api/shared/translation/language)
 
-**Japanese** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L61)
+### **Japanese** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L61)
 
 ```csharp
 public static Language Japanese
@@ -196,7 +196,7 @@ public static Language Japanese
 
 - [Language](/docs/api/shared/translation/language)
 
-**Korean** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L62)
+### **Korean** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L62)
 
 ```csharp
 public static Language Korean
@@ -206,7 +206,7 @@ public static Language Korean
 
 - [Language](/docs/api/shared/translation/language)
 
-**LatinAmerica** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L70)
+### **LatinAmerica** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L70)
 
 ```csharp
 public static Language LatinAmerica
@@ -216,7 +216,7 @@ public static Language LatinAmerica
 
 - [Language](/docs/api/shared/translation/language)
 
-**Norwegian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L63)
+### **Norwegian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L63)
 
 ```csharp
 public static Language Norwegian
@@ -226,7 +226,7 @@ public static Language Norwegian
 
 - [Language](/docs/api/shared/translation/language)
 
-**Polish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L64)
+### **Polish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L64)
 
 ```csharp
 public static Language Polish
@@ -236,7 +236,7 @@ public static Language Polish
 
 - [Language](/docs/api/shared/translation/language)
 
-**Portuguese** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L65)
+### **Portuguese** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L65)
 
 ```csharp
 public static Language Portuguese
@@ -246,7 +246,7 @@ public static Language Portuguese
 
 - [Language](/docs/api/shared/translation/language)
 
-**Romanian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L67)
+### **Romanian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L67)
 
 ```csharp
 public static Language Romanian
@@ -256,7 +256,7 @@ public static Language Romanian
 
 - [Language](/docs/api/shared/translation/language)
 
-**Russian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L68)
+### **Russian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L68)
 
 ```csharp
 public static Language Russian
@@ -266,7 +266,7 @@ public static Language Russian
 
 - [Language](/docs/api/shared/translation/language)
 
-**Spanish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L69)
+### **Spanish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L69)
 
 ```csharp
 public static Language Spanish
@@ -276,7 +276,7 @@ public static Language Spanish
 
 - [Language](/docs/api/shared/translation/language)
 
-**Swedish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L71)
+### **Swedish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L71)
 
 ```csharp
 public static Language Swedish
@@ -286,7 +286,7 @@ public static Language Swedish
 
 - [Language](/docs/api/shared/translation/language)
 
-**Thai** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L72)
+### **Thai** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L72)
 
 ```csharp
 public static Language Thai
@@ -296,7 +296,7 @@ public static Language Thai
 
 - [Language](/docs/api/shared/translation/language)
 
-**Turkish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L73)
+### **Turkish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L73)
 
 ```csharp
 public static Language Turkish
@@ -306,7 +306,7 @@ public static Language Turkish
 
 - [Language](/docs/api/shared/translation/language)
 
-**Ukrainian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L74)
+### **Ukrainian** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L74)
 
 ```csharp
 public static Language Ukrainian
@@ -316,7 +316,7 @@ public static Language Ukrainian
 
 - [Language](/docs/api/shared/translation/language)
 
-**Vietnamese** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L75)
+### **Vietnamese** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L75)
 
 ```csharp
 public static Language Vietnamese
@@ -328,7 +328,7 @@ public static Language Vietnamese
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L6)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L6)
 
 ```csharp
 public string Value { get; }
@@ -340,7 +340,7 @@ public string Value { get; }
 
 ## Methods
 
-**Equals(Language?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L81)
+### **Equals(Language?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L81)
 
 ```csharp
 public bool Equals(Language? other)
@@ -354,7 +354,7 @@ public bool Equals(Language? other)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
-**Equals(object?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L86)
+### **Equals(object?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L86)
 
 ```csharp
 public override bool Equals(object? obj)
@@ -368,7 +368,7 @@ public override bool Equals(object? obj)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
-**GetHashCode()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L91)
+### **GetHashCode()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L91)
 
 ```csharp
 public override int GetHashCode()
@@ -378,7 +378,7 @@ public override int GetHashCode()
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A hash code for the current object.
 
-**ToString()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L77)
+### **ToString()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L77)
 
 ```csharp
 public override string ToString()
@@ -390,7 +390,7 @@ public override string ToString()
 
 ## Operators
 
-**implicit operator string(Language)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L79)
+### **implicit operator string(Language)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Translations/Language.cs#L79)
 
 ```csharp
 public static implicit operator string(Language language)

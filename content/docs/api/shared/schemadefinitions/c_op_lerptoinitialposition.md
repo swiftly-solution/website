@@ -10,7 +10,7 @@ public interface C_OP_LerpToInitialPosition : CParticleFunctionOperator, CPartic
 
 ## Properties
 
-**CacheField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToInitialPosition.cs#L20)
+### **CacheField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToInitialPosition.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t CacheField { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t CacheField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToInitialPosition.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToInitialPosition.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -30,7 +30,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToInitialPosition.cs#L18)
+### **Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToInitialPosition.cs#L18)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }
@@ -40,7 +40,7 @@ CPerParticleFloatInput Interpolation { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToInitialPosition.cs#L22)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToInitialPosition.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput Scale { get; }
@@ -50,7 +50,7 @@ CParticleCollectionFloatInput Scale { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**Scale1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToInitialPosition.cs#L24)
+### **Scale1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LerpToInitialPosition.cs#L24)
 
 ```csharp
 CParticleCollectionVecInput Scale1 { get; }

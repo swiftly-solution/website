@@ -10,7 +10,7 @@ public interface CAnimDecoder : ISchemaClass<CAnimDecoder>, ISchemaField, ISchem
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDecoder.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDecoder.cs#L16)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -20,7 +20,7 @@ ref CBufferString Name { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDecoder.cs#L20)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDecoder.cs#L20)
 
 ```csharp
 ref int Type { get; }
@@ -30,7 +30,7 @@ ref int Type { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDecoder.cs#L18)
+### **Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimDecoder.cs#L18)
 
 ```csharp
 ref int Version { get; }

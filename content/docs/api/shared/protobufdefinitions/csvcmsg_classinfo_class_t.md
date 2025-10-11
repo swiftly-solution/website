@@ -10,7 +10,7 @@ public interface CSVCMsg_ClassInfo_class_t : ITypedProtobuf<CSVCMsg_ClassInfo_cl
 
 ## Properties
 
-**ClassId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClassInfo_class_t.cs#L13)
+### **ClassId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClassInfo_class_t.cs#L13)
 
 ```csharp
 int ClassId { get; set; }
@@ -20,7 +20,7 @@ int ClassId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ClassName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClassInfo_class_t.cs#L16)
+### **ClassName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClassInfo_class_t.cs#L16)
 
 ```csharp
 string ClassName { get; set; }

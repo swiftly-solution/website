@@ -10,7 +10,7 @@ public interface CSOPersonaDataPublic : ITypedProtobuf<CSOPersonaDataPublic>, IN
 
 ## Properties
 
-**Commendation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPersonaDataPublic.cs#L16)
+### **Commendation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPersonaDataPublic.cs#L16)
 
 ```csharp
 PlayerCommendationInfo Commendation { get; }
@@ -20,7 +20,7 @@ PlayerCommendationInfo Commendation { get; }
 
 - [PlayerCommendationInfo](/docs/api/shared/protobufdefinitions/playercommendationinfo)
 
-**ElevatedState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPersonaDataPublic.cs#L19)
+### **ElevatedState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPersonaDataPublic.cs#L19)
 
 ```csharp
 bool ElevatedState { get; set; }
@@ -30,7 +30,7 @@ bool ElevatedState { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PlayerLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPersonaDataPublic.cs#L13)
+### **PlayerLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPersonaDataPublic.cs#L13)
 
 ```csharp
 int PlayerLevel { get; set; }
@@ -40,7 +40,7 @@ int PlayerLevel { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**XpTrailLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPersonaDataPublic.cs#L25)
+### **XpTrailLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPersonaDataPublic.cs#L25)
 
 ```csharp
 uint XpTrailLevel { get; set; }
@@ -50,7 +50,7 @@ uint XpTrailLevel { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**XpTrailTimestampRefresh** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPersonaDataPublic.cs#L22)
+### **XpTrailTimestampRefresh** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPersonaDataPublic.cs#L22)
 
 ```csharp
 uint XpTrailTimestampRefresh { get; set; }

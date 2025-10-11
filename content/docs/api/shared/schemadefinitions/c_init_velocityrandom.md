@@ -10,7 +10,7 @@ public interface C_INIT_VelocityRandom : CParticleFunctionInitializer, CParticle
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**IgnoreDT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L26)
+### **IgnoreDT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L26)
 
 ```csharp
 ref bool IgnoreDT { get; }
@@ -30,7 +30,7 @@ ref bool IgnoreDT { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LocalCoordinateSystemSpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L24)
+### **LocalCoordinateSystemSpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L24)
 
 ```csharp
 CPerParticleVecInput LocalCoordinateSystemSpeedMax { get; }
@@ -40,7 +40,7 @@ CPerParticleVecInput LocalCoordinateSystemSpeedMax { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**LocalCoordinateSystemSpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L22)
+### **LocalCoordinateSystemSpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L22)
 
 ```csharp
 CPerParticleVecInput LocalCoordinateSystemSpeedMin { get; }
@@ -50,7 +50,7 @@ CPerParticleVecInput LocalCoordinateSystemSpeedMin { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**RandomnessParameters** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L28)
+### **RandomnessParameters** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L28)
 
 ```csharp
 CRandomNumberGeneratorParameters RandomnessParameters { get; }
@@ -60,7 +60,7 @@ CRandomNumberGeneratorParameters RandomnessParameters { get; }
 
 - [CRandomNumberGeneratorParameters](/docs/api/shared/schemadefinitions/crandomnumbergeneratorparameters)
 
-**SpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L20)
+### **SpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L20)
 
 ```csharp
 CPerParticleFloatInput SpeedMax { get; }
@@ -70,7 +70,7 @@ CPerParticleFloatInput SpeedMax { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L18)
+### **SpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRandom.cs#L18)
 
 ```csharp
 CPerParticleFloatInput SpeedMin { get; }

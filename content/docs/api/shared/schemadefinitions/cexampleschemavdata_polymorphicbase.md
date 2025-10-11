@@ -10,7 +10,7 @@ public interface CExampleSchemaVData_PolymorphicBase : ISchemaClass<CExampleSche
 
 ## Properties
 
-**Base** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExampleSchemaVData_PolymorphicBase.cs#L16)
+### **Base** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExampleSchemaVData_PolymorphicBase.cs#L16)
 
 ```csharp
 ref int Base { get; }

@@ -10,7 +10,7 @@ public struct RnQueryShapeAttr_t
 
 ## Fields
 
-**CollisionGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L214)
+### **CollisionGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L214)
 
 ```csharp
 public CollisionGroup CollisionGroup
@@ -20,7 +20,7 @@ public CollisionGroup CollisionGroup
 
 - [CollisionGroup](/docs/api/shared/natives/collisiongroup)
 
-**EntityIdsToIgnore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L210)
+### **EntityIdsToIgnore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L210)
 
 ```csharp
 public uint* EntityIdsToIgnore
@@ -30,7 +30,7 @@ public uint* EntityIdsToIgnore
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 
-**HierarchyIds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L212)
+### **HierarchyIds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L212)
 
 ```csharp
 public ushort* HierarchyIds
@@ -40,7 +40,7 @@ public ushort* HierarchyIds
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)*
 
-**InteractsAs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L209)
+### **InteractsAs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L209)
 
 ```csharp
 public MaskTrace InteractsAs
@@ -50,7 +50,7 @@ public MaskTrace InteractsAs
 
 - [MaskTrace](/docs/api/shared/natives/masktrace)
 
-**InteractsExclude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L208)
+### **InteractsExclude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L208)
 
 ```csharp
 public MaskTrace InteractsExclude
@@ -60,7 +60,7 @@ public MaskTrace InteractsExclude
 
 - [MaskTrace](/docs/api/shared/natives/masktrace)
 
-**InteractsWith** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L207)
+### **InteractsWith** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L207)
 
 ```csharp
 public MaskTrace InteractsWith
@@ -70,7 +70,7 @@ public MaskTrace InteractsWith
 
 - [MaskTrace](/docs/api/shared/natives/masktrace)
 
-**ObjectSetMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L213)
+### **ObjectSetMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L213)
 
 ```csharp
 public RnQueryObjectSet ObjectSetMask
@@ -80,7 +80,7 @@ public RnQueryObjectSet ObjectSetMask
 
 - [RnQueryObjectSet](/docs/api/shared/natives/rnqueryobjectset)
 
-**OwnerIdsToIgnore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L211)
+### **OwnerIdsToIgnore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L211)
 
 ```csharp
 public uint* OwnerIdsToIgnore
@@ -92,7 +92,7 @@ public uint* OwnerIdsToIgnore
 
 ## Properties
 
-**ForceHitEverything** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L248)
+### **ForceHitEverything** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L248)
 
 ```csharp
 public bool ForceHitEverything { get; set; }
@@ -102,7 +102,7 @@ public bool ForceHitEverything { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HitSolid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L218)
+### **HitSolid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L218)
 
 ```csharp
 public bool HitSolid { get; set; }
@@ -112,7 +112,7 @@ public bool HitSolid { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HitSolidRequiresGenerateContacts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L224)
+### **HitSolidRequiresGenerateContacts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L224)
 
 ```csharp
 public bool HitSolidRequiresGenerateContacts { get; set; }
@@ -122,7 +122,7 @@ public bool HitSolidRequiresGenerateContacts { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HitTrigger** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L230)
+### **HitTrigger** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L230)
 
 ```csharp
 public bool HitTrigger { get; set; }
@@ -132,7 +132,7 @@ public bool HitTrigger { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IgnoreIfBothInteractWithHitboxes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L242)
+### **IgnoreIfBothInteractWithHitboxes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L242)
 
 ```csharp
 public bool IgnoreIfBothInteractWithHitboxes { get; set; }
@@ -142,7 +142,7 @@ public bool IgnoreIfBothInteractWithHitboxes { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ShouldIgnoreDisabledPairs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L236)
+### **ShouldIgnoreDisabledPairs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L236)
 
 ```csharp
 public bool ShouldIgnoreDisabledPairs { get; set; }
@@ -152,7 +152,7 @@ public bool ShouldIgnoreDisabledPairs { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Unknown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L254)
+### **Unknown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/RnQueryShapeAttr_t.cs#L254)
 
 ```csharp
 public bool Unknown { get; set; }

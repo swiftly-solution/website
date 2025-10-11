@@ -10,7 +10,7 @@ public interface C_OP_ContinuousEmitter : CParticleFunctionEmitter, CParticleFun
 
 ## Properties
 
-**EmissionDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L16)
+### **EmissionDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput EmissionDuration { get; }
@@ -20,7 +20,7 @@ CParticleCollectionFloatInput EmissionDuration { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**EmissionScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L22)
+### **EmissionScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L22)
 
 ```csharp
 ref float EmissionScale { get; }
@@ -30,7 +30,7 @@ ref float EmissionScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EmitRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L20)
+### **EmitRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput EmitRate { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput EmitRate { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**EventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L28)
+### **EventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L28)
 
 ```csharp
 ref EventTypeSelection_t EventType { get; }
@@ -50,7 +50,7 @@ ref EventTypeSelection_t EventType { get; }
 
 - [EventTypeSelection_t](/docs/api/shared/schemadefinitions/eventtypeselection_t)
 
-**ForceEmitOnFirstUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L36)
+### **ForceEmitOnFirstUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L36)
 
 ```csharp
 ref bool ForceEmitOnFirstUpdate { get; }
@@ -60,7 +60,7 @@ ref bool ForceEmitOnFirstUpdate { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ForceEmitOnLastUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L38)
+### **ForceEmitOnLastUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L38)
 
 ```csharp
 ref bool ForceEmitOnLastUpdate { get; }
@@ -70,7 +70,7 @@ ref bool ForceEmitOnLastUpdate { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InitFromKilledParentParticles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L26)
+### **InitFromKilledParentParticles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L26)
 
 ```csharp
 ref bool InitFromKilledParentParticles { get; }
@@ -80,7 +80,7 @@ ref bool InitFromKilledParentParticles { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LimitPerUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L34)
+### **LimitPerUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L34)
 
 ```csharp
 ref int LimitPerUpdate { get; }
@@ -90,7 +90,7 @@ ref int LimitPerUpdate { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ScalePerParentParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L24)
+### **ScalePerParentParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L24)
 
 ```csharp
 ref float ScalePerParentParticle { get; }
@@ -100,7 +100,7 @@ ref float ScalePerParentParticle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SnapshotControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L30)
+### **SnapshotControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L30)
 
 ```csharp
 ref int SnapshotControlPoint { get; }
@@ -110,7 +110,7 @@ ref int SnapshotControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L18)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput StartTime { get; }
@@ -120,7 +120,7 @@ CParticleCollectionFloatInput StartTime { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**StrSnapshotSubset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L32)
+### **StrSnapshotSubset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ContinuousEmitter.cs#L32)
 
 ```csharp
 string StrSnapshotSubset { get; set; }

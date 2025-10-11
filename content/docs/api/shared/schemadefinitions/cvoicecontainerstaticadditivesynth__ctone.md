@@ -10,7 +10,7 @@ public interface CVoiceContainerStaticAdditiveSynth__CTone : ISchemaClass<CVoice
 
 ## Properties
 
-**Curve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CTone.cs#L20)
+### **Curve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CTone.cs#L20)
 
 ```csharp
 SchemaUntypedField Curve { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Curve { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Harmonics** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CTone.cs#L17)
+### **Harmonics** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CTone.cs#L17)
 
 ```csharp
 ref CUtlVector Harmonics { get; }
@@ -28,9 +28,9 @@ ref CUtlVector Harmonics { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**SyncInstances** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CTone.cs#L22)
+### **SyncInstances** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerStaticAdditiveSynth__CTone.cs#L22)
 
 ```csharp
 ref bool SyncInstances { get; }

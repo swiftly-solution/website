@@ -10,7 +10,7 @@ public interface CPulseCell_Outflow_PlaySceneBase__CursorState_t : ISchemaClass<
 
 ## Properties
 
-**MainActor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySceneBase__CursorState_t.cs#L18)
+### **MainActor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySceneBase__CursorState_t.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> MainActor { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> MainActor { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**SceneInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySceneBase__CursorState_t.cs#L16)
+### **SceneInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySceneBase__CursorState_t.cs#L16)
 
 ```csharp
 ref CHandle<CBaseEntity> SceneInstance { get; }

@@ -10,7 +10,7 @@ public interface CTriggerActiveWeaponDetect : CBaseTrigger, CBaseToggle, CBaseMo
 
 ## Properties
 
-**OnTouchedActiveWeapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerActiveWeaponDetect.cs#L16)
+### **OnTouchedActiveWeapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerActiveWeaponDetect.cs#L16)
 
 ```csharp
 CEntityIOOutput OnTouchedActiveWeapon { get; }
@@ -20,7 +20,7 @@ CEntityIOOutput OnTouchedActiveWeapon { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**WeaponClassName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerActiveWeaponDetect.cs#L18)
+### **WeaponClassName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerActiveWeaponDetect.cs#L18)
 
 ```csharp
 string WeaponClassName { get; set; }

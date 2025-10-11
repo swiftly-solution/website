@@ -10,7 +10,7 @@ public interface OperationalStatisticDescription : ITypedProtobuf<OperationalSta
 
 ## Properties
 
-**Idkey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticDescription.cs#L16)
+### **Idkey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticDescription.cs#L16)
 
 ```csharp
 uint Idkey { get; set; }
@@ -20,7 +20,7 @@ uint Idkey { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticDescription.cs#L13)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticDescription.cs#L13)
 
 ```csharp
 string Name { get; set; }

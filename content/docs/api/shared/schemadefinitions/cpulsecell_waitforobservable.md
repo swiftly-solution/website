@@ -10,7 +10,7 @@ public interface CPulseCell_WaitForObservable : CPulseCell_BaseYieldingInflow, C
 
 ## Properties
 
-**Condition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForObservable.cs#L16)
+### **Condition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForObservable.cs#L16)
 
 ```csharp
 PulseObservableBoolExpression_t Condition { get; }
@@ -20,7 +20,7 @@ PulseObservableBoolExpression_t Condition { get; }
 
 - [PulseObservableBoolExpression_t](/docs/api/shared/schemadefinitions/pulseobservableboolexpression_t)
 
-**OnTrue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForObservable.cs#L18)
+### **OnTrue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForObservable.cs#L18)
 
 ```csharp
 CPulse_ResumePoint OnTrue { get; }

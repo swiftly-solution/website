@@ -10,7 +10,7 @@ public interface C_OP_RemapVectorComponentToScalar : CParticleFunctionOperator, 
 
 ## Properties
 
-**Component** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectorComponentToScalar.cs#L20)
+### **Component** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectorComponentToScalar.cs#L20)
 
 ```csharp
 ref int Component { get; }
@@ -20,7 +20,7 @@ ref int Component { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectorComponentToScalar.cs#L16)
+### **FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectorComponentToScalar.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectorComponentToScalar.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapVectorComponentToScalar.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }

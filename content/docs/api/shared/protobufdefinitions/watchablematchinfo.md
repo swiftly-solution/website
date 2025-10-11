@@ -10,7 +10,7 @@ public interface WatchableMatchInfo : ITypedProtobuf<WatchableMatchInfo>, INativ
 
 ## Properties
 
-**ClDecryptdataKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L28)
+### **ClDecryptdataKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L28)
 
 ```csharp
 ulong ClDecryptdataKey { get; set; }
@@ -20,7 +20,7 @@ ulong ClDecryptdataKey { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ClDecryptdataKeyPub** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L31)
+### **ClDecryptdataKeyPub** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L31)
 
 ```csharp
 ulong ClDecryptdataKeyPub { get; set; }
@@ -30,7 +30,7 @@ ulong ClDecryptdataKeyPub { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**GameMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L40)
+### **GameMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L40)
 
 ```csharp
 string GameMap { get; set; }
@@ -40,7 +40,7 @@ string GameMap { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**GameMapgroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L37)
+### **GameMapgroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L37)
 
 ```csharp
 string GameMapgroup { get; set; }
@@ -50,7 +50,7 @@ string GameMapgroup { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**GameType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L34)
+### **GameType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L34)
 
 ```csharp
 uint GameType { get; set; }
@@ -60,7 +60,7 @@ uint GameType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**MatchId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L46)
+### **MatchId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L46)
 
 ```csharp
 ulong MatchId { get; set; }
@@ -70,7 +70,7 @@ ulong MatchId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ReservationId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L49)
+### **ReservationId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L49)
 
 ```csharp
 ulong ReservationId { get; set; }
@@ -80,7 +80,7 @@ ulong ReservationId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ServerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L43)
+### **ServerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L43)
 
 ```csharp
 ulong ServerId { get; set; }
@@ -90,7 +90,7 @@ ulong ServerId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ServerIp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L13)
+### **ServerIp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L13)
 
 ```csharp
 uint ServerIp { get; set; }
@@ -100,7 +100,7 @@ uint ServerIp { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TvPort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L16)
+### **TvPort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L16)
 
 ```csharp
 uint TvPort { get; set; }
@@ -110,7 +110,7 @@ uint TvPort { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TvSpectators** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L19)
+### **TvSpectators** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L19)
 
 ```csharp
 uint TvSpectators { get; set; }
@@ -120,7 +120,7 @@ uint TvSpectators { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TvTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L22)
+### **TvTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L22)
 
 ```csharp
 uint TvTime { get; set; }
@@ -130,7 +130,7 @@ uint TvTime { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TvWatchPassword** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L25)
+### **TvWatchPassword** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/WatchableMatchInfo.cs#L25)
 
 ```csharp
 byte[] TvWatchPassword { get; set; }

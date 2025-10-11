@@ -10,7 +10,7 @@ public interface CUserMessageAudioParameter : ITypedProtobuf<CUserMessageAudioPa
 
 ## Properties
 
-**IntValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAudioParameter.cs#L27)
+### **IntValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAudioParameter.cs#L27)
 
 ```csharp
 uint IntValue { get; set; }
@@ -20,7 +20,7 @@ uint IntValue { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**NameHashCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAudioParameter.cs#L21)
+### **NameHashCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAudioParameter.cs#L21)
 
 ```csharp
 uint NameHashCode { get; set; }
@@ -30,7 +30,7 @@ uint NameHashCode { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ParameterType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAudioParameter.cs#L18)
+### **ParameterType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAudioParameter.cs#L18)
 
 ```csharp
 uint ParameterType { get; set; }
@@ -40,7 +40,7 @@ uint ParameterType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAudioParameter.cs#L24)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAudioParameter.cs#L24)
 
 ```csharp
 float Value { get; set; }

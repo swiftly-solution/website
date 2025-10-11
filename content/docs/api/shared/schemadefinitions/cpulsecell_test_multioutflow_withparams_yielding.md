@@ -10,7 +10,7 @@ public interface CPulseCell_Test_MultiOutflow_WithParams_Yielding : CPulseCell_B
 
 ## Properties
 
-**AsyncChild1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding.cs#L18)
+### **AsyncChild1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding.cs#L18)
 
 ```csharp
 SignatureOutflow_Continue AsyncChild1 { get; }
@@ -20,7 +20,7 @@ SignatureOutflow_Continue AsyncChild1 { get; }
 
 - [SignatureOutflow_Continue](/docs/api/shared/schemadefinitions/signatureoutflow_continue)
 
-**AsyncChild2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding.cs#L20)
+### **AsyncChild2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding.cs#L20)
 
 ```csharp
 SignatureOutflow_Continue AsyncChild2 { get; }
@@ -30,7 +30,7 @@ SignatureOutflow_Continue AsyncChild2 { get; }
 
 - [SignatureOutflow_Continue](/docs/api/shared/schemadefinitions/signatureoutflow_continue)
 
-**Out1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding.cs#L16)
+### **Out1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding.cs#L16)
 
 ```csharp
 SignatureOutflow_Continue Out1 { get; }
@@ -40,7 +40,7 @@ SignatureOutflow_Continue Out1 { get; }
 
 - [SignatureOutflow_Continue](/docs/api/shared/schemadefinitions/signatureoutflow_continue)
 
-**YieldResume1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding.cs#L22)
+### **YieldResume1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding.cs#L22)
 
 ```csharp
 SignatureOutflow_Resume YieldResume1 { get; }
@@ -50,7 +50,7 @@ SignatureOutflow_Resume YieldResume1 { get; }
 
 - [SignatureOutflow_Resume](/docs/api/shared/schemadefinitions/signatureoutflow_resume)
 
-**YieldResume2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding.cs#L24)
+### **YieldResume2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding.cs#L24)
 
 ```csharp
 SignatureOutflow_Resume YieldResume2 { get; }

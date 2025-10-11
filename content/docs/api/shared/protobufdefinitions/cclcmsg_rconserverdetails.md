@@ -10,7 +10,7 @@ public interface CCLCMsg_RconServerDetails : ITypedProtobuf<CCLCMsg_RconServerDe
 
 ## Properties
 
-**Token** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_RconServerDetails.cs#L18)
+### **Token** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_RconServerDetails.cs#L18)
 
 ```csharp
 byte[] Token { get; set; }

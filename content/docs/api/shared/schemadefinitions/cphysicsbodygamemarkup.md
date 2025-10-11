@@ -10,7 +10,7 @@ public interface CPhysicsBodyGameMarkup : ISchemaClass<CPhysicsBodyGameMarkup>, 
 
 ## Properties
 
-**Tag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsBodyGameMarkup.cs#L18)
+### **Tag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsBodyGameMarkup.cs#L18)
 
 ```csharp
 ref CGlobalSymbol Tag { get; }
@@ -20,7 +20,7 @@ ref CGlobalSymbol Tag { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**TargetBody** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsBodyGameMarkup.cs#L16)
+### **TargetBody** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsBodyGameMarkup.cs#L16)
 
 ```csharp
 string TargetBody { get; set; }

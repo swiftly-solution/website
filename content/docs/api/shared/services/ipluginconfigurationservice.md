@@ -8,7 +8,7 @@ public interface IPluginConfigurationService
 
 ## Properties
 
-**BasePath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L11)
+### **BasePath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L11)
 
 ```csharp
 string BasePath { get; }
@@ -18,7 +18,7 @@ string BasePath { get; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**BasePathExists** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L53)
+### **BasePathExists** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L53)
 
 ```csharp
 bool BasePathExists { get; }
@@ -28,7 +28,7 @@ bool BasePathExists { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Manager** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L48)
+### **Manager** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L48)
 
 ```csharp
 IConfigurationManager Manager { get; }
@@ -40,7 +40,7 @@ IConfigurationManager Manager { get; }
 
 ## Methods
 
-**Configure(Action<IConfigurationBuilder>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L42)
+### **Configure(Action<IConfigurationBuilder>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L42)
 
 ```csharp
 IPluginConfigurationService Configure(Action<IConfigurationBuilder> configure)
@@ -54,7 +54,7 @@ IPluginConfigurationService Configure(Action<IConfigurationBuilder> configure)
 
 - [IPluginConfigurationService](/docs/api/shared/services/ipluginconfigurationservice) - The plugin configuration service.
 
-**GetConfigPath(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L19)
+### **GetConfigPath(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L19)
 
 ```csharp
 string GetConfigPath(string name)
@@ -68,7 +68,7 @@ string GetConfigPath(string name)
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The path to the configuration file.
 
-**InitializeJsonWithModel<T>(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L35)
+### **InitializeJsonWithModel<T>(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L35)
 
 ```csharp
 IPluginConfigurationService InitializeJsonWithModel<T>(string name, string sectionName) where T : class, new()
@@ -87,7 +87,7 @@ IPluginConfigurationService InitializeJsonWithModel<T>(string name, string secti
 
 - **T**:  - The type of the configuration model.
 
-**InitializeWithTemplate(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L27)
+### **InitializeWithTemplate(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Services/IPluginConfigurationService.cs#L27)
 
 ```csharp
 IPluginConfigurationService InitializeWithTemplate(string name, string templateName)

@@ -10,7 +10,7 @@ public interface CDebugHistory : CBaseEntity, CEntityInstance, ISchemaClass<CEnt
 
 ## Properties
 
-**NpcEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDebugHistory.cs#L16)
+### **NpcEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDebugHistory.cs#L16)
 
 ```csharp
 ref int NpcEvents { get; }

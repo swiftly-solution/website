@@ -10,7 +10,7 @@ public interface ScoreLeaderboardData_Entry : ITypedProtobuf<ScoreLeaderboardDat
 
 ## Properties
 
-**Tag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData_Entry.cs#L13)
+### **Tag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData_Entry.cs#L13)
 
 ```csharp
 uint Tag { get; set; }
@@ -20,7 +20,7 @@ uint Tag { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Val** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData_Entry.cs#L16)
+### **Val** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ScoreLeaderboardData_Entry.cs#L16)
 
 ```csharp
 uint Val { get; set; }

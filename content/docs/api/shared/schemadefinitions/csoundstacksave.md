@@ -10,7 +10,7 @@ public interface CSoundStackSave : CLogicalEntity, CServerOnlyEntity, CBaseEntit
 
 ## Properties
 
-**StackName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundStackSave.cs#L16)
+### **StackName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundStackSave.cs#L16)
 
 ```csharp
 string StackName { get; set; }

@@ -10,7 +10,7 @@ public interface C_OP_HSVShiftToCP : CParticleFunctionPreEmission, CParticleFunc
 
 ## Properties
 
-**ColorCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_HSVShiftToCP.cs#L16)
+### **ColorCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_HSVShiftToCP.cs#L16)
 
 ```csharp
 ref int ColorCP { get; }
@@ -20,7 +20,7 @@ ref int ColorCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ColorGemEnableCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_HSVShiftToCP.cs#L18)
+### **ColorGemEnableCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_HSVShiftToCP.cs#L18)
 
 ```csharp
 ref int ColorGemEnableCP { get; }
@@ -30,7 +30,7 @@ ref int ColorGemEnableCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DefaultHSVColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_HSVShiftToCP.cs#L22)
+### **DefaultHSVColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_HSVShiftToCP.cs#L22)
 
 ```csharp
 ref Color DefaultHSVColor { get; }
@@ -40,7 +40,7 @@ ref Color DefaultHSVColor { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**OutputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_HSVShiftToCP.cs#L20)
+### **OutputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_HSVShiftToCP.cs#L20)
 
 ```csharp
 ref int OutputCP { get; }

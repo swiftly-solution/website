@@ -10,7 +10,7 @@ public interface C_INIT_RemapScalarToVector : CParticleFunctionInitializer, CPar
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L34)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L34)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L30)
+### **EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L30)
 
 ```csharp
 ref float EndTime { get; }
@@ -30,7 +30,7 @@ ref float EndTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L16)
+### **FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -50,7 +50,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L22)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L22)
 
 ```csharp
 ref float InputMax { get; }
@@ -60,7 +60,7 @@ ref float InputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L20)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L20)
 
 ```csharp
 ref float InputMin { get; }
@@ -70,7 +70,7 @@ ref float InputMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LocalCoords** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L36)
+### **LocalCoords** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L36)
 
 ```csharp
 ref bool LocalCoords { get; }
@@ -80,7 +80,7 @@ ref bool LocalCoords { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L26)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L26)
 
 ```csharp
 ref Vector OutputMax { get; }
@@ -90,7 +90,7 @@ ref Vector OutputMax { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L24)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L24)
 
 ```csharp
 ref Vector OutputMin { get; }
@@ -100,7 +100,7 @@ ref Vector OutputMin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RemapBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L38)
+### **RemapBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L38)
 
 ```csharp
 ref float RemapBias { get; }
@@ -110,7 +110,7 @@ ref float RemapBias { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L32)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L32)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -120,7 +120,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L28)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_RemapScalarToVector.cs#L28)
 
 ```csharp
 ref float StartTime { get; }

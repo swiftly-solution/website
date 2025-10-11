@@ -10,7 +10,7 @@ public interface FeNodeIntegrator_t : ISchemaClass<FeNodeIntegrator_t>, ISchemaF
 
 ## Properties
 
-**AnimationForceAttraction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeIntegrator_t.cs#L18)
+### **AnimationForceAttraction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeIntegrator_t.cs#L18)
 
 ```csharp
 ref float AnimationForceAttraction { get; }
@@ -20,7 +20,7 @@ ref float AnimationForceAttraction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AnimationVertexAttraction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeIntegrator_t.cs#L20)
+### **AnimationVertexAttraction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeIntegrator_t.cs#L20)
 
 ```csharp
 ref float AnimationVertexAttraction { get; }
@@ -30,7 +30,7 @@ ref float AnimationVertexAttraction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Gravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeIntegrator_t.cs#L22)
+### **Gravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeIntegrator_t.cs#L22)
 
 ```csharp
 ref float Gravity { get; }
@@ -40,7 +40,7 @@ ref float Gravity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PointDamping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeIntegrator_t.cs#L16)
+### **PointDamping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeIntegrator_t.cs#L16)
 
 ```csharp
 ref float PointDamping { get; }

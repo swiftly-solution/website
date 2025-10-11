@@ -10,7 +10,7 @@ public interface CMsgSerializedSOCache_Cache : ITypedProtobuf<CMsgSerializedSOCa
 
 ## Properties
 
-**Id** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache.cs#L16)
+### **Id** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache.cs#L16)
 
 ```csharp
 ulong Id { get; set; }
@@ -20,7 +20,7 @@ ulong Id { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache.cs#L13)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache.cs#L13)
 
 ```csharp
 uint Type { get; set; }
@@ -30,7 +30,7 @@ uint Type { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TypeCaches** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache.cs#L22)
+### **TypeCaches** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache.cs#L22)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSerializedSOCache_TypeCache> TypeCaches { get; }
@@ -40,7 +40,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSerializedSOCache_TypeCache> TypeCaches
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSerializedSOCache_TypeCache](/docs/api/shared/protobufdefinitions/cmsgserializedsocache_typecache)>
 
-**Versions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache.cs#L19)
+### **Versions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSerializedSOCache_Cache.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSerializedSOCache_Cache_Version> Versions { get; }

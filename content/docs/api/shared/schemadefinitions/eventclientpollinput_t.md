@@ -10,7 +10,7 @@ public interface EventClientPollInput_t : ISchemaClass<EventClientPollInput_t>, 
 
 ## Properties
 
-**LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPollInput_t.cs#L16)
+### **LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPollInput_t.cs#L16)
 
 ```csharp
 EngineLoopState_t LoopState { get; }
@@ -20,7 +20,7 @@ EngineLoopState_t LoopState { get; }
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
-**RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPollInput_t.cs#L18)
+### **RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPollInput_t.cs#L18)
 
 ```csharp
 ref float RealTime { get; }

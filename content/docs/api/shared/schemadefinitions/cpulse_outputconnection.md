@@ -10,7 +10,7 @@ public interface CPulse_OutputConnection : ISchemaClass<CPulse_OutputConnection>
 
 ## Properties
 
-**Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L26)
+### **Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L26)
 
 ```csharp
 SchemaUntypedField Param { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Param { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**SourceOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L17)
+### **SourceOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L17)
 
 ```csharp
 SchemaUntypedField SourceOutput { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField SourceOutput { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**TargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L20)
+### **TargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L20)
 
 ```csharp
 SchemaUntypedField TargetEntity { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField TargetEntity { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**TargetInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L23)
+### **TargetInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_OutputConnection.cs#L23)
 
 ```csharp
 SchemaUntypedField TargetInput { get; }

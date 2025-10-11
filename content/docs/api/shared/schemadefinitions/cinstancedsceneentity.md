@@ -10,7 +10,7 @@ public interface CInstancedSceneEntity : CSceneEntity, CPointEntity, CBaseEntity
 
 ## Properties
 
-**HadOwner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L18)
+### **HadOwner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L18)
 
 ```csharp
 ref bool HadOwner { get; }
@@ -20,7 +20,7 @@ ref bool HadOwner { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsBackground** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L24)
+### **IsBackground** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L24)
 
 ```csharp
 ref bool IsBackground { get; }
@@ -30,7 +30,7 @@ ref bool IsBackground { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Owner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L16)
+### **Owner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L16)
 
 ```csharp
 ref CHandle<CBaseEntity> Owner { get; }
@@ -40,7 +40,7 @@ ref CHandle<CBaseEntity> Owner { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**PostSpeakDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L20)
+### **PostSpeakDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L20)
 
 ```csharp
 ref float PostSpeakDelay { get; }
@@ -50,7 +50,7 @@ ref float PostSpeakDelay { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PreDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L22)
+### **PreDelay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L22)
 
 ```csharp
 ref float PreDelay { get; }
@@ -60,7 +60,7 @@ ref float PreDelay { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RemoveOnCompletion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L26)
+### **RemoveOnCompletion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L26)
 
 ```csharp
 ref bool RemoveOnCompletion { get; }
@@ -70,7 +70,7 @@ ref bool RemoveOnCompletion { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L28)
+### **Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInstancedSceneEntity.cs#L28)
 
 ```csharp
 ref CHandle<CBaseEntity> Target { get; }

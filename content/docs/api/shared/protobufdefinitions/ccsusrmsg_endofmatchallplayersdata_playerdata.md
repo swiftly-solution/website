@@ -10,7 +10,7 @@ public interface CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData : ITypedProtobuf<
 
 ## Properties
 
-**Isbot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L34)
+### **Isbot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L34)
 
 ```csharp
 bool Isbot { get; set; }
@@ -20,7 +20,7 @@ bool Isbot { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Items** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L28)
+### **Items** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L28)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock> Items { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock> Items { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CEconItemPreviewDataBlock](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock)>
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L19)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L19)
 
 ```csharp
 string Name { get; set; }
@@ -40,7 +40,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Nomination** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L25)
+### **Nomination** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L25)
 
 ```csharp
 CCSUsrMsg_EndOfMatchAllPlayersData_Accolade Nomination { get; }
@@ -50,7 +50,7 @@ CCSUsrMsg_EndOfMatchAllPlayersData_Accolade Nomination { get; }
 
 - [CCSUsrMsg_EndOfMatchAllPlayersData_Accolade](/docs/api/shared/protobufdefinitions/ccsusrmsg_endofmatchallplayersdata_accolade)
 
-**Playercolor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L31)
+### **Playercolor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L31)
 
 ```csharp
 int Playercolor { get; set; }
@@ -60,7 +60,7 @@ int Playercolor { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L13)
+### **Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L13)
 
 ```csharp
 int Slot { get; set; }
@@ -70,7 +70,7 @@ int Slot { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Teamnumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L22)
+### **Teamnumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L22)
 
 ```csharp
 int Teamnumber { get; set; }
@@ -80,7 +80,7 @@ int Teamnumber { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L16)
+### **Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData.cs#L16)
 
 ```csharp
 ulong Xuid { get; set; }

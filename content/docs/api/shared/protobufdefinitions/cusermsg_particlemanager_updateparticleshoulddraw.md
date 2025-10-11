@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleShouldDraw : ITypedProto
 
 ## Properties
 
-**ShouldDraw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleShouldDraw.cs#L13)
+### **ShouldDraw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleShouldDraw.cs#L13)
 
 ```csharp
 bool ShouldDraw { get; set; }

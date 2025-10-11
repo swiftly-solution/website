@@ -10,7 +10,7 @@ public interface CInfoWorldLayer : CBaseEntity, CEntityInstance, ISchemaClass<CE
 
 ## Properties
 
-**CreateAsChildSpawnGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L26)
+### **CreateAsChildSpawnGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L26)
 
 ```csharp
 ref bool CreateAsChildSpawnGroup { get; }
@@ -20,7 +20,7 @@ ref bool CreateAsChildSpawnGroup { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EntitiesSpawned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L24)
+### **EntitiesSpawned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L24)
 
 ```csharp
 ref bool EntitiesSpawned { get; }
@@ -30,7 +30,7 @@ ref bool EntitiesSpawned { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LayerName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L20)
+### **LayerName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L20)
 
 ```csharp
 string LayerName { get; set; }
@@ -40,7 +40,7 @@ string LayerName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**LayerSpawnGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L28)
+### **LayerSpawnGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L28)
 
 ```csharp
 ref uint LayerSpawnGroup { get; }
@@ -50,7 +50,7 @@ ref uint LayerSpawnGroup { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**OutputOnEntitiesSpawned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L16)
+### **OutputOnEntitiesSpawned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L16)
 
 ```csharp
 CEntityIOOutput OutputOnEntitiesSpawned { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OutputOnEntitiesSpawned { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**WorldLayerVisible** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L22)
+### **WorldLayerVisible** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L22)
 
 ```csharp
 ref bool WorldLayerVisible { get; }
@@ -70,7 +70,7 @@ ref bool WorldLayerVisible { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WorldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L18)
+### **WorldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L18)
 
 ```csharp
 string WorldName { get; set; }
@@ -82,25 +82,25 @@ string WorldName { get; set; }
 
 ## Methods
 
-**EntitiesSpawnedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L33)
+### **EntitiesSpawnedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L33)
 
 ```csharp
 void EntitiesSpawnedUpdated()
 ```
 
-**LayerNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L31)
+### **LayerNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L31)
 
 ```csharp
 void LayerNameUpdated()
 ```
 
-**WorldLayerVisibleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L32)
+### **WorldLayerVisibleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L32)
 
 ```csharp
 void WorldLayerVisibleUpdated()
 ```
 
-**WorldNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L30)
+### **WorldNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoWorldLayer.cs#L30)
 
 ```csharp
 void WorldNameUpdated()

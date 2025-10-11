@@ -10,7 +10,7 @@ public interface CSOEconItemLeagueViewPass : ITypedProtobuf<CSOEconItemLeagueVie
 
 ## Properties
 
-**AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItemLeagueViewPass.cs#L13)
+### **AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItemLeagueViewPass.cs#L13)
 
 ```csharp
 uint AccountId { get; set; }
@@ -20,7 +20,7 @@ uint AccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Admin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItemLeagueViewPass.cs#L19)
+### **Admin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItemLeagueViewPass.cs#L19)
 
 ```csharp
 uint Admin { get; set; }
@@ -30,7 +30,7 @@ uint Admin { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Itemindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItemLeagueViewPass.cs#L22)
+### **Itemindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItemLeagueViewPass.cs#L22)
 
 ```csharp
 uint Itemindex { get; set; }
@@ -40,7 +40,7 @@ uint Itemindex { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**LeagueId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItemLeagueViewPass.cs#L16)
+### **LeagueId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconItemLeagueViewPass.cs#L16)
 
 ```csharp
 uint LeagueId { get; set; }

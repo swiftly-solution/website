@@ -10,7 +10,7 @@ public interface CPointAngleSensor : CPointEntity, CBaseEntity, CEntityInstance,
 
 ## Properties
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L16)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L16)
 
 ```csharp
 ref bool Disabled { get; }
@@ -20,7 +20,7 @@ ref bool Disabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DotTolerance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L26)
+### **DotTolerance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L26)
 
 ```csharp
 ref float DotTolerance { get; }
@@ -30,7 +30,7 @@ ref float DotTolerance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L24)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L24)
 
 ```csharp
 ref float Duration { get; }
@@ -40,7 +40,7 @@ ref float Duration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FacingPercentage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L40)
+### **FacingPercentage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L40)
 
 ```csharp
 SchemaUntypedField FacingPercentage { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField FacingPercentage { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**FacingTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L28)
+### **FacingTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L28)
 
 ```csharp
 GameTime_t FacingTime { get; }
@@ -60,7 +60,7 @@ GameTime_t FacingTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**Fired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L30)
+### **Fired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L30)
 
 ```csharp
 ref bool Fired { get; }
@@ -70,7 +70,7 @@ ref bool Fired { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LookAtEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L22)
+### **LookAtEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L22)
 
 ```csharp
 ref CHandle<CBaseEntity> LookAtEntity { get; }
@@ -80,7 +80,7 @@ ref CHandle<CBaseEntity> LookAtEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**LookAtName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L18)
+### **LookAtName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L18)
 
 ```csharp
 string LookAtName { get; set; }
@@ -90,7 +90,7 @@ string LookAtName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OnFacingLookat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L32)
+### **OnFacingLookat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L32)
 
 ```csharp
 CEntityIOOutput OnFacingLookat { get; }
@@ -100,7 +100,7 @@ CEntityIOOutput OnFacingLookat { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnNotFacingLookat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L34)
+### **OnNotFacingLookat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L34)
 
 ```csharp
 CEntityIOOutput OnNotFacingLookat { get; }
@@ -110,7 +110,7 @@ CEntityIOOutput OnNotFacingLookat { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**TargetDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L37)
+### **TargetDir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L37)
 
 ```csharp
 SchemaUntypedField TargetDir { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField TargetDir { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**TargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L20)
+### **TargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointAngleSensor.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> TargetEntity { get; }

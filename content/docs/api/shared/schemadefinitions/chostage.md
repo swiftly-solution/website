@@ -10,7 +10,7 @@ public interface CHostage : CHostageExpresserShim, CBaseCombatCharacter, CBaseFl
 
 ## Properties
 
-**Accel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L50)
+### **Accel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L50)
 
 ```csharp
 ref Vector Accel { get; }
@@ -20,7 +20,7 @@ ref Vector Accel { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ApproachRewardPayouts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L86)
+### **ApproachRewardPayouts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L86)
 
 ```csharp
 ref int ApproachRewardPayouts { get; }
@@ -30,7 +30,7 @@ ref int ApproachRewardPayouts { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DropStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L84)
+### **DropStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L84)
 
 ```csharp
 GameTime_t DropStartTime { get; }
@@ -40,7 +40,7 @@ GameTime_t DropStartTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**EntitySpottedState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L24)
+### **EntitySpottedState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L24)
 
 ```csharp
 EntitySpottedState_t EntitySpottedState { get; }
@@ -50,7 +50,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 
 - [EntitySpottedState_t](/docs/api/shared/schemadefinitions/entityspottedstate_t)
 
-**GrabSuccessTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L82)
+### **GrabSuccessTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L82)
 
 ```csharp
 GameTime_t GrabSuccessTime { get; }
@@ -60,7 +60,7 @@ GameTime_t GrabSuccessTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**GrabbedPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L78)
+### **GrabbedPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L78)
 
 ```csharp
 ref Vector GrabbedPos { get; }
@@ -70,7 +70,7 @@ ref Vector GrabbedPos { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**HandsHaveBeenCut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L70)
+### **HandsHaveBeenCut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L70)
 
 ```csharp
 ref bool HandsHaveBeenCut { get; }
@@ -80,7 +80,7 @@ ref bool HandsHaveBeenCut { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HasBeenUsed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L48)
+### **HasBeenUsed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L48)
 
 ```csharp
 ref bool HasBeenUsed { get; }
@@ -90,7 +90,7 @@ ref bool HasBeenUsed { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HostageGrabber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L72)
+### **HostageGrabber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L72)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> HostageGrabber { get; }
@@ -100,7 +100,7 @@ ref CHandle<CCSPlayerPawn> HostageGrabber { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
-**HostageResetPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L92)
+### **HostageResetPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L92)
 
 ```csharp
 ref Vector HostageResetPosition { get; }
@@ -110,7 +110,7 @@ ref Vector HostageResetPosition { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**HostageSpawnRandomFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L30)
+### **HostageSpawnRandomFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L30)
 
 ```csharp
 ref uint HostageSpawnRandomFactor { get; }
@@ -120,7 +120,7 @@ ref uint HostageSpawnRandomFactor { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**HostageState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L40)
+### **HostageState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L40)
 
 ```csharp
 ref int HostageState { get; }
@@ -130,7 +130,7 @@ ref int HostageState { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InhibitDoorTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L62)
+### **InhibitDoorTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L62)
 
 ```csharp
 CountdownTimer InhibitDoorTimer { get; }
@@ -140,7 +140,7 @@ CountdownTimer InhibitDoorTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**InhibitObstacleAvoidanceTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L64)
+### **InhibitObstacleAvoidanceTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L64)
 
 ```csharp
 CountdownTimer InhibitObstacleAvoidanceTimer { get; }
@@ -150,7 +150,7 @@ CountdownTimer InhibitObstacleAvoidanceTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**IsAdjusted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L68)
+### **IsAdjusted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L68)
 
 ```csharp
 ref bool IsAdjusted { get; }
@@ -160,7 +160,7 @@ ref bool IsAdjusted { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsCrouching** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L54)
+### **IsCrouching** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L54)
 
 ```csharp
 ref bool IsCrouching { get; }
@@ -170,7 +170,7 @@ ref bool IsCrouching { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsRescued** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L36)
+### **IsRescued** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L36)
 
 ```csharp
 ref bool IsRescued { get; }
@@ -180,7 +180,7 @@ ref bool IsRescued { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsRunning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L52)
+### **IsRunning** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L52)
 
 ```csharp
 ref bool IsRunning { get; }
@@ -190,7 +190,7 @@ ref bool IsRunning { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsWaitingForLeader** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L58)
+### **IsWaitingForLeader** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L58)
 
 ```csharp
 ref bool IsWaitingForLeader { get; }
@@ -200,7 +200,7 @@ ref bool IsWaitingForLeader { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**JumpTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L56)
+### **JumpTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L56)
 
 ```csharp
 CountdownTimer JumpTimer { get; }
@@ -210,7 +210,7 @@ CountdownTimer JumpTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**JumpedThisFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L38)
+### **JumpedThisFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L38)
 
 ```csharp
 ref bool JumpedThisFrame { get; }
@@ -220,7 +220,7 @@ ref bool JumpedThisFrame { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LastGrabTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L74)
+### **LastGrabTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L74)
 
 ```csharp
 GameTime_t LastGrabTime { get; }
@@ -230,7 +230,7 @@ GameTime_t LastGrabTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**LastLeader** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L44)
+### **LastLeader** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L44)
 
 ```csharp
 ref CHandle<CCSPlayerPawnBase> LastLeader { get; }
@@ -240,7 +240,7 @@ ref CHandle<CCSPlayerPawnBase> LastLeader { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawnBase](/docs/api/shared/schemadefinitions/ccsplayerpawnbase)>
 
-**Leader** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L42)
+### **Leader** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L42)
 
 ```csharp
 ref CHandle<CBaseEntity> Leader { get; }
@@ -250,7 +250,7 @@ ref CHandle<CBaseEntity> Leader { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**OnDroppedNotRescued** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L20)
+### **OnDroppedNotRescued** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L20)
 
 ```csharp
 CEntityIOOutput OnDroppedNotRescued { get; }
@@ -260,7 +260,7 @@ CEntityIOOutput OnDroppedNotRescued { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnFirstPickedUp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L18)
+### **OnFirstPickedUp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L18)
 
 ```csharp
 CEntityIOOutput OnFirstPickedUp { get; }
@@ -270,7 +270,7 @@ CEntityIOOutput OnFirstPickedUp { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnHostageBeginGrab** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L16)
+### **OnHostageBeginGrab** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L16)
 
 ```csharp
 CEntityIOOutput OnHostageBeginGrab { get; }
@@ -280,7 +280,7 @@ CEntityIOOutput OnHostageBeginGrab { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnRescued** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L22)
+### **OnRescued** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L22)
 
 ```csharp
 CEntityIOOutput OnRescued { get; }
@@ -290,7 +290,7 @@ CEntityIOOutput OnRescued { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**PickupEventCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L88)
+### **PickupEventCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L88)
 
 ```csharp
 ref int PickupEventCount { get; }
@@ -300,7 +300,7 @@ ref int PickupEventCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PositionWhenStartedDroppingToGround** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L76)
+### **PositionWhenStartedDroppingToGround** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L76)
 
 ```csharp
 ref Vector PositionWhenStartedDroppingToGround { get; }
@@ -310,7 +310,7 @@ ref Vector PositionWhenStartedDroppingToGround { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Remove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L32)
+### **Remove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L32)
 
 ```csharp
 ref bool Remove { get; }
@@ -320,7 +320,7 @@ ref bool Remove { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RepathTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L60)
+### **RepathTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L60)
 
 ```csharp
 CountdownTimer RepathTimer { get; }
@@ -330,7 +330,7 @@ CountdownTimer RepathTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**RescueStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L80)
+### **RescueStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L80)
 
 ```csharp
 GameTime_t RescueStartTime { get; }
@@ -340,7 +340,7 @@ GameTime_t RescueStartTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**ReuseTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L46)
+### **ReuseTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L46)
 
 ```csharp
 CountdownTimer ReuseTimer { get; }
@@ -350,7 +350,7 @@ CountdownTimer ReuseTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**SpawnGroundPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L90)
+### **SpawnGroundPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L90)
 
 ```csharp
 ref Vector SpawnGroundPos { get; }
@@ -360,7 +360,7 @@ ref Vector SpawnGroundPos { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**SpotRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L26)
+### **SpotRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L26)
 
 ```csharp
 ref int SpotRules { get; }
@@ -370,7 +370,7 @@ ref int SpotRules { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UiHostageSpawnExclusionGroupMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L28)
+### **UiHostageSpawnExclusionGroupMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L28)
 
 ```csharp
 ref uint UiHostageSpawnExclusionGroupMask { get; }
@@ -380,7 +380,7 @@ ref uint UiHostageSpawnExclusionGroupMask { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Vel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L34)
+### **Vel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L34)
 
 ```csharp
 ref Vector Vel { get; }
@@ -390,7 +390,7 @@ ref Vector Vel { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**WiggleTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L66)
+### **WiggleTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L66)
 
 ```csharp
 CountdownTimer WiggleTimer { get; }
@@ -402,73 +402,73 @@ CountdownTimer WiggleTimer { get; }
 
 ## Methods
 
-**DropStartTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L105)
+### **DropStartTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L105)
 
 ```csharp
 void DropStartTimeUpdated()
 ```
 
-**EntitySpottedStateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L94)
+### **EntitySpottedStateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L94)
 
 ```csharp
 void EntitySpottedStateUpdated()
 ```
 
-**GrabSuccessTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L104)
+### **GrabSuccessTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L104)
 
 ```csharp
 void GrabSuccessTimeUpdated()
 ```
 
-**HandsHaveBeenCutUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L101)
+### **HandsHaveBeenCutUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L101)
 
 ```csharp
 void HandsHaveBeenCutUpdated()
 ```
 
-**HostageGrabberUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L102)
+### **HostageGrabberUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L102)
 
 ```csharp
 void HostageGrabberUpdated()
 ```
 
-**HostageStateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L98)
+### **HostageStateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L98)
 
 ```csharp
 void HostageStateUpdated()
 ```
 
-**IsRescuedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L96)
+### **IsRescuedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L96)
 
 ```csharp
 void IsRescuedUpdated()
 ```
 
-**JumpedThisFrameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L97)
+### **JumpedThisFrameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L97)
 
 ```csharp
 void JumpedThisFrameUpdated()
 ```
 
-**LeaderUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L99)
+### **LeaderUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L99)
 
 ```csharp
 void LeaderUpdated()
 ```
 
-**RescueStartTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L103)
+### **RescueStartTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L103)
 
 ```csharp
 void RescueStartTimeUpdated()
 ```
 
-**ReuseTimerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L100)
+### **ReuseTimerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L100)
 
 ```csharp
 void ReuseTimerUpdated()
 ```
 
-**VelUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L95)
+### **VelUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHostage.cs#L95)
 
 ```csharp
 void VelUpdated()

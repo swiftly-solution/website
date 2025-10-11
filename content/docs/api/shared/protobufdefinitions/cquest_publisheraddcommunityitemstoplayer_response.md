@@ -10,7 +10,7 @@ public interface CQuest_PublisherAddCommunityItemsToPlayer_Response : ITypedProt
 
 ## Properties
 
-**ItemsGranted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CQuest_PublisherAddCommunityItemsToPlayer_Response.cs#L16)
+### **ItemsGranted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CQuest_PublisherAddCommunityItemsToPlayer_Response.cs#L16)
 
 ```csharp
 uint ItemsGranted { get; set; }
@@ -20,7 +20,7 @@ uint ItemsGranted { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemsMatched** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CQuest_PublisherAddCommunityItemsToPlayer_Response.cs#L13)
+### **ItemsMatched** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CQuest_PublisherAddCommunityItemsToPlayer_Response.cs#L13)
 
 ```csharp
 uint ItemsMatched { get; set; }

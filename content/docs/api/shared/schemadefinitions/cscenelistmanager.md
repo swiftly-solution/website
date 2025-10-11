@@ -10,7 +10,7 @@ public interface CSceneListManager : CLogicalEntity, CServerOnlyEntity, CBaseEnt
 
 ## Properties
 
-**ListManagers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneListManager.cs#L16)
+### **ListManagers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneListManager.cs#L16)
 
 ```csharp
 ref CUtlVector<CHandle<CSceneListManager>> ListManagers { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<CHandle<CSceneListManager>> ListManagers { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CSceneListManager](/docs/api/shared/schemadefinitions/cscenelistmanager)>>
+- [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CSceneListManager](/docs/api/shared/schemadefinitions/cscenelistmanager)>>
 
-**Scenes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneListManager.cs#L18)
+### **Scenes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneListManager.cs#L18)
 
 ```csharp
 string Scenes { get; set; }
@@ -30,7 +30,7 @@ string Scenes { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Scenes1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneListManager.cs#L20)
+### **Scenes1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneListManager.cs#L20)
 
 ```csharp
 ISchemaFixedArray<CHandle<CBaseEntity>> Scenes1 { get; }

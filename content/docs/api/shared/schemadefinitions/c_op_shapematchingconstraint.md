@@ -10,7 +10,7 @@ public interface C_OP_ShapeMatchingConstraint : CParticleFunctionConstraint, CPa
 
 ## Properties
 
-**ShapeRestorationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ShapeMatchingConstraint.cs#L16)
+### **ShapeRestorationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ShapeMatchingConstraint.cs#L16)
 
 ```csharp
 ref float ShapeRestorationTime { get; }

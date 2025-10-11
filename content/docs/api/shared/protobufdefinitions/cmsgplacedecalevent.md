@@ -10,7 +10,7 @@ public interface CMsgPlaceDecalEvent : ITypedProtobuf<CMsgPlaceDecalEvent>, INat
 
 ## Properties
 
-**Boneindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L27)
+### **Boneindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L27)
 
 ```csharp
 int Boneindex { get; set; }
@@ -20,7 +20,7 @@ int Boneindex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L33)
+### **Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L33)
 
 ```csharp
 uint Color { get; set; }
@@ -30,7 +30,7 @@ uint Color { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**DecalGroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L39)
+### **DecalGroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L39)
 
 ```csharp
 uint DecalGroupName { get; set; }
@@ -40,7 +40,7 @@ uint DecalGroupName { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Entityhandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L45)
+### **Entityhandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L45)
 
 ```csharp
 uint Entityhandle { get; set; }
@@ -50,7 +50,7 @@ uint Entityhandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L30)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L30)
 
 ```csharp
 uint Flags { get; set; }
@@ -60,7 +60,7 @@ uint Flags { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**MaterialId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L48)
+### **MaterialId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L48)
 
 ```csharp
 ulong MaterialId { get; set; }
@@ -70,7 +70,7 @@ ulong MaterialId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L21)
+### **Normal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L21)
 
 ```csharp
 Vector Normal { get; set; }
@@ -80,7 +80,7 @@ Vector Normal { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L18)
+### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L18)
 
 ```csharp
 Vector Position { get; set; }
@@ -90,7 +90,7 @@ Vector Position { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RandomSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L36)
+### **RandomSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L36)
 
 ```csharp
 int RandomSeed { get; set; }
@@ -100,7 +100,7 @@ int RandomSeed { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Saxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L24)
+### **Saxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L24)
 
 ```csharp
 Vector Saxis { get; set; }
@@ -110,7 +110,7 @@ Vector Saxis { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L51)
+### **SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L51)
 
 ```csharp
 uint SequenceName { get; set; }
@@ -120,7 +120,7 @@ uint SequenceName { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SizeOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L42)
+### **SizeOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgPlaceDecalEvent.cs#L42)
 
 ```csharp
 float SizeOverride { get; set; }

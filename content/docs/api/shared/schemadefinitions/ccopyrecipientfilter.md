@@ -10,7 +10,7 @@ public interface CCopyRecipientFilter : ISchemaClass<CCopyRecipientFilter>, ISch
 
 ## Properties
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L16)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L16)
 
 ```csharp
 ref int Flags { get; }
@@ -20,7 +20,7 @@ ref int Flags { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Recipients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L18)
+### **Recipients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L18)
 
 ```csharp
 ref CUtlVector<uint> Recipients { get; }
@@ -28,5 +28,5 @@ ref CUtlVector<uint> Recipients { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
+- [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

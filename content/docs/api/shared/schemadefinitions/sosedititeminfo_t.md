@@ -10,7 +10,7 @@ public interface SosEditItemInfo_t : ISchemaClass<SosEditItemInfo_t>, ISchemaFie
 
 ## Properties
 
-**ItemKVString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SosEditItemInfo_t.cs#L22)
+### **ItemKVString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SosEditItemInfo_t.cs#L22)
 
 ```csharp
 string ItemKVString { get; set; }
@@ -20,7 +20,7 @@ string ItemKVString { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ItemName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SosEditItemInfo_t.cs#L18)
+### **ItemName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SosEditItemInfo_t.cs#L18)
 
 ```csharp
 string ItemName { get; set; }
@@ -30,7 +30,7 @@ string ItemName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ItemPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SosEditItemInfo_t.cs#L24)
+### **ItemPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SosEditItemInfo_t.cs#L24)
 
 ```csharp
 ref Vector2D ItemPos { get; }
@@ -40,7 +40,7 @@ ref Vector2D ItemPos { get; }
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
-**ItemType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SosEditItemInfo_t.cs#L16)
+### **ItemType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SosEditItemInfo_t.cs#L16)
 
 ```csharp
 ref SosEditItemType_t ItemType { get; }
@@ -50,7 +50,7 @@ ref SosEditItemType_t ItemType { get; }
 
 - [SosEditItemType_t](/docs/api/shared/schemadefinitions/sosedititemtype_t)
 
-**ItemTypeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SosEditItemInfo_t.cs#L20)
+### **ItemTypeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SosEditItemInfo_t.cs#L20)
 
 ```csharp
 string ItemTypeName { get; set; }

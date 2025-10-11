@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingServerRoundStats : ITypedProtobuf
 
 ## Properties
 
-**Assists** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L28)
+### **Assists** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L28)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Assists { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldValueType<int> Assists { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**BSwitchedTeams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L91)
+### **BSwitchedTeams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L91)
 
 ```csharp
 bool BSwitchedTeams { get; set; }
@@ -30,7 +30,7 @@ bool BSwitchedTeams { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Confirm** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L49)
+### **Confirm** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L49)
 
 ```csharp
 CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm Confirm { get; }
@@ -40,7 +40,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm Confirm { get; }
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2serverconfirm)
 
-**Deaths** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L31)
+### **Deaths** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L31)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Deaths { get; }
@@ -50,7 +50,7 @@ IProtobufRepeatedFieldValueType<int> Deaths { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**DropInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L88)
+### **DropInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L88)
 
 ```csharp
 CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo DropInfo { get; }
@@ -60,7 +60,7 @@ CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo DropInfo { get; }
 
 - [CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakingserverroundstats_dropinfo)
 
-**Enemy2ks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L94)
+### **Enemy2ks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L94)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Enemy2ks { get; }
@@ -70,7 +70,7 @@ IProtobufRepeatedFieldValueType<int> Enemy2ks { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**Enemy3ks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L64)
+### **Enemy3ks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L64)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Enemy3ks { get; }
@@ -80,7 +80,7 @@ IProtobufRepeatedFieldValueType<int> Enemy3ks { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**Enemy4ks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L67)
+### **Enemy4ks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L67)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Enemy4ks { get; }
@@ -90,7 +90,7 @@ IProtobufRepeatedFieldValueType<int> Enemy4ks { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**Enemy5ks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L70)
+### **Enemy5ks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L70)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Enemy5ks { get; }
@@ -100,7 +100,7 @@ IProtobufRepeatedFieldValueType<int> Enemy5ks { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**EnemyHeadshots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L61)
+### **EnemyHeadshots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L61)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> EnemyHeadshots { get; }
@@ -110,7 +110,7 @@ IProtobufRepeatedFieldValueType<int> EnemyHeadshots { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**EnemyKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L58)
+### **EnemyKills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L58)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> EnemyKills { get; }
@@ -120,7 +120,7 @@ IProtobufRepeatedFieldValueType<int> EnemyKills { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**EnemyKillsAgg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L85)
+### **EnemyKillsAgg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L85)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> EnemyKillsAgg { get; }
@@ -130,7 +130,7 @@ IProtobufRepeatedFieldValueType<int> EnemyKillsAgg { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**Kills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L25)
+### **Kills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L25)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Kills { get; }
@@ -140,7 +140,7 @@ IProtobufRepeatedFieldValueType<int> Kills { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**Map** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L19)
+### **Map** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L19)
 
 ```csharp
 string Map { get; set; }
@@ -150,7 +150,7 @@ string Map { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MapId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L106)
+### **MapId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L106)
 
 ```csharp
 int MapId { get; set; }
@@ -160,7 +160,7 @@ int MapId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MatchDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L55)
+### **MatchDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L55)
 
 ```csharp
 int MatchDuration { get; set; }
@@ -170,7 +170,7 @@ int MatchDuration { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MatchResult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L43)
+### **MatchResult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L43)
 
 ```csharp
 int MatchResult { get; set; }
@@ -180,7 +180,7 @@ int MatchResult { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MaxRounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L103)
+### **MaxRounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L103)
 
 ```csharp
 uint MaxRounds { get; set; }
@@ -190,7 +190,7 @@ uint MaxRounds { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Mvps** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L73)
+### **Mvps** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L73)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Mvps { get; }
@@ -200,7 +200,7 @@ IProtobufRepeatedFieldValueType<int> Mvps { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**Pings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L37)
+### **Pings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L37)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Pings { get; }
@@ -210,7 +210,7 @@ IProtobufRepeatedFieldValueType<int> Pings { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**PlayerSpawned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L97)
+### **PlayerSpawned** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L97)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> PlayerSpawned { get; }
@@ -220,7 +220,7 @@ IProtobufRepeatedFieldValueType<int> PlayerSpawned { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**Reservation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L16)
+### **Reservation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L16)
 
 ```csharp
 CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve Reservation { get; }
@@ -230,7 +230,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve Reservation { get; }
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2serverreserve)
 
-**ReservationStage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L52)
+### **ReservationStage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L52)
 
 ```csharp
 int ReservationStage { get; set; }
@@ -240,7 +240,7 @@ int ReservationStage { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Reservationid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L13)
+### **Reservationid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L13)
 
 ```csharp
 ulong Reservationid { get; set; }
@@ -250,7 +250,7 @@ ulong Reservationid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Round** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L22)
+### **Round** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L22)
 
 ```csharp
 int Round { get; set; }
@@ -260,7 +260,7 @@ int Round { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RoundResult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L40)
+### **RoundResult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L40)
 
 ```csharp
 int RoundResult { get; set; }
@@ -270,7 +270,7 @@ int RoundResult { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Scores** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L34)
+### **Scores** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L34)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Scores { get; }
@@ -280,7 +280,7 @@ IProtobufRepeatedFieldValueType<int> Scores { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**SpectatorsCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L76)
+### **SpectatorsCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L76)
 
 ```csharp
 uint SpectatorsCount { get; set; }
@@ -290,7 +290,7 @@ uint SpectatorsCount { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SpectatorsCountLnk** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L82)
+### **SpectatorsCountLnk** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L82)
 
 ```csharp
 uint SpectatorsCountLnk { get; set; }
@@ -300,7 +300,7 @@ uint SpectatorsCountLnk { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SpectatorsCountTv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L79)
+### **SpectatorsCountTv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L79)
 
 ```csharp
 uint SpectatorsCountTv { get; set; }
@@ -310,7 +310,7 @@ uint SpectatorsCountTv { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TeamScores** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L46)
+### **TeamScores** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L46)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> TeamScores { get; }
@@ -320,7 +320,7 @@ IProtobufRepeatedFieldValueType<int> TeamScores { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**TeamSpawnCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L100)
+### **TeamSpawnCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingServerRoundStats.cs#L100)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> TeamSpawnCount { get; }

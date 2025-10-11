@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_ClientPerfReport_Entry : ITypedProtobuf<CMsg
 
 ## Properties
 
-**Actual** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L22)
+### **Actual** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L22)
 
 ```csharp
 byte[] Actual { get; set; }
@@ -20,7 +20,7 @@ byte[] Actual { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Length** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L16)
+### **Length** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L16)
 
 ```csharp
 uint Length { get; set; }
@@ -30,7 +30,7 @@ uint Length { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Perfcounter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L13)
+### **Perfcounter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L13)
 
 ```csharp
 uint Perfcounter { get; set; }
@@ -40,7 +40,7 @@ uint Perfcounter { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Reference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L19)
+### **Reference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L19)
 
 ```csharp
 byte[] Reference { get; set; }
@@ -50,7 +50,7 @@ byte[] Reference { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Sourceid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L25)
+### **Sourceid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L25)
 
 ```csharp
 uint Sourceid { get; set; }
@@ -60,7 +60,7 @@ uint Sourceid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Status** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L28)
+### **Status** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPerfReport_Entry.cs#L28)
 
 ```csharp
 uint Status { get; set; }

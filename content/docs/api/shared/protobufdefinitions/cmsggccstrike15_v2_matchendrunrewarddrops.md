@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_MatchEndRunRewardDrops : ITypedProtobuf<CMsg
 
 ## Properties
 
-**MatchEndQuestData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchEndRunRewardDrops.cs#L16)
+### **MatchEndQuestData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchEndRunRewardDrops.cs#L16)
 
 ```csharp
 CMsgGC_ServerQuestUpdateData MatchEndQuestData { get; }
@@ -20,7 +20,7 @@ CMsgGC_ServerQuestUpdateData MatchEndQuestData { get; }
 
 - [CMsgGC_ServerQuestUpdateData](/docs/api/shared/protobufdefinitions/cmsggc_serverquestupdatedata)
 
-**Serverinfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchEndRunRewardDrops.cs#L13)
+### **Serverinfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchEndRunRewardDrops.cs#L13)
 
 ```csharp
 CMsgGCCStrike15_v2_MatchmakingServerReservationResponse Serverinfo { get; }

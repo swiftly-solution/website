@@ -10,7 +10,7 @@ public interface CBaseCSGrenadeProjectile : CBaseGrenade, CBaseFlex, CBaseAnimGr
 
 ## Properties
 
-**Bounces** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L20)
+### **Bounces** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L20)
 
 ```csharp
 ref int Bounces { get; }
@@ -20,7 +20,7 @@ ref int Bounces { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DetonationRecorded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L32)
+### **DetonationRecorded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L32)
 
 ```csharp
 ref bool DetonationRecorded { get; }
@@ -30,7 +30,7 @@ ref bool DetonationRecorded { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ExplodeEffectIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L22)
+### **ExplodeEffectIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ExplodeEffectIndex { get; }
@@ -40,7 +40,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ExplodeEffectInd
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
-**ExplodeEffectOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L26)
+### **ExplodeEffectOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L26)
 
 ```csharp
 ref Vector ExplodeEffectOrigin { get; }
@@ -50,7 +50,7 @@ ref Vector ExplodeEffectOrigin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ExplodeEffectTickBegin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L24)
+### **ExplodeEffectTickBegin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L24)
 
 ```csharp
 ref int ExplodeEffectTickBegin { get; }
@@ -60,7 +60,7 @@ ref int ExplodeEffectTickBegin { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**GrenadeSpin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L41)
+### **GrenadeSpin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L41)
 
 ```csharp
 SchemaUntypedField GrenadeSpin { get; }
@@ -70,7 +70,7 @@ SchemaUntypedField GrenadeSpin { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**HasEverHitEnemy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L47)
+### **HasEverHitEnemy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L47)
 
 ```csharp
 ref bool HasEverHitEnemy { get; }
@@ -80,7 +80,7 @@ ref bool HasEverHitEnemy { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InitialPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L16)
+### **InitialPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L16)
 
 ```csharp
 ref Vector InitialPosition { get; }
@@ -90,7 +90,7 @@ ref Vector InitialPosition { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**InitialVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L18)
+### **InitialVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L18)
 
 ```csharp
 ref Vector InitialVelocity { get; }
@@ -100,7 +100,7 @@ ref Vector InitialVelocity { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ItemIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L34)
+### **ItemIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L34)
 
 ```csharp
 ref ushort ItemIndex { get; }
@@ -110,7 +110,7 @@ ref ushort ItemIndex { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**LastBounceSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L38)
+### **LastBounceSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L38)
 
 ```csharp
 GameTime_t LastBounceSoundTime { get; }
@@ -120,7 +120,7 @@ GameTime_t LastBounceSoundTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**LastHitSurfaceNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L43)
+### **LastHitSurfaceNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L43)
 
 ```csharp
 ref Vector LastHitSurfaceNormal { get; }
@@ -130,7 +130,7 @@ ref Vector LastHitSurfaceNormal { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OGSExtraFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L30)
+### **OGSExtraFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L30)
 
 ```csharp
 ref byte OGSExtraFlags { get; }
@@ -140,7 +140,7 @@ ref byte OGSExtraFlags { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**OriginalSpawnLocation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L36)
+### **OriginalSpawnLocation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L36)
 
 ```csharp
 ref Vector OriginalSpawnLocation { get; }
@@ -150,7 +150,7 @@ ref Vector OriginalSpawnLocation { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**SpawnTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L28)
+### **SpawnTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L28)
 
 ```csharp
 GameTime_t SpawnTime { get; }
@@ -160,7 +160,7 @@ GameTime_t SpawnTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**TicksAtZeroVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L45)
+### **TicksAtZeroVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L45)
 
 ```csharp
 ref int TicksAtZeroVelocity { get; }
@@ -172,37 +172,37 @@ ref int TicksAtZeroVelocity { get; }
 
 ## Methods
 
-**BouncesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L51)
+### **BouncesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L51)
 
 ```csharp
 void BouncesUpdated()
 ```
 
-**ExplodeEffectIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L52)
+### **ExplodeEffectIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L52)
 
 ```csharp
 void ExplodeEffectIndexUpdated()
 ```
 
-**ExplodeEffectOriginUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L54)
+### **ExplodeEffectOriginUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L54)
 
 ```csharp
 void ExplodeEffectOriginUpdated()
 ```
 
-**ExplodeEffectTickBeginUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L53)
+### **ExplodeEffectTickBeginUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L53)
 
 ```csharp
 void ExplodeEffectTickBeginUpdated()
 ```
 
-**InitialPositionUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L49)
+### **InitialPositionUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L49)
 
 ```csharp
 void InitialPositionUpdated()
 ```
 
-**InitialVelocityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L50)
+### **InitialVelocityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCSGrenadeProjectile.cs#L50)
 
 ```csharp
 void InitialVelocityUpdated()

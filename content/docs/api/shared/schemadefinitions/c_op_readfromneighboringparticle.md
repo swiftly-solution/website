@@ -10,7 +10,7 @@ public interface C_OP_ReadFromNeighboringParticle : CParticleFunctionOperator, C
 
 ## Properties
 
-**DistanceCheck** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ReadFromNeighboringParticle.cs#L22)
+### **DistanceCheck** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ReadFromNeighboringParticle.cs#L22)
 
 ```csharp
 CPerParticleFloatInput DistanceCheck { get; }
@@ -20,7 +20,7 @@ CPerParticleFloatInput DistanceCheck { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ReadFromNeighboringParticle.cs#L16)
+### **FieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ReadFromNeighboringParticle.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldInput { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ReadFromNeighboringParticle.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ReadFromNeighboringParticle.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Increment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ReadFromNeighboringParticle.cs#L20)
+### **Increment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ReadFromNeighboringParticle.cs#L20)
 
 ```csharp
 ref int Increment { get; }
@@ -50,7 +50,7 @@ ref int Increment { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ReadFromNeighboringParticle.cs#L24)
+### **Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ReadFromNeighboringParticle.cs#L24)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }

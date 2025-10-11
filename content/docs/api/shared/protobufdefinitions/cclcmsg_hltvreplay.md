@@ -10,7 +10,7 @@ public interface CCLCMsg_HltvReplay : ITypedProtobuf<CCLCMsg_HltvReplay>, INativ
 
 ## Properties
 
-**EventTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvReplay.cs#L30)
+### **EventTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvReplay.cs#L30)
 
 ```csharp
 float EventTime { get; set; }
@@ -20,7 +20,7 @@ float EventTime { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PrimaryTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvReplay.cs#L27)
+### **PrimaryTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvReplay.cs#L27)
 
 ```csharp
 int PrimaryTarget { get; set; }
@@ -30,7 +30,7 @@ int PrimaryTarget { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Request** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvReplay.cs#L18)
+### **Request** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvReplay.cs#L18)
 
 ```csharp
 int Request { get; set; }
@@ -40,7 +40,7 @@ int Request { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SlowdownLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvReplay.cs#L21)
+### **SlowdownLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvReplay.cs#L21)
 
 ```csharp
 float SlowdownLength { get; set; }
@@ -50,7 +50,7 @@ float SlowdownLength { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SlowdownRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvReplay.cs#L24)
+### **SlowdownRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvReplay.cs#L24)
 
 ```csharp
 float SlowdownRate { get; set; }

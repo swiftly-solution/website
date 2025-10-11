@@ -10,7 +10,7 @@ public interface CSVCMsg_ServerSteamID : ITypedProtobuf<CSVCMsg_ServerSteamID>, 
 
 ## Properties
 
-**SteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ServerSteamID.cs#L18)
+### **SteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ServerSteamID.cs#L18)
 
 ```csharp
 ulong SteamId { get; set; }

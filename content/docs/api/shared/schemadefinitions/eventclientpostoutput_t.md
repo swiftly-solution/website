@@ -10,7 +10,7 @@ public interface EventClientPostOutput_t : ISchemaClass<EventClientPostOutput_t>
 
 ## Properties
 
-**LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L16)
+### **LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L16)
 
 ```csharp
 EngineLoopState_t LoopState { get; }
@@ -20,7 +20,7 @@ EngineLoopState_t LoopState { get; }
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
-**RenderFrameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L20)
+### **RenderFrameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L20)
 
 ```csharp
 ref float RenderFrameTime { get; }
@@ -30,7 +30,7 @@ ref float RenderFrameTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RenderFrameTimeUnbounded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L22)
+### **RenderFrameTimeUnbounded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L22)
 
 ```csharp
 ref float RenderFrameTimeUnbounded { get; }
@@ -40,7 +40,7 @@ ref float RenderFrameTimeUnbounded { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RenderOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L24)
+### **RenderOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L24)
 
 ```csharp
 ref bool RenderOnly { get; }
@@ -50,7 +50,7 @@ ref bool RenderOnly { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RenderTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L18)
+### **RenderTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPostOutput_t.cs#L18)
 
 ```csharp
 ref double RenderTime { get; }

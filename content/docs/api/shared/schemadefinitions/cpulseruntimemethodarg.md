@@ -10,7 +10,7 @@ public interface CPulseRuntimeMethodArg : ISchemaClass<CPulseRuntimeMethodArg>, 
 
 ## Properties
 
-**Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseRuntimeMethodArg.cs#L19)
+### **Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseRuntimeMethodArg.cs#L19)
 
 ```csharp
 string Description { get; set; }
@@ -20,7 +20,7 @@ string Description { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseRuntimeMethodArg.cs#L17)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseRuntimeMethodArg.cs#L17)
 
 ```csharp
 SchemaUntypedField Name { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField Name { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseRuntimeMethodArg.cs#L22)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseRuntimeMethodArg.cs#L22)
 
 ```csharp
 SchemaUntypedField Type { get; }

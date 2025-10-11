@@ -10,7 +10,7 @@ public interface C_OP_PerParticleForce : CParticleFunctionForce, CParticleFuncti
 
 ## Properties
 
-**CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PerParticleForce.cs#L20)
+### **CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PerParticleForce.cs#L20)
 
 ```csharp
 ref int CP { get; }
@@ -20,7 +20,7 @@ ref int CP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Force** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PerParticleForce.cs#L18)
+### **Force** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PerParticleForce.cs#L18)
 
 ```csharp
 CPerParticleVecInput Force { get; }
@@ -30,7 +30,7 @@ CPerParticleVecInput Force { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**ForceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PerParticleForce.cs#L16)
+### **ForceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PerParticleForce.cs#L16)
 
 ```csharp
 CPerParticleFloatInput ForceScale { get; }

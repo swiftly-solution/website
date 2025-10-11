@@ -10,7 +10,7 @@ public interface CNETMsg_SpawnGroup_Load : ITypedProtobuf<CNETMsg_SpawnGroup_Loa
 
 ## Properties
 
-**Creationsequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L63)
+### **Creationsequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L63)
 
 ```csharp
 uint Creationsequence { get; set; }
@@ -20,7 +20,7 @@ uint Creationsequence { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Entityfiltername** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L24)
+### **Entityfiltername** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L24)
 
 ```csharp
 string Entityfiltername { get; set; }
@@ -30,7 +30,7 @@ string Entityfiltername { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Entitylumpname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L21)
+### **Entitylumpname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L21)
 
 ```csharp
 string Entitylumpname { get; set; }
@@ -40,7 +40,7 @@ string Entitylumpname { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L42)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L42)
 
 ```csharp
 uint Flags { get; set; }
@@ -50,7 +50,7 @@ uint Flags { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Leveltransition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L72)
+### **Leveltransition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L72)
 
 ```csharp
 bool Leveltransition { get; set; }
@@ -60,7 +60,7 @@ bool Leveltransition { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Localnamefixup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L51)
+### **Localnamefixup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L51)
 
 ```csharp
 string Localnamefixup { get; set; }
@@ -70,7 +70,7 @@ string Localnamefixup { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Manifestincomplete** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L48)
+### **Manifestincomplete** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L48)
 
 ```csharp
 bool Manifestincomplete { get; set; }
@@ -80,7 +80,7 @@ bool Manifestincomplete { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Manifestloadpriority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L57)
+### **Manifestloadpriority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L57)
 
 ```csharp
 int Manifestloadpriority { get; set; }
@@ -90,7 +90,7 @@ int Manifestloadpriority { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Parentnamefixup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L54)
+### **Parentnamefixup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L54)
 
 ```csharp
 string Parentnamefixup { get; set; }
@@ -100,7 +100,7 @@ string Parentnamefixup { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Savegamefilename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L66)
+### **Savegamefilename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L66)
 
 ```csharp
 string Savegamefilename { get; set; }
@@ -110,7 +110,7 @@ string Savegamefilename { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Spawngrouphandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L27)
+### **Spawngrouphandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L27)
 
 ```csharp
 uint Spawngrouphandle { get; set; }
@@ -120,7 +120,7 @@ uint Spawngrouphandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Spawngroupmanifest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L39)
+### **Spawngroupmanifest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L39)
 
 ```csharp
 byte[] Spawngroupmanifest { get; set; }
@@ -130,7 +130,7 @@ byte[] Spawngroupmanifest { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Spawngroupownerhandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L30)
+### **Spawngroupownerhandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L30)
 
 ```csharp
 uint Spawngroupownerhandle { get; set; }
@@ -140,7 +140,7 @@ uint Spawngroupownerhandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Spawngroupparenthandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L69)
+### **Spawngroupparenthandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L69)
 
 ```csharp
 uint Spawngroupparenthandle { get; set; }
@@ -150,7 +150,7 @@ uint Spawngroupparenthandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Tickcount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L45)
+### **Tickcount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L45)
 
 ```csharp
 int Tickcount { get; set; }
@@ -160,7 +160,7 @@ int Tickcount { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**WorldOffsetAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L36)
+### **WorldOffsetAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L36)
 
 ```csharp
 QAngle WorldOffsetAngle { get; set; }
@@ -170,7 +170,7 @@ QAngle WorldOffsetAngle { get; set; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**WorldOffsetPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L33)
+### **WorldOffsetPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L33)
 
 ```csharp
 Vector WorldOffsetPos { get; set; }
@@ -180,7 +180,7 @@ Vector WorldOffsetPos { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Worldgroupid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L60)
+### **Worldgroupid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L60)
 
 ```csharp
 uint Worldgroupid { get; set; }
@@ -190,7 +190,7 @@ uint Worldgroupid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Worldgroupname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L75)
+### **Worldgroupname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L75)
 
 ```csharp
 string Worldgroupname { get; set; }
@@ -200,7 +200,7 @@ string Worldgroupname { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Worldname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L18)
+### **Worldname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_Load.cs#L18)
 
 ```csharp
 string Worldname { get; set; }

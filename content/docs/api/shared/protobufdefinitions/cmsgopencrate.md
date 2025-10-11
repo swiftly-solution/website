@@ -10,7 +10,7 @@ public interface CMsgOpenCrate : ITypedProtobuf<CMsgOpenCrate>, INativeHandle
 
 ## Properties
 
-**ForRental** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgOpenCrate.cs#L19)
+### **ForRental** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgOpenCrate.cs#L19)
 
 ```csharp
 bool ForRental { get; set; }
@@ -20,7 +20,7 @@ bool ForRental { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PointsRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgOpenCrate.cs#L22)
+### **PointsRemaining** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgOpenCrate.cs#L22)
 
 ```csharp
 uint PointsRemaining { get; set; }
@@ -30,7 +30,7 @@ uint PointsRemaining { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SubjectItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgOpenCrate.cs#L16)
+### **SubjectItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgOpenCrate.cs#L16)
 
 ```csharp
 ulong SubjectItemId { get; set; }
@@ -40,7 +40,7 @@ ulong SubjectItemId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ToolItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgOpenCrate.cs#L13)
+### **ToolItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgOpenCrate.cs#L13)
 
 ```csharp
 ulong ToolItemId { get; set; }

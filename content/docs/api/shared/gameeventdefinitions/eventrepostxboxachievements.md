@@ -10,7 +10,7 @@ public interface EventRepostXboxAchievements : IGameEvent<EventRepostXboxAchieve
 
 ## Properties
 
-**SplitScreenPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRepostXboxAchievements.cs#L23)
+### **SplitScreenPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventRepostXboxAchievements.cs#L23)
 
 ```csharp
 short SplitScreenPlayer { get; set; }

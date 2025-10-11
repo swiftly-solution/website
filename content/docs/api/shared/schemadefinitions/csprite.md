@@ -10,7 +10,7 @@ public interface CSprite : CBaseModelEntity, CBaseEntity, CEntityInstance, ISche
 
 ## Properties
 
-**AttachedToEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L18)
+### **AttachedToEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> AttachedToEntity { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> AttachedToEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**Attachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L20)
+### **Attachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L20)
 
 ```csharp
 AttachmentHandle_t Attachment { get; }
@@ -30,7 +30,7 @@ AttachmentHandle_t Attachment { get; }
 
 - [AttachmentHandle_t](/docs/api/shared/schemadefinitions/attachmenthandle_t)
 
-**Brightness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L28)
+### **Brightness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L28)
 
 ```csharp
 ref uint Brightness { get; }
@@ -40,7 +40,7 @@ ref uint Brightness { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**BrightnessDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L30)
+### **BrightnessDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L30)
 
 ```csharp
 ref float BrightnessDuration { get; }
@@ -50,7 +50,7 @@ ref float BrightnessDuration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BrightnessTimeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L56)
+### **BrightnessTimeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L56)
 
 ```csharp
 GameTime_t BrightnessTimeStart { get; }
@@ -60,7 +60,7 @@ GameTime_t BrightnessTimeStart { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**DestBrightness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L54)
+### **DestBrightness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L54)
 
 ```csharp
 ref int DestBrightness { get; }
@@ -70,7 +70,7 @@ ref int DestBrightness { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DestScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L48)
+### **DestScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L48)
 
 ```csharp
 ref float DestScale { get; }
@@ -80,7 +80,7 @@ ref float DestScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DieTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L26)
+### **DieTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L26)
 
 ```csharp
 GameTime_t DieTime { get; }
@@ -90,7 +90,7 @@ GameTime_t DieTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**Frame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L24)
+### **Frame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L24)
 
 ```csharp
 ref float Frame { get; }
@@ -100,7 +100,7 @@ ref float Frame { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GlowProxySize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L38)
+### **GlowProxySize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L38)
 
 ```csharp
 ref float GlowProxySize { get; }
@@ -110,7 +110,7 @@ ref float GlowProxySize { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HDRColorScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L40)
+### **HDRColorScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L40)
 
 ```csharp
 ref float HDRColorScale { get; }
@@ -120,7 +120,7 @@ ref float HDRColorScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LastTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L42)
+### **LastTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L42)
 
 ```csharp
 GameTime_t LastTime { get; }
@@ -130,7 +130,7 @@ GameTime_t LastTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**MaxFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L44)
+### **MaxFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L44)
 
 ```csharp
 ref float MaxFrame { get; }
@@ -140,7 +140,7 @@ ref float MaxFrame { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ScaleDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L34)
+### **ScaleDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L34)
 
 ```csharp
 ref float ScaleDuration { get; }
@@ -150,7 +150,7 @@ ref float ScaleDuration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ScaleTimeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L50)
+### **ScaleTimeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L50)
 
 ```csharp
 GameTime_t ScaleTimeStart { get; }
@@ -160,7 +160,7 @@ GameTime_t ScaleTimeStart { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**SpriteFramerate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L22)
+### **SpriteFramerate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L22)
 
 ```csharp
 ref float SpriteFramerate { get; }
@@ -170,7 +170,7 @@ ref float SpriteFramerate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SpriteHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L60)
+### **SpriteHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L60)
 
 ```csharp
 ref int SpriteHeight { get; }
@@ -180,7 +180,7 @@ ref int SpriteHeight { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SpriteMaterial** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L16)
+### **SpriteMaterial** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> SpriteMaterial { get; }
@@ -190,7 +190,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> SpriteMaterial { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
-**SpriteScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L32)
+### **SpriteScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L32)
 
 ```csharp
 ref float SpriteScale { get; }
@@ -200,7 +200,7 @@ ref float SpriteScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SpriteWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L58)
+### **SpriteWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L58)
 
 ```csharp
 ref int SpriteWidth { get; }
@@ -210,7 +210,7 @@ ref int SpriteWidth { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartBrightness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L52)
+### **StartBrightness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L52)
 
 ```csharp
 ref int StartBrightness { get; }
@@ -220,7 +220,7 @@ ref int StartBrightness { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L46)
+### **StartScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L46)
 
 ```csharp
 ref float StartScale { get; }
@@ -230,7 +230,7 @@ ref float StartScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WorldSpaceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L36)
+### **WorldSpaceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L36)
 
 ```csharp
 ref bool WorldSpaceScale { get; }
@@ -242,73 +242,73 @@ ref bool WorldSpaceScale { get; }
 
 ## Methods
 
-**AttachedToEntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L63)
+### **AttachedToEntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L63)
 
 ```csharp
 void AttachedToEntityUpdated()
 ```
 
-**AttachmentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L64)
+### **AttachmentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L64)
 
 ```csharp
 void AttachmentUpdated()
 ```
 
-**BrightnessDurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L68)
+### **BrightnessDurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L68)
 
 ```csharp
 void BrightnessDurationUpdated()
 ```
 
-**BrightnessUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L67)
+### **BrightnessUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L67)
 
 ```csharp
 void BrightnessUpdated()
 ```
 
-**FrameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L66)
+### **FrameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L66)
 
 ```csharp
 void FrameUpdated()
 ```
 
-**GlowProxySizeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L72)
+### **GlowProxySizeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L72)
 
 ```csharp
 void GlowProxySizeUpdated()
 ```
 
-**HDRColorScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L73)
+### **HDRColorScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L73)
 
 ```csharp
 void HDRColorScaleUpdated()
 ```
 
-**ScaleDurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L70)
+### **ScaleDurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L70)
 
 ```csharp
 void ScaleDurationUpdated()
 ```
 
-**SpriteFramerateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L65)
+### **SpriteFramerateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L65)
 
 ```csharp
 void SpriteFramerateUpdated()
 ```
 
-**SpriteMaterialUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L62)
+### **SpriteMaterialUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L62)
 
 ```csharp
 void SpriteMaterialUpdated()
 ```
 
-**SpriteScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L69)
+### **SpriteScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L69)
 
 ```csharp
 void SpriteScaleUpdated()
 ```
 
-**WorldSpaceScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L71)
+### **WorldSpaceScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSprite.cs#L71)
 
 ```csharp
 void WorldSpaceScaleUpdated()

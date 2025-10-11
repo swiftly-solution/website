@@ -10,7 +10,7 @@ public interface CParticleFunctionRenderer : CParticleFunction, ISchemaClass<CPa
 
 ## Properties
 
-**CannotBeRefracted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionRenderer.cs#L18)
+### **CannotBeRefracted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionRenderer.cs#L18)
 
 ```csharp
 ref bool CannotBeRefracted { get; }
@@ -20,7 +20,7 @@ ref bool CannotBeRefracted { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SkipRenderingOnMobile** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionRenderer.cs#L20)
+### **SkipRenderingOnMobile** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionRenderer.cs#L20)
 
 ```csharp
 ref bool SkipRenderingOnMobile { get; }
@@ -30,7 +30,7 @@ ref bool SkipRenderingOnMobile { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**VisibilityInputs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionRenderer.cs#L16)
+### **VisibilityInputs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionRenderer.cs#L16)
 
 ```csharp
 CParticleVisibilityInputs VisibilityInputs { get; }

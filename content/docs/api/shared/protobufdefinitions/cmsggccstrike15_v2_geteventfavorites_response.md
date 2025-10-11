@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_GetEventFavorites_Response : ITypedProtobuf<
 
 ## Properties
 
-**AllEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GetEventFavorites_Response.cs#L13)
+### **AllEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GetEventFavorites_Response.cs#L13)
 
 ```csharp
 bool AllEvents { get; set; }
@@ -20,7 +20,7 @@ bool AllEvents { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**JsonFavorites** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GetEventFavorites_Response.cs#L16)
+### **JsonFavorites** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GetEventFavorites_Response.cs#L16)
 
 ```csharp
 string JsonFavorites { get; set; }
@@ -30,7 +30,7 @@ string JsonFavorites { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**JsonFeatured** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GetEventFavorites_Response.cs#L19)
+### **JsonFeatured** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GetEventFavorites_Response.cs#L19)
 
 ```csharp
 string JsonFeatured { get; set; }

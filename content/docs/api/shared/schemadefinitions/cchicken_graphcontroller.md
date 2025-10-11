@@ -10,7 +10,7 @@ public interface CChicken_GraphController : CBaseAnimGraphAnimGraphController, C
 
 ## Properties
 
-**ActivityFinished** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken_GraphController.cs#L23)
+### **ActivityFinished** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken_GraphController.cs#L23)
 
 ```csharp
 SchemaUntypedField ActivityFinished { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField ActivityFinished { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ParamActivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken_GraphController.cs#L17)
+### **ParamActivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken_GraphController.cs#L17)
 
 ```csharp
 SchemaUntypedField ParamActivity { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField ParamActivity { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ParamEndActivityImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken_GraphController.cs#L20)
+### **ParamEndActivityImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken_GraphController.cs#L20)
 
 ```csharp
 SchemaUntypedField ParamEndActivityImmediately { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField ParamEndActivityImmediately { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ParamTurnAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken_GraphController.cs#L26)
+### **ParamTurnAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken_GraphController.cs#L26)
 
 ```csharp
 SchemaUntypedField ParamTurnAngle { get; }

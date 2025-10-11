@@ -10,7 +10,7 @@ public interface CMsgApplySticker : ITypedProtobuf<CMsgApplySticker>, INativeHan
 
 ## Properties
 
-**BaseitemDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L22)
+### **BaseitemDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L22)
 
 ```csharp
 uint BaseitemDefidx { get; set; }
@@ -20,7 +20,7 @@ uint BaseitemDefidx { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L16)
+### **ItemItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L16)
 
 ```csharp
 ulong ItemItemId { get; set; }
@@ -30,7 +30,7 @@ ulong ItemItemId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**StickerItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L13)
+### **StickerItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L13)
 
 ```csharp
 ulong StickerItemId { get; set; }
@@ -40,7 +40,7 @@ ulong StickerItemId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**StickerOffsetX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L34)
+### **StickerOffsetX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L34)
 
 ```csharp
 float StickerOffsetX { get; set; }
@@ -50,7 +50,7 @@ float StickerOffsetX { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StickerOffsetY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L37)
+### **StickerOffsetY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L37)
 
 ```csharp
 float StickerOffsetY { get; set; }
@@ -60,7 +60,7 @@ float StickerOffsetY { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StickerOffsetZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L40)
+### **StickerOffsetZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L40)
 
 ```csharp
 float StickerOffsetZ { get; set; }
@@ -70,7 +70,7 @@ float StickerOffsetZ { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StickerRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L28)
+### **StickerRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L28)
 
 ```csharp
 float StickerRotation { get; set; }
@@ -80,7 +80,7 @@ float StickerRotation { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StickerScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L31)
+### **StickerScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L31)
 
 ```csharp
 float StickerScale { get; set; }
@@ -90,7 +90,7 @@ float StickerScale { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StickerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L19)
+### **StickerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L19)
 
 ```csharp
 uint StickerSlot { get; set; }
@@ -100,7 +100,7 @@ uint StickerSlot { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**StickerWear** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L25)
+### **StickerWear** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L25)
 
 ```csharp
 float StickerWear { get; set; }
@@ -110,7 +110,7 @@ float StickerWear { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StickerWearTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L43)
+### **StickerWearTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplySticker.cs#L43)
 
 ```csharp
 float StickerWearTarget { get; set; }

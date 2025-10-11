@@ -10,7 +10,7 @@ public interface CCSUsrMsg_ServerRankUpdate : ITypedProtobuf<CCSUsrMsg_ServerRan
 
 ## Properties
 
-**RankUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ServerRankUpdate.cs#L18)
+### **RankUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_ServerRankUpdate.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_ServerRankUpdate_RankUpdate> RankUpdate { get; }

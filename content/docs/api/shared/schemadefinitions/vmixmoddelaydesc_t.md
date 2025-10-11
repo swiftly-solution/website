@@ -10,7 +10,7 @@ public interface VMixModDelayDesc_t : ISchemaClass<VMixModDelayDesc_t>, ISchemaF
 
 ## Properties
 
-**ApplyAntialiasing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L32)
+### **ApplyAntialiasing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L32)
 
 ```csharp
 ref bool ApplyAntialiasing { get; }
@@ -20,7 +20,7 @@ ref bool ApplyAntialiasing { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Delay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L22)
+### **Delay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L22)
 
 ```csharp
 ref float Delay { get; }
@@ -30,7 +30,7 @@ ref float Delay { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FeedbackFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L16)
+### **FeedbackFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L16)
 
 ```csharp
 VMixFilterDesc_t FeedbackFilter { get; }
@@ -40,7 +40,7 @@ VMixFilterDesc_t FeedbackFilter { get; }
 
 - [VMixFilterDesc_t](/docs/api/shared/schemadefinitions/vmixfilterdesc_t)
 
-**FeedbackGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L26)
+### **FeedbackGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L26)
 
 ```csharp
 ref float FeedbackGain { get; }
@@ -50,7 +50,7 @@ ref float FeedbackGain { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GlideTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L20)
+### **GlideTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L20)
 
 ```csharp
 ref float GlideTime { get; }
@@ -60,7 +60,7 @@ ref float GlideTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ModDepth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L30)
+### **ModDepth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L30)
 
 ```csharp
 ref float ModDepth { get; }
@@ -70,7 +70,7 @@ ref float ModDepth { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ModRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L28)
+### **ModRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L28)
 
 ```csharp
 ref float ModRate { get; }
@@ -80,7 +80,7 @@ ref float ModRate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L24)
+### **OutputGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L24)
 
 ```csharp
 ref float OutputGain { get; }
@@ -90,7 +90,7 @@ ref float OutputGain { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PhaseInvert** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L18)
+### **PhaseInvert** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixModDelayDesc_t.cs#L18)
 
 ```csharp
 ref bool PhaseInvert { get; }

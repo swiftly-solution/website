@@ -10,7 +10,7 @@ public interface CInButtonState : ISchemaClass<CInButtonState>, ISchemaField, IS
 
 ## Properties
 
-**ButtonStates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInButtonState.cs#L16)
+### **ButtonStates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInButtonState.cs#L16)
 
 ```csharp
 ISchemaFixedArray<ulong> ButtonStates { get; }

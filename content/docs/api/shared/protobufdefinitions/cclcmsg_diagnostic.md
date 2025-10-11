@@ -10,7 +10,7 @@ public interface CCLCMsg_Diagnostic : ITypedProtobuf<CCLCMsg_Diagnostic>, INativ
 
 ## Properties
 
-**DownstreamFlow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_Diagnostic.cs#L24)
+### **DownstreamFlow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_Diagnostic.cs#L24)
 
 ```csharp
 CMsgSource2NetworkFlowQuality DownstreamFlow { get; }
@@ -20,7 +20,7 @@ CMsgSource2NetworkFlowQuality DownstreamFlow { get; }
 
 - [CMsgSource2NetworkFlowQuality](/docs/api/shared/protobufdefinitions/cmsgsource2networkflowquality)
 
-**PerfSamples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_Diagnostic.cs#L30)
+### **PerfSamples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_Diagnostic.cs#L30)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSource2PerfIntervalSample> PerfSamples { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSource2PerfIntervalSample> PerfSamples 
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSource2PerfIntervalSample](/docs/api/shared/protobufdefinitions/cmsgsource2perfintervalsample)>
 
-**SystemSpecs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_Diagnostic.cs#L18)
+### **SystemSpecs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_Diagnostic.cs#L18)
 
 ```csharp
 CMsgSource2SystemSpecs SystemSpecs { get; }
@@ -40,7 +40,7 @@ CMsgSource2SystemSpecs SystemSpecs { get; }
 
 - [CMsgSource2SystemSpecs](/docs/api/shared/protobufdefinitions/cmsgsource2systemspecs)
 
-**UpstreamFlow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_Diagnostic.cs#L27)
+### **UpstreamFlow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_Diagnostic.cs#L27)
 
 ```csharp
 CMsgSource2NetworkFlowQuality UpstreamFlow { get; }
@@ -50,7 +50,7 @@ CMsgSource2NetworkFlowQuality UpstreamFlow { get; }
 
 - [CMsgSource2NetworkFlowQuality](/docs/api/shared/protobufdefinitions/cmsgsource2networkflowquality)
 
-**VprofReport** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_Diagnostic.cs#L21)
+### **VprofReport** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_Diagnostic.cs#L21)
 
 ```csharp
 CMsgSource2VProfLiteReport VprofReport { get; }

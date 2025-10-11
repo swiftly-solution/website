@@ -10,7 +10,7 @@ public interface CNmTransitionEventConditionNode__CDefinition : CNmBoolValueNode
 
 ## Properties
 
-**EventConditionRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionEventConditionNode__CDefinition.cs#L18)
+### **EventConditionRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionEventConditionNode__CDefinition.cs#L18)
 
 ```csharp
 CNmBitFlags EventConditionRules { get; }
@@ -20,7 +20,7 @@ CNmBitFlags EventConditionRules { get; }
 
 - [CNmBitFlags](/docs/api/shared/schemadefinitions/cnmbitflags)
 
-**RequireRuleID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionEventConditionNode__CDefinition.cs#L16)
+### **RequireRuleID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionEventConditionNode__CDefinition.cs#L16)
 
 ```csharp
 ref CGlobalSymbol RequireRuleID { get; }
@@ -30,7 +30,7 @@ ref CGlobalSymbol RequireRuleID { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**RuleCondition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionEventConditionNode__CDefinition.cs#L22)
+### **RuleCondition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionEventConditionNode__CDefinition.cs#L22)
 
 ```csharp
 ref NmTransitionRuleCondition_t RuleCondition { get; }
@@ -40,7 +40,7 @@ ref NmTransitionRuleCondition_t RuleCondition { get; }
 
 - [NmTransitionRuleCondition_t](/docs/api/shared/schemadefinitions/nmtransitionrulecondition_t)
 
-**SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionEventConditionNode__CDefinition.cs#L20)
+### **SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTransitionEventConditionNode__CDefinition.cs#L20)
 
 ```csharp
 ref short SourceStateNodeIdx { get; }

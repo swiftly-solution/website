@@ -10,7 +10,7 @@ public interface CSVCMsg_VoiceData : ITypedProtobuf<CSVCMsg_VoiceData>, INativeH
 
 ## Properties
 
-**AudibleMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L30)
+### **AudibleMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L30)
 
 ```csharp
 int AudibleMask { get; set; }
@@ -20,7 +20,7 @@ int AudibleMask { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Audio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L18)
+### **Audio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L18)
 
 ```csharp
 CMsgVoiceAudio Audio { get; }
@@ -30,7 +30,7 @@ CMsgVoiceAudio Audio { get; }
 
 - [CMsgVoiceAudio](/docs/api/shared/protobufdefinitions/cmsgvoiceaudio)
 
-**Client** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L21)
+### **Client** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L21)
 
 ```csharp
 int Client { get; set; }
@@ -40,7 +40,7 @@ int Client { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Passthrough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L36)
+### **Passthrough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L36)
 
 ```csharp
 int Passthrough { get; set; }
@@ -50,7 +50,7 @@ int Passthrough { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Proximity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L24)
+### **Proximity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L24)
 
 ```csharp
 bool Proximity { get; set; }
@@ -60,7 +60,7 @@ bool Proximity { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L33)
+### **Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L33)
 
 ```csharp
 uint Tick { get; set; }
@@ -70,7 +70,7 @@ uint Tick { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L27)
+### **Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_VoiceData.cs#L27)
 
 ```csharp
 ulong Xuid { get; set; }

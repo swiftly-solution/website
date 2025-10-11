@@ -10,7 +10,7 @@ public interface CCSUsrMsg_AdjustMoney : ITypedProtobuf<CCSUsrMsg_AdjustMoney>, 
 
 ## Properties
 
-**Amount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_AdjustMoney.cs#L18)
+### **Amount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_AdjustMoney.cs#L18)
 
 ```csharp
 int Amount { get; set; }

@@ -12,7 +12,7 @@ public interface IUnmanagedFunction<TDelegate> where TDelegate : Delegate
 
 ## Properties
 
-**Address** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L8)
+### **Address** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L8)
 
 ```csharp
 nint Address { get; }
@@ -22,7 +22,7 @@ nint Address { get; }
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-**Call** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L21)
+### **Call** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L21)
 
 ```csharp
 TDelegate Call { get; }
@@ -32,7 +32,7 @@ TDelegate Call { get; }
 
 - TDelegate
 
-**CallOriginal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L15)
+### **CallOriginal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L15)
 
 ```csharp
 TDelegate CallOriginal { get; }
@@ -44,7 +44,7 @@ TDelegate CallOriginal { get; }
 
 ## Methods
 
-**AddHook(Func<Func<TDelegate>, TDelegate>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L31)
+### **AddHook(Func<Func<TDelegate>, TDelegate>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L31)
 
 ```csharp
 Guid AddHook(Func<Func<TDelegate>, TDelegate> callbackBuilder)
@@ -58,7 +58,7 @@ Guid AddHook(Func<Func<TDelegate>, TDelegate> callbackBuilder)
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - a guid for the hook.
 
-**RemoveHook(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L37)
+### **RemoveHook(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedFunction.cs#L37)
 
 ```csharp
 void RemoveHook(Guid id)

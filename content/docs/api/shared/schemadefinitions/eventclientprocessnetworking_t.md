@@ -10,7 +10,7 @@ public interface EventClientProcessNetworking_t : ISchemaClass<EventClientProces
 
 ## Properties
 
-**TickCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessNetworking_t.cs#L16)
+### **TickCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessNetworking_t.cs#L16)
 
 ```csharp
 ref int TickCount { get; }

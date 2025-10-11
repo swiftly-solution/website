@@ -10,7 +10,7 @@ public interface CSVCMsg_PeerList : ITypedProtobuf<CSVCMsg_PeerList>, INativeHan
 
 ## Properties
 
-**Peer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PeerList.cs#L18)
+### **Peer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PeerList.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgServerPeer> Peer { get; }

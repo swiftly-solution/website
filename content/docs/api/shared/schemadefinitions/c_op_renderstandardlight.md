@@ -10,7 +10,7 @@ public interface C_OP_RenderStandardLight : CParticleFunctionRenderer, CParticle
 
 ## Properties
 
-**AttenuationStyle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L32)
+### **AttenuationStyle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L32)
 
 ```csharp
 ref StandardLightingAttenuationStyle_t AttenuationStyle { get; }
@@ -20,7 +20,7 @@ ref StandardLightingAttenuationStyle_t AttenuationStyle { get; }
 
 - [StandardLightingAttenuationStyle_t](/docs/api/shared/schemadefinitions/standardlightingattenuationstyle_t)
 
-**CapsuleLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L54)
+### **CapsuleLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L54)
 
 ```csharp
 ref float CapsuleLength { get; }
@@ -30,7 +30,7 @@ ref float CapsuleLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CapsuleLightBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L52)
+### **CapsuleLightBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L52)
 
 ```csharp
 ref ParticleLightBehaviorChoiceList_t CapsuleLightBehavior { get; }
@@ -40,7 +40,7 @@ ref ParticleLightBehaviorChoiceList_t CapsuleLightBehavior { get; }
 
 - [ParticleLightBehaviorChoiceList_t](/docs/api/shared/schemadefinitions/particlelightbehaviorchoicelist_t)
 
-**CastShadows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L24)
+### **CastShadows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L24)
 
 ```csharp
 ref bool CastShadows { get; }
@@ -50,7 +50,7 @@ ref bool CastShadows { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ClosedLoop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L58)
+### **ClosedLoop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L58)
 
 ```csharp
 ref bool ClosedLoop { get; }
@@ -60,7 +60,7 @@ ref bool ClosedLoop { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ColorBlendType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L20)
+### **ColorBlendType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L20)
 
 ```csharp
 ref ParticleColorBlendType_t ColorBlendType { get; }
@@ -70,7 +70,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
-**ColorScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L18)
+### **ColorScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L18)
 
 ```csharp
 CParticleCollectionVecInput ColorScale { get; }
@@ -80,7 +80,7 @@ CParticleCollectionVecInput ColorScale { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**ConstrainRadiusToLengthRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L68)
+### **ConstrainRadiusToLengthRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L68)
 
 ```csharp
 ref float ConstrainRadiusToLengthRatio { get; }
@@ -90,7 +90,7 @@ ref float ConstrainRadiusToLengthRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FalloffLinearity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L34)
+### **FalloffLinearity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L34)
 
 ```csharp
 CParticleCollectionFloatInput FalloffLinearity { get; }
@@ -100,7 +100,7 @@ CParticleCollectionFloatInput FalloffLinearity { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**FiftyPercentFalloff** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L36)
+### **FiftyPercentFalloff** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L36)
 
 ```csharp
 CParticleCollectionFloatInput FiftyPercentFalloff { get; }
@@ -110,7 +110,7 @@ CParticleCollectionFloatInput FiftyPercentFalloff { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**FogContribution** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L50)
+### **FogContribution** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L50)
 
 ```csharp
 CParticleCollectionRendererFloatInput FogContribution { get; }
@@ -120,7 +120,7 @@ CParticleCollectionRendererFloatInput FogContribution { get; }
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-**FogLightingMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L48)
+### **FogLightingMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L48)
 
 ```csharp
 ref ParticleLightFogLightingMode_t FogLightingMode { get; }
@@ -130,7 +130,7 @@ ref ParticleLightFogLightingMode_t FogLightingMode { get; }
 
 - [ParticleLightFogLightingMode_t](/docs/api/shared/schemadefinitions/particlelightfoglightingmode_t)
 
-**IgnoreDT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L66)
+### **IgnoreDT** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L66)
 
 ```csharp
 ref bool IgnoreDT { get; }
@@ -140,7 +140,7 @@ ref bool IgnoreDT { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Intensity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L22)
+### **Intensity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput Intensity { get; }
@@ -150,7 +150,7 @@ CParticleCollectionFloatInput Intensity { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**LengthFadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L72)
+### **LengthFadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L72)
 
 ```csharp
 ref float LengthFadeInTime { get; }
@@ -160,7 +160,7 @@ ref float LengthFadeInTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LengthScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L70)
+### **LengthScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L70)
 
 ```csharp
 ref float LengthScale { get; }
@@ -170,7 +170,7 @@ ref float LengthScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LightCookie** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L44)
+### **LightCookie** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L44)
 
 ```csharp
 string LightCookie { get; set; }
@@ -180,7 +180,7 @@ string LightCookie { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**LightType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L16)
+### **LightType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L16)
 
 ```csharp
 ref ParticleLightTypeChoiceList_t LightType { get; }
@@ -190,7 +190,7 @@ ref ParticleLightTypeChoiceList_t LightType { get; }
 
 - [ParticleLightTypeChoiceList_t](/docs/api/shared/schemadefinitions/particlelighttypechoicelist_t)
 
-**MaxLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L62)
+### **MaxLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L62)
 
 ```csharp
 ref float MaxLength { get; }
@@ -200,7 +200,7 @@ ref float MaxLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L64)
+### **MinLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L64)
 
 ```csharp
 ref float MinLength { get; }
@@ -210,7 +210,7 @@ ref float MinLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Phi** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L28)
+### **Phi** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput Phi { get; }
@@ -220,7 +220,7 @@ CParticleCollectionFloatInput Phi { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**PrevPntSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L60)
+### **PrevPntSource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L60)
 
 ```csharp
 ParticleAttributeIndex_t PrevPntSource { get; }
@@ -230,7 +230,7 @@ ParticleAttributeIndex_t PrevPntSource { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L46)
+### **Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L46)
 
 ```csharp
 ref int Priority { get; }
@@ -240,7 +240,7 @@ ref int Priority { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RadiusMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L30)
+### **RadiusMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput RadiusMultiplier { get; }
@@ -250,7 +250,7 @@ CParticleCollectionFloatInput RadiusMultiplier { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**RenderDiffuse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L40)
+### **RenderDiffuse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L40)
 
 ```csharp
 ref bool RenderDiffuse { get; }
@@ -260,7 +260,7 @@ ref bool RenderDiffuse { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RenderSpecular** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L42)
+### **RenderSpecular** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L42)
 
 ```csharp
 ref bool RenderSpecular { get; }
@@ -270,7 +270,7 @@ ref bool RenderSpecular { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ReverseOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L56)
+### **ReverseOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L56)
 
 ```csharp
 ref bool ReverseOrder { get; }
@@ -280,7 +280,7 @@ ref bool ReverseOrder { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Theta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L26)
+### **Theta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput Theta { get; }
@@ -290,7 +290,7 @@ CParticleCollectionFloatInput Theta { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ZeroPercentFalloff** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L38)
+### **ZeroPercentFalloff** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderStandardLight.cs#L38)
 
 ```csharp
 CParticleCollectionFloatInput ZeroPercentFalloff { get; }

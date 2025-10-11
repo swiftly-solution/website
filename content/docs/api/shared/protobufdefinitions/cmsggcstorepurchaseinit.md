@@ -10,7 +10,7 @@ public interface CMsgGCStorePurchaseInit : ITypedProtobuf<CMsgGCStorePurchaseIni
 
 ## Properties
 
-**Country** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseInit.cs#L13)
+### **Country** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseInit.cs#L13)
 
 ```csharp
 string Country { get; set; }
@@ -20,7 +20,7 @@ string Country { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Currency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseInit.cs#L19)
+### **Currency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseInit.cs#L19)
 
 ```csharp
 int Currency { get; set; }
@@ -30,7 +30,7 @@ int Currency { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Language** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseInit.cs#L16)
+### **Language** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseInit.cs#L16)
 
 ```csharp
 int Language { get; set; }
@@ -40,7 +40,7 @@ int Language { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LineItems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseInit.cs#L22)
+### **LineItems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseInit.cs#L22)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CGCStorePurchaseInit_LineItem> LineItems { get; }

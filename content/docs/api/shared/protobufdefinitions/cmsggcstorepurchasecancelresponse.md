@@ -10,7 +10,7 @@ public interface CMsgGCStorePurchaseCancelResponse : ITypedProtobuf<CMsgGCStoreP
 
 ## Properties
 
-**Result** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseCancelResponse.cs#L13)
+### **Result** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseCancelResponse.cs#L13)
 
 ```csharp
 uint Result { get; set; }

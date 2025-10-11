@@ -10,7 +10,7 @@ public interface CVoiceContainerSwitch : CVoiceContainerBase, ISchemaClass<CVoic
 
 ## Properties
 
-**SoundsToPlay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSwitch.cs#L17)
+### **SoundsToPlay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSwitch.cs#L17)
 
 ```csharp
 ref CUtlVector SoundsToPlay { get; }
@@ -18,5 +18,5 @@ ref CUtlVector SoundsToPlay { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

@@ -10,7 +10,7 @@ public interface CFootStride : ISchemaClass<CFootStride>, ISchemaField, ISchemaC
 
 ## Properties
 
-**Definition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootStride.cs#L16)
+### **Definition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootStride.cs#L16)
 
 ```csharp
 CFootCycleDefinition Definition { get; }
@@ -20,7 +20,7 @@ CFootCycleDefinition Definition { get; }
 
 - [CFootCycleDefinition](/docs/api/shared/schemadefinitions/cfootcycledefinition)
 
-**Trajectories** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootStride.cs#L18)
+### **Trajectories** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootStride.cs#L18)
 
 ```csharp
 CFootTrajectories Trajectories { get; }

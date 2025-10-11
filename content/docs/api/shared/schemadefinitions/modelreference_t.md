@@ -10,7 +10,7 @@ public interface ModelReference_t : ISchemaClass<ModelReference_t>, ISchemaField
 
 ## Properties
 
-**Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelReference_t.cs#L16)
+### **Model** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelReference_t.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
@@ -20,7 +20,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
-**RelativeProbabilityOfSpawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelReference_t.cs#L18)
+### **RelativeProbabilityOfSpawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ModelReference_t.cs#L18)
 
 ```csharp
 ref float RelativeProbabilityOfSpawn { get; }

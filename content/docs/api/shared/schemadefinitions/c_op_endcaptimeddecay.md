@@ -10,7 +10,7 @@ public interface C_OP_EndCapTimedDecay : CParticleFunctionOperator, CParticleFun
 
 ## Properties
 
-**DecayTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EndCapTimedDecay.cs#L16)
+### **DecayTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_EndCapTimedDecay.cs#L16)
 
 ```csharp
 ref float DecayTime { get; }

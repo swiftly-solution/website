@@ -10,7 +10,7 @@ public interface CRotDoor : CBaseDoor, CBaseToggle, CBaseModelEntity, CBaseEntit
 
 ## Properties
 
-**SolidBsp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRotDoor.cs#L16)
+### **SolidBsp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRotDoor.cs#L16)
 
 ```csharp
 ref bool SolidBsp { get; }

@@ -10,7 +10,7 @@ public interface CSkyboxReference : CBaseEntity, CEntityInstance, ISchemaClass<C
 
 ## Properties
 
-**SkyCamera** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyboxReference.cs#L18)
+### **SkyCamera** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyboxReference.cs#L18)
 
 ```csharp
 ref CHandle<CSkyCamera> SkyCamera { get; }
@@ -20,7 +20,7 @@ ref CHandle<CSkyCamera> SkyCamera { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CSkyCamera](/docs/api/shared/schemadefinitions/cskycamera)>
 
-**WorldGroupId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyboxReference.cs#L16)
+### **WorldGroupId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyboxReference.cs#L16)
 
 ```csharp
 ref uint WorldGroupId { get; }

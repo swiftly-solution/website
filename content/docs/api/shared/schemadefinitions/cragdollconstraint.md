@@ -10,7 +10,7 @@ public interface CRagdollConstraint : CPhysConstraint, CLogicalEntity, CServerOn
 
 ## Properties
 
-**Xfriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L28)
+### **Xfriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L28)
 
 ```csharp
 ref float Xfriction { get; }
@@ -20,7 +20,7 @@ ref float Xfriction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Xmax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L18)
+### **Xmax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L18)
 
 ```csharp
 ref float Xmax { get; }
@@ -30,7 +30,7 @@ ref float Xmax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Xmin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L16)
+### **Xmin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L16)
 
 ```csharp
 ref float Xmin { get; }
@@ -40,7 +40,7 @@ ref float Xmin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Yfriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L30)
+### **Yfriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L30)
 
 ```csharp
 ref float Yfriction { get; }
@@ -50,7 +50,7 @@ ref float Yfriction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Ymax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L22)
+### **Ymax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L22)
 
 ```csharp
 ref float Ymax { get; }
@@ -60,7 +60,7 @@ ref float Ymax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Ymin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L20)
+### **Ymin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L20)
 
 ```csharp
 ref float Ymin { get; }
@@ -70,7 +70,7 @@ ref float Ymin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Zfriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L32)
+### **Zfriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L32)
 
 ```csharp
 ref float Zfriction { get; }
@@ -80,7 +80,7 @@ ref float Zfriction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Zmax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L26)
+### **Zmax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L26)
 
 ```csharp
 ref float Zmax { get; }
@@ -90,7 +90,7 @@ ref float Zmax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Zmin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L24)
+### **Zmin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollConstraint.cs#L24)
 
 ```csharp
 ref float Zmin { get; }

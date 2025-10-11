@@ -10,7 +10,7 @@ public interface CMsgStoreGetUserDataResponse : ITypedProtobuf<CMsgStoreGetUserD
 
 ## Properties
 
-**CountryDeprecated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgStoreGetUserDataResponse.cs#L19)
+### **CountryDeprecated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgStoreGetUserDataResponse.cs#L19)
 
 ```csharp
 string CountryDeprecated { get; set; }
@@ -20,7 +20,7 @@ string CountryDeprecated { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**CurrencyDeprecated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgStoreGetUserDataResponse.cs#L16)
+### **CurrencyDeprecated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgStoreGetUserDataResponse.cs#L16)
 
 ```csharp
 int CurrencyDeprecated { get; set; }
@@ -30,7 +30,7 @@ int CurrencyDeprecated { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PriceSheet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgStoreGetUserDataResponse.cs#L25)
+### **PriceSheet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgStoreGetUserDataResponse.cs#L25)
 
 ```csharp
 byte[] PriceSheet { get; set; }
@@ -40,7 +40,7 @@ byte[] PriceSheet { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**PriceSheetVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgStoreGetUserDataResponse.cs#L22)
+### **PriceSheetVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgStoreGetUserDataResponse.cs#L22)
 
 ```csharp
 uint PriceSheetVersion { get; set; }
@@ -50,7 +50,7 @@ uint PriceSheetVersion { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Result** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgStoreGetUserDataResponse.cs#L13)
+### **Result** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgStoreGetUserDataResponse.cs#L13)
 
 ```csharp
 int Result { get; set; }

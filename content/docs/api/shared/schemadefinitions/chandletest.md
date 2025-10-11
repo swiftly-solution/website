@@ -10,7 +10,7 @@ public interface CHandleTest : CBaseEntity, CEntityInstance, ISchemaClass<CEntit
 
 ## Properties
 
-**Handle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHandleTest.cs#L16)
+### **Handle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHandleTest.cs#L16)
 
 ```csharp
 ref CHandle<CBaseEntity> Handle { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> Handle { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**SendHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHandleTest.cs#L18)
+### **SendHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHandleTest.cs#L18)
 
 ```csharp
 ref bool SendHandle { get; }
@@ -32,13 +32,13 @@ ref bool SendHandle { get; }
 
 ## Methods
 
-**HandleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHandleTest.cs#L20)
+### **HandleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHandleTest.cs#L20)
 
 ```csharp
 void HandleUpdated()
 ```
 
-**SendHandleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHandleTest.cs#L21)
+### **SendHandleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CHandleTest.cs#L21)
 
 ```csharp
 void SendHandleUpdated()

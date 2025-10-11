@@ -10,7 +10,7 @@ public interface CPhysTorque : CPhysForce, CPointEntity, CBaseEntity, CEntityIns
 
 ## Properties
 
-**Axis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysTorque.cs#L16)
+### **Axis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysTorque.cs#L16)
 
 ```csharp
 ref Vector Axis { get; }

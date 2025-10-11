@@ -10,7 +10,7 @@ public interface CDemoClassInfo : ITypedProtobuf<CDemoClassInfo>, INativeHandle
 
 ## Properties
 
-**Classes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoClassInfo.cs#L13)
+### **Classes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoClassInfo.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CDemoClassInfo_class_t> Classes { get; }

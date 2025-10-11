@@ -10,7 +10,7 @@ public interface C_OP_CylindricalDistanceToTransform : CParticleFunctionOperator
 
 ## Properties
 
-**ActiveRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L32)
+### **ActiveRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L32)
 
 ```csharp
 ref bool ActiveRange { get; }
@@ -20,7 +20,7 @@ ref bool ActiveRange { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Additive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L34)
+### **Additive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L34)
 
 ```csharp
 ref bool Additive { get; }
@@ -30,7 +30,7 @@ ref bool Additive { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Capsule** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L36)
+### **Capsule** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L36)
 
 ```csharp
 ref bool Capsule { get; }
@@ -40,7 +40,7 @@ ref bool Capsule { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -50,7 +50,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L20)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L20)
 
 ```csharp
 CPerParticleFloatInput InputMax { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput InputMax { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L18)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L18)
 
 ```csharp
 CPerParticleFloatInput InputMin { get; }
@@ -70,7 +70,7 @@ CPerParticleFloatInput InputMin { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L24)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L24)
 
 ```csharp
 CPerParticleFloatInput OutputMax { get; }
@@ -80,7 +80,7 @@ CPerParticleFloatInput OutputMax { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L22)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L22)
 
 ```csharp
 CPerParticleFloatInput OutputMin { get; }
@@ -90,7 +90,7 @@ CPerParticleFloatInput OutputMin { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L30)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L30)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -100,7 +100,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 
-**TransformEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L28)
+### **TransformEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L28)
 
 ```csharp
 CParticleTransformInput TransformEnd { get; }
@@ -110,7 +110,7 @@ CParticleTransformInput TransformEnd { get; }
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 
-**TransformStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L26)
+### **TransformStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CylindricalDistanceToTransform.cs#L26)
 
 ```csharp
 CParticleTransformInput TransformStart { get; }

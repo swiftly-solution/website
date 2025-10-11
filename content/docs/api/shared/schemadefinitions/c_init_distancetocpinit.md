@@ -10,7 +10,7 @@ public interface C_INIT_DistanceToCPInit : CParticleFunctionInitializer, CPartic
 
 ## Properties
 
-**ActiveRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L40)
+### **ActiveRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L40)
 
 ```csharp
 ref bool ActiveRange { get; }
@@ -20,7 +20,7 @@ ref bool ActiveRange { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**CollisionGroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L30)
+### **CollisionGroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L30)
 
 ```csharp
 string CollisionGroupName { get; set; }
@@ -30,7 +30,7 @@ string CollisionGroupName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DistanceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L42)
+### **DistanceScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L42)
 
 ```csharp
 ref Vector DistanceScale { get; }
@@ -40,7 +40,7 @@ ref Vector DistanceScale { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -50,7 +50,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L20)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L20)
 
 ```csharp
 CPerParticleFloatInput InputMax { get; }
@@ -60,7 +60,7 @@ CPerParticleFloatInput InputMax { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L18)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L18)
 
 ```csharp
 CPerParticleFloatInput InputMin { get; }
@@ -70,7 +70,7 @@ CPerParticleFloatInput InputMin { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**LOS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L28)
+### **LOS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L28)
 
 ```csharp
 ref bool LOS { get; }
@@ -80,7 +80,7 @@ ref bool LOS { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LOSScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L36)
+### **LOSScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L36)
 
 ```csharp
 ref float LOSScale { get; }
@@ -90,7 +90,7 @@ ref float LOSScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxTraceLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L34)
+### **MaxTraceLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L34)
 
 ```csharp
 CPerParticleFloatInput MaxTraceLength { get; }
@@ -100,7 +100,7 @@ CPerParticleFloatInput MaxTraceLength { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L24)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L24)
 
 ```csharp
 CPerParticleFloatInput OutputMax { get; }
@@ -110,7 +110,7 @@ CPerParticleFloatInput OutputMax { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L22)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L22)
 
 ```csharp
 CPerParticleFloatInput OutputMin { get; }
@@ -120,7 +120,7 @@ CPerParticleFloatInput OutputMin { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**RemapBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L44)
+### **RemapBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L44)
 
 ```csharp
 ref float RemapBias { get; }
@@ -130,7 +130,7 @@ ref float RemapBias { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L38)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L38)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -140,7 +140,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 
-**StartCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L26)
+### **StartCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L26)
 
 ```csharp
 ref int StartCP { get; }
@@ -150,7 +150,7 @@ ref int StartCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TraceSet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L32)
+### **TraceSet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_DistanceToCPInit.cs#L32)
 
 ```csharp
 ref ParticleTraceSet_t TraceSet { get; }

@@ -10,7 +10,7 @@ public interface CFlashbangProjectile : CBaseCSGrenadeProjectile, CBaseGrenade, 
 
 ## Properties
 
-**NumOpponentsHit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlashbangProjectile.cs#L18)
+### **NumOpponentsHit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlashbangProjectile.cs#L18)
 
 ```csharp
 ref byte NumOpponentsHit { get; }
@@ -20,7 +20,7 @@ ref byte NumOpponentsHit { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**NumTeammatesHit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlashbangProjectile.cs#L20)
+### **NumTeammatesHit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlashbangProjectile.cs#L20)
 
 ```csharp
 ref byte NumTeammatesHit { get; }
@@ -30,7 +30,7 @@ ref byte NumTeammatesHit { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**TimeToDetonate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlashbangProjectile.cs#L16)
+### **TimeToDetonate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlashbangProjectile.cs#L16)
 
 ```csharp
 ref float TimeToDetonate { get; }

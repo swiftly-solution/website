@@ -10,7 +10,7 @@ public interface CSGOInterpolationInfoPB_CL : ITypedProtobuf<CSGOInterpolationIn
 
 ## Properties
 
-**Frac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOInterpolationInfoPB_CL.cs#L13)
+### **Frac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOInterpolationInfoPB_CL.cs#L13)
 
 ```csharp
 float Frac { get; set; }

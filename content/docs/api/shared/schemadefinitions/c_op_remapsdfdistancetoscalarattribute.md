@@ -10,7 +10,7 @@ public interface C_OP_RemapSDFDistanceToScalarAttribute : CParticleFunctionOpera
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**MaxDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L22)
+### **MaxDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput MaxDistance { get; }
@@ -30,7 +30,7 @@ CParticleCollectionFloatInput MaxDistance { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**MinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L20)
+### **MinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput MinDistance { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput MinDistance { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ValueAboveMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L30)
+### **ValueAboveMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput ValueAboveMax { get; }
@@ -50,7 +50,7 @@ CParticleCollectionFloatInput ValueAboveMax { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ValueAtMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L28)
+### **ValueAtMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput ValueAtMax { get; }
@@ -60,7 +60,7 @@ CParticleCollectionFloatInput ValueAtMax { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ValueAtMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L26)
+### **ValueAtMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput ValueAtMin { get; }
@@ -70,7 +70,7 @@ CParticleCollectionFloatInput ValueAtMin { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ValueBelowMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L24)
+### **ValueBelowMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput ValueBelowMin { get; }
@@ -80,7 +80,7 @@ CParticleCollectionFloatInput ValueBelowMin { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**VectorFieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L18)
+### **VectorFieldInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapSDFDistanceToScalarAttribute.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t VectorFieldInput { get; }

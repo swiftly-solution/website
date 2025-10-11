@@ -8,7 +8,7 @@ public interface IPlayerManagerService
 
 ## Properties
 
-**PlayerCap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L19)
+### **PlayerCap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L19)
 
 ```csharp
 int PlayerCap { get; }
@@ -18,7 +18,7 @@ int PlayerCap { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PlayerCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L14)
+### **PlayerCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L14)
 
 ```csharp
 int PlayerCount { get; }
@@ -30,13 +30,13 @@ int PlayerCount { get; }
 
 ## Methods
 
-**ClearAllBlockedTransmitEntities()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L36)
+### **ClearAllBlockedTransmitEntities()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L36)
 
 ```csharp
 void ClearAllBlockedTransmitEntities()
 ```
 
-**GetAllPlayers()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L50)
+### **GetAllPlayers()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L50)
 
 ```csharp
 IEnumerable<IPlayer> GetAllPlayers()
@@ -46,7 +46,7 @@ IEnumerable<IPlayer> GetAllPlayers()
 
 - [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)<[IPlayer](/docs/api/shared/players/iplayer)> - An enumerable collection of <xref href="SwiftlyS2.Shared.Players.IPlayer" data-throw-if-not-resolved="false"></xref> instances representing all online players.
 
-**GetPlayer(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L44)
+### **GetPlayer(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L44)
 
 ```csharp
 IPlayer GetPlayer(int playerid)
@@ -61,7 +61,7 @@ IPlayer GetPlayer(int playerid)
 - [IPlayer](/docs/api/shared/players/iplayer) - An <xref href="SwiftlyS2.Shared.Players.IPlayer" data-throw-if-not-resolved="false"></xref> instance representing the player with the specified ID, or <code>null</code> if no such
     player exists.
 
-**IsPlayerOnline(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L9)
+### **IsPlayerOnline(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L9)
 
 ```csharp
 bool IsPlayerOnline(int playerid)
@@ -75,7 +75,7 @@ bool IsPlayerOnline(int playerid)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the player is online, false otherwise.
 
-**SendMessage(MessageType, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L26)
+### **SendMessage(MessageType, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L26)
 
 ```csharp
 void SendMessage(MessageType kind, string message)
@@ -86,7 +86,7 @@ void SendMessage(MessageType kind, string message)
 - **kind**: [MessageType](/docs/api/shared/players/messagetype) - The type of message display.
 - **message**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The text content to send to players.
 
-**ShouldBlockTransmitEntity(int, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L31)
+### **ShouldBlockTransmitEntity(int, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L31)
 
 ```csharp
 void ShouldBlockTransmitEntity(int entityid, bool shouldBlockTransmit)

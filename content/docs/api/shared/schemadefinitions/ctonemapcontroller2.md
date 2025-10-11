@@ -10,7 +10,7 @@ public interface CTonemapController2 : CBaseEntity, CEntityInstance, ISchemaClas
 
 ## Properties
 
-**AutoExposureMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L18)
+### **AutoExposureMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L18)
 
 ```csharp
 ref float AutoExposureMax { get; }
@@ -20,7 +20,7 @@ ref float AutoExposureMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AutoExposureMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L16)
+### **AutoExposureMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L16)
 
 ```csharp
 ref float AutoExposureMin { get; }
@@ -30,7 +30,7 @@ ref float AutoExposureMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ExposureAdaptationSpeedDown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L22)
+### **ExposureAdaptationSpeedDown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L22)
 
 ```csharp
 ref float ExposureAdaptationSpeedDown { get; }
@@ -40,7 +40,7 @@ ref float ExposureAdaptationSpeedDown { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ExposureAdaptationSpeedUp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L20)
+### **ExposureAdaptationSpeedUp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L20)
 
 ```csharp
 ref float ExposureAdaptationSpeedUp { get; }
@@ -50,7 +50,7 @@ ref float ExposureAdaptationSpeedUp { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TonemapEVSmoothingRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L24)
+### **TonemapEVSmoothingRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L24)
 
 ```csharp
 ref float TonemapEVSmoothingRange { get; }
@@ -62,31 +62,31 @@ ref float TonemapEVSmoothingRange { get; }
 
 ## Methods
 
-**AutoExposureMaxUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L27)
+### **AutoExposureMaxUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L27)
 
 ```csharp
 void AutoExposureMaxUpdated()
 ```
 
-**AutoExposureMinUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L26)
+### **AutoExposureMinUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L26)
 
 ```csharp
 void AutoExposureMinUpdated()
 ```
 
-**ExposureAdaptationSpeedDownUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L29)
+### **ExposureAdaptationSpeedDownUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L29)
 
 ```csharp
 void ExposureAdaptationSpeedDownUpdated()
 ```
 
-**ExposureAdaptationSpeedUpUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L28)
+### **ExposureAdaptationSpeedUpUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L28)
 
 ```csharp
 void ExposureAdaptationSpeedUpUpdated()
 ```
 
-**TonemapEVSmoothingRangeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L30)
+### **TonemapEVSmoothingRangeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTonemapController2.cs#L30)
 
 ```csharp
 void TonemapEVSmoothingRangeUpdated()

@@ -10,7 +10,7 @@ public interface VPhysXCollisionAttributes_t : ISchemaClass<VPhysXCollisionAttri
 
 ## Properties
 
-**CollisionGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L16)
+### **CollisionGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L16)
 
 ```csharp
 ref uint CollisionGroup { get; }
@@ -20,7 +20,7 @@ ref uint CollisionGroup { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**CollisionGroupString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L24)
+### **CollisionGroupString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L24)
 
 ```csharp
 string CollisionGroupString { get; set; }
@@ -30,7 +30,7 @@ string CollisionGroupString { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**InteractAs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L18)
+### **InteractAs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L18)
 
 ```csharp
 ref CUtlVector<uint> InteractAs { get; }
@@ -38,9 +38,9 @@ ref CUtlVector<uint> InteractAs { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
+- [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**InteractAsStrings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L26)
+### **InteractAsStrings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L26)
 
 ```csharp
 ref CUtlVector<CUtlString> InteractAsStrings { get; }
@@ -48,9 +48,9 @@ ref CUtlVector<CUtlString> InteractAsStrings { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**InteractExclude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L22)
+### **InteractExclude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L22)
 
 ```csharp
 ref CUtlVector<uint> InteractExclude { get; }
@@ -58,9 +58,9 @@ ref CUtlVector<uint> InteractExclude { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
+- [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**InteractExcludeStrings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L30)
+### **InteractExcludeStrings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L30)
 
 ```csharp
 ref CUtlVector<CUtlString> InteractExcludeStrings { get; }
@@ -68,9 +68,9 @@ ref CUtlVector<CUtlString> InteractExcludeStrings { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**InteractWith** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L20)
+### **InteractWith** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L20)
 
 ```csharp
 ref CUtlVector<uint> InteractWith { get; }
@@ -78,9 +78,9 @@ ref CUtlVector<uint> InteractWith { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
+- [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**InteractWithStrings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L28)
+### **InteractWithStrings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXCollisionAttributes_t.cs#L28)
 
 ```csharp
 ref CUtlVector<CUtlString> InteractWithStrings { get; }
@@ -88,5 +88,5 @@ ref CUtlVector<CUtlString> InteractWithStrings { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 

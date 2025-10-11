@@ -10,7 +10,7 @@ public interface FootFixedSettings : ISchemaClass<FootFixedSettings>, ISchemaFie
 
 ## Properties
 
-**DisableTagIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L32)
+### **DisableTagIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L32)
 
 ```csharp
 ref int DisableTagIndex { get; }
@@ -20,7 +20,7 @@ ref int DisableTagIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EnableTracing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L28)
+### **EnableTracing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L28)
 
 ```csharp
 ref bool EnableTracing { get; }
@@ -30,7 +30,7 @@ ref bool EnableTracing { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FootBaseBindPosePositionMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L18)
+### **FootBaseBindPosePositionMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L18)
 
 ```csharp
 ref Vector FootBaseBindPosePositionMS { get; }
@@ -40,7 +40,7 @@ ref Vector FootBaseBindPosePositionMS { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FootBaseLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L20)
+### **FootBaseLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L20)
 
 ```csharp
 ref float FootBaseLength { get; }
@@ -50,7 +50,7 @@ ref float FootBaseLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FootIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L34)
+### **FootIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L34)
 
 ```csharp
 ref int FootIndex { get; }
@@ -60,7 +60,7 @@ ref int FootIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FootstepLandedTagIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L26)
+### **FootstepLandedTagIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L26)
 
 ```csharp
 ref int FootstepLandedTagIndex { get; }
@@ -70,7 +70,7 @@ ref int FootstepLandedTagIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MaxRotationLeft** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L22)
+### **MaxRotationLeft** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L22)
 
 ```csharp
 ref float MaxRotationLeft { get; }
@@ -80,7 +80,7 @@ ref float MaxRotationLeft { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxRotationRight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L24)
+### **MaxRotationRight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L24)
 
 ```csharp
 ref float MaxRotationRight { get; }
@@ -90,7 +90,7 @@ ref float MaxRotationRight { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TraceAngleBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L30)
+### **TraceAngleBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L30)
 
 ```csharp
 ref float TraceAngleBlend { get; }
@@ -100,7 +100,7 @@ ref float TraceAngleBlend { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TraceSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L16)
+### **TraceSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedSettings.cs#L16)
 
 ```csharp
 TraceSettings_t TraceSettings { get; }

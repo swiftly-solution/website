@@ -10,7 +10,7 @@ public interface CVoiceContainerShapedNoise : CVoiceContainerBase, ISchemaClass<
 
 ## Properties
 
-**Frequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L18)
+### **Frequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L18)
 
 ```csharp
 ref float Frequency { get; }
@@ -20,7 +20,7 @@ ref float Frequency { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FrequencySweep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L21)
+### **FrequencySweep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L21)
 
 ```csharp
 SchemaUntypedField FrequencySweep { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField FrequencySweep { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**GainInDecibels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L32)
+### **GainInDecibels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L32)
 
 ```csharp
 ref float GainInDecibels { get; }
@@ -40,7 +40,7 @@ ref float GainInDecibels { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GainSweep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L35)
+### **GainSweep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L35)
 
 ```csharp
 SchemaUntypedField GainSweep { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField GainSweep { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Resonance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L25)
+### **Resonance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L25)
 
 ```csharp
 ref float Resonance { get; }
@@ -60,7 +60,7 @@ ref float Resonance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ResonanceSweep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L28)
+### **ResonanceSweep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L28)
 
 ```csharp
 SchemaUntypedField ResonanceSweep { get; }
@@ -70,7 +70,7 @@ SchemaUntypedField ResonanceSweep { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**UseCurveForAmplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L30)
+### **UseCurveForAmplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L30)
 
 ```csharp
 ref bool UseCurveForAmplitude { get; }
@@ -80,7 +80,7 @@ ref bool UseCurveForAmplitude { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UseCurveForFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L16)
+### **UseCurveForFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L16)
 
 ```csharp
 ref bool UseCurveForFrequency { get; }
@@ -90,7 +90,7 @@ ref bool UseCurveForFrequency { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UseCurveForResonance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L23)
+### **UseCurveForResonance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerShapedNoise.cs#L23)
 
 ```csharp
 ref bool UseCurveForResonance { get; }

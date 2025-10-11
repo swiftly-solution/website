@@ -10,7 +10,7 @@ public interface PulseScriptedSequenceData_t : ISchemaClass<PulseScriptedSequenc
 
 ## Properties
 
-**ActorID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L16)
+### **ActorID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L16)
 
 ```csharp
 ref int ActorID { get; }
@@ -20,7 +20,7 @@ ref int ActorID { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EntrySequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L20)
+### **EntrySequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L20)
 
 ```csharp
 string EntrySequence { get; set; }
@@ -30,7 +30,7 @@ string EntrySequence { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ExitSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L24)
+### **ExitSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L24)
 
 ```csharp
 string ExitSequence { get; set; }
@@ -40,7 +40,7 @@ string ExitSequence { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**HeldWeaponBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L30)
+### **HeldWeaponBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L30)
 
 ```csharp
 ref ScriptedHeldWeaponBehavior_t HeldWeaponBehavior { get; }
@@ -50,7 +50,7 @@ ref ScriptedHeldWeaponBehavior_t HeldWeaponBehavior { get; }
 
 - [ScriptedHeldWeaponBehavior_t](/docs/api/shared/schemadefinitions/scriptedheldweaponbehavior_t)
 
-**IgnoreLookAt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L38)
+### **IgnoreLookAt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L38)
 
 ```csharp
 ref bool IgnoreLookAt { get; }
@@ -60,7 +60,7 @@ ref bool IgnoreLookAt { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LoopActionSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L34)
+### **LoopActionSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L34)
 
 ```csharp
 ref bool LoopActionSequence { get; }
@@ -70,7 +70,7 @@ ref bool LoopActionSequence { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LoopPostIdleSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L36)
+### **LoopPostIdleSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L36)
 
 ```csharp
 ref bool LoopPostIdleSequence { get; }
@@ -80,7 +80,7 @@ ref bool LoopPostIdleSequence { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LoopPreIdleSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L32)
+### **LoopPreIdleSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L32)
 
 ```csharp
 ref bool LoopPreIdleSequence { get; }
@@ -90,7 +90,7 @@ ref bool LoopPreIdleSequence { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MoveTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L26)
+### **MoveTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L26)
 
 ```csharp
 ref ScriptedMoveTo_t MoveTo { get; }
@@ -100,7 +100,7 @@ ref ScriptedMoveTo_t MoveTo { get; }
 
 - [ScriptedMoveTo_t](/docs/api/shared/schemadefinitions/scriptedmoveto_t)
 
-**MoveToGait** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L28)
+### **MoveToGait** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L28)
 
 ```csharp
 ref SharedMovementGait_t MoveToGait { get; }
@@ -110,7 +110,7 @@ ref SharedMovementGait_t MoveToGait { get; }
 
 - [SharedMovementGait_t](/docs/api/shared/schemadefinitions/sharedmovementgait_t)
 
-**PreIdleSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L18)
+### **PreIdleSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L18)
 
 ```csharp
 string PreIdleSequence { get; set; }
@@ -120,7 +120,7 @@ string PreIdleSequence { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L22)
+### **Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseScriptedSequenceData_t.cs#L22)
 
 ```csharp
 string Sequence { get; set; }

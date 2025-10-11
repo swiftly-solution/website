@@ -10,7 +10,7 @@ public interface CFilterName : CBaseFilter, CLogicalEntity, CServerOnlyEntity, C
 
 ## Properties
 
-**FilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterName.cs#L16)
+### **FilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFilterName.cs#L16)
 
 ```csharp
 string FilterName { get; set; }

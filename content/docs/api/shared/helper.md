@@ -12,7 +12,7 @@ public static class Helper
 
 ## Methods
 
-**AsSchema<T>(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L53)
+### **AsSchema<T>(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L53)
 
 ```csharp
 public static T AsSchema<T>(nint ptr) where T : ISchemaClass<T>
@@ -30,7 +30,7 @@ public static T AsSchema<T>(nint ptr) where T : ISchemaClass<T>
 
 - **T**:  - The schema class to convert to.
 
-**Colored(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L39)
+### **Colored(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Helper.cs#L39)
 
 ```csharp
 public static string Colored(this string text)

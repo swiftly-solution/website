@@ -10,7 +10,7 @@ public interface CCSUsrMsg_SendPlayerLoadout : ITypedProtobuf<CCSUsrMsg_SendPlay
 
 ## Properties
 
-**Loadout** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerLoadout.cs#L18)
+### **Loadout** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerLoadout.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SendPlayerLoadout_LoadoutItem> Loadout { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SendPlayerLoadout_LoadoutItem> Lo
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_SendPlayerLoadout_LoadoutItem](/docs/api/shared/protobufdefinitions/ccsusrmsg_sendplayerloadout_loadoutitem)>
 
-**Playerslot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerLoadout.cs#L21)
+### **Playerslot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerLoadout.cs#L21)
 
 ```csharp
 int Playerslot { get; set; }

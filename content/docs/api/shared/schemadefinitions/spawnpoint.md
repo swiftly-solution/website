@@ -10,7 +10,7 @@ public interface SpawnPoint : CServerOnlyPointEntity, CServerOnlyEntity, CBaseEn
 
 ## Properties
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L18)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L18)
 
 ```csharp
 ref bool Enabled { get; }
@@ -20,7 +20,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L16)
+### **Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L16)
 
 ```csharp
 ref int Priority { get; }
@@ -30,7 +30,7 @@ ref int Priority { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L20)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SpawnPoint.cs#L20)
 
 ```csharp
 ref int Type { get; }

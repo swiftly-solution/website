@@ -10,7 +10,7 @@ public interface CUserMessageScreenTilt : ITypedProtobuf<CUserMessageScreenTilt>
 
 ## Properties
 
-**Angle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageScreenTilt.cs#L24)
+### **Angle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageScreenTilt.cs#L24)
 
 ```csharp
 Vector Angle { get; set; }
@@ -20,7 +20,7 @@ Vector Angle { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Command** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageScreenTilt.cs#L18)
+### **Command** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageScreenTilt.cs#L18)
 
 ```csharp
 uint Command { get; set; }
@@ -30,7 +30,7 @@ uint Command { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageScreenTilt.cs#L27)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageScreenTilt.cs#L27)
 
 ```csharp
 float Duration { get; set; }
@@ -40,7 +40,7 @@ float Duration { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EaseInOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageScreenTilt.cs#L21)
+### **EaseInOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageScreenTilt.cs#L21)
 
 ```csharp
 bool EaseInOut { get; set; }
@@ -50,7 +50,7 @@ bool EaseInOut { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageScreenTilt.cs#L30)
+### **Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageScreenTilt.cs#L30)
 
 ```csharp
 float Time { get; set; }

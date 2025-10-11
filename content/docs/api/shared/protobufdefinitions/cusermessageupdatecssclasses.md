@@ -10,7 +10,7 @@ public interface CUserMessageUpdateCssClasses : ITypedProtobuf<CUserMessageUpdat
 
 ## Properties
 
-**CssClasses** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageUpdateCssClasses.cs#L21)
+### **CssClasses** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageUpdateCssClasses.cs#L21)
 
 ```csharp
 string CssClasses { get; set; }
@@ -20,7 +20,7 @@ string CssClasses { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**IsAdd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageUpdateCssClasses.cs#L24)
+### **IsAdd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageUpdateCssClasses.cs#L24)
 
 ```csharp
 bool IsAdd { get; set; }
@@ -30,7 +30,7 @@ bool IsAdd { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetWorldPanel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageUpdateCssClasses.cs#L18)
+### **TargetWorldPanel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageUpdateCssClasses.cs#L18)
 
 ```csharp
 int TargetWorldPanel { get; set; }

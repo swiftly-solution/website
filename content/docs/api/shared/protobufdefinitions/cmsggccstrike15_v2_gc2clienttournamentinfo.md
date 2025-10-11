@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_GC2ClientTournamentInfo : ITypedProtobuf<CMs
 
 ## Properties
 
-**Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientTournamentInfo.cs#L13)
+### **Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientTournamentInfo.cs#L13)
 
 ```csharp
 uint Eventid { get; set; }
@@ -20,7 +20,7 @@ uint Eventid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**GameType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientTournamentInfo.cs#L19)
+### **GameType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientTournamentInfo.cs#L19)
 
 ```csharp
 uint GameType { get; set; }
@@ -30,7 +30,7 @@ uint GameType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Stageid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientTournamentInfo.cs#L16)
+### **Stageid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientTournamentInfo.cs#L16)
 
 ```csharp
 uint Stageid { get; set; }
@@ -40,7 +40,7 @@ uint Stageid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Teamids** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientTournamentInfo.cs#L22)
+### **Teamids** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientTournamentInfo.cs#L22)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> Teamids { get; }

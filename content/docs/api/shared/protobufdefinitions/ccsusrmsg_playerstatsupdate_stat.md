@@ -10,7 +10,7 @@ public interface CCSUsrMsg_PlayerStatsUpdate_Stat : ITypedProtobuf<CCSUsrMsg_Pla
 
 ## Properties
 
-**Delta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate_Stat.cs#L16)
+### **Delta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate_Stat.cs#L16)
 
 ```csharp
 int Delta { get; set; }
@@ -20,7 +20,7 @@ int Delta { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Idx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate_Stat.cs#L13)
+### **Idx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate_Stat.cs#L13)
 
 ```csharp
 int Idx { get; set; }

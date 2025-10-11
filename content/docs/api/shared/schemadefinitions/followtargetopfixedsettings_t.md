@@ -10,7 +10,7 @@ public interface FollowTargetOpFixedSettings_t : ISchemaClass<FollowTargetOpFixe
 
 ## Properties
 
-**BoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L16)
+### **BoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L16)
 
 ```csharp
 ref int BoneIndex { get; }
@@ -20,7 +20,7 @@ ref int BoneIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**BoneTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L18)
+### **BoneTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L18)
 
 ```csharp
 ref bool BoneTarget { get; }
@@ -30,7 +30,7 @@ ref bool BoneTarget { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**BoneTargetIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L20)
+### **BoneTargetIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L20)
 
 ```csharp
 ref int BoneTargetIndex { get; }
@@ -40,7 +40,7 @@ ref int BoneTargetIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MatchTargetOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L24)
+### **MatchTargetOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L24)
 
 ```csharp
 ref bool MatchTargetOrientation { get; }
@@ -50,7 +50,7 @@ ref bool MatchTargetOrientation { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WorldCoodinateTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L22)
+### **WorldCoodinateTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FollowTargetOpFixedSettings_t.cs#L22)
 
 ```csharp
 ref bool WorldCoodinateTarget { get; }

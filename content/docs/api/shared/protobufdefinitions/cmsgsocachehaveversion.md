@@ -10,7 +10,7 @@ public interface CMsgSOCacheHaveVersion : ITypedProtobuf<CMsgSOCacheHaveVersion>
 
 ## Properties
 
-**Soid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheHaveVersion.cs#L13)
+### **Soid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheHaveVersion.cs#L13)
 
 ```csharp
 CMsgSOIDOwner Soid { get; }
@@ -20,7 +20,7 @@ CMsgSOIDOwner Soid { get; }
 
 - [CMsgSOIDOwner](/docs/api/shared/protobufdefinitions/cmsgsoidowner)
 
-**Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheHaveVersion.cs#L16)
+### **Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheHaveVersion.cs#L16)
 
 ```csharp
 ulong Version { get; set; }

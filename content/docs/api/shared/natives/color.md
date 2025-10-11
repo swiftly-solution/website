@@ -12,7 +12,7 @@ public struct Color : IEquatable<Color>
 
 ## Constructors
 
-**Color(byte, byte, byte, byte)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L13)
+### **Color(byte, byte, byte, byte)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L13)
 
 ```csharp
 public Color(byte r, byte g, byte b, byte a)
@@ -25,7 +25,7 @@ public Color(byte r, byte g, byte b, byte a)
 - **b**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 - **a**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**Color(byte, byte, byte)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L20)
+### **Color(byte, byte, byte)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L20)
 
 ```csharp
 public Color(byte r, byte g, byte b)
@@ -37,7 +37,7 @@ public Color(byte r, byte g, byte b)
 - **g**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 - **b**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**Color(int, int, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L23)
+### **Color(int, int, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L23)
 
 ```csharp
 public Color(int r, int g, int b)
@@ -49,7 +49,7 @@ public Color(int r, int g, int b)
 - **g**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **b**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Color(int, int, int, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L25)
+### **Color(int, int, int, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L25)
 
 ```csharp
 public Color(int r, int g, int b, int a)
@@ -62,7 +62,7 @@ public Color(int r, int g, int b, int a)
 - **b**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **a**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Color(char, char, char, char)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L28)
+### **Color(char, char, char, char)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L28)
 
 ```csharp
 public Color(char r, char g, char b, char a)
@@ -75,7 +75,7 @@ public Color(char r, char g, char b, char a)
 - **b**: [char](https://learn.microsoft.com/dotnet/api/system.char)
 - **a**: [char](https://learn.microsoft.com/dotnet/api/system.char)
 
-**Color(char, char, char)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L31)
+### **Color(char, char, char)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L31)
 
 ```csharp
 public Color(char r, char g, char b)
@@ -89,7 +89,7 @@ public Color(char r, char g, char b)
 
 ## Fields
 
-**A** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L11)
+### **A** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L11)
 
 ```csharp
 public byte A
@@ -99,7 +99,7 @@ public byte A
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**B** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L10)
+### **B** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L10)
 
 ```csharp
 public byte B
@@ -109,7 +109,7 @@ public byte B
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**G** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L9)
+### **G** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L9)
 
 ```csharp
 public byte G
@@ -119,7 +119,7 @@ public byte G
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**R** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L8)
+### **R** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L8)
 
 ```csharp
 public byte R
@@ -131,7 +131,7 @@ public byte R
 
 ## Methods
 
-**Equals(object?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L71)
+### **Equals(object?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L71)
 
 ```csharp
 public override bool Equals(object? obj)
@@ -145,7 +145,7 @@ public override bool Equals(object? obj)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
-**Equals(Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L74)
+### **Equals(Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L74)
 
 ```csharp
 public bool Equals(Color other)
@@ -159,7 +159,7 @@ public bool Equals(Color other)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
-**FromBuiltin(Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L34)
+### **FromBuiltin(Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L34)
 
 ```csharp
 public static Color FromBuiltin(Color color)
@@ -173,7 +173,7 @@ public static Color FromBuiltin(Color color)
 
 - [Color](/docs/api/shared/natives/color)
 
-**FromHex(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L42)
+### **FromHex(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L42)
 
 ```csharp
 public static Color FromHex(string hex)
@@ -187,7 +187,7 @@ public static Color FromHex(string hex)
 
 - [Color](/docs/api/shared/natives/color)
 
-**FromInt32(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L67)
+### **FromInt32(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L67)
 
 ```csharp
 public static Color FromInt32(int color)
@@ -201,7 +201,7 @@ public static Color FromInt32(int color)
 
 - [Color](/docs/api/shared/natives/color)
 
-**GetHashCode()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L72)
+### **GetHashCode()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L72)
 
 ```csharp
 public override int GetHashCode()
@@ -211,7 +211,7 @@ public override int GetHashCode()
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
-**ToBuiltin()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L38)
+### **ToBuiltin()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L38)
 
 ```csharp
 public Color ToBuiltin()
@@ -221,7 +221,7 @@ public Color ToBuiltin()
 
 - [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-**ToHex(bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L55)
+### **ToHex(bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L55)
 
 ```csharp
 public string ToHex(bool includeAlpha = false)
@@ -235,7 +235,7 @@ public string ToHex(bool includeAlpha = false)
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ToInt32()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L63)
+### **ToInt32()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L63)
 
 ```csharp
 public int ToInt32()
@@ -245,7 +245,7 @@ public int ToInt32()
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ToString()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L59)
+### **ToString()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L59)
 
 ```csharp
 public override string ToString()
@@ -257,7 +257,7 @@ public override string ToString()
 
 ## Operators
 
-**operator ==(Color, Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L79)
+### **operator ==(Color, Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L79)
 
 ```csharp
 public static bool operator ==(Color left, Color right)
@@ -272,7 +272,7 @@ public static bool operator ==(Color left, Color right)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**operator !=(Color, Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L80)
+### **operator !=(Color, Color)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Color.cs#L80)
 
 ```csharp
 public static bool operator !=(Color left, Color right)

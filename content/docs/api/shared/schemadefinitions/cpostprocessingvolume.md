@@ -10,7 +10,7 @@ public interface CPostProcessingVolume : CBaseTrigger, CBaseToggle, CBaseModelEn
 
 ## Properties
 
-**ExposureCompensation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L28)
+### **ExposureCompensation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L28)
 
 ```csharp
 ref float ExposureCompensation { get; }
@@ -20,7 +20,7 @@ ref float ExposureCompensation { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ExposureControl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L38)
+### **ExposureControl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L38)
 
 ```csharp
 ref bool ExposureControl { get; }
@@ -30,7 +30,7 @@ ref bool ExposureControl { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ExposureFadeSpeedDown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L32)
+### **ExposureFadeSpeedDown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L32)
 
 ```csharp
 ref float ExposureFadeSpeedDown { get; }
@@ -40,7 +40,7 @@ ref float ExposureFadeSpeedDown { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ExposureFadeSpeedUp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L30)
+### **ExposureFadeSpeedUp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L30)
 
 ```csharp
 ref float ExposureFadeSpeedUp { get; }
@@ -50,7 +50,7 @@ ref float ExposureFadeSpeedUp { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FadeDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L18)
+### **FadeDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L18)
 
 ```csharp
 ref float FadeDuration { get; }
@@ -60,7 +60,7 @@ ref float FadeDuration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Master** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L36)
+### **Master** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L36)
 
 ```csharp
 ref bool Master { get; }
@@ -70,7 +70,7 @@ ref bool Master { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxExposure** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L26)
+### **MaxExposure** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L26)
 
 ```csharp
 ref float MaxExposure { get; }
@@ -80,7 +80,7 @@ ref float MaxExposure { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxLogExposure** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L22)
+### **MaxLogExposure** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L22)
 
 ```csharp
 ref float MaxLogExposure { get; }
@@ -90,7 +90,7 @@ ref float MaxLogExposure { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinExposure** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L24)
+### **MinExposure** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L24)
 
 ```csharp
 ref float MinExposure { get; }
@@ -100,7 +100,7 @@ ref float MinExposure { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinLogExposure** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L20)
+### **MinLogExposure** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L20)
 
 ```csharp
 ref float MinLogExposure { get; }
@@ -110,7 +110,7 @@ ref float MinLogExposure { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PostSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L16)
+### **PostSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCPostProcessingResource> PostSettings { get; }
@@ -120,7 +120,7 @@ ref CStrongHandle<InfoForResourceTypeCPostProcessingResource> PostSettings { get
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCPostProcessingResource](/docs/api/shared/schemadefinitions/infoforresourcetypecpostprocessingresource)>
 
-**TonemapEVSmoothingRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L34)
+### **TonemapEVSmoothingRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L34)
 
 ```csharp
 ref float TonemapEVSmoothingRange { get; }
@@ -132,73 +132,73 @@ ref float TonemapEVSmoothingRange { get; }
 
 ## Methods
 
-**ExposureCompensationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L46)
+### **ExposureCompensationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L46)
 
 ```csharp
 void ExposureCompensationUpdated()
 ```
 
-**ExposureControlUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L51)
+### **ExposureControlUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L51)
 
 ```csharp
 void ExposureControlUpdated()
 ```
 
-**ExposureFadeSpeedDownUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L48)
+### **ExposureFadeSpeedDownUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L48)
 
 ```csharp
 void ExposureFadeSpeedDownUpdated()
 ```
 
-**ExposureFadeSpeedUpUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L47)
+### **ExposureFadeSpeedUpUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L47)
 
 ```csharp
 void ExposureFadeSpeedUpUpdated()
 ```
 
-**FadeDurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L41)
+### **FadeDurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L41)
 
 ```csharp
 void FadeDurationUpdated()
 ```
 
-**MasterUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L50)
+### **MasterUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L50)
 
 ```csharp
 void MasterUpdated()
 ```
 
-**MaxExposureUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L45)
+### **MaxExposureUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L45)
 
 ```csharp
 void MaxExposureUpdated()
 ```
 
-**MaxLogExposureUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L43)
+### **MaxLogExposureUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L43)
 
 ```csharp
 void MaxLogExposureUpdated()
 ```
 
-**MinExposureUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L44)
+### **MinExposureUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L44)
 
 ```csharp
 void MinExposureUpdated()
 ```
 
-**MinLogExposureUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L42)
+### **MinLogExposureUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L42)
 
 ```csharp
 void MinLogExposureUpdated()
 ```
 
-**PostSettingsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L40)
+### **PostSettingsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L40)
 
 ```csharp
 void PostSettingsUpdated()
 ```
 
-**TonemapEVSmoothingRangeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L49)
+### **TonemapEVSmoothingRangeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPostProcessingVolume.cs#L49)
 
 ```csharp
 void TonemapEVSmoothingRangeUpdated()

@@ -10,7 +10,7 @@ public interface DeepPlayerMatchEvent : ITypedProtobuf<DeepPlayerMatchEvent>, IN
 
 ## Properties
 
-**Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L13)
+### **Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L13)
 
 ```csharp
 uint Accountid { get; set; }
@@ -20,7 +20,7 @@ uint Accountid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**BPlayingCt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L25)
+### **BPlayingCt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L25)
 
 ```csharp
 bool BPlayingCt { get; set; }
@@ -30,7 +30,7 @@ bool BPlayingCt { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EventData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L52)
+### **EventData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L52)
 
 ```csharp
 int EventData { get; set; }
@@ -40,7 +40,7 @@ int EventData { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EventId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L19)
+### **EventId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L19)
 
 ```csharp
 uint EventId { get; set; }
@@ -50,7 +50,7 @@ uint EventId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**EventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L22)
+### **EventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L22)
 
 ```csharp
 uint EventType { get; set; }
@@ -60,7 +60,7 @@ uint EventType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**MatchId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L16)
+### **MatchId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L16)
 
 ```csharp
 ulong MatchId { get; set; }
@@ -70,7 +70,7 @@ ulong MatchId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**OtherDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L49)
+### **OtherDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L49)
 
 ```csharp
 uint OtherDefidx { get; set; }
@@ -80,7 +80,7 @@ uint OtherDefidx { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**OtherPosX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L40)
+### **OtherPosX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L40)
 
 ```csharp
 int OtherPosX { get; set; }
@@ -90,7 +90,7 @@ int OtherPosX { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OtherPosY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L43)
+### **OtherPosY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L43)
 
 ```csharp
 int OtherPosY { get; set; }
@@ -100,7 +100,7 @@ int OtherPosY { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OtherPosZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L46)
+### **OtherPosZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L46)
 
 ```csharp
 int OtherPosZ { get; set; }
@@ -110,7 +110,7 @@ int OtherPosZ { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L37)
+### **UserDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L37)
 
 ```csharp
 uint UserDefidx { get; set; }
@@ -120,7 +120,7 @@ uint UserDefidx { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**UserPosX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L28)
+### **UserPosX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L28)
 
 ```csharp
 int UserPosX { get; set; }
@@ -130,7 +130,7 @@ int UserPosX { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserPosY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L31)
+### **UserPosY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L31)
 
 ```csharp
 int UserPosY { get; set; }
@@ -140,7 +140,7 @@ int UserPosY { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserPosZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L34)
+### **UserPosZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DeepPlayerMatchEvent.cs#L34)
 
 ```csharp
 int UserPosZ { get; set; }

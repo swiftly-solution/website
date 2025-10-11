@@ -10,7 +10,7 @@ public interface C_OP_SetCPOrientationToGroundNormal : CParticleFunctionOperator
 
 ## Properties
 
-**CollisionGroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L24)
+### **CollisionGroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L24)
 
 ```csharp
 string CollisionGroupName { get; set; }
@@ -20,7 +20,7 @@ string CollisionGroupName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**IncludeWater** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L32)
+### **IncludeWater** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L32)
 
 ```csharp
 ref bool IncludeWater { get; }
@@ -30,7 +30,7 @@ ref bool IncludeWater { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L28)
+### **InputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L28)
 
 ```csharp
 ref int InputCP { get; }
@@ -40,7 +40,7 @@ ref int InputCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InterpRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L16)
+### **InterpRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L16)
 
 ```csharp
 ref float InterpRate { get; }
@@ -50,7 +50,7 @@ ref float InterpRate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxTraceLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L18)
+### **MaxTraceLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L18)
 
 ```csharp
 ref float MaxTraceLength { get; }
@@ -60,7 +60,7 @@ ref float MaxTraceLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L30)
+### **OutputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L30)
 
 ```csharp
 ref int OutputCP { get; }
@@ -70,7 +70,7 @@ ref int OutputCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Tolerance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L20)
+### **Tolerance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L20)
 
 ```csharp
 ref float Tolerance { get; }
@@ -80,7 +80,7 @@ ref float Tolerance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TraceOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L22)
+### **TraceOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L22)
 
 ```csharp
 ref float TraceOffset { get; }
@@ -90,7 +90,7 @@ ref float TraceOffset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TraceSet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L26)
+### **TraceSet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetCPOrientationToGroundNormal.cs#L26)
 
 ```csharp
 ref ParticleTraceSet_t TraceSet { get; }

@@ -10,7 +10,7 @@ public interface CGeneralSpin : CParticleFunctionOperator, CParticleFunction, IS
 
 ## Properties
 
-**SpinRateDegrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralSpin.cs#L16)
+### **SpinRateDegrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralSpin.cs#L16)
 
 ```csharp
 ref int SpinRateDegrees { get; }
@@ -20,7 +20,7 @@ ref int SpinRateDegrees { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SpinRateMinDegrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralSpin.cs#L18)
+### **SpinRateMinDegrees** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralSpin.cs#L18)
 
 ```csharp
 ref int SpinRateMinDegrees { get; }
@@ -30,7 +30,7 @@ ref int SpinRateMinDegrees { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SpinRateStopTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralSpin.cs#L20)
+### **SpinRateStopTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGeneralSpin.cs#L20)
 
 ```csharp
 ref float SpinRateStopTime { get; }

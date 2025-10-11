@@ -10,7 +10,7 @@ public interface EventEntityKilled : IGameEvent<EventEntityKilled>
 
 ## Properties
 
-**DamageBits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityKilled.cs#L36)
+### **DamageBits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityKilled.cs#L36)
 
 ```csharp
 int DamageBits { get; set; }
@@ -20,7 +20,7 @@ int DamageBits { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EntindexAttacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityKilled.cs#L26)
+### **EntindexAttacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityKilled.cs#L26)
 
 ```csharp
 int EntindexAttacker { get; set; }
@@ -30,7 +30,7 @@ int EntindexAttacker { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EntindexInflictor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityKilled.cs#L31)
+### **EntindexInflictor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityKilled.cs#L31)
 
 ```csharp
 int EntindexInflictor { get; set; }
@@ -40,7 +40,7 @@ int EntindexInflictor { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EntindexKilled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityKilled.cs#L21)
+### **EntindexKilled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityKilled.cs#L21)
 
 ```csharp
 int EntindexKilled { get; set; }

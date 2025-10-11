@@ -10,7 +10,7 @@ public interface CChicken : CDynamicProp, CBreakableProp, CBaseProp, CBaseAnimGr
 
 ## Properties
 
-**ActiveFollowStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L66)
+### **ActiveFollowStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L66)
 
 ```csharp
 GameTime_t ActiveFollowStartTime { get; }
@@ -20,7 +20,7 @@ GameTime_t ActiveFollowStartTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**ActivityTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L34)
+### **ActivityTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L34)
 
 ```csharp
 CountdownTimer ActivityTimer { get; }
@@ -30,7 +30,7 @@ CountdownTimer ActivityTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**AttributeManager** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L16)
+### **AttributeManager** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L16)
 
 ```csharp
 CAttributeContainer AttributeManager { get; }
@@ -40,7 +40,7 @@ CAttributeContainer AttributeManager { get; }
 
 - [CAttributeContainer](/docs/api/shared/schemadefinitions/cattributecontainer)
 
-**BlockDirectionTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L70)
+### **BlockDirectionTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L70)
 
 ```csharp
 CountdownTimer BlockDirectionTimer { get; }
@@ -50,7 +50,7 @@ CountdownTimer BlockDirectionTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**CollisionStuckTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L24)
+### **CollisionStuckTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L24)
 
 ```csharp
 CountdownTimer CollisionStuckTimer { get; }
@@ -60,7 +60,7 @@ CountdownTimer CollisionStuckTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**CurrentActivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L32)
+### **CurrentActivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L32)
 
 ```csharp
 ref ChickenActivity CurrentActivity { get; }
@@ -70,7 +70,7 @@ ref ChickenActivity CurrentActivity { get; }
 
 - [ChickenActivity](/docs/api/shared/schemadefinitions/chickenactivity)
 
-**DesiredActivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L30)
+### **DesiredActivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L30)
 
 ```csharp
 ref ChickenActivity DesiredActivity { get; }
@@ -80,7 +80,7 @@ ref ChickenActivity DesiredActivity { get; }
 
 - [ChickenActivity](/docs/api/shared/schemadefinitions/chickenactivity)
 
-**FallVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L28)
+### **FallVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L28)
 
 ```csharp
 ref Vector FallVelocity { get; }
@@ -90,7 +90,7 @@ ref Vector FallVelocity { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FleeFrom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L38)
+### **FleeFrom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L38)
 
 ```csharp
 ref CHandle<CBaseEntity> FleeFrom { get; }
@@ -100,7 +100,7 @@ ref CHandle<CBaseEntity> FleeFrom { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**FollowMinuteTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L68)
+### **FollowMinuteTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L68)
 
 ```csharp
 CountdownTimer FollowMinuteTimer { get; }
@@ -110,7 +110,7 @@ CountdownTimer FollowMinuteTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**HasBeenUsed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L54)
+### **HasBeenUsed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L54)
 
 ```csharp
 ref bool HasBeenUsed { get; }
@@ -120,7 +120,7 @@ ref bool HasBeenUsed { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InJump** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L60)
+### **InJump** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L60)
 
 ```csharp
 ref bool InJump { get; }
@@ -130,7 +130,7 @@ ref bool InJump { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsOnGround** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L26)
+### **IsOnGround** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L26)
 
 ```csharp
 ref bool IsOnGround { get; }
@@ -140,7 +140,7 @@ ref bool IsOnGround { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**JumpTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L56)
+### **JumpTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L56)
 
 ```csharp
 CountdownTimer JumpTimer { get; }
@@ -150,7 +150,7 @@ CountdownTimer JumpTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**JumpedThisFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L48)
+### **JumpedThisFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L48)
 
 ```csharp
 ref bool JumpedThisFrame { get; }
@@ -160,7 +160,7 @@ ref bool JumpedThisFrame { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LastJumpTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L58)
+### **LastJumpTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L58)
 
 ```csharp
 ref float LastJumpTime { get; }
@@ -170,7 +170,7 @@ ref float LastJumpTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Leader** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L50)
+### **Leader** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L50)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> Leader { get; }
@@ -180,7 +180,7 @@ ref CHandle<CCSPlayerPawn> Leader { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
-**MoveRateThrottleTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L40)
+### **MoveRateThrottleTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L40)
 
 ```csharp
 CountdownTimer MoveRateThrottleTimer { get; }
@@ -190,7 +190,7 @@ CountdownTimer MoveRateThrottleTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**PathGoal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L64)
+### **PathGoal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L64)
 
 ```csharp
 ref Vector PathGoal { get; }
@@ -200,7 +200,7 @@ ref Vector PathGoal { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RepathTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L62)
+### **RepathTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L62)
 
 ```csharp
 CountdownTimer RepathTimer { get; }
@@ -210,7 +210,7 @@ CountdownTimer RepathTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**ReuseTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L52)
+### **ReuseTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L52)
 
 ```csharp
 CountdownTimer ReuseTimer { get; }
@@ -220,7 +220,7 @@ CountdownTimer ReuseTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**StartleTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L42)
+### **StartleTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L42)
 
 ```csharp
 CountdownTimer StartleTimer { get; }
@@ -230,7 +230,7 @@ CountdownTimer StartleTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**StuckAnchor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L20)
+### **StuckAnchor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L20)
 
 ```csharp
 ref Vector StuckAnchor { get; }
@@ -240,7 +240,7 @@ ref Vector StuckAnchor { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**StuckTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L22)
+### **StuckTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L22)
 
 ```csharp
 CountdownTimer StuckTimer { get; }
@@ -250,7 +250,7 @@ CountdownTimer StuckTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**TurnRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L36)
+### **TurnRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L36)
 
 ```csharp
 ref float TurnRate { get; }
@@ -260,7 +260,7 @@ ref float TurnRate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UpdateTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L18)
+### **UpdateTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L18)
 
 ```csharp
 CountdownTimer UpdateTimer { get; }
@@ -270,7 +270,7 @@ CountdownTimer UpdateTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**VocalizeTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L44)
+### **VocalizeTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L44)
 
 ```csharp
 CountdownTimer VocalizeTimer { get; }
@@ -280,7 +280,7 @@ CountdownTimer VocalizeTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**WhenZombified** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L46)
+### **WhenZombified** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L46)
 
 ```csharp
 GameTime_t WhenZombified { get; }
@@ -292,19 +292,19 @@ GameTime_t WhenZombified { get; }
 
 ## Methods
 
-**AttributeManagerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L72)
+### **AttributeManagerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L72)
 
 ```csharp
 void AttributeManagerUpdated()
 ```
 
-**JumpedThisFrameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L73)
+### **JumpedThisFrameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L73)
 
 ```csharp
 void JumpedThisFrameUpdated()
 ```
 
-**LeaderUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L74)
+### **LeaderUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChicken.cs#L74)
 
 ```csharp
 void LeaderUpdated()

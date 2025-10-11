@@ -10,7 +10,7 @@ public interface VsInputSignature_t : ISchemaClass<VsInputSignature_t>, ISchemaF
 
 ## Properties
 
-**Depth_elems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L20)
+### **Depth_elems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L20)
 
 ```csharp
 ref CUtlVector Depth_elems { get; }
@@ -18,9 +18,9 @@ ref CUtlVector Depth_elems { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**Elems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L17)
+### **Elems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L17)
 
 ```csharp
 ref CUtlVector Elems { get; }
@@ -28,5 +28,5 @@ ref CUtlVector Elems { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

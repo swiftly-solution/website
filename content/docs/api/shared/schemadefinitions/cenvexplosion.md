@@ -10,7 +10,7 @@ public interface CEnvExplosion : CModelPointEntity, CBaseModelEntity, CBaseEntit
 
 ## Properties
 
-**ClassIgnore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L38)
+### **ClassIgnore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L38)
 
 ```csharp
 ref Class_T ClassIgnore { get; }
@@ -20,7 +20,7 @@ ref Class_T ClassIgnore { get; }
 
 - [Class_T](/docs/api/shared/schemadefinitions/class_t)
 
-**ClassIgnore2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L40)
+### **ClassIgnore2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L40)
 
 ```csharp
 ref Class_T ClassIgnore2 { get; }
@@ -30,7 +30,7 @@ ref Class_T ClassIgnore2 { get; }
 
 - [Class_T](/docs/api/shared/schemadefinitions/class_t)
 
-**CreateDebris** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L30)
+### **CreateDebris** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L30)
 
 ```csharp
 ref bool CreateDebris { get; }
@@ -40,7 +40,7 @@ ref bool CreateDebris { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**CustomDamageType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L28)
+### **CustomDamageType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L28)
 
 ```csharp
 ref DamageTypes_t CustomDamageType { get; }
@@ -50,7 +50,7 @@ ref DamageTypes_t CustomDamageType { get; }
 
 - [DamageTypes_t](/docs/api/shared/schemadefinitions/damagetypes_t)
 
-**CustomEffectName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L32)
+### **CustomEffectName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L32)
 
 ```csharp
 string CustomEffectName { get; set; }
@@ -60,7 +60,7 @@ string CustomEffectName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**CustomSoundName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L34)
+### **CustomSoundName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L34)
 
 ```csharp
 string CustomSoundName { get; set; }
@@ -70,7 +70,7 @@ string CustomSoundName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DamageForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L24)
+### **DamageForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L24)
 
 ```csharp
 ref float DamageForce { get; }
@@ -80,7 +80,7 @@ ref float DamageForce { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EntityIgnore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L44)
+### **EntityIgnore** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L44)
 
 ```csharp
 ref CHandle<CBaseEntity> EntityIgnore { get; }
@@ -90,7 +90,7 @@ ref CHandle<CBaseEntity> EntityIgnore { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**EntityIgnoreName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L42)
+### **EntityIgnoreName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L42)
 
 ```csharp
 string EntityIgnoreName { get; set; }
@@ -100,7 +100,7 @@ string EntityIgnoreName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Inflictor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L26)
+### **Inflictor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L26)
 
 ```csharp
 ref CHandle<CBaseEntity> Inflictor { get; }
@@ -110,7 +110,7 @@ ref CHandle<CBaseEntity> Inflictor { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**InnerRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L22)
+### **InnerRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L22)
 
 ```csharp
 ref float InnerRadius { get; }
@@ -120,7 +120,7 @@ ref float InnerRadius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Magnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L16)
+### **Magnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L16)
 
 ```csharp
 ref int Magnitude { get; }
@@ -130,7 +130,7 @@ ref int Magnitude { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PlayerDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L18)
+### **PlayerDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L18)
 
 ```csharp
 ref float PlayerDamage { get; }
@@ -140,7 +140,7 @@ ref float PlayerDamage { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RadiusOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L20)
+### **RadiusOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L20)
 
 ```csharp
 ref int RadiusOverride { get; }
@@ -150,7 +150,7 @@ ref int RadiusOverride { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SuppressParticleImpulse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L36)
+### **SuppressParticleImpulse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvExplosion.cs#L36)
 
 ```csharp
 ref bool SuppressParticleImpulse { get; }

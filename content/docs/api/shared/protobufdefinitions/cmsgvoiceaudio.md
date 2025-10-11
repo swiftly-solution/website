@@ -10,7 +10,7 @@ public interface CMsgVoiceAudio : ITypedProtobuf<CMsgVoiceAudio>, INativeHandle
 
 ## Properties
 
-**Format** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L13)
+### **Format** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L13)
 
 ```csharp
 VoiceDataFormat_t Format { get; set; }
@@ -20,7 +20,7 @@ VoiceDataFormat_t Format { get; set; }
 
 - [VoiceDataFormat_t](/docs/api/shared/protobufdefinitions/voicedataformat_t)
 
-**NumPackets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L31)
+### **NumPackets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L31)
 
 ```csharp
 uint NumPackets { get; set; }
@@ -30,7 +30,7 @@ uint NumPackets { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PacketOffsets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L34)
+### **PacketOffsets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L34)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> PacketOffsets { get; }
@@ -40,7 +40,7 @@ IProtobufRepeatedFieldValueType<uint> PacketOffsets { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**SampleRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L25)
+### **SampleRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L25)
 
 ```csharp
 uint SampleRate { get; set; }
@@ -50,7 +50,7 @@ uint SampleRate { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SectionNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L22)
+### **SectionNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L22)
 
 ```csharp
 uint SectionNumber { get; set; }
@@ -60,7 +60,7 @@ uint SectionNumber { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SequenceBytes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L19)
+### **SequenceBytes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L19)
 
 ```csharp
 int SequenceBytes { get; set; }
@@ -70,7 +70,7 @@ int SequenceBytes { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UncompressedSampleOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L28)
+### **UncompressedSampleOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L28)
 
 ```csharp
 uint UncompressedSampleOffset { get; set; }
@@ -80,7 +80,7 @@ uint UncompressedSampleOffset { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**VoiceData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L16)
+### **VoiceData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L16)
 
 ```csharp
 byte[] VoiceData { get; set; }
@@ -90,7 +90,7 @@ byte[] VoiceData { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**VoiceLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L37)
+### **VoiceLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgVoiceAudio.cs#L37)
 
 ```csharp
 float VoiceLevel { get; set; }

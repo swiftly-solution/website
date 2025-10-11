@@ -13,7 +13,7 @@ public class ClientNetMessageHandler : Attribute
 
 ## Constructors
 
-**ClientNetMessageHandler()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/NetMessageHandlerAttribute.cs#L12)
+### **ClientNetMessageHandler()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/NetMessageHandlerAttribute.cs#L12)
 
 ```csharp
 public ClientNetMessageHandler()

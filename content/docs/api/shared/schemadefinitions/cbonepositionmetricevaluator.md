@@ -10,7 +10,7 @@ public interface CBonePositionMetricEvaluator : CMotionMetricEvaluator, ISchemaC
 
 ## Properties
 
-**BoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBonePositionMetricEvaluator.cs#L16)
+### **BoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBonePositionMetricEvaluator.cs#L16)
 
 ```csharp
 ref int BoneIndex { get; }

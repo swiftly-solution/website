@@ -10,7 +10,7 @@ public interface C_OP_RemapParticleCountToScalar : CParticleFunctionOperator, CP
 
 ## Properties
 
-**ActiveRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L26)
+### **ActiveRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L26)
 
 ```csharp
 ref bool ActiveRange { get; }
@@ -20,7 +20,7 @@ ref bool ActiveRange { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L20)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput InputMax { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput InputMax { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L18)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput InputMin { get; }
@@ -50,7 +50,7 @@ CParticleCollectionFloatInput InputMin { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L24)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput OutputMax { get; }
@@ -60,7 +60,7 @@ CParticleCollectionFloatInput OutputMax { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L22)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput OutputMin { get; }
@@ -70,7 +70,7 @@ CParticleCollectionFloatInput OutputMin { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L28)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapParticleCountToScalar.cs#L28)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

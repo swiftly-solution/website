@@ -10,7 +10,7 @@ public interface CSVCMsg_ClassInfo : ITypedProtobuf<CSVCMsg_ClassInfo>, INativeH
 
 ## Properties
 
-**Classes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClassInfo.cs#L21)
+### **Classes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClassInfo.cs#L21)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CSVCMsg_ClassInfo_class_t> Classes { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<CSVCMsg_ClassInfo_class_t> Classes { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSVCMsg_ClassInfo_class_t](/docs/api/shared/protobufdefinitions/csvcmsg_classinfo_class_t)>
 
-**CreateOnClient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClassInfo.cs#L18)
+### **CreateOnClient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClassInfo.cs#L18)
 
 ```csharp
 bool CreateOnClient { get; set; }

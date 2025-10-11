@@ -10,7 +10,7 @@ public interface AnimationSnapshotBase_t : ISchemaClass<AnimationSnapshotBase_t>
 
 ## Properties
 
-**BoneSetupMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L22)
+### **BoneSetupMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L22)
 
 ```csharp
 ref CUtlVector<uint> BoneSetupMask { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<uint> BoneSetupMask { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
+- [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**BoneTransforms** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L24)
+### **BoneTransforms** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L24)
 
 ```csharp
 ref CUtlVector<matrix3x4_t> BoneTransforms { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<matrix3x4_t> BoneTransforms { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)>
+- [CUtlVector](/docs/api/-1)<[matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)>
 
-**BonesInWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L20)
+### **BonesInWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L20)
 
 ```csharp
 ref bool BonesInWorldSpace { get; }
@@ -40,7 +40,7 @@ ref bool BonesInWorldSpace { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DecodeDump** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L32)
+### **DecodeDump** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L32)
 
 ```csharp
 AnimationDecodeDebugDumpElement_t DecodeDump { get; }
@@ -50,7 +50,7 @@ AnimationDecodeDebugDumpElement_t DecodeDump { get; }
 
 - [AnimationDecodeDebugDumpElement_t](/docs/api/shared/schemadefinitions/animationdecodedebugdumpelement_t)
 
-**FlexControllers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L26)
+### **FlexControllers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L26)
 
 ```csharp
 ref CUtlVector<float> FlexControllers { get; }
@@ -58,9 +58,9 @@ ref CUtlVector<float> FlexControllers { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
+- [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**HasDecodeDump** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L30)
+### **HasDecodeDump** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L30)
 
 ```csharp
 ref bool HasDecodeDump { get; }
@@ -70,7 +70,7 @@ ref bool HasDecodeDump { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L16)
+### **RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L16)
 
 ```csharp
 ref float RealTime { get; }
@@ -80,7 +80,7 @@ ref float RealTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RootToWorld** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L18)
+### **RootToWorld** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L18)
 
 ```csharp
 ref matrix3x4_t RootToWorld { get; }
@@ -90,7 +90,7 @@ ref matrix3x4_t RootToWorld { get; }
 
 - [matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)
 
-**SnapshotType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L28)
+### **SnapshotType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationSnapshotBase_t.cs#L28)
 
 ```csharp
 ref AnimationSnapshotType_t SnapshotType { get; }

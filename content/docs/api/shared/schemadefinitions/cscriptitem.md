@@ -10,7 +10,7 @@ public interface CScriptItem : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEnt
 
 ## Properties
 
-**MoveTypeOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptItem.cs#L16)
+### **MoveTypeOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptItem.cs#L16)
 
 ```csharp
 ref MoveType_t MoveTypeOverride { get; }

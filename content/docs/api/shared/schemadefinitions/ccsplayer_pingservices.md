@@ -10,7 +10,7 @@ public interface CCSPlayer_PingServices : CPlayerPawnComponent, ISchemaClass<CPl
 
 ## Properties
 
-**PlayerPing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L19)
+### **PlayerPing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L19)
 
 ```csharp
 ref CHandle<CBaseEntity> PlayerPing { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> PlayerPing { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**PlayerPingTokens** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L17)
+### **PlayerPingTokens** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L17)
 
 ```csharp
 SchemaUntypedField PlayerPingTokens { get; }
@@ -32,7 +32,7 @@ SchemaUntypedField PlayerPingTokens { get; }
 
 ## Methods
 
-**PlayerPingUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L21)
+### **PlayerPingUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L21)
 
 ```csharp
 void PlayerPingUpdated()

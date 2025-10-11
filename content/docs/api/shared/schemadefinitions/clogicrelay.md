@@ -10,7 +10,7 @@ public interface CLogicRelay : CLogicalEntity, CServerOnlyEntity, CBaseEntity, C
 
 ## Properties
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L16)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L16)
 
 ```csharp
 ref bool Disabled { get; }
@@ -20,7 +20,7 @@ ref bool Disabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FastRetrigger** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L22)
+### **FastRetrigger** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L22)
 
 ```csharp
 ref bool FastRetrigger { get; }
@@ -30,7 +30,7 @@ ref bool FastRetrigger { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PassthoughCaller** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L24)
+### **PassthoughCaller** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L24)
 
 ```csharp
 ref bool PassthoughCaller { get; }
@@ -40,7 +40,7 @@ ref bool PassthoughCaller { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TriggerOnce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L20)
+### **TriggerOnce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L20)
 
 ```csharp
 ref bool TriggerOnce { get; }
@@ -50,7 +50,7 @@ ref bool TriggerOnce { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WaitForRefire** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L18)
+### **WaitForRefire** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicRelay.cs#L18)
 
 ```csharp
 ref bool WaitForRefire { get; }

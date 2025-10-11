@@ -10,7 +10,7 @@ public interface CNetworkTransmitComponent : ISchemaClass<CNetworkTransmitCompon
 
 ## Properties
 
-**TransmitStateOwnedCounter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkTransmitComponent.cs#L16)
+### **TransmitStateOwnedCounter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkTransmitComponent.cs#L16)
 
 ```csharp
 ref byte TransmitStateOwnedCounter { get; }

@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse : ITyp
 
 ## Properties
 
-**Iteminfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse.cs#L13)
+### **Iteminfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse.cs#L13)
 
 ```csharp
 CEconItemPreviewDataBlock Iteminfo { get; }

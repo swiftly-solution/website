@@ -10,7 +10,7 @@ public interface CNmSyncEventIndexConditionNode__CDefinition : CNmBoolValueNode_
 
 ## Properties
 
-**SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncEventIndexConditionNode__CDefinition.cs#L16)
+### **SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncEventIndexConditionNode__CDefinition.cs#L16)
 
 ```csharp
 ref short SourceStateNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short SourceStateNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**SyncEventIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncEventIndexConditionNode__CDefinition.cs#L20)
+### **SyncEventIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncEventIndexConditionNode__CDefinition.cs#L20)
 
 ```csharp
 ref int SyncEventIdx { get; }
@@ -30,7 +30,7 @@ ref int SyncEventIdx { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TriggerMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncEventIndexConditionNode__CDefinition.cs#L18)
+### **TriggerMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmSyncEventIndexConditionNode__CDefinition.cs#L18)
 
 ```csharp
 ref CNmSyncEventIndexConditionNode__TriggerMode_t TriggerMode { get; }

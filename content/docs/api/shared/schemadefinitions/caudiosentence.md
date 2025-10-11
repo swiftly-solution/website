@@ -10,7 +10,7 @@ public interface CAudioSentence : ISchemaClass<CAudioSentence>, ISchemaField, IS
 
 ## Properties
 
-**EmphasisSamples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L22)
+### **EmphasisSamples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L22)
 
 ```csharp
 ref CUtlVector EmphasisSamples { get; }
@@ -18,9 +18,9 @@ ref CUtlVector EmphasisSamples { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**MorphData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L24)
+### **MorphData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L24)
 
 ```csharp
 CAudioMorphData MorphData { get; }
@@ -30,7 +30,7 @@ CAudioMorphData MorphData { get; }
 
 - [CAudioMorphData](/docs/api/shared/schemadefinitions/caudiomorphdata)
 
-**RunTimePhonemes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L19)
+### **RunTimePhonemes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L19)
 
 ```csharp
 ref CUtlVector RunTimePhonemes { get; }
@@ -38,9 +38,9 @@ ref CUtlVector RunTimePhonemes { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**ShouldVoiceDuck** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L16)
+### **ShouldVoiceDuck** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAudioSentence.cs#L16)
 
 ```csharp
 ref bool ShouldVoiceDuck { get; }

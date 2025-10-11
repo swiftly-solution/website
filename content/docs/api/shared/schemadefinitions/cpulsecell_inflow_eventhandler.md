@@ -10,7 +10,7 @@ public interface CPulseCell_Inflow_EventHandler : CPulseCell_Inflow_BaseEntrypoi
 
 ## Properties
 
-**EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_EventHandler.cs#L17)
+### **EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_EventHandler.cs#L17)
 
 ```csharp
 SchemaUntypedField EventName { get; }

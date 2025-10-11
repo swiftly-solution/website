@@ -10,7 +10,7 @@ public interface FootFixedData_t : ISchemaClass<FootFixedData_t>, ISchemaField, 
 
 ## Properties
 
-**AnkleBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L22)
+### **AnkleBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L22)
 
 ```csharp
 ref int AnkleBoneIndex { get; }
@@ -20,7 +20,7 @@ ref int AnkleBoneIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FootIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L30)
+### **FootIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L30)
 
 ```csharp
 ref int FootIndex { get; }
@@ -30,7 +30,7 @@ ref int FootIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HeelOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L18)
+### **HeelOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L18)
 
 ```csharp
 ref Vector HeelOffset { get; }
@@ -40,7 +40,7 @@ ref Vector HeelOffset { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**IKAnchorBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L24)
+### **IKAnchorBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L24)
 
 ```csharp
 ref int IKAnchorBoneIndex { get; }
@@ -50,7 +50,7 @@ ref int IKAnchorBoneIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**IkChainIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L26)
+### **IkChainIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L26)
 
 ```csharp
 ref int IkChainIndex { get; }
@@ -60,7 +60,7 @@ ref int IkChainIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MaxIKLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L28)
+### **MaxIKLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L28)
 
 ```csharp
 ref float MaxIKLength { get; }
@@ -70,7 +70,7 @@ ref float MaxIKLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxRotationLeft** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L34)
+### **MaxRotationLeft** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L34)
 
 ```csharp
 ref float MaxRotationLeft { get; }
@@ -80,7 +80,7 @@ ref float MaxRotationLeft { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxRotationRight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L36)
+### **MaxRotationRight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L36)
 
 ```csharp
 ref float MaxRotationRight { get; }
@@ -90,7 +90,7 @@ ref float MaxRotationRight { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TagIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L32)
+### **TagIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L32)
 
 ```csharp
 ref int TagIndex { get; }
@@ -100,7 +100,7 @@ ref int TagIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TargetBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L20)
+### **TargetBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L20)
 
 ```csharp
 ref int TargetBoneIndex { get; }
@@ -110,7 +110,7 @@ ref int TargetBoneIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ToeOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L16)
+### **ToeOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootFixedData_t.cs#L16)
 
 ```csharp
 ref Vector ToeOffset { get; }

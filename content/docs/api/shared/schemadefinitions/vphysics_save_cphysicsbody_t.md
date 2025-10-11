@@ -10,7 +10,7 @@ public interface vphysics_save_cphysicsbody_t : RnBodyDesc_t, ISchemaClass<RnBod
 
 ## Properties
 
-**OldPointer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/vphysics_save_cphysicsbody_t.cs#L16)
+### **OldPointer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/vphysics_save_cphysicsbody_t.cs#L16)
 
 ```csharp
 ref ulong OldPointer { get; }

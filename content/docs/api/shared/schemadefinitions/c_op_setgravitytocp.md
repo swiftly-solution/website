@@ -10,7 +10,7 @@ public interface C_OP_SetGravityToCP : CParticleFunctionPreEmission, CParticleFu
 
 ## Properties
 
-**CPInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetGravityToCP.cs#L16)
+### **CPInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetGravityToCP.cs#L16)
 
 ```csharp
 ref int CPInput { get; }
@@ -20,7 +20,7 @@ ref int CPInput { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CPOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetGravityToCP.cs#L18)
+### **CPOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetGravityToCP.cs#L18)
 
 ```csharp
 ref int CPOutput { get; }
@@ -30,7 +30,7 @@ ref int CPOutput { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetGravityToCP.cs#L20)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetGravityToCP.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput Scale { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput Scale { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**SetOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetGravityToCP.cs#L22)
+### **SetOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetGravityToCP.cs#L22)
 
 ```csharp
 ref bool SetOrientation { get; }
@@ -50,7 +50,7 @@ ref bool SetOrientation { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SetZDown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetGravityToCP.cs#L24)
+### **SetZDown** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetGravityToCP.cs#L24)
 
 ```csharp
 ref bool SetZDown { get; }

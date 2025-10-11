@@ -10,7 +10,7 @@ public interface ProtoFlattenedSerializer_t : ITypedProtobuf<ProtoFlattenedSeria
 
 ## Properties
 
-**FieldsIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializer_t.cs#L19)
+### **FieldsIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializer_t.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> FieldsIndex { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldValueType<int> FieldsIndex { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**SerializerNameSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializer_t.cs#L13)
+### **SerializerNameSym** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializer_t.cs#L13)
 
 ```csharp
 int SerializerNameSym { get; set; }
@@ -30,7 +30,7 @@ int SerializerNameSym { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SerializerVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializer_t.cs#L16)
+### **SerializerVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/ProtoFlattenedSerializer_t.cs#L16)
 
 ```csharp
 int SerializerVersion { get; set; }

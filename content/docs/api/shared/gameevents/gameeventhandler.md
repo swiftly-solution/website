@@ -13,7 +13,7 @@ public class GameEventHandler : Attribute
 
 ## Constructors
 
-**GameEventHandler(HookMode)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/GameEventHandlerAttribute.cs#L10)
+### **GameEventHandler(HookMode)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/GameEventHandlerAttribute.cs#L10)
 
 ```csharp
 public GameEventHandler(HookMode hookMode)
@@ -25,7 +25,7 @@ public GameEventHandler(HookMode hookMode)
 
 ## Properties
 
-**HookMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/GameEventHandlerAttribute.cs#L8)
+### **HookMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/GameEvents/GameEventHandlerAttribute.cs#L8)
 
 ```csharp
 public HookMode HookMode { get; set; }

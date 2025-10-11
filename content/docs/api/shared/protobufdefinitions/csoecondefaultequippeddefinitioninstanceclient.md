@@ -10,7 +10,7 @@ public interface CSOEconDefaultEquippedDefinitionInstanceClient : ITypedProtobuf
 
 ## Properties
 
-**AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconDefaultEquippedDefinitionInstanceClient.cs#L13)
+### **AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconDefaultEquippedDefinitionInstanceClient.cs#L13)
 
 ```csharp
 uint AccountId { get; set; }
@@ -20,7 +20,7 @@ uint AccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ClassId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconDefaultEquippedDefinitionInstanceClient.cs#L19)
+### **ClassId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconDefaultEquippedDefinitionInstanceClient.cs#L19)
 
 ```csharp
 uint ClassId { get; set; }
@@ -30,7 +30,7 @@ uint ClassId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemDefinition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconDefaultEquippedDefinitionInstanceClient.cs#L16)
+### **ItemDefinition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconDefaultEquippedDefinitionInstanceClient.cs#L16)
 
 ```csharp
 uint ItemDefinition { get; set; }
@@ -40,7 +40,7 @@ uint ItemDefinition { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SlotId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconDefaultEquippedDefinitionInstanceClient.cs#L22)
+### **SlotId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOEconDefaultEquippedDefinitionInstanceClient.cs#L22)
 
 ```csharp
 uint SlotId { get; set; }

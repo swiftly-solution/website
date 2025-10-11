@@ -10,7 +10,7 @@ public interface CUserMessageRequestDiagnostic : ITypedProtobuf<CUserMessageRequ
 
 ## Properties
 
-**Diagnostics** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestDiagnostic.cs#L18)
+### **Diagnostics** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestDiagnostic.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CUserMessageRequestDiagnostic_Diagnostic> Diagnostics { get; }

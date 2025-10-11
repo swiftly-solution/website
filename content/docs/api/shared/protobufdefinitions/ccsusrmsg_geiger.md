@@ -10,7 +10,7 @@ public interface CCSUsrMsg_Geiger : ITypedProtobuf<CCSUsrMsg_Geiger>, INativeHan
 
 ## Properties
 
-**Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Geiger.cs#L18)
+### **Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Geiger.cs#L18)
 
 ```csharp
 int Range { get; set; }

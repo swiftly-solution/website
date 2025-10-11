@@ -10,7 +10,7 @@ public interface CSVCMsg_BSPDecal : ITypedProtobuf<CSVCMsg_BSPDecal>, INativeHan
 
 ## Properties
 
-**DecalTextureIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_BSPDecal.cs#L21)
+### **DecalTextureIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_BSPDecal.cs#L21)
 
 ```csharp
 int DecalTextureIndex { get; set; }
@@ -20,7 +20,7 @@ int DecalTextureIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_BSPDecal.cs#L24)
+### **EntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_BSPDecal.cs#L24)
 
 ```csharp
 int EntityIndex { get; set; }
@@ -30,7 +30,7 @@ int EntityIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LowPriority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_BSPDecal.cs#L30)
+### **LowPriority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_BSPDecal.cs#L30)
 
 ```csharp
 bool LowPriority { get; set; }
@@ -40,7 +40,7 @@ bool LowPriority { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ModelIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_BSPDecal.cs#L27)
+### **ModelIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_BSPDecal.cs#L27)
 
 ```csharp
 int ModelIndex { get; set; }
@@ -50,7 +50,7 @@ int ModelIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_BSPDecal.cs#L18)
+### **Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_BSPDecal.cs#L18)
 
 ```csharp
 Vector Pos { get; set; }

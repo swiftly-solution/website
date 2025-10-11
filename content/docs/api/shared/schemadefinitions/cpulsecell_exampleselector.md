@@ -10,7 +10,7 @@ public interface CPulseCell_ExampleSelector : CPulseCell_BaseFlow, CPulseCell_Ba
 
 ## Properties
 
-**OutflowList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_ExampleSelector.cs#L16)
+### **OutflowList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_ExampleSelector.cs#L16)
 
 ```csharp
 PulseSelectorOutflowList_t OutflowList { get; }

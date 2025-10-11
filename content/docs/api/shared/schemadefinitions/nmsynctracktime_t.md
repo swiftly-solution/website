@@ -10,7 +10,7 @@ public interface NmSyncTrackTime_t : ISchemaClass<NmSyncTrackTime_t>, ISchemaFie
 
 ## Properties
 
-**EventIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmSyncTrackTime_t.cs#L16)
+### **EventIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmSyncTrackTime_t.cs#L16)
 
 ```csharp
 ref int EventIdx { get; }
@@ -20,7 +20,7 @@ ref int EventIdx { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PercentageThrough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmSyncTrackTime_t.cs#L18)
+### **PercentageThrough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmSyncTrackTime_t.cs#L18)
 
 ```csharp
 NmPercent_t PercentageThrough { get; }

@@ -10,7 +10,7 @@ public interface EventShowSurvivalRespawnStatus : IGameEvent<EventShowSurvivalRe
 
 ## Properties
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L26)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L26)
 
 ```csharp
 int Duration { get; set; }
@@ -20,7 +20,7 @@ int Duration { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LocToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L21)
+### **LocToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L21)
 
 ```csharp
 string LocToken { get; set; }
@@ -30,7 +30,7 @@ string LocToken { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L47)
+### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L47)
 
 ```csharp
 int UserId { get; set; }
@@ -40,7 +40,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L32)
+### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L32)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -50,7 +50,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L38)
+### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L38)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -60,7 +60,7 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L41)
+### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventShowSurvivalRespawnStatus.cs#L41)
 
 ```csharp
 IPlayer UserIdPlayer { get; }

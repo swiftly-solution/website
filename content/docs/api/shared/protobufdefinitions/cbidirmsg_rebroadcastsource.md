@@ -10,7 +10,7 @@ public interface CBidirMsg_RebroadcastSource : ITypedProtobuf<CBidirMsg_Rebroadc
 
 ## Properties
 
-**Eventsource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CBidirMsg_RebroadcastSource.cs#L13)
+### **Eventsource** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CBidirMsg_RebroadcastSource.cs#L13)
 
 ```csharp
 int Eventsource { get; set; }

@@ -10,7 +10,7 @@ public interface CNmFootstepEventIDNode__CDefinition : CNmIDValueNode__CDefiniti
 
 ## Properties
 
-**EventConditionRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootstepEventIDNode__CDefinition.cs#L18)
+### **EventConditionRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootstepEventIDNode__CDefinition.cs#L18)
 
 ```csharp
 CNmBitFlags EventConditionRules { get; }
@@ -20,7 +20,7 @@ CNmBitFlags EventConditionRules { get; }
 
 - [CNmBitFlags](/docs/api/shared/schemadefinitions/cnmbitflags)
 
-**SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootstepEventIDNode__CDefinition.cs#L16)
+### **SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFootstepEventIDNode__CDefinition.cs#L16)
 
 ```csharp
 ref short SourceStateNodeIdx { get; }

@@ -10,7 +10,7 @@ public interface JiggleBoneSettingsList_t : ISchemaClass<JiggleBoneSettingsList_
 
 ## Properties
 
-**BoneSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettingsList_t.cs#L17)
+### **BoneSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/JiggleBoneSettingsList_t.cs#L17)
 
 ```csharp
 ref CUtlVector BoneSettings { get; }
@@ -18,5 +18,5 @@ ref CUtlVector BoneSettings { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

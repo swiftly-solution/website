@@ -10,7 +10,7 @@ public interface BoneDemoCaptureSettings_t : ISchemaClass<BoneDemoCaptureSetting
 
 ## Properties
 
-**BoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L16)
+### **BoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L16)
 
 ```csharp
 string BoneName { get; set; }
@@ -20,7 +20,7 @@ string BoneName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ErrorQuantizationRotationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L24)
+### **ErrorQuantizationRotationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L24)
 
 ```csharp
 ref float ErrorQuantizationRotationMax { get; }
@@ -30,7 +30,7 @@ ref float ErrorQuantizationRotationMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ErrorQuantizationScaleMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L28)
+### **ErrorQuantizationScaleMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L28)
 
 ```csharp
 ref float ErrorQuantizationScaleMax { get; }
@@ -40,7 +40,7 @@ ref float ErrorQuantizationScaleMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ErrorQuantizationTranslationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L26)
+### **ErrorQuantizationTranslationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L26)
 
 ```csharp
 ref float ErrorQuantizationTranslationMax { get; }
@@ -50,7 +50,7 @@ ref float ErrorQuantizationTranslationMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ErrorSplineRotationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L18)
+### **ErrorSplineRotationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L18)
 
 ```csharp
 ref float ErrorSplineRotationMax { get; }
@@ -60,7 +60,7 @@ ref float ErrorSplineRotationMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ErrorSplineScaleMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L22)
+### **ErrorSplineScaleMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L22)
 
 ```csharp
 ref float ErrorSplineScaleMax { get; }
@@ -70,7 +70,7 @@ ref float ErrorSplineScaleMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ErrorSplineTranslationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L20)
+### **ErrorSplineTranslationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L20)
 
 ```csharp
 ref float ErrorSplineTranslationMax { get; }

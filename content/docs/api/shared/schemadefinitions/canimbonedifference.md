@@ -10,7 +10,7 @@ public interface CAnimBoneDifference : ISchemaClass<CAnimBoneDifference>, ISchem
 
 ## Properties
 
-**HasMovement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBoneDifference.cs#L24)
+### **HasMovement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBoneDifference.cs#L24)
 
 ```csharp
 ref bool HasMovement { get; }
@@ -20,7 +20,7 @@ ref bool HasMovement { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HasRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBoneDifference.cs#L22)
+### **HasRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBoneDifference.cs#L22)
 
 ```csharp
 ref bool HasRotation { get; }
@@ -30,7 +30,7 @@ ref bool HasRotation { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBoneDifference.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBoneDifference.cs#L16)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -40,7 +40,7 @@ ref CBufferString Name { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**Parent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBoneDifference.cs#L18)
+### **Parent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBoneDifference.cs#L18)
 
 ```csharp
 ref CBufferString Parent { get; }
@@ -50,7 +50,7 @@ ref CBufferString Parent { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**PosError** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBoneDifference.cs#L20)
+### **PosError** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBoneDifference.cs#L20)
 
 ```csharp
 ref Vector PosError { get; }

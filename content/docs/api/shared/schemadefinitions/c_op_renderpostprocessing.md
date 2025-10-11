@@ -10,7 +10,7 @@ public interface C_OP_RenderPostProcessing : CParticleFunctionRenderer, CParticl
 
 ## Properties
 
-**PostProcessStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L16)
+### **PostProcessStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L16)
 
 ```csharp
 CPerParticleFloatInput PostProcessStrength { get; }
@@ -20,7 +20,7 @@ CPerParticleFloatInput PostProcessStrength { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**PostTexture** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L18)
+### **PostTexture** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCPostProcessingResource> PostTexture { get; }
@@ -30,7 +30,7 @@ ref CStrongHandle<InfoForResourceTypeCPostProcessingResource> PostTexture { get;
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCPostProcessingResource](/docs/api/shared/schemadefinitions/infoforresourcetypecpostprocessingresource)>
 
-**Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L20)
+### **Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderPostProcessing.cs#L20)
 
 ```csharp
 ref ParticlePostProcessPriorityGroup_t Priority { get; }

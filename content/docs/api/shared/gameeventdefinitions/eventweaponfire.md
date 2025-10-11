@@ -10,7 +10,7 @@ public interface EventWeaponFire : IGameEvent<EventWeaponFire>
 
 ## Properties
 
-**Silenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L51)
+### **Silenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L51)
 
 ```csharp
 bool Silenced { get; set; }
@@ -20,7 +20,7 @@ bool Silenced { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L37)
+### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L37)
 
 ```csharp
 int UserId { get; set; }
@@ -30,7 +30,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L22)
+### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L22)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -40,7 +40,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L28)
+### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L28)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -50,7 +50,7 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L31)
+### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L31)
 
 ```csharp
 IPlayer UserIdPlayer { get; }
@@ -60,7 +60,7 @@ IPlayer UserIdPlayer { get; }
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 
-**Weapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L44)
+### **Weapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventWeaponFire.cs#L44)
 
 ```csharp
 string Weapon { get; set; }

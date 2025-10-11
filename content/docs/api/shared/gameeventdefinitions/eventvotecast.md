@@ -10,7 +10,7 @@ public interface EventVoteCast : IGameEvent<EventVoteCast>
 
 ## Properties
 
-**Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L28)
+### **Team** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L28)
 
 ```csharp
 short Team { get; set; }
@@ -20,7 +20,7 @@ short Team { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L53)
+### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L53)
 
 ```csharp
 int UserId { get; set; }
@@ -30,7 +30,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L35)
+### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L35)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -40,7 +40,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L42)
+### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L42)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -50,7 +50,7 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L46)
+### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L46)
 
 ```csharp
 IPlayer UserIdPlayer { get; }
@@ -60,7 +60,7 @@ IPlayer UserIdPlayer { get; }
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 
-**VoteOption** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L23)
+### **VoteOption** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventVoteCast.cs#L23)
 
 ```csharp
 byte VoteOption { get; set; }

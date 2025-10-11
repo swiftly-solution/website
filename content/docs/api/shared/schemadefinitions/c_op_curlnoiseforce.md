@@ -10,7 +10,7 @@ public interface C_OP_CurlNoiseForce : CParticleFunctionForce, CParticleFunction
 
 ## Properties
 
-**NoiseFreq** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L18)
+### **NoiseFreq** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L18)
 
 ```csharp
 CPerParticleVecInput NoiseFreq { get; }
@@ -20,7 +20,7 @@ CPerParticleVecInput NoiseFreq { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**NoiseScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L20)
+### **NoiseScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L20)
 
 ```csharp
 CPerParticleVecInput NoiseScale { get; }
@@ -30,7 +30,7 @@ CPerParticleVecInput NoiseScale { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**NoiseType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L16)
+### **NoiseType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L16)
 
 ```csharp
 ref ParticleDirectionNoiseType_t NoiseType { get; }
@@ -40,7 +40,7 @@ ref ParticleDirectionNoiseType_t NoiseType { get; }
 
 - [ParticleDirectionNoiseType_t](/docs/api/shared/schemadefinitions/particledirectionnoisetype_t)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L22)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L22)
 
 ```csharp
 CPerParticleVecInput Offset { get; }
@@ -50,7 +50,7 @@ CPerParticleVecInput Offset { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**OffsetRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L24)
+### **OffsetRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L24)
 
 ```csharp
 CPerParticleVecInput OffsetRate { get; }
@@ -60,7 +60,7 @@ CPerParticleVecInput OffsetRate { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**WorleyJitter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L28)
+### **WorleyJitter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L28)
 
 ```csharp
 CPerParticleFloatInput WorleyJitter { get; }
@@ -70,7 +70,7 @@ CPerParticleFloatInput WorleyJitter { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**WorleySeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L26)
+### **WorleySeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_CurlNoiseForce.cs#L26)
 
 ```csharp
 CPerParticleFloatInput WorleySeed { get; }

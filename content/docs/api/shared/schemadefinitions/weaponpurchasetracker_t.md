@@ -10,7 +10,7 @@ public interface WeaponPurchaseTracker_t : ISchemaClass<WeaponPurchaseTracker_t>
 
 ## Properties
 
-**WeaponPurchases** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseTracker_t.cs#L17)
+### **WeaponPurchases** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseTracker_t.cs#L17)
 
 ```csharp
 ref CUtlVector WeaponPurchases { get; }
@@ -18,11 +18,11 @@ ref CUtlVector WeaponPurchases { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
 ## Methods
 
-**WeaponPurchasesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseTracker_t.cs#L19)
+### **WeaponPurchasesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseTracker_t.cs#L19)
 
 ```csharp
 void WeaponPurchasesUpdated()

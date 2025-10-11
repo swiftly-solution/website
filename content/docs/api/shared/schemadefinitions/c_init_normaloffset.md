@@ -10,7 +10,7 @@ public interface C_INIT_NormalOffset : CParticleFunctionInitializer, CParticleFu
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L20)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L20)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LocalCoords** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L22)
+### **LocalCoords** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L22)
 
 ```csharp
 ref bool LocalCoords { get; }
@@ -30,7 +30,7 @@ ref bool LocalCoords { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Normalize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L24)
+### **Normalize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L24)
 
 ```csharp
 ref bool Normalize { get; }
@@ -40,7 +40,7 @@ ref bool Normalize { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OffsetMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L18)
+### **OffsetMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L18)
 
 ```csharp
 ref Vector OffsetMax { get; }
@@ -50,7 +50,7 @@ ref Vector OffsetMax { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OffsetMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L16)
+### **OffsetMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_NormalOffset.cs#L16)
 
 ```csharp
 ref Vector OffsetMin { get; }

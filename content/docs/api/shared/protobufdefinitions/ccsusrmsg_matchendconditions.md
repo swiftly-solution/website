@@ -10,7 +10,7 @@ public interface CCSUsrMsg_MatchEndConditions : ITypedProtobuf<CCSUsrMsg_MatchEn
 
 ## Properties
 
-**Fraglimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_MatchEndConditions.cs#L18)
+### **Fraglimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_MatchEndConditions.cs#L18)
 
 ```csharp
 int Fraglimit { get; set; }
@@ -20,7 +20,7 @@ int Fraglimit { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MpMaxrounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_MatchEndConditions.cs#L21)
+### **MpMaxrounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_MatchEndConditions.cs#L21)
 
 ```csharp
 int MpMaxrounds { get; set; }
@@ -30,7 +30,7 @@ int MpMaxrounds { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MpTimelimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_MatchEndConditions.cs#L27)
+### **MpTimelimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_MatchEndConditions.cs#L27)
 
 ```csharp
 float MpTimelimit { get; set; }
@@ -40,7 +40,7 @@ float MpTimelimit { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MpWinlimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_MatchEndConditions.cs#L24)
+### **MpWinlimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_MatchEndConditions.cs#L24)
 
 ```csharp
 int MpWinlimit { get; set; }

@@ -10,7 +10,7 @@ public interface C_OP_LockToPointList : CParticleFunctionOperator, CParticleFunc
 
 ## Properties
 
-**ClosedLoop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToPointList.cs#L23)
+### **ClosedLoop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToPointList.cs#L23)
 
 ```csharp
 ref bool ClosedLoop { get; }
@@ -20,7 +20,7 @@ ref bool ClosedLoop { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToPointList.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToPointList.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**NumPointsAlongPath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToPointList.cs#L25)
+### **NumPointsAlongPath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToPointList.cs#L25)
 
 ```csharp
 ref int NumPointsAlongPath { get; }
@@ -40,7 +40,7 @@ ref int NumPointsAlongPath { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PlaceAlongPath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToPointList.cs#L21)
+### **PlaceAlongPath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToPointList.cs#L21)
 
 ```csharp
 ref bool PlaceAlongPath { get; }
@@ -50,7 +50,7 @@ ref bool PlaceAlongPath { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PointList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToPointList.cs#L19)
+### **PointList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToPointList.cs#L19)
 
 ```csharp
 ref CUtlVector PointList { get; }
@@ -58,5 +58,5 @@ ref CUtlVector PointList { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

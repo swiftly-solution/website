@@ -10,7 +10,7 @@ public interface CRemapValueUpdateItem : ISchemaClass<CRemapValueUpdateItem>, IS
 
 ## Properties
 
-**MaxInputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L22)
+### **MaxInputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L22)
 
 ```csharp
 ref float MaxInputValue { get; }
@@ -20,7 +20,7 @@ ref float MaxInputValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L26)
+### **MaxOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L26)
 
 ```csharp
 ref float MaxOutputValue { get; }
@@ -30,7 +30,7 @@ ref float MaxOutputValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinInputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L20)
+### **MinInputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L20)
 
 ```csharp
 ref float MinInputValue { get; }
@@ -40,7 +40,7 @@ ref float MinInputValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L24)
+### **MinOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L24)
 
 ```csharp
 ref float MinOutputValue { get; }
@@ -50,7 +50,7 @@ ref float MinOutputValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ParamIn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L16)
+### **ParamIn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L16)
 
 ```csharp
 CAnimParamHandle ParamIn { get; }
@@ -60,7 +60,7 @@ CAnimParamHandle ParamIn { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**ParamOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L18)
+### **ParamOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRemapValueUpdateItem.cs#L18)
 
 ```csharp
 CAnimParamHandle ParamOut { get; }

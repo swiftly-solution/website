@@ -10,7 +10,7 @@ public interface CPulseCell_Outflow_TestExplicitYesNo : CPulseCell_BaseFlow, CPu
 
 ## Properties
 
-**False** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_TestExplicitYesNo.cs#L18)
+### **False** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_TestExplicitYesNo.cs#L18)
 
 ```csharp
 CPulse_OutflowConnection No { get; }
@@ -20,7 +20,7 @@ CPulse_OutflowConnection No { get; }
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
-**True** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_TestExplicitYesNo.cs#L16)
+### **True** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_TestExplicitYesNo.cs#L16)
 
 ```csharp
 CPulse_OutflowConnection Yes { get; }

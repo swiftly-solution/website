@@ -10,7 +10,7 @@ public interface PulseGraphExecutionHistoryEntry_t : ISchemaClass<PulseGraphExec
 
 ## Properties
 
-**CursorID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryEntry_t.cs#L16)
+### **CursorID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryEntry_t.cs#L16)
 
 ```csharp
 PulseCursorID_t CursorID { get; }
@@ -20,7 +20,7 @@ PulseCursorID_t CursorID { get; }
 
 - [PulseCursorID_t](/docs/api/shared/schemadefinitions/pulsecursorid_t)
 
-**EditorID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryEntry_t.cs#L18)
+### **EditorID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryEntry_t.cs#L18)
 
 ```csharp
 PulseDocNodeID_t EditorID { get; }
@@ -30,7 +30,7 @@ PulseDocNodeID_t EditorID { get; }
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
-**ExecTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryEntry_t.cs#L20)
+### **ExecTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryEntry_t.cs#L20)
 
 ```csharp
 ref float ExecTime { get; }
@@ -40,7 +40,7 @@ ref float ExecTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryEntry_t.cs#L22)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryEntry_t.cs#L22)
 
 ```csharp
 ref uint Flags { get; }
@@ -50,7 +50,7 @@ ref uint Flags { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TagName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryEntry_t.cs#L25)
+### **TagName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryEntry_t.cs#L25)
 
 ```csharp
 SchemaUntypedField TagName { get; }

@@ -10,7 +10,7 @@ public interface CVoiceContainerGranulator : CVoiceContainerBase, ISchemaClass<C
 
 ## Properties
 
-**GrainCrossfadeAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L18)
+### **GrainCrossfadeAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L18)
 
 ```csharp
 ref float GrainCrossfadeAmount { get; }
@@ -20,7 +20,7 @@ ref float GrainCrossfadeAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GrainLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L16)
+### **GrainLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L16)
 
 ```csharp
 ref float GrainLength { get; }
@@ -30,7 +30,7 @@ ref float GrainLength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PlaybackJitter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L22)
+### **PlaybackJitter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L22)
 
 ```csharp
 ref float PlaybackJitter { get; }
@@ -40,7 +40,7 @@ ref float PlaybackJitter { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ShouldWraparound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L24)
+### **ShouldWraparound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L24)
 
 ```csharp
 ref bool ShouldWraparound { get; }
@@ -50,7 +50,7 @@ ref bool ShouldWraparound { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SourceAudio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L26)
+### **SourceAudio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L26)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> SourceAudio { get; }
@@ -60,7 +60,7 @@ ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> SourceAudio { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>
 
-**StartJitter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L20)
+### **StartJitter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerGranulator.cs#L20)
 
 ```csharp
 ref float StartJitter { get; }

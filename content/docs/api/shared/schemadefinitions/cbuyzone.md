@@ -10,7 +10,7 @@ public interface CBuyZone : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEn
 
 ## Properties
 
-**LegacyTeamNum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuyZone.cs#L16)
+### **LegacyTeamNum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBuyZone.cs#L16)
 
 ```csharp
 ref int LegacyTeamNum { get; }

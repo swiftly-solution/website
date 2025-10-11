@@ -10,7 +10,7 @@ public interface FeAntiTunnelGroupBuild_t : ISchemaClass<FeAntiTunnelGroupBuild_
 
 ## Properties
 
-**CollisionMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelGroupBuild_t.cs#L18)
+### **CollisionMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelGroupBuild_t.cs#L18)
 
 ```csharp
 ref uint CollisionMask { get; }
@@ -20,7 +20,7 @@ ref uint CollisionMask { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**VertexMapHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelGroupBuild_t.cs#L16)
+### **VertexMapHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAntiTunnelGroupBuild_t.cs#L16)
 
 ```csharp
 ref uint VertexMapHash { get; }

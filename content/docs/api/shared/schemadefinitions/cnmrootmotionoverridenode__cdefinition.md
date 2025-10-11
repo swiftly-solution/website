@@ -10,7 +10,7 @@ public interface CNmRootMotionOverrideNode__CDefinition : CNmPassthroughNode__CD
 
 ## Properties
 
-**AngularVelocityLimitNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L22)
+### **AngularVelocityLimitNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L22)
 
 ```csharp
 ref short AngularVelocityLimitNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short AngularVelocityLimitNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**DesiredFacingDirectionNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L18)
+### **DesiredFacingDirectionNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L18)
 
 ```csharp
 ref short DesiredFacingDirectionNodeIdx { get; }
@@ -30,7 +30,7 @@ ref short DesiredFacingDirectionNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**DesiredMovingVelocityNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L16)
+### **DesiredMovingVelocityNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L16)
 
 ```csharp
 ref short DesiredMovingVelocityNodeIdx { get; }
@@ -40,7 +40,7 @@ ref short DesiredMovingVelocityNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**LinearVelocityLimitNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L20)
+### **LinearVelocityLimitNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L20)
 
 ```csharp
 ref short LinearVelocityLimitNodeIdx { get; }
@@ -50,7 +50,7 @@ ref short LinearVelocityLimitNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**MaxAngularVelocityRadians** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L26)
+### **MaxAngularVelocityRadians** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L26)
 
 ```csharp
 ref float MaxAngularVelocityRadians { get; }
@@ -60,7 +60,7 @@ ref float MaxAngularVelocityRadians { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxLinearVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L24)
+### **MaxLinearVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L24)
 
 ```csharp
 ref float MaxLinearVelocity { get; }
@@ -70,7 +70,7 @@ ref float MaxLinearVelocity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OverrideFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L28)
+### **OverrideFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionOverrideNode__CDefinition.cs#L28)
 
 ```csharp
 CNmBitFlags OverrideFlags { get; }

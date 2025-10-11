@@ -10,7 +10,7 @@ public interface CPropDoorRotatingBreakable : CPropDoorRotating, CBasePropDoor, 
 
 ## Properties
 
-**Breakable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L16)
+### **Breakable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L16)
 
 ```csharp
 ref bool Breakable { get; }
@@ -20,7 +20,7 @@ ref bool Breakable { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**CurrentDamageState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L20)
+### **CurrentDamageState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L20)
 
 ```csharp
 ref int CurrentDamageState { get; }
@@ -30,7 +30,7 @@ ref int CurrentDamageState { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DamageStates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L22)
+### **DamageStates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L22)
 
 ```csharp
 ref CUtlVector<CUtlSymbolLarge> DamageStates { get; }
@@ -38,9 +38,9 @@ ref CUtlVector<CUtlSymbolLarge> DamageStates { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)>
+- [CUtlVector](/docs/api/-1)<[CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)>
 
-**IsAbleToCloseAreaPortals** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L18)
+### **IsAbleToCloseAreaPortals** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPropDoorRotatingBreakable.cs#L18)
 
 ```csharp
 ref bool IsAbleToCloseAreaPortals { get; }

@@ -10,7 +10,7 @@ public interface CSequenceTagSpans : ISchemaClass<CSequenceTagSpans>, ISchemaFie
 
 ## Properties
 
-**SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceTagSpans.cs#L16)
+### **SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceTagSpans.cs#L16)
 
 ```csharp
 ref CGlobalSymbol SequenceName { get; }
@@ -20,7 +20,7 @@ ref CGlobalSymbol SequenceName { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceTagSpans.cs#L19)
+### **Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceTagSpans.cs#L19)
 
 ```csharp
 ref CUtlVector Tags { get; }
@@ -28,5 +28,5 @@ ref CUtlVector Tags { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

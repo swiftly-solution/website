@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_PremierSeasonSummary : ITypedProtobuf<CMsgGC
 
 ## Properties
 
-**AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary.cs#L13)
+### **AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary.cs#L13)
 
 ```csharp
 uint AccountId { get; set; }
@@ -20,7 +20,7 @@ uint AccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**DataPerMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary.cs#L22)
+### **DataPerMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary.cs#L22)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerMap> DataPerMap { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_PremierSeasonSummary_Dat
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerMap](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_premierseasonsummary_datapermap)>
 
-**DataPerWeek** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary.cs#L19)
+### **DataPerWeek** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek> DataPerWeek { get; }
@@ -40,7 +40,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_PremierSeasonSummary_Dat
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_premierseasonsummary_dataperweek)>
 
-**SeasonId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary.cs#L16)
+### **SeasonId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PremierSeasonSummary.cs#L16)
 
 ```csharp
 uint SeasonId { get; set; }

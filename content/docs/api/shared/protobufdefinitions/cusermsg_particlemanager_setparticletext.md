@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_SetParticleText : ITypedProtobuf<CUser
 
 ## Properties
 
-**Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleText.cs#L13)
+### **Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleText.cs#L13)
 
 ```csharp
 string Text { get; set; }

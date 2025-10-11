@@ -10,7 +10,7 @@ public interface WorldBuilderParams_t : ISchemaClass<WorldBuilderParams_t>, ISch
 
 ## Properties
 
-**AggregateInstanceStreams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L20)
+### **AggregateInstanceStreams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L20)
 
 ```csharp
 ref bool AggregateInstanceStreams { get; }
@@ -20,7 +20,7 @@ ref bool AggregateInstanceStreams { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**BakedLightingInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L22)
+### **BakedLightingInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L22)
 
 ```csharp
 BakedLightingInfo_t BakedLightingInfo { get; }
@@ -30,7 +30,7 @@ BakedLightingInfo_t BakedLightingInfo { get; }
 
 - [BakedLightingInfo_t](/docs/api/shared/schemadefinitions/bakedlightinginfo_t)
 
-**BuildBakedLighting** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L18)
+### **BuildBakedLighting** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L18)
 
 ```csharp
 ref bool BuildBakedLighting { get; }
@@ -40,7 +40,7 @@ ref bool BuildBakedLighting { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**CompileFingerprint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L26)
+### **CompileFingerprint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L26)
 
 ```csharp
 ref ulong CompileFingerprint { get; }
@@ -50,7 +50,7 @@ ref ulong CompileFingerprint { get; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**CompileTimestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L24)
+### **CompileTimestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L24)
 
 ```csharp
 ref ulong CompileTimestamp { get; }
@@ -60,7 +60,7 @@ ref ulong CompileTimestamp { get; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**MinDrawVolumeSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L16)
+### **MinDrawVolumeSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WorldBuilderParams_t.cs#L16)
 
 ```csharp
 ref float MinDrawVolumeSize { get; }

@@ -10,7 +10,7 @@ public interface DetailedSearchStatistic : ITypedProtobuf<DetailedSearchStatisti
 
 ## Properties
 
-**GameType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DetailedSearchStatistic.cs#L13)
+### **GameType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DetailedSearchStatistic.cs#L13)
 
 ```csharp
 uint GameType { get; set; }
@@ -20,7 +20,7 @@ uint GameType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PlayersSearching** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DetailedSearchStatistic.cs#L19)
+### **PlayersSearching** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DetailedSearchStatistic.cs#L19)
 
 ```csharp
 uint PlayersSearching { get; set; }
@@ -30,7 +30,7 @@ uint PlayersSearching { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SearchTimeAvg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DetailedSearchStatistic.cs#L16)
+### **SearchTimeAvg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/DetailedSearchStatistic.cs#L16)
 
 ```csharp
 uint SearchTimeAvg { get; set; }

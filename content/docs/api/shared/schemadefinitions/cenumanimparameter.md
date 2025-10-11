@@ -10,7 +10,7 @@ public interface CEnumAnimParameter : CConcreteAnimParameter, CAnimParameterBase
 
 ## Properties
 
-**DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L16)
+### **DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L16)
 
 ```csharp
 ref byte DefaultValue { get; }
@@ -20,7 +20,7 @@ ref byte DefaultValue { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**EnumOptions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L18)
+### **EnumOptions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L18)
 
 ```csharp
 ref CUtlVector<CUtlString> EnumOptions { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<CUtlString> EnumOptions { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**EnumReferenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L20)
+### **EnumReferenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnumAnimParameter.cs#L20)
 
 ```csharp
 ref CUtlVector<ulong> EnumReferenced { get; }
@@ -38,5 +38,5 @@ ref CUtlVector<ulong> EnumReferenced { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
+- [CUtlVector](/docs/api/-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 

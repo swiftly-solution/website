@@ -10,7 +10,7 @@ public interface CClothSettingsAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase
 
 ## Properties
 
-**EaseIn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L18)
+### **EaseIn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L18)
 
 ```csharp
 ref float EaseIn { get; }
@@ -20,7 +20,7 @@ ref float EaseIn { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EaseOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L20)
+### **EaseOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L20)
 
 ```csharp
 ref float EaseOut { get; }
@@ -30,7 +30,7 @@ ref float EaseOut { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Stiffness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L16)
+### **Stiffness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L16)
 
 ```csharp
 ref float Stiffness { get; }
@@ -40,7 +40,7 @@ ref float Stiffness { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**VertexSet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L22)
+### **VertexSet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CClothSettingsAnimTag.cs#L22)
 
 ```csharp
 string VertexSet { get; set; }

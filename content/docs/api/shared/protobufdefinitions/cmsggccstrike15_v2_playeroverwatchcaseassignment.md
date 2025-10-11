@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment : ITypedProtob
 
 ## Properties
 
-**Caseid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L13)
+### **Caseid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L13)
 
 ```csharp
 ulong Caseid { get; set; }
@@ -20,7 +20,7 @@ ulong Caseid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Caseurl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L16)
+### **Caseurl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L16)
 
 ```csharp
 string Caseurl { get; set; }
@@ -30,7 +30,7 @@ string Caseurl { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Fractionid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L31)
+### **Fractionid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L31)
 
 ```csharp
 uint Fractionid { get; set; }
@@ -40,7 +40,7 @@ uint Fractionid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Fractionrounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L37)
+### **Fractionrounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L37)
 
 ```csharp
 uint Fractionrounds { get; set; }
@@ -50,7 +50,7 @@ uint Fractionrounds { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Numrounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L34)
+### **Numrounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L34)
 
 ```csharp
 uint Numrounds { get; set; }
@@ -60,7 +60,7 @@ uint Numrounds { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L43)
+### **Reason** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L43)
 
 ```csharp
 uint Reason { get; set; }
@@ -70,7 +70,7 @@ uint Reason { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Streakconvictions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L40)
+### **Streakconvictions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L40)
 
 ```csharp
 int Streakconvictions { get; set; }
@@ -80,7 +80,7 @@ int Streakconvictions { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Suspectid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L28)
+### **Suspectid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L28)
 
 ```csharp
 uint Suspectid { get; set; }
@@ -90,7 +90,7 @@ uint Suspectid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Throttleseconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L25)
+### **Throttleseconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L25)
 
 ```csharp
 uint Throttleseconds { get; set; }
@@ -100,7 +100,7 @@ uint Throttleseconds { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Timestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L22)
+### **Timestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L22)
 
 ```csharp
 uint Timestamp { get; set; }
@@ -110,7 +110,7 @@ uint Timestamp { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Verdict** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L19)
+### **Verdict** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_PlayerOverwatchCaseAssignment.cs#L19)
 
 ```csharp
 uint Verdict { get; set; }

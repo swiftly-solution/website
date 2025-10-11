@@ -10,7 +10,7 @@ public interface CSequenceUpdateNodeBase : CLeafUpdateNode, CAnimUpdateNodeBase,
 
 ## Properties
 
-**Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNodeBase.cs#L18)
+### **Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNodeBase.cs#L18)
 
 ```csharp
 ref bool Loop { get; }
@@ -20,7 +20,7 @@ ref bool Loop { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PlaybackSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNodeBase.cs#L16)
+### **PlaybackSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNodeBase.cs#L16)
 
 ```csharp
 ref float PlaybackSpeed { get; }

@@ -10,7 +10,7 @@ public struct CUtlSymbolLarge
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L12)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L12)
 
 ```csharp
 public string Value { get; set; }
@@ -22,7 +22,7 @@ public string Value { get; set; }
 
 ## Operators
 
-**implicit operator string(CUtlSymbolLarge)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L22)
+### **implicit operator string(CUtlSymbolLarge)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L22)
 
 ```csharp
 public static implicit operator string(CUtlSymbolLarge symbol)
@@ -36,7 +36,7 @@ public static implicit operator string(CUtlSymbolLarge symbol)
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**implicit operator CUtlSymbolLarge(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L24)
+### **implicit operator CUtlSymbolLarge(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L24)
 
 ```csharp
 public static implicit operator CUtlSymbolLarge(string value)

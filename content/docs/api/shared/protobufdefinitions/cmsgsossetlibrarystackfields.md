@@ -10,7 +10,7 @@ public interface CMsgSosSetLibraryStackFields : ITypedProtobuf<CMsgSosSetLibrary
 
 ## Properties
 
-**PackedFields** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosSetLibraryStackFields.cs#L21)
+### **PackedFields** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosSetLibraryStackFields.cs#L21)
 
 ```csharp
 byte[] PackedFields { get; set; }
@@ -20,7 +20,7 @@ byte[] PackedFields { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**StackHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosSetLibraryStackFields.cs#L18)
+### **StackHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosSetLibraryStackFields.cs#L18)
 
 ```csharp
 uint StackHash { get; set; }

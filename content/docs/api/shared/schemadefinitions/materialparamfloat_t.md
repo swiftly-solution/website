@@ -10,7 +10,7 @@ public interface MaterialParamFloat_t : MaterialParam_t, ISchemaClass<MaterialPa
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialParamFloat_t.cs#L16)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialParamFloat_t.cs#L16)
 
 ```csharp
 ref float Value { get; }

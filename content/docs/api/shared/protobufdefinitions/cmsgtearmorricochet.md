@@ -10,7 +10,7 @@ public interface CMsgTEArmorRicochet : ITypedProtobuf<CMsgTEArmorRicochet>, INat
 
 ## Properties
 
-**Dir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEArmorRicochet.cs#L21)
+### **Dir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEArmorRicochet.cs#L21)
 
 ```csharp
 Vector Dir { get; set; }
@@ -20,7 +20,7 @@ Vector Dir { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEArmorRicochet.cs#L18)
+### **Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEArmorRicochet.cs#L18)
 
 ```csharp
 Vector Pos { get; set; }

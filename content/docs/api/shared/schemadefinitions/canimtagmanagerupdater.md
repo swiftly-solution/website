@@ -10,7 +10,7 @@ public interface CAnimTagManagerUpdater : ISchemaClass<CAnimTagManagerUpdater>, 
 
 ## Properties
 
-**Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagManagerUpdater.cs#L17)
+### **Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimTagManagerUpdater.cs#L17)
 
 ```csharp
 ref CUtlVector Tags { get; }
@@ -18,5 +18,5 @@ ref CUtlVector Tags { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

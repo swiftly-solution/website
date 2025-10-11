@@ -10,7 +10,7 @@ public interface C_INIT_CreateFromPlaneCache : CParticleFunctionInitializer, CPa
 
 ## Properties
 
-**OffsetMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromPlaneCache.cs#L18)
+### **OffsetMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromPlaneCache.cs#L18)
 
 ```csharp
 ref Vector OffsetMax { get; }
@@ -20,7 +20,7 @@ ref Vector OffsetMax { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OffsetMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromPlaneCache.cs#L16)
+### **OffsetMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromPlaneCache.cs#L16)
 
 ```csharp
 ref Vector OffsetMin { get; }
@@ -30,7 +30,7 @@ ref Vector OffsetMin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**UseNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromPlaneCache.cs#L20)
+### **UseNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateFromPlaneCache.cs#L20)
 
 ```csharp
 ref bool UseNormal { get; }

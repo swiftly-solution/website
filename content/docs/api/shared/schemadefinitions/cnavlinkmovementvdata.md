@@ -10,7 +10,7 @@ public interface CNavLinkMovementVData : ISchemaClass<CNavLinkMovementVData>, IS
 
 ## Properties
 
-**AnimgraphVars** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L24)
+### **AnimgraphVars** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L24)
 
 ```csharp
 ref CUtlVector AnimgraphVars { get; }
@@ -18,9 +18,9 @@ ref CUtlVector AnimgraphVars { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**IsInterpolated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L19)
+### **IsInterpolated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L19)
 
 ```csharp
 ref bool IsInterpolated { get; }
@@ -30,7 +30,7 @@ ref bool IsInterpolated { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RecommendedDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L21)
+### **RecommendedDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L21)
 
 ```csharp
 ref uint RecommendedDistance { get; }
@@ -40,7 +40,7 @@ ref uint RecommendedDistance { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ToolsOnlyOwnerModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L17)
+### **ToolsOnlyOwnerModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L17)
 
 ```csharp
 SchemaUntypedField ToolsOnlyOwnerModelName { get; }

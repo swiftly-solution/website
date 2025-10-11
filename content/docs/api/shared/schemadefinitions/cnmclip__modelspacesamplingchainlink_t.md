@@ -10,7 +10,7 @@ public interface CNmClip__ModelSpaceSamplingChainLink_t : ISchemaClass<CNmClip__
 
 ## Properties
 
-**BoneIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L16)
+### **BoneIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L16)
 
 ```csharp
 ref int BoneIdx { get; }
@@ -20,7 +20,7 @@ ref int BoneIdx { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ParentBoneIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L18)
+### **ParentBoneIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L18)
 
 ```csharp
 ref int ParentBoneIdx { get; }
@@ -30,7 +30,7 @@ ref int ParentBoneIdx { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ParentChainLinkIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L20)
+### **ParentChainLinkIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmClip__ModelSpaceSamplingChainLink_t.cs#L20)
 
 ```csharp
 ref int ParentChainLinkIdx { get; }

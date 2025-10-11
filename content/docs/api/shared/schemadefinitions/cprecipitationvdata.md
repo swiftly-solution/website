@@ -10,7 +10,7 @@ public interface CPrecipitationVData : CEntitySubclassVDataBase, ISchemaClass<CE
 
 ## Properties
 
-**AttachType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L21)
+### **AttachType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L21)
 
 ```csharp
 ref ParticleAttachment_t AttachType { get; }
@@ -20,7 +20,7 @@ ref ParticleAttachment_t AttachType { get; }
 
 - [ParticleAttachment_t](/docs/api/shared/schemadefinitions/particleattachment_t)
 
-**BatchSameVolumeType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L23)
+### **BatchSameVolumeType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L23)
 
 ```csharp
 ref bool BatchSameVolumeType { get; }
@@ -30,7 +30,7 @@ ref bool BatchSameVolumeType { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InnerDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L19)
+### **InnerDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L19)
 
 ```csharp
 ref float InnerDistance { get; }
@@ -40,7 +40,7 @@ ref float InnerDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Modifier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L29)
+### **Modifier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L29)
 
 ```csharp
 string Modifier { get; set; }
@@ -50,7 +50,7 @@ string Modifier { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ParticlePrecipitationEffect** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L17)
+### **ParticlePrecipitationEffect** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L17)
 
 ```csharp
 SchemaUntypedField ParticlePrecipitationEffect { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField ParticlePrecipitationEffect { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**RTEnvCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L25)
+### **RTEnvCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L25)
 
 ```csharp
 ref int RTEnvCP { get; }
@@ -70,7 +70,7 @@ ref int RTEnvCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RTEnvCPComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L27)
+### **RTEnvCPComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPrecipitationVData.cs#L27)
 
 ```csharp
 ref int RTEnvCPComponent { get; }

@@ -10,7 +10,7 @@ public interface C_OP_SetUserEvent : CParticleFunctionOperator, CParticleFunctio
 
 ## Properties
 
-**FallingEdge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L22)
+### **FallingEdge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L22)
 
 ```csharp
 CPerParticleFloatInput FallingEdge { get; }
@@ -20,7 +20,7 @@ CPerParticleFloatInput FallingEdge { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**FallingEventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L24)
+### **FallingEventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L24)
 
 ```csharp
 ref EventTypeSelection_t FallingEventType { get; }
@@ -30,7 +30,7 @@ ref EventTypeSelection_t FallingEventType { get; }
 
 - [EventTypeSelection_t](/docs/api/shared/schemadefinitions/eventtypeselection_t)
 
-**Input** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L16)
+### **Input** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L16)
 
 ```csharp
 CPerParticleFloatInput Input { get; }
@@ -40,7 +40,7 @@ CPerParticleFloatInput Input { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**RisingEdge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L18)
+### **RisingEdge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L18)
 
 ```csharp
 CPerParticleFloatInput RisingEdge { get; }
@@ -50,7 +50,7 @@ CPerParticleFloatInput RisingEdge { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**RisingEventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L20)
+### **RisingEventType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetUserEvent.cs#L20)
 
 ```csharp
 ref EventTypeSelection_t RisingEventType { get; }

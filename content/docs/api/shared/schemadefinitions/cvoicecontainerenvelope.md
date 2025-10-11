@@ -10,7 +10,7 @@ public interface CVoiceContainerEnvelope : CVoiceContainerBase, ISchemaClass<CVo
 
 ## Properties
 
-**AnalysisContainer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerEnvelope.cs#L18)
+### **AnalysisContainer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerEnvelope.cs#L18)
 
 ```csharp
 CVoiceContainerAnalysisBase? AnalysisContainer { get; }
@@ -20,7 +20,7 @@ CVoiceContainerAnalysisBase? AnalysisContainer { get; }
 
 - [CVoiceContainerAnalysisBase](/docs/api/shared/schemadefinitions/cvoicecontaineranalysisbase)?
 
-**Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerEnvelope.cs#L16)
+### **Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerEnvelope.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> Sound { get; }

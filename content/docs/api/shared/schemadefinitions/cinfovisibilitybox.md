@@ -10,7 +10,7 @@ public interface CInfoVisibilityBox : CBaseEntity, CEntityInstance, ISchemaClass
 
 ## Properties
 
-**BoxSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L18)
+### **BoxSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L18)
 
 ```csharp
 ref Vector BoxSize { get; }
@@ -20,7 +20,7 @@ ref Vector BoxSize { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L20)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L20)
 
 ```csharp
 ref bool Enabled { get; }
@@ -30,7 +30,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L16)
+### **Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L16)
 
 ```csharp
 ref int Mode { get; }
@@ -42,19 +42,19 @@ ref int Mode { get; }
 
 ## Methods
 
-**BoxSizeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L23)
+### **BoxSizeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L23)
 
 ```csharp
 void BoxSizeUpdated()
 ```
 
-**EnabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L24)
+### **EnabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L24)
 
 ```csharp
 void EnabledUpdated()
 ```
 
-**ModeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L22)
+### **ModeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoVisibilityBox.cs#L22)
 
 ```csharp
 void ModeUpdated()

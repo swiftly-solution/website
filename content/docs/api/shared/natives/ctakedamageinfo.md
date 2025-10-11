@@ -10,13 +10,13 @@ public struct CTakeDamageInfo
 
 ## Constructors
 
-**CTakeDamageInfo()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L64)
+### **CTakeDamageInfo()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L64)
 
 ```csharp
 public CTakeDamageInfo()
 ```
 
-**CTakeDamageInfo(CBaseEntity, CBaseEntity, CBaseEntity, float, DamageTypes_t)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L74)
+### **CTakeDamageInfo(CBaseEntity, CBaseEntity, CBaseEntity, float, DamageTypes_t)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L74)
 
 ```csharp
 public CTakeDamageInfo(CBaseEntity inflictor, CBaseEntity attacker, CBaseEntity ability, float flDamage, DamageTypes_t bitsDamageType)
@@ -32,7 +32,7 @@ public CTakeDamageInfo(CBaseEntity inflictor, CBaseEntity attacker, CBaseEntity 
 
 ## Fields
 
-**Ability** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L31)
+### **Ability** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L31)
 
 ```csharp
 public CHandle<CEntityInstance> Ability
@@ -42,7 +42,7 @@ public CHandle<CEntityInstance> Ability
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
-**AmmoType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L36)
+### **AmmoType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L36)
 
 ```csharp
 public sbyte AmmoType
@@ -52,7 +52,7 @@ public sbyte AmmoType
 
 - [sbyte](https://learn.microsoft.com/dotnet/api/system.sbyte)
 
-**Attacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L30)
+### **Attacker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L30)
 
 ```csharp
 public CHandle<CEntityInstance> Attacker
@@ -62,7 +62,7 @@ public CHandle<CEntityInstance> Attacker
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
-**AttackerInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L59)
+### **AttackerInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L59)
 
 ```csharp
 public AttackerInfo_t AttackerInfo
@@ -72,7 +72,7 @@ public AttackerInfo_t AttackerInfo
 
 - [AttackerInfo_t](/docs/api/shared/natives/attackerinfo_t)
 
-**Damage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L32)
+### **Damage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L32)
 
 ```csharp
 public float Damage
@@ -82,7 +82,7 @@ public float Damage
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DamageCustom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L35)
+### **DamageCustom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L35)
 
 ```csharp
 public uint DamageCustom
@@ -92,7 +92,7 @@ public uint DamageCustom
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**DamageDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L28)
+### **DamageDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L28)
 
 ```csharp
 public Vector DamageDirection
@@ -102,7 +102,7 @@ public Vector DamageDirection
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**DamageFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L47)
+### **DamageFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L47)
 
 ```csharp
 public TakeDamageFlags_t DamageFlags
@@ -112,7 +112,7 @@ public TakeDamageFlags_t DamageFlags
 
 - [TakeDamageFlags_t](/docs/api/shared/schemadefinitions/takedamageflags_t)
 
-**DamageForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L25)
+### **DamageForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L25)
 
 ```csharp
 public Vector DamageForce
@@ -122,7 +122,7 @@ public Vector DamageForce
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**DamagePosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L26)
+### **DamagePosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L26)
 
 ```csharp
 public Vector DamagePosition
@@ -132,7 +132,7 @@ public Vector DamagePosition
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**DamageSourceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L48)
+### **DamageSourceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L48)
 
 ```csharp
 public CString DamageSourceName
@@ -142,7 +142,7 @@ public CString DamageSourceName
 
 - [CString](/docs/api/shared/natives/cstring)
 
-**DamageType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L34)
+### **DamageType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L34)
 
 ```csharp
 public DamageTypes_t DamageType
@@ -152,7 +152,7 @@ public DamageTypes_t DamageType
 
 - [DamageTypes_t](/docs/api/shared/schemadefinitions/damagetypes_t)
 
-**FriendlyFireDamageReductionRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L54)
+### **FriendlyFireDamageReductionRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L54)
 
 ```csharp
 public float FriendlyFireDamageReductionRatio
@@ -162,7 +162,7 @@ public float FriendlyFireDamageReductionRatio
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HitGroupId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L52)
+### **HitGroupId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L52)
 
 ```csharp
 [Obsolete("This field somehow holds garbage value in game. Use ActualHitGroup instead.")]
@@ -173,7 +173,7 @@ public HitGroup_t HitGroupId
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 
-**InTakeDamageFlow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L60)
+### **InTakeDamageFlow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L60)
 
 ```csharp
 public bool InTakeDamageFlow
@@ -183,7 +183,7 @@ public bool InTakeDamageFlow
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Inflictor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L29)
+### **Inflictor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L29)
 
 ```csharp
 public CHandle<CEntityInstance> Inflictor
@@ -193,7 +193,7 @@ public CHandle<CEntityInstance> Inflictor
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
-**NumObjectsPenetrated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L53)
+### **NumObjectsPenetrated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L53)
 
 ```csharp
 public int NumObjectsPenetrated
@@ -203,7 +203,7 @@ public int NumObjectsPenetrated
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OriginalDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L40)
+### **OriginalDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L40)
 
 ```csharp
 public float OriginalDamage
@@ -213,7 +213,7 @@ public float OriginalDamage
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ReportedPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L27)
+### **ReportedPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L27)
 
 ```csharp
 public Vector ReportedPosition
@@ -223,7 +223,7 @@ public Vector ReportedPosition
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ScriptInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L58)
+### **ScriptInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L58)
 
 ```csharp
 public void* ScriptInstance
@@ -233,7 +233,7 @@ public void* ScriptInstance
 
 - [void](https://learn.microsoft.com/dotnet/api/system.void)*
 
-**ShouldBleed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L41)
+### **ShouldBleed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L41)
 
 ```csharp
 public bool ShouldBleed
@@ -243,7 +243,7 @@ public bool ShouldBleed
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ShouldSpark** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L42)
+### **ShouldSpark** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L42)
 
 ```csharp
 public bool ShouldSpark
@@ -253,7 +253,7 @@ public bool ShouldSpark
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TotalledDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L33)
+### **TotalledDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L33)
 
 ```csharp
 public float TotalledDamage
@@ -263,7 +263,7 @@ public float TotalledDamage
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Trace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L46)
+### **Trace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L46)
 
 ```csharp
 public CGameTrace* Trace
@@ -273,7 +273,7 @@ public CGameTrace* Trace
 
 - [CGameTrace](/docs/api/shared/natives/cgametrace)*
 
-**_pVTable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L23)
+### **_pVTable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L23)
 
 ```csharp
 public nint _pVTable
@@ -285,7 +285,7 @@ public nint _pVTable
 
 ## Properties
 
-**ActualHitGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L84)
+### **ActualHitGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L84)
 
 ```csharp
 public HitGroup_t ActualHitGroup { get; }

@@ -10,7 +10,7 @@ public interface ParticleControlPointDriver_t : ISchemaClass<ParticleControlPoin
 
 ## Properties
 
-**AttachType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L18)
+### **AttachType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L18)
 
 ```csharp
 ref ParticleAttachment_t AttachType { get; }
@@ -20,7 +20,7 @@ ref ParticleAttachment_t AttachType { get; }
 
 - [ParticleAttachment_t](/docs/api/shared/schemadefinitions/particleattachment_t)
 
-**AttachmentName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L20)
+### **AttachmentName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L20)
 
 ```csharp
 string AttachmentName { get; set; }
@@ -30,7 +30,7 @@ string AttachmentName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L16)
+### **ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L16)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -40,7 +40,7 @@ ref int ControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L26)
+### **EntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L26)
 
 ```csharp
 string EntityName { get; set; }
@@ -50,7 +50,7 @@ string EntityName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L22)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L22)
 
 ```csharp
 ref Vector Offset { get; }
@@ -60,7 +60,7 @@ ref Vector Offset { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Offset1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L24)
+### **Offset1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParticleControlPointDriver_t.cs#L24)
 
 ```csharp
 ref QAngle Offset1 { get; }

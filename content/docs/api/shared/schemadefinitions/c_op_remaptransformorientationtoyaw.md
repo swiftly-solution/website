@@ -10,7 +10,7 @@ public interface C_OP_RemapTransformOrientationToYaw : CParticleFunctionOperator
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToYaw.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToYaw.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**RotOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToYaw.cs#L20)
+### **RotOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToYaw.cs#L20)
 
 ```csharp
 ref float RotOffset { get; }
@@ -30,7 +30,7 @@ ref float RotOffset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SpinStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToYaw.cs#L22)
+### **SpinStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToYaw.cs#L22)
 
 ```csharp
 ref float SpinStrength { get; }
@@ -40,7 +40,7 @@ ref float SpinStrength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToYaw.cs#L16)
+### **TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToYaw.cs#L16)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

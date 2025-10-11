@@ -10,7 +10,7 @@ public interface EventSimulate_t : ISchemaClass<EventSimulate_t>, ISchemaField, 
 
 ## Properties
 
-**FirstTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSimulate_t.cs#L18)
+### **FirstTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSimulate_t.cs#L18)
 
 ```csharp
 ref bool FirstTick { get; }
@@ -20,7 +20,7 @@ ref bool FirstTick { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LastTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSimulate_t.cs#L20)
+### **LastTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSimulate_t.cs#L20)
 
 ```csharp
 ref bool LastTick { get; }
@@ -30,7 +30,7 @@ ref bool LastTick { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSimulate_t.cs#L16)
+### **LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventSimulate_t.cs#L16)
 
 ```csharp
 EngineLoopState_t LoopState { get; }

@@ -10,7 +10,7 @@ public interface FootStepTrigger : ISchemaClass<FootStepTrigger>, ISchemaField, 
 
 ## Properties
 
-**FootIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L18)
+### **FootIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L18)
 
 ```csharp
 ref int FootIndex { get; }
@@ -20,7 +20,7 @@ ref int FootIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L16)
+### **Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L16)
 
 ```csharp
 ref CUtlVector<int> Tags { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<int> Tags { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
+- [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**TriggerPhase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L20)
+### **TriggerPhase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L20)
 
 ```csharp
 ref StepPhase TriggerPhase { get; }

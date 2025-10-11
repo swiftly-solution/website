@@ -10,7 +10,7 @@ public interface CBodyComponent : CEntityComponent, ISchemaClass<CEntityComponen
 
 ## Properties
 
-**SceneNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponent.cs#L16)
+### **SceneNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponent.cs#L16)
 
 ```csharp
 CGameSceneNode? SceneNode { get; }
@@ -20,7 +20,7 @@ CGameSceneNode? SceneNode { get; }
 
 - [CGameSceneNode](/docs/api/shared/schemadefinitions/cgamescenenode)?
 
-**__m_pChainEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponent.cs#L18)
+### **__m_pChainEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyComponent.cs#L18)
 
 ```csharp
 ref CNetworkVarChainer __m_pChainEntity { get; }

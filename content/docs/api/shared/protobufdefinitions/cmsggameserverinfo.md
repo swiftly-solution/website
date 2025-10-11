@@ -10,7 +10,7 @@ public interface CMsgGameServerInfo : ITypedProtobuf<CMsgGameServerInfo>, INativ
 
 ## Properties
 
-**ParentRelayCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L61)
+### **ParentRelayCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L61)
 
 ```csharp
 uint ParentRelayCount { get; set; }
@@ -20,7 +20,7 @@ uint ParentRelayCount { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RelayClientsConnected** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L55)
+### **RelayClientsConnected** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L55)
 
 ```csharp
 int RelayClientsConnected { get; set; }
@@ -30,7 +30,7 @@ int RelayClientsConnected { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RelaySlotsMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L49)
+### **RelaySlotsMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L49)
 
 ```csharp
 uint RelaySlotsMax { get; set; }
@@ -40,7 +40,7 @@ uint RelaySlotsMax { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RelayedGameServerSteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L58)
+### **RelayedGameServerSteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L58)
 
 ```csharp
 ulong RelayedGameServerSteamId { get; set; }
@@ -50,7 +50,7 @@ ulong RelayedGameServerSteamId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**RelaysConnected** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L52)
+### **RelaysConnected** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L52)
 
 ```csharp
 int RelaysConnected { get; set; }
@@ -60,7 +60,7 @@ int RelaysConnected { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ServerGameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L43)
+### **ServerGameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L43)
 
 ```csharp
 float ServerGameTime { get; set; }
@@ -70,7 +70,7 @@ float ServerGameTime { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ServerHibernation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L28)
+### **ServerHibernation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L28)
 
 ```csharp
 bool ServerHibernation { get; set; }
@@ -80,7 +80,7 @@ bool ServerHibernation { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ServerKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L25)
+### **ServerKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L25)
 
 ```csharp
 string ServerKey { get; set; }
@@ -90,7 +90,7 @@ string ServerKey { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ServerLoadavg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L37)
+### **ServerLoadavg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L37)
 
 ```csharp
 float ServerLoadavg { get; set; }
@@ -100,7 +100,7 @@ float ServerLoadavg { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ServerPort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L19)
+### **ServerPort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L19)
 
 ```csharp
 uint ServerPort { get; set; }
@@ -110,7 +110,7 @@ uint ServerPort { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ServerPrivateIpAddr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L16)
+### **ServerPrivateIpAddr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L16)
 
 ```csharp
 uint ServerPrivateIpAddr { get; set; }
@@ -120,7 +120,7 @@ uint ServerPrivateIpAddr { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ServerPublicIpAddr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L13)
+### **ServerPublicIpAddr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L13)
 
 ```csharp
 uint ServerPublicIpAddr { get; set; }
@@ -130,7 +130,7 @@ uint ServerPublicIpAddr { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ServerRegion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L34)
+### **ServerRegion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L34)
 
 ```csharp
 uint ServerRegion { get; set; }
@@ -140,7 +140,7 @@ uint ServerRegion { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ServerRelayConnectedSteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L46)
+### **ServerRelayConnectedSteamId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L46)
 
 ```csharp
 ulong ServerRelayConnectedSteamId { get; set; }
@@ -150,7 +150,7 @@ ulong ServerRelayConnectedSteamId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ServerTvBroadcastTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L40)
+### **ServerTvBroadcastTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L40)
 
 ```csharp
 float ServerTvBroadcastTime { get; set; }
@@ -160,7 +160,7 @@ float ServerTvBroadcastTime { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ServerTvPort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L22)
+### **ServerTvPort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L22)
 
 ```csharp
 uint ServerTvPort { get; set; }
@@ -170,7 +170,7 @@ uint ServerTvPort { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ServerType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L31)
+### **ServerType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L31)
 
 ```csharp
 CMsgGameServerInfo_ServerType ServerType { get; set; }
@@ -180,7 +180,7 @@ CMsgGameServerInfo_ServerType ServerType { get; set; }
 
 - [CMsgGameServerInfo_ServerType](/docs/api/shared/protobufdefinitions/cmsggameserverinfo_servertype)
 
-**TvSecretCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L64)
+### **TvSecretCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGameServerInfo.cs#L64)
 
 ```csharp
 ulong TvSecretCode { get; set; }

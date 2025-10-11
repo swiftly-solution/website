@@ -10,7 +10,7 @@ public interface C_OP_RemapGravityToVector : CParticleFunctionOperator, CParticl
 
 ## Properties
 
-**Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapGravityToVector.cs#L16)
+### **Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapGravityToVector.cs#L16)
 
 ```csharp
 CPerParticleVecInput Input1 { get; }
@@ -20,7 +20,7 @@ CPerParticleVecInput Input1 { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**NormalizedOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapGravityToVector.cs#L22)
+### **NormalizedOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapGravityToVector.cs#L22)
 
 ```csharp
 ref bool NormalizedOutput { get; }
@@ -30,7 +30,7 @@ ref bool NormalizedOutput { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapGravityToVector.cs#L18)
+### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapGravityToVector.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t OutputField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapGravityToVector.cs#L20)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapGravityToVector.cs#L20)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

@@ -8,7 +8,7 @@ public interface INetMessageService
 
 ## Methods
 
-**Create<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L65)
+### **Create<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L65)
 
 ```csharp
 T Create<T>() where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
@@ -22,7 +22,7 @@ T Create<T>() where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
 
 - **T**:  - Net message type.
 
-**HookClientMessage<T>(ClientNetMessageHandler<T>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L32)
+### **HookClientMessage<T>(ClientNetMessageHandler<T>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L32)
 
 ```csharp
 Guid HookClientMessage<T>(INetMessageService.ClientNetMessageHandler<T> callback) where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
@@ -40,7 +40,7 @@ Guid HookClientMessage<T>(INetMessageService.ClientNetMessageHandler<T> callback
 
 - **T**:  - Client net message type.
 
-**HookServerMessage<T>(ServerNetMessageHandler<T>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L40)
+### **HookServerMessage<T>(ServerNetMessageHandler<T>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L40)
 
 ```csharp
 Guid HookServerMessage<T>(INetMessageService.ServerNetMessageHandler<T> callback) where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
@@ -58,7 +58,7 @@ Guid HookServerMessage<T>(INetMessageService.ServerNetMessageHandler<T> callback
 
 - **T**:  - Server net message type.
 
-**Send<T>(Action<T>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L72)
+### **Send<T>(Action<T>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L72)
 
 ```csharp
 void Send<T>(Action<T> configureMessage) where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
@@ -72,7 +72,7 @@ void Send<T>(Action<T> configureMessage) where T : ITypedProtobuf<T>, INetMessag
 
 - **T**:  - Net message type.
 
-**Unhook(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L46)
+### **Unhook(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L46)
 
 ```csharp
 void Unhook(Guid guid)
@@ -82,7 +82,7 @@ void Unhook(Guid guid)
 
 - **guid**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The unique Guid for the handler.
 
-**UnhookClientMessage<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L52)
+### **UnhookClientMessage<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L52)
 
 ```csharp
 void UnhookClientMessage<T>() where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
@@ -92,7 +92,7 @@ void UnhookClientMessage<T>() where T : ITypedProtobuf<T>, INetMessage<T>, IDisp
 
 - **T**:  - Client net message type.
 
-**UnhookServerMessage<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L58)
+### **UnhookServerMessage<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/INetMessageService.cs#L58)
 
 ```csharp
 void UnhookServerMessage<T>() where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable

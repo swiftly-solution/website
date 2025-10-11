@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_ClientDeepStats : ITypedProtobuf<CMsgGCCStrike1
 
 ## Properties
 
-**AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats.cs#L13)
+### **AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats.cs#L13)
 
 ```csharp
 uint AccountId { get; set; }
@@ -20,7 +20,7 @@ uint AccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Matches** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats.cs#L19)
+### **Matches** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch> Matches { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_ClientDeepStats_DeepStatsMa
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch](/docs/api/shared/protobufdefinitions/cmsggccstrike15_clientdeepstats_deepstatsmatch)>
 
-**Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats.cs#L16)
+### **Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats.cs#L16)
 
 ```csharp
 CMsgGCCStrike15_ClientDeepStats_DeepStatsRange Range { get; }

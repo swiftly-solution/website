@@ -10,7 +10,7 @@ public interface CAI_ChangeHintGroup : CBaseEntity, CEntityInstance, ISchemaClas
 
 ## Properties
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_ChangeHintGroup.cs#L22)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_ChangeHintGroup.cs#L22)
 
 ```csharp
 ref float Radius { get; }
@@ -20,7 +20,7 @@ ref float Radius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SearchType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_ChangeHintGroup.cs#L16)
+### **SearchType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_ChangeHintGroup.cs#L16)
 
 ```csharp
 ref int SearchType { get; }
@@ -30,7 +30,7 @@ ref int SearchType { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StrNewHintGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_ChangeHintGroup.cs#L20)
+### **StrNewHintGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_ChangeHintGroup.cs#L20)
 
 ```csharp
 string StrNewHintGroup { get; set; }
@@ -40,7 +40,7 @@ string StrNewHintGroup { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StrSearchName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_ChangeHintGroup.cs#L18)
+### **StrSearchName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAI_ChangeHintGroup.cs#L18)
 
 ```csharp
 string StrSearchName { get; set; }

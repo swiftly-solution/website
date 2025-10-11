@@ -10,7 +10,7 @@ public interface CSosGroupActionLimitSchema : CSosGroupActionSchema, ISchemaClas
 
 ## Properties
 
-**CountStopped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L24)
+### **CountStopped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L24)
 
 ```csharp
 ref bool CountStopped { get; }
@@ -20,7 +20,7 @@ ref bool CountStopped { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L16)
+### **MaxCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L16)
 
 ```csharp
 ref int MaxCount { get; }
@@ -30,7 +30,7 @@ ref int MaxCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SortType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L20)
+### **SortType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L20)
 
 ```csharp
 ref SosActionSortType_t SortType { get; }
@@ -40,7 +40,7 @@ ref SosActionSortType_t SortType { get; }
 
 - [SosActionSortType_t](/docs/api/shared/schemadefinitions/sosactionsorttype_t)
 
-**StopImmediate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L22)
+### **StopImmediate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L22)
 
 ```csharp
 ref bool StopImmediate { get; }
@@ -50,7 +50,7 @@ ref bool StopImmediate { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StopType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L18)
+### **StopType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionLimitSchema.cs#L18)
 
 ```csharp
 ref SosActionStopType_t StopType { get; }

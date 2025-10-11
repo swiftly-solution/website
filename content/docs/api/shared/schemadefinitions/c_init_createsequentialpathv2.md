@@ -10,7 +10,7 @@ public interface C_INIT_CreateSequentialPathV2 : CParticleFunctionInitializer, C
 
 ## Properties
 
-**CPPairs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L22)
+### **CPPairs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L22)
 
 ```csharp
 ref bool CPPairs { get; }
@@ -20,7 +20,7 @@ ref bool CPPairs { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L20)
+### **Loop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L20)
 
 ```csharp
 ref bool Loop { get; }
@@ -30,7 +30,7 @@ ref bool Loop { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L16)
+### **MaxDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L16)
 
 ```csharp
 CPerParticleFloatInput MaxDistance { get; }
@@ -40,7 +40,7 @@ CPerParticleFloatInput MaxDistance { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**NumToAssign** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L18)
+### **NumToAssign** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput NumToAssign { get; }
@@ -50,7 +50,7 @@ CParticleCollectionFloatInput NumToAssign { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**PathParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L26)
+### **PathParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L26)
 
 ```csharp
 CPathParameters PathParams { get; }
@@ -60,7 +60,7 @@ CPathParameters PathParams { get; }
 
 - [CPathParameters](/docs/api/shared/schemadefinitions/cpathparameters)
 
-**SaveOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L24)
+### **SaveOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateSequentialPathV2.cs#L24)
 
 ```csharp
 ref bool SaveOffset { get; }

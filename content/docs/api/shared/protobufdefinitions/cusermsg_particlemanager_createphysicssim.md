@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_CreatePhysicsSim : ITypedProtobuf<CUse
 
 ## Properties
 
-**MaxParticleCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L19)
+### **MaxParticleCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L19)
 
 ```csharp
 uint MaxParticleCount { get; set; }
@@ -20,7 +20,7 @@ uint MaxParticleCount { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PropGroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L13)
+### **PropGroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L13)
 
 ```csharp
 string PropGroupName { get; set; }
@@ -30,7 +30,7 @@ string PropGroupName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**UseHighQualitySimulation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L16)
+### **UseHighQualitySimulation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L16)
 
 ```csharp
 bool UseHighQualitySimulation { get; set; }

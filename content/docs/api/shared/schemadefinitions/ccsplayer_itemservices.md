@@ -10,7 +10,7 @@ public interface CCSPlayer_ItemServices : CPlayer_ItemServices, CPlayerPawnCompo
 
 ## Properties
 
-**HasDefuser** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ItemServices.cs#L16)
+### **HasDefuser** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ItemServices.cs#L16)
 
 ```csharp
 ref bool HasDefuser { get; }
@@ -20,7 +20,7 @@ ref bool HasDefuser { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HasHelmet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ItemServices.cs#L18)
+### **HasHelmet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ItemServices.cs#L18)
 
 ```csharp
 ref bool HasHelmet { get; }
@@ -32,13 +32,13 @@ ref bool HasHelmet { get; }
 
 ## Methods
 
-**HasDefuserUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ItemServices.cs#L20)
+### **HasDefuserUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ItemServices.cs#L20)
 
 ```csharp
 void HasDefuserUpdated()
 ```
 
-**HasHelmetUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ItemServices.cs#L21)
+### **HasHelmetUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_ItemServices.cs#L21)
 
 ```csharp
 void HasHelmetUpdated()

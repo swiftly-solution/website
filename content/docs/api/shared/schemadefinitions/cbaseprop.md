@@ -10,7 +10,7 @@ public interface CBaseProp : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEnt
 
 ## Properties
 
-**ConformToCollisionBounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L20)
+### **ConformToCollisionBounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L20)
 
 ```csharp
 ref bool ConformToCollisionBounds { get; }
@@ -20,7 +20,7 @@ ref bool ConformToCollisionBounds { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MPreferredCatchTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L22)
+### **MPreferredCatchTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L22)
 
 ```csharp
 ref CTransform MPreferredCatchTransform { get; }
@@ -30,7 +30,7 @@ ref CTransform MPreferredCatchTransform { get; }
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-**ModelOverrodeBlockLOS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L16)
+### **ModelOverrodeBlockLOS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L16)
 
 ```csharp
 ref bool ModelOverrodeBlockLOS { get; }
@@ -40,7 +40,7 @@ ref bool ModelOverrodeBlockLOS { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ShapeType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L18)
+### **ShapeType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseProp.cs#L18)
 
 ```csharp
 ref int ShapeType { get; }

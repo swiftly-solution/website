@@ -10,7 +10,7 @@ public interface C_OP_RemapDirectionToCPToVector : CParticleFunctionOperator, CP
 
 ## Properties
 
-**CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L16)
+### **CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L16)
 
 ```csharp
 ref int CP { get; }
@@ -20,7 +20,7 @@ ref int CP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L28)
+### **FieldStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L28)
 
 ```csharp
 ParticleAttributeIndex_t FieldStrength { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t FieldStrength { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Normalize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L26)
+### **Normalize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L26)
 
 ```csharp
 ref bool Normalize { get; }
@@ -50,7 +50,7 @@ ref bool Normalize { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OffsetAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L24)
+### **OffsetAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L24)
 
 ```csharp
 ref Vector OffsetAxis { get; }
@@ -60,7 +60,7 @@ ref Vector OffsetAxis { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OffsetRot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L22)
+### **OffsetRot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L22)
 
 ```csharp
 ref float OffsetRot { get; }
@@ -70,7 +70,7 @@ ref float OffsetRot { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L20)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDirectionToCPToVector.cs#L20)
 
 ```csharp
 ref float Scale { get; }

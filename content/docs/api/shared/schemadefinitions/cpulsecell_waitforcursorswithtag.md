@@ -10,7 +10,7 @@ public interface CPulseCell_WaitForCursorsWithTag : CPulseCell_WaitForCursorsWit
 
 ## Properties
 
-**DesiredKillPriority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForCursorsWithTag.cs#L18)
+### **DesiredKillPriority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForCursorsWithTag.cs#L18)
 
 ```csharp
 ref PulseCursorCancelPriority_t DesiredKillPriority { get; }
@@ -20,7 +20,7 @@ ref PulseCursorCancelPriority_t DesiredKillPriority { get; }
 
 - [PulseCursorCancelPriority_t](/docs/api/shared/schemadefinitions/pulsecursorcancelpriority_t)
 
-**TagSelfWhenComplete** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForCursorsWithTag.cs#L16)
+### **TagSelfWhenComplete** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_WaitForCursorsWithTag.cs#L16)
 
 ```csharp
 ref bool TagSelfWhenComplete { get; }

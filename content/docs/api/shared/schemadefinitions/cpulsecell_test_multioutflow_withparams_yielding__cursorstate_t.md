@@ -10,7 +10,7 @@ public interface CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t
 
 ## Properties
 
-**TestStep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t.cs#L16)
+### **TestStep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t.cs#L16)
 
 ```csharp
 ref int TestStep { get; }

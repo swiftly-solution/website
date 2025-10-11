@@ -10,7 +10,7 @@ public interface CMsgGCStorePurchaseFinalize : ITypedProtobuf<CMsgGCStorePurchas
 
 ## Properties
 
-**TxnId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseFinalize.cs#L13)
+### **TxnId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCStorePurchaseFinalize.cs#L13)
 
 ```csharp
 ulong TxnId { get; set; }

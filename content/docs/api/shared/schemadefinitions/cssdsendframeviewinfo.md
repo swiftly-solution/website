@@ -10,7 +10,7 @@ public interface CSSDSEndFrameViewInfo : ISchemaClass<CSSDSEndFrameViewInfo>, IS
 
 ## Properties
 
-**ViewId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSEndFrameViewInfo.cs#L16)
+### **ViewId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSEndFrameViewInfo.cs#L16)
 
 ```csharp
 ref ulong ViewId { get; }
@@ -20,7 +20,7 @@ ref ulong ViewId { get; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ViewName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSEndFrameViewInfo.cs#L18)
+### **ViewName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSEndFrameViewInfo.cs#L18)
 
 ```csharp
 string ViewName { get; set; }

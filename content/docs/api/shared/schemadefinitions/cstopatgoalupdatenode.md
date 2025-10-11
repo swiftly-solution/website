@@ -10,7 +10,7 @@ public interface CStopAtGoalUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 
 ## Properties
 
-**Damping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L24)
+### **Damping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L24)
 
 ```csharp
 CAnimInputDamping Damping { get; }
@@ -20,7 +20,7 @@ CAnimInputDamping Damping { get; }
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
-**InnerRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L18)
+### **InnerRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L18)
 
 ```csharp
 ref float InnerRadius { get; }
@@ -30,7 +30,7 @@ ref float InnerRadius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L20)
+### **MaxScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L20)
 
 ```csharp
 ref float MaxScale { get; }
@@ -40,7 +40,7 @@ ref float MaxScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L22)
+### **MinScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L22)
 
 ```csharp
 ref float MinScale { get; }
@@ -50,7 +50,7 @@ ref float MinScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OuterRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L16)
+### **OuterRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStopAtGoalUpdateNode.cs#L16)
 
 ```csharp
 ref float OuterRadius { get; }

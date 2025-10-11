@@ -10,7 +10,7 @@ public interface CNmFloatAngleMathNode__CDefinition : CNmFloatValueNode__CDefini
 
 ## Properties
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatAngleMathNode__CDefinition.cs#L16)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatAngleMathNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short InputValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Operation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatAngleMathNode__CDefinition.cs#L18)
+### **Operation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatAngleMathNode__CDefinition.cs#L18)
 
 ```csharp
 ref CNmFloatAngleMathNode__Operation_t Operation { get; }

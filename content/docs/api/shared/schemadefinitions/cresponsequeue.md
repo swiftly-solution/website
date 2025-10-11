@@ -10,7 +10,7 @@ public interface CResponseQueue : ISchemaClass<CResponseQueue>, ISchemaField, IS
 
 ## Properties
 
-**ExpresserTargets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CResponseQueue.cs#L16)
+### **ExpresserTargets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CResponseQueue.cs#L16)
 
 ```csharp
 ref CUtlVector<PointerTo<CAI_Expresser>> ExpresserTargets { get; }
@@ -18,5 +18,5 @@ ref CUtlVector<PointerTo<CAI_Expresser>> ExpresserTargets { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CAI_Expresser](/docs/api/shared/schemadefinitions/cai_expresser)>>
+- [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CAI_Expresser](/docs/api/shared/schemadefinitions/cai_expresser)>>
 

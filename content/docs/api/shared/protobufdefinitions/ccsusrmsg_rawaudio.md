@@ -10,7 +10,7 @@ public interface CCSUsrMsg_RawAudio : ITypedProtobuf<CCSUsrMsg_RawAudio>, INativ
 
 ## Properties
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RawAudio.cs#L24)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RawAudio.cs#L24)
 
 ```csharp
 float Duration { get; set; }
@@ -20,7 +20,7 @@ float Duration { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Entidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RawAudio.cs#L21)
+### **Entidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RawAudio.cs#L21)
 
 ```csharp
 int Entidx { get; set; }
@@ -30,7 +30,7 @@ int Entidx { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Pitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RawAudio.cs#L18)
+### **Pitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RawAudio.cs#L18)
 
 ```csharp
 int Pitch { get; set; }
@@ -40,7 +40,7 @@ int Pitch { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**VoiceFilename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RawAudio.cs#L27)
+### **VoiceFilename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RawAudio.cs#L27)
 
 ```csharp
 string VoiceFilename { get; set; }

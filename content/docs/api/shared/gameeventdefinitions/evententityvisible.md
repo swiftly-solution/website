@@ -10,7 +10,7 @@ public interface EventEntityVisible : IGameEvent<EventEntityVisible>
 
 ## Properties
 
-**ClassName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L55)
+### **ClassName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L55)
 
 ```csharp
 string ClassName { get; set; }
@@ -20,7 +20,7 @@ string ClassName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L62)
+### **EntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L62)
 
 ```csharp
 string EntityName { get; set; }
@@ -30,7 +30,7 @@ string EntityName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Subject** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L48)
+### **Subject** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L48)
 
 ```csharp
 int Subject { get; set; }
@@ -40,7 +40,7 @@ int Subject { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L41)
+### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L41)
 
 ```csharp
 int UserId { get; set; }
@@ -50,7 +50,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L23)
+### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L23)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -60,7 +60,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L30)
+### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L30)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -70,7 +70,7 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L34)
+### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEntityVisible.cs#L34)
 
 ```csharp
 IPlayer UserIdPlayer { get; }

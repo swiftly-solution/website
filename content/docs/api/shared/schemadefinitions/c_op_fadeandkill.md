@@ -10,7 +10,7 @@ public interface C_OP_FadeAndKill : CParticleFunctionOperator, CParticleFunction
 
 ## Properties
 
-**EndAlpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L26)
+### **EndAlpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L26)
 
 ```csharp
 ref float EndAlpha { get; }
@@ -20,7 +20,7 @@ ref float EndAlpha { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndFadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L18)
+### **EndFadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L18)
 
 ```csharp
 ref float EndFadeInTime { get; }
@@ -30,7 +30,7 @@ ref float EndFadeInTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndFadeOutTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L22)
+### **EndFadeOutTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L22)
 
 ```csharp
 ref float EndFadeOutTime { get; }
@@ -40,7 +40,7 @@ ref float EndFadeOutTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ForcePreserveParticleOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L28)
+### **ForcePreserveParticleOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L28)
 
 ```csharp
 ref bool ForcePreserveParticleOrder { get; }
@@ -50,7 +50,7 @@ ref bool ForcePreserveParticleOrder { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartAlpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L24)
+### **StartAlpha** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L24)
 
 ```csharp
 ref float StartAlpha { get; }
@@ -60,7 +60,7 @@ ref float StartAlpha { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartFadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L16)
+### **StartFadeInTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L16)
 
 ```csharp
 ref float StartFadeInTime { get; }
@@ -70,7 +70,7 @@ ref float StartFadeInTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartFadeOutTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L20)
+### **StartFadeOutTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_FadeAndKill.cs#L20)
 
 ```csharp
 ref float StartFadeOutTime { get; }

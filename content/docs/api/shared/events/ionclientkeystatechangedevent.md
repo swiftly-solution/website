@@ -8,7 +8,7 @@ public interface IOnClientKeyStateChangedEvent
 
 ## Properties
 
-**Key** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientKeyStateChangedEvent.cs#L16)
+### **Key** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientKeyStateChangedEvent.cs#L16)
 
 ```csharp
 KeyKind Key { get; }
@@ -18,7 +18,7 @@ KeyKind Key { get; }
 
 - [KeyKind](/docs/api/shared/events/keykind)
 
-**PlayerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientKeyStateChangedEvent.cs#L11)
+### **PlayerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientKeyStateChangedEvent.cs#L11)
 
 ```csharp
 int PlayerId { get; }
@@ -28,7 +28,7 @@ int PlayerId { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Pressed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientKeyStateChangedEvent.cs#L21)
+### **Pressed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnClientKeyStateChangedEvent.cs#L21)
 
 ```csharp
 bool Pressed { get; }

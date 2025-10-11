@@ -10,7 +10,7 @@ public interface CMsgRGBA : ITypedProtobuf<CMsgRGBA>, INativeHandle
 
 ## Properties
 
-**A** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRGBA.cs#L22)
+### **A** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRGBA.cs#L22)
 
 ```csharp
 int A { get; set; }
@@ -20,7 +20,7 @@ int A { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**B** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRGBA.cs#L19)
+### **B** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRGBA.cs#L19)
 
 ```csharp
 int B { get; set; }
@@ -30,7 +30,7 @@ int B { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**G** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRGBA.cs#L16)
+### **G** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRGBA.cs#L16)
 
 ```csharp
 int G { get; set; }
@@ -40,7 +40,7 @@ int G { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**R** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRGBA.cs#L13)
+### **R** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRGBA.cs#L13)
 
 ```csharp
 int R { get; set; }

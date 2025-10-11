@@ -10,7 +10,7 @@ public interface CStanceOverrideUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBa
 
 ## Properties
 
-**FootStanceInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L17)
+### **FootStanceInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L17)
 
 ```csharp
 ref CUtlVector FootStanceInfo { get; }
@@ -18,9 +18,9 @@ ref CUtlVector FootStanceInfo { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L23)
+### **Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L23)
 
 ```csharp
 ref StanceOverrideMode Mode { get; }
@@ -30,7 +30,7 @@ ref StanceOverrideMode Mode { get; }
 
 - [StanceOverrideMode](/docs/api/shared/schemadefinitions/stanceoverridemode)
 
-**Parameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L21)
+### **Parameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L21)
 
 ```csharp
 CAnimParamHandle Parameter { get; }
@@ -40,7 +40,7 @@ CAnimParamHandle Parameter { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**StanceSourceNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L19)
+### **StanceSourceNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStanceOverrideUpdateNode.cs#L19)
 
 ```csharp
 CAnimUpdateNodeRef StanceSourceNode { get; }

@@ -10,7 +10,7 @@ public interface CMarkupVolumeTagged_NavGame : CMarkupVolumeWithRef, CMarkupVolu
 
 ## Properties
 
-**FloodFillAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L18)
+### **FloodFillAttribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L18)
 
 ```csharp
 ref bool FloodFillAttribute { get; }
@@ -20,7 +20,7 @@ ref bool FloodFillAttribute { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Scopes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L16)
+### **Scopes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L16)
 
 ```csharp
 ref NavScopeFlags_t Scopes { get; }
@@ -30,7 +30,7 @@ ref NavScopeFlags_t Scopes { get; }
 
 - [NavScopeFlags_t](/docs/api/shared/schemadefinitions/navscopeflags_t)
 
-**SplitNavSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L20)
+### **SplitNavSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_NavGame.cs#L20)
 
 ```csharp
 ref bool SplitNavSpace { get; }

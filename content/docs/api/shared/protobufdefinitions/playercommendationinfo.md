@@ -10,7 +10,7 @@ public interface PlayerCommendationInfo : ITypedProtobuf<PlayerCommendationInfo>
 
 ## Properties
 
-**CmdFriendly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerCommendationInfo.cs#L13)
+### **CmdFriendly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerCommendationInfo.cs#L13)
 
 ```csharp
 uint CmdFriendly { get; set; }
@@ -20,7 +20,7 @@ uint CmdFriendly { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**CmdLeader** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerCommendationInfo.cs#L19)
+### **CmdLeader** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerCommendationInfo.cs#L19)
 
 ```csharp
 uint CmdLeader { get; set; }
@@ -30,7 +30,7 @@ uint CmdLeader { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**CmdTeaching** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerCommendationInfo.cs#L16)
+### **CmdTeaching** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/PlayerCommendationInfo.cs#L16)
 
 ```csharp
 uint CmdTeaching { get; set; }

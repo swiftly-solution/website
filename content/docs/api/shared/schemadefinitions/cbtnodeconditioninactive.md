@@ -10,7 +10,7 @@ public interface CBtNodeConditionInactive : CBtNodeCondition, CBtNodeDecorator, 
 
 ## Properties
 
-**RoundStartThresholdSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtNodeConditionInactive.cs#L16)
+### **RoundStartThresholdSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtNodeConditionInactive.cs#L16)
 
 ```csharp
 ref float RoundStartThresholdSeconds { get; }
@@ -20,7 +20,7 @@ ref float RoundStartThresholdSeconds { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SensorInactivityThresholdSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtNodeConditionInactive.cs#L18)
+### **SensorInactivityThresholdSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtNodeConditionInactive.cs#L18)
 
 ```csharp
 ref float SensorInactivityThresholdSeconds { get; }
@@ -30,7 +30,7 @@ ref float SensorInactivityThresholdSeconds { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SensorInactivityTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtNodeConditionInactive.cs#L20)
+### **SensorInactivityTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtNodeConditionInactive.cs#L20)
 
 ```csharp
 CountdownTimer SensorInactivityTimer { get; }

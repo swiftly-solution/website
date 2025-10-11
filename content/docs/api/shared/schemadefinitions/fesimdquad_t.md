@@ -10,7 +10,7 @@ public interface FeSimdQuad_t : ISchemaClass<FeSimdQuad_t>, ISchemaField, ISchem
 
 ## Properties
 
-**F4Slack** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdQuad_t.cs#L19)
+### **F4Slack** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdQuad_t.cs#L19)
 
 ```csharp
 ref fltx4 F4Slack { get; }
@@ -20,7 +20,7 @@ ref fltx4 F4Slack { get; }
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
-**F4Weights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdQuad_t.cs#L23)
+### **F4Weights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdQuad_t.cs#L23)
 
 ```csharp
 ISchemaFixedArray<fltx4> F4Weights { get; }
@@ -30,7 +30,7 @@ ISchemaFixedArray<fltx4> F4Weights { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[fltx4](/docs/api/shared/natives/fltx4)>
 
-**Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdQuad_t.cs#L17)
+### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdQuad_t.cs#L17)
 
 ```csharp
 SchemaUntypedField Node { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField Node { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Shape** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdQuad_t.cs#L21)
+### **Shape** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeSimdQuad_t.cs#L21)
 
 ```csharp
 ISchemaFixedArray<FourVectors> Shape { get; }

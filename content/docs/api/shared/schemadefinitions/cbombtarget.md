@@ -10,7 +10,7 @@ public interface CBombTarget : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBas
 
 ## Properties
 
-**BombPlantedHere** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L26)
+### **BombPlantedHere** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L26)
 
 ```csharp
 ref bool BombPlantedHere { get; }
@@ -20,7 +20,7 @@ ref bool BombPlantedHere { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**BombSiteDesignation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L32)
+### **BombSiteDesignation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L32)
 
 ```csharp
 ref int BombSiteDesignation { get; }
@@ -30,7 +30,7 @@ ref int BombSiteDesignation { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InstructorHint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L30)
+### **InstructorHint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L30)
 
 ```csharp
 ref CHandle<CBaseEntity> InstructorHint { get; }
@@ -40,7 +40,7 @@ ref CHandle<CBaseEntity> InstructorHint { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**IsBombSiteB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L22)
+### **IsBombSiteB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L22)
 
 ```csharp
 ref bool IsBombSiteB { get; }
@@ -50,7 +50,7 @@ ref bool IsBombSiteB { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsHeistBombTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L24)
+### **IsHeistBombTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L24)
 
 ```csharp
 ref bool IsHeistBombTarget { get; }
@@ -60,7 +60,7 @@ ref bool IsHeistBombTarget { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MountTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L28)
+### **MountTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L28)
 
 ```csharp
 string MountTarget { get; set; }
@@ -70,7 +70,7 @@ string MountTarget { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OnBombDefused** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L20)
+### **OnBombDefused** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L20)
 
 ```csharp
 CEntityIOOutput OnBombDefused { get; }
@@ -80,7 +80,7 @@ CEntityIOOutput OnBombDefused { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnBombExplode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L16)
+### **OnBombExplode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L16)
 
 ```csharp
 CEntityIOOutput OnBombExplode { get; }
@@ -90,7 +90,7 @@ CEntityIOOutput OnBombExplode { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnBombPlanted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L18)
+### **OnBombPlanted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L18)
 
 ```csharp
 CEntityIOOutput OnBombPlanted { get; }
@@ -102,7 +102,7 @@ CEntityIOOutput OnBombPlanted { get; }
 
 ## Methods
 
-**BombPlantedHereUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L34)
+### **BombPlantedHereUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBombTarget.cs#L34)
 
 ```csharp
 void BombPlantedHereUpdated()

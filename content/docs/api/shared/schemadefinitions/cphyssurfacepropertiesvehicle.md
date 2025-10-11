@@ -10,7 +10,7 @@ public interface CPhysSurfacePropertiesVehicle : ISchemaClass<CPhysSurfaceProper
 
 ## Properties
 
-**WheelDrag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesVehicle.cs#L16)
+### **WheelDrag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesVehicle.cs#L16)
 
 ```csharp
 ref float WheelDrag { get; }
@@ -20,7 +20,7 @@ ref float WheelDrag { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WheelFrictionScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesVehicle.cs#L18)
+### **WheelFrictionScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesVehicle.cs#L18)
 
 ```csharp
 ref float WheelFrictionScale { get; }

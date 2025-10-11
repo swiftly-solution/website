@@ -10,7 +10,7 @@ public interface CSVCMsg_UpdateStringTable : ITypedProtobuf<CSVCMsg_UpdateString
 
 ## Properties
 
-**NumChangedEntries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_UpdateStringTable.cs#L21)
+### **NumChangedEntries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_UpdateStringTable.cs#L21)
 
 ```csharp
 int NumChangedEntries { get; set; }
@@ -20,7 +20,7 @@ int NumChangedEntries { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StringData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_UpdateStringTable.cs#L24)
+### **StringData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_UpdateStringTable.cs#L24)
 
 ```csharp
 byte[] StringData { get; set; }
@@ -30,7 +30,7 @@ byte[] StringData { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**TableId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_UpdateStringTable.cs#L18)
+### **TableId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_UpdateStringTable.cs#L18)
 
 ```csharp
 int TableId { get; set; }

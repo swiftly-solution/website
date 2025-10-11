@@ -10,7 +10,7 @@ public interface CUserMessageRequestInventory : ITypedProtobuf<CUserMessageReque
 
 ## Properties
 
-**Inventory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestInventory.cs#L18)
+### **Inventory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestInventory.cs#L18)
 
 ```csharp
 int Inventory { get; set; }
@@ -20,7 +20,7 @@ int Inventory { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestInventory.cs#L21)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestInventory.cs#L21)
 
 ```csharp
 int Offset { get; set; }
@@ -30,7 +30,7 @@ int Offset { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Options** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestInventory.cs#L24)
+### **Options** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestInventory.cs#L24)
 
 ```csharp
 int Options { get; set; }

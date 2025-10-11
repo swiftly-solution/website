@@ -10,7 +10,7 @@ public interface CMsgSOCacheSubscriptionCheck : ITypedProtobuf<CMsgSOCacheSubscr
 
 ## Properties
 
-**OwnerSoid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscriptionCheck.cs#L16)
+### **OwnerSoid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscriptionCheck.cs#L16)
 
 ```csharp
 CMsgSOIDOwner OwnerSoid { get; }
@@ -20,7 +20,7 @@ CMsgSOIDOwner OwnerSoid { get; }
 
 - [CMsgSOIDOwner](/docs/api/shared/protobufdefinitions/cmsgsoidowner)
 
-**Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscriptionCheck.cs#L13)
+### **Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscriptionCheck.cs#L13)
 
 ```csharp
 ulong Version { get; set; }

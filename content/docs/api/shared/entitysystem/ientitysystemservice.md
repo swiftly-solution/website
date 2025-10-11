@@ -8,7 +8,7 @@ public interface IEntitySystemService
 
 ## Methods
 
-**CreateEntity<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L17)
+### **CreateEntity<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L17)
 
 ```csharp
 T CreateEntity<T>() where T : class, ISchemaClass<T>
@@ -26,7 +26,7 @@ T CreateEntity<T>() where T : class, ISchemaClass<T>
 
 - [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception) - Thrown when failed to create entity by class or class doesn't have a designer name.
 
-**CreateEntityByDesignerName<T>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L26)
+### **CreateEntityByDesignerName<T>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L26)
 
 ```csharp
 T CreateEntityByDesignerName<T>(string designerName) where T : ISchemaClass<T>
@@ -48,7 +48,7 @@ T CreateEntityByDesignerName<T>(string designerName) where T : ISchemaClass<T>
 
 - [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception) - Thrown when failed to create entity by designer name or designer name is invalid.
 
-**GetAllEntities()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L46)
+### **GetAllEntities()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L46)
 
 ```csharp
 IEnumerable<CEntityInstance> GetAllEntities()
@@ -58,7 +58,7 @@ IEnumerable<CEntityInstance> GetAllEntities()
 
 - [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)> - All entities.
 
-**GetAllEntitiesByClass<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L53)
+### **GetAllEntitiesByClass<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L53)
 
 ```csharp
 IEnumerable<T> GetAllEntitiesByClass<T>() where T : class, ISchemaClass<T>
@@ -72,7 +72,7 @@ IEnumerable<T> GetAllEntitiesByClass<T>() where T : class, ISchemaClass<T>
 
 - **T**:  - Entity type.
 
-**GetAllEntitiesByDesignerName<T>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L61)
+### **GetAllEntitiesByDesignerName<T>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L61)
 
 ```csharp
 IEnumerable<T> GetAllEntitiesByDesignerName<T>(string designerName) where T : class, ISchemaClass<T>
@@ -90,7 +90,7 @@ IEnumerable<T> GetAllEntitiesByDesignerName<T>(string designerName) where T : cl
 
 - **T**:  - Entity type.
 
-**GetEntityByIndex<T>(uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L69)
+### **GetEntityByIndex<T>(uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L69)
 
 ```csharp
 T? GetEntityByIndex<T>(uint index) where T : class, ISchemaClass<T>
@@ -108,7 +108,7 @@ T? GetEntityByIndex<T>(uint index) where T : class, ISchemaClass<T>
 
 - **T**:  - Entity type.
 
-**GetGameRules()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L40)
+### **GetGameRules()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L40)
 
 ```csharp
 CCSGameRules? GetGameRules()
@@ -118,7 +118,7 @@ CCSGameRules? GetGameRules()
 
 - [CCSGameRules](/docs/api/shared/schemadefinitions/ccsgamerules)? - Game rules entity. Nullable.
 
-**GetRefEHandle<T>(T)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L34)
+### **GetRefEHandle<T>(T)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L34)
 
 ```csharp
 CHandle<T> GetRefEHandle<T>(T entity) where T : class, ISchemaClass<T>
@@ -136,7 +136,7 @@ CHandle<T> GetRefEHandle<T>(T entity) where T : class, ISchemaClass<T>
 
 - **T**:  - Entity type.
 
-**HookEntityOutput<T>(string, EntityOutputHandler)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L93)
+### **HookEntityOutput<T>(string, EntityOutputHandler)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L93)
 
 ```csharp
 Guid HookEntityOutput<T>(string outputName, IEntitySystemService.EntityOutputHandler callback) where T : class, ISchemaClass<T>
@@ -157,7 +157,7 @@ Guid HookEntityOutput<T>(string outputName, IEntitySystemService.EntityOutputHan
 
 #### Remarks
 
-**UnhookEntityOutput(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L99)
+### **UnhookEntityOutput(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/IEntitySystem.cs#L99)
 
 ```csharp
 void UnhookEntityOutput(Guid guid)

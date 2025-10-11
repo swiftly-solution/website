@@ -10,7 +10,7 @@ public interface EventBonusUpdated : IGameEvent<EventBonusUpdated>
 
 ## Properties
 
-**NumAdvanced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBonusUpdated.cs#L21)
+### **NumAdvanced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBonusUpdated.cs#L21)
 
 ```csharp
 short NumAdvanced { get; set; }
@@ -20,7 +20,7 @@ short NumAdvanced { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**NumBronze** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBonusUpdated.cs#L26)
+### **NumBronze** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBonusUpdated.cs#L26)
 
 ```csharp
 short NumBronze { get; set; }
@@ -30,7 +30,7 @@ short NumBronze { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**NumGold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBonusUpdated.cs#L36)
+### **NumGold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBonusUpdated.cs#L36)
 
 ```csharp
 short NumGold { get; set; }
@@ -40,7 +40,7 @@ short NumGold { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**NumSilver** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBonusUpdated.cs#L31)
+### **NumSilver** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBonusUpdated.cs#L31)
 
 ```csharp
 short NumSilver { get; set; }

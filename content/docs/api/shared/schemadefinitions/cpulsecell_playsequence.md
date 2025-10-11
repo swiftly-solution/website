@@ -10,7 +10,7 @@ public interface CPulseCell_PlaySequence : CPulseCell_BaseYieldingInflow, CPulse
 
 ## Properties
 
-**OnCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L22)
+### **OnCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L22)
 
 ```csharp
 CPulse_ResumePoint OnCanceled { get; }
@@ -20,7 +20,7 @@ CPulse_ResumePoint OnCanceled { get; }
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
-**OnFinished** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L20)
+### **OnFinished** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L20)
 
 ```csharp
 CPulse_ResumePoint OnFinished { get; }
@@ -30,7 +30,7 @@ CPulse_ResumePoint OnFinished { get; }
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
-**PulseAnimEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L18)
+### **PulseAnimEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L18)
 
 ```csharp
 PulseNodeDynamicOutflows_t PulseAnimEvents { get; }
@@ -40,7 +40,7 @@ PulseNodeDynamicOutflows_t PulseAnimEvents { get; }
 
 - [PulseNodeDynamicOutflows_t](/docs/api/shared/schemadefinitions/pulsenodedynamicoutflows_t)
 
-**SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L16)
+### **SequenceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PlaySequence.cs#L16)
 
 ```csharp
 string SequenceName { get; set; }

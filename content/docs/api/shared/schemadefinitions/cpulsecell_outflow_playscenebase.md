@@ -10,7 +10,7 @@ public interface CPulseCell_Outflow_PlaySceneBase : CPulseCell_BaseYieldingInflo
 
 ## Properties
 
-**OnCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySceneBase.cs#L18)
+### **OnCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySceneBase.cs#L18)
 
 ```csharp
 CPulse_ResumePoint OnCanceled { get; }
@@ -20,7 +20,7 @@ CPulse_ResumePoint OnCanceled { get; }
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
-**OnFinished** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySceneBase.cs#L16)
+### **OnFinished** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySceneBase.cs#L16)
 
 ```csharp
 CPulse_ResumePoint OnFinished { get; }
@@ -30,7 +30,7 @@ CPulse_ResumePoint OnFinished { get; }
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
-**Triggers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySceneBase.cs#L21)
+### **Triggers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_PlaySceneBase.cs#L21)
 
 ```csharp
 ref CUtlVector Triggers { get; }
@@ -38,5 +38,5 @@ ref CUtlVector Triggers { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

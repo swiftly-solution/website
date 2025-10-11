@@ -10,7 +10,7 @@ public interface CNmVectorInfoNode__CDefinition : CNmFloatValueNode__CDefinition
 
 ## Properties
 
-**DesiredInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorInfoNode__CDefinition.cs#L18)
+### **DesiredInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorInfoNode__CDefinition.cs#L18)
 
 ```csharp
 ref CNmVectorInfoNode__Info_t DesiredInfo { get; }
@@ -20,7 +20,7 @@ ref CNmVectorInfoNode__Info_t DesiredInfo { get; }
 
 - [CNmVectorInfoNode__Info_t](/docs/api/shared/schemadefinitions/cnmvectorinfonode__info_t)
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorInfoNode__CDefinition.cs#L16)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmVectorInfoNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputValueNodeIdx { get; }

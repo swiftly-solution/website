@@ -10,7 +10,7 @@ public interface CCPPScriptComponentUpdater : CAnimComponentUpdater, ISchemaClas
 
 ## Properties
 
-**ScriptsToRun** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCPPScriptComponentUpdater.cs#L16)
+### **ScriptsToRun** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCPPScriptComponentUpdater.cs#L16)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> ScriptsToRun { get; }
@@ -18,5 +18,5 @@ ref CUtlVector<CGlobalSymbol> ScriptsToRun { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
+- [CUtlVector](/docs/api/-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
 

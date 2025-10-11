@@ -10,7 +10,7 @@ public interface C_OP_ConnectParentParticleToNearest : CParticleFunctionOperator
 
 ## Properties
 
-**FirstControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L16)
+### **FirstControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L16)
 
 ```csharp
 ref int FirstControlPoint { get; }
@@ -20,7 +20,7 @@ ref int FirstControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ParentRadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L24)
+### **ParentRadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput ParentRadiusScale { get; }
@@ -30,7 +30,7 @@ CParticleCollectionFloatInput ParentRadiusScale { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L22)
+### **RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput RadiusScale { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput RadiusScale { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**SecondControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L18)
+### **SecondControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L18)
 
 ```csharp
 ref int SecondControlPoint { get; }
@@ -50,7 +50,7 @@ ref int SecondControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UseRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L20)
+### **UseRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConnectParentParticleToNearest.cs#L20)
 
 ```csharp
 ref bool UseRadius { get; }

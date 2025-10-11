@@ -10,7 +10,7 @@ public interface FeProxyVertexMap_t : ISchemaClass<FeProxyVertexMap_t>, ISchemaF
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeProxyVertexMap_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeProxyVertexMap_t.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -20,7 +20,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeProxyVertexMap_t.cs#L18)
+### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeProxyVertexMap_t.cs#L18)
 
 ```csharp
 ref float Weight { get; }

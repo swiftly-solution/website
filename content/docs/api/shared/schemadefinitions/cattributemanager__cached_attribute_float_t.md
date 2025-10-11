@@ -10,7 +10,7 @@ public interface CAttributeManager__cached_attribute_float_t : ISchemaClass<CAtt
 
 ## Properties
 
-**AttribHook** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager__cached_attribute_float_t.cs#L18)
+### **AttribHook** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager__cached_attribute_float_t.cs#L18)
 
 ```csharp
 string AttribHook { get; set; }
@@ -20,7 +20,7 @@ string AttribHook { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**In** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager__cached_attribute_float_t.cs#L16)
+### **In** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager__cached_attribute_float_t.cs#L16)
 
 ```csharp
 ref float In { get; }
@@ -30,7 +30,7 @@ ref float In { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Out** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager__cached_attribute_float_t.cs#L20)
+### **Out** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeManager__cached_attribute_float_t.cs#L20)
 
 ```csharp
 ref float Out { get; }

@@ -10,7 +10,7 @@ public interface CLogicGameEventListener : CLogicalEntity, CServerOnlyEntity, CB
 
 ## Properties
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L22)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L22)
 
 ```csharp
 ref bool Enabled { get; }
@@ -20,7 +20,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**GameEventItem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L20)
+### **GameEventItem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L20)
 
 ```csharp
 string GameEventItem { get; set; }
@@ -30,7 +30,7 @@ string GameEventItem { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**GameEventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L18)
+### **GameEventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L18)
 
 ```csharp
 string GameEventName { get; set; }
@@ -40,7 +40,7 @@ string GameEventName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OnEventFired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L16)
+### **OnEventFired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L16)
 
 ```csharp
 CEntityIOOutput OnEventFired { get; }
@@ -50,7 +50,7 @@ CEntityIOOutput OnEventFired { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**StartDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L24)
+### **StartDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L24)
 
 ```csharp
 ref bool StartDisabled { get; }
@@ -62,7 +62,7 @@ ref bool StartDisabled { get; }
 
 ## Methods
 
-**EnabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L26)
+### **EnabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicGameEventListener.cs#L26)
 
 ```csharp
 void EnabledUpdated()

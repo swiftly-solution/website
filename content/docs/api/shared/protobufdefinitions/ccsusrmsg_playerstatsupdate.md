@@ -10,7 +10,7 @@ public interface CCSUsrMsg_PlayerStatsUpdate : ITypedProtobuf<CCSUsrMsg_PlayerSt
 
 ## Properties
 
-**Crc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate.cs#L27)
+### **Crc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate.cs#L27)
 
 ```csharp
 int Crc { get; set; }
@@ -20,7 +20,7 @@ int Crc { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Ehandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate.cs#L24)
+### **Ehandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate.cs#L24)
 
 ```csharp
 uint Ehandle { get; set; }
@@ -30,7 +30,7 @@ uint Ehandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Stats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate.cs#L21)
+### **Stats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate.cs#L21)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_PlayerStatsUpdate_Stat> Stats { get; }
@@ -40,7 +40,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_PlayerStatsUpdate_Stat> Stats { g
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_PlayerStatsUpdate_Stat](/docs/api/shared/protobufdefinitions/ccsusrmsg_playerstatsupdate_stat)>
 
-**Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate.cs#L18)
+### **Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_PlayerStatsUpdate.cs#L18)
 
 ```csharp
 int Version { get; set; }

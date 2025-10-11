@@ -10,7 +10,7 @@ public interface CInfoDynamicShadowHintBox : CInfoDynamicShadowHint, CPointEntit
 
 ## Properties
 
-**BoxMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHintBox.cs#L18)
+### **BoxMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHintBox.cs#L18)
 
 ```csharp
 ref Vector BoxMaxs { get; }
@@ -20,7 +20,7 @@ ref Vector BoxMaxs { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**BoxMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHintBox.cs#L16)
+### **BoxMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CInfoDynamicShadowHintBox.cs#L16)
 
 ```csharp
 ref Vector BoxMins { get; }

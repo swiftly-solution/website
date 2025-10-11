@@ -10,7 +10,7 @@ public interface SkeletonAnimCapture_t__Camera_t : ISchemaClass<SkeletonAnimCapt
 
 ## Properties
 
-**Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Camera_t.cs#L18)
+### **Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Camera_t.cs#L18)
 
 ```csharp
 ref float Time { get; }
@@ -20,7 +20,7 @@ ref float Time { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TmCamera** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Camera_t.cs#L16)
+### **TmCamera** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Camera_t.cs#L16)
 
 ```csharp
 ref CTransform TmCamera { get; }

@@ -10,7 +10,7 @@ public interface CFuncBrush : CBaseModelEntity, CBaseEntity, CEntityInstance, IS
 
 ## Properties
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L18)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L18)
 
 ```csharp
 ref int Disabled { get; }
@@ -20,7 +20,7 @@ ref int Disabled { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ExcludedClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L22)
+### **ExcludedClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L22)
 
 ```csharp
 string ExcludedClass { get; set; }
@@ -30,7 +30,7 @@ string ExcludedClass { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**InvertExclusion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L24)
+### **InvertExclusion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L24)
 
 ```csharp
 ref bool InvertExclusion { get; }
@@ -40,7 +40,7 @@ ref bool InvertExclusion { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ScriptedMovement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L26)
+### **ScriptedMovement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L26)
 
 ```csharp
 ref bool ScriptedMovement { get; }
@@ -50,7 +50,7 @@ ref bool ScriptedMovement { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SolidBsp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L20)
+### **SolidBsp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L20)
 
 ```csharp
 ref bool SolidBsp { get; }
@@ -60,7 +60,7 @@ ref bool SolidBsp { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Solidity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L16)
+### **Solidity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncBrush.cs#L16)
 
 ```csharp
 ref BrushSolidities_e Solidity { get; }

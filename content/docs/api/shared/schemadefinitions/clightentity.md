@@ -10,7 +10,7 @@ public interface CLightEntity : CBaseModelEntity, CBaseEntity, CEntityInstance, 
 
 ## Properties
 
-**CLightComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightEntity.cs#L16)
+### **CLightComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightEntity.cs#L16)
 
 ```csharp
 CLightComponent? CLightComponent { get; }
@@ -22,7 +22,7 @@ CLightComponent? CLightComponent { get; }
 
 ## Methods
 
-**CLightComponentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightEntity.cs#L18)
+### **CLightComponentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLightEntity.cs#L18)
 
 ```csharp
 void CLightComponentUpdated()

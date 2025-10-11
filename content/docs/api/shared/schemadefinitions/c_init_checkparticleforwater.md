@@ -10,7 +10,7 @@ public interface C_INIT_CheckParticleForWater : CParticleFunctionInitializer, CP
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CheckParticleForWater.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CheckParticleForWater.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**OutputRemap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CheckParticleForWater.cs#L20)
+### **OutputRemap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CheckParticleForWater.cs#L20)
 
 ```csharp
 CParticleRemapFloatInput OutputRemap { get; }
@@ -30,7 +30,7 @@ CParticleRemapFloatInput OutputRemap { get; }
 
 - [CParticleRemapFloatInput](/docs/api/shared/schemadefinitions/cparticleremapfloatinput)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CheckParticleForWater.cs#L16)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CheckParticleForWater.cs#L16)
 
 ```csharp
 CPerParticleFloatInput Radius { get; }
@@ -40,7 +40,7 @@ CPerParticleFloatInput Radius { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CheckParticleForWater.cs#L22)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CheckParticleForWater.cs#L22)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

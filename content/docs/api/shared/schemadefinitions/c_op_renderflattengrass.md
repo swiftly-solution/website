@@ -10,7 +10,7 @@ public interface C_OP_RenderFlattenGrass : CParticleFunctionRenderer, CParticleF
 
 ## Properties
 
-**FlattenStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderFlattenGrass.cs#L16)
+### **FlattenStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderFlattenGrass.cs#L16)
 
 ```csharp
 ref float FlattenStrength { get; }
@@ -20,7 +20,7 @@ ref float FlattenStrength { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderFlattenGrass.cs#L20)
+### **RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderFlattenGrass.cs#L20)
 
 ```csharp
 ref float RadiusScale { get; }
@@ -30,7 +30,7 @@ ref float RadiusScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StrengthFieldOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderFlattenGrass.cs#L18)
+### **StrengthFieldOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderFlattenGrass.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t StrengthFieldOverride { get; }

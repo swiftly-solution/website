@@ -10,7 +10,7 @@ public interface EventHltvStatus : IGameEvent<EventHltvStatus>
 
 ## Properties
 
-**Clients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvStatus.cs#L24)
+### **Clients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvStatus.cs#L24)
 
 ```csharp
 int Clients { get; set; }
@@ -20,7 +20,7 @@ int Clients { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Master** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvStatus.cs#L45)
+### **Master** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvStatus.cs#L45)
 
 ```csharp
 string Master { get; set; }
@@ -30,7 +30,7 @@ string Master { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Proxies** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvStatus.cs#L38)
+### **Proxies** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvStatus.cs#L38)
 
 ```csharp
 short Proxies { get; set; }
@@ -40,7 +40,7 @@ short Proxies { get; set; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Slots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvStatus.cs#L31)
+### **Slots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventHltvStatus.cs#L31)
 
 ```csharp
 int Slots { get; set; }

@@ -10,7 +10,7 @@ public interface CEconItemView : IEconItemInterface, ISchemaClass<IEconItemInter
 
 ## Properties
 
-**AccountID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L28)
+### **AccountID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L28)
 
 ```csharp
 ref uint AccountID { get; }
@@ -20,7 +20,7 @@ ref uint AccountID { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**AttributeList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L34)
+### **AttributeList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L34)
 
 ```csharp
 CAttributeList AttributeList { get; }
@@ -30,7 +30,7 @@ CAttributeList AttributeList { get; }
 
 - [CAttributeList](/docs/api/shared/schemadefinitions/cattributelist)
 
-**CustomName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L38)
+### **CustomName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L38)
 
 ```csharp
 string CustomName { get; set; }
@@ -40,7 +40,7 @@ string CustomName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**CustomNameOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L40)
+### **CustomNameOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L40)
 
 ```csharp
 string CustomNameOverride { get; set; }
@@ -50,7 +50,7 @@ string CustomNameOverride { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EntityLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L20)
+### **EntityLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L20)
 
 ```csharp
 ref uint EntityLevel { get; }
@@ -60,7 +60,7 @@ ref uint EntityLevel { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**EntityQuality** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L18)
+### **EntityQuality** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L18)
 
 ```csharp
 ref int EntityQuality { get; }
@@ -70,7 +70,7 @@ ref int EntityQuality { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Initialized** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L32)
+### **Initialized** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L32)
 
 ```csharp
 ref bool Initialized { get; }
@@ -80,7 +80,7 @@ ref bool Initialized { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InventoryPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L30)
+### **InventoryPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L30)
 
 ```csharp
 ref uint InventoryPosition { get; }
@@ -90,7 +90,7 @@ ref uint InventoryPosition { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemDefinitionIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L16)
+### **ItemDefinitionIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L16)
 
 ```csharp
 ref ushort ItemDefinitionIndex { get; }
@@ -100,7 +100,7 @@ ref ushort ItemDefinitionIndex { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**ItemID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L22)
+### **ItemID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L22)
 
 ```csharp
 ref ulong ItemID { get; }
@@ -110,7 +110,7 @@ ref ulong ItemID { get; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ItemIDHigh** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L24)
+### **ItemIDHigh** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L24)
 
 ```csharp
 ref uint ItemIDHigh { get; }
@@ -120,7 +120,7 @@ ref uint ItemIDHigh { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemIDLow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L26)
+### **ItemIDLow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L26)
 
 ```csharp
 ref uint ItemIDLow { get; }
@@ -130,7 +130,7 @@ ref uint ItemIDLow { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**NetworkedDynamicAttributes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L36)
+### **NetworkedDynamicAttributes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L36)
 
 ```csharp
 CAttributeList NetworkedDynamicAttributes { get; }
@@ -142,67 +142,67 @@ CAttributeList NetworkedDynamicAttributes { get; }
 
 ## Methods
 
-**AccountIDUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L47)
+### **AccountIDUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L47)
 
 ```csharp
 void AccountIDUpdated()
 ```
 
-**AttributeListUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L50)
+### **AttributeListUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L50)
 
 ```csharp
 void AttributeListUpdated()
 ```
 
-**CustomNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L52)
+### **CustomNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L52)
 
 ```csharp
 void CustomNameUpdated()
 ```
 
-**EntityLevelUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L44)
+### **EntityLevelUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L44)
 
 ```csharp
 void EntityLevelUpdated()
 ```
 
-**EntityQualityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L43)
+### **EntityQualityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L43)
 
 ```csharp
 void EntityQualityUpdated()
 ```
 
-**InitializedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L49)
+### **InitializedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L49)
 
 ```csharp
 void InitializedUpdated()
 ```
 
-**InventoryPositionUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L48)
+### **InventoryPositionUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L48)
 
 ```csharp
 void InventoryPositionUpdated()
 ```
 
-**ItemDefinitionIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L42)
+### **ItemDefinitionIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L42)
 
 ```csharp
 void ItemDefinitionIndexUpdated()
 ```
 
-**ItemIDHighUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L45)
+### **ItemIDHighUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L45)
 
 ```csharp
 void ItemIDHighUpdated()
 ```
 
-**ItemIDLowUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L46)
+### **ItemIDLowUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L46)
 
 ```csharp
 void ItemIDLowUpdated()
 ```
 
-**NetworkedDynamicAttributesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L51)
+### **NetworkedDynamicAttributesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEconItemView.cs#L51)
 
 ```csharp
 void NetworkedDynamicAttributesUpdated()

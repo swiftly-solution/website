@@ -10,7 +10,7 @@ public interface CNmLegacyEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass
 
 ## Properties
 
-**AnimEventClassName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLegacyEvent.cs#L16)
+### **AnimEventClassName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLegacyEvent.cs#L16)
 
 ```csharp
 string AnimEventClassName { get; set; }
@@ -20,7 +20,7 @@ string AnimEventClassName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**KV** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLegacyEvent.cs#L19)
+### **KV** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLegacyEvent.cs#L19)
 
 ```csharp
 SchemaUntypedField KV { get; }

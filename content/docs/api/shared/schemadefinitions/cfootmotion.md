@@ -10,7 +10,7 @@ public interface CFootMotion : ISchemaClass<CFootMotion>, ISchemaField, ISchemaC
 
 ## Properties
 
-**Additive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootMotion.cs#L21)
+### **Additive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootMotion.cs#L21)
 
 ```csharp
 ref bool Additive { get; }
@@ -20,7 +20,7 @@ ref bool Additive { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootMotion.cs#L19)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootMotion.cs#L19)
 
 ```csharp
 string Name { get; set; }
@@ -30,7 +30,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Strides** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootMotion.cs#L17)
+### **Strides** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootMotion.cs#L17)
 
 ```csharp
 ref CUtlVector Strides { get; }
@@ -38,5 +38,5 @@ ref CUtlVector Strides { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

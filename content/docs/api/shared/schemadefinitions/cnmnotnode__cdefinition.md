@@ -10,7 +10,7 @@ public interface CNmNotNode__CDefinition : CNmBoolValueNode__CDefinition, CNmVal
 
 ## Properties
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmNotNode__CDefinition.cs#L16)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmNotNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputValueNodeIdx { get; }

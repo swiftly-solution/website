@@ -10,7 +10,7 @@ public interface CCLCMsg_SplitPlayerDisconnect : ITypedProtobuf<CCLCMsg_SplitPla
 
 ## Properties
 
-**Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_SplitPlayerDisconnect.cs#L18)
+### **Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_SplitPlayerDisconnect.cs#L18)
 
 ```csharp
 int Slot { get; set; }

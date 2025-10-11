@@ -10,7 +10,7 @@ public interface CLogicDistanceAutosave : CLogicalEntity, CServerOnlyEntity, CBa
 
 ## Properties
 
-**CheckCough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L22)
+### **CheckCough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L22)
 
 ```csharp
 ref bool CheckCough { get; }
@@ -20,7 +20,7 @@ ref bool CheckCough { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DangerousTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L26)
+### **DangerousTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L26)
 
 ```csharp
 ref float DangerousTime { get; }
@@ -30,7 +30,7 @@ ref float DangerousTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DistanceToPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L18)
+### **DistanceToPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L18)
 
 ```csharp
 ref float DistanceToPlayer { get; }
@@ -40,7 +40,7 @@ ref float DistanceToPlayer { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ForceNewLevelUnit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L20)
+### **ForceNewLevelUnit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L20)
 
 ```csharp
 ref bool ForceNewLevelUnit { get; }
@@ -50,7 +50,7 @@ ref bool ForceNewLevelUnit { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L16)
+### **TargetEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L16)
 
 ```csharp
 string TargetEntity { get; set; }
@@ -60,7 +60,7 @@ string TargetEntity { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ThinkDangerous** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L24)
+### **ThinkDangerous** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicDistanceAutosave.cs#L24)
 
 ```csharp
 ref bool ThinkDangerous { get; }

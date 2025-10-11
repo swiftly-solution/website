@@ -10,7 +10,7 @@ public interface CPulseCell_Inflow_EntOutputHandler : CPulseCell_Inflow_BaseEntr
 
 ## Properties
 
-**ExpectedParamType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_EntOutputHandler.cs#L23)
+### **ExpectedParamType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_EntOutputHandler.cs#L23)
 
 ```csharp
 SchemaUntypedField ExpectedParamType { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField ExpectedParamType { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**SourceEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_EntOutputHandler.cs#L17)
+### **SourceEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_EntOutputHandler.cs#L17)
 
 ```csharp
 SchemaUntypedField SourceEntity { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField SourceEntity { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**SourceOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_EntOutputHandler.cs#L20)
+### **SourceOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_EntOutputHandler.cs#L20)
 
 ```csharp
 SchemaUntypedField SourceOutput { get; }

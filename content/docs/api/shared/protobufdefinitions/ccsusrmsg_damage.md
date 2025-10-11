@@ -10,7 +10,7 @@ public interface CCSUsrMsg_Damage : ITypedProtobuf<CCSUsrMsg_Damage>, INativeHan
 
 ## Properties
 
-**Amount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Damage.cs#L18)
+### **Amount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Damage.cs#L18)
 
 ```csharp
 int Amount { get; set; }
@@ -20,7 +20,7 @@ int Amount { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InflictorWorldPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Damage.cs#L21)
+### **InflictorWorldPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Damage.cs#L21)
 
 ```csharp
 Vector InflictorWorldPos { get; set; }
@@ -30,7 +30,7 @@ Vector InflictorWorldPos { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**VictimEntindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Damage.cs#L24)
+### **VictimEntindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Damage.cs#L24)
 
 ```csharp
 int VictimEntindex { get; set; }

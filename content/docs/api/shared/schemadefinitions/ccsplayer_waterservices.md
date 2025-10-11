@@ -10,7 +10,7 @@ public interface CCSPlayer_WaterServices : CPlayer_WaterServices, CPlayerPawnCom
 
 ## Properties
 
-**AirFinishedTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L20)
+### **AirFinishedTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L20)
 
 ```csharp
 GameTime_t AirFinishedTime { get; }
@@ -20,7 +20,7 @@ GameTime_t AirFinishedTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**DrownDmgRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L18)
+### **DrownDmgRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L18)
 
 ```csharp
 ref int DrownDmgRate { get; }
@@ -30,7 +30,7 @@ ref int DrownDmgRate { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**NextDrownDamageTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L16)
+### **NextDrownDamageTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L16)
 
 ```csharp
 GameTime_t NextDrownDamageTime { get; }
@@ -40,7 +40,7 @@ GameTime_t NextDrownDamageTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**SwimSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L26)
+### **SwimSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L26)
 
 ```csharp
 ref float SwimSoundTime { get; }
@@ -50,7 +50,7 @@ ref float SwimSoundTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WaterJumpTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L22)
+### **WaterJumpTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L22)
 
 ```csharp
 ref float WaterJumpTime { get; }
@@ -60,7 +60,7 @@ ref float WaterJumpTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WaterJumpVel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L24)
+### **WaterJumpVel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_WaterServices.cs#L24)
 
 ```csharp
 ref Vector WaterJumpVel { get; }

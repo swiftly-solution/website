@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate : ITypedProtobuf<
 
 ## Properties
 
-**Error** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L19)
+### **Error** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L19)
 
 ```csharp
 string Error { get; set; }
@@ -20,7 +20,7 @@ string Error { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**FailpingAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L28)
+### **FailpingAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L28)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> FailpingAccountIdSessions { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldValueType<uint> FailpingAccountIdSessions { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**FailreadyAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L34)
+### **FailreadyAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L34)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> FailreadyAccountIdSessions { get; }
@@ -40,7 +40,7 @@ IProtobufRepeatedFieldValueType<uint> FailreadyAccountIdSessions { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**GlobalStats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L25)
+### **GlobalStats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L25)
 
 ```csharp
 GlobalStatistics GlobalStats { get; }
@@ -50,7 +50,7 @@ GlobalStatistics GlobalStats { get; }
 
 - [GlobalStatistics](/docs/api/shared/protobufdefinitions/globalstatistics)
 
-**InsecureAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L58)
+### **InsecureAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L58)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> InsecureAccountIdSessions { get; }
@@ -60,7 +60,7 @@ IProtobufRepeatedFieldValueType<uint> InsecureAccountIdSessions { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**InsufficientlevelSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L49)
+### **InsufficientlevelSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L49)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> InsufficientlevelSessions { get; }
@@ -70,7 +70,7 @@ IProtobufRepeatedFieldValueType<uint> InsufficientlevelSessions { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**LauncherMismatchSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L55)
+### **LauncherMismatchSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L55)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> LauncherMismatchSessions { get; }
@@ -80,7 +80,7 @@ IProtobufRepeatedFieldValueType<uint> LauncherMismatchSessions { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**Matchmaking** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L13)
+### **Matchmaking** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L13)
 
 ```csharp
 int Matchmaking { get; set; }
@@ -90,7 +90,7 @@ int Matchmaking { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Notes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L43)
+### **Notes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L43)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note> Notes { get; }
@@ -100,7 +100,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpda
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2clientupdate_note)>
 
-**OngoingmatchAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L22)
+### **OngoingmatchAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L22)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> OngoingmatchAccountIdSessions { get; }
@@ -110,7 +110,7 @@ IProtobufRepeatedFieldValueType<uint> OngoingmatchAccountIdSessions { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**PenaltyAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L31)
+### **PenaltyAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L31)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> PenaltyAccountIdSessions { get; }
@@ -120,7 +120,7 @@ IProtobufRepeatedFieldValueType<uint> PenaltyAccountIdSessions { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**PenaltyAccountIdSessionsGreen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L46)
+### **PenaltyAccountIdSessionsGreen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L46)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> PenaltyAccountIdSessionsGreen { get; }
@@ -130,7 +130,7 @@ IProtobufRepeatedFieldValueType<uint> PenaltyAccountIdSessionsGreen { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**ServerIpaddressMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L40)
+### **ServerIpaddressMask** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L40)
 
 ```csharp
 IpAddressMask ServerIpaddressMask { get; }
@@ -140,7 +140,7 @@ IpAddressMask ServerIpaddressMask { get; }
 
 - [IpAddressMask](/docs/api/shared/protobufdefinitions/ipaddressmask)
 
-**VacbannedAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L37)
+### **VacbannedAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L37)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> VacbannedAccountIdSessions { get; }
@@ -150,7 +150,7 @@ IProtobufRepeatedFieldValueType<uint> VacbannedAccountIdSessions { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**VsncheckAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L52)
+### **VsncheckAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L52)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> VsncheckAccountIdSessions { get; }
@@ -160,7 +160,7 @@ IProtobufRepeatedFieldValueType<uint> VsncheckAccountIdSessions { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**WaitingAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L16)
+### **WaitingAccountIdSessions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> WaitingAccountIdSessions { get; }

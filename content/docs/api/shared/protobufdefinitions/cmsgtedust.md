@@ -10,7 +10,7 @@ public interface CMsgTEDust : ITypedProtobuf<CMsgTEDust>, INativeHandle, INetMes
 
 ## Properties
 
-**Direction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEDust.cs#L27)
+### **Direction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEDust.cs#L27)
 
 ```csharp
 Vector Direction { get; set; }
@@ -20,7 +20,7 @@ Vector Direction { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEDust.cs#L18)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEDust.cs#L18)
 
 ```csharp
 Vector Origin { get; set; }
@@ -30,7 +30,7 @@ Vector Origin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Size** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEDust.cs#L21)
+### **Size** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEDust.cs#L21)
 
 ```csharp
 float Size { get; set; }
@@ -40,7 +40,7 @@ float Size { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Speed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEDust.cs#L24)
+### **Speed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEDust.cs#L24)
 
 ```csharp
 float Speed { get; set; }

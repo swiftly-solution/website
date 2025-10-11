@@ -10,7 +10,7 @@ public interface CPhysFixed : CPhysConstraint, CLogicalEntity, CServerOnlyEntity
 
 ## Properties
 
-**AngularDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L22)
+### **AngularDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L22)
 
 ```csharp
 ref float AngularDampingRatio { get; }
@@ -20,7 +20,7 @@ ref float AngularDampingRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AngularFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L20)
+### **AngularFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L20)
 
 ```csharp
 ref float AngularFrequency { get; }
@@ -30,7 +30,7 @@ ref float AngularFrequency { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BoneName1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L28)
+### **BoneName1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L28)
 
 ```csharp
 string BoneName1 { get; set; }
@@ -40,7 +40,7 @@ string BoneName1 { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**BoneName2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L30)
+### **BoneName2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L30)
 
 ```csharp
 string BoneName2 { get; set; }
@@ -50,7 +50,7 @@ string BoneName2 { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EnableAngularConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L26)
+### **EnableAngularConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L26)
 
 ```csharp
 ref bool EnableAngularConstraint { get; }
@@ -60,7 +60,7 @@ ref bool EnableAngularConstraint { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EnableLinearConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L24)
+### **EnableLinearConstraint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L24)
 
 ```csharp
 ref bool EnableLinearConstraint { get; }
@@ -70,7 +70,7 @@ ref bool EnableLinearConstraint { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LinearDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L18)
+### **LinearDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L18)
 
 ```csharp
 ref float LinearDampingRatio { get; }
@@ -80,7 +80,7 @@ ref float LinearDampingRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LinearFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L16)
+### **LinearFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysFixed.cs#L16)
 
 ```csharp
 ref float LinearFrequency { get; }

@@ -10,7 +10,7 @@ public interface C_OP_RemapDotProductToCP : CParticleFunctionPreEmission, CParti
 
 ## Properties
 
-**InputCP1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L16)
+### **InputCP1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L16)
 
 ```csharp
 ref int InputCP1 { get; }
@@ -20,7 +20,7 @@ ref int InputCP1 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InputCP2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L18)
+### **InputCP2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L18)
 
 ```csharp
 ref int InputCP2 { get; }
@@ -30,7 +30,7 @@ ref int InputCP2 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L26)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput InputMax { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput InputMax { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L24)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput InputMin { get; }
@@ -50,7 +50,7 @@ CParticleCollectionFloatInput InputMin { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**OutVectorField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L22)
+### **OutVectorField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L22)
 
 ```csharp
 ref int OutVectorField { get; }
@@ -60,7 +60,7 @@ ref int OutVectorField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L20)
+### **OutputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L20)
 
 ```csharp
 ref int OutputCP { get; }
@@ -70,7 +70,7 @@ ref int OutputCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L30)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L30)
 
 ```csharp
 CParticleCollectionFloatInput OutputMax { get; }
@@ -80,7 +80,7 @@ CParticleCollectionFloatInput OutputMax { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L28)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapDotProductToCP.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput OutputMin { get; }

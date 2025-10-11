@@ -10,7 +10,7 @@ public interface CNmGraphEventConditionNode__CDefinition : CNmBoolValueNode__CDe
 
 ## Properties
 
-**Conditions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphEventConditionNode__CDefinition.cs#L21)
+### **Conditions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphEventConditionNode__CDefinition.cs#L21)
 
 ```csharp
 SchemaUntypedField Conditions { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Conditions { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**EventConditionRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphEventConditionNode__CDefinition.cs#L18)
+### **EventConditionRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphEventConditionNode__CDefinition.cs#L18)
 
 ```csharp
 CNmBitFlags EventConditionRules { get; }
@@ -30,7 +30,7 @@ CNmBitFlags EventConditionRules { get; }
 
 - [CNmBitFlags](/docs/api/shared/schemadefinitions/cnmbitflags)
 
-**SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphEventConditionNode__CDefinition.cs#L16)
+### **SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmGraphEventConditionNode__CDefinition.cs#L16)
 
 ```csharp
 ref short SourceStateNodeIdx { get; }

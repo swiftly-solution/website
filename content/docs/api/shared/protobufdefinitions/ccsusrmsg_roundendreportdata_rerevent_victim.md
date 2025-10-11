@@ -10,7 +10,7 @@ public interface CCSUsrMsg_RoundEndReportData_RerEvent_Victim : ITypedProtobuf<C
 
 ## Properties
 
-**Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L22)
+### **Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L22)
 
 ```csharp
 int Color { get; set; }
@@ -20,7 +20,7 @@ int Color { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**IsBot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L25)
+### **IsBot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L25)
 
 ```csharp
 bool IsBot { get; set; }
@@ -30,7 +30,7 @@ bool IsBot { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsDead** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L28)
+### **IsDead** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L28)
 
 ```csharp
 bool IsDead { get; set; }
@@ -40,7 +40,7 @@ bool IsDead { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Playerslot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L16)
+### **Playerslot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L16)
 
 ```csharp
 int Playerslot { get; set; }
@@ -50,7 +50,7 @@ int Playerslot { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TeamNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L13)
+### **TeamNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L13)
 
 ```csharp
 int TeamNumber { get; set; }
@@ -60,7 +60,7 @@ int TeamNumber { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L19)
+### **Xuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Victim.cs#L19)
 
 ```csharp
 ulong Xuid { get; set; }

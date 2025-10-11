@@ -14,7 +14,7 @@ public interface IProtobufRepeatedFieldSubMessageType<T> : IRepeatedField, IEnum
 
 ## Properties
 
-**Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L15)
+### **Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L15)
 
 ```csharp
 int Count { get; }
@@ -26,7 +26,7 @@ int Count { get; }
 
 ## Methods
 
-**Add()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L19)
+### **Add()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L19)
 
 ```csharp
 T Add()
@@ -36,7 +36,7 @@ T Add()
 
 - T
 
-**Get(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L17)
+### **Get(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/IProtobufRepeatedField.cs#L17)
 
 ```csharp
 T Get(int index)

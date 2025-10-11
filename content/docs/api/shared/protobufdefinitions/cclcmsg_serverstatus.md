@@ -10,7 +10,7 @@ public interface CCLCMsg_ServerStatus : ITypedProtobuf<CCLCMsg_ServerStatus>, IN
 
 ## Properties
 
-**Simplified** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ServerStatus.cs#L18)
+### **Simplified** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ServerStatus.cs#L18)
 
 ```csharp
 bool Simplified { get; set; }

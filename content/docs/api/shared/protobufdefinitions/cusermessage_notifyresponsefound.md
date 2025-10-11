@@ -10,7 +10,7 @@ public interface CUserMessage_NotifyResponseFound : ITypedProtobuf<CUserMessage_
 
 ## Properties
 
-**Criteria** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L30)
+### **Criteria** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L30)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CUserMessage_NotifyResponseFound_Criteria> Criteria { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_NotifyResponseFound_Criteria> 
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_NotifyResponseFound_Criteria](/docs/api/shared/protobufdefinitions/cusermessage_notifyresponsefound_criteria)>
 
-**EntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L18)
+### **EntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L18)
 
 ```csharp
 int EntIndex { get; set; }
@@ -30,7 +30,7 @@ int EntIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FloatCriteriaNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L39)
+### **FloatCriteriaNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L39)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> FloatCriteriaNames { get; }
@@ -40,7 +40,7 @@ IProtobufRepeatedFieldValueType<uint> FloatCriteriaNames { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**FloatCriteriaValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L42)
+### **FloatCriteriaValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L42)
 
 ```csharp
 IProtobufRepeatedFieldValueType<float> FloatCriteriaValues { get; }
@@ -50,7 +50,7 @@ IProtobufRepeatedFieldValueType<float> FloatCriteriaValues { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**IntCriteriaNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L33)
+### **IntCriteriaNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L33)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> IntCriteriaNames { get; }
@@ -60,7 +60,7 @@ IProtobufRepeatedFieldValueType<uint> IntCriteriaNames { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**IntCriteriaValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L36)
+### **IntCriteriaValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L36)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> IntCriteriaValues { get; }
@@ -70,7 +70,7 @@ IProtobufRepeatedFieldValueType<int> IntCriteriaValues { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**ResponseConcept** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L27)
+### **ResponseConcept** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L27)
 
 ```csharp
 string ResponseConcept { get; set; }
@@ -80,7 +80,7 @@ string ResponseConcept { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ResponseValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L24)
+### **ResponseValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L24)
 
 ```csharp
 string ResponseValue { get; set; }
@@ -90,7 +90,7 @@ string ResponseValue { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**RuleName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L21)
+### **RuleName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L21)
 
 ```csharp
 string RuleName { get; set; }
@@ -100,7 +100,7 @@ string RuleName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SpeakResult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L51)
+### **SpeakResult** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L51)
 
 ```csharp
 int SpeakResult { get; set; }
@@ -110,7 +110,7 @@ int SpeakResult { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SymbolCriteriaNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L45)
+### **SymbolCriteriaNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L45)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> SymbolCriteriaNames { get; }
@@ -120,7 +120,7 @@ IProtobufRepeatedFieldValueType<uint> SymbolCriteriaNames { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**SymbolCriteriaValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L48)
+### **SymbolCriteriaValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_NotifyResponseFound.cs#L48)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> SymbolCriteriaValues { get; }

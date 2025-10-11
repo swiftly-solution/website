@@ -10,7 +10,7 @@ public interface C_OP_SetControlPointFieldToScalarExpression : CParticleFunction
 
 ## Properties
 
-**Expression** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L16)
+### **Expression** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L16)
 
 ```csharp
 ref ScalarExpressionType_t Expression { get; }
@@ -20,7 +20,7 @@ ref ScalarExpressionType_t Expression { get; }
 
 - [ScalarExpressionType_t](/docs/api/shared/schemadefinitions/scalarexpressiontype_t)
 
-**Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L18)
+### **Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput Input1 { get; }
@@ -30,7 +30,7 @@ CParticleCollectionFloatInput Input1 { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**Input2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L20)
+### **Input2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput Input2 { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput Input2 { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**OutVectorField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L26)
+### **OutVectorField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L26)
 
 ```csharp
 ref int OutVectorField { get; }
@@ -50,7 +50,7 @@ ref int OutVectorField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L24)
+### **OutputCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L24)
 
 ```csharp
 ref int OutputCP { get; }
@@ -60,7 +60,7 @@ ref int OutputCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputRemap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L22)
+### **OutputRemap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointFieldToScalarExpression.cs#L22)
 
 ```csharp
 CParticleRemapFloatInput OutputRemap { get; }

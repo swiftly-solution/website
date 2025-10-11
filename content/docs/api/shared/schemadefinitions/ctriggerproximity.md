@@ -10,7 +10,7 @@ public interface CTriggerProximity : CBaseTrigger, CBaseToggle, CBaseModelEntity
 
 ## Properties
 
-**MeasureTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L16)
+### **MeasureTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L16)
 
 ```csharp
 ref CHandle<CBaseEntity> MeasureTarget { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> MeasureTarget { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**MeasureTarget1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L18)
+### **MeasureTarget1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L18)
 
 ```csharp
 string MeasureTarget1 { get; set; }
@@ -30,7 +30,7 @@ string MeasureTarget1 { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NearestEntityDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L25)
+### **NearestEntityDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L25)
 
 ```csharp
 SchemaUntypedField NearestEntityDistance { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField NearestEntityDistance { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L20)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L20)
 
 ```csharp
 ref float Radius { get; }
@@ -50,7 +50,7 @@ ref float Radius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Touchers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L22)
+### **Touchers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerProximity.cs#L22)
 
 ```csharp
 ref int Touchers { get; }

@@ -10,7 +10,7 @@ public interface EventCsWinPanelRound : IGameEvent<EventCsWinPanelRound>
 
 ## Properties
 
-**FinalEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L38)
+### **FinalEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L38)
 
 ```csharp
 byte FinalEvent { get; set; }
@@ -20,7 +20,7 @@ byte FinalEvent { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**FunfactData1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L53)
+### **FunfactData1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L53)
 
 ```csharp
 int FunfactData1 { get; set; }
@@ -30,7 +30,7 @@ int FunfactData1 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FunfactData2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L58)
+### **FunfactData2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L58)
 
 ```csharp
 int FunfactData2 { get; set; }
@@ -40,7 +40,7 @@ int FunfactData2 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FunfactData3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L63)
+### **FunfactData3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L63)
 
 ```csharp
 int FunfactData3 { get; set; }
@@ -50,7 +50,7 @@ int FunfactData3 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FunfactPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L48)
+### **FunfactPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L48)
 
 ```csharp
 int FunfactPlayer { get; set; }
@@ -60,7 +60,7 @@ int FunfactPlayer { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FunfactToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L43)
+### **FunfactToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L43)
 
 ```csharp
 string FunfactToken { get; set; }
@@ -70,7 +70,7 @@ string FunfactToken { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ShowTimerAttack** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L26)
+### **ShowTimerAttack** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L26)
 
 ```csharp
 bool ShowTimerAttack { get; set; }
@@ -80,7 +80,7 @@ bool ShowTimerAttack { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ShowTimerDefend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L21)
+### **ShowTimerDefend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L21)
 
 ```csharp
 bool ShowTimerDefend { get; set; }
@@ -90,7 +90,7 @@ bool ShowTimerDefend { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TimerTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L31)
+### **TimerTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventCsWinPanelRound.cs#L31)
 
 ```csharp
 short TimerTime { get; set; }

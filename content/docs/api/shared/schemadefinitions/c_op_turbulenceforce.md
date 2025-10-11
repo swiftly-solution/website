@@ -10,7 +10,7 @@ public interface C_OP_TurbulenceForce : CParticleFunctionForce, CParticleFunctio
 
 ## Properties
 
-**NoiseAmount0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L24)
+### **NoiseAmount0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L24)
 
 ```csharp
 ref Vector NoiseAmount0 { get; }
@@ -20,7 +20,7 @@ ref Vector NoiseAmount0 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**NoiseAmount1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L26)
+### **NoiseAmount1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L26)
 
 ```csharp
 ref Vector NoiseAmount1 { get; }
@@ -30,7 +30,7 @@ ref Vector NoiseAmount1 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**NoiseAmount2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L28)
+### **NoiseAmount2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L28)
 
 ```csharp
 ref Vector NoiseAmount2 { get; }
@@ -40,7 +40,7 @@ ref Vector NoiseAmount2 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**NoiseAmount3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L30)
+### **NoiseAmount3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L30)
 
 ```csharp
 ref Vector NoiseAmount3 { get; }
@@ -50,7 +50,7 @@ ref Vector NoiseAmount3 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**NoiseCoordScale0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L16)
+### **NoiseCoordScale0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L16)
 
 ```csharp
 ref float NoiseCoordScale0 { get; }
@@ -60,7 +60,7 @@ ref float NoiseCoordScale0 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseCoordScale1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L18)
+### **NoiseCoordScale1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L18)
 
 ```csharp
 ref float NoiseCoordScale1 { get; }
@@ -70,7 +70,7 @@ ref float NoiseCoordScale1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseCoordScale2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L20)
+### **NoiseCoordScale2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L20)
 
 ```csharp
 ref float NoiseCoordScale2 { get; }
@@ -80,7 +80,7 @@ ref float NoiseCoordScale2 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NoiseCoordScale3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L22)
+### **NoiseCoordScale3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TurbulenceForce.cs#L22)
 
 ```csharp
 ref float NoiseCoordScale3 { get; }

@@ -10,7 +10,7 @@ public interface CUserMessage_Inventory_Response : ITypedProtobuf<CUserMessage_I
 
 ## Properties
 
-**BuildVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L43)
+### **BuildVersion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L43)
 
 ```csharp
 int BuildVersion { get; set; }
@@ -20,7 +20,7 @@ int BuildVersion { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ClientTimestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L25)
+### **ClientTimestamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L25)
 
 ```csharp
 int ClientTimestamp { get; set; }
@@ -30,7 +30,7 @@ int ClientTimestamp { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Crc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L13)
+### **Crc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L13)
 
 ```csharp
 uint Crc { get; set; }
@@ -40,7 +40,7 @@ uint Crc { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Instance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L46)
+### **Instance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L46)
 
 ```csharp
 int Instance { get; set; }
@@ -50,7 +50,7 @@ int Instance { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InvType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L40)
+### **InvType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L40)
 
 ```csharp
 int InvType { get; set; }
@@ -60,7 +60,7 @@ int InvType { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Inventories** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L31)
+### **Inventories** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L31)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDetail> Inventories { get; }
@@ -70,7 +70,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDe
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_Inventory_Response_InventoryDetail](/docs/api/shared/protobufdefinitions/cusermessage_inventory_response_inventorydetail)>
 
-**Inventories2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L34)
+### **Inventories2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L34)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDetail> Inventories2 { get; }
@@ -80,7 +80,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDe
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_Inventory_Response_InventoryDetail](/docs/api/shared/protobufdefinitions/cusermessage_inventory_response_inventorydetail)>
 
-**Inventories3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L37)
+### **Inventories3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L37)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDetail> Inventories3 { get; }
@@ -90,7 +90,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDe
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_Inventory_Response_InventoryDetail](/docs/api/shared/protobufdefinitions/cusermessage_inventory_response_inventorydetail)>
 
-**ItemCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L16)
+### **ItemCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L16)
 
 ```csharp
 int ItemCount { get; set; }
@@ -100,7 +100,7 @@ int ItemCount { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Osversion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L19)
+### **Osversion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L19)
 
 ```csharp
 int Osversion { get; set; }
@@ -110,7 +110,7 @@ int Osversion { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PerfTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L22)
+### **PerfTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L22)
 
 ```csharp
 int PerfTime { get; set; }
@@ -120,7 +120,7 @@ int PerfTime { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Platform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L28)
+### **Platform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L28)
 
 ```csharp
 int Platform { get; set; }
@@ -130,7 +130,7 @@ int Platform { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L49)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessage_Inventory_Response.cs#L49)
 
 ```csharp
 long StartTime { get; set; }

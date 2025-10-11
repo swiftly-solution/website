@@ -10,7 +10,7 @@ public interface FeCtrlOffset_t : ISchemaClass<FeCtrlOffset_t>, ISchemaField, IS
 
 ## Properties
 
-**CtrlChild** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlOffset_t.cs#L20)
+### **CtrlChild** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlOffset_t.cs#L20)
 
 ```csharp
 ref ushort CtrlChild { get; }
@@ -20,7 +20,7 @@ ref ushort CtrlChild { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**CtrlParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlOffset_t.cs#L18)
+### **CtrlParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlOffset_t.cs#L18)
 
 ```csharp
 ref ushort CtrlParent { get; }
@@ -30,7 +30,7 @@ ref ushort CtrlParent { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlOffset_t.cs#L16)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeCtrlOffset_t.cs#L16)
 
 ```csharp
 ref Vector Offset { get; }

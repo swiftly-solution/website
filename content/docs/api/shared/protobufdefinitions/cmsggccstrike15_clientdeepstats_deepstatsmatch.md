@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch : ITypedProtobuf
 
 ## Properties
 
-**Events** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch.cs#L16)
+### **Events** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<DeepPlayerMatchEvent> Events { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<DeepPlayerMatchEvent> Events { get; }
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[DeepPlayerMatchEvent](/docs/api/shared/protobufdefinitions/deepplayermatchevent)>
 
-**Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch.cs#L13)
+### **Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch.cs#L13)
 
 ```csharp
 DeepPlayerStatsEntry Player { get; }

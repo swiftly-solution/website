@@ -10,7 +10,7 @@ public interface ISchemaClass : INativeHandle
 
 ## Methods
 
-**As<K>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaClass.cs#L12)
+### **As<K>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaClass.cs#L12)
 
 ```csharp
 K As<K>() where K : ISchemaClass<K>

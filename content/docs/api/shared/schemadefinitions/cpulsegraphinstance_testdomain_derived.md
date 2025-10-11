@@ -10,7 +10,7 @@ public interface CPulseGraphInstance_TestDomain_Derived : CPulseGraphInstance_Te
 
 ## Properties
 
-**InstanceValueX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain_Derived.cs#L16)
+### **InstanceValueX** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseGraphInstance_TestDomain_Derived.cs#L16)
 
 ```csharp
 ref int InstanceValueX { get; }

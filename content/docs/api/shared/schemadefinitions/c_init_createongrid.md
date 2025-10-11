@@ -10,7 +10,7 @@ public interface C_INIT_CreateOnGrid : CParticleFunctionInitializer, CParticleFu
 
 ## Properties
 
-**Center** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L32)
+### **Center** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L32)
 
 ```csharp
 ref bool Center { get; }
@@ -20,7 +20,7 @@ ref bool Center { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L28)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L28)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -30,7 +30,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Hollow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L34)
+### **Hollow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L34)
 
 ```csharp
 ref bool Hollow { get; }
@@ -40,7 +40,7 @@ ref bool Hollow { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LocalSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L30)
+### **LocalSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L30)
 
 ```csharp
 ref bool LocalSpace { get; }
@@ -50,7 +50,7 @@ ref bool LocalSpace { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**XCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L16)
+### **XCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput XCount { get; }
@@ -60,7 +60,7 @@ CParticleCollectionFloatInput XCount { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**XSpacing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L22)
+### **XSpacing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L22)
 
 ```csharp
 CParticleCollectionFloatInput XSpacing { get; }
@@ -70,7 +70,7 @@ CParticleCollectionFloatInput XSpacing { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**YCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L18)
+### **YCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput YCount { get; }
@@ -80,7 +80,7 @@ CParticleCollectionFloatInput YCount { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**YSpacing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L24)
+### **YSpacing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L24)
 
 ```csharp
 CParticleCollectionFloatInput YSpacing { get; }
@@ -90,7 +90,7 @@ CParticleCollectionFloatInput YSpacing { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ZCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L20)
+### **ZCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L20)
 
 ```csharp
 CParticleCollectionFloatInput ZCount { get; }
@@ -100,7 +100,7 @@ CParticleCollectionFloatInput ZCount { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**ZSpacing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L26)
+### **ZSpacing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateOnGrid.cs#L26)
 
 ```csharp
 CParticleCollectionFloatInput ZSpacing { get; }

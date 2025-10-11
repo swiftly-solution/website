@@ -10,7 +10,7 @@ public interface C_OP_RenderVRHapticEvent : CParticleFunctionRenderer, CParticle
 
 ## Properties
 
-**Amplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L22)
+### **Amplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L22)
 
 ```csharp
 CPerParticleFloatInput Amplitude { get; }
@@ -20,7 +20,7 @@ CPerParticleFloatInput Amplitude { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**Hand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L16)
+### **Hand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L16)
 
 ```csharp
 ref ParticleVRHandChoiceList_t Hand { get; }
@@ -30,7 +30,7 @@ ref ParticleVRHandChoiceList_t Hand { get; }
 
 - [ParticleVRHandChoiceList_t](/docs/api/shared/schemadefinitions/particlevrhandchoicelist_t)
 
-**OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L20)
+### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L20)
 
 ```csharp
 ref int OutputField { get; }
@@ -40,7 +40,7 @@ ref int OutputField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputHandCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L18)
+### **OutputHandCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L18)
 
 ```csharp
 ref int OutputHandCP { get; }

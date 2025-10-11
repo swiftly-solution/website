@@ -10,7 +10,7 @@ public interface C_INIT_VelocityRadialRandom : CParticleFunctionInitializer, CPa
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRadialRandom.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRadialRandom.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**IgnoreDelta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRadialRandom.cs#L24)
+### **IgnoreDelta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRadialRandom.cs#L24)
 
 ```csharp
 ref bool IgnoreDelta { get; }
@@ -30,7 +30,7 @@ ref bool IgnoreDelta { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LocalCoordinateSystemSpeedScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRadialRandom.cs#L22)
+### **LocalCoordinateSystemSpeedScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRadialRandom.cs#L22)
 
 ```csharp
 ref Vector LocalCoordinateSystemSpeedScale { get; }
@@ -40,7 +40,7 @@ ref Vector LocalCoordinateSystemSpeedScale { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**SpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRadialRandom.cs#L20)
+### **SpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRadialRandom.cs#L20)
 
 ```csharp
 CPerParticleFloatInput SpeedMax { get; }
@@ -50,7 +50,7 @@ CPerParticleFloatInput SpeedMax { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRadialRandom.cs#L18)
+### **SpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_VelocityRadialRandom.cs#L18)
 
 ```csharp
 CPerParticleFloatInput SpeedMin { get; }

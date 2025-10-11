@@ -10,7 +10,7 @@ public interface CMarkupVolumeTagged : CMarkupVolume, CBaseModelEntity, CBaseEnt
 
 ## Properties
 
-**GroupByPrefab** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L22)
+### **GroupByPrefab** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L22)
 
 ```csharp
 ref bool GroupByPrefab { get; }
@@ -20,7 +20,7 @@ ref bool GroupByPrefab { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**GroupByVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L24)
+### **GroupByVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L24)
 
 ```csharp
 ref bool GroupByVolume { get; }
@@ -30,7 +30,7 @@ ref bool GroupByVolume { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**GroupNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L16)
+### **GroupNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L16)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> GroupNames { get; }
@@ -38,9 +38,9 @@ ref CUtlVector<CGlobalSymbol> GroupNames { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
+- [CUtlVector](/docs/api/-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
 
-**GroupOtherGroups** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L26)
+### **GroupOtherGroups** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L26)
 
 ```csharp
 ref bool GroupOtherGroups { get; }
@@ -50,7 +50,7 @@ ref bool GroupOtherGroups { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L20)
+### **IsGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L20)
 
 ```csharp
 ref bool IsGroup { get; }
@@ -60,7 +60,7 @@ ref bool IsGroup { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsInGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L28)
+### **IsInGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L28)
 
 ```csharp
 ref bool IsInGroup { get; }
@@ -70,7 +70,7 @@ ref bool IsInGroup { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L18)
+### **Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged.cs#L18)
 
 ```csharp
 ref CUtlVector<CGlobalSymbol> Tags { get; }
@@ -78,5 +78,5 @@ ref CUtlVector<CGlobalSymbol> Tags { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
+- [CUtlVector](/docs/api/-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
 

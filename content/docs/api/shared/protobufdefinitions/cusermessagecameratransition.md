@@ -10,7 +10,7 @@ public interface CUserMessageCameraTransition : ITypedProtobuf<CUserMessageCamer
 
 ## Properties
 
-**CameraType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L18)
+### **CameraType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L18)
 
 ```csharp
 uint CameraType { get; set; }
@@ -20,7 +20,7 @@ uint CameraType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L21)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L21)
 
 ```csharp
 float Duration { get; set; }
@@ -30,7 +30,7 @@ float Duration { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ParamsDataDriven** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L24)
+### **ParamsDataDriven** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L24)
 
 ```csharp
 CUserMessageCameraTransition_Transition_DataDriven ParamsDataDriven { get; }

@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt : ITypedProt
 
 ## Properties
 
-**Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt.cs#L19)
+### **Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt.cs#L19)
 
 ```csharp
 uint Accountid { get; set; }
@@ -20,7 +20,7 @@ uint Accountid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt.cs#L13)
+### **Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt.cs#L13)
 
 ```csharp
 int Eventid { get; set; }
@@ -30,7 +30,7 @@ int Eventid { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Matches** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt.cs#L16)
+### **Matches** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchListTournamentOperatorMgmt.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_MatchInfo> Matches { get; }

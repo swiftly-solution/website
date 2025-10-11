@@ -10,7 +10,7 @@ public interface CLogicActiveAutosave : CLogicAutosave, CLogicalEntity, CServerO
 
 ## Properties
 
-**DangerousTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicActiveAutosave.cs#L22)
+### **DangerousTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicActiveAutosave.cs#L22)
 
 ```csharp
 ref float DangerousTime { get; }
@@ -20,7 +20,7 @@ ref float DangerousTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicActiveAutosave.cs#L20)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicActiveAutosave.cs#L20)
 
 ```csharp
 GameTime_t StartTime { get; }
@@ -30,7 +30,7 @@ GameTime_t StartTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**TimeToTrigger** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicActiveAutosave.cs#L18)
+### **TimeToTrigger** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicActiveAutosave.cs#L18)
 
 ```csharp
 ref float TimeToTrigger { get; }
@@ -40,7 +40,7 @@ ref float TimeToTrigger { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TriggerHitPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicActiveAutosave.cs#L16)
+### **TriggerHitPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicActiveAutosave.cs#L16)
 
 ```csharp
 ref int TriggerHitPoints { get; }

@@ -10,7 +10,7 @@ public interface CMsgSource2NetworkFlowQuality : ITypedProtobuf<CMsgSource2Netwo
 
 ## Properties
 
-**BytesSecP95** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L25)
+### **BytesSecP95** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L25)
 
 ```csharp
 uint BytesSecP95 { get; set; }
@@ -20,7 +20,7 @@ uint BytesSecP95 { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**BytesSecP99** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L28)
+### **BytesSecP99** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L28)
 
 ```csharp
 uint BytesSecP99 { get; set; }
@@ -30,7 +30,7 @@ uint BytesSecP99 { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**BytesTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L16)
+### **BytesTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L16)
 
 ```csharp
 ulong BytesTotal { get; set; }
@@ -40,7 +40,7 @@ ulong BytesTotal { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**BytesTotalReliable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L19)
+### **BytesTotalReliable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L19)
 
 ```csharp
 ulong BytesTotalReliable { get; set; }
@@ -50,7 +50,7 @@ ulong BytesTotalReliable { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**BytesTotalVoice** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L22)
+### **BytesTotalVoice** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L22)
 
 ```csharp
 ulong BytesTotalVoice { get; set; }
@@ -60,7 +60,7 @@ ulong BytesTotalVoice { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L13)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L13)
 
 ```csharp
 uint Duration { get; set; }
@@ -70,7 +70,7 @@ uint Duration { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**EnginemsgsSecP95** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L34)
+### **EnginemsgsSecP95** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L34)
 
 ```csharp
 uint EnginemsgsSecP95 { get; set; }
@@ -80,7 +80,7 @@ uint EnginemsgsSecP95 { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**EnginemsgsSecP99** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L37)
+### **EnginemsgsSecP99** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L37)
 
 ```csharp
 uint EnginemsgsSecP99 { get; set; }
@@ -90,7 +90,7 @@ uint EnginemsgsSecP99 { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**EnginemsgsTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L31)
+### **EnginemsgsTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L31)
 
 ```csharp
 uint EnginemsgsTotal { get; set; }
@@ -100,7 +100,7 @@ uint EnginemsgsTotal { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RecvmarginP1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L82)
+### **RecvmarginP1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L82)
 
 ```csharp
 int RecvmarginP1 { get; set; }
@@ -110,7 +110,7 @@ int RecvmarginP1 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RecvmarginP25** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L88)
+### **RecvmarginP25** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L88)
 
 ```csharp
 int RecvmarginP25 { get; set; }
@@ -120,7 +120,7 @@ int RecvmarginP25 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RecvmarginP5** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L85)
+### **RecvmarginP5** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L85)
 
 ```csharp
 int RecvmarginP5 { get; set; }
@@ -130,7 +130,7 @@ int RecvmarginP5 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RecvmarginP50** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L91)
+### **RecvmarginP50** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L91)
 
 ```csharp
 int RecvmarginP50 { get; set; }
@@ -140,7 +140,7 @@ int RecvmarginP50 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RecvmarginP75** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L94)
+### **RecvmarginP75** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L94)
 
 ```csharp
 int RecvmarginP75 { get; set; }
@@ -150,7 +150,7 @@ int RecvmarginP75 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RecvmarginP95** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L97)
+### **RecvmarginP95** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L97)
 
 ```csharp
 int RecvmarginP95 { get; set; }
@@ -160,7 +160,7 @@ int RecvmarginP95 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TickMissrateSamplesPerfect** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L67)
+### **TickMissrateSamplesPerfect** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L67)
 
 ```csharp
 uint TickMissrateSamplesPerfect { get; set; }
@@ -170,7 +170,7 @@ uint TickMissrateSamplesPerfect { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TickMissrateSamplesPerfectnet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L70)
+### **TickMissrateSamplesPerfectnet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L70)
 
 ```csharp
 uint TickMissrateSamplesPerfectnet { get; set; }
@@ -180,7 +180,7 @@ uint TickMissrateSamplesPerfectnet { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TickMissrateSamplesTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L64)
+### **TickMissrateSamplesTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L64)
 
 ```csharp
 uint TickMissrateSamplesTotal { get; set; }
@@ -190,7 +190,7 @@ uint TickMissrateSamplesTotal { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TickMissratenetP75X10** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L73)
+### **TickMissratenetP75X10** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L73)
 
 ```csharp
 uint TickMissratenetP75X10 { get; set; }
@@ -200,7 +200,7 @@ uint TickMissratenetP75X10 { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TickMissratenetP95X10** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L76)
+### **TickMissratenetP95X10** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L76)
 
 ```csharp
 uint TickMissratenetP95X10 { get; set; }
@@ -210,7 +210,7 @@ uint TickMissratenetP95X10 { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TickMissratenetP99X10** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L79)
+### **TickMissratenetP99X10** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L79)
 
 ```csharp
 uint TickMissratenetP99X10 { get; set; }
@@ -220,7 +220,7 @@ uint TickMissratenetP99X10 { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TicksBadDropped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L55)
+### **TicksBadDropped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L55)
 
 ```csharp
 uint TicksBadDropped { get; set; }
@@ -230,7 +230,7 @@ uint TicksBadDropped { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TicksBadLate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L58)
+### **TicksBadLate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L58)
 
 ```csharp
 uint TicksBadLate { get; set; }
@@ -240,7 +240,7 @@ uint TicksBadLate { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TicksBadOther** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L61)
+### **TicksBadOther** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L61)
 
 ```csharp
 uint TicksBadOther { get; set; }
@@ -250,7 +250,7 @@ uint TicksBadOther { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TicksFixedDropped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L49)
+### **TicksFixedDropped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L49)
 
 ```csharp
 uint TicksFixedDropped { get; set; }
@@ -260,7 +260,7 @@ uint TicksFixedDropped { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TicksFixedLate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L52)
+### **TicksFixedLate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L52)
 
 ```csharp
 uint TicksFixedLate { get; set; }
@@ -270,7 +270,7 @@ uint TicksFixedLate { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TicksGood** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L43)
+### **TicksGood** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L43)
 
 ```csharp
 uint TicksGood { get; set; }
@@ -280,7 +280,7 @@ uint TicksGood { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TicksGoodAlmostLate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L46)
+### **TicksGoodAlmostLate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L46)
 
 ```csharp
 uint TicksGoodAlmostLate { get; set; }
@@ -290,7 +290,7 @@ uint TicksGoodAlmostLate { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TicksTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L40)
+### **TicksTotal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource2NetworkFlowQuality.cs#L40)
 
 ```csharp
 uint TicksTotal { get; set; }

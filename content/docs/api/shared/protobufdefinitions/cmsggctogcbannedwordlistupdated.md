@@ -10,7 +10,7 @@ public interface CMsgGCToGCBannedWordListUpdated : ITypedProtobuf<CMsgGCToGCBann
 
 ## Properties
 
-**GroupId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCBannedWordListUpdated.cs#L13)
+### **GroupId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCBannedWordListUpdated.cs#L13)
 
 ```csharp
 uint GroupId { get; set; }

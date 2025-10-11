@@ -10,7 +10,7 @@ public interface CParticleTransformInput : CParticleInput, ISchemaClass<CParticl
 
 ## Properties
 
-**ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L27)
+### **ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L27)
 
 ```csharp
 ref int ControlPoint { get; }
@@ -20,7 +20,7 @@ ref int ControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ControlPointRangeMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L29)
+### **ControlPointRangeMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L29)
 
 ```csharp
 ref int ControlPointRangeMax { get; }
@@ -30,7 +30,7 @@ ref int ControlPointRangeMax { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EndCPGrowthTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L31)
+### **EndCPGrowthTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L31)
 
 ```csharp
 ref float EndCPGrowthTime { get; }
@@ -40,7 +40,7 @@ ref float EndCPGrowthTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FollowNamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L21)
+### **FollowNamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L21)
 
 ```csharp
 ref bool FollowNamedValue { get; }
@@ -50,7 +50,7 @@ ref bool FollowNamedValue { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L19)
+### **NamedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L19)
 
 ```csharp
 SchemaUntypedField NamedValue { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField NamedValue { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**SupportsDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L23)
+### **SupportsDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L23)
 
 ```csharp
 ref bool SupportsDisabled { get; }
@@ -70,7 +70,7 @@ ref bool SupportsDisabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L16)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L16)
 
 ```csharp
 ref ParticleTransformType_t Type { get; }
@@ -80,7 +80,7 @@ ref ParticleTransformType_t Type { get; }
 
 - [ParticleTransformType_t](/docs/api/shared/schemadefinitions/particletransformtype_t)
 
-**UseOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L25)
+### **UseOrientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleTransformInput.cs#L25)
 
 ```csharp
 ref bool UseOrientation { get; }

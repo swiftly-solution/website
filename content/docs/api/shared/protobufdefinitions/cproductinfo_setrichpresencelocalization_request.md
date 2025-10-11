@@ -10,7 +10,7 @@ public interface CProductInfo_SetRichPresenceLocalization_Request : ITypedProtob
 
 ## Properties
 
-**Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request.cs#L13)
+### **Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request.cs#L13)
 
 ```csharp
 uint Appid { get; set; }
@@ -20,7 +20,7 @@ uint Appid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Languages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request.cs#L16)
+### **Languages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CProductInfo_SetRichPresenceLocalization_Request_LanguageSection> Languages { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldSubMessageType<CProductInfo_SetRichPresenceLocalization_Re
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CProductInfo_SetRichPresenceLocalization_Request_LanguageSection](/docs/api/shared/protobufdefinitions/cproductinfo_setrichpresencelocalization_request_languagesection)>
 
-**Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request.cs#L19)
+### **Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CProductInfo_SetRichPresenceLocalization_Request.cs#L19)
 
 ```csharp
 ulong Steamid { get; set; }

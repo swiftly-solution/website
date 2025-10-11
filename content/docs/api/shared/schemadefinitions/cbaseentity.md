@@ -10,7 +10,7 @@ public interface CBaseEntity : CEntityInstance, ISchemaClass<CEntityInstance>, I
 
 ## Properties
 
-**AbsOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L15)
+### **AbsOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L15)
 
 ```csharp
 Vector? AbsOrigin { get; }
@@ -20,7 +20,7 @@ Vector? AbsOrigin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)?
 
-**AbsRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L19)
+### **AbsRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L19)
 
 ```csharp
 QAngle? AbsRotation { get; }
@@ -30,7 +30,7 @@ QAngle? AbsRotation { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)?
 
-**AbsVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L107)
+### **AbsVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L107)
 
 ```csharp
 ref Vector AbsVelocity { get; }
@@ -40,7 +40,7 @@ ref Vector AbsVelocity { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ActualGravityScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L141)
+### **ActualGravityScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L141)
 
 ```csharp
 ref float ActualGravityScale { get; }
@@ -50,7 +50,7 @@ ref float ActualGravityScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ActualMoveType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L57)
+### **ActualMoveType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L57)
 
 ```csharp
 ref MoveType_t ActualMoveType { get; }
@@ -60,7 +60,7 @@ ref MoveType_t ActualMoveType { get; }
 
 - [MoveType_t](/docs/api/shared/schemadefinitions/movetype_t)
 
-**AngVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L163)
+### **AngVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L163)
 
 ```csharp
 ref QAngle AngVelocity { get; }
@@ -70,7 +70,7 @@ ref QAngle AngVelocity { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**AnimTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L75)
+### **AnimTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L75)
 
 ```csharp
 ref float AnimTime { get; }
@@ -80,7 +80,7 @@ ref float AnimTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AnimatedEveryTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L139)
+### **AnimatedEveryTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L139)
 
 ```csharp
 ref bool AnimatedEveryTick { get; }
@@ -90,7 +90,7 @@ ref bool AnimatedEveryTick { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**BaseVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L111)
+### **BaseVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L111)
 
 ```csharp
 ref Vector BaseVelocity { get; }
@@ -100,7 +100,7 @@ ref Vector BaseVelocity { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Blocker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L169)
+### **Blocker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L169)
 
 ```csharp
 ref CHandle<CBaseEntity> Blocker { get; }
@@ -110,7 +110,7 @@ ref CHandle<CBaseEntity> Blocker { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**BloodType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L175)
+### **BloodType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L175)
 
 ```csharp
 ref BloodType BloodType { get; }
@@ -120,7 +120,7 @@ ref BloodType BloodType { get; }
 
 - [BloodType](/docs/api/shared/schemadefinitions/bloodtype)
 
-**CBodyComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L16)
+### **CBodyComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L16)
 
 ```csharp
 CBodyComponent? CBodyComponent { get; }
@@ -130,7 +130,7 @@ CBodyComponent? CBodyComponent { get; }
 
 - [CBodyComponent](/docs/api/shared/schemadefinitions/cbodycomponent)?
 
-**ClientSideRagdoll** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L81)
+### **ClientSideRagdoll** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L81)
 
 ```csharp
 ref bool ClientSideRagdoll { get; }
@@ -140,7 +140,7 @@ ref bool ClientSideRagdoll { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Collision** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L115)
+### **Collision** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L115)
 
 ```csharp
 CCollisionProperty? Collision { get; }
@@ -150,7 +150,7 @@ CCollisionProperty? Collision { get; }
 
 - [CCollisionProperty](/docs/api/shared/schemadefinitions/ccollisionproperty)?
 
-**CreateTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L79)
+### **CreateTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L79)
 
 ```csharp
 GameTime_t CreateTime { get; }
@@ -160,7 +160,7 @@ GameTime_t CreateTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**CurrentThinkContext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L23)
+### **CurrentThinkContext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L23)
 
 ```csharp
 ref int CurrentThinkContext { get; }
@@ -170,7 +170,7 @@ ref int CurrentThinkContext { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DamageAccumulator** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L45)
+### **DamageAccumulator** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L45)
 
 ```csharp
 ref float DamageAccumulator { get; }
@@ -180,7 +180,7 @@ ref float DamageAccumulator { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DamageFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L67)
+### **DamageFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L67)
 
 ```csharp
 ref CHandle<CBaseFilter> DamageFilter { get; }
@@ -190,7 +190,7 @@ ref CHandle<CBaseFilter> DamageFilter { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseFilter](/docs/api/shared/schemadefinitions/cbasefilter)>
 
-**DamageFilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L69)
+### **DamageFilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L69)
 
 ```csharp
 string DamageFilterName { get; set; }
@@ -200,7 +200,7 @@ string DamageFilterName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DisableLowViolence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L145)
+### **DisableLowViolence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L145)
 
 ```csharp
 ref bool DisableLowViolence { get; }
@@ -210,7 +210,7 @@ ref bool DisableLowViolence { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DisabledContextThinks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L27)
+### **DisabledContextThinks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L27)
 
 ```csharp
 ref bool DisabledContextThinks { get; }
@@ -220,7 +220,7 @@ ref bool DisabledContextThinks { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L149)
+### **EFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L149)
 
 ```csharp
 ref int EFlags { get; }
@@ -230,7 +230,7 @@ ref int EFlags { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EffectEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L117)
+### **EffectEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L117)
 
 ```csharp
 ref CHandle<CBaseEntity> EffectEntity { get; }
@@ -240,7 +240,7 @@ ref CHandle<CBaseEntity> EffectEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**Effects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L121)
+### **Effects** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L121)
 
 ```csharp
 ref uint Effects { get; }
@@ -250,7 +250,7 @@ ref uint Effects { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Elasticity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L129)
+### **Elasticity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L129)
 
 ```csharp
 ref float Elasticity { get; }
@@ -260,7 +260,7 @@ ref float Elasticity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L105)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L105)
 
 ```csharp
 ref uint Flags { get; }
@@ -270,7 +270,7 @@ ref uint Flags { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Friction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L127)
+### **Friction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L127)
 
 ```csharp
 ref float Friction { get; }
@@ -280,7 +280,7 @@ ref float Friction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Globalname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L89)
+### **Globalname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L89)
 
 ```csharp
 string Globalname { get; set; }
@@ -290,7 +290,7 @@ string Globalname { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**GravityActuallyDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L143)
+### **GravityActuallyDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L143)
 
 ```csharp
 ref bool GravityActuallyDisabled { get; }
@@ -300,7 +300,7 @@ ref bool GravityActuallyDisabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**GravityDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L137)
+### **GravityDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L137)
 
 ```csharp
 ref bool GravityDisabled { get; }
@@ -310,7 +310,7 @@ ref bool GravityDisabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**GravityScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L131)
+### **GravityScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L131)
 
 ```csharp
 ref float GravityScale { get; }
@@ -320,7 +320,7 @@ ref float GravityScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GroundBodyIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L125)
+### **GroundBodyIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L125)
 
 ```csharp
 ref int GroundBodyIndex { get; }
@@ -330,7 +330,7 @@ ref int GroundBodyIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**GroundEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L123)
+### **GroundEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L123)
 
 ```csharp
 ref CHandle<CBaseEntity> GroundEntity { get; }
@@ -340,7 +340,7 @@ ref CHandle<CBaseEntity> GroundEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**Health** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L39)
+### **Health** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L39)
 
 ```csharp
 ref int Health { get; }
@@ -350,7 +350,7 @@ ref int Health { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InitialTeamNum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L159)
+### **InitialTeamNum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L159)
 
 ```csharp
 ref int InitialTeamNum { get; }
@@ -360,7 +360,7 @@ ref int InitialTeamNum { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InterpolationFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L83)
+### **InterpolationFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L83)
 
 ```csharp
 ref byte InterpolationFrame { get; }
@@ -370,7 +370,7 @@ ref byte InterpolationFrame { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**IsSteadyState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L30)
+### **IsSteadyState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L30)
 
 ```csharp
 SchemaUntypedField IsSteadyState { get; }
@@ -380,7 +380,7 @@ SchemaUntypedField IsSteadyState { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**LagCompensate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L167)
+### **LagCompensate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L167)
 
 ```csharp
 ref bool LagCompensate { get; }
@@ -390,7 +390,7 @@ ref bool LagCompensate { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LastNetworkChange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L32)
+### **LastNetworkChange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L32)
 
 ```csharp
 ref float LastNetworkChange { get; }
@@ -400,7 +400,7 @@ ref float LastNetworkChange { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LastThinkTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L25)
+### **LastThinkTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L25)
 
 ```csharp
 GameTick_t LastThinkTick { get; }
@@ -410,7 +410,7 @@ GameTick_t LastThinkTick { get; }
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
-**LifeState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L43)
+### **LifeState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L43)
 
 ```csharp
 ref byte LifeState { get; }
@@ -420,7 +420,7 @@ ref byte LifeState { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**LocalTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L171)
+### **LocalTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L171)
 
 ```csharp
 ref float LocalTime { get; }
@@ -430,7 +430,7 @@ ref float LocalTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxHealth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L41)
+### **MaxHealth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L41)
 
 ```csharp
 ref int MaxHealth { get; }
@@ -440,7 +440,7 @@ ref int MaxHealth { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MoveCollide** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L53)
+### **MoveCollide** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L53)
 
 ```csharp
 ref MoveCollide_t MoveCollide { get; }
@@ -450,7 +450,7 @@ ref MoveCollide_t MoveCollide { get; }
 
 - [MoveCollide_t](/docs/api/shared/schemadefinitions/movecollide_t)
 
-**MoveDoneTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L71)
+### **MoveDoneTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L71)
 
 ```csharp
 ref float MoveDoneTime { get; }
@@ -460,7 +460,7 @@ ref float MoveDoneTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MoveType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L55)
+### **MoveType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L55)
 
 ```csharp
 ref MoveType_t MoveType { get; }
@@ -470,7 +470,7 @@ ref MoveType_t MoveType { get; }
 
 - [MoveType_t](/docs/api/shared/schemadefinitions/movetype_t)
 
-**NavIgnoreUntilTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L161)
+### **NavIgnoreUntilTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L161)
 
 ```csharp
 GameTime_t NavIgnoreUntilTime { get; }
@@ -480,7 +480,7 @@ GameTime_t NavIgnoreUntilTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**NetworkQuantizeOriginAndAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L165)
+### **NetworkQuantizeOriginAndAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L165)
 
 ```csharp
 ref bool NetworkQuantizeOriginAndAngles { get; }
@@ -490,7 +490,7 @@ ref bool NetworkQuantizeOriginAndAngles { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NetworkTransmitComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L18)
+### **NetworkTransmitComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L18)
 
 ```csharp
 CNetworkTransmitComponent NetworkTransmitComponent { get; }
@@ -500,7 +500,7 @@ CNetworkTransmitComponent NetworkTransmitComponent { get; }
 
 - [CNetworkTransmitComponent](/docs/api/shared/schemadefinitions/cnetworktransmitcomponent)
 
-**NextThinkTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L99)
+### **NextThinkTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L99)
 
 ```csharp
 GameTick_t NextThinkTick { get; }
@@ -510,7 +510,7 @@ GameTick_t NextThinkTick { get; }
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
-**OnKilled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L103)
+### **OnKilled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L103)
 
 ```csharp
 CEntityIOOutput OnKilled { get; }
@@ -520,7 +520,7 @@ CEntityIOOutput OnKilled { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnUser1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L151)
+### **OnUser1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L151)
 
 ```csharp
 CEntityIOOutput OnUser1 { get; }
@@ -530,7 +530,7 @@ CEntityIOOutput OnUser1 { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnUser2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L153)
+### **OnUser2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L153)
 
 ```csharp
 CEntityIOOutput OnUser2 { get; }
@@ -540,7 +540,7 @@ CEntityIOOutput OnUser2 { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnUser3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L155)
+### **OnUser3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L155)
 
 ```csharp
 CEntityIOOutput OnUser3 { get; }
@@ -550,7 +550,7 @@ CEntityIOOutput OnUser3 { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnUser4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L157)
+### **OnUser4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L157)
 
 ```csharp
 CEntityIOOutput OnUser4 { get; }
@@ -560,7 +560,7 @@ CEntityIOOutput OnUser4 { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OwnerEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L119)
+### **OwnerEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L119)
 
 ```csharp
 ref CHandle<CBaseEntity> OwnerEntity { get; }
@@ -570,7 +570,7 @@ ref CHandle<CBaseEntity> OwnerEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**PlatformType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L51)
+### **PlatformType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L51)
 
 ```csharp
 ref EntityPlatformTypes_t PlatformType { get; }
@@ -580,7 +580,7 @@ ref EntityPlatformTypes_t PlatformType { get; }
 
 - [EntityPlatformTypes_t](/docs/api/shared/schemadefinitions/entityplatformtypes_t)
 
-**PrevVPhysicsUpdatePos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L85)
+### **PrevVPhysicsUpdatePos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L85)
 
 ```csharp
 ref Vector PrevVPhysicsUpdatePos { get; }
@@ -590,7 +590,7 @@ ref Vector PrevVPhysicsUpdatePos { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**PulseGraphInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L177)
+### **PulseGraphInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L177)
 
 ```csharp
 CPulseGraphInstance_ServerEntity? PulseGraphInstance { get; }
@@ -600,7 +600,7 @@ CPulseGraphInstance_ServerEntity? PulseGraphInstance { get; }
 
 - [CPulseGraphInstance_ServerEntity](/docs/api/shared/schemadefinitions/cpulsegraphinstance_serverentity)?
 
-**PushEnumCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L113)
+### **PushEnumCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L113)
 
 ```csharp
 ref int PushEnumCount { get; }
@@ -610,7 +610,7 @@ ref int PushEnumCount { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ResponseContext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L37)
+### **ResponseContext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L37)
 
 ```csharp
 string ResponseContext { get; set; }
@@ -620,7 +620,7 @@ string ResponseContext { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ResponseContexts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L35)
+### **ResponseContexts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L35)
 
 ```csharp
 ref CUtlVector ResponseContexts { get; }
@@ -628,9 +628,9 @@ ref CUtlVector ResponseContexts { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**RestoreInHierarchy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L63)
+### **RestoreInHierarchy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L63)
 
 ```csharp
 ref bool RestoreInHierarchy { get; }
@@ -640,7 +640,7 @@ ref bool RestoreInHierarchy { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SentToClients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L91)
+### **SentToClients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L91)
 
 ```csharp
 ref int SentToClients { get; }
@@ -650,7 +650,7 @@ ref int SentToClients { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SimulationTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L101)
+### **SimulationTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L101)
 
 ```csharp
 ref int SimulationTick { get; }
@@ -660,7 +660,7 @@ ref int SimulationTick { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SimulationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L77)
+### **SimulationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L77)
 
 ```csharp
 ref float SimulationTime { get; }
@@ -670,7 +670,7 @@ ref float SimulationTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SlimeTouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L61)
+### **SlimeTouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L61)
 
 ```csharp
 ref byte SlimeTouch { get; }
@@ -680,7 +680,7 @@ ref byte SlimeTouch { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**Spawnflags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L97)
+### **Spawnflags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L97)
 
 ```csharp
 ref uint Spawnflags { get; }
@@ -690,7 +690,7 @@ ref uint Spawnflags { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Speed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L93)
+### **Speed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L93)
 
 ```csharp
 ref float Speed { get; }
@@ -700,7 +700,7 @@ ref float Speed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SubclassID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L73)
+### **SubclassID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L73)
 
 ```csharp
 ref CUtlStringToken SubclassID { get; }
@@ -710,7 +710,7 @@ ref CUtlStringToken SubclassID { get; }
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
-**TakeDamageFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L49)
+### **TakeDamageFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L49)
 
 ```csharp
 ref TakeDamageFlags_t TakeDamageFlags { get; }
@@ -720,7 +720,7 @@ ref TakeDamageFlags_t TakeDamageFlags { get; }
 
 - [TakeDamageFlags_t](/docs/api/shared/schemadefinitions/takedamageflags_t)
 
-**TakesDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L47)
+### **TakesDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L47)
 
 ```csharp
 ref bool TakesDamage { get; }
@@ -730,7 +730,7 @@ ref bool TakesDamage { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L65)
+### **Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L65)
 
 ```csharp
 string Target { get; set; }
@@ -740,7 +740,7 @@ string Target { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TeamNum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L87)
+### **TeamNum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L87)
 
 ```csharp
 ref byte TeamNum { get; }
@@ -750,7 +750,7 @@ ref byte TeamNum { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**ThinkFunctions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L21)
+### **ThinkFunctions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L21)
 
 ```csharp
 ref CUtlVector ThinkFunctions { get; }
@@ -758,9 +758,9 @@ ref CUtlVector ThinkFunctions { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**TimeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L133)
+### **TimeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L133)
 
 ```csharp
 ref float TimeScale { get; }
@@ -770,7 +770,7 @@ ref float TimeScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UniqueHammerID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L95)
+### **UniqueHammerID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L95)
 
 ```csharp
 string UniqueHammerID { get; set; }
@@ -780,7 +780,7 @@ string UniqueHammerID { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**VData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L10)
+### **VData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L10)
 
 ```csharp
 CEntitySubclassVDataBase VData { get; }
@@ -790,7 +790,7 @@ CEntitySubclassVDataBase VData { get; }
 
 - [CEntitySubclassVDataBase](/docs/api/shared/schemadefinitions/centitysubclassvdatabase)
 
-**VPhysicsUpdateLocalTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L173)
+### **VPhysicsUpdateLocalTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L173)
 
 ```csharp
 ref float VPhysicsUpdateLocalTime { get; }
@@ -800,7 +800,7 @@ ref float VPhysicsUpdateLocalTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Velocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L109)
+### **Velocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L109)
 
 ```csharp
 CNetworkVelocityVector Velocity { get; }
@@ -810,7 +810,7 @@ CNetworkVelocityVector Velocity { get; }
 
 - [CNetworkVelocityVector](/docs/api/shared/schemadefinitions/cnetworkvelocityvector)
 
-**WaterLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L135)
+### **WaterLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L135)
 
 ```csharp
 ref float WaterLevel { get; }
@@ -820,7 +820,7 @@ ref float WaterLevel { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WaterTouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L59)
+### **WaterTouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L59)
 
 ```csharp
 ref byte WaterTouch { get; }
@@ -830,7 +830,7 @@ ref byte WaterTouch { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**WaterType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L147)
+### **WaterType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L147)
 
 ```csharp
 ref byte WaterType { get; }
@@ -842,211 +842,211 @@ ref byte WaterType { get; }
 
 ## Methods
 
-**AnimTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L189)
+### **AnimTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L189)
 
 ```csharp
 void AnimTimeUpdated()
 ```
 
-**AnimatedEveryTickUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L212)
+### **AnimatedEveryTickUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L212)
 
 ```csharp
 void AnimatedEveryTickUpdated()
 ```
 
-**BaseVelocityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L200)
+### **BaseVelocityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L200)
 
 ```csharp
 void BaseVelocityUpdated()
 ```
 
-**BloodTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L214)
+### **BloodTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L214)
 
 ```csharp
 void BloodTypeUpdated()
 ```
 
-**CBodyComponentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L179)
+### **CBodyComponentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L179)
 
 ```csharp
 void CBodyComponentUpdated()
 ```
 
-**ClientSideRagdollUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L192)
+### **ClientSideRagdollUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L192)
 
 ```csharp
 void ClientSideRagdollUpdated()
 ```
 
-**CollisionRulesChanged()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L35)
+### **CollisionRulesChanged()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L35)
 
 ```csharp
 void CollisionRulesChanged()
 ```
 
-**CreateTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L191)
+### **CreateTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L191)
 
 ```csharp
 void CreateTimeUpdated()
 ```
 
-**EffectEntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L201)
+### **EffectEntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L201)
 
 ```csharp
 void EffectEntityUpdated()
 ```
 
-**EffectsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L203)
+### **EffectsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L203)
 
 ```csharp
 void EffectsUpdated()
 ```
 
-**ElasticityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L207)
+### **ElasticityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L207)
 
 ```csharp
 void ElasticityUpdated()
 ```
 
-**FlagsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L198)
+### **FlagsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L198)
 
 ```csharp
 void FlagsUpdated()
 ```
 
-**FrictionUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L206)
+### **FrictionUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L206)
 
 ```csharp
 void FrictionUpdated()
 ```
 
-**GravityDisabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L211)
+### **GravityDisabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L211)
 
 ```csharp
 void GravityDisabledUpdated()
 ```
 
-**GravityScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L208)
+### **GravityScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L208)
 
 ```csharp
 void GravityScaleUpdated()
 ```
 
-**GroundBodyIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L205)
+### **GroundBodyIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L205)
 
 ```csharp
 void GroundBodyIndexUpdated()
 ```
 
-**GroundEntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L204)
+### **GroundEntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L204)
 
 ```csharp
 void GroundEntityUpdated()
 ```
 
-**HealthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L180)
+### **HealthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L180)
 
 ```csharp
 void HealthUpdated()
 ```
 
-**InterpolationFrameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L193)
+### **InterpolationFrameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L193)
 
 ```csharp
 void InterpolationFrameUpdated()
 ```
 
-**LifeStateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L182)
+### **LifeStateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L182)
 
 ```csharp
 void LifeStateUpdated()
 ```
 
-**MaxHealthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L181)
+### **MaxHealthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L181)
 
 ```csharp
 void MaxHealthUpdated()
 ```
 
-**MoveCollideUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L186)
+### **MoveCollideUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L186)
 
 ```csharp
 void MoveCollideUpdated()
 ```
 
-**MoveTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L187)
+### **MoveTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L187)
 
 ```csharp
 void MoveTypeUpdated()
 ```
 
-**NavIgnoreUntilTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L213)
+### **NavIgnoreUntilTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L213)
 
 ```csharp
 void NavIgnoreUntilTimeUpdated()
 ```
 
-**NextThinkTickUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L197)
+### **NextThinkTickUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L197)
 
 ```csharp
 void NextThinkTickUpdated()
 ```
 
-**OwnerEntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L202)
+### **OwnerEntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L202)
 
 ```csharp
 void OwnerEntityUpdated()
 ```
 
-**PlatformTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L185)
+### **PlatformTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L185)
 
 ```csharp
 void PlatformTypeUpdated()
 ```
 
-**SimulationTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L190)
+### **SimulationTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L190)
 
 ```csharp
 void SimulationTimeUpdated()
 ```
 
-**SpawnflagsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L196)
+### **SpawnflagsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L196)
 
 ```csharp
 void SpawnflagsUpdated()
 ```
 
-**SpeedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L195)
+### **SpeedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L195)
 
 ```csharp
 void SpeedUpdated()
 ```
 
-**SubclassIDUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L188)
+### **SubclassIDUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L188)
 
 ```csharp
 void SubclassIDUpdated()
 ```
 
-**TakeDamageFlagsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L184)
+### **TakeDamageFlagsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L184)
 
 ```csharp
 void TakeDamageFlagsUpdated()
 ```
 
-**TakesDamageUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L183)
+### **TakesDamageUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L183)
 
 ```csharp
 void TakesDamageUpdated()
 ```
 
-**TeamNumUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L194)
+### **TeamNumUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L194)
 
 ```csharp
 void TeamNumUpdated()
 ```
 
-**Teleport(Vector?, QAngle?, Vector?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L28)
+### **Teleport(Vector?, QAngle?, Vector?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseEntity.cs#L28)
 
 ```csharp
 void Teleport(Vector? position, QAngle? angle, Vector? velocity)
@@ -1060,19 +1060,19 @@ void Teleport(Vector? position, QAngle? angle, Vector? velocity)
 
 #### Remarks
 
-**TimeScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L209)
+### **TimeScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L209)
 
 ```csharp
 void TimeScaleUpdated()
 ```
 
-**VelocityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L199)
+### **VelocityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L199)
 
 ```csharp
 void VelocityUpdated()
 ```
 
-**WaterLevelUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L210)
+### **WaterLevelUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L210)
 
 ```csharp
 void WaterLevelUpdated()

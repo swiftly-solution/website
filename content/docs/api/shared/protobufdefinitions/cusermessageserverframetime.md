@@ -10,7 +10,7 @@ public interface CUserMessageServerFrameTime : ITypedProtobuf<CUserMessageServer
 
 ## Properties
 
-**FrameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageServerFrameTime.cs#L18)
+### **FrameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageServerFrameTime.cs#L18)
 
 ```csharp
 float FrameTime { get; set; }

@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_Client2GCStreamUnlock : ITypedProtobuf<CMsgG
 
 ## Properties
 
-**Os** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCStreamUnlock.cs#L16)
+### **Os** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCStreamUnlock.cs#L16)
 
 ```csharp
 int Os { get; set; }
@@ -20,7 +20,7 @@ int Os { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Ticket** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCStreamUnlock.cs#L13)
+### **Ticket** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Client2GCStreamUnlock.cs#L13)
 
 ```csharp
 ulong Ticket { get; set; }

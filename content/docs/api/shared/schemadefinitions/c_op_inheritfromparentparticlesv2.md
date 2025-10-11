@@ -10,7 +10,7 @@ public interface C_OP_InheritFromParentParticlesV2 : CParticleFunctionOperator, 
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L18)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Increment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L20)
+### **Increment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L20)
 
 ```csharp
 CPerParticleFloatInput Increment { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput Increment { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L28)
+### **Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L28)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }
@@ -40,7 +40,7 @@ CPerParticleFloatInput Interpolation { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**MissingParentBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L26)
+### **MissingParentBehavior** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L26)
 
 ```csharp
 ref MissingParentInheritBehavior_t MissingParentBehavior { get; }
@@ -50,7 +50,7 @@ ref MissingParentInheritBehavior_t MissingParentBehavior { get; }
 
 - [MissingParentInheritBehavior_t](/docs/api/shared/schemadefinitions/missingparentinheritbehavior_t)
 
-**RandomDistribution** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L22)
+### **RandomDistribution** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L22)
 
 ```csharp
 ref bool RandomDistribution { get; }
@@ -60,7 +60,7 @@ ref bool RandomDistribution { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Reverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L24)
+### **Reverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L24)
 
 ```csharp
 ref bool Reverse { get; }
@@ -70,7 +70,7 @@ ref bool Reverse { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L16)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InheritFromParentParticlesV2.cs#L16)
 
 ```csharp
 CPerParticleFloatInput Scale { get; }

@@ -10,7 +10,7 @@ public interface RnTriangle_t : ISchemaClass<RnTriangle_t>, ISchemaField, ISchem
 
 ## Properties
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnTriangle_t.cs#L16)
+### **Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnTriangle_t.cs#L16)
 
 ```csharp
 ISchemaFixedArray<int> Index { get; }

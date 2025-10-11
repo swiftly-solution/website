@@ -10,7 +10,7 @@ public interface CPointValueRemapper : CBaseEntity, CEntityInstance, ISchemaClas
 
 ## Properties
 
-**CurrentMomentum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L58)
+### **CurrentMomentum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L58)
 
 ```csharp
 ref float CurrentMomentum { get; }
@@ -20,7 +20,7 @@ ref float CurrentMomentum { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CustomOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L78)
+### **CustomOutputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L78)
 
 ```csharp
 ref float CustomOutputValue { get; }
@@ -30,7 +30,7 @@ ref float CustomOutputValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L16)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L16)
 
 ```csharp
 ref bool Disabled { get; }
@@ -40,7 +40,7 @@ ref bool Disabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DisengageDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L32)
+### **DisengageDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L32)
 
 ```csharp
 ref float DisengageDistance { get; }
@@ -50,7 +50,7 @@ ref float DisengageDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EngageDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L34)
+### **EngageDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L34)
 
 ```csharp
 ref float EngageDistance { get; }
@@ -60,7 +60,7 @@ ref float EngageDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Engaged** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L66)
+### **Engaged** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L66)
 
 ```csharp
 ref bool Engaged { get; }
@@ -70,7 +70,7 @@ ref bool Engaged { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FirstUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L68)
+### **FirstUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L68)
 
 ```csharp
 ref bool FirstUpdate { get; }
@@ -80,7 +80,7 @@ ref bool FirstUpdate { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HapticsType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L50)
+### **HapticsType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L50)
 
 ```csharp
 ref ValueRemapperHapticsType_t HapticsType { get; }
@@ -90,7 +90,7 @@ ref ValueRemapperHapticsType_t HapticsType { get; }
 
 - [ValueRemapperHapticsType_t](/docs/api/shared/schemadefinitions/valueremapperhapticstype_t)
 
-**InputOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L64)
+### **InputOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L64)
 
 ```csharp
 ref float InputOffset { get; }
@@ -100,7 +100,7 @@ ref float InputOffset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InputType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L20)
+### **InputType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L20)
 
 ```csharp
 ref ValueRemapperInputType_t InputType { get; }
@@ -110,7 +110,7 @@ ref ValueRemapperInputType_t InputType { get; }
 
 - [ValueRemapperInputType_t](/docs/api/shared/schemadefinitions/valueremapperinputtype_t)
 
-**MaximumChangePerSecond** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L30)
+### **MaximumChangePerSecond** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L30)
 
 ```csharp
 ref float MaximumChangePerSecond { get; }
@@ -120,7 +120,7 @@ ref float MaximumChangePerSecond { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MomentumModifier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L54)
+### **MomentumModifier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L54)
 
 ```csharp
 ref float MomentumModifier { get; }
@@ -130,7 +130,7 @@ ref float MomentumModifier { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MomentumType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L52)
+### **MomentumType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L52)
 
 ```csharp
 ref ValueRemapperMomentumType_t MomentumType { get; }
@@ -140,7 +140,7 @@ ref ValueRemapperMomentumType_t MomentumType { get; }
 
 - [ValueRemapperMomentumType_t](/docs/api/shared/schemadefinitions/valueremappermomentumtype_t)
 
-**OnDisengage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L104)
+### **OnDisengage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L104)
 
 ```csharp
 CEntityIOOutput OnDisengage { get; }
@@ -150,7 +150,7 @@ CEntityIOOutput OnDisengage { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnEngage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L102)
+### **OnEngage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L102)
 
 ```csharp
 CEntityIOOutput OnEngage { get; }
@@ -160,7 +160,7 @@ CEntityIOOutput OnEngage { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnReachedValueCustom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L100)
+### **OnReachedValueCustom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L100)
 
 ```csharp
 CEntityIOOutput OnReachedValueCustom { get; }
@@ -170,7 +170,7 @@ CEntityIOOutput OnReachedValueCustom { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnReachedValueOne** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L98)
+### **OnReachedValueOne** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L98)
 
 ```csharp
 CEntityIOOutput OnReachedValueOne { get; }
@@ -180,7 +180,7 @@ CEntityIOOutput OnReachedValueOne { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnReachedValueZero** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L96)
+### **OnReachedValueZero** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L96)
 
 ```csharp
 CEntityIOOutput OnReachedValueZero { get; }
@@ -190,7 +190,7 @@ CEntityIOOutput OnReachedValueZero { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OutputEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L48)
+### **OutputEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L48)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseEntity>> OutputEntities { get; }
@@ -198,9 +198,9 @@ ref CUtlVector<CHandle<CBaseEntity>> OutputEntities { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
+- [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
-**OutputEntity2Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L42)
+### **OutputEntity2Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L42)
 
 ```csharp
 string OutputEntity2Name { get; set; }
@@ -210,7 +210,7 @@ string OutputEntity2Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OutputEntity3Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L44)
+### **OutputEntity3Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L44)
 
 ```csharp
 string OutputEntity3Name { get; set; }
@@ -220,7 +220,7 @@ string OutputEntity3Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OutputEntity4Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L46)
+### **OutputEntity4Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L46)
 
 ```csharp
 string OutputEntity4Name { get; set; }
@@ -230,7 +230,7 @@ string OutputEntity4Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OutputEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L40)
+### **OutputEntityName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L40)
 
 ```csharp
 string OutputEntityName { get; set; }
@@ -240,7 +240,7 @@ string OutputEntityName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OutputType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L38)
+### **OutputType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L38)
 
 ```csharp
 ref ValueRemapperOutputType_t OutputType { get; }
@@ -250,7 +250,7 @@ ref ValueRemapperOutputType_t OutputType { get; }
 
 - [ValueRemapperOutputType_t](/docs/api/shared/schemadefinitions/valueremapperoutputtype_t)
 
-**Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L91)
+### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L91)
 
 ```csharp
 SchemaUntypedField Position { get; }
@@ -260,7 +260,7 @@ SchemaUntypedField Position { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**PositionDelta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L94)
+### **PositionDelta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L94)
 
 ```csharp
 SchemaUntypedField PositionDelta { get; }
@@ -270,7 +270,7 @@ SchemaUntypedField PositionDelta { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**PreviousTestPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L74)
+### **PreviousTestPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L74)
 
 ```csharp
 ref Vector PreviousTestPoint { get; }
@@ -280,7 +280,7 @@ ref Vector PreviousTestPoint { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**PreviousUpdateTickTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L72)
+### **PreviousUpdateTickTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L72)
 
 ```csharp
 GameTime_t PreviousUpdateTickTime { get; }
@@ -290,7 +290,7 @@ GameTime_t PreviousUpdateTickTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**PreviousValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L70)
+### **PreviousValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L70)
 
 ```csharp
 ref float PreviousValue { get; }
@@ -300,7 +300,7 @@ ref float PreviousValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RatchetOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L62)
+### **RatchetOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L62)
 
 ```csharp
 ref float RatchetOffset { get; }
@@ -310,7 +310,7 @@ ref float RatchetOffset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RatchetType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L60)
+### **RatchetType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L60)
 
 ```csharp
 ref ValueRemapperRatchetType_t RatchetType { get; }
@@ -320,7 +320,7 @@ ref ValueRemapperRatchetType_t RatchetType { get; }
 
 - [ValueRemapperRatchetType_t](/docs/api/shared/schemadefinitions/valueremapperratchettype_t)
 
-**RemapLineEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L28)
+### **RemapLineEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L28)
 
 ```csharp
 ref CHandle<CBaseEntity> RemapLineEnd { get; }
@@ -330,7 +330,7 @@ ref CHandle<CBaseEntity> RemapLineEnd { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**RemapLineEndName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L24)
+### **RemapLineEndName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L24)
 
 ```csharp
 string RemapLineEndName { get; set; }
@@ -340,7 +340,7 @@ string RemapLineEndName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**RemapLineStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L26)
+### **RemapLineStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L26)
 
 ```csharp
 ref CHandle<CBaseEntity> RemapLineStart { get; }
@@ -350,7 +350,7 @@ ref CHandle<CBaseEntity> RemapLineStart { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**RemapLineStartName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L22)
+### **RemapLineStartName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L22)
 
 ```csharp
 string RemapLineStartName { get; set; }
@@ -360,7 +360,7 @@ string RemapLineStartName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**RequiresUseKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L36)
+### **RequiresUseKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L36)
 
 ```csharp
 ref bool RequiresUseKey { get; }
@@ -370,7 +370,7 @@ ref bool RequiresUseKey { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SnapValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L56)
+### **SnapValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L56)
 
 ```csharp
 ref float SnapValue { get; }
@@ -380,7 +380,7 @@ ref float SnapValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SoundDisengage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L82)
+### **SoundDisengage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L82)
 
 ```csharp
 string SoundDisengage { get; set; }
@@ -390,7 +390,7 @@ string SoundDisengage { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SoundEngage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L80)
+### **SoundEngage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L80)
 
 ```csharp
 string SoundEngage { get; set; }
@@ -400,7 +400,7 @@ string SoundEngage { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SoundMovingLoop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L88)
+### **SoundMovingLoop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L88)
 
 ```csharp
 string SoundMovingLoop { get; set; }
@@ -410,7 +410,7 @@ string SoundMovingLoop { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SoundReachedValueOne** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L86)
+### **SoundReachedValueOne** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L86)
 
 ```csharp
 string SoundReachedValueOne { get; set; }
@@ -420,7 +420,7 @@ string SoundReachedValueOne { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SoundReachedValueZero** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L84)
+### **SoundReachedValueZero** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L84)
 
 ```csharp
 string SoundReachedValueZero { get; set; }
@@ -430,7 +430,7 @@ string SoundReachedValueZero { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**UpdateOnClient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L18)
+### **UpdateOnClient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L18)
 
 ```csharp
 ref bool UpdateOnClient { get; }
@@ -440,7 +440,7 @@ ref bool UpdateOnClient { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UsingPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L76)
+### **UsingPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L76)
 
 ```csharp
 ref CHandle<CBasePlayerPawn> UsingPlayer { get; }
@@ -452,103 +452,103 @@ ref CHandle<CBasePlayerPawn> UsingPlayer { get; }
 
 ## Methods
 
-**DisabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L106)
+### **DisabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L106)
 
 ```csharp
 void DisabledUpdated()
 ```
 
-**DisengageDistanceUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L112)
+### **DisengageDistanceUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L112)
 
 ```csharp
 void DisengageDistanceUpdated()
 ```
 
-**EngageDistanceUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L113)
+### **EngageDistanceUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L113)
 
 ```csharp
 void EngageDistanceUpdated()
 ```
 
-**HapticsTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L117)
+### **HapticsTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L117)
 
 ```csharp
 void HapticsTypeUpdated()
 ```
 
-**InputOffsetUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L122)
+### **InputOffsetUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L122)
 
 ```csharp
 void InputOffsetUpdated()
 ```
 
-**InputTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L108)
+### **InputTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L108)
 
 ```csharp
 void InputTypeUpdated()
 ```
 
-**MaximumChangePerSecondUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L111)
+### **MaximumChangePerSecondUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L111)
 
 ```csharp
 void MaximumChangePerSecondUpdated()
 ```
 
-**MomentumModifierUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L119)
+### **MomentumModifierUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L119)
 
 ```csharp
 void MomentumModifierUpdated()
 ```
 
-**MomentumTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L118)
+### **MomentumTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L118)
 
 ```csharp
 void MomentumTypeUpdated()
 ```
 
-**OutputEntitiesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L116)
+### **OutputEntitiesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L116)
 
 ```csharp
 void OutputEntitiesUpdated()
 ```
 
-**OutputTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L115)
+### **OutputTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L115)
 
 ```csharp
 void OutputTypeUpdated()
 ```
 
-**RatchetTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L121)
+### **RatchetTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L121)
 
 ```csharp
 void RatchetTypeUpdated()
 ```
 
-**RemapLineEndUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L110)
+### **RemapLineEndUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L110)
 
 ```csharp
 void RemapLineEndUpdated()
 ```
 
-**RemapLineStartUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L109)
+### **RemapLineStartUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L109)
 
 ```csharp
 void RemapLineStartUpdated()
 ```
 
-**RequiresUseKeyUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L114)
+### **RequiresUseKeyUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L114)
 
 ```csharp
 void RequiresUseKeyUpdated()
 ```
 
-**SnapValueUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L120)
+### **SnapValueUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L120)
 
 ```csharp
 void SnapValueUpdated()
 ```
 
-**UpdateOnClientUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L107)
+### **UpdateOnClientUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointValueRemapper.cs#L107)
 
 ```csharp
 void UpdateOnClientUpdated()

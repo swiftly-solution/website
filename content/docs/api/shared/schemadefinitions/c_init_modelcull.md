@@ -10,7 +10,7 @@ public interface C_INIT_ModelCull : CParticleFunctionInitializer, CParticleFunct
 
 ## Properties
 
-**BoundBox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ModelCull.cs#L18)
+### **BoundBox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ModelCull.cs#L18)
 
 ```csharp
 ref bool BoundBox { get; }
@@ -20,7 +20,7 @@ ref bool BoundBox { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ModelCull.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ModelCull.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -30,7 +30,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CullOutside** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ModelCull.cs#L20)
+### **CullOutside** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ModelCull.cs#L20)
 
 ```csharp
 ref bool CullOutside { get; }
@@ -40,7 +40,7 @@ ref bool CullOutside { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ModelCull.cs#L24)
+### **HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ModelCull.cs#L24)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -50,7 +50,7 @@ string HitboxSetName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**UseBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ModelCull.cs#L22)
+### **UseBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_ModelCull.cs#L22)
 
 ```csharp
 ref bool UseBones { get; }

@@ -10,7 +10,7 @@ public interface TournamentEvent : ITypedProtobuf<TournamentEvent>, INativeHandl
 
 ## Properties
 
-**ActiveSectionId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L37)
+### **ActiveSectionId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L37)
 
 ```csharp
 uint ActiveSectionId { get; set; }
@@ -20,7 +20,7 @@ uint ActiveSectionId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**EventId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L13)
+### **EventId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L13)
 
 ```csharp
 int EventId { get; set; }
@@ -30,7 +30,7 @@ int EventId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L19)
+### **EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L19)
 
 ```csharp
 string EventName { get; set; }
@@ -40,7 +40,7 @@ string EventName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EventPublic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L28)
+### **EventPublic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L28)
 
 ```csharp
 int EventPublic { get; set; }
@@ -50,7 +50,7 @@ int EventPublic { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EventStageId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L31)
+### **EventStageId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L31)
 
 ```csharp
 int EventStageId { get; set; }
@@ -60,7 +60,7 @@ int EventStageId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EventStageName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L34)
+### **EventStageName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L34)
 
 ```csharp
 string EventStageName { get; set; }
@@ -70,7 +70,7 @@ string EventStageName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EventTag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L16)
+### **EventTag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L16)
 
 ```csharp
 string EventTag { get; set; }
@@ -80,7 +80,7 @@ string EventTag { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**EventTimeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L25)
+### **EventTimeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L25)
 
 ```csharp
 uint EventTimeEnd { get; set; }
@@ -90,7 +90,7 @@ uint EventTimeEnd { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**EventTimeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L22)
+### **EventTimeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/TournamentEvent.cs#L22)
 
 ```csharp
 uint EventTimeStart { get; set; }

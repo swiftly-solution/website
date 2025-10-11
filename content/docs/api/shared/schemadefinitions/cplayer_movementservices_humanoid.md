@@ -10,7 +10,7 @@ public interface CPlayer_MovementServices_Humanoid : CPlayer_MovementServices, C
 
 ## Properties
 
-**CrouchState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L22)
+### **CrouchState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L22)
 
 ```csharp
 ref uint CrouchState { get; }
@@ -20,7 +20,7 @@ ref uint CrouchState { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**CrouchTransitionStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L24)
+### **CrouchTransitionStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L24)
 
 ```csharp
 GameTime_t CrouchTransitionStartTime { get; }
@@ -30,7 +30,7 @@ GameTime_t CrouchTransitionStartTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**Ducked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L26)
+### **Ducked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L26)
 
 ```csharp
 ref bool Ducked { get; }
@@ -40,7 +40,7 @@ ref bool Ducked { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Ducking** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L28)
+### **Ducking** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L28)
 
 ```csharp
 ref bool Ducking { get; }
@@ -50,7 +50,7 @@ ref bool Ducking { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FallVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L18)
+### **FallVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L18)
 
 ```csharp
 ref float FallVelocity { get; }
@@ -60,7 +60,7 @@ ref float FallVelocity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GroundNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L32)
+### **GroundNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L32)
 
 ```csharp
 ref Vector GroundNormal { get; }
@@ -70,7 +70,7 @@ ref Vector GroundNormal { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**InCrouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L20)
+### **InCrouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L20)
 
 ```csharp
 ref bool InCrouch { get; }
@@ -80,7 +80,7 @@ ref bool InCrouch { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InDuckJump** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L30)
+### **InDuckJump** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L30)
 
 ```csharp
 ref bool InDuckJump { get; }
@@ -90,7 +90,7 @@ ref bool InDuckJump { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SmoothedVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L40)
+### **SmoothedVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L40)
 
 ```csharp
 ref Vector SmoothedVelocity { get; }
@@ -100,7 +100,7 @@ ref Vector SmoothedVelocity { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**StepSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L16)
+### **StepSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L16)
 
 ```csharp
 ref float StepSoundTime { get; }
@@ -110,7 +110,7 @@ ref float StepSoundTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Stepside** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L38)
+### **Stepside** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L38)
 
 ```csharp
 ref int Stepside { get; }
@@ -120,7 +120,7 @@ ref int Stepside { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SurfaceFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L34)
+### **SurfaceFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L34)
 
 ```csharp
 ref float SurfaceFriction { get; }
@@ -130,7 +130,7 @@ ref float SurfaceFriction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SurfaceProps** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L36)
+### **SurfaceProps** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L36)
 
 ```csharp
 ref CUtlStringToken SurfaceProps { get; }
@@ -142,43 +142,43 @@ ref CUtlStringToken SurfaceProps { get; }
 
 ## Methods
 
-**CrouchStateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L44)
+### **CrouchStateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L44)
 
 ```csharp
 void CrouchStateUpdated()
 ```
 
-**CrouchTransitionStartTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L45)
+### **CrouchTransitionStartTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L45)
 
 ```csharp
 void CrouchTransitionStartTimeUpdated()
 ```
 
-**DuckedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L46)
+### **DuckedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L46)
 
 ```csharp
 void DuckedUpdated()
 ```
 
-**DuckingUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L47)
+### **DuckingUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L47)
 
 ```csharp
 void DuckingUpdated()
 ```
 
-**FallVelocityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L42)
+### **FallVelocityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L42)
 
 ```csharp
 void FallVelocityUpdated()
 ```
 
-**InCrouchUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L43)
+### **InCrouchUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L43)
 
 ```csharp
 void InCrouchUpdated()
 ```
 
-**InDuckJumpUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L48)
+### **InDuckJumpUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayer_MovementServices_Humanoid.cs#L48)
 
 ```csharp
 void InDuckJumpUpdated()

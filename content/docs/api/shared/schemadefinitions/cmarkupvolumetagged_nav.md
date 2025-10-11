@@ -10,7 +10,7 @@ public interface CMarkupVolumeTagged_Nav : CMarkupVolumeTagged, CMarkupVolume, C
 
 ## Properties
 
-**Scopes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_Nav.cs#L16)
+### **Scopes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeTagged_Nav.cs#L16)
 
 ```csharp
 ref NavScopeFlags_t Scopes { get; }

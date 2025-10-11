@@ -10,7 +10,7 @@ public interface C_INIT_InitialVelocityFromHitbox : CParticleFunctionInitializer
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitialVelocityFromHitbox.cs#L20)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitialVelocityFromHitbox.cs#L20)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitialVelocityFromHitbox.cs#L22)
+### **HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitialVelocityFromHitbox.cs#L22)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -30,7 +30,7 @@ string HitboxSetName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**UseBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitialVelocityFromHitbox.cs#L24)
+### **UseBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitialVelocityFromHitbox.cs#L24)
 
 ```csharp
 ref bool UseBones { get; }
@@ -40,7 +40,7 @@ ref bool UseBones { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**VelocityMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitialVelocityFromHitbox.cs#L18)
+### **VelocityMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitialVelocityFromHitbox.cs#L18)
 
 ```csharp
 ref float VelocityMax { get; }
@@ -50,7 +50,7 @@ ref float VelocityMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**VelocityMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitialVelocityFromHitbox.cs#L16)
+### **VelocityMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitialVelocityFromHitbox.cs#L16)
 
 ```csharp
 ref float VelocityMin { get; }

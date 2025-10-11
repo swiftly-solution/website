@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntr
 
 ## Properties
 
-**Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntry.cs#L13)
+### **Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntry.cs#L13)
 
 ```csharp
 uint Accountid { get; set; }
@@ -20,7 +20,7 @@ uint Accountid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Gifts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntry.cs#L16)
+### **Gifts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntry.cs#L16)
 
 ```csharp
 uint Gifts { get; set; }

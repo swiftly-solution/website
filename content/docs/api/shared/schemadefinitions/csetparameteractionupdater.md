@@ -10,7 +10,7 @@ public interface CSetParameterActionUpdater : CAnimActionUpdater, ISchemaClass<C
 
 ## Properties
 
-**Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSetParameterActionUpdater.cs#L16)
+### **Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSetParameterActionUpdater.cs#L16)
 
 ```csharp
 CAnimParamHandle Param { get; }
@@ -20,7 +20,7 @@ CAnimParamHandle Param { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSetParameterActionUpdater.cs#L19)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSetParameterActionUpdater.cs#L19)
 
 ```csharp
 SchemaUntypedField Value { get; }

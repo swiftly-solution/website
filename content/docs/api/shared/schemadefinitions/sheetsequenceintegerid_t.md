@@ -10,7 +10,7 @@ public interface SheetSequenceIntegerId_t : ISchemaClass<SheetSequenceIntegerId_
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SheetSequenceIntegerId_t.cs#L16)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SheetSequenceIntegerId_t.cs#L16)
 
 ```csharp
 ref uint Value { get; }

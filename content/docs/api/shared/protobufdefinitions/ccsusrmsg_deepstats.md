@@ -10,7 +10,7 @@ public interface CCSUsrMsg_DeepStats : ITypedProtobuf<CCSUsrMsg_DeepStats>, INat
 
 ## Properties
 
-**Stats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DeepStats.cs#L18)
+### **Stats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DeepStats.cs#L18)
 
 ```csharp
 CMsgGCCStrike15_ClientDeepStats Stats { get; }

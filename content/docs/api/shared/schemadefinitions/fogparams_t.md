@@ -10,7 +10,7 @@ public interface fogparams_t : ISchemaClass<fogparams_t>, ISchemaField, ISchemaC
 
 ## Properties
 
-**Blend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L60)
+### **Blend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L60)
 
 ```csharp
 ref bool Blend { get; }
@@ -20,7 +20,7 @@ ref bool Blend { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Blendtobackground** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L52)
+### **Blendtobackground** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L52)
 
 ```csharp
 ref float Blendtobackground { get; }
@@ -30,7 +30,7 @@ ref float Blendtobackground { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ColorPrimary** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L18)
+### **ColorPrimary** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L18)
 
 ```csharp
 ref Color ColorPrimary { get; }
@@ -40,7 +40,7 @@ ref Color ColorPrimary { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**ColorPrimaryLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L22)
+### **ColorPrimaryLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L22)
 
 ```csharp
 ref Color ColorPrimaryLerpTo { get; }
@@ -50,7 +50,7 @@ ref Color ColorPrimaryLerpTo { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**ColorSecondary** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L20)
+### **ColorSecondary** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L20)
 
 ```csharp
 ref Color ColorSecondary { get; }
@@ -60,7 +60,7 @@ ref Color ColorSecondary { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**ColorSecondaryLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L24)
+### **ColorSecondaryLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L24)
 
 ```csharp
 ref Color ColorSecondaryLerpTo { get; }
@@ -70,7 +70,7 @@ ref Color ColorSecondaryLerpTo { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**DirPrimary** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L16)
+### **DirPrimary** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L16)
 
 ```csharp
 ref Vector DirPrimary { get; }
@@ -80,7 +80,7 @@ ref Vector DirPrimary { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L50)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L50)
 
 ```csharp
 ref float Duration { get; }
@@ -90,7 +90,7 @@ ref float Duration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Enable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L58)
+### **Enable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L58)
 
 ```csharp
 ref bool Enable { get; }
@@ -100,7 +100,7 @@ ref bool Enable { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L28)
+### **End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L28)
 
 ```csharp
 ref float End { get; }
@@ -110,7 +110,7 @@ ref float End { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L44)
+### **EndLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L44)
 
 ```csharp
 ref float EndLerpTo { get; }
@@ -120,7 +120,7 @@ ref float EndLerpTo { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Exponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L34)
+### **Exponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L34)
 
 ```csharp
 ref float Exponent { get; }
@@ -130,7 +130,7 @@ ref float Exponent { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Farz** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L30)
+### **Farz** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L30)
 
 ```csharp
 ref float Farz { get; }
@@ -140,7 +140,7 @@ ref float Farz { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HDRColorScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L36)
+### **HDRColorScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L36)
 
 ```csharp
 ref float HDRColorScale { get; }
@@ -150,7 +150,7 @@ ref float HDRColorScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Lerptime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L48)
+### **Lerptime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L48)
 
 ```csharp
 GameTime_t Lerptime { get; }
@@ -160,7 +160,7 @@ GameTime_t Lerptime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**Locallightscale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L56)
+### **Locallightscale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L56)
 
 ```csharp
 ref float Locallightscale { get; }
@@ -170,7 +170,7 @@ ref float Locallightscale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Maxdensity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L32)
+### **Maxdensity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L32)
 
 ```csharp
 ref float Maxdensity { get; }
@@ -180,7 +180,7 @@ ref float Maxdensity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxdensityLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L46)
+### **MaxdensityLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L46)
 
 ```csharp
 ref float MaxdensityLerpTo { get; }
@@ -190,7 +190,7 @@ ref float MaxdensityLerpTo { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Padding** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L64)
+### **Padding** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L64)
 
 ```csharp
 ref bool Padding { get; }
@@ -200,7 +200,7 @@ ref bool Padding { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Padding2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L62)
+### **Padding2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L62)
 
 ```csharp
 ref bool Padding2 { get; }
@@ -210,7 +210,7 @@ ref bool Padding2 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Scattering** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L54)
+### **Scattering** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L54)
 
 ```csharp
 ref float Scattering { get; }
@@ -220,7 +220,7 @@ ref float Scattering { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SkyboxFogFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L38)
+### **SkyboxFogFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L38)
 
 ```csharp
 ref float SkyboxFogFactor { get; }
@@ -230,7 +230,7 @@ ref float SkyboxFogFactor { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SkyboxFogFactorLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L40)
+### **SkyboxFogFactorLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L40)
 
 ```csharp
 ref float SkyboxFogFactorLerpTo { get; }
@@ -240,7 +240,7 @@ ref float SkyboxFogFactorLerpTo { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L26)
+### **Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L26)
 
 ```csharp
 ref float Start { get; }
@@ -250,7 +250,7 @@ ref float Start { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StartLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L42)
+### **StartLerpTo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L42)
 
 ```csharp
 ref float StartLerpTo { get; }
@@ -262,139 +262,139 @@ ref float StartLerpTo { get; }
 
 ## Methods
 
-**BlendUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L88)
+### **BlendUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L88)
 
 ```csharp
 void BlendUpdated()
 ```
 
-**BlendtobackgroundUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L84)
+### **BlendtobackgroundUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L84)
 
 ```csharp
 void BlendtobackgroundUpdated()
 ```
 
-**ColorPrimaryLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L69)
+### **ColorPrimaryLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L69)
 
 ```csharp
 void ColorPrimaryLerpToUpdated()
 ```
 
-**ColorPrimaryUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L67)
+### **ColorPrimaryUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L67)
 
 ```csharp
 void ColorPrimaryUpdated()
 ```
 
-**ColorSecondaryLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L70)
+### **ColorSecondaryLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L70)
 
 ```csharp
 void ColorSecondaryLerpToUpdated()
 ```
 
-**ColorSecondaryUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L68)
+### **ColorSecondaryUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L68)
 
 ```csharp
 void ColorSecondaryUpdated()
 ```
 
-**DirPrimaryUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L66)
+### **DirPrimaryUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L66)
 
 ```csharp
 void DirPrimaryUpdated()
 ```
 
-**DurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L83)
+### **DurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L83)
 
 ```csharp
 void DurationUpdated()
 ```
 
-**EnableUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L87)
+### **EnableUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L87)
 
 ```csharp
 void EnableUpdated()
 ```
 
-**EndLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L80)
+### **EndLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L80)
 
 ```csharp
 void EndLerpToUpdated()
 ```
 
-**EndUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L72)
+### **EndUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L72)
 
 ```csharp
 void EndUpdated()
 ```
 
-**ExponentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L75)
+### **ExponentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L75)
 
 ```csharp
 void ExponentUpdated()
 ```
 
-**FarzUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L73)
+### **FarzUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L73)
 
 ```csharp
 void FarzUpdated()
 ```
 
-**HDRColorScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L76)
+### **HDRColorScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L76)
 
 ```csharp
 void HDRColorScaleUpdated()
 ```
 
-**LerptimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L82)
+### **LerptimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L82)
 
 ```csharp
 void LerptimeUpdated()
 ```
 
-**LocallightscaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L86)
+### **LocallightscaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L86)
 
 ```csharp
 void LocallightscaleUpdated()
 ```
 
-**MaxdensityLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L81)
+### **MaxdensityLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L81)
 
 ```csharp
 void MaxdensityLerpToUpdated()
 ```
 
-**MaxdensityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L74)
+### **MaxdensityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L74)
 
 ```csharp
 void MaxdensityUpdated()
 ```
 
-**ScatteringUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L85)
+### **ScatteringUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L85)
 
 ```csharp
 void ScatteringUpdated()
 ```
 
-**SkyboxFogFactorLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L78)
+### **SkyboxFogFactorLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L78)
 
 ```csharp
 void SkyboxFogFactorLerpToUpdated()
 ```
 
-**SkyboxFogFactorUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L77)
+### **SkyboxFogFactorUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L77)
 
 ```csharp
 void SkyboxFogFactorUpdated()
 ```
 
-**StartLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L79)
+### **StartLerpToUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L79)
 
 ```csharp
 void StartLerpToUpdated()
 ```
 
-**StartUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L71)
+### **StartUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/fogparams_t.cs#L71)
 
 ```csharp
 void StartUpdated()

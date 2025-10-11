@@ -10,7 +10,7 @@ public interface CBtActionCombatPositioning : CBtNode, ISchemaClass<CBtNode>, IS
 
 ## Properties
 
-**ActionTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L20)
+### **ActionTimer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L20)
 
 ```csharp
 CountdownTimer ActionTimer { get; }
@@ -20,7 +20,7 @@ CountdownTimer ActionTimer { get; }
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
-**Crouching** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L22)
+### **Crouching** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L22)
 
 ```csharp
 ref bool Crouching { get; }
@@ -30,7 +30,7 @@ ref bool Crouching { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsAttackingKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L18)
+### **IsAttackingKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L18)
 
 ```csharp
 string IsAttackingKey { get; set; }
@@ -40,7 +40,7 @@ string IsAttackingKey { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SensorInputKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L16)
+### **SensorInputKey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBtActionCombatPositioning.cs#L16)
 
 ```csharp
 string SensorInputKey { get; set; }

@@ -14,7 +14,7 @@ public class SchemaUntypedField : ISchemaClass<SchemaUntypedField>, ISchemaField
 
 ## Constructors
 
-**SchemaUntypedField(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L12)
+### **SchemaUntypedField(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L12)
 
 ```csharp
 public SchemaUntypedField(nint handle)
@@ -26,7 +26,7 @@ public SchemaUntypedField(nint handle)
 
 ## Properties
 
-**Address** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L20)
+### **Address** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L20)
 
 ```csharp
 public nint Address { get; }
@@ -36,7 +36,7 @@ public nint Address { get; }
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-**IsValid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L10)
+### **IsValid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L10)
 
 ```csharp
 public bool IsValid { get; }
@@ -48,7 +48,7 @@ public bool IsValid { get; }
 
 ## Methods
 
-**From(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L16)
+### **From(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L16)
 
 ```csharp
 public static SchemaUntypedField From(nint handle)

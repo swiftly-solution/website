@@ -10,7 +10,7 @@ public interface C_OP_MovementMaintainOffset : CParticleFunctionOperator, CParti
 
 ## Properties
 
-**CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMaintainOffset.cs#L18)
+### **CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMaintainOffset.cs#L18)
 
 ```csharp
 ref int CP { get; }
@@ -20,7 +20,7 @@ ref int CP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMaintainOffset.cs#L16)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMaintainOffset.cs#L16)
 
 ```csharp
 ref Vector Offset { get; }
@@ -30,7 +30,7 @@ ref Vector Offset { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMaintainOffset.cs#L20)
+### **RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementMaintainOffset.cs#L20)
 
 ```csharp
 ref bool RadiusScale { get; }

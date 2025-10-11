@@ -10,7 +10,7 @@ public interface CPhysConstraint : CLogicalEntity, CServerOnlyEntity, CBaseEntit
 
 ## Properties
 
-**Attach1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L20)
+### **Attach1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L20)
 
 ```csharp
 ref CHandle<CBaseEntity> Attach1 { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> Attach1 { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**Attach2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L22)
+### **Attach2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L22)
 
 ```csharp
 ref CHandle<CBaseEntity> Attach2 { get; }
@@ -30,7 +30,7 @@ ref CHandle<CBaseEntity> Attach2 { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**BreakSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L28)
+### **BreakSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L28)
 
 ```csharp
 string BreakSound { get; set; }
@@ -40,7 +40,7 @@ string BreakSound { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ForceLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L30)
+### **ForceLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L30)
 
 ```csharp
 ref float ForceLimit { get; }
@@ -50,7 +50,7 @@ ref float ForceLimit { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinTeleportDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L34)
+### **MinTeleportDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L34)
 
 ```csharp
 ref float MinTeleportDistance { get; }
@@ -60,7 +60,7 @@ ref float MinTeleportDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NameAttach1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L16)
+### **NameAttach1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L16)
 
 ```csharp
 string NameAttach1 { get; set; }
@@ -70,7 +70,7 @@ string NameAttach1 { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NameAttach2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L18)
+### **NameAttach2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L18)
 
 ```csharp
 string NameAttach2 { get; set; }
@@ -80,7 +80,7 @@ string NameAttach2 { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NameAttachment1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L24)
+### **NameAttachment1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L24)
 
 ```csharp
 string NameAttachment1 { get; set; }
@@ -90,7 +90,7 @@ string NameAttachment1 { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NameAttachment2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L26)
+### **NameAttachment2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L26)
 
 ```csharp
 string NameAttachment2 { get; set; }
@@ -100,7 +100,7 @@ string NameAttachment2 { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OnBreak** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L38)
+### **OnBreak** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L38)
 
 ```csharp
 CEntityIOOutput OnBreak { get; }
@@ -110,7 +110,7 @@ CEntityIOOutput OnBreak { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**SnapObjectPositions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L36)
+### **SnapObjectPositions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L36)
 
 ```csharp
 ref bool SnapObjectPositions { get; }
@@ -120,7 +120,7 @@ ref bool SnapObjectPositions { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TorqueLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L32)
+### **TorqueLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysConstraint.cs#L32)
 
 ```csharp
 ref float TorqueLimit { get; }

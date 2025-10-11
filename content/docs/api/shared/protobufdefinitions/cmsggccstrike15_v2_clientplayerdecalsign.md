@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_ClientPlayerDecalSign : ITypedProtobuf<CMsgG
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPlayerDecalSign.cs#L13)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPlayerDecalSign.cs#L13)
 
 ```csharp
 PlayerDecalDigitalSignature Data { get; }
@@ -20,7 +20,7 @@ PlayerDecalDigitalSignature Data { get; }
 
 - [PlayerDecalDigitalSignature](/docs/api/shared/protobufdefinitions/playerdecaldigitalsignature)
 
-**Itemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPlayerDecalSign.cs#L16)
+### **Itemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientPlayerDecalSign.cs#L16)
 
 ```csharp
 ulong Itemid { get; set; }

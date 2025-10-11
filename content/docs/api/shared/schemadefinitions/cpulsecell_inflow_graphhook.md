@@ -10,7 +10,7 @@ public interface CPulseCell_Inflow_GraphHook : CPulseCell_Inflow_BaseEntrypoint,
 
 ## Properties
 
-**HookName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_GraphHook.cs#L17)
+### **HookName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_GraphHook.cs#L17)
 
 ```csharp
 SchemaUntypedField HookName { get; }

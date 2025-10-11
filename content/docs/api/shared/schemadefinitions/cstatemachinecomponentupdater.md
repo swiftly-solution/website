@@ -10,7 +10,7 @@ public interface CStateMachineComponentUpdater : CAnimComponentUpdater, ISchemaC
 
 ## Properties
 
-**StateMachine** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineComponentUpdater.cs#L16)
+### **StateMachine** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CStateMachineComponentUpdater.cs#L16)
 
 ```csharp
 CAnimStateMachineUpdater StateMachine { get; }

@@ -10,7 +10,7 @@ public interface CScriptTriggerMultiple : CTriggerMultiple, CBaseTrigger, CBaseT
 
 ## Properties
 
-**Extent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptTriggerMultiple.cs#L16)
+### **Extent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptTriggerMultiple.cs#L16)
 
 ```csharp
 ref Vector Extent { get; }

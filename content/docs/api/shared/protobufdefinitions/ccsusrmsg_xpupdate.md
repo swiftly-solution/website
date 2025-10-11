@@ -10,7 +10,7 @@ public interface CCSUsrMsg_XpUpdate : ITypedProtobuf<CCSUsrMsg_XpUpdate>, INativ
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_XpUpdate.cs#L18)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_XpUpdate.cs#L18)
 
 ```csharp
 CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded Data { get; }

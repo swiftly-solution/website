@@ -10,7 +10,7 @@ public interface CNmFloatCurveNode__CDefinition : CNmFloatValueNode__CDefinition
 
 ## Properties
 
-**Curve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveNode__CDefinition.cs#L19)
+### **Curve** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveNode__CDefinition.cs#L19)
 
 ```csharp
 SchemaUntypedField Curve { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Curve { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveNode__CDefinition.cs#L16)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputValueNodeIdx { get; }

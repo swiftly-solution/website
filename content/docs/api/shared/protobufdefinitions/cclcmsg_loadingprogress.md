@@ -10,7 +10,7 @@ public interface CCLCMsg_LoadingProgress : ITypedProtobuf<CCLCMsg_LoadingProgres
 
 ## Properties
 
-**Progress** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_LoadingProgress.cs#L18)
+### **Progress** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_LoadingProgress.cs#L18)
 
 ```csharp
 int Progress { get; set; }

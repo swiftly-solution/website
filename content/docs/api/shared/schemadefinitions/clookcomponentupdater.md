@@ -10,7 +10,7 @@ public interface CLookComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAn
 
 ## Properties
 
-**LookDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L26)
+### **LookDirection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L26)
 
 ```csharp
 CAnimParamHandle LookDirection { get; }
@@ -20,7 +20,7 @@ CAnimParamHandle LookDirection { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**LookDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L24)
+### **LookDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L24)
 
 ```csharp
 CAnimParamHandle LookDistance { get; }
@@ -30,7 +30,7 @@ CAnimParamHandle LookDistance { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**LookHeading** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L16)
+### **LookHeading** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L16)
 
 ```csharp
 CAnimParamHandle LookHeading { get; }
@@ -40,7 +40,7 @@ CAnimParamHandle LookHeading { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**LookHeadingNormalized** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L18)
+### **LookHeadingNormalized** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L18)
 
 ```csharp
 CAnimParamHandle LookHeadingNormalized { get; }
@@ -50,7 +50,7 @@ CAnimParamHandle LookHeadingNormalized { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**LookHeadingVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L20)
+### **LookHeadingVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L20)
 
 ```csharp
 CAnimParamHandle LookHeadingVelocity { get; }
@@ -60,7 +60,7 @@ CAnimParamHandle LookHeadingVelocity { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**LookPitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L22)
+### **LookPitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L22)
 
 ```csharp
 CAnimParamHandle LookPitch { get; }
@@ -70,7 +70,7 @@ CAnimParamHandle LookPitch { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**LookTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L28)
+### **LookTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L28)
 
 ```csharp
 CAnimParamHandle LookTarget { get; }
@@ -80,7 +80,7 @@ CAnimParamHandle LookTarget { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**LookTargetWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L30)
+### **LookTargetWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L30)
 
 ```csharp
 CAnimParamHandle LookTargetWorldSpace { get; }
@@ -90,7 +90,7 @@ CAnimParamHandle LookTargetWorldSpace { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**NetworkLookTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L32)
+### **NetworkLookTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLookComponentUpdater.cs#L32)
 
 ```csharp
 ref bool NetworkLookTarget { get; }

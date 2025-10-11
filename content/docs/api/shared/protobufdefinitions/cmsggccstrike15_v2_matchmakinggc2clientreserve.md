@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve : ITypedProtobuf
 
 ## Properties
 
-**DirectUdpIp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L16)
+### **DirectUdpIp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L16)
 
 ```csharp
 uint DirectUdpIp { get; set; }
@@ -20,7 +20,7 @@ uint DirectUdpIp { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**DirectUdpPort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L19)
+### **DirectUdpPort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L19)
 
 ```csharp
 uint DirectUdpPort { get; set; }
@@ -30,7 +30,7 @@ uint DirectUdpPort { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**GsLocationId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L37)
+### **GsLocationId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L37)
 
 ```csharp
 uint GsLocationId { get; set; }
@@ -40,7 +40,7 @@ uint GsLocationId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**GsPing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L34)
+### **GsPing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L34)
 
 ```csharp
 DataCenterPing GsPing { get; }
@@ -50,7 +50,7 @@ DataCenterPing GsPing { get; }
 
 - [DataCenterPing](/docs/api/shared/protobufdefinitions/datacenterping)
 
-**Map** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L28)
+### **Map** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L28)
 
 ```csharp
 string Map { get; set; }
@@ -60,7 +60,7 @@ string Map { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Reservation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L25)
+### **Reservation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L25)
 
 ```csharp
 CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve Reservation { get; }
@@ -70,7 +70,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve Reservation { get; }
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2serverreserve)
 
-**Reservationid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L22)
+### **Reservationid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L22)
 
 ```csharp
 ulong Reservationid { get; set; }
@@ -80,7 +80,7 @@ ulong Reservationid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**ServerAddress** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L31)
+### **ServerAddress** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L31)
 
 ```csharp
 string ServerAddress { get; set; }
@@ -90,7 +90,7 @@ string ServerAddress { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Serverid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L13)
+### **Serverid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve.cs#L13)
 
 ```csharp
 ulong Serverid { get; set; }

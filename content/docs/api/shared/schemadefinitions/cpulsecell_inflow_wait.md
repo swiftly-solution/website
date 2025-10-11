@@ -10,7 +10,7 @@ public interface CPulseCell_Inflow_Wait : CPulseCell_BaseYieldingInflow, CPulseC
 
 ## Properties
 
-**WakeResume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Wait.cs#L16)
+### **WakeResume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Wait.cs#L16)
 
 ```csharp
 CPulse_ResumePoint WakeResume { get; }

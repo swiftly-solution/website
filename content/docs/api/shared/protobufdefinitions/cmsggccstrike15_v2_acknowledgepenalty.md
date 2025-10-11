@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_AcknowledgePenalty : ITypedProtobuf<CMsgGCCS
 
 ## Properties
 
-**Acknowledged** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_AcknowledgePenalty.cs#L13)
+### **Acknowledged** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_AcknowledgePenalty.cs#L13)
 
 ```csharp
 int Acknowledged { get; set; }

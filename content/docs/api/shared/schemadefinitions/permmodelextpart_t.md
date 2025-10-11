@@ -10,7 +10,7 @@ public interface PermModelExtPart_t : ISchemaClass<PermModelExtPart_t>, ISchemaF
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L18)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L18)
 
 ```csharp
 string Name { get; set; }
@@ -20,7 +20,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Parent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L20)
+### **Parent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L20)
 
 ```csharp
 ref int Parent { get; }
@@ -30,7 +30,7 @@ ref int Parent { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RefModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L22)
+### **RefModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L22)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> RefModel { get; }
@@ -40,7 +40,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> RefModel { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
-**Transform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L16)
+### **Transform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermModelExtPart_t.cs#L16)
 
 ```csharp
 ref CTransform Transform { get; }

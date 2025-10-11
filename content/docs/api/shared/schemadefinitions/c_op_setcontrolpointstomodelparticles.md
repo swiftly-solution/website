@@ -10,7 +10,7 @@ public interface C_OP_SetControlPointsToModelParticles : CParticleFunctionOperat
 
 ## Properties
 
-**Attachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L28)
+### **Attachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L28)
 
 ```csharp
 ref bool Attachment { get; }
@@ -20,7 +20,7 @@ ref bool Attachment { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AttachmentName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L18)
+### **AttachmentName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L18)
 
 ```csharp
 string AttachmentName { get; set; }
@@ -30,7 +30,7 @@ string AttachmentName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**FirstControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L20)
+### **FirstControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L20)
 
 ```csharp
 ref int FirstControlPoint { get; }
@@ -40,7 +40,7 @@ ref int FirstControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FirstSourcePoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L24)
+### **FirstSourcePoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L24)
 
 ```csharp
 ref int FirstSourcePoint { get; }
@@ -50,7 +50,7 @@ ref int FirstSourcePoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L16)
+### **HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L16)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -60,7 +60,7 @@ string HitboxSetName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NumControlPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L22)
+### **NumControlPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L22)
 
 ```csharp
 ref int NumControlPoints { get; }
@@ -70,7 +70,7 @@ ref int NumControlPoints { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Skin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L26)
+### **Skin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetControlPointsToModelParticles.cs#L26)
 
 ```csharp
 ref bool Skin { get; }

@@ -10,7 +10,7 @@ public interface CPointHurt : CPointEntity, CBaseEntity, CEntityInstance, ISchem
 
 ## Properties
 
-**Activator** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L26)
+### **Activator** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L26)
 
 ```csharp
 ref CHandle<CBaseEntity> Activator { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> Activator { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**BitsDamageType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L18)
+### **BitsDamageType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L18)
 
 ```csharp
 ref DamageTypes_t BitsDamageType { get; }
@@ -30,7 +30,7 @@ ref DamageTypes_t BitsDamageType { get; }
 
 - [DamageTypes_t](/docs/api/shared/schemadefinitions/damagetypes_t)
 
-**Damage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L16)
+### **Damage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L16)
 
 ```csharp
 ref int Damage { get; }
@@ -40,7 +40,7 @@ ref int Damage { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Delay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L22)
+### **Delay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L22)
 
 ```csharp
 ref float Delay { get; }
@@ -50,7 +50,7 @@ ref float Delay { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L20)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L20)
 
 ```csharp
 ref float Radius { get; }
@@ -60,7 +60,7 @@ ref float Radius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StrTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L24)
+### **StrTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointHurt.cs#L24)
 
 ```csharp
 string StrTarget { get; set; }

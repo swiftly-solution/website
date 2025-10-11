@@ -10,7 +10,7 @@ public interface CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute : I
 
 ## Properties
 
-**Attribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute.cs#L13)
+### **Attribute** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute.cs#L13)
 
 ```csharp
 uint Attribute { get; set; }
@@ -20,7 +20,7 @@ uint Attribute { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute.cs#L16)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute.cs#L16)
 
 ```csharp
 ulong Value { get; set; }

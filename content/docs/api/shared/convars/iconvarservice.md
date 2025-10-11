@@ -8,7 +8,7 @@ public interface IConVarService
 
 ## Methods
 
-**Create<T>(string, string, T, ConvarFlags)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L23)
+### **Create<T>(string, string, T, ConvarFlags)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L23)
 
 ```csharp
 IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, ConvarFlags flags = ConvarFlags.NONE)
@@ -29,7 +29,7 @@ IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, ConvarFlag
 
 - **T**:  - The type of the convar.
 
-**Create<T>(string, string, T, T?, T?, ConvarFlags)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L36)
+### **Create<T>(string, string, T, T?, T?, ConvarFlags)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L36)
 
 ```csharp
 IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, T? minValue = null, T? maxValue = null, ConvarFlags flags = ConvarFlags.NONE) where T : unmanaged
@@ -52,7 +52,7 @@ IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, T? minValu
 
 - **T**:  - The type of the convar.
 
-**Find<T>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L11)
+### **Find<T>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L11)
 
 ```csharp
 IConVar<T>? Find<T>(string name)

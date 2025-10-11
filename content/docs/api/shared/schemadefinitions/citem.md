@@ -10,7 +10,7 @@ public interface CItem : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityI
 
 ## Properties
 
-**ActivateWhenAtRest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L20)
+### **ActivateWhenAtRest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L20)
 
 ```csharp
 ref bool ActivateWhenAtRest { get; }
@@ -20,7 +20,7 @@ ref bool ActivateWhenAtRest { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OnCacheInteraction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L22)
+### **OnCacheInteraction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L22)
 
 ```csharp
 CEntityIOOutput OnCacheInteraction { get; }
@@ -30,7 +30,7 @@ CEntityIOOutput OnCacheInteraction { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnGlovePulled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L24)
+### **OnGlovePulled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L24)
 
 ```csharp
 CEntityIOOutput OnGlovePulled { get; }
@@ -40,7 +40,7 @@ CEntityIOOutput OnGlovePulled { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnPlayerPickup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L18)
+### **OnPlayerPickup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L18)
 
 ```csharp
 CEntityIOOutput OnPlayerPickup { get; }
@@ -50,7 +50,7 @@ CEntityIOOutput OnPlayerPickup { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnPlayerTouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L16)
+### **OnPlayerTouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L16)
 
 ```csharp
 CEntityIOOutput OnPlayerTouch { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnPlayerTouch { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OriginalSpawnAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L28)
+### **OriginalSpawnAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L28)
 
 ```csharp
 ref QAngle OriginalSpawnAngles { get; }
@@ -70,7 +70,7 @@ ref QAngle OriginalSpawnAngles { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**OriginalSpawnOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L26)
+### **OriginalSpawnOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L26)
 
 ```csharp
 ref Vector OriginalSpawnOrigin { get; }
@@ -80,7 +80,7 @@ ref Vector OriginalSpawnOrigin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**PhysStartAsleep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L30)
+### **PhysStartAsleep** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItem.cs#L30)
 
 ```csharp
 ref bool PhysStartAsleep { get; }

@@ -10,7 +10,7 @@ public interface CSoundEventPathCornerEntity : CSoundEventEntity, CBaseEntity, C
 
 ## Properties
 
-**CornerPairsNetworked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L29)
+### **CornerPairsNetworked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L29)
 
 ```csharp
 ref CUtlVector CornerPairsNetworked { get; }
@@ -18,9 +18,9 @@ ref CUtlVector CornerPairsNetworked { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**CountMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L18)
+### **CountMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L18)
 
 ```csharp
 ref int CountMax { get; }
@@ -30,7 +30,7 @@ ref int CountMax { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DistMaxSqr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L22)
+### **DistMaxSqr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L22)
 
 ```csharp
 ref float DistMaxSqr { get; }
@@ -40,7 +40,7 @@ ref float DistMaxSqr { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DistanceMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L20)
+### **DistanceMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L20)
 
 ```csharp
 ref float DistanceMax { get; }
@@ -50,7 +50,7 @@ ref float DistanceMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DotProductMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L24)
+### **DotProductMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L24)
 
 ```csharp
 ref float DotProductMax { get; }
@@ -60,7 +60,7 @@ ref float DotProductMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PathCorner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L16)
+### **PathCorner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L16)
 
 ```csharp
 string PathCorner { get; set; }
@@ -70,7 +70,7 @@ string PathCorner { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Playing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L26)
+### **Playing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L26)
 
 ```csharp
 ref bool Playing { get; }
@@ -82,7 +82,7 @@ ref bool Playing { get; }
 
 ## Methods
 
-**CornerPairsNetworkedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L31)
+### **CornerPairsNetworkedUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventPathCornerEntity.cs#L31)
 
 ```csharp
 void CornerPairsNetworkedUpdated()

@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_SetParticleShouldCheckFoW : ITypedProt
 
 ## Properties
 
-**CheckFow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleShouldCheckFoW.cs#L13)
+### **CheckFow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleShouldCheckFoW.cs#L13)
 
 ```csharp
 bool CheckFow { get; set; }

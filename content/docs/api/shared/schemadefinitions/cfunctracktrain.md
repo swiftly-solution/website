@@ -10,7 +10,7 @@ public interface CFuncTrackTrain : CBaseModelEntity, CBaseEntity, CEntityInstanc
 
 ## Properties
 
-**AccelSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L82)
+### **AccelSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L82)
 
 ```csharp
 ref float AccelSpeed { get; }
@@ -20,7 +20,7 @@ ref float AccelSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AccelToSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L86)
+### **AccelToSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L86)
 
 ```csharp
 ref bool AccelToSpeed { get; }
@@ -30,7 +30,7 @@ ref bool AccelToSpeed { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Bank** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L34)
+### **Bank** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L34)
 
 ```csharp
 ref float Bank { get; }
@@ -40,7 +40,7 @@ ref float Bank { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BlockDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L38)
+### **BlockDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L38)
 
 ```csharp
 ref float BlockDamage { get; }
@@ -50,7 +50,7 @@ ref float BlockDamage { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ControlMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L26)
+### **ControlMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L26)
 
 ```csharp
 ref Vector ControlMaxs { get; }
@@ -60,7 +60,7 @@ ref Vector ControlMaxs { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ControlMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L24)
+### **ControlMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L24)
 
 ```csharp
 ref Vector ControlMins { get; }
@@ -70,7 +70,7 @@ ref Vector ControlMins { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**DecelSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L84)
+### **DecelSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L84)
 
 ```csharp
 ref float DecelSpeed { get; }
@@ -80,7 +80,7 @@ ref float DecelSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DesiredSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L78)
+### **DesiredSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L78)
 
 ```csharp
 ref float DesiredSpeed { get; }
@@ -90,7 +90,7 @@ ref float DesiredSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Dir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L44)
+### **Dir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L44)
 
 ```csharp
 ref float Dir { get; }
@@ -100,7 +100,7 @@ ref float Dir { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Height** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L40)
+### **Height** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L40)
 
 ```csharp
 ref float Height { get; }
@@ -110,7 +110,7 @@ ref float Height { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LastBlockPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L28)
+### **LastBlockPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L28)
 
 ```csharp
 ref Vector LastBlockPos { get; }
@@ -120,7 +120,7 @@ ref Vector LastBlockPos { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**LastBlockTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L30)
+### **LastBlockTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L30)
 
 ```csharp
 ref int LastBlockTick { get; }
@@ -130,7 +130,7 @@ ref int LastBlockTick { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Length** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L18)
+### **Length** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L18)
 
 ```csharp
 ref float Length { get; }
@@ -140,7 +140,7 @@ ref float Length { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ManualSpeedChanges** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L76)
+### **ManualSpeedChanges** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L76)
 
 ```csharp
 ref bool ManualSpeedChanges { get; }
@@ -150,7 +150,7 @@ ref bool ManualSpeedChanges { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L42)
+### **MaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L42)
 
 ```csharp
 ref float MaxSpeed { get; }
@@ -160,7 +160,7 @@ ref float MaxSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MoveSoundMaxDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L58)
+### **MoveSoundMaxDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L58)
 
 ```csharp
 ref float MoveSoundMaxDuration { get; }
@@ -170,7 +170,7 @@ ref float MoveSoundMaxDuration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MoveSoundMaxPitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L64)
+### **MoveSoundMaxPitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L64)
 
 ```csharp
 ref float MoveSoundMaxPitch { get; }
@@ -180,7 +180,7 @@ ref float MoveSoundMaxPitch { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MoveSoundMinDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L56)
+### **MoveSoundMinDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L56)
 
 ```csharp
 ref float MoveSoundMinDuration { get; }
@@ -190,7 +190,7 @@ ref float MoveSoundMinDuration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MoveSoundMinPitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L62)
+### **MoveSoundMinPitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L62)
 
 ```csharp
 ref float MoveSoundMinPitch { get; }
@@ -200,7 +200,7 @@ ref float MoveSoundMinPitch { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NextMPSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L88)
+### **NextMPSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L88)
 
 ```csharp
 GameTime_t NextMPSoundTime { get; }
@@ -210,7 +210,7 @@ GameTime_t NextMPSoundTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**NextMoveSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L60)
+### **NextMoveSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L60)
 
 ```csharp
 GameTime_t NextMoveSoundTime { get; }
@@ -220,7 +220,7 @@ GameTime_t NextMoveSoundTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**OldSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L36)
+### **OldSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L36)
 
 ```csharp
 ref float OldSpeed { get; }
@@ -230,7 +230,7 @@ ref float OldSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OnArrivedAtDestinationNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L74)
+### **OnArrivedAtDestinationNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L74)
 
 ```csharp
 CEntityIOOutput OnArrivedAtDestinationNode { get; }
@@ -240,7 +240,7 @@ CEntityIOOutput OnArrivedAtDestinationNode { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnNext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L72)
+### **OnNext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L72)
 
 ```csharp
 CEntityIOOutput OnNext { get; }
@@ -250,7 +250,7 @@ CEntityIOOutput OnNext { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L70)
+### **OnStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L70)
 
 ```csharp
 CEntityIOOutput OnStart { get; }
@@ -260,7 +260,7 @@ CEntityIOOutput OnStart { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OrientationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L66)
+### **OrientationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L66)
 
 ```csharp
 ref TrainOrientationType_t OrientationType { get; }
@@ -270,7 +270,7 @@ ref TrainOrientationType_t OrientationType { get; }
 
 - [TrainOrientationType_t](/docs/api/shared/schemadefinitions/trainorientationtype_t)
 
-**PosPrev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L20)
+### **PosPrev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L20)
 
 ```csharp
 ref Vector PosPrev { get; }
@@ -280,7 +280,7 @@ ref Vector PosPrev { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Ppath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L16)
+### **Ppath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L16)
 
 ```csharp
 ref CHandle<CPathTrack> Ppath { get; }
@@ -290,7 +290,7 @@ ref CHandle<CPathTrack> Ppath { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)>
 
-**Prev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L22)
+### **Prev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L22)
 
 ```csharp
 ref QAngle Prev { get; }
@@ -300,7 +300,7 @@ ref QAngle Prev { get; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**SoundMove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L46)
+### **SoundMove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L46)
 
 ```csharp
 string SoundMove { get; set; }
@@ -310,7 +310,7 @@ string SoundMove { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SoundMovePing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L48)
+### **SoundMovePing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L48)
 
 ```csharp
 string SoundMovePing { get; set; }
@@ -320,7 +320,7 @@ string SoundMovePing { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SoundStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L50)
+### **SoundStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L50)
 
 ```csharp
 string SoundStart { get; set; }
@@ -330,7 +330,7 @@ string SoundStart { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SoundStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L52)
+### **SoundStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L52)
 
 ```csharp
 string SoundStop { get; set; }
@@ -340,7 +340,7 @@ string SoundStop { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SpeedChangeTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L80)
+### **SpeedChangeTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L80)
 
 ```csharp
 GameTime_t SpeedChangeTime { get; }
@@ -350,7 +350,7 @@ GameTime_t SpeedChangeTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**StrPathTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L54)
+### **StrPathTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L54)
 
 ```csharp
 string StrPathTarget { get; set; }
@@ -360,7 +360,7 @@ string StrPathTarget { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**VelocityType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L68)
+### **VelocityType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L68)
 
 ```csharp
 ref TrainVelocityType_t VelocityType { get; }
@@ -370,7 +370,7 @@ ref TrainVelocityType_t VelocityType { get; }
 
 - [TrainVelocityType_t](/docs/api/shared/schemadefinitions/trainvelocitytype_t)
 
-**Volume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L32)
+### **Volume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L32)
 
 ```csharp
 ref float Volume { get; }

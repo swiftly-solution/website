@@ -8,7 +8,7 @@ public interface IPermissionManager
 
 ## Methods
 
-**AddPermission(ulong, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L19)
+### **AddPermission(ulong, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L19)
 
 ```csharp
 void AddPermission(ulong steamId, string permission)
@@ -19,7 +19,7 @@ void AddPermission(ulong steamId, string permission)
 - **steamId**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - The Steam ID of the player.
 - **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The permission to add.
 
-**AddSubPermission(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L33)
+### **AddSubPermission(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L33)
 
 ```csharp
 void AddSubPermission(string permission, string subPermission)
@@ -30,7 +30,7 @@ void AddSubPermission(string permission, string subPermission)
 - **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The permission to add the sub-permission to.
 - **subPermission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The sub-permission to add.
 
-**PlayerHasPermission(ulong, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L12)
+### **PlayerHasPermission(ulong, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L12)
 
 ```csharp
 bool PlayerHasPermission(ulong steamId, string permission)
@@ -45,7 +45,7 @@ bool PlayerHasPermission(ulong steamId, string permission)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the player has the permission, false otherwise.
 
-**RemovePermission(ulong, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L26)
+### **RemovePermission(ulong, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L26)
 
 ```csharp
 void RemovePermission(ulong steamId, string permission)
@@ -56,7 +56,7 @@ void RemovePermission(ulong steamId, string permission)
 - **steamId**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - The Steam ID of the player.
 - **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The permission to remove.
 
-**RemoveSubPermission(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L40)
+### **RemoveSubPermission(string, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Permissions/IPermissionManager.cs#L40)
 
 ```csharp
 void RemoveSubPermission(string permission, string subPermission)

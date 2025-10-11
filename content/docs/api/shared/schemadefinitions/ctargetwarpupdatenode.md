@@ -10,7 +10,7 @@ public interface CTargetWarpUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 
 ## Properties
 
-**AngleMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L16)
+### **AngleMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L16)
 
 ```csharp
 ref TargetWarpAngleMode_t AngleMode { get; }
@@ -20,7 +20,7 @@ ref TargetWarpAngleMode_t AngleMode { get; }
 
 - [TargetWarpAngleMode_t](/docs/api/shared/schemadefinitions/targetwarpanglemode_t)
 
-**CorrectionMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L28)
+### **CorrectionMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L28)
 
 ```csharp
 ref TargetWarpCorrectionMethod CorrectionMethod { get; }
@@ -30,7 +30,7 @@ ref TargetWarpCorrectionMethod CorrectionMethod { get; }
 
 - [TargetWarpCorrectionMethod](/docs/api/shared/schemadefinitions/targetwarpcorrectionmethod)
 
-**DesiredMoveHeadingParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L26)
+### **DesiredMoveHeadingParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L26)
 
 ```csharp
 CAnimParamHandle DesiredMoveHeadingParameter { get; }
@@ -40,7 +40,7 @@ CAnimParamHandle DesiredMoveHeadingParameter { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**MaxAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L42)
+### **MaxAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L42)
 
 ```csharp
 ref float MaxAngle { get; }
@@ -50,7 +50,7 @@ ref float MaxAngle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MoveHeadingParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L24)
+### **MoveHeadingParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L24)
 
 ```csharp
 CAnimParamHandle MoveHeadingParameter { get; }
@@ -60,7 +60,7 @@ CAnimParamHandle MoveHeadingParameter { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**OnlyWarpWhenTagIsFound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L36)
+### **OnlyWarpWhenTagIsFound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L36)
 
 ```csharp
 ref bool OnlyWarpWhenTagIsFound { get; }
@@ -70,7 +70,7 @@ ref bool OnlyWarpWhenTagIsFound { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetFacePositionIsWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L32)
+### **TargetFacePositionIsWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L32)
 
 ```csharp
 ref bool TargetFacePositionIsWorldSpace { get; }
@@ -80,7 +80,7 @@ ref bool TargetFacePositionIsWorldSpace { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetFacePositionParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L22)
+### **TargetFacePositionParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L22)
 
 ```csharp
 CAnimParamHandle TargetFacePositionParameter { get; }
@@ -90,7 +90,7 @@ CAnimParamHandle TargetFacePositionParameter { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**TargetPositionIsWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L34)
+### **TargetPositionIsWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L34)
 
 ```csharp
 ref bool TargetPositionIsWorldSpace { get; }
@@ -100,7 +100,7 @@ ref bool TargetPositionIsWorldSpace { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TargetPositionParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L18)
+### **TargetPositionParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L18)
 
 ```csharp
 CAnimParamHandle TargetPositionParameter { get; }
@@ -110,7 +110,7 @@ CAnimParamHandle TargetPositionParameter { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**TargetUpVectorParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L20)
+### **TargetUpVectorParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L20)
 
 ```csharp
 CAnimParamHandle TargetUpVectorParameter { get; }
@@ -120,7 +120,7 @@ CAnimParamHandle TargetUpVectorParameter { get; }
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-**TargetWarpTimingMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L30)
+### **TargetWarpTimingMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L30)
 
 ```csharp
 ref TargetWarpTimingMethod TargetWarpTimingMethod { get; }
@@ -130,7 +130,7 @@ ref TargetWarpTimingMethod TargetWarpTimingMethod { get; }
 
 - [TargetWarpTimingMethod](/docs/api/shared/schemadefinitions/targetwarptimingmethod)
 
-**WarpAroundCenter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L40)
+### **WarpAroundCenter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L40)
 
 ```csharp
 ref bool WarpAroundCenter { get; }
@@ -140,7 +140,7 @@ ref bool WarpAroundCenter { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WarpOrientationDuringTranslation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L38)
+### **WarpOrientationDuringTranslation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTargetWarpUpdateNode.cs#L38)
 
 ```csharp
 ref bool WarpOrientationDuringTranslation { get; }

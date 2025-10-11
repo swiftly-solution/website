@@ -8,7 +8,7 @@ public interface ITraceManager
 
 ## Methods
 
-**TracePlayerBBox(Vector, Vector, BBox_t, CTraceFilter, ref CGameTrace)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/ITraceManager.cs#L18)
+### **TracePlayerBBox(Vector, Vector, BBox_t, CTraceFilter, ref CGameTrace)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/ITraceManager.cs#L18)
 
 ```csharp
 void TracePlayerBBox(Vector start, Vector end, BBox_t bounds, CTraceFilter filter, ref CGameTrace trace)
@@ -23,7 +23,7 @@ void TracePlayerBBox(Vector start, Vector end, BBox_t bounds, CTraceFilter filte
 - **trace**: [CGameTrace](/docs/api/shared/natives/cgametrace) - A reference to a CGameTrace object that receives the results of the trace, including collision information and
     hit details.
 
-**TraceShape(Vector, Vector, Ray_t, CTraceFilter, ref CGameTrace)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/ITraceManager.cs#L29)
+### **TraceShape(Vector, Vector, Ray_t, CTraceFilter, ref CGameTrace)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/ITraceManager.cs#L29)
 
 ```csharp
 void TraceShape(Vector start, Vector end, Ray_t ray, CTraceFilter filter, ref CGameTrace trace)

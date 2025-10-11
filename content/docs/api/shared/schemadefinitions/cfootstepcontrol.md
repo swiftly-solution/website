@@ -10,7 +10,7 @@ public interface CFootstepControl : CBaseTrigger, CBaseToggle, CBaseModelEntity,
 
 ## Properties
 
-**Destination** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L18)
+### **Destination** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L18)
 
 ```csharp
 string Destination { get; set; }
@@ -20,7 +20,7 @@ string Destination { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Source** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L16)
+### **Source** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L16)
 
 ```csharp
 string Source { get; set; }
@@ -32,13 +32,13 @@ string Source { get; set; }
 
 ## Methods
 
-**DestinationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L21)
+### **DestinationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L21)
 
 ```csharp
 void DestinationUpdated()
 ```
 
-**SourceUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L20)
+### **SourceUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootstepControl.cs#L20)
 
 ```csharp
 void SourceUpdated()

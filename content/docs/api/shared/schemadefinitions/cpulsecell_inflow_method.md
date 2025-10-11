@@ -10,7 +10,7 @@ public interface CPulseCell_Inflow_Method : CPulseCell_Inflow_BaseEntrypoint, CP
 
 ## Properties
 
-**Args** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L27)
+### **Args** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L27)
 
 ```csharp
 SchemaUntypedField Args { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Args { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L19)
+### **Description** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L19)
 
 ```csharp
 string Description { get; set; }
@@ -30,7 +30,7 @@ string Description { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**IsPublic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L21)
+### **IsPublic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L21)
 
 ```csharp
 ref bool IsPublic { get; }
@@ -40,7 +40,7 @@ ref bool IsPublic { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MethodName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L17)
+### **MethodName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L17)
 
 ```csharp
 SchemaUntypedField MethodName { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField MethodName { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ReturnType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L24)
+### **ReturnType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Inflow_Method.cs#L24)
 
 ```csharp
 SchemaUntypedField ReturnType { get; }

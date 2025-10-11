@@ -10,7 +10,7 @@ public interface CNmBlend2DNode__CDefinition : CNmPoseNode__CDefinition, CNmGrap
 
 ## Properties
 
-**AllowLooping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L32)
+### **AllowLooping** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L32)
 
 ```csharp
 ref bool AllowLooping { get; }
@@ -20,7 +20,7 @@ ref bool AllowLooping { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HullIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L30)
+### **HullIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L30)
 
 ```csharp
 SchemaUntypedField HullIndices { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField HullIndices { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Indices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L27)
+### **Indices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L27)
 
 ```csharp
 SchemaUntypedField Indices { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField Indices { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**InputParameterNodeIdx0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L19)
+### **InputParameterNodeIdx0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L19)
 
 ```csharp
 ref short InputParameterNodeIdx0 { get; }
@@ -50,7 +50,7 @@ ref short InputParameterNodeIdx0 { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**InputParameterNodeIdx1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L21)
+### **InputParameterNodeIdx1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L21)
 
 ```csharp
 ref short InputParameterNodeIdx1 { get; }
@@ -60,7 +60,7 @@ ref short InputParameterNodeIdx1 { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**SourceNodeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L17)
+### **SourceNodeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L17)
 
 ```csharp
 SchemaUntypedField SourceNodeIndices { get; }
@@ -70,7 +70,7 @@ SchemaUntypedField SourceNodeIndices { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L24)
+### **Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBlend2DNode__CDefinition.cs#L24)
 
 ```csharp
 SchemaUntypedField Values { get; }

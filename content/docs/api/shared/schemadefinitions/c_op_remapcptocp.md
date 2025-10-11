@@ -10,7 +10,7 @@ public interface C_OP_RemapCPtoCP : CParticleFunctionPreEmission, CParticleFunct
 
 ## Properties
 
-**Derivative** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L32)
+### **Derivative** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L32)
 
 ```csharp
 ref bool Derivative { get; }
@@ -20,7 +20,7 @@ ref bool Derivative { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InputControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L16)
+### **InputControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L16)
 
 ```csharp
 ref int InputControlPoint { get; }
@@ -30,7 +30,7 @@ ref int InputControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L20)
+### **InputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L20)
 
 ```csharp
 ref int InputField { get; }
@@ -40,7 +40,7 @@ ref int InputField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L26)
+### **InputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L26)
 
 ```csharp
 ref float InputMax { get; }
@@ -50,7 +50,7 @@ ref float InputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L24)
+### **InputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L24)
 
 ```csharp
 ref float InputMin { get; }
@@ -60,7 +60,7 @@ ref float InputMin { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InterpRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L34)
+### **InterpRate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L34)
 
 ```csharp
 ref float InterpRate { get; }
@@ -70,7 +70,7 @@ ref float InterpRate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L18)
+### **OutputControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L18)
 
 ```csharp
 ref int OutputControlPoint { get; }
@@ -80,7 +80,7 @@ ref int OutputControlPoint { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L22)
+### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L22)
 
 ```csharp
 ref int OutputField { get; }
@@ -90,7 +90,7 @@ ref int OutputField { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L30)
+### **OutputMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L30)
 
 ```csharp
 ref float OutputMax { get; }
@@ -100,7 +100,7 @@ ref float OutputMax { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L28)
+### **OutputMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCPtoCP.cs#L28)
 
 ```csharp
 ref float OutputMin { get; }

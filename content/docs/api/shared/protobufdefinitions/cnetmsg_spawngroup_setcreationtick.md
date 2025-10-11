@@ -10,7 +10,7 @@ public interface CNETMsg_SpawnGroup_SetCreationTick : ITypedProtobuf<CNETMsg_Spa
 
 ## Properties
 
-**Creationsequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_SetCreationTick.cs#L24)
+### **Creationsequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_SetCreationTick.cs#L24)
 
 ```csharp
 uint Creationsequence { get; set; }
@@ -20,7 +20,7 @@ uint Creationsequence { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Spawngrouphandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_SetCreationTick.cs#L18)
+### **Spawngrouphandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_SetCreationTick.cs#L18)
 
 ```csharp
 uint Spawngrouphandle { get; set; }
@@ -30,7 +30,7 @@ uint Spawngrouphandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Tickcount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_SetCreationTick.cs#L21)
+### **Tickcount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CNETMsg_SpawnGroup_SetCreationTick.cs#L21)
 
 ```csharp
 int Tickcount { get; set; }

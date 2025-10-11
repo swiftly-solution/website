@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_SetParticleFoWProperties : ITypedProto
 
 ## Properties
 
-**FowControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleFoWProperties.cs#L13)
+### **FowControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleFoWProperties.cs#L13)
 
 ```csharp
 int FowControlPoint { get; set; }
@@ -20,7 +20,7 @@ int FowControlPoint { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FowControlPoint2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleFoWProperties.cs#L16)
+### **FowControlPoint2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleFoWProperties.cs#L16)
 
 ```csharp
 int FowControlPoint2 { get; set; }
@@ -30,7 +30,7 @@ int FowControlPoint2 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FowRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleFoWProperties.cs#L19)
+### **FowRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleFoWProperties.cs#L19)
 
 ```csharp
 float FowRadius { get; set; }

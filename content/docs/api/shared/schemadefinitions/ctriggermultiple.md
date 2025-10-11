@@ -10,7 +10,7 @@ public interface CTriggerMultiple : CBaseTrigger, CBaseToggle, CBaseModelEntity,
 
 ## Properties
 
-**OnTrigger** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerMultiple.cs#L16)
+### **OnTrigger** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerMultiple.cs#L16)
 
 ```csharp
 CEntityIOOutput OnTrigger { get; }

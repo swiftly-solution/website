@@ -10,7 +10,7 @@ public interface CMorphConstraint : CBaseConstraint, CBoneConstraintBase, ISchem
 
 ## Properties
 
-**Max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphConstraint.cs#L22)
+### **Max** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphConstraint.cs#L22)
 
 ```csharp
 ref float Max { get; }
@@ -20,7 +20,7 @@ ref float Max { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphConstraint.cs#L20)
+### **Min** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphConstraint.cs#L20)
 
 ```csharp
 ref float Min { get; }
@@ -30,7 +30,7 @@ ref float Min { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SlaveChannel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphConstraint.cs#L18)
+### **SlaveChannel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphConstraint.cs#L18)
 
 ```csharp
 ref int SlaveChannel { get; }
@@ -40,7 +40,7 @@ ref int SlaveChannel { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**TargetMorph** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphConstraint.cs#L16)
+### **TargetMorph** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphConstraint.cs#L16)
 
 ```csharp
 string TargetMorph { get; set; }

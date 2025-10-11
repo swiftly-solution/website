@@ -10,7 +10,7 @@ public interface CMsgGCHRecurringSubscriptionStatusChange : ITypedProtobuf<CMsgG
 
 ## Properties
 
-**Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHRecurringSubscriptionStatusChange.cs#L22)
+### **Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHRecurringSubscriptionStatusChange.cs#L22)
 
 ```csharp
 bool Active { get; set; }
@@ -20,7 +20,7 @@ bool Active { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Agreementid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHRecurringSubscriptionStatusChange.cs#L19)
+### **Agreementid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHRecurringSubscriptionStatusChange.cs#L19)
 
 ```csharp
 ulong Agreementid { get; set; }
@@ -30,7 +30,7 @@ ulong Agreementid { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHRecurringSubscriptionStatusChange.cs#L16)
+### **Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHRecurringSubscriptionStatusChange.cs#L16)
 
 ```csharp
 uint Appid { get; set; }
@@ -40,7 +40,7 @@ uint Appid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHRecurringSubscriptionStatusChange.cs#L13)
+### **Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHRecurringSubscriptionStatusChange.cs#L13)
 
 ```csharp
 ulong Steamid { get; set; }

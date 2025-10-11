@@ -10,7 +10,7 @@ public interface RenderProjectedMaterial_t : ISchemaClass<RenderProjectedMateria
 
 ## Properties
 
-**Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderProjectedMaterial_t.cs#L16)
+### **Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderProjectedMaterial_t.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }

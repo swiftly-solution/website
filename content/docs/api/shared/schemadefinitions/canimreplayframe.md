@@ -10,7 +10,7 @@ public interface CAnimReplayFrame : ISchemaClass<CAnimReplayFrame>, ISchemaField
 
 ## Properties
 
-**InputDataBlocks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L16)
+### **InputDataBlocks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L16)
 
 ```csharp
 ref CUtlVector<CUtlBinaryBlock> InputDataBlocks { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<CUtlBinaryBlock> InputDataBlocks { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)>
+- [CUtlVector](/docs/api/-1)<[CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)>
 
-**InstanceData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L18)
+### **InstanceData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L18)
 
 ```csharp
 ref CUtlBinaryBlock InstanceData { get; }
@@ -30,7 +30,7 @@ ref CUtlBinaryBlock InstanceData { get; }
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 
-**LocalToWorldTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L22)
+### **LocalToWorldTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L22)
 
 ```csharp
 ref CTransform LocalToWorldTransform { get; }
@@ -40,7 +40,7 @@ ref CTransform LocalToWorldTransform { get; }
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-**StartingLocalToWorldTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L20)
+### **StartingLocalToWorldTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L20)
 
 ```csharp
 ref CTransform StartingLocalToWorldTransform { get; }
@@ -50,7 +50,7 @@ ref CTransform StartingLocalToWorldTransform { get; }
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-**TimeStamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L24)
+### **TimeStamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L24)
 
 ```csharp
 ref float TimeStamp { get; }

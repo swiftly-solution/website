@@ -10,7 +10,7 @@ public interface CMsgReplicateConVars : ITypedProtobuf<CMsgReplicateConVars>, IN
 
 ## Properties
 
-**Convars** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgReplicateConVars.cs#L13)
+### **Convars** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgReplicateConVars.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgConVarValue> Convars { get; }

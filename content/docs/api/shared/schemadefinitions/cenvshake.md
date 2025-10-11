@@ -10,7 +10,7 @@ public interface CEnvShake : CPointEntity, CBaseEntity, CEntityInstance, ISchema
 
 ## Properties
 
-**Amplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L18)
+### **Amplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L18)
 
 ```csharp
 ref float Amplitude { get; }
@@ -20,7 +20,7 @@ ref float Amplitude { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CurrentAmp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L30)
+### **CurrentAmp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L30)
 
 ```csharp
 ref float CurrentAmp { get; }
@@ -30,7 +30,7 @@ ref float CurrentAmp { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L22)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L22)
 
 ```csharp
 ref float Duration { get; }
@@ -40,7 +40,7 @@ ref float Duration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Frequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L20)
+### **Frequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L20)
 
 ```csharp
 ref float Frequency { get; }
@@ -50,7 +50,7 @@ ref float Frequency { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LimitToEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L16)
+### **LimitToEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L16)
 
 ```csharp
 string LimitToEntity { get; set; }
@@ -60,7 +60,7 @@ string LimitToEntity { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MaxForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L32)
+### **MaxForce** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L32)
 
 ```csharp
 ref Vector MaxForce { get; }
@@ -70,7 +70,7 @@ ref Vector MaxForce { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**NextShake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L28)
+### **NextShake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L28)
 
 ```csharp
 GameTime_t NextShake { get; }
@@ -80,7 +80,7 @@ GameTime_t NextShake { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L24)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L24)
 
 ```csharp
 ref float Radius { get; }
@@ -90,7 +90,7 @@ ref float Radius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ShakeCallback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L34)
+### **ShakeCallback** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L34)
 
 ```csharp
 CPhysicsShake ShakeCallback { get; }
@@ -100,7 +100,7 @@ CPhysicsShake ShakeCallback { get; }
 
 - [CPhysicsShake](/docs/api/shared/schemadefinitions/cphysicsshake)
 
-**StopTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L26)
+### **StopTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvShake.cs#L26)
 
 ```csharp
 GameTime_t StopTime { get; }

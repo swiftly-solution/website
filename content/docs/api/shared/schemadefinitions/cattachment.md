@@ -10,7 +10,7 @@ public interface CAttachment : ISchemaClass<CAttachment>, ISchemaField, ISchemaC
 
 ## Properties
 
-**IgnoreRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L30)
+### **IgnoreRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L30)
 
 ```csharp
 ref bool IgnoreRotation { get; }
@@ -20,7 +20,7 @@ ref bool IgnoreRotation { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InfluenceNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L18)
+### **InfluenceNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L18)
 
 ```csharp
 string InfluenceNames { get; set; }
@@ -30,7 +30,7 @@ string InfluenceNames { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**InfluenceOffsets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L22)
+### **InfluenceOffsets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L22)
 
 ```csharp
 ISchemaFixedArray<Vector> InfluenceOffsets { get; }
@@ -40,7 +40,7 @@ ISchemaFixedArray<Vector> InfluenceOffsets { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
-**InfluenceRootTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L26)
+### **InfluenceRootTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L26)
 
 ```csharp
 ISchemaFixedArray<bool> InfluenceRootTransform { get; }
@@ -50,7 +50,7 @@ ISchemaFixedArray<bool> InfluenceRootTransform { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 
-**InfluenceRotations** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L20)
+### **InfluenceRotations** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L20)
 
 ```csharp
 ISchemaFixedArray<Quaternion> InfluenceRotations { get; }
@@ -60,7 +60,7 @@ ISchemaFixedArray<Quaternion> InfluenceRotations { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Quaternion](/docs/api/shared/natives/quaternion)>
 
-**InfluenceWeights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L24)
+### **InfluenceWeights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L24)
 
 ```csharp
 ISchemaFixedArray<float> InfluenceWeights { get; }
@@ -70,7 +70,7 @@ ISchemaFixedArray<float> InfluenceWeights { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**Influences** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L28)
+### **Influences** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L28)
 
 ```csharp
 ref byte Influences { get; }
@@ -80,7 +80,7 @@ ref byte Influences { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttachment.cs#L16)
 
 ```csharp
 string Name { get; set; }

@@ -10,7 +10,7 @@ public interface CWorkshop_AddSpecialPayment_Request : ITypedProtobuf<CWorkshop_
 
 ## Properties
 
-**Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_AddSpecialPayment_Request.cs#L13)
+### **Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_AddSpecialPayment_Request.cs#L13)
 
 ```csharp
 uint Appid { get; set; }
@@ -20,7 +20,7 @@ uint Appid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Date** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_AddSpecialPayment_Request.cs#L19)
+### **Date** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_AddSpecialPayment_Request.cs#L19)
 
 ```csharp
 string Date { get; set; }
@@ -30,7 +30,7 @@ string Date { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Gameitemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_AddSpecialPayment_Request.cs#L16)
+### **Gameitemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_AddSpecialPayment_Request.cs#L16)
 
 ```csharp
 uint Gameitemid { get; set; }
@@ -40,7 +40,7 @@ uint Gameitemid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PaymentRowUsd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_AddSpecialPayment_Request.cs#L25)
+### **PaymentRowUsd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_AddSpecialPayment_Request.cs#L25)
 
 ```csharp
 ulong PaymentRowUsd { get; set; }
@@ -50,7 +50,7 @@ ulong PaymentRowUsd { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**PaymentUsUsd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_AddSpecialPayment_Request.cs#L22)
+### **PaymentUsUsd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_AddSpecialPayment_Request.cs#L22)
 
 ```csharp
 ulong PaymentUsUsd { get; set; }

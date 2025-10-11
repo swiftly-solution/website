@@ -10,7 +10,7 @@ public interface CCSUsrMsg_Fade : ITypedProtobuf<CCSUsrMsg_Fade>, INativeHandle,
 
 ## Properties
 
-**Clr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Fade.cs#L27)
+### **Clr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Fade.cs#L27)
 
 ```csharp
 Color Clr { get; set; }
@@ -20,7 +20,7 @@ Color Clr { get; set; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Fade.cs#L18)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Fade.cs#L18)
 
 ```csharp
 int Duration { get; set; }
@@ -30,7 +30,7 @@ int Duration { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Fade.cs#L24)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Fade.cs#L24)
 
 ```csharp
 int Flags { get; set; }
@@ -40,7 +40,7 @@ int Flags { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HoldTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Fade.cs#L21)
+### **HoldTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Fade.cs#L21)
 
 ```csharp
 int HoldTime { get; set; }

@@ -10,7 +10,7 @@ public interface CNmIDToFloatNode__CDefinition : CNmFloatValueNode__CDefinition,
 
 ## Properties
 
-**DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L18)
+### **DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L18)
 
 ```csharp
 ref float DefaultValue { get; }
@@ -20,7 +20,7 @@ ref float DefaultValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L21)
+### **IDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L21)
 
 ```csharp
 SchemaUntypedField IDs { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField IDs { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L16)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -40,7 +40,7 @@ ref short InputValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L24)
+### **Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDToFloatNode__CDefinition.cs#L24)
 
 ```csharp
 SchemaUntypedField Values { get; }

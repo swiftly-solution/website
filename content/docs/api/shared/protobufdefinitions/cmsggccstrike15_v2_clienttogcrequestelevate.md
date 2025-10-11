@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_ClientToGCRequestElevate : ITypedProtobuf<CM
 
 ## Properties
 
-**Stage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientToGCRequestElevate.cs#L13)
+### **Stage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientToGCRequestElevate.cs#L13)
 
 ```csharp
 uint Stage { get; set; }

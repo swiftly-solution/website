@@ -10,7 +10,7 @@ public interface CRagdollUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISc
 
 ## Properties
 
-**PoseControlMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollUpdateNode.cs#L18)
+### **PoseControlMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollUpdateNode.cs#L18)
 
 ```csharp
 ref RagdollPoseControl PoseControlMethod { get; }
@@ -20,7 +20,7 @@ ref RagdollPoseControl PoseControlMethod { get; }
 
 - [RagdollPoseControl](/docs/api/shared/schemadefinitions/ragdollposecontrol)
 
-**WeightListIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollUpdateNode.cs#L16)
+### **WeightListIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollUpdateNode.cs#L16)
 
 ```csharp
 ref int WeightListIndex { get; }

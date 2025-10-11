@@ -10,7 +10,7 @@ public interface CMsgSource1LegacyGameEvent_key_t : ITypedProtobuf<CMsgSource1Le
 
 ## Properties
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L13)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L13)
 
 ```csharp
 int Type { get; set; }
@@ -20,7 +20,7 @@ int Type { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ValBool** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L31)
+### **ValBool** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L31)
 
 ```csharp
 bool ValBool { get; set; }
@@ -30,7 +30,7 @@ bool ValBool { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ValByte** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L28)
+### **ValByte** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L28)
 
 ```csharp
 int ValByte { get; set; }
@@ -40,7 +40,7 @@ int ValByte { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ValFloat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L19)
+### **ValFloat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L19)
 
 ```csharp
 float ValFloat { get; set; }
@@ -50,7 +50,7 @@ float ValFloat { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ValLong** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L22)
+### **ValLong** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L22)
 
 ```csharp
 int ValLong { get; set; }
@@ -60,7 +60,7 @@ int ValLong { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ValShort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L25)
+### **ValShort** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L25)
 
 ```csharp
 int ValShort { get; set; }
@@ -70,7 +70,7 @@ int ValShort { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ValString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L16)
+### **ValString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L16)
 
 ```csharp
 string ValString { get; set; }
@@ -80,7 +80,7 @@ string ValString { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ValUint64** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L34)
+### **ValUint64** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSource1LegacyGameEvent_key_t.cs#L34)
 
 ```csharp
 ulong ValUint64 { get; set; }

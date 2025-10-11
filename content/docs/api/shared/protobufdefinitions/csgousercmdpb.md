@@ -10,7 +10,7 @@ public interface CSGOUserCmdPB : ITypedProtobuf<CSGOUserCmdPB>, INativeHandle
 
 ## Properties
 
-**Attack1StartHistoryIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L19)
+### **Attack1StartHistoryIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L19)
 
 ```csharp
 int Attack1StartHistoryIndex { get; set; }
@@ -20,7 +20,7 @@ int Attack1StartHistoryIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Attack2StartHistoryIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L22)
+### **Attack2StartHistoryIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L22)
 
 ```csharp
 int Attack2StartHistoryIndex { get; set; }
@@ -30,7 +30,7 @@ int Attack2StartHistoryIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Base** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L13)
+### **Base** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L13)
 
 ```csharp
 CBaseUserCmdPB Base { get; }
@@ -40,7 +40,7 @@ CBaseUserCmdPB Base { get; }
 
 - [CBaseUserCmdPB](/docs/api/shared/protobufdefinitions/cbaseusercmdpb)
 
-**InputHistory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L16)
+### **InputHistory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CSGOInputHistoryEntryPB> InputHistory { get; }
@@ -50,7 +50,7 @@ IProtobufRepeatedFieldSubMessageType<CSGOInputHistoryEntryPB> InputHistory { get
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSGOInputHistoryEntryPB](/docs/api/shared/protobufdefinitions/csgoinputhistoryentrypb)>
 
-**IsPredictingBodyShotFx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L28)
+### **IsPredictingBodyShotFx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L28)
 
 ```csharp
 bool IsPredictingBodyShotFx { get; set; }
@@ -60,7 +60,7 @@ bool IsPredictingBodyShotFx { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsPredictingHeadShotFx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L31)
+### **IsPredictingHeadShotFx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L31)
 
 ```csharp
 bool IsPredictingHeadShotFx { get; set; }
@@ -70,7 +70,7 @@ bool IsPredictingHeadShotFx { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsPredictingKillRagdolls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L34)
+### **IsPredictingKillRagdolls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L34)
 
 ```csharp
 bool IsPredictingKillRagdolls { get; set; }
@@ -80,7 +80,7 @@ bool IsPredictingKillRagdolls { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LeftHandDesired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L25)
+### **LeftHandDesired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSGOUserCmdPB.cs#L25)
 
 ```csharp
 bool LeftHandDesired { get; set; }

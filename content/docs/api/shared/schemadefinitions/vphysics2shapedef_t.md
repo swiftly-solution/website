@@ -10,7 +10,7 @@ public interface VPhysics2ShapeDef_t : ISchemaClass<VPhysics2ShapeDef_t>, ISchem
 
 ## Properties
 
-**Capsules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L20)
+### **Capsules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L20)
 
 ```csharp
 ref CUtlVector Capsules { get; }
@@ -18,9 +18,9 @@ ref CUtlVector Capsules { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**CollisionAttributeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L28)
+### **CollisionAttributeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L28)
 
 ```csharp
 ref CUtlVector<ushort> CollisionAttributeIndices { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<ushort> CollisionAttributeIndices { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
+- [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
-**Hulls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L23)
+### **Hulls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L23)
 
 ```csharp
 ref CUtlVector Hulls { get; }
@@ -38,9 +38,9 @@ ref CUtlVector Hulls { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**Meshes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L26)
+### **Meshes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L26)
 
 ```csharp
 ref CUtlVector Meshes { get; }
@@ -48,9 +48,9 @@ ref CUtlVector Meshes { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**Spheres** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L17)
+### **Spheres** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L17)
 
 ```csharp
 ref CUtlVector Spheres { get; }
@@ -58,5 +58,5 @@ ref CUtlVector Spheres { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

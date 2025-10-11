@@ -10,7 +10,7 @@ public interface CPulse_RegisterInfo : ISchemaClass<CPulse_RegisterInfo>, ISchem
 
 ## Properties
 
-**LastReadByInstruction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L26)
+### **LastReadByInstruction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L26)
 
 ```csharp
 ref int LastReadByInstruction { get; }
@@ -20,7 +20,7 @@ ref int LastReadByInstruction { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OriginName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L22)
+### **OriginName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L22)
 
 ```csharp
 SchemaUntypedField OriginName { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField OriginName { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Reg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L16)
+### **Reg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L16)
 
 ```csharp
 PulseRuntimeRegisterIndex_t Reg { get; }
@@ -40,7 +40,7 @@ PulseRuntimeRegisterIndex_t Reg { get; }
 
 - [PulseRuntimeRegisterIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeregisterindex_t)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L19)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L19)
 
 ```csharp
 SchemaUntypedField Type { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField Type { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**WrittenByInstruction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L24)
+### **WrittenByInstruction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_RegisterInfo.cs#L24)
 
 ```csharp
 ref int WrittenByInstruction { get; }

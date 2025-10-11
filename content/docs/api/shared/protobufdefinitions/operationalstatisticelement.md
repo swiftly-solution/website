@@ -10,7 +10,7 @@ public interface OperationalStatisticElement : ITypedProtobuf<OperationalStatist
 
 ## Properties
 
-**Idkey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticElement.cs#L13)
+### **Idkey** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticElement.cs#L13)
 
 ```csharp
 uint Idkey { get; set; }
@@ -20,7 +20,7 @@ uint Idkey { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticElement.cs#L16)
+### **Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/OperationalStatisticElement.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<int> Values { get; }

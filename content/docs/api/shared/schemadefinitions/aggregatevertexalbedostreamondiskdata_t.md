@@ -10,7 +10,7 @@ public interface AggregateVertexAlbedoStreamOnDiskData_t : ISchemaClass<Aggregat
 
 ## Properties
 
-**BufferData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateVertexAlbedoStreamOnDiskData_t.cs#L16)
+### **BufferData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AggregateVertexAlbedoStreamOnDiskData_t.cs#L16)
 
 ```csharp
 ref CUtlBinaryBlock BufferData { get; }

@@ -10,7 +10,7 @@ public interface CNmIDComparisonNode__CDefinition : CNmBoolValueNode__CDefinitio
 
 ## Properties
 
-**ComparisionIDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDComparisonNode__CDefinition.cs#L21)
+### **ComparisionIDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDComparisonNode__CDefinition.cs#L21)
 
 ```csharp
 SchemaUntypedField ComparisionIDs { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField ComparisionIDs { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Comparison** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDComparisonNode__CDefinition.cs#L18)
+### **Comparison** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDComparisonNode__CDefinition.cs#L18)
 
 ```csharp
 ref CNmIDComparisonNode__Comparison_t Comparison { get; }
@@ -30,7 +30,7 @@ ref CNmIDComparisonNode__Comparison_t Comparison { get; }
 
 - [CNmIDComparisonNode__Comparison_t](/docs/api/shared/schemadefinitions/cnmidcomparisonnode__comparison_t)
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDComparisonNode__CDefinition.cs#L16)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDComparisonNode__CDefinition.cs#L16)
 
 ```csharp
 ref short InputValueNodeIdx { get; }

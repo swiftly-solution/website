@@ -10,7 +10,7 @@ public interface CCSWeaponBaseVData : CBasePlayerWeaponVData, CEntitySubclassVDa
 
 ## Properties
 
-**AnimClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L179)
+### **AnimClass** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L179)
 
 ```csharp
 ref CGlobalSymbol AnimClass { get; }
@@ -20,7 +20,7 @@ ref CGlobalSymbol AnimClass { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**AnimSkeleton** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L24)
+### **AnimSkeleton** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L24)
 
 ```csharp
 SchemaUntypedField AnimSkeleton { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField AnimSkeleton { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ArmorRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L151)
+### **ArmorRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L151)
 
 ```csharp
 ref float ArmorRatio { get; }
@@ -40,7 +40,7 @@ ref float ArmorRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AttackMovespeedFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L113)
+### **AttackMovespeedFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L113)
 
 ```csharp
 ref float AttackMovespeedFactor { get; }
@@ -50,7 +50,7 @@ ref float AttackMovespeedFactor { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**CannotShootUnderwater** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L53)
+### **CannotShootUnderwater** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L53)
 
 ```csharp
 ref bool CannotShootUnderwater { get; }
@@ -60,7 +60,7 @@ ref bool CannotShootUnderwater { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**CrosshairDeltaDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L61)
+### **CrosshairDeltaDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L61)
 
 ```csharp
 ref int CrosshairDeltaDistance { get; }
@@ -70,7 +70,7 @@ ref int CrosshairDeltaDistance { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CrosshairMinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L59)
+### **CrosshairMinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L59)
 
 ```csharp
 ref int CrosshairMinDistance { get; }
@@ -80,7 +80,7 @@ ref int CrosshairMinDistance { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**CycleTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L69)
+### **CycleTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L69)
 
 ```csharp
 CFiringModeFloat CycleTime { get; }
@@ -90,7 +90,7 @@ CFiringModeFloat CycleTime { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**Damage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L147)
+### **Damage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L147)
 
 ```csharp
 ref int Damage { get; }
@@ -100,7 +100,7 @@ ref int Damage { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DefaultLoadoutSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L37)
+### **DefaultLoadoutSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L37)
 
 ```csharp
 ref loadout_slot_t DefaultLoadoutSlot { get; }
@@ -110,7 +110,7 @@ ref loadout_slot_t DefaultLoadoutSlot { get; }
 
 - [loadout_slot_t](/docs/api/shared/schemadefinitions/loadout_slot_t)
 
-**DeployDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L105)
+### **DeployDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L105)
 
 ```csharp
 ref float DeployDuration { get; }
@@ -120,7 +120,7 @@ ref float DeployDuration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DisallowAttackAfterReloadStartDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L107)
+### **DisallowAttackAfterReloadStartDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L107)
 
 ```csharp
 ref float DisallowAttackAfterReloadStartDuration { get; }
@@ -130,7 +130,7 @@ ref float DisallowAttackAfterReloadStartDuration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FlinchVelocityModifierLarge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L159)
+### **FlinchVelocityModifierLarge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L159)
 
 ```csharp
 ref float FlinchVelocityModifierLarge { get; }
@@ -140,7 +140,7 @@ ref float FlinchVelocityModifierLarge { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FlinchVelocityModifierSmall** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L161)
+### **FlinchVelocityModifierSmall** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L161)
 
 ```csharp
 ref float FlinchVelocityModifierSmall { get; }
@@ -150,7 +150,7 @@ ref float FlinchVelocityModifierSmall { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**GearSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L33)
+### **GearSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L33)
 
 ```csharp
 ref gear_slot_t GearSlot { get; }
@@ -160,7 +160,7 @@ ref gear_slot_t GearSlot { get; }
 
 - [gear_slot_t](/docs/api/shared/schemadefinitions/gear_slot_t)
 
-**GearSlotPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L35)
+### **GearSlotPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L35)
 
 ```csharp
 ref int GearSlotPosition { get; }
@@ -170,7 +170,7 @@ ref int GearSlotPosition { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HasBurstMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L49)
+### **HasBurstMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L49)
 
 ```csharp
 ref bool HasBurstMode { get; }
@@ -180,7 +180,7 @@ ref bool HasBurstMode { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HeadshotMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L149)
+### **HeadshotMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L149)
 
 ```csharp
 ref float HeadshotMultiplier { get; }
@@ -190,7 +190,7 @@ ref float HeadshotMultiplier { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HideViewModelWhenZoomed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L123)
+### **HideViewModelWhenZoomed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L123)
 
 ```csharp
 ref bool HideViewModelWhenZoomed { get; }
@@ -200,7 +200,7 @@ ref bool HideViewModelWhenZoomed { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**InaccuracyAltSoundThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L117)
+### **InaccuracyAltSoundThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L117)
 
 ```csharp
 ref float InaccuracyAltSoundThreshold { get; }
@@ -210,7 +210,7 @@ ref float InaccuracyAltSoundThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InaccuracyCrouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L75)
+### **InaccuracyCrouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L75)
 
 ```csharp
 CFiringModeFloat InaccuracyCrouch { get; }
@@ -220,7 +220,7 @@ CFiringModeFloat InaccuracyCrouch { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**InaccuracyFire** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L85)
+### **InaccuracyFire** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L85)
 
 ```csharp
 CFiringModeFloat InaccuracyFire { get; }
@@ -230,7 +230,7 @@ CFiringModeFloat InaccuracyFire { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**InaccuracyJump** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L79)
+### **InaccuracyJump** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L79)
 
 ```csharp
 CFiringModeFloat InaccuracyJump { get; }
@@ -240,7 +240,7 @@ CFiringModeFloat InaccuracyJump { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**InaccuracyJumpApex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L101)
+### **InaccuracyJumpApex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L101)
 
 ```csharp
 ref float InaccuracyJumpApex { get; }
@@ -250,7 +250,7 @@ ref float InaccuracyJumpApex { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InaccuracyJumpInitial** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L99)
+### **InaccuracyJumpInitial** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L99)
 
 ```csharp
 ref float InaccuracyJumpInitial { get; }
@@ -260,7 +260,7 @@ ref float InaccuracyJumpInitial { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InaccuracyLadder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L83)
+### **InaccuracyLadder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L83)
 
 ```csharp
 CFiringModeFloat InaccuracyLadder { get; }
@@ -270,7 +270,7 @@ CFiringModeFloat InaccuracyLadder { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**InaccuracyLand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L81)
+### **InaccuracyLand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L81)
 
 ```csharp
 CFiringModeFloat InaccuracyLand { get; }
@@ -280,7 +280,7 @@ CFiringModeFloat InaccuracyLand { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**InaccuracyMove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L87)
+### **InaccuracyMove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L87)
 
 ```csharp
 CFiringModeFloat InaccuracyMove { get; }
@@ -290,7 +290,7 @@ CFiringModeFloat InaccuracyMove { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**InaccuracyPitchShift** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L115)
+### **InaccuracyPitchShift** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L115)
 
 ```csharp
 ref float InaccuracyPitchShift { get; }
@@ -300,7 +300,7 @@ ref float InaccuracyPitchShift { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InaccuracyReload** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L103)
+### **InaccuracyReload** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L103)
 
 ```csharp
 ref float InaccuracyReload { get; }
@@ -310,7 +310,7 @@ ref float InaccuracyReload { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InaccuracyStand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L77)
+### **InaccuracyStand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L77)
 
 ```csharp
 CFiringModeFloat InaccuracyStand { get; }
@@ -320,7 +320,7 @@ CFiringModeFloat InaccuracyStand { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**IronSightFOV** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L141)
+### **IronSightFOV** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L141)
 
 ```csharp
 ref float IronSightFOV { get; }
@@ -330,7 +330,7 @@ ref float IronSightFOV { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IronSightLooseness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L145)
+### **IronSightLooseness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L145)
 
 ```csharp
 ref float IronSightLooseness { get; }
@@ -340,7 +340,7 @@ ref float IronSightLooseness { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IronSightPivotForward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L143)
+### **IronSightPivotForward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L143)
 
 ```csharp
 ref float IronSightPivotForward { get; }
@@ -350,7 +350,7 @@ ref float IronSightPivotForward { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IronSightPullUpSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L137)
+### **IronSightPullUpSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L137)
 
 ```csharp
 ref float IronSightPullUpSpeed { get; }
@@ -360,7 +360,7 @@ ref float IronSightPullUpSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IronSightPutDownSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L139)
+### **IronSightPutDownSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L139)
 
 ```csharp
 ref float IronSightPutDownSpeed { get; }
@@ -370,7 +370,7 @@ ref float IronSightPutDownSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IsFullAuto** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L63)
+### **IsFullAuto** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L63)
 
 ```csharp
 ref bool IsFullAuto { get; }
@@ -380,7 +380,7 @@ ref bool IsFullAuto { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsRevolver** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L51)
+### **IsRevolver** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L51)
 
 ```csharp
 ref bool IsRevolver { get; }
@@ -390,7 +390,7 @@ ref bool IsRevolver { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**KillAward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L41)
+### **KillAward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L41)
 
 ```csharp
 ref int KillAward { get; }
@@ -400,7 +400,7 @@ ref int KillAward { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**MaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L71)
+### **MaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L71)
 
 ```csharp
 CFiringModeFloat MaxSpeed { get; }
@@ -410,7 +410,7 @@ CFiringModeFloat MaxSpeed { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**MeleeWeapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L47)
+### **MeleeWeapon** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L47)
 
 ```csharp
 ref bool MeleeWeapon { get; }
@@ -420,7 +420,7 @@ ref bool MeleeWeapon { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Model_AG2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L21)
+### **Model_AG2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L21)
 
 ```csharp
 SchemaUntypedField Model_AG2 { get; }
@@ -430,7 +430,7 @@ SchemaUntypedField Model_AG2 { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**MuzzlePos0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L26)
+### **MuzzlePos0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L26)
 
 ```csharp
 ref Vector MuzzlePos0 { get; }
@@ -440,7 +440,7 @@ ref Vector MuzzlePos0 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**MuzzlePos1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L28)
+### **MuzzlePos1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L28)
 
 ```csharp
 ref Vector MuzzlePos1 { get; }
@@ -450,7 +450,7 @@ ref Vector MuzzlePos1 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L55)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L55)
 
 ```csharp
 ref CGlobalSymbol Name { get; }
@@ -460,7 +460,7 @@ ref CGlobalSymbol Name { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**NumBullets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L65)
+### **NumBullets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L65)
 
 ```csharp
 ref int NumBullets { get; }
@@ -470,7 +470,7 @@ ref int NumBullets { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Penetration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L153)
+### **Penetration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L153)
 
 ```csharp
 ref float Penetration { get; }
@@ -480,7 +480,7 @@ ref float Penetration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Price** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L39)
+### **Price** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L39)
 
 ```csharp
 ref int Price { get; }
@@ -490,7 +490,7 @@ ref int Price { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PrimaryReserveAmmoMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L43)
+### **PrimaryReserveAmmoMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L43)
 
 ```csharp
 ref int PrimaryReserveAmmoMax { get; }
@@ -500,7 +500,7 @@ ref int PrimaryReserveAmmoMax { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L155)
+### **Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L155)
 
 ```csharp
 ref float Range { get; }
@@ -510,7 +510,7 @@ ref float Range { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RangeModifier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L157)
+### **RangeModifier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L157)
 
 ```csharp
 ref float RangeModifier { get; }
@@ -520,7 +520,7 @@ ref float RangeModifier { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RecoilAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L89)
+### **RecoilAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L89)
 
 ```csharp
 CFiringModeFloat RecoilAngle { get; }
@@ -530,7 +530,7 @@ CFiringModeFloat RecoilAngle { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**RecoilAngleVariance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L91)
+### **RecoilAngleVariance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L91)
 
 ```csharp
 CFiringModeFloat RecoilAngleVariance { get; }
@@ -540,7 +540,7 @@ CFiringModeFloat RecoilAngleVariance { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**RecoilMagnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L93)
+### **RecoilMagnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L93)
 
 ```csharp
 CFiringModeFloat RecoilMagnitude { get; }
@@ -550,7 +550,7 @@ CFiringModeFloat RecoilMagnitude { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**RecoilMagnitudeVariance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L95)
+### **RecoilMagnitudeVariance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L95)
 
 ```csharp
 CFiringModeFloat RecoilMagnitudeVariance { get; }
@@ -560,7 +560,7 @@ CFiringModeFloat RecoilMagnitudeVariance { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**RecoilSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L109)
+### **RecoilSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L109)
 
 ```csharp
 ref int RecoilSeed { get; }
@@ -570,7 +570,7 @@ ref int RecoilSeed { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RecoveryTimeCrouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L163)
+### **RecoveryTimeCrouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L163)
 
 ```csharp
 ref float RecoveryTimeCrouch { get; }
@@ -580,7 +580,7 @@ ref float RecoveryTimeCrouch { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RecoveryTimeCrouchFinal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L167)
+### **RecoveryTimeCrouchFinal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L167)
 
 ```csharp
 ref float RecoveryTimeCrouchFinal { get; }
@@ -590,7 +590,7 @@ ref float RecoveryTimeCrouchFinal { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RecoveryTimeStand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L165)
+### **RecoveryTimeStand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L165)
 
 ```csharp
 ref float RecoveryTimeStand { get; }
@@ -600,7 +600,7 @@ ref float RecoveryTimeStand { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RecoveryTimeStandFinal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L169)
+### **RecoveryTimeStandFinal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L169)
 
 ```csharp
 ref float RecoveryTimeStandFinal { get; }
@@ -610,7 +610,7 @@ ref float RecoveryTimeStandFinal { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RecoveryTransitionEndBullet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L173)
+### **RecoveryTransitionEndBullet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L173)
 
 ```csharp
 ref int RecoveryTransitionEndBullet { get; }
@@ -620,7 +620,7 @@ ref int RecoveryTransitionEndBullet { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RecoveryTransitionStartBullet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L171)
+### **RecoveryTransitionStartBullet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L171)
 
 ```csharp
 ref int RecoveryTransitionStartBullet { get; }
@@ -630,7 +630,7 @@ ref int RecoveryTransitionStartBullet { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ReloadsSingleShells** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L67)
+### **ReloadsSingleShells** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L67)
 
 ```csharp
 ref bool ReloadsSingleShells { get; }
@@ -640,7 +640,7 @@ ref bool ReloadsSingleShells { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SecondaryReserveAmmoMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L45)
+### **SecondaryReserveAmmoMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L45)
 
 ```csharp
 ref int SecondaryReserveAmmoMax { get; }
@@ -650,7 +650,7 @@ ref int SecondaryReserveAmmoMax { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**SilencerType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L57)
+### **SilencerType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L57)
 
 ```csharp
 ref CSWeaponSilencerType SilencerType { get; }
@@ -660,7 +660,7 @@ ref CSWeaponSilencerType SilencerType { get; }
 
 - [CSWeaponSilencerType](/docs/api/shared/schemadefinitions/csweaponsilencertype)
 
-**SmokeColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L177)
+### **SmokeColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L177)
 
 ```csharp
 ref Vector SmokeColor { get; }
@@ -670,7 +670,7 @@ ref Vector SmokeColor { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Spread** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L73)
+### **Spread** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L73)
 
 ```csharp
 CFiringModeFloat Spread { get; }
@@ -680,7 +680,7 @@ CFiringModeFloat Spread { get; }
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
-**SpreadSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L111)
+### **SpreadSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L111)
 
 ```csharp
 ref int SpreadSeed { get; }
@@ -690,7 +690,7 @@ ref int SpreadSeed { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ThrowVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L175)
+### **ThrowVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L175)
 
 ```csharp
 ref float ThrowVelocity { get; }
@@ -700,7 +700,7 @@ ref float ThrowVelocity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TracerFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L97)
+### **TracerFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L97)
 
 ```csharp
 CFiringModeInt TracerFrequency { get; }
@@ -710,7 +710,7 @@ CFiringModeInt TracerFrequency { get; }
 
 - [CFiringModeInt](/docs/api/shared/schemadefinitions/cfiringmodeint)
 
-**TracerParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L31)
+### **TracerParticle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L31)
 
 ```csharp
 SchemaUntypedField TracerParticle { get; }
@@ -720,7 +720,7 @@ SchemaUntypedField TracerParticle { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**UnzoomsAfterShot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L121)
+### **UnzoomsAfterShot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L121)
 
 ```csharp
 ref bool UnzoomsAfterShot { get; }
@@ -730,7 +730,7 @@ ref bool UnzoomsAfterShot { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UseRadioSubtitle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L119)
+### **UseRadioSubtitle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L119)
 
 ```csharp
 string UseRadioSubtitle { get; set; }
@@ -740,7 +740,7 @@ string UseRadioSubtitle { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**WeaponCategory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L18)
+### **WeaponCategory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L18)
 
 ```csharp
 ref CSWeaponCategory WeaponCategory { get; }
@@ -750,7 +750,7 @@ ref CSWeaponCategory WeaponCategory { get; }
 
 - [CSWeaponCategory](/docs/api/shared/schemadefinitions/csweaponcategory)
 
-**WeaponType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L16)
+### **WeaponType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L16)
 
 ```csharp
 ref CSWeaponType WeaponType { get; }
@@ -760,7 +760,7 @@ ref CSWeaponType WeaponType { get; }
 
 - [CSWeaponType](/docs/api/shared/schemadefinitions/csweapontype)
 
-**ZoomFOV1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L127)
+### **ZoomFOV1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L127)
 
 ```csharp
 ref int ZoomFOV1 { get; }
@@ -770,7 +770,7 @@ ref int ZoomFOV1 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ZoomFOV2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L129)
+### **ZoomFOV2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L129)
 
 ```csharp
 ref int ZoomFOV2 { get; }
@@ -780,7 +780,7 @@ ref int ZoomFOV2 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ZoomLevels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L125)
+### **ZoomLevels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L125)
 
 ```csharp
 ref int ZoomLevels { get; }
@@ -790,7 +790,7 @@ ref int ZoomLevels { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ZoomTime0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L131)
+### **ZoomTime0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L131)
 
 ```csharp
 ref float ZoomTime0 { get; }
@@ -800,7 +800,7 @@ ref float ZoomTime0 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ZoomTime1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L133)
+### **ZoomTime1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L133)
 
 ```csharp
 ref float ZoomTime1 { get; }
@@ -810,7 +810,7 @@ ref float ZoomTime1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ZoomTime2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L135)
+### **ZoomTime2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSWeaponBaseVData.cs#L135)
 
 ```csharp
 ref float ZoomTime2 { get; }

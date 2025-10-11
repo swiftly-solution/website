@@ -10,7 +10,7 @@ public interface C_OP_TwistAroundAxis : CParticleFunctionForce, CParticleFunctio
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TwistAroundAxis.cs#L22)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TwistAroundAxis.cs#L22)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ForceAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TwistAroundAxis.cs#L16)
+### **ForceAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TwistAroundAxis.cs#L16)
 
 ```csharp
 ref float ForceAmount { get; }
@@ -30,7 +30,7 @@ ref float ForceAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LocalSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TwistAroundAxis.cs#L20)
+### **LocalSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TwistAroundAxis.cs#L20)
 
 ```csharp
 ref bool LocalSpace { get; }
@@ -40,7 +40,7 @@ ref bool LocalSpace { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TwistAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TwistAroundAxis.cs#L18)
+### **TwistAxis** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_TwistAroundAxis.cs#L18)
 
 ```csharp
 ref Vector TwistAxis { get; }

@@ -10,7 +10,7 @@ public interface CNmIDSwitchNode__CDefinition : CNmIDValueNode__CDefinition, CNm
 
 ## Properties
 
-**FalseValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L22)
+### **FalseValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L22)
 
 ```csharp
 ref CGlobalSymbol FalseValue { get; }
@@ -20,7 +20,7 @@ ref CGlobalSymbol FalseValue { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**FalseValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L20)
+### **FalseValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L20)
 
 ```csharp
 ref short FalseValueNodeIdx { get; }
@@ -30,7 +30,7 @@ ref short FalseValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**SwitchValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L16)
+### **SwitchValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L16)
 
 ```csharp
 ref short SwitchValueNodeIdx { get; }
@@ -40,7 +40,7 @@ ref short SwitchValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**TrueValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L24)
+### **TrueValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L24)
 
 ```csharp
 ref CGlobalSymbol TrueValue { get; }
@@ -50,7 +50,7 @@ ref CGlobalSymbol TrueValue { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**TrueValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L18)
+### **TrueValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIDSwitchNode__CDefinition.cs#L18)
 
 ```csharp
 ref short TrueValueNodeIdx { get; }

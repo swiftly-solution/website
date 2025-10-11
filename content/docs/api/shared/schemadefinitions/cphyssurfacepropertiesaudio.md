@@ -10,7 +10,7 @@ public interface CPhysSurfacePropertiesAudio : ISchemaClass<CPhysSurfaceProperti
 
 ## Properties
 
-**HardThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L24)
+### **HardThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L24)
 
 ```csharp
 ref float HardThreshold { get; }
@@ -20,7 +20,7 @@ ref float HardThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HardVelocityThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L26)
+### **HardVelocityThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L26)
 
 ```csharp
 ref float HardVelocityThreshold { get; }
@@ -30,7 +30,7 @@ ref float HardVelocityThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HardnessFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L18)
+### **HardnessFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L18)
 
 ```csharp
 ref float HardnessFactor { get; }
@@ -40,7 +40,7 @@ ref float HardnessFactor { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OcclusionFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L30)
+### **OcclusionFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L30)
 
 ```csharp
 ref float OcclusionFactor { get; }
@@ -50,7 +50,7 @@ ref float OcclusionFactor { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Reflectivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L16)
+### **Reflectivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L16)
 
 ```csharp
 ref float Reflectivity { get; }
@@ -60,7 +60,7 @@ ref float Reflectivity { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RoughThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L22)
+### **RoughThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L22)
 
 ```csharp
 ref float RoughThreshold { get; }
@@ -70,7 +70,7 @@ ref float RoughThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RoughnessFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L20)
+### **RoughnessFactor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L20)
 
 ```csharp
 ref float RoughnessFactor { get; }
@@ -80,7 +80,7 @@ ref float RoughnessFactor { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**StaticImpactVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L28)
+### **StaticImpactVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysSurfacePropertiesAudio.cs#L28)
 
 ```csharp
 ref float StaticImpactVolume { get; }

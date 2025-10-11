@@ -10,7 +10,7 @@ public interface CSoundContainerReferenceArray : ISchemaClass<CSoundContainerRef
 
 ## Properties
 
-**Sounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L18)
+### **Sounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L18)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>> Sounds { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>> Sounds { g
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>>
+- [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>>
 
-**Sounds1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L20)
+### **Sounds1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L20)
 
 ```csharp
 ref CUtlVector<PointerTo<CVoiceContainerBase>> Sounds1 { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<PointerTo<CVoiceContainerBase>> Sounds1 { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CVoiceContainerBase](/docs/api/shared/schemadefinitions/cvoicecontainerbase)>>
+- [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CVoiceContainerBase](/docs/api/shared/schemadefinitions/cvoicecontainerbase)>>
 
-**UseReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L16)
+### **UseReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundContainerReferenceArray.cs#L16)
 
 ```csharp
 ref bool UseReference { get; }

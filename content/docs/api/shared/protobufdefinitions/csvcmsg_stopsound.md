@@ -10,7 +10,7 @@ public interface CSVCMsg_StopSound : ITypedProtobuf<CSVCMsg_StopSound>, INativeH
 
 ## Properties
 
-**Guid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_StopSound.cs#L18)
+### **Guid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_StopSound.cs#L18)
 
 ```csharp
 uint Guid { get; set; }

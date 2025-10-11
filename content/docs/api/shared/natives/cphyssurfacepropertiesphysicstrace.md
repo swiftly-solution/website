@@ -10,7 +10,7 @@ public struct CPhysSurfacePropertiesPhysicsTrace
 
 ## Fields
 
-**Density** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L10)
+### **Density** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L10)
 
 ```csharp
 public float Density
@@ -20,7 +20,7 @@ public float Density
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Elasticity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L9)
+### **Elasticity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L9)
 
 ```csharp
 public float Elasticity
@@ -30,7 +30,7 @@ public float Elasticity
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Flashpoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L16)
+### **Flashpoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L16)
 
 ```csharp
 public float Flashpoint
@@ -40,7 +40,7 @@ public float Flashpoint
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Friction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L8)
+### **Friction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L8)
 
 ```csharp
 public float Friction
@@ -50,7 +50,7 @@ public float Friction
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HeatConductivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L15)
+### **HeatConductivity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L15)
 
 ```csharp
 public float HeatConductivity
@@ -60,7 +60,7 @@ public float HeatConductivity
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SoftContactDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L13)
+### **SoftContactDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L13)
 
 ```csharp
 public float SoftContactDampingRatio
@@ -70,7 +70,7 @@ public float SoftContactDampingRatio
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SoftContactFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L12)
+### **SoftContactFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L12)
 
 ```csharp
 public float SoftContactFrequency
@@ -80,7 +80,7 @@ public float SoftContactFrequency
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Thickness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L11)
+### **Thickness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L11)
 
 ```csharp
 public float Thickness
@@ -90,7 +90,7 @@ public float Thickness
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WheelDrag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L14)
+### **WheelDrag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CPhysSurfacePropertiesPhysics.cs#L14)
 
 ```csharp
 public float WheelDrag

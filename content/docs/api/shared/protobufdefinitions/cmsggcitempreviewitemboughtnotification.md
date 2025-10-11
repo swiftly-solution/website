@@ -10,7 +10,7 @@ public interface CMsgGCItemPreviewItemBoughtNotification : ITypedProtobuf<CMsgGC
 
 ## Properties
 
-**ItemDefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCItemPreviewItemBoughtNotification.cs#L13)
+### **ItemDefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCItemPreviewItemBoughtNotification.cs#L13)
 
 ```csharp
 uint ItemDefIndex { get; set; }

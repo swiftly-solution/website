@@ -10,7 +10,7 @@ public interface CTwistConstraint : CBaseConstraint, CBoneConstraintBase, ISchem
 
 ## Properties
 
-**ChildBindRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTwistConstraint.cs#L20)
+### **ChildBindRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTwistConstraint.cs#L20)
 
 ```csharp
 ref Quaternion ChildBindRotation { get; }
@@ -20,7 +20,7 @@ ref Quaternion ChildBindRotation { get; }
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
-**Inverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTwistConstraint.cs#L16)
+### **Inverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTwistConstraint.cs#L16)
 
 ```csharp
 ref bool Inverse { get; }
@@ -30,7 +30,7 @@ ref bool Inverse { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ParentBindRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTwistConstraint.cs#L18)
+### **ParentBindRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTwistConstraint.cs#L18)
 
 ```csharp
 ref Quaternion ParentBindRotation { get; }

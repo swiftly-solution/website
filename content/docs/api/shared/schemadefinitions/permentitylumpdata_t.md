@@ -10,7 +10,7 @@ public interface PermEntityLumpData_t : ISchemaClass<PermEntityLumpData_t>, ISch
 
 ## Properties
 
-**ChildLumps** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermEntityLumpData_t.cs#L18)
+### **ChildLumps** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermEntityLumpData_t.cs#L18)
 
 ```csharp
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCEntityLump>> ChildLumps { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCEntityLump>> ChildLumps { get; 
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCEntityLump](/docs/api/shared/schemadefinitions/infoforresourcetypecentitylump)>>
+- [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCEntityLump](/docs/api/shared/schemadefinitions/infoforresourcetypecentitylump)>>
 
-**EntityKeyValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermEntityLumpData_t.cs#L21)
+### **EntityKeyValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermEntityLumpData_t.cs#L21)
 
 ```csharp
 SchemaUntypedField EntityKeyValues { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField EntityKeyValues { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermEntityLumpData_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PermEntityLumpData_t.cs#L16)
 
 ```csharp
 string Name { get; set; }

@@ -10,7 +10,7 @@ public interface VMixAutoFilterDesc_t : ISchemaClass<VMixAutoFilterDesc_t>, ISch
 
 ## Properties
 
-**AttackTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L18)
+### **AttackTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L18)
 
 ```csharp
 ref float AttackTimeMS { get; }
@@ -20,7 +20,7 @@ ref float AttackTimeMS { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EnvelopeAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L16)
+### **EnvelopeAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L16)
 
 ```csharp
 ref float EnvelopeAmount { get; }
@@ -30,7 +30,7 @@ ref float EnvelopeAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L22)
+### **Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L22)
 
 ```csharp
 VMixFilterDesc_t Filter { get; }
@@ -40,7 +40,7 @@ VMixFilterDesc_t Filter { get; }
 
 - [VMixFilterDesc_t](/docs/api/shared/schemadefinitions/vmixfilterdesc_t)
 
-**LFOAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L24)
+### **LFOAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L24)
 
 ```csharp
 ref float LFOAmount { get; }
@@ -50,7 +50,7 @@ ref float LFOAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LFORate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L26)
+### **LFORate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L26)
 
 ```csharp
 ref float LFORate { get; }
@@ -60,7 +60,7 @@ ref float LFORate { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LFOShape** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L30)
+### **LFOShape** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L30)
 
 ```csharp
 ref VMixLFOShape_t LFOShape { get; }
@@ -70,7 +70,7 @@ ref VMixLFOShape_t LFOShape { get; }
 
 - [VMixLFOShape_t](/docs/api/shared/schemadefinitions/vmixlfoshape_t)
 
-**Phase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L28)
+### **Phase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L28)
 
 ```csharp
 ref float Phase { get; }
@@ -80,7 +80,7 @@ ref float Phase { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ReleaseTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L20)
+### **ReleaseTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixAutoFilterDesc_t.cs#L20)
 
 ```csharp
 ref float ReleaseTimeMS { get; }

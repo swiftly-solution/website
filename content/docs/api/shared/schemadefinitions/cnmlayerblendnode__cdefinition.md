@@ -10,7 +10,7 @@ public interface CNmLayerBlendNode__CDefinition : CNmPoseNode__CDefinition, CNmG
 
 ## Properties
 
-**BaseNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L16)
+### **BaseNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L16)
 
 ```csharp
 ref short BaseNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short BaseNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**LayerDefinition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L21)
+### **LayerDefinition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L21)
 
 ```csharp
 SchemaUntypedField LayerDefinition { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField LayerDefinition { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**OnlySampleBaseRootMotion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L18)
+### **OnlySampleBaseRootMotion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L18)
 
 ```csharp
 ref bool OnlySampleBaseRootMotion { get; }

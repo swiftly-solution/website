@@ -10,7 +10,7 @@ public interface CClientMsg_CustomGameEventBounce : ITypedProtobuf<CClientMsg_Cu
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L16)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L16)
 
 ```csharp
 byte[] Data { get; set; }
@@ -20,7 +20,7 @@ byte[] Data { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L13)
+### **EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L13)
 
 ```csharp
 string EventName { get; set; }
@@ -30,7 +30,7 @@ string EventName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L19)
+### **PlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L19)
 
 ```csharp
 int PlayerSlot { get; set; }

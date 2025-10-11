@@ -10,7 +10,7 @@ public interface C_INIT_CreateWithinSphereTransform : CParticleFunctionInitializ
 
 ## Properties
 
-**DistanceBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L20)
+### **DistanceBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L20)
 
 ```csharp
 CPerParticleVecInput DistanceBias { get; }
@@ -20,7 +20,7 @@ CPerParticleVecInput DistanceBias { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**DistanceBiasAbs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L22)
+### **DistanceBiasAbs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L22)
 
 ```csharp
 ref Vector DistanceBiasAbs { get; }
@@ -30,7 +30,7 @@ ref Vector DistanceBiasAbs { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L38)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L38)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**FieldVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L40)
+### **FieldVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L40)
 
 ```csharp
 ParticleAttributeIndex_t FieldVelocity { get; }
@@ -50,7 +50,7 @@ ParticleAttributeIndex_t FieldVelocity { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**LocalCoordinateSystemSpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L36)
+### **LocalCoordinateSystemSpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L36)
 
 ```csharp
 CPerParticleVecInput LocalCoordinateSystemSpeedMax { get; }
@@ -60,7 +60,7 @@ CPerParticleVecInput LocalCoordinateSystemSpeedMax { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**LocalCoordinateSystemSpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L34)
+### **LocalCoordinateSystemSpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L34)
 
 ```csharp
 CPerParticleVecInput LocalCoordinateSystemSpeedMin { get; }
@@ -70,7 +70,7 @@ CPerParticleVecInput LocalCoordinateSystemSpeedMin { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**LocalCoords** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L32)
+### **LocalCoords** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L32)
 
 ```csharp
 ref bool LocalCoords { get; }
@@ -80,7 +80,7 @@ ref bool LocalCoords { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RadiusMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L18)
+### **RadiusMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L18)
 
 ```csharp
 CPerParticleFloatInput RadiusMax { get; }
@@ -90,7 +90,7 @@ CPerParticleFloatInput RadiusMax { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**RadiusMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L16)
+### **RadiusMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L16)
 
 ```csharp
 CPerParticleFloatInput RadiusMin { get; }
@@ -100,7 +100,7 @@ CPerParticleFloatInput RadiusMin { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L28)
+### **SpeedMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L28)
 
 ```csharp
 CPerParticleFloatInput SpeedMax { get; }
@@ -110,7 +110,7 @@ CPerParticleFloatInput SpeedMax { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L26)
+### **SpeedMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L26)
 
 ```csharp
 CPerParticleFloatInput SpeedMin { get; }
@@ -120,7 +120,7 @@ CPerParticleFloatInput SpeedMin { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**SpeedRandExp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L30)
+### **SpeedRandExp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L30)
 
 ```csharp
 ref float SpeedRandExp { get; }
@@ -130,7 +130,7 @@ ref float SpeedRandExp { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L24)
+### **TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_CreateWithinSphereTransform.cs#L24)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }

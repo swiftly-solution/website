@@ -10,7 +10,7 @@ public interface CNmFloatSelectorNode__CDefinition : CNmFloatValueNode__CDefinit
 
 ## Properties
 
-**ConditionNodeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L17)
+### **ConditionNodeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L17)
 
 ```csharp
 SchemaUntypedField ConditionNodeIndices { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField ConditionNodeIndices { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L22)
+### **DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L22)
 
 ```csharp
 ref float DefaultValue { get; }
@@ -30,7 +30,7 @@ ref float DefaultValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EaseTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L24)
+### **EaseTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L24)
 
 ```csharp
 ref float EaseTime { get; }
@@ -40,7 +40,7 @@ ref float EaseTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EasingOp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L26)
+### **EasingOp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L26)
 
 ```csharp
 ref NmEasingOperation_t EasingOp { get; }
@@ -50,7 +50,7 @@ ref NmEasingOperation_t EasingOp { get; }
 
 - [NmEasingOperation_t](/docs/api/shared/schemadefinitions/nmeasingoperation_t)
 
-**Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L20)
+### **Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatSelectorNode__CDefinition.cs#L20)
 
 ```csharp
 SchemaUntypedField Values { get; }

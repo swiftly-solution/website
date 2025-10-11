@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_Fantasy_FantasyTeam : ITypedProtobuf<CMsgGCC
 
 ## Properties
 
-**Sectionid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Fantasy_FantasyTeam.cs#L13)
+### **Sectionid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Fantasy_FantasyTeam.cs#L13)
 
 ```csharp
 int Sectionid { get; set; }
@@ -20,7 +20,7 @@ int Sectionid { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Slots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Fantasy_FantasyTeam.cs#L16)
+### **Slots** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Fantasy_FantasyTeam.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_Fantasy_FantasySlot> Slots { get; }

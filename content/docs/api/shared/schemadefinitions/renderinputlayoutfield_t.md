@@ -10,7 +10,7 @@ public interface RenderInputLayoutField_t : ISchemaClass<RenderInputLayoutField_
 
 ## Properties
 
-**Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L20)
+### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L20)
 
 ```csharp
 ref short Offset { get; }
@@ -20,7 +20,7 @@ ref short Offset { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**SemanticIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L18)
+### **SemanticIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L18)
 
 ```csharp
 ref byte SemanticIndex { get; }
@@ -30,7 +30,7 @@ ref byte SemanticIndex { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**SemanticName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L16)
+### **SemanticName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L16)
 
 ```csharp
 string SemanticName { get; set; }
@@ -40,7 +40,7 @@ string SemanticName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ShaderSemantic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L26)
+### **ShaderSemantic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L26)
 
 ```csharp
 string ShaderSemantic { get; set; }
@@ -50,7 +50,7 @@ string ShaderSemantic { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L22)
+### **Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L22)
 
 ```csharp
 ref byte Slot { get; }
@@ -60,7 +60,7 @@ ref byte Slot { get; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-**SlotType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L24)
+### **SlotType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RenderInputLayoutField_t.cs#L24)
 
 ```csharp
 ref RenderSlotType_t SlotType { get; }

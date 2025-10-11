@@ -10,7 +10,7 @@ public interface CCS2ChickenGraphController : CAnimGraphControllerBase, ISchemaC
 
 ## Properties
 
-**Action** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L17)
+### **Action** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L17)
 
 ```csharp
 SchemaUntypedField Action { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Action { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ActionReset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L23)
+### **ActionReset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L23)
 
 ```csharp
 SchemaUntypedField ActionReset { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField ActionReset { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ActionSubtype** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L20)
+### **ActionSubtype** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L20)
 
 ```csharp
 SchemaUntypedField ActionSubtype { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField ActionSubtype { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**HasActionCompletedEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L40)
+### **HasActionCompletedEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L40)
 
 ```csharp
 ref bool HasActionCompletedEvent { get; }
@@ -50,7 +50,7 @@ ref bool HasActionCompletedEvent { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IdleVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L26)
+### **IdleVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L26)
 
 ```csharp
 SchemaUntypedField IdleVariation { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField IdleVariation { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**InWater** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L38)
+### **InWater** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L38)
 
 ```csharp
 SchemaUntypedField InWater { get; }
@@ -70,7 +70,7 @@ SchemaUntypedField InWater { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**PanicVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L32)
+### **PanicVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L32)
 
 ```csharp
 SchemaUntypedField PanicVariation { get; }
@@ -80,7 +80,7 @@ SchemaUntypedField PanicVariation { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**RunVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L29)
+### **RunVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L29)
 
 ```csharp
 SchemaUntypedField RunVariation { get; }
@@ -90,7 +90,7 @@ SchemaUntypedField RunVariation { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**SquatVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L35)
+### **SquatVariation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L35)
 
 ```csharp
 SchemaUntypedField SquatVariation { get; }
@@ -100,7 +100,7 @@ SchemaUntypedField SquatVariation { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**WaitingForCompletedEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L42)
+### **WaitingForCompletedEvent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2ChickenGraphController.cs#L42)
 
 ```csharp
 ref bool WaitingForCompletedEvent { get; }

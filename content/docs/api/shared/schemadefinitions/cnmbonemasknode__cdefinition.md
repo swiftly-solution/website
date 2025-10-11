@@ -10,7 +10,7 @@ public interface CNmBoneMaskNode__CDefinition : CNmBoneMaskValueNode__CDefinitio
 
 ## Properties
 
-**BoneMaskID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskNode__CDefinition.cs#L16)
+### **BoneMaskID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmBoneMaskNode__CDefinition.cs#L16)
 
 ```csharp
 ref CGlobalSymbol BoneMaskID { get; }

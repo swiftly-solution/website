@@ -10,7 +10,7 @@ public interface VMixConvolutionDesc_t : ISchemaClass<VMixConvolutionDesc_t>, IS
 
 ## Properties
 
-**FldbGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L16)
+### **FldbGain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L16)
 
 ```csharp
 ref float FldbGain { get; }
@@ -20,7 +20,7 @@ ref float FldbGain { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FldbHigh** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L26)
+### **FldbHigh** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L26)
 
 ```csharp
 ref float FldbHigh { get; }
@@ -30,7 +30,7 @@ ref float FldbHigh { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FldbLow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L22)
+### **FldbLow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L22)
 
 ```csharp
 ref float FldbLow { get; }
@@ -40,7 +40,7 @@ ref float FldbLow { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FldbMid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L24)
+### **FldbMid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L24)
 
 ```csharp
 ref float FldbMid { get; }
@@ -50,7 +50,7 @@ ref float FldbMid { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HighCutoffFreq** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L30)
+### **HighCutoffFreq** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L30)
 
 ```csharp
 ref float HighCutoffFreq { get; }
@@ -60,7 +60,7 @@ ref float HighCutoffFreq { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LowCutoffFreq** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L28)
+### **LowCutoffFreq** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L28)
 
 ```csharp
 ref float LowCutoffFreq { get; }
@@ -70,7 +70,7 @@ ref float LowCutoffFreq { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PreDelayMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L18)
+### **PreDelayMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L18)
 
 ```csharp
 ref float PreDelayMS { get; }
@@ -80,7 +80,7 @@ ref float PreDelayMS { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WetMix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L20)
+### **WetMix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixConvolutionDesc_t.cs#L20)
 
 ```csharp
 ref float WetMix { get; }

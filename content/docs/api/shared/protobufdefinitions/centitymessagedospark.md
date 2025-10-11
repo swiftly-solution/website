@@ -10,7 +10,7 @@ public interface CEntityMessageDoSpark : ITypedProtobuf<CEntityMessageDoSpark>, 
 
 ## Properties
 
-**Beams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L25)
+### **Beams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L25)
 
 ```csharp
 uint Beams { get; set; }
@@ -20,7 +20,7 @@ uint Beams { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L22)
+### **Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L22)
 
 ```csharp
 uint Color { get; set; }
@@ -30,7 +30,7 @@ uint Color { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L31)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L31)
 
 ```csharp
 float Duration { get; set; }
@@ -40,7 +40,7 @@ float Duration { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EntityMsg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L34)
+### **EntityMsg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L34)
 
 ```csharp
 CEntityMsg EntityMsg { get; }
@@ -50,7 +50,7 @@ CEntityMsg EntityMsg { get; }
 
 - [CEntityMsg](/docs/api/shared/protobufdefinitions/centitymsg)
 
-**Entityindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L16)
+### **Entityindex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L16)
 
 ```csharp
 int Entityindex { get; set; }
@@ -60,7 +60,7 @@ int Entityindex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L13)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L13)
 
 ```csharp
 Vector Origin { get; set; }
@@ -70,7 +70,7 @@ Vector Origin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L19)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L19)
 
 ```csharp
 float Radius { get; set; }
@@ -80,7 +80,7 @@ float Radius { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Thick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L28)
+### **Thick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageDoSpark.cs#L28)
 
 ```csharp
 float Thick { get; set; }

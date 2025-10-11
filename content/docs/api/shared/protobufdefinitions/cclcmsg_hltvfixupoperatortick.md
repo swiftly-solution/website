@@ -10,7 +10,7 @@ public interface CCLCMsg_HltvFixupOperatorTick : ITypedProtobuf<CCLCMsg_HltvFixu
 
 ## Properties
 
-**CameramanScoreboard** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L28)
+### **CameramanScoreboard** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L28)
 
 ```csharp
 bool CameramanScoreboard { get; set; }
@@ -20,7 +20,7 @@ bool CameramanScoreboard { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EyeAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L22)
+### **EyeAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L22)
 
 ```csharp
 QAngle EyeAngles { get; set; }
@@ -30,7 +30,7 @@ QAngle EyeAngles { get; set; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**ObserverMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L25)
+### **ObserverMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L25)
 
 ```csharp
 int ObserverMode { get; set; }
@@ -40,7 +40,7 @@ int ObserverMode { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ObserverTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L31)
+### **ObserverTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L31)
 
 ```csharp
 int ObserverTarget { get; set; }
@@ -50,7 +50,7 @@ int ObserverTarget { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L19)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L19)
 
 ```csharp
 Vector Origin { get; set; }
@@ -60,7 +60,7 @@ Vector Origin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**PropsData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L16)
+### **PropsData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L16)
 
 ```csharp
 byte[] PropsData { get; set; }
@@ -70,7 +70,7 @@ byte[] PropsData { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L13)
+### **Tick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L13)
 
 ```csharp
 int Tick { get; set; }
@@ -80,7 +80,7 @@ int Tick { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ViewOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L34)
+### **ViewOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_HltvFixupOperatorTick.cs#L34)
 
 ```csharp
 Vector ViewOffset { get; set; }

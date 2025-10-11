@@ -10,7 +10,7 @@ public interface CAnimScriptManager : ISchemaClass<CAnimScriptManager>, ISchemaF
 
 ## Properties
 
-**ScriptInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimScriptManager.cs#L17)
+### **ScriptInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimScriptManager.cs#L17)
 
 ```csharp
 ref CUtlVector ScriptInfo { get; }
@@ -18,5 +18,5 @@ ref CUtlVector ScriptInfo { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

@@ -10,7 +10,7 @@ public interface CEmitTagActionUpdater : CAnimActionUpdater, ISchemaClass<CAnimA
 
 ## Properties
 
-**IsZeroDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEmitTagActionUpdater.cs#L18)
+### **IsZeroDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEmitTagActionUpdater.cs#L18)
 
 ```csharp
 ref bool IsZeroDuration { get; }
@@ -20,7 +20,7 @@ ref bool IsZeroDuration { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**TagIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEmitTagActionUpdater.cs#L16)
+### **TagIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEmitTagActionUpdater.cs#L16)
 
 ```csharp
 ref int TagIndex { get; }

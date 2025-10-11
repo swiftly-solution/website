@@ -10,7 +10,7 @@ public interface CPhysBallSocket : CPhysConstraint, CLogicalEntity, CServerOnlyE
 
 ## Properties
 
-**EnableSwingLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L18)
+### **EnableSwingLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L18)
 
 ```csharp
 ref bool EnableSwingLimit { get; }
@@ -20,7 +20,7 @@ ref bool EnableSwingLimit { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EnableTwistLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L22)
+### **EnableTwistLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L22)
 
 ```csharp
 ref bool EnableTwistLimit { get; }
@@ -30,7 +30,7 @@ ref bool EnableTwistLimit { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**JointFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L16)
+### **JointFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L16)
 
 ```csharp
 ref float JointFriction { get; }
@@ -40,7 +40,7 @@ ref float JointFriction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxTwistAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L26)
+### **MaxTwistAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L26)
 
 ```csharp
 ref float MaxTwistAngle { get; }
@@ -50,7 +50,7 @@ ref float MaxTwistAngle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinTwistAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L24)
+### **MinTwistAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L24)
 
 ```csharp
 ref float MinTwistAngle { get; }
@@ -60,7 +60,7 @@ ref float MinTwistAngle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**SwingLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L20)
+### **SwingLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysBallSocket.cs#L20)
 
 ```csharp
 ref float SwingLimit { get; }

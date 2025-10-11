@@ -10,7 +10,7 @@ public interface PulseRegisterMap_t : ISchemaClass<PulseRegisterMap_t>, ISchemaF
 
 ## Properties
 
-**Inparams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L17)
+### **Inparams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L17)
 
 ```csharp
 SchemaUntypedField Inparams { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Inparams { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**InparamsWhichCanBeMoved** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L20)
+### **InparamsWhichCanBeMoved** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L20)
 
 ```csharp
 SchemaUntypedField InparamsWhichCanBeMoved { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField InparamsWhichCanBeMoved { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Outparams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L23)
+### **Outparams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L23)
 
 ```csharp
 SchemaUntypedField Outparams { get; }

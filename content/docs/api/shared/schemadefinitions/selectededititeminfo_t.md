@@ -10,7 +10,7 @@ public interface SelectedEditItemInfo_t : ISchemaClass<SelectedEditItemInfo_t>, 
 
 ## Properties
 
-**EditItems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SelectedEditItemInfo_t.cs#L17)
+### **EditItems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SelectedEditItemInfo_t.cs#L17)
 
 ```csharp
 ref CUtlVector EditItems { get; }
@@ -18,5 +18,5 @@ ref CUtlVector EditItems { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

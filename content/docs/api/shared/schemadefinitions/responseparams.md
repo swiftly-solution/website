@@ -10,7 +10,7 @@ public interface ResponseParams : ISchemaClass<ResponseParams>, ISchemaField, IS
 
 ## Properties
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L18)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L18)
 
 ```csharp
 ref short Flags { get; }
@@ -20,7 +20,7 @@ ref short Flags { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Followup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L20)
+### **Followup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L20)
 
 ```csharp
 ResponseFollowup? Followup { get; }
@@ -30,7 +30,7 @@ ResponseFollowup? Followup { get; }
 
 - [ResponseFollowup](/docs/api/shared/schemadefinitions/responsefollowup)?
 
-**Odds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L16)
+### **Odds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L16)
 
 ```csharp
 ref short Odds { get; }

@@ -10,7 +10,7 @@ public struct CapsuleTrace
 
 ## Fields
 
-**Center0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L30)
+### **Center0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L30)
 
 ```csharp
 public Vector Center0
@@ -20,7 +20,7 @@ public Vector Center0
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Center1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L31)
+### **Center1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L31)
 
 ```csharp
 public Vector Center1
@@ -30,7 +30,7 @@ public Vector Center1
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L32)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L32)
 
 ```csharp
 public float Radius

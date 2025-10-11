@@ -10,7 +10,7 @@ public interface CAnimBone : ISchemaClass<CAnimBone>, ISchemaField, ISchemaClass
 
 ## Properties
 
-**Alignment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L28)
+### **Alignment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L28)
 
 ```csharp
 SchemaUntypedField Alignment { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Alignment { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L30)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L30)
 
 ```csharp
 ref int Flags { get; }
@@ -30,7 +30,7 @@ ref int Flags { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L16)
 
 ```csharp
 ref CBufferString Name { get; }
@@ -40,7 +40,7 @@ ref CBufferString Name { get; }
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-**Parent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L18)
+### **Parent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L18)
 
 ```csharp
 ref int Parent { get; }
@@ -50,7 +50,7 @@ ref int Parent { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L20)
+### **Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L20)
 
 ```csharp
 ref Vector Pos { get; }
@@ -60,7 +60,7 @@ ref Vector Pos { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Quat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L23)
+### **Quat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L23)
 
 ```csharp
 SchemaUntypedField Quat { get; }
@@ -70,7 +70,7 @@ SchemaUntypedField Quat { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L25)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimBone.cs#L25)
 
 ```csharp
 ref float Scale { get; }

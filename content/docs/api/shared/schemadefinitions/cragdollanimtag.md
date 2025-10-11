@@ -10,7 +10,7 @@ public interface CRagdollAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISc
 
 ## Properties
 
-**ProfileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollAnimTag.cs#L16)
+### **ProfileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRagdollAnimTag.cs#L16)
 
 ```csharp
 ref CGlobalSymbol ProfileName { get; }

@@ -10,7 +10,7 @@ public interface FeAxialEdgeBend_t : ISchemaClass<FeAxialEdgeBend_t>, ISchemaFie
 
 ## Properties
 
-**Dist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L20)
+### **Dist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L20)
 
 ```csharp
 ref float Dist { get; }
@@ -20,7 +20,7 @@ ref float Dist { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L24)
+### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L24)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
@@ -30,7 +30,7 @@ ISchemaFixedArray<ushort> Node { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
-**Te** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L16)
+### **Te** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L16)
 
 ```csharp
 ref float Te { get; }
@@ -40,7 +40,7 @@ ref float Te { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Tv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L18)
+### **Tv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L18)
 
 ```csharp
 ref float Tv { get; }
@@ -50,7 +50,7 @@ ref float Tv { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L22)
+### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeAxialEdgeBend_t.cs#L22)
 
 ```csharp
 ISchemaFixedArray<float> Weight { get; }

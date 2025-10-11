@@ -10,7 +10,7 @@ public interface C_OP_MovementLoopInsideSphere : CParticleFunctionOperator, CPar
 
 ## Properties
 
-**CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementLoopInsideSphere.cs#L16)
+### **CP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementLoopInsideSphere.cs#L16)
 
 ```csharp
 ref int CP { get; }
@@ -20,7 +20,7 @@ ref int CP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DistSqrAttr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementLoopInsideSphere.cs#L22)
+### **DistSqrAttr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementLoopInsideSphere.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t DistSqrAttr { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t DistSqrAttr { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementLoopInsideSphere.cs#L18)
+### **Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementLoopInsideSphere.cs#L18)
 
 ```csharp
 CParticleCollectionFloatInput Distance { get; }
@@ -40,7 +40,7 @@ CParticleCollectionFloatInput Distance { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementLoopInsideSphere.cs#L20)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_MovementLoopInsideSphere.cs#L20)
 
 ```csharp
 CParticleCollectionVecInput Scale { get; }

@@ -10,7 +10,7 @@ public interface CNmTarget : ISchemaClass<CNmTarget>, ISchemaField, ISchemaClass
 
 ## Properties
 
-**BoneID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L18)
+### **BoneID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L18)
 
 ```csharp
 ref CGlobalSymbol BoneID { get; }
@@ -20,7 +20,7 @@ ref CGlobalSymbol BoneID { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**HasOffsets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L24)
+### **HasOffsets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L24)
 
 ```csharp
 ref bool HasOffsets { get; }
@@ -30,7 +30,7 @@ ref bool HasOffsets { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsBoneTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L20)
+### **IsBoneTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L20)
 
 ```csharp
 ref bool IsBoneTarget { get; }
@@ -40,7 +40,7 @@ ref bool IsBoneTarget { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsSet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L26)
+### **IsSet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L26)
 
 ```csharp
 ref bool IsSet { get; }
@@ -50,7 +50,7 @@ ref bool IsSet { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsUsingBoneSpaceOffsets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L22)
+### **IsUsingBoneSpaceOffsets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L22)
 
 ```csharp
 ref bool IsUsingBoneSpaceOffsets { get; }
@@ -60,7 +60,7 @@ ref bool IsUsingBoneSpaceOffsets { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Transform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L16)
+### **Transform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTarget.cs#L16)
 
 ```csharp
 ref CTransform Transform { get; }

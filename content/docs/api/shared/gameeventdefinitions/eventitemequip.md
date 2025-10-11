@@ -10,7 +10,7 @@ public interface EventItemEquip : IGameEvent<EventItemEquip>
 
 ## Properties
 
-**CanZoom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L54)
+### **CanZoom** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L54)
 
 ```csharp
 bool CanZoom { get; set; }
@@ -20,7 +20,7 @@ bool CanZoom { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L49)
+### **DefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L49)
 
 ```csharp
 int DefIndex { get; set; }
@@ -30,7 +30,7 @@ int DefIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HasSilencer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L59)
+### **HasSilencer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L59)
 
 ```csharp
 bool HasSilencer { get; set; }
@@ -40,7 +40,7 @@ bool HasSilencer { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HasTracers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L69)
+### **HasTracers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L69)
 
 ```csharp
 bool HasTracers { get; set; }
@@ -50,7 +50,7 @@ bool HasTracers { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsPainted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L79)
+### **IsPainted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L79)
 
 ```csharp
 bool IsPainted { get; set; }
@@ -60,7 +60,7 @@ bool IsPainted { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsSilenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L64)
+### **IsSilenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L64)
 
 ```csharp
 bool IsSilenced { get; set; }
@@ -70,7 +70,7 @@ bool IsSilenced { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Item** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L44)
+### **Item** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L44)
 
 ```csharp
 string Item { get; set; }
@@ -80,7 +80,7 @@ string Item { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L37)
+### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L37)
 
 ```csharp
 int UserId { get; set; }
@@ -90,7 +90,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L22)
+### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L22)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -100,7 +100,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L28)
+### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L28)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -110,7 +110,7 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L31)
+### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L31)
 
 ```csharp
 IPlayer UserIdPlayer { get; }
@@ -120,7 +120,7 @@ IPlayer UserIdPlayer { get; }
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 
-**WepType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L74)
+### **WepType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventItemEquip.cs#L74)
 
 ```csharp
 short WepType { get; set; }

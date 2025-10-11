@@ -10,7 +10,7 @@ public interface CNmStateNode__CDefinition : CNmPoseNode__CDefinition, CNmGraphN
 
 ## Properties
 
-**ChildNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L16)
+### **ChildNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L16)
 
 ```csharp
 ref short ChildNodeIdx { get; }
@@ -20,7 +20,7 @@ ref short ChildNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**EntryEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L19)
+### **EntryEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L19)
 
 ```csharp
 SchemaUntypedField EntryEvents { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField EntryEvents { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ExecuteEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L22)
+### **ExecuteEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L22)
 
 ```csharp
 SchemaUntypedField ExecuteEvents { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField ExecuteEvents { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**ExitEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L25)
+### **ExitEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L25)
 
 ```csharp
 SchemaUntypedField ExitEvents { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField ExitEvents { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**IsOffState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L39)
+### **IsOffState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L39)
 
 ```csharp
 ref bool IsOffState { get; }
@@ -60,7 +60,7 @@ ref bool IsOffState { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LayerBoneMaskNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L37)
+### **LayerBoneMaskNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L37)
 
 ```csharp
 ref short LayerBoneMaskNodeIdx { get; }
@@ -70,7 +70,7 @@ ref short LayerBoneMaskNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**LayerRootMotionWeightNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L35)
+### **LayerRootMotionWeightNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L35)
 
 ```csharp
 ref short LayerRootMotionWeightNodeIdx { get; }
@@ -80,7 +80,7 @@ ref short LayerRootMotionWeightNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**LayerWeightNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L33)
+### **LayerWeightNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L33)
 
 ```csharp
 ref short LayerWeightNodeIdx { get; }
@@ -90,7 +90,7 @@ ref short LayerWeightNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**TimedElapsedEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L31)
+### **TimedElapsedEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L31)
 
 ```csharp
 SchemaUntypedField TimedElapsedEvents { get; }
@@ -100,7 +100,7 @@ SchemaUntypedField TimedElapsedEvents { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**TimedRemainingEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L28)
+### **TimedRemainingEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateNode__CDefinition.cs#L28)
 
 ```csharp
 SchemaUntypedField TimedRemainingEvents { get; }

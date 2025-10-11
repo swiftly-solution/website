@@ -10,7 +10,7 @@ public interface SceneObject_t : ISchemaClass<SceneObject_t>, ISchemaField, ISch
 
 ## Properties
 
-**CubeMapPrecomputedHandshake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L36)
+### **CubeMapPrecomputedHandshake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L36)
 
 ```csharp
 ref int CubeMapPrecomputedHandshake { get; }
@@ -20,7 +20,7 @@ ref int CubeMapPrecomputedHandshake { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FadeEndDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L22)
+### **FadeEndDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L22)
 
 ```csharp
 ref float FadeEndDistance { get; }
@@ -30,7 +30,7 @@ ref float FadeEndDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FadeStartDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L20)
+### **FadeStartDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L20)
 
 ```csharp
 ref float FadeStartDistance { get; }
@@ -40,7 +40,7 @@ ref float FadeStartDistance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LODOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L34)
+### **LODOverride** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L34)
 
 ```csharp
 ref short LODOverride { get; }
@@ -50,7 +50,7 @@ ref short LODOverride { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**LightProbeVolumePrecomputedHandshake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L38)
+### **LightProbeVolumePrecomputedHandshake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L38)
 
 ```csharp
 ref int LightProbeVolumePrecomputedHandshake { get; }
@@ -60,7 +60,7 @@ ref int LightProbeVolumePrecomputedHandshake { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LightingOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L30)
+### **LightingOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L30)
 
 ```csharp
 ref Vector LightingOrigin { get; }
@@ -70,7 +70,7 @@ ref Vector LightingOrigin { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ObjectID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L16)
+### **ObjectID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L16)
 
 ```csharp
 ref uint ObjectID { get; }
@@ -80,7 +80,7 @@ ref uint ObjectID { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ObjectTypeFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L28)
+### **ObjectTypeFlags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L28)
 
 ```csharp
 ref ObjectTypeFlags_t ObjectTypeFlags { get; }
@@ -90,7 +90,7 @@ ref ObjectTypeFlags_t ObjectTypeFlags { get; }
 
 - [ObjectTypeFlags_t](/docs/api/shared/schemadefinitions/objecttypeflags_t)
 
-**OverlayRenderOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L32)
+### **OverlayRenderOrder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L32)
 
 ```csharp
 ref short OverlayRenderOrder { get; }
@@ -100,7 +100,7 @@ ref short OverlayRenderOrder { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Renderable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L42)
+### **Renderable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L42)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCRenderMesh> Renderable { get; }
@@ -110,7 +110,7 @@ ref CStrongHandle<InfoForResourceTypeCRenderMesh> Renderable { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCRenderMesh](/docs/api/shared/schemadefinitions/infoforresourcetypecrendermesh)>
 
-**RenderableModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L40)
+### **RenderableModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L40)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
@@ -120,7 +120,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
-**Skin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L26)
+### **Skin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L26)
 
 ```csharp
 string Skin { get; set; }
@@ -130,7 +130,7 @@ string Skin { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TintColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L24)
+### **TintColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L24)
 
 ```csharp
 ref Vector4D TintColor { get; }
@@ -140,7 +140,7 @@ ref Vector4D TintColor { get; }
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
-**Transform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L18)
+### **Transform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SceneObject_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<Vector4D> Transform { get; }

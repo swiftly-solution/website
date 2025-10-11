@@ -10,7 +10,7 @@ public interface CMarkupVolumeWithRef : CMarkupVolumeTagged, CMarkupVolume, CBas
 
 ## Properties
 
-**RefDot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeWithRef.cs#L22)
+### **RefDot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeWithRef.cs#L22)
 
 ```csharp
 ref float RefDot { get; }
@@ -20,7 +20,7 @@ ref float RefDot { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RefPosEntitySpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeWithRef.cs#L18)
+### **RefPosEntitySpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeWithRef.cs#L18)
 
 ```csharp
 ref Vector RefPosEntitySpace { get; }
@@ -30,7 +30,7 @@ ref Vector RefPosEntitySpace { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RefPosWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeWithRef.cs#L20)
+### **RefPosWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeWithRef.cs#L20)
 
 ```csharp
 ref Vector RefPosWorldSpace { get; }
@@ -40,7 +40,7 @@ ref Vector RefPosWorldSpace { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**UseRef** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeWithRef.cs#L16)
+### **UseRef** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMarkupVolumeWithRef.cs#L16)
 
 ```csharp
 ref bool UseRef { get; }

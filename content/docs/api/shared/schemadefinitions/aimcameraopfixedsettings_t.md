@@ -10,7 +10,7 @@ public interface AimCameraOpFixedSettings_t : ISchemaClass<AimCameraOpFixedSetti
 
 ## Properties
 
-**CameraJointIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L18)
+### **CameraJointIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L18)
 
 ```csharp
 ref int CameraJointIndex { get; }
@@ -20,7 +20,7 @@ ref int CameraJointIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ChainIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L16)
+### **ChainIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L16)
 
 ```csharp
 ref int ChainIndex { get; }
@@ -30,7 +30,7 @@ ref int ChainIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ClavicleLeftJointIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L22)
+### **ClavicleLeftJointIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L22)
 
 ```csharp
 ref int ClavicleLeftJointIndex { get; }
@@ -40,7 +40,7 @@ ref int ClavicleLeftJointIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ClavicleRightJointIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L24)
+### **ClavicleRightJointIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L24)
 
 ```csharp
 ref int ClavicleRightJointIndex { get; }
@@ -50,7 +50,7 @@ ref int ClavicleRightJointIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DepenetrationJointIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L26)
+### **DepenetrationJointIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L26)
 
 ```csharp
 ref int DepenetrationJointIndex { get; }
@@ -60,7 +60,7 @@ ref int DepenetrationJointIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PelvisJointIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L20)
+### **PelvisJointIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L20)
 
 ```csharp
 ref int PelvisJointIndex { get; }
@@ -70,7 +70,7 @@ ref int PelvisJointIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**PropJoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L28)
+### **PropJoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AimCameraOpFixedSettings_t.cs#L28)
 
 ```csharp
 ref CUtlVector<int> PropJoints { get; }
@@ -78,5 +78,5 @@ ref CUtlVector<int> PropJoints { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
+- [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

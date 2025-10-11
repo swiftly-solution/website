@@ -10,7 +10,7 @@ public interface CMoverPathNode : CPointEntity, CBaseEntity, CEntityInstance, IS
 
 ## Properties
 
-**InTangentLocal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L16)
+### **InTangentLocal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L16)
 
 ```csharp
 ref Vector InTangentLocal { get; }
@@ -20,7 +20,7 @@ ref Vector InTangentLocal { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Mover** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L34)
+### **Mover** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L34)
 
 ```csharp
 ref CHandle<CPathMover> Mover { get; }
@@ -30,7 +30,7 @@ ref CHandle<CPathMover> Mover { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPathMover](/docs/api/shared/schemadefinitions/cpathmover)>
 
-**OnPassThrough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L28)
+### **OnPassThrough** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L28)
 
 ```csharp
 CEntityIOOutput OnPassThrough { get; }
@@ -40,7 +40,7 @@ CEntityIOOutput OnPassThrough { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnPassThroughForward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L30)
+### **OnPassThroughForward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L30)
 
 ```csharp
 CEntityIOOutput OnPassThroughForward { get; }
@@ -50,7 +50,7 @@ CEntityIOOutput OnPassThroughForward { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnPassThroughReverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L32)
+### **OnPassThroughReverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L32)
 
 ```csharp
 CEntityIOOutput OnPassThroughReverse { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnPassThroughReverse { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStartFromOrInSegment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L24)
+### **OnStartFromOrInSegment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L24)
 
 ```csharp
 CEntityIOOutput OnStartFromOrInSegment { get; }
@@ -70,7 +70,7 @@ CEntityIOOutput OnStartFromOrInSegment { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStoppedAtOrInSegment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L26)
+### **OnStoppedAtOrInSegment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L26)
 
 ```csharp
 CEntityIOOutput OnStoppedAtOrInSegment { get; }
@@ -80,7 +80,7 @@ CEntityIOOutput OnStoppedAtOrInSegment { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OutTangentLocal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L18)
+### **OutTangentLocal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L18)
 
 ```csharp
 ref Vector OutTangentLocal { get; }
@@ -90,7 +90,7 @@ ref Vector OutTangentLocal { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ParentPathUniqueID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L20)
+### **ParentPathUniqueID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L20)
 
 ```csharp
 string ParentPathUniqueID { get; set; }
@@ -100,7 +100,7 @@ string ParentPathUniqueID { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PathNodeParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L22)
+### **PathNodeParameter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L22)
 
 ```csharp
 string PathNodeParameter { get; set; }
@@ -110,7 +110,7 @@ string PathNodeParameter { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**XWSPrevParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L36)
+### **XWSPrevParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoverPathNode.cs#L36)
 
 ```csharp
 ref CTransform XWSPrevParent { get; }

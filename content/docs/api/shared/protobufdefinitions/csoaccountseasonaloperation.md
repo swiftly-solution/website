@@ -10,7 +10,7 @@ public interface CSOAccountSeasonalOperation : ITypedProtobuf<CSOAccountSeasonal
 
 ## Properties
 
-**MissionId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L22)
+### **MissionId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L22)
 
 ```csharp
 uint MissionId { get; set; }
@@ -20,7 +20,7 @@ uint MissionId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**MissionsCompleted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L25)
+### **MissionsCompleted** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L25)
 
 ```csharp
 uint MissionsCompleted { get; set; }
@@ -30,7 +30,7 @@ uint MissionsCompleted { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PremiumTiers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L19)
+### **PremiumTiers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L19)
 
 ```csharp
 uint PremiumTiers { get; set; }
@@ -40,7 +40,7 @@ uint PremiumTiers { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RedeemableBalance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L28)
+### **RedeemableBalance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L28)
 
 ```csharp
 uint RedeemableBalance { get; set; }
@@ -50,7 +50,7 @@ uint RedeemableBalance { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SeasonPassTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L31)
+### **SeasonPassTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L31)
 
 ```csharp
 uint SeasonPassTime { get; set; }
@@ -60,7 +60,7 @@ uint SeasonPassTime { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**SeasonValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L13)
+### **SeasonValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L13)
 
 ```csharp
 uint SeasonValue { get; set; }
@@ -70,7 +70,7 @@ uint SeasonValue { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TierUnlocked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L16)
+### **TierUnlocked** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOAccountSeasonalOperation.cs#L16)
 
 ```csharp
 uint TierUnlocked { get; set; }

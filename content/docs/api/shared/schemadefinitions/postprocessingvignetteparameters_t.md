@@ -10,7 +10,7 @@ public interface PostProcessingVignetteParameters_t : ISchemaClass<PostProcessin
 
 ## Properties
 
-**Center** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L18)
+### **Center** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L18)
 
 ```csharp
 ref Vector2D Center { get; }
@@ -20,7 +20,7 @@ ref Vector2D Center { get; }
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
-**ColorTint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L26)
+### **ColorTint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L26)
 
 ```csharp
 ref Vector ColorTint { get; }
@@ -30,7 +30,7 @@ ref Vector ColorTint { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Feather** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L24)
+### **Feather** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L24)
 
 ```csharp
 ref float Feather { get; }
@@ -40,7 +40,7 @@ ref float Feather { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L20)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L20)
 
 ```csharp
 ref float Radius { get; }
@@ -50,7 +50,7 @@ ref float Radius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Roundness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L22)
+### **Roundness** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L22)
 
 ```csharp
 ref float Roundness { get; }
@@ -60,7 +60,7 @@ ref float Roundness { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**VignetteStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L16)
+### **VignetteStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingVignetteParameters_t.cs#L16)
 
 ```csharp
 ref float VignetteStrength { get; }

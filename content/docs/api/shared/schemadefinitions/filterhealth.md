@@ -10,7 +10,7 @@ public interface FilterHealth : CBaseFilter, CLogicalEntity, CServerOnlyEntity, 
 
 ## Properties
 
-**AdrenalineActive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FilterHealth.cs#L16)
+### **AdrenalineActive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FilterHealth.cs#L16)
 
 ```csharp
 ref bool AdrenalineActive { get; }
@@ -20,7 +20,7 @@ ref bool AdrenalineActive { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**HealthMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FilterHealth.cs#L20)
+### **HealthMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FilterHealth.cs#L20)
 
 ```csharp
 ref int HealthMax { get; }
@@ -30,7 +30,7 @@ ref int HealthMax { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HealthMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FilterHealth.cs#L18)
+### **HealthMin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FilterHealth.cs#L18)
 
 ```csharp
 ref int HealthMin { get; }

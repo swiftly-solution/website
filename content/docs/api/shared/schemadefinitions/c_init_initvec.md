@@ -10,7 +10,7 @@ public interface C_INIT_InitVec : CParticleFunctionInitializer, CParticleFunctio
 
 ## Properties
 
-**InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVec.cs#L16)
+### **InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVec.cs#L16)
 
 ```csharp
 CPerParticleVecInput InputValue { get; }
@@ -20,7 +20,7 @@ CPerParticleVecInput InputValue { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**NormalizedOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVec.cs#L22)
+### **NormalizedOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVec.cs#L22)
 
 ```csharp
 ref bool NormalizedOutput { get; }
@@ -30,7 +30,7 @@ ref bool NormalizedOutput { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVec.cs#L18)
+### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVec.cs#L18)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }
@@ -40,7 +40,7 @@ ParticleAttributeIndex_t OutputField { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVec.cs#L20)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVec.cs#L20)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
@@ -50,7 +50,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 
-**WritePreviousPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVec.cs#L24)
+### **WritePreviousPosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_InitVec.cs#L24)
 
 ```csharp
 ref bool WritePreviousPosition { get; }

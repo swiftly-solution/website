@@ -10,7 +10,7 @@ public interface C_OP_VelocityDecay : CParticleFunctionOperator, CParticleFuncti
 
 ## Properties
 
-**MinVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityDecay.cs#L16)
+### **MinVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_VelocityDecay.cs#L16)
 
 ```csharp
 ref float MinVelocity { get; }

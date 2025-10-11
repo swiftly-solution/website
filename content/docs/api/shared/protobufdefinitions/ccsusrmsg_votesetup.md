@@ -10,7 +10,7 @@ public interface CCSUsrMsg_VoteSetup : ITypedProtobuf<CCSUsrMsg_VoteSetup>, INat
 
 ## Properties
 
-**PotentialIssues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteSetup.cs#L18)
+### **PotentialIssues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_VoteSetup.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldValueType<string> PotentialIssues { get; }

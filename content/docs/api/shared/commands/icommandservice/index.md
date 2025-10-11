@@ -8,7 +8,7 @@ public interface ICommandService
 
 ## Methods
 
-**HookClientChat(ClientChatHandler)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L81)
+### **HookClientChat(ClientChatHandler)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L81)
 
 ```csharp
 Guid HookClientChat(ICommandService.ClientChatHandler handler)
@@ -22,7 +22,7 @@ Guid HookClientChat(ICommandService.ClientChatHandler handler)
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
 
-**HookClientCommand(ClientCommandHandler)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L69)
+### **HookClientCommand(ClientCommandHandler)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L69)
 
 ```csharp
 void HookClientCommand(ICommandService.ClientCommandHandler handler)
@@ -32,7 +32,7 @@ void HookClientCommand(ICommandService.ClientCommandHandler handler)
 
 - **handler**: [ICommandService](/docs/api/shared/commands/icommandservice).[ClientCommandHandler](/docs/api/shared/commands/icommandservice/clientcommandhandler) - The handler callback for the client command.
 
-**RegisterCommand(string, CommandListener, bool, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L42)
+### **RegisterCommand(string, CommandListener, bool, string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L42)
 
 ```csharp
 Guid RegisterCommand(string commandName, ICommandService.CommandListener handler, bool registerRaw = false, string permission = "")
@@ -49,7 +49,7 @@ Guid RegisterCommand(string commandName, ICommandService.CommandListener handler
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The guid of the command.
 
-**RegisterCommandAlias(string, string, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L50)
+### **RegisterCommandAlias(string, string, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L50)
 
 ```csharp
 void RegisterCommandAlias(string commandName, string alias, bool registerRaw = false)
@@ -61,7 +61,7 @@ void RegisterCommandAlias(string commandName, string alias, bool registerRaw = f
 - **alias**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The alias.
 - **registerRaw**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - If set to false, the alias will not starts with a `sw_` prefix.
 
-**UnhookClientChat(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L87)
+### **UnhookClientChat(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L87)
 
 ```csharp
 void UnhookClientChat(Guid guid)
@@ -71,7 +71,7 @@ void UnhookClientChat(Guid guid)
 
 - **guid**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The guid of the client chat.
 
-**UnhookClientCommand(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L75)
+### **UnhookClientCommand(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L75)
 
 ```csharp
 void UnhookClientCommand(Guid guid)
@@ -81,7 +81,7 @@ void UnhookClientCommand(Guid guid)
 
 - **guid**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The guid of the client command.
 
-**UnregisterCommand(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L56)
+### **UnregisterCommand(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L56)
 
 ```csharp
 void UnregisterCommand(Guid guid)
@@ -91,7 +91,7 @@ void UnregisterCommand(Guid guid)
 
 - **guid**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The guid of the command.
 
-**UnregisterCommand(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L62)
+### **UnregisterCommand(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/ICommandService.cs#L62)
 
 ```csharp
 void UnregisterCommand(string commandName)

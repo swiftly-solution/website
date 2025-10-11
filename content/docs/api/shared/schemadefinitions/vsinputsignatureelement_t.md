@@ -10,7 +10,7 @@ public interface VsInputSignatureElement_t : ISchemaClass<VsInputSignatureElemen
 
 ## Properties
 
-**D3DSemanticIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L22)
+### **D3DSemanticIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L22)
 
 ```csharp
 ref int D3DSemanticIndex { get; }
@@ -20,7 +20,7 @@ ref int D3DSemanticIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**D3DSemanticName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L20)
+### **D3DSemanticName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L20)
 
 ```csharp
 string D3DSemanticName { get; set; }
@@ -30,7 +30,7 @@ string D3DSemanticName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L16)
 
 ```csharp
 string Name { get; set; }
@@ -40,7 +40,7 @@ string Name { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Semantic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L18)
+### **Semantic** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignatureElement_t.cs#L18)
 
 ```csharp
 string Semantic { get; set; }

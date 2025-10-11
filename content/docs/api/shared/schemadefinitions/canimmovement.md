@@ -10,7 +10,7 @@ public interface CAnimMovement : ISchemaClass<CAnimMovement>, ISchemaField, ISch
 
 ## Properties
 
-**Angle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L24)
+### **Angle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L24)
 
 ```csharp
 ref float Angle { get; }
@@ -20,7 +20,7 @@ ref float Angle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Endframe** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L16)
+### **Endframe** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L16)
 
 ```csharp
 ref int Endframe { get; }
@@ -30,7 +30,7 @@ ref int Endframe { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Motionflags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L18)
+### **Motionflags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L18)
 
 ```csharp
 ref int Motionflags { get; }
@@ -40,7 +40,7 @@ ref int Motionflags { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L28)
+### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L28)
 
 ```csharp
 ref Vector Position { get; }
@@ -50,7 +50,7 @@ ref Vector Position { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**V0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L20)
+### **V0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L20)
 
 ```csharp
 ref float V0 { get; }
@@ -60,7 +60,7 @@ ref float V0 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**V1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L22)
+### **V1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L22)
 
 ```csharp
 ref float V1 { get; }
@@ -70,7 +70,7 @@ ref float V1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Vector** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L26)
+### **Vector** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L26)
 
 ```csharp
 ref Vector Vector { get; }

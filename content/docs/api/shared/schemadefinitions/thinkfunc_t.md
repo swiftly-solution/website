@@ -10,7 +10,7 @@ public interface thinkfunc_t : ISchemaClass<thinkfunc_t>, ISchemaField, ISchemaC
 
 ## Properties
 
-**Context** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/thinkfunc_t.cs#L19)
+### **Context** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/thinkfunc_t.cs#L19)
 
 ```csharp
 ref CUtlStringToken Context { get; }
@@ -20,7 +20,7 @@ ref CUtlStringToken Context { get; }
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
-**Fn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/thinkfunc_t.cs#L17)
+### **Fn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/thinkfunc_t.cs#L17)
 
 ```csharp
 SchemaUntypedField Fn { get; }
@@ -30,7 +30,7 @@ SchemaUntypedField Fn { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**LastThinkTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/thinkfunc_t.cs#L23)
+### **LastThinkTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/thinkfunc_t.cs#L23)
 
 ```csharp
 GameTick_t LastThinkTick { get; }
@@ -40,7 +40,7 @@ GameTick_t LastThinkTick { get; }
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
-**NextThinkTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/thinkfunc_t.cs#L21)
+### **NextThinkTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/thinkfunc_t.cs#L21)
 
 ```csharp
 GameTick_t NextThinkTick { get; }

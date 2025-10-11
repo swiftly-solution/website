@@ -10,7 +10,7 @@ public interface EventClientProcessInput_t : ISchemaClass<EventClientProcessInpu
 
 ## Properties
 
-**LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessInput_t.cs#L16)
+### **LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessInput_t.cs#L16)
 
 ```csharp
 EngineLoopState_t LoopState { get; }
@@ -20,7 +20,7 @@ EngineLoopState_t LoopState { get; }
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
-**RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessInput_t.cs#L18)
+### **RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessInput_t.cs#L18)
 
 ```csharp
 ref float RealTime { get; }
@@ -30,7 +30,7 @@ ref float RealTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TickInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessInput_t.cs#L20)
+### **TickInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessInput_t.cs#L20)
 
 ```csharp
 ref float TickInterval { get; }
@@ -40,7 +40,7 @@ ref float TickInterval { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TickStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessInput_t.cs#L22)
+### **TickStartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessInput_t.cs#L22)
 
 ```csharp
 ref double TickStartTime { get; }

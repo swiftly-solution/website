@@ -10,7 +10,7 @@ public interface C_OP_SetSimulationRate : CParticleFunctionPreEmission, CParticl
 
 ## Properties
 
-**SimulationScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetSimulationRate.cs#L16)
+### **SimulationScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetSimulationRate.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput SimulationScale { get; }

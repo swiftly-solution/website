@@ -10,7 +10,7 @@ public interface CPhysHinge : CPhysConstraint, CLogicalEntity, CServerOnlyEntity
 
 ## Properties
 
-**AngleSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L44)
+### **AngleSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L44)
 
 ```csharp
 ref float AngleSpeed { get; }
@@ -20,7 +20,7 @@ ref float AngleSpeed { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AngleSpeedThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L46)
+### **AngleSpeedThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L46)
 
 ```csharp
 ref float AngleSpeedThreshold { get; }
@@ -30,7 +30,7 @@ ref float AngleSpeedThreshold { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**AtMaxLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L24)
+### **AtMaxLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L24)
 
 ```csharp
 ref bool AtMaxLimit { get; }
@@ -40,7 +40,7 @@ ref bool AtMaxLimit { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AtMinLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L22)
+### **AtMinLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L22)
 
 ```csharp
 ref bool AtMinLimit { get; }
@@ -50,7 +50,7 @@ ref bool AtMinLimit { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Hinge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L26)
+### **Hinge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L26)
 
 ```csharp
 constraint_hingeparams_t Hinge { get; }
@@ -60,7 +60,7 @@ constraint_hingeparams_t Hinge { get; }
 
 - [constraint_hingeparams_t](/docs/api/shared/schemadefinitions/constraint_hingeparams_t)
 
-**HingeFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L28)
+### **HingeFriction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L28)
 
 ```csharp
 ref float HingeFriction { get; }
@@ -70,7 +70,7 @@ ref float HingeFriction { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InitialRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L38)
+### **InitialRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L38)
 
 ```csharp
 ref float InitialRotation { get; }
@@ -80,7 +80,7 @@ ref float InitialRotation { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IsAxisLocal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L32)
+### **IsAxisLocal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L32)
 
 ```csharp
 ref bool IsAxisLocal { get; }
@@ -90,7 +90,7 @@ ref bool IsAxisLocal { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaxRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L36)
+### **MaxRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L36)
 
 ```csharp
 ref float MaxRotation { get; }
@@ -100,7 +100,7 @@ ref float MaxRotation { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L34)
+### **MinRotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L34)
 
 ```csharp
 ref float MinRotation { get; }
@@ -110,7 +110,7 @@ ref float MinRotation { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MotorDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L42)
+### **MotorDampingRatio** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L42)
 
 ```csharp
 ref float MotorDampingRatio { get; }
@@ -120,7 +120,7 @@ ref float MotorDampingRatio { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MotorFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L40)
+### **MotorFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L40)
 
 ```csharp
 ref float MotorFrequency { get; }
@@ -130,7 +130,7 @@ ref float MotorFrequency { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NotifyMaxLimitReached** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L20)
+### **NotifyMaxLimitReached** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L20)
 
 ```csharp
 CEntityIOOutput NotifyMaxLimitReached { get; }
@@ -140,7 +140,7 @@ CEntityIOOutput NotifyMaxLimitReached { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**NotifyMinLimitReached** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L18)
+### **NotifyMinLimitReached** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L18)
 
 ```csharp
 CEntityIOOutput NotifyMinLimitReached { get; }
@@ -150,7 +150,7 @@ CEntityIOOutput NotifyMinLimitReached { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStartMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L48)
+### **OnStartMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L48)
 
 ```csharp
 CEntityIOOutput OnStartMoving { get; }
@@ -160,7 +160,7 @@ CEntityIOOutput OnStartMoving { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnStopMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L50)
+### **OnStopMoving** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L50)
 
 ```csharp
 CEntityIOOutput OnStopMoving { get; }
@@ -170,7 +170,7 @@ CEntityIOOutput OnStopMoving { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**SoundInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L16)
+### **SoundInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L16)
 
 ```csharp
 ConstraintSoundInfo SoundInfo { get; }
@@ -180,7 +180,7 @@ ConstraintSoundInfo SoundInfo { get; }
 
 - [ConstraintSoundInfo](/docs/api/shared/schemadefinitions/constraintsoundinfo)
 
-**SystemLoadScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L30)
+### **SystemLoadScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysHinge.cs#L30)
 
 ```csharp
 ref float SystemLoadScale { get; }

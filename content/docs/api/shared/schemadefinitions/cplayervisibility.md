@@ -10,7 +10,7 @@ public interface CPlayerVisibility : CBaseEntity, CEntityInstance, ISchemaClass<
 
 ## Properties
 
-**FadeTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L22)
+### **FadeTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L22)
 
 ```csharp
 ref float FadeTime { get; }
@@ -20,7 +20,7 @@ ref float FadeTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FogDistanceMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L18)
+### **FogDistanceMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L18)
 
 ```csharp
 ref float FogDistanceMultiplier { get; }
@@ -30,7 +30,7 @@ ref float FogDistanceMultiplier { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FogMaxDensityMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L20)
+### **FogMaxDensityMultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L20)
 
 ```csharp
 ref float FogMaxDensityMultiplier { get; }
@@ -40,7 +40,7 @@ ref float FogMaxDensityMultiplier { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**IsEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L26)
+### **IsEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L26)
 
 ```csharp
 ref bool IsEnabled { get; }
@@ -50,7 +50,7 @@ ref bool IsEnabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L24)
+### **StartDisabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L24)
 
 ```csharp
 ref bool StartDisabled { get; }
@@ -60,7 +60,7 @@ ref bool StartDisabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**VisibilityStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L16)
+### **VisibilityStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L16)
 
 ```csharp
 ref float VisibilityStrength { get; }
@@ -72,37 +72,37 @@ ref float VisibilityStrength { get; }
 
 ## Methods
 
-**FadeTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L31)
+### **FadeTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L31)
 
 ```csharp
 void FadeTimeUpdated()
 ```
 
-**FogDistanceMultiplierUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L29)
+### **FogDistanceMultiplierUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L29)
 
 ```csharp
 void FogDistanceMultiplierUpdated()
 ```
 
-**FogMaxDensityMultiplierUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L30)
+### **FogMaxDensityMultiplierUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L30)
 
 ```csharp
 void FogMaxDensityMultiplierUpdated()
 ```
 
-**IsEnabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L33)
+### **IsEnabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L33)
 
 ```csharp
 void IsEnabledUpdated()
 ```
 
-**StartDisabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L32)
+### **StartDisabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L32)
 
 ```csharp
 void StartDisabledUpdated()
 ```
 
-**VisibilityStrengthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L28)
+### **VisibilityStrengthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerVisibility.cs#L28)
 
 ```csharp
 void VisibilityStrengthUpdated()

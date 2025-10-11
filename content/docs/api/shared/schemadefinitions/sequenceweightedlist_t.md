@@ -10,7 +10,7 @@ public interface SequenceWeightedList_t : ISchemaClass<SequenceWeightedList_t>, 
 
 ## Properties
 
-**RelativeWeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceWeightedList_t.cs#L18)
+### **RelativeWeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceWeightedList_t.cs#L18)
 
 ```csharp
 ref float RelativeWeight { get; }
@@ -20,7 +20,7 @@ ref float RelativeWeight { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceWeightedList_t.cs#L16)
+### **Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceWeightedList_t.cs#L16)
 
 ```csharp
 ref int Sequence { get; }

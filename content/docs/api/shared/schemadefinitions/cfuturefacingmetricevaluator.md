@@ -10,7 +10,7 @@ public interface CFutureFacingMetricEvaluator : CMotionMetricEvaluator, ISchemaC
 
 ## Properties
 
-**Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureFacingMetricEvaluator.cs#L16)
+### **Distance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureFacingMetricEvaluator.cs#L16)
 
 ```csharp
 ref float Distance { get; }
@@ -20,7 +20,7 @@ ref float Distance { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureFacingMetricEvaluator.cs#L18)
+### **Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFutureFacingMetricEvaluator.cs#L18)
 
 ```csharp
 ref float Time { get; }

@@ -10,7 +10,7 @@ public interface CAnimSkeleton : ISchemaClass<CAnimSkeleton>, ISchemaField, ISch
 
 ## Properties
 
-**BoneNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L20)
+### **BoneNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L20)
 
 ```csharp
 ref CUtlVector<CUtlString> BoneNames { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<CUtlString> BoneNames { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**Children** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L22)
+### **Children** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L22)
 
 ```csharp
 ref CUtlVector<CUtlVector<int>> Children { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<CUtlVector<int>> Children { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlVector](/docs/api/shared/natives/cutlvector-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>>
+- [CUtlVector](/docs/api/-1)<[CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>>
 
-**Feet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L27)
+### **Feet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L27)
 
 ```csharp
 ref CUtlVector Feet { get; }
@@ -38,9 +38,9 @@ ref CUtlVector Feet { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**LocalSpaceTransforms** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L16)
+### **LocalSpaceTransforms** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L16)
 
 ```csharp
 ref CUtlVector<CTransform> LocalSpaceTransforms { get; }
@@ -48,9 +48,9 @@ ref CUtlVector<CTransform> LocalSpaceTransforms { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CTransform](/docs/api/shared/natives/ctransform)>
+- [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
-**LodBoneCounts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L31)
+### **LodBoneCounts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L31)
 
 ```csharp
 ref CUtlVector<int> LodBoneCounts { get; }
@@ -58,9 +58,9 @@ ref CUtlVector<int> LodBoneCounts { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
+- [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-**ModelSpaceTransforms** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L18)
+### **ModelSpaceTransforms** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L18)
 
 ```csharp
 ref CUtlVector<CTransform> ModelSpaceTransforms { get; }
@@ -68,9 +68,9 @@ ref CUtlVector<CTransform> ModelSpaceTransforms { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CTransform](/docs/api/shared/natives/ctransform)>
+- [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
-**MorphNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L29)
+### **MorphNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L29)
 
 ```csharp
 ref CUtlVector<CUtlString> MorphNames { get; }
@@ -78,9 +78,9 @@ ref CUtlVector<CUtlString> MorphNames { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**Parents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L24)
+### **Parents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimSkeleton.cs#L24)
 
 ```csharp
 ref CUtlVector<int> Parents { get; }
@@ -88,5 +88,5 @@ ref CUtlVector<int> Parents { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
+- [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

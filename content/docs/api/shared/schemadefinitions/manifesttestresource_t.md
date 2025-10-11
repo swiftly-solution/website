@@ -10,7 +10,7 @@ public interface ManifestTestResource_t : ISchemaClass<ManifestTestResource_t>, 
 
 ## Properties
 
-**Child** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ManifestTestResource_t.cs#L18)
+### **Child** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ManifestTestResource_t.cs#L18)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeManifestTestResource_t> Child { get; }
@@ -20,7 +20,7 @@ ref CStrongHandle<InfoForResourceTypeManifestTestResource_t> Child { get; }
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeManifestTestResource_t](/docs/api/shared/schemadefinitions/infoforresourcetypemanifesttestresource_t)>
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ManifestTestResource_t.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ManifestTestResource_t.cs#L16)
 
 ```csharp
 string Name { get; set; }

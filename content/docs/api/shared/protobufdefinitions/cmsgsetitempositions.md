@@ -10,7 +10,7 @@ public interface CMsgSetItemPositions : ITypedProtobuf<CMsgSetItemPositions>, IN
 
 ## Properties
 
-**ItemPositions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSetItemPositions.cs#L13)
+### **ItemPositions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSetItemPositions.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgSetItemPositions_ItemPosition> ItemPositions { get; }

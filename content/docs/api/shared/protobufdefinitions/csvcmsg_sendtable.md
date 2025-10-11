@@ -10,7 +10,7 @@ public interface CSVCMsg_SendTable : ITypedProtobuf<CSVCMsg_SendTable>, INativeH
 
 ## Properties
 
-**IsEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable.cs#L13)
+### **IsEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable.cs#L13)
 
 ```csharp
 bool IsEnd { get; set; }
@@ -20,7 +20,7 @@ bool IsEnd { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NeedsDecoder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable.cs#L19)
+### **NeedsDecoder** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable.cs#L19)
 
 ```csharp
 bool NeedsDecoder { get; set; }
@@ -30,7 +30,7 @@ bool NeedsDecoder { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NetTableName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable.cs#L16)
+### **NetTableName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable.cs#L16)
 
 ```csharp
 string NetTableName { get; set; }
@@ -40,7 +40,7 @@ string NetTableName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Props** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable.cs#L22)
+### **Props** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SendTable.cs#L22)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CSVCMsg_SendTable_sendprop_t> Props { get; }

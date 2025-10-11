@@ -10,7 +10,7 @@ public interface CUserMessageSayTextChannel : ITypedProtobuf<CUserMessageSayText
 
 ## Properties
 
-**Channel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageSayTextChannel.cs#L21)
+### **Channel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageSayTextChannel.cs#L21)
 
 ```csharp
 int Channel { get; set; }
@@ -20,7 +20,7 @@ int Channel { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageSayTextChannel.cs#L18)
+### **Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageSayTextChannel.cs#L18)
 
 ```csharp
 int Player { get; set; }
@@ -30,7 +30,7 @@ int Player { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageSayTextChannel.cs#L24)
+### **Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageSayTextChannel.cs#L24)
 
 ```csharp
 string Text { get; set; }

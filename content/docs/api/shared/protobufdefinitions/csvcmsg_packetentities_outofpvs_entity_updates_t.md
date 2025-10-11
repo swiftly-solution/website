@@ -10,7 +10,7 @@ public interface CSVCMsg_PacketEntities_outofpvs_entity_updates_t : ITypedProtob
 
 ## Properties
 
-**Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PacketEntities_outofpvs_entity_updates_t.cs#L13)
+### **Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PacketEntities_outofpvs_entity_updates_t.cs#L13)
 
 ```csharp
 int Count { get; set; }
@@ -20,7 +20,7 @@ int Count { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PacketEntities_outofpvs_entity_updates_t.cs#L16)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PacketEntities_outofpvs_entity_updates_t.cs#L16)
 
 ```csharp
 byte[] Data { get; set; }

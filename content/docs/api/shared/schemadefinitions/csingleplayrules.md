@@ -10,7 +10,7 @@ public interface CSingleplayRules : CGameRules, ISchemaClass<CGameRules>, ISchem
 
 ## Properties
 
-**SinglePlayerGameEnding** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleplayRules.cs#L16)
+### **SinglePlayerGameEnding** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleplayRules.cs#L16)
 
 ```csharp
 ref bool SinglePlayerGameEnding { get; }

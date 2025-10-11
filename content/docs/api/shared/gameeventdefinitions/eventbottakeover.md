@@ -10,7 +10,7 @@ public interface EventBotTakeover : IGameEvent<EventBotTakeover>
 
 ## Properties
 
-**BotID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L42)
+### **BotID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L42)
 
 ```csharp
 int BotID { get; set; }
@@ -20,7 +20,7 @@ int BotID { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**P** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L47)
+### **P** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L47)
 
 ```csharp
 float P { get; set; }
@@ -30,7 +30,7 @@ float P { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**R** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L57)
+### **R** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L57)
 
 ```csharp
 float R { get; set; }
@@ -40,7 +40,7 @@ float R { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L37)
+### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L37)
 
 ```csharp
 int UserId { get; set; }
@@ -50,7 +50,7 @@ int UserId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L22)
+### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L22)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
@@ -60,7 +60,7 @@ CCSPlayerController UserIdController { get; }
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-**UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L28)
+### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L28)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
@@ -70,7 +70,7 @@ CCSPlayerPawn UserIdPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-**UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L31)
+### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L31)
 
 ```csharp
 IPlayer UserIdPlayer { get; }
@@ -80,7 +80,7 @@ IPlayer UserIdPlayer { get; }
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 
-**Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L52)
+### **Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBotTakeover.cs#L52)
 
 ```csharp
 float Y { get; set; }

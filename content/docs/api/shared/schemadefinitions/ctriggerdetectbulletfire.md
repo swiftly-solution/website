@@ -10,7 +10,7 @@ public interface CTriggerDetectBulletFire : CBaseTrigger, CBaseToggle, CBaseMode
 
 ## Properties
 
-**OnDetectedBulletFire** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerDetectBulletFire.cs#L18)
+### **OnDetectedBulletFire** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerDetectBulletFire.cs#L18)
 
 ```csharp
 CEntityIOOutput OnDetectedBulletFire { get; }
@@ -20,7 +20,7 @@ CEntityIOOutput OnDetectedBulletFire { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**PlayerFireOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerDetectBulletFire.cs#L16)
+### **PlayerFireOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerDetectBulletFire.cs#L16)
 
 ```csharp
 ref bool PlayerFireOnly { get; }

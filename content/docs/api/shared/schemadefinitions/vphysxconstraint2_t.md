@@ -10,7 +10,7 @@ public interface VPhysXConstraint2_t : ISchemaClass<VPhysXConstraint2_t>, ISchem
 
 ## Properties
 
-**Child** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXConstraint2_t.cs#L20)
+### **Child** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXConstraint2_t.cs#L20)
 
 ```csharp
 ref ushort Child { get; }
@@ -20,7 +20,7 @@ ref ushort Child { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXConstraint2_t.cs#L16)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXConstraint2_t.cs#L16)
 
 ```csharp
 ref uint Flags { get; }
@@ -30,7 +30,7 @@ ref uint Flags { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Params** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXConstraint2_t.cs#L22)
+### **Params** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXConstraint2_t.cs#L22)
 
 ```csharp
 VPhysXConstraintParams_t Params { get; }
@@ -40,7 +40,7 @@ VPhysXConstraintParams_t Params { get; }
 
 - [VPhysXConstraintParams_t](/docs/api/shared/schemadefinitions/vphysxconstraintparams_t)
 
-**Parent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXConstraint2_t.cs#L18)
+### **Parent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysXConstraint2_t.cs#L18)
 
 ```csharp
 ref ushort Parent { get; }

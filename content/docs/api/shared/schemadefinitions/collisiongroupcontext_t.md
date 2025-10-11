@@ -10,7 +10,7 @@ public interface CollisionGroupContext_t : ISchemaClass<CollisionGroupContext_t>
 
 ## Properties
 
-**CollisionGroupNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CollisionGroupContext_t.cs#L16)
+### **CollisionGroupNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CollisionGroupContext_t.cs#L16)
 
 ```csharp
 ref int CollisionGroupNumber { get; }

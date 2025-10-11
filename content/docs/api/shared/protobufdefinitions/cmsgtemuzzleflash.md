@@ -10,7 +10,7 @@ public interface CMsgTEMuzzleFlash : ITypedProtobuf<CMsgTEMuzzleFlash>, INativeH
 
 ## Properties
 
-**Angles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEMuzzleFlash.cs#L21)
+### **Angles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEMuzzleFlash.cs#L21)
 
 ```csharp
 QAngle Angles { get; set; }
@@ -20,7 +20,7 @@ QAngle Angles { get; set; }
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEMuzzleFlash.cs#L18)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEMuzzleFlash.cs#L18)
 
 ```csharp
 Vector Origin { get; set; }
@@ -30,7 +30,7 @@ Vector Origin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEMuzzleFlash.cs#L24)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEMuzzleFlash.cs#L24)
 
 ```csharp
 float Scale { get; set; }
@@ -40,7 +40,7 @@ float Scale { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEMuzzleFlash.cs#L27)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEMuzzleFlash.cs#L27)
 
 ```csharp
 uint Type { get; set; }

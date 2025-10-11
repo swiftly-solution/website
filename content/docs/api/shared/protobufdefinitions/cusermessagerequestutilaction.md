@@ -10,7 +10,7 @@ public interface CUserMessageRequestUtilAction : ITypedProtobuf<CUserMessageRequ
 
 ## Properties
 
-**Util1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestUtilAction.cs#L18)
+### **Util1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestUtilAction.cs#L18)
 
 ```csharp
 int Util1 { get; set; }
@@ -20,7 +20,7 @@ int Util1 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Util2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestUtilAction.cs#L21)
+### **Util2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestUtilAction.cs#L21)
 
 ```csharp
 int Util2 { get; set; }
@@ -30,7 +30,7 @@ int Util2 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Util3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestUtilAction.cs#L24)
+### **Util3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestUtilAction.cs#L24)
 
 ```csharp
 int Util3 { get; set; }
@@ -40,7 +40,7 @@ int Util3 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Util4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestUtilAction.cs#L27)
+### **Util4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestUtilAction.cs#L27)
 
 ```csharp
 int Util4 { get; set; }
@@ -50,7 +50,7 @@ int Util4 { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Util5** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestUtilAction.cs#L30)
+### **Util5** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestUtilAction.cs#L30)
 
 ```csharp
 int Util5 { get; set; }

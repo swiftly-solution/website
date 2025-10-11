@@ -10,7 +10,7 @@ public interface CMsgGC_GlobalGame_Subscribe : ITypedProtobuf<CMsgGC_GlobalGame_
 
 ## Properties
 
-**Ticket** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGC_GlobalGame_Subscribe.cs#L13)
+### **Ticket** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGC_GlobalGame_Subscribe.cs#L13)
 
 ```csharp
 ulong Ticket { get; set; }

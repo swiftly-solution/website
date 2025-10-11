@@ -10,7 +10,7 @@ public interface CPlayerPing : CBaseEntity, CEntityInstance, ISchemaClass<CEntit
 
 ## Properties
 
-**PingedEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L18)
+### **PingedEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L18)
 
 ```csharp
 ref CHandle<CBaseEntity> PingedEntity { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> PingedEntity { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**PlaceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L24)
+### **PlaceName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L24)
 
 ```csharp
 string PlaceName { get; set; }
@@ -30,7 +30,7 @@ string PlaceName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L16)
+### **Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L16)
 
 ```csharp
 ref CHandle<CCSPlayerPawn> Player { get; }
@@ -40,7 +40,7 @@ ref CHandle<CCSPlayerPawn> Player { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L20)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L20)
 
 ```csharp
 ref int Type { get; }
@@ -50,7 +50,7 @@ ref int Type { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Urgent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L22)
+### **Urgent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L22)
 
 ```csharp
 ref bool Urgent { get; }
@@ -62,31 +62,31 @@ ref bool Urgent { get; }
 
 ## Methods
 
-**PingedEntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L27)
+### **PingedEntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L27)
 
 ```csharp
 void PingedEntityUpdated()
 ```
 
-**PlaceNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L30)
+### **PlaceNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L30)
 
 ```csharp
 void PlaceNameUpdated()
 ```
 
-**PlayerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L26)
+### **PlayerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L26)
 
 ```csharp
 void PlayerUpdated()
 ```
 
-**TypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L28)
+### **TypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L28)
 
 ```csharp
 void TypeUpdated()
 ```
 
-**UrgentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L29)
+### **UrgentUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPing.cs#L29)
 
 ```csharp
 void UrgentUpdated()

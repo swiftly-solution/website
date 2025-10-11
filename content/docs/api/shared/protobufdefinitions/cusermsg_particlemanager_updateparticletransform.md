@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleTransform : ITypedProtob
 
 ## Properties
 
-**ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleTransform.cs#L13)
+### **ControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleTransform.cs#L13)
 
 ```csharp
 int ControlPoint { get; set; }
@@ -20,7 +20,7 @@ int ControlPoint { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InterpolationInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleTransform.cs#L22)
+### **InterpolationInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleTransform.cs#L22)
 
 ```csharp
 float InterpolationInterval { get; set; }
@@ -30,7 +30,7 @@ float InterpolationInterval { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Orientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleTransform.cs#L19)
+### **Orientation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleTransform.cs#L19)
 
 ```csharp
 CMsgQuaternion Orientation { get; }
@@ -40,7 +40,7 @@ CMsgQuaternion Orientation { get; }
 
 - [CMsgQuaternion](/docs/api/shared/protobufdefinitions/cmsgquaternion)
 
-**Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleTransform.cs#L16)
+### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleTransform.cs#L16)
 
 ```csharp
 Vector Position { get; set; }

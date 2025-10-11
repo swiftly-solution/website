@@ -10,7 +10,7 @@ public interface C_OP_RemapTransformOrientationToRotations : CParticleFunctionOp
 
 ## Properties
 
-**Rotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToRotations.cs#L18)
+### **Rotation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToRotations.cs#L18)
 
 ```csharp
 ref Vector Rotation { get; }
@@ -20,7 +20,7 @@ ref Vector Rotation { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToRotations.cs#L16)
+### **TransformInput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToRotations.cs#L16)
 
 ```csharp
 CParticleTransformInput TransformInput { get; }
@@ -30,7 +30,7 @@ CParticleTransformInput TransformInput { get; }
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 
-**UseQuat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToRotations.cs#L20)
+### **UseQuat** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToRotations.cs#L20)
 
 ```csharp
 ref bool UseQuat { get; }
@@ -40,7 +40,7 @@ ref bool UseQuat { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**WriteNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToRotations.cs#L22)
+### **WriteNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapTransformOrientationToRotations.cs#L22)
 
 ```csharp
 ref bool WriteNormal { get; }

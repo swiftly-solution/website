@@ -10,7 +10,7 @@ public interface BaseSceneObjectOverride_t : ISchemaClass<BaseSceneObjectOverrid
 
 ## Properties
 
-**SceneObjectIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BaseSceneObjectOverride_t.cs#L16)
+### **SceneObjectIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BaseSceneObjectOverride_t.cs#L16)
 
 ```csharp
 ref uint SceneObjectIndex { get; }

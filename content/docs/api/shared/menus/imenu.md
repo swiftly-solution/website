@@ -8,7 +8,7 @@ public interface IMenu
 
 ## Properties
 
-**CanExit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L40)
+### **CanExit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L40)
 
 ```csharp
 bool CanExit { get; set; }
@@ -18,7 +18,7 @@ bool CanExit { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L48)
+### **Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L48)
 
 ```csharp
 Color Color { get; set; }
@@ -28,7 +28,7 @@ Color Color { get; set; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**CurrentIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L56)
+### **CurrentIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L56)
 
 ```csharp
 int CurrentIndex { get; set; }
@@ -38,7 +38,7 @@ int CurrentIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**FreezePlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L28)
+### **FreezePlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L28)
 
 ```csharp
 bool? FreezePlayer { get; set; }
@@ -48,7 +48,7 @@ bool? FreezePlayer { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)?
 
-**HasSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L32)
+### **HasSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L32)
 
 ```csharp
 bool HasSound { get; set; }
@@ -58,7 +58,7 @@ bool HasSound { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Kind** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L44)
+### **Kind** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L44)
 
 ```csharp
 MenuType Kind { get; set; }
@@ -68,7 +68,7 @@ MenuType Kind { get; set; }
 
 - [MenuType](/docs/api/shared/menus/menutype)
 
-**MaxTitleLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L20)
+### **MaxTitleLength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L20)
 
 ```csharp
 int MaxTitleLength { get; set; }
@@ -78,7 +78,7 @@ int MaxTitleLength { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Options** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L24)
+### **Options** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L24)
 
 ```csharp
 List<IMenuOption> Options { get; set; }
@@ -88,7 +88,7 @@ List<IMenuOption> Options { get; set; }
 
 - [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[IMenuOption](/docs/api/shared/menus/imenuoption)>
 
-**ParentMenu** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L36)
+### **ParentMenu** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L36)
 
 ```csharp
 IMenu? ParentMenu { get; set; }
@@ -98,7 +98,7 @@ IMenu? ParentMenu { get; set; }
 
 - [IMenu](/docs/api/shared/menus/imenu)?
 
-**RenderText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L52)
+### **RenderText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L52)
 
 ```csharp
 string? RenderText { get; }
@@ -108,7 +108,7 @@ string? RenderText { get; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)?
 
-**Title** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L16)
+### **Title** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L16)
 
 ```csharp
 string Title { get; set; }
@@ -120,7 +120,7 @@ string Title { get; set; }
 
 ## Methods
 
-**AddBoolOption(string, bool, Action<IPlayer, IMenuOption, IMenu>?, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L74)
+### **AddBoolOption(string, bool, Action<IPlayer, IMenuOption, IMenu>?, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L74)
 
 ```csharp
 ref IMenuOption AddBoolOption(string display, bool defaultValue, Action<IPlayer, IMenuOption, IMenu>? onChoice, bool defaultDisabled = false)
@@ -137,7 +137,7 @@ ref IMenuOption AddBoolOption(string display, bool defaultValue, Action<IPlayer,
 
 - [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
 
-**AddInputOption(string, string, string?, Action<IPlayer, IMenuOption, IMenu, string>?, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L84)
+### **AddInputOption(string, string, string?, Action<IPlayer, IMenuOption, IMenu, string>?, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L84)
 
 ```csharp
 ref IMenuOption AddInputOption(string display, string placeholder, string? inputRequestMessage, Action<IPlayer, IMenuOption, IMenu, string>? onInput, bool defaultDisabled = false)
@@ -155,7 +155,7 @@ ref IMenuOption AddInputOption(string display, string placeholder, string? input
 
 - [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
 
-**AddOption(string, Action<IPlayer, IMenuOption, IMenu>?, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L65)
+### **AddOption(string, Action<IPlayer, IMenuOption, IMenu>?, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L65)
 
 ```csharp
 ref IMenuOption AddOption(string display, Action<IPlayer, IMenuOption, IMenu>? onChoice, bool defaultDisabled = false)
@@ -171,7 +171,7 @@ ref IMenuOption AddOption(string display, Action<IPlayer, IMenuOption, IMenu>? o
 
 - [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
 
-**AddSliderOption(string, List<object>, object?, int, Action<IPlayer, IMenuOption, IMenu, int, object>?, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L95)
+### **AddSliderOption(string, List<object>, object?, int, Action<IPlayer, IMenuOption, IMenu, int, object>?, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L95)
 
 ```csharp
 ref IMenuOption AddSliderOption(string display, List<object> values, object? defaultValue, int displayItems, Action<IPlayer, IMenuOption, IMenu, int, object>? onSlide, bool defaultDisabled = false)
@@ -190,7 +190,7 @@ ref IMenuOption AddSliderOption(string display, List<object> values, object? def
 
 - [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
 
-**ChangePosition(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L101)
+### **ChangePosition(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L101)
 
 ```csharp
 void ChangePosition(int count)

@@ -10,7 +10,7 @@ public interface VMixDynamics3BandDesc_t : ISchemaClass<VMixDynamics3BandDesc_t>
 
 ## Properties
 
-**BandDesc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L35)
+### **BandDesc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L35)
 
 ```csharp
 SchemaUntypedField BandDesc { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField BandDesc { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Depth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L22)
+### **Depth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L22)
 
 ```csharp
 ref float Depth { get; }
@@ -30,7 +30,7 @@ ref float Depth { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FldbGainOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L16)
+### **FldbGainOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L16)
 
 ```csharp
 ref float FldbGainOutput { get; }
@@ -40,7 +40,7 @@ ref float FldbGainOutput { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**FldbKneeWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L20)
+### **FldbKneeWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L20)
 
 ```csharp
 ref float FldbKneeWidth { get; }
@@ -50,7 +50,7 @@ ref float FldbKneeWidth { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**HighCutoffFreq** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L30)
+### **HighCutoffFreq** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L30)
 
 ```csharp
 ref float HighCutoffFreq { get; }
@@ -60,7 +60,7 @@ ref float HighCutoffFreq { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LowCutoffFreq** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L28)
+### **LowCutoffFreq** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L28)
 
 ```csharp
 ref float LowCutoffFreq { get; }
@@ -70,7 +70,7 @@ ref float LowCutoffFreq { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**PeakMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L32)
+### **PeakMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L32)
 
 ```csharp
 ref bool PeakMode { get; }
@@ -80,7 +80,7 @@ ref bool PeakMode { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RMSTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L18)
+### **RMSTimeMS** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L18)
 
 ```csharp
 ref float RMSTimeMS { get; }
@@ -90,7 +90,7 @@ ref float RMSTimeMS { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**TimeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L26)
+### **TimeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L26)
 
 ```csharp
 ref float TimeScale { get; }
@@ -100,7 +100,7 @@ ref float TimeScale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**WetMix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L24)
+### **WetMix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixDynamics3BandDesc_t.cs#L24)
 
 ```csharp
 ref float WetMix { get; }

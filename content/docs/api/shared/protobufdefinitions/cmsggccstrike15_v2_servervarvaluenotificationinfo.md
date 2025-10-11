@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_ServerVarValueNotificationInfo : ITypedProto
 
 ## Properties
 
-**Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ServerVarValueNotificationInfo.cs#L13)
+### **Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ServerVarValueNotificationInfo.cs#L13)
 
 ```csharp
 uint Accountid { get; set; }
@@ -20,7 +20,7 @@ uint Accountid { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ServerVarValueNotificationInfo.cs#L19)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ServerVarValueNotificationInfo.cs#L19)
 
 ```csharp
 uint Type { get; set; }
@@ -30,7 +30,7 @@ uint Type { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Userdata** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ServerVarValueNotificationInfo.cs#L22)
+### **Userdata** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ServerVarValueNotificationInfo.cs#L22)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> Userdata { get; }
@@ -40,7 +40,7 @@ IProtobufRepeatedFieldValueType<uint> Userdata { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-**Viewangles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ServerVarValueNotificationInfo.cs#L16)
+### **Viewangles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ServerVarValueNotificationInfo.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> Viewangles { get; }

@@ -10,7 +10,7 @@ public interface C_OP_RemapCrossProductOfTwoVectorsToVector : CParticleFunctionO
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L20)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**InputVec1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L16)
+### **InputVec1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L16)
 
 ```csharp
 CPerParticleVecInput InputVec1 { get; }
@@ -30,7 +30,7 @@ CPerParticleVecInput InputVec1 { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**InputVec2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L18)
+### **InputVec2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L18)
 
 ```csharp
 CPerParticleVecInput InputVec2 { get; }
@@ -40,7 +40,7 @@ CPerParticleVecInput InputVec2 { get; }
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-**Normalize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L22)
+### **Normalize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RemapCrossProductOfTwoVectorsToVector.cs#L22)
 
 ```csharp
 ref bool Normalize { get; }

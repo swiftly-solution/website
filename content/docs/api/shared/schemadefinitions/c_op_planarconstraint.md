@@ -10,7 +10,7 @@ public interface C_OP_PlanarConstraint : CParticleFunctionConstraint, CParticleF
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L20)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L20)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**GlobalNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L24)
+### **GlobalNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L24)
 
 ```csharp
 ref bool GlobalNormal { get; }
@@ -30,7 +30,7 @@ ref bool GlobalNormal { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**GlobalOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L22)
+### **GlobalOrigin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L22)
 
 ```csharp
 ref bool GlobalOrigin { get; }
@@ -40,7 +40,7 @@ ref bool GlobalOrigin { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**MaximumDistanceToCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L28)
+### **MaximumDistanceToCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L28)
 
 ```csharp
 CParticleCollectionFloatInput MaximumDistanceToCP { get; }
@@ -50,7 +50,7 @@ CParticleCollectionFloatInput MaximumDistanceToCP { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**PlaneNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L18)
+### **PlaneNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L18)
 
 ```csharp
 ref Vector PlaneNormal { get; }
@@ -60,7 +60,7 @@ ref Vector PlaneNormal { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**PointOnPlane** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L16)
+### **PointOnPlane** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L16)
 
 ```csharp
 ref Vector PointOnPlane { get; }
@@ -70,7 +70,7 @@ ref Vector PointOnPlane { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L26)
+### **RadiusScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L26)
 
 ```csharp
 CPerParticleFloatInput RadiusScale { get; }
@@ -80,7 +80,7 @@ CPerParticleFloatInput RadiusScale { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**UseOldCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L30)
+### **UseOldCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_PlanarConstraint.cs#L30)
 
 ```csharp
 ref bool UseOldCode { get; }

@@ -10,7 +10,7 @@ public interface CMaterialDrawDescriptor__RigidMeshPart_t : ISchemaClass<CMateri
 
 ## Properties
 
-**BoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L18)
+### **BoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L18)
 
 ```csharp
 ref short BoneIndex { get; }
@@ -20,7 +20,7 @@ ref short BoneIndex { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**PrimitiveCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L22)
+### **PrimitiveCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L22)
 
 ```csharp
 ref uint PrimitiveCount { get; }
@@ -30,7 +30,7 @@ ref uint PrimitiveCount { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RigidBLASIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L16)
+### **RigidBLASIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L16)
 
 ```csharp
 ref ushort RigidBLASIndex { get; }
@@ -40,7 +40,7 @@ ref ushort RigidBLASIndex { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**StartIndexOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L20)
+### **StartIndexOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMaterialDrawDescriptor__RigidMeshPart_t.cs#L20)
 
 ```csharp
 ref uint StartIndexOffset { get; }

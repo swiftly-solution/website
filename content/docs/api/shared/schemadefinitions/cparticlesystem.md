@@ -10,7 +10,7 @@ public interface CParticleSystem : CBaseModelEntity, CBaseEntity, CEntityInstanc
 
 ## Properties
 
-**Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L18)
+### **Active** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L18)
 
 ```csharp
 ref bool Active { get; }
@@ -20,7 +20,7 @@ ref bool Active { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**AnimateDuringGameplayPause** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L26)
+### **AnimateDuringGameplayPause** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L26)
 
 ```csharp
 ref bool AnimateDuringGameplayPause { get; }
@@ -30,7 +30,7 @@ ref bool AnimateDuringGameplayPause { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ControlPointEnts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L38)
+### **ControlPointEnts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L38)
 
 ```csharp
 ISchemaFixedArray<CHandle<CBaseEntity>> ControlPointEnts { get; }
@@ -40,7 +40,7 @@ ISchemaFixedArray<CHandle<CBaseEntity>> ControlPointEnts { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
-**ControlPointNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L50)
+### **ControlPointNames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L50)
 
 ```csharp
 string ControlPointNames { get; set; }
@@ -50,7 +50,7 @@ string ControlPointNames { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**DataCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L52)
+### **DataCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L52)
 
 ```csharp
 ref int DataCP { get; }
@@ -60,7 +60,7 @@ ref int DataCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DataCPValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L54)
+### **DataCPValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L54)
 
 ```csharp
 ref Vector DataCPValue { get; }
@@ -70,7 +70,7 @@ ref Vector DataCPValue { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**EffectIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L28)
+### **EffectIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L28)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> EffectIndex { get; }
@@ -80,7 +80,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> EffectIndex { ge
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
-**EffectName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L48)
+### **EffectName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L48)
 
 ```csharp
 string EffectName { get; set; }
@@ -90,7 +90,7 @@ string EffectName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**FreezeTransitionDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L22)
+### **FreezeTransitionDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L22)
 
 ```csharp
 ref float FreezeTransitionDuration { get; }
@@ -100,7 +100,7 @@ ref float FreezeTransitionDuration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Frozen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L20)
+### **Frozen** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L20)
 
 ```csharp
 ref bool Frozen { get; }
@@ -110,7 +110,7 @@ ref bool Frozen { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NoFreeze** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L42)
+### **NoFreeze** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L42)
 
 ```csharp
 ref bool NoFreeze { get; }
@@ -120,7 +120,7 @@ ref bool NoFreeze { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NoRamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L44)
+### **NoRamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L44)
 
 ```csharp
 ref bool NoRamp { get; }
@@ -130,7 +130,7 @@ ref bool NoRamp { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NoSave** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L40)
+### **NoSave** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L40)
 
 ```csharp
 ref bool NoSave { get; }
@@ -140,7 +140,7 @@ ref bool NoSave { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**PreSimTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L32)
+### **PreSimTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L32)
 
 ```csharp
 ref float PreSimTime { get; }
@@ -150,7 +150,7 @@ ref float PreSimTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ServerControlPointAssignments** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L36)
+### **ServerControlPointAssignments** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L36)
 
 ```csharp
 ISchemaFixedArray<byte> ServerControlPointAssignments { get; }
@@ -160,7 +160,7 @@ ISchemaFixedArray<byte> ServerControlPointAssignments { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
-**ServerControlPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L34)
+### **ServerControlPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L34)
 
 ```csharp
 ISchemaFixedArray<Vector> ServerControlPoints { get; }
@@ -170,7 +170,7 @@ ISchemaFixedArray<Vector> ServerControlPoints { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
-**SnapshotFileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L16)
+### **SnapshotFileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L16)
 
 ```csharp
 string SnapshotFileName { get; set; }
@@ -180,7 +180,7 @@ string SnapshotFileName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StartActive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L46)
+### **StartActive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L46)
 
 ```csharp
 ref bool StartActive { get; }
@@ -190,7 +190,7 @@ ref bool StartActive { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L30)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L30)
 
 ```csharp
 GameTime_t StartTime { get; }
@@ -200,7 +200,7 @@ GameTime_t StartTime { get; }
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-**StopType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L24)
+### **StopType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L24)
 
 ```csharp
 ref int StopType { get; }
@@ -210,7 +210,7 @@ ref int StopType { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Tint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L58)
+### **Tint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L58)
 
 ```csharp
 ref Color Tint { get; }
@@ -220,7 +220,7 @@ ref Color Tint { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**TintCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L56)
+### **TintCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L56)
 
 ```csharp
 ref int TintCP { get; }
@@ -232,91 +232,91 @@ ref int TintCP { get; }
 
 ## Methods
 
-**ActiveUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L61)
+### **ActiveUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L61)
 
 ```csharp
 void ActiveUpdated()
 ```
 
-**AnimateDuringGameplayPauseUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L65)
+### **AnimateDuringGameplayPauseUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L65)
 
 ```csharp
 void AnimateDuringGameplayPauseUpdated()
 ```
 
-**ControlPointEntsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L71)
+### **ControlPointEntsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L71)
 
 ```csharp
 void ControlPointEntsUpdated()
 ```
 
-**EffectIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L66)
+### **EffectIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L66)
 
 ```csharp
 void EffectIndexUpdated()
 ```
 
-**FreezeTransitionDurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L63)
+### **FreezeTransitionDurationUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L63)
 
 ```csharp
 void FreezeTransitionDurationUpdated()
 ```
 
-**FrozenUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L62)
+### **FrozenUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L62)
 
 ```csharp
 void FrozenUpdated()
 ```
 
-**NoFreezeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L73)
+### **NoFreezeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L73)
 
 ```csharp
 void NoFreezeUpdated()
 ```
 
-**NoRampUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L74)
+### **NoRampUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L74)
 
 ```csharp
 void NoRampUpdated()
 ```
 
-**NoSaveUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L72)
+### **NoSaveUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L72)
 
 ```csharp
 void NoSaveUpdated()
 ```
 
-**PreSimTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L68)
+### **PreSimTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L68)
 
 ```csharp
 void PreSimTimeUpdated()
 ```
 
-**ServerControlPointAssignmentsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L70)
+### **ServerControlPointAssignmentsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L70)
 
 ```csharp
 void ServerControlPointAssignmentsUpdated()
 ```
 
-**ServerControlPointsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L69)
+### **ServerControlPointsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L69)
 
 ```csharp
 void ServerControlPointsUpdated()
 ```
 
-**SnapshotFileNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L60)
+### **SnapshotFileNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L60)
 
 ```csharp
 void SnapshotFileNameUpdated()
 ```
 
-**StartTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L67)
+### **StartTimeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L67)
 
 ```csharp
 void StartTimeUpdated()
 ```
 
-**StopTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L64)
+### **StopTypeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleSystem.cs#L64)
 
 ```csharp
 void StopTypeUpdated()

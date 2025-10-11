@@ -10,7 +10,7 @@ public interface ControlPointReference_t : ISchemaClass<ControlPointReference_t>
 
 ## Properties
 
-**ControlPointNameString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ControlPointReference_t.cs#L16)
+### **ControlPointNameString** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ControlPointReference_t.cs#L16)
 
 ```csharp
 ref int ControlPointNameString { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNameString { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OffsetFromControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ControlPointReference_t.cs#L18)
+### **OffsetFromControlPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ControlPointReference_t.cs#L18)
 
 ```csharp
 ref Vector OffsetFromControlPoint { get; }
@@ -30,7 +30,7 @@ ref Vector OffsetFromControlPoint { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**OffsetInLocalSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ControlPointReference_t.cs#L20)
+### **OffsetInLocalSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ControlPointReference_t.cs#L20)
 
 ```csharp
 ref bool OffsetInLocalSpace { get; }

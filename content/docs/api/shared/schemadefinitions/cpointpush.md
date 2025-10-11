@@ -10,7 +10,7 @@ public interface CPointPush : CPointEntity, CBaseEntity, CEntityInstance, ISchem
 
 ## Properties
 
-**ConeOfInfluence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L24)
+### **ConeOfInfluence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L24)
 
 ```csharp
 ref float ConeOfInfluence { get; }
@@ -20,7 +20,7 @@ ref float ConeOfInfluence { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L16)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L16)
 
 ```csharp
 ref bool Enabled { get; }
@@ -30,7 +30,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L28)
+### **Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L28)
 
 ```csharp
 ref CHandle<CBaseFilter> Filter { get; }
@@ -40,7 +40,7 @@ ref CHandle<CBaseFilter> Filter { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseFilter](/docs/api/shared/schemadefinitions/cbasefilter)>
 
-**FilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L26)
+### **FilterName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L26)
 
 ```csharp
 string FilterName { get; set; }
@@ -50,7 +50,7 @@ string FilterName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**InnerRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L22)
+### **InnerRadius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L22)
 
 ```csharp
 ref float InnerRadius { get; }
@@ -60,7 +60,7 @@ ref float InnerRadius { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Magnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L18)
+### **Magnitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L18)
 
 ```csharp
 ref float Magnitude { get; }
@@ -70,7 +70,7 @@ ref float Magnitude { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L20)
+### **Radius** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointPush.cs#L20)
 
 ```csharp
 ref float Radius { get; }

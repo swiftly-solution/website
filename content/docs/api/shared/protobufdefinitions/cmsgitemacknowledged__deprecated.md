@@ -10,7 +10,7 @@ public interface CMsgItemAcknowledged__DEPRECATED : ITypedProtobuf<CMsgItemAckno
 
 ## Properties
 
-**AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L13)
+### **AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L13)
 
 ```csharp
 uint AccountId { get; set; }
@@ -20,7 +20,7 @@ uint AccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**DefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L19)
+### **DefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L19)
 
 ```csharp
 uint DefIndex { get; set; }
@@ -30,7 +30,7 @@ uint DefIndex { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Inventory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L16)
+### **Inventory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L16)
 
 ```csharp
 uint Inventory { get; set; }
@@ -40,7 +40,7 @@ uint Inventory { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L31)
+### **ItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L31)
 
 ```csharp
 ulong ItemId { get; set; }
@@ -50,7 +50,7 @@ ulong ItemId { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L28)
+### **Origin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L28)
 
 ```csharp
 uint Origin { get; set; }
@@ -60,7 +60,7 @@ uint Origin { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Quality** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L22)
+### **Quality** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L22)
 
 ```csharp
 uint Quality { get; set; }
@@ -70,7 +70,7 @@ uint Quality { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Rarity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L25)
+### **Rarity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgItemAcknowledged__DEPRECATED.cs#L25)
 
 ```csharp
 uint Rarity { get; set; }

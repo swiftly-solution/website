@@ -10,7 +10,7 @@ public interface IKDemoCaptureSettings_t : ISchemaClass<IKDemoCaptureSettings_t>
 
 ## Properties
 
-**IkChainName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L20)
+### **IkChainName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L20)
 
 ```csharp
 string IkChainName { get; set; }
@@ -20,7 +20,7 @@ string IkChainName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L18)
+### **Mode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L18)
 
 ```csharp
 ref IKChannelMode Mode { get; }
@@ -30,7 +30,7 @@ ref IKChannelMode Mode { get; }
 
 - [IKChannelMode](/docs/api/shared/schemadefinitions/ikchannelmode)
 
-**OneBoneEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L24)
+### **OneBoneEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L24)
 
 ```csharp
 string OneBoneEnd { get; set; }
@@ -40,7 +40,7 @@ string OneBoneEnd { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OneBoneStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L22)
+### **OneBoneStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L22)
 
 ```csharp
 string OneBoneStart { get; set; }
@@ -50,7 +50,7 @@ string OneBoneStart { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ParentBoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L16)
+### **ParentBoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/IKDemoCaptureSettings_t.cs#L16)
 
 ```csharp
 string ParentBoneName { get; set; }

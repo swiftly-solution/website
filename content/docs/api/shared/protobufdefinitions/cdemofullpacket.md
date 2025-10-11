@@ -10,7 +10,7 @@ public interface CDemoFullPacket : ITypedProtobuf<CDemoFullPacket>, INativeHandl
 
 ## Properties
 
-**Packet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoFullPacket.cs#L16)
+### **Packet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoFullPacket.cs#L16)
 
 ```csharp
 CDemoPacket Packet { get; }
@@ -20,7 +20,7 @@ CDemoPacket Packet { get; }
 
 - [CDemoPacket](/docs/api/shared/protobufdefinitions/cdemopacket)
 
-**StringTable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoFullPacket.cs#L13)
+### **StringTable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoFullPacket.cs#L13)
 
 ```csharp
 CDemoStringTables StringTable { get; }

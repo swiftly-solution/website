@@ -10,7 +10,7 @@ public interface CSVCMsg_SetView : ITypedProtobuf<CSVCMsg_SetView>, INativeHandl
 
 ## Properties
 
-**EntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SetView.cs#L18)
+### **EntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SetView.cs#L18)
 
 ```csharp
 int EntityIndex { get; set; }
@@ -20,7 +20,7 @@ int EntityIndex { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SetView.cs#L21)
+### **Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_SetView.cs#L21)
 
 ```csharp
 int Slot { get; set; }

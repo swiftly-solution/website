@@ -10,7 +10,7 @@ public struct CString
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CString.cs#L19)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CString.cs#L19)
 
 ```csharp
 public string Value { get; set; }
@@ -22,7 +22,7 @@ public string Value { get; set; }
 
 ## Operators
 
-**implicit operator string(CString)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CString.cs#L33)
+### **implicit operator string(CString)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CString.cs#L33)
 
 ```csharp
 public static implicit operator string(CString str)
@@ -36,7 +36,7 @@ public static implicit operator string(CString str)
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**implicit operator CString(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CString.cs#L34)
+### **implicit operator CString(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CString.cs#L34)
 
 ```csharp
 public static implicit operator CString(string str)

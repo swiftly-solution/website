@@ -10,7 +10,7 @@ public interface CMsgTEEnergySplash : ITypedProtobuf<CMsgTEEnergySplash>, INativ
 
 ## Properties
 
-**Dir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEEnergySplash.cs#L21)
+### **Dir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEEnergySplash.cs#L21)
 
 ```csharp
 Vector Dir { get; set; }
@@ -20,7 +20,7 @@ Vector Dir { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Explosive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEEnergySplash.cs#L24)
+### **Explosive** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEEnergySplash.cs#L24)
 
 ```csharp
 bool Explosive { get; set; }
@@ -30,7 +30,7 @@ bool Explosive { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEEnergySplash.cs#L18)
+### **Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEEnergySplash.cs#L18)
 
 ```csharp
 Vector Pos { get; set; }

@@ -10,7 +10,7 @@ public interface C_OP_StopAfterCPDuration : CParticleFunctionPreEmission, CParti
 
 ## Properties
 
-**DestroyImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L18)
+### **DestroyImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L18)
 
 ```csharp
 ref bool DestroyImmediately { get; }
@@ -20,7 +20,7 @@ ref bool DestroyImmediately { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L16)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L16)
 
 ```csharp
 CParticleCollectionFloatInput Duration { get; }
@@ -30,7 +30,7 @@ CParticleCollectionFloatInput Duration { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**PlayEndCap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L20)
+### **PlayEndCap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_StopAfterCPDuration.cs#L20)
 
 ```csharp
 ref bool PlayEndCap { get; }

@@ -10,7 +10,7 @@ public interface CGamePlayerZone : CRuleBrushEntity, CRuleEntity, CBaseModelEnti
 
 ## Properties
 
-**OnPlayerInZone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L16)
+### **OnPlayerInZone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L16)
 
 ```csharp
 CEntityIOOutput OnPlayerInZone { get; }
@@ -20,7 +20,7 @@ CEntityIOOutput OnPlayerInZone { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnPlayerOutZone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L18)
+### **OnPlayerOutZone** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L18)
 
 ```csharp
 CEntityIOOutput OnPlayerOutZone { get; }
@@ -30,7 +30,7 @@ CEntityIOOutput OnPlayerOutZone { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**PlayersInCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L21)
+### **PlayersInCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L21)
 
 ```csharp
 SchemaUntypedField PlayersInCount { get; }
@@ -40,7 +40,7 @@ SchemaUntypedField PlayersInCount { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**PlayersOutCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L24)
+### **PlayersOutCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGamePlayerZone.cs#L24)
 
 ```csharp
 SchemaUntypedField PlayersOutCount { get; }

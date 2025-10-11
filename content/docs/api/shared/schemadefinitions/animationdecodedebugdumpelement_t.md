@@ -10,7 +10,7 @@ public interface AnimationDecodeDebugDumpElement_t : ISchemaClass<AnimationDecod
 
 ## Properties
 
-**DecodeOps** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L22)
+### **DecodeOps** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L22)
 
 ```csharp
 ref CUtlVector<CUtlString> DecodeOps { get; }
@@ -18,9 +18,9 @@ ref CUtlVector<CUtlString> DecodeOps { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**DecodedAnims** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L26)
+### **DecodedAnims** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L26)
 
 ```csharp
 ref CUtlVector<CUtlString> DecodedAnims { get; }
@@ -28,9 +28,9 @@ ref CUtlVector<CUtlString> DecodedAnims { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**EntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L16)
+### **EntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L16)
 
 ```csharp
 ref int EntityIndex { get; }
@@ -40,7 +40,7 @@ ref int EntityIndex { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**InternalOps** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L24)
+### **InternalOps** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L24)
 
 ```csharp
 ref CUtlVector<CUtlString> InternalOps { get; }
@@ -48,9 +48,9 @@ ref CUtlVector<CUtlString> InternalOps { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
-**ModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L18)
+### **ModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L18)
 
 ```csharp
 string ModelName { get; set; }
@@ -60,7 +60,7 @@ string ModelName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**PoseParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L20)
+### **PoseParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AnimationDecodeDebugDumpElement_t.cs#L20)
 
 ```csharp
 ref CUtlVector<CUtlString> PoseParams { get; }
@@ -68,5 +68,5 @@ ref CUtlVector<CUtlString> PoseParams { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
+- [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 

@@ -10,7 +10,7 @@ public interface C_OP_ControlpointLight : CParticleFunctionOperator, CParticleFu
 
 ## Properties
 
-**CPOffset1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L26)
+### **CPOffset1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L26)
 
 ```csharp
 ref Vector CPOffset1 { get; }
@@ -20,7 +20,7 @@ ref Vector CPOffset1 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**CPOffset2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L28)
+### **CPOffset2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L28)
 
 ```csharp
 ref Vector CPOffset2 { get; }
@@ -30,7 +30,7 @@ ref Vector CPOffset2 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**CPOffset3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L30)
+### **CPOffset3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L30)
 
 ```csharp
 ref Vector CPOffset3 { get; }
@@ -40,7 +40,7 @@ ref Vector CPOffset3 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**CPOffset4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L32)
+### **CPOffset4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L32)
 
 ```csharp
 ref Vector CPOffset4 { get; }
@@ -50,7 +50,7 @@ ref Vector CPOffset4 { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**ClampLowerRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L78)
+### **ClampLowerRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L78)
 
 ```csharp
 ref bool ClampLowerRange { get; }
@@ -60,7 +60,7 @@ ref bool ClampLowerRange { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ClampUpperRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L80)
+### **ClampUpperRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L80)
 
 ```csharp
 ref bool ClampUpperRange { get; }
@@ -70,7 +70,7 @@ ref bool ClampUpperRange { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ControlPoint1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L18)
+### **ControlPoint1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L18)
 
 ```csharp
 ref int ControlPoint1 { get; }
@@ -80,7 +80,7 @@ ref int ControlPoint1 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ControlPoint2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L20)
+### **ControlPoint2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L20)
 
 ```csharp
 ref int ControlPoint2 { get; }
@@ -90,7 +90,7 @@ ref int ControlPoint2 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ControlPoint3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L22)
+### **ControlPoint3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L22)
 
 ```csharp
 ref int ControlPoint3 { get; }
@@ -100,7 +100,7 @@ ref int ControlPoint3 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ControlPoint4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L24)
+### **ControlPoint4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L24)
 
 ```csharp
 ref int ControlPoint4 { get; }
@@ -110,7 +110,7 @@ ref int ControlPoint4 { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LightColor1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L50)
+### **LightColor1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L50)
 
 ```csharp
 ref Color LightColor1 { get; }
@@ -120,7 +120,7 @@ ref Color LightColor1 { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**LightColor2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L52)
+### **LightColor2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L52)
 
 ```csharp
 ref Color LightColor2 { get; }
@@ -130,7 +130,7 @@ ref Color LightColor2 { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**LightColor3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L54)
+### **LightColor3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L54)
 
 ```csharp
 ref Color LightColor3 { get; }
@@ -140,7 +140,7 @@ ref Color LightColor3 { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**LightColor4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L56)
+### **LightColor4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L56)
 
 ```csharp
 ref Color LightColor4 { get; }
@@ -150,7 +150,7 @@ ref Color LightColor4 { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**LightDynamic1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L66)
+### **LightDynamic1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L66)
 
 ```csharp
 ref bool LightDynamic1 { get; }
@@ -160,7 +160,7 @@ ref bool LightDynamic1 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LightDynamic2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L68)
+### **LightDynamic2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L68)
 
 ```csharp
 ref bool LightDynamic2 { get; }
@@ -170,7 +170,7 @@ ref bool LightDynamic2 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LightDynamic3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L70)
+### **LightDynamic3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L70)
 
 ```csharp
 ref bool LightDynamic3 { get; }
@@ -180,7 +180,7 @@ ref bool LightDynamic3 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LightDynamic4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L72)
+### **LightDynamic4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L72)
 
 ```csharp
 ref bool LightDynamic4 { get; }
@@ -190,7 +190,7 @@ ref bool LightDynamic4 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LightFiftyDist1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L34)
+### **LightFiftyDist1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L34)
 
 ```csharp
 ref float LightFiftyDist1 { get; }
@@ -200,7 +200,7 @@ ref float LightFiftyDist1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LightFiftyDist2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L38)
+### **LightFiftyDist2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L38)
 
 ```csharp
 ref float LightFiftyDist2 { get; }
@@ -210,7 +210,7 @@ ref float LightFiftyDist2 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LightFiftyDist3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L42)
+### **LightFiftyDist3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L42)
 
 ```csharp
 ref float LightFiftyDist3 { get; }
@@ -220,7 +220,7 @@ ref float LightFiftyDist3 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LightFiftyDist4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L46)
+### **LightFiftyDist4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L46)
 
 ```csharp
 ref float LightFiftyDist4 { get; }
@@ -230,7 +230,7 @@ ref float LightFiftyDist4 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LightType1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L58)
+### **LightType1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L58)
 
 ```csharp
 ref bool LightType1 { get; }
@@ -240,7 +240,7 @@ ref bool LightType1 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LightType2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L60)
+### **LightType2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L60)
 
 ```csharp
 ref bool LightType2 { get; }
@@ -250,7 +250,7 @@ ref bool LightType2 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LightType3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L62)
+### **LightType3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L62)
 
 ```csharp
 ref bool LightType3 { get; }
@@ -260,7 +260,7 @@ ref bool LightType3 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LightType4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L64)
+### **LightType4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L64)
 
 ```csharp
 ref bool LightType4 { get; }
@@ -270,7 +270,7 @@ ref bool LightType4 { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**LightZeroDist1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L36)
+### **LightZeroDist1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L36)
 
 ```csharp
 ref float LightZeroDist1 { get; }
@@ -280,7 +280,7 @@ ref float LightZeroDist1 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LightZeroDist2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L40)
+### **LightZeroDist2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L40)
 
 ```csharp
 ref float LightZeroDist2 { get; }
@@ -290,7 +290,7 @@ ref float LightZeroDist2 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LightZeroDist3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L44)
+### **LightZeroDist3** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L44)
 
 ```csharp
 ref float LightZeroDist3 { get; }
@@ -300,7 +300,7 @@ ref float LightZeroDist3 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LightZeroDist4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L48)
+### **LightZeroDist4** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L48)
 
 ```csharp
 ref float LightZeroDist4 { get; }
@@ -310,7 +310,7 @@ ref float LightZeroDist4 { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L16)
+### **Scale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L16)
 
 ```csharp
 ref float Scale { get; }
@@ -320,7 +320,7 @@ ref float Scale { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UseHLambert** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L76)
+### **UseHLambert** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L76)
 
 ```csharp
 ref bool UseHLambert { get; }
@@ -330,7 +330,7 @@ ref bool UseHLambert { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**UseNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L74)
+### **UseNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ControlpointLight.cs#L74)
 
 ```csharp
 ref bool UseNormal { get; }

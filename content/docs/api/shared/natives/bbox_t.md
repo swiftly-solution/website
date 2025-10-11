@@ -10,7 +10,7 @@ public struct BBox_t
 
 ## Fields
 
-**Maxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/bbox_t.cs#L10)
+### **Maxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/bbox_t.cs#L10)
 
 ```csharp
 public Vector Maxs
@@ -20,7 +20,7 @@ public Vector Maxs
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Mins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/bbox_t.cs#L9)
+### **Mins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/bbox_t.cs#L9)
 
 ```csharp
 public Vector Mins

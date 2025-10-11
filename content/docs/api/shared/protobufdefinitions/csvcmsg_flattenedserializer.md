@@ -10,7 +10,7 @@ public interface CSVCMsg_FlattenedSerializer : ITypedProtobuf<CSVCMsg_FlattenedS
 
 ## Properties
 
-**Fields** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FlattenedSerializer.cs#L24)
+### **Fields** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FlattenedSerializer.cs#L24)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializerField_t> Fields { get; }
@@ -20,7 +20,7 @@ IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializerField_t> Fields { g
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ProtoFlattenedSerializerField_t](/docs/api/shared/protobufdefinitions/protoflattenedserializerfield_t)>
 
-**Serializers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FlattenedSerializer.cs#L18)
+### **Serializers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FlattenedSerializer.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializer_t> Serializers { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializer_t> Serializers { g
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ProtoFlattenedSerializer_t](/docs/api/shared/protobufdefinitions/protoflattenedserializer_t)>
 
-**Symbols** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FlattenedSerializer.cs#L21)
+### **Symbols** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_FlattenedSerializer.cs#L21)
 
 ```csharp
 IProtobufRepeatedFieldValueType<string> Symbols { get; }

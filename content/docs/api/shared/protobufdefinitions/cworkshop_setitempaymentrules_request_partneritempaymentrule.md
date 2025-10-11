@@ -10,7 +10,7 @@ public interface CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule : 
 
 ## Properties
 
-**AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule.cs#L13)
+### **AccountId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule.cs#L13)
 
 ```csharp
 uint AccountId { get; set; }
@@ -20,7 +20,7 @@ uint AccountId { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**RevenuePercentage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule.cs#L16)
+### **RevenuePercentage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule.cs#L16)
 
 ```csharp
 float RevenuePercentage { get; set; }
@@ -30,7 +30,7 @@ float RevenuePercentage { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RuleDescription** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule.cs#L19)
+### **RuleDescription** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule.cs#L19)
 
 ```csharp
 string RuleDescription { get; set; }

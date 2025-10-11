@@ -10,7 +10,7 @@ public interface CLogicPlayerProxy : CLogicalEntity, CServerOnlyEntity, CBaseEnt
 
 ## Properties
 
-**Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L16)
+### **Player** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L16)
 
 ```csharp
 ref CHandle<CBaseEntity> Player { get; }
@@ -20,7 +20,7 @@ ref CHandle<CBaseEntity> Player { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-**PlayerDied** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L22)
+### **PlayerDied** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L22)
 
 ```csharp
 CEntityIOOutput PlayerDied { get; }
@@ -30,7 +30,7 @@ CEntityIOOutput PlayerDied { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**PlayerHasAmmo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L18)
+### **PlayerHasAmmo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L18)
 
 ```csharp
 CEntityIOOutput PlayerHasAmmo { get; }
@@ -40,7 +40,7 @@ CEntityIOOutput PlayerHasAmmo { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**PlayerHasNoAmmo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L20)
+### **PlayerHasNoAmmo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L20)
 
 ```csharp
 CEntityIOOutput PlayerHasNoAmmo { get; }
@@ -50,7 +50,7 @@ CEntityIOOutput PlayerHasNoAmmo { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**RequestedPlayerHealth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L25)
+### **RequestedPlayerHealth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicPlayerProxy.cs#L25)
 
 ```csharp
 SchemaUntypedField RequestedPlayerHealth { get; }

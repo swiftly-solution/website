@@ -12,7 +12,7 @@ public interface IConVar<T>
 
 ## Properties
 
-**Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L11)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L11)
 
 ```csharp
 T Value { get; set; }
@@ -24,7 +24,7 @@ T Value { get; set; }
 
 ## Methods
 
-**AddFlags(ConvarFlags)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L17)
+### **AddFlags(ConvarFlags)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L17)
 
 ```csharp
 void AddFlags(ConvarFlags flags)
@@ -34,13 +34,13 @@ void AddFlags(ConvarFlags flags)
 
 - **flags**: [ConvarFlags](/docs/api/shared/convars/convarflags) - flags.
 
-**ClearFlags()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L28)
+### **ClearFlags()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L28)
 
 ```csharp
 void ClearFlags()
 ```
 
-**GetFlags()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L34)
+### **GetFlags()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L34)
 
 ```csharp
 ConvarFlags GetFlags()
@@ -50,7 +50,7 @@ ConvarFlags GetFlags()
 
 - [ConvarFlags](/docs/api/shared/convars/convarflags) - The flags of the convar.
 
-**HasFlags(ConvarFlags)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L41)
+### **HasFlags(ConvarFlags)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L41)
 
 ```csharp
 bool HasFlags(ConvarFlags flags)
@@ -64,7 +64,7 @@ bool HasFlags(ConvarFlags flags)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the convar has all the given flags, false otherwise.
 
-**QueryClient(int, Action<string>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L61)
+### **QueryClient(int, Action<string>)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L61)
 
 ```csharp
 void QueryClient(int clientId, Action<string> callback)
@@ -75,7 +75,7 @@ void QueryClient(int clientId, Action<string> callback)
 - **clientId**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **callback**: [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
-**RemoveFlags(ConvarFlags)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L23)
+### **RemoveFlags(ConvarFlags)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L23)
 
 ```csharp
 void RemoveFlags(ConvarFlags flags)
@@ -85,7 +85,7 @@ void RemoveFlags(ConvarFlags flags)
 
 - **flags**: [ConvarFlags](/docs/api/shared/convars/convarflags) - flags.
 
-**ReplicateToClient(int, T)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L54)
+### **ReplicateToClient(int, T)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L54)
 
 ```csharp
 void ReplicateToClient(int clientId, T value)
@@ -96,7 +96,7 @@ void ReplicateToClient(int clientId, T value)
 - **clientId**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The client id to replicate to.
 - **value**: T
 
-**SetInternal(T)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L48)
+### **SetInternal(T)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVar.cs#L48)
 
 ```csharp
 void SetInternal(T value)

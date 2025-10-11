@@ -10,7 +10,7 @@ public interface CPlayerPawnComponent : ISchemaClass<CPlayerPawnComponent>, ISch
 
 ## Properties
 
-**Pawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayerPawnComponent.cs#L8)
+### **Pawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayerPawnComponent.cs#L8)
 
 ```csharp
 CBasePlayerPawn Pawn { get; }
@@ -20,7 +20,7 @@ CBasePlayerPawn Pawn { get; }
 
 - [CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)
 
-**__m_pChainEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPawnComponent.cs#L16)
+### **__m_pChainEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPawnComponent.cs#L16)
 
 ```csharp
 ref CNetworkVarChainer __m_pChainEntity { get; }

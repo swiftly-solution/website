@@ -10,7 +10,7 @@ public interface CLogicNavigation : CLogicalEntity, CServerOnlyEntity, CBaseEnti
 
 ## Properties
 
-**IsOn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNavigation.cs#L16)
+### **IsOn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNavigation.cs#L16)
 
 ```csharp
 ref bool IsOn { get; }
@@ -20,7 +20,7 @@ ref bool IsOn { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NavProperty** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNavigation.cs#L18)
+### **NavProperty** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicNavigation.cs#L18)
 
 ```csharp
 ref navproperties_t NavProperty { get; }

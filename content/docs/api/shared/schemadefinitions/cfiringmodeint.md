@@ -10,7 +10,7 @@ public interface CFiringModeInt : ISchemaClass<CFiringModeInt>, ISchemaField, IS
 
 ## Properties
 
-**Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFiringModeInt.cs#L16)
+### **Values** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFiringModeInt.cs#L16)
 
 ```csharp
 ISchemaFixedArray<int> Values { get; }

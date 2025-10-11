@@ -10,7 +10,7 @@ public interface C_INIT_SetHitboxToModel : CParticleFunctionInitializer, CPartic
 
 ## Properties
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -20,7 +20,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DesiredHitbox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L22)
+### **DesiredHitbox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L22)
 
 ```csharp
 ref int DesiredHitbox { get; }
@@ -30,7 +30,7 @@ ref int DesiredHitbox { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**DirectionBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L26)
+### **DirectionBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L26)
 
 ```csharp
 ref Vector DirectionBias { get; }
@@ -40,7 +40,7 @@ ref Vector DirectionBias { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**EvenDistribution** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L20)
+### **EvenDistribution** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L20)
 
 ```csharp
 ref bool EvenDistribution { get; }
@@ -50,7 +50,7 @@ ref bool EvenDistribution { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ForceInModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L18)
+### **ForceInModel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L18)
 
 ```csharp
 ref int ForceInModel { get; }
@@ -60,7 +60,7 @@ ref int ForceInModel { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**HitBoxScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L24)
+### **HitBoxScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L24)
 
 ```csharp
 CParticleCollectionVecInput HitBoxScale { get; }
@@ -70,7 +70,7 @@ CParticleCollectionVecInput HitBoxScale { get; }
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-**HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L32)
+### **HitboxSetName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L32)
 
 ```csharp
 string HitboxSetName { get; set; }
@@ -80,7 +80,7 @@ string HitboxSetName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MaintainHitbox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L28)
+### **MaintainHitbox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L28)
 
 ```csharp
 ref bool MaintainHitbox { get; }
@@ -90,7 +90,7 @@ ref bool MaintainHitbox { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ShellSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L34)
+### **ShellSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L34)
 
 ```csharp
 CParticleCollectionFloatInput ShellSize { get; }
@@ -100,7 +100,7 @@ CParticleCollectionFloatInput ShellSize { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**UseBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L30)
+### **UseBones** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetHitboxToModel.cs#L30)
 
 ```csharp
 ref bool UseBones { get; }

@@ -10,7 +10,7 @@ public interface CTriggerSndSosOpvar : CBaseTrigger, CBaseToggle, CBaseModelEnti
 
 ## Properties
 
-**CenterSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L20)
+### **CenterSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L20)
 
 ```csharp
 ref float CenterSize { get; }
@@ -20,7 +20,7 @@ ref float CenterSize { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MaxVal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L24)
+### **MaxVal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L24)
 
 ```csharp
 ref float MaxVal { get; }
@@ -30,7 +30,7 @@ ref float MaxVal { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MinVal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L22)
+### **MinVal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L22)
 
 ```csharp
 ref float MinVal { get; }
@@ -40,7 +40,7 @@ ref float MinVal { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**NormCenterSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L42)
+### **NormCenterSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L42)
 
 ```csharp
 ref float NormCenterSize { get; }
@@ -50,7 +50,7 @@ ref float NormCenterSize { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**OperatorName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L30)
+### **OperatorName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L30)
 
 ```csharp
 string OperatorName { get; set; }
@@ -60,7 +60,7 @@ string OperatorName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OperatorNameChar** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L38)
+### **OperatorNameChar** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L38)
 
 ```csharp
 string OperatorNameChar { get; set; }
@@ -70,7 +70,7 @@ string OperatorNameChar { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OpvarName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L26)
+### **OpvarName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L26)
 
 ```csharp
 string OpvarName { get; set; }
@@ -80,7 +80,7 @@ string OpvarName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**OpvarNameChar** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L34)
+### **OpvarNameChar** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L34)
 
 ```csharp
 string OpvarNameChar { get; set; }
@@ -90,7 +90,7 @@ string OpvarNameChar { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L18)
+### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L18)
 
 ```csharp
 ref Vector Position { get; }
@@ -100,7 +100,7 @@ ref Vector Position { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**StackName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L28)
+### **StackName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L28)
 
 ```csharp
 string StackName { get; set; }
@@ -110,7 +110,7 @@ string StackName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**StackNameChar** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L36)
+### **StackNameChar** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L36)
 
 ```csharp
 string StackNameChar { get; set; }
@@ -120,7 +120,7 @@ string StackNameChar { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TouchingPlayers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L16)
+### **TouchingPlayers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L16)
 
 ```csharp
 ref CUtlVector<CHandle<CBaseEntity>> TouchingPlayers { get; }
@@ -128,9 +128,9 @@ ref CUtlVector<CHandle<CBaseEntity>> TouchingPlayers { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
+- [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
-**VecNormPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L40)
+### **VecNormPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L40)
 
 ```csharp
 ref Vector VecNormPos { get; }
@@ -140,7 +140,7 @@ ref Vector VecNormPos { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**VolIs2D** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L32)
+### **VolIs2D** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerSndSosOpvar.cs#L32)
 
 ```csharp
 ref bool VolIs2D { get; }

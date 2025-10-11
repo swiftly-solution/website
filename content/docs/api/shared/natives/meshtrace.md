@@ -10,7 +10,7 @@ public struct MeshTrace
 
 ## Fields
 
-**Maxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L39)
+### **Maxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L39)
 
 ```csharp
 public Vector Maxs
@@ -20,7 +20,7 @@ public Vector Maxs
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**Mins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L38)
+### **Mins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L38)
 
 ```csharp
 public Vector Mins
@@ -30,7 +30,7 @@ public Vector Mins
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**NumVertices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L41)
+### **NumVertices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L41)
 
 ```csharp
 public int NumVertices
@@ -40,7 +40,7 @@ public int NumVertices
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Vertices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L40)
+### **Vertices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L40)
 
 ```csharp
 public Vector* Vertices

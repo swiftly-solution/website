@@ -10,7 +10,7 @@ public interface CPulseCell_Outflow_ScriptedSequence : CPulseCell_BaseYieldingIn
 
 ## Properties
 
-**AdditionalActors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L29)
+### **AdditionalActors** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L29)
 
 ```csharp
 ref CUtlVector AdditionalActors { get; }
@@ -18,9 +18,9 @@ ref CUtlVector AdditionalActors { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**DisallowInterrupts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L24)
+### **DisallowInterrupts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L24)
 
 ```csharp
 ref bool DisallowInterrupts { get; }
@@ -30,7 +30,7 @@ ref bool DisallowInterrupts { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**DontTeleportAtEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L22)
+### **DontTeleportAtEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L22)
 
 ```csharp
 ref bool DontTeleportAtEnd { get; }
@@ -40,7 +40,7 @@ ref bool DontTeleportAtEnd { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EnsureOnNavmeshOnFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L20)
+### **EnsureOnNavmeshOnFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L20)
 
 ```csharp
 ref bool EnsureOnNavmeshOnFinish { get; }
@@ -50,7 +50,7 @@ ref bool EnsureOnNavmeshOnFinish { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ExpectedNumSequencesInSyncGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L18)
+### **ExpectedNumSequencesInSyncGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L18)
 
 ```csharp
 ref int ExpectedNumSequencesInSyncGroup { get; }
@@ -60,7 +60,7 @@ ref int ExpectedNumSequencesInSyncGroup { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**OnCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L33)
+### **OnCanceled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L33)
 
 ```csharp
 CPulse_ResumePoint OnCanceled { get; }
@@ -70,7 +70,7 @@ CPulse_ResumePoint OnCanceled { get; }
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
-**OnFinished** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L31)
+### **OnFinished** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L31)
 
 ```csharp
 CPulse_ResumePoint OnFinished { get; }
@@ -80,7 +80,7 @@ CPulse_ResumePoint OnFinished { get; }
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
-**ScriptedSequenceDataMain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L26)
+### **ScriptedSequenceDataMain** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L26)
 
 ```csharp
 PulseScriptedSequenceData_t ScriptedSequenceDataMain { get; }
@@ -90,7 +90,7 @@ PulseScriptedSequenceData_t ScriptedSequenceDataMain { get; }
 
 - [PulseScriptedSequenceData_t](/docs/api/shared/schemadefinitions/pulsescriptedsequencedata_t)
 
-**SyncGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L16)
+### **SyncGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L16)
 
 ```csharp
 string SyncGroup { get; set; }
@@ -100,7 +100,7 @@ string SyncGroup { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Triggers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L36)
+### **Triggers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_ScriptedSequence.cs#L36)
 
 ```csharp
 ref CUtlVector Triggers { get; }
@@ -108,5 +108,5 @@ ref CUtlVector Triggers { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 

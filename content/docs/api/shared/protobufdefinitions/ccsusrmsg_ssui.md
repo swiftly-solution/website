@@ -10,7 +10,7 @@ public interface CCSUsrMsg_SSUI : ITypedProtobuf<CCSUsrMsg_SSUI>, INativeHandle,
 
 ## Properties
 
-**EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SSUI.cs#L24)
+### **EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SSUI.cs#L24)
 
 ```csharp
 float EndTime { get; set; }
@@ -20,7 +20,7 @@ float EndTime { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Show** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SSUI.cs#L18)
+### **Show** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SSUI.cs#L18)
 
 ```csharp
 bool Show { get; set; }
@@ -30,7 +30,7 @@ bool Show { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SSUI.cs#L21)
+### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SSUI.cs#L21)
 
 ```csharp
 float StartTime { get; set; }

@@ -10,7 +10,7 @@ public interface CPlayerControllerComponent : ISchemaClass<CPlayerControllerComp
 
 ## Properties
 
-**Controller** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayerControllerComponent.cs#L8)
+### **Controller** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayerControllerComponent.cs#L8)
 
 ```csharp
 CBasePlayerController Controller { get; }
@@ -20,7 +20,7 @@ CBasePlayerController Controller { get; }
 
 - [CBasePlayerController](/docs/api/shared/schemadefinitions/cbaseplayercontroller)
 
-**__m_pChainEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerControllerComponent.cs#L16)
+### **__m_pChainEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerControllerComponent.cs#L16)
 
 ```csharp
 ref CNetworkVarChainer __m_pChainEntity { get; }

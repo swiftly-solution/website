@@ -10,7 +10,7 @@ public interface CSVCMsg_ClearAllStringTables : ITypedProtobuf<CSVCMsg_ClearAllS
 
 ## Properties
 
-**CreateTablesSkipped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClearAllStringTables.cs#L21)
+### **CreateTablesSkipped** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClearAllStringTables.cs#L21)
 
 ```csharp
 bool CreateTablesSkipped { get; set; }
@@ -20,7 +20,7 @@ bool CreateTablesSkipped { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Mapname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClearAllStringTables.cs#L18)
+### **Mapname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_ClearAllStringTables.cs#L18)
 
 ```csharp
 string Mapname { get; set; }

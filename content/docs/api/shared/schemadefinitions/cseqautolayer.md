@@ -10,7 +10,7 @@ public interface CSeqAutoLayer : ISchemaClass<CSeqAutoLayer>, ISchemaField, ISch
 
 ## Properties
 
-**End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L28)
+### **End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L28)
 
 ```csharp
 ref float End { get; }
@@ -20,7 +20,7 @@ ref float End { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L20)
+### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L20)
 
 ```csharp
 CSeqAutoLayerFlag Flags { get; }
@@ -30,7 +30,7 @@ CSeqAutoLayerFlag Flags { get; }
 
 - [CSeqAutoLayerFlag](/docs/api/shared/schemadefinitions/cseqautolayerflag)
 
-**LocalPose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L18)
+### **LocalPose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L18)
 
 ```csharp
 ref short LocalPose { get; }
@@ -40,7 +40,7 @@ ref short LocalPose { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**LocalReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L16)
+### **LocalReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L16)
 
 ```csharp
 ref short LocalReference { get; }
@@ -50,7 +50,7 @@ ref short LocalReference { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Peak** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L24)
+### **Peak** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L24)
 
 ```csharp
 ref float Peak { get; }
@@ -60,7 +60,7 @@ ref float Peak { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L22)
+### **Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L22)
 
 ```csharp
 ref float Start { get; }
@@ -70,7 +70,7 @@ ref float Start { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Tail** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L26)
+### **Tail** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L26)
 
 ```csharp
 ref float Tail { get; }

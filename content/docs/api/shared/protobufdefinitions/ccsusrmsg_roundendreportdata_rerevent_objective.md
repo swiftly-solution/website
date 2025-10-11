@@ -10,7 +10,7 @@ public interface CCSUsrMsg_RoundEndReportData_RerEvent_Objective : ITypedProtobu
 
 ## Properties
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Objective.cs#L13)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RoundEndReportData_RerEvent_Objective.cs#L13)
 
 ```csharp
 int Type { get; set; }

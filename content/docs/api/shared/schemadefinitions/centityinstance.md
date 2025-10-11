@@ -10,7 +10,7 @@ public interface CEntityInstance : ISchemaClass<CEntityInstance>, ISchemaField, 
 
 ## Properties
 
-**CScriptComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L20)
+### **CScriptComponent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L20)
 
 ```csharp
 CScriptComponent? CScriptComponent { get; }
@@ -20,7 +20,7 @@ CScriptComponent? CScriptComponent { get; }
 
 - [CScriptComponent](/docs/api/shared/schemadefinitions/cscriptcomponent)?
 
-**DesignerName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L17)
+### **DesignerName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L17)
 
 ```csharp
 string DesignerName { get; }
@@ -30,7 +30,7 @@ string DesignerName { get; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L18)
+### **Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L18)
 
 ```csharp
 CEntityIdentity? Entity { get; }
@@ -40,7 +40,7 @@ CEntityIdentity? Entity { get; }
 
 - [CEntityIdentity](/docs/api/shared/schemadefinitions/centityidentity)?
 
-**Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L12)
+### **Index** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L12)
 
 ```csharp
 uint Index { get; }
@@ -50,7 +50,7 @@ uint Index { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**PrivateVScripts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L16)
+### **PrivateVScripts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L16)
 
 ```csharp
 string PrivateVScripts { get; set; }
@@ -62,7 +62,7 @@ string PrivateVScripts { get; set; }
 
 ## Methods
 
-**AcceptInput<T>(string, T, CEntityInstance?, CEntityInstance?, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L28)
+### **AcceptInput<T>(string, T, CEntityInstance?, CEntityInstance?, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L28)
 
 ```csharp
 void AcceptInput<T>(string input, T value, CEntityInstance? activator = null, CEntityInstance? caller = null, int outputID = 0)
@@ -80,7 +80,7 @@ void AcceptInput<T>(string input, T value, CEntityInstance? activator = null, CE
 
 - **T**:  - Param type. Support bool, int, uint, long, ulong, float, double, string
 
-**AddEntityIOEvent<T>(string, T, CEntityInstance?, CEntityInstance?, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L39)
+### **AddEntityIOEvent<T>(string, T, CEntityInstance?, CEntityInstance?, float)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L39)
 
 ```csharp
 void AddEntityIOEvent<T>(string input, T value, CEntityInstance? activator = null, CEntityInstance? caller = null, float delay = 0)
@@ -98,13 +98,13 @@ void AddEntityIOEvent<T>(string input, T value, CEntityInstance? activator = nul
 
 - **T**:  - Param type. Support bool, int, uint, long, ulong, float, double, string
 
-**Despawn()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L49)
+### **Despawn()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L49)
 
 ```csharp
 void Despawn()
 ```
 
-**DispatchSpawn(CEntityKeyValues?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L45)
+### **DispatchSpawn(CEntityKeyValues?)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L45)
 
 ```csharp
 void DispatchSpawn(CEntityKeyValues? entityKV = null)
@@ -114,7 +114,7 @@ void DispatchSpawn(CEntityKeyValues? entityKV = null)
 
 - **entityKV**: [CEntityKeyValues](/docs/api/shared/entitysystem/centitykeyvalues)? - Entity key values. Nullable.
 
-**EntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L22)
+### **EntityUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEntityInstance.cs#L22)
 
 ```csharp
 void EntityUpdated()

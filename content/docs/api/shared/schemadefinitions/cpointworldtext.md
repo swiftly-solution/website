@@ -10,7 +10,7 @@ public interface CPointWorldText : CModelPointEntity, CBaseModelEntity, CBaseEnt
 
 ## Properties
 
-**BackgroundBorderHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L36)
+### **BackgroundBorderHeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L36)
 
 ```csharp
 ref float BackgroundBorderHeight { get; }
@@ -20,7 +20,7 @@ ref float BackgroundBorderHeight { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BackgroundBorderWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L34)
+### **BackgroundBorderWidth** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L34)
 
 ```csharp
 ref float BackgroundBorderWidth { get; }
@@ -30,7 +30,7 @@ ref float BackgroundBorderWidth { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BackgroundMaterialName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L20)
+### **BackgroundMaterialName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L20)
 
 ```csharp
 string BackgroundMaterialName { get; set; }
@@ -40,7 +40,7 @@ string BackgroundMaterialName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**BackgroundWorldToUV** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L38)
+### **BackgroundWorldToUV** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L38)
 
 ```csharp
 ref float BackgroundWorldToUV { get; }
@@ -50,7 +50,7 @@ ref float BackgroundWorldToUV { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L40)
+### **Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L40)
 
 ```csharp
 ref Color Color { get; }
@@ -60,7 +60,7 @@ ref Color Color { get; }
 
 - [Color](/docs/api/shared/natives/color)
 
-**DepthOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L30)
+### **DepthOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L30)
 
 ```csharp
 ref float DepthOffset { get; }
@@ -70,7 +70,7 @@ ref float DepthOffset { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**DrawBackground** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L32)
+### **DrawBackground** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L32)
 
 ```csharp
 ref bool DrawBackground { get; }
@@ -80,7 +80,7 @@ ref bool DrawBackground { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L22)
+### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L22)
 
 ```csharp
 ref bool Enabled { get; }
@@ -90,7 +90,7 @@ ref bool Enabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**FontName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L18)
+### **FontName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L18)
 
 ```csharp
 string FontName { get; set; }
@@ -100,7 +100,7 @@ string FontName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**FontSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L28)
+### **FontSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L28)
 
 ```csharp
 ref float FontSize { get; }
@@ -110,7 +110,7 @@ ref float FontSize { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Fullbright** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L24)
+### **Fullbright** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L24)
 
 ```csharp
 ref bool Fullbright { get; }
@@ -120,7 +120,7 @@ ref bool Fullbright { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**JustifyHorizontal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L42)
+### **JustifyHorizontal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L42)
 
 ```csharp
 ref PointWorldTextJustifyHorizontal_t JustifyHorizontal { get; }
@@ -130,7 +130,7 @@ ref PointWorldTextJustifyHorizontal_t JustifyHorizontal { get; }
 
 - [PointWorldTextJustifyHorizontal_t](/docs/api/shared/schemadefinitions/pointworldtextjustifyhorizontal_t)
 
-**JustifyVertical** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L44)
+### **JustifyVertical** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L44)
 
 ```csharp
 ref PointWorldTextJustifyVertical_t JustifyVertical { get; }
@@ -140,7 +140,7 @@ ref PointWorldTextJustifyVertical_t JustifyVertical { get; }
 
 - [PointWorldTextJustifyVertical_t](/docs/api/shared/schemadefinitions/pointworldtextjustifyvertical_t)
 
-**MessageText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L16)
+### **MessageText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L16)
 
 ```csharp
 string MessageText { get; set; }
@@ -150,7 +150,7 @@ string MessageText { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ReorientMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L46)
+### **ReorientMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L46)
 
 ```csharp
 ref PointWorldTextReorientMode_t ReorientMode { get; }
@@ -160,7 +160,7 @@ ref PointWorldTextReorientMode_t ReorientMode { get; }
 
 - [PointWorldTextReorientMode_t](/docs/api/shared/schemadefinitions/pointworldtextreorientmode_t)
 
-**WorldUnitsPerPx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L26)
+### **WorldUnitsPerPx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L26)
 
 ```csharp
 ref float WorldUnitsPerPx { get; }
@@ -172,97 +172,97 @@ ref float WorldUnitsPerPx { get; }
 
 ## Methods
 
-**BackgroundBorderHeightUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L58)
+### **BackgroundBorderHeightUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L58)
 
 ```csharp
 void BackgroundBorderHeightUpdated()
 ```
 
-**BackgroundBorderWidthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L57)
+### **BackgroundBorderWidthUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L57)
 
 ```csharp
 void BackgroundBorderWidthUpdated()
 ```
 
-**BackgroundMaterialNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L50)
+### **BackgroundMaterialNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L50)
 
 ```csharp
 void BackgroundMaterialNameUpdated()
 ```
 
-**BackgroundWorldToUVUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L59)
+### **BackgroundWorldToUVUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L59)
 
 ```csharp
 void BackgroundWorldToUVUpdated()
 ```
 
-**ColorUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L60)
+### **ColorUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L60)
 
 ```csharp
 void ColorUpdated()
 ```
 
-**DepthOffsetUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L55)
+### **DepthOffsetUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L55)
 
 ```csharp
 void DepthOffsetUpdated()
 ```
 
-**DrawBackgroundUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L56)
+### **DrawBackgroundUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L56)
 
 ```csharp
 void DrawBackgroundUpdated()
 ```
 
-**EnabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L51)
+### **EnabledUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L51)
 
 ```csharp
 void EnabledUpdated()
 ```
 
-**FontNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L49)
+### **FontNameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L49)
 
 ```csharp
 void FontNameUpdated()
 ```
 
-**FontSizeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L54)
+### **FontSizeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L54)
 
 ```csharp
 void FontSizeUpdated()
 ```
 
-**FullbrightUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L52)
+### **FullbrightUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L52)
 
 ```csharp
 void FullbrightUpdated()
 ```
 
-**JustifyHorizontalUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L61)
+### **JustifyHorizontalUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L61)
 
 ```csharp
 void JustifyHorizontalUpdated()
 ```
 
-**JustifyVerticalUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L62)
+### **JustifyVerticalUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L62)
 
 ```csharp
 void JustifyVerticalUpdated()
 ```
 
-**MessageTextUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L48)
+### **MessageTextUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L48)
 
 ```csharp
 void MessageTextUpdated()
 ```
 
-**ReorientModeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L63)
+### **ReorientModeUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L63)
 
 ```csharp
 void ReorientModeUpdated()
 ```
 
-**WorldUnitsPerPxUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L53)
+### **WorldUnitsPerPxUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointWorldText.cs#L53)
 
 ```csharp
 void WorldUnitsPerPxUpdated()

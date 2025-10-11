@@ -10,7 +10,7 @@ public interface CPointGamestatsCounter : CPointEntity, CBaseEntity, CEntityInst
 
 ## Properties
 
-**Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointGamestatsCounter.cs#L18)
+### **Disabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointGamestatsCounter.cs#L18)
 
 ```csharp
 ref bool Disabled { get; }
@@ -20,7 +20,7 @@ ref bool Disabled { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**StrStatisticName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointGamestatsCounter.cs#L16)
+### **StrStatisticName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPointGamestatsCounter.cs#L16)
 
 ```csharp
 string StrStatisticName { get; set; }

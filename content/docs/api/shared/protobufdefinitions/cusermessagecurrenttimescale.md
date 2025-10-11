@@ -10,7 +10,7 @@ public interface CUserMessageCurrentTimescale : ITypedProtobuf<CUserMessageCurre
 
 ## Properties
 
-**Current** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCurrentTimescale.cs#L18)
+### **Current** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCurrentTimescale.cs#L18)
 
 ```csharp
 float Current { get; set; }

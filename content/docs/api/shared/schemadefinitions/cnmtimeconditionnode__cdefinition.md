@@ -10,7 +10,7 @@ public interface CNmTimeConditionNode__CDefinition : CNmBoolValueNode__CDefiniti
 
 ## Properties
 
-**Comparand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTimeConditionNode__CDefinition.cs#L20)
+### **Comparand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTimeConditionNode__CDefinition.cs#L20)
 
 ```csharp
 ref float Comparand { get; }
@@ -20,7 +20,7 @@ ref float Comparand { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTimeConditionNode__CDefinition.cs#L18)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTimeConditionNode__CDefinition.cs#L18)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -30,7 +30,7 @@ ref short InputValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Operator** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTimeConditionNode__CDefinition.cs#L24)
+### **Operator** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTimeConditionNode__CDefinition.cs#L24)
 
 ```csharp
 ref CNmTimeConditionNode__Operator_t Operator { get; }
@@ -40,7 +40,7 @@ ref CNmTimeConditionNode__Operator_t Operator { get; }
 
 - [CNmTimeConditionNode__Operator_t](/docs/api/shared/schemadefinitions/cnmtimeconditionnode__operator_t)
 
-**SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTimeConditionNode__CDefinition.cs#L16)
+### **SourceStateNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTimeConditionNode__CDefinition.cs#L16)
 
 ```csharp
 ref short SourceStateNodeIdx { get; }
@@ -50,7 +50,7 @@ ref short SourceStateNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTimeConditionNode__CDefinition.cs#L22)
+### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTimeConditionNode__CDefinition.cs#L22)
 
 ```csharp
 ref CNmTimeConditionNode__ComparisonType_t Type { get; }

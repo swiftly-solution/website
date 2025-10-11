@@ -10,7 +10,7 @@ public interface CRandomNumberGeneratorParameters : ISchemaClass<CRandomNumberGe
 
 ## Properties
 
-**DistributeEvenly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRandomNumberGeneratorParameters.cs#L16)
+### **DistributeEvenly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRandomNumberGeneratorParameters.cs#L16)
 
 ```csharp
 ref bool DistributeEvenly { get; }
@@ -20,7 +20,7 @@ ref bool DistributeEvenly { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Seed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRandomNumberGeneratorParameters.cs#L18)
+### **Seed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRandomNumberGeneratorParameters.cs#L18)
 
 ```csharp
 ref int Seed { get; }

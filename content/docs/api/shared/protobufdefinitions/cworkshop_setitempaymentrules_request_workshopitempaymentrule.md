@@ -10,7 +10,7 @@ public interface CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule :
 
 ## Properties
 
-**RevenuePercentage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule.cs#L16)
+### **RevenuePercentage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule.cs#L16)
 
 ```csharp
 float RevenuePercentage { get; set; }
@@ -20,7 +20,7 @@ float RevenuePercentage { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**RuleDescription** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule.cs#L19)
+### **RuleDescription** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule.cs#L19)
 
 ```csharp
 string RuleDescription { get; set; }
@@ -30,7 +30,7 @@ string RuleDescription { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**RuleType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule.cs#L22)
+### **RuleType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule.cs#L22)
 
 ```csharp
 uint RuleType { get; set; }
@@ -40,7 +40,7 @@ uint RuleType { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**WorkshopFileId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule.cs#L13)
+### **WorkshopFileId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule.cs#L13)
 
 ```csharp
 ulong WorkshopFileId { get; set; }

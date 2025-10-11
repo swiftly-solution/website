@@ -10,7 +10,7 @@ public interface CMsgGCCstrike15_v2_ClientRedeemFreeReward : ITypedProtobuf<CMsg
 
 ## Properties
 
-**GenerationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_ClientRedeemFreeReward.cs#L13)
+### **GenerationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_ClientRedeemFreeReward.cs#L13)
 
 ```csharp
 uint GenerationTime { get; set; }
@@ -20,7 +20,7 @@ uint GenerationTime { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Items** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_ClientRedeemFreeReward.cs#L19)
+### **Items** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_ClientRedeemFreeReward.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldValueType<ulong> Items { get; }
@@ -30,7 +30,7 @@ IProtobufRepeatedFieldValueType<ulong> Items { get; }
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
-**RedeemableBalance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_ClientRedeemFreeReward.cs#L16)
+### **RedeemableBalance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCstrike15_v2_ClientRedeemFreeReward.cs#L16)
 
 ```csharp
 uint RedeemableBalance { get; set; }

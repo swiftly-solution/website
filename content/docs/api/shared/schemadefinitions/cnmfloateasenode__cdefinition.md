@@ -10,7 +10,7 @@ public interface CNmFloatEaseNode__CDefinition : CNmFloatValueNode__CDefinition,
 
 ## Properties
 
-**EaseTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L16)
+### **EaseTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L16)
 
 ```csharp
 ref float EaseTime { get; }
@@ -20,7 +20,7 @@ ref float EaseTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EasingOp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L22)
+### **EasingOp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L22)
 
 ```csharp
 ref NmEasingOperation_t EasingOp { get; }
@@ -30,7 +30,7 @@ ref NmEasingOperation_t EasingOp { get; }
 
 - [NmEasingOperation_t](/docs/api/shared/schemadefinitions/nmeasingoperation_t)
 
-**InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L20)
+### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L20)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
@@ -40,7 +40,7 @@ ref short InputValueNodeIdx { get; }
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-**StartValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L18)
+### **StartValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L18)
 
 ```csharp
 ref float StartValue { get; }
@@ -50,7 +50,7 @@ ref float StartValue { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**UseStartValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L24)
+### **UseStartValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatEaseNode__CDefinition.cs#L24)
 
 ```csharp
 ref bool UseStartValue { get; }

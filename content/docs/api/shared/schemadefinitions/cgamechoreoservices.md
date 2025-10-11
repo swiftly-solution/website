@@ -10,7 +10,7 @@ public interface CGameChoreoServices : IChoreoServices, ISchemaClass<IChoreoServ
 
 ## Properties
 
-**ChoreoState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L22)
+### **ChoreoState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L22)
 
 ```csharp
 ref IChoreoServices__ChoreoState_t ChoreoState { get; }
@@ -20,7 +20,7 @@ ref IChoreoServices__ChoreoState_t ChoreoState { get; }
 
 - [IChoreoServices__ChoreoState_t](/docs/api/shared/schemadefinitions/ichoreoservices__choreostate_t)
 
-**Owner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L16)
+### **Owner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L16)
 
 ```csharp
 ref CHandle<CBaseAnimGraph> Owner { get; }
@@ -30,7 +30,7 @@ ref CHandle<CBaseAnimGraph> Owner { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseAnimGraph](/docs/api/shared/schemadefinitions/cbaseanimgraph)>
 
-**ScriptState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L20)
+### **ScriptState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L20)
 
 ```csharp
 ref IChoreoServices__ScriptState_t ScriptState { get; }
@@ -40,7 +40,7 @@ ref IChoreoServices__ScriptState_t ScriptState { get; }
 
 - [IChoreoServices__ScriptState_t](/docs/api/shared/schemadefinitions/ichoreoservices__scriptstate_t)
 
-**ScriptedSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L18)
+### **ScriptedSequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L18)
 
 ```csharp
 ref CHandle<CScriptedSequence> ScriptedSequence { get; }
@@ -50,7 +50,7 @@ ref CHandle<CScriptedSequence> ScriptedSequence { get; }
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CScriptedSequence](/docs/api/shared/schemadefinitions/cscriptedsequence)>
 
-**TimeStartedState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L24)
+### **TimeStartedState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameChoreoServices.cs#L24)
 
 ```csharp
 GameTime_t TimeStartedState { get; }

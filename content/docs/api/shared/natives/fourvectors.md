@@ -10,7 +10,7 @@ public struct FourVectors
 
 ## Fields
 
-**X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L9)
+### **X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L9)
 
 ```csharp
 public fltx4 X
@@ -20,7 +20,7 @@ public fltx4 X
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
-**Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L12)
+### **Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L12)
 
 ```csharp
 public fltx4 Y
@@ -30,7 +30,7 @@ public fltx4 Y
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
-**Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L15)
+### **Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L15)
 
 ```csharp
 public fltx4 Z
@@ -42,7 +42,7 @@ public fltx4 Z
 
 ## Properties
 
-**this[int]** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L27)
+### **this[int]** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L27)
 
 ```csharp
 public Vector this[int index] { get; set; }
@@ -54,7 +54,7 @@ public Vector this[int index] { get; set; }
 
 ## Methods
 
-**GetVector(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L17)
+### **GetVector(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L17)
 
 ```csharp
 public Vector GetVector(int index)
@@ -68,7 +68,7 @@ public Vector GetVector(int index)
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**SetVector(int, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L21)
+### **SetVector(int, Vector)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/FourVectors.cs#L21)
 
 ```csharp
 public void SetVector(int index, Vector vector)

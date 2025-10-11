@@ -10,7 +10,7 @@ public interface CMsgRecurringMissionSchema : ITypedProtobuf<CMsgRecurringMissio
 
 ## Properties
 
-**Missions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRecurringMissionSchema.cs#L13)
+### **Missions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRecurringMissionSchema.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgRecurringMissionSchema_MissionTemplateList> Missions { get; }

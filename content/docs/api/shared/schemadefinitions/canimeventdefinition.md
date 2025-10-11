@@ -10,7 +10,7 @@ public interface CAnimEventDefinition : ISchemaClass<CAnimEventDefinition>, ISch
 
 ## Properties
 
-**Cycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L20)
+### **Cycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L20)
 
 ```csharp
 ref float Cycle { get; }
@@ -20,7 +20,7 @@ ref float Cycle { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L22)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L22)
 
 ```csharp
 ref float Duration { get; }
@@ -30,7 +30,7 @@ ref float Duration { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**EndFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L18)
+### **EndFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L18)
 
 ```csharp
 ref int EndFrame { get; }
@@ -40,7 +40,7 @@ ref int EndFrame { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EventData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L25)
+### **EventData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L25)
 
 ```csharp
 SchemaUntypedField EventData { get; }
@@ -50,7 +50,7 @@ SchemaUntypedField EventData { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L29)
+### **EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L29)
 
 ```csharp
 ref CGlobalSymbol EventName { get; }
@@ -60,7 +60,7 @@ ref CGlobalSymbol EventName { get; }
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-**Frame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L16)
+### **Frame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L16)
 
 ```csharp
 ref int Frame { get; }
@@ -70,7 +70,7 @@ ref int Frame { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**LegacyOptions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L27)
+### **LegacyOptions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEventDefinition.cs#L27)
 
 ```csharp
 ref CBufferString LegacyOptions { get; }

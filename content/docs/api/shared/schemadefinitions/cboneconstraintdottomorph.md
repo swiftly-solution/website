@@ -10,7 +10,7 @@ public interface CBoneConstraintDotToMorph : CBoneConstraintBase, ISchemaClass<C
 
 ## Properties
 
-**BoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L16)
+### **BoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L16)
 
 ```csharp
 string BoneName { get; set; }
@@ -20,7 +20,7 @@ string BoneName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MorphChannelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L20)
+### **MorphChannelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L20)
 
 ```csharp
 string MorphChannelName { get; set; }
@@ -30,7 +30,7 @@ string MorphChannelName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Remap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L22)
+### **Remap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L22)
 
 ```csharp
 ISchemaFixedArray<float> Remap { get; }
@@ -40,7 +40,7 @@ ISchemaFixedArray<float> Remap { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-**TargetBoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L18)
+### **TargetBoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintDotToMorph.cs#L18)
 
 ```csharp
 string TargetBoneName { get; set; }

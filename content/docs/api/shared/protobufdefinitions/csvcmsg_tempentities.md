@@ -10,7 +10,7 @@ public interface CSVCMsg_TempEntities : ITypedProtobuf<CSVCMsg_TempEntities>, IN
 
 ## Properties
 
-**EntityData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_TempEntities.cs#L19)
+### **EntityData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_TempEntities.cs#L19)
 
 ```csharp
 byte[] EntityData { get; set; }
@@ -20,7 +20,7 @@ byte[] EntityData { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**NumEntries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_TempEntities.cs#L16)
+### **NumEntries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_TempEntities.cs#L16)
 
 ```csharp
 int NumEntries { get; set; }
@@ -30,7 +30,7 @@ int NumEntries { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Reliable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_TempEntities.cs#L13)
+### **Reliable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_TempEntities.cs#L13)
 
 ```csharp
 bool Reliable { get; set; }

@@ -10,7 +10,7 @@ public interface CPulseCell_Outflow_CycleShuffled__InstanceState_t : ISchemaClas
 
 ## Properties
 
-**NextShuffle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleShuffled__InstanceState_t.cs#L19)
+### **NextShuffle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleShuffled__InstanceState_t.cs#L19)
 
 ```csharp
 ref int NextShuffle { get; }
@@ -20,7 +20,7 @@ ref int NextShuffle { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Shuffle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleShuffled__InstanceState_t.cs#L17)
+### **Shuffle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleShuffled__InstanceState_t.cs#L17)
 
 ```csharp
 SchemaUntypedField Shuffle { get; }

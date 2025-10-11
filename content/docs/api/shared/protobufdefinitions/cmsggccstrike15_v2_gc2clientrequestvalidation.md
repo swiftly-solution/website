@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_GC2ClientRequestValidation : ITypedProtobuf<
 
 ## Properties
 
-**FullReport** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientRequestValidation.cs#L13)
+### **FullReport** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientRequestValidation.cs#L13)
 
 ```csharp
 bool FullReport { get; set; }
@@ -20,7 +20,7 @@ bool FullReport { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Module** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientRequestValidation.cs#L16)
+### **Module** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientRequestValidation.cs#L16)
 
 ```csharp
 string Module { get; set; }

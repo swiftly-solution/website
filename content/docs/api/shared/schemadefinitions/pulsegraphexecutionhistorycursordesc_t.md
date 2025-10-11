@@ -10,7 +10,7 @@ public interface PulseGraphExecutionHistoryCursorDesc_t : ISchemaClass<PulseGrap
 
 ## Properties
 
-**AncestorCursorIDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L17)
+### **AncestorCursorIDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L17)
 
 ```csharp
 ref CUtlVector AncestorCursorIDs { get; }
@@ -18,9 +18,9 @@ ref CUtlVector AncestorCursorIDs { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**LastReferenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L23)
+### **LastReferenced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L23)
 
 ```csharp
 ref float LastReferenced { get; }
@@ -30,7 +30,7 @@ ref float LastReferenced { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**LastValidEntryIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L25)
+### **LastValidEntryIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L25)
 
 ```csharp
 ref int LastValidEntryIdx { get; }
@@ -40,7 +40,7 @@ ref int LastValidEntryIdx { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**RetiredAtNodeID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L21)
+### **RetiredAtNodeID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L21)
 
 ```csharp
 PulseDocNodeID_t RetiredAtNodeID { get; }
@@ -50,7 +50,7 @@ PulseDocNodeID_t RetiredAtNodeID { get; }
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
-**SpawnNodeID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L19)
+### **SpawnNodeID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseGraphExecutionHistoryCursorDesc_t.cs#L19)
 
 ```csharp
 PulseDocNodeID_t SpawnNodeID { get; }

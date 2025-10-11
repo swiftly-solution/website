@@ -10,7 +10,7 @@ public interface CTwoBoneIKUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, I
 
 ## Properties
 
-**OpFixedData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTwoBoneIKUpdateNode.cs#L16)
+### **OpFixedData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTwoBoneIKUpdateNode.cs#L16)
 
 ```csharp
 TwoBoneIKSettings_t OpFixedData { get; }

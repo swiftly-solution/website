@@ -10,7 +10,7 @@ public interface CMsgGCCStrike15_v2_GC2ClientNotifyXPShop : ITypedProtobuf<CMsgG
 
 ## Properties
 
-**CurrentLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientNotifyXPShop.cs#L22)
+### **CurrentLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientNotifyXPShop.cs#L22)
 
 ```csharp
 uint CurrentLevel { get; set; }
@@ -20,7 +20,7 @@ uint CurrentLevel { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**CurrentXp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientNotifyXPShop.cs#L19)
+### **CurrentXp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientNotifyXPShop.cs#L19)
 
 ```csharp
 uint CurrentXp { get; set; }
@@ -30,7 +30,7 @@ uint CurrentXp { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**Postmatch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientNotifyXPShop.cs#L16)
+### **Postmatch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientNotifyXPShop.cs#L16)
 
 ```csharp
 CSOAccountXpShop Postmatch { get; }
@@ -40,7 +40,7 @@ CSOAccountXpShop Postmatch { get; }
 
 - [CSOAccountXpShop](/docs/api/shared/protobufdefinitions/csoaccountxpshop)
 
-**Prematch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientNotifyXPShop.cs#L13)
+### **Prematch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_GC2ClientNotifyXPShop.cs#L13)
 
 ```csharp
 CSOAccountXpShop Prematch { get; }

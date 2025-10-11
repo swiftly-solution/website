@@ -10,7 +10,7 @@ public interface CShatterGlassShardPhysics : CPhysicsProp, CBreakableProp, CBase
 
 ## Properties
 
-**Debris** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShardPhysics.cs#L16)
+### **Debris** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShardPhysics.cs#L16)
 
 ```csharp
 ref bool Debris { get; }
@@ -20,7 +20,7 @@ ref bool Debris { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**ParentShard** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShardPhysics.cs#L18)
+### **ParentShard** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShardPhysics.cs#L18)
 
 ```csharp
 ref uint ParentShard { get; }
@@ -30,7 +30,7 @@ ref uint ParentShard { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ShardDesc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShardPhysics.cs#L20)
+### **ShardDesc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShardPhysics.cs#L20)
 
 ```csharp
 shard_model_desc_t ShardDesc { get; }
@@ -42,7 +42,7 @@ shard_model_desc_t ShardDesc { get; }
 
 ## Methods
 
-**ShardDescUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShardPhysics.cs#L22)
+### **ShardDescUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CShatterGlassShardPhysics.cs#L22)
 
 ```csharp
 void ShardDescUpdated()

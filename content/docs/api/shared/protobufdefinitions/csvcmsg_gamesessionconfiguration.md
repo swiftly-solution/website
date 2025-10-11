@@ -10,7 +10,7 @@ public interface CSVCMsg_GameSessionConfiguration : ITypedProtobuf<CSVCMsg_GameS
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L52)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L52)
 
 ```csharp
 byte[] Data { get; set; }
@@ -20,7 +20,7 @@ byte[] Data { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**Gamemode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L46)
+### **Gamemode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L46)
 
 ```csharp
 string Gamemode { get; set; }
@@ -30,7 +30,7 @@ string Gamemode { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Hostname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L37)
+### **Hostname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L37)
 
 ```csharp
 string Hostname { get; set; }
@@ -40,7 +40,7 @@ string Hostname { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**IsBackgroundMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L19)
+### **IsBackgroundMap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L19)
 
 ```csharp
 bool IsBackgroundMap { get; set; }
@@ -50,7 +50,7 @@ bool IsBackgroundMap { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsHeadless** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L22)
+### **IsHeadless** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L22)
 
 ```csharp
 bool IsHeadless { get; set; }
@@ -60,7 +60,7 @@ bool IsHeadless { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsLoadsavegame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L16)
+### **IsLoadsavegame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L16)
 
 ```csharp
 bool IsLoadsavegame { get; set; }
@@ -70,7 +70,7 @@ bool IsLoadsavegame { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsLocalonly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L55)
+### **IsLocalonly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L55)
 
 ```csharp
 bool IsLocalonly { get; set; }
@@ -80,7 +80,7 @@ bool IsLocalonly { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsMultiplayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L13)
+### **IsMultiplayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L13)
 
 ```csharp
 bool IsMultiplayer { get; set; }
@@ -90,7 +90,7 @@ bool IsMultiplayer { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**IsTransition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L61)
+### **IsTransition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L61)
 
 ```csharp
 bool IsTransition { get; set; }
@@ -100,7 +100,7 @@ bool IsTransition { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Landmarkname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L67)
+### **Landmarkname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L67)
 
 ```csharp
 string Landmarkname { get; set; }
@@ -110,7 +110,7 @@ string Landmarkname { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MaxClientLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L28)
+### **MaxClientLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L28)
 
 ```csharp
 uint MaxClientLimit { get; set; }
@@ -120,7 +120,7 @@ uint MaxClientLimit { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**MaxClients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L31)
+### **MaxClients** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L31)
 
 ```csharp
 uint MaxClients { get; set; }
@@ -130,7 +130,7 @@ uint MaxClients { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**MinClientLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L25)
+### **MinClientLimit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L25)
 
 ```csharp
 uint MinClientLimit { get; set; }
@@ -140,7 +140,7 @@ uint MinClientLimit { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**NoSteamServer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L58)
+### **NoSteamServer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L58)
 
 ```csharp
 bool NoSteamServer { get; set; }
@@ -150,7 +150,7 @@ bool NoSteamServer { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Previouslevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L64)
+### **Previouslevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L64)
 
 ```csharp
 string Previouslevel { get; set; }
@@ -160,7 +160,7 @@ string Previouslevel { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**S1Mapname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L43)
+### **S1Mapname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L43)
 
 ```csharp
 string S1Mapname { get; set; }
@@ -170,7 +170,7 @@ string S1Mapname { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**Savegamename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L40)
+### **Savegamename** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L40)
 
 ```csharp
 string Savegamename { get; set; }
@@ -180,7 +180,7 @@ string Savegamename { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**ServerIpAddress** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L49)
+### **ServerIpAddress** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L49)
 
 ```csharp
 string ServerIpAddress { get; set; }
@@ -190,7 +190,7 @@ string ServerIpAddress { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**TickInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L34)
+### **TickInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameSessionConfiguration.cs#L34)
 
 ```csharp
 uint TickInterval { get; set; }

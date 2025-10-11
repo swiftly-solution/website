@@ -10,7 +10,7 @@ public interface CChangeLevel : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBa
 
 ## Properties
 
-**LandmarkName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L18)
+### **LandmarkName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L18)
 
 ```csharp
 string LandmarkName { get; set; }
@@ -20,7 +20,7 @@ string LandmarkName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**MapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L16)
+### **MapName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L16)
 
 ```csharp
 string MapName { get; set; }
@@ -30,7 +30,7 @@ string MapName { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**NewChapter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L26)
+### **NewChapter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L26)
 
 ```csharp
 ref bool NewChapter { get; }
@@ -40,7 +40,7 @@ ref bool NewChapter { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**NoTouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L24)
+### **NoTouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L24)
 
 ```csharp
 ref bool NoTouch { get; }
@@ -50,7 +50,7 @@ ref bool NoTouch { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**OnChangeLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L20)
+### **OnChangeLevel** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L20)
 
 ```csharp
 CEntityIOOutput OnChangeLevel { get; }
@@ -60,7 +60,7 @@ CEntityIOOutput OnChangeLevel { get; }
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-**OnChangeLevelFired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L28)
+### **OnChangeLevelFired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L28)
 
 ```csharp
 ref bool OnChangeLevelFired { get; }
@@ -70,7 +70,7 @@ ref bool OnChangeLevelFired { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Touched** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L22)
+### **Touched** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CChangeLevel.cs#L22)
 
 ```csharp
 ref bool Touched { get; }

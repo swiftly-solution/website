@@ -10,7 +10,7 @@ public interface CDemoAnimationData : ITypedProtobuf<CDemoAnimationData>, INativ
 
 ## Properties
 
-**Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoAnimationData.cs#L22)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoAnimationData.cs#L22)
 
 ```csharp
 byte[] Data { get; set; }
@@ -20,7 +20,7 @@ byte[] Data { get; set; }
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-**DataChecksum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoAnimationData.cs#L25)
+### **DataChecksum** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoAnimationData.cs#L25)
 
 ```csharp
 long DataChecksum { get; set; }
@@ -30,7 +30,7 @@ long DataChecksum { get; set; }
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-**EndTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoAnimationData.cs#L19)
+### **EndTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoAnimationData.cs#L19)
 
 ```csharp
 int EndTick { get; set; }
@@ -40,7 +40,7 @@ int EndTick { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EntityId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoAnimationData.cs#L13)
+### **EntityId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoAnimationData.cs#L13)
 
 ```csharp
 int EntityId { get; set; }
@@ -50,7 +50,7 @@ int EntityId { get; set; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoAnimationData.cs#L16)
+### **StartTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoAnimationData.cs#L16)
 
 ```csharp
 int StartTick { get; set; }

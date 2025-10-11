@@ -10,7 +10,7 @@ public interface CCSUsrMsg_SendPlayerItemDrops : ITypedProtobuf<CCSUsrMsg_SendPl
 
 ## Properties
 
-**EntityUpdates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerItemDrops.cs#L18)
+### **EntityUpdates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerItemDrops.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock> EntityUpdates { get; }

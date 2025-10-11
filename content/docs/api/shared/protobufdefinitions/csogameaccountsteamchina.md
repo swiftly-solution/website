@@ -10,7 +10,7 @@ public interface CSOGameAccountSteamChina : ITypedProtobuf<CSOGameAccountSteamCh
 
 ## Properties
 
-**TimeCommsBan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOGameAccountSteamChina.cs#L16)
+### **TimeCommsBan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOGameAccountSteamChina.cs#L16)
 
 ```csharp
 uint TimeCommsBan { get; set; }
@@ -20,7 +20,7 @@ uint TimeCommsBan { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TimeLastUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOGameAccountSteamChina.cs#L13)
+### **TimeLastUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOGameAccountSteamChina.cs#L13)
 
 ```csharp
 uint TimeLastUpdate { get; set; }
@@ -30,7 +30,7 @@ uint TimeLastUpdate { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**TimePlayBan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOGameAccountSteamChina.cs#L19)
+### **TimePlayBan** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOGameAccountSteamChina.cs#L19)
 
 ```csharp
 uint TimePlayBan { get; set; }

@@ -252,6 +252,7 @@ title: SchemaDefinitions
 - [CCSTeam](/docs/api/shared/schemadefinitions/ccsteam)
 - [CCSWeaponBase](/docs/api/shared/schemadefinitions/ccsweaponbase)
 - [CCSWeaponBaseGun](/docs/api/shared/schemadefinitions/ccsweaponbasegun)
+- [CCSWeaponBaseShotgun](/docs/api/shared/schemadefinitions/ccsweaponbaseshotgun)
 - [CCSWeaponBaseVData](/docs/api/shared/schemadefinitions/ccsweaponbasevdata)
 - [CCachedPose](/docs/api/shared/schemadefinitions/ccachedpose)
 - [CChangeLevel](/docs/api/shared/schemadefinitions/cchangelevel)

@@ -10,7 +10,7 @@ public interface CUserMsg_ParticleManager_DestroyParticleNamed : ITypedProtobuf<
 
 ## Properties
 
-**DestroyImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_DestroyParticleNamed.cs#L19)
+### **DestroyImmediately** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_DestroyParticleNamed.cs#L19)
 
 ```csharp
 bool DestroyImmediately { get; set; }
@@ -20,7 +20,7 @@ bool DestroyImmediately { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**EntityHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_DestroyParticleNamed.cs#L16)
+### **EntityHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_DestroyParticleNamed.cs#L16)
 
 ```csharp
 uint EntityHandle { get; set; }
@@ -30,7 +30,7 @@ uint EntityHandle { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**ParticleNameIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_DestroyParticleNamed.cs#L13)
+### **ParticleNameIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_DestroyParticleNamed.cs#L13)
 
 ```csharp
 ulong ParticleNameIndex { get; set; }
@@ -40,7 +40,7 @@ ulong ParticleNameIndex { get; set; }
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-**PlayEndcap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_DestroyParticleNamed.cs#L22)
+### **PlayEndcap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_DestroyParticleNamed.cs#L22)
 
 ```csharp
 bool PlayEndcap { get; set; }

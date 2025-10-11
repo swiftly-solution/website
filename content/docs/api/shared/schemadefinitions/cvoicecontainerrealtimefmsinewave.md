@@ -10,7 +10,7 @@ public interface CVoiceContainerRealtimeFMSineWave : CVoiceContainerBase, ISchem
 
 ## Properties
 
-**CarrierFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRealtimeFMSineWave.cs#L16)
+### **CarrierFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRealtimeFMSineWave.cs#L16)
 
 ```csharp
 ref float CarrierFrequency { get; }
@@ -20,7 +20,7 @@ ref float CarrierFrequency { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ModulatorAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRealtimeFMSineWave.cs#L20)
+### **ModulatorAmount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRealtimeFMSineWave.cs#L20)
 
 ```csharp
 ref float ModulatorAmount { get; }
@@ -30,7 +30,7 @@ ref float ModulatorAmount { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**ModulatorFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRealtimeFMSineWave.cs#L18)
+### **ModulatorFrequency** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerRealtimeFMSineWave.cs#L18)
 
 ```csharp
 ref float ModulatorFrequency { get; }

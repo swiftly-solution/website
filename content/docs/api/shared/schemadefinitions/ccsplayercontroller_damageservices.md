@@ -10,7 +10,7 @@ public interface CCSPlayerController_DamageServices : CPlayerControllerComponent
 
 ## Properties
 
-**DamageList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_DamageServices.cs#L19)
+### **DamageList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_DamageServices.cs#L19)
 
 ```csharp
 ref CUtlVector DamageList { get; }
@@ -18,9 +18,9 @@ ref CUtlVector DamageList { get; }
 
 #### Property Value
 
-- [CUtlVector](/docs/api/shared/natives/cutlvector)
+- [CUtlVector](/docs/api/)
 
-**SendUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_DamageServices.cs#L16)
+### **SendUpdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_DamageServices.cs#L16)
 
 ```csharp
 ref int SendUpdate { get; }
@@ -32,13 +32,13 @@ ref int SendUpdate { get; }
 
 ## Methods
 
-**DamageListUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_DamageServices.cs#L22)
+### **DamageListUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_DamageServices.cs#L22)
 
 ```csharp
 void DamageListUpdated()
 ```
 
-**SendUpdateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_DamageServices.cs#L21)
+### **SendUpdateUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayerController_DamageServices.cs#L21)
 
 ```csharp
 void SendUpdateUpdated()

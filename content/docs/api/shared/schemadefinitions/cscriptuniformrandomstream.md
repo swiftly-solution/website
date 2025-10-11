@@ -10,7 +10,7 @@ public interface CScriptUniformRandomStream : ISchemaClass<CScriptUniformRandomS
 
 ## Properties
 
-**InitialSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptUniformRandomStream.cs#L19)
+### **InitialSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptUniformRandomStream.cs#L19)
 
 ```csharp
 ref int InitialSeed { get; }
@@ -20,7 +20,7 @@ ref int InitialSeed { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**ScriptScope** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptUniformRandomStream.cs#L17)
+### **ScriptScope** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptUniformRandomStream.cs#L17)
 
 ```csharp
 SchemaUntypedField ScriptScope { get; }

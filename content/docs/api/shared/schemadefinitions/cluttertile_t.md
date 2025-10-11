@@ -10,7 +10,7 @@ public interface ClutterTile_t : ISchemaClass<ClutterTile_t>, ISchemaField, ISch
 
 ## Properties
 
-**BoundsWs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterTile_t.cs#L20)
+### **BoundsWs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterTile_t.cs#L20)
 
 ```csharp
 AABB_t BoundsWs { get; }
@@ -20,7 +20,7 @@ AABB_t BoundsWs { get; }
 
 - [AABB_t](/docs/api/shared/schemadefinitions/aabb_t)
 
-**FirstInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterTile_t.cs#L16)
+### **FirstInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterTile_t.cs#L16)
 
 ```csharp
 ref uint FirstInstance { get; }
@@ -30,7 +30,7 @@ ref uint FirstInstance { get; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-**LastInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterTile_t.cs#L18)
+### **LastInstance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ClutterTile_t.cs#L18)
 
 ```csharp
 ref uint LastInstance { get; }

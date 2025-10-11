@@ -10,7 +10,7 @@ public interface C_OP_ScreenSpaceDistanceToEdge : CParticleFunctionOperator, CPa
 
 ## Properties
 
-**FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceDistanceToEdge.cs#L16)
+### **FieldOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceDistanceToEdge.cs#L16)
 
 ```csharp
 ParticleAttributeIndex_t FieldOutput { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**MaxDistFromEdge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceDistanceToEdge.cs#L18)
+### **MaxDistFromEdge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceDistanceToEdge.cs#L18)
 
 ```csharp
 CPerParticleFloatInput MaxDistFromEdge { get; }
@@ -30,7 +30,7 @@ CPerParticleFloatInput MaxDistFromEdge { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**OutputRemap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceDistanceToEdge.cs#L20)
+### **OutputRemap** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceDistanceToEdge.cs#L20)
 
 ```csharp
 CParticleRemapFloatInput OutputRemap { get; }
@@ -40,7 +40,7 @@ CParticleRemapFloatInput OutputRemap { get; }
 
 - [CParticleRemapFloatInput](/docs/api/shared/schemadefinitions/cparticleremapfloatinput)
 
-**SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceDistanceToEdge.cs#L22)
+### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ScreenSpaceDistanceToEdge.cs#L22)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }

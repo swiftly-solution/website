@@ -10,7 +10,7 @@ public interface C_OP_SetFromCPSnapshot : CParticleFunctionOperator, CParticleFu
 
 ## Properties
 
-**AttributeToRead** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L20)
+### **AttributeToRead** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L20)
 
 ```csharp
 ParticleAttributeIndex_t AttributeToRead { get; }
@@ -20,7 +20,7 @@ ParticleAttributeIndex_t AttributeToRead { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**AttributeToWrite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L22)
+### **AttributeToWrite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L22)
 
 ```csharp
 ParticleAttributeIndex_t AttributeToWrite { get; }
@@ -30,7 +30,7 @@ ParticleAttributeIndex_t AttributeToWrite { get; }
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-**ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L16)
+### **ControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L16)
 
 ```csharp
 ref int ControlPointNumber { get; }
@@ -40,7 +40,7 @@ ref int ControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L36)
+### **Interpolation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L36)
 
 ```csharp
 CPerParticleFloatInput Interpolation { get; }
@@ -50,7 +50,7 @@ CPerParticleFloatInput Interpolation { get; }
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-**LocalSpaceCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L24)
+### **LocalSpaceCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L24)
 
 ```csharp
 ref int LocalSpaceCP { get; }
@@ -60,7 +60,7 @@ ref int LocalSpaceCP { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Prev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L40)
+### **Prev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L40)
 
 ```csharp
 ref bool Prev { get; }
@@ -70,7 +70,7 @@ ref bool Prev { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**Random** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L26)
+### **Random** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L26)
 
 ```csharp
 ref bool Random { get; }
@@ -80,7 +80,7 @@ ref bool Random { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**RandomSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L30)
+### **RandomSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L30)
 
 ```csharp
 ref int RandomSeed { get; }
@@ -90,7 +90,7 @@ ref int RandomSeed { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**Reverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L28)
+### **Reverse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L28)
 
 ```csharp
 ref bool Reverse { get; }
@@ -100,7 +100,7 @@ ref bool Reverse { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-**SnapShotIncrement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L34)
+### **SnapShotIncrement** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L34)
 
 ```csharp
 CParticleCollectionFloatInput SnapShotIncrement { get; }
@@ -110,7 +110,7 @@ CParticleCollectionFloatInput SnapShotIncrement { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**SnapShotStartPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L32)
+### **SnapShotStartPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L32)
 
 ```csharp
 CParticleCollectionFloatInput SnapShotStartPoint { get; }
@@ -120,7 +120,7 @@ CParticleCollectionFloatInput SnapShotStartPoint { get; }
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-**StrSnapshotSubset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L18)
+### **StrSnapshotSubset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L18)
 
 ```csharp
 string StrSnapshotSubset { get; set; }
@@ -130,7 +130,7 @@ string StrSnapshotSubset { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-**SubSample** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L38)
+### **SubSample** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_SetFromCPSnapshot.cs#L38)
 
 ```csharp
 ref bool SubSample { get; }

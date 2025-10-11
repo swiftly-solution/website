@@ -10,7 +10,7 @@ public interface CPathParameters : ISchemaClass<CPathParameters>, ISchemaField, 
 
 ## Properties
 
-**Bulge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L22)
+### **Bulge** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L22)
 
 ```csharp
 ref float Bulge { get; }
@@ -20,7 +20,7 @@ ref float Bulge { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**BulgeControl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L20)
+### **BulgeControl** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L20)
 
 ```csharp
 ref int BulgeControl { get; }
@@ -30,7 +30,7 @@ ref int BulgeControl { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EndControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L18)
+### **EndControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L18)
 
 ```csharp
 ref int EndControlPointNumber { get; }
@@ -40,7 +40,7 @@ ref int EndControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**EndOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L30)
+### **EndOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L30)
 
 ```csharp
 ref Vector EndOffset { get; }
@@ -50,7 +50,7 @@ ref Vector EndOffset { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**MidPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L24)
+### **MidPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L24)
 
 ```csharp
 ref float MidPoint { get; }
@@ -60,7 +60,7 @@ ref float MidPoint { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-**MidPointOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L28)
+### **MidPointOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L28)
 
 ```csharp
 ref Vector MidPointOffset { get; }
@@ -70,7 +70,7 @@ ref Vector MidPointOffset { get; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
-**StartControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L16)
+### **StartControlPointNumber** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L16)
 
 ```csharp
 ref int StartControlPointNumber { get; }
@@ -80,7 +80,7 @@ ref int StartControlPointNumber { get; }
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-**StartPointOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L26)
+### **StartPointOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPathParameters.cs#L26)
 
 ```csharp
 ref Vector StartPointOffset { get; }

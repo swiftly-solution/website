@@ -10,7 +10,7 @@ public interface CCSPlace : CServerOnlyModelEntity, CBaseModelEntity, CBaseEntit
 
 ## Properties
 
-**Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlace.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlace.cs#L16)
 
 ```csharp
 string Name { get; set; }

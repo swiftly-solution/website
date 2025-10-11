@@ -10,7 +10,7 @@ public interface FeNodeBase_t : ISchemaClass<FeNodeBase_t>, ISchemaField, ISchem
 
 ## Properties
 
-**Adjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L29)
+### **Adjust** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L29)
 
 ```csharp
 SchemaUntypedField Adjust { get; }
@@ -20,7 +20,7 @@ SchemaUntypedField Adjust { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-**Dummy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L18)
+### **Dummy** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L18)
 
 ```csharp
 ISchemaFixedArray<ushort> Dummy { get; }
@@ -30,7 +30,7 @@ ISchemaFixedArray<ushort> Dummy { get; }
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
-**Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L16)
+### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L16)
 
 ```csharp
 ref ushort Node { get; }
@@ -40,7 +40,7 @@ ref ushort Node { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**NodeX0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L20)
+### **NodeX0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L20)
 
 ```csharp
 ref ushort NodeX0 { get; }
@@ -50,7 +50,7 @@ ref ushort NodeX0 { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**NodeX1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L22)
+### **NodeX1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L22)
 
 ```csharp
 ref ushort NodeX1 { get; }
@@ -60,7 +60,7 @@ ref ushort NodeX1 { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**NodeY0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L24)
+### **NodeY0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L24)
 
 ```csharp
 ref ushort NodeY0 { get; }
@@ -70,7 +70,7 @@ ref ushort NodeY0 { get; }
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-**NodeY1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L26)
+### **NodeY1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeNodeBase_t.cs#L26)
 
 ```csharp
 ref ushort NodeY1 { get; }
