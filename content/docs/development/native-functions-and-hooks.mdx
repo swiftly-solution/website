@@ -89,7 +89,6 @@ If you want to cancel the call, you can just not call the original function.
   All hooks will be automatically destroyed when the plugin is unloaded.
 </Callout>
 
-
 ### Unhooking the function
 
 You can unhook the function by using `func.RemoveHook` method.
@@ -100,10 +99,82 @@ func.RemoveHook(guid);
 
 This example removes the hook from the function.
 
+### Hook an address
+
+First, get an unmanaged memory object for the address you want to hook:
+
+```csharp
+var memobj = core.Memory.GetUnmanagedMemoryByAddress(core.GameData.GetSignature("CBaseEntity::DispatchSpawn"));
+```
+
+Then add a mid-hook callback. The callback receives a `MidHookContext` structure that provides access to all CPU registers:
+
+```csharp
+var hookId = memobj.AddHook((ref MidHookContext ctx) =>
+{
+    // Read register values
+    Console.WriteLine($"MidHooked DispatchSpawn, RBX: {ctx.RBX}");
+
+    // You can also modify registers
+    ctx.RAX = 0x1337;
+});
+```
+
+The `MidHookContext` structure provides access to:
+- **General Purpose Registers**: RAX, RBX, RCX, RDX, RSI, RDI, RBP, RSP, R8-R15
+- **XMM Registers**: XMM0-XMM15 (SIMD registers for floating-point and vector operations)
+- **Special Registers**: RFLAGS, RIP, TRAMPOLINE_RSP
+
+You can add multiple hooks to the same address. They will execute in the order they were added:
+
+```csharp
+var memobj = core.Memory.GetUnmanagedMemoryByAddress(core.GameData.GetSignature("CBaseEntity::DispatchSpawn"));
+
+memobj.AddHook((ref MidHookContext ctx) =>
+{
+    Console.WriteLine($"MidHooked DispatchSpawn, RBX: {ctx.RBX}");
+});
+
+memobj.AddHook((ref MidHookContext ctx) =>
+{
+    Console.WriteLine($"MidHooked2 DispatchSpawn, RBX: {ctx.RBX}");
+});
+
+memobj.AddHook((ref MidHookContext ctx) =>
+{
+    Console.WriteLine($"MidHooked3 DispatchSpawn, RBX: {ctx.RBX}");
+});
+```
+
+<Callout type="warning">
+  Mid-hooks are powerful but potentially dangerous. Modifying registers incorrectly can crash the game. Always test thoroughly and understand the assembly code at the hook location.
+</Callout>
+
+### Unhook an address
+
+To remove a mid-hook, use the `RemoveHook` method with the hook's GUID that was returned when you added it:
+
+```csharp
+// Add a hook and store its ID
+var hookId = memobj.AddHook((ref MidHookContext ctx) =>
+{
+    Console.WriteLine($"This hook will be removed later");
+});
+
+// Later, remove the hook
+memobj.RemoveHook(hookId);
+```
+
+<Callout type="info">
+  All hooks will be automatically destroyed when the plugin is unloaded.
+</Callout>
+
 ## Reference
 
 See [IMemoryService](/docs/api/shared/memory/imemoryservice/).
 
 See [IUnmanagedFunction](/docs/api/shared/memory/iunmanagedfunctiont/).
+
+See [IUnmanagedMemory](/docs/api/shared/memory/iunmanagedmemory/).
 
 See [Library](/docs/api/shared/memory/library/).
