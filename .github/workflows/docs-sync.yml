@@ -24,6 +24,7 @@ jobs:
         with:
           repository: swiftly-solution/swiftlys2
           path: swiftlys2
+          ref: master
 
       - name: Setup .NET 8.x
         uses: actions/setup-dotnet@v4
