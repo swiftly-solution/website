@@ -6,47 +6,55 @@ title: CSingleFrameUpdateNode
 public interface CSingleFrameUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CLeafUpdateNode>, ISchemaClass<CSingleFrameUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Actions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L17)
+### Actions
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L17)
 
 ```csharp
 ref CUtlVector Actions { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/)
 
-### **Cycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L23)
+### Cycle
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L23)
 
 ```csharp
 ref float Cycle { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **PoseCacheHandle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L19)
+### PoseCacheHandle
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L19)
 
 ```csharp
 CPoseHandle PoseCacheHandle { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CPoseHandle](/docs/api/shared/schemadefinitions/cposehandle)
 
-### **Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L21)
+### Sequence
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSingleFrameUpdateNode.cs#L21)
 
 ```csharp
 HSequence Sequence { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 

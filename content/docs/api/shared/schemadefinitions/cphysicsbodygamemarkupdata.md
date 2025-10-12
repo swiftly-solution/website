@@ -6,17 +6,19 @@ title: CPhysicsBodyGameMarkupData
 public interface CPhysicsBodyGameMarkupData : ISchemaClass<CPhysicsBodyGameMarkupData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **PhysicsBodyMarkupByBoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsBodyGameMarkupData.cs#L17)
+### PhysicsBodyMarkupByBoneName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsBodyGameMarkupData.cs#L17)
 
 ```csharp
 SchemaUntypedField PhysicsBodyMarkupByBoneName { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

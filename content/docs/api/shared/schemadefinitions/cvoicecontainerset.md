@@ -6,17 +6,19 @@ title: CVoiceContainerSet
 public interface CVoiceContainerSet : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerSet>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **SoundsToPlay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSet.cs#L17)
+### SoundsToPlay
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSet.cs#L17)
 
 ```csharp
 ref CUtlVector SoundsToPlay { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/)
 

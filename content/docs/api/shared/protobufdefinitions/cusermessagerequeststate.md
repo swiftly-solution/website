@@ -6,5 +6,5 @@ title: CUserMessageRequestState
 public interface CUserMessageRequestState : ITypedProtobuf<CUserMessageRequestState>, INativeHandle, INetMessage<CUserMessageRequestState>, IDisposable
 ```
 
-- Implements
+#### Implements
 

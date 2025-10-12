@@ -6,17 +6,19 @@ title: CPulseCell_Base
 public interface CPulseCell_Base : ISchemaClass<CPulseCell_Base>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **EditorNodeID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Base.cs#L16)
+### EditorNodeID
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Base.cs#L16)
 
 ```csharp
 PulseDocNodeID_t EditorNodeID { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 

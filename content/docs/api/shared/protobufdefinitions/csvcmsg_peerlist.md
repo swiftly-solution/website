@@ -6,17 +6,19 @@ title: CSVCMsg_PeerList
 public interface CSVCMsg_PeerList : ITypedProtobuf<CSVCMsg_PeerList>, INativeHandle, INetMessage<CSVCMsg_PeerList>, IDisposable
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Peer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PeerList.cs#L18)
+### Peer
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_PeerList.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgServerPeer> Peer { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgServerPeer](/docs/api/shared/protobufdefinitions/cmsgserverpeer)>
 

@@ -6,17 +6,19 @@ title: RnSoftbodyParticle_t
 public interface RnSoftbodyParticle_t : ISchemaClass<RnSoftbodyParticle_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **MassInv** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodyParticle_t.cs#L16)
+### MassInv
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnSoftbodyParticle_t.cs#L16)
 
 ```csharp
 ref float MassInv { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

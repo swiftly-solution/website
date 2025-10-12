@@ -6,5 +6,5 @@ title: InfoForResourceTypeCResourceManifestInternal
 public interface InfoForResourceTypeCResourceManifestInternal : ISchemaClass<InfoForResourceTypeCResourceManifestInternal>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

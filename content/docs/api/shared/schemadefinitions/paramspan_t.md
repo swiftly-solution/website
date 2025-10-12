@@ -6,57 +6,67 @@ title: ParamSpan_t
 public interface ParamSpan_t : ISchemaClass<ParamSpan_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **EndCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L25)
+### EndCycle
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L25)
 
 ```csharp
 ref float EndCycle { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L19)
+### Param
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L19)
 
 ```csharp
 CAnimParamHandle Param { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-### **ParamType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L21)
+### ParamType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L21)
 
 ```csharp
 ref AnimParamType_t ParamType { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [AnimParamType_t](/docs/api/shared/schemadefinitions/animparamtype_t)
 
-### **Samples** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L17)
+### Samples
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L17)
 
 ```csharp
 ref CUtlVector Samples { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/)
 
-### **StartCycle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L23)
+### StartCycle
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ParamSpan_t.cs#L23)
 
 ```csharp
 ref float StartCycle { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

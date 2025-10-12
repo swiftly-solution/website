@@ -6,37 +6,43 @@ title: CMsgApplyStatTrakSwap
 public interface CMsgApplyStatTrakSwap : ITypedProtobuf<CMsgApplyStatTrakSwap>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Item1ItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyStatTrakSwap.cs#L16)
+### Item1ItemId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyStatTrakSwap.cs#L16)
 
 ```csharp
 ulong Item1ItemId { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### **Item2ItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyStatTrakSwap.cs#L19)
+### Item2ItemId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyStatTrakSwap.cs#L19)
 
 ```csharp
 ulong Item2ItemId { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### **ToolItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyStatTrakSwap.cs#L13)
+### ToolItemId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgApplyStatTrakSwap.cs#L13)
 
 ```csharp
 ulong ToolItemId { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

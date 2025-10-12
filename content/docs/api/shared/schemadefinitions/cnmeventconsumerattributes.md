@@ -6,5 +6,5 @@ title: CNmEventConsumerAttributes
 public interface CNmEventConsumerAttributes : CNmEventConsumer, ISchemaClass<CNmEventConsumer>, ISchemaClass<CNmEventConsumerAttributes>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

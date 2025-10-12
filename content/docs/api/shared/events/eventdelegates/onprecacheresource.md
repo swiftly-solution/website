@@ -6,7 +6,7 @@ title: EventDelegates.OnPrecacheResource
 public delegate void EventDelegates.OnPrecacheResource(IOnPrecacheResourceEvent @event)
 ```
 
-- Parameters
+#### Parameters
 
 - **event**: [IOnPrecacheResourceEvent](/docs/api/shared/events/ionprecacheresourceevent)
 

@@ -6,5 +6,5 @@ title: EventLocalPlayerTeam
 public interface EventLocalPlayerTeam : IGameEvent<EventLocalPlayerTeam>
 ```
 
-- Implements
+#### Implements
 

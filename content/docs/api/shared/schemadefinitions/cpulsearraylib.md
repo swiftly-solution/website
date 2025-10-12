@@ -6,5 +6,5 @@ title: CPulseArraylib
 public interface CPulseArraylib : ISchemaClass<CPulseArraylib>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

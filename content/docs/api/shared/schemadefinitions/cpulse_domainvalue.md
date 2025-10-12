@@ -6,37 +6,43 @@ title: CPulse_DomainValue
 public interface CPulse_DomainValue : ISchemaClass<CPulse_DomainValue>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **RequiredRuntimeType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L21)
+### RequiredRuntimeType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L21)
 
 ```csharp
 SchemaUntypedField RequiredRuntimeType { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L16)
+### Type
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L16)
 
 ```csharp
 ref PulseDomainValueType_t Type { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [PulseDomainValueType_t](/docs/api/shared/schemadefinitions/pulsedomainvaluetype_t)
 
-### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L18)
+### Value
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_DomainValue.cs#L18)
 
 ```csharp
 ref CGlobalSymbol Value { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

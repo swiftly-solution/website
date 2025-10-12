@@ -6,5 +6,5 @@ title: CBasePulseGraphInstance
 public interface CBasePulseGraphInstance : ISchemaClass<CBasePulseGraphInstance>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

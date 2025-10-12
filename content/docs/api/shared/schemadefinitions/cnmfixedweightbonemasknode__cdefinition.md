@@ -6,17 +6,19 @@ title: CNmFixedWeightBoneMaskNode__CDefinition
 public interface CNmFixedWeightBoneMaskNode__CDefinition : CNmBoneMaskValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmBoneMaskValueNode__CDefinition>, ISchemaClass<CNmFixedWeightBoneMaskNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **BoneWeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFixedWeightBoneMaskNode__CDefinition.cs#L16)
+### BoneWeight
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFixedWeightBoneMaskNode__CDefinition.cs#L16)
 
 ```csharp
 ref float BoneWeight { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

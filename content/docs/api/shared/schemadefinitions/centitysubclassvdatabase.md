@@ -6,5 +6,5 @@ title: CEntitySubclassVDataBase
 public interface CEntitySubclassVDataBase : ISchemaClass<CEntitySubclassVDataBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

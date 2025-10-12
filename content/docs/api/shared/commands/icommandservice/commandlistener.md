@@ -6,7 +6,7 @@ title: ICommandService.CommandListener
 public delegate void ICommandService.CommandListener(ICommandContext context)
 ```
 
-- Parameters
+#### Parameters
 
 - **context**: [ICommandContext](/docs/api/shared/commands/icommandcontext) - The command context.
 

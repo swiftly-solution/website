@@ -6,39 +6,45 @@ title: CNetworkVarChainer
 public struct CNetworkVarChainer
 ```
 
-- Inherited Members
+#### Inherited Members
 
 ## Fields
 
-### **PathIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L18)
+### PathIndex
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L18)
 
 ```csharp
 public ChangeAccessorFieldPathIndex_t PathIndex
 ```
 
-- Field Value
+#### Field Value
 
 - [ChangeAccessorFieldPathIndex_t](/docs/api/shared/natives/changeaccessorfieldpathindex_t)
 
-### **pEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L16)
+### pEntity
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L16)
 
 ```csharp
 public void* pEntity
 ```
 
-- Field Value
+#### Field Value
 
 - [void](https://learn.microsoft.com/dotnet/api/system.void)*
 
 ## Properties
 
-### **Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L21)
+### Entity
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CNetworkVarChainer.cs#L21)
 
 ```csharp
 public readonly CEntityInstance Entity { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
 

@@ -6,17 +6,19 @@ title: EventAppShutdown_t
 public interface EventAppShutdown_t : ISchemaClass<EventAppShutdown_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Dummy0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventAppShutdown_t.cs#L16)
+### Dummy0
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventAppShutdown_t.cs#L16)
 
 ```csharp
 ref int Dummy0 { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

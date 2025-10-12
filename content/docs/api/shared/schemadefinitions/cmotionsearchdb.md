@@ -6,37 +6,43 @@ title: CMotionSearchDB
 public interface CMotionSearchDB : ISchemaClass<CMotionSearchDB>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **CodeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchDB.cs#L21)
+### CodeIndices
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchDB.cs#L21)
 
 ```csharp
 ref CUtlVector CodeIndices { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/)
 
-### **ResidualQuantizer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchDB.cs#L18)
+### ResidualQuantizer
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchDB.cs#L18)
 
 ```csharp
 CProductQuantizer ResidualQuantizer { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CProductQuantizer](/docs/api/shared/schemadefinitions/cproductquantizer)
 
-### **RootNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchDB.cs#L16)
+### RootNode
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionSearchDB.cs#L16)
 
 ```csharp
 CMotionSearchNode RootNode { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CMotionSearchNode](/docs/api/shared/schemadefinitions/cmotionsearchnode)
 

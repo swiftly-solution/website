@@ -6,5 +6,5 @@ title: EventSplitScreenStateChanged_t
 public interface EventSplitScreenStateChanged_t : ISchemaClass<EventSplitScreenStateChanged_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

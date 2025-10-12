@@ -6,27 +6,31 @@ title: C2S_CONNECT_SameProcessCheck
 public interface C2S_CONNECT_SameProcessCheck : ITypedProtobuf<C2S_CONNECT_SameProcessCheck>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Key** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/C2S_CONNECT_SameProcessCheck.cs#L16)
+### Key
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/C2S_CONNECT_SameProcessCheck.cs#L16)
 
 ```csharp
 ulong Key { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### **LocalhostProcessId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/C2S_CONNECT_SameProcessCheck.cs#L13)
+### LocalhostProcessId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/C2S_CONNECT_SameProcessCheck.cs#L13)
 
 ```csharp
 ulong LocalhostProcessId { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

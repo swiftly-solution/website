@@ -6,17 +6,19 @@ title: CDemoClassInfo
 public interface CDemoClassInfo : ITypedProtobuf<CDemoClassInfo>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Classes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoClassInfo.cs#L13)
+### Classes
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoClassInfo.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CDemoClassInfo_class_t> Classes { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDemoClassInfo_class_t](/docs/api/shared/protobufdefinitions/cdemoclassinfo_class_t)>
 

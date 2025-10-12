@@ -6,17 +6,19 @@ title: RnHullDesc_t
 public interface RnHullDesc_t : RnShapeDesc_t, ISchemaClass<RnShapeDesc_t>, ISchemaClass<RnHullDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Hull** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHullDesc_t.cs#L16)
+### Hull
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/RnHullDesc_t.cs#L16)
 
 ```csharp
 RnHull_t Hull { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [RnHull_t](/docs/api/shared/schemadefinitions/rnhull_t)
 

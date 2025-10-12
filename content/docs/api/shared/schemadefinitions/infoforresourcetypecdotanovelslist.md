@@ -6,5 +6,5 @@ title: InfoForResourceTypeCDOTANovelsList
 public interface InfoForResourceTypeCDOTANovelsList : ISchemaClass<InfoForResourceTypeCDOTANovelsList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

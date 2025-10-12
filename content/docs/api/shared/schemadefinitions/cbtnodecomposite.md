@@ -6,5 +6,5 @@ title: CBtNodeComposite
 public interface CBtNodeComposite : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<CBtNodeComposite>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

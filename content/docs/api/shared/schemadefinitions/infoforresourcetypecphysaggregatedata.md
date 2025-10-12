@@ -6,5 +6,5 @@ title: InfoForResourceTypeCPhysAggregateData
 public interface InfoForResourceTypeCPhysAggregateData : ISchemaClass<InfoForResourceTypeCPhysAggregateData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

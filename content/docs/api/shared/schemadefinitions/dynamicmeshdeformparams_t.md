@@ -6,57 +6,67 @@ title: DynamicMeshDeformParams_t
 public interface DynamicMeshDeformParams_t : ISchemaClass<DynamicMeshDeformParams_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ComputeDynamicMeshTensionAfterAnimation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L22)
+### ComputeDynamicMeshTensionAfterAnimation
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L22)
 
 ```csharp
 ref bool ComputeDynamicMeshTensionAfterAnimation { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **RecomputeSmoothNormalsAfterAnimation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L20)
+### RecomputeSmoothNormalsAfterAnimation
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L20)
 
 ```csharp
 ref bool RecomputeSmoothNormalsAfterAnimation { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **SmoothNormalsAcrossUvSeams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L24)
+### SmoothNormalsAcrossUvSeams
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L24)
 
 ```csharp
 ref bool SmoothNormalsAcrossUvSeams { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **TensionCompressScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L16)
+### TensionCompressScale
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L16)
 
 ```csharp
 ref float TensionCompressScale { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **TensionStretchScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L18)
+### TensionStretchScale
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/DynamicMeshDeformParams_t.cs#L18)
 
 ```csharp
 ref float TensionStretchScale { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

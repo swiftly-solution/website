@@ -6,27 +6,31 @@ title: CDemoStringTables_items_t
 public interface CDemoStringTables_items_t : ITypedProtobuf<CDemoStringTables_items_t>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoStringTables_items_t.cs#L16)
+### Data
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoStringTables_items_t.cs#L16)
 
 ```csharp
 byte[] Data { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-### **Str** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoStringTables_items_t.cs#L13)
+### Str
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoStringTables_items_t.cs#L13)
 
 ```csharp
 string Str { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,27 +6,31 @@ title: CUIFontFilePB
 public interface CUIFontFilePB : ITypedProtobuf<CUIFontFilePB>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **FontFileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUIFontFilePB.cs#L13)
+### FontFileName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUIFontFilePB.cs#L13)
 
 ```csharp
 string FontFileName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **OpentypeFontData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUIFontFilePB.cs#L16)
+### OpentypeFontData
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUIFontFilePB.cs#L16)
 
 ```csharp
 byte[] OpentypeFontData { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

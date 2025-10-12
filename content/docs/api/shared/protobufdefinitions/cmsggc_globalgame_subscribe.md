@@ -6,17 +6,19 @@ title: CMsgGC_GlobalGame_Subscribe
 public interface CMsgGC_GlobalGame_Subscribe : ITypedProtobuf<CMsgGC_GlobalGame_Subscribe>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Ticket** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGC_GlobalGame_Subscribe.cs#L13)
+### Ticket
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGC_GlobalGame_Subscribe.cs#L13)
 
 ```csharp
 ulong Ticket { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

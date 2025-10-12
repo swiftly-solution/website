@@ -6,23 +6,27 @@ title: CCSPlayer_BuyServices
 public interface CCSPlayer_BuyServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CCSPlayer_BuyServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **SellbackPurchaseEntries** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_BuyServices.cs#L17)
+### SellbackPurchaseEntries
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_BuyServices.cs#L17)
 
 ```csharp
 ref CUtlVector SellbackPurchaseEntries { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/)
 
 ## Methods
 
-### **SellbackPurchaseEntriesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_BuyServices.cs#L19)
+### SellbackPurchaseEntriesUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_BuyServices.cs#L19)
 
 ```csharp
 void SellbackPurchaseEntriesUpdated()

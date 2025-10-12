@@ -6,17 +6,19 @@ title: AmmoIndex_t
 public interface AmmoIndex_t : ISchemaClass<AmmoIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoIndex_t.cs#L16)
+### Value
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/AmmoIndex_t.cs#L16)
 
 ```csharp
 ref byte Value { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

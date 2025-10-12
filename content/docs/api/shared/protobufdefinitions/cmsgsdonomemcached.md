@@ -6,5 +6,5 @@ title: CMsgSDONoMemcached
 public interface CMsgSDONoMemcached : ITypedProtobuf<CMsgSDONoMemcached>, INativeHandle
 ```
 
-- Implements
+#### Implements
 

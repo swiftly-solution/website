@@ -6,17 +6,19 @@ title: CMsgGCCStrike15_v2_ClientGCRankUpdate
 public interface CMsgGCCStrike15_v2_ClientGCRankUpdate : ITypedProtobuf<CMsgGCCStrike15_v2_ClientGCRankUpdate>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Rankings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientGCRankUpdate.cs#L13)
+### Rankings
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_ClientGCRankUpdate.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<PlayerRankingInfo> Rankings { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[PlayerRankingInfo](/docs/api/shared/protobufdefinitions/playerrankinginfo)>
 

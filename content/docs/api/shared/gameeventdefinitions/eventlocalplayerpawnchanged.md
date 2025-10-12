@@ -6,5 +6,5 @@ title: EventLocalPlayerPawnChanged
 public interface EventLocalPlayerPawnChanged : IGameEvent<EventLocalPlayerPawnChanged>
 ```
 
-- Implements
+#### Implements
 

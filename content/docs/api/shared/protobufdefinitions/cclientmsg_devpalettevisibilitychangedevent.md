@@ -6,17 +6,19 @@ title: CClientMsg_DevPaletteVisibilityChangedEvent
 public interface CClientMsg_DevPaletteVisibilityChangedEvent : ITypedProtobuf<CClientMsg_DevPaletteVisibilityChangedEvent>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Visible** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_DevPaletteVisibilityChangedEvent.cs#L13)
+### Visible
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_DevPaletteVisibilityChangedEvent.cs#L13)
 
 ```csharp
 bool Visible { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

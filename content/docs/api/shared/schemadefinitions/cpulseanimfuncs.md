@@ -6,5 +6,5 @@ title: CPulseAnimFuncs
 public interface CPulseAnimFuncs : ISchemaClass<CPulseAnimFuncs>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

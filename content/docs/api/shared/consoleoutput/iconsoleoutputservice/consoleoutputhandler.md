@@ -6,7 +6,7 @@ title: IConsoleOutputService.ConsoleOutputHandler
 public delegate void IConsoleOutputService.ConsoleOutputHandler(string message)
 ```
 
-- Parameters
+#### Parameters
 
 - **message**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The console message.
 

@@ -6,37 +6,43 @@ title: ResponseParams
 public interface ResponseParams : ISchemaClass<ResponseParams>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L18)
+### Flags
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L18)
 
 ```csharp
 ref short Flags { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **Followup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L20)
+### Followup
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L20)
 
 ```csharp
 ResponseFollowup? Followup { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ResponseFollowup](/docs/api/shared/schemadefinitions/responsefollowup)?
 
-### **Odds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L16)
+### Odds
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ResponseParams.cs#L16)
 
 ```csharp
 ref short Odds { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

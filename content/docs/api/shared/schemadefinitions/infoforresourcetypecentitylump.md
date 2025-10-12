@@ -6,5 +6,5 @@ title: InfoForResourceTypeCEntityLump
 public interface InfoForResourceTypeCEntityLump : ISchemaClass<InfoForResourceTypeCEntityLump>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

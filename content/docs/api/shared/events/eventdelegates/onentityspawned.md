@@ -6,7 +6,7 @@ title: EventDelegates.OnEntitySpawned
 public delegate void EventDelegates.OnEntitySpawned(IOnEntitySpawnedEvent @event)
 ```
 
-- Parameters
+#### Parameters
 
 - **event**: [IOnEntitySpawnedEvent](/docs/api/shared/events/ionentityspawnedevent)
 

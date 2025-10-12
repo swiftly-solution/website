@@ -7,13 +7,15 @@ title: ClientNetMessageHandler
 public class ClientNetMessageHandler : Attribute
 ```
 
-- Inheritance
+#### Inheritance
 
-- Inherited Members
+#### Inherited Members
 
 ## Constructors
 
-### **ClientNetMessageHandler()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/NetMessages/NetMessageHandlerAttribute.cs#L12)
+### ClientNetMessageHandler()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/NetMessages/NetMessageHandlerAttribute.cs#L12)
 
 ```csharp
 public ClientNetMessageHandler()

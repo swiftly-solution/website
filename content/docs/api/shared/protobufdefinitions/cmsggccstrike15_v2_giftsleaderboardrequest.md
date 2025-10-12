@@ -6,5 +6,5 @@ title: CMsgGCCStrike15_v2_GiftsLeaderboardRequest
 public interface CMsgGCCStrike15_v2_GiftsLeaderboardRequest : ITypedProtobuf<CMsgGCCStrike15_v2_GiftsLeaderboardRequest>, INativeHandle
 ```
 
-- Implements
+#### Implements
 

@@ -6,5 +6,5 @@ title: EventBuymenuOpen
 public interface EventBuymenuOpen : IGameEvent<EventBuymenuOpen>
 ```
 
-- Implements
+#### Implements
 

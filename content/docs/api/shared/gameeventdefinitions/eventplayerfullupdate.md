@@ -6,57 +6,67 @@ title: EventPlayerFullUpdate
 public interface EventPlayerFullUpdate : IGameEvent<EventPlayerFullUpdate>
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerFullUpdate.cs#L48)
+### Count
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerFullUpdate.cs#L48)
 
 ```csharp
 short Count { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerFullUpdate.cs#L41)
+### UserId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerFullUpdate.cs#L41)
 
 ```csharp
 int UserId { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerFullUpdate.cs#L23)
+### UserIdController
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerFullUpdate.cs#L23)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerFullUpdate.cs#L30)
+### UserIdPawn
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerFullUpdate.cs#L30)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerFullUpdate.cs#L34)
+### UserIdPlayer
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerFullUpdate.cs#L34)
 
 ```csharp
 IPlayer UserIdPlayer { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 

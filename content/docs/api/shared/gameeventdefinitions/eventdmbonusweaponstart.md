@@ -6,27 +6,31 @@ title: EventDmBonusWeaponStart
 public interface EventDmBonusWeaponStart : IGameEvent<EventDmBonusWeaponStart>
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventDmBonusWeaponStart.cs#L30)
+### Pos
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventDmBonusWeaponStart.cs#L30)
 
 ```csharp
 short Pos { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventDmBonusWeaponStart.cs#L23)
+### Time
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventDmBonusWeaponStart.cs#L23)
 
 ```csharp
 short Time { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

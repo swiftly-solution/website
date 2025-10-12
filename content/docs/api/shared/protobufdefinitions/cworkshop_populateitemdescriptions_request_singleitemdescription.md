@@ -6,37 +6,43 @@ title: CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription
 public interface CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription : ITypedProtobuf<CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Gameitemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L13)
+### Gameitemid
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L13)
 
 ```csharp
 uint Gameitemid { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### **ItemDescription** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L16)
+### ItemDescription
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L16)
 
 ```csharp
 string ItemDescription { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **OnePerAccount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L19)
+### OnePerAccount
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription.cs#L19)
 
 ```csharp
 bool OnePerAccount { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

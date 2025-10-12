@@ -6,17 +6,19 @@ title: CSVCMsg_UserCommands
 public interface CSVCMsg_UserCommands : ITypedProtobuf<CSVCMsg_UserCommands>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Commands** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_UserCommands.cs#L13)
+### Commands
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_UserCommands.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgServerUserCmd> Commands { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgServerUserCmd](/docs/api/shared/protobufdefinitions/cmsgserverusercmd)>
 

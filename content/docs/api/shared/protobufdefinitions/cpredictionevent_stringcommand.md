@@ -6,17 +6,19 @@ title: CPredictionEvent_StringCommand
 public interface CPredictionEvent_StringCommand : ITypedProtobuf<CPredictionEvent_StringCommand>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Command** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CPredictionEvent_StringCommand.cs#L13)
+### Command
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CPredictionEvent_StringCommand.cs#L13)
 
 ```csharp
 string Command { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,97 +6,115 @@ title: TextureGroup_t
 public interface TextureGroup_t : ISchemaClass<TextureGroup_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Enabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L16)
+### Enabled
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L16)
 
 ```csharp
 ref bool Enabled { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Gradient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L23)
+### Gradient
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L23)
 
 ```csharp
 SchemaUntypedField Gradient { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-### **ReplaceTextureWithGradient** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L18)
+### ReplaceTextureWithGradient
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L18)
 
 ```csharp
 ref bool ReplaceTextureWithGradient { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Texture** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L20)
+### Texture
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L20)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Texture { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-### **TextureBlend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L31)
+### TextureBlend
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L31)
 
 ```csharp
 CParticleCollectionRendererFloatInput TextureBlend { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
-### **TextureBlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L29)
+### TextureBlendMode
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L29)
 
 ```csharp
 ref ParticleTextureLayerBlendType_t TextureBlendMode { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ParticleTextureLayerBlendType_t](/docs/api/shared/schemadefinitions/particletexturelayerblendtype_t)
 
-### **TextureChannels** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L27)
+### TextureChannels
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L27)
 
 ```csharp
 ref SpriteCardTextureChannel_t TextureChannels { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SpriteCardTextureChannel_t](/docs/api/shared/schemadefinitions/spritecardtexturechannel_t)
 
-### **TextureControls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L33)
+### TextureControls
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L33)
 
 ```csharp
 TextureControls_t TextureControls { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [TextureControls_t](/docs/api/shared/schemadefinitions/texturecontrols_t)
 
-### **TextureType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L25)
+### TextureType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/TextureGroup_t.cs#L25)
 
 ```csharp
 ref SpriteCardTextureType_t TextureType { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SpriteCardTextureType_t](/docs/api/shared/schemadefinitions/spritecardtexturetype_t)
 

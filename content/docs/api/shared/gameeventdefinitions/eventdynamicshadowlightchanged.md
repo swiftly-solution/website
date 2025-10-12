@@ -6,5 +6,5 @@ title: EventDynamicShadowLightChanged
 public interface EventDynamicShadowLightChanged : IGameEvent<EventDynamicShadowLightChanged>
 ```
 
-- Implements
+#### Implements
 

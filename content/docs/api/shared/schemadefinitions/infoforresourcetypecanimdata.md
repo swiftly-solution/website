@@ -6,5 +6,5 @@ title: InfoForResourceTypeCAnimData
 public interface InfoForResourceTypeCAnimData : ISchemaClass<InfoForResourceTypeCAnimData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

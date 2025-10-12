@@ -6,5 +6,5 @@ title: IParticleEffect
 public interface IParticleEffect : ISchemaClass<IParticleEffect>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

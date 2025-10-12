@@ -6,17 +6,19 @@ title: CFuncWater
 public interface CFuncWater : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CFuncWater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **BuoyancyHelper** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncWater.cs#L16)
+### BuoyancyHelper
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncWater.cs#L16)
 
 ```csharp
 CBuoyancyHelper BuoyancyHelper { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CBuoyancyHelper](/docs/api/shared/schemadefinitions/cbuoyancyhelper)
 

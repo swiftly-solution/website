@@ -6,5 +6,5 @@ title: EventCsPreRestart
 public interface EventCsPreRestart : IGameEvent<EventCsPreRestart>
 ```
 
-- Implements
+#### Implements
 

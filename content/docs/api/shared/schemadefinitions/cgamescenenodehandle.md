@@ -6,39 +6,47 @@ title: CGameSceneNodeHandle
 public interface CGameSceneNodeHandle : ISchemaClass<CGameSceneNodeHandle>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L18)
+### Name
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L18)
 
 ```csharp
 ref CUtlStringToken Name { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
-### **Owner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L16)
+### Owner
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L16)
 
 ```csharp
 ref CHandle<CEntityInstance> Owner { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
 ## Methods
 
-### **NameUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L21)
+### NameUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L21)
 
 ```csharp
 void NameUpdated()
 ```
 
-### **OwnerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L20)
+### OwnerUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CGameSceneNodeHandle.cs#L20)
 
 ```csharp
 void OwnerUpdated()

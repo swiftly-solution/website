@@ -6,27 +6,31 @@ title: CGameServers_AggregationQuery_Request
 public interface CGameServers_AggregationQuery_Request : ITypedProtobuf<CGameServers_AggregationQuery_Request>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Filter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGameServers_AggregationQuery_Request.cs#L13)
+### Filter
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGameServers_AggregationQuery_Request.cs#L13)
 
 ```csharp
 string Filter { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **GroupFields** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGameServers_AggregationQuery_Request.cs#L16)
+### GroupFields
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CGameServers_AggregationQuery_Request.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<string> GroupFields { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 

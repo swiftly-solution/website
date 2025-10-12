@@ -6,5 +6,5 @@ title: EventGcConnected
 public interface EventGcConnected : IGameEvent<EventGcConnected>
 ```
 
-- Implements
+#### Implements
 

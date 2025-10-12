@@ -6,27 +6,31 @@ title: CMsgSOMultipleObjects_SingleObject
 public interface CMsgSOMultipleObjects_SingleObject : ITypedProtobuf<CMsgSOMultipleObjects_SingleObject>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ObjectData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOMultipleObjects_SingleObject.cs#L16)
+### ObjectData
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOMultipleObjects_SingleObject.cs#L16)
 
 ```csharp
 byte[] ObjectData { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-### **TypeId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOMultipleObjects_SingleObject.cs#L13)
+### TypeId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOMultipleObjects_SingleObject.cs#L13)
 
 ```csharp
 int TypeId { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

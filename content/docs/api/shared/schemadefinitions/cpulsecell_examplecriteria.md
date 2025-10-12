@@ -6,5 +6,5 @@ title: CPulseCell_ExampleCriteria
 public interface CPulseCell_ExampleCriteria : CPulseCell_BaseRequirement, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseRequirement>, ISchemaClass<CPulseCell_ExampleCriteria>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

@@ -6,17 +6,19 @@ title: CMsgClearEntityDecalsEvent
 public interface CMsgClearEntityDecalsEvent : ITypedProtobuf<CMsgClearEntityDecalsEvent>, INativeHandle, INetMessage<CMsgClearEntityDecalsEvent>, IDisposable
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Flagstoclear** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgClearEntityDecalsEvent.cs#L18)
+### Flagstoclear
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgClearEntityDecalsEvent.cs#L18)
 
 ```csharp
 uint Flagstoclear { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

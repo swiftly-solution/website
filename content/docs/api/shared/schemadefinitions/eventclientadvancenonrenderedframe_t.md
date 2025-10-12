@@ -6,5 +6,5 @@ title: EventClientAdvanceNonRenderedFrame_t
 public interface EventClientAdvanceNonRenderedFrame_t : ISchemaClass<EventClientAdvanceNonRenderedFrame_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

@@ -6,67 +6,79 @@ title: EventBrokenBreakable
 public interface EventBrokenBreakable : IGameEvent<EventBrokenBreakable>
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **EntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L21)
+### EntIndex
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L21)
 
 ```csharp
 int EntIndex { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **Material** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L49)
+### Material
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L49)
 
 ```csharp
 byte Material { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L42)
+### UserId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L42)
 
 ```csharp
 int UserId { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L27)
+### UserIdController
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L27)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L33)
+### UserIdPawn
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L33)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L36)
+### UserIdPlayer
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventBrokenBreakable.cs#L36)
 
 ```csharp
 IPlayer UserIdPlayer { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 

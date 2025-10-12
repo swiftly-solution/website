@@ -6,7 +6,7 @@ title: EventDelegates.OnMapUnload
 public delegate void EventDelegates.OnMapUnload(IOnMapUnloadEvent @event)
 ```
 
-- Parameters
+#### Parameters
 
 - **event**: [IOnMapUnloadEvent](/docs/api/shared/events/ionmapunloadevent)
 

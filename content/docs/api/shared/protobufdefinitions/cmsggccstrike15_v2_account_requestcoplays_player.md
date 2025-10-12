@@ -6,37 +6,43 @@ title: CMsgGCCStrike15_v2_Account_RequestCoPlays_Player
 public interface CMsgGCCStrike15_v2_Account_RequestCoPlays_Player : ITypedProtobuf<CMsgGCCStrike15_v2_Account_RequestCoPlays_Player>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Accountid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Account_RequestCoPlays_Player.cs#L13)
+### Accountid
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Account_RequestCoPlays_Player.cs#L13)
 
 ```csharp
 uint Accountid { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### **Online** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Account_RequestCoPlays_Player.cs#L19)
+### Online
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Account_RequestCoPlays_Player.cs#L19)
 
 ```csharp
 bool Online { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Rtcoplay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Account_RequestCoPlays_Player.cs#L16)
+### Rtcoplay
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCCStrike15_v2_Account_RequestCoPlays_Player.cs#L16)
 
 ```csharp
 uint Rtcoplay { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

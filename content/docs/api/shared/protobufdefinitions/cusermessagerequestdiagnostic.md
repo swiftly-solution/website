@@ -6,17 +6,19 @@ title: CUserMessageRequestDiagnostic
 public interface CUserMessageRequestDiagnostic : ITypedProtobuf<CUserMessageRequestDiagnostic>, INativeHandle, INetMessage<CUserMessageRequestDiagnostic>, IDisposable
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Diagnostics** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestDiagnostic.cs#L18)
+### Diagnostics
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageRequestDiagnostic.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CUserMessageRequestDiagnostic_Diagnostic> Diagnostics { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessageRequestDiagnostic_Diagnostic](/docs/api/shared/protobufdefinitions/cusermessagerequestdiagnostic_diagnostic)>
 

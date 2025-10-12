@@ -6,5 +6,5 @@ title: CTouchExpansionComponent
 public interface CTouchExpansionComponent : CEntityComponent, ISchemaClass<CEntityComponent>, ISchemaClass<CTouchExpansionComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

@@ -6,59 +6,71 @@ title: CSkyCamera
 public interface CSkyCamera : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSkyCamera>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Next** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L22)
+### Next
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L22)
 
 ```csharp
 CSkyCamera? Next { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CSkyCamera](/docs/api/shared/schemadefinitions/cskycamera)?
 
-### **SkyboxData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L16)
+### SkyboxData
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L16)
 
 ```csharp
 sky3dparams_t SkyboxData { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [sky3dparams_t](/docs/api/shared/schemadefinitions/sky3dparams_t)
 
-### **SkyboxSlotToken** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L18)
+### SkyboxSlotToken
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L18)
 
 ```csharp
 ref CUtlStringToken SkyboxSlotToken { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
-### **UseAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L20)
+### UseAngles
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L20)
 
 ```csharp
 ref bool UseAngles { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
-### **SkyboxDataUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L24)
+### SkyboxDataUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L24)
 
 ```csharp
 void SkyboxDataUpdated()
 ```
 
-### **SkyboxSlotTokenUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L25)
+### SkyboxSlotTokenUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSkyCamera.cs#L25)
 
 ```csharp
 void SkyboxSlotTokenUpdated()

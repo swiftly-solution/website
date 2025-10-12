@@ -6,5 +6,5 @@ title: CMultiplayRules
 public interface CMultiplayRules : CGameRules, ISchemaClass<CGameRules>, ISchemaClass<CMultiplayRules>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

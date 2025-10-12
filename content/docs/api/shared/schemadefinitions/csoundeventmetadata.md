@@ -6,17 +6,19 @@ title: CSoundEventMetaData
 public interface CSoundEventMetaData : ISchemaClass<CSoundEventMetaData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **SoundEventVMix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventMetaData.cs#L16)
+### SoundEventVMix
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEventMetaData.cs#L16)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCVMixListResource> SoundEventVMix { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVMixListResource](/docs/api/shared/schemadefinitions/infoforresourcetypecvmixlistresource)>
 

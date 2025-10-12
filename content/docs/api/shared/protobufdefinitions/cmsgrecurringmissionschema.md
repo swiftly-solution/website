@@ -6,17 +6,19 @@ title: CMsgRecurringMissionSchema
 public interface CMsgRecurringMissionSchema : ITypedProtobuf<CMsgRecurringMissionSchema>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Missions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRecurringMissionSchema.cs#L13)
+### Missions
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgRecurringMissionSchema.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgRecurringMissionSchema_MissionTemplateList> Missions { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgRecurringMissionSchema_MissionTemplateList](/docs/api/shared/protobufdefinitions/cmsgrecurringmissionschema_missiontemplatelist)>
 

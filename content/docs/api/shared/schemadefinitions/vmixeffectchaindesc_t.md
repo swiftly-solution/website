@@ -6,17 +6,19 @@ title: VMixEffectChainDesc_t
 public interface VMixEffectChainDesc_t : ISchemaClass<VMixEffectChainDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **CrossfadeTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixEffectChainDesc_t.cs#L16)
+### CrossfadeTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixEffectChainDesc_t.cs#L16)
 
 ```csharp
 ref float CrossfadeTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

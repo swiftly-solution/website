@@ -6,5 +6,5 @@ title: CFloatMovingAverage
 public interface CFloatMovingAverage : ISchemaClass<CFloatMovingAverage>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

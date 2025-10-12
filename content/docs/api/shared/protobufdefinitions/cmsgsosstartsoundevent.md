@@ -6,67 +6,79 @@ title: CMsgSosStartSoundEvent
 public interface CMsgSosStartSoundEvent : ITypedProtobuf<CMsgSosStartSoundEvent>, INativeHandle, INetMessage<CMsgSosStartSoundEvent>, IDisposable
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **PackedParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L30)
+### PackedParams
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L30)
 
 ```csharp
 byte[] PackedParams { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-### **Seed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L27)
+### Seed
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L27)
 
 ```csharp
 int Seed { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **SoundeventGuid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L18)
+### SoundeventGuid
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L18)
 
 ```csharp
 int SoundeventGuid { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **SoundeventHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L21)
+### SoundeventHash
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L21)
 
 ```csharp
 uint SoundeventHash { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### **SourceEntityIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L24)
+### SourceEntityIndex
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L24)
 
 ```csharp
 int SourceEntityIndex { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L33)
+### StartTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSosStartSoundEvent.cs#L33)
 
 ```csharp
 float StartTime { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

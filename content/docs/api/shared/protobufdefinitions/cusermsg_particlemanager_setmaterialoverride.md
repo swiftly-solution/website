@@ -6,27 +6,31 @@ title: CUserMsg_ParticleManager_SetMaterialOverride
 public interface CUserMsg_ParticleManager_SetMaterialOverride : ITypedProtobuf<CUserMsg_ParticleManager_SetMaterialOverride>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **IncludeChildren** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetMaterialOverride.cs#L16)
+### IncludeChildren
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetMaterialOverride.cs#L16)
 
 ```csharp
 bool IncludeChildren { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **MaterialName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetMaterialOverride.cs#L13)
+### MaterialName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetMaterialOverride.cs#L13)
 
 ```csharp
 string MaterialName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

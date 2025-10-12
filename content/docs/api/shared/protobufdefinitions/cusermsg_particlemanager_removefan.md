@@ -6,5 +6,5 @@ title: CUserMsg_ParticleManager_RemoveFan
 public interface CUserMsg_ParticleManager_RemoveFan : ITypedProtobuf<CUserMsg_ParticleManager_RemoveFan>, INativeHandle
 ```
 
-- Implements
+#### Implements
 

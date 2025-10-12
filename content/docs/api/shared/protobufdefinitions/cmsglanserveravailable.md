@@ -6,17 +6,19 @@ title: CMsgLANServerAvailable
 public interface CMsgLANServerAvailable : ITypedProtobuf<CMsgLANServerAvailable>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **LobbyId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLANServerAvailable.cs#L13)
+### LobbyId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgLANServerAvailable.cs#L13)
 
 ```csharp
 ulong LobbyId { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

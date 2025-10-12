@@ -6,17 +6,19 @@ title: EventClientsideReloadCustomEcon
 public interface EventClientsideReloadCustomEcon : IGameEvent<EventClientsideReloadCustomEcon>
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **SteamID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventClientsideReloadCustomEcon.cs#L21)
+### SteamID
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventClientsideReloadCustomEcon.cs#L21)
 
 ```csharp
 string SteamID { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,17 +6,19 @@ title: EventClientProcessNetworking_t
 public interface EventClientProcessNetworking_t : ISchemaClass<EventClientProcessNetworking_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **TickCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessNetworking_t.cs#L16)
+### TickCount
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientProcessNetworking_t.cs#L16)
 
 ```csharp
 ref int TickCount { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,5 +6,5 @@ title: InfoForResourceTypeCVDataResource
 public interface InfoForResourceTypeCVDataResource : ISchemaClass<InfoForResourceTypeCVDataResource>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

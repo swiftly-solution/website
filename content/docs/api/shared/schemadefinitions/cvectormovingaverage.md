@@ -6,5 +6,5 @@ title: CVectorMovingAverage
 public interface CVectorMovingAverage : ISchemaClass<CVectorMovingAverage>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

@@ -1,5 +1,5 @@
 ---
-title: SwiftlyS2.Shared.Scheduler
+title: Scheduler
 ---
 
 - [ISchedulerService](/docs/api/shared/scheduler/ischedulerservice)

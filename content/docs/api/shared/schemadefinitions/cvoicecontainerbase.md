@@ -6,27 +6,31 @@ title: CVoiceContainerBase
 public interface CVoiceContainerBase : ISchemaClass<CVoiceContainerBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **EnvelopeAnalyzer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBase.cs#L18)
+### EnvelopeAnalyzer
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBase.cs#L18)
 
 ```csharp
 CVoiceContainerAnalysisBase? EnvelopeAnalyzer { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CVoiceContainerAnalysisBase](/docs/api/shared/schemadefinitions/cvoicecontaineranalysisbase)?
 
-### **Sound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBase.cs#L16)
+### Sound
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerBase.cs#L16)
 
 ```csharp
 CVSound Sound { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CVSound](/docs/api/shared/schemadefinitions/cvsound)
 

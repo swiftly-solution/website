@@ -6,5 +6,5 @@ title: EventClientDisconnect
 public interface EventClientDisconnect : IGameEvent<EventClientDisconnect>
 ```
 
-- Implements
+#### Implements
 

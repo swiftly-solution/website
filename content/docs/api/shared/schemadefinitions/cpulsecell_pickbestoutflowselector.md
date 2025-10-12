@@ -6,27 +6,31 @@ title: CPulseCell_PickBestOutflowSelector
 public interface CPulseCell_PickBestOutflowSelector : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_PickBestOutflowSelector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **CheckType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PickBestOutflowSelector.cs#L16)
+### CheckType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PickBestOutflowSelector.cs#L16)
 
 ```csharp
 ref PulseBestOutflowRules_t CheckType { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [PulseBestOutflowRules_t](/docs/api/shared/schemadefinitions/pulsebestoutflowrules_t)
 
-### **OutflowList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PickBestOutflowSelector.cs#L18)
+### OutflowList
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_PickBestOutflowSelector.cs#L18)
 
 ```csharp
 PulseSelectorOutflowList_t OutflowList { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [PulseSelectorOutflowList_t](/docs/api/shared/schemadefinitions/pulseselectoroutflowlist_t)
 

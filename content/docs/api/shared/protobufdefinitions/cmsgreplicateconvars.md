@@ -6,17 +6,19 @@ title: CMsgReplicateConVars
 public interface CMsgReplicateConVars : ITypedProtobuf<CMsgReplicateConVars>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Convars** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgReplicateConVars.cs#L13)
+### Convars
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgReplicateConVars.cs#L13)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CMsgConVarValue> Convars { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgConVarValue](/docs/api/shared/protobufdefinitions/cmsgconvarvalue)>
 

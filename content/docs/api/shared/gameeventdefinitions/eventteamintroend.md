@@ -6,5 +6,5 @@ title: EventTeamIntroEnd
 public interface EventTeamIntroEnd : IGameEvent<EventTeamIntroEnd>
 ```
 
-- Implements
+#### Implements
 

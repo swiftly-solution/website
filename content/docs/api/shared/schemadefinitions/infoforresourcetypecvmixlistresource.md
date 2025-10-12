@@ -6,5 +6,5 @@ title: InfoForResourceTypeCVMixListResource
 public interface InfoForResourceTypeCVMixListResource : ISchemaClass<InfoForResourceTypeCVMixListResource>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

@@ -6,5 +6,5 @@ title: CPathSimpleAPI
 public interface CPathSimpleAPI : ISchemaClass<CPathSimpleAPI>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

@@ -6,5 +6,5 @@ title: CUserMsg_ParticleManager_ReleaseParticleIndex
 public interface CUserMsg_ParticleManager_ReleaseParticleIndex : ITypedProtobuf<CUserMsg_ParticleManager_ReleaseParticleIndex>, INativeHandle
 ```
 
-- Implements
+#### Implements
 

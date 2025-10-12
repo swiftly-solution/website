@@ -6,5 +6,5 @@ title: InfoForResourceTypeManifestTestResource_t
 public interface InfoForResourceTypeManifestTestResource_t : ISchemaClass<InfoForResourceTypeManifestTestResource_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

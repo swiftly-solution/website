@@ -6,17 +6,19 @@ title: PulseRuntimeEntrypointIndex_t
 public interface PulseRuntimeEntrypointIndex_t : ISchemaClass<PulseRuntimeEntrypointIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRuntimeEntrypointIndex_t.cs#L16)
+### Value
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRuntimeEntrypointIndex_t.cs#L16)
 
 ```csharp
 ref int Value { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

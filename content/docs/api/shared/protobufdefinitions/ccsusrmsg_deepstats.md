@@ -6,17 +6,19 @@ title: CCSUsrMsg_DeepStats
 public interface CCSUsrMsg_DeepStats : ITypedProtobuf<CCSUsrMsg_DeepStats>, INativeHandle, INetMessage<CCSUsrMsg_DeepStats>, IDisposable
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Stats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DeepStats.cs#L18)
+### Stats
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_DeepStats.cs#L18)
 
 ```csharp
 CMsgGCCStrike15_ClientDeepStats Stats { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CMsgGCCStrike15_ClientDeepStats](/docs/api/shared/protobufdefinitions/cmsggccstrike15_clientdeepstats)
 

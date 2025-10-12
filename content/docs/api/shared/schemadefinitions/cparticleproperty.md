@@ -6,5 +6,5 @@ title: CParticleProperty
 public interface CParticleProperty : ISchemaClass<CParticleProperty>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

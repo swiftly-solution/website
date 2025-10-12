@@ -6,27 +6,31 @@ title: CFlexOp
 public interface CFlexOp : ISchemaClass<CFlexOp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexOp.cs#L18)
+### Data
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexOp.cs#L18)
 
 ```csharp
 ref int Data { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **OpCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexOp.cs#L16)
+### OpCode
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFlexOp.cs#L16)
 
 ```csharp
 ref FlexOpCode_t OpCode { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [FlexOpCode_t](/docs/api/shared/schemadefinitions/flexopcode_t)
 

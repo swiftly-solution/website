@@ -6,5 +6,5 @@ title: EventItemSchemaInitialized
 public interface EventItemSchemaInitialized : IGameEvent<EventItemSchemaInitialized>
 ```
 
-- Implements
+#### Implements
 

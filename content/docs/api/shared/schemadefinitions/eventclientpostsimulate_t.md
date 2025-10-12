@@ -6,5 +6,5 @@ title: EventClientPostSimulate_t
 public interface EventClientPostSimulate_t : EventSimulate_t, ISchemaClass<EventSimulate_t>, ISchemaClass<EventClientPostSimulate_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

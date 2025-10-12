@@ -6,5 +6,5 @@ title: CTakeDamageInfoAPI
 public interface CTakeDamageInfoAPI : ISchemaClass<CTakeDamageInfoAPI>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

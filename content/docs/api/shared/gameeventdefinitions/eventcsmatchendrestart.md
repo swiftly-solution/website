@@ -6,5 +6,5 @@ title: EventCsMatchEndRestart
 public interface EventCsMatchEndRestart : IGameEvent<EventCsMatchEndRestart>
 ```
 
-- Implements
+#### Implements
 

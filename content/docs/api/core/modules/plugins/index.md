@@ -1,5 +1,5 @@
 ---
-title: SwiftlyS2.Core.Modules.Plugins
+title: Plugins
 ---
 
 - [InterfaceManager](/docs/api/core/modules/plugins/interfacemanager)

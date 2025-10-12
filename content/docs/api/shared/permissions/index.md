@@ -1,5 +1,5 @@
 ---
-title: SwiftlyS2.Shared.Permissions
+title: Permissions
 ---
 
 - [IPermissionManager](/docs/api/shared/permissions/ipermissionmanager)
