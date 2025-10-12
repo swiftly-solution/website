@@ -6,7 +6,7 @@ title: FeBuildBoxRigid_t
 public interface FeBuildBoxRigid_t : FeBoxRigid_t, ISchemaClass<FeBoxRigid_t>, ISchemaClass<FeBuildBoxRigid_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeBuildBoxRigid_t : FeBoxRigid_t, ISchemaClass<FeBoxRigid_t>, I
 ref uint AntitunnelGroupBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint AntitunnelGroupBits { get; }
 ref int Priority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int Priority { get; }
 ref uint VertexMapHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

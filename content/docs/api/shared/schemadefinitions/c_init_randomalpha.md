@@ -6,7 +6,7 @@ title: C_INIT_RandomAlpha
 public interface C_INIT_RandomAlpha : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_RandomAlpha>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_RandomAlpha : CParticleFunctionInitializer, CParticleFun
 ref int AlphaMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int AlphaMax { get; }
 ref int AlphaMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int AlphaMin { get; }
 ref float AlphaRandExponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float AlphaRandExponent { get; }
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 

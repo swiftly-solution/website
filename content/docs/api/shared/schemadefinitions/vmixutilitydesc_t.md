@@ -6,7 +6,7 @@ title: VMixUtilityDesc_t
 public interface VMixUtilityDesc_t : ISchemaClass<VMixUtilityDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixUtilityDesc_t : ISchemaClass<VMixUtilityDesc_t>, ISchemaFie
 ref float BassFreq { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BassFreq { get; }
 ref bool BassMono { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool BassMono { get; }
 ref float FldbOutputGain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float FldbOutputGain { get; }
 ref float InputPan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float InputPan { get; }
 ref VMixChannelOperation_t Op { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixChannelOperation_t](/docs/api/shared/schemadefinitions/vmixchanneloperation_t)
 
@@ -66,7 +66,7 @@ ref VMixChannelOperation_t Op { get; }
 ref float OutputBalance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

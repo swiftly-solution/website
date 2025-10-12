@@ -6,7 +6,7 @@ title: CFuncLadder
 public interface CFuncLadder : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CFuncLadder>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFuncLadder : CBaseModelEntity, CBaseEntity, CEntityInstance, I
 ref float AutoRideSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AutoRideSpeed { get; }
 ref bool Disabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Disabled { get; }
 ref CUtlVector<CHandle<CInfoLadderDismount>> Dismounts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CInfoLadderDismount](/docs/api/shared/schemadefinitions/cinfoladderdismount)>>
 
@@ -46,7 +46,7 @@ ref CUtlVector<CHandle<CInfoLadderDismount>> Dismounts { get; }
 ref bool FakeLadder { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool FakeLadder { get; }
 ref bool HasSlack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool HasSlack { get; }
 ref Vector LadderDir { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector LadderDir { get; }
 ref Vector LocalTop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector LocalTop { get; }
 CEntityIOOutput OnPlayerGotOffLadder { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -96,7 +96,7 @@ CEntityIOOutput OnPlayerGotOffLadder { get; }
 CEntityIOOutput OnPlayerGotOnLadder { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -106,7 +106,7 @@ CEntityIOOutput OnPlayerGotOnLadder { get; }
 ref Vector PlayerMountPositionBottom { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -116,7 +116,7 @@ ref Vector PlayerMountPositionBottom { get; }
 ref Vector PlayerMountPositionTop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -126,7 +126,7 @@ ref Vector PlayerMountPositionTop { get; }
 string SurfacePropName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

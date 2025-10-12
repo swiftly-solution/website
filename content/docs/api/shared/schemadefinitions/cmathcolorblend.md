@@ -6,7 +6,7 @@ title: CMathColorBlend
 public interface CMathColorBlend : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CMathColorBlend>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMathColorBlend : CLogicalEntity, CServerOnlyEntity, CBaseEntit
 ref float InMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float InMax { get; }
 ref float InMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float InMin { get; }
 ref Color OutColor1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -46,7 +46,7 @@ ref Color OutColor1 { get; }
 ref Color OutColor2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -56,7 +56,7 @@ ref Color OutColor2 { get; }
 SchemaUntypedField OutValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

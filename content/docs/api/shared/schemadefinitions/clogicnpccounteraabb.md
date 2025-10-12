@@ -6,7 +6,7 @@ title: CLogicNPCCounterAABB
 public interface CLogicNPCCounterAABB : CLogicNPCCounter, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CLogicNPCCounter>, ISchemaClass<CLogicNPCCounterAABB>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLogicNPCCounterAABB : CLogicNPCCounter, CBaseEntity, CEntityIn
 ref Vector DistanceOuterMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector DistanceOuterMaxs { get; }
 ref Vector DistanceOuterMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector DistanceOuterMins { get; }
 ref Vector OuterMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector OuterMaxs { get; }
 ref Vector OuterMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

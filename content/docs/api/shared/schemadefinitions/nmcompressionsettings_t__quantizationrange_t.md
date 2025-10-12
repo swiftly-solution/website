@@ -6,7 +6,7 @@ title: NmCompressionSettings_t__QuantizationRange_t
 public interface NmCompressionSettings_t__QuantizationRange_t : ISchemaClass<NmCompressionSettings_t__QuantizationRange_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NmCompressionSettings_t__QuantizationRange_t : ISchemaClass<NmC
 ref float RangeLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float RangeLength { get; }
 ref float RangeStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

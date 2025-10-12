@@ -6,7 +6,7 @@ title: CCLCMsg_RequestPause
 public interface CCLCMsg_RequestPause : ITypedProtobuf<CCLCMsg_RequestPause>, INativeHandle, INetMessage<CCLCMsg_RequestPause>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_RequestPause : ITypedProtobuf<CCLCMsg_RequestPause>, IN
 int PauseGroup { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int PauseGroup { get; set; }
 RequestPause_t PauseType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RequestPause_t](/docs/api/shared/protobufdefinitions/requestpause_t)
 

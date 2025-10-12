@@ -6,7 +6,7 @@ title: EventAdvanceTick_t
 public interface EventAdvanceTick_t : EventSimulate_t, ISchemaClass<EventSimulate_t>, ISchemaClass<EventAdvanceTick_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventAdvanceTick_t : EventSimulate_t, ISchemaClass<EventSimulat
 ref int CurrentTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int CurrentTick { get; }
 ref int CurrentTickThisFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int CurrentTickThisFrame { get; }
 ref int TotalTicks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int TotalTicks { get; }
 ref int TotalTicksThisFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

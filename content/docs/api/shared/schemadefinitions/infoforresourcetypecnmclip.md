@@ -6,5 +6,5 @@ title: InfoForResourceTypeCNmClip
 public interface InfoForResourceTypeCNmClip : ISchemaClass<InfoForResourceTypeCNmClip>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

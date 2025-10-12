@@ -6,7 +6,7 @@ title: CCSUsrMsg_DisconnectToLobby
 public interface CCSUsrMsg_DisconnectToLobby : ITypedProtobuf<CCSUsrMsg_DisconnectToLobby>, INativeHandle, INetMessage<CCSUsrMsg_DisconnectToLobby>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_DisconnectToLobby : ITypedProtobuf<CCSUsrMsg_Disconne
 int Dummy { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

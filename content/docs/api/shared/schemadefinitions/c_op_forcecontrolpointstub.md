@@ -6,7 +6,7 @@ title: C_OP_ForceControlPointStub
 public interface C_OP_ForceControlPointStub : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_ForceControlPointStub>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_ForceControlPointStub : CParticleFunctionPreEmission, CPar
 ref int ControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

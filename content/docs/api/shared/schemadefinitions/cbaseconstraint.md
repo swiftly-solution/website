@@ -6,7 +6,7 @@ title: CBaseConstraint
 public interface CBaseConstraint : CBoneConstraintBase, ISchemaClass<CBoneConstraintBase>, ISchemaClass<CBaseConstraint>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseConstraint : CBoneConstraintBase, ISchemaClass<CBoneConstr
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Name { get; set; }
 SchemaUntypedField Slaves { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Slaves { get; }
 ref CUtlVector Targets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector Targets { get; }
 ref Vector UpVector { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

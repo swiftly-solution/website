@@ -6,7 +6,7 @@ title: CScriptTriggerMultiple
 public interface CScriptTriggerMultiple : CTriggerMultiple, CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerMultiple>, ISchemaClass<CScriptTriggerMultiple>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CScriptTriggerMultiple : CTriggerMultiple, CBaseTrigger, CBaseT
 ref Vector Extent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

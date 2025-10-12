@@ -6,7 +6,7 @@ title: CSkillInt
 public interface CSkillInt : ISchemaClass<CSkillInt>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSkillInt : ISchemaClass<CSkillInt>, ISchemaField, ISchemaClass
 ISchemaFixedArray<int> Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

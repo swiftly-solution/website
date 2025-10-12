@@ -6,7 +6,7 @@ title: CSingleplayRules
 public interface CSingleplayRules : CGameRules, ISchemaClass<CGameRules>, ISchemaClass<CSingleplayRules>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSingleplayRules : CGameRules, ISchemaClass<CGameRules>, ISchem
 ref bool SinglePlayerGameEnding { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

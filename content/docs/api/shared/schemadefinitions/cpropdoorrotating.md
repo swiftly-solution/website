@@ -6,7 +6,7 @@ title: CPropDoorRotating
 public interface CPropDoorRotating : CBasePropDoor, CDynamicProp, CBreakableProp, CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaClass<CDynamicProp>, ISchemaClass<CBasePropDoor>, ISchemaClass<CPropDoorRotating>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPropDoorRotating : CBasePropDoor, CDynamicProp, CBreakableProp
 ref float AjarAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AjarAngle { get; }
 ref bool AjarDoorShouldntAlwaysOpen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool AjarDoorShouldntAlwaysOpen { get; }
 ref Vector Axis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector Axis { get; }
 ref Vector BackBoundsMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector BackBoundsMax { get; }
 ref Vector BackBoundsMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector BackBoundsMin { get; }
 ref PropDoorRotatingOpenDirection_e CurrentOpenDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PropDoorRotatingOpenDirection_e](/docs/api/shared/schemadefinitions/propdoorrotatingopendirection_e)
 
@@ -76,7 +76,7 @@ ref PropDoorRotatingOpenDirection_e CurrentOpenDirection { get; }
 ref float Distance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float Distance { get; }
 ref CHandle<CEntityBlocker> EntityBlocker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityBlocker](/docs/api/shared/schemadefinitions/centityblocker)>
 
@@ -96,7 +96,7 @@ ref CHandle<CEntityBlocker> EntityBlocker { get; }
 ref Vector ForwardBoundsMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -106,7 +106,7 @@ ref Vector ForwardBoundsMax { get; }
 ref Vector ForwardBoundsMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -116,7 +116,7 @@ ref Vector ForwardBoundsMin { get; }
 ref QAngle Goal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -126,7 +126,7 @@ ref QAngle Goal { get; }
 ref PropDoorRotatingOpenDirection_e OpenDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PropDoorRotatingOpenDirection_e](/docs/api/shared/schemadefinitions/propdoorrotatingopendirection_e)
 
@@ -136,7 +136,7 @@ ref PropDoorRotatingOpenDirection_e OpenDirection { get; }
 ref QAngle RotationAjarDeprecated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -146,7 +146,7 @@ ref QAngle RotationAjarDeprecated { get; }
 ref QAngle RotationClosed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -156,7 +156,7 @@ ref QAngle RotationClosed { get; }
 ref QAngle RotationOpenBack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -166,7 +166,7 @@ ref QAngle RotationOpenBack { get; }
 ref QAngle RotationOpenForward { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -176,7 +176,7 @@ ref QAngle RotationOpenForward { get; }
 ref PropDoorRotatingSpawnPos_t SpawnPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PropDoorRotatingSpawnPos_t](/docs/api/shared/schemadefinitions/propdoorrotatingspawnpos_t)
 

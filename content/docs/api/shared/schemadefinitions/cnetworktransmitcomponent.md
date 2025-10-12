@@ -6,7 +6,7 @@ title: CNetworkTransmitComponent
 public interface CNetworkTransmitComponent : ISchemaClass<CNetworkTransmitComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNetworkTransmitComponent : ISchemaClass<CNetworkTransmitCompon
 ref byte TransmitStateOwnedCounter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

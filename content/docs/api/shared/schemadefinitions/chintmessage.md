@@ -6,7 +6,7 @@ title: CHintMessage
 public interface CHintMessage : ISchemaClass<CHintMessage>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CHintMessage : ISchemaClass<CHintMessage>, ISchemaField, ISchem
 ref CUtlVector<CString> Args { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CString](/docs/api/shared/natives/cstring)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CString> Args { get; }
 ref float Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Duration { get; }
 string HintString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

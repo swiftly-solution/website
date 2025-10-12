@@ -6,7 +6,7 @@ title: CCSUsrMsg_PlayerStatsUpdate
 public interface CCSUsrMsg_PlayerStatsUpdate : ITypedProtobuf<CCSUsrMsg_PlayerStatsUpdate>, INativeHandle, INetMessage<CCSUsrMsg_PlayerStatsUpdate>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_PlayerStatsUpdate : ITypedProtobuf<CCSUsrMsg_PlayerSt
 int Crc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Crc { get; set; }
 uint Ehandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Ehandle { get; set; }
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_PlayerStatsUpdate_Stat> Stats { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_PlayerStatsUpdate_Stat](/docs/api/shared/protobufdefinitions/ccsusrmsg_playerstatsupdate_stat)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_PlayerStatsUpdate_Stat> Stats { g
 int Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

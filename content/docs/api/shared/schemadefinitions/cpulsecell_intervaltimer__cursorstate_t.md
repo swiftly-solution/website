@@ -6,7 +6,7 @@ title: CPulseCell_IntervalTimer__CursorState_t
 public interface CPulseCell_IntervalTimer__CursorState_t : ISchemaClass<CPulseCell_IntervalTimer__CursorState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_IntervalTimer__CursorState_t : ISchemaClass<CPulseCe
 ref bool CompleteOnNextWake { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CompleteOnNextWake { get; }
 GameTime_t EndTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -36,7 +36,7 @@ GameTime_t EndTime { get; }
 GameTime_t StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -46,7 +46,7 @@ GameTime_t StartTime { get; }
 ref float WaitInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float WaitInterval { get; }
 ref float WaitIntervalHigh { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

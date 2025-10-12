@@ -6,7 +6,7 @@ title: CEnvVolumetricFogVolume
 public interface CEnvVolumetricFogVolume : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CEnvVolumetricFogVolume>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEnvVolumetricFogVolume : CBaseEntity, CEntityInstance, ISchema
 ref bool Active { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Active { get; }
 ref Vector BoxMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector BoxMaxs { get; }
 ref Vector BoxMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector BoxMins { get; }
 ref float FalloffExponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float FalloffExponent { get; }
 ref int FalloffShape { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int FalloffShape { get; }
 ref float HeightFogDepth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float HeightFogDepth { get; }
 ref float HeightFogEdgeWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float HeightFogEdgeWidth { get; }
 ref float IndirectLightStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float IndirectLightStrength { get; }
 ref bool IndirectUseLPVs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool IndirectUseLPVs { get; }
 ref float NoiseStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float NoiseStrength { get; }
 ref bool OverrideIndirectLightStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool OverrideIndirectLightStrength { get; }
 ref bool OverrideNoiseStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool OverrideNoiseStrength { get; }
 ref bool OverrideSunLightStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool OverrideSunLightStrength { get; }
 ref bool OverrideTintColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool OverrideTintColor { get; }
 ref bool StartDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool StartDisabled { get; }
 ref float Strength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float Strength { get; }
 ref float SunLightStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float SunLightStrength { get; }
 ref Color TintColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 

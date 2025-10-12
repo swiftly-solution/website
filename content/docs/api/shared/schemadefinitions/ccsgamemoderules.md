@@ -6,7 +6,7 @@ title: CCSGameModeRules
 public interface CCSGameModeRules : ISchemaClass<CCSGameModeRules>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSGameModeRules : ISchemaClass<CCSGameModeRules>, ISchemaField
 ref CNetworkVarChainer __m_pChainEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkVarChainer](/docs/api/shared/natives/cnetworkvarchainer)
 

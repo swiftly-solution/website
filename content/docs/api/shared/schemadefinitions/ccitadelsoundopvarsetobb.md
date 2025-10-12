@@ -6,7 +6,7 @@ title: CCitadelSoundOpvarSetOBB
 public interface CCitadelSoundOpvarSetOBB : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CCitadelSoundOpvarSetOBB>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCitadelSoundOpvarSetOBB : CBaseEntity, CEntityInstance, ISchem
 ref int AABBDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int AABBDirection { get; }
 ref Vector DistanceInnerMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector DistanceInnerMaxs { get; }
 ref Vector DistanceInnerMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector DistanceInnerMins { get; }
 ref Vector DistanceOuterMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector DistanceOuterMaxs { get; }
 ref Vector DistanceOuterMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector DistanceOuterMins { get; }
 string OperatorName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string OperatorName { get; set; }
 string OpvarName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string OpvarName { get; set; }
 string StackName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

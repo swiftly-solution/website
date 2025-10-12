@@ -6,7 +6,7 @@ title: CMsgRecurringMissionSchema
 public interface CMsgRecurringMissionSchema : ITypedProtobuf<CMsgRecurringMissionSchema>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgRecurringMissionSchema : ITypedProtobuf<CMsgRecurringMissio
 IProtobufRepeatedFieldSubMessageType<CMsgRecurringMissionSchema_MissionTemplateList> Missions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgRecurringMissionSchema_MissionTemplateList](/docs/api/shared/protobufdefinitions/cmsgrecurringmissionschema_missiontemplatelist)>
 

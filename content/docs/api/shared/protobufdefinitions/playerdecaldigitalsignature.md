@@ -6,7 +6,7 @@ title: PlayerDecalDigitalSignature
 public interface PlayerDecalDigitalSignature : ITypedProtobuf<PlayerDecalDigitalSignature>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PlayerDecalDigitalSignature : ITypedProtobuf<PlayerDecalDigital
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 float Creationtime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float Creationtime { get; set; }
 IProtobufRepeatedFieldValueType<float> Endpos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldValueType<float> Endpos { get; }
 int Entindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int Entindex { get; set; }
 uint Equipslot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint Equipslot { get; set; }
 uint Hitbox { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint Hitbox { get; set; }
 IProtobufRepeatedFieldValueType<float> Left { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -86,7 +86,7 @@ IProtobufRepeatedFieldValueType<float> Left { get; }
 IProtobufRepeatedFieldValueType<float> Normal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -96,7 +96,7 @@ IProtobufRepeatedFieldValueType<float> Normal { get; }
 uint Rtime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ uint Rtime { get; set; }
 byte[] Signature { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -116,7 +116,7 @@ byte[] Signature { get; set; }
 IProtobufRepeatedFieldValueType<float> Startpos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -126,7 +126,7 @@ IProtobufRepeatedFieldValueType<float> Startpos { get; }
 uint TintId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint TintId { get; set; }
 uint TraceId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ uint TraceId { get; set; }
 uint TxDefidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

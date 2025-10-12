@@ -6,7 +6,7 @@ title: CCSUsrMsg_SurvivalStats_Damage
 public interface CCSUsrMsg_SurvivalStats_Damage : ITypedProtobuf<CCSUsrMsg_SurvivalStats_Damage>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SurvivalStats_Damage : ITypedProtobuf<CCSUsrMsg_Survi
 int From { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int From { get; set; }
 int FromHits { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int FromHits { get; set; }
 int To { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int To { get; set; }
 int ToHits { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int ToHits { get; set; }
 ulong Xuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

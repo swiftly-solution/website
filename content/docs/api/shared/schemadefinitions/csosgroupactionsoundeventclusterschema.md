@@ -6,7 +6,7 @@ title: CSosGroupActionSoundeventClusterSchema
 public interface CSosGroupActionSoundeventClusterSchema : CSosGroupActionSchema, ISchemaClass<CSosGroupActionSchema>, ISchemaClass<CSosGroupActionSoundeventClusterSchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSosGroupActionSoundeventClusterSchema : CSosGroupActionSchema,
 ref float ClusterEpsilon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float ClusterEpsilon { get; }
 string ClusterSizeOpvar { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ClusterSizeOpvar { get; set; }
 string GroupBoundingBoxMaxsOpvar { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string GroupBoundingBoxMaxsOpvar { get; set; }
 string GroupBoundingBoxMinsOpvar { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string GroupBoundingBoxMinsOpvar { get; set; }
 ref int MinNearby { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int MinNearby { get; }
 string ShouldPlayClusterChild { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string ShouldPlayClusterChild { get; set; }
 string ShouldPlayOpvar { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

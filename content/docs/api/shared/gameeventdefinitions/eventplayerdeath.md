@@ -6,7 +6,7 @@ title: EventPlayerDeath
 public interface EventPlayerDeath : IGameEvent<EventPlayerDeath>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventPlayerDeath : IGameEvent<EventPlayerDeath>
 bool AssistedFlash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool AssistedFlash { get; set; }
 int Assister { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Assister { get; set; }
 int Attacker { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Attacker { get; set; }
 bool AttackerBlind { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ bool AttackerBlind { get; set; }
 bool AttackerInAir { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ bool AttackerInAir { get; set; }
 float Distance { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ float Distance { get; set; }
 byte DmgArmor { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -86,7 +86,7 @@ byte DmgArmor { get; set; }
 short DmgHealth { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -96,7 +96,7 @@ short DmgHealth { get; set; }
 short Dominated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -106,7 +106,7 @@ short Dominated { get; set; }
 bool Headshot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ bool Headshot { get; set; }
 byte HitGroup { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -126,7 +126,7 @@ byte HitGroup { get; set; }
 bool NoReplay { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ bool NoReplay { get; set; }
 bool NoScope { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ bool NoScope { get; set; }
 short Penetrated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -156,7 +156,7 @@ short Penetrated { get; set; }
 short Revenge { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -166,7 +166,7 @@ short Revenge { get; set; }
 bool ThruSmoke { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ bool ThruSmoke { get; set; }
 int UserId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ int UserId { get; set; }
 CCSPlayerController UserIdController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
@@ -196,7 +196,7 @@ CCSPlayerController UserIdController { get; }
 CCSPlayerPawn UserIdPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
@@ -206,7 +206,7 @@ CCSPlayerPawn UserIdPawn { get; }
 IPlayer UserIdPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 
@@ -216,7 +216,7 @@ IPlayer UserIdPlayer { get; }
 string Weapon { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -226,7 +226,7 @@ string Weapon { get; set; }
 string WeaponFauxitemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -236,7 +236,7 @@ string WeaponFauxitemid { get; set; }
 string WeaponItemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -246,7 +246,7 @@ string WeaponItemid { get; set; }
 string WeaponOriginalownerXuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -256,7 +256,7 @@ string WeaponOriginalownerXuid { get; set; }
 short Wipe { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

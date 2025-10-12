@@ -6,7 +6,7 @@ title: CMsgServerPeer
 public interface CMsgServerPeer : ITypedProtobuf<CMsgServerPeer>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgServerPeer : ITypedProtobuf<CMsgServerPeer>, INativeHandle
 CMsgIPCAddress Ipc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgIPCAddress](/docs/api/shared/protobufdefinitions/cmsgipcaddress)
 
@@ -26,7 +26,7 @@ CMsgIPCAddress Ipc { get; }
 bool IsListenserverHost { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool IsListenserverHost { get; set; }
 int PlayerSlot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int PlayerSlot { get; set; }
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ulong Steamid { get; set; }
 bool TheyHearYou { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ bool TheyHearYou { get; set; }
 bool YouHearThem { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

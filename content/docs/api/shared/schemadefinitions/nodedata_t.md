@@ -6,7 +6,7 @@ title: NodeData_t
 public interface NodeData_t : ISchemaClass<NodeData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NodeData_t : ISchemaClass<NodeData_t>, ISchemaField, ISchemaCla
 ref CUtlVector<int> ChildNodeIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<int> ChildNodeIndices { get; }
 ref Vector MaxBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector MaxBounds { get; }
 ref Vector MinBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector MinBounds { get; }
 ref float MinimumDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MinimumDistance { get; }
 ref Vector Origin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector Origin { get; }
 ref int Parent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int Parent { get; }
 string WorldNodePrefix { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

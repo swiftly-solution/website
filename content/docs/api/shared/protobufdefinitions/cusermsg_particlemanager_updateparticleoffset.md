@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_UpdateParticleOffset
 public interface CUserMsg_ParticleManager_UpdateParticleOffset : ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticleOffset>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleOffset : ITypedProtobuf<
 QAngle AngleOffset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ QAngle AngleOffset { get; set; }
 int ControlPoint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int ControlPoint { get; set; }
 Vector OriginOffset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

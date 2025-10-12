@@ -6,7 +6,7 @@ title: CRecipientFilter
 public struct CRecipientFilter
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -16,7 +16,7 @@ public struct CRecipientFilter
 public CRecipientFilter(NetChannelBufType_t BufType = NetChannelBufType_t.BUF_RELIABLE, bool bInitMessage = false)
 ```
 
-#### Parameters
+- Parameters
 
 - **BufType**: [NetChannelBufType_t](/docs/api/shared/natives/netchannelbuftype_t)
 - **bInitMessage**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
@@ -29,7 +29,7 @@ public CRecipientFilter(NetChannelBufType_t BufType = NetChannelBufType_t.BUF_RE
 public NetChannelBufType_t BufferType
 ```
 
-#### Field Value
+- Field Value
 
 - [NetChannelBufType_t](/docs/api/shared/natives/netchannelbuftype_t)
 
@@ -39,7 +39,7 @@ public NetChannelBufType_t BufferType
 public bool InitMessage
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -49,7 +49,7 @@ public bool InitMessage
 public ulong RecipientsMask
 ```
 
-#### Field Value
+- Field Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -67,7 +67,7 @@ public void AddAllPlayers()
 public void AddRecipient(int playerid)
 ```
 
-#### Parameters
+- Parameters
 
 - **playerid**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -77,11 +77,11 @@ public void AddRecipient(int playerid)
 public static CRecipientFilter FromMask(ulong playerMask)
 ```
 
-#### Parameters
+- Parameters
 
 - **playerMask**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-#### Returns
+- Returns
 
 - [CRecipientFilter](/docs/api/shared/natives/crecipientfilter)
 
@@ -91,11 +91,11 @@ public static CRecipientFilter FromMask(ulong playerMask)
 public static CRecipientFilter FromPlayers(params int[] players)
 ```
 
-#### Parameters
+- Parameters
 
 - **players**: [int](https://learn.microsoft.com/dotnet/api/system.int32)[]
 
-#### Returns
+- Returns
 
 - [CRecipientFilter](/docs/api/shared/natives/crecipientfilter)
 
@@ -105,11 +105,11 @@ public static CRecipientFilter FromPlayers(params int[] players)
 public static CRecipientFilter FromSingle(int player)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [CRecipientFilter](/docs/api/shared/natives/crecipientfilter)
 
@@ -119,7 +119,7 @@ public static CRecipientFilter FromSingle(int player)
 public int GetRecipientCount()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -135,7 +135,7 @@ public void RemoveAllPlayers()
 public void RemoveRecipient(int playerid)
 ```
 
-#### Parameters
+- Parameters
 
 - **playerid**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -145,7 +145,7 @@ public void RemoveRecipient(int playerid)
 public ulong ToMask()
 ```
 
-#### Returns
+- Returns
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

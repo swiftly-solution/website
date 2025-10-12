@@ -6,7 +6,7 @@ title: EventNavBlocked
 public interface EventNavBlocked : IGameEvent<EventNavBlocked>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventNavBlocked : IGameEvent<EventNavBlocked>
 int Area { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Area { get; set; }
 bool Blocked { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

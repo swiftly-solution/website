@@ -6,7 +6,7 @@ title: CMsgGCRequestAnnouncementsResponse
 public interface CMsgGCRequestAnnouncementsResponse : ITypedProtobuf<CMsgGCRequestAnnouncementsResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCRequestAnnouncementsResponse : ITypedProtobuf<CMsgGCReque
 string Announcement { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Announcement { get; set; }
 string AnnouncementTitle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string AnnouncementTitle { get; set; }
 string Nextmatch { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Nextmatch { get; set; }
 string NextmatchTitle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

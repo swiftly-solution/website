@@ -6,7 +6,7 @@ title: C_INIT_PositionWarp
 public interface C_INIT_PositionWarp : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_PositionWarp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_PositionWarp : CParticleFunctionInitializer, CParticleFu
 ref int ControlPointNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ControlPointNumber { get; }
 ref bool InvertWarp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool InvertWarp { get; }
 ref float PrevPosScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float PrevPosScale { get; }
 ref int RadiusComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int RadiusComponent { get; }
 ref int ScaleControlPointNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int ScaleControlPointNumber { get; }
 ref bool UseCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool UseCount { get; }
 CParticleCollectionVecInput WarpMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -86,7 +86,7 @@ CParticleCollectionVecInput WarpMax { get; }
 CParticleCollectionVecInput WarpMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -96,7 +96,7 @@ CParticleCollectionVecInput WarpMin { get; }
 ref float WarpStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float WarpStartTime { get; }
 ref float WarpTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

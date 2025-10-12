@@ -6,7 +6,7 @@ title: CLogicAuto
 public interface CLogicAuto : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CLogicAuto>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLogicAuto : CBaseEntity, CEntityInstance, ISchemaClass<CEntity
 string Globalstate { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Globalstate { get; set; }
 CEntityIOOutput OnBackgroundMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -36,7 +36,7 @@ CEntityIOOutput OnBackgroundMap { get; }
 CEntityIOOutput OnDemoMapSpawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -46,7 +46,7 @@ CEntityIOOutput OnDemoMapSpawn { get; }
 CEntityIOOutput OnLoadGame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -56,7 +56,7 @@ CEntityIOOutput OnLoadGame { get; }
 CEntityIOOutput OnMapSpawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -66,7 +66,7 @@ CEntityIOOutput OnMapSpawn { get; }
 CEntityIOOutput OnMapTransition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -76,7 +76,7 @@ CEntityIOOutput OnMapTransition { get; }
 CEntityIOOutput OnMultiNewMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -86,7 +86,7 @@ CEntityIOOutput OnMultiNewMap { get; }
 CEntityIOOutput OnMultiNewRound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -96,7 +96,7 @@ CEntityIOOutput OnMultiNewRound { get; }
 CEntityIOOutput OnNewGame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -106,7 +106,7 @@ CEntityIOOutput OnNewGame { get; }
 CEntityIOOutput OnVREnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -116,7 +116,7 @@ CEntityIOOutput OnVREnabled { get; }
 CEntityIOOutput OnVRNotEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 

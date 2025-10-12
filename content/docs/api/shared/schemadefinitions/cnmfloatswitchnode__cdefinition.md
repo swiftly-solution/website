@@ -6,7 +6,7 @@ title: CNmFloatSwitchNode__CDefinition
 public interface CNmFloatSwitchNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmFloatSwitchNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFloatSwitchNode__CDefinition : CNmFloatValueNode__CDefinitio
 ref float FalseValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float FalseValue { get; }
 ref short FalseValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short FalseValueNodeIdx { get; }
 ref short SwitchValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ ref short SwitchValueNodeIdx { get; }
 ref float TrueValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float TrueValue { get; }
 ref short TrueValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

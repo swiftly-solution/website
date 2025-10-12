@@ -6,7 +6,7 @@ title: CCSUsrMsg_Fade
 public interface CCSUsrMsg_Fade : ITypedProtobuf<CCSUsrMsg_Fade>, INativeHandle, INetMessage<CCSUsrMsg_Fade>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_Fade : ITypedProtobuf<CCSUsrMsg_Fade>, INativeHandle,
 Color Clr { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -26,7 +26,7 @@ Color Clr { get; set; }
 int Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Duration { get; set; }
 int Flags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Flags { get; set; }
 int HoldTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

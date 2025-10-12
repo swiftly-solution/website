@@ -6,7 +6,7 @@ title: EventOpenCrateInstr
 public interface EventOpenCrateInstr : IGameEvent<EventOpenCrateInstr>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventOpenCrateInstr : IGameEvent<EventOpenCrateInstr>
 short Subject { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short Subject { get; set; }
 string Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Type { get; set; }
 int UserId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int UserId { get; set; }
 CCSPlayerController UserIdController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
@@ -56,7 +56,7 @@ CCSPlayerController UserIdController { get; }
 CCSPlayerPawn UserIdPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
@@ -66,7 +66,7 @@ CCSPlayerPawn UserIdPawn { get; }
 IPlayer UserIdPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 

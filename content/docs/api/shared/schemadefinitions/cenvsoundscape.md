@@ -6,7 +6,7 @@ title: CEnvSoundscape
 public interface CEnvSoundscape : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CEnvSoundscape>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEnvSoundscape : CBaseEntity, CEntityInstance, ISchemaClass<CEn
 ref bool Disabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Disabled { get; }
 CEntityIOOutput OnPlay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -36,7 +36,7 @@ CEntityIOOutput OnPlay { get; }
 ref bool OverrideWithEvent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool OverrideWithEvent { get; }
 string PositionNames { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string PositionNames { get; set; }
 ref CHandle<CEnvSoundscape> ProxySoundscape { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEnvSoundscape](/docs/api/shared/schemadefinitions/cenvsoundscape)>
 
@@ -66,7 +66,7 @@ ref CHandle<CEnvSoundscape> ProxySoundscape { get; }
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float Radius { get; }
 ref uint SoundEventHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ ref uint SoundEventHash { get; }
 string SoundEventName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string SoundEventName { get; set; }
 ref int SoundscapeEntityListId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int SoundscapeEntityListId { get; }
 ref int SoundscapeIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int SoundscapeIndex { get; }
 string SoundscapeName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

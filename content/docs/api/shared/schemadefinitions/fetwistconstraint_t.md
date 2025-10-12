@@ -6,7 +6,7 @@ title: FeTwistConstraint_t
 public interface FeTwistConstraint_t : ISchemaClass<FeTwistConstraint_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeTwistConstraint_t : ISchemaClass<FeTwistConstraint_t>, ISchem
 ref ushort NodeEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort NodeEnd { get; }
 ref ushort NodeOrient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort NodeOrient { get; }
 ref float SwingRelax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float SwingRelax { get; }
 ref float TwistRelax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

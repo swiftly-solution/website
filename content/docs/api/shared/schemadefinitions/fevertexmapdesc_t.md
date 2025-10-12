@@ -6,7 +6,7 @@ title: FeVertexMapDesc_t
 public interface FeVertexMapDesc_t : ISchemaClass<FeVertexMapDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeVertexMapDesc_t : ISchemaClass<FeVertexMapDesc_t>, ISchemaFie
 ref Vector CenterOfMass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector CenterOfMass { get; }
 ref uint Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint Color { get; }
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint Flags { get; }
 ref uint MapOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ ref uint MapOffset { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string Name { get; set; }
 ref uint NameHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ ref uint NameHash { get; }
 ref ushort NodeListCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -86,7 +86,7 @@ ref ushort NodeListCount { get; }
 ref uint NodeListOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ ref uint NodeListOffset { get; }
 ref short ScaleSourceNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -106,7 +106,7 @@ ref short ScaleSourceNode { get; }
 ref ushort VertexBase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -116,7 +116,7 @@ ref ushort VertexBase { get; }
 ref ushort VertexCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -126,7 +126,7 @@ ref ushort VertexCount { get; }
 ref float VolumetricSolveStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

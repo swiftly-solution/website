@@ -6,7 +6,7 @@ title: CDistanceRemainingMetricEvaluator
 public interface CDistanceRemainingMetricEvaluator : CMotionMetricEvaluator, ISchemaClass<CMotionMetricEvaluator>, ISchemaClass<CDistanceRemainingMetricEvaluator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDistanceRemainingMetricEvaluator : CMotionMetricEvaluator, ISc
 ref bool FilterFixedMinDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool FilterFixedMinDistance { get; }
 ref bool FilterGoalDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool FilterGoalDistance { get; }
 ref bool FilterGoalOvershoot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool FilterGoalOvershoot { get; }
 ref float MaxDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MaxDistance { get; }
 ref float MaxGoalOvershootScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MaxGoalOvershootScale { get; }
 ref float MinDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float MinDistance { get; }
 ref float StartGoalFilterDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CBasePlayerWeaponVData
 public interface CBasePlayerWeaponVData : CEntitySubclassVDataBase, ISchemaClass<CEntitySubclassVDataBase>, ISchemaClass<CBasePlayerWeaponVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBasePlayerWeaponVData : CEntitySubclassVDataBase, ISchemaClass
 ref bool AllowFlipping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AllowFlipping { get; }
 ref bool AutoSwitchFrom { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool AutoSwitchFrom { get; }
 ref bool AutoSwitchTo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool AutoSwitchTo { get; }
 SchemaUntypedField BarrelSmokeParticle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField BarrelSmokeParticle { get; }
 ref bool BuiltRightHanded { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool BuiltRightHanded { get; }
 ref int DefaultClip1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int DefaultClip1 { get; }
 ref int DefaultClip2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int DefaultClip2 { get; }
 ref float DropSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float DropSpeed { get; }
 ref ItemFlagTypes_t Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ItemFlagTypes_t](/docs/api/shared/schemadefinitions/itemflagtypes_t)
 
@@ -106,7 +106,7 @@ ref ItemFlagTypes_t Flags { get; }
 ref bool LinkedCooldowns { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool LinkedCooldowns { get; }
 ref int MaxClip1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int MaxClip1 { get; }
 ref int MaxClip2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int MaxClip2 { get; }
 SchemaUntypedField MuzzleAttachment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -146,7 +146,7 @@ SchemaUntypedField MuzzleAttachment { get; }
 SchemaUntypedField MuzzleFlashParticle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -156,7 +156,7 @@ SchemaUntypedField MuzzleFlashParticle { get; }
 string MuzzleFlashParticleConfig { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -166,7 +166,7 @@ string MuzzleFlashParticleConfig { get; set; }
 ref float MuzzleSmokeDecrementRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float MuzzleSmokeDecrementRate { get; }
 ref byte MuzzleSmokeShotThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -186,7 +186,7 @@ ref byte MuzzleSmokeShotThreshold { get; }
 ref float MuzzleSmokeTimeout { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float MuzzleSmokeTimeout { get; }
 ref int Position { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -206,7 +206,7 @@ ref int Position { get; }
 AmmoIndex_t PrimaryAmmoType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AmmoIndex_t](/docs/api/shared/schemadefinitions/ammoindex_t)
 
@@ -216,7 +216,7 @@ AmmoIndex_t PrimaryAmmoType { get; }
 ref bool ReserveAmmoAsClips { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool ReserveAmmoAsClips { get; }
 ref RumbleEffect_t RumbleEffect { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RumbleEffect_t](/docs/api/shared/schemadefinitions/rumbleeffect_t)
 
@@ -236,7 +236,7 @@ ref RumbleEffect_t RumbleEffect { get; }
 AmmoIndex_t SecondaryAmmoType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AmmoIndex_t](/docs/api/shared/schemadefinitions/ammoindex_t)
 
@@ -246,7 +246,7 @@ AmmoIndex_t SecondaryAmmoType { get; }
 SchemaUntypedField ShootSounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -256,7 +256,7 @@ SchemaUntypedField ShootSounds { get; }
 ref int Slot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -266,7 +266,7 @@ ref int Slot { get; }
 SchemaUntypedField ToolsOnlyOwnerModelName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -276,7 +276,7 @@ SchemaUntypedField ToolsOnlyOwnerModelName { get; }
 ref bool TreatAsSingleClip { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -286,7 +286,7 @@ ref bool TreatAsSingleClip { get; }
 ref int Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -296,7 +296,7 @@ ref int Weight { get; }
 SchemaUntypedField WorldModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

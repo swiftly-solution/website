@@ -6,7 +6,7 @@ title: CNmEntityAttributeEventBase
 public interface CNmEntityAttributeEventBase : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmEntityAttributeEventBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmEntityAttributeEventBase : CNmEvent, ISchemaClass<CNmEvent>,
 string AttributeName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

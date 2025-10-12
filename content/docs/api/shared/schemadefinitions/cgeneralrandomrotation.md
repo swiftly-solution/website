@@ -6,7 +6,7 @@ title: CGeneralRandomRotation
 public interface CGeneralRandomRotation : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<CGeneralRandomRotation>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGeneralRandomRotation : CParticleFunctionInitializer, CParticl
 ref float Degrees { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Degrees { get; }
 ref float DegreesMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DegreesMax { get; }
 ref float DegreesMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float DegreesMin { get; }
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -56,7 +56,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 ref bool RandomlyFlipDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool RandomlyFlipDirection { get; }
 ref float RotationRandExponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

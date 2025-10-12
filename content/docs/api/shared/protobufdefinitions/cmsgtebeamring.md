@@ -6,7 +6,7 @@ title: CMsgTEBeamRing
 public interface CMsgTEBeamRing : ITypedProtobuf<CMsgTEBeamRing>, INativeHandle, INetMessage<CMsgTEBeamRing>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEBeamRing : ITypedProtobuf<CMsgTEBeamRing>, INativeHandle,
 CMsgTEBaseBeam Base { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgTEBaseBeam](/docs/api/shared/protobufdefinitions/cmsgtebasebeam)
 
@@ -26,7 +26,7 @@ CMsgTEBaseBeam Base { get; }
 uint Endentity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Endentity { get; set; }
 uint Startentity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

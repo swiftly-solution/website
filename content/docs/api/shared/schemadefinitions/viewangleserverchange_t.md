@@ -6,7 +6,7 @@ title: ViewAngleServerChange_t
 public interface ViewAngleServerChange_t : ISchemaClass<ViewAngleServerChange_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ViewAngleServerChange_t : ISchemaClass<ViewAngleServerChange_t>
 ref QAngle Angle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ ref QAngle Angle { get; }
 ref uint Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint Index { get; }
 ref FixAngleSet_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FixAngleSet_t](/docs/api/shared/schemadefinitions/fixangleset_t)
 

@@ -6,7 +6,7 @@ title: EventNextlevelChanged
 public interface EventNextlevelChanged : IGameEvent<EventNextlevelChanged>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventNextlevelChanged : IGameEvent<EventNextlevelChanged>
 string MapGroup { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string MapGroup { get; set; }
 string NextLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string NextLevel { get; set; }
 string SkirmishMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

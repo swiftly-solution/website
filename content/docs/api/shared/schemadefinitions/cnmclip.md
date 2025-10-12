@@ -6,7 +6,7 @@ title: CNmClip
 public interface CNmClip : ISchemaClass<CNmClip>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmClip : ISchemaClass<CNmClip>, ISchemaField, ISchemaClass, IN
 ref CUtlVector<ushort> CompressedFloatCurveData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<ushort> CompressedFloatCurveData { get; }
 ref CUtlVector<uint> CompressedFloatCurveOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<uint> CompressedFloatCurveOffsets { get; }
 ref CUtlBinaryBlock CompressedPoseData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 
@@ -46,7 +46,7 @@ ref CUtlBinaryBlock CompressedPoseData { get; }
 ref CUtlVector<uint> CompressedPoseOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<uint> CompressedPoseOffsets { get; }
 ref float Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float Duration { get; }
 ref CUtlVector FloatCurveDefs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector FloatCurveDefs { get; }
 ref CUtlVector<CGlobalSymbol> FloatCurveIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
 
@@ -86,7 +86,7 @@ ref CUtlVector<CGlobalSymbol> FloatCurveIDs { get; }
 ref bool IsAdditive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool IsAdditive { get; }
 ref CUtlVector<int> ModelSpaceBoneSamplingIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -106,7 +106,7 @@ ref CUtlVector<int> ModelSpaceBoneSamplingIndices { get; }
 ref CUtlVector ModelSpaceSamplingChain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -116,7 +116,7 @@ ref CUtlVector ModelSpaceSamplingChain { get; }
 ref uint NumFrames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ ref uint NumFrames { get; }
 CNmRootMotionData RootMotion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmRootMotionData](/docs/api/shared/schemadefinitions/cnmrootmotiondata)
 
@@ -136,7 +136,7 @@ CNmRootMotionData RootMotion { get; }
 SchemaUntypedField SecondaryAnimations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -146,7 +146,7 @@ SchemaUntypedField SecondaryAnimations { get; }
 ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCNmSkeleton](/docs/api/shared/schemadefinitions/infoforresourcetypecnmskeleton)>
 
@@ -156,7 +156,7 @@ ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
 CNmSyncTrack SyncTrack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmSyncTrack](/docs/api/shared/schemadefinitions/cnmsynctrack)
 
@@ -166,7 +166,7 @@ CNmSyncTrack SyncTrack { get; }
 ref CUtlVector TrackCompressionSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

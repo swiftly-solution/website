@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerMap
 public interface CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerMap : ITypedProtobuf<CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerMap>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerMap : ITypedProt
 uint Assists { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Assists { get; set; }
 uint Deaths { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Deaths { get; set; }
 uint Headshots { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Headshots { get; set; }
 uint Kills { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint Kills { get; set; }
 uint Losses { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint Losses { get; set; }
 uint MapId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint MapId { get; set; }
 uint Mvps { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint Mvps { get; set; }
 uint Rounds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ uint Rounds { get; set; }
 uint Rounds3k { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ uint Rounds3k { get; set; }
 uint Rounds4k { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -116,7 +116,7 @@ uint Rounds4k { get; set; }
 uint Rounds5k { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ uint Rounds5k { get; set; }
 uint Ties { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint Ties { get; set; }
 uint Wins { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

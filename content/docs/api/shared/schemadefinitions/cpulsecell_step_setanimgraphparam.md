@@ -6,7 +6,7 @@ title: CPulseCell_Step_SetAnimGraphParam
 public interface CPulseCell_Step_SetAnimGraphParam : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_Step_SetAnimGraphParam>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Step_SetAnimGraphParam : CPulseCell_BaseFlow, CPulse
 string ParamName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

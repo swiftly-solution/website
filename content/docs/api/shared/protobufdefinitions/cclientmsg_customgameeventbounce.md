@@ -6,7 +6,7 @@ title: CClientMsg_CustomGameEventBounce
 public interface CClientMsg_CustomGameEventBounce : ITypedProtobuf<CClientMsg_CustomGameEventBounce>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CClientMsg_CustomGameEventBounce : ITypedProtobuf<CClientMsg_Cu
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] Data { get; set; }
 string EventName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string EventName { get; set; }
 int PlayerSlot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

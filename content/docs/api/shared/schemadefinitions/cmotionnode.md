@@ -6,7 +6,7 @@ title: CMotionNode
 public interface CMotionNode : ISchemaClass<CMotionNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionNode : ISchemaClass<CMotionNode>, ISchemaField, ISchemaC
 AnimNodeID Id { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimNodeID](/docs/api/shared/schemadefinitions/animnodeid)
 
@@ -26,7 +26,7 @@ AnimNodeID Id { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

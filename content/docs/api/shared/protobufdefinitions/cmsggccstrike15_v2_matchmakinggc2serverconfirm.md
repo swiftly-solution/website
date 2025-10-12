@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm
 public interface CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm : ITypedProtobuf
 ulong Exchange { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Exchange { get; set; }
 uint Retry { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Retry { get; set; }
 uint Stamp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Stamp { get; set; }
 uint Token { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

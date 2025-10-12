@@ -6,7 +6,7 @@ title: CAnimKeyData
 public interface CAnimKeyData : ISchemaClass<CAnimKeyData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimKeyData : ISchemaClass<CAnimKeyData>, ISchemaField, ISchem
 ref CUtlVector BoneArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector BoneArray { get; }
 ref int ChannelElements { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ChannelElements { get; }
 ref CUtlVector DataChannelArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector DataChannelArray { get; }
 ref CUtlVector<CBufferString> MorphArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<CBufferString> MorphArray { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -66,7 +66,7 @@ ref CBufferString Name { get; }
 ref CUtlVector UserArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

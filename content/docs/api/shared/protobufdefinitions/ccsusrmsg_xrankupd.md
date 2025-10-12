@@ -6,7 +6,7 @@ title: CCSUsrMsg_XRankUpd
 public interface CCSUsrMsg_XRankUpd : ITypedProtobuf<CCSUsrMsg_XRankUpd>, INativeHandle, INetMessage<CCSUsrMsg_XRankUpd>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_XRankUpd : ITypedProtobuf<CCSUsrMsg_XRankUpd>, INativ
 int Controller { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Controller { get; set; }
 int ModeIdx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int ModeIdx { get; set; }
 int Ranking { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

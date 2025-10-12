@@ -6,7 +6,7 @@ title: C_INIT_NormalOffset
 public interface C_INIT_NormalOffset : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_NormalOffset>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_NormalOffset : CParticleFunctionInitializer, CParticleFu
 ref int ControlPointNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ControlPointNumber { get; }
 ref bool LocalCoords { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool LocalCoords { get; }
 ref bool Normalize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Normalize { get; }
 ref Vector OffsetMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector OffsetMax { get; }
 ref Vector OffsetMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

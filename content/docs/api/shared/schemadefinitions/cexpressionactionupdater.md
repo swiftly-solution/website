@@ -6,7 +6,7 @@ title: CExpressionActionUpdater
 public interface CExpressionActionUpdater : CAnimActionUpdater, ISchemaClass<CAnimActionUpdater>, ISchemaClass<CExpressionActionUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CExpressionActionUpdater : CAnimActionUpdater, ISchemaClass<CAn
 CAnimParamHandle Param { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -26,7 +26,7 @@ CAnimParamHandle Param { get; }
 ref AnimParamType_t ParamType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimParamType_t](/docs/api/shared/schemadefinitions/animparamtype_t)
 
@@ -36,7 +36,7 @@ ref AnimParamType_t ParamType { get; }
 AnimScriptHandle Script { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimScriptHandle](/docs/api/shared/schemadefinitions/animscripthandle)
 

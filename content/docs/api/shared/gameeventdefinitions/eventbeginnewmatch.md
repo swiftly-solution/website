@@ -6,5 +6,5 @@ title: EventBeginNewMatch
 public interface EventBeginNewMatch : IGameEvent<EventBeginNewMatch>
 ```
 
-#### Implements
+- Implements
 

@@ -6,7 +6,7 @@ title: CDataGCCStrike15_v2_TournamentInfo
 public interface CDataGCCStrike15_v2_TournamentInfo : ITypedProtobuf<CDataGCCStrike15_v2_TournamentInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDataGCCStrike15_v2_TournamentInfo : ITypedProtobuf<CDataGCCStr
 IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentSection> Sections { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDataGCCStrike15_v2_TournamentSection](/docs/api/shared/protobufdefinitions/cdatagccstrike15_v2_tournamentsection)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentSection> Sect
 TournamentEvent TournamentEvent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TournamentEvent](/docs/api/shared/protobufdefinitions/tournamentevent)
 
@@ -36,7 +36,7 @@ TournamentEvent TournamentEvent { get; }
 IProtobufRepeatedFieldSubMessageType<TournamentTeam> TournamentTeams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[TournamentTeam](/docs/api/shared/protobufdefinitions/tournamentteam)>
 

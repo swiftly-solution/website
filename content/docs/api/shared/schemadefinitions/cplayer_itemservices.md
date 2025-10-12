@@ -6,7 +6,7 @@ title: CPlayer_ItemServices
 public interface CPlayer_ItemServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_ItemServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Methods
 
@@ -22,11 +22,11 @@ void DropActiveItem()
 T GiveItem<T>() where T : ISchemaClass<T>
 ```
 
-#### Returns
+- Returns
 
 - T - The item that was given.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The type of the item to give.
 
@@ -36,15 +36,15 @@ T GiveItem<T>() where T : ISchemaClass<T>
 T GiveItem<T>(string itemDesignerName) where T : ISchemaClass<T>
 ```
 
-#### Parameters
+- Parameters
 
 - **itemDesignerName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The designer name of the item to give.
 
-#### Returns
+- Returns
 
 - T - The item that was given.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 

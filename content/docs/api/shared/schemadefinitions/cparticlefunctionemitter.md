@@ -6,7 +6,7 @@ title: CParticleFunctionEmitter
 public interface CParticleFunctionEmitter : CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionEmitter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleFunctionEmitter : CParticleFunction, ISchemaClass<CPar
 ref int EmitterIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

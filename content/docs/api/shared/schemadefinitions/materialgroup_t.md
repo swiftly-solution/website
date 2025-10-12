@@ -6,7 +6,7 @@ title: MaterialGroup_t
 public interface MaterialGroup_t : ISchemaClass<MaterialGroup_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MaterialGroup_t : ISchemaClass<MaterialGroup_t>, ISchemaField, 
 ref CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>> Materials { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeIMaterial2>> Materials { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

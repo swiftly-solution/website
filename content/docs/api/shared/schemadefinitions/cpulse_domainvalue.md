@@ -6,7 +6,7 @@ title: CPulse_DomainValue
 public interface CPulse_DomainValue : ISchemaClass<CPulse_DomainValue>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulse_DomainValue : ISchemaClass<CPulse_DomainValue>, ISchemaF
 SchemaUntypedField RequiredRuntimeType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField RequiredRuntimeType { get; }
 ref PulseDomainValueType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDomainValueType_t](/docs/api/shared/schemadefinitions/pulsedomainvaluetype_t)
 
@@ -36,7 +36,7 @@ ref PulseDomainValueType_t Type { get; }
 ref CGlobalSymbol Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

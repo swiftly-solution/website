@@ -6,7 +6,7 @@ title: CFootCycleDefinition
 public interface CFootCycleDefinition : ISchemaClass<CFootCycleDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFootCycleDefinition : ISchemaClass<CFootCycleDefinition>, ISch
 CFootCycle FootLandCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFootCycle](/docs/api/shared/schemadefinitions/cfootcycle)
 
@@ -26,7 +26,7 @@ CFootCycle FootLandCycle { get; }
 CFootCycle FootLiftCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFootCycle](/docs/api/shared/schemadefinitions/cfootcycle)
 
@@ -36,7 +36,7 @@ CFootCycle FootLiftCycle { get; }
 CFootCycle FootOffCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFootCycle](/docs/api/shared/schemadefinitions/cfootcycle)
 
@@ -46,7 +46,7 @@ CFootCycle FootOffCycle { get; }
 CFootCycle FootStrikeCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFootCycle](/docs/api/shared/schemadefinitions/cfootcycle)
 
@@ -56,7 +56,7 @@ CFootCycle FootStrikeCycle { get; }
 ref Vector MidpointPositionMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector MidpointPositionMS { get; }
 CAnimCycle StanceCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimCycle](/docs/api/shared/schemadefinitions/canimcycle)
 
@@ -76,7 +76,7 @@ CAnimCycle StanceCycle { get; }
 ref float StanceDirectionMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float StanceDirectionMS { get; }
 ref Vector StancePositionMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector StancePositionMS { get; }
 ref Vector ToStrideStartPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

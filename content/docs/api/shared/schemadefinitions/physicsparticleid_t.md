@@ -6,7 +6,7 @@ title: PhysicsParticleId_t
 public interface PhysicsParticleId_t : ISchemaClass<PhysicsParticleId_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PhysicsParticleId_t : ISchemaClass<PhysicsParticleId_t>, ISchem
 ref uint Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

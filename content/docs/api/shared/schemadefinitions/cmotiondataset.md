@@ -6,7 +6,7 @@ title: CMotionDataSet
 public interface CMotionDataSet : ISchemaClass<CMotionDataSet>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionDataSet : ISchemaClass<CMotionDataSet>, ISchemaField, IS
 ref int DimensionCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int DimensionCount { get; }
 ref CUtlVector Groups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

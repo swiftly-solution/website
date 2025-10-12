@@ -6,7 +6,7 @@ title: CCSPlayerResource
 public interface CCSPlayerResource : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CCSPlayerResource>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayerResource : CBaseEntity, CEntityInstance, ISchemaClass<
 ref Vector BombsiteCenterA { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector BombsiteCenterA { get; }
 ref Vector BombsiteCenterB { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector BombsiteCenterB { get; }
 ref bool EndMatchNextMapAllVoted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool EndMatchNextMapAllVoted { get; }
 ref bool FoundGoalPositions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool FoundGoalPositions { get; }
 ISchemaFixedArray<bool> HostageAlive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 
@@ -66,7 +66,7 @@ ISchemaFixedArray<bool> HostageAlive { get; }
 ISchemaFixedArray<uint> HostageEntityIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -76,7 +76,7 @@ ISchemaFixedArray<uint> HostageEntityIDs { get; }
 ISchemaFixedArray<int> HostageRescueX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -86,7 +86,7 @@ ISchemaFixedArray<int> HostageRescueX { get; }
 ISchemaFixedArray<int> HostageRescueY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -96,7 +96,7 @@ ISchemaFixedArray<int> HostageRescueY { get; }
 ISchemaFixedArray<int> HostageRescueZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -106,7 +106,7 @@ ISchemaFixedArray<int> HostageRescueZ { get; }
 ISchemaFixedArray<bool> IsHostageFollowingSomeone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 

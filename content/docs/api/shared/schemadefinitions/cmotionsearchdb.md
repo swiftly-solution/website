@@ -6,7 +6,7 @@ title: CMotionSearchDB
 public interface CMotionSearchDB : ISchemaClass<CMotionSearchDB>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionSearchDB : ISchemaClass<CMotionSearchDB>, ISchemaField, 
 ref CUtlVector CodeIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector CodeIndices { get; }
 CProductQuantizer ResidualQuantizer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CProductQuantizer](/docs/api/shared/schemadefinitions/cproductquantizer)
 
@@ -36,7 +36,7 @@ CProductQuantizer ResidualQuantizer { get; }
 CMotionSearchNode RootNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMotionSearchNode](/docs/api/shared/schemadefinitions/cmotionsearchnode)
 

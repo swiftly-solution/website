@@ -6,7 +6,7 @@ title: CFeVertexMapBuildArray
 public interface CFeVertexMapBuildArray : ISchemaClass<CFeVertexMapBuildArray>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFeVertexMapBuildArray : ISchemaClass<CFeVertexMapBuildArray>, 
 ref CUtlVector<PointerTo<FeVertexMapBuild_t>> Array { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[FeVertexMapBuild_t](/docs/api/shared/schemadefinitions/fevertexmapbuild_t)>>
 

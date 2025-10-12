@@ -6,7 +6,7 @@ title: CPhysForce
 public interface CPhysForce : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CPhysForce>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysForce : CPointEntity, CBaseEntity, CEntityInstance, ISchem
 ref CHandle<CBaseEntity> AttachedObject { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> AttachedObject { get; }
 ref float Force { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Force { get; }
 ref float ForceTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float ForceTime { get; }
 CConstantForceController Integrator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CConstantForceController](/docs/api/shared/schemadefinitions/cconstantforcecontroller)
 
@@ -56,7 +56,7 @@ CConstantForceController Integrator { get; }
 string NameAttach { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string NameAttach { get; set; }
 ref bool WasRestored { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

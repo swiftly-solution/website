@@ -6,7 +6,7 @@ title: CFollowPathUpdateNode
 public interface CFollowPathUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CFollowPathUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFollowPathUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 ref float BlendOutTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BlendOutTime { get; }
 ref bool BlockNonPathMovement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool BlockNonPathMovement { get; }
 ref AnimValueSource FacingTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 
@@ -46,7 +46,7 @@ ref AnimValueSource FacingTarget { get; }
 ref float MaxAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MaxAngle { get; }
 ref float MinAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MinAngle { get; }
 CAnimParamHandle Param { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -76,7 +76,7 @@ CAnimParamHandle Param { get; }
 ref float Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float Scale { get; }
 ref bool ScaleSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool ScaleSpeed { get; }
 ref float SpeedScaleBlending { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float SpeedScaleBlending { get; }
 ref bool StopFeetAtGoal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool StopFeetAtGoal { get; }
 CAnimInputDamping TurnDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -126,7 +126,7 @@ CAnimInputDamping TurnDamping { get; }
 ref bool TurnToFace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool TurnToFace { get; }
 ref float TurnToFaceOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

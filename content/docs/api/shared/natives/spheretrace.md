@@ -6,7 +6,7 @@ title: SphereTrace
 public struct SphereTrace
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct SphereTrace
 public Vector Center
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ public Vector Center
 public float Radius
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

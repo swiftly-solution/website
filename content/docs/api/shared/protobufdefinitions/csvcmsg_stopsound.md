@@ -6,7 +6,7 @@ title: CSVCMsg_StopSound
 public interface CSVCMsg_StopSound : ITypedProtobuf<CSVCMsg_StopSound>, INativeHandle, INetMessage<CSVCMsg_StopSound>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_StopSound : ITypedProtobuf<CSVCMsg_StopSound>, INativeH
 uint Guid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

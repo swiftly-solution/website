@@ -6,7 +6,7 @@ title: CFuncWater
 public interface CFuncWater : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CFuncWater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFuncWater : CBaseModelEntity, CBaseEntity, CEntityInstance, IS
 CBuoyancyHelper BuoyancyHelper { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBuoyancyHelper](/docs/api/shared/schemadefinitions/cbuoyancyhelper)
 

@@ -6,5 +6,5 @@ title: CParticleFunctionOperator
 public interface CParticleFunctionOperator : CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

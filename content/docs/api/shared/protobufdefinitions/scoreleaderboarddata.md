@@ -6,7 +6,7 @@ title: ScoreLeaderboardData
 public interface ScoreLeaderboardData : ITypedProtobuf<ScoreLeaderboardData>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ScoreLeaderboardData : ITypedProtobuf<ScoreLeaderboardData>, IN
 IProtobufRepeatedFieldSubMessageType<ScoreLeaderboardData_AccountEntries> Accountentries { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ScoreLeaderboardData_AccountEntries](/docs/api/shared/protobufdefinitions/scoreleaderboarddata_accountentries)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<ScoreLeaderboardData_AccountEntries> Accoun
 string LeaderboardName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string LeaderboardName { get; set; }
 IProtobufRepeatedFieldSubMessageType<ScoreLeaderboardData_Entry> Matchentries { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ScoreLeaderboardData_Entry](/docs/api/shared/protobufdefinitions/scoreleaderboarddata_entry)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldSubMessageType<ScoreLeaderboardData_Entry> Matchentries { 
 ulong QuestId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ulong QuestId { get; set; }
 uint Score { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

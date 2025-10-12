@@ -6,7 +6,7 @@ title: WeaponPurchaseCount_t
 public interface WeaponPurchaseCount_t : ISchemaClass<WeaponPurchaseCount_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface WeaponPurchaseCount_t : ISchemaClass<WeaponPurchaseCount_t>, IS
 ref ushort Count { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort Count { get; }
 ref ushort ItemDefIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

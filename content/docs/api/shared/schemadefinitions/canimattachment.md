@@ -6,7 +6,7 @@ title: CAnimAttachment
 public interface CAnimAttachment : ISchemaClass<CAnimAttachment>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimAttachment : ISchemaClass<CAnimAttachment>, ISchemaField, 
 ISchemaFixedArray<int> InfluenceIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -26,7 +26,7 @@ ISchemaFixedArray<int> InfluenceIndices { get; }
 ISchemaFixedArray<Vector> InfluenceOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<Vector> InfluenceOffsets { get; }
 ISchemaFixedArray<Quaternion> InfluenceRotations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Quaternion](/docs/api/shared/natives/quaternion)>
 
@@ -46,7 +46,7 @@ ISchemaFixedArray<Quaternion> InfluenceRotations { get; }
 ISchemaFixedArray<float> InfluenceWeights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -56,7 +56,7 @@ ISchemaFixedArray<float> InfluenceWeights { get; }
 ref byte NumInfluences { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

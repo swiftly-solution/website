@@ -6,7 +6,7 @@ title: CSVCMsg_BSPDecal
 public interface CSVCMsg_BSPDecal : ITypedProtobuf<CSVCMsg_BSPDecal>, INativeHandle, INetMessage<CSVCMsg_BSPDecal>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_BSPDecal : ITypedProtobuf<CSVCMsg_BSPDecal>, INativeHan
 int DecalTextureIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int DecalTextureIndex { get; set; }
 int EntityIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int EntityIndex { get; set; }
 bool LowPriority { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool LowPriority { get; set; }
 int ModelIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int ModelIndex { get; set; }
 Vector Pos { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

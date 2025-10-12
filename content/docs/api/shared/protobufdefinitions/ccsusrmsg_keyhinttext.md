@@ -6,7 +6,7 @@ title: CCSUsrMsg_KeyHintText
 public interface CCSUsrMsg_KeyHintText : ITypedProtobuf<CCSUsrMsg_KeyHintText>, INativeHandle, INetMessage<CCSUsrMsg_KeyHintText>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_KeyHintText : ITypedProtobuf<CCSUsrMsg_KeyHintText>, 
 IProtobufRepeatedFieldValueType<string> Messages { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 

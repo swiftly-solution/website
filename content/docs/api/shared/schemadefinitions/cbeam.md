@@ -6,7 +6,7 @@ title: CBeam
 public interface CBeam : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBeam>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBeam : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchema
 ref float Amplitude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Amplitude { get; }
 ISchemaFixedArray<CHandle<CBaseEntity>> AttachEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<CHandle<CBaseEntity>> AttachEntity { get; }
 SchemaUntypedField AttachIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField AttachIndex { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> BaseMaterial { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -56,7 +56,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> BaseMaterial { get; }
 ref uint BeamFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ ref uint BeamFlags { get; }
 ref BeamType_t BeamType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BeamType_t](/docs/api/shared/schemadefinitions/beamtype_t)
 
@@ -76,7 +76,7 @@ ref BeamType_t BeamType { get; }
 ref BeamClipStyle_t ClipStyle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BeamClipStyle_t](/docs/api/shared/schemadefinitions/beamclipstyle_t)
 
@@ -86,7 +86,7 @@ ref BeamClipStyle_t ClipStyle { get; }
 ref float Damage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float Damage { get; }
 ref int DissolveType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int DissolveType { get; }
 ref CHandle<CBaseEntity> EndEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -116,7 +116,7 @@ ref CHandle<CBaseEntity> EndEntity { get; }
 ref Vector EndPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -126,7 +126,7 @@ ref Vector EndPos { get; }
 ref float EndWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float EndWidth { get; }
 ref float FadeLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float FadeLength { get; }
 GameTime_t FireTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -156,7 +156,7 @@ GameTime_t FireTime { get; }
 ref float Frame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float Frame { get; }
 ref float FrameRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float FrameRate { get; }
 ref float HDRColorScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float HDRColorScale { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> HaloIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -196,7 +196,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> HaloIndex { get; }
 ref float HaloScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float HaloScale { get; }
 ref byte NumBeamEnts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -216,7 +216,7 @@ ref byte NumBeamEnts { get; }
 ref float Speed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -226,7 +226,7 @@ ref float Speed { get; }
 ref float StartFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float StartFrame { get; }
 ref bool TurnedOff { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -246,7 +246,7 @@ ref bool TurnedOff { get; }
 ref float Width { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CAudioMorphData
 public interface CAudioMorphData : ISchemaClass<CAudioMorphData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAudioMorphData : ISchemaClass<CAudioMorphData>, ISchemaField, 
 ref float EaseIn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float EaseIn { get; }
 ref float EaseOut { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float EaseOut { get; }
 ref CUtlVector<uint> NameHashCodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<uint> NameHashCodes { get; }
 ref CUtlVector<CUtlString> NameStrings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<CUtlString> NameStrings { get; }
 ref CUtlVector<CUtlVector<float>> Samples { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>>
 
@@ -66,7 +66,7 @@ ref CUtlVector<CUtlVector<float>> Samples { get; }
 ref CUtlVector<float> Times { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

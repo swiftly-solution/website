@@ -6,7 +6,7 @@ title: CAnimDemoCaptureSettings
 public interface CAnimDemoCaptureSettings : ISchemaClass<CAnimDemoCaptureSettings>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimDemoCaptureSettings : ISchemaClass<CAnimDemoCaptureSetting
 string BaseSequence { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string BaseSequence { get; set; }
 ref int BaseSequenceFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int BaseSequenceFrame { get; }
 ref EDemoBoneSelectionMode BoneSelectionMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EDemoBoneSelectionMode](/docs/api/shared/schemadefinitions/edemoboneselectionmode)
 
@@ -46,7 +46,7 @@ ref EDemoBoneSelectionMode BoneSelectionMode { get; }
 ref CUtlVector Bones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector Bones { get; }
 ref Vector2D ErrorRangeQuantizationRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -66,7 +66,7 @@ ref Vector2D ErrorRangeQuantizationRotation { get; }
 ref Vector2D ErrorRangeQuantizationScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -76,7 +76,7 @@ ref Vector2D ErrorRangeQuantizationScale { get; }
 ref Vector2D ErrorRangeQuantizationTranslation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -86,7 +86,7 @@ ref Vector2D ErrorRangeQuantizationTranslation { get; }
 ref Vector2D ErrorRangeSplineRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -96,7 +96,7 @@ ref Vector2D ErrorRangeSplineRotation { get; }
 ref Vector2D ErrorRangeSplineScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -106,7 +106,7 @@ ref Vector2D ErrorRangeSplineScale { get; }
 ref Vector2D ErrorRangeSplineTranslation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -116,7 +116,7 @@ ref Vector2D ErrorRangeSplineTranslation { get; }
 ref CUtlVector IkChains { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -126,7 +126,7 @@ ref CUtlVector IkChains { get; }
 ref float IkRotation_MaxQuantizationError { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float IkRotation_MaxQuantizationError { get; }
 ref float IkRotation_MaxSplineError { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float IkRotation_MaxSplineError { get; }
 ref float IkTranslation_MaxQuantizationError { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float IkTranslation_MaxQuantizationError { get; }
 ref float IkTranslation_MaxSplineError { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

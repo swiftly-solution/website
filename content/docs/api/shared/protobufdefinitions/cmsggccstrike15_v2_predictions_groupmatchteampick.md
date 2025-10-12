@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick
 public interface CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick : ITypedProtobuf<CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Predictions_GroupMatchTeamPick : ITypedProto
 int Groupid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Groupid { get; set; }
 int Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Index { get; set; }
 ulong Itemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong Itemid { get; set; }
 int Sectionid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int Sectionid { get; set; }
 int Teamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

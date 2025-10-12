@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Client2GCStreamUnlock
 public interface CMsgGCCStrike15_v2_Client2GCStreamUnlock : ITypedProtobuf<CMsgGCCStrike15_v2_Client2GCStreamUnlock>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Client2GCStreamUnlock : ITypedProtobuf<CMsgG
 int Os { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Os { get; set; }
 ulong Ticket { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

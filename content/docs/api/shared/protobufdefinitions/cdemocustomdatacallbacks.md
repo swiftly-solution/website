@@ -6,7 +6,7 @@ title: CDemoCustomDataCallbacks
 public interface CDemoCustomDataCallbacks : ITypedProtobuf<CDemoCustomDataCallbacks>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoCustomDataCallbacks : ITypedProtobuf<CDemoCustomDataCallba
 IProtobufRepeatedFieldValueType<string> SaveId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 

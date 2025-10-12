@@ -6,7 +6,7 @@ title: CMsgGCHInviteUserToLobby
 public interface CMsgGCHInviteUserToLobby : ITypedProtobuf<CMsgGCHInviteUserToLobby>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCHInviteUserToLobby : ITypedProtobuf<CMsgGCHInviteUserToLo
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Appid { get; set; }
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong Steamid { get; set; }
 ulong SteamidInvited { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong SteamidInvited { get; set; }
 ulong SteamidLobby { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

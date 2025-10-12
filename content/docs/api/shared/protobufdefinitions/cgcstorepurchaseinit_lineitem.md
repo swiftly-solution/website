@@ -6,7 +6,7 @@ title: CGCStorePurchaseInit_LineItem
 public interface CGCStorePurchaseInit_LineItem : ITypedProtobuf<CGCStorePurchaseInit_LineItem>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGCStorePurchaseInit_LineItem : ITypedProtobuf<CGCStorePurchase
 uint CostInLocalCurrency { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint CostInLocalCurrency { get; set; }
 uint ItemDefId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ItemDefId { get; set; }
 uint PurchaseType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint PurchaseType { get; set; }
 uint Quantity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint Quantity { get; set; }
 ulong SupplementalData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

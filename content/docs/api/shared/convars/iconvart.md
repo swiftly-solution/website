@@ -6,7 +6,7 @@ title: IConVar<T>
 public interface IConVar<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -18,7 +18,7 @@ public interface IConVar<T>
 T Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - T
 
@@ -30,7 +30,7 @@ T Value { get; set; }
 void AddFlags(ConvarFlags flags)
 ```
 
-#### Parameters
+- Parameters
 
 - **flags**: [ConvarFlags](/docs/api/shared/convars/convarflags) - flags.
 
@@ -46,7 +46,7 @@ void ClearFlags()
 ConvarFlags GetFlags()
 ```
 
-#### Returns
+- Returns
 
 - [ConvarFlags](/docs/api/shared/convars/convarflags) - The flags of the convar.
 
@@ -56,11 +56,11 @@ ConvarFlags GetFlags()
 bool HasFlags(ConvarFlags flags)
 ```
 
-#### Parameters
+- Parameters
 
 - **flags**: [ConvarFlags](/docs/api/shared/convars/convarflags) - flags.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the convar has all the given flags, false otherwise.
 
@@ -70,7 +70,7 @@ bool HasFlags(ConvarFlags flags)
 void QueryClient(int clientId, Action<string> callback)
 ```
 
-#### Parameters
+- Parameters
 
 - **clientId**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **callback**: [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
@@ -81,7 +81,7 @@ void QueryClient(int clientId, Action<string> callback)
 void RemoveFlags(ConvarFlags flags)
 ```
 
-#### Parameters
+- Parameters
 
 - **flags**: [ConvarFlags](/docs/api/shared/convars/convarflags) - flags.
 
@@ -91,7 +91,7 @@ void RemoveFlags(ConvarFlags flags)
 void ReplicateToClient(int clientId, T value)
 ```
 
-#### Parameters
+- Parameters
 
 - **clientId**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The client id to replicate to.
 - **value**: T
@@ -102,7 +102,7 @@ void ReplicateToClient(int clientId, T value)
 void SetInternal(T value)
 ```
 
-#### Parameters
+- Parameters
 
 - **value**: T - The value to set.
 

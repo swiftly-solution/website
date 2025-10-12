@@ -6,7 +6,7 @@ title: FeSimdSpringIntegrator_t
 public interface FeSimdSpringIntegrator_t : ISchemaClass<FeSimdSpringIntegrator_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeSimdSpringIntegrator_t : ISchemaClass<FeSimdSpringIntegrator_
 SchemaUntypedField Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Node { get; }
 ref fltx4 NodeWeight0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -36,7 +36,7 @@ ref fltx4 NodeWeight0 { get; }
 ref fltx4 SpringConstant { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -46,7 +46,7 @@ ref fltx4 SpringConstant { get; }
 ref fltx4 SpringDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -56,7 +56,7 @@ ref fltx4 SpringDamping { get; }
 ref fltx4 SpringRestLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 

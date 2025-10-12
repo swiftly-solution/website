@@ -6,7 +6,7 @@ title: CPulseCell_BooleanSwitchState
 public interface CPulseCell_BooleanSwitchState : CPulseCell_BaseState, CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_BaseState>, ISchemaClass<CPulseCell_BooleanSwitchState>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_BooleanSwitchState : CPulseCell_BaseState, CPulseCel
 PulseObservableBoolExpression_t Condition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseObservableBoolExpression_t](/docs/api/shared/schemadefinitions/pulseobservableboolexpression_t)
 
@@ -26,7 +26,7 @@ PulseObservableBoolExpression_t Condition { get; }
 CPulse_OutflowConnection SubGraph { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
@@ -36,7 +36,7 @@ CPulse_OutflowConnection SubGraph { get; }
 CPulse_OutflowConnection WhenFalse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
@@ -46,7 +46,7 @@ CPulse_OutflowConnection WhenFalse { get; }
 CPulse_OutflowConnection WhenTrue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 

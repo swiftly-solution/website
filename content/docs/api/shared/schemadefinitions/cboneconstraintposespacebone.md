@@ -6,7 +6,7 @@ title: CBoneConstraintPoseSpaceBone
 public interface CBoneConstraintPoseSpaceBone : CBaseConstraint, CBoneConstraintBase, ISchemaClass<CBoneConstraintBase>, ISchemaClass<CBaseConstraint>, ISchemaClass<CBoneConstraintPoseSpaceBone>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBoneConstraintPoseSpaceBone : CBaseConstraint, CBoneConstraint
 ref CUtlVector InputList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

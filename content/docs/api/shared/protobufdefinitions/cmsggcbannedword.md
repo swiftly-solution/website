@@ -6,7 +6,7 @@ title: CMsgGCBannedWord
 public interface CMsgGCBannedWord : ITypedProtobuf<CMsgGCBannedWord>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCBannedWord : ITypedProtobuf<CMsgGCBannedWord>, INativeHan
 string Word { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Word { get; set; }
 uint WordId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint WordId { get; set; }
 GC_BannedWordType WordType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GC_BannedWordType](/docs/api/shared/protobufdefinitions/gc_bannedwordtype)
 

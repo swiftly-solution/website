@@ -6,7 +6,7 @@ title: EventItemPickupFailed
 public interface EventItemPickupFailed : IGameEvent<EventItemPickupFailed>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventItemPickupFailed : IGameEvent<EventItemPickupFailed>
 string Item { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Item { get; set; }
 short Limit { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ short Limit { get; set; }
 short Reason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ short Reason { get; set; }
 int UserId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int UserId { get; set; }
 CCSPlayerController UserIdController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
@@ -66,7 +66,7 @@ CCSPlayerController UserIdController { get; }
 CCSPlayerPawn UserIdPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
@@ -76,7 +76,7 @@ CCSPlayerPawn UserIdPawn { get; }
 IPlayer UserIdPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 

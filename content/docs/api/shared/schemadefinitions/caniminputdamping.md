@@ -6,7 +6,7 @@ title: CAnimInputDamping
 public interface CAnimInputDamping : ISchemaClass<CAnimInputDamping>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimInputDamping : ISchemaClass<CAnimInputDamping>, ISchemaFie
 ref float FallingSpeedScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float FallingSpeedScale { get; }
 ref DampingSpeedFunction SpeedFunction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DampingSpeedFunction](/docs/api/shared/schemadefinitions/dampingspeedfunction)
 
@@ -36,7 +36,7 @@ ref DampingSpeedFunction SpeedFunction { get; }
 ref float SpeedScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

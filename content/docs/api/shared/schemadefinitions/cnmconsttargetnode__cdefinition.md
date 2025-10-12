@@ -6,7 +6,7 @@ title: CNmConstTargetNode__CDefinition
 public interface CNmConstTargetNode__CDefinition : CNmTargetValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmTargetValueNode__CDefinition>, ISchemaClass<CNmConstTargetNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmConstTargetNode__CDefinition : CNmTargetValueNode__CDefiniti
 CNmTarget Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmTarget](/docs/api/shared/schemadefinitions/cnmtarget)
 

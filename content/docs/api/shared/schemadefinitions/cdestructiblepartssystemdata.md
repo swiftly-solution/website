@@ -6,7 +6,7 @@ title: CDestructiblePartsSystemData
 public interface CDestructiblePartsSystemData : ISchemaClass<CDestructiblePartsSystemData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDestructiblePartsSystemData : ISchemaClass<CDestructiblePartsS
 CRangeInt MinMaxNumberHitGroupsToDestroyWhenGibbing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRangeInt](/docs/api/shared/schemadefinitions/crangeint)
 
@@ -26,7 +26,7 @@ CRangeInt MinMaxNumberHitGroupsToDestroyWhenGibbing { get; }
 SchemaUntypedField PartsDataByHitGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

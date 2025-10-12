@@ -6,7 +6,7 @@ title: VMixSubgraphSwitchDesc_t
 public interface VMixSubgraphSwitchDesc_t : ISchemaClass<VMixSubgraphSwitchDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixSubgraphSwitchDesc_t : ISchemaClass<VMixSubgraphSwitchDesc_
 ref VMixSubgraphSwitchInterpolationType_t InterpolationMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixSubgraphSwitchInterpolationType_t](/docs/api/shared/schemadefinitions/vmixsubgraphswitchinterpolationtype_t)
 
@@ -26,7 +26,7 @@ ref VMixSubgraphSwitchInterpolationType_t InterpolationMode { get; }
 ref float InterpolationTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float InterpolationTime { get; }
 ref bool OnlyTailsOnFadeOut { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

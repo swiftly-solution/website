@@ -6,7 +6,7 @@ title: CAimCameraUpdateNode
 public interface CAimCameraUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CAimCameraUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAimCameraUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, I
 AimCameraOpFixedSettings_t OpFixedSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AimCameraOpFixedSettings_t](/docs/api/shared/schemadefinitions/aimcameraopfixedsettings_t)
 
@@ -26,7 +26,7 @@ AimCameraOpFixedSettings_t OpFixedSettings { get; }
 CAnimParamHandle ParameterCameraClearanceDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -36,7 +36,7 @@ CAnimParamHandle ParameterCameraClearanceDistance { get; }
 CAnimParamHandle ParameterCameraOnly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -46,7 +46,7 @@ CAnimParamHandle ParameterCameraOnly { get; }
 CAnimParamHandle ParameterOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -56,7 +56,7 @@ CAnimParamHandle ParameterOrientation { get; }
 CAnimParamHandle ParameterPelvisOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -66,7 +66,7 @@ CAnimParamHandle ParameterPelvisOffset { get; }
 CAnimParamHandle ParameterPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -76,7 +76,7 @@ CAnimParamHandle ParameterPosition { get; }
 CAnimParamHandle ParameterSpineRotationWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -86,7 +86,7 @@ CAnimParamHandle ParameterSpineRotationWeight { get; }
 CAnimParamHandle ParameterUseIK { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -96,7 +96,7 @@ CAnimParamHandle ParameterUseIK { get; }
 CAnimParamHandle ParameterWeaponDepenetrationDelta { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -106,7 +106,7 @@ CAnimParamHandle ParameterWeaponDepenetrationDelta { get; }
 CAnimParamHandle ParameterWeaponDepenetrationDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 

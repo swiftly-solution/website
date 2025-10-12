@@ -6,7 +6,7 @@ title: CNmStateCompletedConditionNode__CDefinition
 public interface CNmStateCompletedConditionNode__CDefinition : CNmBoolValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmBoolValueNode__CDefinition>, ISchemaClass<CNmStateCompletedConditionNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmStateCompletedConditionNode__CDefinition : CNmBoolValueNode_
 ref short SourceStateNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short SourceStateNodeIdx { get; }
 ref short TransitionDurationOverrideNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short TransitionDurationOverrideNodeIdx { get; }
 ref float TransitionDurationSeconds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CNETMsg_SetConVar
 public interface CNETMsg_SetConVar : ITypedProtobuf<CNETMsg_SetConVar>, INativeHandle, INetMessage<CNETMsg_SetConVar>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNETMsg_SetConVar : ITypedProtobuf<CNETMsg_SetConVar>, INativeH
 CMsg_CVars Convars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsg_CVars](/docs/api/shared/protobufdefinitions/cmsg_cvars)
 

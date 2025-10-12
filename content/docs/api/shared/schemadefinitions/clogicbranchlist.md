@@ -6,7 +6,7 @@ title: CLogicBranchList
 public interface CLogicBranchList : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CLogicBranchList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLogicBranchList : CLogicalEntity, CServerOnlyEntity, CBaseEnti
 ref CLogicBranchList__LogicBranchListenerLastState_t LastState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CLogicBranchList__LogicBranchListenerLastState_t](/docs/api/shared/schemadefinitions/clogicbranchlist__logicbranchlistenerlaststate_t)
 
@@ -26,7 +26,7 @@ ref CLogicBranchList__LogicBranchListenerLastState_t LastState { get; }
 ref CUtlVector<CHandle<CBaseEntity>> LogicBranchList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CHandle<CBaseEntity>> LogicBranchList { get; }
 string LogicBranchNames { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string LogicBranchNames { get; set; }
 CEntityIOOutput OnAllFalse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -56,7 +56,7 @@ CEntityIOOutput OnAllFalse { get; }
 CEntityIOOutput OnAllTrue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -66,7 +66,7 @@ CEntityIOOutput OnAllTrue { get; }
 CEntityIOOutput OnMixed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 

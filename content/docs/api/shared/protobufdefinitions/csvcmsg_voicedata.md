@@ -6,7 +6,7 @@ title: CSVCMsg_VoiceData
 public interface CSVCMsg_VoiceData : ITypedProtobuf<CSVCMsg_VoiceData>, INativeHandle, INetMessage<CSVCMsg_VoiceData>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_VoiceData : ITypedProtobuf<CSVCMsg_VoiceData>, INativeH
 int AudibleMask { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AudibleMask { get; set; }
 CMsgVoiceAudio Audio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgVoiceAudio](/docs/api/shared/protobufdefinitions/cmsgvoiceaudio)
 
@@ -36,7 +36,7 @@ CMsgVoiceAudio Audio { get; }
 int Client { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Client { get; set; }
 int Passthrough { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int Passthrough { get; set; }
 bool Proximity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ bool Proximity { get; set; }
 uint Tick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint Tick { get; set; }
 ulong Xuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

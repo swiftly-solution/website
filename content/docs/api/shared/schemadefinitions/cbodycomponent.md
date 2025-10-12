@@ -6,7 +6,7 @@ title: CBodyComponent
 public interface CBodyComponent : CEntityComponent, ISchemaClass<CEntityComponent>, ISchemaClass<CBodyComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBodyComponent : CEntityComponent, ISchemaClass<CEntityComponen
 CGameSceneNode? SceneNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGameSceneNode](/docs/api/shared/schemadefinitions/cgamescenenode)?
 
@@ -26,7 +26,7 @@ CGameSceneNode? SceneNode { get; }
 ref CNetworkVarChainer __m_pChainEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkVarChainer](/docs/api/shared/natives/cnetworkvarchainer)
 

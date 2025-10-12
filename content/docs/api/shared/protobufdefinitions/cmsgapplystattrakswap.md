@@ -6,7 +6,7 @@ title: CMsgApplyStatTrakSwap
 public interface CMsgApplyStatTrakSwap : ITypedProtobuf<CMsgApplyStatTrakSwap>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgApplyStatTrakSwap : ITypedProtobuf<CMsgApplyStatTrakSwap>, 
 ulong Item1ItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Item1ItemId { get; set; }
 ulong Item2ItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong Item2ItemId { get; set; }
 ulong ToolItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

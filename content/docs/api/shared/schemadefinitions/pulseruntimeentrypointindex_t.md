@@ -6,7 +6,7 @@ title: PulseRuntimeEntrypointIndex_t
 public interface PulseRuntimeEntrypointIndex_t : ISchemaClass<PulseRuntimeEntrypointIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseRuntimeEntrypointIndex_t : ISchemaClass<PulseRuntimeEntryp
 ref int Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CPulseCell_Outflow_CycleShuffled__InstanceState_t
 public interface CPulseCell_Outflow_CycleShuffled__InstanceState_t : ISchemaClass<CPulseCell_Outflow_CycleShuffled__InstanceState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Outflow_CycleShuffled__InstanceState_t : ISchemaClas
 ref int NextShuffle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int NextShuffle { get; }
 SchemaUntypedField Shuffle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

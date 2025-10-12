@@ -6,7 +6,7 @@ title: CAnimGraphDebugReplay
 public interface CAnimGraphDebugReplay : ISchemaClass<CAnimGraphDebugReplay>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimGraphDebugReplay : ISchemaClass<CAnimGraphDebugReplay>, IS
 string AnimGraphFileName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AnimGraphFileName { get; set; }
 ref int FrameCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int FrameCount { get; }
 ref CUtlVector FrameList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector FrameList { get; }
 ref int StartIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int StartIndex { get; }
 ref int WriteIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

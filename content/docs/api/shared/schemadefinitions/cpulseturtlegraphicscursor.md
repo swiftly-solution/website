@@ -6,7 +6,7 @@ title: CPulseTurtleGraphicsCursor
 public interface CPulseTurtleGraphicsCursor : CPulseExecCursor, ISchemaClass<CPulseExecCursor>, ISchemaClass<CPulseTurtleGraphicsCursor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseTurtleGraphicsCursor : CPulseExecCursor, ISchemaClass<CPu
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -26,7 +26,7 @@ ref Color Color { get; }
 ref float HeadingDeg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float HeadingDeg { get; }
 ref bool PenUp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool PenUp { get; }
 ref Vector2D Pos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 

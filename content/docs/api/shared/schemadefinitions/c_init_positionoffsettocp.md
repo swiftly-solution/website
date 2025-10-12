@@ -6,7 +6,7 @@ title: C_INIT_PositionOffsetToCP
 public interface C_INIT_PositionOffsetToCP : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_PositionOffsetToCP>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_PositionOffsetToCP : CParticleFunctionInitializer, CPart
 ref int ControlPointNumberEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ControlPointNumberEnd { get; }
 ref int ControlPointNumberStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ControlPointNumberStart { get; }
 ref bool LocalCoords { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

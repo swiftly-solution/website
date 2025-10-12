@@ -6,7 +6,7 @@ title: CPhysSurfacePropertiesVehicle
 public interface CPhysSurfacePropertiesVehicle : ISchemaClass<CPhysSurfacePropertiesVehicle>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysSurfacePropertiesVehicle : ISchemaClass<CPhysSurfaceProper
 ref float WheelDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float WheelDrag { get; }
 ref float WheelFrictionScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

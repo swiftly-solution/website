@@ -6,7 +6,7 @@ title: CSequenceTagSpans
 public interface CSequenceTagSpans : ISchemaClass<CSequenceTagSpans>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSequenceTagSpans : ISchemaClass<CSequenceTagSpans>, ISchemaFie
 ref CGlobalSymbol SequenceName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -26,7 +26,7 @@ ref CGlobalSymbol SequenceName { get; }
 ref CUtlVector Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

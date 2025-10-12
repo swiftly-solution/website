@@ -6,7 +6,7 @@ title: CMsgGCStorePurchaseInitResponse
 public interface CMsgGCStorePurchaseInitResponse : ITypedProtobuf<CMsgGCStorePurchaseInitResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCStorePurchaseInitResponse : ITypedProtobuf<CMsgGCStorePur
 IProtobufRepeatedFieldValueType<ulong> ItemIds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<ulong> ItemIds { get; }
 int Result { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Result { get; set; }
 ulong TxnId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong TxnId { get; set; }
 string Url { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

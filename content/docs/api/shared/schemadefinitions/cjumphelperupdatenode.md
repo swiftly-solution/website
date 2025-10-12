@@ -6,7 +6,7 @@ title: CJumpHelperUpdateNode
 public interface CJumpHelperUpdateNode : CSequenceUpdateNode, CSequenceUpdateNodeBase, CLeafUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CLeafUpdateNode>, ISchemaClass<CSequenceUpdateNodeBase>, ISchemaClass<CSequenceUpdateNode>, ISchemaClass<CJumpHelperUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CJumpHelperUpdateNode : CSequenceUpdateNode, CSequenceUpdateNod
 ref JumpCorrectionMethod CorrectionMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [JumpCorrectionMethod](/docs/api/shared/schemadefinitions/jumpcorrectionmethod)
 
@@ -26,7 +26,7 @@ ref JumpCorrectionMethod CorrectionMethod { get; }
 ref float JumpEndCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float JumpEndCycle { get; }
 ref float JumpStartCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float JumpStartCycle { get; }
 ref float OriginalJumpDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float OriginalJumpDuration { get; }
 ref Vector OriginalJumpMovement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector OriginalJumpMovement { get; }
 ref bool ScaleSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool ScaleSpeed { get; }
 CAnimParamHandle TargetParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -86,7 +86,7 @@ CAnimParamHandle TargetParam { get; }
 ISchemaFixedArray<bool> TranslationAxis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 

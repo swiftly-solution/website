@@ -6,7 +6,7 @@ title: CCLCMsg_HltvFixupOperatorTick
 public interface CCLCMsg_HltvFixupOperatorTick : ITypedProtobuf<CCLCMsg_HltvFixupOperatorTick>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_HltvFixupOperatorTick : ITypedProtobuf<CCLCMsg_HltvFixu
 bool CameramanScoreboard { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool CameramanScoreboard { get; set; }
 QAngle EyeAngles { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -36,7 +36,7 @@ QAngle EyeAngles { get; set; }
 int ObserverMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int ObserverMode { get; set; }
 int ObserverTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int ObserverTarget { get; set; }
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ Vector Origin { get; set; }
 byte[] PropsData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -76,7 +76,7 @@ byte[] PropsData { get; set; }
 int Tick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ int Tick { get; set; }
 Vector ViewOffset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

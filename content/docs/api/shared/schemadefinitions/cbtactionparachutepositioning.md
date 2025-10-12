@@ -6,7 +6,7 @@ title: CBtActionParachutePositioning
 public interface CBtActionParachutePositioning : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<CBtActionParachutePositioning>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBtActionParachutePositioning : CBtNode, ISchemaClass<CBtNode>,
 CountdownTimer ActionTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 

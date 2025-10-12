@@ -6,7 +6,7 @@ title: C_OP_CPOffsetToPercentageBetweenCPs
 public interface C_OP_CPOffsetToPercentageBetweenCPs : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_CPOffsetToPercentageBetweenCPs>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_CPOffsetToPercentageBetweenCPs : CParticleFunctionOperator
 ref int EndCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int EndCP { get; }
 ref float InputBias { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float InputBias { get; }
 ref int InputCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int InputCP { get; }
 ref float InputMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float InputMax { get; }
 ref float InputMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float InputMin { get; }
 ref Vector Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector Offset { get; }
 ref int OffsetCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int OffsetCP { get; }
 ref int OuputCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int OuputCP { get; }
 ref bool RadialCheck { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool RadialCheck { get; }
 ref bool ScaleOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool ScaleOffset { get; }
 ref int StartCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

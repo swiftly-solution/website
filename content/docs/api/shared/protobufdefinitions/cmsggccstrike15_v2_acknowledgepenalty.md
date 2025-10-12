@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_AcknowledgePenalty
 public interface CMsgGCCStrike15_v2_AcknowledgePenalty : ITypedProtobuf<CMsgGCCStrike15_v2_AcknowledgePenalty>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_AcknowledgePenalty : ITypedProtobuf<CMsgGCCS
 int Acknowledged { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

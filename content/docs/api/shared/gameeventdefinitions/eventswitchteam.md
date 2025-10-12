@@ -6,7 +6,7 @@ title: EventSwitchTeam
 public interface EventSwitchTeam : IGameEvent<EventSwitchTeam>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventSwitchTeam : IGameEvent<EventSwitchTeam>
 short AvgRank { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short AvgRank { get; set; }
 short NumCTSlotsFree { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ short NumCTSlotsFree { get; set; }
 short NumPlayers { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ short NumPlayers { get; set; }
 short NumSpectators { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ short NumSpectators { get; set; }
 short NumTSlotsFree { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

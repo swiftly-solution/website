@@ -6,7 +6,7 @@ title: FeSDFRigid_t
 public interface FeSDFRigid_t : ISchemaClass<FeSDFRigid_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeSDFRigid_t : ISchemaClass<FeSDFRigid_t>, ISchemaField, ISchem
 ref float Bounciness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Bounciness { get; }
 ref ushort CollisionMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort CollisionMask { get; }
 ref int Depth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int Depth { get; }
 ref CUtlVector<float> Distances { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<float> Distances { get; }
 ref ushort Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -66,7 +66,7 @@ ref ushort Flags { get; }
 ref int Height { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int Height { get; }
 ref Vector LocalMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector LocalMax { get; }
 ref Vector LocalMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector LocalMin { get; }
 ref ushort Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -106,7 +106,7 @@ ref ushort Node { get; }
 ref ushort VertexMapIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -116,7 +116,7 @@ ref ushort VertexMapIndex { get; }
 ref int Width { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

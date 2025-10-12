@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientPartyJoinRelay
 public interface CMsgGCCStrike15_v2_ClientPartyJoinRelay : ITypedProtobuf<CMsgGCCStrike15_v2_ClientPartyJoinRelay>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientPartyJoinRelay : ITypedProtobuf<CMsgGC
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 ulong Lobbyid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

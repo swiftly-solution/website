@@ -6,7 +6,7 @@ title: CPhysicsBodyGameMarkupData
 public interface CPhysicsBodyGameMarkupData : ISchemaClass<CPhysicsBodyGameMarkupData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysicsBodyGameMarkupData : ISchemaClass<CPhysicsBodyGameMarku
 SchemaUntypedField PhysicsBodyMarkupByBoneName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

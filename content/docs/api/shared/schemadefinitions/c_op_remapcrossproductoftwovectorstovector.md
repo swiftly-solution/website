@@ -6,7 +6,7 @@ title: C_OP_RemapCrossProductOfTwoVectorsToVector
 public interface C_OP_RemapCrossProductOfTwoVectorsToVector : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_RemapCrossProductOfTwoVectorsToVector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RemapCrossProductOfTwoVectorsToVector : CParticleFunctionO
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 CPerParticleVecInput InputVec1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -36,7 +36,7 @@ CPerParticleVecInput InputVec1 { get; }
 CPerParticleVecInput InputVec2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -46,7 +46,7 @@ CPerParticleVecInput InputVec2 { get; }
 ref bool Normalize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

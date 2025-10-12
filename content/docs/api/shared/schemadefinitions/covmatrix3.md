@@ -6,7 +6,7 @@ title: CovMatrix3
 public interface CovMatrix3 : ISchemaClass<CovMatrix3>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CovMatrix3 : ISchemaClass<CovMatrix3>, ISchemaField, ISchemaCla
 ref Vector Diag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector Diag { get; }
 ref float XY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float XY { get; }
 ref float XZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float XZ { get; }
 ref float YZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

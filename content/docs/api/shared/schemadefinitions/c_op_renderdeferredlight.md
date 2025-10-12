@@ -6,7 +6,7 @@ title: C_OP_RenderDeferredLight
 public interface C_OP_RenderDeferredLight : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderDeferredLight>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderDeferredLight : CParticleFunctionRenderer, CParticle
 ParticleAttributeIndex_t Alpha2Field { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t Alpha2Field { get; }
 ref float AlphaScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AlphaScale { get; }
 ParticleAttributeIndex_t AlphaTestPointField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -46,7 +46,7 @@ ParticleAttributeIndex_t AlphaTestPointField { get; }
 ParticleAttributeIndex_t AlphaTestRangeField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -56,7 +56,7 @@ ParticleAttributeIndex_t AlphaTestRangeField { get; }
 ParticleAttributeIndex_t AlphaTestSharpnessField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -66,7 +66,7 @@ ParticleAttributeIndex_t AlphaTestSharpnessField { get; }
 ref ParticleColorBlendType_t ColorBlendType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
@@ -76,7 +76,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 CParticleCollectionVecInput ColorScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -86,7 +86,7 @@ CParticleCollectionVecInput ColorScale { get; }
 ref float DistanceFalloff { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float DistanceFalloff { get; }
 ref int HSVShiftControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int HSVShiftControlPoint { get; }
 ref float LightDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float LightDistance { get; }
 ref float RadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float RadiusScale { get; }
 ref float SpotFoV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float SpotFoV { get; }
 ref float StartFalloff { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float StartFalloff { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Texture { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -156,7 +156,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Texture { get; }
 ref bool UseAlphaTestWindow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool UseAlphaTestWindow { get; }
 ref bool UseTexture { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

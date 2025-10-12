@@ -6,5 +6,5 @@ title: CPulseExecCursor
 public interface CPulseExecCursor : ISchemaClass<CPulseExecCursor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

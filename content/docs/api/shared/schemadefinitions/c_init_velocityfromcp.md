@@ -6,7 +6,7 @@ title: C_INIT_VelocityFromCP
 public interface C_INIT_VelocityFromCP : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_VelocityFromCP>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_VelocityFromCP : CParticleFunctionInitializer, CParticle
 ref bool DirectionOnly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool DirectionOnly { get; }
 CParticleTransformInput TransformInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 
@@ -36,7 +36,7 @@ CParticleTransformInput TransformInput { get; }
 CParticleCollectionVecInput VelocityInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionVecInput VelocityInput { get; }
 ref float VelocityScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

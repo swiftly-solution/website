@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GC2ClientTournamentInfo
 public interface CMsgGCCStrike15_v2_GC2ClientTournamentInfo : ITypedProtobuf<CMsgGCCStrike15_v2_GC2ClientTournamentInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GC2ClientTournamentInfo : ITypedProtobuf<CMs
 uint Eventid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Eventid { get; set; }
 uint GameType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint GameType { get; set; }
 uint Stageid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Stageid { get; set; }
 IProtobufRepeatedFieldValueType<uint> Teamids { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

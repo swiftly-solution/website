@@ -6,7 +6,7 @@ title: CSkillDamage
 public interface CSkillDamage : ISchemaClass<CSkillDamage>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSkillDamage : ISchemaClass<CSkillDamage>, ISchemaField, ISchem
 CSkillFloat Damage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
@@ -26,7 +26,7 @@ CSkillFloat Damage { get; }
 ref float NPCDamageScalarVsNPC { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float NPCDamageScalarVsNPC { get; }
 ref float PhysicsForceDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

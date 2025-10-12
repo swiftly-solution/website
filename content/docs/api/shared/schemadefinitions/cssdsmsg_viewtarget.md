@@ -6,7 +6,7 @@ title: CSSDSMsg_ViewTarget
 public interface CSSDSMsg_ViewTarget : ISchemaClass<CSSDSMsg_ViewTarget>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSSDSMsg_ViewTarget : ISchemaClass<CSSDSMsg_ViewTarget>, ISchem
 ref int Depth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Depth { get; }
 ref int Format { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int Format { get; }
 ref int Height { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int Height { get; }
 ref int MultisampleNumSamples { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int MultisampleNumSamples { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string Name { get; set; }
 ref int NumMipLevels { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int NumMipLevels { get; }
 ref int RequestedHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int RequestedHeight { get; }
 ref int RequestedWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int RequestedWidth { get; }
 ref ulong TextureId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -106,7 +106,7 @@ ref ulong TextureId { get; }
 ref int Width { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

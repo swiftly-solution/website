@@ -6,7 +6,7 @@ title: CRelativeLocation
 public interface CRelativeLocation : ISchemaClass<CRelativeLocation>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRelativeLocation : ISchemaClass<CRelativeLocation>, ISchemaFie
 ref CHandle<CBaseEntity> Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 ref Vector RelativeOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector RelativeOffset { get; }
 ref RelativeLocationType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RelativeLocationType_t](/docs/api/shared/schemadefinitions/relativelocationtype_t)
 
@@ -46,7 +46,7 @@ ref RelativeLocationType_t Type { get; }
 ref Vector WorldSpacePos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

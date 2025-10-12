@@ -6,7 +6,7 @@ title: CMsgConsumableExhausted
 public interface CMsgConsumableExhausted : ITypedProtobuf<CMsgConsumableExhausted>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgConsumableExhausted : ITypedProtobuf<CMsgConsumableExhauste
 int ItemDefId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

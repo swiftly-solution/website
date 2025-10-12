@@ -6,7 +6,7 @@ title: EventCsPrevNextSpectator
 public interface EventCsPrevNextSpectator : IGameEvent<EventCsPrevNextSpectator>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventCsPrevNextSpectator : IGameEvent<EventCsPrevNextSpectator>
 bool Next { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

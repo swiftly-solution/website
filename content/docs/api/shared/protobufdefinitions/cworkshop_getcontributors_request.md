@@ -6,7 +6,7 @@ title: CWorkshop_GetContributors_Request
 public interface CWorkshop_GetContributors_Request : ITypedProtobuf<CWorkshop_GetContributors_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWorkshop_GetContributors_Request : ITypedProtobuf<CWorkshop_Ge
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Appid { get; set; }
 uint Gameitemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

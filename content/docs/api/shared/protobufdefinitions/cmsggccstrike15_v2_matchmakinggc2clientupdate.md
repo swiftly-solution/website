@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate
 public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate : ITypedProtobuf<
 string Error { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Error { get; set; }
 IProtobufRepeatedFieldValueType<uint> FailpingAccountIdSessions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<uint> FailpingAccountIdSessions { get; }
 IProtobufRepeatedFieldValueType<uint> FailreadyAccountIdSessions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldValueType<uint> FailreadyAccountIdSessions { get; }
 GlobalStatistics GlobalStats { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GlobalStatistics](/docs/api/shared/protobufdefinitions/globalstatistics)
 
@@ -56,7 +56,7 @@ GlobalStatistics GlobalStats { get; }
 IProtobufRepeatedFieldValueType<uint> InsecureAccountIdSessions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -66,7 +66,7 @@ IProtobufRepeatedFieldValueType<uint> InsecureAccountIdSessions { get; }
 IProtobufRepeatedFieldValueType<uint> InsufficientlevelSessions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldValueType<uint> InsufficientlevelSessions { get; }
 IProtobufRepeatedFieldValueType<uint> LauncherMismatchSessions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -86,7 +86,7 @@ IProtobufRepeatedFieldValueType<uint> LauncherMismatchSessions { get; }
 int Matchmaking { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ int Matchmaking { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note> Notes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2clientupdate_note)>
 
@@ -106,7 +106,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpda
 IProtobufRepeatedFieldValueType<uint> OngoingmatchAccountIdSessions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -116,7 +116,7 @@ IProtobufRepeatedFieldValueType<uint> OngoingmatchAccountIdSessions { get; }
 IProtobufRepeatedFieldValueType<uint> PenaltyAccountIdSessions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -126,7 +126,7 @@ IProtobufRepeatedFieldValueType<uint> PenaltyAccountIdSessions { get; }
 IProtobufRepeatedFieldValueType<uint> PenaltyAccountIdSessionsGreen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -136,7 +136,7 @@ IProtobufRepeatedFieldValueType<uint> PenaltyAccountIdSessionsGreen { get; }
 IpAddressMask ServerIpaddressMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IpAddressMask](/docs/api/shared/protobufdefinitions/ipaddressmask)
 
@@ -146,7 +146,7 @@ IpAddressMask ServerIpaddressMask { get; }
 IProtobufRepeatedFieldValueType<uint> VacbannedAccountIdSessions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -156,7 +156,7 @@ IProtobufRepeatedFieldValueType<uint> VacbannedAccountIdSessions { get; }
 IProtobufRepeatedFieldValueType<uint> VsncheckAccountIdSessions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -166,7 +166,7 @@ IProtobufRepeatedFieldValueType<uint> VsncheckAccountIdSessions { get; }
 IProtobufRepeatedFieldValueType<uint> WaitingAccountIdSessions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

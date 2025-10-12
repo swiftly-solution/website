@@ -6,7 +6,7 @@ title: CNmClipSelectorNode__CDefinition
 public interface CNmClipSelectorNode__CDefinition : CNmClipReferenceNode__CDefinition, CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmClipReferenceNode__CDefinition>, ISchemaClass<CNmClipSelectorNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmClipSelectorNode__CDefinition : CNmClipReferenceNode__CDefin
 SchemaUntypedField ConditionNodeIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField ConditionNodeIndices { get; }
 SchemaUntypedField OptionNodeIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

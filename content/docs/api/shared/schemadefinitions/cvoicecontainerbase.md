@@ -6,7 +6,7 @@ title: CVoiceContainerBase
 public interface CVoiceContainerBase : ISchemaClass<CVoiceContainerBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerBase : ISchemaClass<CVoiceContainerBase>, ISchem
 CVoiceContainerAnalysisBase? EnvelopeAnalyzer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CVoiceContainerAnalysisBase](/docs/api/shared/schemadefinitions/cvoicecontaineranalysisbase)?
 
@@ -26,7 +26,7 @@ CVoiceContainerAnalysisBase? EnvelopeAnalyzer { get; }
 CVSound Sound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CVSound](/docs/api/shared/schemadefinitions/cvsound)
 

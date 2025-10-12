@@ -6,7 +6,7 @@ title: FeTri_t
 public interface FeTri_t : ISchemaClass<FeTri_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeTri_t : ISchemaClass<FeTri_t>, ISchemaField, ISchemaClass, IN
 ISchemaFixedArray<ushort> Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -26,7 +26,7 @@ ISchemaFixedArray<ushort> Node { get; }
 ref float V1x { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float V1x { get; }
 ref Vector2D V2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -46,7 +46,7 @@ ref Vector2D V2 { get; }
 ref float W1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float W1 { get; }
 ref float W2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

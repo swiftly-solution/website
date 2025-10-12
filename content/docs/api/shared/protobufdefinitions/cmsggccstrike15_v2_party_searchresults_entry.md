@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Party_SearchResults_Entry
 public interface CMsgGCCStrike15_v2_Party_SearchResults_Entry : ITypedProtobuf<CMsgGCCStrike15_v2_Party_SearchResults_Entry>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Party_SearchResults_Entry : ITypedProtobuf<C
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 uint Apr { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Apr { get; set; }
 uint Ark { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Ark { get; set; }
 uint GameType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint GameType { get; set; }
 uint Grp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint Grp { get; set; }
 uint Id { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint Id { get; set; }
 uint Loc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

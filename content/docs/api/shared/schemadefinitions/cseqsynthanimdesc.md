@@ -6,7 +6,7 @@ title: CSeqSynthAnimDesc
 public interface CSeqSynthAnimDesc : ISchemaClass<CSeqSynthAnimDesc>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSeqSynthAnimDesc : ISchemaClass<CSeqSynthAnimDesc>, ISchemaFie
 ref CUtlVector ActivityArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector ActivityArray { get; }
 CSeqSeqDescFlag Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSeqSeqDescFlag](/docs/api/shared/schemadefinitions/cseqseqdescflag)
 
@@ -36,7 +36,7 @@ CSeqSeqDescFlag Flags { get; }
 ref short LocalBaseReference { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ ref short LocalBaseReference { get; }
 ref short LocalBoneMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ ref short LocalBoneMask { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -66,7 +66,7 @@ ref CBufferString Name { get; }
 CSeqTransition Transition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSeqTransition](/docs/api/shared/schemadefinitions/cseqtransition)
 

@@ -6,7 +6,7 @@ title: CModelState
 public interface CModelState : ISchemaClass<CModelState>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelState : ISchemaClass<CModelState>, ISchemaField, ISchemaC
 ref CUtlVector<int> BodyGroupChoices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<int> BodyGroupChoices { get; }
 ref bool ClientClothCreationSuppressed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ClientClothCreationSuppressed { get; }
 ref byte ClothUpdateFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -46,7 +46,7 @@ ref byte ClothUpdateFlags { get; }
 ref byte ForceLOD { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -56,7 +56,7 @@ ref byte ForceLOD { get; }
 ref byte IdealMotionType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -66,7 +66,7 @@ ref byte IdealMotionType { get; }
 ref ulong MeshGroupMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -76,7 +76,7 @@ ref ulong MeshGroupMask { get; }
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
@@ -86,7 +86,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 string ModelName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: TournamentTeam
 public interface TournamentTeam : ITypedProtobuf<TournamentTeam>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface TournamentTeam : ITypedProtobuf<TournamentTeam>, INativeHandle
 IProtobufRepeatedFieldSubMessageType<TournamentPlayer> Players { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[TournamentPlayer](/docs/api/shared/protobufdefinitions/tournamentplayer)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<TournamentPlayer> Players { get; }
 string TeamFlag { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string TeamFlag { get; set; }
 int TeamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int TeamId { get; set; }
 string TeamName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string TeamName { get; set; }
 string TeamTag { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

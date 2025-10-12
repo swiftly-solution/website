@@ -6,7 +6,7 @@ title: CPulseCell_SoundEventStart
 public interface CPulseCell_SoundEventStart : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_SoundEventStart>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_SoundEventStart : CPulseCell_BaseFlow, CPulseCell_Ba
 ref SoundEventStartType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SoundEventStartType_t](/docs/api/shared/schemadefinitions/soundeventstarttype_t)
 

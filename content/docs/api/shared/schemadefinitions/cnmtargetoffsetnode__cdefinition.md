@@ -6,7 +6,7 @@ title: CNmTargetOffsetNode__CDefinition
 public interface CNmTargetOffsetNode__CDefinition : CNmTargetValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmTargetValueNode__CDefinition>, ISchemaClass<CNmTargetOffsetNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmTargetOffsetNode__CDefinition : CNmTargetValueNode__CDefinit
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short InputValueNodeIdx { get; }
 ref bool IsBoneSpaceOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool IsBoneSpaceOffset { get; }
 ref Quaternion RotationOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -46,7 +46,7 @@ ref Quaternion RotationOffset { get; }
 ref Vector TranslationOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

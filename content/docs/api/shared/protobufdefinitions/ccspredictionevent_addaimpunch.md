@@ -6,7 +6,7 @@ title: CCSPredictionEvent_AddAimPunch
 public interface CCSPredictionEvent_AddAimPunch : ITypedProtobuf<CCSPredictionEvent_AddAimPunch>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPredictionEvent_AddAimPunch : ITypedProtobuf<CCSPredictionEv
 QAngle PunchAngle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ QAngle PunchAngle { get; set; }
 uint WhenTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint WhenTick { get; set; }
 float WhenTickFrac { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

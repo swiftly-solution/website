@@ -6,5 +6,5 @@ title: CPulseServerFuncs
 public interface CPulseServerFuncs : ISchemaClass<CPulseServerFuncs>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

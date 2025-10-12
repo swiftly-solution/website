@@ -6,7 +6,7 @@ title: CAimMatrixUpdateNode
 public interface CAimMatrixUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CAimMatrixUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAimMatrixUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, I
 ref bool LockWhenWaning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool LockWhenWaning { get; }
 AimMatrixOpFixedSettings_t OpFixedSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AimMatrixOpFixedSettings_t](/docs/api/shared/schemadefinitions/aimmatrixopfixedsettings_t)
 
@@ -36,7 +36,7 @@ AimMatrixOpFixedSettings_t OpFixedSettings { get; }
 CAnimParamHandle ParamIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -46,7 +46,7 @@ CAnimParamHandle ParamIndex { get; }
 ref bool ResetChild { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool ResetChild { get; }
 HSequence Sequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
@@ -66,7 +66,7 @@ HSequence Sequence { get; }
 ref AnimVectorSource Target { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimVectorSource](/docs/api/shared/schemadefinitions/animvectorsource)
 

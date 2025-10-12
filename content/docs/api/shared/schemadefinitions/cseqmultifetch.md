@@ -6,7 +6,7 @@ title: CSeqMultiFetch
 public interface CSeqMultiFetch : ISchemaClass<CSeqMultiFetch>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSeqMultiFetch : ISchemaClass<CSeqMultiFetch>, ISchemaField, IS
 ref bool CalculatePoseParameters { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CalculatePoseParameters { get; }
 ref bool FixedBlendWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool FixedBlendWeight { get; }
 ISchemaFixedArray<float> FixedBlendWeightVals { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -46,7 +46,7 @@ ISchemaFixedArray<float> FixedBlendWeightVals { get; }
 CSeqMultiFetchFlag Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSeqMultiFetchFlag](/docs/api/shared/schemadefinitions/cseqmultifetchflag)
 
@@ -56,7 +56,7 @@ CSeqMultiFetchFlag Flags { get; }
 ISchemaFixedArray<int> GroupSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -66,7 +66,7 @@ ISchemaFixedArray<int> GroupSize { get; }
 ref int LocalCyclePoseParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int LocalCyclePoseParameter { get; }
 ISchemaFixedArray<int> LocalPose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -86,7 +86,7 @@ ISchemaFixedArray<int> LocalPose { get; }
 ref CUtlVector<short> LocalReferenceArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[short](https://learn.microsoft.com/dotnet/api/system.int16)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<short> LocalReferenceArray { get; }
 ref CUtlVector<float> PoseKeyArray0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -106,7 +106,7 @@ ref CUtlVector<float> PoseKeyArray0 { get; }
 ref CUtlVector<float> PoseKeyArray1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

@@ -6,7 +6,7 @@ title: CAnimScriptBase
 public interface CAnimScriptBase : ISchemaClass<CAnimScriptBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimScriptBase : ISchemaClass<CAnimScriptBase>, ISchemaField, 
 ref bool IsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

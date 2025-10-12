@@ -6,7 +6,7 @@ title: ConstantInfo_t
 public interface ConstantInfo_t : ISchemaClass<ConstantInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ConstantInfo_t : ISchemaClass<ConstantInfo_t>, ISchemaField, IS
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Name { get; set; }
 ref CUtlStringToken NameToken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -36,7 +36,7 @@ ref CUtlStringToken NameToken { get; }
 ref float Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

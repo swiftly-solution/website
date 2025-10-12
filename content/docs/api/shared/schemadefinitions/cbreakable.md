@@ -6,7 +6,7 @@ title: CBreakable
 public interface CBreakable : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBreakable>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBreakable : CBaseModelEntity, CBaseEntity, CEntityInstance, IS
 ref CHandle<CBaseEntity> Breaker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> Breaker { get; }
 CPropDataComponent CPropDataComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPropDataComponent](/docs/api/shared/schemadefinitions/cpropdatacomponent)
 
@@ -36,7 +36,7 @@ CPropDataComponent CPropDataComponent { get; }
 ref Explosions Explosion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Explosions](/docs/api/shared/schemadefinitions/explosions)
 
@@ -46,7 +46,7 @@ ref Explosions Explosion { get; }
 ref float ImpactEnergyScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float ImpactEnergyScale { get; }
 GameTime_t LastPhysicsInfluenceTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -66,7 +66,7 @@ GameTime_t LastPhysicsInfluenceTime { get; }
 ref Materials Material { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Materials](/docs/api/shared/schemadefinitions/materials)
 
@@ -76,7 +76,7 @@ ref Materials Material { get; }
 ref int MinHealthDmg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int MinHealthDmg { get; }
 CEntityIOOutput OnBreak { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -96,7 +96,7 @@ CEntityIOOutput OnBreak { get; }
 SchemaUntypedField OnHealthChanged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -106,7 +106,7 @@ SchemaUntypedField OnHealthChanged { get; }
 ref EOverrideBlockLOS_t OverrideBlockLOS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EOverrideBlockLOS_t](/docs/api/shared/schemadefinitions/eoverrideblocklos_t)
 
@@ -116,7 +116,7 @@ ref EOverrideBlockLOS_t OverrideBlockLOS { get; }
 ref PerformanceMode_t PerformanceMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PerformanceMode_t](/docs/api/shared/schemadefinitions/performancemode_t)
 
@@ -126,7 +126,7 @@ ref PerformanceMode_t PerformanceMode { get; }
 ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>
 
@@ -136,7 +136,7 @@ ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
 ref float PressureDelay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float PressureDelay { get; }
 string PropData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -156,7 +156,7 @@ string PropData { get; set; }
 string SpawnObject { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

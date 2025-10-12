@@ -6,7 +6,7 @@ title: CMsgTELargeFunnel
 public interface CMsgTELargeFunnel : ITypedProtobuf<CMsgTELargeFunnel>, INativeHandle, INetMessage<CMsgTELargeFunnel>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTELargeFunnel : ITypedProtobuf<CMsgTELargeFunnel>, INativeH
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ Vector Origin { get; set; }
 uint Reversed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

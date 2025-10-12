@@ -6,7 +6,7 @@ title: CSlopeComponentUpdater
 public interface CSlopeComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CSlopeComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSlopeComponentUpdater : CAnimComponentUpdater, ISchemaClass<CA
 CAnimParamHandle SlopeAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -26,7 +26,7 @@ CAnimParamHandle SlopeAngle { get; }
 CAnimParamHandle SlopeAngleFront { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -36,7 +36,7 @@ CAnimParamHandle SlopeAngleFront { get; }
 CAnimParamHandle SlopeAngleSide { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -46,7 +46,7 @@ CAnimParamHandle SlopeAngleSide { get; }
 CAnimParamHandle SlopeHeading { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -56,7 +56,7 @@ CAnimParamHandle SlopeHeading { get; }
 CAnimParamHandle SlopeNormal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -66,7 +66,7 @@ CAnimParamHandle SlopeNormal { get; }
 CAnimParamHandle SlopeNormal_WorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -76,7 +76,7 @@ CAnimParamHandle SlopeNormal_WorldSpace { get; }
 ref float TraceDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

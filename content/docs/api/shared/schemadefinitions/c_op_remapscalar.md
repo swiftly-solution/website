@@ -6,7 +6,7 @@ title: C_OP_RemapScalar
 public interface C_OP_RemapScalar : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_RemapScalar>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RemapScalar : CParticleFunctionOperator, CParticleFunction
 ParticleAttributeIndex_t FieldInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 ref float InputMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float InputMax { get; }
 ref float InputMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float InputMin { get; }
 ref bool OldCode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool OldCode { get; }
 ref float OutputMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float OutputMax { get; }
 ref float OutputMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

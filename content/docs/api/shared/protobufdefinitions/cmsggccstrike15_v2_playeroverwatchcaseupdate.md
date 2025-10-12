@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_PlayerOverwatchCaseUpdate
 public interface CMsgGCCStrike15_v2_PlayerOverwatchCaseUpdate : ITypedProtobuf<CMsgGCCStrike15_v2_PlayerOverwatchCaseUpdate>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_PlayerOverwatchCaseUpdate : ITypedProtobuf<C
 ulong Caseid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Caseid { get; set; }
 uint Fractionid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Fractionid { get; set; }
 uint Reason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Reason { get; set; }
 uint RptAimbot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint RptAimbot { get; set; }
 uint RptSpeedhack { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint RptSpeedhack { get; set; }
 uint RptTeamharm { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint RptTeamharm { get; set; }
 uint RptWallhack { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint RptWallhack { get; set; }
 uint Suspectid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

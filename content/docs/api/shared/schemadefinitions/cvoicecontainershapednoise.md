@@ -6,7 +6,7 @@ title: CVoiceContainerShapedNoise
 public interface CVoiceContainerShapedNoise : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerShapedNoise>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerShapedNoise : CVoiceContainerBase, ISchemaClass<
 ref float Frequency { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Frequency { get; }
 SchemaUntypedField FrequencySweep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField FrequencySweep { get; }
 ref float GainInDecibels { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float GainInDecibels { get; }
 SchemaUntypedField GainSweep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField GainSweep { get; }
 ref float Resonance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float Resonance { get; }
 SchemaUntypedField ResonanceSweep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField ResonanceSweep { get; }
 ref bool UseCurveForAmplitude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool UseCurveForAmplitude { get; }
 ref bool UseCurveForFrequency { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool UseCurveForFrequency { get; }
 ref bool UseCurveForResonance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

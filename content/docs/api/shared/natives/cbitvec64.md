@@ -6,9 +6,9 @@ title: CBitVec64
 public struct CBitVec64 : ICBitVec
 ```
 
-#### Implements
+- Implements
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -26,7 +26,7 @@ public CBitVec64()
 public uint* _buffer
 ```
 
-#### Field Value
+- Field Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 
@@ -38,7 +38,7 @@ public uint* _buffer
 public void Clear(uint index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -48,7 +48,7 @@ public void Clear(uint index)
 public void Clear(int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -64,7 +64,7 @@ public void ClearAll()
 public int Count()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -74,7 +74,7 @@ public int Count()
 public uint GetNumBits()
 ```
 
-#### Returns
+- Returns
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -84,7 +84,7 @@ public uint GetNumBits()
 public bool IsAllClear()
 ```
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -94,7 +94,7 @@ public bool IsAllClear()
 public bool IsFixedSize()
 ```
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -104,11 +104,11 @@ public bool IsFixedSize()
 public bool IsSet(uint index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -118,11 +118,11 @@ public bool IsSet(uint index)
 public bool IsSet(int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -132,7 +132,7 @@ public bool IsSet(int index)
 public uint NumDWords()
 ```
 
-#### Returns
+- Returns
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -142,7 +142,7 @@ public uint NumDWords()
 public void Set(uint index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -152,7 +152,7 @@ public void Set(uint index)
 public void Set(int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

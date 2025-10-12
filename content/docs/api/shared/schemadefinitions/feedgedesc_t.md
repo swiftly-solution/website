@@ -6,7 +6,7 @@ title: FeEdgeDesc_t
 public interface FeEdgeDesc_t : ISchemaClass<FeEdgeDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeEdgeDesc_t : ISchemaClass<FeEdgeDesc_t>, ISchemaField, ISchem
 ISchemaFixedArray<ushort> Edge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -26,7 +26,7 @@ ISchemaFixedArray<ushort> Edge { get; }
 SchemaUntypedField Side { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Side { get; }
 ISchemaFixedArray<ushort> VirtElem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 

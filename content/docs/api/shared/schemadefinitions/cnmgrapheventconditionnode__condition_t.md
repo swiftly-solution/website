@@ -6,7 +6,7 @@ title: CNmGraphEventConditionNode__Condition_t
 public interface CNmGraphEventConditionNode__Condition_t : ISchemaClass<CNmGraphEventConditionNode__Condition_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmGraphEventConditionNode__Condition_t : ISchemaClass<CNmGraph
 ref CGlobalSymbol EventID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -26,7 +26,7 @@ ref CGlobalSymbol EventID { get; }
 ref NmGraphEventTypeCondition_t EventTypeCondition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmGraphEventTypeCondition_t](/docs/api/shared/schemadefinitions/nmgrapheventtypecondition_t)
 

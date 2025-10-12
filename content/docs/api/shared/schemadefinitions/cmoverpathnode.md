@@ -6,7 +6,7 @@ title: CMoverPathNode
 public interface CMoverPathNode : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CMoverPathNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMoverPathNode : CPointEntity, CBaseEntity, CEntityInstance, IS
 ref Vector InTangentLocal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector InTangentLocal { get; }
 ref CHandle<CPathMover> Mover { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPathMover](/docs/api/shared/schemadefinitions/cpathmover)>
 
@@ -36,7 +36,7 @@ ref CHandle<CPathMover> Mover { get; }
 CEntityIOOutput OnPassThrough { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -46,7 +46,7 @@ CEntityIOOutput OnPassThrough { get; }
 CEntityIOOutput OnPassThroughForward { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -56,7 +56,7 @@ CEntityIOOutput OnPassThroughForward { get; }
 CEntityIOOutput OnPassThroughReverse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -66,7 +66,7 @@ CEntityIOOutput OnPassThroughReverse { get; }
 CEntityIOOutput OnStartFromOrInSegment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -76,7 +76,7 @@ CEntityIOOutput OnStartFromOrInSegment { get; }
 CEntityIOOutput OnStoppedAtOrInSegment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -86,7 +86,7 @@ CEntityIOOutput OnStoppedAtOrInSegment { get; }
 ref Vector OutTangentLocal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector OutTangentLocal { get; }
 string ParentPathUniqueID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string ParentPathUniqueID { get; set; }
 string PathNodeParameter { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -116,7 +116,7 @@ string PathNodeParameter { get; set; }
 ref CTransform XWSPrevParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

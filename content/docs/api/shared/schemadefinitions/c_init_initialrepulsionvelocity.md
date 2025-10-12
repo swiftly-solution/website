@@ -6,7 +6,7 @@ title: C_INIT_InitialRepulsionVelocity
 public interface C_INIT_InitialRepulsionVelocity : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_InitialRepulsionVelocity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_InitialRepulsionVelocity : CParticleFunctionInitializer,
 ref int ChildCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ChildCP { get; }
 ref int ChildGroupID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ChildGroupID { get; }
 string CollisionGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string CollisionGroupName { get; set; }
 ref int ControlPointNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int ControlPointNumber { get; }
 ref bool Inherit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool Inherit { get; }
 ref Vector OutputMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector OutputMax { get; }
 ref Vector OutputMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector OutputMin { get; }
 ref bool PerParticle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool PerParticle { get; }
 ref bool PerParticleTR { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool PerParticleTR { get; }
 ref bool Proportional { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool Proportional { get; }
 ref float TraceLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float TraceLength { get; }
 ref ParticleTraceSet_t TraceSet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleTraceSet_t](/docs/api/shared/schemadefinitions/particletraceset_t)
 
@@ -136,7 +136,7 @@ ref ParticleTraceSet_t TraceSet { get; }
 ref bool Translate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

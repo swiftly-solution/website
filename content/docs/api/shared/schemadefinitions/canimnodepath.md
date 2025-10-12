@@ -6,7 +6,7 @@ title: CAnimNodePath
 public interface CAnimNodePath : ISchemaClass<CAnimNodePath>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimNodePath : ISchemaClass<CAnimNodePath>, ISchemaField, ISch
 ref int Count { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Count { get; }
 SchemaUntypedField Path { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

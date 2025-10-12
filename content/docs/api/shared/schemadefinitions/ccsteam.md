@@ -6,7 +6,7 @@ title: CCSTeam
 public interface CCSTeam : CTeam, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CTeam>, ISchemaClass<CCSTeam>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSTeam : CTeam, CBaseEntity, CEntityInstance, ISchemaClass<CEn
 ref uint ClanID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint ClanID { get; }
 string ClanTeamname { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ClanTeamname { get; set; }
 ref int LastRecievedShorthandedRoundBonus { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int LastRecievedShorthandedRoundBonus { get; }
 ref int LastUpdateSentAt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int LastUpdateSentAt { get; }
 ref float NextResourceTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float NextResourceTime { get; }
 ref int NumMapVictories { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int NumMapVictories { get; }
 ref int ScoreFirstHalf { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int ScoreFirstHalf { get; }
 ref int ScoreOvertime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int ScoreOvertime { get; }
 ref int ScoreSecondHalf { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int ScoreSecondHalf { get; }
 ref int ShorthandedRoundBonusStartRound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int ShorthandedRoundBonusStartRound { get; }
 ref bool Surrendered { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool Surrendered { get; }
 string TeamFlagImage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string TeamFlagImage { get; set; }
 string TeamLogoImage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -146,7 +146,7 @@ string TeamLogoImage { get; set; }
 string TeamMatchStat { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

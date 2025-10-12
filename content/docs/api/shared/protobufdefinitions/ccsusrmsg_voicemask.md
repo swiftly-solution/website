@@ -6,7 +6,7 @@ title: CCSUsrMsg_VoiceMask
 public interface CCSUsrMsg_VoiceMask : ITypedProtobuf<CCSUsrMsg_VoiceMask>, INativeHandle, INetMessage<CCSUsrMsg_VoiceMask>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_VoiceMask : ITypedProtobuf<CCSUsrMsg_VoiceMask>, INat
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_VoiceMask_PlayerMask> PlayerMasks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_VoiceMask_PlayerMask](/docs/api/shared/protobufdefinitions/ccsusrmsg_voicemask_playermask)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_VoiceMask_PlayerMask> PlayerMasks
 bool PlayerModEnable { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

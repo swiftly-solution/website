@@ -6,5 +6,5 @@ title: InfoForResourceTypeIAnimGraphModelBinding
 public interface InfoForResourceTypeIAnimGraphModelBinding : ISchemaClass<InfoForResourceTypeIAnimGraphModelBinding>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

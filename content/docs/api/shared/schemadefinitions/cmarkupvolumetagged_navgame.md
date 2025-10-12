@@ -6,7 +6,7 @@ title: CMarkupVolumeTagged_NavGame
 public interface CMarkupVolumeTagged_NavGame : CMarkupVolumeWithRef, CMarkupVolumeTagged, CMarkupVolume, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CMarkupVolume>, ISchemaClass<CMarkupVolumeTagged>, ISchemaClass<CMarkupVolumeWithRef>, ISchemaClass<CMarkupVolumeTagged_NavGame>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMarkupVolumeTagged_NavGame : CMarkupVolumeWithRef, CMarkupVolu
 ref bool FloodFillAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool FloodFillAttribute { get; }
 ref NavScopeFlags_t Scopes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NavScopeFlags_t](/docs/api/shared/schemadefinitions/navscopeflags_t)
 
@@ -36,7 +36,7 @@ ref NavScopeFlags_t Scopes { get; }
 ref bool SplitNavSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

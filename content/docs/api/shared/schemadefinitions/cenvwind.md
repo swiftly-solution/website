@@ -6,7 +6,7 @@ title: CEnvWind
 public interface CEnvWind : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CEnvWind>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEnvWind : CBaseEntity, CEntityInstance, ISchemaClass<CEntityIn
 CEnvWindShared EnvWindShared { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEnvWindShared](/docs/api/shared/schemadefinitions/cenvwindshared)
 

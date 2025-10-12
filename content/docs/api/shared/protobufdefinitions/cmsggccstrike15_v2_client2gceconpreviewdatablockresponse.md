@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse
 public interface CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse : ITypedProtobuf<CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockResponse : ITyp
 CEconItemPreviewDataBlock Iteminfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemPreviewDataBlock](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock)
 

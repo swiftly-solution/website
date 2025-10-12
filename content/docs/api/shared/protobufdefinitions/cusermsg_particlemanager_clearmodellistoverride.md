@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_ClearModellistOverride
 public interface CUserMsg_ParticleManager_ClearModellistOverride : ITypedProtobuf<CUserMsg_ParticleManager_ClearModellistOverride>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_ClearModellistOverride : ITypedProtobu
 uint Groupid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

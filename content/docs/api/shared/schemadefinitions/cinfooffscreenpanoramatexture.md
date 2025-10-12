@@ -6,7 +6,7 @@ title: CInfoOffscreenPanoramaTexture
 public interface CInfoOffscreenPanoramaTexture : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CInfoOffscreenPanoramaTexture>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CInfoOffscreenPanoramaTexture : CPointEntity, CBaseEntity, CEnt
 ref CUtlVector<CHandle<CBaseModelEntity>> AdditionalTargetEntities { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CHandle<CBaseModelEntity>> AdditionalTargetEntities { get; }
 ref CUtlVector<CUtlSymbolLarge> CSSClasses { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlSymbolLarge> CSSClasses { get; }
 ref bool Disabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Disabled { get; }
 string LayoutFileName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string LayoutFileName { get; set; }
 string RenderAttrName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string RenderAttrName { get; set; }
 ref int ResolutionX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int ResolutionX { get; }
 ref int ResolutionY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int ResolutionY { get; }
 ref int TargetChangeCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int TargetChangeCount { get; }
 ref CUtlVector<CHandle<CBaseModelEntity>> TargetEntities { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>>
 
@@ -106,7 +106,7 @@ ref CUtlVector<CHandle<CBaseModelEntity>> TargetEntities { get; }
 string TargetsName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

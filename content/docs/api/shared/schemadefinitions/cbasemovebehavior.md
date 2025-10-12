@@ -6,7 +6,7 @@ title: CBaseMoveBehavior
 public interface CBaseMoveBehavior : CPathKeyFrame, CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CPathKeyFrame>, ISchemaClass<CBaseMoveBehavior>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseMoveBehavior : CPathKeyFrame, CLogicalEntity, CServerOnlyE
 ref float AnimEndTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AnimEndTime { get; }
 ref float AnimStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AnimStartTime { get; }
 ref float AverageSpeedAcrossFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float AverageSpeedAcrossFrame { get; }
 CPathKeyFrame? CurrentKeyFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathKeyFrame](/docs/api/shared/schemadefinitions/cpathkeyframe)?
 
@@ -56,7 +56,7 @@ CPathKeyFrame? CurrentKeyFrame { get; }
 ref int Direction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int Direction { get; }
 ref int PositionInterpolator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int PositionInterpolator { get; }
 CPathKeyFrame? PostKeyFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathKeyFrame](/docs/api/shared/schemadefinitions/cpathkeyframe)?
 
@@ -86,7 +86,7 @@ CPathKeyFrame? PostKeyFrame { get; }
 CPathKeyFrame? PreKeyFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathKeyFrame](/docs/api/shared/schemadefinitions/cpathkeyframe)?
 
@@ -96,7 +96,7 @@ CPathKeyFrame? PreKeyFrame { get; }
 ref int RotationInterpolator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int RotationInterpolator { get; }
 CPathKeyFrame? TargetKeyFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathKeyFrame](/docs/api/shared/schemadefinitions/cpathkeyframe)?
 
@@ -116,7 +116,7 @@ CPathKeyFrame? TargetKeyFrame { get; }
 ref float TimeIntoFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

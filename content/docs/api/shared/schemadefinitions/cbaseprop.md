@@ -6,7 +6,7 @@ title: CBaseProp
 public interface CBaseProp : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseProp : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEnt
 ref bool ConformToCollisionBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ConformToCollisionBounds { get; }
 ref CTransform MPreferredCatchTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -36,7 +36,7 @@ ref CTransform MPreferredCatchTransform { get; }
 ref bool ModelOverrodeBlockLOS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ModelOverrodeBlockLOS { get; }
 ref int ShapeType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

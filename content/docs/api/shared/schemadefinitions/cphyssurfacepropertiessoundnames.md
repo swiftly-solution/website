@@ -6,7 +6,7 @@ title: CPhysSurfacePropertiesSoundNames
 public interface CPhysSurfacePropertiesSoundNames : ISchemaClass<CPhysSurfacePropertiesSoundNames>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysSurfacePropertiesSoundNames : ISchemaClass<CPhysSurfacePro
 string Break { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Break { get; set; }
 string BulletImpact { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string BulletImpact { get; set; }
 string ImpactHard { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string ImpactHard { get; set; }
 string ImpactSoft { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string ImpactSoft { get; set; }
 string MeleeImpact { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string MeleeImpact { get; set; }
 string PushOff { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string PushOff { get; set; }
 string Resonant { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string Resonant { get; set; }
 string Rolling { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string Rolling { get; set; }
 string ScrapeRough { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string ScrapeRough { get; set; }
 string ScrapeSmooth { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -116,7 +116,7 @@ string ScrapeSmooth { get; set; }
 string SkidStop { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -126,7 +126,7 @@ string SkidStop { get; set; }
 string Strain { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

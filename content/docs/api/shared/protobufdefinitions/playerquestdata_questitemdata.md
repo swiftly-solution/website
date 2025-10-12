@@ -6,7 +6,7 @@ title: PlayerQuestData_QuestItemData
 public interface PlayerQuestData_QuestItemData : ITypedProtobuf<PlayerQuestData_QuestItemData>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PlayerQuestData_QuestItemData : ITypedProtobuf<PlayerQuestData_
 int QuestBonusPointsEarned { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int QuestBonusPointsEarned { get; set; }
 ulong QuestId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong QuestId { get; set; }
 int QuestNormalPointsEarned { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int QuestNormalPointsEarned { get; set; }
 IProtobufRepeatedFieldValueType<int> QuestNormalPointsRequired { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldValueType<int> QuestNormalPointsRequired { get; }
 int QuestPeriod { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int QuestPeriod { get; set; }
 IProtobufRepeatedFieldValueType<int> QuestRewardXp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldValueType<int> QuestRewardXp { get; }
 QuestType QuestType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QuestType](/docs/api/shared/protobufdefinitions/questtype)
 

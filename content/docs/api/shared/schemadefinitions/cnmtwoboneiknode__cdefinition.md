@@ -6,7 +6,7 @@ title: CNmTwoBoneIKNode__CDefinition
 public interface CNmTwoBoneIKNode__CDefinition : CNmPassthroughNode__CDefinition, CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmPassthroughNode__CDefinition>, ISchemaClass<CNmTwoBoneIKNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmTwoBoneIKNode__CDefinition : CNmPassthroughNode__CDefinition
 ref NmIKBlendMode_t BlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmIKBlendMode_t](/docs/api/shared/schemadefinitions/nmikblendmode_t)
 
@@ -26,7 +26,7 @@ ref NmIKBlendMode_t BlendMode { get; }
 ref float BlendTimeSeconds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float BlendTimeSeconds { get; }
 ref CGlobalSymbol EffectorBoneID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -46,7 +46,7 @@ ref CGlobalSymbol EffectorBoneID { get; }
 ref short EffectorTargetNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ ref short EffectorTargetNodeIdx { get; }
 ref short EnabledNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -66,7 +66,7 @@ ref short EnabledNodeIdx { get; }
 ref bool IsTargetInWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

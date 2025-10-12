@@ -6,7 +6,7 @@ title: CRegionSVM
 public interface CRegionSVM : ISchemaClass<CRegionSVM>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRegionSVM : ISchemaClass<CRegionSVM>, ISchemaField, ISchemaCla
 ref CUtlVector<uint> Nodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<uint> Nodes { get; }
 ref CUtlVector Planes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

@@ -6,7 +6,7 @@ title: CAnimUpdateSharedData
 public interface CAnimUpdateSharedData : ISchemaClass<CAnimUpdateSharedData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimUpdateSharedData : ISchemaClass<CAnimUpdateSharedData>, IS
 ref CUtlVector Components { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Components { get; }
 SchemaUntypedField NodeIndexMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField NodeIndexMap { get; }
 ref CUtlVector Nodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector Nodes { get; }
 SchemaUntypedField ParamListUpdater { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField ParamListUpdater { get; }
 CAnimNodePath RootNodePath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimNodePath](/docs/api/shared/schemadefinitions/canimnodepath)
 
@@ -66,7 +66,7 @@ CAnimNodePath RootNodePath { get; }
 SchemaUntypedField ScriptManager { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField ScriptManager { get; }
 CAnimGraphSettingsManager Settings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimGraphSettingsManager](/docs/api/shared/schemadefinitions/canimgraphsettingsmanager)
 
@@ -86,7 +86,7 @@ CAnimGraphSettingsManager Settings { get; }
 SchemaUntypedField Skeleton { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -96,7 +96,7 @@ SchemaUntypedField Skeleton { get; }
 SchemaUntypedField StaticPoseCache { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -106,7 +106,7 @@ SchemaUntypedField StaticPoseCache { get; }
 SchemaUntypedField TagManagerUpdater { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

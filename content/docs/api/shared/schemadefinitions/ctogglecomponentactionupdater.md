@@ -6,7 +6,7 @@ title: CToggleComponentActionUpdater
 public interface CToggleComponentActionUpdater : CAnimActionUpdater, ISchemaClass<CAnimActionUpdater>, ISchemaClass<CToggleComponentActionUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CToggleComponentActionUpdater : CAnimActionUpdater, ISchemaClas
 AnimComponentID ComponentID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimComponentID](/docs/api/shared/schemadefinitions/animcomponentid)
 
@@ -26,7 +26,7 @@ AnimComponentID ComponentID { get; }
 ref bool SetEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

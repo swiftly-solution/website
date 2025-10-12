@@ -6,7 +6,7 @@ title: MeshTrace
 public struct MeshTrace
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct MeshTrace
 public Vector Maxs
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ public Vector Maxs
 public Vector Mins
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ public Vector Mins
 public int NumVertices
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ public int NumVertices
 public Vector* Vertices
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)*
 

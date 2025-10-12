@@ -6,7 +6,7 @@ title: CNmBoneWeightList
 public interface CNmBoneWeightList : ISchemaClass<CNmBoneWeightList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmBoneWeightList : ISchemaClass<CNmBoneWeightList>, ISchemaFie
 ref CUtlVector<CGlobalSymbol> BoneIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CGlobalSymbol> BoneIDs { get; }
 SchemaUntypedField SkeletonName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField SkeletonName { get; }
 ref CUtlVector<float> Weights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

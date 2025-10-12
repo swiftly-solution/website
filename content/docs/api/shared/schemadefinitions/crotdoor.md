@@ -6,7 +6,7 @@ title: CRotDoor
 public interface CRotDoor : CBaseDoor, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseDoor>, ISchemaClass<CRotDoor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRotDoor : CBaseDoor, CBaseToggle, CBaseModelEntity, CBaseEntit
 ref bool SolidBsp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

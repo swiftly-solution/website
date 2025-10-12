@@ -6,7 +6,7 @@ title: CCLCMsg_SplitPlayerConnect
 public interface CCLCMsg_SplitPlayerConnect : ITypedProtobuf<CCLCMsg_SplitPlayerConnect>, INativeHandle, INetMessage<CCLCMsg_SplitPlayerConnect>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_SplitPlayerConnect : ITypedProtobuf<CCLCMsg_SplitPlayer
 string Playername { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

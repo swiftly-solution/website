@@ -6,7 +6,7 @@ title: AimMatrixOpFixedSettings_t
 public interface AimMatrixOpFixedSettings_t : ISchemaClass<AimMatrixOpFixedSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AimMatrixOpFixedSettings_t : ISchemaClass<AimMatrixOpFixedSetti
 CAnimAttachment Attachment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimAttachment](/docs/api/shared/schemadefinitions/canimattachment)
 
@@ -26,7 +26,7 @@ CAnimAttachment Attachment { get; }
 CBlendCurve BiasAndClampBlendCurve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBlendCurve](/docs/api/shared/schemadefinitions/cblendcurve)
 
@@ -36,7 +36,7 @@ CBlendCurve BiasAndClampBlendCurve { get; }
 ref float BiasAndClampPitchOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float BiasAndClampPitchOffset { get; }
 ref float BiasAndClampYawOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float BiasAndClampYawOffset { get; }
 ref AimMatrixBlendMode BlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AimMatrixBlendMode](/docs/api/shared/schemadefinitions/aimmatrixblendmode)
 
@@ -66,7 +66,7 @@ ref AimMatrixBlendMode BlendMode { get; }
 ref int BoneMaskIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int BoneMaskIndex { get; }
 CAnimInputDamping Damping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -86,7 +86,7 @@ CAnimInputDamping Damping { get; }
 ref float MaxPitchAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float MaxPitchAngle { get; }
 ref float MaxYawAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float MaxYawAngle { get; }
 SchemaUntypedField PoseCacheHandles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -116,7 +116,7 @@ SchemaUntypedField PoseCacheHandles { get; }
 ref int SequenceMaxFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int SequenceMaxFrame { get; }
 ref bool TargetIsPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool TargetIsPosition { get; }
 ref bool UseBiasAndClamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

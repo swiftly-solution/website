@@ -6,7 +6,7 @@ title: C_INIT_InitFloatCollection
 public interface C_INIT_InitFloatCollection : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_InitFloatCollection>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_InitFloatCollection : CParticleFunctionInitializer, CPar
 CParticleCollectionFloatInput InputValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionFloatInput InputValue { get; }
 ParticleAttributeIndex_t OutputField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 

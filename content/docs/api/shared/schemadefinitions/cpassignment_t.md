@@ -6,7 +6,7 @@ title: CPAssignment_t
 public interface CPAssignment_t : ISchemaClass<CPAssignment_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPAssignment_t : ISchemaClass<CPAssignment_t>, ISchemaField, IS
 ref int CPNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int CPNumber { get; }
 ref ParticleOrientationSetMode_t OrientationMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleOrientationSetMode_t](/docs/api/shared/schemadefinitions/particleorientationsetmode_t)
 
@@ -36,7 +36,7 @@ ref ParticleOrientationSetMode_t OrientationMode { get; }
 CPerParticleVecInput Pos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 

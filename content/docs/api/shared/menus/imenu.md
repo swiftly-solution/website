@@ -14,7 +14,7 @@ public interface IMenu
 bool CanExit { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -24,7 +24,7 @@ bool CanExit { get; set; }
 Color Color { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -34,7 +34,7 @@ Color Color { get; set; }
 int CurrentIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -44,7 +44,7 @@ int CurrentIndex { get; set; }
 bool? FreezePlayer { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)?
 
@@ -54,7 +54,7 @@ bool? FreezePlayer { get; set; }
 bool HasSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -64,7 +64,7 @@ bool HasSound { get; set; }
 MenuType Kind { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MenuType](/docs/api/shared/menus/menutype)
 
@@ -74,7 +74,7 @@ MenuType Kind { get; set; }
 int MaxTitleLength { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -84,7 +84,7 @@ int MaxTitleLength { get; set; }
 List<IMenuOption> Options { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[IMenuOption](/docs/api/shared/menus/imenuoption)>
 
@@ -94,7 +94,7 @@ List<IMenuOption> Options { get; set; }
 IMenu? ParentMenu { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IMenu](/docs/api/shared/menus/imenu)?
 
@@ -104,7 +104,7 @@ IMenu? ParentMenu { get; set; }
 string? RenderText { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)?
 
@@ -114,7 +114,7 @@ string? RenderText { get; }
 string Title { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -126,14 +126,14 @@ string Title { get; set; }
 ref IMenuOption AddBoolOption(string display, bool defaultValue, Action<IPlayer, IMenuOption, IMenu>? onChoice, bool defaultDisabled = false)
 ```
 
-#### Parameters
+- Parameters
 
 - **display**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Text to display
 - **defaultValue**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Default value
 - **onChoice**: [Action](https://learn.microsoft.com/dotnet/api/system.action-3)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu)>? - Use Callback
 - **defaultDisabled**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Make it disabled by default
 
-#### Returns
+- Returns
 
 - [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
 
@@ -143,7 +143,7 @@ ref IMenuOption AddBoolOption(string display, bool defaultValue, Action<IPlayer,
 ref IMenuOption AddInputOption(string display, string placeholder, string? inputRequestMessage, Action<IPlayer, IMenuOption, IMenu, string>? onInput, bool defaultDisabled = false)
 ```
 
-#### Parameters
+- Parameters
 
 - **display**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Text to display
 - **placeholder**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Placeholder text
@@ -151,7 +151,7 @@ ref IMenuOption AddInputOption(string display, string placeholder, string? input
 - **onInput**: [Action](https://learn.microsoft.com/dotnet/api/system.action-4)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu), [string](https://learn.microsoft.com/dotnet/api/system.string)>? - Use Callback
 - **defaultDisabled**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Make it disabled by default
 
-#### Returns
+- Returns
 
 - [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
 
@@ -161,13 +161,13 @@ ref IMenuOption AddInputOption(string display, string placeholder, string? input
 ref IMenuOption AddOption(string display, Action<IPlayer, IMenuOption, IMenu>? onChoice, bool defaultDisabled = false)
 ```
 
-#### Parameters
+- Parameters
 
 - **display**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Text to display
 - **onChoice**: [Action](https://learn.microsoft.com/dotnet/api/system.action-3)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu)>? - Use Callback
 - **defaultDisabled**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Make it disabled by default
 
-#### Returns
+- Returns
 
 - [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
 
@@ -177,7 +177,7 @@ ref IMenuOption AddOption(string display, Action<IPlayer, IMenuOption, IMenu>? o
 ref IMenuOption AddSliderOption(string display, List<object> values, object? defaultValue, int displayItems, Action<IPlayer, IMenuOption, IMenu, int, object>? onSlide, bool defaultDisabled = false)
 ```
 
-#### Parameters
+- Parameters
 
 - **display**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Text to display
 - **values**: [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)> - List of values
@@ -186,7 +186,7 @@ ref IMenuOption AddSliderOption(string display, List<object> values, object? def
 - **onSlide**: [Action](https://learn.microsoft.com/dotnet/api/system.action-5)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu), [int](https://learn.microsoft.com/dotnet/api/system.int32), [object](https://learn.microsoft.com/dotnet/api/system.object)>? - Use Callback
 - **defaultDisabled**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Make it disabled by default
 
-#### Returns
+- Returns
 
 - [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
 
@@ -196,7 +196,7 @@ ref IMenuOption AddSliderOption(string display, List<object> values, object? def
 void ChangePosition(int count)
 ```
 
-#### Parameters
+- Parameters
 
 - **count**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The amount of advancements to make in front or in back
 

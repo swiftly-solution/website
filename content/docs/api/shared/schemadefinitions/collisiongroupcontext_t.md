@@ -6,7 +6,7 @@ title: CollisionGroupContext_t
 public interface CollisionGroupContext_t : ISchemaClass<CollisionGroupContext_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CollisionGroupContext_t : ISchemaClass<CollisionGroupContext_t>
 ref int CollisionGroupNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

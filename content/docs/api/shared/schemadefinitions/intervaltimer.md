@@ -6,7 +6,7 @@ title: IntervalTimer
 public interface IntervalTimer : ISchemaClass<IntervalTimer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface IntervalTimer : ISchemaClass<IntervalTimer>, ISchemaField, ISch
 GameTime_t Timestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -26,7 +26,7 @@ GameTime_t Timestamp { get; }
 ref uint WorldGroupId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

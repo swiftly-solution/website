@@ -6,7 +6,7 @@ title: CPulseCell_Value_Curve
 public interface CPulseCell_Value_Curve : CPulseCell_BaseValue, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseValue>, ISchemaClass<CPulseCell_Value_Curve>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Value_Curve : CPulseCell_BaseValue, CPulseCell_Base,
 SchemaUntypedField Curve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

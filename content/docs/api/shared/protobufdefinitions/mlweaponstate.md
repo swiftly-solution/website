@@ -6,7 +6,7 @@ title: MLWeaponState
 public interface MLWeaponState : ITypedProtobuf<MLWeaponState>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MLWeaponState : ITypedProtobuf<MLWeaponState>, INativeHandle
 int AmmoClip { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AmmoClip { get; set; }
 int AmmoClipMax { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int AmmoClipMax { get; set; }
 int AmmoReserve { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int AmmoReserve { get; set; }
 int Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int Index { get; set; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string Name { get; set; }
 float RecoilIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ float RecoilIndex { get; set; }
 string State { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string State { get; set; }
 EWeaponType Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EWeaponType](/docs/api/shared/protobufdefinitions/eweapontype)
 

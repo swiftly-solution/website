@@ -6,7 +6,7 @@ title: CMolotovProjectile
 public interface CMolotovProjectile : CBaseCSGrenadeProjectile, CBaseGrenade, CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CBaseGrenade>, ISchemaClass<CBaseCSGrenadeProjectile>, ISchemaClass<CMolotovProjectile>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMolotovProjectile : CBaseCSGrenadeProjectile, CBaseGrenade, CB
 ref bool Detonated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Detonated { get; }
 ref bool HasBouncedOffPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool HasBouncedOffPlayer { get; }
 ref bool IsIncGrenade { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IsIncGrenade { get; }
 IntervalTimer StillTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IntervalTimer](/docs/api/shared/schemadefinitions/intervaltimer)
 

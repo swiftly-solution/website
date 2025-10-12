@@ -6,7 +6,7 @@ title: EventUgcFileDownloadFinished
 public interface EventUgcFileDownloadFinished : IGameEvent<EventUgcFileDownloadFinished>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventUgcFileDownloadFinished : IGameEvent<EventUgcFileDownloadF
 ulong HContent { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

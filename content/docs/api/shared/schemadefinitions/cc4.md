@@ -6,7 +6,7 @@ title: CC4
 public interface CC4 : CCSWeaponBase, CBasePlayerWeapon, CEconEntity, CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CEconEntity>, ISchemaClass<CBasePlayerWeapon>, ISchemaClass<CCSWeaponBase>, ISchemaClass<CC4>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CC4 : CCSWeaponBase, CBasePlayerWeapon, CEconEntity, CBaseFlex,
 GameTime_t ArmedTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -26,7 +26,7 @@ GameTime_t ArmedTime { get; }
 ref bool BombPlacedAnimation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool BombPlacedAnimation { get; }
 ref bool BombPlanted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool BombPlanted { get; }
 ref bool DoValidDroppedPositionCheck { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool DoValidDroppedPositionCheck { get; }
 EntitySpottedState_t EntitySpottedState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EntitySpottedState_t](/docs/api/shared/schemadefinitions/entityspottedstate_t)
 
@@ -66,7 +66,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 ref bool IsPlantingViaUse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool IsPlantingViaUse { get; }
 ref Vector LastValidDroppedPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector LastValidDroppedPosition { get; }
 ref Vector LastValidPlayerHeldPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector LastValidPlayerHeldPosition { get; }
 ISchemaFixedArray<bool> PlayedArmingBeeps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 
@@ -106,7 +106,7 @@ ISchemaFixedArray<bool> PlayedArmingBeeps { get; }
 ref int SpotRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int SpotRules { get; }
 ref bool StartedArming { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

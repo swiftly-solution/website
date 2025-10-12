@@ -6,7 +6,7 @@ title: ProtoFlattenedSerializerField_t_polymorphic_field_t
 public interface ProtoFlattenedSerializerField_t_polymorphic_field_t : ITypedProtobuf<ProtoFlattenedSerializerField_t_polymorphic_field_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ProtoFlattenedSerializerField_t_polymorphic_field_t : ITypedPro
 int PolymorphicFieldSerializerNameSym { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int PolymorphicFieldSerializerNameSym { get; set; }
 int PolymorphicFieldSerializerVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

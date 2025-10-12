@@ -6,7 +6,7 @@ title: CTriggerSoundscape
 public interface CTriggerSoundscape : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerSoundscape>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTriggerSoundscape : CBaseTrigger, CBaseToggle, CBaseModelEntit
 ref CHandle<CEnvSoundscapeTriggerable> Soundscape { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEnvSoundscapeTriggerable](/docs/api/shared/schemadefinitions/cenvsoundscapetriggerable)>
 
@@ -26,7 +26,7 @@ ref CHandle<CEnvSoundscapeTriggerable> Soundscape { get; }
 string SoundscapeName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string SoundscapeName { get; set; }
 ref CUtlVector<CHandle<CBasePlayerPawn>> Spectators { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>>
 

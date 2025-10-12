@@ -6,7 +6,7 @@ title: CGameInfo_CDotaGameInfo
 public interface CGameInfo_CDotaGameInfo : ITypedProtobuf<CGameInfo_CDotaGameInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameInfo_CDotaGameInfo : ITypedProtobuf<CGameInfo_CDotaGameInf
 uint DireTeamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint DireTeamId { get; set; }
 string DireTeamTag { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string DireTeamTag { get; set; }
 uint EndTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint EndTime { get; set; }
 int GameMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int GameMode { get; set; }
 int GameWinner { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int GameWinner { get; set; }
 uint Leagueid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint Leagueid { get; set; }
 ulong MatchId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -86,7 +86,7 @@ ulong MatchId { get; set; }
 IProtobufRepeatedFieldSubMessageType<CGameInfo_CDotaGameInfo_CHeroSelectEvent> PicksBans { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CGameInfo_CDotaGameInfo_CHeroSelectEvent](/docs/api/shared/protobufdefinitions/cgameinfo_cdotagameinfo_cheroselectevent)>
 
@@ -96,7 +96,7 @@ IProtobufRepeatedFieldSubMessageType<CGameInfo_CDotaGameInfo_CHeroSelectEvent> P
 IProtobufRepeatedFieldSubMessageType<CGameInfo_CDotaGameInfo_CPlayerInfo> PlayerInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CGameInfo_CDotaGameInfo_CPlayerInfo](/docs/api/shared/protobufdefinitions/cgameinfo_cdotagameinfo_cplayerinfo)>
 
@@ -106,7 +106,7 @@ IProtobufRepeatedFieldSubMessageType<CGameInfo_CDotaGameInfo_CPlayerInfo> Player
 uint RadiantTeamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -116,7 +116,7 @@ uint RadiantTeamId { get; set; }
 string RadiantTeamTag { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

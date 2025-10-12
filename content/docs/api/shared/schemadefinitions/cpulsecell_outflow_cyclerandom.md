@@ -6,7 +6,7 @@ title: CPulseCell_Outflow_CycleRandom
 public interface CPulseCell_Outflow_CycleRandom : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_Outflow_CycleRandom>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Outflow_CycleRandom : CPulseCell_BaseFlow, CPulseCel
 ref CUtlVector Outputs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

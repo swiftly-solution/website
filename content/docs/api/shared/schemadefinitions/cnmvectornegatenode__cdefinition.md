@@ -6,7 +6,7 @@ title: CNmVectorNegateNode__CDefinition
 public interface CNmVectorNegateNode__CDefinition : CNmVectorValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmVectorValueNode__CDefinition>, ISchemaClass<CNmVectorNegateNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmVectorNegateNode__CDefinition : CNmVectorValueNode__CDefinit
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

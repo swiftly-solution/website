@@ -6,7 +6,7 @@ title: VPhysXConstraint2_t
 public interface VPhysXConstraint2_t : ISchemaClass<VPhysXConstraint2_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VPhysXConstraint2_t : ISchemaClass<VPhysXConstraint2_t>, ISchem
 ref ushort Child { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort Child { get; }
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint Flags { get; }
 VPhysXConstraintParams_t Params { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VPhysXConstraintParams_t](/docs/api/shared/schemadefinitions/vphysxconstraintparams_t)
 
@@ -46,7 +46,7 @@ VPhysXConstraintParams_t Params { get; }
 ref ushort Parent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

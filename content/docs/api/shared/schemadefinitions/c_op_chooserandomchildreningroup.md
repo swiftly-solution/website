@@ -6,7 +6,7 @@ title: C_OP_ChooseRandomChildrenInGroup
 public interface C_OP_ChooseRandomChildrenInGroup : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_ChooseRandomChildrenInGroup>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_ChooseRandomChildrenInGroup : CParticleFunctionPreEmission
 ref int ChildGroupID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ChildGroupID { get; }
 CParticleCollectionFloatInput NumberOfChildren { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 

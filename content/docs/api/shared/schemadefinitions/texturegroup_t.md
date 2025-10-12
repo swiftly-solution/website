@@ -6,7 +6,7 @@ title: TextureGroup_t
 public interface TextureGroup_t : ISchemaClass<TextureGroup_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface TextureGroup_t : ISchemaClass<TextureGroup_t>, ISchemaField, IS
 ref bool Enabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Enabled { get; }
 SchemaUntypedField Gradient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Gradient { get; }
 ref bool ReplaceTextureWithGradient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ReplaceTextureWithGradient { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Texture { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -56,7 +56,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Texture { get; }
 CParticleCollectionRendererFloatInput TextureBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionRendererFloatInput TextureBlend { get; }
 ref ParticleTextureLayerBlendType_t TextureBlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleTextureLayerBlendType_t](/docs/api/shared/schemadefinitions/particletexturelayerblendtype_t)
 
@@ -76,7 +76,7 @@ ref ParticleTextureLayerBlendType_t TextureBlendMode { get; }
 ref SpriteCardTextureChannel_t TextureChannels { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardTextureChannel_t](/docs/api/shared/schemadefinitions/spritecardtexturechannel_t)
 
@@ -86,7 +86,7 @@ ref SpriteCardTextureChannel_t TextureChannels { get; }
 TextureControls_t TextureControls { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TextureControls_t](/docs/api/shared/schemadefinitions/texturecontrols_t)
 
@@ -96,7 +96,7 @@ TextureControls_t TextureControls { get; }
 ref SpriteCardTextureType_t TextureType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardTextureType_t](/docs/api/shared/schemadefinitions/spritecardtexturetype_t)
 

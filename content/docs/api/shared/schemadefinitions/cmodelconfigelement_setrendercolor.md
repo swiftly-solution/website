@@ -6,7 +6,7 @@ title: CModelConfigElement_SetRenderColor
 public interface CModelConfigElement_SetRenderColor : CModelConfigElement, ISchemaClass<CModelConfigElement>, ISchemaClass<CModelConfigElement_SetRenderColor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfigElement_SetRenderColor : CModelConfigElement, ISche
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 

@@ -6,7 +6,7 @@ title: CCSUsrMsg_DamagePrediction
 public interface CCSUsrMsg_DamagePrediction : ITypedProtobuf<CCSUsrMsg_DamagePrediction>, INativeHandle, INetMessage<CCSUsrMsg_DamagePrediction>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_DamagePrediction : ITypedProtobuf<CCSUsrMsg_DamagePre
 QAngle AimPunch { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ QAngle AimPunch { get; set; }
 int CommandNum { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int CommandNum { get; set; }
 int PelletIdx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int PelletIdx { get; set; }
 QAngle ShootDir { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -56,7 +56,7 @@ QAngle ShootDir { get; set; }
 Vector ShootPos { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ Vector ShootPos { get; set; }
 int VictimDamage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int VictimDamage { get; set; }
 int VictimSlot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ int VictimSlot { get; set; }
 int VictimStartingHealth { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

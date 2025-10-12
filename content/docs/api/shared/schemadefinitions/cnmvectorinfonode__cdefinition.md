@@ -6,7 +6,7 @@ title: CNmVectorInfoNode__CDefinition
 public interface CNmVectorInfoNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmVectorInfoNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmVectorInfoNode__CDefinition : CNmFloatValueNode__CDefinition
 ref CNmVectorInfoNode__Info_t DesiredInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmVectorInfoNode__Info_t](/docs/api/shared/schemadefinitions/cnmvectorinfonode__info_t)
 
@@ -26,7 +26,7 @@ ref CNmVectorInfoNode__Info_t DesiredInfo { get; }
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

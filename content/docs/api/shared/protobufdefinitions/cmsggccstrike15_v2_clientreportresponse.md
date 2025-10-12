@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientReportResponse
 public interface CMsgGCCStrike15_v2_ClientReportResponse : ITypedProtobuf<CMsgGCCStrike15_v2_ClientReportResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientReportResponse : ITypedProtobuf<CMsgGC
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 ulong ConfirmationId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong ConfirmationId { get; set; }
 uint ResponseResult { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint ResponseResult { get; set; }
 uint ResponseType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint ResponseType { get; set; }
 uint ServerIp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint ServerIp { get; set; }
 uint Tokens { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

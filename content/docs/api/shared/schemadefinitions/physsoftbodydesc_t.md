@@ -6,7 +6,7 @@ title: PhysSoftbodyDesc_t
 public interface PhysSoftbodyDesc_t : ISchemaClass<PhysSoftbodyDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PhysSoftbodyDesc_t : ISchemaClass<PhysSoftbodyDesc_t>, ISchemaF
 ref CUtlVector Capsules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Capsules { get; }
 ref CUtlVector<CTransform> InitPose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CTransform> InitPose { get; }
 ref CUtlVector<uint> ParticleBoneHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<uint> ParticleBoneHash { get; }
 ref CUtlVector<CUtlString> ParticleBoneName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<CUtlString> ParticleBoneName { get; }
 ref CUtlVector Particles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector Particles { get; }
 ref CUtlVector Springs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

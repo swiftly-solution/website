@@ -6,7 +6,7 @@ title: CBoneConstraintRbf
 public interface CBoneConstraintRbf : CBoneConstraintBase, ISchemaClass<CBoneConstraintBase>, ISchemaClass<CBoneConstraintRbf>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBoneConstraintRbf : CBoneConstraintBase, ISchemaClass<CBoneCon
 ref CUtlVector InputBones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector InputBones { get; }
 ref CUtlVector OutputBones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchEndRewardDropsNotification
 public interface CMsgGCCStrike15_v2_MatchEndRewardDropsNotification : ITypedProtobuf<CMsgGCCStrike15_v2_MatchEndRewardDropsNotification>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchEndRewardDropsNotification : ITypedProt
 CEconItemPreviewDataBlock Iteminfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemPreviewDataBlock](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock)
 

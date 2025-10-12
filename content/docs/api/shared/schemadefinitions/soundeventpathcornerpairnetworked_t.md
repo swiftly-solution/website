@@ -6,7 +6,7 @@ title: SoundeventPathCornerPairNetworked_t
 public interface SoundeventPathCornerPairNetworked_t : ISchemaClass<SoundeventPathCornerPairNetworked_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SoundeventPathCornerPairNetworked_t : ISchemaClass<SoundeventPa
 ref Vector P1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector P1 { get; }
 ref float P1Pct { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float P1Pct { get; }
 ref Vector P2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector P2 { get; }
 ref float P2Pct { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float P2Pct { get; }
 ref float PathLengthSqr { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

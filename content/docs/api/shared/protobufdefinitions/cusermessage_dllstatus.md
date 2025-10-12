@@ -6,7 +6,7 @@ title: CUserMessage_DllStatus
 public interface CUserMessage_DllStatus : ITypedProtobuf<CUserMessage_DllStatus>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessage_DllStatus : ITypedProtobuf<CUserMessage_DllStatus>
 ulong ClientTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong ClientTime { get; set; }
 string CommandLine { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string CommandLine { get; set; }
 IProtobufRepeatedFieldSubMessageType<CUserMessage_DllStatus_CVDiagnostic> Diagnostics { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_DllStatus_CVDiagnostic](/docs/api/shared/protobufdefinitions/cusermessage_dllstatus_cvdiagnostic)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_DllStatus_CVDiagnostic> Diagno
 string FileReport { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string FileReport { get; set; }
 IProtobufRepeatedFieldSubMessageType<CUserMessage_DllStatus_CModule> Modules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_DllStatus_CModule](/docs/api/shared/protobufdefinitions/cusermessage_dllstatus_cmodule)>
 
@@ -66,7 +66,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_DllStatus_CModule> Modules { g
 int Osversion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int Osversion { get; set; }
 uint ProcessId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint ProcessId { get; set; }
 uint TotalFiles { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

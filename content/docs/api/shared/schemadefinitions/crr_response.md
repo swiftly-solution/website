@@ -6,7 +6,7 @@ title: CRR_Response
 public interface CRR_Response : ISchemaClass<CRR_Response>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRR_Response : ISchemaClass<CRR_Response>, ISchemaField, ISchem
 ref bool AnyMatchingRulesInCooldown { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AnyMatchingRulesInCooldown { get; }
 ResponseFollowup Followup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ResponseFollowup](/docs/api/shared/schemadefinitions/responsefollowup)
 
@@ -36,7 +36,7 @@ ResponseFollowup Followup { get; }
 ref float MatchScore { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float MatchScore { get; }
 string MatchingRule { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string MatchingRule { get; set; }
 ResponseParams Params { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ResponseParams](/docs/api/shared/schemadefinitions/responseparams)
 
@@ -66,7 +66,7 @@ ResponseParams Params { get; }
 SchemaUntypedField RecipientFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField RecipientFilter { get; }
 string ResponseName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string ResponseName { get; set; }
 string SpeakerContext { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string SpeakerContext { get; set; }
 ref byte Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -106,7 +106,7 @@ ref byte Type { get; }
 string WorldContext { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

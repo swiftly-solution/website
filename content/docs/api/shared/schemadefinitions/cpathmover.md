@@ -6,7 +6,7 @@ title: CPathMover
 public interface CPathMover : CPathSimple, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPathSimple>, ISchemaClass<CPathMover>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPathMover : CPathSimple, CBaseEntity, CEntityInstance, ISchema
 ref CUtlVector<CHandle<CFuncMover>> Movers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CFuncMover](/docs/api/shared/schemadefinitions/cfuncmover)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CHandle<CFuncMover>> Movers { get; }
 ref CUtlVector<CHandle<CMoverPathNode>> PathNodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CMoverPathNode](/docs/api/shared/schemadefinitions/cmoverpathnode)>>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CHandle<CMoverPathNode>> PathNodes { get; }
 ref CTransform XInitialPathWorldToLocal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

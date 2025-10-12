@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingGC2ClientSearchStats
 public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientSearchStats : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingGC2ClientSearchStats>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientSearchStats : ITypedProt
 uint DataCenterId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint DataCenterId { get; set; }
 uint GsLocationId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint GsLocationId { get; set; }
 uint NoteLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint NoteLevel { get; set; }
 uint NumFoundNearby { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint NumFoundNearby { get; set; }
 uint NumLockedIn { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

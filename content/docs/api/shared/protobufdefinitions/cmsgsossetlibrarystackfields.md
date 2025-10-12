@@ -6,7 +6,7 @@ title: CMsgSosSetLibraryStackFields
 public interface CMsgSosSetLibraryStackFields : ITypedProtobuf<CMsgSosSetLibraryStackFields>, INativeHandle, INetMessage<CMsgSosSetLibraryStackFields>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSosSetLibraryStackFields : ITypedProtobuf<CMsgSosSetLibrary
 byte[] PackedFields { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] PackedFields { get; set; }
 uint StackHash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

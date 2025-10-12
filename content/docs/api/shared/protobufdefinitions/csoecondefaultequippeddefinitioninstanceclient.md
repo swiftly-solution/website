@@ -6,7 +6,7 @@ title: CSOEconDefaultEquippedDefinitionInstanceClient
 public interface CSOEconDefaultEquippedDefinitionInstanceClient : ITypedProtobuf<CSOEconDefaultEquippedDefinitionInstanceClient>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOEconDefaultEquippedDefinitionInstanceClient : ITypedProtobuf
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 uint ClassId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ClassId { get; set; }
 uint ItemDefinition { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint ItemDefinition { get; set; }
 uint SlotId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CMsgDevNewItemRequest
 public interface CMsgDevNewItemRequest : ITypedProtobuf<CMsgDevNewItemRequest>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgDevNewItemRequest : ITypedProtobuf<CMsgDevNewItemRequest>, 
 CSOItemCriteria Criteria { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSOItemCriteria](/docs/api/shared/protobufdefinitions/csoitemcriteria)
 
@@ -26,7 +26,7 @@ CSOItemCriteria Criteria { get; }
 ulong Receiver { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

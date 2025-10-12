@@ -6,7 +6,7 @@ title: RnWing_t
 public interface RnWing_t : ISchemaClass<RnWing_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnWing_t : ISchemaClass<RnWing_t>, ISchemaField, ISchemaClass, 
 ISchemaFixedArray<int> Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

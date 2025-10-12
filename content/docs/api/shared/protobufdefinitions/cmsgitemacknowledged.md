@@ -6,7 +6,7 @@ title: CMsgItemAcknowledged
 public interface CMsgItemAcknowledged : ITypedProtobuf<CMsgItemAcknowledged>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgItemAcknowledged : ITypedProtobuf<CMsgItemAcknowledged>, IN
 CEconItemPreviewDataBlock Iteminfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemPreviewDataBlock](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock)
 

@@ -6,7 +6,7 @@ title: EventGameNewmap
 public interface EventGameNewmap : IGameEvent<EventGameNewmap>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventGameNewmap : IGameEvent<EventGameNewmap>
 string MapName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string MapName { get; set; }
 bool Transition { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

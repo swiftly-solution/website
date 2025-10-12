@@ -6,7 +6,7 @@ title: CBaseToggle
 public interface CBaseToggle : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseToggle : CBaseModelEntity, CBaseEntity, CEntityInstance, I
 ref CHandle<CBaseEntity> Activator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> Activator { get; }
 ref bool AlwaysFireBlockedOutputs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool AlwaysFireBlockedOutputs { get; }
 ref QAngle Angle1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -46,7 +46,7 @@ ref QAngle Angle1 { get; }
 ref QAngle Angle2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -56,7 +56,7 @@ ref QAngle Angle2 { get; }
 ref QAngle FinalAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -66,7 +66,7 @@ ref QAngle FinalAngle { get; }
 ref Vector FinalDest { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector FinalDest { get; }
 ref float Height { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float Height { get; }
 ref float Lip { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float Lip { get; }
 string Master { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string Master { get; set; }
 ref QAngle MoveAng { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -116,7 +116,7 @@ ref QAngle MoveAng { get; }
 ref float MoveDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float MoveDistance { get; }
 ref int MovementType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int MovementType { get; }
 ref Vector Position1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -146,7 +146,7 @@ ref Vector Position1 { get; }
 ref Vector Position2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -156,7 +156,7 @@ ref Vector Position2 { get; }
 ref TOGGLE_STATE Toggle_state { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TOGGLE_STATE](/docs/api/shared/schemadefinitions/toggle_state)
 
@@ -166,7 +166,7 @@ ref TOGGLE_STATE Toggle_state { get; }
 ref float Wait { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CSource2Metrics_MatchPerfSummary_Notification_Client
 public interface CSource2Metrics_MatchPerfSummary_Notification_Client : ITypedProtobuf<CSource2Metrics_MatchPerfSummary_Notification_Client>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSource2Metrics_MatchPerfSummary_Notification_Client : ITypedPr
 uint BuildId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint BuildId { get; set; }
 CMsgSource2NetworkFlowQuality DownstreamFlow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSource2NetworkFlowQuality](/docs/api/shared/protobufdefinitions/cmsgsource2networkflowquality)
 
@@ -36,7 +36,7 @@ CMsgSource2NetworkFlowQuality DownstreamFlow { get; }
 IProtobufRepeatedFieldSubMessageType<CMsgSource2PerfIntervalSample> PerfSamples { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSource2PerfIntervalSample](/docs/api/shared/protobufdefinitions/cmsgsource2perfintervalsample)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSource2PerfIntervalSample> PerfSamples 
 CMsgSource2VProfLiteReport Profile { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSource2VProfLiteReport](/docs/api/shared/protobufdefinitions/cmsgsource2vproflitereport)
 
@@ -56,7 +56,7 @@ CMsgSource2VProfLiteReport Profile { get; }
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -66,7 +66,7 @@ ulong Steamid { get; set; }
 CMsgSource2SystemSpecs SystemSpecs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSource2SystemSpecs](/docs/api/shared/protobufdefinitions/cmsgsource2systemspecs)
 
@@ -76,7 +76,7 @@ CMsgSource2SystemSpecs SystemSpecs { get; }
 CMsgSource2NetworkFlowQuality UpstreamFlow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSource2NetworkFlowQuality](/docs/api/shared/protobufdefinitions/cmsgsource2networkflowquality)
 

@@ -6,7 +6,7 @@ title: CPlayerSprayDecal
 public interface CPlayerSprayDecal : CModelPointEntity, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CModelPointEntity>, ISchemaClass<CPlayerSprayDecal>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPlayerSprayDecal : CModelPointEntity, CBaseModelEntity, CBaseE
 ref uint AccountID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint AccountID { get; }
 ref float CreationTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float CreationTime { get; }
 ref Vector EndPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector EndPos { get; }
 ref int Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int Entity { get; }
 ref int Hitbox { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int Hitbox { get; }
 ref Vector Left { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector Left { get; }
 ref Vector Normal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector Normal { get; }
 ref int Player { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int Player { get; }
 ref uint RtGcTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ ref uint RtGcTime { get; }
 ISchemaFixedArray<byte> Signature { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -116,7 +116,7 @@ ISchemaFixedArray<byte> Signature { get; }
 ref Vector Start { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -126,7 +126,7 @@ ref Vector Start { get; }
 ref int TintID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int TintID { get; }
 ref uint TraceID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ ref uint TraceID { get; }
 ref int UniqueID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int UniqueID { get; }
 ref byte Version { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

@@ -6,7 +6,7 @@ title: C_INIT_LifespanFromVelocity
 public interface C_INIT_LifespanFromVelocity : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_LifespanFromVelocity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_LifespanFromVelocity : CParticleFunctionInitializer, CPa
 string CollisionGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string CollisionGroupName { get; set; }
 ref Vector ComponentScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector ComponentScale { get; }
 ref bool IncludeWater { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IncludeWater { get; }
 ref int MaxPlanes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int MaxPlanes { get; }
 ref float MaxTraceLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MaxTraceLength { get; }
 ref float TraceOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float TraceOffset { get; }
 ref ParticleTraceSet_t TraceSet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleTraceSet_t](/docs/api/shared/schemadefinitions/particletraceset_t)
 
@@ -86,7 +86,7 @@ ref ParticleTraceSet_t TraceSet { get; }
 ref float TraceTolerance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

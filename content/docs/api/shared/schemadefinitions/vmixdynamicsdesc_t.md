@@ -6,7 +6,7 @@ title: VMixDynamicsDesc_t
 public interface VMixDynamicsDesc_t : ISchemaClass<VMixDynamicsDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixDynamicsDesc_t : ISchemaClass<VMixDynamicsDesc_t>, ISchemaF
 ref float AttackTimeMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AttackTimeMS { get; }
 ref float FldbCompressionThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float FldbCompressionThreshold { get; }
 ref float FldbGain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float FldbGain { get; }
 ref float FldbKneeWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float FldbKneeWidth { get; }
 ref float FldbLimiterThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float FldbLimiterThreshold { get; }
 ref float FldbNoiseGateThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float FldbNoiseGateThreshold { get; }
 ref float LimiterRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float LimiterRatio { get; }
 ref bool PeakMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool PeakMode { get; }
 ref float RMSTimeMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float RMSTimeMS { get; }
 ref float Ratio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float Ratio { get; }
 ref float ReleaseTimeMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float ReleaseTimeMS { get; }
 ref float WetMix { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

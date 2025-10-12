@@ -6,7 +6,7 @@ title: CPulse_OutputConnection
 public interface CPulse_OutputConnection : ISchemaClass<CPulse_OutputConnection>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulse_OutputConnection : ISchemaClass<CPulse_OutputConnection>
 SchemaUntypedField Param { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Param { get; }
 SchemaUntypedField SourceOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField SourceOutput { get; }
 SchemaUntypedField TargetEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField TargetEntity { get; }
 SchemaUntypedField TargetInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

@@ -6,7 +6,7 @@ title: Quaternion
 public struct Quaternion
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -16,7 +16,7 @@ public struct Quaternion
 public Quaternion(float ix, float iy, float iz, float iw)
 ```
 
-#### Parameters
+- Parameters
 
 - **ix**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **iy**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -29,7 +29,7 @@ public Quaternion(float ix, float iy, float iz, float iw)
 public Quaternion(Quaternion other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -41,7 +41,7 @@ public Quaternion(Quaternion other)
 public float W
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -51,7 +51,7 @@ public float W
 public float X
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -61,7 +61,7 @@ public float X
 public float Y
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -71,7 +71,7 @@ public float Y
 public float Z
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -83,7 +83,7 @@ public float Z
 public static Quaternion One { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -93,7 +93,7 @@ public static Quaternion One { get; }
 public static Quaternion Zero { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -105,11 +105,11 @@ public static Quaternion Zero { get; }
 public override bool Equals(object? obj)
 ```
 
-#### Parameters
+- Parameters
 
 - **obj**: [object](https://learn.microsoft.com/dotnet/api/system.object)? - The object to compare with the current instance.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
@@ -119,11 +119,11 @@ public override bool Equals(object? obj)
 public static Quaternion FromBuiltin(Quaternion quaternion)
 ```
 
-#### Parameters
+- Parameters
 
 - **quaternion**: [Quaternion](https://learn.microsoft.com/dotnet/api/system.numerics.quaternion)
 
-#### Returns
+- Returns
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -133,7 +133,7 @@ public static Quaternion FromBuiltin(Quaternion quaternion)
 public override int GetHashCode()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
@@ -143,7 +143,7 @@ public override int GetHashCode()
 public Quaternion ToBuiltin()
 ```
 
-#### Returns
+- Returns
 
 - [Quaternion](https://learn.microsoft.com/dotnet/api/system.numerics.quaternion)
 
@@ -153,7 +153,7 @@ public Quaternion ToBuiltin()
 public override string ToString()
 ```
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The fully qualified type name.
 
@@ -165,12 +165,12 @@ public override string ToString()
 public static Quaternion operator +(Quaternion a, Quaternion b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Quaternion](/docs/api/shared/natives/quaternion)
 - **b**: [Quaternion](/docs/api/shared/natives/quaternion)
 
-#### Returns
+- Returns
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -180,12 +180,12 @@ public static Quaternion operator +(Quaternion a, Quaternion b)
 public static Quaternion operator /(Quaternion a, Quaternion b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Quaternion](/docs/api/shared/natives/quaternion)
 - **b**: [Quaternion](/docs/api/shared/natives/quaternion)
 
-#### Returns
+- Returns
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -195,12 +195,12 @@ public static Quaternion operator /(Quaternion a, Quaternion b)
 public static Quaternion operator /(Quaternion a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Quaternion](/docs/api/shared/natives/quaternion)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -210,12 +210,12 @@ public static Quaternion operator /(Quaternion a, float b)
 public static bool operator ==(Quaternion a, Quaternion b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Quaternion](/docs/api/shared/natives/quaternion)
 - **b**: [Quaternion](/docs/api/shared/natives/quaternion)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -225,12 +225,12 @@ public static bool operator ==(Quaternion a, Quaternion b)
 public static bool operator !=(Quaternion a, Quaternion b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Quaternion](/docs/api/shared/natives/quaternion)
 - **b**: [Quaternion](/docs/api/shared/natives/quaternion)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -240,12 +240,12 @@ public static bool operator !=(Quaternion a, Quaternion b)
 public static Quaternion operator *(Quaternion a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Quaternion](/docs/api/shared/natives/quaternion)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -255,12 +255,12 @@ public static Quaternion operator *(Quaternion a, float b)
 public static Quaternion operator -(Quaternion a, Quaternion b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Quaternion](/docs/api/shared/natives/quaternion)
 - **b**: [Quaternion](/docs/api/shared/natives/quaternion)
 
-#### Returns
+- Returns
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -270,11 +270,11 @@ public static Quaternion operator -(Quaternion a, Quaternion b)
 public static Quaternion operator -(Quaternion a)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Quaternion](/docs/api/shared/natives/quaternion)
 
-#### Returns
+- Returns
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 

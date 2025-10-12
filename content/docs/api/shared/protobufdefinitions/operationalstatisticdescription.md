@@ -6,7 +6,7 @@ title: OperationalStatisticDescription
 public interface OperationalStatisticDescription : ITypedProtobuf<OperationalStatisticDescription>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface OperationalStatisticDescription : ITypedProtobuf<OperationalSta
 uint Idkey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Idkey { get; set; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

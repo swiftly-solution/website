@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Client2GCRequestPrestigeCoin
 public interface CMsgGCCStrike15_v2_Client2GCRequestPrestigeCoin : ITypedProtobuf<CMsgGCCStrike15_v2_Client2GCRequestPrestigeCoin>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Client2GCRequestPrestigeCoin : ITypedProtobu
 uint Defindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Defindex { get; set; }
 uint Hours { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Hours { get; set; }
 uint Prestigetime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Prestigetime { get; set; }
 ulong Upgradeid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,7 +6,7 @@ title: CSVCMsgList_GameEvents_event_t
 public interface CSVCMsgList_GameEvents_event_t : ITypedProtobuf<CSVCMsgList_GameEvents_event_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsgList_GameEvents_event_t : ITypedProtobuf<CSVCMsgList_Gam
 CSVCMsg_GameEvent Event { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSVCMsg_GameEvent](/docs/api/shared/protobufdefinitions/csvcmsg_gameevent)
 
@@ -26,7 +26,7 @@ CSVCMsg_GameEvent Event { get; }
 int Tick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

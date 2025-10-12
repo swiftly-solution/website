@@ -6,7 +6,7 @@ title: CUserMessageTextMsg
 public interface CUserMessageTextMsg : ITypedProtobuf<CUserMessageTextMsg>, INativeHandle, INetMessage<CUserMessageTextMsg>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageTextMsg : ITypedProtobuf<CUserMessageTextMsg>, INat
 uint Dest { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Dest { get; set; }
 IProtobufRepeatedFieldValueType<string> Param { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 

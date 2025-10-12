@@ -6,7 +6,7 @@ title: CMsgAccountDetails
 public interface CMsgAccountDetails : ITypedProtobuf<CMsgAccountDetails>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgAccountDetails : ITypedProtobuf<CMsgAccountDetails>, INativ
 bool AccountLocked { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool AccountLocked { get; set; }
 string AccountName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string AccountName { get; set; }
 bool CommunityBanned { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool CommunityBanned { get; set; }
 bool CyberCafe { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ bool CyberCafe { get; set; }
 bool EligibleForCommunityMarket { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ bool EligibleForCommunityMarket { get; set; }
 bool FreeTrialAccount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ bool FreeTrialAccount { get; set; }
 bool Limited { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ bool Limited { get; set; }
 bool LowViolence { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ bool LowViolence { get; set; }
 uint Package { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ uint Package { get; set; }
 bool PublicInventory { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ bool PublicInventory { get; set; }
 bool PublicProfile { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ bool PublicProfile { get; set; }
 bool SchoolAccount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ bool SchoolAccount { get; set; }
 bool Subscribed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ bool Subscribed { get; set; }
 uint TimeCached { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -156,7 +156,7 @@ uint TimeCached { get; set; }
 bool TradeBanned { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ bool TradeBanned { get; set; }
 bool Trusted { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ bool Trusted { get; set; }
 bool VacBanned { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -186,7 +186,7 @@ bool VacBanned { get; set; }
 bool Valid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

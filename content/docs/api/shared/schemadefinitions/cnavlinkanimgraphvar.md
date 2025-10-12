@@ -6,7 +6,7 @@ title: CNavLinkAnimgraphVar
 public interface CNavLinkAnimgraphVar : ISchemaClass<CNavLinkAnimgraphVar>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNavLinkAnimgraphVar : ISchemaClass<CNavLinkAnimgraphVar>, ISch
 ref uint AlignmentDegrees { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint AlignmentDegrees { get; }
 ref CGlobalSymbol AnimGraphNavlinkType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

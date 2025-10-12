@@ -6,7 +6,7 @@ title: CPlayer_MovementServices_Humanoid
 public interface CPlayer_MovementServices_Humanoid : CPlayer_MovementServices, CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_MovementServices>, ISchemaClass<CPlayer_MovementServices_Humanoid>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPlayer_MovementServices_Humanoid : CPlayer_MovementServices, C
 ref uint CrouchState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint CrouchState { get; }
 GameTime_t CrouchTransitionStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -36,7 +36,7 @@ GameTime_t CrouchTransitionStartTime { get; }
 ref bool Ducked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Ducked { get; }
 ref bool Ducking { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool Ducking { get; }
 ref float FallVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float FallVelocity { get; }
 ref Vector GroundNormal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector GroundNormal { get; }
 ref bool InCrouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool InCrouch { get; }
 ref bool InDuckJump { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool InDuckJump { get; }
 ref Vector SmoothedVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -106,7 +106,7 @@ ref Vector SmoothedVelocity { get; }
 ref float StepSoundTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float StepSoundTime { get; }
 ref int Stepside { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int Stepside { get; }
 ref float SurfaceFriction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float SurfaceFriction { get; }
 ref CUtlStringToken SurfaceProps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 

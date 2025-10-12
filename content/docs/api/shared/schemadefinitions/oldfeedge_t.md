@@ -6,7 +6,7 @@ title: OldFeEdge_t
 public interface OldFeEdge_t : ISchemaClass<OldFeEdge_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface OldFeEdge_t : ISchemaClass<OldFeEdge_t>, ISchemaField, ISchemaC
 ref float AxialModelDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AxialModelDist { get; }
 ISchemaFixedArray<float> AxialModelWeights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<float> AxialModelWeights { get; }
 ref float C01 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float C01 { get; }
 ref float C02 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float C02 { get; }
 ref float C03 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float C03 { get; }
 ref float C04 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float C04 { get; }
 ref float InvA { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float InvA { get; }
 ISchemaFixedArray<float> K { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -96,7 +96,7 @@ ISchemaFixedArray<float> K { get; }
 ISchemaFixedArray<ushort> Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -106,7 +106,7 @@ ISchemaFixedArray<ushort> Node { get; }
 ref float T { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float T { get; }
 ref float ThetaFactor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float ThetaFactor { get; }
 ref float ThetaRelaxed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

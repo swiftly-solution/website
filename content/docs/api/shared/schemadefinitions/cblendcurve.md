@@ -6,7 +6,7 @@ title: CBlendCurve
 public interface CBlendCurve : ISchemaClass<CBlendCurve>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBlendCurve : ISchemaClass<CBlendCurve>, ISchemaField, ISchemaC
 ref float ControlPoint1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float ControlPoint1 { get; }
 ref float ControlPoint2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

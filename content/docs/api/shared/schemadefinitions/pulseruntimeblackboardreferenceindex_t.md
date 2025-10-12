@@ -6,7 +6,7 @@ title: PulseRuntimeBlackboardReferenceIndex_t
 public interface PulseRuntimeBlackboardReferenceIndex_t : ISchemaClass<PulseRuntimeBlackboardReferenceIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseRuntimeBlackboardReferenceIndex_t : ISchemaClass<PulseRunt
 ref short Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

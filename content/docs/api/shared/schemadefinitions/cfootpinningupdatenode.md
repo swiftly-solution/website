@@ -6,7 +6,7 @@ title: CFootPinningUpdateNode
 public interface CFootPinningUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CFootPinningUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFootPinningUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase,
 ref CUtlVector Params { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Params { get; }
 FootPinningPoseOpFixedData_t PoseOpFixedData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FootPinningPoseOpFixedData_t](/docs/api/shared/schemadefinitions/footpinningposeopfixeddata_t)
 
@@ -36,7 +36,7 @@ FootPinningPoseOpFixedData_t PoseOpFixedData { get; }
 ref bool ResetChild { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ResetChild { get; }
 ref FootPinningTimingSource TimingSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FootPinningTimingSource](/docs/api/shared/schemadefinitions/footpinningtimingsource)
 

@@ -6,7 +6,7 @@ title: C_INIT_InitVecCollection
 public interface C_INIT_InitVecCollection : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_InitVecCollection>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_InitVecCollection : CParticleFunctionInitializer, CParti
 CParticleCollectionVecInput InputValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionVecInput InputValue { get; }
 ParticleAttributeIndex_t OutputField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 

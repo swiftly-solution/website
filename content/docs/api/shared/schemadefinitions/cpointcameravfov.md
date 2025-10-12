@@ -6,7 +6,7 @@ title: CPointCameraVFOV
 public interface CPointCameraVFOV : CPointCamera, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointCamera>, ISchemaClass<CPointCameraVFOV>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointCameraVFOV : CPointCamera, CBaseEntity, CEntityInstance, 
 ref float VerticalFOV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

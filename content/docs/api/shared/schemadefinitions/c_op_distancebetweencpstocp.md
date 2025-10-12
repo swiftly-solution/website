@@ -6,7 +6,7 @@ title: C_OP_DistanceBetweenCPsToCP
 public interface C_OP_DistanceBetweenCPsToCP : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_DistanceBetweenCPsToCP>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_DistanceBetweenCPsToCP : CParticleFunctionPreEmission, CPa
 string CollisionGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string CollisionGroupName { get; set; }
 ref int EndCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int EndCP { get; }
 ref float InputMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float InputMax { get; }
 ref float InputMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float InputMin { get; }
 ref bool LOS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool LOS { get; }
 ref float LOSScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float LOSScale { get; }
 ref float MaxTraceLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float MaxTraceLength { get; }
 ref int OutputCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int OutputCP { get; }
 ref int OutputCPField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int OutputCPField { get; }
 ref float OutputMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float OutputMax { get; }
 ref float OutputMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float OutputMin { get; }
 ref bool SetOnce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool SetOnce { get; }
 ref ParticleParentSetMode_t SetParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleParentSetMode_t](/docs/api/shared/schemadefinitions/particleparentsetmode_t)
 
@@ -146,7 +146,7 @@ ref ParticleParentSetMode_t SetParent { get; }
 ref int StartCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int StartCP { get; }
 ref ParticleTraceSet_t TraceSet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleTraceSet_t](/docs/api/shared/schemadefinitions/particletraceset_t)
 

@@ -6,5 +6,5 @@ title: EventDemoStop
 public interface EventDemoStop : IGameEvent<EventDemoStop>
 ```
 
-#### Implements
+- Implements
 

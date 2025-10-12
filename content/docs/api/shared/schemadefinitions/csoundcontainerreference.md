@@ -6,7 +6,7 @@ title: CSoundContainerReference
 public interface CSoundContainerReference : ISchemaClass<CSoundContainerReference>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSoundContainerReference : ISchemaClass<CSoundContainerReferenc
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> Sound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>
 
@@ -26,7 +26,7 @@ ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> Sound { get; }
 CVoiceContainerBase? Sound1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CVoiceContainerBase](/docs/api/shared/schemadefinitions/cvoicecontainerbase)?
 
@@ -36,7 +36,7 @@ CVoiceContainerBase? Sound1 { get; }
 ref bool UseReference { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

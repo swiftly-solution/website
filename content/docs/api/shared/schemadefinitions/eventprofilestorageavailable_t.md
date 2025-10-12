@@ -6,7 +6,7 @@ title: EventProfileStorageAvailable_t
 public interface EventProfileStorageAvailable_t : ISchemaClass<EventProfileStorageAvailable_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventProfileStorageAvailable_t : ISchemaClass<EventProfileStora
 ref uint SplitScreenSlot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

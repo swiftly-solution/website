@@ -6,7 +6,7 @@ title: CPointChildModifier
 public interface CPointChildModifier : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CPointChildModifier>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointChildModifier : CPointEntity, CBaseEntity, CEntityInstanc
 ref bool OrphanInsteadOfDeletingChildrenOnRemove { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

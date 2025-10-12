@@ -6,7 +6,7 @@ title: CBinaryUpdateNode
 public interface CBinaryUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CBinaryUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBinaryUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpda
 CAnimUpdateNodeRef Child1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimUpdateNodeRef](/docs/api/shared/schemadefinitions/canimupdatenoderef)
 
@@ -26,7 +26,7 @@ CAnimUpdateNodeRef Child1 { get; }
 CAnimUpdateNodeRef Child2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimUpdateNodeRef](/docs/api/shared/schemadefinitions/canimupdatenoderef)
 
@@ -36,7 +36,7 @@ CAnimUpdateNodeRef Child2 { get; }
 ref bool ResetChild1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ResetChild1 { get; }
 ref bool ResetChild2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool ResetChild2 { get; }
 ref BinaryNodeTiming TimingBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BinaryNodeTiming](/docs/api/shared/schemadefinitions/binarynodetiming)
 
@@ -66,7 +66,7 @@ ref BinaryNodeTiming TimingBehavior { get; }
 ref float TimingBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

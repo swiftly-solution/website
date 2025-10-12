@@ -6,7 +6,7 @@ title: MaterialParamVector_t
 public interface MaterialParamVector_t : MaterialParam_t, ISchemaClass<MaterialParam_t>, ISchemaClass<MaterialParamVector_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MaterialParamVector_t : MaterialParam_t, ISchemaClass<MaterialP
 ref Vector4D Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 

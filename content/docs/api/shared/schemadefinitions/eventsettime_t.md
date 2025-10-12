@@ -6,7 +6,7 @@ title: EventSetTime_t
 public interface EventSetTime_t : ISchemaClass<EventSetTime_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventSetTime_t : ISchemaClass<EventSetTime_t>, ISchemaField, IS
 ref int ClientOutputFrames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ClientOutputFrames { get; }
 EngineLoopState_t LoopState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
@@ -36,7 +36,7 @@ EngineLoopState_t LoopState { get; }
 ref double RealTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -46,7 +46,7 @@ ref double RealTime { get; }
 ref double RenderFrameTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -56,7 +56,7 @@ ref double RenderFrameTime { get; }
 ref double RenderFrameTimeUnbounded { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -66,7 +66,7 @@ ref double RenderFrameTimeUnbounded { get; }
 ref double RenderFrameTimeUnscaled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -76,7 +76,7 @@ ref double RenderFrameTimeUnscaled { get; }
 ref double RenderTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -86,7 +86,7 @@ ref double RenderTime { get; }
 ref double TickRemainder { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 

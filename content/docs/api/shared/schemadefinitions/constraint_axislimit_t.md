@@ -6,7 +6,7 @@ title: constraint_axislimit_t
 public interface constraint_axislimit_t : ISchemaClass<constraint_axislimit_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface constraint_axislimit_t : ISchemaClass<constraint_axislimit_t>, 
 ref float MaxRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float MaxRotation { get; }
 ref float MinRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float MinRotation { get; }
 ref float MotorMaxTorque { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float MotorMaxTorque { get; }
 ref float MotorTargetAngSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

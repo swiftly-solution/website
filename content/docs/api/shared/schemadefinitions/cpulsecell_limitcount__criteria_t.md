@@ -6,7 +6,7 @@ title: CPulseCell_LimitCount__Criteria_t
 public interface CPulseCell_LimitCount__Criteria_t : ISchemaClass<CPulseCell_LimitCount__Criteria_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_LimitCount__Criteria_t : ISchemaClass<CPulseCell_Lim
 ref bool LimitCountPasses { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

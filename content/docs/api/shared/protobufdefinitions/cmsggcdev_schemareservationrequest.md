@@ -6,7 +6,7 @@ title: CMsgGCDev_SchemaReservationRequest
 public interface CMsgGCDev_SchemaReservationRequest : ITypedProtobuf<CMsgGCDev_SchemaReservationRequest>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCDev_SchemaReservationRequest : ITypedProtobuf<CMsgGCDev_S
 ulong Context { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Context { get; set; }
 ulong Id { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong Id { get; set; }
 string InstanceName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string InstanceName { get; set; }
 string SchemaTypename { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

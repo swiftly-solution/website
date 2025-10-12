@@ -6,7 +6,7 @@ title: CAttributeManager
 public interface CAttributeManager : ISchemaClass<CAttributeManager>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAttributeManager : ISchemaClass<CAttributeManager>, ISchemaFie
 ref CUtlVector CachedResults { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector CachedResults { get; }
 ref CHandle<CBaseEntity> Outer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> Outer { get; }
 ref bool PreventLoopback { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool PreventLoopback { get; }
 ref attributeprovidertypes_t ProviderType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [attributeprovidertypes_t](/docs/api/shared/schemadefinitions/attributeprovidertypes_t)
 
@@ -56,7 +56,7 @@ ref attributeprovidertypes_t ProviderType { get; }
 ref CUtlVector<CHandle<CBaseEntity>> Providers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
@@ -66,7 +66,7 @@ ref CUtlVector<CHandle<CBaseEntity>> Providers { get; }
 ref int ReapplyProvisionParity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

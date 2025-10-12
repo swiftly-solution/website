@@ -6,7 +6,7 @@ title: CUIFontFilePB
 public interface CUIFontFilePB : ITypedProtobuf<CUIFontFilePB>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUIFontFilePB : ITypedProtobuf<CUIFontFilePB>, INativeHandle
 string FontFileName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string FontFileName { get; set; }
 byte[] OpentypeFontData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

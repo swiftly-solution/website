@@ -6,7 +6,7 @@ title: C_OP_MaintainEmitter
 public interface C_OP_MaintainEmitter : CParticleFunctionEmitter, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionEmitter>, ISchemaClass<C_OP_MaintainEmitter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_MaintainEmitter : CParticleFunctionEmitter, CParticleFunct
 CParticleCollectionFloatInput EmissionDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionFloatInput EmissionDuration { get; }
 ref float EmissionRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float EmissionRate { get; }
 ref bool EmitInstantaneously { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool EmitInstantaneously { get; }
 ref bool FinalEmitOnStop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool FinalEmitOnStop { get; }
 CParticleCollectionFloatInput ParticlesToMaintain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionFloatInput ParticlesToMaintain { get; }
 CParticleCollectionFloatInput Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -76,7 +76,7 @@ CParticleCollectionFloatInput Scale { get; }
 ref int SnapshotControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int SnapshotControlPoint { get; }
 ref float StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float StartTime { get; }
 string StrSnapshotSubset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

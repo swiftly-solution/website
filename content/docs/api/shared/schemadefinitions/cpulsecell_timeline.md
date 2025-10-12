@@ -6,7 +6,7 @@ title: CPulseCell_Timeline
 public interface CPulseCell_Timeline : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_Timeline>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Timeline : CPulseCell_BaseYieldingInflow, CPulseCell
 CPulse_ResumePoint OnCanceled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -26,7 +26,7 @@ CPulse_ResumePoint OnCanceled { get; }
 CPulse_ResumePoint OnFinished { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -36,7 +36,7 @@ CPulse_ResumePoint OnFinished { get; }
 ref CUtlVector TimelineEvents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector TimelineEvents { get; }
 ref bool WaitForChildOutflows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: Dop26_t
 public interface Dop26_t : ISchemaClass<Dop26_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface Dop26_t : ISchemaClass<Dop26_t>, ISchemaField, ISchemaClass, IN
 ISchemaFixedArray<float> Support { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

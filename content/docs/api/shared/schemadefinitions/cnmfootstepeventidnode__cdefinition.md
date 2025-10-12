@@ -6,7 +6,7 @@ title: CNmFootstepEventIDNode__CDefinition
 public interface CNmFootstepEventIDNode__CDefinition : CNmIDValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmIDValueNode__CDefinition>, ISchemaClass<CNmFootstepEventIDNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFootstepEventIDNode__CDefinition : CNmIDValueNode__CDefiniti
 CNmBitFlags EventConditionRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmBitFlags](/docs/api/shared/schemadefinitions/cnmbitflags)
 
@@ -26,7 +26,7 @@ CNmBitFlags EventConditionRules { get; }
 ref short SourceStateNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

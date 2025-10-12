@@ -6,7 +6,7 @@ title: C_OP_SetFromCPSnapshot
 public interface C_OP_SetFromCPSnapshot : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_SetFromCPSnapshot>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_SetFromCPSnapshot : CParticleFunctionOperator, CParticleFu
 ParticleAttributeIndex_t AttributeToRead { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t AttributeToRead { get; }
 ParticleAttributeIndex_t AttributeToWrite { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t AttributeToWrite { get; }
 ref int ControlPointNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int ControlPointNumber { get; }
 CPerParticleFloatInput Interpolation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -56,7 +56,7 @@ CPerParticleFloatInput Interpolation { get; }
 ref int LocalSpaceCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int LocalSpaceCP { get; }
 ref bool Prev { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool Prev { get; }
 ref bool Random { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool Random { get; }
 ref int RandomSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int RandomSeed { get; }
 ref bool Reverse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool Reverse { get; }
 CParticleCollectionFloatInput SnapShotIncrement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -116,7 +116,7 @@ CParticleCollectionFloatInput SnapShotIncrement { get; }
 CParticleCollectionFloatInput SnapShotStartPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -126,7 +126,7 @@ CParticleCollectionFloatInput SnapShotStartPoint { get; }
 string StrSnapshotSubset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string StrSnapshotSubset { get; set; }
 ref bool SubSample { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

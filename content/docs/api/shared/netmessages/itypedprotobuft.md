@@ -6,11 +6,11 @@ title: ITypedProtobuf<T>
 public interface ITypedProtobuf<T> : INativeHandle where T : ITypedProtobuf<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -20,7 +20,7 @@ public interface ITypedProtobuf<T> : INativeHandle where T : ITypedProtobuf<T>
 IProtobufAccessor Accessor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufAccessor](/docs/api/shared/netmessages/iprotobufaccessor)
 

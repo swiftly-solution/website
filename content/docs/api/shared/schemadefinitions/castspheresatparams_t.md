@@ -6,7 +6,7 @@ title: CastSphereSATParams_t
 public interface CastSphereSATParams_t : ISchemaClass<CastSphereSATParams_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CastSphereSATParams_t : ISchemaClass<CastSphereSATParams_t>, IS
 RnHull_t? Hull { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RnHull_t](/docs/api/shared/schemadefinitions/rnhull_t)?
 
@@ -26,7 +26,7 @@ RnHull_t? Hull { get; }
 ref float MaxFraction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float MaxFraction { get; }
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Radius { get; }
 ref Vector RayDelta { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector RayDelta { get; }
 ref Vector RayStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector RayStart { get; }
 ref float Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

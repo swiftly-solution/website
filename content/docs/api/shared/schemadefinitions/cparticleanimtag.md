@@ -6,7 +6,7 @@ title: CParticleAnimTag
 public interface CParticleAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CParticleAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, IS
 ref bool Aggregate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Aggregate { get; }
 string AttachmentCP1Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string AttachmentCP1Name { get; set; }
 ref ParticleAttachment_t AttachmentCP1Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttachment_t](/docs/api/shared/schemadefinitions/particleattachment_t)
 
@@ -46,7 +46,7 @@ ref ParticleAttachment_t AttachmentCP1Type { get; }
 string AttachmentName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string AttachmentName { get; set; }
 ref ParticleAttachment_t AttachmentType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttachment_t](/docs/api/shared/schemadefinitions/particleattachment_t)
 
@@ -66,7 +66,7 @@ ref ParticleAttachment_t AttachmentType { get; }
 string ConfigName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string ConfigName { get; set; }
 ref bool DetachFromOwner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool DetachFromOwner { get; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ParticleSystem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -96,7 +96,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ParticleSystem {
 string ParticleSystemName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string ParticleSystemName { get; set; }
 ref bool StopWhenTagEnds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool StopWhenTagEnds { get; }
 ref bool TagEndStopIsInstant { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

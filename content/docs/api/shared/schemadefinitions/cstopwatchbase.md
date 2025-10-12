@@ -6,7 +6,7 @@ title: CStopwatchBase
 public interface CStopwatchBase : CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>, ISchemaClass<CStopwatchBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CStopwatchBase : CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>
 ref bool IsRunning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

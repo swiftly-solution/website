@@ -6,7 +6,7 @@ title: CNmOrientationWarpNode__CDefinition
 public interface CNmOrientationWarpNode__CDefinition : CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmOrientationWarpNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmOrientationWarpNode__CDefinition : CNmPoseNode__CDefinition,
 ref short ClipReferenceNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short ClipReferenceNodeIdx { get; }
 ref bool IsOffsetNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool IsOffsetNode { get; }
 ref bool IsOffsetRelativeToCharacter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IsOffsetRelativeToCharacter { get; }
 ref CNmRootMotionData__SamplingMode_t SamplingMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmRootMotionData__SamplingMode_t](/docs/api/shared/schemadefinitions/cnmrootmotiondata__samplingmode_t)
 
@@ -56,7 +56,7 @@ ref CNmRootMotionData__SamplingMode_t SamplingMode { get; }
 ref short TargetValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

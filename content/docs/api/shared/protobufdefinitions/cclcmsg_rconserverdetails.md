@@ -6,7 +6,7 @@ title: CCLCMsg_RconServerDetails
 public interface CCLCMsg_RconServerDetails : ITypedProtobuf<CCLCMsg_RconServerDetails>, INativeHandle, INetMessage<CCLCMsg_RconServerDetails>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_RconServerDetails : ITypedProtobuf<CCLCMsg_RconServerDe
 byte[] Token { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

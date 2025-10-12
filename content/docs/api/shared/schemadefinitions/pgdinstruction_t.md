@@ -6,7 +6,7 @@ title: PGDInstruction_t
 public interface PGDInstruction_t : ISchemaClass<PGDInstruction_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PGDInstruction_t : ISchemaClass<PGDInstruction_t>, ISchemaField
 PulseRuntimeBlackboardReferenceIndex_t BlackboardReferenceIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeBlackboardReferenceIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeblackboardreferenceindex_t)
 
@@ -26,7 +26,7 @@ PulseRuntimeBlackboardReferenceIndex_t BlackboardReferenceIdx { get; }
 PulseRuntimeCallInfoIndex_t CallInfoIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeCallInfoIndex_t](/docs/api/shared/schemadefinitions/pulseruntimecallinfoindex_t)
 
@@ -36,7 +36,7 @@ PulseRuntimeCallInfoIndex_t CallInfoIndex { get; }
 PulseRuntimeChunkIndex_t Chunk { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeChunkIndex_t](/docs/api/shared/schemadefinitions/pulseruntimechunkindex_t)
 
@@ -46,7 +46,7 @@ PulseRuntimeChunkIndex_t Chunk { get; }
 ref PulseInstructionCode_t Code { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseInstructionCode_t](/docs/api/shared/schemadefinitions/pulseinstructioncode_t)
 
@@ -56,7 +56,7 @@ ref PulseInstructionCode_t Code { get; }
 PulseRuntimeConstantIndex_t ConstIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeConstantIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeconstantindex_t)
 
@@ -66,7 +66,7 @@ PulseRuntimeConstantIndex_t ConstIdx { get; }
 ref int DestInstruction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int DestInstruction { get; }
 PulseRuntimeDomainValueIndex_t DomainValueIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeDomainValueIndex_t](/docs/api/shared/schemadefinitions/pulseruntimedomainvalueindex_t)
 
@@ -86,7 +86,7 @@ PulseRuntimeDomainValueIndex_t DomainValueIdx { get; }
 PulseRuntimeInvokeIndex_t InvokeBindingIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeInvokeIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeinvokeindex_t)
 
@@ -96,7 +96,7 @@ PulseRuntimeInvokeIndex_t InvokeBindingIndex { get; }
 PulseRuntimeRegisterIndex_t Reg0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeRegisterIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeregisterindex_t)
 
@@ -106,7 +106,7 @@ PulseRuntimeRegisterIndex_t Reg0 { get; }
 PulseRuntimeRegisterIndex_t Reg1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeRegisterIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeregisterindex_t)
 
@@ -116,7 +116,7 @@ PulseRuntimeRegisterIndex_t Reg1 { get; }
 PulseRuntimeRegisterIndex_t Reg2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeRegisterIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeregisterindex_t)
 
@@ -126,7 +126,7 @@ PulseRuntimeRegisterIndex_t Reg2 { get; }
 PulseRuntimeVarIndex_t Var { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeVarIndex_t](/docs/api/shared/schemadefinitions/pulseruntimevarindex_t)
 

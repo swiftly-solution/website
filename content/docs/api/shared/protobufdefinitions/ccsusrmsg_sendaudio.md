@@ -6,7 +6,7 @@ title: CCSUsrMsg_SendAudio
 public interface CCSUsrMsg_SendAudio : ITypedProtobuf<CCSUsrMsg_SendAudio>, INativeHandle, INetMessage<CCSUsrMsg_SendAudio>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SendAudio : ITypedProtobuf<CCSUsrMsg_SendAudio>, INat
 string RadioSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

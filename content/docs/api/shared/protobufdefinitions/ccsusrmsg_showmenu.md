@@ -6,7 +6,7 @@ title: CCSUsrMsg_ShowMenu
 public interface CCSUsrMsg_ShowMenu : ITypedProtobuf<CCSUsrMsg_ShowMenu>, INativeHandle, INetMessage<CCSUsrMsg_ShowMenu>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ShowMenu : ITypedProtobuf<CCSUsrMsg_ShowMenu>, INativ
 int BitsValidSlots { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int BitsValidSlots { get; set; }
 int DisplayTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int DisplayTime { get; set; }
 string MenuString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

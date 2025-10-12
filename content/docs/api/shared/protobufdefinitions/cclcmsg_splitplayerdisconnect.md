@@ -6,7 +6,7 @@ title: CCLCMsg_SplitPlayerDisconnect
 public interface CCLCMsg_SplitPlayerDisconnect : ITypedProtobuf<CCLCMsg_SplitPlayerDisconnect>, INativeHandle, INetMessage<CCLCMsg_SplitPlayerDisconnect>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_SplitPlayerDisconnect : ITypedProtobuf<CCLCMsg_SplitPla
 int Slot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

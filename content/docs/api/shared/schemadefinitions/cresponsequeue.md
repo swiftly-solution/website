@@ -6,7 +6,7 @@ title: CResponseQueue
 public interface CResponseQueue : ISchemaClass<CResponseQueue>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CResponseQueue : ISchemaClass<CResponseQueue>, ISchemaField, IS
 ref CUtlVector<PointerTo<CAI_Expresser>> ExpresserTargets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CAI_Expresser](/docs/api/shared/schemadefinitions/cai_expresser)>>
 

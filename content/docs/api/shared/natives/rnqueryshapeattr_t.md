@@ -6,7 +6,7 @@ title: RnQueryShapeAttr_t
 public struct RnQueryShapeAttr_t
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct RnQueryShapeAttr_t
 public CollisionGroup CollisionGroup
 ```
 
-#### Field Value
+- Field Value
 
 - [CollisionGroup](/docs/api/shared/natives/collisiongroup)
 
@@ -26,7 +26,7 @@ public CollisionGroup CollisionGroup
 public uint* EntityIdsToIgnore
 ```
 
-#### Field Value
+- Field Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 
@@ -36,7 +36,7 @@ public uint* EntityIdsToIgnore
 public ushort* HierarchyIds
 ```
 
-#### Field Value
+- Field Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)*
 
@@ -46,7 +46,7 @@ public ushort* HierarchyIds
 public MaskTrace InteractsAs
 ```
 
-#### Field Value
+- Field Value
 
 - [MaskTrace](/docs/api/shared/natives/masktrace)
 
@@ -56,7 +56,7 @@ public MaskTrace InteractsAs
 public MaskTrace InteractsExclude
 ```
 
-#### Field Value
+- Field Value
 
 - [MaskTrace](/docs/api/shared/natives/masktrace)
 
@@ -66,7 +66,7 @@ public MaskTrace InteractsExclude
 public MaskTrace InteractsWith
 ```
 
-#### Field Value
+- Field Value
 
 - [MaskTrace](/docs/api/shared/natives/masktrace)
 
@@ -76,7 +76,7 @@ public MaskTrace InteractsWith
 public RnQueryObjectSet ObjectSetMask
 ```
 
-#### Field Value
+- Field Value
 
 - [RnQueryObjectSet](/docs/api/shared/natives/rnqueryobjectset)
 
@@ -86,7 +86,7 @@ public RnQueryObjectSet ObjectSetMask
 public uint* OwnerIdsToIgnore
 ```
 
-#### Field Value
+- Field Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 
@@ -98,7 +98,7 @@ public uint* OwnerIdsToIgnore
 public bool ForceHitEverything { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -108,7 +108,7 @@ public bool ForceHitEverything { get; set; }
 public bool HitSolid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -118,7 +118,7 @@ public bool HitSolid { get; set; }
 public bool HitSolidRequiresGenerateContacts { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -128,7 +128,7 @@ public bool HitSolidRequiresGenerateContacts { get; set; }
 public bool HitTrigger { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -138,7 +138,7 @@ public bool HitTrigger { get; set; }
 public bool IgnoreIfBothInteractWithHitboxes { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -148,7 +148,7 @@ public bool IgnoreIfBothInteractWithHitboxes { get; set; }
 public bool ShouldIgnoreDisabledPairs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -158,7 +158,7 @@ public bool ShouldIgnoreDisabledPairs { get; set; }
 public bool Unknown { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

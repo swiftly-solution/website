@@ -6,7 +6,7 @@ title: ConstraintSoundInfo
 public interface ConstraintSoundInfo : ISchemaClass<ConstraintSoundInfo>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ConstraintSoundInfo : ISchemaClass<ConstraintSoundInfo>, ISchem
 ref Vector ForwardAxis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector ForwardAxis { get; }
 ref bool PlayReversalSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool PlayReversalSound { get; }
 ref bool PlayTravelSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool PlayTravelSound { get; }
 string ReversalSounds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string ReversalSounds { get; set; }
 VelocitySampler Sampler { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VelocitySampler](/docs/api/shared/schemadefinitions/velocitysampler)
 
@@ -66,7 +66,7 @@ VelocitySampler Sampler { get; }
 SimpleConstraintSoundProfile SoundProfile { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SimpleConstraintSoundProfile](/docs/api/shared/schemadefinitions/simpleconstraintsoundprofile)
 
@@ -76,7 +76,7 @@ SimpleConstraintSoundProfile SoundProfile { get; }
 string TravelSoundBack { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string TravelSoundBack { get; set; }
 string TravelSoundFwd { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

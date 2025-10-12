@@ -6,7 +6,7 @@ title: CCycleControlUpdateNode
 public interface CCycleControlUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CCycleControlUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCycleControlUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase
 ref bool LockWhenWaning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool LockWhenWaning { get; }
 CAnimParamHandle ParamIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -36,7 +36,7 @@ CAnimParamHandle ParamIndex { get; }
 ref AnimValueSource ValueSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 

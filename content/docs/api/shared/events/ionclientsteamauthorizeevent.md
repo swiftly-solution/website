@@ -14,7 +14,7 @@ public interface IOnClientSteamAuthorizeEvent
 int PlayerId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

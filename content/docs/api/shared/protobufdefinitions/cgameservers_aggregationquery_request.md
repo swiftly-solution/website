@@ -6,7 +6,7 @@ title: CGameServers_AggregationQuery_Request
 public interface CGameServers_AggregationQuery_Request : ITypedProtobuf<CGameServers_AggregationQuery_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameServers_AggregationQuery_Request : ITypedProtobuf<CGameSer
 string Filter { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Filter { get; set; }
 IProtobufRepeatedFieldValueType<string> GroupFields { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 

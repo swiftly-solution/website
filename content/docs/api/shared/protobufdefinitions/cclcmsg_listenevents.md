@@ -6,7 +6,7 @@ title: CCLCMsg_ListenEvents
 public interface CCLCMsg_ListenEvents : ITypedProtobuf<CCLCMsg_ListenEvents>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_ListenEvents : ITypedProtobuf<CCLCMsg_ListenEvents>, IN
 IProtobufRepeatedFieldValueType<uint> EventMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

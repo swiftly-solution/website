@@ -6,7 +6,7 @@ title: CModelConfigElement_SetMaterialGroup
 public interface CModelConfigElement_SetMaterialGroup : CModelConfigElement, ISchemaClass<CModelConfigElement>, ISchemaClass<CModelConfigElement_SetMaterialGroup>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfigElement_SetMaterialGroup : CModelConfigElement, ISc
 string MaterialGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CCSPlayer_HostageServices
 public interface CCSPlayer_HostageServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CCSPlayer_HostageServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayer_HostageServices : CPlayerPawnComponent, ISchemaClass<
 ref CHandle<CBaseEntity> CarriedHostage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> CarriedHostage { get; }
 ref CHandle<CBaseEntity> CarriedHostageProp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

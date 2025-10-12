@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorContextValue
 public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorContextValue : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorContextValue>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_VectorCon
 Vector Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ Vector Value { get; set; }
 uint ValueNameHash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: ModelReference_t
 public interface ModelReference_t : ISchemaClass<ModelReference_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ModelReference_t : ISchemaClass<ModelReference_t>, ISchemaField
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
@@ -26,7 +26,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 ref float RelativeProbabilityOfSpawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

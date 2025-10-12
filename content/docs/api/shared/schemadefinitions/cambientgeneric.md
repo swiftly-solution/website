@@ -6,7 +6,7 @@ title: CAmbientGeneric
 public interface CAmbientGeneric : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CAmbientGeneric>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAmbientGeneric : CPointEntity, CBaseEntity, CEntityInstance, I
 ref bool Active { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Active { get; }
 dynpitchvol_t Dpv { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [dynpitchvol_t](/docs/api/shared/schemadefinitions/dynpitchvol_t)
 
@@ -36,7 +36,7 @@ dynpitchvol_t Dpv { get; }
 ref bool Looping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Looping { get; }
 ref float MaxRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MaxRadius { get; }
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float Radius { get; }
 string Sound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string Sound { get; set; }
 ref soundlevel_t SoundLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [soundlevel_t](/docs/api/shared/schemadefinitions/soundlevel_t)
 
@@ -86,7 +86,7 @@ ref soundlevel_t SoundLevel { get; }
 ref CHandle<CBaseEntity> SoundSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -96,7 +96,7 @@ ref CHandle<CBaseEntity> SoundSource { get; }
 ref uint SoundSourceEntIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ ref uint SoundSourceEntIndex { get; }
 string SourceEntName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

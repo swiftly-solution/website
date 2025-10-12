@@ -6,7 +6,7 @@ title: CEnvWindShared
 public interface CEnvWindShared : ISchemaClass<CEnvWindShared>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEnvWindShared : ISchemaClass<CEnvWindShared>, ISchemaField, IS
 ref CHandle<CBaseEntity> EntOwner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> EntOwner { get; }
 ref ushort GustDirChange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort GustDirChange { get; }
 ref float GustDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float GustDuration { get; }
 ref ushort InitialWindDir { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -56,7 +56,7 @@ ref ushort InitialWindDir { get; }
 ref float InitialWindSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float InitialWindSpeed { get; }
 ref Vector Location { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector Location { get; }
 ref ushort MaxGust { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -86,7 +86,7 @@ ref ushort MaxGust { get; }
 ref float MaxGustDelay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float MaxGustDelay { get; }
 ref ushort MaxWind { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -106,7 +106,7 @@ ref ushort MaxWind { get; }
 ref ushort MinGust { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -116,7 +116,7 @@ ref ushort MinGust { get; }
 ref float MinGustDelay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float MinGustDelay { get; }
 ref ushort MinWind { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -136,7 +136,7 @@ ref ushort MinWind { get; }
 CEntityIOOutput OnGustEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -146,7 +146,7 @@ CEntityIOOutput OnGustEnd { get; }
 CEntityIOOutput OnGustStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -156,7 +156,7 @@ CEntityIOOutput OnGustStart { get; }
 GameTime_t StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -166,7 +166,7 @@ GameTime_t StartTime { get; }
 ref int WindRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -176,7 +176,7 @@ ref int WindRadius { get; }
 ref uint WindSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

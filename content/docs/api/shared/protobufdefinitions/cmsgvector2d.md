@@ -6,7 +6,7 @@ title: CMsgVector2D
 public interface CMsgVector2D : ITypedProtobuf<CMsgVector2D>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgVector2D : ITypedProtobuf<CMsgVector2D>, INativeHandle
 float X { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float X { get; set; }
 float Y { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

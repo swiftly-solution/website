@@ -6,7 +6,7 @@ title: ParticleAttributeIndex_t
 public interface ParticleAttributeIndex_t : ISchemaClass<ParticleAttributeIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParticleAttributeIndex_t : ISchemaClass<ParticleAttributeIndex_
 ref int Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

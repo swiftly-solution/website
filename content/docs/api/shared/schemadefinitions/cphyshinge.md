@@ -6,7 +6,7 @@ title: CPhysHinge
 public interface CPhysHinge : CPhysConstraint, CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CPhysConstraint>, ISchemaClass<CPhysHinge>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysHinge : CPhysConstraint, CLogicalEntity, CServerOnlyEntity
 ref float AngleSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AngleSpeed { get; }
 ref float AngleSpeedThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AngleSpeedThreshold { get; }
 ref bool AtMaxLimit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool AtMaxLimit { get; }
 ref bool AtMinLimit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool AtMinLimit { get; }
 constraint_hingeparams_t Hinge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [constraint_hingeparams_t](/docs/api/shared/schemadefinitions/constraint_hingeparams_t)
 
@@ -66,7 +66,7 @@ constraint_hingeparams_t Hinge { get; }
 ref float HingeFriction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float HingeFriction { get; }
 ref float InitialRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float InitialRotation { get; }
 ref bool IsAxisLocal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool IsAxisLocal { get; }
 ref float MaxRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float MaxRotation { get; }
 ref float MinRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float MinRotation { get; }
 ref float MotorDampingRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float MotorDampingRatio { get; }
 ref float MotorFrequency { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float MotorFrequency { get; }
 CEntityIOOutput NotifyMaxLimitReached { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -146,7 +146,7 @@ CEntityIOOutput NotifyMaxLimitReached { get; }
 CEntityIOOutput NotifyMinLimitReached { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -156,7 +156,7 @@ CEntityIOOutput NotifyMinLimitReached { get; }
 CEntityIOOutput OnStartMoving { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -166,7 +166,7 @@ CEntityIOOutput OnStartMoving { get; }
 CEntityIOOutput OnStopMoving { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -176,7 +176,7 @@ CEntityIOOutput OnStopMoving { get; }
 ConstraintSoundInfo SoundInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ConstraintSoundInfo](/docs/api/shared/schemadefinitions/constraintsoundinfo)
 
@@ -186,7 +186,7 @@ ConstraintSoundInfo SoundInfo { get; }
 ref float SystemLoadScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

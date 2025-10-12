@@ -6,7 +6,7 @@ title: EventHltvReplayStatus
 public interface EventHltvReplayStatus : IGameEvent<EventHltvReplayStatus>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventHltvReplayStatus : IGameEvent<EventHltvReplayStatus>
 int Reason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

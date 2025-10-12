@@ -6,7 +6,7 @@ title: CMsgGCStorePurchaseFinalize
 public interface CMsgGCStorePurchaseFinalize : ITypedProtobuf<CMsgGCStorePurchaseFinalize>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCStorePurchaseFinalize : ITypedProtobuf<CMsgGCStorePurchas
 ulong TxnId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

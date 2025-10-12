@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate
 public interface CMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingOperator2GCBlogUpdate : ITypedPro
 string MainPostUrl { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

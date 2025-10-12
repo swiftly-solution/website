@@ -6,7 +6,7 @@ title: CBoneMaskUpdateNode
 public interface CBoneMaskUpdateNode : CBinaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CBinaryUpdateNode>, ISchemaClass<CBoneMaskUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBoneMaskUpdateNode : CBinaryUpdateNode, CAnimUpdateNodeBase, I
 CAnimParamHandle BlendParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -26,7 +26,7 @@ CAnimParamHandle BlendParameter { get; }
 ref BoneMaskBlendSpace BlendSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BoneMaskBlendSpace](/docs/api/shared/schemadefinitions/bonemaskblendspace)
 
@@ -36,7 +36,7 @@ ref BoneMaskBlendSpace BlendSpace { get; }
 ref AnimValueSource BlendValueSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 
@@ -46,7 +46,7 @@ ref AnimValueSource BlendValueSource { get; }
 ref BinaryNodeChildOption FootMotionTiming { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BinaryNodeChildOption](/docs/api/shared/schemadefinitions/binarynodechildoption)
 
@@ -56,7 +56,7 @@ ref BinaryNodeChildOption FootMotionTiming { get; }
 ref float RootMotionBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float RootMotionBlend { get; }
 ref bool UseBlendScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool UseBlendScale { get; }
 ref int WeightListIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

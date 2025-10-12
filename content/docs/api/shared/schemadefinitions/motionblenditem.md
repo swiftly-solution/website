@@ -6,7 +6,7 @@ title: MotionBlendItem
 public interface MotionBlendItem : ISchemaClass<MotionBlendItem>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MotionBlendItem : ISchemaClass<MotionBlendItem>, ISchemaField, 
 SchemaUntypedField Child { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Child { get; }
 ref float KeyValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

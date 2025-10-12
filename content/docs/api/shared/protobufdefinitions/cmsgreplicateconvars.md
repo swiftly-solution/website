@@ -6,7 +6,7 @@ title: CMsgReplicateConVars
 public interface CMsgReplicateConVars : ITypedProtobuf<CMsgReplicateConVars>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgReplicateConVars : ITypedProtobuf<CMsgReplicateConVars>, IN
 IProtobufRepeatedFieldSubMessageType<CMsgConVarValue> Convars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgConVarValue](/docs/api/shared/protobufdefinitions/cmsgconvarvalue)>
 

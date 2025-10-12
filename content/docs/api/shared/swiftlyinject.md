@@ -7,9 +7,9 @@ title: SwiftlyInject
 public class SwiftlyInject : Attribute
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 

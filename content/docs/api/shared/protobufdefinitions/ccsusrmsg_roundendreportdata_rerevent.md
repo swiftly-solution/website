@@ -6,7 +6,7 @@ title: CCSUsrMsg_RoundEndReportData_RerEvent
 public interface CCSUsrMsg_RoundEndReportData_RerEvent : ITypedProtobuf<CCSUsrMsg_RoundEndReportData_RerEvent>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_RoundEndReportData_RerEvent : ITypedProtobuf<CCSUsrMs
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_RoundEndReportData_RerEvent_Damage> AllDamageData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_RoundEndReportData_RerEvent_Damage](/docs/api/shared/protobufdefinitions/ccsusrmsg_roundendreportdata_rerevent_damage)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_RoundEndReportData_RerEvent_Damag
 int CtAlive { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int CtAlive { get; set; }
 CCSUsrMsg_RoundEndReportData_RerEvent_Objective ObjectiveData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSUsrMsg_RoundEndReportData_RerEvent_Objective](/docs/api/shared/protobufdefinitions/ccsusrmsg_roundendreportdata_rerevent_objective)
 
@@ -46,7 +46,7 @@ CCSUsrMsg_RoundEndReportData_RerEvent_Objective ObjectiveData { get; }
 int TAlive { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int TAlive { get; set; }
 int TerroristOdds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int TerroristOdds { get; set; }
 float Timestamp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ float Timestamp { get; set; }
 CCSUsrMsg_RoundEndReportData_RerEvent_Victim VictimData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSUsrMsg_RoundEndReportData_RerEvent_Victim](/docs/api/shared/protobufdefinitions/ccsusrmsg_roundendreportdata_rerevent_victim)
 

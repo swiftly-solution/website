@@ -6,11 +6,11 @@ title: PointerTo<T>
 public struct PointerTo<T> where T : INativeHandle, ISchemaClass<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
-#### Inherited Members
+- Inherited Members
 
 ## Properties
 
@@ -20,7 +20,7 @@ public struct PointerTo<T> where T : INativeHandle, ISchemaClass<T>
 public readonly T Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - T
 

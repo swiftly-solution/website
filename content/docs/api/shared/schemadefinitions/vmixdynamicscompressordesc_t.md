@@ -6,7 +6,7 @@ title: VMixDynamicsCompressorDesc_t
 public interface VMixDynamicsCompressorDesc_t : ISchemaClass<VMixDynamicsCompressorDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixDynamicsCompressorDesc_t : ISchemaClass<VMixDynamicsCompres
 ref float AttackTimeMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AttackTimeMS { get; }
 ref float CompressionRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float CompressionRatio { get; }
 ref float FldbCompressionThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float FldbCompressionThreshold { get; }
 ref float FldbKneeWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float FldbKneeWidth { get; }
 ref float FldbOutputGain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float FldbOutputGain { get; }
 ref bool PeakMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool PeakMode { get; }
 ref float RMSTimeMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float RMSTimeMS { get; }
 ref float ReleaseTimeMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float ReleaseTimeMS { get; }
 ref float WetMix { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

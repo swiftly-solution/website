@@ -6,7 +6,7 @@ title: CCSUsrMsg_XpUpdate
 public interface CCSUsrMsg_XpUpdate : ITypedProtobuf<CCSUsrMsg_XpUpdate>, INativeHandle, INetMessage<CCSUsrMsg_XpUpdate>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_XpUpdate : ITypedProtobuf<CCSUsrMsg_XpUpdate>, INativ
 CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded Data { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_gc2servernotifyxprewarded)
 

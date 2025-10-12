@@ -6,7 +6,7 @@ title: NmFloatCurveCompressionSettings_t
 public interface NmFloatCurveCompressionSettings_t : ISchemaClass<NmFloatCurveCompressionSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NmFloatCurveCompressionSettings_t : ISchemaClass<NmFloatCurveCo
 ref bool IsStatic { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool IsStatic { get; }
 NmCompressionSettings_t__QuantizationRange_t Range { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmCompressionSettings_t__QuantizationRange_t](/docs/api/shared/schemadefinitions/nmcompressionsettings_t__quantizationrange_t)
 

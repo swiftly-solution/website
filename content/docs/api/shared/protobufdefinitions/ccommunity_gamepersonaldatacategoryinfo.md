@@ -6,7 +6,7 @@ title: CCommunity_GamePersonalDataCategoryInfo
 public interface CCommunity_GamePersonalDataCategoryInfo : ITypedProtobuf<CCommunity_GamePersonalDataCategoryInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCommunity_GamePersonalDataCategoryInfo : ITypedProtobuf<CCommu
 string LocalizationToken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string LocalizationToken { get; set; }
 string TemplateFile { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string TemplateFile { get; set; }
 string Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

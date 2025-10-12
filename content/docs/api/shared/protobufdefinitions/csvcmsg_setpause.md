@@ -6,7 +6,7 @@ title: CSVCMsg_SetPause
 public interface CSVCMsg_SetPause : ITypedProtobuf<CSVCMsg_SetPause>, INativeHandle, INetMessage<CSVCMsg_SetPause>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_SetPause : ITypedProtobuf<CSVCMsg_SetPause>, INativeHan
 bool Paused { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

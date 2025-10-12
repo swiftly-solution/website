@@ -6,7 +6,7 @@ title: MotionIndex
 public interface MotionIndex : ISchemaClass<MotionIndex>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MotionIndex : ISchemaClass<MotionIndex>, ISchemaField, ISchemaC
 ref ushort Group { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort Group { get; }
 ref ushort Motion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

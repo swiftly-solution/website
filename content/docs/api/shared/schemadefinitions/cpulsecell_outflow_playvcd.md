@@ -6,7 +6,7 @@ title: CPulseCell_Outflow_PlayVCD
 public interface CPulseCell_Outflow_PlayVCD : CPulseCell_Outflow_PlaySceneBase, CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_Outflow_PlaySceneBase>, ISchemaClass<CPulseCell_Outflow_PlayVCD>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Outflow_PlayVCD : CPulseCell_Outflow_PlaySceneBase, 
 string VcdFilename { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CUserMessage_ExtraUserData
 public interface CUserMessage_ExtraUserData : ITypedProtobuf<CUserMessage_ExtraUserData>, INativeHandle, INetMessage<CUserMessage_ExtraUserData>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessage_ExtraUserData : ITypedProtobuf<CUserMessage_ExtraU
 IProtobufRepeatedFieldValueType<byte[]> Detail1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<byte[]> Detail1 { get; }
 IProtobufRepeatedFieldValueType<byte[]> Detail2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<byte[]> Detail2 { get; }
 int Item { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Item { get; set; }
 long Value1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
@@ -56,7 +56,7 @@ long Value1 { get; set; }
 long Value2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 

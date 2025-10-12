@@ -6,7 +6,7 @@ title: CUserMessage_PlayResponseConditional
 public interface CUserMessage_PlayResponseConditional : ITypedProtobuf<CUserMessage_PlayResponseConditional>, INativeHandle, INetMessage<CUserMessage_PlayResponseConditional>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessage_PlayResponseConditional : ITypedProtobuf<CUserMess
 int EntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int EntIndex { get; set; }
 Vector EntOrigin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector EntOrigin { get; set; }
 int MixPriority { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int MixPriority { get; set; }
 IProtobufRepeatedFieldValueType<int> PlayerSlots { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldValueType<int> PlayerSlots { get; }
 float PreDelay { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ float PreDelay { get; set; }
 string Response { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

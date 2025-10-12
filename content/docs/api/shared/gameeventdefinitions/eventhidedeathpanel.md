@@ -6,5 +6,5 @@ title: EventHideDeathpanel
 public interface EventHideDeathpanel : IGameEvent<EventHideDeathpanel>
 ```
 
-#### Implements
+- Implements
 

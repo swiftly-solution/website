@@ -6,7 +6,7 @@ title: CMsgApplyEggEssence
 public interface CMsgApplyEggEssence : ITypedProtobuf<CMsgApplyEggEssence>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgApplyEggEssence : ITypedProtobuf<CMsgApplyEggEssence>, INat
 ulong EggItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong EggItemId { get; set; }
 ulong EssenceItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

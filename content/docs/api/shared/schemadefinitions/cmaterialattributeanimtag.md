@@ -6,7 +6,7 @@ title: CMaterialAttributeAnimTag
 public interface CMaterialAttributeAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CMaterialAttributeAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMaterialAttributeAnimTag : CAnimTagBase, ISchemaClass<CAnimTag
 string AttributeName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AttributeName { get; set; }
 ref MatterialAttributeTagType_t AttributeType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MatterialAttributeTagType_t](/docs/api/shared/schemadefinitions/matterialattributetagtype_t)
 
@@ -36,7 +36,7 @@ ref MatterialAttributeTagType_t AttributeType { get; }
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -46,7 +46,7 @@ ref Color Color { get; }
 ref float Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

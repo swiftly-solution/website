@@ -6,7 +6,7 @@ title: CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule
 public interface CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule : ITypedProtobuf<CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule
 string RuleDescription { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string RuleDescription { get; set; }
 ulong WorkshopFileId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

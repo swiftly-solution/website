@@ -6,7 +6,7 @@ title: VPhysXAggregateData_t
 public interface VPhysXAggregateData_t : ISchemaClass<VPhysXAggregateData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VPhysXAggregateData_t : ISchemaClass<VPhysXAggregateData_t>, IS
 ref CUtlVector<matrix3x4_t> BindPose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<matrix3x4_t> BindPose { get; }
 ref CUtlVector<CUtlString> BoneNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlString> BoneNames { get; }
 ref CUtlVector<ushort> BoneParents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<ushort> BoneParents { get; }
 ref CUtlVector<uint> BonesHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<uint> BonesHash { get; }
 ref CUtlVector CollisionAttributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector CollisionAttributes { get; }
 ref CUtlVector Constraints2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector Constraints2 { get; }
 ref CUtlVector<CUtlString> DebugPartNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -86,7 +86,7 @@ ref CUtlVector<CUtlString> DebugPartNames { get; }
 string EmbeddedKeyvalues { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string EmbeddedKeyvalues { get; set; }
 PhysFeModelDesc_t? FeModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PhysFeModelDesc_t](/docs/api/shared/schemadefinitions/physfemodeldesc_t)?
 
@@ -106,7 +106,7 @@ PhysFeModelDesc_t? FeModel { get; }
 ref ushort Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -116,7 +116,7 @@ ref ushort Flags { get; }
 ref CUtlVector<ushort> IndexHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -126,7 +126,7 @@ ref CUtlVector<ushort> IndexHash { get; }
 ref CUtlVector<ushort> IndexNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -136,7 +136,7 @@ ref CUtlVector<ushort> IndexNames { get; }
 ref CUtlVector Joints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -146,7 +146,7 @@ ref CUtlVector Joints { get; }
 ref CUtlVector Parts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -156,7 +156,7 @@ ref CUtlVector Parts { get; }
 ref ushort RefCounter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -166,7 +166,7 @@ ref ushort RefCounter { get; }
 ref CUtlVector ShapeMarkups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -176,7 +176,7 @@ ref CUtlVector ShapeMarkups { get; }
 ref CUtlVector<uint> SurfacePropertyHashes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

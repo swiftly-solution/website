@@ -14,7 +14,7 @@ public interface IPermissionManager
 void AddPermission(ulong steamId, string permission)
 ```
 
-#### Parameters
+- Parameters
 
 - **steamId**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - The Steam ID of the player.
 - **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The permission to add.
@@ -25,7 +25,7 @@ void AddPermission(ulong steamId, string permission)
 void AddSubPermission(string permission, string subPermission)
 ```
 
-#### Parameters
+- Parameters
 
 - **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The permission to add the sub-permission to.
 - **subPermission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The sub-permission to add.
@@ -36,12 +36,12 @@ void AddSubPermission(string permission, string subPermission)
 bool PlayerHasPermission(ulong steamId, string permission)
 ```
 
-#### Parameters
+- Parameters
 
 - **steamId**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - The Steam ID of the player.
 - **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The permission to check.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the player has the permission, false otherwise.
 
@@ -51,7 +51,7 @@ bool PlayerHasPermission(ulong steamId, string permission)
 void RemovePermission(ulong steamId, string permission)
 ```
 
-#### Parameters
+- Parameters
 
 - **steamId**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - The Steam ID of the player.
 - **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The permission to remove.
@@ -62,7 +62,7 @@ void RemovePermission(ulong steamId, string permission)
 void RemoveSubPermission(string permission, string subPermission)
 ```
 
-#### Parameters
+- Parameters
 
 - **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The permission to remove the sub-permission from.
 - **subPermission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The sub-permission to remove.

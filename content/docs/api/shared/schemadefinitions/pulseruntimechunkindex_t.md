@@ -6,7 +6,7 @@ title: PulseRuntimeChunkIndex_t
 public interface PulseRuntimeChunkIndex_t : ISchemaClass<PulseRuntimeChunkIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseRuntimeChunkIndex_t : ISchemaClass<PulseRuntimeChunkIndex_
 ref int Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

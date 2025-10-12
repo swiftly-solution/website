@@ -6,7 +6,7 @@ title: C_OP_ExternalWindForce
 public interface C_OP_ExternalWindForce : CParticleFunctionForce, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionForce>, ISchemaClass<C_OP_ExternalWindForce>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_ExternalWindForce : CParticleFunctionForce, CParticleFunct
 CPerParticleVecInput BuoyancyForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -26,7 +26,7 @@ CPerParticleVecInput BuoyancyForce { get; }
 ref bool DampenNearWaterPlane { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool DampenNearWaterPlane { get; }
 CPerParticleVecInput GravityForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -46,7 +46,7 @@ CPerParticleVecInput GravityForce { get; }
 CPerParticleFloatInput LocalBuoyancyScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -56,7 +56,7 @@ CPerParticleFloatInput LocalBuoyancyScale { get; }
 CPerParticleFloatInput LocalGravityScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -66,7 +66,7 @@ CPerParticleFloatInput LocalGravityScale { get; }
 ref bool SampleGravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool SampleGravity { get; }
 CPerParticleVecInput SamplePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -86,7 +86,7 @@ CPerParticleVecInput SamplePosition { get; }
 ref bool SampleWater { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool SampleWater { get; }
 ref bool SampleWind { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool SampleWind { get; }
 CPerParticleVecInput Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -116,7 +116,7 @@ CPerParticleVecInput Scale { get; }
 ref bool UseBasicMovementGravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

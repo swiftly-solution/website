@@ -6,7 +6,7 @@ title: FeKelagerBend2_t
 public interface FeKelagerBend2_t : ISchemaClass<FeKelagerBend2_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeKelagerBend2_t : ISchemaClass<FeKelagerBend2_t>, ISchemaField
 ref float Height0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Height0 { get; }
 ISchemaFixedArray<ushort> Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<ushort> Node { get; }
 ref ushort Reserved { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort Reserved { get; }
 ISchemaFixedArray<float> Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

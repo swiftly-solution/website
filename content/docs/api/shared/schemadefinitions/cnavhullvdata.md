@@ -6,7 +6,7 @@ title: CNavHullVData
 public interface CNavHullVData : ISchemaClass<CNavHullVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNavHullVData : ISchemaClass<CNavHullVData>, ISchemaField, ISch
 ref int AgentBorderErosion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int AgentBorderErosion { get; }
 ref bool AgentCrawlEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool AgentCrawlEnabled { get; }
 ref float AgentCrawlHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float AgentCrawlHeight { get; }
 ref bool AgentEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool AgentEnabled { get; }
 ref float AgentHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float AgentHeight { get; }
 ref float AgentMaxClimb { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float AgentMaxClimb { get; }
 ref float AgentMaxJumpDownDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float AgentMaxJumpDownDist { get; }
 ref float AgentMaxJumpHorizDistBase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float AgentMaxJumpHorizDistBase { get; }
 ref float AgentMaxJumpUpDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float AgentMaxJumpUpDist { get; }
 ref int AgentMaxSlope { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int AgentMaxSlope { get; }
 ref float AgentRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float AgentRadius { get; }
 ref float AgentShortHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float AgentShortHeight { get; }
 ref bool AgentShortHeightEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool AgentShortHeightEnabled { get; }
 ref bool FlowMapGenerationEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool FlowMapGenerationEnabled { get; }
 ref float FlowMapNodeMaxRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

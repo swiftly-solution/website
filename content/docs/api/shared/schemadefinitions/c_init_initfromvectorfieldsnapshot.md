@@ -6,7 +6,7 @@ title: C_INIT_InitFromVectorFieldSnapshot
 public interface C_INIT_InitFromVectorFieldSnapshot : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_InitFromVectorFieldSnapshot>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_InitFromVectorFieldSnapshot : CParticleFunctionInitializ
 ref int ControlPointNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ControlPointNumber { get; }
 ref int LocalSpaceCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int LocalSpaceCP { get; }
 CPerParticleVecInput Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -46,7 +46,7 @@ CPerParticleVecInput Scale { get; }
 ref bool UseVerticalVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool UseVerticalVelocity { get; }
 ref int WeightUpdateCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

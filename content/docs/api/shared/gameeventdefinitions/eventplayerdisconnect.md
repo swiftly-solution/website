@@ -6,7 +6,7 @@ title: EventPlayerDisconnect
 public interface EventPlayerDisconnect : IGameEvent<EventPlayerDisconnect>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventPlayerDisconnect : IGameEvent<EventPlayerDisconnect>
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Name { get; set; }
 string NetworkID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string NetworkID { get; set; }
 short PlayerID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ short PlayerID { get; set; }
 short Reason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ short Reason { get; set; }
 int UserId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int UserId { get; set; }
 CCSPlayerController UserIdController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
@@ -76,7 +76,7 @@ CCSPlayerController UserIdController { get; }
 CCSPlayerPawn UserIdPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
@@ -86,7 +86,7 @@ CCSPlayerPawn UserIdPawn { get; }
 IPlayer UserIdPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 
@@ -96,7 +96,7 @@ IPlayer UserIdPlayer { get; }
 ulong XuID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

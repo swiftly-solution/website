@@ -6,11 +6,11 @@ title: SchemaUntypedField
 public class SchemaUntypedField : ISchemaClass<SchemaUntypedField>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Implements
+- Implements
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -20,7 +20,7 @@ public class SchemaUntypedField : ISchemaClass<SchemaUntypedField>, ISchemaField
 public SchemaUntypedField(nint handle)
 ```
 
-#### Parameters
+- Parameters
 
 - **handle**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -32,7 +32,7 @@ public SchemaUntypedField(nint handle)
 public nint Address { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -42,7 +42,7 @@ public nint Address { get; }
 public bool IsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -54,11 +54,11 @@ public bool IsValid { get; }
 public static SchemaUntypedField From(nint handle)
 ```
 
-#### Parameters
+- Parameters
 
 - **handle**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-#### Returns
+- Returns
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

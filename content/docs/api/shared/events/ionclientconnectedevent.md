@@ -14,7 +14,7 @@ public interface IOnClientConnectedEvent
 int PlayerId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -24,7 +24,7 @@ int PlayerId { get; }
 HookResult Result { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HookResult](/docs/api/shared/misc/hookresult)
 

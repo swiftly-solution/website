@@ -6,7 +6,7 @@ title: CClothSettingsAnimTag
 public interface CClothSettingsAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CClothSettingsAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CClothSettingsAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase
 ref float EaseIn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float EaseIn { get; }
 ref float EaseOut { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float EaseOut { get; }
 ref float Stiffness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Stiffness { get; }
 string VertexSet { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

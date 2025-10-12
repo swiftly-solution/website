@@ -6,7 +6,7 @@ title: CLogicCompare
 public interface CLogicCompare : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CLogicCompare>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLogicCompare : CLogicalEntity, CServerOnlyEntity, CBaseEntity,
 ref float CompareValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float CompareValue { get; }
 ref float InValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float InValue { get; }
 SchemaUntypedField OnEqualTo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField OnEqualTo { get; }
 SchemaUntypedField OnGreaterThan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField OnGreaterThan { get; }
 SchemaUntypedField OnLessThan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -66,7 +66,7 @@ SchemaUntypedField OnLessThan { get; }
 SchemaUntypedField OnNotEqualTo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

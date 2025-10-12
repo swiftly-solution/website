@@ -6,7 +6,7 @@ title: ActiveModelConfig_t
 public interface ActiveModelConfig_t : ISchemaClass<ActiveModelConfig_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ActiveModelConfig_t : ISchemaClass<ActiveModelConfig_t>, ISchem
 ref CUtlVector<CHandle<CBaseModelEntity>> AssociatedEntities { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CHandle<CBaseModelEntity>> AssociatedEntities { get; }
 ref CUtlVector<CUtlSymbolLarge> AssociatedEntityNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlSymbolLarge> AssociatedEntityNames { get; }
 ModelConfigHandle_t Handle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ModelConfigHandle_t](/docs/api/shared/schemadefinitions/modelconfighandle_t)
 
@@ -46,7 +46,7 @@ ModelConfigHandle_t Handle { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

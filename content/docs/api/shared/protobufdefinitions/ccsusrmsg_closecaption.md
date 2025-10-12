@@ -6,7 +6,7 @@ title: CCSUsrMsg_CloseCaption
 public interface CCSUsrMsg_CloseCaption : ITypedProtobuf<CCSUsrMsg_CloseCaption>, INativeHandle, INetMessage<CCSUsrMsg_CloseCaption>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_CloseCaption : ITypedProtobuf<CCSUsrMsg_CloseCaption>
 string Cctoken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Cctoken { get; set; }
 int Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Duration { get; set; }
 bool FromPlayer { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool FromPlayer { get; set; }
 uint Hash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

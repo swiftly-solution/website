@@ -6,7 +6,7 @@ title: CParticleSystemDefinition
 public interface CParticleSystemDefinition : IParticleSystemDefinition, ISchemaClass<IParticleSystemDefinition>, ISchemaClass<CParticleSystemDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleSystemDefinition : IParticleSystemDefinition, ISchemaC
 ref float AggregateRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AggregateRadius { get; }
 ref int AggregationMinAvailableParticles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int AggregationMinAvailableParticles { get; }
 ref int AllowRenderControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int AllowRenderControlPoint { get; }
 ref int BehaviorVersion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int BehaviorVersion { get; }
 ref Vector BoundingBoxMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector BoundingBoxMax { get; }
 ref Vector BoundingBoxMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector BoundingBoxMin { get; }
 ref CUtlVector Children { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -86,7 +86,7 @@ ref CUtlVector Children { get; }
 ref Color ConstantColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -96,7 +96,7 @@ ref Color ConstantColor { get; }
 ref float ConstantLifespan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float ConstantLifespan { get; }
 ref Vector ConstantNormal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -116,7 +116,7 @@ ref Vector ConstantNormal { get; }
 ref float ConstantRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float ConstantRadius { get; }
 ref float ConstantRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float ConstantRotation { get; }
 ref float ConstantRotationSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float ConstantRotationSpeed { get; }
 ref int ConstantSequenceNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int ConstantSequenceNumber { get; }
 ref int ConstantSequenceNumber1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ ref int ConstantSequenceNumber1 { get; }
 ref CUtlVector<PointerTo<CParticleFunctionConstraint>> Constraints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CParticleFunctionConstraint](/docs/api/shared/schemadefinitions/cparticlefunctionconstraint)>>
 
@@ -176,7 +176,7 @@ ref CUtlVector<PointerTo<CParticleFunctionConstraint>> Constraints { get; }
 ref CUtlVector ControlPointConfigurations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -186,7 +186,7 @@ ref CUtlVector ControlPointConfigurations { get; }
 ref int CullControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ ref int CullControlPoint { get; }
 ref float CullFillCost { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float CullFillCost { get; }
 ref float CullRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float CullRadius { get; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> CullReplacementName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -226,7 +226,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> CullReplacementN
 ref float DepthSortBias { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float DepthSortBias { get; }
 ref CUtlVector<PointerTo<CParticleFunctionEmitter>> Emitters { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CParticleFunctionEmitter](/docs/api/shared/schemadefinitions/cparticlefunctionemitter)>>
 
@@ -246,7 +246,7 @@ ref CUtlVector<PointerTo<CParticleFunctionEmitter>> Emitters { get; }
 ref bool EnableNamedValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -256,7 +256,7 @@ ref bool EnableNamedValues { get; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> Fallback { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -266,7 +266,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> Fallback { get; 
 ref int FallbackMaxCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -276,7 +276,7 @@ ref int FallbackMaxCount { get; }
 ref int FirstMultipleOverride_BackwardCompat { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -286,7 +286,7 @@ ref int FirstMultipleOverride_BackwardCompat { get; }
 ref CUtlVector<PointerTo<CParticleFunctionForce>> ForceGenerators { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CParticleFunctionForce](/docs/api/shared/schemadefinitions/cparticlefunctionforce)>>
 
@@ -296,7 +296,7 @@ ref CUtlVector<PointerTo<CParticleFunctionForce>> ForceGenerators { get; }
 ref int GroupID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -306,7 +306,7 @@ ref int GroupID { get; }
 ref bool InfiniteBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -316,7 +316,7 @@ ref bool InfiniteBounds { get; }
 ref int InitialParticles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -326,7 +326,7 @@ ref int InitialParticles { get; }
 ref CUtlVector<PointerTo<CParticleFunctionInitializer>> Initializers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CParticleFunctionInitializer](/docs/api/shared/schemadefinitions/cparticlefunctioninitializer)>>
 
@@ -336,7 +336,7 @@ ref CUtlVector<PointerTo<CParticleFunctionInitializer>> Initializers { get; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> LowViolenceDef { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -346,7 +346,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> LowViolenceDef {
 ref float MaxCreationDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -356,7 +356,7 @@ ref float MaxCreationDistance { get; }
 ref float MaxDrawDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -366,7 +366,7 @@ ref float MaxDrawDistance { get; }
 ref int MaxParticles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -376,7 +376,7 @@ ref int MaxParticles { get; }
 ref float MaximumSimTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -386,7 +386,7 @@ ref float MaximumSimTime { get; }
 ref float MaximumTimeStep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -396,7 +396,7 @@ ref float MaximumTimeStep { get; }
 ref int MinCPULevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -406,7 +406,7 @@ ref int MinCPULevel { get; }
 ref int MinGPULevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -416,7 +416,7 @@ ref int MinGPULevel { get; }
 ref int MinimumFrames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -426,7 +426,7 @@ ref int MinimumFrames { get; }
 ref float MinimumSimTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -436,7 +436,7 @@ ref float MinimumSimTime { get; }
 ref float MinimumTimeStep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -446,7 +446,7 @@ ref float MinimumTimeStep { get; }
 string NamedValueDomain { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -456,7 +456,7 @@ string NamedValueDomain { get; set; }
 ref CUtlVector<PointerTo<ParticleNamedValueSource_t>> NamedValueLocals { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[ParticleNamedValueSource_t](/docs/api/shared/schemadefinitions/particlenamedvaluesource_t)>>
 
@@ -466,7 +466,7 @@ ref CUtlVector<PointerTo<ParticleNamedValueSource_t>> NamedValueLocals { get; }
 ref float NoDrawTimeToGoToSleep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -476,7 +476,7 @@ ref float NoDrawTimeToGoToSleep { get; }
 ref CUtlVector<PointerTo<CParticleFunctionOperator>> Operators { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CParticleFunctionOperator](/docs/api/shared/schemadefinitions/cparticlefunctionoperator)>>
 
@@ -486,7 +486,7 @@ ref CUtlVector<PointerTo<CParticleFunctionOperator>> Operators { get; }
 ref CUtlVector<PointerTo<CParticleFunctionPreEmission>> PreEmissionOperators { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CParticleFunctionPreEmission](/docs/api/shared/schemadefinitions/cparticlefunctionpreemission)>>
 
@@ -496,7 +496,7 @@ ref CUtlVector<PointerTo<CParticleFunctionPreEmission>> PreEmissionOperators { g
 ref float PreSimulationTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -506,7 +506,7 @@ ref float PreSimulationTime { get; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ReferenceReplacement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -516,7 +516,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ReferenceReplace
 ref CUtlVector<PointerTo<CParticleFunctionRenderer>> Renderers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CParticleFunctionRenderer](/docs/api/shared/schemadefinitions/cparticlefunctionrenderer)>>
 
@@ -526,7 +526,7 @@ ref CUtlVector<PointerTo<CParticleFunctionRenderer>> Renderers { get; }
 ref bool ScreenSpaceEffect { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -536,7 +536,7 @@ ref bool ScreenSpaceEffect { get; }
 ref bool ShouldBatch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -546,7 +546,7 @@ ref bool ShouldBatch { get; }
 ref bool ShouldHitboxesFallbackToCollisionHulls { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -556,7 +556,7 @@ ref bool ShouldHitboxesFallbackToCollisionHulls { get; }
 ref bool ShouldHitboxesFallbackToRenderBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -566,7 +566,7 @@ ref bool ShouldHitboxesFallbackToRenderBounds { get; }
 ref bool ShouldHitboxesFallbackToSnapshot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -576,7 +576,7 @@ ref bool ShouldHitboxesFallbackToSnapshot { get; }
 ref bool ShouldSort { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -586,7 +586,7 @@ ref bool ShouldSort { get; }
 ref int SkipRenderControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -596,7 +596,7 @@ ref int SkipRenderControlPoint { get; }
 ref CStrongHandle<InfoForResourceTypeIParticleSnapshot> Snapshot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSnapshot](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesnapshot)>
 
@@ -606,7 +606,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSnapshot> Snapshot { get; }
 ref int SnapshotControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -616,7 +616,7 @@ ref int SnapshotControlPoint { get; }
 ref int SortOverridePositionCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -626,7 +626,7 @@ ref int SortOverridePositionCP { get; }
 ref float StartFadeDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -636,7 +636,7 @@ ref float StartFadeDistance { get; }
 ref float StopSimulationAfterTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -646,7 +646,7 @@ ref float StopSimulationAfterTime { get; }
 string TargetLayerID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -656,7 +656,7 @@ string TargetLayerID { get; set; }
 ref InheritableBoolType_t ViewModelEffect { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [InheritableBoolType_t](/docs/api/shared/schemadefinitions/inheritablebooltype_t)
 

@@ -6,7 +6,7 @@ title: NetMessageSplitscreenUserChanged
 public interface NetMessageSplitscreenUserChanged : ITypedProtobuf<NetMessageSplitscreenUserChanged>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NetMessageSplitscreenUserChanged : ITypedProtobuf<NetMessageSpl
 uint Slot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

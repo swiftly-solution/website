@@ -14,18 +14,18 @@ public interface IConVarService
 IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, ConvarFlags flags = ConvarFlags.NONE)
 ```
 
-#### Parameters
+- Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the convar.
 - **helpMessage**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The help message of the convar.
 - **defaultValue**: T - The default value of the convar.
 - **flags**: [ConvarFlags](/docs/api/shared/convars/convarflags) - The flags of the convar.
 
-#### Returns
+- Returns
 
 - [IConVar](/docs/api/shared/convars/iconvar-1)<T> - The created convar.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The type of the convar.
 
@@ -35,7 +35,7 @@ IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, ConvarFlag
 IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, T? minValue = null, T? maxValue = null, ConvarFlags flags = ConvarFlags.NONE) where T : unmanaged
 ```
 
-#### Parameters
+- Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the convar.
 - **helpMessage**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The help message of the convar.
@@ -44,11 +44,11 @@ IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, T? minValu
 - **maxValue**: T? - The max value of the convar.
 - **flags**: [ConvarFlags](/docs/api/shared/convars/convarflags) - The flags of the convar.
 
-#### Returns
+- Returns
 
 - [IConVar](/docs/api/shared/convars/iconvar-1)<T> - The created convar.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The type of the convar.
 
@@ -58,15 +58,15 @@ IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, T? minValu
 IConVar<T>? Find<T>(string name)
 ```
 
-#### Parameters
+- Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the convar.
 
-#### Returns
+- Returns
 
 - [IConVar](/docs/api/shared/convars/iconvar-1)<T>? - The convar if found, null otherwise.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The type of the convar.
 

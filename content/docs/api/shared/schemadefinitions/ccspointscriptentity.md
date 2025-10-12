@@ -6,5 +6,5 @@ title: CCSPointScriptEntity
 public interface CCSPointScriptEntity : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CCSPointScriptEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

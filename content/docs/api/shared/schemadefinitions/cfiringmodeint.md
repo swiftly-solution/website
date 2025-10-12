@@ -6,7 +6,7 @@ title: CFiringModeInt
 public interface CFiringModeInt : ISchemaClass<CFiringModeInt>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFiringModeInt : ISchemaClass<CFiringModeInt>, ISchemaField, IS
 ISchemaFixedArray<int> Values { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

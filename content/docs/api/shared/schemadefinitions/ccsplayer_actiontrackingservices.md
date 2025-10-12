@@ -6,7 +6,7 @@ title: CCSPlayer_ActionTrackingServices
 public interface CCSPlayer_ActionTrackingServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CCSPlayer_ActionTrackingServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayer_ActionTrackingServices : CPlayerPawnComponent, ISchem
 ref bool IsRescuing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool IsRescuing { get; }
 ref CHandle<CBasePlayerWeapon> LastWeaponBeforeC4AutoSwitch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerWeapon](/docs/api/shared/schemadefinitions/cbaseplayerweapon)>
 
@@ -36,7 +36,7 @@ ref CHandle<CBasePlayerWeapon> LastWeaponBeforeC4AutoSwitch { get; }
 WeaponPurchaseTracker_t WeaponPurchasesThisMatch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [WeaponPurchaseTracker_t](/docs/api/shared/schemadefinitions/weaponpurchasetracker_t)
 
@@ -46,7 +46,7 @@ WeaponPurchaseTracker_t WeaponPurchasesThisMatch { get; }
 WeaponPurchaseTracker_t WeaponPurchasesThisRound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [WeaponPurchaseTracker_t](/docs/api/shared/schemadefinitions/weaponpurchasetracker_t)
 

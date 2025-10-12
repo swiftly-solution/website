@@ -6,7 +6,7 @@ title: CExampleSchemaVData_Monomorphic
 public interface CExampleSchemaVData_Monomorphic : ISchemaClass<CExampleSchemaVData_Monomorphic>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CExampleSchemaVData_Monomorphic : ISchemaClass<CExampleSchemaVD
 ref int Example1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Example1 { get; }
 ref int Example2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

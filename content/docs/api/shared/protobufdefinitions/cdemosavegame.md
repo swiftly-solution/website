@@ -6,7 +6,7 @@ title: CDemoSaveGame
 public interface CDemoSaveGame : ITypedProtobuf<CDemoSaveGame>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoSaveGame : ITypedProtobuf<CDemoSaveGame>, INativeHandle
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] Data { get; set; }
 ulong Signature { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong Signature { get; set; }
 ulong SteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong SteamId { get; set; }
 int Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

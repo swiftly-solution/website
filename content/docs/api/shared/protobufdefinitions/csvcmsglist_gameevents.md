@@ -6,7 +6,7 @@ title: CSVCMsgList_GameEvents
 public interface CSVCMsgList_GameEvents : ITypedProtobuf<CSVCMsgList_GameEvents>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsgList_GameEvents : ITypedProtobuf<CSVCMsgList_GameEvents>
 IProtobufRepeatedFieldSubMessageType<CSVCMsgList_GameEvents_event_t> Events { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSVCMsgList_GameEvents_event_t](/docs/api/shared/protobufdefinitions/csvcmsglist_gameevents_event_t)>
 

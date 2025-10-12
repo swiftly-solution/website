@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_UpdateFan
 public interface CUserMsg_ParticleManager_UpdateFan : ITypedProtobuf<CUserMsg_ParticleManager_UpdateFan>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_UpdateFan : ITypedProtobuf<CUserMsg_Pa
 bool Active { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool Active { get; set; }
 Vector BoundsMaxs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector BoundsMaxs { get; set; }
 Vector BoundsMins { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ Vector BoundsMins { get; set; }
 Vector FanDirection { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ Vector FanDirection { get; set; }
 Vector FanOrigin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ Vector FanOrigin { get; set; }
 Vector FanOriginOffset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ Vector FanOriginOffset { get; set; }
 float FanRampRatio { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

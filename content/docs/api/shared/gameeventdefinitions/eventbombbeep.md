@@ -6,7 +6,7 @@ title: EventBombBeep
 public interface EventBombBeep : IGameEvent<EventBombBeep>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventBombBeep : IGameEvent<EventBombBeep>
 int EntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

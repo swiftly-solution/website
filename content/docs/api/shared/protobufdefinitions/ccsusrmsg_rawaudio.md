@@ -6,7 +6,7 @@ title: CCSUsrMsg_RawAudio
 public interface CCSUsrMsg_RawAudio : ITypedProtobuf<CCSUsrMsg_RawAudio>, INativeHandle, INetMessage<CCSUsrMsg_RawAudio>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_RawAudio : ITypedProtobuf<CCSUsrMsg_RawAudio>, INativ
 float Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float Duration { get; set; }
 int Entidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Entidx { get; set; }
 int Pitch { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Pitch { get; set; }
 string VoiceFilename { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: EventTeamplayRoundStart
 public interface EventTeamplayRoundStart : IGameEvent<EventTeamplayRoundStart>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventTeamplayRoundStart : IGameEvent<EventTeamplayRoundStart>
 bool FullReset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

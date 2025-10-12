@@ -6,7 +6,7 @@ title: C_INIT_InitialVelocityNoise
 public interface C_INIT_InitialVelocityNoise : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_InitialVelocityNoise>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_InitialVelocityNoise : CParticleFunctionInitializer, CPa
 ref Vector AbsVal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector AbsVal { get; }
 ref Vector AbsValInv { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector AbsValInv { get; }
 ref bool IgnoreDt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IgnoreDt { get; }
 CPerParticleFloatInput NoiseScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -56,7 +56,7 @@ CPerParticleFloatInput NoiseScale { get; }
 CPerParticleFloatInput NoiseScaleLoc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -66,7 +66,7 @@ CPerParticleFloatInput NoiseScaleLoc { get; }
 CPerParticleFloatInput Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -76,7 +76,7 @@ CPerParticleFloatInput Offset { get; }
 CPerParticleVecInput OffsetLoc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -86,7 +86,7 @@ CPerParticleVecInput OffsetLoc { get; }
 CPerParticleVecInput OutputMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -96,7 +96,7 @@ CPerParticleVecInput OutputMax { get; }
 CPerParticleVecInput OutputMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -106,7 +106,7 @@ CPerParticleVecInput OutputMin { get; }
 CParticleTransformInput TransformInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 

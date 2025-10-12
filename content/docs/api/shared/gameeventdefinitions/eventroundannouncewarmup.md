@@ -6,5 +6,5 @@ title: EventRoundAnnounceWarmup
 public interface EventRoundAnnounceWarmup : IGameEvent<EventRoundAnnounceWarmup>
 ```
 
-#### Implements
+- Implements
 

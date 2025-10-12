@@ -6,7 +6,7 @@ title: CBodyComponentSkeletonInstance
 public interface CBodyComponentSkeletonInstance : CBodyComponent, CEntityComponent, ISchemaClass<CEntityComponent>, ISchemaClass<CBodyComponent>, ISchemaClass<CBodyComponentSkeletonInstance>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBodyComponentSkeletonInstance : CBodyComponent, CEntityCompone
 CSkeletonInstance SkeletonInstance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSkeletonInstance](/docs/api/shared/schemadefinitions/cskeletoninstance)
 

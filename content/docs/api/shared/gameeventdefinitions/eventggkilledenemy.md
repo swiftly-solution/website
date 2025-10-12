@@ -6,7 +6,7 @@ title: EventGgKilledEnemy
 public interface EventGgKilledEnemy : IGameEvent<EventGgKilledEnemy>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventGgKilledEnemy : IGameEvent<EventGgKilledEnemy>
 int AttackerID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AttackerID { get; set; }
 bool Bonus { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool Bonus { get; set; }
 short Dominated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ short Dominated { get; set; }
 short Revenge { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ short Revenge { get; set; }
 int VictimID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

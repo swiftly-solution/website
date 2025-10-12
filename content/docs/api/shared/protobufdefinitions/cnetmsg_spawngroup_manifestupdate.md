@@ -6,7 +6,7 @@ title: CNETMsg_SpawnGroup_ManifestUpdate
 public interface CNETMsg_SpawnGroup_ManifestUpdate : ITypedProtobuf<CNETMsg_SpawnGroup_ManifestUpdate>, INativeHandle, INetMessage<CNETMsg_SpawnGroup_ManifestUpdate>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNETMsg_SpawnGroup_ManifestUpdate : ITypedProtobuf<CNETMsg_Spaw
 bool Manifestincomplete { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool Manifestincomplete { get; set; }
 uint Spawngrouphandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Spawngrouphandle { get; set; }
 byte[] Spawngroupmanifest { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

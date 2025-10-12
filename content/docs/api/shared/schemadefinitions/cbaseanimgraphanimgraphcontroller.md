@@ -6,7 +6,7 @@ title: CBaseAnimGraphAnimGraphController
 public interface CBaseAnimGraphAnimGraphController : CAnimGraphControllerBase, ISchemaClass<CAnimGraphControllerBase>, ISchemaClass<CBaseAnimGraphAnimGraphController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseAnimGraphAnimGraphController : CAnimGraphControllerBase, I
 SchemaUntypedField DestructiblePartDestroyedHitGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField DestructiblePartDestroyedHitGroup { get; }
 SchemaUntypedField DestructiblePartDestroyedPartIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField DestructiblePartDestroyedPartIndex { get; }
 SchemaUntypedField HITGROUP_CHEST_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField HITGROUP_CHEST_Destroyed { get; }
 SchemaUntypedField HITGROUP_GEAR_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField HITGROUP_GEAR_Destroyed { get; }
 SchemaUntypedField HITGROUP_GENERIC_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -66,7 +66,7 @@ SchemaUntypedField HITGROUP_GENERIC_Destroyed { get; }
 SchemaUntypedField HITGROUP_HEAD_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField HITGROUP_HEAD_Destroyed { get; }
 SchemaUntypedField HITGROUP_INVALID_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -86,7 +86,7 @@ SchemaUntypedField HITGROUP_INVALID_Destroyed { get; }
 SchemaUntypedField HITGROUP_LEFTARM_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -96,7 +96,7 @@ SchemaUntypedField HITGROUP_LEFTARM_Destroyed { get; }
 SchemaUntypedField HITGROUP_LEFTLEG_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -106,7 +106,7 @@ SchemaUntypedField HITGROUP_LEFTLEG_Destroyed { get; }
 SchemaUntypedField HITGROUP_NECK_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -116,7 +116,7 @@ SchemaUntypedField HITGROUP_NECK_Destroyed { get; }
 SchemaUntypedField HITGROUP_RIGHTARM_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -126,7 +126,7 @@ SchemaUntypedField HITGROUP_RIGHTARM_Destroyed { get; }
 SchemaUntypedField HITGROUP_RIGHTLEG_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -136,7 +136,7 @@ SchemaUntypedField HITGROUP_RIGHTLEG_Destroyed { get; }
 SchemaUntypedField HITGROUP_SPECIAL_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -146,7 +146,7 @@ SchemaUntypedField HITGROUP_SPECIAL_Destroyed { get; }
 SchemaUntypedField HITGROUP_STOMACH_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -156,7 +156,7 @@ SchemaUntypedField HITGROUP_STOMACH_Destroyed { get; }
 SchemaUntypedField HITGROUP_UNUSED_Destroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

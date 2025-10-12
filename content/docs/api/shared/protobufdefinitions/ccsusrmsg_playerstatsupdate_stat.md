@@ -6,7 +6,7 @@ title: CCSUsrMsg_PlayerStatsUpdate_Stat
 public interface CCSUsrMsg_PlayerStatsUpdate_Stat : ITypedProtobuf<CCSUsrMsg_PlayerStatsUpdate_Stat>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_PlayerStatsUpdate_Stat : ITypedProtobuf<CCSUsrMsg_Pla
 int Delta { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Delta { get; set; }
 int Idx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

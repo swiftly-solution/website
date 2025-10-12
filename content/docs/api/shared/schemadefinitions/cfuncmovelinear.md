@@ -6,7 +6,7 @@ title: CFuncMoveLinear
 public interface CFuncMoveLinear : CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CFuncMoveLinear>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFuncMoveLinear : CBaseToggle, CBaseModelEntity, CBaseEntity, C
 ref bool AllowMovableNavMeshDockingOnEntireEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AllowMovableNavMeshDockingOnEntireEntity { get; }
 ref MoveLinearAuthoredPos_t AuthoredPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MoveLinearAuthoredPos_t](/docs/api/shared/schemadefinitions/movelinearauthoredpos_t)
 
@@ -36,7 +36,7 @@ ref MoveLinearAuthoredPos_t AuthoredPosition { get; }
 ref float BlockDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float BlockDamage { get; }
 ref bool CreateMovableNavMesh { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool CreateMovableNavMesh { get; }
 ref bool CreateNavObstacle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool CreateNavObstacle { get; }
 string CurrentSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string CurrentSound { get; set; }
 ref Vector MoveDirParentSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector MoveDirParentSpace { get; }
 ref QAngle MoveEntitySpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -96,7 +96,7 @@ ref QAngle MoveEntitySpace { get; }
 CEntityIOOutput OnFullyClosed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -106,7 +106,7 @@ CEntityIOOutput OnFullyClosed { get; }
 CEntityIOOutput OnFullyOpen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -116,7 +116,7 @@ CEntityIOOutput OnFullyOpen { get; }
 string SoundStart { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -126,7 +126,7 @@ string SoundStart { get; set; }
 string SoundStop { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string SoundStop { get; set; }
 ref float StartPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

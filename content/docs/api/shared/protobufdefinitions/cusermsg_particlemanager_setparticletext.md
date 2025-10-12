@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetParticleText
 public interface CUserMsg_ParticleManager_SetParticleText : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleText>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetParticleText : ITypedProtobuf<CUser
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

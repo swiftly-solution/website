@@ -6,7 +6,7 @@ title: CQuest_PublisherAddCommunityItemsToPlayer_Response
 public interface CQuest_PublisherAddCommunityItemsToPlayer_Response : ITypedProtobuf<CQuest_PublisherAddCommunityItemsToPlayer_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CQuest_PublisherAddCommunityItemsToPlayer_Response : ITypedProt
 uint ItemsGranted { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ItemsGranted { get; set; }
 uint ItemsMatched { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: C_INIT_RemapQAnglesToRotation
 public interface C_INIT_RemapQAnglesToRotation : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_RemapQAnglesToRotation>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_RemapQAnglesToRotation : CParticleFunctionInitializer, C
 CParticleTransformInput TransformInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 

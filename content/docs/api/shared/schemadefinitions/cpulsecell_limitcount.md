@@ -6,7 +6,7 @@ title: CPulseCell_LimitCount
 public interface CPulseCell_LimitCount : CPulseCell_BaseRequirement, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseRequirement>, ISchemaClass<CPulseCell_LimitCount>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_LimitCount : CPulseCell_BaseRequirement, CPulseCell_
 ref int LimitCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CPulse_OutflowConnection
 public interface CPulse_OutflowConnection : ISchemaClass<CPulse_OutflowConnection>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulse_OutflowConnection : ISchemaClass<CPulse_OutflowConnectio
 PulseRuntimeChunkIndex_t DestChunk { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeChunkIndex_t](/docs/api/shared/schemadefinitions/pulseruntimechunkindex_t)
 
@@ -26,7 +26,7 @@ PulseRuntimeChunkIndex_t DestChunk { get; }
 ref int Instruction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int Instruction { get; }
 PulseRegisterMap_t OutflowRegisterMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRegisterMap_t](/docs/api/shared/schemadefinitions/pulseregistermap_t)
 
@@ -46,7 +46,7 @@ PulseRegisterMap_t OutflowRegisterMap { get; }
 SchemaUntypedField SourceOutflowName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

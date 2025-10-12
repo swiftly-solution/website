@@ -6,7 +6,7 @@ title: CMsgVDebugGameSessionIDEvent
 public interface CMsgVDebugGameSessionIDEvent : ITypedProtobuf<CMsgVDebugGameSessionIDEvent>, INativeHandle, INetMessage<CMsgVDebugGameSessionIDEvent>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgVDebugGameSessionIDEvent : ITypedProtobuf<CMsgVDebugGameSes
 int Clientid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Clientid { get; set; }
 string Gamesessionid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

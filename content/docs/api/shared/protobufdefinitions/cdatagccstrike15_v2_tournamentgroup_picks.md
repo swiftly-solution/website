@@ -6,7 +6,7 @@ title: CDataGCCStrike15_v2_TournamentGroup_Picks
 public interface CDataGCCStrike15_v2_TournamentGroup_Picks : ITypedProtobuf<CDataGCCStrike15_v2_TournamentGroup_Picks>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDataGCCStrike15_v2_TournamentGroup_Picks : ITypedProtobuf<CDat
 IProtobufRepeatedFieldValueType<int> Pickids { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

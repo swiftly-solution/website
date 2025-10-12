@@ -6,7 +6,7 @@ title: MaterialResourceData_t
 public interface MaterialResourceData_t : ISchemaClass<MaterialResourceData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MaterialResourceData_t : ISchemaClass<MaterialResourceData_t>, 
 ref CUtlVector DynamicParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector DynamicParams { get; }
 ref CUtlVector DynamicTextureParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector DynamicTextureParams { get; }
 ref CUtlVector FloatAttributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector FloatAttributes { get; }
 ref CUtlVector FloatParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector FloatParams { get; }
 ref CUtlVector IntAttributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector IntAttributes { get; }
 ref CUtlVector IntParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector IntParams { get; }
 string MaterialName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string MaterialName { get; set; }
 ref CUtlVector<CUtlString> RenderAttributesUsed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<CUtlString> RenderAttributesUsed { get; }
 string ShaderName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string ShaderName { get; set; }
 ref CUtlVector StringAttributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -116,7 +116,7 @@ ref CUtlVector StringAttributes { get; }
 ref CUtlVector TextureAttributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -126,7 +126,7 @@ ref CUtlVector TextureAttributes { get; }
 ref CUtlVector TextureParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -136,7 +136,7 @@ ref CUtlVector TextureParams { get; }
 ref CUtlVector VectorAttributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -146,7 +146,7 @@ ref CUtlVector VectorAttributes { get; }
 ref CUtlVector VectorParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

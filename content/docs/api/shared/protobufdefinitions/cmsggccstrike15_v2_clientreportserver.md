@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientReportServer
 public interface CMsgGCCStrike15_v2_ClientReportServer : ITypedProtobuf<CMsgGCCStrike15_v2_ClientReportServer>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientReportServer : ITypedProtobuf<CMsgGCCS
 ulong MatchId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong MatchId { get; set; }
 uint RptAbusivemodels { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint RptAbusivemodels { get; set; }
 uint RptBadmotd { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint RptBadmotd { get; set; }
 uint RptInventoryabuse { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint RptInventoryabuse { get; set; }
 uint RptListingabuse { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint RptListingabuse { get; set; }
 uint RptPoorperf { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

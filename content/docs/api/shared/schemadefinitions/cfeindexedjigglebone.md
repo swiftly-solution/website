@@ -6,7 +6,7 @@ title: CFeIndexedJiggleBone
 public interface CFeIndexedJiggleBone : ISchemaClass<CFeIndexedJiggleBone>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFeIndexedJiggleBone : ISchemaClass<CFeIndexedJiggleBone>, ISch
 CFeJiggleBone JiggleBone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFeJiggleBone](/docs/api/shared/schemadefinitions/cfejigglebone)
 
@@ -26,7 +26,7 @@ CFeJiggleBone JiggleBone { get; }
 ref uint JiggleParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint JiggleParent { get; }
 ref uint Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

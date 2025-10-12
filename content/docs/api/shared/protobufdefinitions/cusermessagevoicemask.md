@@ -6,7 +6,7 @@ title: CUserMessageVoiceMask
 public interface CUserMessageVoiceMask : ITypedProtobuf<CUserMessageVoiceMask>, INativeHandle, INetMessage<CUserMessageVoiceMask>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageVoiceMask : ITypedProtobuf<CUserMessageVoiceMask>, 
 IProtobufRepeatedFieldValueType<uint> BanMasks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<uint> BanMasks { get; }
 IProtobufRepeatedFieldValueType<uint> GamerulesMasks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<uint> GamerulesMasks { get; }
 bool ModEnable { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

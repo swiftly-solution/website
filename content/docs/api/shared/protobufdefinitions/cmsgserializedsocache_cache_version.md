@@ -6,7 +6,7 @@ title: CMsgSerializedSOCache_Cache_Version
 public interface CMsgSerializedSOCache_Cache_Version : ITypedProtobuf<CMsgSerializedSOCache_Cache_Version>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSerializedSOCache_Cache_Version : ITypedProtobuf<CMsgSerial
 uint Service { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Service { get; set; }
 ulong Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

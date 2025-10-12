@@ -6,7 +6,7 @@ title: CVoteController
 public interface CVoteController : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CVoteController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoteController : CBaseEntity, CEntityInstance, ISchemaClass<CE
 CountdownTimer AcceptingVotesTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -26,7 +26,7 @@ CountdownTimer AcceptingVotesTimer { get; }
 ref int ActiveIssueIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ActiveIssueIndex { get; }
 CountdownTimer ExecuteCommandTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -46,7 +46,7 @@ CountdownTimer ExecuteCommandTimer { get; }
 ref int HighestCountIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int HighestCountIndex { get; }
 ref bool IsYesNoVote { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IsYesNoVote { get; }
 ref int OnlyTeamToVote { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int OnlyTeamToVote { get; }
 ref uint PlayerHoldingVote { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ ref uint PlayerHoldingVote { get; }
 ref uint PlayerOverrideForVote { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ ref uint PlayerOverrideForVote { get; }
 ref CUtlVector<PointerTo<CBaseIssue>> PotentialIssues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CBaseIssue](/docs/api/shared/schemadefinitions/cbaseissue)>>
 
@@ -106,7 +106,7 @@ ref CUtlVector<PointerTo<CBaseIssue>> PotentialIssues { get; }
 ref int PotentialVotes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int PotentialVotes { get; }
 CountdownTimer ResetVoteTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -126,7 +126,7 @@ CountdownTimer ResetVoteTimer { get; }
 ISchemaFixedArray<int> VoteOptionCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -136,7 +136,7 @@ ISchemaFixedArray<int> VoteOptionCount { get; }
 ref CUtlVector<CString> VoteOptions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CString](/docs/api/shared/natives/cstring)>
 
@@ -146,7 +146,7 @@ ref CUtlVector<CString> VoteOptions { get; }
 ISchemaFixedArray<int> VotesCast { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

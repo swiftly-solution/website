@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingServerReservationResponse
 public interface CMsgGCCStrike15_v2_MatchmakingServerReservationResponse : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingServerReservationResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingServerReservationResponse : IType
 uint CpusOnline { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint CpusOnline { get; set; }
 uint Flags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Flags { get; set; }
 ulong GcReservationSent { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong GcReservationSent { get; set; }
 IProtobufRepeatedFieldValueType<uint> IdlePlayerAccounts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldValueType<uint> IdlePlayerAccounts { get; }
 uint LegacySteamdatagramPort { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint LegacySteamdatagramPort { get; set; }
 string Map { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string Map { get; set; }
 CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve Reservation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2serverreserve)
 
@@ -86,7 +86,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve Reservation { get; }
 ulong Reservationid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -96,7 +96,7 @@ ulong Reservationid { get; set; }
 uint RewardDropList { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ uint RewardDropList { get; set; }
 uint RewardItemAttrDefIdx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -116,7 +116,7 @@ uint RewardItemAttrDefIdx { get; set; }
 uint RewardItemAttrRewardIdx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ uint RewardItemAttrRewardIdx { get; set; }
 uint RewardItemAttrValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint RewardItemAttrValue { get; set; }
 IProtobufRepeatedFieldValueType<uint> RewardPlayerAccounts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -146,7 +146,7 @@ IProtobufRepeatedFieldValueType<uint> RewardPlayerAccounts { get; }
 uint ServerVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -156,7 +156,7 @@ uint ServerVersion { get; set; }
 uint SteamdatagramRouting { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -166,7 +166,7 @@ uint SteamdatagramRouting { get; set; }
 uint SystemLoad { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -176,7 +176,7 @@ uint SystemLoad { get; set; }
 uint TestToken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -186,7 +186,7 @@ uint TestToken { get; set; }
 string TournamentTag { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -196,7 +196,7 @@ string TournamentTag { get; set; }
 ServerHltvInfo TvInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ServerHltvInfo](/docs/api/shared/protobufdefinitions/serverhltvinfo)
 

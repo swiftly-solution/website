@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetParticleFoWProperties
 public interface CUserMsg_ParticleManager_SetParticleFoWProperties : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleFoWProperties>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetParticleFoWProperties : ITypedProto
 int FowControlPoint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int FowControlPoint { get; set; }
 int FowControlPoint2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int FowControlPoint2 { get; set; }
 float FowRadius { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

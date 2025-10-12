@@ -6,7 +6,7 @@ title: CNmCachedIDNode__CDefinition
 public interface CNmCachedIDNode__CDefinition : CNmIDValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmIDValueNode__CDefinition>, ISchemaClass<CNmCachedIDNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmCachedIDNode__CDefinition : CNmIDValueNode__CDefinition, CNm
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short InputValueNodeIdx { get; }
 ref NmCachedValueMode_t Mode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmCachedValueMode_t](/docs/api/shared/schemadefinitions/nmcachedvaluemode_t)
 

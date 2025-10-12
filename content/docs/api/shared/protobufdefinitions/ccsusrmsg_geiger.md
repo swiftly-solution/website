@@ -6,7 +6,7 @@ title: CCSUsrMsg_Geiger
 public interface CCSUsrMsg_Geiger : ITypedProtobuf<CCSUsrMsg_Geiger>, INativeHandle, INetMessage<CCSUsrMsg_Geiger>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_Geiger : ITypedProtobuf<CCSUsrMsg_Geiger>, INativeHan
 int Range { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

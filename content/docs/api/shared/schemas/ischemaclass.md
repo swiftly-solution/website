@@ -6,7 +6,7 @@ title: ISchemaClass
 public interface ISchemaClass : INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Methods
 
@@ -16,11 +16,11 @@ public interface ISchemaClass : INativeHandle
 K As<K>() where K : ISchemaClass<K>
 ```
 
-#### Returns
+- Returns
 
 - K - The converted handle.
 
-#### Type Parameters
+- Type Parameters
 
 - **K**:  - The type to convert to.
 

@@ -6,7 +6,7 @@ title: C_OP_LockToSavedSequentialPath
 public interface C_OP_LockToSavedSequentialPath : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_LockToSavedSequentialPath>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_LockToSavedSequentialPath : CParticleFunctionOperator, CPa
 ref bool CPPairs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CPPairs { get; }
 ref float FadeEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float FadeEnd { get; }
 ref float FadeStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float FadeStart { get; }
 CPathParameters PathParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathParameters](/docs/api/shared/schemadefinitions/cpathparameters)
 

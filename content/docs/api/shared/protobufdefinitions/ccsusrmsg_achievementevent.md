@@ -6,7 +6,7 @@ title: CCSUsrMsg_AchievementEvent
 public interface CCSUsrMsg_AchievementEvent : ITypedProtobuf<CCSUsrMsg_AchievementEvent>, INativeHandle, INetMessage<CCSUsrMsg_AchievementEvent>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_AchievementEvent : ITypedProtobuf<CCSUsrMsg_Achieveme
 int Achievement { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Achievement { get; set; }
 int Count { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Count { get; set; }
 int UserId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CMsgLANServerAvailable
 public interface CMsgLANServerAvailable : ITypedProtobuf<CMsgLANServerAvailable>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgLANServerAvailable : ITypedProtobuf<CMsgLANServerAvailable>
 ulong LobbyId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

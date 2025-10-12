@@ -6,7 +6,7 @@ title: CMsgGCToGCIsTrustedServerResponse
 public interface CMsgGCToGCIsTrustedServerResponse : ITypedProtobuf<CMsgGCToGCIsTrustedServerResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCToGCIsTrustedServerResponse : ITypedProtobuf<CMsgGCToGCIs
 bool IsTrusted { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetControlPointSnapshot
 public interface CUserMsg_ParticleManager_SetControlPointSnapshot : ITypedProtobuf<CUserMsg_ParticleManager_SetControlPointSnapshot>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetControlPointSnapshot : ITypedProtob
 int ControlPoint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ControlPoint { get; set; }
 string SnapshotName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,5 +6,5 @@ title: CFloatExponentialMovingAverage
 public interface CFloatExponentialMovingAverage : ISchemaClass<CFloatExponentialMovingAverage>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

@@ -6,7 +6,7 @@ title: CTriggerFan
 public interface CTriggerFan : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerFan>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTriggerFan : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBas
 ref Vector Direction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector Direction { get; }
 ref bool Falloff { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Falloff { get; }
 ref Vector FanEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector FanEnd { get; }
 ref Vector FanOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector FanOrigin { get; }
 ref Vector FanOriginOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector FanOriginOffset { get; }
 ref float Force { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float Force { get; }
 ref CHandle<CInfoFan> InfoFan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CInfoFan](/docs/api/shared/schemadefinitions/cinfofan)>
 
@@ -86,7 +86,7 @@ ref CHandle<CInfoFan> InfoFan { get; }
 string InfoFan1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string InfoFan1 { get; set; }
 ref int ManagerFanIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int ManagerFanIdx { get; }
 ref float NPCForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float NPCForce { get; }
 ref float NoiseDegrees { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float NoiseDegrees { get; }
 ref Quaternion NoiseDelta { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -136,7 +136,7 @@ ref Quaternion NoiseDelta { get; }
 ref Vector NoiseDirectionTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -146,7 +146,7 @@ ref Vector NoiseDirectionTarget { get; }
 ref float NoiseSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float NoiseSpeed { get; }
 ref float ParticleForceScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float ParticleForceScale { get; }
 ref float PlayerForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float PlayerForce { get; }
 ref bool PlayerWindblock { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -186,7 +186,7 @@ ref bool PlayerWindblock { get; }
 ref bool PushAwayFromInfoTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool PushAwayFromInfoTarget { get; }
 ref bool PushPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool PushPlayer { get; }
 ref bool PushTowardsInfoTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool PushTowardsInfoTarget { get; }
 ref bool RampDown { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool RampDown { get; }
 ref float RampTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float RampTime { get; }
 CountdownTimer RampTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -246,7 +246,7 @@ CountdownTimer RampTimer { get; }
 ref float RopeForceScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: PulseScriptedSequenceData_t
 public interface PulseScriptedSequenceData_t : ISchemaClass<PulseScriptedSequenceData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseScriptedSequenceData_t : ISchemaClass<PulseScriptedSequenc
 ref int ActorID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ActorID { get; }
 string EntrySequence { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string EntrySequence { get; set; }
 string ExitSequence { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string ExitSequence { get; set; }
 ref ScriptedHeldWeaponBehavior_t HeldWeaponBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ScriptedHeldWeaponBehavior_t](/docs/api/shared/schemadefinitions/scriptedheldweaponbehavior_t)
 
@@ -56,7 +56,7 @@ ref ScriptedHeldWeaponBehavior_t HeldWeaponBehavior { get; }
 ref bool IgnoreLookAt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IgnoreLookAt { get; }
 ref bool LoopActionSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool LoopActionSequence { get; }
 ref bool LoopPostIdleSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool LoopPostIdleSequence { get; }
 ref bool LoopPreIdleSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool LoopPreIdleSequence { get; }
 ref ScriptedMoveTo_t MoveTo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ScriptedMoveTo_t](/docs/api/shared/schemadefinitions/scriptedmoveto_t)
 
@@ -106,7 +106,7 @@ ref ScriptedMoveTo_t MoveTo { get; }
 ref SharedMovementGait_t MoveToGait { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SharedMovementGait_t](/docs/api/shared/schemadefinitions/sharedmovementgait_t)
 
@@ -116,7 +116,7 @@ ref SharedMovementGait_t MoveToGait { get; }
 string PreIdleSequence { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -126,7 +126,7 @@ string PreIdleSequence { get; set; }
 string Sequence { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

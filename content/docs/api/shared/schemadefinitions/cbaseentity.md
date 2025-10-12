@@ -6,7 +6,7 @@ title: CBaseEntity
 public interface CBaseEntity : CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseEntity : CEntityInstance, ISchemaClass<CEntityInstance>, I
 Vector? AbsOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)?
 
@@ -26,7 +26,7 @@ Vector? AbsOrigin { get; }
 QAngle? AbsRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)?
 
@@ -36,7 +36,7 @@ QAngle? AbsRotation { get; }
 ref Vector AbsVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector AbsVelocity { get; }
 ref float ActualGravityScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float ActualGravityScale { get; }
 ref MoveType_t ActualMoveType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MoveType_t](/docs/api/shared/schemadefinitions/movetype_t)
 
@@ -66,7 +66,7 @@ ref MoveType_t ActualMoveType { get; }
 ref QAngle AngVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -76,7 +76,7 @@ ref QAngle AngVelocity { get; }
 ref float AnimTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float AnimTime { get; }
 ref bool AnimatedEveryTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool AnimatedEveryTick { get; }
 ref Vector BaseVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -106,7 +106,7 @@ ref Vector BaseVelocity { get; }
 ref CHandle<CBaseEntity> Blocker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -116,7 +116,7 @@ ref CHandle<CBaseEntity> Blocker { get; }
 ref BloodType BloodType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BloodType](/docs/api/shared/schemadefinitions/bloodtype)
 
@@ -126,7 +126,7 @@ ref BloodType BloodType { get; }
 CBodyComponent? CBodyComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBodyComponent](/docs/api/shared/schemadefinitions/cbodycomponent)?
 
@@ -136,7 +136,7 @@ CBodyComponent? CBodyComponent { get; }
 ref bool ClientSideRagdoll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool ClientSideRagdoll { get; }
 CCollisionProperty? Collision { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCollisionProperty](/docs/api/shared/schemadefinitions/ccollisionproperty)?
 
@@ -156,7 +156,7 @@ CCollisionProperty? Collision { get; }
 GameTime_t CreateTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -166,7 +166,7 @@ GameTime_t CreateTime { get; }
 ref int CurrentThinkContext { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -176,7 +176,7 @@ ref int CurrentThinkContext { get; }
 ref float DamageAccumulator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float DamageAccumulator { get; }
 ref CHandle<CBaseFilter> DamageFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseFilter](/docs/api/shared/schemadefinitions/cbasefilter)>
 
@@ -196,7 +196,7 @@ ref CHandle<CBaseFilter> DamageFilter { get; }
 string DamageFilterName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -206,7 +206,7 @@ string DamageFilterName { get; set; }
 ref bool DisableLowViolence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool DisableLowViolence { get; }
 ref bool DisabledContextThinks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool DisabledContextThinks { get; }
 ref int EFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int EFlags { get; }
 ref CHandle<CBaseEntity> EffectEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -246,7 +246,7 @@ ref CHandle<CBaseEntity> EffectEntity { get; }
 ref uint Effects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -256,7 +256,7 @@ ref uint Effects { get; }
 ref float Elasticity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -266,7 +266,7 @@ ref float Elasticity { get; }
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -276,7 +276,7 @@ ref uint Flags { get; }
 ref float Friction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -286,7 +286,7 @@ ref float Friction { get; }
 string Globalname { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -296,7 +296,7 @@ string Globalname { get; set; }
 ref bool GravityActuallyDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -306,7 +306,7 @@ ref bool GravityActuallyDisabled { get; }
 ref bool GravityDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -316,7 +316,7 @@ ref bool GravityDisabled { get; }
 ref float GravityScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -326,7 +326,7 @@ ref float GravityScale { get; }
 ref int GroundBodyIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -336,7 +336,7 @@ ref int GroundBodyIndex { get; }
 ref CHandle<CBaseEntity> GroundEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -346,7 +346,7 @@ ref CHandle<CBaseEntity> GroundEntity { get; }
 ref int Health { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -356,7 +356,7 @@ ref int Health { get; }
 ref int InitialTeamNum { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -366,7 +366,7 @@ ref int InitialTeamNum { get; }
 ref byte InterpolationFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -376,7 +376,7 @@ ref byte InterpolationFrame { get; }
 SchemaUntypedField IsSteadyState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -386,7 +386,7 @@ SchemaUntypedField IsSteadyState { get; }
 ref bool LagCompensate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -396,7 +396,7 @@ ref bool LagCompensate { get; }
 ref float LastNetworkChange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -406,7 +406,7 @@ ref float LastNetworkChange { get; }
 GameTick_t LastThinkTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
@@ -416,7 +416,7 @@ GameTick_t LastThinkTick { get; }
 ref byte LifeState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -426,7 +426,7 @@ ref byte LifeState { get; }
 ref float LocalTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -436,7 +436,7 @@ ref float LocalTime { get; }
 ref int MaxHealth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -446,7 +446,7 @@ ref int MaxHealth { get; }
 ref MoveCollide_t MoveCollide { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MoveCollide_t](/docs/api/shared/schemadefinitions/movecollide_t)
 
@@ -456,7 +456,7 @@ ref MoveCollide_t MoveCollide { get; }
 ref float MoveDoneTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -466,7 +466,7 @@ ref float MoveDoneTime { get; }
 ref MoveType_t MoveType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MoveType_t](/docs/api/shared/schemadefinitions/movetype_t)
 
@@ -476,7 +476,7 @@ ref MoveType_t MoveType { get; }
 GameTime_t NavIgnoreUntilTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -486,7 +486,7 @@ GameTime_t NavIgnoreUntilTime { get; }
 ref bool NetworkQuantizeOriginAndAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -496,7 +496,7 @@ ref bool NetworkQuantizeOriginAndAngles { get; }
 CNetworkTransmitComponent NetworkTransmitComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkTransmitComponent](/docs/api/shared/schemadefinitions/cnetworktransmitcomponent)
 
@@ -506,7 +506,7 @@ CNetworkTransmitComponent NetworkTransmitComponent { get; }
 GameTick_t NextThinkTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
@@ -516,7 +516,7 @@ GameTick_t NextThinkTick { get; }
 CEntityIOOutput OnKilled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -526,7 +526,7 @@ CEntityIOOutput OnKilled { get; }
 CEntityIOOutput OnUser1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -536,7 +536,7 @@ CEntityIOOutput OnUser1 { get; }
 CEntityIOOutput OnUser2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -546,7 +546,7 @@ CEntityIOOutput OnUser2 { get; }
 CEntityIOOutput OnUser3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -556,7 +556,7 @@ CEntityIOOutput OnUser3 { get; }
 CEntityIOOutput OnUser4 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -566,7 +566,7 @@ CEntityIOOutput OnUser4 { get; }
 ref CHandle<CBaseEntity> OwnerEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -576,7 +576,7 @@ ref CHandle<CBaseEntity> OwnerEntity { get; }
 ref EntityPlatformTypes_t PlatformType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EntityPlatformTypes_t](/docs/api/shared/schemadefinitions/entityplatformtypes_t)
 
@@ -586,7 +586,7 @@ ref EntityPlatformTypes_t PlatformType { get; }
 ref Vector PrevVPhysicsUpdatePos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -596,7 +596,7 @@ ref Vector PrevVPhysicsUpdatePos { get; }
 CPulseGraphInstance_ServerEntity? PulseGraphInstance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulseGraphInstance_ServerEntity](/docs/api/shared/schemadefinitions/cpulsegraphinstance_serverentity)?
 
@@ -606,7 +606,7 @@ CPulseGraphInstance_ServerEntity? PulseGraphInstance { get; }
 ref int PushEnumCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -616,7 +616,7 @@ ref int PushEnumCount { get; }
 string ResponseContext { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -626,7 +626,7 @@ string ResponseContext { get; set; }
 ref CUtlVector ResponseContexts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -636,7 +636,7 @@ ref CUtlVector ResponseContexts { get; }
 ref bool RestoreInHierarchy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -646,7 +646,7 @@ ref bool RestoreInHierarchy { get; }
 ref int SentToClients { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -656,7 +656,7 @@ ref int SentToClients { get; }
 ref int SimulationTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -666,7 +666,7 @@ ref int SimulationTick { get; }
 ref float SimulationTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -676,7 +676,7 @@ ref float SimulationTime { get; }
 ref byte SlimeTouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -686,7 +686,7 @@ ref byte SlimeTouch { get; }
 ref uint Spawnflags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -696,7 +696,7 @@ ref uint Spawnflags { get; }
 ref float Speed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -706,7 +706,7 @@ ref float Speed { get; }
 ref CUtlStringToken SubclassID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -716,7 +716,7 @@ ref CUtlStringToken SubclassID { get; }
 ref TakeDamageFlags_t TakeDamageFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TakeDamageFlags_t](/docs/api/shared/schemadefinitions/takedamageflags_t)
 
@@ -726,7 +726,7 @@ ref TakeDamageFlags_t TakeDamageFlags { get; }
 ref bool TakesDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -736,7 +736,7 @@ ref bool TakesDamage { get; }
 string Target { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -746,7 +746,7 @@ string Target { get; set; }
 ref byte TeamNum { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -756,7 +756,7 @@ ref byte TeamNum { get; }
 ref CUtlVector ThinkFunctions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -766,7 +766,7 @@ ref CUtlVector ThinkFunctions { get; }
 ref float TimeScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -776,7 +776,7 @@ ref float TimeScale { get; }
 string UniqueHammerID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -786,7 +786,7 @@ string UniqueHammerID { get; set; }
 CEntitySubclassVDataBase VData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntitySubclassVDataBase](/docs/api/shared/schemadefinitions/centitysubclassvdatabase)
 
@@ -796,7 +796,7 @@ CEntitySubclassVDataBase VData { get; }
 ref float VPhysicsUpdateLocalTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -806,7 +806,7 @@ ref float VPhysicsUpdateLocalTime { get; }
 CNetworkVelocityVector Velocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkVelocityVector](/docs/api/shared/schemadefinitions/cnetworkvelocityvector)
 
@@ -816,7 +816,7 @@ CNetworkVelocityVector Velocity { get; }
 ref float WaterLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -826,7 +826,7 @@ ref float WaterLevel { get; }
 ref byte WaterTouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -836,7 +836,7 @@ ref byte WaterTouch { get; }
 ref byte WaterType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -1052,13 +1052,13 @@ void TeamNumUpdated()
 void Teleport(Vector? position, QAngle? angle, Vector? velocity)
 ```
 
-#### Parameters
+- Parameters
 
 - **position**: [Vector](/docs/api/shared/natives/vector)? - The target position to move the entity to. If null, the entity's position is not changed.
 - **angle**: [QAngle](/docs/api/shared/natives/qangle)? - The target orientation to set for the entity. If null, the entity's orientation is not changed.
 - **velocity**: [Vector](/docs/api/shared/natives/vector)? - The velocity to apply to the entity after teleportation. If null, the entity's velocity is not changed.
 
-#### Remarks
+- Remarks
 
 ### **TimeScaleUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseEntity.cs#L209)
 

@@ -6,7 +6,7 @@ title: EventGameEnd
 public interface EventGameEnd : IGameEvent<EventGameEnd>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventGameEnd : IGameEvent<EventGameEnd>
 byte Winner { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

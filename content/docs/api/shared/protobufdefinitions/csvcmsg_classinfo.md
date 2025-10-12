@@ -6,7 +6,7 @@ title: CSVCMsg_ClassInfo
 public interface CSVCMsg_ClassInfo : ITypedProtobuf<CSVCMsg_ClassInfo>, INativeHandle, INetMessage<CSVCMsg_ClassInfo>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_ClassInfo : ITypedProtobuf<CSVCMsg_ClassInfo>, INativeH
 IProtobufRepeatedFieldSubMessageType<CSVCMsg_ClassInfo_class_t> Classes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSVCMsg_ClassInfo_class_t](/docs/api/shared/protobufdefinitions/csvcmsg_classinfo_class_t)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CSVCMsg_ClassInfo_class_t> Classes { get; }
 bool CreateOnClient { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

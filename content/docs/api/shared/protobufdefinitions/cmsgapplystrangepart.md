@@ -6,7 +6,7 @@ title: CMsgApplyStrangePart
 public interface CMsgApplyStrangePart : ITypedProtobuf<CMsgApplyStrangePart>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgApplyStrangePart : ITypedProtobuf<CMsgApplyStrangePart>, IN
 ulong ItemItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong ItemItemId { get; set; }
 ulong StrangePartItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

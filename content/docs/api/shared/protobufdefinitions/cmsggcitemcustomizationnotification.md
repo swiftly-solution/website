@@ -6,7 +6,7 @@ title: CMsgGCItemCustomizationNotification
 public interface CMsgGCItemCustomizationNotification : ITypedProtobuf<CMsgGCItemCustomizationNotification>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCItemCustomizationNotification : ITypedProtobuf<CMsgGCItem
 IProtobufRepeatedFieldValueType<ulong> ExtraData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<ulong> ExtraData { get; }
 IProtobufRepeatedFieldValueType<ulong> ItemId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<ulong> ItemId { get; }
 uint Request { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

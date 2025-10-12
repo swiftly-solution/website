@@ -6,7 +6,7 @@ title: CPulse_RegisterInfo
 public interface CPulse_RegisterInfo : ISchemaClass<CPulse_RegisterInfo>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulse_RegisterInfo : ISchemaClass<CPulse_RegisterInfo>, ISchem
 ref int LastReadByInstruction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int LastReadByInstruction { get; }
 SchemaUntypedField OriginName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField OriginName { get; }
 PulseRuntimeRegisterIndex_t Reg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeRegisterIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeregisterindex_t)
 
@@ -46,7 +46,7 @@ PulseRuntimeRegisterIndex_t Reg { get; }
 SchemaUntypedField Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField Type { get; }
 ref int WrittenByInstruction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CDemoRecovery_DemoInitialSpawnGroupEntry
 public interface CDemoRecovery_DemoInitialSpawnGroupEntry : ITypedProtobuf<CDemoRecovery_DemoInitialSpawnGroupEntry>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoRecovery_DemoInitialSpawnGroupEntry : ITypedProtobuf<CDemo
 uint Spawngrouphandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Spawngrouphandle { get; set; }
 bool WasCreated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

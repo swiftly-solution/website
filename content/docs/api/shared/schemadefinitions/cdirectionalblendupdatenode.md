@@ -6,7 +6,7 @@ title: CDirectionalBlendUpdateNode
 public interface CDirectionalBlendUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CLeafUpdateNode>, ISchemaClass<CDirectionalBlendUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDirectionalBlendUpdateNode : CLeafUpdateNode, CAnimUpdateNodeB
 ref AnimValueSource BlendValueSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 
@@ -26,7 +26,7 @@ ref AnimValueSource BlendValueSource { get; }
 CAnimInputDamping Damping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -36,7 +36,7 @@ CAnimInputDamping Damping { get; }
 ref float Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Duration { get; }
 ref bool LockBlendOnReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool LockBlendOnReset { get; }
 ref bool Loop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool Loop { get; }
 CAnimParamHandle ParamIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -76,7 +76,7 @@ CAnimParamHandle ParamIndex { get; }
 ref float PlaybackSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float PlaybackSpeed { get; }
 SchemaUntypedField Sequences { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

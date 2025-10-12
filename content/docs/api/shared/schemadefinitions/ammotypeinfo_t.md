@@ -6,7 +6,7 @@ title: AmmoTypeInfo_t
 public interface AmmoTypeInfo_t : ISchemaClass<AmmoTypeInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AmmoTypeInfo_t : ISchemaClass<AmmoTypeInfo_t>, ISchemaField, IS
 ref AmmoFlags_t Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AmmoFlags_t](/docs/api/shared/schemadefinitions/ammoflags_t)
 
@@ -26,7 +26,7 @@ ref AmmoFlags_t Flags { get; }
 ref float Mass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Mass { get; }
 ref int MaxCarry { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int MaxCarry { get; }
 CRangeFloat Speed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRangeFloat](/docs/api/shared/schemadefinitions/crangefloat)
 
@@ -56,7 +56,7 @@ CRangeFloat Speed { get; }
 CRangeInt SplashSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRangeInt](/docs/api/shared/schemadefinitions/crangeint)
 

@@ -14,7 +14,7 @@ public interface IOnClientDisconnectedEvent
 int PlayerId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -24,7 +24,7 @@ int PlayerId { get; }
 ENetworkDisconnectionReason Reason { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ENetworkDisconnectionReason](/docs/api/shared/protobufdefinitions/enetworkdisconnectionreason)
 

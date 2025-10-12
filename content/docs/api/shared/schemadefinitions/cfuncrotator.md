@@ -6,7 +6,7 @@ title: CFuncRotator
 public interface CFuncRotator : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CFuncRotator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFuncRotator : CBaseModelEntity, CBaseEntity, CEntityInstance, 
 ref QAngle AngularVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ ref QAngle AngularVelocity { get; }
 ref float DistanceAlongArcTraveled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DistanceAlongArcTraveled { get; }
 ref bool HasTargetOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool HasTargetOverride { get; }
 ref bool IsReversing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool IsReversing { get; }
 ref bool IsRotating { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IsRotating { get; }
 ref Quaternion LSInit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -76,7 +76,7 @@ ref Quaternion LSInit { get; }
 ref Quaternion LSOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -86,7 +86,7 @@ ref Quaternion LSOrientation { get; }
 ref Quaternion LSPrevChange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -96,7 +96,7 @@ ref Quaternion LSPrevChange { get; }
 ref Vector LookAtForcedUp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -106,7 +106,7 @@ ref Vector LookAtForcedUp { get; }
 CEntityIOOutput OnOscillate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -116,7 +116,7 @@ CEntityIOOutput OnOscillate { get; }
 CEntityIOOutput OnOscillateEndArrive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -126,7 +126,7 @@ CEntityIOOutput OnOscillateEndArrive { get; }
 CEntityIOOutput OnOscillateEndDepart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -136,7 +136,7 @@ CEntityIOOutput OnOscillateEndDepart { get; }
 CEntityIOOutput OnOscillateStartArrive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -146,7 +146,7 @@ CEntityIOOutput OnOscillateStartArrive { get; }
 CEntityIOOutput OnOscillateStartDepart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -156,7 +156,7 @@ CEntityIOOutput OnOscillateStartDepart { get; }
 CEntityIOOutput OnRotationCompleted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -166,7 +166,7 @@ CEntityIOOutput OnRotationCompleted { get; }
 CEntityIOOutput OnRotationStarted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -176,7 +176,7 @@ CEntityIOOutput OnRotationStarted { get; }
 ref Quaternion OrientationOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -186,7 +186,7 @@ ref Quaternion OrientationOverride { get; }
 ref int OscillateCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ ref int OscillateCount { get; }
 ref bool OscillateDepart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool OscillateDepart { get; }
 ref CFuncRotator__Rotate_t PrevRotateType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFuncRotator__Rotate_t](/docs/api/shared/schemadefinitions/cfuncrotator__rotate_t)
 
@@ -216,7 +216,7 @@ ref CFuncRotator__Rotate_t PrevRotateType { get; }
 ref bool RecordHistory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool RecordHistory { get; }
 ref bool ReturningToPreviousOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -236,7 +236,7 @@ ref bool ReturningToPreviousOrientation { get; }
 ref CFuncRotator__Rotate_t RotateType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFuncRotator__Rotate_t](/docs/api/shared/schemadefinitions/cfuncrotator__rotate_t)
 
@@ -246,7 +246,7 @@ ref CFuncRotator__Rotate_t RotateType { get; }
 ref CUtlVector RotatorHistory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -256,7 +256,7 @@ ref CUtlVector RotatorHistory { get; }
 ref CUtlVector RotatorQueue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -266,7 +266,7 @@ ref CUtlVector RotatorQueue { get; }
 ref CUtlVector RotatorQueueHistory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -276,7 +276,7 @@ ref CUtlVector RotatorQueueHistory { get; }
 ref CHandle<CBaseEntity> RotatorTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -286,7 +286,7 @@ ref CHandle<CBaseEntity> RotatorTarget { get; }
 ref RotatorTargetSpace_t SpaceOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RotatorTargetSpace_t](/docs/api/shared/schemadefinitions/rotatortargetspace_t)
 
@@ -296,7 +296,7 @@ ref RotatorTargetSpace_t SpaceOverride { get; }
 string StrRotatorTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -306,7 +306,7 @@ string StrRotatorTarget { get; set; }
 GameTime_t TimeRotationStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -316,7 +316,7 @@ GameTime_t TimeRotationStart { get; }
 ref float TimeToReachMaxSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -326,7 +326,7 @@ ref float TimeToReachMaxSpeed { get; }
 ref float TimeToReachZeroSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -336,7 +336,7 @@ ref float TimeToReachZeroSpeed { get; }
 ref float TimeToWaitOscillate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -346,7 +346,7 @@ ref float TimeToWaitOscillate { get; }
 ref Quaternion WSInit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -356,7 +356,7 @@ ref Quaternion WSInit { get; }
 ref Quaternion WSPrev { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 

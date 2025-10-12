@@ -6,7 +6,7 @@ title: CDemoPacket
 public interface CDemoPacket : ITypedProtobuf<CDemoPacket>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoPacket : ITypedProtobuf<CDemoPacket>, INativeHandle
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

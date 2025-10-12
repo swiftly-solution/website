@@ -6,7 +6,7 @@ title: DynamicVolumeDef_t
 public interface DynamicVolumeDef_t : ISchemaClass<DynamicVolumeDef_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface DynamicVolumeDef_t : ISchemaClass<DynamicVolumeDef_t>, ISchemaF
 ref uint AreaDst { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint AreaDst { get; }
 ref uint AreaSrc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint AreaSrc { get; }
 ref bool Attached { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Attached { get; }
 ref int HullIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int HullIdx { get; }
 ref CHandle<CBaseEntity> Source { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -66,7 +66,7 @@ ref CHandle<CBaseEntity> Source { get; }
 ref Vector SourceAnchorPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector SourceAnchorPos { get; }
 ref CHandle<CBaseEntity> Target { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -86,7 +86,7 @@ ref CHandle<CBaseEntity> Target { get; }
 ref Vector TargetAnchorPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

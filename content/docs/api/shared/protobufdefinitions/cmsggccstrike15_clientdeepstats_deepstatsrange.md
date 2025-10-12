@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_ClientDeepStats_DeepStatsRange
 public interface CMsgGCCStrike15_ClientDeepStats_DeepStatsRange : ITypedProtobuf<CMsgGCCStrike15_ClientDeepStats_DeepStatsRange>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_ClientDeepStats_DeepStatsRange : ITypedProtobuf
 uint Begin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Begin { get; set; }
 uint End { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint End { get; set; }
 bool Frozen { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

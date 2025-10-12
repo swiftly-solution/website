@@ -6,7 +6,7 @@ title: CAI_Expresser
 public interface CAI_Expresser : ISchemaClass<CAI_Expresser>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAI_Expresser : ISchemaClass<CAI_Expresser>, ISchemaField, ISch
 ref bool AllowSpeakingInterrupts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AllowSpeakingInterrupts { get; }
 GameTime_t BlockedTalkTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -36,7 +36,7 @@ GameTime_t BlockedTalkTime { get; }
 ref bool ConsiderSceneInvolvementAsSpeech { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ConsiderSceneInvolvementAsSpeech { get; }
 ref int LastSpokenPriority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int LastSpokenPriority { get; }
 GameTime_t LastTimeAcceptedSpeak { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -66,7 +66,7 @@ GameTime_t LastTimeAcceptedSpeak { get; }
 CBaseFlex? Outer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBaseFlex](/docs/api/shared/schemadefinitions/cbaseflex)?
 
@@ -76,7 +76,7 @@ CBaseFlex? Outer { get; }
 GameTime_t QueuedSpeechTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -86,7 +86,7 @@ GameTime_t QueuedSpeechTime { get; }
 ref bool SceneEntityDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool SceneEntityDisabled { get; }
 GameTime_t StopTalkTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -106,7 +106,7 @@ GameTime_t StopTalkTime { get; }
 GameTime_t StopTalkTimeWithoutDelay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -116,7 +116,7 @@ GameTime_t StopTalkTimeWithoutDelay { get; }
 ref int VoicePitch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

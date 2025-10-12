@@ -6,7 +6,7 @@ title: CQuaternionAnimParameter
 public interface CQuaternionAnimParameter : CConcreteAnimParameter, CAnimParameterBase, ISchemaClass<CAnimParameterBase>, ISchemaClass<CConcreteAnimParameter>, ISchemaClass<CQuaternionAnimParameter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CQuaternionAnimParameter : CConcreteAnimParameter, CAnimParamet
 ref Quaternion DefaultValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -26,7 +26,7 @@ ref Quaternion DefaultValue { get; }
 ref bool Interpolate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

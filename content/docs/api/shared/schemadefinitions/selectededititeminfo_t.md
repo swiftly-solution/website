@@ -6,7 +6,7 @@ title: SelectedEditItemInfo_t
 public interface SelectedEditItemInfo_t : ISchemaClass<SelectedEditItemInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SelectedEditItemInfo_t : ISchemaClass<SelectedEditItemInfo_t>, 
 ref CUtlVector EditItems { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

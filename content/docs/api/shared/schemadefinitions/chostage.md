@@ -6,7 +6,7 @@ title: CHostage
 public interface CHostage : CHostageExpresserShim, CBaseCombatCharacter, CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CBaseCombatCharacter>, ISchemaClass<CHostageExpresserShim>, ISchemaClass<CHostage>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CHostage : CHostageExpresserShim, CBaseCombatCharacter, CBaseFl
 ref Vector Accel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector Accel { get; }
 ref int ApproachRewardPayouts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ApproachRewardPayouts { get; }
 GameTime_t DropStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -46,7 +46,7 @@ GameTime_t DropStartTime { get; }
 EntitySpottedState_t EntitySpottedState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EntitySpottedState_t](/docs/api/shared/schemadefinitions/entityspottedstate_t)
 
@@ -56,7 +56,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 GameTime_t GrabSuccessTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -66,7 +66,7 @@ GameTime_t GrabSuccessTime { get; }
 ref Vector GrabbedPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector GrabbedPos { get; }
 ref bool HandsHaveBeenCut { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool HandsHaveBeenCut { get; }
 ref bool HasBeenUsed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool HasBeenUsed { get; }
 ref CHandle<CCSPlayerPawn> HostageGrabber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -106,7 +106,7 @@ ref CHandle<CCSPlayerPawn> HostageGrabber { get; }
 ref Vector HostageResetPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -116,7 +116,7 @@ ref Vector HostageResetPosition { get; }
 ref uint HostageSpawnRandomFactor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ ref uint HostageSpawnRandomFactor { get; }
 ref int HostageState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int HostageState { get; }
 CountdownTimer InhibitDoorTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -146,7 +146,7 @@ CountdownTimer InhibitDoorTimer { get; }
 CountdownTimer InhibitObstacleAvoidanceTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -156,7 +156,7 @@ CountdownTimer InhibitObstacleAvoidanceTimer { get; }
 ref bool IsAdjusted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool IsAdjusted { get; }
 ref bool IsCrouching { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool IsCrouching { get; }
 ref bool IsRescued { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -186,7 +186,7 @@ ref bool IsRescued { get; }
 ref bool IsRunning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool IsRunning { get; }
 ref bool IsWaitingForLeader { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool IsWaitingForLeader { get; }
 CountdownTimer JumpTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -216,7 +216,7 @@ CountdownTimer JumpTimer { get; }
 ref bool JumpedThisFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool JumpedThisFrame { get; }
 GameTime_t LastGrabTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -236,7 +236,7 @@ GameTime_t LastGrabTime { get; }
 ref CHandle<CCSPlayerPawnBase> LastLeader { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawnBase](/docs/api/shared/schemadefinitions/ccsplayerpawnbase)>
 
@@ -246,7 +246,7 @@ ref CHandle<CCSPlayerPawnBase> LastLeader { get; }
 ref CHandle<CBaseEntity> Leader { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -256,7 +256,7 @@ ref CHandle<CBaseEntity> Leader { get; }
 CEntityIOOutput OnDroppedNotRescued { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -266,7 +266,7 @@ CEntityIOOutput OnDroppedNotRescued { get; }
 CEntityIOOutput OnFirstPickedUp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -276,7 +276,7 @@ CEntityIOOutput OnFirstPickedUp { get; }
 CEntityIOOutput OnHostageBeginGrab { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -286,7 +286,7 @@ CEntityIOOutput OnHostageBeginGrab { get; }
 CEntityIOOutput OnRescued { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -296,7 +296,7 @@ CEntityIOOutput OnRescued { get; }
 ref int PickupEventCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -306,7 +306,7 @@ ref int PickupEventCount { get; }
 ref Vector PositionWhenStartedDroppingToGround { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -316,7 +316,7 @@ ref Vector PositionWhenStartedDroppingToGround { get; }
 ref bool Remove { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -326,7 +326,7 @@ ref bool Remove { get; }
 CountdownTimer RepathTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -336,7 +336,7 @@ CountdownTimer RepathTimer { get; }
 GameTime_t RescueStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -346,7 +346,7 @@ GameTime_t RescueStartTime { get; }
 CountdownTimer ReuseTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -356,7 +356,7 @@ CountdownTimer ReuseTimer { get; }
 ref Vector SpawnGroundPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -366,7 +366,7 @@ ref Vector SpawnGroundPos { get; }
 ref int SpotRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -376,7 +376,7 @@ ref int SpotRules { get; }
 ref uint UiHostageSpawnExclusionGroupMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -386,7 +386,7 @@ ref uint UiHostageSpawnExclusionGroupMask { get; }
 ref Vector Vel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -396,7 +396,7 @@ ref Vector Vel { get; }
 CountdownTimer WiggleTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 

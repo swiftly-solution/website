@@ -6,7 +6,7 @@ title: CMsgSystemBroadcast
 public interface CMsgSystemBroadcast : ITypedProtobuf<CMsgSystemBroadcast>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSystemBroadcast : ITypedProtobuf<CMsgSystemBroadcast>, INat
 string Message { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

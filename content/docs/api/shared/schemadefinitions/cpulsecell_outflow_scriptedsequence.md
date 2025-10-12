@@ -6,7 +6,7 @@ title: CPulseCell_Outflow_ScriptedSequence
 public interface CPulseCell_Outflow_ScriptedSequence : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_Outflow_ScriptedSequence>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Outflow_ScriptedSequence : CPulseCell_BaseYieldingIn
 ref CUtlVector AdditionalActors { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector AdditionalActors { get; }
 ref bool DisallowInterrupts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool DisallowInterrupts { get; }
 ref bool DontTeleportAtEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool DontTeleportAtEnd { get; }
 ref bool EnsureOnNavmeshOnFinish { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool EnsureOnNavmeshOnFinish { get; }
 ref int ExpectedNumSequencesInSyncGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int ExpectedNumSequencesInSyncGroup { get; }
 CPulse_ResumePoint OnCanceled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -76,7 +76,7 @@ CPulse_ResumePoint OnCanceled { get; }
 CPulse_ResumePoint OnFinished { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -86,7 +86,7 @@ CPulse_ResumePoint OnFinished { get; }
 PulseScriptedSequenceData_t ScriptedSequenceDataMain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseScriptedSequenceData_t](/docs/api/shared/schemadefinitions/pulsescriptedsequencedata_t)
 
@@ -96,7 +96,7 @@ PulseScriptedSequenceData_t ScriptedSequenceDataMain { get; }
 string SyncGroup { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string SyncGroup { get; set; }
 ref CUtlVector Triggers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

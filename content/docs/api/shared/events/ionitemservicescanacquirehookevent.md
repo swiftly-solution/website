@@ -14,7 +14,7 @@ public interface IOnItemServicesCanAcquireHookEvent
 AcquireMethod AcquireMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AcquireMethod](/docs/api/shared/misc/acquiremethod)
 
@@ -24,7 +24,7 @@ AcquireMethod AcquireMethod { get; }
 CEconItemView EconItemView { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemView](/docs/api/shared/schemadefinitions/ceconitemview)
 
@@ -34,7 +34,7 @@ CEconItemView EconItemView { get; }
 CCSPlayer_ItemServices ItemServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayer_ItemServices](/docs/api/shared/schemadefinitions/ccsplayer_itemservices)
 
@@ -44,7 +44,7 @@ CCSPlayer_ItemServices ItemServices { get; }
 AcquireResult OriginalResult { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AcquireResult](/docs/api/ult)
 
@@ -56,7 +56,7 @@ AcquireResult OriginalResult { get; }
 void SetAcquireResult(AcquireResult result)
 ```
 
-#### Parameters
+- Parameters
 
 - **result**: [AcquireResult](/docs/api/ult) - The result to modify.
 

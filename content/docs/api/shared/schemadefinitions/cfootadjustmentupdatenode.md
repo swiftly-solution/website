@@ -6,7 +6,7 @@ title: CFootAdjustmentUpdateNode
 public interface CFootAdjustmentUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CFootAdjustmentUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFootAdjustmentUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBa
 ref bool AnimationDriven { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AnimationDriven { get; }
 CPoseHandle BasePoseCacheHandle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPoseHandle](/docs/api/shared/schemadefinitions/cposehandle)
 
@@ -36,7 +36,7 @@ CPoseHandle BasePoseCacheHandle { get; }
 ref CUtlVector Clips { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector Clips { get; }
 CAnimParamHandle FacingTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -56,7 +56,7 @@ CAnimParamHandle FacingTarget { get; }
 ref bool ResetChild { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool ResetChild { get; }
 ref float StepHeightMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float StepHeightMax { get; }
 ref float StepHeightMaxAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float StepHeightMaxAngle { get; }
 ref float TurnTimeMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float TurnTimeMax { get; }
 ref float TurnTimeMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

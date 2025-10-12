@@ -6,7 +6,7 @@ title: CBasePropDoor
 public interface CBasePropDoor : CDynamicProp, CBreakableProp, CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaClass<CDynamicProp>, ISchemaClass<CBasePropDoor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBasePropDoor : CDynamicProp, CBreakableProp, CBaseProp, CBaseA
 ref CHandle<CBaseEntity> Activator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> Activator { get; }
 ref float AutoReturnDelay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AutoReturnDelay { get; }
 ref CHandle<CBaseEntity> Blocker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -46,7 +46,7 @@ ref CHandle<CBaseEntity> Blocker { get; }
 ref QAngle ClosedAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -56,7 +56,7 @@ ref QAngle ClosedAngles { get; }
 ref Vector ClosedPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector ClosedPosition { get; }
 ref CUtlVector<CHandle<CBasePropDoor>> DoorList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBasePropDoor](/docs/api/shared/schemadefinitions/cbasepropdoor)>>
 
@@ -76,7 +76,7 @@ ref CUtlVector<CHandle<CBasePropDoor>> DoorList { get; }
 ref DoorState_t DoorState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DoorState_t](/docs/api/shared/schemadefinitions/doorstate_t)
 
@@ -86,7 +86,7 @@ ref DoorState_t DoorState { get; }
 ref bool FirstBlocked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool FirstBlocked { get; }
 ref bool ForceClosed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool ForceClosed { get; }
 ref int HardwareType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int HardwareType { get; }
 ref Vector LatchWorldPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -126,7 +126,7 @@ ref Vector LatchWorldPosition { get; }
 ref bool Locked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool Locked { get; }
 locksound_t Ls { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [locksound_t](/docs/api/shared/schemadefinitions/locksound_t)
 
@@ -146,7 +146,7 @@ locksound_t Ls { get; }
 ref CHandle<CBasePropDoor> Master { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePropDoor](/docs/api/shared/schemadefinitions/cbasepropdoor)>
 
@@ -156,7 +156,7 @@ ref CHandle<CBasePropDoor> Master { get; }
 ref bool NeedsHardware { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool NeedsHardware { get; }
 ref bool NoNPCs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool NoNPCs { get; }
 ref int NumCloseAttempts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int NumCloseAttempts { get; }
 CEntityIOOutput OnAjarOpen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -196,7 +196,7 @@ CEntityIOOutput OnAjarOpen { get; }
 CEntityIOOutput OnBlockedClosing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -206,7 +206,7 @@ CEntityIOOutput OnBlockedClosing { get; }
 CEntityIOOutput OnBlockedOpening { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -216,7 +216,7 @@ CEntityIOOutput OnBlockedOpening { get; }
 CEntityIOOutput OnClose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -226,7 +226,7 @@ CEntityIOOutput OnClose { get; }
 CEntityIOOutput OnFullyClosed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -236,7 +236,7 @@ CEntityIOOutput OnFullyClosed { get; }
 CEntityIOOutput OnFullyOpen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -246,7 +246,7 @@ CEntityIOOutput OnFullyOpen { get; }
 CEntityIOOutput OnLockedUse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -256,7 +256,7 @@ CEntityIOOutput OnLockedUse { get; }
 CEntityIOOutput OnOpen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -266,7 +266,7 @@ CEntityIOOutput OnOpen { get; }
 CEntityIOOutput OnUnblockedClosing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -276,7 +276,7 @@ CEntityIOOutput OnUnblockedClosing { get; }
 CEntityIOOutput OnUnblockedOpening { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -286,7 +286,7 @@ CEntityIOOutput OnUnblockedOpening { get; }
 ref CUtlStringToken PhysicsMaterial { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -296,7 +296,7 @@ ref CUtlStringToken PhysicsMaterial { get; }
 string SlaveName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -306,7 +306,7 @@ string SlaveName { get; set; }
 string SoundClose { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -316,7 +316,7 @@ string SoundClose { get; set; }
 string SoundJiggle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -326,7 +326,7 @@ string SoundJiggle { get; set; }
 string SoundLatch { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -336,7 +336,7 @@ string SoundLatch { get; set; }
 string SoundLock { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -346,7 +346,7 @@ string SoundLock { get; set; }
 string SoundLockedAnim { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -356,7 +356,7 @@ string SoundLockedAnim { get; set; }
 string SoundMoving { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -366,7 +366,7 @@ string SoundMoving { get; set; }
 string SoundOpen { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -376,7 +376,7 @@ string SoundOpen { get; set; }
 string SoundPound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -386,7 +386,7 @@ string SoundPound { get; set; }
 string SoundUnlock { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

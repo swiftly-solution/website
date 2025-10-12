@@ -6,7 +6,7 @@ title: CTriggerPush
 public interface CTriggerPush : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerPush>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTriggerPush : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBa
 CPathSimple? PathSimple { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathSimple](/docs/api/shared/schemadefinitions/cpathsimple)?
 
@@ -26,7 +26,7 @@ CPathSimple? PathSimple { get; }
 string PathSimpleName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string PathSimpleName { get; set; }
 ref Vector PushDirEntitySpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector PushDirEntitySpace { get; }
 ref QAngle PushEntitySpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -56,7 +56,7 @@ ref QAngle PushEntitySpace { get; }
 ref uint SplinePushType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ ref uint SplinePushType { get; }
 ref bool TriggerOnStartTouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool TriggerOnStartTouch { get; }
 ref bool UsePathSimple { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

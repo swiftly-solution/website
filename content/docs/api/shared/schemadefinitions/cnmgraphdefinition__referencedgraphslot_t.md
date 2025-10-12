@@ -6,7 +6,7 @@ title: CNmGraphDefinition__ReferencedGraphSlot_t
 public interface CNmGraphDefinition__ReferencedGraphSlot_t : ISchemaClass<CNmGraphDefinition__ReferencedGraphSlot_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmGraphDefinition__ReferencedGraphSlot_t : ISchemaClass<CNmGra
 ref short DataSlotIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short DataSlotIdx { get; }
 ref short NodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

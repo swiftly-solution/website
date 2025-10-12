@@ -6,7 +6,7 @@ title: MaterialParamBuffer_t
 public interface MaterialParamBuffer_t : MaterialParam_t, ISchemaClass<MaterialParam_t>, ISchemaClass<MaterialParamBuffer_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MaterialParamBuffer_t : MaterialParam_t, ISchemaClass<MaterialP
 ref CUtlBinaryBlock Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 

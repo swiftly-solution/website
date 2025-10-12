@@ -6,7 +6,7 @@ title: CBasePlayerController
 public interface CBasePlayerController : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBasePlayerController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBasePlayerController : CBaseEntity, CEntityInstance, ISchemaCl
 ref int AvailableEntitySteadyState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int AvailableEntitySteadyState { get; }
 ref PlayerConnectedState Connected { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PlayerConnectedState](/docs/api/shared/schemadefinitions/playerconnectedstate)
 
@@ -36,7 +36,7 @@ ref PlayerConnectedState Connected { get; }
 ref uint DesiredFOV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint DesiredFOV { get; }
 ref bool GamePaused { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool GamePaused { get; }
 ref bool HasAnySteadyStateEnts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool HasAnySteadyStateEnts { get; }
 ref ChatIgnoreType_t IgnoreGlobalChat { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ChatIgnoreType_t](/docs/api/shared/schemadefinitions/chatignoretype_t)
 
@@ -76,7 +76,7 @@ ref ChatIgnoreType_t IgnoreGlobalChat { get; }
 ref ulong InButtonsWhichAreToggles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -86,7 +86,7 @@ ref ulong InButtonsWhichAreToggles { get; }
 ref bool IsHLTV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool IsHLTV { get; }
 ref bool IsLowViolence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool IsLowViolence { get; }
 ref bool KnownTeamMismatch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool KnownTeamMismatch { get; }
 ref bool LagCompensation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool LagCompensation { get; }
 ref float LastEntitySteadyState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float LastEntitySteadyState { get; }
 ref float LastPlayerTalkTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float LastPlayerTalkTime { get; }
 ref float LerpTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float LerpTime { get; }
 string NetworkIDString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -166,7 +166,7 @@ string NetworkIDString { get; set; }
 ref bool NoClipEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool NoClipEnabled { get; }
 ref CHandle<CBasePlayerPawn> Pawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>
 
@@ -186,7 +186,7 @@ ref CHandle<CBasePlayerPawn> Pawn { get; }
 string PlayerName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -196,7 +196,7 @@ string PlayerName { get; set; }
 ref bool Predict { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool Predict { get; }
 ref CHandle<CBasePlayerController> SplitOwner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerController](/docs/api/shared/schemadefinitions/cbaseplayercontroller)>
 
@@ -216,7 +216,7 @@ ref CHandle<CBasePlayerController> SplitOwner { get; }
 ref CUtlVector<CHandle<CBasePlayerController>> SplitScreenPlayers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerController](/docs/api/shared/schemadefinitions/cbaseplayercontroller)>>
 
@@ -226,7 +226,7 @@ ref CUtlVector<CHandle<CBasePlayerController>> SplitScreenPlayers { get; }
 ref uint SplitScreenSlot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -236,7 +236,7 @@ ref uint SplitScreenSlot { get; }
 ref ulong SteamID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -246,7 +246,7 @@ ref ulong SteamID { get; }
 ref uint TickBase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -294,7 +294,7 @@ void PlayerNameUpdated()
 void SetPawn(CBasePlayerPawn? pawn)
 ```
 
-#### Parameters
+- Parameters
 
 - **pawn**: [CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)? - The player pawn to associate. Can be null to remove the current association.
 

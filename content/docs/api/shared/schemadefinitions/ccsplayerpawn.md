@@ -6,7 +6,7 @@ title: CCSPlayerPawn
 public interface CCSPlayerPawn : CCSPlayerPawnBase, CBasePlayerPawn, CBaseCombatCharacter, CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CBaseCombatCharacter>, ISchemaClass<CBasePlayerPawn>, ISchemaClass<CCSPlayerPawnBase>, ISchemaClass<CCSPlayerPawn>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayerPawn : CCSPlayerPawnBase, CBasePlayerPawn, CBaseCombat
 CCSPlayer_ActionTrackingServices? ActionTrackingServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayer_ActionTrackingServices](/docs/api/shared/schemadefinitions/ccsplayer_actiontrackingservices)?
 
@@ -26,7 +26,7 @@ CCSPlayer_ActionTrackingServices? ActionTrackingServices { get; }
 ref QAngle AimPunchAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -36,7 +36,7 @@ ref QAngle AimPunchAngle { get; }
 ref QAngle AimPunchAngleVel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -46,7 +46,7 @@ ref QAngle AimPunchAngleVel { get; }
 ref CUtlVector<QAngle> AimPunchCache { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[QAngle](/docs/api/shared/natives/qangle)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<QAngle> AimPunchCache { get; }
 GameTick_t AimPunchTickBase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
@@ -66,7 +66,7 @@ GameTick_t AimPunchTickBase { get; }
 ref float AimPunchTickFraction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float AimPunchTickFraction { get; }
 GameTime_t AllowAutoFollowTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -86,7 +86,7 @@ GameTime_t AllowAutoFollowTime { get; }
 ref int ArmorValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int ArmorValue { get; }
 ref CSPlayerBlockingUseAction_t BlockingUseActionInProgress { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSPlayerBlockingUseAction_t](/docs/api/shared/schemadefinitions/csplayerblockinguseaction_t)
 
@@ -106,7 +106,7 @@ ref CSPlayerBlockingUseAction_t BlockingUseActionInProgress { get; }
 ref uint BombSiteIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -116,7 +116,7 @@ ref uint BombSiteIndex { get; }
 CCSBot? Bot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSBot](/docs/api/shared/schemadefinitions/ccsbot)?
 
@@ -126,7 +126,7 @@ CCSBot? Bot { get; }
 ref bool BotAllowActive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool BotAllowActive { get; }
 CCSPlayer_BulletServices? BulletServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayer_BulletServices](/docs/api/shared/schemadefinitions/ccsplayer_bulletservices)?
 
@@ -146,7 +146,7 @@ CCSPlayer_BulletServices? BulletServices { get; }
 CCSPlayer_BuyServices? BuyServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayer_BuyServices](/docs/api/shared/schemadefinitions/ccsplayer_buyservices)?
 
@@ -156,7 +156,7 @@ CCSPlayer_BuyServices? BuyServices { get; }
 ref ushort CharacterDefIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -166,7 +166,7 @@ ref ushort CharacterDefIndex { get; }
 ref bool CommittingSuicideOnTeamChange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool CommittingSuicideOnTeamChange { get; }
 ref ushort CurrentEquipmentValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -186,7 +186,7 @@ ref ushort CurrentEquipmentValue { get; }
 CCSPlayer_DamageReactServices? DamageReactServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayer_DamageReactServices](/docs/api/shared/schemadefinitions/ccsplayer_damagereactservices)?
 
@@ -196,7 +196,7 @@ CCSPlayer_DamageReactServices? DamageReactServices { get; }
 ref float DealtDamageToEnemyMostRecentTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float DealtDamageToEnemyMostRecentTimestamp { get; }
 ref QAngle DeathEyeAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -216,7 +216,7 @@ ref QAngle DeathEyeAngles { get; }
 ref int DeathFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -226,7 +226,7 @@ ref int DeathFlags { get; }
 ref Vector DeathInfoOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -236,7 +236,7 @@ ref Vector DeathInfoOrigin { get; }
 ref float DeathInfoTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -246,7 +246,7 @@ ref float DeathInfoTime { get; }
 ref uint DisplayHistoryBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -256,7 +256,7 @@ ref uint DisplayHistoryBits { get; }
 CEconItemView EconGloves { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemView](/docs/api/shared/schemadefinitions/ceconitemview)
 
@@ -266,7 +266,7 @@ CEconItemView EconGloves { get; }
 ref byte EconGlovesChanged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -276,7 +276,7 @@ ref byte EconGlovesChanged { get; }
 GameTime_t EmitSoundTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -286,7 +286,7 @@ GameTime_t EmitSoundTime { get; }
 EntitySpottedState_t EntitySpottedState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EntitySpottedState_t](/docs/api/shared/schemadefinitions/entityspottedstate_t)
 
@@ -296,7 +296,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 ref QAngle EyeAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -306,7 +306,7 @@ ref QAngle EyeAngles { get; }
 ref float FlinchStack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -316,7 +316,7 @@ ref float FlinchStack { get; }
 ref ushort FreezetimeEndEquipmentValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -326,7 +326,7 @@ ref ushort FreezetimeEndEquipmentValue { get; }
 GameTime_t GrenadeParameterStashTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -336,7 +336,7 @@ GameTime_t GrenadeParameterStashTime { get; }
 ref bool GrenadeParametersStashed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -346,7 +346,7 @@ ref bool GrenadeParametersStashed { get; }
 ref bool GunGameImmunity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -356,7 +356,7 @@ ref bool GunGameImmunity { get; }
 ref Color GunGameImmunityColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -366,7 +366,7 @@ ref Color GunGameImmunityColor { get; }
 ref bool HasDeathInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,7 +376,7 @@ ref bool HasDeathInfo { get; }
 ref bool HasFemaleVoice { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -386,7 +386,7 @@ ref bool HasFemaleVoice { get; }
 ref Vector HeadConstraintOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -396,7 +396,7 @@ ref Vector HeadConstraintOffset { get; }
 GameTime_t HealthShotBoostExpirationTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -406,7 +406,7 @@ GameTime_t HealthShotBoostExpirationTime { get; }
 ref int HighestAppliedDamageTagTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -416,7 +416,7 @@ ref int HighestAppliedDamageTagTick { get; }
 ref int HitBodyPart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -426,7 +426,7 @@ ref int HitBodyPart { get; }
 ref float HitHeading { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -436,7 +436,7 @@ ref float HitHeading { get; }
 CCSPlayer_HostageServices? HostageServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayer_HostageServices](/docs/api/shared/schemadefinitions/ccsplayer_hostageservices)?
 
@@ -446,7 +446,7 @@ CCSPlayer_HostageServices? HostageServices { get; }
 ref float IgnoreLadderJumpTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -456,7 +456,7 @@ ref float IgnoreLadderJumpTime { get; }
 GameTime_t ImmuneToGunGameDamageTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -466,7 +466,7 @@ GameTime_t ImmuneToGunGameDamageTime { get; }
 ref bool InBombZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -476,7 +476,7 @@ ref bool InBombZone { get; }
 ref bool InBombZoneTrigger { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -486,7 +486,7 @@ ref bool InBombZoneTrigger { get; }
 ref bool InBuyZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -496,7 +496,7 @@ ref bool InBuyZone { get; }
 ref bool InHostageRescueZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -506,7 +506,7 @@ ref bool InHostageRescueZone { get; }
 ref bool InHostageResetZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -516,7 +516,7 @@ ref bool InHostageResetZone { get; }
 ref bool InNoDefuseArea { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -526,7 +526,7 @@ ref bool InNoDefuseArea { get; }
 ref bool IsBuyMenuOpen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -536,7 +536,7 @@ ref bool IsBuyMenuOpen { get; }
 ref bool IsDefusing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -546,7 +546,7 @@ ref bool IsDefusing { get; }
 ref bool IsGrabbingHostage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -556,7 +556,7 @@ ref bool IsGrabbingHostage { get; }
 ref bool IsScoped { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -566,7 +566,7 @@ ref bool IsScoped { get; }
 ref bool IsSpawning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -576,7 +576,7 @@ ref bool IsSpawning { get; }
 ref bool IsWalking { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -586,7 +586,7 @@ ref bool IsWalking { get; }
 ref bool KilledByHeadshot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -596,7 +596,7 @@ ref bool KilledByHeadshot { get; }
 ref float LandingTimeSeconds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -606,7 +606,7 @@ ref float LandingTimeSeconds { get; }
 ref float LastAttackedTeammate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -616,7 +616,7 @@ ref float LastAttackedTeammate { get; }
 ref float LastGivenBombTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -626,7 +626,7 @@ ref float LastGivenBombTime { get; }
 ref float LastGivenDefuserTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -636,7 +636,7 @@ ref float LastGivenDefuserTime { get; }
 ref bool LastHeadBoneTransformIsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -646,7 +646,7 @@ ref bool LastHeadBoneTransformIsValid { get; }
 ref int LastHealth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -656,7 +656,7 @@ ref int LastHealth { get; }
 ref int LastHitBox { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -666,7 +666,7 @@ ref int LastHitBox { get; }
 ref uint LastKillerIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -676,7 +676,7 @@ ref uint LastKillerIndex { get; }
 GameTime_t LastLandTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -686,7 +686,7 @@ GameTime_t LastLandTime { get; }
 ref int LastPickupPriority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -696,7 +696,7 @@ ref int LastPickupPriority { get; }
 ref float LastPickupPriorityTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -706,7 +706,7 @@ ref float LastPickupPriorityTime { get; }
 string LastPlaceName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -716,7 +716,7 @@ string LastPlaceName { get; set; }
 ref int LastWeaponFireUsercmd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -726,7 +726,7 @@ ref int LastWeaponFireUsercmd { get; }
 ref bool LeftHanded { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -736,7 +736,7 @@ ref bool LeftHanded { get; }
 ref float MolotovDamageTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -746,7 +746,7 @@ ref float MolotovDamageTime { get; }
 GameTime_t NextSprayDecalTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -756,7 +756,7 @@ GameTime_t NextSprayDecalTime { get; }
 ref bool NextSprayDecalTimeExpedited { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -766,7 +766,7 @@ ref bool NextSprayDecalTimeExpedited { get; }
 ref bool OnGroundLastTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -776,7 +776,7 @@ ref bool OnGroundLastTick { get; }
 ref int PlayerLocked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -786,7 +786,7 @@ ref int PlayerLocked { get; }
 ISchemaFixedArray<uint> PlayerPatchEconIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -796,7 +796,7 @@ ISchemaFixedArray<uint> PlayerPatchEconIndices { get; }
 ref CUtlVector PredictedDamageTags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -806,7 +806,7 @@ ref CUtlVector PredictedDamageTags { get; }
 CCSPlayer_RadioServices? RadioServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayer_RadioServices](/docs/api/shared/schemadefinitions/ccsplayer_radioservices)?
 
@@ -816,7 +816,7 @@ CCSPlayer_RadioServices? RadioServices { get; }
 ref int RagdollDamageBone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -826,7 +826,7 @@ ref int RagdollDamageBone { get; }
 ref Vector RagdollDamageForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -836,7 +836,7 @@ ref Vector RagdollDamageForce { get; }
 ref bool RagdollDamageHeadshot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -846,7 +846,7 @@ ref bool RagdollDamageHeadshot { get; }
 ref Vector RagdollDamagePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -856,7 +856,7 @@ ref Vector RagdollDamagePosition { get; }
 string RagdollDamageWeaponName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -866,7 +866,7 @@ string RagdollDamageWeaponName { get; set; }
 ref Vector RagdollServerOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -876,7 +876,7 @@ ref Vector RagdollServerOrigin { get; }
 ref bool ResetArmorNextSpawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -886,7 +886,7 @@ ref bool ResetArmorNextSpawn { get; }
 ref bool ResumeZoom { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -896,7 +896,7 @@ ref bool ResumeZoom { get; }
 ref bool RetakesHasDefuseKit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -906,7 +906,7 @@ ref bool RetakesHasDefuseKit { get; }
 ref loadout_slot_t RetakesMVPBoostExtraUtility { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [loadout_slot_t](/docs/api/shared/schemadefinitions/loadout_slot_t)
 
@@ -916,7 +916,7 @@ ref loadout_slot_t RetakesMVPBoostExtraUtility { get; }
 ref int RetakesMVPBoostItem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -926,7 +926,7 @@ ref int RetakesMVPBoostItem { get; }
 ref bool RetakesMVPLastRound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -936,7 +936,7 @@ ref bool RetakesMVPLastRound { get; }
 ref int RetakesOffering { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -946,7 +946,7 @@ ref int RetakesOffering { get; }
 ref int RetakesOfferingCard { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -956,7 +956,7 @@ ref int RetakesOfferingCard { get; }
 ref ushort RoundStartEquipmentValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -966,7 +966,7 @@ ref ushort RoundStartEquipmentValue { get; }
 ISchemaFixedArray<QAngle> ShootAngleHistory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[QAngle](/docs/api/shared/natives/qangle)>
 
@@ -976,7 +976,7 @@ ISchemaFixedArray<QAngle> ShootAngleHistory { get; }
 ref int ShotsFired { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -986,7 +986,7 @@ ref int ShotsFired { get; }
 ref bool SkipOneHeadConstraintUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -996,7 +996,7 @@ ref bool SkipOneHeadConstraintUpdate { get; }
 ref float SlopeDropHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1006,7 +1006,7 @@ ref float SlopeDropHeight { get; }
 ref float SlopeDropOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1016,7 +1016,7 @@ ref float SlopeDropOffset { get; }
 ref int SpotRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1026,7 +1026,7 @@ ref int SpotRules { get; }
 ref Vector StashedGrenadeThrowPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -1036,7 +1036,7 @@ ref Vector StashedGrenadeThrowPosition { get; }
 ref QAngle StashedShootAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -1046,7 +1046,7 @@ ref QAngle StashedShootAngles { get; }
 ref Vector StashedVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -1056,7 +1056,7 @@ ref Vector StashedVelocity { get; }
 string StrVOPrefix { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -1066,7 +1066,7 @@ string StrVOPrefix { get; set; }
 GameTime_t SwitchedHandednessTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -1076,7 +1076,7 @@ GameTime_t SwitchedHandednessTime { get; }
 ref QAngle ThirdPersonHeading { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -1086,7 +1086,7 @@ ref QAngle ThirdPersonHeading { get; }
 ISchemaFixedArray<Vector> ThrowPositionHistory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -1096,7 +1096,7 @@ ISchemaFixedArray<Vector> ThrowPositionHistory { get; }
 GameTime_t TimeOfLastInjury { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -1106,7 +1106,7 @@ GameTime_t TimeOfLastInjury { get; }
 ref Vector TotalBulletForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -1116,7 +1116,7 @@ ref Vector TotalBulletForce { get; }
 ref CUtlVector<CHandle<CBaseEntity>> TouchingBuyZones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
@@ -1126,7 +1126,7 @@ ref CUtlVector<CHandle<CBaseEntity>> TouchingBuyZones { get; }
 ISchemaFixedArray<Vector> VelocityHistory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -1136,7 +1136,7 @@ ISchemaFixedArray<Vector> VelocityHistory { get; }
 ref float VelocityModifier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1146,7 +1146,7 @@ ref float VelocityModifier { get; }
 ref float ViewmodelFOV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1156,7 +1156,7 @@ ref float ViewmodelFOV { get; }
 ref float ViewmodelOffsetX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1166,7 +1166,7 @@ ref float ViewmodelOffsetX { get; }
 ref float ViewmodelOffsetY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1176,7 +1176,7 @@ ref float ViewmodelOffsetY { get; }
 ref float ViewmodelOffsetZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1186,7 +1186,7 @@ ref float ViewmodelOffsetZ { get; }
 ref bool WaitForNoAttack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1196,7 +1196,7 @@ ref bool WaitForNoAttack { get; }
 ref bool WasInBombZoneTrigger { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1206,7 +1206,7 @@ ref bool WasInBombZoneTrigger { get; }
 ref bool WasInBuyZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1216,7 +1216,7 @@ ref bool WasInBuyZone { get; }
 ref bool WasInHostageRescueZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1226,7 +1226,7 @@ ref bool WasInHostageRescueZone { get; }
 ref bool WasNotKilledNaturally { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1236,7 +1236,7 @@ ref bool WasNotKilledNaturally { get; }
 ref int WhichBombZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1246,7 +1246,7 @@ ref int WhichBombZone { get; }
 ref CTransform XLastHeadBoneTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

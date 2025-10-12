@@ -6,7 +6,7 @@ title: CCSPlayerController_ActionTrackingServices
 public interface CCSPlayerController_ActionTrackingServices : CPlayerControllerComponent, ISchemaClass<CPlayerControllerComponent>, ISchemaClass<CCSPlayerController_ActionTrackingServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayerController_ActionTrackingServices : CPlayerControllerC
 CSMatchStats_t MatchStats { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSMatchStats_t](/docs/api/shared/schemadefinitions/csmatchstats_t)
 
@@ -26,7 +26,7 @@ CSMatchStats_t MatchStats { get; }
 ref int NumRoundKills { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int NumRoundKills { get; }
 ref int NumRoundKillsHeadshots { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int NumRoundKillsHeadshots { get; }
 ref CUtlVector PerRoundStats { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector PerRoundStats { get; }
 ref float TotalRoundDamageDealt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

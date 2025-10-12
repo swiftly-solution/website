@@ -6,7 +6,7 @@ title: CItemDogtags
 public interface CItemDogtags : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CItem>, ISchemaClass<CItemDogtags>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CItemDogtags : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEn
 ref CHandle<CCSPlayerPawn> KillingPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -26,7 +26,7 @@ ref CHandle<CCSPlayerPawn> KillingPlayer { get; }
 ref CHandle<CCSPlayerPawn> OwningPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 

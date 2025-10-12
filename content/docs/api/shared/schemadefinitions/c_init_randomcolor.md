@@ -6,7 +6,7 @@ title: C_INIT_RandomColor
 public interface C_INIT_RandomColor : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_RandomColor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_RandomColor : CParticleFunctionInitializer, CParticleFun
 ref Color ColorMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -26,7 +26,7 @@ ref Color ColorMax { get; }
 ref Color ColorMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -36,7 +36,7 @@ ref Color ColorMin { get; }
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -46,7 +46,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 ref float LightAmplification { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float LightAmplification { get; }
 ref ParticleColorBlendMode_t TintBlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleColorBlendMode_t](/docs/api/shared/schemadefinitions/particlecolorblendmode_t)
 
@@ -66,7 +66,7 @@ ref ParticleColorBlendMode_t TintBlendMode { get; }
 ref int TintCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int TintCP { get; }
 ref Color TintMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -86,7 +86,7 @@ ref Color TintMax { get; }
 ref Color TintMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -96,7 +96,7 @@ ref Color TintMin { get; }
 ref float TintPerc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float TintPerc { get; }
 ref float UpdateThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

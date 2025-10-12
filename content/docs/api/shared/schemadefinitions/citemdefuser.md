@@ -6,7 +6,7 @@ title: CItemDefuser
 public interface CItemDefuser : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CItem>, ISchemaClass<CItemDefuser>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CItemDefuser : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEn
 EntitySpottedState_t EntitySpottedState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EntitySpottedState_t](/docs/api/shared/schemadefinitions/entityspottedstate_t)
 
@@ -26,7 +26,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 ref int SpotRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

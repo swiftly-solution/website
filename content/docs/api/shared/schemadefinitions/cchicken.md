@@ -6,7 +6,7 @@ title: CChicken
 public interface CChicken : CDynamicProp, CBreakableProp, CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaClass<CDynamicProp>, ISchemaClass<CChicken>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CChicken : CDynamicProp, CBreakableProp, CBaseProp, CBaseAnimGr
 GameTime_t ActiveFollowStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -26,7 +26,7 @@ GameTime_t ActiveFollowStartTime { get; }
 CountdownTimer ActivityTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -36,7 +36,7 @@ CountdownTimer ActivityTimer { get; }
 CAttributeContainer AttributeManager { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAttributeContainer](/docs/api/shared/schemadefinitions/cattributecontainer)
 
@@ -46,7 +46,7 @@ CAttributeContainer AttributeManager { get; }
 CountdownTimer BlockDirectionTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -56,7 +56,7 @@ CountdownTimer BlockDirectionTimer { get; }
 CountdownTimer CollisionStuckTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -66,7 +66,7 @@ CountdownTimer CollisionStuckTimer { get; }
 ref ChickenActivity CurrentActivity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ChickenActivity](/docs/api/shared/schemadefinitions/chickenactivity)
 
@@ -76,7 +76,7 @@ ref ChickenActivity CurrentActivity { get; }
 ref ChickenActivity DesiredActivity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ChickenActivity](/docs/api/shared/schemadefinitions/chickenactivity)
 
@@ -86,7 +86,7 @@ ref ChickenActivity DesiredActivity { get; }
 ref Vector FallVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector FallVelocity { get; }
 ref CHandle<CBaseEntity> FleeFrom { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -106,7 +106,7 @@ ref CHandle<CBaseEntity> FleeFrom { get; }
 CountdownTimer FollowMinuteTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -116,7 +116,7 @@ CountdownTimer FollowMinuteTimer { get; }
 ref bool HasBeenUsed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool HasBeenUsed { get; }
 ref bool InJump { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool InJump { get; }
 ref bool IsOnGround { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool IsOnGround { get; }
 CountdownTimer JumpTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -156,7 +156,7 @@ CountdownTimer JumpTimer { get; }
 ref bool JumpedThisFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool JumpedThisFrame { get; }
 ref float LastJumpTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float LastJumpTime { get; }
 ref CHandle<CCSPlayerPawn> Leader { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -186,7 +186,7 @@ ref CHandle<CCSPlayerPawn> Leader { get; }
 CountdownTimer MoveRateThrottleTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -196,7 +196,7 @@ CountdownTimer MoveRateThrottleTimer { get; }
 ref Vector PathGoal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -206,7 +206,7 @@ ref Vector PathGoal { get; }
 CountdownTimer RepathTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -216,7 +216,7 @@ CountdownTimer RepathTimer { get; }
 CountdownTimer ReuseTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -226,7 +226,7 @@ CountdownTimer ReuseTimer { get; }
 CountdownTimer StartleTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -236,7 +236,7 @@ CountdownTimer StartleTimer { get; }
 ref Vector StuckAnchor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -246,7 +246,7 @@ ref Vector StuckAnchor { get; }
 CountdownTimer StuckTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -256,7 +256,7 @@ CountdownTimer StuckTimer { get; }
 ref float TurnRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -266,7 +266,7 @@ ref float TurnRate { get; }
 CountdownTimer UpdateTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -276,7 +276,7 @@ CountdownTimer UpdateTimer { get; }
 CountdownTimer VocalizeTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -286,7 +286,7 @@ CountdownTimer VocalizeTimer { get; }
 GameTime_t WhenZombified { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 

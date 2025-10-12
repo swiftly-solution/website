@@ -6,7 +6,7 @@ title: CParticleMassCalculationParameters
 public interface CParticleMassCalculationParameters : ISchemaClass<CParticleMassCalculationParameters>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleMassCalculationParameters : ISchemaClass<CParticleMass
 ref ParticleMassMode_t MassMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleMassMode_t](/docs/api/shared/schemadefinitions/particlemassmode_t)
 
@@ -26,7 +26,7 @@ ref ParticleMassMode_t MassMode { get; }
 CPerParticleFloatInput NominalRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -36,7 +36,7 @@ CPerParticleFloatInput NominalRadius { get; }
 CPerParticleFloatInput Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -46,7 +46,7 @@ CPerParticleFloatInput Radius { get; }
 CPerParticleFloatInput Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 

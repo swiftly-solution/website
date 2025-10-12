@@ -6,7 +6,7 @@ title: C_INIT_CreateParticleImpulse
 public interface C_INIT_CreateParticleImpulse : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_CreateParticleImpulse>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_CreateParticleImpulse : CParticleFunctionInitializer, CP
 ref ParticleFalloffFunction_t FalloffFunction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleFalloffFunction_t](/docs/api/shared/schemadefinitions/particlefallofffunction_t)
 
@@ -26,7 +26,7 @@ ref ParticleFalloffFunction_t FalloffFunction { get; }
 ref ParticleImpulseType_t ImpulseType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleImpulseType_t](/docs/api/shared/schemadefinitions/particleimpulsetype_t)
 
@@ -36,7 +36,7 @@ ref ParticleImpulseType_t ImpulseType { get; }
 CPerParticleFloatInput InputFalloffExp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -46,7 +46,7 @@ CPerParticleFloatInput InputFalloffExp { get; }
 CPerParticleFloatInput InputMagnitude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -56,7 +56,7 @@ CPerParticleFloatInput InputMagnitude { get; }
 CPerParticleFloatInput InputRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 

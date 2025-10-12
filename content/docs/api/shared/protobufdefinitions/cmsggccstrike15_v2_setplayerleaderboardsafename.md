@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName
 public interface CMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName : ITypedProtobuf<CMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_SetPlayerLeaderboardSafeName : ITypedProtobu
 string LeaderboardSafeName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

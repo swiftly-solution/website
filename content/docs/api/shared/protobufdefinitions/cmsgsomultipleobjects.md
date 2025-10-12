@@ -6,7 +6,7 @@ title: CMsgSOMultipleObjects
 public interface CMsgSOMultipleObjects : ITypedProtobuf<CMsgSOMultipleObjects>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOMultipleObjects : ITypedProtobuf<CMsgSOMultipleObjects>, 
 IProtobufRepeatedFieldSubMessageType<CMsgSOMultipleObjects_SingleObject> ObjectsModified { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSOMultipleObjects_SingleObject](/docs/api/shared/protobufdefinitions/cmsgsomultipleobjects_singleobject)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSOMultipleObjects_SingleObject> Objects
 CMsgSOIDOwner OwnerSoid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSOIDOwner](/docs/api/shared/protobufdefinitions/cmsgsoidowner)
 
@@ -36,7 +36,7 @@ CMsgSOIDOwner OwnerSoid { get; }
 ulong Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

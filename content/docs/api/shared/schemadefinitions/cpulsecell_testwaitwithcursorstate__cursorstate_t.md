@@ -6,7 +6,7 @@ title: CPulseCell_TestWaitWithCursorState__CursorState_t
 public interface CPulseCell_TestWaitWithCursorState__CursorState_t : ISchemaClass<CPulseCell_TestWaitWithCursorState__CursorState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_TestWaitWithCursorState__CursorState_t : ISchemaClas
 ref bool FailOnCancel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool FailOnCancel { get; }
 ref float WaitValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

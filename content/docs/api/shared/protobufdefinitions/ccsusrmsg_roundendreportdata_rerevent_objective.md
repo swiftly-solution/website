@@ -6,7 +6,7 @@ title: CCSUsrMsg_RoundEndReportData_RerEvent_Objective
 public interface CCSUsrMsg_RoundEndReportData_RerEvent_Objective : ITypedProtobuf<CCSUsrMsg_RoundEndReportData_RerEvent_Objective>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_RoundEndReportData_RerEvent_Objective : ITypedProtobu
 int Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

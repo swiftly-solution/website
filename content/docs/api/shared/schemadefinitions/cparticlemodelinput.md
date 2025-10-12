@@ -6,7 +6,7 @@ title: CParticleModelInput
 public interface CParticleModelInput : CParticleInput, ISchemaClass<CParticleInput>, ISchemaClass<CParticleModelInput>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleModelInput : CParticleInput, ISchemaClass<CParticleInp
 ref int ControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ControlPoint { get; }
 SchemaUntypedField NamedValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField NamedValue { get; }
 ref ParticleModelType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleModelType_t](/docs/api/shared/schemadefinitions/particlemodeltype_t)
 

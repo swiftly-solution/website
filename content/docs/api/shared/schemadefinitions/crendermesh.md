@@ -6,7 +6,7 @@ title: CRenderMesh
 public interface CRenderMesh : ISchemaClass<CRenderMesh>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRenderMesh : ISchemaClass<CRenderMesh>, ISchemaField, ISchemaC
 SchemaUntypedField Constraints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Constraints { get; }
 ref bool EmbeddedMapMesh { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool EmbeddedMapMesh { get; }
 CRenderGroom? GroomData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRenderGroom](/docs/api/shared/schemadefinitions/crendergroom)?
 
@@ -46,7 +46,7 @@ CRenderGroom? GroomData { get; }
 DynamicMeshDeformParams_t MeshDeformParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DynamicMeshDeformParams_t](/docs/api/shared/schemadefinitions/dynamicmeshdeformparams_t)
 
@@ -56,7 +56,7 @@ DynamicMeshDeformParams_t MeshDeformParams { get; }
 SchemaUntypedField SceneObjects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -66,7 +66,7 @@ SchemaUntypedField SceneObjects { get; }
 CRenderSkeleton Skeleton { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRenderSkeleton](/docs/api/shared/schemadefinitions/crenderskeleton)
 
@@ -76,7 +76,7 @@ CRenderSkeleton Skeleton { get; }
 ref bool UseUV2ForCharting { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

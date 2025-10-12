@@ -6,7 +6,7 @@ title: PulseGraphExecutionHistoryNodeDesc_t
 public interface PulseGraphExecutionHistoryNodeDesc_t : ISchemaClass<PulseGraphExecutionHistoryNodeDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseGraphExecutionHistoryNodeDesc_t : ISchemaClass<PulseGraphE
 SchemaUntypedField StrBindingName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField StrBindingName { get; }
 ref CBufferString StrCellDesc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 

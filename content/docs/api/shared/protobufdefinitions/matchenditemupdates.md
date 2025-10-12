@@ -6,7 +6,7 @@ title: MatchEndItemUpdates
 public interface MatchEndItemUpdates : ITypedProtobuf<MatchEndItemUpdates>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MatchEndItemUpdates : ITypedProtobuf<MatchEndItemUpdates>, INat
 uint ItemAttrDefidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ItemAttrDefidx { get; set; }
 uint ItemAttrDeltaValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ItemAttrDeltaValue { get; set; }
 ulong ItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

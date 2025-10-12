@@ -6,7 +6,7 @@ title: CFeNamedJiggleBone
 public interface CFeNamedJiggleBone : ISchemaClass<CFeNamedJiggleBone>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFeNamedJiggleBone : ISchemaClass<CFeNamedJiggleBone>, ISchemaF
 CFeJiggleBone JiggleBone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFeJiggleBone](/docs/api/shared/schemadefinitions/cfejigglebone)
 
@@ -26,7 +26,7 @@ CFeJiggleBone JiggleBone { get; }
 ref uint JiggleParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint JiggleParent { get; }
 string StrParentBone { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string StrParentBone { get; set; }
 ref CTransform Transform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

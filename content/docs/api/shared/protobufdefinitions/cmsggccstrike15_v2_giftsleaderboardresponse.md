@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GiftsLeaderboardResponse
 public interface CMsgGCCStrike15_v2_GiftsLeaderboardResponse : ITypedProtobuf<CMsgGCCStrike15_v2_GiftsLeaderboardResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GiftsLeaderboardResponse : ITypedProtobuf<CM
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntry> Entries { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntry](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_giftsleaderboardresponse_giftleaderboardentry)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_GiftsLeaderboardResponse
 uint Servertime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Servertime { get; set; }
 uint TimePeriodSeconds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint TimePeriodSeconds { get; set; }
 uint TotalGiftsGiven { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint TotalGiftsGiven { get; set; }
 uint TotalGivers { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

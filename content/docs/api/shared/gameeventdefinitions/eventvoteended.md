@@ -6,5 +6,5 @@ title: EventVoteEnded
 public interface EventVoteEnded : IGameEvent<EventVoteEnded>
 ```
 
-#### Implements
+- Implements
 

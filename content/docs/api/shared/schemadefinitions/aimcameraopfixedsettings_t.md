@@ -6,7 +6,7 @@ title: AimCameraOpFixedSettings_t
 public interface AimCameraOpFixedSettings_t : ISchemaClass<AimCameraOpFixedSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AimCameraOpFixedSettings_t : ISchemaClass<AimCameraOpFixedSetti
 ref int CameraJointIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int CameraJointIndex { get; }
 ref int ChainIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ChainIndex { get; }
 ref int ClavicleLeftJointIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int ClavicleLeftJointIndex { get; }
 ref int ClavicleRightJointIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int ClavicleRightJointIndex { get; }
 ref int DepenetrationJointIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int DepenetrationJointIndex { get; }
 ref int PelvisJointIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int PelvisJointIndex { get; }
 ref CUtlVector<int> PropJoints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

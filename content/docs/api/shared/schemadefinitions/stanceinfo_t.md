@@ -6,7 +6,7 @@ title: StanceInfo_t
 public interface StanceInfo_t : ISchemaClass<StanceInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface StanceInfo_t : ISchemaClass<StanceInfo_t>, ISchemaField, ISchem
 ref float Direction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Direction { get; }
 ref Vector Position { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

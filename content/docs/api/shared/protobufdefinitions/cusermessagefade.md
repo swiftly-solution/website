@@ -6,7 +6,7 @@ title: CUserMessageFade
 public interface CUserMessageFade : ITypedProtobuf<CUserMessageFade>, INativeHandle, INetMessage<CUserMessageFade>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageFade : ITypedProtobuf<CUserMessageFade>, INativeHan
 uint Color { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Color { get; set; }
 uint Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Duration { get; set; }
 uint Flags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Flags { get; set; }
 uint HoldTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

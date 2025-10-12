@@ -6,7 +6,7 @@ title: CNmSoundEvent
 public interface CNmSoundEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmSoundEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmSoundEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<
 string AttachmentName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AttachmentName { get; set; }
 ref bool ContinuePlayingSoundAtDurationEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ContinuePlayingSoundAtDurationEnd { get; }
 ref float DurationInterruptionThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float DurationInterruptionThreshold { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string Name { get; set; }
 ref CNmSoundEvent__Position_t Position { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmSoundEvent__Position_t](/docs/api/shared/schemadefinitions/cnmsoundevent__position_t)
 
@@ -66,7 +66,7 @@ ref CNmSoundEvent__Position_t Position { get; }
 ref CNmEventRelevance_t Relevance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmEventRelevance_t](/docs/api/shared/schemadefinitions/cnmeventrelevance_t)
 
@@ -76,7 +76,7 @@ ref CNmEventRelevance_t Relevance { get; }
 string Tags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: EventDemoSkip
 public interface EventDemoSkip : IGameEvent<EventDemoSkip>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventDemoSkip : IGameEvent<EventDemoSkip>
 int PlaybackTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int PlaybackTick { get; set; }
 int SkiptoTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

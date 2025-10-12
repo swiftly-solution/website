@@ -6,7 +6,7 @@ title: CMsgGameServerInfo
 public interface CMsgGameServerInfo : ITypedProtobuf<CMsgGameServerInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGameServerInfo : ITypedProtobuf<CMsgGameServerInfo>, INativ
 uint ParentRelayCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ParentRelayCount { get; set; }
 int RelayClientsConnected { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int RelayClientsConnected { get; set; }
 uint RelaySlotsMax { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint RelaySlotsMax { get; set; }
 ulong RelayedGameServerSteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ulong RelayedGameServerSteamId { get; set; }
 int RelaysConnected { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int RelaysConnected { get; set; }
 float ServerGameTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ float ServerGameTime { get; set; }
 bool ServerHibernation { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ bool ServerHibernation { get; set; }
 string ServerKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string ServerKey { get; set; }
 float ServerLoadavg { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ float ServerLoadavg { get; set; }
 uint ServerPort { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -116,7 +116,7 @@ uint ServerPort { get; set; }
 uint ServerPrivateIpAddr { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ uint ServerPrivateIpAddr { get; set; }
 uint ServerPublicIpAddr { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint ServerPublicIpAddr { get; set; }
 uint ServerRegion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ uint ServerRegion { get; set; }
 ulong ServerRelayConnectedSteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -156,7 +156,7 @@ ulong ServerRelayConnectedSteamId { get; set; }
 float ServerTvBroadcastTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ float ServerTvBroadcastTime { get; set; }
 uint ServerTvPort { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -176,7 +176,7 @@ uint ServerTvPort { get; set; }
 CMsgGameServerInfo_ServerType ServerType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGameServerInfo_ServerType](/docs/api/shared/protobufdefinitions/cmsggameserverinfo_servertype)
 
@@ -186,7 +186,7 @@ CMsgGameServerInfo_ServerType ServerType { get; set; }
 ulong TvSecretCode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,7 +6,7 @@ title: TextureControls_t
 public interface TextureControls_t : ISchemaClass<TextureControls_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface TextureControls_t : ISchemaClass<TextureControls_t>, ISchemaFie
 ref bool ClampUVs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ClampUVs { get; }
 CParticleCollectionRendererFloatInput Distortion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionRendererFloatInput Distortion { get; }
 CParticleCollectionRendererFloatInput FinalTextureOffsetU { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionRendererFloatInput FinalTextureOffsetU { get; }
 CParticleCollectionRendererFloatInput FinalTextureOffsetV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -56,7 +56,7 @@ CParticleCollectionRendererFloatInput FinalTextureOffsetV { get; }
 CParticleCollectionRendererFloatInput FinalTextureScaleU { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionRendererFloatInput FinalTextureScaleU { get; }
 CParticleCollectionRendererFloatInput FinalTextureScaleV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -76,7 +76,7 @@ CParticleCollectionRendererFloatInput FinalTextureScaleV { get; }
 CParticleCollectionRendererFloatInput FinalTextureUVRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -86,7 +86,7 @@ CParticleCollectionRendererFloatInput FinalTextureUVRotation { get; }
 ref SpriteCardPerParticleScale_t PerParticleBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
@@ -96,7 +96,7 @@ ref SpriteCardPerParticleScale_t PerParticleBlend { get; }
 ref SpriteCardPerParticleScale_t PerParticleDistortion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
@@ -106,7 +106,7 @@ ref SpriteCardPerParticleScale_t PerParticleDistortion { get; }
 ref SpriteCardPerParticleScale_t PerParticleOffsetU { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
@@ -116,7 +116,7 @@ ref SpriteCardPerParticleScale_t PerParticleOffsetU { get; }
 ref SpriteCardPerParticleScale_t PerParticleOffsetV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
@@ -126,7 +126,7 @@ ref SpriteCardPerParticleScale_t PerParticleOffsetV { get; }
 ref SpriteCardPerParticleScale_t PerParticleRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
@@ -136,7 +136,7 @@ ref SpriteCardPerParticleScale_t PerParticleRotation { get; }
 ref SpriteCardPerParticleScale_t PerParticleScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
@@ -146,7 +146,7 @@ ref SpriteCardPerParticleScale_t PerParticleScale { get; }
 ref SpriteCardPerParticleScale_t PerParticleZoom { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
@@ -156,7 +156,7 @@ ref SpriteCardPerParticleScale_t PerParticleZoom { get; }
 ref bool RandomizeOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool RandomizeOffsets { get; }
 CParticleCollectionRendererFloatInput ZoomScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 

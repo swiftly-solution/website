@@ -6,7 +6,7 @@ title: CCSUsrMsg_RequestState
 public interface CCSUsrMsg_RequestState : ITypedProtobuf<CCSUsrMsg_RequestState>, INativeHandle, INetMessage<CCSUsrMsg_RequestState>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_RequestState : ITypedProtobuf<CCSUsrMsg_RequestState>
 int Dummy { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

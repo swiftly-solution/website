@@ -6,7 +6,7 @@ title: VMixFreeverbDesc_t
 public interface VMixFreeverbDesc_t : ISchemaClass<VMixFreeverbDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixFreeverbDesc_t : ISchemaClass<VMixFreeverbDesc_t>, ISchemaF
 ref float Damp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Damp { get; }
 ref float LateReflections { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float LateReflections { get; }
 ref float RoomSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float RoomSize { get; }
 ref float Width { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

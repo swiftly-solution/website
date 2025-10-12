@@ -6,7 +6,7 @@ title: CUserMessageAchievementEvent
 public interface CUserMessageAchievementEvent : ITypedProtobuf<CUserMessageAchievementEvent>, INativeHandle, INetMessage<CUserMessageAchievementEvent>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageAchievementEvent : ITypedProtobuf<CUserMessageAchie
 uint Achievement { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

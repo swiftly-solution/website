@@ -6,7 +6,7 @@ title: CGenericConstraint
 public interface CGenericConstraint : CPhysConstraint, CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CPhysConstraint>, ISchemaClass<CGenericConstraint>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGenericConstraint : CPhysConstraint, CLogicalEntity, CServerOn
 ref float AngularDampingRatioX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AngularDampingRatioX { get; }
 ref float AngularDampingRatioY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AngularDampingRatioY { get; }
 ref float AngularDampingRatioZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float AngularDampingRatioZ { get; }
 ref float AngularFrequencyX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float AngularFrequencyX { get; }
 ref float AngularFrequencyY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float AngularFrequencyY { get; }
 ref float AngularFrequencyZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float AngularFrequencyZ { get; }
 ref JointMotion_t AngularMotionX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [JointMotion_t](/docs/api/shared/schemadefinitions/jointmotion_t)
 
@@ -86,7 +86,7 @@ ref JointMotion_t AngularMotionX { get; }
 ref JointMotion_t AngularMotionY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [JointMotion_t](/docs/api/shared/schemadefinitions/jointmotion_t)
 
@@ -96,7 +96,7 @@ ref JointMotion_t AngularMotionY { get; }
 ref JointMotion_t AngularMotionZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [JointMotion_t](/docs/api/shared/schemadefinitions/jointmotion_t)
 
@@ -106,7 +106,7 @@ ref JointMotion_t AngularMotionZ { get; }
 ref bool AxisNotifiedX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool AxisNotifiedX { get; }
 ref bool AxisNotifiedY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool AxisNotifiedY { get; }
 ref bool AxisNotifiedZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool AxisNotifiedZ { get; }
 GameTime_t BreakAfterTimeStartTimeX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -146,7 +146,7 @@ GameTime_t BreakAfterTimeStartTimeX { get; }
 GameTime_t BreakAfterTimeStartTimeY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -156,7 +156,7 @@ GameTime_t BreakAfterTimeStartTimeY { get; }
 GameTime_t BreakAfterTimeStartTimeZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -166,7 +166,7 @@ GameTime_t BreakAfterTimeStartTimeZ { get; }
 ref float BreakAfterTimeThresholdX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float BreakAfterTimeThresholdX { get; }
 ref float BreakAfterTimeThresholdY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float BreakAfterTimeThresholdY { get; }
 ref float BreakAfterTimeThresholdZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float BreakAfterTimeThresholdZ { get; }
 ref float BreakAfterTimeX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float BreakAfterTimeX { get; }
 ref float BreakAfterTimeY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float BreakAfterTimeY { get; }
 ref float BreakAfterTimeZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -226,7 +226,7 @@ ref float BreakAfterTimeZ { get; }
 ref float LinearDampingRatioX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float LinearDampingRatioX { get; }
 ref float LinearDampingRatioY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -246,7 +246,7 @@ ref float LinearDampingRatioY { get; }
 ref float LinearDampingRatioZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -256,7 +256,7 @@ ref float LinearDampingRatioZ { get; }
 ref float LinearFrequencyX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -266,7 +266,7 @@ ref float LinearFrequencyX { get; }
 ref float LinearFrequencyY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -276,7 +276,7 @@ ref float LinearFrequencyY { get; }
 ref float LinearFrequencyZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -286,7 +286,7 @@ ref float LinearFrequencyZ { get; }
 ref JointMotion_t LinearMotionX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [JointMotion_t](/docs/api/shared/schemadefinitions/jointmotion_t)
 
@@ -296,7 +296,7 @@ ref JointMotion_t LinearMotionX { get; }
 ref JointMotion_t LinearMotionY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [JointMotion_t](/docs/api/shared/schemadefinitions/jointmotion_t)
 
@@ -306,7 +306,7 @@ ref JointMotion_t LinearMotionY { get; }
 ref JointMotion_t LinearMotionZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [JointMotion_t](/docs/api/shared/schemadefinitions/jointmotion_t)
 
@@ -316,7 +316,7 @@ ref JointMotion_t LinearMotionZ { get; }
 ref float MaxAngularImpulseX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -326,7 +326,7 @@ ref float MaxAngularImpulseX { get; }
 ref float MaxAngularImpulseY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -336,7 +336,7 @@ ref float MaxAngularImpulseY { get; }
 ref float MaxAngularImpulseZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -346,7 +346,7 @@ ref float MaxAngularImpulseZ { get; }
 ref float MaxLinearImpulseX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -356,7 +356,7 @@ ref float MaxLinearImpulseX { get; }
 ref float MaxLinearImpulseY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -366,7 +366,7 @@ ref float MaxLinearImpulseY { get; }
 ref float MaxLinearImpulseZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -376,7 +376,7 @@ ref float MaxLinearImpulseZ { get; }
 GameTime_t NotifyForceLastTimeX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -386,7 +386,7 @@ GameTime_t NotifyForceLastTimeX { get; }
 GameTime_t NotifyForceLastTimeY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -396,7 +396,7 @@ GameTime_t NotifyForceLastTimeY { get; }
 GameTime_t NotifyForceLastTimeZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -406,7 +406,7 @@ GameTime_t NotifyForceLastTimeZ { get; }
 ref float NotifyForceMinTimeX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -416,7 +416,7 @@ ref float NotifyForceMinTimeX { get; }
 ref float NotifyForceMinTimeY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -426,7 +426,7 @@ ref float NotifyForceMinTimeY { get; }
 ref float NotifyForceMinTimeZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -436,7 +436,7 @@ ref float NotifyForceMinTimeZ { get; }
 CEntityIOOutput NotifyForceReachedX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -446,7 +446,7 @@ CEntityIOOutput NotifyForceReachedX { get; }
 CEntityIOOutput NotifyForceReachedY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -456,7 +456,7 @@ CEntityIOOutput NotifyForceReachedY { get; }
 CEntityIOOutput NotifyForceReachedZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -466,7 +466,7 @@ CEntityIOOutput NotifyForceReachedZ { get; }
 ref float NotifyForceX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -476,7 +476,7 @@ ref float NotifyForceX { get; }
 ref float NotifyForceY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -486,7 +486,7 @@ ref float NotifyForceY { get; }
 ref float NotifyForceZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

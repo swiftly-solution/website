@@ -6,7 +6,7 @@ title: CAttributeList
 public interface CAttributeList : ISchemaClass<CAttributeList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAttributeList : ISchemaClass<CAttributeList>, ISchemaField, IS
 ref CUtlVector Attributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Attributes { get; }
 CAttributeManager? Manager { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAttributeManager](/docs/api/shared/schemadefinitions/cattributemanager)?
 

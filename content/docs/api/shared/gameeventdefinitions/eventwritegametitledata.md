@@ -6,7 +6,7 @@ title: EventWriteGameTitledata
 public interface EventWriteGameTitledata : IGameEvent<EventWriteGameTitledata>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventWriteGameTitledata : IGameEvent<EventWriteGameTitledata>
 short ControllerId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

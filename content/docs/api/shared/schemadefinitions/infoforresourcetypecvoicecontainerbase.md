@@ -6,5 +6,5 @@ title: InfoForResourceTypeCVoiceContainerBase
 public interface InfoForResourceTypeCVoiceContainerBase : ISchemaClass<InfoForResourceTypeCVoiceContainerBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

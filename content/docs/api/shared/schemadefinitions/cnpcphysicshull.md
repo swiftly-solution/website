@@ -6,7 +6,7 @@ title: CNPCPhysicsHull
 public interface CNPCPhysicsHull : ISchemaClass<CNPCPhysicsHull>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNPCPhysicsHull : ISchemaClass<CNPCPhysicsHull>, ISchemaField, 
 ref Vector CapsuleCenter1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector CapsuleCenter1 { get; }
 ref Vector CapsuleCenter2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector CapsuleCenter2 { get; }
 ref float CapsuleHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float CapsuleHeight { get; }
 ref float CapsuleRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float CapsuleRadius { get; }
 ref float GroundBoxHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float GroundBoxHeight { get; }
 ref float GroundBoxWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float GroundBoxWidth { get; }
 ref CGlobalSymbol Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -86,7 +86,7 @@ ref CGlobalSymbol Name { get; }
 ref NPCPhysicsHullType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NPCPhysicsHullType_t](/docs/api/shared/schemadefinitions/npcphysicshulltype_t)
 

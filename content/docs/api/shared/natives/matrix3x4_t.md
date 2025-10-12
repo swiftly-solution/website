@@ -6,7 +6,7 @@ title: matrix3x4_t
 public struct matrix3x4_t
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Properties
 
@@ -16,7 +16,7 @@ public struct matrix3x4_t
 public ref float this[int row, int column] { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

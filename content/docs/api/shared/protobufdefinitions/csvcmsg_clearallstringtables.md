@@ -6,7 +6,7 @@ title: CSVCMsg_ClearAllStringTables
 public interface CSVCMsg_ClearAllStringTables : ITypedProtobuf<CSVCMsg_ClearAllStringTables>, INativeHandle, INetMessage<CSVCMsg_ClearAllStringTables>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_ClearAllStringTables : ITypedProtobuf<CSVCMsg_ClearAllS
 bool CreateTablesSkipped { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool CreateTablesSkipped { get; set; }
 string Mapname { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

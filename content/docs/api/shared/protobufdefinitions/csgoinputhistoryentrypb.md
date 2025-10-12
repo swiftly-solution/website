@@ -6,7 +6,7 @@ title: CSGOInputHistoryEntryPB
 public interface CSGOInputHistoryEntryPB : ITypedProtobuf<CSGOInputHistoryEntryPB>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSGOInputHistoryEntryPB : ITypedProtobuf<CSGOInputHistoryEntryP
 CSGOInterpolationInfoPB_CL ClInterp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSGOInterpolationInfoPB_CL](/docs/api/shared/protobufdefinitions/csgointerpolationinfopb_cl)
 
@@ -26,7 +26,7 @@ CSGOInterpolationInfoPB_CL ClInterp { get; }
 int FrameNumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int FrameNumber { get; set; }
 CSGOInterpolationInfoPB PlayerInterp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSGOInterpolationInfoPB](/docs/api/shared/protobufdefinitions/csgointerpolationinfopb)
 
@@ -46,7 +46,7 @@ CSGOInterpolationInfoPB PlayerInterp { get; }
 int PlayerTickCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int PlayerTickCount { get; set; }
 float PlayerTickFraction { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ float PlayerTickFraction { get; set; }
 int RenderTickCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int RenderTickCount { get; set; }
 float RenderTickFraction { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ float RenderTickFraction { get; set; }
 Vector ShootPosition { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ Vector ShootPosition { get; set; }
 CSGOInterpolationInfoPB SvInterp0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSGOInterpolationInfoPB](/docs/api/shared/protobufdefinitions/csgointerpolationinfopb)
 
@@ -106,7 +106,7 @@ CSGOInterpolationInfoPB SvInterp0 { get; }
 CSGOInterpolationInfoPB SvInterp1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSGOInterpolationInfoPB](/docs/api/shared/protobufdefinitions/csgointerpolationinfopb)
 
@@ -116,7 +116,7 @@ CSGOInterpolationInfoPB SvInterp1 { get; }
 QAngle TargetAbsAngCheck { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -126,7 +126,7 @@ QAngle TargetAbsAngCheck { get; set; }
 Vector TargetAbsPosCheck { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -136,7 +136,7 @@ Vector TargetAbsPosCheck { get; set; }
 int TargetEntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ int TargetEntIndex { get; set; }
 Vector TargetHeadPosCheck { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -156,7 +156,7 @@ Vector TargetHeadPosCheck { get; set; }
 QAngle ViewAngles { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 

@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_UpdateParticleShouldDraw
 public interface CUserMsg_ParticleManager_UpdateParticleShouldDraw : ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticleShouldDraw>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleShouldDraw : ITypedProto
 bool ShouldDraw { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

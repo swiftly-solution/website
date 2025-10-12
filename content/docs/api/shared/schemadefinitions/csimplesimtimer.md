@@ -6,7 +6,7 @@ title: CSimpleSimTimer
 public interface CSimpleSimTimer : ISchemaClass<CSimpleSimTimer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSimpleSimTimer : ISchemaClass<CSimpleSimTimer>, ISchemaField, 
 GameTime_t Next { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -26,7 +26,7 @@ GameTime_t Next { get; }
 ref uint WorldGroupId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

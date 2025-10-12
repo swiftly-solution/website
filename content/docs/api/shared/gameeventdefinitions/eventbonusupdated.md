@@ -6,7 +6,7 @@ title: EventBonusUpdated
 public interface EventBonusUpdated : IGameEvent<EventBonusUpdated>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventBonusUpdated : IGameEvent<EventBonusUpdated>
 short NumAdvanced { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short NumAdvanced { get; set; }
 short NumBronze { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ short NumBronze { get; set; }
 short NumGold { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ short NumGold { get; set; }
 short NumSilver { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

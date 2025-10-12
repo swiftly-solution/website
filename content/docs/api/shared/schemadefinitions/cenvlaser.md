@@ -6,7 +6,7 @@ title: CEnvLaser
 public interface CEnvLaser : CBeam, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBeam>, ISchemaClass<CEnvLaser>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEnvLaser : CBeam, CBaseModelEntity, CBaseEntity, CEntityInstan
 ref Vector FirePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector FirePosition { get; }
 string LaserTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string LaserTarget { get; set; }
 CSprite? Sprite { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSprite](/docs/api/shared/schemadefinitions/csprite)?
 
@@ -46,7 +46,7 @@ CSprite? Sprite { get; }
 string SpriteName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string SpriteName { get; set; }
 ref float StartFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CMsgSosStopSoundEventHash
 public interface CMsgSosStopSoundEventHash : ITypedProtobuf<CMsgSosStopSoundEventHash>, INativeHandle, INetMessage<CMsgSosStopSoundEventHash>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSosStopSoundEventHash : ITypedProtobuf<CMsgSosStopSoundEven
 uint SoundeventHash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint SoundeventHash { get; set; }
 int SourceEntityIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

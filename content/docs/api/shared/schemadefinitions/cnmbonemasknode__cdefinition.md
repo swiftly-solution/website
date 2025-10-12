@@ -6,7 +6,7 @@ title: CNmBoneMaskNode__CDefinition
 public interface CNmBoneMaskNode__CDefinition : CNmBoneMaskValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmBoneMaskValueNode__CDefinition>, ISchemaClass<CNmBoneMaskNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmBoneMaskNode__CDefinition : CNmBoneMaskValueNode__CDefinitio
 ref CGlobalSymbol BoneMaskID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

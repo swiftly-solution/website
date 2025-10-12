@@ -6,7 +6,7 @@ title: CGameText
 public interface CGameText : CRulePointEntity, CRuleEntity, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CRuleEntity>, ISchemaClass<CRulePointEntity>, ISchemaClass<CGameText>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameText : CRulePointEntity, CRuleEntity, CBaseModelEntity, CB
 string Message { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Message { get; set; }
 hudtextparms_t TextParms { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [hudtextparms_t](/docs/api/shared/schemadefinitions/hudtextparms_t)
 

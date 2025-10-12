@@ -6,7 +6,7 @@ title: CCSUsrMsg_ItemDrop
 public interface CCSUsrMsg_ItemDrop : ITypedProtobuf<CCSUsrMsg_ItemDrop>, INativeHandle, INetMessage<CCSUsrMsg_ItemDrop>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ItemDrop : ITypedProtobuf<CCSUsrMsg_ItemDrop>, INativ
 bool Death { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool Death { get; set; }
 long Itemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 

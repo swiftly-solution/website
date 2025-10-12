@@ -6,7 +6,7 @@ title: CPreMatchInfoData_TeamStats
 public interface CPreMatchInfoData_TeamStats : ITypedProtobuf<CPreMatchInfoData_TeamStats>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPreMatchInfoData_TeamStats : ITypedProtobuf<CPreMatchInfoData_
 int MatchInfoIdxtxt { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int MatchInfoIdxtxt { get; set; }
 IProtobufRepeatedFieldValueType<string> MatchInfoTeams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<string> MatchInfoTeams { get; }
 string MatchInfoTxt { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

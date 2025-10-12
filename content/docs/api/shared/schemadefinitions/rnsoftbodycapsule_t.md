@@ -6,7 +6,7 @@ title: RnSoftbodyCapsule_t
 public interface RnSoftbodyCapsule_t : ISchemaClass<RnSoftbodyCapsule_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnSoftbodyCapsule_t : ISchemaClass<RnSoftbodyCapsule_t>, ISchem
 ISchemaFixedArray<Vector> Center { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -26,7 +26,7 @@ ISchemaFixedArray<Vector> Center { get; }
 ISchemaFixedArray<ushort> Particle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<ushort> Particle { get; }
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

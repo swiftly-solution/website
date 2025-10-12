@@ -6,7 +6,7 @@ title: CMsgGCToClientSteamDatagramTicket
 public interface CMsgGCToClientSteamDatagramTicket : ITypedProtobuf<CMsgGCToClientSteamDatagramTicket>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCToClientSteamDatagramTicket : ITypedProtobuf<CMsgGCToClie
 byte[] SerializedTicket { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

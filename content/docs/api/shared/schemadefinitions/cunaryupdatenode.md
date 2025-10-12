@@ -6,7 +6,7 @@ title: CUnaryUpdateNode
 public interface CUnaryUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUnaryUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdat
 CAnimUpdateNodeRef ChildNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimUpdateNodeRef](/docs/api/shared/schemadefinitions/canimupdatenoderef)
 

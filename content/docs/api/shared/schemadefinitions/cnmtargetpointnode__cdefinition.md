@@ -6,7 +6,7 @@ title: CNmTargetPointNode__CDefinition
 public interface CNmTargetPointNode__CDefinition : CNmVectorValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmVectorValueNode__CDefinition>, ISchemaClass<CNmTargetPointNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmTargetPointNode__CDefinition : CNmVectorValueNode__CDefiniti
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short InputValueNodeIdx { get; }
 ref bool IsWorldSpaceTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

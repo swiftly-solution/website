@@ -6,7 +6,7 @@ title: FeFitWeight_t
 public interface FeFitWeight_t : ISchemaClass<FeFitWeight_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeFitWeight_t : ISchemaClass<FeFitWeight_t>, ISchemaField, ISch
 ref ushort Dummy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort Dummy { get; }
 ref ushort Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort Node { get; }
 ref float Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

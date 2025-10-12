@@ -6,7 +6,7 @@ title: CMultiplayer_Expresser
 public interface CMultiplayer_Expresser : CAI_ExpresserWithFollowup, CAI_Expresser, ISchemaClass<CAI_Expresser>, ISchemaClass<CAI_ExpresserWithFollowup>, ISchemaClass<CMultiplayer_Expresser>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMultiplayer_Expresser : CAI_ExpresserWithFollowup, CAI_Express
 ref bool AllowMultipleScenes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

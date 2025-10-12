@@ -6,7 +6,7 @@ title: EventVoteFailed
 public interface EventVoteFailed : IGameEvent<EventVoteFailed>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventVoteFailed : IGameEvent<EventVoteFailed>
 byte Team { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

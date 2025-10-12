@@ -6,7 +6,7 @@ title: CAnimDataChannelDesc
 public interface CAnimDataChannelDesc : ISchemaClass<CAnimDataChannelDesc>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimDataChannelDesc : ISchemaClass<CAnimDataChannelDesc>, ISch
 ref CBufferString ChannelClass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -26,7 +26,7 @@ ref CBufferString ChannelClass { get; }
 ref CBufferString Description { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -36,7 +36,7 @@ ref CBufferString Description { get; }
 ref CUtlVector<int> ElementIndexArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<int> ElementIndexArray { get; }
 ref CUtlVector<uint> ElementMaskArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<uint> ElementMaskArray { get; }
 ref CUtlVector<CBufferString> ElementNameArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<CBufferString> ElementNameArray { get; }
 ref int Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int Flags { get; }
 ref CBufferString Grouping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -86,7 +86,7 @@ ref CBufferString Grouping { get; }
 ref int Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int Type { get; }
 ref CBufferString VariableName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 

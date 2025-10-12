@@ -6,7 +6,7 @@ title: FollowTargetOpFixedSettings_t
 public interface FollowTargetOpFixedSettings_t : ISchemaClass<FollowTargetOpFixedSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FollowTargetOpFixedSettings_t : ISchemaClass<FollowTargetOpFixe
 ref int BoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int BoneIndex { get; }
 ref bool BoneTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool BoneTarget { get; }
 ref int BoneTargetIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int BoneTargetIndex { get; }
 ref bool MatchTargetOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool MatchTargetOrientation { get; }
 ref bool WorldCoodinateTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

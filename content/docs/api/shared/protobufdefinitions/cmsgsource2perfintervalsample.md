@@ -6,7 +6,7 @@ title: CMsgSource2PerfIntervalSample
 public interface CMsgSource2PerfIntervalSample : ITypedProtobuf<CMsgSource2PerfIntervalSample>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSource2PerfIntervalSample : ITypedProtobuf<CMsgSource2PerfI
 int FrameCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int FrameCount { get; set; }
 float FrameTimeAvgMs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float FrameTimeAvgMs { get; set; }
 float FrameTimeMaxMs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float FrameTimeMaxMs { get; set; }
 float FrameTimeMinMs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ float FrameTimeMinMs { get; set; }
 float FrameTimeTotalMs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ float FrameTimeTotalMs { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgSource2PerfIntervalSample_Tag> Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSource2PerfIntervalSample_Tag](/docs/api/shared/protobufdefinitions/cmsgsource2perfintervalsample_tag)>
 

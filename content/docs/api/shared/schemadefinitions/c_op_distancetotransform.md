@@ -6,7 +6,7 @@ title: C_OP_DistanceToTransform
 public interface C_OP_DistanceToTransform : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_DistanceToTransform>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_DistanceToTransform : CParticleFunctionOperator, CParticle
 ref bool ActiveRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ActiveRange { get; }
 ref bool Additive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Additive { get; }
 string CollisionGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string CollisionGroupName { get; set; }
 CPerParticleVecInput ComponentScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -56,7 +56,7 @@ CPerParticleVecInput ComponentScale { get; }
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -66,7 +66,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 CPerParticleFloatInput InputMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -76,7 +76,7 @@ CPerParticleFloatInput InputMax { get; }
 CPerParticleFloatInput InputMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -86,7 +86,7 @@ CPerParticleFloatInput InputMin { get; }
 ref bool LOS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool LOS { get; }
 ref float LOSScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float LOSScale { get; }
 ref float MaxTraceLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float MaxTraceLength { get; }
 CPerParticleFloatInput OutputMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -126,7 +126,7 @@ CPerParticleFloatInput OutputMax { get; }
 CPerParticleFloatInput OutputMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -136,7 +136,7 @@ CPerParticleFloatInput OutputMin { get; }
 ref ParticleSetMethod_t SetMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 
@@ -146,7 +146,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 ref ParticleTraceSet_t TraceSet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleTraceSet_t](/docs/api/shared/schemadefinitions/particletraceset_t)
 
@@ -156,7 +156,7 @@ ref ParticleTraceSet_t TraceSet { get; }
 CParticleTransformInput TransformStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 

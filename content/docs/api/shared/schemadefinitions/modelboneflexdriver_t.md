@@ -6,7 +6,7 @@ title: ModelBoneFlexDriver_t
 public interface ModelBoneFlexDriver_t : ISchemaClass<ModelBoneFlexDriver_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ModelBoneFlexDriver_t : ISchemaClass<ModelBoneFlexDriver_t>, IS
 string BoneName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string BoneName { get; set; }
 ref uint BoneNameToken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint BoneNameToken { get; }
 ref CUtlVector Controls { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

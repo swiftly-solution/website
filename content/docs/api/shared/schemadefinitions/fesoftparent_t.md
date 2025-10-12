@@ -6,7 +6,7 @@ title: FeSoftParent_t
 public interface FeSoftParent_t : ISchemaClass<FeSoftParent_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeSoftParent_t : ISchemaClass<FeSoftParent_t>, ISchemaField, IS
 ref float Alpha { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Alpha { get; }
 ref int Parent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

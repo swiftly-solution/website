@@ -6,7 +6,7 @@ title: CSOQuestProgress
 public interface CSOQuestProgress : ITypedProtobuf<CSOQuestProgress>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOQuestProgress : ITypedProtobuf<CSOQuestProgress>, INativeHan
 uint BonusPoints { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint BonusPoints { get; set; }
 uint PointsRemaining { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint PointsRemaining { get; set; }
 uint Questid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

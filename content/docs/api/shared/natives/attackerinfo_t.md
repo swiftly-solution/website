@@ -6,7 +6,7 @@ title: AttackerInfo_t
 public struct AttackerInfo_t
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct AttackerInfo_t
 public CHandle<CCSPlayerPawn> AttackerPawn
 ```
 
-#### Field Value
+- Field Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -26,7 +26,7 @@ public CHandle<CCSPlayerPawn> AttackerPawn
 public int AttackerPlayerSlot
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ public int AttackerPlayerSlot
 public bool IsPawn
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ public bool IsPawn
 public bool IsWorld
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ public bool IsWorld
 public bool NeedInit
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ public bool NeedInit
 public int Team
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ public int Team
 public int TeamChecked
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

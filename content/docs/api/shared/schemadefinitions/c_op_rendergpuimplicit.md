@@ -6,7 +6,7 @@ title: C_OP_RenderGpuImplicit
 public interface C_OP_RenderGpuImplicit : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderGpuImplicit>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderGpuImplicit : CParticleFunctionRenderer, CParticleFu
 CParticleCollectionRendererFloatInput GridSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionRendererFloatInput GridSize { get; }
 ref uint IndexCountKb { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint IndexCountKb { get; }
 CParticleCollectionRendererFloatInput IsosurfaceThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionRendererFloatInput IsosurfaceThreshold { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -56,7 +56,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 CParticleCollectionRendererFloatInput RadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionRendererFloatInput RadiusScale { get; }
 ref int ScaleCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int ScaleCP { get; }
 ref bool UsePerParticleRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool UsePerParticleRadius { get; }
 ref uint VertexCountKb { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

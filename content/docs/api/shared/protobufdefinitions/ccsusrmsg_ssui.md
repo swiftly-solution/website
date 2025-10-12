@@ -6,7 +6,7 @@ title: CCSUsrMsg_SSUI
 public interface CCSUsrMsg_SSUI : ITypedProtobuf<CCSUsrMsg_SSUI>, INativeHandle, INetMessage<CCSUsrMsg_SSUI>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SSUI : ITypedProtobuf<CCSUsrMsg_SSUI>, INativeHandle,
 float EndTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float EndTime { get; set; }
 bool Show { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool Show { get; set; }
 float StartTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

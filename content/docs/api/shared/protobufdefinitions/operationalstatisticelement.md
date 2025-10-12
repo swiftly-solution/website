@@ -6,7 +6,7 @@ title: OperationalStatisticElement
 public interface OperationalStatisticElement : ITypedProtobuf<OperationalStatisticElement>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface OperationalStatisticElement : ITypedProtobuf<OperationalStatist
 uint Idkey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Idkey { get; set; }
 IProtobufRepeatedFieldValueType<int> Values { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

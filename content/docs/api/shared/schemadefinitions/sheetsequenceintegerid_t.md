@@ -6,7 +6,7 @@ title: SheetSequenceIntegerId_t
 public interface SheetSequenceIntegerId_t : ISchemaClass<SheetSequenceIntegerId_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SheetSequenceIntegerId_t : ISchemaClass<SheetSequenceIntegerId_
 ref uint Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

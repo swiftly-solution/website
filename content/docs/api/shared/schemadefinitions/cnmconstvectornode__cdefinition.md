@@ -6,7 +6,7 @@ title: CNmConstVectorNode__CDefinition
 public interface CNmConstVectorNode__CDefinition : CNmVectorValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmVectorValueNode__CDefinition>, ISchemaClass<CNmConstVectorNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmConstVectorNode__CDefinition : CNmVectorValueNode__CDefiniti
 ref Vector Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

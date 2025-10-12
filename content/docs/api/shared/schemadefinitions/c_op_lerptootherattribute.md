@@ -6,7 +6,7 @@ title: C_OP_LerpToOtherAttribute
 public interface C_OP_LerpToOtherAttribute : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_LerpToOtherAttribute>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_LerpToOtherAttribute : CParticleFunctionOperator, CParticl
 ParticleAttributeIndex_t FieldInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t FieldInput { get; }
 ParticleAttributeIndex_t FieldInputFrom { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldInputFrom { get; }
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -46,7 +46,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 CPerParticleFloatInput Interpolation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 

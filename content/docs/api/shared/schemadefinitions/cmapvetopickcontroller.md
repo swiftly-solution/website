@@ -6,7 +6,7 @@ title: CMapVetoPickController
 public interface CMapVetoPickController : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CMapVetoPickController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMapVetoPickController : CBaseEntity, CEntityInstance, ISchemaC
 ISchemaFixedArray<int> AccountIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -26,7 +26,7 @@ ISchemaFixedArray<int> AccountIDs { get; }
 ref int CurrentPhase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int CurrentPhase { get; }
 ref double DblPreMatchDraftSequenceTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -46,7 +46,7 @@ ref double DblPreMatchDraftSequenceTime { get; }
 ref int DraftType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int DraftType { get; }
 ISchemaFixedArray<int> MapId0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -66,7 +66,7 @@ ISchemaFixedArray<int> MapId0 { get; }
 ISchemaFixedArray<int> MapId1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -76,7 +76,7 @@ ISchemaFixedArray<int> MapId1 { get; }
 ISchemaFixedArray<int> MapId2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -86,7 +86,7 @@ ISchemaFixedArray<int> MapId2 { get; }
 ISchemaFixedArray<int> MapId3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -96,7 +96,7 @@ ISchemaFixedArray<int> MapId3 { get; }
 ISchemaFixedArray<int> MapId4 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -106,7 +106,7 @@ ISchemaFixedArray<int> MapId4 { get; }
 ISchemaFixedArray<int> MapId5 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -116,7 +116,7 @@ ISchemaFixedArray<int> MapId5 { get; }
 ref bool NeedToPlayFiveSecondsRemaining { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool NeedToPlayFiveSecondsRemaining { get; }
 SchemaUntypedField OnLevelTransition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -136,7 +136,7 @@ SchemaUntypedField OnLevelTransition { get; }
 SchemaUntypedField OnMapPicked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -146,7 +146,7 @@ SchemaUntypedField OnMapPicked { get; }
 SchemaUntypedField OnMapVetoed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -156,7 +156,7 @@ SchemaUntypedField OnMapVetoed { get; }
 SchemaUntypedField OnNewPhaseStarted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -166,7 +166,7 @@ SchemaUntypedField OnNewPhaseStarted { get; }
 SchemaUntypedField OnSidesPicked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -176,7 +176,7 @@ SchemaUntypedField OnSidesPicked { get; }
 ref int PhaseDurationTicks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int PhaseDurationTicks { get; }
 ref int PhaseStartTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ ref int PhaseStartTick { get; }
 ref bool PlayedIntroVcd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool PlayedIntroVcd { get; }
 ref bool PreMatchDraftStateChanged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool PreMatchDraftStateChanged { get; }
 ISchemaFixedArray<int> StartingSide0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -226,7 +226,7 @@ ISchemaFixedArray<int> StartingSide0 { get; }
 ref int TeamWinningCoinToss { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int TeamWinningCoinToss { get; }
 ISchemaFixedArray<int> TeamWithFirstChoice { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -246,7 +246,7 @@ ISchemaFixedArray<int> TeamWithFirstChoice { get; }
 ISchemaFixedArray<int> VoteMapIdsList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

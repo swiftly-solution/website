@@ -6,7 +6,7 @@ title: NmBoneMaskSetDefinition_t
 public interface NmBoneMaskSetDefinition_t : ISchemaClass<NmBoneMaskSetDefinition_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NmBoneMaskSetDefinition_t : ISchemaClass<NmBoneMaskSetDefinitio
 ref CGlobalSymbol ID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -26,7 +26,7 @@ ref CGlobalSymbol ID { get; }
 CNmBoneWeightList PrimaryWeightList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmBoneWeightList](/docs/api/shared/schemadefinitions/cnmboneweightlist)
 
@@ -36,7 +36,7 @@ CNmBoneWeightList PrimaryWeightList { get; }
 SchemaUntypedField SecondaryWeightLists { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

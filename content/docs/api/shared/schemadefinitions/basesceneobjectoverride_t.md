@@ -6,7 +6,7 @@ title: BaseSceneObjectOverride_t
 public interface BaseSceneObjectOverride_t : ISchemaClass<BaseSceneObjectOverride_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface BaseSceneObjectOverride_t : ISchemaClass<BaseSceneObjectOverrid
 ref uint SceneObjectIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

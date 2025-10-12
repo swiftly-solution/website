@@ -6,7 +6,7 @@ title: WaterWheelFrictionScale_t
 public interface WaterWheelFrictionScale_t : ISchemaClass<WaterWheelFrictionScale_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface WaterWheelFrictionScale_t : ISchemaClass<WaterWheelFrictionScal
 ref float FractionOfWheelSubmerged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float FractionOfWheelSubmerged { get; }
 ref float FrictionScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

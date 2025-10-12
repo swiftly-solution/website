@@ -6,7 +6,7 @@ title: CSVCMsg_UserCommands
 public interface CSVCMsg_UserCommands : ITypedProtobuf<CSVCMsg_UserCommands>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_UserCommands : ITypedProtobuf<CSVCMsg_UserCommands>, IN
 IProtobufRepeatedFieldSubMessageType<CMsgServerUserCmd> Commands { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgServerUserCmd](/docs/api/shared/protobufdefinitions/cmsgserverusercmd)>
 

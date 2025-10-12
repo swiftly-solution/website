@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note
 public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note : ITypedProt
 float Distance { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float Distance { get; set; }
 int RegionId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int RegionId { get; set; }
 float RegionR { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float RegionR { get; set; }
 int Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

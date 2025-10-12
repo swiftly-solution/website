@@ -14,7 +14,7 @@ public interface IOnClientPutInServerEvent
 ClientKind Kind { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ClientKind](/docs/api/shared/events/clientkind)
 
@@ -24,7 +24,7 @@ ClientKind Kind { get; }
 int PlayerId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

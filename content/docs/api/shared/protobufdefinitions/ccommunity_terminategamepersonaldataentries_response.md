@@ -6,7 +6,7 @@ title: CCommunity_TerminateGamePersonalDataEntries_Response
 public interface CCommunity_TerminateGamePersonalDataEntries_Response : ITypedProtobuf<CCommunity_TerminateGamePersonalDataEntries_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCommunity_TerminateGamePersonalDataEntries_Response : ITypedPr
 uint Gceresult { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

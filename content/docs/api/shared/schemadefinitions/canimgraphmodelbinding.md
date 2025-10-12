@@ -6,7 +6,7 @@ title: CAnimGraphModelBinding
 public interface CAnimGraphModelBinding : ISchemaClass<CAnimGraphModelBinding>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimGraphModelBinding : ISchemaClass<CAnimGraphModelBinding>, 
 string ModelName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string ModelName { get; set; }
 SchemaUntypedField SharedData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

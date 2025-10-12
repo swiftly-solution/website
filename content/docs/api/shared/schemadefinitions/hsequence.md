@@ -6,7 +6,7 @@ title: HSequence
 public interface HSequence : ISchemaClass<HSequence>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface HSequence : ISchemaClass<HSequence>, ISchemaField, ISchemaClass
 ref int Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

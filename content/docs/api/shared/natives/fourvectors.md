@@ -6,7 +6,7 @@ title: FourVectors
 public struct FourVectors
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct FourVectors
 public fltx4 X
 ```
 
-#### Field Value
+- Field Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -26,7 +26,7 @@ public fltx4 X
 public fltx4 Y
 ```
 
-#### Field Value
+- Field Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -36,7 +36,7 @@ public fltx4 Y
 public fltx4 Z
 ```
 
-#### Field Value
+- Field Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -48,7 +48,7 @@ public fltx4 Z
 public Vector this[int index] { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -60,11 +60,11 @@ public Vector this[int index] { get; set; }
 public Vector GetVector(int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -74,7 +74,7 @@ public Vector GetVector(int index)
 public void SetVector(int index, Vector vector)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **vector**: [Vector](/docs/api/shared/natives/vector)

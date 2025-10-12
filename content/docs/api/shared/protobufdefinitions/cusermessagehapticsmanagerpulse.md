@@ -6,7 +6,7 @@ title: CUserMessageHapticsManagerPulse
 public interface CUserMessageHapticsManagerPulse : ITypedProtobuf<CUserMessageHapticsManagerPulse>, INativeHandle, INetMessage<CUserMessageHapticsManagerPulse>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageHapticsManagerPulse : ITypedProtobuf<CUserMessageHa
 float EffectAmplitude { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float EffectAmplitude { get; set; }
 float EffectDuration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float EffectDuration { get; set; }
 float EffectFrequency { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float EffectFrequency { get; set; }
 int HandId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

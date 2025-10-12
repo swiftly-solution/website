@@ -6,7 +6,7 @@ title: CUserMessageRequestDiagnostic
 public interface CUserMessageRequestDiagnostic : ITypedProtobuf<CUserMessageRequestDiagnostic>, INativeHandle, INetMessage<CUserMessageRequestDiagnostic>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageRequestDiagnostic : ITypedProtobuf<CUserMessageRequ
 IProtobufRepeatedFieldSubMessageType<CUserMessageRequestDiagnostic_Diagnostic> Diagnostics { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessageRequestDiagnostic_Diagnostic](/docs/api/shared/protobufdefinitions/cusermessagerequestdiagnostic_diagnostic)>
 

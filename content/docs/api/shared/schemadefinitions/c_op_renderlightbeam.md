@@ -6,7 +6,7 @@ title: C_OP_RenderLightBeam
 public interface C_OP_RenderLightBeam : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderLightBeam>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderLightBeam : CParticleFunctionRenderer, CParticleFunc
 CParticleCollectionFloatInput BrightnessLumensPerMeter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionFloatInput BrightnessLumensPerMeter { get; }
 ref bool CastShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool CastShadows { get; }
 CParticleCollectionVecInput ColorBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionVecInput ColorBlend { get; }
 ref ParticleColorBlendType_t ColorBlendType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
@@ -56,7 +56,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 CParticleCollectionFloatInput Range { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionFloatInput Range { get; }
 CParticleCollectionFloatInput Skirt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -76,7 +76,7 @@ CParticleCollectionFloatInput Skirt { get; }
 CParticleCollectionFloatInput Thickness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 

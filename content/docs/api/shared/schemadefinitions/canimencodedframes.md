@@ -6,7 +6,7 @@ title: CAnimEncodedFrames
 public interface CAnimEncodedFrames : ISchemaClass<CAnimEncodedFrames>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimEncodedFrames : ISchemaClass<CAnimEncodedFrames>, ISchemaF
 ref CBufferString FileName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -26,7 +26,7 @@ ref CBufferString FileName { get; }
 ref CUtlVector FrameblockArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector FrameblockArray { get; }
 ref int Frames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int Frames { get; }
 ref int FramesPerBlock { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int FramesPerBlock { get; }
 CAnimEncodeDifference UsageDifferences { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimEncodeDifference](/docs/api/shared/schemadefinitions/canimencodedifference)
 

@@ -6,7 +6,7 @@ title: C_INIT_NormalAlignToCP
 public interface C_INIT_NormalAlignToCP : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_NormalAlignToCP>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_NormalAlignToCP : CParticleFunctionInitializer, CParticl
 ref ParticleControlPointAxis_t ControlPointAxis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleControlPointAxis_t](/docs/api/shared/schemadefinitions/particlecontrolpointaxis_t)
 
@@ -26,7 +26,7 @@ ref ParticleControlPointAxis_t ControlPointAxis { get; }
 CParticleTransformInput TransformInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 

@@ -6,7 +6,7 @@ title: CBaseTrailRenderer
 public interface CBaseTrailRenderer : CBaseRendererSource2, CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<CBaseRendererSource2>, ISchemaClass<CBaseTrailRenderer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseTrailRenderer : CBaseRendererSource2, CParticleFunctionRen
 ref bool ClampV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ClampV { get; }
 CParticleCollectionRendererFloatInput EndFadeSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionRendererFloatInput EndFadeSize { get; }
 ref float MaxSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float MaxSize { get; }
 ref float MinSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MinSize { get; }
 ref int OrientationControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int OrientationControlPoint { get; }
 ref ParticleOrientationChoiceList_t OrientationType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleOrientationChoiceList_t](/docs/api/shared/schemadefinitions/particleorientationchoicelist_t)
 
@@ -76,7 +76,7 @@ ref ParticleOrientationChoiceList_t OrientationType { get; }
 CParticleCollectionRendererFloatInput StartFadeSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 

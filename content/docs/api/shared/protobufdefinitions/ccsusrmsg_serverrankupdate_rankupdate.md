@@ -6,7 +6,7 @@ title: CCSUsrMsg_ServerRankUpdate_RankUpdate
 public interface CCSUsrMsg_ServerRankUpdate_RankUpdate : ITypedProtobuf<CCSUsrMsg_ServerRankUpdate_RankUpdate>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ServerRankUpdate_RankUpdate : ITypedProtobuf<CCSUsrMs
 int AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AccountId { get; set; }
 int NumWins { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int NumWins { get; set; }
 float RankChange { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float RankChange { get; set; }
 int RankNew { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int RankNew { get; set; }
 int RankOld { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int RankOld { get; set; }
 int RankTypeId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

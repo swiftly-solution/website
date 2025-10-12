@@ -6,7 +6,7 @@ title: CClientMsg_RotateAnchor
 public interface CClientMsg_RotateAnchor : ITypedProtobuf<CClientMsg_RotateAnchor>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CClientMsg_RotateAnchor : ITypedProtobuf<CClientMsg_RotateAncho
 float Angle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

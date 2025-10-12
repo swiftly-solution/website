@@ -6,7 +6,7 @@ title: CMsgSOCacheUnsubscribed
 public interface CMsgSOCacheUnsubscribed : ITypedProtobuf<CMsgSOCacheUnsubscribed>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOCacheUnsubscribed : ITypedProtobuf<CMsgSOCacheUnsubscribe
 CMsgSOIDOwner OwnerSoid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSOIDOwner](/docs/api/shared/protobufdefinitions/cmsgsoidowner)
 

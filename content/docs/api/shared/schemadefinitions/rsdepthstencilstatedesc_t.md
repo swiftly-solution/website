@@ -6,7 +6,7 @@ title: RsDepthStencilStateDesc_t
 public interface RsDepthStencilStateDesc_t : ISchemaClass<RsDepthStencilStateDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RsDepthStencilStateDesc_t : ISchemaClass<RsDepthStencilStateDes
 ref RsComparison_t DepthFunc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RsComparison_t](/docs/api/shared/schemadefinitions/rscomparison_t)
 
@@ -26,7 +26,7 @@ ref RsComparison_t DepthFunc { get; }
 SchemaUntypedField DepthTestEnable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField DepthTestEnable { get; }
 SchemaUntypedField DepthWriteEnable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField DepthWriteEnable { get; }
 RsStencilStateDesc_t StencilState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RsStencilStateDesc_t](/docs/api/shared/schemadefinitions/rsstencilstatedesc_t)
 

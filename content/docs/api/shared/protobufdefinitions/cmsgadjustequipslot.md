@@ -6,7 +6,7 @@ title: CMsgAdjustEquipSlot
 public interface CMsgAdjustEquipSlot : ITypedProtobuf<CMsgAdjustEquipSlot>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgAdjustEquipSlot : ITypedProtobuf<CMsgAdjustEquipSlot>, INat
 uint ClassId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ClassId { get; set; }
 ulong ItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong ItemId { get; set; }
 uint SlotId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

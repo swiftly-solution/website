@@ -6,7 +6,7 @@ title: BlendItem_t
 public interface BlendItem_t : ISchemaClass<BlendItem_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface BlendItem_t : ISchemaClass<BlendItem_t>, ISchemaField, ISchemaC
 CAnimUpdateNodeRef Child { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimUpdateNodeRef](/docs/api/shared/schemadefinitions/canimupdatenoderef)
 
@@ -26,7 +26,7 @@ CAnimUpdateNodeRef Child { get; }
 ref float Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Duration { get; }
 ref Vector2D Pos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -46,7 +46,7 @@ ref Vector2D Pos { get; }
 HSequence Sequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
@@ -56,7 +56,7 @@ HSequence Sequence { get; }
 ref CUtlVector Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector Tags { get; }
 ref bool UseCustomDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CDataGCCStrike15_v2_TournamentMatchDraft_Entry
 public interface CDataGCCStrike15_v2_TournamentMatchDraft_Entry : ITypedProtobuf<CDataGCCStrike15_v2_TournamentMatchDraft_Entry>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDataGCCStrike15_v2_TournamentMatchDraft_Entry : ITypedProtobuf
 int Mapid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Mapid { get; set; }
 int TeamIdCt { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

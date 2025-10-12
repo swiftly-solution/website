@@ -6,7 +6,7 @@ title: EventHostageCallForHelp
 public interface EventHostageCallForHelp : IGameEvent<EventHostageCallForHelp>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventHostageCallForHelp : IGameEvent<EventHostageCallForHelp>
 short Hostage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

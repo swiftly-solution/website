@@ -6,7 +6,7 @@ title: CBlend2DUpdateNode
 public interface CBlend2DUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CBlend2DUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBlend2DUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpd
 ref bool AnimEventsAndTagsOnMostWeightedOnly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AnimEventsAndTagsOnMostWeightedOnly { get; }
 ref Blend2DMode BlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Blend2DMode](/docs/api/shared/schemadefinitions/blend2dmode)
 
@@ -36,7 +36,7 @@ ref Blend2DMode BlendMode { get; }
 ref AnimValueSource BlendSourceX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 
@@ -46,7 +46,7 @@ ref AnimValueSource BlendSourceX { get; }
 ref AnimValueSource BlendSourceY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 
@@ -56,7 +56,7 @@ ref AnimValueSource BlendSourceY { get; }
 CAnimInputDamping Damping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -66,7 +66,7 @@ CAnimInputDamping Damping { get; }
 ref CUtlVector Items { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector Items { get; }
 ref bool LockBlendOnReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool LockBlendOnReset { get; }
 ref bool LockWhenWaning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool LockWhenWaning { get; }
 ref bool Loop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool Loop { get; }
 ref CUtlVector<int> NodeItemIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -116,7 +116,7 @@ ref CUtlVector<int> NodeItemIndices { get; }
 CParamSpanUpdater ParamSpans { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParamSpanUpdater](/docs/api/shared/schemadefinitions/cparamspanupdater)
 
@@ -126,7 +126,7 @@ CParamSpanUpdater ParamSpans { get; }
 CAnimParamHandle ParamX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -136,7 +136,7 @@ CAnimParamHandle ParamX { get; }
 CAnimParamHandle ParamY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -146,7 +146,7 @@ CAnimParamHandle ParamY { get; }
 ref float PlaybackSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float PlaybackSpeed { get; }
 ref CUtlVector Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

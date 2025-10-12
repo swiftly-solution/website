@@ -6,7 +6,7 @@ title: CSprite
 public interface CSprite : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CSprite>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSprite : CBaseModelEntity, CBaseEntity, CEntityInstance, ISche
 ref CHandle<CBaseEntity> AttachedToEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> AttachedToEntity { get; }
 AttachmentHandle_t Attachment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AttachmentHandle_t](/docs/api/shared/schemadefinitions/attachmenthandle_t)
 
@@ -36,7 +36,7 @@ AttachmentHandle_t Attachment { get; }
 ref uint Brightness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint Brightness { get; }
 ref float BrightnessDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float BrightnessDuration { get; }
 GameTime_t BrightnessTimeStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -66,7 +66,7 @@ GameTime_t BrightnessTimeStart { get; }
 ref int DestBrightness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int DestBrightness { get; }
 ref float DestScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float DestScale { get; }
 GameTime_t DieTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -96,7 +96,7 @@ GameTime_t DieTime { get; }
 ref float Frame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float Frame { get; }
 ref float GlowProxySize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float GlowProxySize { get; }
 ref float HDRColorScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float HDRColorScale { get; }
 GameTime_t LastTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -136,7 +136,7 @@ GameTime_t LastTime { get; }
 ref float MaxFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float MaxFrame { get; }
 ref float ScaleDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float ScaleDuration { get; }
 GameTime_t ScaleTimeStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -166,7 +166,7 @@ GameTime_t ScaleTimeStart { get; }
 ref float SpriteFramerate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float SpriteFramerate { get; }
 ref int SpriteHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int SpriteHeight { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> SpriteMaterial { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -196,7 +196,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> SpriteMaterial { get; }
 ref float SpriteScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float SpriteScale { get; }
 ref int SpriteWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -216,7 +216,7 @@ ref int SpriteWidth { get; }
 ref int StartBrightness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -226,7 +226,7 @@ ref int StartBrightness { get; }
 ref float StartScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float StartScale { get; }
 ref bool WorldSpaceScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientVarValueNotificationInfo
 public interface CMsgGCCStrike15_v2_ClientVarValueNotificationInfo : ITypedProtobuf<CMsgGCCStrike15_v2_ClientVarValueNotificationInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientVarValueNotificationInfo : ITypedProto
 IProtobufRepeatedFieldValueType<string> ChokedBlocks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<string> ChokedBlocks { get; }
 uint ServerAddr { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ServerAddr { get; set; }
 uint ServerPort { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint ServerPort { get; set; }
 int ValueInt { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int ValueInt { get; set; }
 string ValueName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

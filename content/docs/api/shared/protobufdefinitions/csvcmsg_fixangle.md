@@ -6,7 +6,7 @@ title: CSVCMsg_FixAngle
 public interface CSVCMsg_FixAngle : ITypedProtobuf<CSVCMsg_FixAngle>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_FixAngle : ITypedProtobuf<CSVCMsg_FixAngle>, INativeHan
 QAngle Angle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ QAngle Angle { get; set; }
 bool Relative { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

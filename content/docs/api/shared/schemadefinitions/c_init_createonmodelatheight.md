@@ -6,7 +6,7 @@ title: C_INIT_CreateOnModelAtHeight
 public interface C_INIT_CreateOnModelAtHeight : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_CreateOnModelAtHeight>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_CreateOnModelAtHeight : CParticleFunctionInitializer, CP
 ref ParticleHitboxBiasType_t BiasType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleHitboxBiasType_t](/docs/api/shared/schemadefinitions/particlehitboxbiastype_t)
 
@@ -26,7 +26,7 @@ ref ParticleHitboxBiasType_t BiasType { get; }
 ref int ControlPointNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ControlPointNumber { get; }
 CParticleCollectionFloatInput DesiredHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionFloatInput DesiredHeight { get; }
 CParticleCollectionVecInput DirectionBias { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -56,7 +56,7 @@ CParticleCollectionVecInput DirectionBias { get; }
 ref bool ForceZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool ForceZ { get; }
 ref int HeightCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int HeightCP { get; }
 CParticleCollectionVecInput HitBoxScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -86,7 +86,7 @@ CParticleCollectionVecInput HitBoxScale { get; }
 string HitboxSetName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string HitboxSetName { get; set; }
 CParticleCollectionFloatInput HitboxVelocityScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -106,7 +106,7 @@ CParticleCollectionFloatInput HitboxVelocityScale { get; }
 ref bool LocalCoords { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool LocalCoords { get; }
 CParticleCollectionFloatInput MaxBoneVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -126,7 +126,7 @@ CParticleCollectionFloatInput MaxBoneVelocity { get; }
 ref bool PreferMovingBoxes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool PreferMovingBoxes { get; }
 ref bool UseBones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool UseBones { get; }
 ref bool UseWaterHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

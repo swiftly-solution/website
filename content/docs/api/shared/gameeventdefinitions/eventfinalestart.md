@@ -6,7 +6,7 @@ title: EventFinaleStart
 public interface EventFinaleStart : IGameEvent<EventFinaleStart>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventFinaleStart : IGameEvent<EventFinaleStart>
 short Rushes { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

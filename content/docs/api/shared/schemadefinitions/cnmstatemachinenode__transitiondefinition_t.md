@@ -6,7 +6,7 @@ title: CNmStateMachineNode__TransitionDefinition_t
 public interface CNmStateMachineNode__TransitionDefinition_t : ISchemaClass<CNmStateMachineNode__TransitionDefinition_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmStateMachineNode__TransitionDefinition_t : ISchemaClass<CNmS
 ref bool CanBeForced { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CanBeForced { get; }
 ref short ConditionNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short ConditionNodeIdx { get; }
 ref short TargetStateIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ ref short TargetStateIdx { get; }
 ref short TransitionNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

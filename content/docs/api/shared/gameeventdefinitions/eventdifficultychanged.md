@@ -6,7 +6,7 @@ title: EventDifficultyChanged
 public interface EventDifficultyChanged : IGameEvent<EventDifficultyChanged>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventDifficultyChanged : IGameEvent<EventDifficultyChanged>
 short NewDifficulty { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short NewDifficulty { get; set; }
 short OldDifficulty { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ short OldDifficulty { get; set; }
 string StrDifficulty { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

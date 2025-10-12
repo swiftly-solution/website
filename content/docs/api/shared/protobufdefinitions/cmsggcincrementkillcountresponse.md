@@ -6,7 +6,7 @@ title: CMsgGCIncrementKillCountResponse
 public interface CMsgGCIncrementKillCountResponse : ITypedProtobuf<CMsgGCIncrementKillCountResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCIncrementKillCountResponse : ITypedProtobuf<CMsgGCIncreme
 uint ItemDef { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ItemDef { get; set; }
 uint KillerAccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint KillerAccountId { get; set; }
 uint LevelType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint LevelType { get; set; }
 uint NumKills { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

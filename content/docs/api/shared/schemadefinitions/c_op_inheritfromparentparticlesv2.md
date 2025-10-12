@@ -6,7 +6,7 @@ title: C_OP_InheritFromParentParticlesV2
 public interface C_OP_InheritFromParentParticlesV2 : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_InheritFromParentParticlesV2>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_InheritFromParentParticlesV2 : CParticleFunctionOperator, 
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 CPerParticleFloatInput Increment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -36,7 +36,7 @@ CPerParticleFloatInput Increment { get; }
 CPerParticleFloatInput Interpolation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -46,7 +46,7 @@ CPerParticleFloatInput Interpolation { get; }
 ref MissingParentInheritBehavior_t MissingParentBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MissingParentInheritBehavior_t](/docs/api/shared/schemadefinitions/missingparentinheritbehavior_t)
 
@@ -56,7 +56,7 @@ ref MissingParentInheritBehavior_t MissingParentBehavior { get; }
 ref bool RandomDistribution { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool RandomDistribution { get; }
 ref bool Reverse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool Reverse { get; }
 CPerParticleFloatInput Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 

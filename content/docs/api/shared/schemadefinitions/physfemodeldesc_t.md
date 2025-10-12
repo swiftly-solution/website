@@ -6,7 +6,7 @@ title: PhysFeModelDesc_t
 public interface PhysFeModelDesc_t : ISchemaClass<PhysFeModelDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PhysFeModelDesc_t : ISchemaClass<PhysFeModelDesc_t>, ISchemaFie
 ref float AddWorldCollisionRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AddWorldCollisionRadius { get; }
 ref CUtlVector AnimStrayRadii { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector AnimStrayRadii { get; }
 ref CUtlVector<uint> AntiTunnelBytecode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<uint> AntiTunnelBytecode { get; }
 ref CUtlVector AntiTunnelProbes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector AntiTunnelProbes { get; }
 ref CUtlVector<ushort> AntiTunnelTargetNodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<ushort> AntiTunnelTargetNodes { get; }
 ref CUtlVector AxialEdges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector AxialEdges { get; }
 ref CUtlVector BoxRigids { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -86,7 +86,7 @@ ref CUtlVector BoxRigids { get; }
 ref CUtlVector CollisionPlanes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -96,7 +96,7 @@ ref CUtlVector CollisionPlanes { get; }
 ref CUtlVector<uint> CtrlHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -106,7 +106,7 @@ ref CUtlVector<uint> CtrlHash { get; }
 ref CUtlVector<CUtlString> CtrlName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -116,7 +116,7 @@ ref CUtlVector<CUtlString> CtrlName { get; }
 ref CUtlVector CtrlOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -126,7 +126,7 @@ ref CUtlVector CtrlOffsets { get; }
 ref CUtlVector CtrlOsOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -136,7 +136,7 @@ ref CUtlVector CtrlOsOffsets { get; }
 ref CUtlVector CtrlSoftOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -146,7 +146,7 @@ ref CUtlVector CtrlSoftOffsets { get; }
 ref float DefaultExpAirDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float DefaultExpAirDrag { get; }
 ref float DefaultExpQuadAirDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float DefaultExpQuadAirDrag { get; }
 ref float DefaultGravityScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float DefaultGravityScale { get; }
 ref float DefaultSurfaceStretch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float DefaultSurfaceStretch { get; }
 ref float DefaultThreadStretch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float DefaultThreadStretch { get; }
 ref float DefaultTimeDilation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float DefaultTimeDilation { get; }
 ref float DefaultVelAirDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float DefaultVelAirDrag { get; }
 ref float DefaultVelQuadAirDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -226,7 +226,7 @@ ref float DefaultVelQuadAirDrag { get; }
 ref float DefaultVolumetricSolveAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float DefaultVolumetricSolveAmount { get; }
 ref CUtlVector DynKinLinks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -246,7 +246,7 @@ ref CUtlVector DynKinLinks { get; }
 ref CUtlVector<float> DynNodeFriction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -256,7 +256,7 @@ ref CUtlVector<float> DynNodeFriction { get; }
 ref CUtlVector<byte> DynNodeVertexSet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -266,7 +266,7 @@ ref CUtlVector<byte> DynNodeVertexSet { get; }
 ref CUtlVector DynNodeWindBases { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -276,7 +276,7 @@ ref CUtlVector DynNodeWindBases { get; }
 ref uint DynamicNodeFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -286,7 +286,7 @@ ref uint DynamicNodeFlags { get; }
 ref CUtlVector Effects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -296,7 +296,7 @@ ref CUtlVector Effects { get; }
 ref byte ExtraGoalIterations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -306,7 +306,7 @@ ref byte ExtraGoalIterations { get; }
 ref byte ExtraIterations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -316,7 +316,7 @@ ref byte ExtraIterations { get; }
 ref byte ExtraPressureIterations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -326,7 +326,7 @@ ref byte ExtraPressureIterations { get; }
 ref ushort FirstPositionDrivenNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -336,7 +336,7 @@ ref ushort FirstPositionDrivenNode { get; }
 ref CUtlVector FitMatrices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -346,7 +346,7 @@ ref CUtlVector FitMatrices { get; }
 ref CUtlVector FitWeights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -356,7 +356,7 @@ ref CUtlVector FitWeights { get; }
 ref CUtlVector FollowNodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -366,7 +366,7 @@ ref CUtlVector FollowNodes { get; }
 ref CUtlVector<ushort> FreeNodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -376,7 +376,7 @@ ref CUtlVector<ushort> FreeNodes { get; }
 ref CUtlVector<uint> GoalDampedSpringIntegrators { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -386,7 +386,7 @@ ref CUtlVector<uint> GoalDampedSpringIntegrators { get; }
 ref CUtlVector HingeLimits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -396,7 +396,7 @@ ref CUtlVector HingeLimits { get; }
 ref CUtlVector<CTransform> InitPose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
@@ -406,7 +406,7 @@ ref CUtlVector<CTransform> InitPose { get; }
 ref float InternalPressure { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -416,7 +416,7 @@ ref float InternalPressure { get; }
 ref CUtlVector JiggleBones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -426,7 +426,7 @@ ref CUtlVector JiggleBones { get; }
 ref CUtlVector KelagerBends { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -436,7 +436,7 @@ ref CUtlVector KelagerBends { get; }
 ref CUtlVector<float> LegacyStretchForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -446,7 +446,7 @@ ref CUtlVector<float> LegacyStretchForce { get; }
 ref float LocalDrag1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -456,7 +456,7 @@ ref float LocalDrag1 { get; }
 ref float LocalForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -466,7 +466,7 @@ ref float LocalForce { get; }
 ref CUtlVector<float> LocalForce2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -476,7 +476,7 @@ ref CUtlVector<float> LocalForce2 { get; }
 ref float LocalRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -486,7 +486,7 @@ ref float LocalRotation { get; }
 ref CUtlVector<float> LocalRotation1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -496,7 +496,7 @@ ref CUtlVector<float> LocalRotation1 { get; }
 ref CUtlVector<ushort> LockToGoal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -506,7 +506,7 @@ ref CUtlVector<ushort> LockToGoal { get; }
 ref CUtlVector LockToParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -516,7 +516,7 @@ ref CUtlVector LockToParent { get; }
 ref CUtlVector MorphLayers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -526,7 +526,7 @@ ref CUtlVector MorphLayers { get; }
 ref CUtlVector<byte> MorphSetData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -536,7 +536,7 @@ ref CUtlVector<byte> MorphSetData { get; }
 ref float MotionSmoothCDT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -546,7 +546,7 @@ ref float MotionSmoothCDT { get; }
 ref ushort NodeBaseJiggleboneDependsCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -556,7 +556,7 @@ ref ushort NodeBaseJiggleboneDependsCount { get; }
 ref CUtlVector NodeBases { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -566,7 +566,7 @@ ref CUtlVector NodeBases { get; }
 ref CUtlVector<float> NodeCollisionRadii { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -576,7 +576,7 @@ ref CUtlVector<float> NodeCollisionRadii { get; }
 ref ushort NodeCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -586,7 +586,7 @@ ref ushort NodeCount { get; }
 ref CUtlVector NodeIntegrator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -596,7 +596,7 @@ ref CUtlVector NodeIntegrator { get; }
 ref CUtlVector<float> NodeInvMasses { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -606,7 +606,7 @@ ref CUtlVector<float> NodeInvMasses { get; }
 ref ushort QuadCount1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -616,7 +616,7 @@ ref ushort QuadCount1 { get; }
 ref ushort QuadCount2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -626,7 +626,7 @@ ref ushort QuadCount2 { get; }
 ref ushort QuadVelocitySmoothIterations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -636,7 +636,7 @@ ref ushort QuadVelocitySmoothIterations { get; }
 ref float QuadVelocitySmoothRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -646,7 +646,7 @@ ref float QuadVelocitySmoothRate { get; }
 ref CUtlVector Quads { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -656,7 +656,7 @@ ref CUtlVector Quads { get; }
 ref byte ReservedUint8 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -666,7 +666,7 @@ ref byte ReservedUint8 { get; }
 ref CUtlVector ReverseOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -676,7 +676,7 @@ ref CUtlVector ReverseOffsets { get; }
 ref CUtlVector RigidColliderPriorities { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -686,7 +686,7 @@ ref CUtlVector RigidColliderPriorities { get; }
 ref ushort RodVelocitySmoothIterations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -696,7 +696,7 @@ ref ushort RodVelocitySmoothIterations { get; }
 ref float RodVelocitySmoothRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -706,7 +706,7 @@ ref float RodVelocitySmoothRate { get; }
 ref CUtlVector Rods { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -716,7 +716,7 @@ ref CUtlVector Rods { get; }
 ref ushort RopeCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -726,7 +726,7 @@ ref ushort RopeCount { get; }
 ref CUtlVector<ushort> Ropes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -736,7 +736,7 @@ ref CUtlVector<ushort> Ropes { get; }
 ref ushort RotLockStaticNodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -746,7 +746,7 @@ ref ushort RotLockStaticNodes { get; }
 ref CUtlVector SDFRigids { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -756,7 +756,7 @@ ref CUtlVector SDFRigids { get; }
 ref CUtlVector SimdAnimStrayRadii { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -766,7 +766,7 @@ ref CUtlVector SimdAnimStrayRadii { get; }
 ref CUtlVector SimdNodeBases { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -776,7 +776,7 @@ ref CUtlVector SimdNodeBases { get; }
 ref ushort SimdQuadCount1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -786,7 +786,7 @@ ref ushort SimdQuadCount1 { get; }
 ref ushort SimdQuadCount2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -796,7 +796,7 @@ ref ushort SimdQuadCount2 { get; }
 ref CUtlVector SimdQuads { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -806,7 +806,7 @@ ref CUtlVector SimdQuads { get; }
 ref CUtlVector SimdRods { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -816,7 +816,7 @@ ref CUtlVector SimdRods { get; }
 ref CUtlVector SimdRodsAnim { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -826,7 +826,7 @@ ref CUtlVector SimdRodsAnim { get; }
 ref CUtlVector SimdSpringIntegrator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -836,7 +836,7 @@ ref CUtlVector SimdSpringIntegrator { get; }
 ref ushort SimdTriCount1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -846,7 +846,7 @@ ref ushort SimdTriCount1 { get; }
 ref ushort SimdTriCount2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -856,7 +856,7 @@ ref ushort SimdTriCount2 { get; }
 ref CUtlVector SimdTris { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -866,7 +866,7 @@ ref CUtlVector SimdTris { get; }
 ref CUtlVector<short> SkelParents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[short](https://learn.microsoft.com/dotnet/api/system.int16)>
 
@@ -876,7 +876,7 @@ ref CUtlVector<short> SkelParents { get; }
 ref CUtlVector<ushort> SourceElems { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -886,7 +886,7 @@ ref CUtlVector<ushort> SourceElems { get; }
 ref CUtlVector SphereRigids { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -896,7 +896,7 @@ ref CUtlVector SphereRigids { get; }
 ref CUtlVector SpringIntegrator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -906,7 +906,7 @@ ref CUtlVector SpringIntegrator { get; }
 ref uint StaticNodeFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -916,7 +916,7 @@ ref uint StaticNodeFlags { get; }
 ref ushort StaticNodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -926,7 +926,7 @@ ref ushort StaticNodes { get; }
 ref CUtlVector TaperedCapsuleRigids { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -936,7 +936,7 @@ ref CUtlVector TaperedCapsuleRigids { get; }
 ref CUtlVector TaperedCapsuleStretches { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -946,7 +946,7 @@ ref CUtlVector TaperedCapsuleStretches { get; }
 ref CUtlVector TreeChildren { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -956,7 +956,7 @@ ref CUtlVector TreeChildren { get; }
 ref CUtlVector<ushort> TreeCollisionMasks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -966,7 +966,7 @@ ref CUtlVector<ushort> TreeCollisionMasks { get; }
 ref ushort TreeDepth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -976,7 +976,7 @@ ref ushort TreeDepth { get; }
 ref CUtlVector<ushort> TreeParents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -986,7 +986,7 @@ ref CUtlVector<ushort> TreeParents { get; }
 ref ushort TriCount1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -996,7 +996,7 @@ ref ushort TriCount1 { get; }
 ref ushort TriCount2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -1006,7 +1006,7 @@ ref ushort TriCount2 { get; }
 ref CUtlVector Tris { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -1016,7 +1016,7 @@ ref CUtlVector Tris { get; }
 ref CUtlVector Twists { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -1026,7 +1026,7 @@ ref CUtlVector Twists { get; }
 ref CUtlVector<byte> VertexMapValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -1036,7 +1036,7 @@ ref CUtlVector<byte> VertexMapValues { get; }
 ref CUtlVector VertexMaps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -1046,7 +1046,7 @@ ref CUtlVector VertexMaps { get; }
 ref CUtlVector<uint> VertexSetNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -1056,7 +1056,7 @@ ref CUtlVector<uint> VertexSetNames { get; }
 ref float WindDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1066,7 +1066,7 @@ ref float WindDrag { get; }
 ref float Windage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1076,7 +1076,7 @@ ref float Windage { get; }
 ref CUtlVector<ushort> WorldCollisionNodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -1086,7 +1086,7 @@ ref CUtlVector<ushort> WorldCollisionNodes { get; }
 ref CUtlVector WorldCollisionParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

@@ -6,7 +6,7 @@ title: C_OP_RenderAsModels
 public interface C_OP_RenderAsModels : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderAsModels>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderAsModels : CParticleFunctionRenderer, CParticleFunct
 ref bool FitToModelSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool FitToModelSize { get; }
 ref CUtlVector ModelList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector ModelList { get; }
 ref float ModelScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float ModelScale { get; }
 ref bool NonUniformScaling { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool NonUniformScaling { get; }
 ref int SizeCullBloat { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int SizeCullBloat { get; }
 ParticleAttributeIndex_t XAxisScalingAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -76,7 +76,7 @@ ParticleAttributeIndex_t XAxisScalingAttribute { get; }
 ParticleAttributeIndex_t YAxisScalingAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -86,7 +86,7 @@ ParticleAttributeIndex_t YAxisScalingAttribute { get; }
 ParticleAttributeIndex_t ZAxisScalingAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 

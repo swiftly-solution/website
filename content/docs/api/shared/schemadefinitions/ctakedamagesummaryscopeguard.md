@@ -6,7 +6,7 @@ title: CTakeDamageSummaryScopeGuard
 public interface CTakeDamageSummaryScopeGuard : ISchemaClass<CTakeDamageSummaryScopeGuard>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTakeDamageSummaryScopeGuard : ISchemaClass<CTakeDamageSummaryS
 ref CUtlVector<PointerTo<SummaryTakeDamageInfo_t>> Summaries { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SummaryTakeDamageInfo_t](/docs/api/shared/schemadefinitions/summarytakedamageinfo_t)>>
 

@@ -6,7 +6,7 @@ title: CSosGroupActionTimeBlockLimitSchema
 public interface CSosGroupActionTimeBlockLimitSchema : CSosGroupActionSchema, ISchemaClass<CSosGroupActionSchema>, ISchemaClass<CSosGroupActionTimeBlockLimitSchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSosGroupActionTimeBlockLimitSchema : CSosGroupActionSchema, IS
 ref int MaxCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int MaxCount { get; }
 ref float MaxDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

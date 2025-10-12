@@ -6,7 +6,7 @@ title: C_OP_MovementLoopInsideSphere
 public interface C_OP_MovementLoopInsideSphere : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_MovementLoopInsideSphere>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_MovementLoopInsideSphere : CParticleFunctionOperator, CPar
 ref int CP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int CP { get; }
 ParticleAttributeIndex_t DistSqrAttr { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t DistSqrAttr { get; }
 CParticleCollectionFloatInput Distance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionFloatInput Distance { get; }
 CParticleCollectionVecInput Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 

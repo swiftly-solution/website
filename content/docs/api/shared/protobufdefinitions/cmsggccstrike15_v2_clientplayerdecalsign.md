@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientPlayerDecalSign
 public interface CMsgGCCStrike15_v2_ClientPlayerDecalSign : ITypedProtobuf<CMsgGCCStrike15_v2_ClientPlayerDecalSign>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientPlayerDecalSign : ITypedProtobuf<CMsgG
 PlayerDecalDigitalSignature Data { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PlayerDecalDigitalSignature](/docs/api/shared/protobufdefinitions/playerdecaldigitalsignature)
 
@@ -26,7 +26,7 @@ PlayerDecalDigitalSignature Data { get; }
 ulong Itemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

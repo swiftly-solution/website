@@ -6,7 +6,7 @@ title: C_OP_CollideWithParentParticles
 public interface C_OP_CollideWithParentParticles : CParticleFunctionConstraint, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionConstraint>, ISchemaClass<C_OP_CollideWithParentParticles>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_CollideWithParentParticles : CParticleFunctionConstraint, 
 CPerParticleFloatInput ParentRadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -26,7 +26,7 @@ CPerParticleFloatInput ParentRadiusScale { get; }
 CPerParticleFloatInput RadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 

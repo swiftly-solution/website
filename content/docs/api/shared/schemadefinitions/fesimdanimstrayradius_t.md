@@ -6,7 +6,7 @@ title: FeSimdAnimStrayRadius_t
 public interface FeSimdAnimStrayRadius_t : ISchemaClass<FeSimdAnimStrayRadius_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeSimdAnimStrayRadius_t : ISchemaClass<FeSimdAnimStrayRadius_t>
 ref fltx4 MaxDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -26,7 +26,7 @@ ref fltx4 MaxDist { get; }
 SchemaUntypedField Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Node { get; }
 ref fltx4 RelaxationFactor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 

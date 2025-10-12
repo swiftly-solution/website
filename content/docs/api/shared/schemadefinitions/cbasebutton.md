@@ -6,7 +6,7 @@ title: CBaseButton
 public interface CBaseButton : CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseButton>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseButton : CBaseToggle, CBaseModelEntity, CBaseEntity, CEnti
 ref CHandle<CEntityInstance> Constraint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
@@ -26,7 +26,7 @@ ref CHandle<CEntityInstance> Constraint { get; }
 ref CHandle<CEntityInstance> ConstraintParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
@@ -36,7 +36,7 @@ ref CHandle<CEntityInstance> ConstraintParent { get; }
 ref bool Disabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Disabled { get; }
 string DisplayText { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string DisplayText { get; set; }
 ref bool ForceNpcExclude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool ForceNpcExclude { get; }
 string GlowEntity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string GlowEntity { get; set; }
 ref CHandle<CBaseModelEntity> GlowEntity1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>
 
@@ -86,7 +86,7 @@ ref CHandle<CBaseModelEntity> GlowEntity1 { get; }
 ref bool Locked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool Locked { get; }
 string LockedSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string LockedSound { get; set; }
 locksound_t Ls { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [locksound_t](/docs/api/shared/schemadefinitions/locksound_t)
 
@@ -116,7 +116,7 @@ locksound_t Ls { get; }
 ref QAngle MoveEntitySpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -126,7 +126,7 @@ ref QAngle MoveEntitySpace { get; }
 CEntityIOOutput OnDamaged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -136,7 +136,7 @@ CEntityIOOutput OnDamaged { get; }
 CEntityIOOutput OnIn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -146,7 +146,7 @@ CEntityIOOutput OnIn { get; }
 CEntityIOOutput OnOut { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -156,7 +156,7 @@ CEntityIOOutput OnOut { get; }
 CEntityIOOutput OnPressed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -166,7 +166,7 @@ CEntityIOOutput OnPressed { get; }
 CEntityIOOutput OnUseLocked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -176,7 +176,7 @@ CEntityIOOutput OnUseLocked { get; }
 string OverrideAnticipationName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -186,7 +186,7 @@ string OverrideAnticipationName { get; set; }
 ref bool Rotating { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool Rotating { get; }
 ref bool SolidBsp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool SolidBsp { get; }
 ref int State { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -216,7 +216,7 @@ ref int State { get; }
 ref bool StayPushed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool StayPushed { get; }
 string UnlockedSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -236,7 +236,7 @@ string UnlockedSound { get; set; }
 ref bool Usable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -246,7 +246,7 @@ ref bool Usable { get; }
 GameTime_t UseLockedTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -256,7 +256,7 @@ GameTime_t UseLockedTime { get; }
 string UseSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

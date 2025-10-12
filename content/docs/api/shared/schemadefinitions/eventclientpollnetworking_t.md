@@ -6,7 +6,7 @@ title: EventClientPollNetworking_t
 public interface EventClientPollNetworking_t : ISchemaClass<EventClientPollNetworking_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventClientPollNetworking_t : ISchemaClass<EventClientPollNetwo
 ref int TickCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

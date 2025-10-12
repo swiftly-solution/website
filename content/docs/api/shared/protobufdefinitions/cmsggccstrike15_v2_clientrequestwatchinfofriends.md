@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientRequestWatchInfoFriends
 public interface CMsgGCCStrike15_v2_ClientRequestWatchInfoFriends : ITypedProtobuf<CMsgGCCStrike15_v2_ClientRequestWatchInfoFriends>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientRequestWatchInfoFriends : ITypedProtob
 IProtobufRepeatedFieldValueType<uint> AccountIds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<uint> AccountIds { get; }
 uint ClientLauncher { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ClientLauncher { get; set; }
 IProtobufRepeatedFieldSubMessageType<DataCenterPing> DataCenterPings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[DataCenterPing](/docs/api/shared/protobufdefinitions/datacenterping)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldSubMessageType<DataCenterPing> DataCenterPings { get; }
 ulong Matchid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ulong Matchid { get; set; }
 uint RequestId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint RequestId { get; set; }
 ulong Serverid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

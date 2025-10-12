@@ -6,7 +6,7 @@ title: WorldNodeOnDiskBufferData_t
 public interface WorldNodeOnDiskBufferData_t : ISchemaClass<WorldNodeOnDiskBufferData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface WorldNodeOnDiskBufferData_t : ISchemaClass<WorldNodeOnDiskBuffe
 ref CUtlVector<byte> Data { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<byte> Data { get; }
 ref int ElementCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ElementCount { get; }
 ref int ElementSizeInBytes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int ElementSizeInBytes { get; }
 ref CUtlVector InputLayoutFields { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

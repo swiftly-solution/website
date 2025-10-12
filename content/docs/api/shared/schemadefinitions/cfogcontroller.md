@@ -6,7 +6,7 @@ title: CFogController
 public interface CFogController : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CFogController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFogController : CBaseEntity, CEntityInstance, ISchemaClass<CEn
 ref int ChangedVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ChangedVariables { get; }
 fogparams_t Fog { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fogparams_t](/docs/api/shared/schemadefinitions/fogparams_t)
 
@@ -36,7 +36,7 @@ fogparams_t Fog { get; }
 ref bool UseAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

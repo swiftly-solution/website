@@ -6,7 +6,7 @@ title: CCSUsrMsg_SurvivalStats_Placement
 public interface CCSUsrMsg_SurvivalStats_Placement : ITypedProtobuf<CCSUsrMsg_SurvivalStats_Placement>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SurvivalStats_Placement : ITypedProtobuf<CCSUsrMsg_Su
 int Placement { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Placement { get; set; }
 int Teamnumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Teamnumber { get; set; }
 ulong Xuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

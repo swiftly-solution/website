@@ -6,7 +6,7 @@ title: EventRoundStart
 public interface EventRoundStart : IGameEvent<EventRoundStart>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventRoundStart : IGameEvent<EventRoundStart>
 int FragLimit { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int FragLimit { get; set; }
 string Objective { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Objective { get; set; }
 int TimeLimit { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

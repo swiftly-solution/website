@@ -6,7 +6,7 @@ title: CVoiceContainerSetElement
 public interface CVoiceContainerSetElement : ISchemaClass<CVoiceContainerSetElement>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerSetElement : ISchemaClass<CVoiceContainerSetElem
 CSoundContainerReference Sound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSoundContainerReference](/docs/api/shared/schemadefinitions/csoundcontainerreference)
 
@@ -26,7 +26,7 @@ CSoundContainerReference Sound { get; }
 ref float VolumeDB { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: RenderInputLayoutField_t
 public interface RenderInputLayoutField_t : ISchemaClass<RenderInputLayoutField_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RenderInputLayoutField_t : ISchemaClass<RenderInputLayoutField_
 ref short Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short Offset { get; }
 ref byte SemanticIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -36,7 +36,7 @@ ref byte SemanticIndex { get; }
 string SemanticName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string SemanticName { get; set; }
 string ShaderSemantic { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string ShaderSemantic { get; set; }
 ref byte Slot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -66,7 +66,7 @@ ref byte Slot { get; }
 ref RenderSlotType_t SlotType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RenderSlotType_t](/docs/api/shared/schemadefinitions/renderslottype_t)
 

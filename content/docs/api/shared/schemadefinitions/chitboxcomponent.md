@@ -6,7 +6,7 @@ title: CHitboxComponent
 public interface CHitboxComponent : CEntityComponent, ISchemaClass<CEntityComponent>, ISchemaClass<CHitboxComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CHitboxComponent : CEntityComponent, ISchemaClass<CEntityCompon
 ref float BoundsExpandRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

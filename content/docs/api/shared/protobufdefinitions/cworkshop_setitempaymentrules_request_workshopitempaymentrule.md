@@ -6,7 +6,7 @@ title: CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule
 public interface CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule : ITypedProtobuf<CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule :
 float RevenuePercentage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float RevenuePercentage { get; set; }
 string RuleDescription { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string RuleDescription { get; set; }
 uint RuleType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint RuleType { get; set; }
 ulong WorkshopFileId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

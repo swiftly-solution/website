@@ -6,7 +6,7 @@ title: CMsgTEDust
 public interface CMsgTEDust : ITypedProtobuf<CMsgTEDust>, INativeHandle, INetMessage<CMsgTEDust>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEDust : ITypedProtobuf<CMsgTEDust>, INativeHandle, INetMes
 Vector Direction { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ Vector Direction { get; set; }
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector Origin { get; set; }
 float Size { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float Size { get; set; }
 float Speed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

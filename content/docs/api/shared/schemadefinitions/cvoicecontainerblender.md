@@ -6,7 +6,7 @@ title: CVoiceContainerBlender
 public interface CVoiceContainerBlender : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerBlender>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerBlender : CVoiceContainerBase, ISchemaClass<CVoi
 ref float BlendFactor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BlendFactor { get; }
 CSoundContainerReference FirstSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSoundContainerReference](/docs/api/shared/schemadefinitions/csoundcontainerreference)
 
@@ -36,7 +36,7 @@ CSoundContainerReference FirstSound { get; }
 CSoundContainerReference SecondSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSoundContainerReference](/docs/api/shared/schemadefinitions/csoundcontainerreference)
 

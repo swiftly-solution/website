@@ -6,7 +6,7 @@ title: CNmChainLookatNode__CDefinition
 public interface CNmChainLookatNode__CDefinition : CNmPassthroughNode__CDefinition, CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmPassthroughNode__CDefinition>, ISchemaClass<CNmChainLookatNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmChainLookatNode__CDefinition : CNmPassthroughNode__CDefiniti
 ref float BlendTimeSeconds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BlendTimeSeconds { get; }
 ref CGlobalSymbol ChainEndBoneID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -36,7 +36,7 @@ ref CGlobalSymbol ChainEndBoneID { get; }
 ref Vector ChainForwardDir { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector ChainForwardDir { get; }
 ref byte ChainLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -56,7 +56,7 @@ ref byte ChainLength { get; }
 ref short EnabledNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -66,7 +66,7 @@ ref short EnabledNodeIdx { get; }
 ref bool IsTargetInWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool IsTargetInWorldSpace { get; }
 ref short LookatTargetNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

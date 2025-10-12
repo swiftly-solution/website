@@ -6,7 +6,7 @@ title: CBarnLight
 public interface CBarnLight : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBarnLight>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBarnLight : CBaseModelEntity, CBaseEntity, CEntityInstance, IS
 ref Vector AlternateColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector AlternateColor { get; }
 ref float AlternateColorBrightness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AlternateColorBrightness { get; }
 ref int BakeSpecularToCubemaps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int BakeSpecularToCubemaps { get; }
 ref Vector BakeSpecularToCubemapsSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector BakeSpecularToCubemapsSize { get; }
 ref int BakedShadowIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int BakedShadowIndex { get; }
 ref int BounceLight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int BounceLight { get; }
 ref float BounceScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float BounceScale { get; }
 ref float Brightness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float Brightness { get; }
 ref float BrightnessScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float BrightnessScale { get; }
 ref int CastShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int CastShadows { get; }
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -126,7 +126,7 @@ ref Color Color { get; }
 ref int ColorMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int ColorMode { get; }
 ref float ColorTemperature { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float ColorTemperature { get; }
 ref bool ContactShadow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool ContactShadow { get; }
 ref int DirectLight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ ref int DirectLight { get; }
 ref bool Enabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool Enabled { get; }
 ref float FadeSizeEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float FadeSizeEnd { get; }
 ref float FadeSizeStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float FadeSizeStart { get; }
 ref int Fog { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -206,7 +206,7 @@ ref int Fog { get; }
 ref bool FogMixedShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool FogMixedShadows { get; }
 ref float FogScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -226,7 +226,7 @@ ref float FogScale { get; }
 ref int FogShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int FogShadows { get; }
 ref float FogStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -246,7 +246,7 @@ ref float FogStrength { get; }
 ref bool ForceShadowsEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -256,7 +256,7 @@ ref bool ForceShadowsEnabled { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> LightCookie { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -266,7 +266,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> LightCookie { get; }
 ref int LightMapUniqueId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -276,7 +276,7 @@ ref int LightMapUniqueId { get; }
 ref int LightPathUniqueId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -286,7 +286,7 @@ ref int LightPathUniqueId { get; }
 ref CUtlVector<CUtlString> LightStyleEvents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -296,7 +296,7 @@ ref CUtlVector<CUtlString> LightStyleEvents { get; }
 GameTime_t LightStyleStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -306,7 +306,7 @@ GameTime_t LightStyleStartTime { get; }
 string LightStyleString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -316,7 +316,7 @@ string LightStyleString { get; set; }
 ref CUtlVector<CHandle<CBaseModelEntity>> LightStyleTargets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>>
 
@@ -326,7 +326,7 @@ ref CUtlVector<CHandle<CBaseModelEntity>> LightStyleTargets { get; }
 ref float LuminaireAnisotropy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -336,7 +336,7 @@ ref float LuminaireAnisotropy { get; }
 ref int LuminaireShape { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -346,7 +346,7 @@ ref int LuminaireShape { get; }
 ref float LuminaireSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -356,7 +356,7 @@ ref float LuminaireSize { get; }
 ref float MinRoughness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -366,7 +366,7 @@ ref float MinRoughness { get; }
 ref Vector PrecomputedBoundsMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -376,7 +376,7 @@ ref Vector PrecomputedBoundsMaxs { get; }
 ref Vector PrecomputedBoundsMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -386,7 +386,7 @@ ref Vector PrecomputedBoundsMins { get; }
 ref bool PrecomputedFieldsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -396,7 +396,7 @@ ref bool PrecomputedFieldsValid { get; }
 ref QAngle PrecomputedOBBAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -406,7 +406,7 @@ ref QAngle PrecomputedOBBAngles { get; }
 ref QAngle PrecomputedOBBAngles0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -416,7 +416,7 @@ ref QAngle PrecomputedOBBAngles0 { get; }
 ref QAngle PrecomputedOBBAngles1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -426,7 +426,7 @@ ref QAngle PrecomputedOBBAngles1 { get; }
 ref QAngle PrecomputedOBBAngles2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -436,7 +436,7 @@ ref QAngle PrecomputedOBBAngles2 { get; }
 ref QAngle PrecomputedOBBAngles3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -446,7 +446,7 @@ ref QAngle PrecomputedOBBAngles3 { get; }
 ref QAngle PrecomputedOBBAngles4 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -456,7 +456,7 @@ ref QAngle PrecomputedOBBAngles4 { get; }
 ref QAngle PrecomputedOBBAngles5 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -466,7 +466,7 @@ ref QAngle PrecomputedOBBAngles5 { get; }
 ref Vector PrecomputedOBBExtent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -476,7 +476,7 @@ ref Vector PrecomputedOBBExtent { get; }
 ref Vector PrecomputedOBBExtent0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -486,7 +486,7 @@ ref Vector PrecomputedOBBExtent0 { get; }
 ref Vector PrecomputedOBBExtent1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -496,7 +496,7 @@ ref Vector PrecomputedOBBExtent1 { get; }
 ref Vector PrecomputedOBBExtent2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -506,7 +506,7 @@ ref Vector PrecomputedOBBExtent2 { get; }
 ref Vector PrecomputedOBBExtent3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -516,7 +516,7 @@ ref Vector PrecomputedOBBExtent3 { get; }
 ref Vector PrecomputedOBBExtent4 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -526,7 +526,7 @@ ref Vector PrecomputedOBBExtent4 { get; }
 ref Vector PrecomputedOBBExtent5 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -536,7 +536,7 @@ ref Vector PrecomputedOBBExtent5 { get; }
 ref Vector PrecomputedOBBOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -546,7 +546,7 @@ ref Vector PrecomputedOBBOrigin { get; }
 ref Vector PrecomputedOBBOrigin0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -556,7 +556,7 @@ ref Vector PrecomputedOBBOrigin0 { get; }
 ref Vector PrecomputedOBBOrigin1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -566,7 +566,7 @@ ref Vector PrecomputedOBBOrigin1 { get; }
 ref Vector PrecomputedOBBOrigin2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -576,7 +576,7 @@ ref Vector PrecomputedOBBOrigin2 { get; }
 ref Vector PrecomputedOBBOrigin3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -586,7 +586,7 @@ ref Vector PrecomputedOBBOrigin3 { get; }
 ref Vector PrecomputedOBBOrigin4 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -596,7 +596,7 @@ ref Vector PrecomputedOBBOrigin4 { get; }
 ref Vector PrecomputedOBBOrigin5 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -606,7 +606,7 @@ ref Vector PrecomputedOBBOrigin5 { get; }
 ref int PrecomputedSubFrusta { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -616,7 +616,7 @@ ref int PrecomputedSubFrusta { get; }
 ref bool PvsModifyEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -626,7 +626,7 @@ ref bool PvsModifyEntity { get; }
 ref CUtlVector<CUtlString> QueuedLightStyleStrings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -636,7 +636,7 @@ ref CUtlVector<CUtlString> QueuedLightStyleStrings { get; }
 ref float Range { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -646,7 +646,7 @@ ref float Range { get; }
 ref float ShadowFadeSizeEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -656,7 +656,7 @@ ref float ShadowFadeSizeEnd { get; }
 ref float ShadowFadeSizeStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -666,7 +666,7 @@ ref float ShadowFadeSizeStart { get; }
 ref int ShadowMapSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -676,7 +676,7 @@ ref int ShadowMapSize { get; }
 ref int ShadowPriority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -686,7 +686,7 @@ ref int ShadowPriority { get; }
 ref float Shape { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -696,7 +696,7 @@ ref float Shape { get; }
 ref Vector Shear { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -706,7 +706,7 @@ ref Vector Shear { get; }
 ref Vector SizeParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -716,7 +716,7 @@ ref Vector SizeParams { get; }
 ref float Skirt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -726,7 +726,7 @@ ref float Skirt { get; }
 ref float SkirtNear { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -736,7 +736,7 @@ ref float SkirtNear { get; }
 ref float SoftX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -746,7 +746,7 @@ ref float SoftX { get; }
 ref float SoftY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -756,7 +756,7 @@ ref float SoftY { get; }
 SchemaUntypedField StyleEvent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -766,7 +766,7 @@ SchemaUntypedField StyleEvent { get; }
 ref CUtlVector<ushort> VisClusters { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 

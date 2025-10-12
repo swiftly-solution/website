@@ -6,7 +6,7 @@ title: CPlayerControllerComponent
 public interface CPlayerControllerComponent : ISchemaClass<CPlayerControllerComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPlayerControllerComponent : ISchemaClass<CPlayerControllerComp
 CBasePlayerController Controller { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBasePlayerController](/docs/api/shared/schemadefinitions/cbaseplayercontroller)
 
@@ -26,7 +26,7 @@ CBasePlayerController Controller { get; }
 ref CNetworkVarChainer __m_pChainEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkVarChainer](/docs/api/shared/natives/cnetworkvarchainer)
 

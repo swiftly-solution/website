@@ -6,7 +6,7 @@ title: C_OP_GameDecalRenderer
 public interface C_OP_GameDecalRenderer : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_GameDecalRenderer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_GameDecalRenderer : CParticleFunctionRenderer, CParticleFu
 ref ParticleCollisionGroup_t CollisionGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleCollisionGroup_t](/docs/api/shared/schemadefinitions/particlecollisiongroup_t)
 
@@ -26,7 +26,7 @@ ref ParticleCollisionGroup_t CollisionGroup { get; }
 CPerParticleFloatInput DecalGroupIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -36,7 +36,7 @@ CPerParticleFloatInput DecalGroupIndex { get; }
 ref CGlobalSymbol DecalGroupName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -46,7 +46,7 @@ ref CGlobalSymbol DecalGroupName { get; }
 CPerParticleFloatInput DecalRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -56,7 +56,7 @@ CPerParticleFloatInput DecalRotation { get; }
 CPerParticleFloatInput DecalSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -66,7 +66,7 @@ CPerParticleFloatInput DecalSize { get; }
 CPerParticleVecInput EndPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -76,7 +76,7 @@ CPerParticleVecInput EndPos { get; }
 ref EventTypeSelection_t EventType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EventTypeSelection_t](/docs/api/shared/schemadefinitions/eventtypeselection_t)
 
@@ -86,7 +86,7 @@ ref EventTypeSelection_t EventType { get; }
 ref ParticleCollisionMask_t InteractionMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleCollisionMask_t](/docs/api/shared/schemadefinitions/particlecollisionmask_t)
 
@@ -96,7 +96,7 @@ ref ParticleCollisionMask_t InteractionMask { get; }
 CPerParticleVecInput ModulationColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -106,7 +106,7 @@ CPerParticleVecInput ModulationColor { get; }
 ref bool NoDecalsOnOwner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool NoDecalsOnOwner { get; }
 ref bool RandomDecalRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool RandomDecalRotation { get; }
 ref bool RandomlySelectDecalInGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool RandomlySelectDecalInGroup { get; }
 CPerParticleVecInput StartPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -146,7 +146,7 @@ CPerParticleVecInput StartPos { get; }
 CPerParticleFloatInput TraceBloat { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -156,7 +156,7 @@ CPerParticleFloatInput TraceBloat { get; }
 ref bool UseGameDefaultDecalSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool UseGameDefaultDecalSize { get; }
 ref bool VisualizeTraces { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

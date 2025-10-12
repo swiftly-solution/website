@@ -6,7 +6,7 @@ title: SkeletonAnimCapture_t
 public interface SkeletonAnimCapture_t : ISchemaClass<SkeletonAnimCapture_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SkeletonAnimCapture_t : ISchemaClass<SkeletonAnimCapture_t>, IS
 string CaptureName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string CaptureName { get; set; }
 ref uint EntIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint EntIndex { get; }
 ref uint EntParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint EntParent { get; }
 ref CUtlVector FeModelInitPose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector FeModelInitPose { get; }
 ref int FlexControllers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int FlexControllers { get; }
 ref CUtlVector Frames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector Frames { get; }
 ref CUtlVector<uint> ImportedCollision { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -86,7 +86,7 @@ ref CUtlVector<uint> ImportedCollision { get; }
 ref CUtlVector ModelBindPose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -96,7 +96,7 @@ ref CUtlVector ModelBindPose { get; }
 string ModelName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string ModelName { get; set; }
 ref bool Predicted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

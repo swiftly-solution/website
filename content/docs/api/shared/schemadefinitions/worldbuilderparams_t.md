@@ -6,7 +6,7 @@ title: WorldBuilderParams_t
 public interface WorldBuilderParams_t : ISchemaClass<WorldBuilderParams_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface WorldBuilderParams_t : ISchemaClass<WorldBuilderParams_t>, ISch
 ref bool AggregateInstanceStreams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AggregateInstanceStreams { get; }
 BakedLightingInfo_t BakedLightingInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BakedLightingInfo_t](/docs/api/shared/schemadefinitions/bakedlightinginfo_t)
 
@@ -36,7 +36,7 @@ BakedLightingInfo_t BakedLightingInfo { get; }
 ref bool BuildBakedLighting { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool BuildBakedLighting { get; }
 ref ulong CompileFingerprint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ref ulong CompileFingerprint { get; }
 ref ulong CompileTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -66,7 +66,7 @@ ref ulong CompileTimestamp { get; }
 ref float MinDrawVolumeSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

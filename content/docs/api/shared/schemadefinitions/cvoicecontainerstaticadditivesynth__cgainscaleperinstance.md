@@ -6,7 +6,7 @@ title: CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance
 public interface CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance : ISchemaClass<CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance : ISc
 ref int InstancesAtMaxVolume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int InstancesAtMaxVolume { get; }
 ref int InstancesAtMinVolume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int InstancesAtMinVolume { get; }
 ref float MaxVolume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float MaxVolume { get; }
 ref float MinVolume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

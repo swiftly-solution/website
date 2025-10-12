@@ -6,7 +6,7 @@ title: CHintMessageQueue
 public interface CHintMessageQueue : ISchemaClass<CHintMessageQueue>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CHintMessageQueue : ISchemaClass<CHintMessageQueue>, ISchemaFie
 ref CUtlVector<PointerTo<CHintMessage>> Messages { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CHintMessage](/docs/api/shared/schemadefinitions/chintmessage)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<PointerTo<CHintMessage>> Messages { get; }
 CBasePlayerController? PlayerController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBasePlayerController](/docs/api/shared/schemadefinitions/cbaseplayercontroller)?
 
@@ -36,7 +36,7 @@ CBasePlayerController? PlayerController { get; }
 ref float TmMessageEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

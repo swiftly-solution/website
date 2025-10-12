@@ -6,7 +6,7 @@ title: CSoundAreaEntityOrientedBox
 public interface CSoundAreaEntityOrientedBox : CSoundAreaEntityBase, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSoundAreaEntityBase>, ISchemaClass<CSoundAreaEntityOrientedBox>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSoundAreaEntityOrientedBox : CSoundAreaEntityBase, CBaseEntity
 ref Vector Max { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector Max { get; }
 ref Vector Min { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

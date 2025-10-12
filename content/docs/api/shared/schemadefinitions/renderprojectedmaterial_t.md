@@ -6,7 +6,7 @@ title: RenderProjectedMaterial_t
 public interface RenderProjectedMaterial_t : ISchemaClass<RenderProjectedMaterial_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RenderProjectedMaterial_t : ISchemaClass<RenderProjectedMateria
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 

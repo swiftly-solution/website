@@ -6,7 +6,7 @@ title: C_OP_MovementRotateParticleAroundAxis
 public interface C_OP_MovementRotateParticleAroundAxis : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_MovementRotateParticleAroundAxis>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_MovementRotateParticleAroundAxis : CParticleFunctionOperat
 ref bool LocalSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool LocalSpace { get; }
 CParticleCollectionVecInput RotAxis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionVecInput RotAxis { get; }
 CParticleCollectionFloatInput RotRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionFloatInput RotRate { get; }
 CParticleTransformInput TransformInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 

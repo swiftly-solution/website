@@ -6,7 +6,7 @@ title: CSceneObjectData
 public interface CSceneObjectData : ISchemaClass<CSceneObjectData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSceneObjectData : ISchemaClass<CSceneObjectData>, ISchemaField
 SchemaUntypedField DrawBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField DrawBounds { get; }
 SchemaUntypedField DrawCalls { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField DrawCalls { get; }
 ref Vector MaxBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector MaxBounds { get; }
 SchemaUntypedField Meshlets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField Meshlets { get; }
 ref Vector MinBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector MinBounds { get; }
 ref Vector4D TintColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 

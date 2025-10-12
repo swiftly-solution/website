@@ -6,7 +6,7 @@ title: CPointClientUIWorldPanel
 public interface CPointClientUIWorldPanel : CBaseClientUIEntity, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseClientUIEntity>, ISchemaClass<CPointClientUIWorldPanel>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointClientUIWorldPanel : CBaseClientUIEntity, CBaseModelEntit
 ref bool AllowInteractionFromAllSceneWorlds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AllowInteractionFromAllSceneWorlds { get; }
 ref CUtlVector<CUtlSymbolLarge> CSSClasses { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlSymbolLarge> CSSClasses { get; }
 ref float DPI { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float DPI { get; }
 ref float DepthOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float DepthOffset { get; }
 ref bool DisableMipGen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool DisableMipGen { get; }
 ref bool ExcludeFromSaveGames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool ExcludeFromSaveGames { get; }
 ref int ExplicitImageLayout { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int ExplicitImageLayout { get; }
 ref bool FollowPlayerAcrossTeleport { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool FollowPlayerAcrossTeleport { get; }
 ref bool Grabbable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool Grabbable { get; }
 ref float Height { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float Height { get; }
 ref uint HorizontalAlign { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ ref uint HorizontalAlign { get; }
 ref bool IgnoreInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool IgnoreInput { get; }
 ref float InteractDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float InteractDistance { get; }
 ref bool Lit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool Lit { get; }
 ref bool NoDepth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool NoDepth { get; }
 ref bool OnlyRenderToTexture { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool OnlyRenderToTexture { get; }
 ref bool Opaque { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -186,7 +186,7 @@ ref bool Opaque { get; }
 ref uint Orientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -196,7 +196,7 @@ ref uint Orientation { get; }
 ref uint OwnerContext { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -206,7 +206,7 @@ ref uint OwnerContext { get; }
 ref bool RenderBackface { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool RenderBackface { get; }
 ref bool UseOffScreenIndicator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool UseOffScreenIndicator { get; }
 ref uint VerticalAlign { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -236,7 +236,7 @@ ref uint VerticalAlign { get; }
 ref bool VisibleWhenParentNoDraw { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -246,7 +246,7 @@ ref bool VisibleWhenParentNoDraw { get; }
 ref float Width { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

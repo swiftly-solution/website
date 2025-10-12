@@ -6,7 +6,7 @@ title: EventDmBonusWeaponStart
 public interface EventDmBonusWeaponStart : IGameEvent<EventDmBonusWeaponStart>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventDmBonusWeaponStart : IGameEvent<EventDmBonusWeaponStart>
 short Pos { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short Pos { get; set; }
 short Time { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

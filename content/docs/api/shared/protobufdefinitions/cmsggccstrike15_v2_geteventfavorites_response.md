@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GetEventFavorites_Response
 public interface CMsgGCCStrike15_v2_GetEventFavorites_Response : ITypedProtobuf<CMsgGCCStrike15_v2_GetEventFavorites_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GetEventFavorites_Response : ITypedProtobuf<
 bool AllEvents { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool AllEvents { get; set; }
 string JsonFavorites { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string JsonFavorites { get; set; }
 string JsonFeatured { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

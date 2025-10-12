@@ -6,7 +6,7 @@ title: CDemoSpawnGroups
 public interface CDemoSpawnGroups : ITypedProtobuf<CDemoSpawnGroups>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoSpawnGroups : ITypedProtobuf<CDemoSpawnGroups>, INativeHan
 IProtobufRepeatedFieldValueType<byte[]> Msgs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 

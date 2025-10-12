@@ -6,7 +6,7 @@ title: PulseObservableBoolExpression_t
 public interface PulseObservableBoolExpression_t : ISchemaClass<PulseObservableBoolExpression_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseObservableBoolExpression_t : ISchemaClass<PulseObservableB
 ref CUtlVector DependentObservableBlackboardReferences { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector DependentObservableBlackboardReferences { get; }
 ref CUtlVector DependentObservableVars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector DependentObservableVars { get; }
 CPulse_OutflowConnection EvaluateConnection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 

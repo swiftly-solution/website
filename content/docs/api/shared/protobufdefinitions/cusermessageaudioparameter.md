@@ -6,7 +6,7 @@ title: CUserMessageAudioParameter
 public interface CUserMessageAudioParameter : ITypedProtobuf<CUserMessageAudioParameter>, INativeHandle, INetMessage<CUserMessageAudioParameter>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageAudioParameter : ITypedProtobuf<CUserMessageAudioPa
 uint IntValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint IntValue { get; set; }
 uint NameHashCode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint NameHashCode { get; set; }
 uint ParameterType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint ParameterType { get; set; }
 float Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

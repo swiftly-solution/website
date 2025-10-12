@@ -6,7 +6,7 @@ title: CCSUsrMsg_ItemPickup
 public interface CCSUsrMsg_ItemPickup : ITypedProtobuf<CCSUsrMsg_ItemPickup>, INativeHandle, INetMessage<CCSUsrMsg_ItemPickup>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ItemPickup : ITypedProtobuf<CCSUsrMsg_ItemPickup>, IN
 string Item { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

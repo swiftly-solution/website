@@ -6,7 +6,7 @@ title: CChoiceUpdateNode
 public interface CChoiceUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CChoiceUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CChoiceUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpda
 ref ChoiceBlendMethod BlendMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ChoiceBlendMethod](/docs/api/shared/schemadefinitions/choiceblendmethod)
 
@@ -26,7 +26,7 @@ ref ChoiceBlendMethod BlendMethod { get; }
 ref float BlendTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float BlendTime { get; }
 ref CUtlVector<float> BlendTimes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<float> BlendTimes { get; }
 ref CUtlVector Children { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector Children { get; }
 ref ChoiceChangeMethod ChoiceChangeMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ChoiceChangeMethod](/docs/api/shared/schemadefinitions/choicechangemethod)
 
@@ -66,7 +66,7 @@ ref ChoiceChangeMethod ChoiceChangeMethod { get; }
 ref ChoiceMethod ChoiceMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ChoiceMethod](/docs/api/shared/schemadefinitions/choicemethod)
 
@@ -76,7 +76,7 @@ ref ChoiceMethod ChoiceMethod { get; }
 ref bool CrossFade { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool CrossFade { get; }
 ref bool DontResetSameSelection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool DontResetSameSelection { get; }
 ref bool ResetChosen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool ResetChosen { get; }
 ref CUtlVector<float> Weights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

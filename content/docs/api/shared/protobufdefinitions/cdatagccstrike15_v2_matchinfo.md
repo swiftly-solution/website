@@ -6,7 +6,7 @@ title: CDataGCCStrike15_v2_MatchInfo
 public interface CDataGCCStrike15_v2_MatchInfo : ITypedProtobuf<CDataGCCStrike15_v2_MatchInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDataGCCStrike15_v2_MatchInfo : ITypedProtobuf<CDataGCCStrike15
 ulong Matchid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Matchid { get; set; }
 uint Matchtime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Matchtime { get; set; }
 CMsgGCCStrike15_v2_MatchmakingServerRoundStats RoundstatsLegacy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_v2_MatchmakingServerRoundStats](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakingserverroundstats)
 
@@ -46,7 +46,7 @@ CMsgGCCStrike15_v2_MatchmakingServerRoundStats RoundstatsLegacy { get; }
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_MatchmakingServerRoundStats> Roundstatsall { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_MatchmakingServerRoundStats](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakingserverroundstats)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_MatchmakingServerRoundSt
 WatchableMatchInfo Watchablematchinfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [WatchableMatchInfo](/docs/api/shared/protobufdefinitions/watchablematchinfo)
 

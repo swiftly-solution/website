@@ -6,7 +6,7 @@ title: CRenderComponent
 public interface CRenderComponent : CEntityComponent, ISchemaClass<CEntityComponent>, ISchemaClass<CRenderComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRenderComponent : CEntityComponent, ISchemaClass<CEntityCompon
 ref bool EnableRendering { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool EnableRendering { get; }
 ref bool InterpolationReadyToDraw { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool InterpolationReadyToDraw { get; }
 ref bool IsRenderingWithViewModels { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IsRenderingWithViewModels { get; }
 ref uint SplitscreenFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ ref uint SplitscreenFlags { get; }
 ref CNetworkVarChainer __m_pChainEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkVarChainer](/docs/api/shared/natives/cnetworkvarchainer)
 

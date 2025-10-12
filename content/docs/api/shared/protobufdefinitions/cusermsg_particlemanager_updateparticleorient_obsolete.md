@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE
 public interface CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE : ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE : ITyped
 int ControlPoint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ControlPoint { get; set; }
 Vector DeprecatedRight { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector DeprecatedRight { get; set; }
 Vector Forward { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ Vector Forward { get; set; }
 Vector Left { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ Vector Left { get; set; }
 Vector Up { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

@@ -6,7 +6,7 @@ title: FeSphereRigid_t
 public interface FeSphereRigid_t : ISchemaClass<FeSphereRigid_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeSphereRigid_t : ISchemaClass<FeSphereRigid_t>, ISchemaField, 
 ref ushort CollisionMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort CollisionMask { get; }
 ref ushort Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort Flags { get; }
 ref ushort Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort Node { get; }
 ref fltx4 Sphere { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -56,7 +56,7 @@ ref fltx4 Sphere { get; }
 ref ushort VertexMapIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

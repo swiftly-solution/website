@@ -6,7 +6,7 @@ title: CCSWeaponBase
 public interface CCSWeaponBase : CBasePlayerWeapon, CEconEntity, CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CEconEntity>, ISchemaClass<CBasePlayerWeapon>, ISchemaClass<CCSWeaponBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSWeaponBase : CBasePlayerWeapon, CEconEntity, CBaseFlex, CBas
 ref float AccuracyPenalty { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AccuracyPenalty { get; }
 ref float AccuracySmoothedForZoom { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AccuracySmoothedForZoom { get; }
 ref bool BurstMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool BurstMode { get; }
 ref bool CanBePickedUp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool CanBePickedUp { get; }
 ref bool Donated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool Donated { get; }
 GameTick_t DropTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
@@ -76,7 +76,7 @@ GameTick_t DropTick { get; }
 GameTime_t DroppedAtTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -86,7 +86,7 @@ GameTime_t DroppedAtTime { get; }
 ref bool DroppedNearBuyZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool DroppedNearBuyZone { get; }
 ref bool FireOnEmpty { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool FireOnEmpty { get; }
 ref bool InReload { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool InReload { get; }
 GameTime_t InspectCancelCompleteTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -126,7 +126,7 @@ GameTime_t InspectCancelCompleteTime { get; }
 ref bool InspectPending { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool InspectPending { get; }
 ref bool InspectShouldLoop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool InspectShouldLoop { get; }
 CIronSightController IronSightController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CIronSightController](/docs/api/shared/schemadefinitions/cironsightcontroller)
 
@@ -156,7 +156,7 @@ CIronSightController IronSightController { get; }
 ref int IronSightMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ ref int IronSightMode { get; }
 ref bool IsHauledBack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool IsHauledBack { get; }
 GameTime_t LastAccuracyUpdateTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -186,7 +186,7 @@ GameTime_t LastAccuracyUpdateTime { get; }
 ref int LastEmptySoundCmdNum { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ ref int LastEmptySoundCmdNum { get; }
 GameTime_t LastLOSTraceFailureTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -206,7 +206,7 @@ GameTime_t LastLOSTraceFailureTime { get; }
 GameTime_t LastShakeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -216,7 +216,7 @@ GameTime_t LastShakeTime { get; }
 GameTime_t LastShotTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -226,7 +226,7 @@ GameTime_t LastShotTime { get; }
 ref int MostRecentTeamNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int MostRecentTeamNumber { get; }
 ref float NextAttackRenderTimeOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -246,7 +246,7 @@ ref float NextAttackRenderTimeOffset { get; }
 GameTime_t NextOwnerTouchTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -256,7 +256,7 @@ GameTime_t NextOwnerTouchTime { get; }
 GameTime_t NextPrevOwnerTouchTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -266,7 +266,7 @@ GameTime_t NextPrevOwnerTouchTime { get; }
 GameTime_t NextPrevOwnerUseTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -276,7 +276,7 @@ GameTime_t NextPrevOwnerUseTime { get; }
 ref int NumRemoveUnownedWeaponThink { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -286,7 +286,7 @@ ref int NumRemoveUnownedWeaponThink { get; }
 CEntityIOOutput OnPlayerPickup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -296,7 +296,7 @@ CEntityIOOutput OnPlayerPickup { get; }
 ref int OriginalTeamNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -306,7 +306,7 @@ ref int OriginalTeamNumber { get; }
 ref bool PlayerAmmoStockOnPickup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -316,7 +316,7 @@ ref bool PlayerAmmoStockOnPickup { get; }
 ref float PostponeFireReadyFrac { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -326,7 +326,7 @@ ref float PostponeFireReadyFrac { get; }
 GameTick_t PostponeFireReadyTicks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
@@ -336,7 +336,7 @@ GameTick_t PostponeFireReadyTicks { get; }
 ref CHandle<CCSPlayerPawn> PrevOwner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -346,7 +346,7 @@ ref CHandle<CCSPlayerPawn> PrevOwner { get; }
 ref int RecoilIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -356,7 +356,7 @@ ref int RecoilIndex { get; }
 ref float RecoilIndex1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -366,7 +366,7 @@ ref float RecoilIndex1 { get; }
 ref bool Removeable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,7 +376,7 @@ ref bool Removeable { get; }
 ref bool RequireUseToTouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -386,7 +386,7 @@ ref bool RequireUseToTouch { get; }
 ref bool SilencerOn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -396,7 +396,7 @@ ref bool SilencerOn { get; }
 GameTime_t TimeSilencerSwitchComplete { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -406,7 +406,7 @@ GameTime_t TimeSilencerSwitchComplete { get; }
 ref float TurningInaccuracy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -416,7 +416,7 @@ ref float TurningInaccuracy { get; }
 ref float TurningInaccuracyDelta { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -426,7 +426,7 @@ ref float TurningInaccuracyDelta { get; }
 ref Vector TurningInaccuracyEyeDirLast { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -436,7 +436,7 @@ ref Vector TurningInaccuracyEyeDirLast { get; }
 ref bool UseCanOverrideNextOwnerTouchTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -446,7 +446,7 @@ ref bool UseCanOverrideNextOwnerTouchTime { get; }
 ref bool WasActiveWeaponWhenDropped { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -456,7 +456,7 @@ ref bool WasActiveWeaponWhenDropped { get; }
 ref bool WasOwnedByCT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -466,7 +466,7 @@ ref bool WasOwnedByCT { get; }
 ref bool WasOwnedByTerrorist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -476,7 +476,7 @@ ref bool WasOwnedByTerrorist { get; }
 ref float WatTickOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -486,7 +486,7 @@ ref float WatTickOffset { get; }
 CCSWeaponBaseVData WeaponBaseVData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSWeaponBaseVData](/docs/api/shared/schemadefinitions/ccsweaponbasevdata)
 
@@ -496,7 +496,7 @@ CCSWeaponBaseVData WeaponBaseVData { get; }
 ref WeaponGameplayAnimState WeaponGameplayAnimState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [WeaponGameplayAnimState](/docs/api/shared/schemadefinitions/weapongameplayanimstate)
 
@@ -506,7 +506,7 @@ ref WeaponGameplayAnimState WeaponGameplayAnimState { get; }
 GameTime_t WeaponGameplayAnimStateTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -516,7 +516,7 @@ GameTime_t WeaponGameplayAnimStateTimestamp { get; }
 ref CSWeaponMode WeaponMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSWeaponMode](/docs/api/shared/schemadefinitions/csweaponmode)
 

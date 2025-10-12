@@ -6,7 +6,7 @@ title: CBidirMsg_PredictionEvent
 public interface CBidirMsg_PredictionEvent : ITypedProtobuf<CBidirMsg_PredictionEvent>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBidirMsg_PredictionEvent : ITypedProtobuf<CBidirMsg_Prediction
 byte[] EventData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] EventData { get; set; }
 uint EventId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint EventId { get; set; }
 uint SyncType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint SyncType { get; set; }
 uint SyncValUint32 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

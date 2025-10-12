@@ -6,7 +6,7 @@ title: CNmRootMotionEvent
 public interface CNmRootMotionEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmRootMotionEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmRootMotionEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaC
 ref float BlendTimeSeconds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

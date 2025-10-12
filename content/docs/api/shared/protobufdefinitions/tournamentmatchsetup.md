@@ -6,7 +6,7 @@ title: TournamentMatchSetup
 public interface TournamentMatchSetup : ITypedProtobuf<TournamentMatchSetup>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface TournamentMatchSetup : ITypedProtobuf<TournamentMatchSetup>, IN
 int EventId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int EventId { get; set; }
 int EventStageId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int EventStageId { get; set; }
 int TeamIdCt { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int TeamIdCt { get; set; }
 int TeamIdT { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

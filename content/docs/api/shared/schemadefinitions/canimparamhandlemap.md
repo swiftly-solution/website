@@ -6,7 +6,7 @@ title: CAnimParamHandleMap
 public interface CAnimParamHandleMap : ISchemaClass<CAnimParamHandleMap>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimParamHandleMap : ISchemaClass<CAnimParamHandleMap>, ISchem
 SchemaUntypedField List { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

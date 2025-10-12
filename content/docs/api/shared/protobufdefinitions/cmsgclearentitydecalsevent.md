@@ -6,7 +6,7 @@ title: CMsgClearEntityDecalsEvent
 public interface CMsgClearEntityDecalsEvent : ITypedProtobuf<CMsgClearEntityDecalsEvent>, INativeHandle, INetMessage<CMsgClearEntityDecalsEvent>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgClearEntityDecalsEvent : ITypedProtobuf<CMsgClearEntityDeca
 uint Flagstoclear { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

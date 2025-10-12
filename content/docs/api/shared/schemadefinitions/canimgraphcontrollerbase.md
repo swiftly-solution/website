@@ -6,7 +6,7 @@ title: CAnimGraphControllerBase
 public interface CAnimGraphControllerBase : ISchemaClass<CAnimGraphControllerBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimGraphControllerBase : ISchemaClass<CAnimGraphControllerBas
 SchemaUntypedField ParamsToResetInPostGraphUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

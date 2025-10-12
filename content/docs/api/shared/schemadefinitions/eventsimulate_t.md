@@ -6,7 +6,7 @@ title: EventSimulate_t
 public interface EventSimulate_t : ISchemaClass<EventSimulate_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventSimulate_t : ISchemaClass<EventSimulate_t>, ISchemaField, 
 ref bool FirstTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool FirstTick { get; }
 ref bool LastTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool LastTick { get; }
 EngineLoopState_t LoopState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 

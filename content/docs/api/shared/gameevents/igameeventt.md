@@ -6,7 +6,7 @@ title: IGameEvent<T>
 public interface IGameEvent<T> where T : IGameEvent<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -18,7 +18,7 @@ public interface IGameEvent<T> where T : IGameEvent<T>
 IGameEventAccessor Accessor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IGameEventAccessor](/docs/api/shared/gameevents/igameeventaccessor)
 
@@ -28,7 +28,7 @@ IGameEventAccessor Accessor { get; }
 bool DontBroadcast { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

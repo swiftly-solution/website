@@ -6,7 +6,7 @@ title: FeVertexMapBuild_t
 public interface FeVertexMapBuild_t : ISchemaClass<FeVertexMapBuild_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeVertexMapBuild_t : ISchemaClass<FeVertexMapBuild_t>, ISchemaF
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -26,7 +26,7 @@ ref Color Color { get; }
 ref uint NameHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint NameHash { get; }
 ref int ScaleSourceNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int ScaleSourceNode { get; }
 string VertexMapName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string VertexMapName { get; set; }
 ref float VolumetricSolveStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float VolumetricSolveStrength { get; }
 ref CUtlVector<float> Weights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

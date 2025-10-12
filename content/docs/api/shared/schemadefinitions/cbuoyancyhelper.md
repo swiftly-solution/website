@@ -6,7 +6,7 @@ title: CBuoyancyHelper
 public interface CBuoyancyHelper : ISchemaClass<CBuoyancyHelper>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBuoyancyHelper : ISchemaClass<CBuoyancyHelper>, ISchemaField, 
 ref float FluidDensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float FluidDensity { get; }
 ref CUtlStringToken FluidType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -36,7 +36,7 @@ ref CUtlStringToken FluidType { get; }
 ref CUtlVector<float> FractionOfWheelSubmergedForWheelDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<float> FractionOfWheelSubmergedForWheelDrag { get; }
 ref CUtlVector<float> FractionOfWheelSubmergedForWheelFriction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<float> FractionOfWheelSubmergedForWheelFriction { get; }
 ref bool NeutrallyBuoyant { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool NeutrallyBuoyant { get; }
 ref float NeutrallyBuoyantAngularDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float NeutrallyBuoyantAngularDamping { get; }
 ref float NeutrallyBuoyantGravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float NeutrallyBuoyantGravity { get; }
 ref float NeutrallyBuoyantLinearDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float NeutrallyBuoyantLinearDamping { get; }
 ref CUtlVector<float> WheelDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -106,7 +106,7 @@ ref CUtlVector<float> WheelDrag { get; }
 ref CUtlVector<float> WheelFrictionScales { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

@@ -6,7 +6,7 @@ title: CCLCMsg_VoiceData
 public interface CCLCMsg_VoiceData : ITypedProtobuf<CCLCMsg_VoiceData>, INativeHandle, INetMessage<CCLCMsg_VoiceData>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_VoiceData : ITypedProtobuf<CCLCMsg_VoiceData>, INativeH
 CMsgVoiceAudio Audio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgVoiceAudio](/docs/api/shared/protobufdefinitions/cmsgvoiceaudio)
 
@@ -26,7 +26,7 @@ CMsgVoiceAudio Audio { get; }
 uint Tick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Tick { get; set; }
 ulong Xuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_DestroyParticleInvolving
 public interface CUserMsg_ParticleManager_DestroyParticleInvolving : ITypedProtobuf<CUserMsg_ParticleManager_DestroyParticleInvolving>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_DestroyParticleInvolving : ITypedProto
 bool DestroyImmediately { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool DestroyImmediately { get; set; }
 uint EntityHandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

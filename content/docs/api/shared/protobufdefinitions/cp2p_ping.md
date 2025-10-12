@@ -6,7 +6,7 @@ title: CP2P_Ping
 public interface CP2P_Ping : ITypedProtobuf<CP2P_Ping>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CP2P_Ping : ITypedProtobuf<CP2P_Ping>, INativeHandle
 bool IsReply { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool IsReply { get; set; }
 ulong SendTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

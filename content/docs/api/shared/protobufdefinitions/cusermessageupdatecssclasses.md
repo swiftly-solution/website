@@ -6,7 +6,7 @@ title: CUserMessageUpdateCssClasses
 public interface CUserMessageUpdateCssClasses : ITypedProtobuf<CUserMessageUpdateCssClasses>, INativeHandle, INetMessage<CUserMessageUpdateCssClasses>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageUpdateCssClasses : ITypedProtobuf<CUserMessageUpdat
 string CssClasses { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string CssClasses { get; set; }
 bool IsAdd { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool IsAdd { get; set; }
 int TargetWorldPanel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

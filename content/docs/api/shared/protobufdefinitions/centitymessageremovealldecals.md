@@ -6,7 +6,7 @@ title: CEntityMessageRemoveAllDecals
 public interface CEntityMessageRemoveAllDecals : ITypedProtobuf<CEntityMessageRemoveAllDecals>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityMessageRemoveAllDecals : ITypedProtobuf<CEntityMessageRe
 CEntityMsg EntityMsg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityMsg](/docs/api/shared/protobufdefinitions/centitymsg)
 
@@ -26,7 +26,7 @@ CEntityMsg EntityMsg { get; }
 bool RemoveDecals { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

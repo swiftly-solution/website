@@ -6,7 +6,7 @@ title: ParamSpan_t
 public interface ParamSpan_t : ISchemaClass<ParamSpan_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParamSpan_t : ISchemaClass<ParamSpan_t>, ISchemaField, ISchemaC
 ref float EndCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float EndCycle { get; }
 CAnimParamHandle Param { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -36,7 +36,7 @@ CAnimParamHandle Param { get; }
 ref AnimParamType_t ParamType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimParamType_t](/docs/api/shared/schemadefinitions/animparamtype_t)
 
@@ -46,7 +46,7 @@ ref AnimParamType_t ParamType { get; }
 ref CUtlVector Samples { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector Samples { get; }
 ref float StartCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

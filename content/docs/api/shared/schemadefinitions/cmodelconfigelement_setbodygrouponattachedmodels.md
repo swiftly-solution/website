@@ -6,7 +6,7 @@ title: CModelConfigElement_SetBodygroupOnAttachedModels
 public interface CModelConfigElement_SetBodygroupOnAttachedModels : CModelConfigElement, ISchemaClass<CModelConfigElement>, ISchemaClass<CModelConfigElement_SetBodygroupOnAttachedModels>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfigElement_SetBodygroupOnAttachedModels : CModelConfig
 ref int Choice { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Choice { get; }
 string GroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

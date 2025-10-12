@@ -6,7 +6,7 @@ title: C_INIT_VelocityRandom
 public interface C_INIT_VelocityRandom : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_VelocityRandom>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_VelocityRandom : CParticleFunctionInitializer, CParticle
 ref int ControlPointNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ControlPointNumber { get; }
 ref bool IgnoreDT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool IgnoreDT { get; }
 CPerParticleVecInput LocalCoordinateSystemSpeedMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -46,7 +46,7 @@ CPerParticleVecInput LocalCoordinateSystemSpeedMax { get; }
 CPerParticleVecInput LocalCoordinateSystemSpeedMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -56,7 +56,7 @@ CPerParticleVecInput LocalCoordinateSystemSpeedMin { get; }
 CRandomNumberGeneratorParameters RandomnessParameters { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRandomNumberGeneratorParameters](/docs/api/shared/schemadefinitions/crandomnumbergeneratorparameters)
 
@@ -66,7 +66,7 @@ CRandomNumberGeneratorParameters RandomnessParameters { get; }
 CPerParticleFloatInput SpeedMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -76,7 +76,7 @@ CPerParticleFloatInput SpeedMax { get; }
 CPerParticleFloatInput SpeedMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 

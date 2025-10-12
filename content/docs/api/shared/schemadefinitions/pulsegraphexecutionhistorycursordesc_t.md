@@ -6,7 +6,7 @@ title: PulseGraphExecutionHistoryCursorDesc_t
 public interface PulseGraphExecutionHistoryCursorDesc_t : ISchemaClass<PulseGraphExecutionHistoryCursorDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseGraphExecutionHistoryCursorDesc_t : ISchemaClass<PulseGrap
 ref CUtlVector AncestorCursorIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector AncestorCursorIDs { get; }
 ref float LastReferenced { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float LastReferenced { get; }
 ref int LastValidEntryIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int LastValidEntryIdx { get; }
 PulseDocNodeID_t RetiredAtNodeID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
@@ -56,7 +56,7 @@ PulseDocNodeID_t RetiredAtNodeID { get; }
 PulseDocNodeID_t SpawnNodeID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 

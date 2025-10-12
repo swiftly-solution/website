@@ -6,7 +6,7 @@ title: C_OP_AlphaDecay
 public interface C_OP_AlphaDecay : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_AlphaDecay>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_AlphaDecay : CParticleFunctionOperator, CParticleFunction,
 ref float MinAlpha { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

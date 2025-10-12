@@ -6,7 +6,7 @@ title: CFishPool
 public interface CFishPool : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CFishPool>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFishPool : CBaseEntity, CEntityInstance, ISchemaClass<CEntityI
 ref int FishCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int FishCount { get; }
 ref CUtlVector<CHandle<CFish>> Fishes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CFish](/docs/api/shared/schemadefinitions/cfish)>>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CHandle<CFish>> Fishes { get; }
 ref bool IsDormant { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IsDormant { get; }
 ref float MaxRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MaxRange { get; }
 ref float SwimDepth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float SwimDepth { get; }
 CountdownTimer VisTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -76,7 +76,7 @@ CountdownTimer VisTimer { get; }
 ref float WaterLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

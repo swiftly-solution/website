@@ -6,7 +6,7 @@ title: CAnimationGraphVisualizerText
 public interface CAnimationGraphVisualizerText : CAnimationGraphVisualizerPrimitiveBase, ISchemaClass<CAnimationGraphVisualizerPrimitiveBase>, ISchemaClass<CAnimationGraphVisualizerText>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimationGraphVisualizerText : CAnimationGraphVisualizerPrimit
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -26,7 +26,7 @@ ref Color Color { get; }
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Text { get; set; }
 ref Vector WsPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

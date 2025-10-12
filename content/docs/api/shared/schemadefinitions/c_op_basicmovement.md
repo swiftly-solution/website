@@ -6,7 +6,7 @@ title: C_OP_BasicMovement
 public interface C_OP_BasicMovement : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_BasicMovement>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_BasicMovement : CParticleFunctionOperator, CParticleFuncti
 CParticleCollectionFloatInput Drag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionFloatInput Drag { get; }
 CParticleCollectionVecInput Gravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionVecInput Gravity { get; }
 CParticleMassCalculationParameters MassControls { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleMassCalculationParameters](/docs/api/shared/schemadefinitions/cparticlemasscalculationparameters)
 
@@ -46,7 +46,7 @@ CParticleMassCalculationParameters MassControls { get; }
 ref int MaxConstraintPasses { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int MaxConstraintPasses { get; }
 ref bool UseNewCode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: IProtobufAccessor
 public interface IProtobufAccessor : INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Methods
 
@@ -16,12 +16,12 @@ public interface IProtobufAccessor : INativeHandle
 void Add<T>(string fieldName, T value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: T
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -31,7 +31,7 @@ void Add<T>(string fieldName, T value)
 void AddBool(string fieldName, bool value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
@@ -42,7 +42,7 @@ void AddBool(string fieldName, bool value)
 void AddBytes(string fieldName, byte[] value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
@@ -53,7 +53,7 @@ void AddBytes(string fieldName, byte[] value)
 void AddColor(string fieldName, Color value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [Color](/docs/api/shared/natives/color)
@@ -64,7 +64,7 @@ void AddColor(string fieldName, Color value)
 void AddDouble(string fieldName, double value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [double](https://learn.microsoft.com/dotnet/api/system.double)
@@ -75,7 +75,7 @@ void AddDouble(string fieldName, double value)
 void AddFloat(string fieldName, float value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -86,7 +86,7 @@ void AddFloat(string fieldName, float value)
 void AddInt32(string fieldName, int value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -97,7 +97,7 @@ void AddInt32(string fieldName, int value)
 void AddInt64(string fieldName, long value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [long](https://learn.microsoft.com/dotnet/api/system.int64)
@@ -108,11 +108,11 @@ void AddInt64(string fieldName, long value)
 nint AddNestedMessage(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -122,7 +122,7 @@ nint AddNestedMessage(string fieldName)
 void AddQAngle(string fieldName, QAngle value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [QAngle](/docs/api/shared/natives/qangle)
@@ -133,7 +133,7 @@ void AddQAngle(string fieldName, QAngle value)
 void AddString(string fieldName, string value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [string](https://learn.microsoft.com/dotnet/api/system.string)
@@ -144,7 +144,7 @@ void AddString(string fieldName, string value)
 void AddUInt32(string fieldName, uint value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
@@ -155,7 +155,7 @@ void AddUInt32(string fieldName, uint value)
 void AddUInt64(string fieldName, ulong value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
@@ -166,7 +166,7 @@ void AddUInt64(string fieldName, ulong value)
 void AddVector(string fieldName, Vector value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [Vector](/docs/api/shared/natives/vector)
@@ -177,7 +177,7 @@ void AddVector(string fieldName, Vector value)
 void AddVector2D(string fieldName, Vector2D value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [Vector2D](/docs/api/shared/natives/vector2d)
@@ -188,7 +188,7 @@ void AddVector2D(string fieldName, Vector2D value)
 void ClearRepeatedField(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -198,15 +198,15 @@ void ClearRepeatedField(string fieldName)
 T Get<T>(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - T
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -216,11 +216,11 @@ T Get<T>(string fieldName)
 bool GetBool(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -230,11 +230,11 @@ bool GetBool(string fieldName)
 byte[] GetBytes(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -244,11 +244,11 @@ byte[] GetBytes(string fieldName)
 Color GetColor(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -258,11 +258,11 @@ Color GetColor(string fieldName)
 double GetDouble(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -272,11 +272,11 @@ double GetDouble(string fieldName)
 float GetFloat(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -286,11 +286,11 @@ float GetFloat(string fieldName)
 int GetInt32(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -300,11 +300,11 @@ int GetInt32(string fieldName)
 long GetInt64(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
@@ -314,11 +314,11 @@ long GetInt64(string fieldName)
 nint GetNestedMessage(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -328,11 +328,11 @@ nint GetNestedMessage(string fieldName)
 QAngle GetQAngle(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -342,16 +342,16 @@ QAngle GetQAngle(string fieldName)
 T GetRepeated<T>(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - T
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -361,12 +361,12 @@ T GetRepeated<T>(string fieldName, int index)
 bool GetRepeatedBool(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,12 +376,12 @@ bool GetRepeatedBool(string fieldName, int index)
 byte[] GetRepeatedBytes(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -391,12 +391,12 @@ byte[] GetRepeatedBytes(string fieldName, int index)
 Color GetRepeatedColor(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -406,12 +406,12 @@ Color GetRepeatedColor(string fieldName, int index)
 double GetRepeatedDouble(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -421,11 +421,11 @@ double GetRepeatedDouble(string fieldName, int index)
 int GetRepeatedFieldSize(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -435,12 +435,12 @@ int GetRepeatedFieldSize(string fieldName)
 float GetRepeatedFloat(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -450,12 +450,12 @@ float GetRepeatedFloat(string fieldName, int index)
 int GetRepeatedInt32(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -465,12 +465,12 @@ int GetRepeatedInt32(string fieldName, int index)
 long GetRepeatedInt64(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
@@ -480,12 +480,12 @@ long GetRepeatedInt64(string fieldName, int index)
 nint GetRepeatedNestedMessage(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -495,12 +495,12 @@ nint GetRepeatedNestedMessage(string fieldName, int index)
 QAngle GetRepeatedQAngle(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -510,12 +510,12 @@ QAngle GetRepeatedQAngle(string fieldName, int index)
 string GetRepeatedString(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -525,12 +525,12 @@ string GetRepeatedString(string fieldName, int index)
 uint GetRepeatedUInt32(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -540,12 +540,12 @@ uint GetRepeatedUInt32(string fieldName, int index)
 ulong GetRepeatedUInt64(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -555,12 +555,12 @@ ulong GetRepeatedUInt64(string fieldName, int index)
 Vector GetRepeatedVector(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -570,12 +570,12 @@ Vector GetRepeatedVector(string fieldName, int index)
 Vector2D GetRepeatedVector2D(string fieldName, int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -585,11 +585,11 @@ Vector2D GetRepeatedVector2D(string fieldName, int index)
 string GetString(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -599,11 +599,11 @@ string GetString(string fieldName)
 uint GetUInt32(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -613,11 +613,11 @@ uint GetUInt32(string fieldName)
 ulong GetUInt64(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -627,11 +627,11 @@ ulong GetUInt64(string fieldName)
 Vector GetVector(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -641,11 +641,11 @@ Vector GetVector(string fieldName)
 Vector2D GetVector2D(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -655,11 +655,11 @@ Vector2D GetVector2D(string fieldName)
 bool HasField(string fieldName)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -669,12 +669,12 @@ bool HasField(string fieldName)
 void Set<T>(string fieldName, T value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: T
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -684,7 +684,7 @@ void Set<T>(string fieldName, T value)
 void SetBool(string fieldName, bool value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
@@ -695,7 +695,7 @@ void SetBool(string fieldName, bool value)
 void SetBytes(string fieldName, byte[] value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
@@ -706,7 +706,7 @@ void SetBytes(string fieldName, byte[] value)
 void SetColor(string fieldName, Color value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [Color](/docs/api/shared/natives/color)
@@ -717,7 +717,7 @@ void SetColor(string fieldName, Color value)
 void SetDouble(string fieldName, double value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [double](https://learn.microsoft.com/dotnet/api/system.double)
@@ -728,7 +728,7 @@ void SetDouble(string fieldName, double value)
 void SetFloat(string fieldName, float value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -739,7 +739,7 @@ void SetFloat(string fieldName, float value)
 void SetInt32(string fieldName, int value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -750,7 +750,7 @@ void SetInt32(string fieldName, int value)
 void SetInt64(string fieldName, long value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [long](https://learn.microsoft.com/dotnet/api/system.int64)
@@ -761,7 +761,7 @@ void SetInt64(string fieldName, long value)
 void SetQAngle(string fieldName, QAngle value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [QAngle](/docs/api/shared/natives/qangle)
@@ -772,13 +772,13 @@ void SetQAngle(string fieldName, QAngle value)
 void SetRepeated<T>(string fieldName, int index, T value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **value**: T
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -788,7 +788,7 @@ void SetRepeated<T>(string fieldName, int index, T value)
 void SetRepeatedBool(string fieldName, int index, bool value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -800,7 +800,7 @@ void SetRepeatedBool(string fieldName, int index, bool value)
 void SetRepeatedBytes(string fieldName, int index, byte[] value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -812,7 +812,7 @@ void SetRepeatedBytes(string fieldName, int index, byte[] value)
 void SetRepeatedColor(string fieldName, int index, Color value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -824,7 +824,7 @@ void SetRepeatedColor(string fieldName, int index, Color value)
 void SetRepeatedDouble(string fieldName, int index, double value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -836,7 +836,7 @@ void SetRepeatedDouble(string fieldName, int index, double value)
 void SetRepeatedFloat(string fieldName, int index, float value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -848,7 +848,7 @@ void SetRepeatedFloat(string fieldName, int index, float value)
 void SetRepeatedInt32(string fieldName, int index, int value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -860,7 +860,7 @@ void SetRepeatedInt32(string fieldName, int index, int value)
 void SetRepeatedInt64(string fieldName, int index, long value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -872,7 +872,7 @@ void SetRepeatedInt64(string fieldName, int index, long value)
 void SetRepeatedQAngle(string fieldName, int index, QAngle value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -884,7 +884,7 @@ void SetRepeatedQAngle(string fieldName, int index, QAngle value)
 void SetRepeatedString(string fieldName, int index, string value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -896,7 +896,7 @@ void SetRepeatedString(string fieldName, int index, string value)
 void SetRepeatedUInt32(string fieldName, int index, uint value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -908,7 +908,7 @@ void SetRepeatedUInt32(string fieldName, int index, uint value)
 void SetRepeatedUInt64(string fieldName, int index, ulong value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -920,7 +920,7 @@ void SetRepeatedUInt64(string fieldName, int index, ulong value)
 void SetRepeatedVector(string fieldName, int index, Vector value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -932,7 +932,7 @@ void SetRepeatedVector(string fieldName, int index, Vector value)
 void SetRepeatedVector2D(string fieldName, int index, Vector2D value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -944,7 +944,7 @@ void SetRepeatedVector2D(string fieldName, int index, Vector2D value)
 void SetString(string fieldName, string value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [string](https://learn.microsoft.com/dotnet/api/system.string)
@@ -955,7 +955,7 @@ void SetString(string fieldName, string value)
 void SetUInt32(string fieldName, uint value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
@@ -966,7 +966,7 @@ void SetUInt32(string fieldName, uint value)
 void SetUInt64(string fieldName, ulong value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
@@ -977,7 +977,7 @@ void SetUInt64(string fieldName, ulong value)
 void SetVector(string fieldName, Vector value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [Vector](/docs/api/shared/natives/vector)
@@ -988,7 +988,7 @@ void SetVector(string fieldName, Vector value)
 void SetVector2D(string fieldName, Vector2D value)
 ```
 
-#### Parameters
+- Parameters
 
 - **fieldName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [Vector2D](/docs/api/shared/natives/vector2d)

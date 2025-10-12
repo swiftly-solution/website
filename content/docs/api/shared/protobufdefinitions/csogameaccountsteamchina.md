@@ -6,7 +6,7 @@ title: CSOGameAccountSteamChina
 public interface CSOGameAccountSteamChina : ITypedProtobuf<CSOGameAccountSteamChina>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOGameAccountSteamChina : ITypedProtobuf<CSOGameAccountSteamCh
 uint TimeCommsBan { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint TimeCommsBan { get; set; }
 uint TimeLastUpdate { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint TimeLastUpdate { get; set; }
 uint TimePlayBan { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CDampedValueComponentUpdater
 public interface CDampedValueComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CDampedValueComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDampedValueComponentUpdater : CAnimComponentUpdater, ISchemaCl
 ref CUtlVector Items { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

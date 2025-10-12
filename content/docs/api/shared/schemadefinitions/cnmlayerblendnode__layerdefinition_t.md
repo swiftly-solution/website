@@ -6,7 +6,7 @@ title: CNmLayerBlendNode__LayerDefinition_t
 public interface CNmLayerBlendNode__LayerDefinition_t : ISchemaClass<CNmLayerBlendNode__LayerDefinition_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmLayerBlendNode__LayerDefinition_t : ISchemaClass<CNmLayerBle
 ref NmPoseBlendMode_t BlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmPoseBlendMode_t](/docs/api/shared/schemadefinitions/nmposeblendmode_t)
 
@@ -26,7 +26,7 @@ ref NmPoseBlendMode_t BlendMode { get; }
 ref short BoneMaskValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short BoneMaskValueNodeIdx { get; }
 ref bool IgnoreEvents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IgnoreEvents { get; }
 ref short InputNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ ref short InputNodeIdx { get; }
 ref bool IsStateMachineLayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IsStateMachineLayer { get; }
 ref bool IsSynchronized { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool IsSynchronized { get; }
 ref short RootMotionWeightValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -86,7 +86,7 @@ ref short RootMotionWeightValueNodeIdx { get; }
 ref short WeightValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

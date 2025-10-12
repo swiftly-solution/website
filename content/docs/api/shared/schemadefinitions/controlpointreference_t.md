@@ -6,7 +6,7 @@ title: ControlPointReference_t
 public interface ControlPointReference_t : ISchemaClass<ControlPointReference_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ControlPointReference_t : ISchemaClass<ControlPointReference_t>
 ref int ControlPointNameString { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ControlPointNameString { get; }
 ref Vector OffsetFromControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector OffsetFromControlPoint { get; }
 ref bool OffsetInLocalSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

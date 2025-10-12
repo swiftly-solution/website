@@ -6,7 +6,7 @@ title: CPlayer_ObserverServices
 public interface CPlayer_ObserverServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_ObserverServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPlayer_ObserverServices : CPlayerPawnComponent, ISchemaClass<C
 ref bool ForcedObserverMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ForcedObserverMode { get; }
 ref ObserverMode_t ObserverLastMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ObserverMode_t](/docs/api/shared/schemadefinitions/observermode_t)
 
@@ -36,7 +36,7 @@ ref ObserverMode_t ObserverLastMode { get; }
 ref byte ObserverMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -46,7 +46,7 @@ ref byte ObserverMode { get; }
 ref CHandle<CBaseEntity> ObserverTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

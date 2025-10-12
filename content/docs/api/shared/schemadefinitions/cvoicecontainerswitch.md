@@ -6,7 +6,7 @@ title: CVoiceContainerSwitch
 public interface CVoiceContainerSwitch : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerSwitch>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerSwitch : CVoiceContainerBase, ISchemaClass<CVoic
 ref CUtlVector SoundsToPlay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

@@ -6,7 +6,7 @@ title: EventDelegates.OnEntityTakeDamage
 public delegate void EventDelegates.OnEntityTakeDamage(IOnEntityTakeDamageEvent @event)
 ```
 
-#### Parameters
+- Parameters
 
 - **event**: [IOnEntityTakeDamageEvent](/docs/api/shared/events/ionentitytakedamageevent)
 

@@ -6,7 +6,7 @@ title: CAnimUpdateNodeRef
 public interface CAnimUpdateNodeRef : ISchemaClass<CAnimUpdateNodeRef>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimUpdateNodeRef : ISchemaClass<CAnimUpdateNodeRef>, ISchemaF
 ref int NodeIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

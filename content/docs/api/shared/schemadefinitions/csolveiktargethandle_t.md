@@ -6,7 +6,7 @@ title: CSolveIKTargetHandle_t
 public interface CSolveIKTargetHandle_t : ISchemaClass<CSolveIKTargetHandle_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSolveIKTargetHandle_t : ISchemaClass<CSolveIKTargetHandle_t>, 
 CAnimParamHandle OrientationHandle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -26,7 +26,7 @@ CAnimParamHandle OrientationHandle { get; }
 CAnimParamHandle PositionHandle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 

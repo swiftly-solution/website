@@ -6,7 +6,7 @@ title: EventGamePhaseChanged
 public interface EventGamePhaseChanged : IGameEvent<EventGamePhaseChanged>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventGamePhaseChanged : IGameEvent<EventGamePhaseChanged>
 short NewPhase { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

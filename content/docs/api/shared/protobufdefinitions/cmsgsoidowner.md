@@ -6,7 +6,7 @@ title: CMsgSOIDOwner
 public interface CMsgSOIDOwner : ITypedProtobuf<CMsgSOIDOwner>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOIDOwner : ITypedProtobuf<CMsgSOIDOwner>, INativeHandle
 ulong Id { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Id { get; set; }
 uint Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

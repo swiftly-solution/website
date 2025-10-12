@@ -6,7 +6,7 @@ title: CNmTimeConditionNode__CDefinition
 public interface CNmTimeConditionNode__CDefinition : CNmBoolValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmBoolValueNode__CDefinition>, ISchemaClass<CNmTimeConditionNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmTimeConditionNode__CDefinition : CNmBoolValueNode__CDefiniti
 ref float Comparand { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Comparand { get; }
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short InputValueNodeIdx { get; }
 ref CNmTimeConditionNode__Operator_t Operator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmTimeConditionNode__Operator_t](/docs/api/shared/schemadefinitions/cnmtimeconditionnode__operator_t)
 
@@ -46,7 +46,7 @@ ref CNmTimeConditionNode__Operator_t Operator { get; }
 ref short SourceStateNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ ref short SourceStateNodeIdx { get; }
 ref CNmTimeConditionNode__ComparisonType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmTimeConditionNode__ComparisonType_t](/docs/api/shared/schemadefinitions/cnmtimeconditionnode__comparisontype_t)
 

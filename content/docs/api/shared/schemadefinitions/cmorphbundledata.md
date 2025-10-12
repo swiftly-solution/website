@@ -6,7 +6,7 @@ title: CMorphBundleData
 public interface CMorphBundleData : ISchemaClass<CMorphBundleData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMorphBundleData : ISchemaClass<CMorphBundleData>, ISchemaField
 ref CUtlVector<float> Offsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<float> Offsets { get; }
 ref CUtlVector<float> Ranges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<float> Ranges { get; }
 ref float ULeftSrc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float ULeftSrc { get; }
 ref float VTopSrc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

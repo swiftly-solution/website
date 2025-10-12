@@ -6,7 +6,7 @@ title: CFuseProgram
 public interface CFuseProgram : ISchemaClass<CFuseProgram>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFuseProgram : ISchemaClass<CFuseProgram>, ISchemaField, ISchem
 ref int MaxTempVarsUsed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int MaxTempVarsUsed { get; }
 ref CUtlVector<byte> ProgramBuffer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<byte> ProgramBuffer { get; }
 ref CUtlVector VariablesRead { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector VariablesRead { get; }
 ref CUtlVector VariablesWritten { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

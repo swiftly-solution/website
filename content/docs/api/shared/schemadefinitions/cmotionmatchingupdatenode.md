@@ -6,7 +6,7 @@ title: CMotionMatchingUpdateNode
 public interface CMotionMatchingUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CLeafUpdateNode>, ISchemaClass<CMotionMatchingUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionMatchingUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBas
 CBlendCurve BlendCurve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBlendCurve](/docs/api/shared/schemadefinitions/cblendcurve)
 
@@ -26,7 +26,7 @@ CBlendCurve BlendCurve { get; }
 ref float BlendTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float BlendTime { get; }
 CMotionDataSet DataSet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMotionDataSet](/docs/api/shared/schemadefinitions/cmotiondataset)
 
@@ -46,7 +46,7 @@ CMotionDataSet DataSet { get; }
 CAnimInputDamping DistanceScale_Damping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -56,7 +56,7 @@ CAnimInputDamping DistanceScale_Damping { get; }
 ref float DistanceScale_InnerRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float DistanceScale_InnerRadius { get; }
 ref float DistanceScale_MaxScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float DistanceScale_MaxScale { get; }
 ref float DistanceScale_MinScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float DistanceScale_MinScale { get; }
 ref float DistanceScale_OuterRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float DistanceScale_OuterRadius { get; }
 ref bool EnableDistanceScaling { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool EnableDistanceScaling { get; }
 ref bool EnableRotationCorrection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool EnableRotationCorrection { get; }
 ref bool GoalAssist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool GoalAssist { get; }
 ref float GoalAssistDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float GoalAssistDistance { get; }
 ref float GoalAssistTolerance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float GoalAssistTolerance { get; }
 ref bool LockClipWhenWaning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool LockClipWhenWaning { get; }
 ref CUtlVector Metrics { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -166,7 +166,7 @@ ref CUtlVector Metrics { get; }
 ref float ReselectionTimeWindow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float ReselectionTimeWindow { get; }
 ref float SampleRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float SampleRate { get; }
 ref bool SearchEveryTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool SearchEveryTick { get; }
 ref float SearchInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float SearchInterval { get; }
 ref bool SearchWhenClipEnds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool SearchWhenClipEnds { get; }
 ref bool SearchWhenGoalChanges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool SearchWhenGoalChanges { get; }
 ref float SelectionThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float SelectionThreshold { get; }
 ref CUtlVector<float> Weights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

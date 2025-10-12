@@ -6,7 +6,7 @@ title: C_INIT_SetHitboxToClosest
 public interface C_INIT_SetHitboxToClosest : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_SetHitboxToClosest>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_SetHitboxToClosest : CParticleFunctionInitializer, CPart
 ref int ControlPointNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ControlPointNumber { get; }
 ref int DesiredHitbox { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int DesiredHitbox { get; }
 CParticleCollectionVecInput HitBoxScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionVecInput HitBoxScale { get; }
 string HitboxSetName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string HitboxSetName { get; set; }
 CParticleCollectionFloatInput HybridRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionFloatInput HybridRatio { get; }
 ref ClosestPointTestType_t TestType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ClosestPointTestType_t](/docs/api/shared/schemadefinitions/closestpointtesttype_t)
 
@@ -76,7 +76,7 @@ ref ClosestPointTestType_t TestType { get; }
 ref bool UpdatePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool UpdatePosition { get; }
 ref bool UseBones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool UseBones { get; }
 ref bool UseClosestPointOnHitbox { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

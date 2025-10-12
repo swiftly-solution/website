@@ -6,7 +6,7 @@ title: VMixAutoFilterDesc_t
 public interface VMixAutoFilterDesc_t : ISchemaClass<VMixAutoFilterDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixAutoFilterDesc_t : ISchemaClass<VMixAutoFilterDesc_t>, ISch
 ref float AttackTimeMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AttackTimeMS { get; }
 ref float EnvelopeAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float EnvelopeAmount { get; }
 VMixFilterDesc_t Filter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixFilterDesc_t](/docs/api/shared/schemadefinitions/vmixfilterdesc_t)
 
@@ -46,7 +46,7 @@ VMixFilterDesc_t Filter { get; }
 ref float LFOAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float LFOAmount { get; }
 ref float LFORate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float LFORate { get; }
 ref VMixLFOShape_t LFOShape { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixLFOShape_t](/docs/api/shared/schemadefinitions/vmixlfoshape_t)
 
@@ -76,7 +76,7 @@ ref VMixLFOShape_t LFOShape { get; }
 ref float Phase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float Phase { get; }
 ref float ReleaseTimeMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

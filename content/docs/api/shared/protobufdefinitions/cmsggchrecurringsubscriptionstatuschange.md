@@ -6,7 +6,7 @@ title: CMsgGCHRecurringSubscriptionStatusChange
 public interface CMsgGCHRecurringSubscriptionStatusChange : ITypedProtobuf<CMsgGCHRecurringSubscriptionStatusChange>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCHRecurringSubscriptionStatusChange : ITypedProtobuf<CMsgG
 bool Active { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool Active { get; set; }
 ulong Agreementid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong Agreementid { get; set; }
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Appid { get; set; }
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

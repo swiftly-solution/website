@@ -6,7 +6,7 @@ title: CUserMessageRequestDiagnostic_Diagnostic
 public interface CUserMessageRequestDiagnostic_Diagnostic : ITypedProtobuf<CUserMessageRequestDiagnostic_Diagnostic>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageRequestDiagnostic_Diagnostic : ITypedProtobuf<CUser
 string Alias { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Alias { get; set; }
 long Base { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
@@ -36,7 +36,7 @@ long Base { get; set; }
 int Context { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Context { get; set; }
 long Detail { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
@@ -56,7 +56,7 @@ long Detail { get; set; }
 long Extent { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
@@ -66,7 +66,7 @@ long Extent { get; set; }
 int Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int Index { get; set; }
 int Length { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ int Length { get; set; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string Name { get; set; }
 long Offset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
@@ -106,7 +106,7 @@ long Offset { get; set; }
 int Param { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ int Param { get; set; }
 long Range { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
@@ -126,7 +126,7 @@ long Range { get; set; }
 int Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ int Type { get; set; }
 byte[] Vardetail { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

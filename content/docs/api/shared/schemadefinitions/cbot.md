@@ -6,7 +6,7 @@ title: CBot
 public interface CBot : ISchemaClass<CBot>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBot : ISchemaClass<CBot>, ISchemaField, ISchemaClass, INativeH
 ref ulong ButtonFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ref ulong ButtonFlags { get; }
 CCSPlayerController? Controller { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)?
 
@@ -36,7 +36,7 @@ CCSPlayerController? Controller { get; }
 ref float ForwardSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float ForwardSpeed { get; }
 ref bool HasSpawned { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool HasSpawned { get; }
 ref uint Id { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ ref uint Id { get; }
 ref bool IsCrouching { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool IsCrouching { get; }
 ref bool IsRunning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool IsRunning { get; }
 ref float JumpTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float JumpTimestamp { get; }
 ref float LeftSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float LeftSpeed { get; }
 CCSPlayerPawn? Player { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)?
 
@@ -116,7 +116,7 @@ CCSPlayerPawn? Player { get; }
 ref int PostureStackIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int PostureStackIndex { get; }
 ref float VerticalSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float VerticalSpeed { get; }
 ref Vector ViewForward { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

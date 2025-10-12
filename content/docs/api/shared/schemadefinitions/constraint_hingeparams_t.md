@@ -6,7 +6,7 @@ title: constraint_hingeparams_t
 public interface constraint_hingeparams_t : ISchemaClass<constraint_hingeparams_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface constraint_hingeparams_t : ISchemaClass<constraint_hingeparams_
 constraint_breakableparams_t Constraint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [constraint_breakableparams_t](/docs/api/shared/schemadefinitions/constraint_breakableparams_t)
 
@@ -26,7 +26,7 @@ constraint_breakableparams_t Constraint { get; }
 constraint_axislimit_t HingeAxis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [constraint_axislimit_t](/docs/api/shared/schemadefinitions/constraint_axislimit_t)
 
@@ -36,7 +36,7 @@ constraint_axislimit_t HingeAxis { get; }
 ref Vector WorldAxisDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector WorldAxisDirection { get; }
 ref Vector WorldPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

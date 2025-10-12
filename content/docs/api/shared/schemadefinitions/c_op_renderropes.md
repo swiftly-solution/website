@@ -6,7 +6,7 @@ title: C_OP_RenderRopes
 public interface C_OP_RenderRopes : CBaseRendererSource2, CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<CBaseRendererSource2>, ISchemaClass<C_OP_RenderRopes>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderRopes : CBaseRendererSource2, CParticleFunctionRende
 ref bool ClampV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ClampV { get; }
 ref bool ClosedLoop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ClosedLoop { get; }
 ref bool DrawAsOpaque { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool DrawAsOpaque { get; }
 ref bool EnableFadingAndClamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool EnableFadingAndClamping { get; }
 ref float EndFadeDot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float EndFadeDot { get; }
 ref float EndFadeSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float EndFadeSize { get; }
 ref bool GenerateNormals { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool GenerateNormals { get; }
 ref float MaxSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float MaxSize { get; }
 ref int MaxTesselation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int MaxTesselation { get; }
 ref float MinSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float MinSize { get; }
 ref int MinTesselation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int MinTesselation { get; }
 ref ParticleOrientationChoiceList_t OrientationType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleOrientationChoiceList_t](/docs/api/shared/schemadefinitions/particleorientationchoicelist_t)
 
@@ -136,7 +136,7 @@ ref ParticleOrientationChoiceList_t OrientationType { get; }
 ref float RadiusTaper { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float RadiusTaper { get; }
 ref bool ReverseOrder { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool ReverseOrder { get; }
 ref float ScalarAttributeTextureCoordScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float ScalarAttributeTextureCoordScale { get; }
 ParticleAttributeIndex_t ScalarFieldForTextureCoordinate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -176,7 +176,7 @@ ParticleAttributeIndex_t ScalarFieldForTextureCoordinate { get; }
 ref int ScaleCP1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int ScaleCP1 { get; }
 ref int ScaleCP2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ ref int ScaleCP2 { get; }
 ref float ScaleVOffsetByControlPointDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float ScaleVOffsetByControlPointDistance { get; }
 ref float ScaleVScrollByControlPointDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float ScaleVScrollByControlPointDistance { get; }
 ref float ScaleVSizeByControlPointDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -226,7 +226,7 @@ ref float ScaleVSizeByControlPointDistance { get; }
 ref bool SortBySegmentID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -236,7 +236,7 @@ ref bool SortBySegmentID { get; }
 ParticleAttributeIndex_t SplitField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -246,7 +246,7 @@ ParticleAttributeIndex_t SplitField { get; }
 ref float StartFadeDot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -256,7 +256,7 @@ ref float StartFadeDot { get; }
 ref float StartFadeSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -266,7 +266,7 @@ ref float StartFadeSize { get; }
 ref float TessScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -276,7 +276,7 @@ ref float TessScale { get; }
 CParticleCollectionRendererFloatInput TextureVOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -286,7 +286,7 @@ CParticleCollectionRendererFloatInput TextureVOffset { get; }
 ref int TextureVParamsCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -296,7 +296,7 @@ ref int TextureVParamsCP { get; }
 CParticleCollectionRendererFloatInput TextureVScrollRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -306,7 +306,7 @@ CParticleCollectionRendererFloatInput TextureVScrollRate { get; }
 CParticleCollectionRendererFloatInput TextureVWorldSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -316,7 +316,7 @@ CParticleCollectionRendererFloatInput TextureVWorldSize { get; }
 ref bool UseScalarForTextureCoordinate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -326,7 +326,7 @@ ref bool UseScalarForTextureCoordinate { get; }
 ParticleAttributeIndex_t VectorFieldForOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 

@@ -6,7 +6,7 @@ title: C_OP_SetControlPointToCenter
 public interface C_OP_SetControlPointToCenter : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_SetControlPointToCenter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_SetControlPointToCenter : CParticleFunctionPreEmission, CP
 ref int CP1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int CP1 { get; }
 ref Vector CP1Pos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector CP1Pos { get; }
 ref ParticleParentSetMode_t SetParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleParentSetMode_t](/docs/api/shared/schemadefinitions/particleparentsetmode_t)
 
@@ -46,7 +46,7 @@ ref ParticleParentSetMode_t SetParent { get; }
 ref bool UseAvgParticlePos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

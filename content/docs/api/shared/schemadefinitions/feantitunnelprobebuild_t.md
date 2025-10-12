@@ -6,7 +6,7 @@ title: FeAntiTunnelProbeBuild_t
 public interface FeAntiTunnelProbeBuild_t : ISchemaClass<FeAntiTunnelProbeBuild_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeAntiTunnelProbeBuild_t : ISchemaClass<FeAntiTunnelProbeBuild_
 ref float ActivationDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float ActivationDistance { get; }
 ref float Bias { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Bias { get; }
 ref float Curvature { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Curvature { get; }
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ ref uint Flags { get; }
 ref ushort ProbeNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -66,7 +66,7 @@ ref ushort ProbeNode { get; }
 ref CUtlVector<ushort> TargetNodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -76,7 +76,7 @@ ref CUtlVector<ushort> TargetNodes { get; }
 ref float Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

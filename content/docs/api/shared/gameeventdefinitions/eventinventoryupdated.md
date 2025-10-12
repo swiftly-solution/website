@@ -6,7 +6,7 @@ title: EventInventoryUpdated
 public interface EventInventoryUpdated : IGameEvent<EventInventoryUpdated>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventInventoryUpdated : IGameEvent<EventInventoryUpdated>
 short ItemDef { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short ItemDef { get; set; }
 int Itemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

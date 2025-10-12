@@ -6,7 +6,7 @@ title: FourQuaternions
 public interface FourQuaternions : ISchemaClass<FourQuaternions>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FourQuaternions : ISchemaClass<FourQuaternions>, ISchemaField, 
 ref fltx4 W { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -26,7 +26,7 @@ ref fltx4 W { get; }
 ref fltx4 X { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -36,7 +36,7 @@ ref fltx4 X { get; }
 ref fltx4 Y { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -46,7 +46,7 @@ ref fltx4 Y { get; }
 ref fltx4 Z { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 

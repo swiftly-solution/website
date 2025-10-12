@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientGCRankUpdate
 public interface CMsgGCCStrike15_v2_ClientGCRankUpdate : ITypedProtobuf<CMsgGCCStrike15_v2_ClientGCRankUpdate>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientGCRankUpdate : ITypedProtobuf<CMsgGCCS
 IProtobufRepeatedFieldSubMessageType<PlayerRankingInfo> Rankings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[PlayerRankingInfo](/docs/api/shared/protobufdefinitions/playerrankinginfo)>
 

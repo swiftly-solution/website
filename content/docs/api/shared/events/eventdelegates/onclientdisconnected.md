@@ -6,7 +6,7 @@ title: EventDelegates.OnClientDisconnected
 public delegate void EventDelegates.OnClientDisconnected(IOnClientDisconnectedEvent @event)
 ```
 
-#### Parameters
+- Parameters
 
 - **event**: [IOnClientDisconnectedEvent](/docs/api/shared/events/ionclientdisconnectedevent)
 

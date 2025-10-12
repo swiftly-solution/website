@@ -6,7 +6,7 @@ title: CMsgSource2VProfLiteReport
 public interface CMsgSource2VProfLiteReport : ITypedProtobuf<CMsgSource2VProfLiteReport>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSource2VProfLiteReport : ITypedProtobuf<CMsgSource2VProfLit
 uint DiscardedFrames { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint DiscardedFrames { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgSource2VProfLiteReportItem> Items { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSource2VProfLiteReportItem](/docs/api/shared/protobufdefinitions/cmsgsource2vproflitereportitem)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSource2VProfLiteReportItem> Items { get
 CMsgSource2VProfLiteReportItem Total { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSource2VProfLiteReportItem](/docs/api/shared/protobufdefinitions/cmsgsource2vproflitereportitem)
 

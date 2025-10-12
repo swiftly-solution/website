@@ -6,7 +6,7 @@ title: CVectorQuantizer
 public interface CVectorQuantizer : ISchemaClass<CVectorQuantizer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVectorQuantizer : ISchemaClass<CVectorQuantizer>, ISchemaField
 ref CUtlVector<float> CentroidVectors { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<float> CentroidVectors { get; }
 ref int Centroids { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int Centroids { get; }
 ref int Dimensions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

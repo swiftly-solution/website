@@ -6,7 +6,7 @@ title: PulseRuntimeDomainValueIndex_t
 public interface PulseRuntimeDomainValueIndex_t : ISchemaClass<PulseRuntimeDomainValueIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseRuntimeDomainValueIndex_t : ISchemaClass<PulseRuntimeDomai
 ref short Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

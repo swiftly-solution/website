@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Server2GCClientValidate
 public interface CMsgGCCStrike15_v2_Server2GCClientValidate : ITypedProtobuf<CMsgGCCStrike15_v2_Server2GCClientValidate>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Server2GCClientValidate : ITypedProtobuf<CMs
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

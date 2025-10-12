@@ -6,7 +6,7 @@ title: VecInputMaterialVariable_t
 public interface VecInputMaterialVariable_t : ISchemaClass<VecInputMaterialVariable_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VecInputMaterialVariable_t : ISchemaClass<VecInputMaterialVaria
 CParticleCollectionVecInput Input { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionVecInput Input { get; }
 string StrVariable { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

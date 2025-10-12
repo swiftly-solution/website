@@ -6,7 +6,7 @@ title: CParticleFunction
 public interface CParticleFunction : ISchemaClass<CParticleFunction>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleFunction : ISchemaClass<CParticleFunction>, ISchemaFie
 ref bool DisableOperator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool DisableOperator { get; }
 ref bool NormalizeToStopTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool NormalizeToStopTime { get; }
 string Notes { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Notes { get; set; }
 ref ParticleEndcapMode_t OpEndCapState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleEndcapMode_t](/docs/api/shared/schemadefinitions/particleendcapmode_t)
 
@@ -56,7 +56,7 @@ ref ParticleEndcapMode_t OpEndCapState { get; }
 ref float OpEndFadeInTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float OpEndFadeInTime { get; }
 ref float OpEndFadeOutTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float OpEndFadeOutTime { get; }
 ref float OpFadeOscillatePeriod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float OpFadeOscillatePeriod { get; }
 ref float OpStartFadeInTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float OpStartFadeInTime { get; }
 ref float OpStartFadeOutTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float OpStartFadeOutTime { get; }
 CParticleCollectionFloatInput OpStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -116,7 +116,7 @@ CParticleCollectionFloatInput OpStrength { get; }
 ref float OpTimeOffsetMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float OpTimeOffsetMax { get; }
 ref float OpTimeOffsetMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float OpTimeOffsetMin { get; }
 ref int OpTimeOffsetSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int OpTimeOffsetSeed { get; }
 ref float OpTimeScaleMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float OpTimeScaleMax { get; }
 ref float OpTimeScaleMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float OpTimeScaleMin { get; }
 ref int OpTimeScaleSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

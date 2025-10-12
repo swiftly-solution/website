@@ -6,7 +6,7 @@ title: CNmMaterialAttributeEvent
 public interface CNmMaterialAttributeEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmMaterialAttributeEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmMaterialAttributeEvent : CNmEvent, ISchemaClass<CNmEvent>, I
 string AttributeName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AttributeName { get; set; }
 ref CUtlStringToken AttributeNameToken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -36,7 +36,7 @@ ref CUtlStringToken AttributeNameToken { get; }
 SchemaUntypedField W { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField W { get; }
 SchemaUntypedField X { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField X { get; }
 SchemaUntypedField Y { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -66,7 +66,7 @@ SchemaUntypedField Y { get; }
 SchemaUntypedField Z { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

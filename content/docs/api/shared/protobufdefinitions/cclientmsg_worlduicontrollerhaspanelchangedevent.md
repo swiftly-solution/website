@@ -6,7 +6,7 @@ title: CClientMsg_WorldUIControllerHasPanelChangedEvent
 public interface CClientMsg_WorldUIControllerHasPanelChangedEvent : ITypedProtobuf<CClientMsg_WorldUIControllerHasPanelChangedEvent>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CClientMsg_WorldUIControllerHasPanelChangedEvent : ITypedProtob
 uint ClientEhandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ClientEhandle { get; set; }
 bool HasPanel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool HasPanel { get; set; }
 uint LiteralHandType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

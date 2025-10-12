@@ -6,7 +6,7 @@ title: CNavVolumeBreadthFirstSearch
 public interface CNavVolumeBreadthFirstSearch : CNavVolumeCalculatedVector, CNavVolume, ISchemaClass<CNavVolume>, ISchemaClass<CNavVolumeCalculatedVector>, ISchemaClass<CNavVolumeBreadthFirstSearch>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNavVolumeBreadthFirstSearch : CNavVolumeCalculatedVector, CNav
 ref float SearchDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float SearchDist { get; }
 ref Vector StartPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

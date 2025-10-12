@@ -6,7 +6,7 @@ title: CNmIDEventPercentageThroughNode__CDefinition
 public interface CNmIDEventPercentageThroughNode__CDefinition : CNmBoolValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmBoolValueNode__CDefinition>, ISchemaClass<CNmIDEventPercentageThroughNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmIDEventPercentageThroughNode__CDefinition : CNmBoolValueNode
 CNmBitFlags EventConditionRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmBitFlags](/docs/api/shared/schemadefinitions/cnmbitflags)
 
@@ -26,7 +26,7 @@ CNmBitFlags EventConditionRules { get; }
 ref CGlobalSymbol EventID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -36,7 +36,7 @@ ref CGlobalSymbol EventID { get; }
 ref short SourceStateNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

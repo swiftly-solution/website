@@ -6,7 +6,7 @@ title: C_INIT_RemapParticleCountToNamedModelElementScalar
 public interface C_INIT_RemapParticleCountToNamedModelElementScalar : C_INIT_RemapParticleCountToScalar, CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_RemapParticleCountToScalar>, ISchemaClass<C_INIT_RemapParticleCountToNamedModelElementScalar>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_RemapParticleCountToNamedModelElementScalar : C_INIT_Rem
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
@@ -26,7 +26,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 ref bool ModelFromRenderer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ModelFromRenderer { get; }
 string OutputMaxName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string OutputMaxName { get; set; }
 string OutputMinName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: C_INIT_DistanceToNeighborCull
 public interface C_INIT_DistanceToNeighborCull : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_DistanceToNeighborCull>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_DistanceToNeighborCull : CParticleFunctionInitializer, C
 CPerParticleFloatInput Distance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -26,7 +26,7 @@ CPerParticleFloatInput Distance { get; }
 ParticleAttributeIndex_t FieldModify { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldModify { get; }
 ref bool IncludeRadii { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IncludeRadii { get; }
 CPerParticleFloatInput LifespanOverlap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -56,7 +56,7 @@ CPerParticleFloatInput LifespanOverlap { get; }
 CPerParticleFloatInput Modify { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -66,7 +66,7 @@ CPerParticleFloatInput Modify { get; }
 ref ParticleSetMethod_t SetMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 
@@ -76,7 +76,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 ref bool UseNeighbor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

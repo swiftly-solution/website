@@ -6,7 +6,7 @@ title: CLogicPlayerProxy
 public interface CLogicPlayerProxy : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CLogicPlayerProxy>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLogicPlayerProxy : CLogicalEntity, CServerOnlyEntity, CBaseEnt
 ref CHandle<CBaseEntity> Player { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> Player { get; }
 CEntityIOOutput PlayerDied { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -36,7 +36,7 @@ CEntityIOOutput PlayerDied { get; }
 CEntityIOOutput PlayerHasAmmo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -46,7 +46,7 @@ CEntityIOOutput PlayerHasAmmo { get; }
 CEntityIOOutput PlayerHasNoAmmo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -56,7 +56,7 @@ CEntityIOOutput PlayerHasNoAmmo { get; }
 SchemaUntypedField RequestedPlayerHealth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

@@ -6,7 +6,7 @@ title: AmmoIndex_t
 public interface AmmoIndex_t : ISchemaClass<AmmoIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AmmoIndex_t : ISchemaClass<AmmoIndex_t>, ISchemaField, ISchemaC
 ref byte Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

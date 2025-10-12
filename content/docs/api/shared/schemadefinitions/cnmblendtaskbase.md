@@ -6,5 +6,5 @@ title: CNmBlendTaskBase
 public interface CNmBlendTaskBase : CNmPoseTask, ISchemaClass<CNmPoseTask>, ISchemaClass<CNmBlendTaskBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

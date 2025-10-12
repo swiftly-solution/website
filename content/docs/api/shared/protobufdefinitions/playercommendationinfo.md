@@ -6,7 +6,7 @@ title: PlayerCommendationInfo
 public interface PlayerCommendationInfo : ITypedProtobuf<PlayerCommendationInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PlayerCommendationInfo : ITypedProtobuf<PlayerCommendationInfo>
 uint CmdFriendly { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint CmdFriendly { get; set; }
 uint CmdLeader { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint CmdLeader { get; set; }
 uint CmdTeaching { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: PulseSelectorOutflowList_t
 public interface PulseSelectorOutflowList_t : ISchemaClass<PulseSelectorOutflowList_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseSelectorOutflowList_t : ISchemaClass<PulseSelectorOutflowL
 ref CUtlVector Outflows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

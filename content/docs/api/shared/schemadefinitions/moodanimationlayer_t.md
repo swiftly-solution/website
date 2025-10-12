@@ -6,7 +6,7 @@ title: MoodAnimationLayer_t
 public interface MoodAnimationLayer_t : ISchemaClass<MoodAnimationLayer_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MoodAnimationLayer_t : ISchemaClass<MoodAnimationLayer_t>, ISch
 ref bool ActiveListening { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ActiveListening { get; }
 ref bool ActiveTalking { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ActiveTalking { get; }
 CRangeFloat DurationScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRangeFloat](/docs/api/shared/schemadefinitions/crangefloat)
 
@@ -46,7 +46,7 @@ CRangeFloat DurationScale { get; }
 CRangeFloat EndOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRangeFloat](/docs/api/shared/schemadefinitions/crangefloat)
 
@@ -56,7 +56,7 @@ CRangeFloat EndOffset { get; }
 ref float FadeIn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float FadeIn { get; }
 ref float FadeOut { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float FadeOut { get; }
 CRangeFloat Intensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRangeFloat](/docs/api/shared/schemadefinitions/crangefloat)
 
@@ -86,7 +86,7 @@ CRangeFloat Intensity { get; }
 ref CUtlVector LayerAnimations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -96,7 +96,7 @@ ref CUtlVector LayerAnimations { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string Name { get; set; }
 CRangeFloat NextStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRangeFloat](/docs/api/shared/schemadefinitions/crangefloat)
 
@@ -116,7 +116,7 @@ CRangeFloat NextStart { get; }
 ref bool ScaleWithInts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool ScaleWithInts { get; }
 CRangeFloat StartOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRangeFloat](/docs/api/shared/schemadefinitions/crangefloat)
 

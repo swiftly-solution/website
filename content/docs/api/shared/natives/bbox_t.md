@@ -6,7 +6,7 @@ title: BBox_t
 public struct BBox_t
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct BBox_t
 public Vector Maxs
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ public Vector Maxs
 public Vector Mins
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

@@ -6,7 +6,7 @@ title: CNmTargetWarpEvent
 public interface CNmTargetWarpEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmTargetWarpEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmTargetWarpEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaC
 ref NmTargetWarpAlgorithm_t Algorithm { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmTargetWarpAlgorithm_t](/docs/api/shared/schemadefinitions/nmtargetwarpalgorithm_t)
 
@@ -26,7 +26,7 @@ ref NmTargetWarpAlgorithm_t Algorithm { get; }
 ref NmTargetWarpRule_t Rule { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmTargetWarpRule_t](/docs/api/shared/schemadefinitions/nmtargetwarprule_t)
 

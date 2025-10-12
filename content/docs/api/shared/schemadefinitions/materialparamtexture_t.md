@@ -6,7 +6,7 @@ title: MaterialParamTexture_t
 public interface MaterialParamTexture_t : MaterialParam_t, ISchemaClass<MaterialParam_t>, ISchemaClass<MaterialParamTexture_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MaterialParamTexture_t : MaterialParam_t, ISchemaClass<Material
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 

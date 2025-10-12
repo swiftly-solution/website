@@ -6,7 +6,7 @@ title: CCopyRecipientFilter
 public interface CCopyRecipientFilter : ISchemaClass<CCopyRecipientFilter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCopyRecipientFilter : ISchemaClass<CCopyRecipientFilter>, ISch
 ref int Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Flags { get; }
 ref CUtlVector<uint> Recipients { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

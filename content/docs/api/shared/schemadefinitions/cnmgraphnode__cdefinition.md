@@ -6,7 +6,7 @@ title: CNmGraphNode__CDefinition
 public interface CNmGraphNode__CDefinition : ISchemaClass<CNmGraphNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmGraphNode__CDefinition : ISchemaClass<CNmGraphNode__CDefinit
 ref short NodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

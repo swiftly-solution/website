@@ -6,7 +6,7 @@ title: CMsgSerializedSOCache_Cache
 public interface CMsgSerializedSOCache_Cache : ITypedProtobuf<CMsgSerializedSOCache_Cache>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSerializedSOCache_Cache : ITypedProtobuf<CMsgSerializedSOCa
 ulong Id { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Id { get; set; }
 uint Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Type { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgSerializedSOCache_TypeCache> TypeCaches { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSerializedSOCache_TypeCache](/docs/api/shared/protobufdefinitions/cmsgserializedsocache_typecache)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSerializedSOCache_TypeCache> TypeCaches
 IProtobufRepeatedFieldSubMessageType<CMsgSerializedSOCache_Cache_Version> Versions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSerializedSOCache_Cache_Version](/docs/api/shared/protobufdefinitions/cmsgserializedsocache_cache_version)>
 

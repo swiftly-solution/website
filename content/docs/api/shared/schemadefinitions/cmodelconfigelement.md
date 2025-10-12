@@ -6,7 +6,7 @@ title: CModelConfigElement
 public interface CModelConfigElement : ISchemaClass<CModelConfigElement>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfigElement : ISchemaClass<CModelConfigElement>, ISchem
 string ElementName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string ElementName { get; set; }
 ref CUtlVector<PointerTo<CModelConfigElement>> NestedElements { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CModelConfigElement](/docs/api/shared/schemadefinitions/cmodelconfigelement)>>
 

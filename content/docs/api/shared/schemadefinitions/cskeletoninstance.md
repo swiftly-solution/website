@@ -6,7 +6,7 @@ title: CSkeletonInstance
 public interface CSkeletonInstance : CGameSceneNode, ISchemaClass<CGameSceneNode>, ISchemaClass<CSkeletonInstance>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSkeletonInstance : CGameSceneNode, ISchemaClass<CGameSceneNode
 SchemaUntypedField DirtyMotionType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField DirtyMotionType { get; }
 ref bool DisableSolidCollisionsForHierarchy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool DisableSolidCollisionsForHierarchy { get; }
 ref byte HitboxSet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -46,7 +46,7 @@ ref byte HitboxSet { get; }
 ref bool IsAnimationEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool IsAnimationEnabled { get; }
 SchemaUntypedField IsGeneratingLatchedParentSpaceState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -66,7 +66,7 @@ SchemaUntypedField IsGeneratingLatchedParentSpaceState { get; }
 ref CUtlStringToken MaterialGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -76,7 +76,7 @@ ref CUtlStringToken MaterialGroup { get; }
 CModelState ModelState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CModelState](/docs/api/shared/schemadefinitions/cmodelstate)
 
@@ -86,7 +86,7 @@ CModelState ModelState { get; }
 ref bool UseParentRenderBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

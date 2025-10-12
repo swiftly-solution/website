@@ -6,7 +6,7 @@ title: CSchemaSystemInternalRegistration
 public interface CSchemaSystemInternalRegistration : ISchemaClass<CSchemaSystemInternalRegistration>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSchemaSystemInternalRegistration : ISchemaClass<CSchemaSystemI
 ref CTransform CTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -26,7 +26,7 @@ ref CTransform CTransform { get; }
 ref CUtlBinaryBlock CUtlBinaryBlock { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 
@@ -36,7 +36,7 @@ ref CUtlBinaryBlock CUtlBinaryBlock { get; }
 string CUtlString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string CUtlString { get; set; }
 SchemaUntypedField CUtlSymbol { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField CUtlSymbol { get; }
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -66,7 +66,7 @@ ref Color Color { get; }
 SchemaUntypedField DegreeEuler { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField DegreeEuler { get; }
 SchemaUntypedField KV3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -86,7 +86,7 @@ SchemaUntypedField KV3 { get; }
 SchemaUntypedField KeyValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -96,7 +96,7 @@ SchemaUntypedField KeyValues { get; }
 ref matrix3x4_t Matrix3x4_t { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)
 
@@ -106,7 +106,7 @@ ref matrix3x4_t Matrix3x4_t { get; }
 ref matrix3x4_t Matrix3x4a_t { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)
 
@@ -116,7 +116,7 @@ ref matrix3x4_t Matrix3x4a_t { get; }
 ref QAngle QAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -126,7 +126,7 @@ ref QAngle QAngle { get; }
 ref Quaternion Quaternion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -136,7 +136,7 @@ ref Quaternion Quaternion { get; }
 SchemaUntypedField QuaternionStorage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -146,7 +146,7 @@ SchemaUntypedField QuaternionStorage { get; }
 ref RadianEuler RadianEuler { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RadianEuler](/docs/api/shared/natives/radianeuler)
 
@@ -156,7 +156,7 @@ ref RadianEuler RadianEuler { get; }
 SchemaUntypedField ResourceTypes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -166,7 +166,7 @@ SchemaUntypedField ResourceTypes { get; }
 SchemaUntypedField RotationVector { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -176,7 +176,7 @@ SchemaUntypedField RotationVector { get; }
 ref CUtlStringToken StringToken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -186,7 +186,7 @@ ref CUtlStringToken StringToken { get; }
 SchemaUntypedField StringTokenWithStorage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -196,7 +196,7 @@ SchemaUntypedField StringTokenWithStorage { get; }
 ref Vector Vector { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -206,7 +206,7 @@ ref Vector Vector { get; }
 ref Vector2D Vector2D { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -216,7 +216,7 @@ ref Vector2D Vector2D { get; }
 ref Vector4D Vector4D { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -226,7 +226,7 @@ ref Vector4D Vector4D { get; }
 ref Vector VectorAligned { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -236,7 +236,7 @@ ref Vector VectorAligned { get; }
 ref Vector VectorWS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

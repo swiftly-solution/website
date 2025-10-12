@@ -6,7 +6,7 @@ title: EntityRenderAttribute_t
 public interface EntityRenderAttribute_t : ISchemaClass<EntityRenderAttribute_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EntityRenderAttribute_t : ISchemaClass<EntityRenderAttribute_t>
 ref CUtlStringToken ID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -26,7 +26,7 @@ ref CUtlStringToken ID { get; }
 ref Vector4D Values { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 

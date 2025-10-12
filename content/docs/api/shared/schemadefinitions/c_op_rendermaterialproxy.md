@@ -6,7 +6,7 @@ title: C_OP_RenderMaterialProxy
 public interface C_OP_RenderMaterialProxy : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderMaterialProxy>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderMaterialProxy : CParticleFunctionRenderer, CParticle
 CPerParticleFloatInput Alpha { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -26,7 +26,7 @@ CPerParticleFloatInput Alpha { get; }
 ref ParticleColorBlendType_t ColorBlendType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
@@ -36,7 +36,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 CParticleCollectionVecInput ColorScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionVecInput ColorScale { get; }
 ref int MaterialControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int MaterialControlPoint { get; }
 CParticleCollectionFloatInput MaterialOverrideEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionFloatInput MaterialOverrideEnabled { get; }
 ref CUtlVector MaterialVars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector MaterialVars { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> OverrideMaterial { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -86,7 +86,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> OverrideMaterial { get; }
 ref MaterialProxyType_t ProxyType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MaterialProxyType_t](/docs/api/shared/schemadefinitions/materialproxytype_t)
 

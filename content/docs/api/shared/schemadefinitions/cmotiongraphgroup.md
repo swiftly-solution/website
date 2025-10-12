@@ -6,7 +6,7 @@ title: CMotionGraphGroup
 public interface CMotionGraphGroup : ISchemaClass<CMotionGraphGroup>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionGraphGroup : ISchemaClass<CMotionGraphGroup>, ISchemaFie
 AnimScriptHandle IsActiveScript { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimScriptHandle](/docs/api/shared/schemadefinitions/animscripthandle)
 
@@ -26,7 +26,7 @@ AnimScriptHandle IsActiveScript { get; }
 ref CUtlVector MotionGraphConfigs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector MotionGraphConfigs { get; }
 ref CUtlVector MotionGraphs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector MotionGraphs { get; }
 ref CUtlVector<int> SampleToConfig { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<int> SampleToConfig { get; }
 CMotionSearchDB SearchDB { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMotionSearchDB](/docs/api/shared/schemadefinitions/cmotionsearchdb)
 

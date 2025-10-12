@@ -6,7 +6,7 @@ title: CCSUsrMsg_SurvivalStats
 public interface CCSUsrMsg_SurvivalStats : ITypedProtobuf<CCSUsrMsg_SurvivalStats>, INativeHandle, INetMessage<CCSUsrMsg_SurvivalStats>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SurvivalStats : ITypedProtobuf<CCSUsrMsg_SurvivalStat
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Damage> Damages { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_SurvivalStats_Damage](/docs/api/shared/protobufdefinitions/ccsusrmsg_survivalstats_damage)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Damage> Damages { g
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Fact> Facts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_SurvivalStats_Fact](/docs/api/shared/protobufdefinitions/ccsusrmsg_survivalstats_fact)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Fact> Facts { get; 
 int Ticknumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Ticknumber { get; set; }
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Placement> Users { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_SurvivalStats_Placement](/docs/api/shared/protobufdefinitions/ccsusrmsg_survivalstats_placement)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SurvivalStats_Placement> Users { 
 ulong Xuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

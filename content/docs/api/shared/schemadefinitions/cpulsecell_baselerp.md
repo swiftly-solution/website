@@ -6,7 +6,7 @@ title: CPulseCell_BaseLerp
 public interface CPulseCell_BaseLerp : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_BaseLerp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_BaseLerp : CPulseCell_BaseYieldingInflow, CPulseCell
 CPulse_ResumePoint WakeResume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 

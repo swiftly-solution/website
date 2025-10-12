@@ -6,13 +6,13 @@ title: CUtlMemory<T>
 public struct CUtlMemory<T> : IDisposable where T : unmanaged
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
-#### Implements
+- Implements
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -22,7 +22,7 @@ public struct CUtlMemory<T> : IDisposable where T : unmanaged
 public CUtlMemory(int growSize, int initSize)
 ```
 
-#### Parameters
+- Parameters
 
 - **growSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **initSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -33,7 +33,7 @@ public CUtlMemory(int growSize, int initSize)
 public CUtlMemory(nint memory, int numelements, bool readOnly)
 ```
 
-#### Parameters
+- Parameters
 
 - **memory**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 - **numelements**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -47,7 +47,7 @@ public CUtlMemory(nint memory, int numelements, bool readOnly)
 public nint Base { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -57,7 +57,7 @@ public nint Base { get; }
 public int Count { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -67,7 +67,7 @@ public int Count { get; }
 public bool ExternallyAllocated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -77,7 +77,7 @@ public bool ExternallyAllocated { get; }
 public bool IsReadOnly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -87,7 +87,7 @@ public bool IsReadOnly { get; }
 public ref T this[int index] { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - T
 
@@ -99,7 +99,7 @@ public ref T this[int index] { get; }
 public void AssumeMemory(nint memory, int numelements)
 ```
 
-#### Parameters
+- Parameters
 
 - **memory**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 - **numelements**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -110,7 +110,7 @@ public void AssumeMemory(nint memory, int numelements)
 public void ConvertToGrowableMemory(int growSize)
 ```
 
-#### Parameters
+- Parameters
 
 - **growSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -120,7 +120,7 @@ public void ConvertToGrowableMemory(int growSize)
 public nint DetachMemory()
 ```
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -136,7 +136,7 @@ public void Dispose()
 public void EnsureCapacity(int num)
 ```
 
-#### Parameters
+- Parameters
 
 - **num**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ public void EnsureCapacity(int num)
 public void Grow(int num)
 ```
 
-#### Parameters
+- Parameters
 
 - **num**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ public void Grow(int num)
 public void Init(int growSize, int initSize)
 ```
 
-#### Parameters
+- Parameters
 
 - **growSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **initSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -167,11 +167,11 @@ public void Init(int growSize, int initSize)
 public bool IsValidIndex(int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -187,7 +187,7 @@ public void Purge()
 public void Purge(int numElements)
 ```
 
-#### Parameters
+- Parameters
 
 - **numElements**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -197,7 +197,7 @@ public void Purge(int numElements)
 public void SetExternalBuffer(nint memory, int numelements, bool readOnly)
 ```
 
-#### Parameters
+- Parameters
 
 - **memory**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 - **numelements**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -209,7 +209,7 @@ public void SetExternalBuffer(nint memory, int numelements, bool readOnly)
 public void SetGrowSize(int size)
 ```
 
-#### Parameters
+- Parameters
 
 - **size**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

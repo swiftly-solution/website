@@ -6,7 +6,7 @@ title: CCLCMsg_RespondCvarValue
 public interface CCLCMsg_RespondCvarValue : ITypedProtobuf<CCLCMsg_RespondCvarValue>, INativeHandle, INetMessage<CCLCMsg_RespondCvarValue>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_RespondCvarValue : ITypedProtobuf<CCLCMsg_RespondCvarVa
 int Cookie { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Cookie { get; set; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Name { get; set; }
 int StatusCode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int StatusCode { get; set; }
 string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

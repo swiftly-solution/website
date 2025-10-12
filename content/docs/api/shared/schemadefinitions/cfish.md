@@ -6,7 +6,7 @@ title: CFish
 public interface CFish : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CFish>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFish : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityI
 ref float Angle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Angle { get; }
 ref float AngleChange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AngleChange { get; }
 ref float AvoidRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float AvoidRange { get; }
 ref float CalmSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float CalmSpeed { get; }
 ref float DesiredSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float DesiredSpeed { get; }
 CountdownTimer DisperseTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -76,7 +76,7 @@ CountdownTimer DisperseTimer { get; }
 ref Vector Forward { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector Forward { get; }
 CountdownTimer GoTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -96,7 +96,7 @@ CountdownTimer GoTimer { get; }
 ref uint Id { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ ref uint Id { get; }
 CountdownTimer MoveTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -116,7 +116,7 @@ CountdownTimer MoveTimer { get; }
 ref float PanicSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float PanicSpeed { get; }
 CountdownTimer PanicTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -136,7 +136,7 @@ CountdownTimer PanicTimer { get; }
 ref Vector Perp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -146,7 +146,7 @@ ref Vector Perp { get; }
 ref CHandle<CFishPool> Pool { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CFishPool](/docs/api/shared/schemadefinitions/cfishpool)>
 
@@ -156,7 +156,7 @@ ref CHandle<CFishPool> Pool { get; }
 ref Vector PoolOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -166,7 +166,7 @@ ref Vector PoolOrigin { get; }
 CountdownTimer ProximityTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -176,7 +176,7 @@ CountdownTimer ProximityTimer { get; }
 ref float Speed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float Speed { get; }
 ref bool TurnClockwise { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool TurnClockwise { get; }
 CountdownTimer TurnTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -206,7 +206,7 @@ CountdownTimer TurnTimer { get; }
 ref CUtlVector<PointerTo<CFish>> Visible { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CFish](/docs/api/shared/schemadefinitions/cfish)>>
 
@@ -216,7 +216,7 @@ ref CUtlVector<PointerTo<CFish>> Visible { get; }
 ref float WaterLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -226,7 +226,7 @@ ref float WaterLevel { get; }
 ref float X { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float X { get; }
 ref float Y { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -246,7 +246,7 @@ ref float Y { get; }
 ref float Z { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

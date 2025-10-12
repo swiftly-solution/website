@@ -6,7 +6,7 @@ title: CPhysicsWire
 public interface CPhysicsWire : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPhysicsWire>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysicsWire : CBaseEntity, CEntityInstance, ISchemaClass<CEnti
 ref int Density { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

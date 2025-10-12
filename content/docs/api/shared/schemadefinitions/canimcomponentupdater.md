@@ -6,7 +6,7 @@ title: CAnimComponentUpdater
 public interface CAnimComponentUpdater : ISchemaClass<CAnimComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimComponentUpdater : ISchemaClass<CAnimComponentUpdater>, IS
 AnimComponentID Id { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimComponentID](/docs/api/shared/schemadefinitions/animcomponentid)
 
@@ -26,7 +26,7 @@ AnimComponentID Id { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Name { get; set; }
 ref AnimNodeNetworkMode NetworkMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimNodeNetworkMode](/docs/api/shared/schemadefinitions/animnodenetworkmode)
 
@@ -46,7 +46,7 @@ ref AnimNodeNetworkMode NetworkMode { get; }
 ref bool StartEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

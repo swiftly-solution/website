@@ -6,9 +6,9 @@ title: Helper
 public static class Helper
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Methods
 
@@ -18,15 +18,15 @@ public static class Helper
 public static T AsSchema<T>(nint ptr) where T : ISchemaClass<T>
 ```
 
-#### Parameters
+- Parameters
 
 - **ptr**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The pointer to the schema class.
 
-#### Returns
+- Returns
 
 - T - The schema class.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The schema class to convert to.
 
@@ -36,11 +36,11 @@ public static T AsSchema<T>(nint ptr) where T : ISchemaClass<T>
 public static string Colored(this string text)
 ```
 
-#### Parameters
+- Parameters
 
 - **text**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The text to replace the color codes in.
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The text with the color codes replaced.
 

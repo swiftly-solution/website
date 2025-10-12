@@ -6,7 +6,7 @@ title: CGCToGCMsgRoutedReply
 public interface CGCToGCMsgRoutedReply : ITypedProtobuf<CGCToGCMsgRoutedReply>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGCToGCMsgRoutedReply : ITypedProtobuf<CGCToGCMsgRoutedReply>, 
 uint MsgType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint MsgType { get; set; }
 byte[] NetMessage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

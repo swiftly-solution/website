@@ -6,7 +6,7 @@ title: CAnimEncodeDifference
 public interface CAnimEncodeDifference : ISchemaClass<CAnimEncodeDifference>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimEncodeDifference : ISchemaClass<CAnimEncodeDifference>, IS
 ref CUtlVector BoneArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector BoneArray { get; }
 ref CUtlVector<byte> HasMorphBitArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<byte> HasMorphBitArray { get; }
 ref CUtlVector<byte> HasMovementBitArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<byte> HasMovementBitArray { get; }
 ref CUtlVector<byte> HasRotationBitArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<byte> HasRotationBitArray { get; }
 ref CUtlVector<byte> HasUserBitArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<byte> HasUserBitArray { get; }
 ref CUtlVector MorphArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector MorphArray { get; }
 ref CUtlVector UserArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

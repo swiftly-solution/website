@@ -6,7 +6,7 @@ title: VacNetShot
 public interface VacNetShot : ITypedProtobuf<VacNetShot>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VacNetShot : ITypedProtobuf<VacNetShot>, INativeHandle
 IProtobufRepeatedFieldValueType<float> DeltaPitchWindow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<float> DeltaPitchWindow { get; }
 IProtobufRepeatedFieldValueType<float> DeltaYawWindow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<float> DeltaYawWindow { get; }
 float DistanceToHurtTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float DistanceToHurtTarget { get; set; }
 int HitType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int HitType { get; set; }
 int RoundNumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int RoundNumber { get; set; }
 ulong SteamidPlayer { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -76,7 +76,7 @@ ulong SteamidPlayer { get; set; }
 int WeaponType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

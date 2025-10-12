@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GC2ClientInitSystem_Response
 public interface CMsgGCCStrike15_v2_GC2ClientInitSystem_Response : ITypedProtobuf<CMsgGCCStrike15_v2_GC2ClientInitSystem_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GC2ClientInitSystem_Response : ITypedProtobu
 int AuxSystem1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AuxSystem1 { get; set; }
 int AuxSystem2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int AuxSystem2 { get; set; }
 string Diagnostic { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Diagnostic { get; set; }
 EInitSystemResult EinitResult { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EInitSystemResult](/docs/api/shared/protobufdefinitions/einitsystemresult)
 
@@ -56,7 +56,7 @@ EInitSystemResult EinitResult { get; set; }
 int ErrorCode1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int ErrorCode1 { get; set; }
 int ErrorCode2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int ErrorCode2 { get; set; }
 long Handle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
@@ -86,7 +86,7 @@ long Handle { get; set; }
 int Response { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ int Response { get; set; }
 byte[] ShaHash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -106,7 +106,7 @@ byte[] ShaHash { get; set; }
 bool Success { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

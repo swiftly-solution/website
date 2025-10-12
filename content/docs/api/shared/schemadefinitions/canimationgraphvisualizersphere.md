@@ -6,7 +6,7 @@ title: CAnimationGraphVisualizerSphere
 public interface CAnimationGraphVisualizerSphere : CAnimationGraphVisualizerPrimitiveBase, ISchemaClass<CAnimationGraphVisualizerPrimitiveBase>, ISchemaClass<CAnimationGraphVisualizerSphere>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimationGraphVisualizerSphere : CAnimationGraphVisualizerPrim
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -26,7 +26,7 @@ ref Color Color { get; }
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Radius { get; }
 ref Vector WsPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

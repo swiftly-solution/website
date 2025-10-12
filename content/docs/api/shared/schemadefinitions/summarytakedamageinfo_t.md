@@ -6,7 +6,7 @@ title: SummaryTakeDamageInfo_t
 public interface SummaryTakeDamageInfo_t : ISchemaClass<SummaryTakeDamageInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SummaryTakeDamageInfo_t : ISchemaClass<SummaryTakeDamageInfo_t>
 ref CTakeDamageInfo Info { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTakeDamageInfo](/docs/api/shared/natives/ctakedamageinfo)
 
@@ -26,7 +26,7 @@ ref CTakeDamageInfo Info { get; }
 CTakeDamageResult Result { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTakeDamageResult](/docs/api/shared/schemadefinitions/ctakedamageresult)
 
@@ -36,7 +36,7 @@ CTakeDamageResult Result { get; }
 ref int SummarisedCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int SummarisedCount { get; }
 ref CHandle<CBaseEntity> Target { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

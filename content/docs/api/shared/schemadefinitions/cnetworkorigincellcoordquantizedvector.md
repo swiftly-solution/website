@@ -6,7 +6,7 @@ title: CNetworkOriginCellCoordQuantizedVector
 public interface CNetworkOriginCellCoordQuantizedVector : ISchemaClass<CNetworkOriginCellCoordQuantizedVector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNetworkOriginCellCoordQuantizedVector : ISchemaClass<CNetworkO
 ref ushort CellX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort CellX { get; }
 ref ushort CellY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort CellY { get; }
 ref ushort CellZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort CellZ { get; }
 ref ushort OutsideWorld { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -56,7 +56,7 @@ ref ushort OutsideWorld { get; }
 ref CNetworkedQuantizedFloat X { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 
@@ -66,7 +66,7 @@ ref CNetworkedQuantizedFloat X { get; }
 ref CNetworkedQuantizedFloat Y { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 
@@ -76,7 +76,7 @@ ref CNetworkedQuantizedFloat Y { get; }
 ref CNetworkedQuantizedFloat Z { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 

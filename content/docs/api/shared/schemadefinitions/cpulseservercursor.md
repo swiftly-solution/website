@@ -6,7 +6,7 @@ title: CPulseServerCursor
 public interface CPulseServerCursor : CPulseExecCursor, ISchemaClass<CPulseExecCursor>, ISchemaClass<CPulseServerCursor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseServerCursor : CPulseExecCursor, ISchemaClass<CPulseExecC
 ref CHandle<CBaseEntity> Activator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> Activator { get; }
 ref CHandle<CBaseEntity> Caller { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

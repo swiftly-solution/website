@@ -6,7 +6,7 @@ title: CNmTargetInfoNode__CDefinition
 public interface CNmTargetInfoNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmTargetInfoNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmTargetInfoNode__CDefinition : CNmFloatValueNode__CDefinition
 ref CNmTargetInfoNode__Info_t InfoType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmTargetInfoNode__Info_t](/docs/api/shared/schemadefinitions/cnmtargetinfonode__info_t)
 
@@ -26,7 +26,7 @@ ref CNmTargetInfoNode__Info_t InfoType { get; }
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short InputValueNodeIdx { get; }
 ref bool IsWorldSpaceTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

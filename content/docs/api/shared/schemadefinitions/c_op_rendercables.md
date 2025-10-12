@@ -6,7 +6,7 @@ title: C_OP_RenderCables
 public interface C_OP_RenderCables : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderCables>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderCables : CParticleFunctionRenderer, CParticleFunctio
 CParticleCollectionFloatInput AlphaScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionFloatInput AlphaScale { get; }
 ref float CapOffsetAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float CapOffsetAmount { get; }
 ref float CapRoundness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float CapRoundness { get; }
 ref ParticleColorBlendType_t ColorBlendType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
@@ -56,7 +56,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 CParticleCollectionFloatInput ColorMapOffsetU { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionFloatInput ColorMapOffsetU { get; }
 CParticleCollectionFloatInput ColorMapOffsetV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -76,7 +76,7 @@ CParticleCollectionFloatInput ColorMapOffsetV { get; }
 CParticleCollectionVecInput ColorScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -86,7 +86,7 @@ CParticleCollectionVecInput ColorScale { get; }
 ref bool DrawCableCaps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool DrawCableCaps { get; }
 CParticleTransformInput LightingTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 
@@ -106,7 +106,7 @@ CParticleTransformInput LightingTransform { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -116,7 +116,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 SchemaUntypedField MaterialFloatVars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -126,7 +126,7 @@ SchemaUntypedField MaterialFloatVars { get; }
 SchemaUntypedField MaterialVecVars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -136,7 +136,7 @@ SchemaUntypedField MaterialVecVars { get; }
 ref int MaxTesselation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int MaxTesselation { get; }
 ref int MinTesselation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int MinTesselation { get; }
 CParticleCollectionFloatInput NormalMapOffsetU { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -166,7 +166,7 @@ CParticleCollectionFloatInput NormalMapOffsetU { get; }
 CParticleCollectionFloatInput NormalMapOffsetV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -176,7 +176,7 @@ CParticleCollectionFloatInput NormalMapOffsetV { get; }
 CParticleCollectionFloatInput RadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -186,7 +186,7 @@ CParticleCollectionFloatInput RadiusScale { get; }
 ref int Roundness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ ref int Roundness { get; }
 ref float TessScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float TessScale { get; }
 CParticleCollectionFloatInput TextureRepeatsCircumference { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -216,7 +216,7 @@ CParticleCollectionFloatInput TextureRepeatsCircumference { get; }
 CParticleCollectionFloatInput TextureRepeatsPerSegment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -226,7 +226,7 @@ CParticleCollectionFloatInput TextureRepeatsPerSegment { get; }
 ref TextureRepetitionMode_t TextureRepetitionMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TextureRepetitionMode_t](/docs/api/shared/schemadefinitions/texturerepetitionmode_t)
 

@@ -6,7 +6,7 @@ title: CAnimDesc
 public interface CAnimDesc : ISchemaClass<CAnimDesc>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimDesc : ISchemaClass<CAnimDesc>, ISchemaField, ISchemaClass
 ref CUtlVector ActivityArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector ActivityArray { get; }
 ref CUtlVector<Vector> BoneWorldMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<Vector> BoneWorldMax { get; }
 ref CUtlVector<Vector> BoneWorldMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<Vector> BoneWorldMin { get; }
 CAnimEncodedFrames Data { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimEncodedFrames](/docs/api/shared/schemadefinitions/canimencodedframes)
 
@@ -56,7 +56,7 @@ CAnimEncodedFrames Data { get; }
 ref CUtlVector EventArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector EventArray { get; }
 CAnimDesc_Flag Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimDesc_Flag](/docs/api/shared/schemadefinitions/canimdesc_flag)
 
@@ -76,7 +76,7 @@ CAnimDesc_Flag Flags { get; }
 ref float Fps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float Fps { get; }
 ref float Framestalltime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float Framestalltime { get; }
 ref CUtlVector HierarchyArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -106,7 +106,7 @@ ref CUtlVector HierarchyArray { get; }
 ref CUtlVector MovementArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -116,7 +116,7 @@ ref CUtlVector MovementArray { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -126,7 +126,7 @@ ref CBufferString Name { get; }
 ref Vector RootMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -136,7 +136,7 @@ ref Vector RootMax { get; }
 ref Vector RootMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -146,7 +146,7 @@ ref Vector RootMin { get; }
 CAnimSequenceParams SequenceParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimSequenceParams](/docs/api/shared/schemadefinitions/canimsequenceparams)
 
@@ -156,7 +156,7 @@ CAnimSequenceParams SequenceParams { get; }
 ref CTransform XInitialOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

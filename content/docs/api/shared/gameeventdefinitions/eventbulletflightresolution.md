@@ -6,7 +6,7 @@ title: EventBulletFlightResolution
 public interface EventBulletFlightResolution : IGameEvent<EventBulletFlightResolution>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventBulletFlightResolution : IGameEvent<EventBulletFlightResol
 short AngX { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short AngX { get; set; }
 short AngY { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ short AngY { get; set; }
 short AngZ { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ short AngZ { get; set; }
 short PosX { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ short PosX { get; set; }
 short PosY { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -66,7 +66,7 @@ short PosY { get; set; }
 short PosZ { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -76,7 +76,7 @@ short PosZ { get; set; }
 short StartX { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -86,7 +86,7 @@ short StartX { get; set; }
 short StartY { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -96,7 +96,7 @@ short StartY { get; set; }
 short StartZ { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -106,7 +106,7 @@ short StartZ { get; set; }
 int UserId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ int UserId { get; set; }
 CCSPlayerController UserIdController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
@@ -126,7 +126,7 @@ CCSPlayerController UserIdController { get; }
 CCSPlayerPawn UserIdPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
@@ -136,7 +136,7 @@ CCSPlayerPawn UserIdPawn { get; }
 IPlayer UserIdPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 

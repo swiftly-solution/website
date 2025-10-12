@@ -6,7 +6,7 @@ title: CMsgVoiceAudio
 public interface CMsgVoiceAudio : ITypedProtobuf<CMsgVoiceAudio>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgVoiceAudio : ITypedProtobuf<CMsgVoiceAudio>, INativeHandle
 VoiceDataFormat_t Format { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VoiceDataFormat_t](/docs/api/shared/protobufdefinitions/voicedataformat_t)
 
@@ -26,7 +26,7 @@ VoiceDataFormat_t Format { get; set; }
 uint NumPackets { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint NumPackets { get; set; }
 IProtobufRepeatedFieldValueType<uint> PacketOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldValueType<uint> PacketOffsets { get; }
 uint SampleRate { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint SampleRate { get; set; }
 uint SectionNumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint SectionNumber { get; set; }
 int SequenceBytes { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int SequenceBytes { get; set; }
 uint UncompressedSampleOffset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint UncompressedSampleOffset { get; set; }
 byte[] VoiceData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -96,7 +96,7 @@ byte[] VoiceData { get; set; }
 float VoiceLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

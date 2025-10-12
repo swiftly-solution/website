@@ -6,7 +6,7 @@ title: CMsgSerializedSOCache_TypeCache
 public interface CMsgSerializedSOCache_TypeCache : ITypedProtobuf<CMsgSerializedSOCache_TypeCache>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSerializedSOCache_TypeCache : ITypedProtobuf<CMsgSerialized
 IProtobufRepeatedFieldValueType<byte[]> Objects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<byte[]> Objects { get; }
 uint ServiceId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ServiceId { get; set; }
 uint Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

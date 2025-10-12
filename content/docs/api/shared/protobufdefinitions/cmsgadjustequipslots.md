@@ -6,7 +6,7 @@ title: CMsgAdjustEquipSlots
 public interface CMsgAdjustEquipSlots : ITypedProtobuf<CMsgAdjustEquipSlots>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgAdjustEquipSlots : ITypedProtobuf<CMsgAdjustEquipSlots>, IN
 uint ChangeNum { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ChangeNum { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgAdjustEquipSlot> Slots { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgAdjustEquipSlot](/docs/api/shared/protobufdefinitions/cmsgadjustequipslot)>
 

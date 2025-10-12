@@ -6,7 +6,7 @@ title: CFootLockUpdateNode
 public interface CFootLockUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CFootLockUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFootLockUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, IS
 ref bool ApplyFootRotationLimits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ApplyFootRotationLimits { get; }
 ref bool ApplyHipShift { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ApplyHipShift { get; }
 ref float BlendTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float BlendTime { get; }
 ref bool EnableRootHeightDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool EnableRootHeightDamping { get; }
 ref bool EnableVerticalCurvedPaths { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool EnableVerticalCurvedPaths { get; }
 ref CUtlVector FootSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector FootSettings { get; }
 CAnimInputDamping HipShiftDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -86,7 +86,7 @@ CAnimInputDamping HipShiftDamping { get; }
 ref float HipShiftScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float HipShiftScale { get; }
 ref float MaxRootHeightOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float MaxRootHeightOffset { get; }
 ref float MinRootHeightOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float MinRootHeightOffset { get; }
 ref bool ModulateStepHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool ModulateStepHeight { get; }
 FootLockPoseOpFixedSettings OpFixedSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FootLockPoseOpFixedSettings](/docs/api/shared/schemadefinitions/footlockposeopfixedsettings)
 
@@ -136,7 +136,7 @@ FootLockPoseOpFixedSettings OpFixedSettings { get; }
 ref bool ResetChild { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool ResetChild { get; }
 CAnimInputDamping RootHeightDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -156,7 +156,7 @@ CAnimInputDamping RootHeightDamping { get; }
 ref float StepHeightDecreaseScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float StepHeightDecreaseScale { get; }
 ref float StepHeightIncreaseScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float StepHeightIncreaseScale { get; }
 ref float StrideCurveLimitScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float StrideCurveLimitScale { get; }
 ref float StrideCurveScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float StrideCurveScale { get; }
 ref float TiltPlanePitchSpringStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float TiltPlanePitchSpringStrength { get; }
 ref float TiltPlaneRollSpringStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

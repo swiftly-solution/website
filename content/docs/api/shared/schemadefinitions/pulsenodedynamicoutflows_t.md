@@ -6,7 +6,7 @@ title: PulseNodeDynamicOutflows_t
 public interface PulseNodeDynamicOutflows_t : ISchemaClass<PulseNodeDynamicOutflows_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseNodeDynamicOutflows_t : ISchemaClass<PulseNodeDynamicOutfl
 ref CUtlVector Outflows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

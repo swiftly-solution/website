@@ -3,6 +3,7 @@ title: Shared
 ---
 
 - [SwiftlyS2.Shared.Commands](/docs/api/shared/commands)
+- [SwiftlyS2.Shared.ConsoleOutput](/docs/api/shared/consoleoutput)
 - [SwiftlyS2.Shared.Convars](/docs/api/shared/convars)
 - [SwiftlyS2.Shared.Database](/docs/api/shared/database)
 - [SwiftlyS2.Shared.EntitySystem](/docs/api/shared/entitysystem)

@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientToGCRequestTicket
 public interface CMsgGCCStrike15_v2_ClientToGCRequestTicket : ITypedProtobuf<CMsgGCCStrike15_v2_ClientToGCRequestTicket>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientToGCRequestTicket : ITypedProtobuf<CMs
 uint AuthorizedPublicIp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AuthorizedPublicIp { get; set; }
 ulong AuthorizedSteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong AuthorizedSteamId { get; set; }
 string GameserverSdrRouting { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string GameserverSdrRouting { get; set; }
 ulong GameserverSteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,7 +6,7 @@ title: fogplayerparams_t
 public interface fogplayerparams_t : ISchemaClass<fogplayerparams_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface fogplayerparams_t : ISchemaClass<fogplayerparams_t>, ISchemaFie
 ref CHandle<CFogController> Ctrl { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CFogController](/docs/api/shared/schemadefinitions/cfogcontroller)>
 
@@ -26,7 +26,7 @@ ref CHandle<CFogController> Ctrl { get; }
 ref Color NewColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -36,7 +36,7 @@ ref Color NewColor { get; }
 ref float NewEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float NewEnd { get; }
 ref float NewFarZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float NewFarZ { get; }
 ref float NewHDRColorScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float NewHDRColorScale { get; }
 ref float NewMaxDensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float NewMaxDensity { get; }
 ref float NewStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float NewStart { get; }
 ref Color OldColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -96,7 +96,7 @@ ref Color OldColor { get; }
 ref float OldEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float OldEnd { get; }
 ref float OldFarZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float OldFarZ { get; }
 ref float OldHDRColorScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float OldHDRColorScale { get; }
 ref float OldMaxDensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float OldMaxDensity { get; }
 ref float OldStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float OldStart { get; }
 ref float TransitionTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetTextureAttribute
 public interface CUserMsg_ParticleManager_SetTextureAttribute : ITypedProtobuf<CUserMsg_ParticleManager_SetTextureAttribute>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetTextureAttribute : ITypedProtobuf<C
 string AttributeName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AttributeName { get; set; }
 string TextureName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

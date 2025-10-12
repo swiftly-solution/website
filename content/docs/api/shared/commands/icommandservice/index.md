@@ -14,11 +14,11 @@ public interface ICommandService
 Guid HookClientChat(ICommandService.ClientChatHandler handler)
 ```
 
-#### Parameters
+- Parameters
 
 - **handler**: [ICommandService](/docs/api/shared/commands/icommandservice).[ClientChatHandler](/docs/api/shared/commands/icommandservice/clientchathandler) - The handler callback for the client chat.
 
-#### Returns
+- Returns
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
 
@@ -28,7 +28,7 @@ Guid HookClientChat(ICommandService.ClientChatHandler handler)
 void HookClientCommand(ICommandService.ClientCommandHandler handler)
 ```
 
-#### Parameters
+- Parameters
 
 - **handler**: [ICommandService](/docs/api/shared/commands/icommandservice).[ClientCommandHandler](/docs/api/shared/commands/icommandservice/clientcommandhandler) - The handler callback for the client command.
 
@@ -38,14 +38,14 @@ void HookClientCommand(ICommandService.ClientCommandHandler handler)
 Guid RegisterCommand(string commandName, ICommandService.CommandListener handler, bool registerRaw = false, string permission = "")
 ```
 
-#### Parameters
+- Parameters
 
 - **commandName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The command name.
 - **handler**: [ICommandService](/docs/api/shared/commands/icommandservice).[CommandListener](/docs/api/shared/commands/icommandservice/commandlistener) - The handler callback for the command.
 - **registerRaw**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - If set to false, the command will not starts with a `sw_` prefix.
 - **permission**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The permission required to use the command.
 
-#### Returns
+- Returns
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The guid of the command.
 
@@ -55,7 +55,7 @@ Guid RegisterCommand(string commandName, ICommandService.CommandListener handler
 void RegisterCommandAlias(string commandName, string alias, bool registerRaw = false)
 ```
 
-#### Parameters
+- Parameters
 
 - **commandName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The command name.
 - **alias**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The alias.
@@ -67,7 +67,7 @@ void RegisterCommandAlias(string commandName, string alias, bool registerRaw = f
 void UnhookClientChat(Guid guid)
 ```
 
-#### Parameters
+- Parameters
 
 - **guid**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The guid of the client chat.
 
@@ -77,7 +77,7 @@ void UnhookClientChat(Guid guid)
 void UnhookClientCommand(Guid guid)
 ```
 
-#### Parameters
+- Parameters
 
 - **guid**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The guid of the client command.
 
@@ -87,7 +87,7 @@ void UnhookClientCommand(Guid guid)
 void UnregisterCommand(Guid guid)
 ```
 
-#### Parameters
+- Parameters
 
 - **guid**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The guid of the command.
 
@@ -97,7 +97,7 @@ void UnregisterCommand(Guid guid)
 void UnregisterCommand(string commandName)
 ```
 
-#### Parameters
+- Parameters
 
 - **commandName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The command name.
 

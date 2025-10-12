@@ -14,7 +14,7 @@ public interface IOnClientKeyStateChangedEvent
 KeyKind Key { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [KeyKind](/docs/api/shared/events/keykind)
 
@@ -24,7 +24,7 @@ KeyKind Key { get; }
 int PlayerId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -34,7 +34,7 @@ int PlayerId { get; }
 bool Pressed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

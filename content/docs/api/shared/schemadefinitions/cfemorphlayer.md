@@ -6,7 +6,7 @@ title: CFeMorphLayer
 public interface CFeMorphLayer : ISchemaClass<CFeMorphLayer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFeMorphLayer : ISchemaClass<CFeMorphLayer>, ISchemaField, ISch
 ref CUtlVector<float> GoalDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<float> GoalDamping { get; }
 ref CUtlVector<float> GoalStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<float> GoalStrength { get; }
 ref CUtlVector<float> Gravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<float> Gravity { get; }
 ref CUtlVector<Vector> InitPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<Vector> InitPos { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string Name { get; set; }
 ref uint NameHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ ref uint NameHash { get; }
 ref CUtlVector<ushort> Nodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 

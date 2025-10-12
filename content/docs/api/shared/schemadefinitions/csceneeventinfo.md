@@ -6,7 +6,7 @@ title: CSceneEventInfo
 public interface CSceneEventInfo : ISchemaClass<CSceneEventInfo>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSceneEventInfo : ISchemaClass<CSceneEventInfo>, ISchemaField, 
 ref bool ClientSide { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ClientSide { get; }
 ref bool HasArrived { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool HasArrived { get; }
 ref bool IsGesture { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IsGesture { get; }
 ref int Layer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int Layer { get; }
 GameTime_t Next { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -66,7 +66,7 @@ GameTime_t Next { get; }
 ref int Priority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int Priority { get; }
 SceneEventId_t SceneEventId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SceneEventId_t](/docs/api/shared/schemadefinitions/sceneeventid_t)
 
@@ -86,7 +86,7 @@ SceneEventId_t SceneEventId { get; }
 HSequence Sequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
@@ -96,7 +96,7 @@ HSequence Sequence { get; }
 ref bool ShouldRemove { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool ShouldRemove { get; }
 ref bool Started { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool Started { get; }
 ref CHandle<CBaseEntity> Target { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -126,7 +126,7 @@ ref CHandle<CBaseEntity> Target { get; }
 ref int Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int Type { get; }
 ref float Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

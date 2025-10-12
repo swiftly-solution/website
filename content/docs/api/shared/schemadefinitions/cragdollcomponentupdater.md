@@ -6,7 +6,7 @@ title: CRagdollComponentUpdater
 public interface CRagdollComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CRagdollComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRagdollComponentUpdater : CAnimComponentUpdater, ISchemaClass<
 ref CUtlVector<int> BoneIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<int> BoneIndices { get; }
 ref CUtlVector<CUtlString> BoneNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlString> BoneNames { get; }
 ref CUtlVector<int> BoneToWeightIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<int> BoneToWeightIndices { get; }
 ref CUtlVector FollowAttachmentNodePaths { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector FollowAttachmentNodePaths { get; }
 ref float MaxStretch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MaxStretch { get; }
 ref CUtlVector RagdollNodePaths { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector RagdollNodePaths { get; }
 ref bool SolidCollisionAtZeroWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool SolidCollisionAtZeroWeight { get; }
 ref float SpringFrequencyMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float SpringFrequencyMax { get; }
 ref float SpringFrequencyMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float SpringFrequencyMin { get; }
 ref CUtlVector WeightLists { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

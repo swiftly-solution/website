@@ -6,7 +6,7 @@ title: EventRepostXboxAchievements
 public interface EventRepostXboxAchievements : IGameEvent<EventRepostXboxAchievements>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventRepostXboxAchievements : IGameEvent<EventRepostXboxAchieve
 short SplitScreenPlayer { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

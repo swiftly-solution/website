@@ -6,7 +6,7 @@ title: CCLCMsg_ServerStatus
 public interface CCLCMsg_ServerStatus : ITypedProtobuf<CCLCMsg_ServerStatus>, INativeHandle, INetMessage<CCLCMsg_ServerStatus>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_ServerStatus : ITypedProtobuf<CCLCMsg_ServerStatus>, IN
 bool Simplified { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

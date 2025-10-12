@@ -6,7 +6,7 @@ title: ExtraVertexStreamOverride_t
 public interface ExtraVertexStreamOverride_t : BaseSceneObjectOverride_t, ISchemaClass<BaseSceneObjectOverride_t>, ISchemaClass<ExtraVertexStreamOverride_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ExtraVertexStreamOverride_t : BaseSceneObjectOverride_t, ISchem
 ref MeshDrawPrimitiveFlags_t AdditionalMeshDrawPrimitiveFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MeshDrawPrimitiveFlags_t](/docs/api/shared/schemadefinitions/meshdrawprimitiveflags_t)
 
@@ -26,7 +26,7 @@ ref MeshDrawPrimitiveFlags_t AdditionalMeshDrawPrimitiveFlags { get; }
 ref uint DrawCallIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint DrawCallIndex { get; }
 CRenderBufferBinding ExtraBufferBinding { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRenderBufferBinding](/docs/api/shared/schemadefinitions/crenderbufferbinding)
 
@@ -46,7 +46,7 @@ CRenderBufferBinding ExtraBufferBinding { get; }
 ref uint SubSceneObject { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

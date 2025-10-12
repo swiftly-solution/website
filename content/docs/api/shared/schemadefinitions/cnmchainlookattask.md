@@ -6,7 +6,7 @@ title: CNmChainLookatTask
 public interface CNmChainLookatTask : CNmPoseTask, ISchemaClass<CNmPoseTask>, ISchemaClass<CNmChainLookatTask>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmChainLookatTask : CNmPoseTask, ISchemaClass<CNmPoseTask>, IS
 ref float BlendWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BlendWeight { get; }
 ref int ChainEndBoneIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ChainEndBoneIdx { get; }
 ref Vector ChainForwardDir { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector ChainForwardDir { get; }
 ref float HorizontalAngleDegrees { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float HorizontalAngleDegrees { get; }
 ref float HorizontalAngleLimitDegrees { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float HorizontalAngleLimitDegrees { get; }
 ref bool IsRunningFromDeserializedData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool IsRunningFromDeserializedData { get; }
 ref bool IsTargetInWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool IsTargetInWorldSpace { get; }
 ref Vector LookatTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector LookatTarget { get; }
 ref int NumBonesInChain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int NumBonesInChain { get; }
 ref float VerticalAngleDegrees { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float VerticalAngleDegrees { get; }
 ref float VerticalAngleLimitDegrees { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

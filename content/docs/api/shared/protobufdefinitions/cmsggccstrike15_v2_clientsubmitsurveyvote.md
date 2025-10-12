@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientSubmitSurveyVote
 public interface CMsgGCCStrike15_v2_ClientSubmitSurveyVote : ITypedProtobuf<CMsgGCCStrike15_v2_ClientSubmitSurveyVote>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientSubmitSurveyVote : ITypedProtobuf<CMsg
 uint SurveyId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint SurveyId { get; set; }
 uint Vote { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

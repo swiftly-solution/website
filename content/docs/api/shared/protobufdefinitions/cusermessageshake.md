@@ -6,7 +6,7 @@ title: CUserMessageShake
 public interface CUserMessageShake : ITypedProtobuf<CUserMessageShake>, INativeHandle, INetMessage<CUserMessageShake>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageShake : ITypedProtobuf<CUserMessageShake>, INativeH
 float Amplitude { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float Amplitude { get; set; }
 uint Command { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Command { get; set; }
 float Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float Duration { get; set; }
 float Frequency { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

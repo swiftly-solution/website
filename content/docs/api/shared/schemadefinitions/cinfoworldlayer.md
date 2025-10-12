@@ -6,7 +6,7 @@ title: CInfoWorldLayer
 public interface CInfoWorldLayer : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CInfoWorldLayer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CInfoWorldLayer : CBaseEntity, CEntityInstance, ISchemaClass<CE
 ref bool CreateAsChildSpawnGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CreateAsChildSpawnGroup { get; }
 ref bool EntitiesSpawned { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool EntitiesSpawned { get; }
 string LayerName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string LayerName { get; set; }
 ref uint LayerSpawnGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ ref uint LayerSpawnGroup { get; }
 CEntityIOOutput OutputOnEntitiesSpawned { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -66,7 +66,7 @@ CEntityIOOutput OutputOnEntitiesSpawned { get; }
 ref bool WorldLayerVisible { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool WorldLayerVisible { get; }
 string WorldName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

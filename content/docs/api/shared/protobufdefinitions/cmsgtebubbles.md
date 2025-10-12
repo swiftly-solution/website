@@ -6,7 +6,7 @@ title: CMsgTEBubbles
 public interface CMsgTEBubbles : ITypedProtobuf<CMsgTEBubbles>, INativeHandle, INetMessage<CMsgTEBubbles>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEBubbles : ITypedProtobuf<CMsgTEBubbles>, INativeHandle, I
 uint Count { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Count { get; set; }
 float Height { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float Height { get; set; }
 Vector Maxs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ Vector Maxs { get; set; }
 Vector Mins { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ Vector Mins { get; set; }
 float Speed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

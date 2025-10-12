@@ -6,7 +6,7 @@ title: C_OP_VelocityDecay
 public interface C_OP_VelocityDecay : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_VelocityDecay>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_VelocityDecay : CParticleFunctionOperator, CParticleFuncti
 ref float MinVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

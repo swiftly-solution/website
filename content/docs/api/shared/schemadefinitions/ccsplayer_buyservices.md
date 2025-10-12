@@ -6,7 +6,7 @@ title: CCSPlayer_BuyServices
 public interface CCSPlayer_BuyServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CCSPlayer_BuyServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayer_BuyServices : CPlayerPawnComponent, ISchemaClass<CPla
 ref CUtlVector SellbackPurchaseEntries { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

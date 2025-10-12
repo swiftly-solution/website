@@ -6,7 +6,7 @@ title: CNETMsg_DebugOverlay
 public interface CNETMsg_DebugOverlay : ITypedProtobuf<CNETMsg_DebugOverlay>, INativeHandle, INetMessage<CNETMsg_DebugOverlay>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNETMsg_DebugOverlay : ITypedProtobuf<CNETMsg_DebugOverlay>, IN
 IProtobufRepeatedFieldValueType<bool> Bools { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<bool> Bools { get; }
 IProtobufRepeatedFieldValueType<Color> Colors { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[Color](/docs/api/shared/natives/color)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<Color> Colors { get; }
 IProtobufRepeatedFieldValueType<float> Dimensions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldValueType<float> Dimensions { get; }
 int Etype { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int Etype { get; set; }
 IProtobufRepeatedFieldValueType<string> Strings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
@@ -66,7 +66,7 @@ IProtobufRepeatedFieldValueType<string> Strings { get; }
 IProtobufRepeatedFieldValueType<float> Times { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldValueType<float> Times { get; }
 IProtobufRepeatedFieldValueType<ulong> Uint64s { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -86,7 +86,7 @@ IProtobufRepeatedFieldValueType<ulong> Uint64s { get; }
 IProtobufRepeatedFieldValueType<Vector> Vectors { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[Vector](/docs/api/shared/natives/vector)>
 

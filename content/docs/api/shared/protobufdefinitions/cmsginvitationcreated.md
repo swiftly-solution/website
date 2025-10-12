@@ -6,7 +6,7 @@ title: CMsgInvitationCreated
 public interface CMsgInvitationCreated : ITypedProtobuf<CMsgInvitationCreated>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgInvitationCreated : ITypedProtobuf<CMsgInvitationCreated>, 
 ulong GroupId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong GroupId { get; set; }
 ulong SteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

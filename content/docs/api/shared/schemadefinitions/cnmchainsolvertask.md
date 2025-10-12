@@ -6,7 +6,7 @@ title: CNmChainSolverTask
 public interface CNmChainSolverTask : CNmPoseTask, ISchemaClass<CNmPoseTask>, ISchemaClass<CNmChainSolverTask>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmChainSolverTask : CNmPoseTask, ISchemaClass<CNmPoseTask>, IS
 ref NmIKBlendMode_t BlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmIKBlendMode_t](/docs/api/shared/schemadefinitions/nmikblendmode_t)
 
@@ -26,7 +26,7 @@ ref NmIKBlendMode_t BlendMode { get; }
 ref float BlendWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float BlendWeight { get; }
 ref CTransform ChainStartTransformMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -46,7 +46,7 @@ ref CTransform ChainStartTransformMS { get; }
 ref CGlobalSymbol DebugEffectorBoneID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -56,7 +56,7 @@ ref CGlobalSymbol DebugEffectorBoneID { get; }
 ref CTransform DebugRequestedTargetTransformMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -66,7 +66,7 @@ ref CTransform DebugRequestedTargetTransformMS { get; }
 ref float DebugTotalChainLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float DebugTotalChainLength { get; }
 ref int EffectorBoneIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int EffectorBoneIdx { get; }
 CNmTarget EffectorTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmTarget](/docs/api/shared/schemadefinitions/cnmtarget)
 
@@ -96,7 +96,7 @@ CNmTarget EffectorTarget { get; }
 ref int EffectorTargetBoneIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int EffectorTargetBoneIdx { get; }
 ref bool IsRunningFromDeserializedData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool IsRunningFromDeserializedData { get; }
 ref bool IsTargetInWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool IsTargetInWorldSpace { get; }
 ref int NumBonesInChain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int NumBonesInChain { get; }
 ref CTransform TargetTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

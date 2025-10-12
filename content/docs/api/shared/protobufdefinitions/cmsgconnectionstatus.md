@@ -6,7 +6,7 @@ title: CMsgConnectionStatus
 public interface CMsgConnectionStatus : ITypedProtobuf<CMsgConnectionStatus>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgConnectionStatus : ITypedProtobuf<CMsgConnectionStatus>, IN
 uint ClientSessionNeed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ClientSessionNeed { get; set; }
 int EstimatedWaitSecondsRemaining { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int EstimatedWaitSecondsRemaining { get; set; }
 int QueuePosition { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int QueuePosition { get; set; }
 int QueueSize { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int QueueSize { get; set; }
 GCConnectionStatus Status { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GCConnectionStatus](/docs/api/shared/protobufdefinitions/gcconnectionstatus)
 
@@ -66,7 +66,7 @@ GCConnectionStatus Status { get; set; }
 int WaitSeconds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

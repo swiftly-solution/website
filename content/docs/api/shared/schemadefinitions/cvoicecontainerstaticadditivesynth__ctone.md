@@ -6,7 +6,7 @@ title: CVoiceContainerStaticAdditiveSynth__CTone
 public interface CVoiceContainerStaticAdditiveSynth__CTone : ISchemaClass<CVoiceContainerStaticAdditiveSynth__CTone>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerStaticAdditiveSynth__CTone : ISchemaClass<CVoice
 SchemaUntypedField Curve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Curve { get; }
 ref CUtlVector Harmonics { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector Harmonics { get; }
 ref bool SyncInstances { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

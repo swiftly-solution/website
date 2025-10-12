@@ -6,7 +6,7 @@ title: CPulseCell_Outflow_ListenForAnimgraphTag
 public interface CPulseCell_Outflow_ListenForAnimgraphTag : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_Outflow_ListenForAnimgraphTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Outflow_ListenForAnimgraphTag : CPulseCell_BaseYield
 CPulse_ResumePoint OnCanceled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -26,7 +26,7 @@ CPulse_ResumePoint OnCanceled { get; }
 CPulse_ResumePoint OnEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -36,7 +36,7 @@ CPulse_ResumePoint OnEnd { get; }
 CPulse_ResumePoint OnStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -46,7 +46,7 @@ CPulse_ResumePoint OnStart { get; }
 ref CGlobalSymbol TagName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

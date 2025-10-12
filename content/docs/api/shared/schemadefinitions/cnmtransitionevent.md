@@ -6,7 +6,7 @@ title: CNmTransitionEvent
 public interface CNmTransitionEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmTransitionEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmTransitionEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaC
 ref CGlobalSymbol ID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -26,7 +26,7 @@ ref CGlobalSymbol ID { get; }
 ref NmTransitionRule_t Rule { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmTransitionRule_t](/docs/api/shared/schemadefinitions/nmtransitionrule_t)
 

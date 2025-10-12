@@ -6,7 +6,7 @@ title: RnSoftbodyParticle_t
 public interface RnSoftbodyParticle_t : ISchemaClass<RnSoftbodyParticle_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnSoftbodyParticle_t : ISchemaClass<RnSoftbodyParticle_t>, ISch
 ref float MassInv { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

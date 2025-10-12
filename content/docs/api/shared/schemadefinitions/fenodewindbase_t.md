@@ -6,7 +6,7 @@ title: FeNodeWindBase_t
 public interface FeNodeWindBase_t : ISchemaClass<FeNodeWindBase_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeNodeWindBase_t : ISchemaClass<FeNodeWindBase_t>, ISchemaField
 ref ushort NodeX0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort NodeX0 { get; }
 ref ushort NodeX1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort NodeX1 { get; }
 ref ushort NodeY0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort NodeY0 { get; }
 ref ushort NodeY1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

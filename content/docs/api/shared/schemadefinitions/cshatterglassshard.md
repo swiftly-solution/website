@@ -6,7 +6,7 @@ title: CShatterGlassShard
 public interface CShatterGlassShard : ISchemaClass<CShatterGlassShard>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CShatterGlassShard : ISchemaClass<CShatterGlassShard>, ISchemaF
 ref float Area { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Area { get; }
 ref Vector2D AverageVertPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -36,7 +36,7 @@ ref Vector2D AverageVertPosition { get; }
 ref bool AverageVertPositionIsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool AverageVertPositionIsValid { get; }
 ref bool CreatedModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool CreatedModel { get; }
 ref CHandle<CBaseEntity> EntityHittingMe { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -66,7 +66,7 @@ ref CHandle<CBaseEntity> EntityHittingMe { get; }
 ref bool FlaggedForRemoval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool FlaggedForRemoval { get; }
 ref Vector2D LocalPanelSpaceOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -86,7 +86,7 @@ ref Vector2D LocalPanelSpaceOrigin { get; }
 ref float LongestAcross { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float LongestAcross { get; }
 ref float LongestEdge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float LongestEdge { get; }
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
@@ -116,7 +116,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 ref CUtlVector<uint> Neighbors { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -126,7 +126,7 @@ ref CUtlVector<uint> Neighbors { get; }
 ref OnFrame OnFrameEdge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [OnFrame](/docs/api/shared/schemadefinitions/onframe)
 
@@ -136,7 +136,7 @@ ref OnFrame OnFrameEdge { get; }
 ref Vector2D PanelSpaceStressPositionA { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -146,7 +146,7 @@ ref Vector2D PanelSpaceStressPositionA { get; }
 ref Vector2D PanelSpaceStressPositionB { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -156,7 +156,7 @@ ref Vector2D PanelSpaceStressPositionB { get; }
 ref CUtlVector<Vector2D> PanelVertices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector2D](/docs/api/shared/natives/vector2d)>
 
@@ -166,7 +166,7 @@ ref CUtlVector<Vector2D> PanelVertices { get; }
 ref CHandle<CFuncShatterglass> ParentPanel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CFuncShatterglass](/docs/api/shared/schemadefinitions/cfuncshatterglass)>
 
@@ -176,7 +176,7 @@ ref CHandle<CFuncShatterglass> ParentPanel { get; }
 ref uint ParentShard { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -186,7 +186,7 @@ ref uint ParentShard { get; }
 ref CHandle<CShatterGlassShardPhysics> PhysicsEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CShatterGlassShardPhysics](/docs/api/shared/schemadefinitions/cshatterglassshardphysics)>
 
@@ -196,7 +196,7 @@ ref CHandle<CShatterGlassShardPhysics> PhysicsEntity { get; }
 GameTime_t PhysicsEntitySpawnedAtTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -206,7 +206,7 @@ GameTime_t PhysicsEntitySpawnedAtTime { get; }
 ref uint ShardHandle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -216,7 +216,7 @@ ref uint ShardHandle { get; }
 ref ShatterGlassStressType ShatterStressType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ShatterGlassStressType](/docs/api/shared/schemadefinitions/shatterglassstresstype)
 
@@ -226,7 +226,7 @@ ref ShatterGlassStressType ShatterStressType { get; }
 ref float ShortestAcross { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float ShortestAcross { get; }
 ref float ShortestEdge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -246,7 +246,7 @@ ref float ShortestEdge { get; }
 ref bool StressPositionAIsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -256,7 +256,7 @@ ref bool StressPositionAIsValid { get; }
 ref bool StressPositionBIsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -266,7 +266,7 @@ ref bool StressPositionBIsValid { get; }
 ref Vector StressVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -276,7 +276,7 @@ ref Vector StressVelocity { get; }
 ref int SubShardGeneration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -286,7 +286,7 @@ ref int SubShardGeneration { get; }
 ref float SumOfAllEdges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

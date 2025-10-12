@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Client2GCTextMsg
 public interface CMsgGCCStrike15_v2_Client2GCTextMsg : ITypedProtobuf<CMsgGCCStrike15_v2_Client2GCTextMsg>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Client2GCTextMsg : ITypedProtobuf<CMsgGCCStr
 IProtobufRepeatedFieldValueType<byte[]> Args { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<byte[]> Args { get; }
 uint Id { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

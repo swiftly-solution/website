@@ -6,7 +6,7 @@ title: NmPercent_t
 public interface NmPercent_t : ISchemaClass<NmPercent_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NmPercent_t : ISchemaClass<NmPercent_t>, ISchemaField, ISchemaC
 ref float Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

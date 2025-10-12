@@ -6,7 +6,7 @@ title: CAnimScriptComponentUpdater
 public interface CAnimScriptComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CAnimScriptComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimScriptComponentUpdater : CAnimComponentUpdater, ISchemaCla
 AnimScriptHandle Script { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimScriptHandle](/docs/api/shared/schemadefinitions/animscripthandle)
 

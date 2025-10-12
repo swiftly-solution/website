@@ -6,7 +6,7 @@ title: CTeam
 public interface CTeam : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CTeam>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTeam : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInsta
 ref CUtlVector<CHandle<CBasePlayerController>> PlayerControllers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerController](/docs/api/shared/schemadefinitions/cbaseplayercontroller)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CHandle<CBasePlayerController>> PlayerControllers { get; }
 ref CUtlVector<CHandle<CBasePlayerPawn>> Players { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CHandle<CBasePlayerPawn>> Players { get; }
 ref int Score { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int Score { get; }
 string Teamname { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: C_OP_RenderOmni2Light
 public interface C_OP_RenderOmni2Light : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderOmni2Light>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderOmni2Light : CParticleFunctionRenderer, CParticleFun
 CPerParticleFloatInput BrightnessCandelas { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -26,7 +26,7 @@ CPerParticleFloatInput BrightnessCandelas { get; }
 CPerParticleFloatInput BrightnessLumens { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -36,7 +36,7 @@ CPerParticleFloatInput BrightnessLumens { get; }
 ref ParticleLightUnitChoiceList_t BrightnessUnit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleLightUnitChoiceList_t](/docs/api/shared/schemadefinitions/particlelightunitchoicelist_t)
 
@@ -46,7 +46,7 @@ ref ParticleLightUnitChoiceList_t BrightnessUnit { get; }
 ref bool CastShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool CastShadows { get; }
 CParticleCollectionVecInput ColorBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionVecInput ColorBlend { get; }
 ref ParticleColorBlendType_t ColorBlendType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
@@ -76,7 +76,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 ref bool Fog { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool Fog { get; }
 CPerParticleFloatInput FogScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -96,7 +96,7 @@ CPerParticleFloatInput FogScale { get; }
 CPerParticleFloatInput InnerConeAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -106,7 +106,7 @@ CPerParticleFloatInput InnerConeAngle { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> LightCookie { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -116,7 +116,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> LightCookie { get; }
 ref ParticleOmni2LightTypeChoiceList_t LightType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleOmni2LightTypeChoiceList_t](/docs/api/shared/schemadefinitions/particleomni2lighttypechoicelist_t)
 
@@ -126,7 +126,7 @@ ref ParticleOmni2LightTypeChoiceList_t LightType { get; }
 CPerParticleFloatInput LuminaireRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -136,7 +136,7 @@ CPerParticleFloatInput LuminaireRadius { get; }
 CPerParticleFloatInput OuterConeAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -146,7 +146,7 @@ CPerParticleFloatInput OuterConeAngle { get; }
 CPerParticleFloatInput Range { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -156,7 +156,7 @@ CPerParticleFloatInput Range { get; }
 CPerParticleFloatInput Skirt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -166,7 +166,7 @@ CPerParticleFloatInput Skirt { get; }
 ref bool SphericalCookie { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

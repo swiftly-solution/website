@@ -6,7 +6,7 @@ title: CPlayer_MovementServices
 public interface CPlayer_MovementServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_MovementServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPlayer_MovementServices : CPlayerPawnComponent, ISchemaClass<C
 ref ulong ButtonDoublePressed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ref ulong ButtonDoublePressed { get; }
 ISchemaFixedArray<uint> ButtonPressedCmdNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<uint> ButtonPressedCmdNumber { get; }
 CInButtonState Buttons { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CInButtonState](/docs/api/shared/schemadefinitions/cinbuttonstate)
 
@@ -46,7 +46,7 @@ CInButtonState Buttons { get; }
 ISchemaFixedArray<float> ForceSubtickMoveWhen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -56,7 +56,7 @@ ISchemaFixedArray<float> ForceSubtickMoveWhen { get; }
 ref float ForwardMove { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float ForwardMove { get; }
 ref int Impulse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int Impulse { get; }
 ref uint LastCommandNumberProcessed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ ref uint LastCommandNumberProcessed { get; }
 ref Vector LastMovementImpulses { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector LastMovementImpulses { get; }
 ref float LeftMove { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float LeftMove { get; }
 ref float Maxspeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float Maxspeed { get; }
 ref QAngle OldViewAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -126,7 +126,7 @@ ref QAngle OldViewAngles { get; }
 ref ulong QueuedButtonChangeMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -136,7 +136,7 @@ ref ulong QueuedButtonChangeMask { get; }
 ref ulong QueuedButtonDownMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -146,7 +146,7 @@ ref ulong QueuedButtonDownMask { get; }
 ref ulong ToggleButtonDownMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -156,7 +156,7 @@ ref ulong ToggleButtonDownMask { get; }
 ref float UpMove { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CCSUsrMsg_MatchStatsUpdate
 public interface CCSUsrMsg_MatchStatsUpdate : ITypedProtobuf<CCSUsrMsg_MatchStatsUpdate>, INativeHandle, INetMessage<CCSUsrMsg_MatchStatsUpdate>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_MatchStatsUpdate : ITypedProtobuf<CCSUsrMsg_MatchStat
 string Update { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

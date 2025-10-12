@@ -6,7 +6,7 @@ title: RnFace_t
 public interface RnFace_t : ISchemaClass<RnFace_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnFace_t : ISchemaClass<RnFace_t>, ISchemaField, ISchemaClass, 
 ref byte Edge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

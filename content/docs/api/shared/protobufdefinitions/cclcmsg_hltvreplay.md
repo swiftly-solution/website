@@ -6,7 +6,7 @@ title: CCLCMsg_HltvReplay
 public interface CCLCMsg_HltvReplay : ITypedProtobuf<CCLCMsg_HltvReplay>, INativeHandle, INetMessage<CCLCMsg_HltvReplay>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_HltvReplay : ITypedProtobuf<CCLCMsg_HltvReplay>, INativ
 float EventTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float EventTime { get; set; }
 int PrimaryTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int PrimaryTarget { get; set; }
 int Request { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Request { get; set; }
 float SlowdownLength { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ float SlowdownLength { get; set; }
 float SlowdownRate { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

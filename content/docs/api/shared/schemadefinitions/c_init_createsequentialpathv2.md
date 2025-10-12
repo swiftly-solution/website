@@ -6,7 +6,7 @@ title: C_INIT_CreateSequentialPathV2
 public interface C_INIT_CreateSequentialPathV2 : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_CreateSequentialPathV2>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_CreateSequentialPathV2 : CParticleFunctionInitializer, C
 ref bool CPPairs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CPPairs { get; }
 ref bool Loop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Loop { get; }
 CPerParticleFloatInput MaxDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -46,7 +46,7 @@ CPerParticleFloatInput MaxDistance { get; }
 CParticleCollectionFloatInput NumToAssign { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -56,7 +56,7 @@ CParticleCollectionFloatInput NumToAssign { get; }
 CPathParameters PathParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathParameters](/docs/api/shared/schemadefinitions/cpathparameters)
 
@@ -66,7 +66,7 @@ CPathParameters PathParams { get; }
 ref bool SaveOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

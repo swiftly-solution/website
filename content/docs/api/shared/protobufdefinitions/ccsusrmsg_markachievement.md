@@ -6,7 +6,7 @@ title: CCSUsrMsg_MarkAchievement
 public interface CCSUsrMsg_MarkAchievement : ITypedProtobuf<CCSUsrMsg_MarkAchievement>, INativeHandle, INetMessage<CCSUsrMsg_MarkAchievement>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_MarkAchievement : ITypedProtobuf<CCSUsrMsg_MarkAchiev
 string Achievement { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CMsgTEDecal
 public interface CMsgTEDecal : ITypedProtobuf<CMsgTEDecal>, INativeHandle, INetMessage<CMsgTEDecal>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEDecal : ITypedProtobuf<CMsgTEDecal>, INativeHandle, INetM
 int Entity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Entity { get; set; }
 uint Hitbox { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Hitbox { get; set; }
 uint Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Index { get; set; }
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ Vector Origin { get; set; }
 Vector Start { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

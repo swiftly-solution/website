@@ -6,7 +6,7 @@ title: CCommunity_GetGamePersonalDataCategories_Request
 public interface CCommunity_GetGamePersonalDataCategories_Request : ITypedProtobuf<CCommunity_GetGamePersonalDataCategories_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCommunity_GetGamePersonalDataCategories_Request : ITypedProtob
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

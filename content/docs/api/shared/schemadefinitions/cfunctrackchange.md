@@ -6,7 +6,7 @@ title: CFuncTrackChange
 public interface CFuncTrackChange : CFuncPlatRot, CFuncPlat, CBasePlatTrain, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBasePlatTrain>, ISchemaClass<CFuncPlat>, ISchemaClass<CFuncPlatRot>, ISchemaClass<CFuncTrackChange>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFuncTrackChange : CFuncPlatRot, CFuncPlat, CBasePlatTrain, CBa
 ref TRAIN_CODE Code { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TRAIN_CODE](/docs/api/shared/schemadefinitions/train_code)
 
@@ -26,7 +26,7 @@ ref TRAIN_CODE Code { get; }
 ref int TargetState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int TargetState { get; }
 CPathTrack? TrackBottom { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)?
 
@@ -46,7 +46,7 @@ CPathTrack? TrackBottom { get; }
 string TrackBottomName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string TrackBottomName { get; set; }
 CPathTrack? TrackTop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)?
 
@@ -66,7 +66,7 @@ CPathTrack? TrackTop { get; }
 string TrackTopName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string TrackTopName { get; set; }
 CFuncTrackTrain? Train { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFuncTrackTrain](/docs/api/shared/schemadefinitions/cfunctracktrain)?
 
@@ -86,7 +86,7 @@ CFuncTrackTrain? Train { get; }
 string TrainName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string TrainName { get; set; }
 ref int Use { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

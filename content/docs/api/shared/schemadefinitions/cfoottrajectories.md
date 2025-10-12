@@ -6,7 +6,7 @@ title: CFootTrajectories
 public interface CFootTrajectories : ISchemaClass<CFootTrajectories>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFootTrajectories : ISchemaClass<CFootTrajectories>, ISchemaFie
 ref CUtlVector Trajectories { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

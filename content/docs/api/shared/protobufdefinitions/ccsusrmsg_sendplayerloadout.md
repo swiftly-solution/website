@@ -6,7 +6,7 @@ title: CCSUsrMsg_SendPlayerLoadout
 public interface CCSUsrMsg_SendPlayerLoadout : ITypedProtobuf<CCSUsrMsg_SendPlayerLoadout>, INativeHandle, INetMessage<CCSUsrMsg_SendPlayerLoadout>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SendPlayerLoadout : ITypedProtobuf<CCSUsrMsg_SendPlay
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SendPlayerLoadout_LoadoutItem> Loadout { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_SendPlayerLoadout_LoadoutItem](/docs/api/shared/protobufdefinitions/ccsusrmsg_sendplayerloadout_loadoutitem)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_SendPlayerLoadout_LoadoutItem> Lo
 int Playerslot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

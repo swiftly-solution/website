@@ -6,7 +6,7 @@ title: CCSGameRulesProxy
 public interface CCSGameRulesProxy : CGameRulesProxy, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CGameRulesProxy>, ISchemaClass<CCSGameRulesProxy>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSGameRulesProxy : CGameRulesProxy, CBaseEntity, CEntityInstan
 CCSGameRules? GameRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSGameRules](/docs/api/shared/schemadefinitions/ccsgamerules)?
 

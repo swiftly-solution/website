@@ -6,7 +6,7 @@ title: RsStencilStateDesc_t
 public interface RsStencilStateDesc_t : ISchemaClass<RsStencilStateDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RsStencilStateDesc_t : ISchemaClass<RsStencilStateDesc_t>, ISch
 SchemaUntypedField BackStencilDepthFailOp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField BackStencilDepthFailOp { get; }
 SchemaUntypedField BackStencilFailOp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField BackStencilFailOp { get; }
 SchemaUntypedField BackStencilFunc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField BackStencilFunc { get; }
 SchemaUntypedField BackStencilPassOp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField BackStencilPassOp { get; }
 SchemaUntypedField FrontStencilDepthFailOp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -66,7 +66,7 @@ SchemaUntypedField FrontStencilDepthFailOp { get; }
 SchemaUntypedField FrontStencilFailOp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField FrontStencilFailOp { get; }
 SchemaUntypedField FrontStencilFunc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -86,7 +86,7 @@ SchemaUntypedField FrontStencilFunc { get; }
 SchemaUntypedField FrontStencilPassOp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -96,7 +96,7 @@ SchemaUntypedField FrontStencilPassOp { get; }
 SchemaUntypedField StencilEnable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -106,7 +106,7 @@ SchemaUntypedField StencilEnable { get; }
 ref byte StencilReadMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -116,7 +116,7 @@ ref byte StencilReadMask { get; }
 ref byte StencilWriteMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

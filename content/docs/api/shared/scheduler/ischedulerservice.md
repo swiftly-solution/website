@@ -14,12 +14,12 @@ public interface ISchedulerService
 CancellationTokenSource Delay(int delayTick, Action task)
 ```
 
-#### Parameters
+- Parameters
 
 - **delayTick**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The delay of the timer in ticks.
 - **task**: [Action](https://learn.microsoft.com/dotnet/api/system.action) - The task to execute.
 
-#### Returns
+- Returns
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
@@ -29,13 +29,13 @@ CancellationTokenSource Delay(int delayTick, Action task)
 CancellationTokenSource DelayAndRepeat(int delayTick, int periodTick, Action task)
 ```
 
-#### Parameters
+- Parameters
 
 - **delayTick**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The delay of the timer in ticks.
 - **periodTick**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The period of the timer in ticks.
 - **task**: [Action](https://learn.microsoft.com/dotnet/api/system.action) - The task to execute.
 
-#### Returns
+- Returns
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
@@ -45,13 +45,13 @@ CancellationTokenSource DelayAndRepeat(int delayTick, int periodTick, Action tas
 CancellationTokenSource DelayAndRepeatBySeconds(float delaySeconds, float periodSeconds, Action task)
 ```
 
-#### Parameters
+- Parameters
 
 - **delaySeconds**: [float](https://learn.microsoft.com/dotnet/api/system.single) - The delay of the timer in seconds.
 - **periodSeconds**: [float](https://learn.microsoft.com/dotnet/api/system.single) - The period of the timer in seconds.
 - **task**: [Action](https://learn.microsoft.com/dotnet/api/system.action) - The task to execute.
 
-#### Returns
+- Returns
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
@@ -61,12 +61,12 @@ CancellationTokenSource DelayAndRepeatBySeconds(float delaySeconds, float period
 CancellationTokenSource DelayBySeconds(float delaySeconds, Action task)
 ```
 
-#### Parameters
+- Parameters
 
 - **delaySeconds**: [float](https://learn.microsoft.com/dotnet/api/system.single) - The delay of the timer in seconds.
 - **task**: [Action](https://learn.microsoft.com/dotnet/api/system.action) - The task to execute.
 
-#### Returns
+- Returns
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
@@ -76,7 +76,7 @@ CancellationTokenSource DelayBySeconds(float delaySeconds, Action task)
 void NextTick(Action task)
 ```
 
-#### Parameters
+- Parameters
 
 - **task**: [Action](https://learn.microsoft.com/dotnet/api/system.action) - The task to execute.
 
@@ -86,12 +86,12 @@ void NextTick(Action task)
 CancellationTokenSource Repeat(int periodTick, Action task)
 ```
 
-#### Parameters
+- Parameters
 
 - **periodTick**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The period of the timer in ticks.
 - **task**: [Action](https://learn.microsoft.com/dotnet/api/system.action) - The task to execute.
 
-#### Returns
+- Returns
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
@@ -101,12 +101,12 @@ CancellationTokenSource Repeat(int periodTick, Action task)
 CancellationTokenSource RepeatBySeconds(float periodSeconds, Action task)
 ```
 
-#### Parameters
+- Parameters
 
 - **periodSeconds**: [float](https://learn.microsoft.com/dotnet/api/system.single) - The period of the timer in seconds.
 - **task**: [Action](https://learn.microsoft.com/dotnet/api/system.action) - The task to execute.
 
-#### Returns
+- Returns
 
 - [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - A CancellationTokenSource that can be used to cancel the timer.
 
@@ -116,7 +116,7 @@ CancellationTokenSource RepeatBySeconds(float periodSeconds, Action task)
 void StopOnMapChange(CancellationTokenSource cts)
 ```
 
-#### Parameters
+- Parameters
 
 - **cts**: [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource) - The CancellationTokenSource to stop.
 

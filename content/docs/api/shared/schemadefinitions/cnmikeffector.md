@@ -6,7 +6,7 @@ title: CNmIKEffector
 public interface CNmIKEffector : ISchemaClass<CNmIKEffector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmIKEffector : ISchemaClass<CNmIKEffector>, ISchemaField, ISch
 ref int BodyIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int BodyIndex { get; }
 ref bool Enabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Enabled { get; }
 ref Quaternion TargetOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -46,7 +46,7 @@ ref Quaternion TargetOrientation { get; }
 ref Vector TargetPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector TargetPosition { get; }
 ref float Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

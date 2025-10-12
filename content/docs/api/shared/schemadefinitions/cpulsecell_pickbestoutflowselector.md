@@ -6,7 +6,7 @@ title: CPulseCell_PickBestOutflowSelector
 public interface CPulseCell_PickBestOutflowSelector : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_PickBestOutflowSelector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_PickBestOutflowSelector : CPulseCell_BaseFlow, CPuls
 ref PulseBestOutflowRules_t CheckType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseBestOutflowRules_t](/docs/api/shared/schemadefinitions/pulsebestoutflowrules_t)
 
@@ -26,7 +26,7 @@ ref PulseBestOutflowRules_t CheckType { get; }
 PulseSelectorOutflowList_t OutflowList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseSelectorOutflowList_t](/docs/api/shared/schemadefinitions/pulseselectoroutflowlist_t)
 

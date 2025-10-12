@@ -6,7 +6,7 @@ title: CMsgTESmoke
 public interface CMsgTESmoke : ITypedProtobuf<CMsgTESmoke>, INativeHandle, INetMessage<CMsgTESmoke>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTESmoke : ITypedProtobuf<CMsgTESmoke>, INativeHandle, INetM
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ Vector Origin { get; set; }
 float Scale { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

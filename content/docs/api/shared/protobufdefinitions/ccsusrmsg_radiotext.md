@@ -6,7 +6,7 @@ title: CCSUsrMsg_RadioText
 public interface CCSUsrMsg_RadioText : ITypedProtobuf<CCSUsrMsg_RadioText>, INativeHandle, INetMessage<CCSUsrMsg_RadioText>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_RadioText : ITypedProtobuf<CCSUsrMsg_RadioText>, INat
 int Client { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Client { get; set; }
 int MsgDst { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int MsgDst { get; set; }
 string MsgName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string MsgName { get; set; }
 IProtobufRepeatedFieldValueType<string> Params { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 

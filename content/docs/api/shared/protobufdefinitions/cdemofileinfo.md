@@ -6,7 +6,7 @@ title: CDemoFileInfo
 public interface CDemoFileInfo : ITypedProtobuf<CDemoFileInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoFileInfo : ITypedProtobuf<CDemoFileInfo>, INativeHandle
 CGameInfo GameInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGameInfo](/docs/api/shared/protobufdefinitions/cgameinfo)
 
@@ -26,7 +26,7 @@ CGameInfo GameInfo { get; }
 int PlaybackFrames { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int PlaybackFrames { get; set; }
 int PlaybackTicks { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int PlaybackTicks { get; set; }
 float PlaybackTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

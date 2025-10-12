@@ -6,7 +6,7 @@ title: CMsgUpdateItemSchema
 public interface CMsgUpdateItemSchema : ITypedProtobuf<CMsgUpdateItemSchema>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgUpdateItemSchema : ITypedProtobuf<CMsgUpdateItemSchema>, IN
 uint ItemSchemaVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ItemSchemaVersion { get; set; }
 byte[] ItemsGame { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -36,7 +36,7 @@ byte[] ItemsGame { get; set; }
 string ItemsGameUrl { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

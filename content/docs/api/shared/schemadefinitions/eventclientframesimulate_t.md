@@ -6,7 +6,7 @@ title: EventClientFrameSimulate_t
 public interface EventClientFrameSimulate_t : ISchemaClass<EventClientFrameSimulate_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventClientFrameSimulate_t : ISchemaClass<EventClientFrameSimul
 ref float FrameTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float FrameTime { get; }
 EngineLoopState_t LoopState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
@@ -36,7 +36,7 @@ EngineLoopState_t LoopState { get; }
 ref float RealTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float RealTime { get; }
 ref bool ScheduleSendTickPacket { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CSequenceUpdateNode
 public interface CSequenceUpdateNode : CSequenceUpdateNodeBase, CLeafUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CLeafUpdateNode>, ISchemaClass<CSequenceUpdateNodeBase>, ISchemaClass<CSequenceUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSequenceUpdateNode : CSequenceUpdateNodeBase, CLeafUpdateNode,
 ref float Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Duration { get; }
 CParamSpanUpdater ParamSpans { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParamSpanUpdater](/docs/api/shared/schemadefinitions/cparamspanupdater)
 
@@ -36,7 +36,7 @@ CParamSpanUpdater ParamSpans { get; }
 HSequence Sequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
@@ -46,7 +46,7 @@ HSequence Sequence { get; }
 ref CUtlVector Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

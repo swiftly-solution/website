@@ -6,7 +6,7 @@ title: C_OP_MoveToHitbox
 public interface C_OP_MoveToHitbox : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_MoveToHitbox>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_MoveToHitbox : CParticleFunctionOperator, CParticleFunctio
 string HitboxSetName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string HitboxSetName { get; set; }
 CPerParticleFloatInput Interpolation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -36,7 +36,7 @@ CPerParticleFloatInput Interpolation { get; }
 ref HitboxLerpType_t LerpType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HitboxLerpType_t](/docs/api/shared/schemadefinitions/hitboxlerptype_t)
 
@@ -46,7 +46,7 @@ ref HitboxLerpType_t LerpType { get; }
 ref float LifeTimeLerpEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float LifeTimeLerpEnd { get; }
 ref float LifeTimeLerpStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float LifeTimeLerpStart { get; }
 CParticleModelInput ModelInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleModelInput](/docs/api/shared/schemadefinitions/cparticlemodelinput)
 
@@ -76,7 +76,7 @@ CParticleModelInput ModelInput { get; }
 ref float PrevPosScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float PrevPosScale { get; }
 CParticleTransformInput TransformInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 
@@ -96,7 +96,7 @@ CParticleTransformInput TransformInput { get; }
 ref bool UseBones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: EventServerCvar
 public interface EventServerCvar : IGameEvent<EventServerCvar>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventServerCvar : IGameEvent<EventServerCvar>
 string CVarName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string CVarName { get; set; }
 string CVarValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

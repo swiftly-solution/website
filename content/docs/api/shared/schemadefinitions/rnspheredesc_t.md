@@ -6,7 +6,7 @@ title: RnSphereDesc_t
 public interface RnSphereDesc_t : RnShapeDesc_t, ISchemaClass<RnShapeDesc_t>, ISchemaClass<RnSphereDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnSphereDesc_t : RnShapeDesc_t, ISchemaClass<RnShapeDesc_t>, IS
 SchemaUntypedField Sphere { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

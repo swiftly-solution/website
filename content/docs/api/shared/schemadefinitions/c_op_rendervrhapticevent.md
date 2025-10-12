@@ -6,7 +6,7 @@ title: C_OP_RenderVRHapticEvent
 public interface C_OP_RenderVRHapticEvent : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderVRHapticEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderVRHapticEvent : CParticleFunctionRenderer, CParticle
 CPerParticleFloatInput Amplitude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -26,7 +26,7 @@ CPerParticleFloatInput Amplitude { get; }
 ref ParticleVRHandChoiceList_t Hand { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleVRHandChoiceList_t](/docs/api/shared/schemadefinitions/particlevrhandchoicelist_t)
 
@@ -36,7 +36,7 @@ ref ParticleVRHandChoiceList_t Hand { get; }
 ref int OutputField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int OutputField { get; }
 ref int OutputHandCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

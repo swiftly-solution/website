@@ -6,7 +6,7 @@ title: EngineLoopState_t
 public interface EngineLoopState_t : ISchemaClass<EngineLoopState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EngineLoopState_t : ISchemaClass<EngineLoopState_t>, ISchemaFie
 ref int PlatWindowHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int PlatWindowHeight { get; }
 ref int PlatWindowWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int PlatWindowWidth { get; }
 ref int RenderHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int RenderHeight { get; }
 ref int RenderWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

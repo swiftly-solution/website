@@ -6,7 +6,7 @@ title: CVoiceContainerRealtimeFMSineWave
 public interface CVoiceContainerRealtimeFMSineWave : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerRealtimeFMSineWave>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerRealtimeFMSineWave : CVoiceContainerBase, ISchem
 ref float CarrierFrequency { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float CarrierFrequency { get; }
 ref float ModulatorAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float ModulatorAmount { get; }
 ref float ModulatorFrequency { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

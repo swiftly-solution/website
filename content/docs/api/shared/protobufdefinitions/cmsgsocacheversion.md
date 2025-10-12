@@ -6,7 +6,7 @@ title: CMsgSOCacheVersion
 public interface CMsgSOCacheVersion : ITypedProtobuf<CMsgSOCacheVersion>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOCacheVersion : ITypedProtobuf<CMsgSOCacheVersion>, INativ
 ulong Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

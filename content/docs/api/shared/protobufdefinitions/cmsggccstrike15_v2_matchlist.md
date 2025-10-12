@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchList
 public interface CMsgGCCStrike15_v2_MatchList : ITypedProtobuf<CMsgGCCStrike15_v2_MatchList>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchList : ITypedProtobuf<CMsgGCCStrike15_v
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_MatchInfo> Matches { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDataGCCStrike15_v2_MatchInfo](/docs/api/shared/protobufdefinitions/cdatagccstrike15_v2_matchinfo)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_MatchInfo> Matches { ge
 uint Msgrequestid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Msgrequestid { get; set; }
 uint Servertime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint Servertime { get; set; }
 IProtobufRepeatedFieldSubMessageType<TournamentTeam> Streams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[TournamentTeam](/docs/api/shared/protobufdefinitions/tournamentteam)>
 
@@ -66,7 +66,7 @@ IProtobufRepeatedFieldSubMessageType<TournamentTeam> Streams { get; }
 CDataGCCStrike15_v2_TournamentInfo Tournamentinfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CDataGCCStrike15_v2_TournamentInfo](/docs/api/shared/protobufdefinitions/cdatagccstrike15_v2_tournamentinfo)
 

@@ -6,7 +6,7 @@ title: CMsgServerUserCmd
 public interface CMsgServerUserCmd : ITypedProtobuf<CMsgServerUserCmd>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgServerUserCmd : ITypedProtobuf<CMsgServerUserCmd>, INativeH
 int ClientTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ClientTick { get; set; }
 int CmdNumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int CmdNumber { get; set; }
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -46,7 +46,7 @@ byte[] Data { get; set; }
 int PlayerSlot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int PlayerSlot { get; set; }
 int ServerTickExecuted { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

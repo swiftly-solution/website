@@ -6,7 +6,7 @@ title: CPulseCell_WaitForCursorsWithTagBase
 public interface CPulseCell_WaitForCursorsWithTagBase : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_WaitForCursorsWithTagBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_WaitForCursorsWithTagBase : CPulseCell_BaseYieldingI
 ref int CursorsAllowedToWait { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int CursorsAllowedToWait { get; }
 CPulse_ResumePoint WaitComplete { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 

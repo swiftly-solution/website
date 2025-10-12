@@ -6,7 +6,7 @@ title: CRopeOverlapHit
 public interface CRopeOverlapHit : ISchemaClass<CRopeOverlapHit>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRopeOverlapHit : ISchemaClass<CRopeOverlapHit>, ISchemaField, 
 ref CHandle<CBaseEntity> Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 ref CUtlVector<int> OverlappingLinks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

@@ -6,7 +6,7 @@ title: CCSUsrMsg_PostRoundDamageReport
 public interface CCSUsrMsg_PostRoundDamageReport : ITypedProtobuf<CCSUsrMsg_PostRoundDamageReport>, INativeHandle, INetMessage<CCSUsrMsg_PostRoundDamageReport>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_PostRoundDamageReport : ITypedProtobuf<CCSUsrMsg_Post
 int GivenHealthRemoved { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int GivenHealthRemoved { get; set; }
 int GivenKillType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int GivenKillType { get; set; }
 int GivenNumHits { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int GivenNumHits { get; set; }
 ulong OtherXuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ulong OtherXuid { get; set; }
 int TakenHealthRemoved { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int TakenHealthRemoved { get; set; }
 int TakenKillType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int TakenKillType { get; set; }
 int TakenNumHits { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

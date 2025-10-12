@@ -6,7 +6,7 @@ title: CEntityMessageDoSpark
 public interface CEntityMessageDoSpark : ITypedProtobuf<CEntityMessageDoSpark>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityMessageDoSpark : ITypedProtobuf<CEntityMessageDoSpark>, 
 uint Beams { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Beams { get; set; }
 uint Color { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Color { get; set; }
 float Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float Duration { get; set; }
 CEntityMsg EntityMsg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityMsg](/docs/api/shared/protobufdefinitions/centitymsg)
 
@@ -56,7 +56,7 @@ CEntityMsg EntityMsg { get; }
 int Entityindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int Entityindex { get; set; }
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ Vector Origin { get; set; }
 float Radius { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ float Radius { get; set; }
 float Thick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

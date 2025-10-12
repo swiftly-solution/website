@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext
 public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleCo
 uint EntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint EntIndex { get; set; }
 uint ValueNameHash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

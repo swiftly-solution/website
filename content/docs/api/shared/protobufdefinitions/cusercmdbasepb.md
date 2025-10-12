@@ -6,7 +6,7 @@ title: CUserCmdBasePB
 public interface CUserCmdBasePB : ITypedProtobuf<CUserCmdBasePB>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserCmdBasePB : ITypedProtobuf<CUserCmdBasePB>, INativeHandle
 CBaseUserCmdPB Base { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBaseUserCmdPB](/docs/api/shared/protobufdefinitions/cbaseusercmdpb)
 

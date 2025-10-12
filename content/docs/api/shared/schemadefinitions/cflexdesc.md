@@ -6,7 +6,7 @@ title: CFlexDesc
 public interface CFlexDesc : ISchemaClass<CFlexDesc>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFlexDesc : ISchemaClass<CFlexDesc>, ISchemaField, ISchemaClass
 string Facs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

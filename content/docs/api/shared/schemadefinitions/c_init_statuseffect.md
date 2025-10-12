@@ -6,7 +6,7 @@ title: C_INIT_StatusEffect
 public interface C_INIT_StatusEffect : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_StatusEffect>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_StatusEffect : CParticleFunctionInitializer, CParticleFu
 ref float AmbientScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AmbientScale { get; }
 ref float ColorWarpIntensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float ColorWarpIntensity { get; }
 ref float Detail2BlendFactor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Detail2BlendFactor { get; }
 ref Detail2Combo_t Detail2Combo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Detail2Combo_t](/docs/api/shared/schemadefinitions/detail2combo_t)
 
@@ -56,7 +56,7 @@ ref Detail2Combo_t Detail2Combo { get; }
 ref float Detail2Rotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float Detail2Rotation { get; }
 ref float Detail2Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float Detail2Scale { get; }
 ref float DiffuseWarpBlendToFull { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float DiffuseWarpBlendToFull { get; }
 ref float EnvMapIntensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float EnvMapIntensity { get; }
 ref float MetalnessBlendToFull { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float MetalnessBlendToFull { get; }
 ref float ReflectionsTintByBaseBlendToNone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float ReflectionsTintByBaseBlendToNone { get; }
 ref Color RimLightColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -126,7 +126,7 @@ ref Color RimLightColor { get; }
 ref float RimLightScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float RimLightScale { get; }
 ref float SelfIllumBlendToFull { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float SelfIllumBlendToFull { get; }
 ref float SpecularBlendToFull { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float SpecularBlendToFull { get; }
 ref Color SpecularColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -166,7 +166,7 @@ ref Color SpecularColor { get; }
 ref float SpecularExponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float SpecularExponent { get; }
 ref float SpecularExponentBlendToFull { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float SpecularExponentBlendToFull { get; }
 ref float SpecularScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CUserMessageRumble
 public interface CUserMessageRumble : ITypedProtobuf<CUserMessageRumble>, INativeHandle, INetMessage<CUserMessageRumble>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageRumble : ITypedProtobuf<CUserMessageRumble>, INativ
 int Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Data { get; set; }
 int Flags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Flags { get; set; }
 int Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: FeAxialEdgeBend_t
 public interface FeAxialEdgeBend_t : ISchemaClass<FeAxialEdgeBend_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeAxialEdgeBend_t : ISchemaClass<FeAxialEdgeBend_t>, ISchemaFie
 ref float Dist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Dist { get; }
 ISchemaFixedArray<ushort> Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<ushort> Node { get; }
 ref float Te { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Te { get; }
 ref float Tv { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float Tv { get; }
 ISchemaFixedArray<float> Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

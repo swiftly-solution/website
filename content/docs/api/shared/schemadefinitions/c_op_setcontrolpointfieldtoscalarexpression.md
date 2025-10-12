@@ -6,7 +6,7 @@ title: C_OP_SetControlPointFieldToScalarExpression
 public interface C_OP_SetControlPointFieldToScalarExpression : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_SetControlPointFieldToScalarExpression>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_SetControlPointFieldToScalarExpression : CParticleFunction
 ref ScalarExpressionType_t Expression { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ScalarExpressionType_t](/docs/api/shared/schemadefinitions/scalarexpressiontype_t)
 
@@ -26,7 +26,7 @@ ref ScalarExpressionType_t Expression { get; }
 CParticleCollectionFloatInput Input1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput Input1 { get; }
 CParticleCollectionFloatInput Input2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionFloatInput Input2 { get; }
 ref int OutVectorField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int OutVectorField { get; }
 ref int OutputCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int OutputCP { get; }
 CParticleRemapFloatInput OutputRemap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleRemapFloatInput](/docs/api/shared/schemadefinitions/cparticleremapfloatinput)
 

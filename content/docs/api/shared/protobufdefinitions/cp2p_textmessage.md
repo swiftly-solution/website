@@ -6,7 +6,7 @@ title: CP2P_TextMessage
 public interface CP2P_TextMessage : ITypedProtobuf<CP2P_TextMessage>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CP2P_TextMessage : ITypedProtobuf<CP2P_TextMessage>, INativeHan
 byte[] Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

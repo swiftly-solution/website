@@ -6,7 +6,7 @@ title: CCSUsrMsg_EntityOutlineHighlight
 public interface CCSUsrMsg_EntityOutlineHighlight : ITypedProtobuf<CCSUsrMsg_EntityOutlineHighlight>, INativeHandle, INetMessage<CCSUsrMsg_EntityOutlineHighlight>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_EntityOutlineHighlight : ITypedProtobuf<CCSUsrMsg_Ent
 int Entidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Entidx { get; set; }
 bool Removehighlight { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

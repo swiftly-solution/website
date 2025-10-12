@@ -6,7 +6,7 @@ title: CMeshletDescriptor
 public interface CMeshletDescriptor : ISchemaClass<CMeshletDescriptor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMeshletDescriptor : ISchemaClass<CMeshletDescriptor>, ISchemaF
 CDrawCullingData CullingData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CDrawCullingData](/docs/api/shared/schemadefinitions/cdrawcullingdata)
 
@@ -26,7 +26,7 @@ CDrawCullingData CullingData { get; }
 PackedAABB_t PackedAABB { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PackedAABB_t](/docs/api/shared/schemadefinitions/packedaabb_t)
 
@@ -36,7 +36,7 @@ PackedAABB_t PackedAABB { get; }
 ref byte TriangleCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -46,7 +46,7 @@ ref byte TriangleCount { get; }
 ref uint TriangleOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ ref uint TriangleOffset { get; }
 ref byte VertexCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -66,7 +66,7 @@ ref byte VertexCount { get; }
 ref uint VertexOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingServerRoundStats
 public interface CMsgGCCStrike15_v2_MatchmakingServerRoundStats : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingServerRoundStats>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingServerRoundStats : ITypedProtobuf
 IProtobufRepeatedFieldValueType<int> Assists { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<int> Assists { get; }
 bool BSwitchedTeams { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool BSwitchedTeams { get; set; }
 CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm Confirm { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2serverconfirm)
 
@@ -46,7 +46,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ServerConfirm Confirm { get; }
 IProtobufRepeatedFieldValueType<int> Deaths { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldValueType<int> Deaths { get; }
 CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo DropInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakingserverroundstats_dropinfo)
 
@@ -66,7 +66,7 @@ CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo DropInfo { get; }
 IProtobufRepeatedFieldValueType<int> Enemy2ks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldValueType<int> Enemy2ks { get; }
 IProtobufRepeatedFieldValueType<int> Enemy3ks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -86,7 +86,7 @@ IProtobufRepeatedFieldValueType<int> Enemy3ks { get; }
 IProtobufRepeatedFieldValueType<int> Enemy4ks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -96,7 +96,7 @@ IProtobufRepeatedFieldValueType<int> Enemy4ks { get; }
 IProtobufRepeatedFieldValueType<int> Enemy5ks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -106,7 +106,7 @@ IProtobufRepeatedFieldValueType<int> Enemy5ks { get; }
 IProtobufRepeatedFieldValueType<int> EnemyHeadshots { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -116,7 +116,7 @@ IProtobufRepeatedFieldValueType<int> EnemyHeadshots { get; }
 IProtobufRepeatedFieldValueType<int> EnemyKills { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -126,7 +126,7 @@ IProtobufRepeatedFieldValueType<int> EnemyKills { get; }
 IProtobufRepeatedFieldValueType<int> EnemyKillsAgg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -136,7 +136,7 @@ IProtobufRepeatedFieldValueType<int> EnemyKillsAgg { get; }
 IProtobufRepeatedFieldValueType<int> Kills { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -146,7 +146,7 @@ IProtobufRepeatedFieldValueType<int> Kills { get; }
 string Map { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -156,7 +156,7 @@ string Map { get; set; }
 int MapId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ int MapId { get; set; }
 int MatchDuration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -176,7 +176,7 @@ int MatchDuration { get; set; }
 int MatchResult { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ int MatchResult { get; set; }
 uint MaxRounds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -196,7 +196,7 @@ uint MaxRounds { get; set; }
 IProtobufRepeatedFieldValueType<int> Mvps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -206,7 +206,7 @@ IProtobufRepeatedFieldValueType<int> Mvps { get; }
 IProtobufRepeatedFieldValueType<int> Pings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -216,7 +216,7 @@ IProtobufRepeatedFieldValueType<int> Pings { get; }
 IProtobufRepeatedFieldValueType<int> PlayerSpawned { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -226,7 +226,7 @@ IProtobufRepeatedFieldValueType<int> PlayerSpawned { get; }
 CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve Reservation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2serverreserve)
 
@@ -236,7 +236,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve Reservation { get; }
 int ReservationStage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -246,7 +246,7 @@ int ReservationStage { get; set; }
 ulong Reservationid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -256,7 +256,7 @@ ulong Reservationid { get; set; }
 int Round { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -266,7 +266,7 @@ int Round { get; set; }
 int RoundResult { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -276,7 +276,7 @@ int RoundResult { get; set; }
 IProtobufRepeatedFieldValueType<int> Scores { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -286,7 +286,7 @@ IProtobufRepeatedFieldValueType<int> Scores { get; }
 uint SpectatorsCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -296,7 +296,7 @@ uint SpectatorsCount { get; set; }
 uint SpectatorsCountLnk { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -306,7 +306,7 @@ uint SpectatorsCountLnk { get; set; }
 uint SpectatorsCountTv { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -316,7 +316,7 @@ uint SpectatorsCountTv { get; set; }
 IProtobufRepeatedFieldValueType<int> TeamScores { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -326,7 +326,7 @@ IProtobufRepeatedFieldValueType<int> TeamScores { get; }
 IProtobufRepeatedFieldValueType<int> TeamSpawnCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

@@ -6,7 +6,7 @@ title: CMsgSource1LegacyGameEvent
 public interface CMsgSource1LegacyGameEvent : ITypedProtobuf<CMsgSource1LegacyGameEvent>, INativeHandle, INetMessage<CMsgSource1LegacyGameEvent>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSource1LegacyGameEvent : ITypedProtobuf<CMsgSource1LegacyGa
 string EventName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string EventName { get; set; }
 int Eventid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Eventid { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEvent_key_t> Keys { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSource1LegacyGameEvent_key_t](/docs/api/shared/protobufdefinitions/cmsgsource1legacygameevent_key_t)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEvent_key_t> Keys { ge
 int Passthrough { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int Passthrough { get; set; }
 int ServerTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

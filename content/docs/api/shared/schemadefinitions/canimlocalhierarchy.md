@@ -6,7 +6,7 @@ title: CAnimLocalHierarchy
 public interface CAnimLocalHierarchy : ISchemaClass<CAnimLocalHierarchy>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimLocalHierarchy : ISchemaClass<CAnimLocalHierarchy>, ISchem
 ref CBufferString Bone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -26,7 +26,7 @@ ref CBufferString Bone { get; }
 ref int EndFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int EndFrame { get; }
 ref CBufferString NewParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -46,7 +46,7 @@ ref CBufferString NewParent { get; }
 ref int PeakFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int PeakFrame { get; }
 ref int StartFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int StartFrame { get; }
 ref int TailFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

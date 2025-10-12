@@ -6,7 +6,7 @@ title: CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData
 public interface CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData : ITypedProtobuf<CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData : ITypedProtobuf<
 bool Isbot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool Isbot { get; set; }
 IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock> Items { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CEconItemPreviewDataBlock](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock> Items { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Name { get; set; }
 CCSUsrMsg_EndOfMatchAllPlayersData_Accolade Nomination { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSUsrMsg_EndOfMatchAllPlayersData_Accolade](/docs/api/shared/protobufdefinitions/ccsusrmsg_endofmatchallplayersdata_accolade)
 
@@ -56,7 +56,7 @@ CCSUsrMsg_EndOfMatchAllPlayersData_Accolade Nomination { get; }
 int Playercolor { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int Playercolor { get; set; }
 int Slot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int Slot { get; set; }
 int Teamnumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ int Teamnumber { get; set; }
 ulong Xuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

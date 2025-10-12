@@ -6,7 +6,7 @@ title: EventHltvRankCamera
 public interface EventHltvRankCamera : IGameEvent<EventHltvRankCamera>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventHltvRankCamera : IGameEvent<EventHltvRankCamera>
 byte Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -26,7 +26,7 @@ byte Index { get; set; }
 float Rank { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float Rank { get; set; }
 int Target { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: EventPostDataUpdate_t
 public interface EventPostDataUpdate_t : ISchemaClass<EventPostDataUpdate_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventPostDataUpdate_t : ISchemaClass<EventPostDataUpdate_t>, IS
 ref int Count { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

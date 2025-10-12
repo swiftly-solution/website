@@ -6,7 +6,7 @@ title: CVoiceContainerGranulator
 public interface CVoiceContainerGranulator : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerGranulator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerGranulator : CVoiceContainerBase, ISchemaClass<C
 ref float GrainCrossfadeAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float GrainCrossfadeAmount { get; }
 ref float GrainLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float GrainLength { get; }
 ref float PlaybackJitter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float PlaybackJitter { get; }
 ref bool ShouldWraparound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool ShouldWraparound { get; }
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> SourceAudio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>
 
@@ -66,7 +66,7 @@ ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> SourceAudio { get; }
 ref float StartJitter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

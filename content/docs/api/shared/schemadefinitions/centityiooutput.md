@@ -6,7 +6,7 @@ title: CEntityIOOutput
 public interface CEntityIOOutput : ISchemaClass<CEntityIOOutput>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityIOOutput : ISchemaClass<CEntityIOOutput>, ISchemaField, 
 SchemaUntypedField Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

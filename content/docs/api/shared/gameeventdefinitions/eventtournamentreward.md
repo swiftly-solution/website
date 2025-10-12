@@ -6,7 +6,7 @@ title: EventTournamentReward
 public interface EventTournamentReward : IGameEvent<EventTournamentReward>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventTournamentReward : IGameEvent<EventTournamentReward>
 int AccountID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AccountID { get; set; }
 int DefIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int DefIndex { get; set; }
 int TotalRewards { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

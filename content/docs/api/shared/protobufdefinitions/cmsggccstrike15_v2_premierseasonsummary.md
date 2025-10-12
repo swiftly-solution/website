@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_PremierSeasonSummary
 public interface CMsgGCCStrike15_v2_PremierSeasonSummary : ITypedProtobuf<CMsgGCCStrike15_v2_PremierSeasonSummary>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_PremierSeasonSummary : ITypedProtobuf<CMsgGC
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerMap> DataPerMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerMap](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_premierseasonsummary_datapermap)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_PremierSeasonSummary_Dat
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek> DataPerWeek { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_premierseasonsummary_dataperweek)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_PremierSeasonSummary_Dat
 uint SeasonId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

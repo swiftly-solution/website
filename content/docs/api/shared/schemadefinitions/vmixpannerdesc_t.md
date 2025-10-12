@@ -6,7 +6,7 @@ title: VMixPannerDesc_t
 public interface VMixPannerDesc_t : ISchemaClass<VMixPannerDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixPannerDesc_t : ISchemaClass<VMixPannerDesc_t>, ISchemaField
 ref float Strength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Strength { get; }
 ref VMixPannerType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixPannerType_t](/docs/api/shared/schemadefinitions/vmixpannertype_t)
 

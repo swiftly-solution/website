@@ -6,7 +6,7 @@ title: C_INIT_SequenceLifeTime
 public interface C_INIT_SequenceLifeTime : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_SequenceLifeTime>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_SequenceLifeTime : CParticleFunctionInitializer, CPartic
 ref float Framerate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CAnimMotorUpdaterBase
 public interface CAnimMotorUpdaterBase : ISchemaClass<CAnimMotorUpdaterBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimMotorUpdaterBase : ISchemaClass<CAnimMotorUpdaterBase>, IS
 ref bool Default { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Default { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

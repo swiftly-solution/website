@@ -6,7 +6,7 @@ title: CNmFloatSelectorNode__CDefinition
 public interface CNmFloatSelectorNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmFloatSelectorNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFloatSelectorNode__CDefinition : CNmFloatValueNode__CDefinit
 SchemaUntypedField ConditionNodeIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField ConditionNodeIndices { get; }
 ref float DefaultValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DefaultValue { get; }
 ref float EaseTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float EaseTime { get; }
 ref NmEasingOperation_t EasingOp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmEasingOperation_t](/docs/api/shared/schemadefinitions/nmeasingoperation_t)
 
@@ -56,7 +56,7 @@ ref NmEasingOperation_t EasingOp { get; }
 SchemaUntypedField Values { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

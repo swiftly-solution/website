@@ -6,7 +6,7 @@ title: MLGameState
 public interface MLGameState : ITypedProtobuf<MLGameState>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MLGameState : ITypedProtobuf<MLGameState>, INativeHandle
 MLMatchState Match { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MLMatchState](/docs/api/shared/protobufdefinitions/mlmatchstate)
 
@@ -26,7 +26,7 @@ MLMatchState Match { get; }
 IProtobufRepeatedFieldSubMessageType<MLPlayerState> Players { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[MLPlayerState](/docs/api/shared/protobufdefinitions/mlplayerstate)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<MLPlayerState> Players { get; }
 MLRoundState Round { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MLRoundState](/docs/api/shared/protobufdefinitions/mlroundstate)
 

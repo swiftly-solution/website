@@ -6,7 +6,7 @@ title: CAnimGraphNetworkSettings
 public interface CAnimGraphNetworkSettings : CAnimGraphSettingsGroup, ISchemaClass<CAnimGraphSettingsGroup>, ISchemaClass<CAnimGraphNetworkSettings>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimGraphNetworkSettings : CAnimGraphSettingsGroup, ISchemaCla
 ref bool NetworkingEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

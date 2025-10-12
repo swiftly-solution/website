@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientLogonFatalError
 public interface CMsgGCCStrike15_v2_ClientLogonFatalError : ITypedProtobuf<CMsgGCCStrike15_v2_ClientLogonFatalError>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientLogonFatalError : ITypedProtobuf<CMsgG
 string Country { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Country { get; set; }
 uint Errorcode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Errorcode { get; set; }
 string Message { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: FeDynKinLink_t
 public interface FeDynKinLink_t : ISchemaClass<FeDynKinLink_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeDynKinLink_t : ISchemaClass<FeDynKinLink_t>, ISchemaField, IS
 ref ushort Child { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort Child { get; }
 ref ushort Parent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

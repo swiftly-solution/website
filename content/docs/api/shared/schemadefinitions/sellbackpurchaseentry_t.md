@@ -6,7 +6,7 @@ title: SellbackPurchaseEntry_t
 public interface SellbackPurchaseEntry_t : ISchemaClass<SellbackPurchaseEntry_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SellbackPurchaseEntry_t : ISchemaClass<SellbackPurchaseEntry_t>
 ref int Cost { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Cost { get; }
 ref ushort DefIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort DefIdx { get; }
 ref CHandle<CEntityInstance> Item { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
@@ -46,7 +46,7 @@ ref CHandle<CEntityInstance> Item { get; }
 ref int PrevArmor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int PrevArmor { get; }
 ref bool PrevHelmet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

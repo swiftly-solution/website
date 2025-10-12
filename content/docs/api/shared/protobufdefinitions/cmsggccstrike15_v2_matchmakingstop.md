@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingStop
 public interface CMsgGCCStrike15_v2_MatchmakingStop : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingStop>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingStop : ITypedProtobuf<CMsgGCCStri
 int Abandon { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

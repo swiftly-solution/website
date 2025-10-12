@@ -6,7 +6,7 @@ title: CSSDSMsg_LayerBase
 public interface CSSDSMsg_LayerBase : ISchemaClass<CSSDSMsg_LayerBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSSDSMsg_LayerBase : ISchemaClass<CSSDSMsg_LayerBase>, ISchemaF
 string DisplayText { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string DisplayText { get; set; }
 ref ulong LayerId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ref ulong LayerId { get; }
 string LayerName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string LayerName { get; set; }
 SceneViewId_t ViewId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SceneViewId_t](/docs/api/shared/schemadefinitions/sceneviewid_t)
 
@@ -56,7 +56,7 @@ SceneViewId_t ViewId { get; }
 string ViewName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

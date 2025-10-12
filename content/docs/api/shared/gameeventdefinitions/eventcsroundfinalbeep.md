@@ -6,5 +6,5 @@ title: EventCsRoundFinalBeep
 public interface EventCsRoundFinalBeep : IGameEvent<EventCsRoundFinalBeep>
 ```
 
-#### Implements
+- Implements
 

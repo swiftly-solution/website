@@ -6,7 +6,7 @@ title: C_OP_RenderScreenVelocityRotate
 public interface C_OP_RenderScreenVelocityRotate : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderScreenVelocityRotate>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderScreenVelocityRotate : CParticleFunctionRenderer, CP
 ref float ForwardDegrees { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float ForwardDegrees { get; }
 ref float RotateRateDegrees { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

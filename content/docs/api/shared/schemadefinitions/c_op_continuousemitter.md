@@ -6,7 +6,7 @@ title: C_OP_ContinuousEmitter
 public interface C_OP_ContinuousEmitter : CParticleFunctionEmitter, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionEmitter>, ISchemaClass<C_OP_ContinuousEmitter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_ContinuousEmitter : CParticleFunctionEmitter, CParticleFun
 CParticleCollectionFloatInput EmissionDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionFloatInput EmissionDuration { get; }
 ref float EmissionScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float EmissionScale { get; }
 CParticleCollectionFloatInput EmitRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionFloatInput EmitRate { get; }
 ref EventTypeSelection_t EventType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EventTypeSelection_t](/docs/api/shared/schemadefinitions/eventtypeselection_t)
 
@@ -56,7 +56,7 @@ ref EventTypeSelection_t EventType { get; }
 ref bool ForceEmitOnFirstUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool ForceEmitOnFirstUpdate { get; }
 ref bool ForceEmitOnLastUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool ForceEmitOnLastUpdate { get; }
 ref bool InitFromKilledParentParticles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool InitFromKilledParentParticles { get; }
 ref int LimitPerUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int LimitPerUpdate { get; }
 ref float ScalePerParentParticle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float ScalePerParentParticle { get; }
 ref int SnapshotControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int SnapshotControlPoint { get; }
 CParticleCollectionFloatInput StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -126,7 +126,7 @@ CParticleCollectionFloatInput StartTime { get; }
 string StrSnapshotSubset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

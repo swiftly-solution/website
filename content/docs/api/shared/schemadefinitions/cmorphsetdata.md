@@ -6,7 +6,7 @@ title: CMorphSetData
 public interface CMorphSetData : ISchemaClass<CMorphSetData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMorphSetData : ISchemaClass<CMorphSetData>, ISchemaField, ISch
 ref CUtlVector<MorphBundleType_t> BundleTypes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[MorphBundleType_t](/docs/api/shared/schemadefinitions/morphbundletype_t)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<MorphBundleType_t> BundleTypes { get; }
 ref CUtlVector FlexControllers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector FlexControllers { get; }
 ref CUtlVector FlexDesc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector FlexDesc { get; }
 ref CUtlVector FlexRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector FlexRules { get; }
 ref int Height { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int Height { get; }
 ref CUtlVector MorphDatas { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector MorphDatas { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureAtlas { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -86,7 +86,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureAtlas { get; }
 ref int Width { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

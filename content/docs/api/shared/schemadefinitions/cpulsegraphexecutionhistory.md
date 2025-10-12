@@ -6,7 +6,7 @@ title: CPulseGraphExecutionHistory
 public interface CPulseGraphExecutionHistory : ISchemaClass<CPulseGraphExecutionHistory>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseGraphExecutionHistory : ISchemaClass<CPulseGraphExecution
 ref CUtlVector<PointerTo<PulseGraphExecutionHistoryEntry_t>> History { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[PulseGraphExecutionHistoryEntry_t](/docs/api/shared/schemadefinitions/pulsegraphexecutionhistoryentry_t)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<PointerTo<PulseGraphExecutionHistoryEntry_t>> History { get; }
 PulseGraphInstanceID_t InstanceID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseGraphInstanceID_t](/docs/api/shared/schemadefinitions/pulsegraphinstanceid_t)
 
@@ -36,7 +36,7 @@ PulseGraphInstanceID_t InstanceID { get; }
 SchemaUntypedField MapCellDesc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField MapCellDesc { get; }
 SchemaUntypedField MapCursorDesc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField MapCursorDesc { get; }
 string StrFileName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

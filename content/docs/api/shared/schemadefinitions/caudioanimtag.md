@@ -6,7 +6,7 @@ title: CAudioAnimTag
 public interface CAudioAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CAudioAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAudioAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISche
 string AttachmentName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AttachmentName { get; set; }
 string ClipName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ClipName { get; set; }
 ref bool PlayOnClient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool PlayOnClient { get; }
 ref bool PlayOnServer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool PlayOnServer { get; }
 ref bool StopWhenGraphEnds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool StopWhenGraphEnds { get; }
 ref bool StopWhenTagEnds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool StopWhenTagEnds { get; }
 ref float Volume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

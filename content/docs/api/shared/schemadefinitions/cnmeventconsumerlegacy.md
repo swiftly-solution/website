@@ -6,5 +6,5 @@ title: CNmEventConsumerLegacy
 public interface CNmEventConsumerLegacy : CNmEventConsumer, ISchemaClass<CNmEventConsumer>, ISchemaClass<CNmEventConsumerLegacy>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

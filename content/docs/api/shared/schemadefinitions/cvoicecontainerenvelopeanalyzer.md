@@ -6,7 +6,7 @@ title: CVoiceContainerEnvelopeAnalyzer
 public interface CVoiceContainerEnvelopeAnalyzer : CVoiceContainerAnalysisBase, ISchemaClass<CVoiceContainerAnalysisBase>, ISchemaClass<CVoiceContainerEnvelopeAnalyzer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerEnvelopeAnalyzer : CVoiceContainerAnalysisBase, 
 ref float AnalysisWindowMs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AnalysisWindowMs { get; }
 ref EMode_t Mode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EMode_t](/docs/api/shared/schemadefinitions/emode_t)
 
@@ -36,7 +36,7 @@ ref EMode_t Mode { get; }
 ref float Threshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

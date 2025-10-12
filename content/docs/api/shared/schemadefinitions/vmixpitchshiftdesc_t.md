@@ -6,7 +6,7 @@ title: VMixPitchShiftDesc_t
 public interface VMixPitchShiftDesc_t : ISchemaClass<VMixPitchShiftDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixPitchShiftDesc_t : ISchemaClass<VMixPitchShiftDesc_t>, ISch
 ref int GrainSampleCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int GrainSampleCount { get; }
 ref float PitchShift { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float PitchShift { get; }
 ref int ProcType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int ProcType { get; }
 ref int Quality { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

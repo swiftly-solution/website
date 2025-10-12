@@ -6,7 +6,7 @@ title: CUserMsg_HudError
 public interface CUserMsg_HudError : ITypedProtobuf<CUserMsg_HudError>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_HudError : ITypedProtobuf<CUserMsg_HudError>, INativeH
 int OrderId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

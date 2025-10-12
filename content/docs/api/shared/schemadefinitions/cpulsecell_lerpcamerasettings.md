@@ -6,7 +6,7 @@ title: CPulseCell_LerpCameraSettings
 public interface CPulseCell_LerpCameraSettings : CPulseCell_BaseLerp, CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_BaseLerp>, ISchemaClass<CPulseCell_LerpCameraSettings>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_LerpCameraSettings : CPulseCell_BaseLerp, CPulseCell
 PointCameraSettings_t End { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointCameraSettings_t](/docs/api/shared/schemadefinitions/pointcamerasettings_t)
 
@@ -26,7 +26,7 @@ PointCameraSettings_t End { get; }
 ref float Seconds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Seconds { get; }
 PointCameraSettings_t Start { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointCameraSettings_t](/docs/api/shared/schemadefinitions/pointcamerasettings_t)
 

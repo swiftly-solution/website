@@ -6,7 +6,7 @@ title: CMsgConVarValue
 public interface CMsgConVarValue : ITypedProtobuf<CMsgConVarValue>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgConVarValue : ITypedProtobuf<CMsgConVarValue>, INativeHandl
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Name { get; set; }
 string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

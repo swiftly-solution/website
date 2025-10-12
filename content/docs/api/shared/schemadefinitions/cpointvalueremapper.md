@@ -6,7 +6,7 @@ title: CPointValueRemapper
 public interface CPointValueRemapper : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointValueRemapper>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointValueRemapper : CBaseEntity, CEntityInstance, ISchemaClas
 ref float CurrentMomentum { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float CurrentMomentum { get; }
 ref float CustomOutputValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float CustomOutputValue { get; }
 ref bool Disabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Disabled { get; }
 ref float DisengageDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float DisengageDistance { get; }
 ref float EngageDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float EngageDistance { get; }
 ref bool Engaged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool Engaged { get; }
 ref bool FirstUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool FirstUpdate { get; }
 ref ValueRemapperHapticsType_t HapticsType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ValueRemapperHapticsType_t](/docs/api/shared/schemadefinitions/valueremapperhapticstype_t)
 
@@ -96,7 +96,7 @@ ref ValueRemapperHapticsType_t HapticsType { get; }
 ref float InputOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float InputOffset { get; }
 ref ValueRemapperInputType_t InputType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ValueRemapperInputType_t](/docs/api/shared/schemadefinitions/valueremapperinputtype_t)
 
@@ -116,7 +116,7 @@ ref ValueRemapperInputType_t InputType { get; }
 ref float MaximumChangePerSecond { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float MaximumChangePerSecond { get; }
 ref float MomentumModifier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float MomentumModifier { get; }
 ref ValueRemapperMomentumType_t MomentumType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ValueRemapperMomentumType_t](/docs/api/shared/schemadefinitions/valueremappermomentumtype_t)
 
@@ -146,7 +146,7 @@ ref ValueRemapperMomentumType_t MomentumType { get; }
 CEntityIOOutput OnDisengage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -156,7 +156,7 @@ CEntityIOOutput OnDisengage { get; }
 CEntityIOOutput OnEngage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -166,7 +166,7 @@ CEntityIOOutput OnEngage { get; }
 CEntityIOOutput OnReachedValueCustom { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -176,7 +176,7 @@ CEntityIOOutput OnReachedValueCustom { get; }
 CEntityIOOutput OnReachedValueOne { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -186,7 +186,7 @@ CEntityIOOutput OnReachedValueOne { get; }
 CEntityIOOutput OnReachedValueZero { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -196,7 +196,7 @@ CEntityIOOutput OnReachedValueZero { get; }
 ref CUtlVector<CHandle<CBaseEntity>> OutputEntities { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
@@ -206,7 +206,7 @@ ref CUtlVector<CHandle<CBaseEntity>> OutputEntities { get; }
 string OutputEntity2Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -216,7 +216,7 @@ string OutputEntity2Name { get; set; }
 string OutputEntity3Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -226,7 +226,7 @@ string OutputEntity3Name { get; set; }
 string OutputEntity4Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -236,7 +236,7 @@ string OutputEntity4Name { get; set; }
 string OutputEntityName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -246,7 +246,7 @@ string OutputEntityName { get; set; }
 ref ValueRemapperOutputType_t OutputType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ValueRemapperOutputType_t](/docs/api/shared/schemadefinitions/valueremapperoutputtype_t)
 
@@ -256,7 +256,7 @@ ref ValueRemapperOutputType_t OutputType { get; }
 SchemaUntypedField Position { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -266,7 +266,7 @@ SchemaUntypedField Position { get; }
 SchemaUntypedField PositionDelta { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -276,7 +276,7 @@ SchemaUntypedField PositionDelta { get; }
 ref Vector PreviousTestPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -286,7 +286,7 @@ ref Vector PreviousTestPoint { get; }
 GameTime_t PreviousUpdateTickTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -296,7 +296,7 @@ GameTime_t PreviousUpdateTickTime { get; }
 ref float PreviousValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -306,7 +306,7 @@ ref float PreviousValue { get; }
 ref float RatchetOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -316,7 +316,7 @@ ref float RatchetOffset { get; }
 ref ValueRemapperRatchetType_t RatchetType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ValueRemapperRatchetType_t](/docs/api/shared/schemadefinitions/valueremapperratchettype_t)
 
@@ -326,7 +326,7 @@ ref ValueRemapperRatchetType_t RatchetType { get; }
 ref CHandle<CBaseEntity> RemapLineEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -336,7 +336,7 @@ ref CHandle<CBaseEntity> RemapLineEnd { get; }
 string RemapLineEndName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -346,7 +346,7 @@ string RemapLineEndName { get; set; }
 ref CHandle<CBaseEntity> RemapLineStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -356,7 +356,7 @@ ref CHandle<CBaseEntity> RemapLineStart { get; }
 string RemapLineStartName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -366,7 +366,7 @@ string RemapLineStartName { get; set; }
 ref bool RequiresUseKey { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,7 +376,7 @@ ref bool RequiresUseKey { get; }
 ref float SnapValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -386,7 +386,7 @@ ref float SnapValue { get; }
 string SoundDisengage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -396,7 +396,7 @@ string SoundDisengage { get; set; }
 string SoundEngage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -406,7 +406,7 @@ string SoundEngage { get; set; }
 string SoundMovingLoop { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -416,7 +416,7 @@ string SoundMovingLoop { get; set; }
 string SoundReachedValueOne { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -426,7 +426,7 @@ string SoundReachedValueOne { get; set; }
 string SoundReachedValueZero { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -436,7 +436,7 @@ string SoundReachedValueZero { get; set; }
 ref bool UpdateOnClient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -446,7 +446,7 @@ ref bool UpdateOnClient { get; }
 ref CHandle<CBasePlayerPawn> UsingPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>
 

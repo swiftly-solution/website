@@ -6,7 +6,7 @@ title: FeFitInfluence_t
 public interface FeFitInfluence_t : ISchemaClass<FeFitInfluence_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeFitInfluence_t : ISchemaClass<FeFitInfluence_t>, ISchemaField
 ref uint MatrixNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint MatrixNode { get; }
 ref uint VertexNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint VertexNode { get; }
 ref float Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

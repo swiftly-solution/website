@@ -6,7 +6,7 @@ title: FeTaperedCapsuleStretch_t
 public interface FeTaperedCapsuleStretch_t : ISchemaClass<FeTaperedCapsuleStretch_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeTaperedCapsuleStretch_t : ISchemaClass<FeTaperedCapsuleStretc
 ref ushort CollisionMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort CollisionMask { get; }
 ref ushort Dummy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort Dummy { get; }
 ISchemaFixedArray<ushort> Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -46,7 +46,7 @@ ISchemaFixedArray<ushort> Node { get; }
 ISchemaFixedArray<float> Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

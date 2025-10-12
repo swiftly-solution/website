@@ -6,7 +6,7 @@ title: CCSUsrMsg_RoundEndReportData_RerEvent_Damage
 public interface CCSUsrMsg_RoundEndReportData_RerEvent_Damage : ITypedProtobuf<CCSUsrMsg_RoundEndReportData_RerEvent_Damage>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_RoundEndReportData_RerEvent_Damage : ITypedProtobuf<C
 int HealthRemoved { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int HealthRemoved { get; set; }
 int NumHits { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int NumHits { get; set; }
 int OtherPlayerslot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int OtherPlayerslot { get; set; }
 ulong OtherXuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ulong OtherXuid { get; set; }
 int ReturnHealthRemoved { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int ReturnHealthRemoved { get; set; }
 int ReturnNumHits { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

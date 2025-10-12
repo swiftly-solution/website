@@ -6,7 +6,7 @@ title: CSVCMsg_Prefetch
 public interface CSVCMsg_Prefetch : ITypedProtobuf<CSVCMsg_Prefetch>, INativeHandle, INetMessage<CSVCMsg_Prefetch>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_Prefetch : ITypedProtobuf<CSVCMsg_Prefetch>, INativeHan
 PrefetchType ResourceType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PrefetchType](/docs/api/shared/protobufdefinitions/prefetchtype)
 
@@ -26,7 +26,7 @@ PrefetchType ResourceType { get; set; }
 int SoundIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

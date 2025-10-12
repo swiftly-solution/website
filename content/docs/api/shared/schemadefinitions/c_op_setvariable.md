@@ -6,7 +6,7 @@ title: C_OP_SetVariable
 public interface C_OP_SetVariable : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_SetVariable>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_SetVariable : CParticleFunctionPreEmission, CParticleFunct
 CParticleCollectionFloatInput FloatInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionFloatInput FloatInput { get; }
 CParticleCollectionVecInput Input { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionVecInput Input { get; }
 ref Vector PositionOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector PositionOffset { get; }
 ref QAngle RotationOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -56,7 +56,7 @@ ref QAngle RotationOffset { get; }
 CParticleTransformInput TransformInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 
@@ -66,7 +66,7 @@ CParticleTransformInput TransformInput { get; }
 CParticleVariableRef VariableReference { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleVariableRef](/docs/api/shared/schemadefinitions/cparticlevariableref)
 

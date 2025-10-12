@@ -6,7 +6,7 @@ title: RnCapsule_t
 public interface RnCapsule_t : ISchemaClass<RnCapsule_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnCapsule_t : ISchemaClass<RnCapsule_t>, ISchemaField, ISchemaC
 ISchemaFixedArray<Vector> Center { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -26,7 +26,7 @@ ISchemaFixedArray<Vector> Center { get; }
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

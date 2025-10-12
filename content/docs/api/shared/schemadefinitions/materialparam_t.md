@@ -6,7 +6,7 @@ title: MaterialParam_t
 public interface MaterialParam_t : ISchemaClass<MaterialParam_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MaterialParam_t : ISchemaClass<MaterialParam_t>, ISchemaField, 
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

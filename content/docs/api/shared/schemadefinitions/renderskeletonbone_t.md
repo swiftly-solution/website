@@ -6,7 +6,7 @@ title: RenderSkeletonBone_t
 public interface RenderSkeletonBone_t : ISchemaClass<RenderSkeletonBone_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RenderSkeletonBone_t : ISchemaClass<RenderSkeletonBone_t>, ISch
 SkeletonBoneBounds_t Bbox { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SkeletonBoneBounds_t](/docs/api/shared/schemadefinitions/skeletonbonebounds_t)
 
@@ -26,7 +26,7 @@ SkeletonBoneBounds_t Bbox { get; }
 string BoneName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string BoneName { get; set; }
 ref matrix3x4_t InvBindPose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)
 
@@ -46,7 +46,7 @@ ref matrix3x4_t InvBindPose { get; }
 string ParentName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string ParentName { get; set; }
 ref float SphereRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

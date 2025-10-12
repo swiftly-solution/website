@@ -6,7 +6,7 @@ title: CAnimFrameBlockAnim
 public interface CAnimFrameBlockAnim : ISchemaClass<CAnimFrameBlockAnim>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimFrameBlockAnim : ISchemaClass<CAnimFrameBlockAnim>, ISchem
 ref int EndFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int EndFrame { get; }
 ref CUtlVector<int> SegmentIndexArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<int> SegmentIndexArray { get; }
 ref int StartFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

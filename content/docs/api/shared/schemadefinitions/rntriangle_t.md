@@ -6,7 +6,7 @@ title: RnTriangle_t
 public interface RnTriangle_t : ISchemaClass<RnTriangle_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnTriangle_t : ISchemaClass<RnTriangle_t>, ISchemaField, ISchem
 ISchemaFixedArray<int> Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

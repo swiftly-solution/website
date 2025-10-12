@@ -6,7 +6,7 @@ title: CCS2WeaponGraphController
 public interface CCS2WeaponGraphController : CAnimGraphControllerBase, ISchemaClass<CAnimGraphControllerBase>, ISchemaClass<CCS2WeaponGraphController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCS2WeaponGraphController : CAnimGraphControllerBase, ISchemaCl
 SchemaUntypedField Action { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Action { get; }
 SchemaUntypedField ActionReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField ActionReset { get; }
 SchemaUntypedField AttackThrowStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField AttackThrowStrength { get; }
 SchemaUntypedField AttackType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField AttackType { get; }
 SchemaUntypedField AttackVariation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -66,7 +66,7 @@ SchemaUntypedField AttackVariation { get; }
 SchemaUntypedField DeployVariation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField DeployVariation { get; }
 SchemaUntypedField IdleVariation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -86,7 +86,7 @@ SchemaUntypedField IdleVariation { get; }
 SchemaUntypedField InspectExtraInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -96,7 +96,7 @@ SchemaUntypedField InspectExtraInfo { get; }
 SchemaUntypedField InspectVariation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -106,7 +106,7 @@ SchemaUntypedField InspectVariation { get; }
 SchemaUntypedField IsUsingLegacyModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -116,7 +116,7 @@ SchemaUntypedField IsUsingLegacyModel { get; }
 SchemaUntypedField ReloadStage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -126,7 +126,7 @@ SchemaUntypedField ReloadStage { get; }
 SchemaUntypedField WeaponAmmo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -136,7 +136,7 @@ SchemaUntypedField WeaponAmmo { get; }
 SchemaUntypedField WeaponAmmoMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -146,7 +146,7 @@ SchemaUntypedField WeaponAmmoMax { get; }
 SchemaUntypedField WeaponAmmoReserve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -156,7 +156,7 @@ SchemaUntypedField WeaponAmmoReserve { get; }
 SchemaUntypedField WeaponCategory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -166,7 +166,7 @@ SchemaUntypedField WeaponCategory { get; }
 SchemaUntypedField WeaponExtraInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -176,7 +176,7 @@ SchemaUntypedField WeaponExtraInfo { get; }
 SchemaUntypedField WeaponIronsightAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -186,7 +186,7 @@ SchemaUntypedField WeaponIronsightAmount { get; }
 SchemaUntypedField WeaponIsSilenced { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -196,7 +196,7 @@ SchemaUntypedField WeaponIsSilenced { get; }
 SchemaUntypedField WeaponType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

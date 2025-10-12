@@ -6,7 +6,7 @@ title: CPointAngularVelocitySensor
 public interface CPointAngularVelocitySensor : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CPointAngularVelocitySensor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointAngularVelocitySensor : CPointEntity, CBaseEntity, CEntit
 SchemaUntypedField AngularVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField AngularVelocity { get; }
 ref Vector Axis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector Axis { get; }
 ref float FireInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float FireInterval { get; }
 GameTime_t FireTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -56,7 +56,7 @@ GameTime_t FireTime { get; }
 ref float LastAngVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float LastAngVelocity { get; }
 ref int LastCompareResult { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int LastCompareResult { get; }
 ref int LastFireResult { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int LastFireResult { get; }
 ref QAngle LastOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -96,7 +96,7 @@ ref QAngle LastOrientation { get; }
 CEntityIOOutput OnEqualTo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -106,7 +106,7 @@ CEntityIOOutput OnEqualTo { get; }
 CEntityIOOutput OnGreaterThan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -116,7 +116,7 @@ CEntityIOOutput OnGreaterThan { get; }
 CEntityIOOutput OnGreaterThanOrEqualTo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -126,7 +126,7 @@ CEntityIOOutput OnGreaterThanOrEqualTo { get; }
 CEntityIOOutput OnLessThan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -136,7 +136,7 @@ CEntityIOOutput OnLessThan { get; }
 CEntityIOOutput OnLessThanOrEqualTo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -146,7 +146,7 @@ CEntityIOOutput OnLessThanOrEqualTo { get; }
 ref CHandle<CBaseEntity> TargetEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -156,7 +156,7 @@ ref CHandle<CBaseEntity> TargetEntity { get; }
 ref float Threshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float Threshold { get; }
 ref bool UseHelper { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

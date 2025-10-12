@@ -6,7 +6,7 @@ title: C_OP_PinRopeSegmentParticleToParent
 public interface C_OP_PinRopeSegmentParticleToParent : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_PinRopeSegmentParticleToParent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_PinRopeSegmentParticleToParent : CParticleFunctionOperator
 CPerParticleFloatInput Interpolation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -26,7 +26,7 @@ CPerParticleFloatInput Interpolation { get; }
 CParticleCollectionFloatInput ParticleNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput ParticleNumber { get; }
 ref ParticleSelection_t ParticleSelection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleSelection_t](/docs/api/shared/schemadefinitions/particleselection_t)
 

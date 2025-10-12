@@ -6,7 +6,7 @@ title: CSOEconGameAccountClient
 public interface CSOEconGameAccountClient : ITypedProtobuf<CSOEconGameAccountClient>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOEconGameAccountClient : ITypedProtobuf<CSOEconGameAccountCli
 uint AdditionalBackpackSlots { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AdditionalBackpackSlots { get; set; }
 uint BonusXpTimestampRefresh { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint BonusXpTimestampRefresh { get; set; }
 uint BonusXpUsedflags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint BonusXpUsedflags { get; set; }
 uint ElevatedState { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint ElevatedState { get; set; }
 uint ElevatedTimestamp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint ElevatedTimestamp { get; set; }
 uint TradeBanExpiration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

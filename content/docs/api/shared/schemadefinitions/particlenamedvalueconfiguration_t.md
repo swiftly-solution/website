@@ -6,7 +6,7 @@ title: ParticleNamedValueConfiguration_t
 public interface ParticleNamedValueConfiguration_t : ISchemaClass<ParticleNamedValueConfiguration_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParticleNamedValueConfiguration_t : ISchemaClass<ParticleNamedV
 ref ParticleAttachment_t AttachType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttachment_t](/docs/api/shared/schemadefinitions/particleattachment_t)
 
@@ -26,7 +26,7 @@ ref ParticleAttachment_t AttachType { get; }
 string BoundEntityPath { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string BoundEntityPath { get; set; }
 string ConfigName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string ConfigName { get; set; }
 SchemaUntypedField ConfigValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField ConfigValue { get; }
 string StrAttachmentName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string StrAttachmentName { get; set; }
 string StrEntityScope { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

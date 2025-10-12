@@ -6,7 +6,7 @@ title: CDampedPathAnimMotorUpdater
 public interface CDampedPathAnimMotorUpdater : CPathAnimMotorUpdaterBase, CAnimMotorUpdaterBase, ISchemaClass<CAnimMotorUpdaterBase>, ISchemaClass<CPathAnimMotorUpdaterBase>, ISchemaClass<CDampedPathAnimMotorUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDampedPathAnimMotorUpdater : CPathAnimMotorUpdaterBase, CAnimM
 CAnimParamHandle AnticipationHeadingParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -26,7 +26,7 @@ CAnimParamHandle AnticipationHeadingParam { get; }
 CAnimParamHandle AnticipationPosParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -36,7 +36,7 @@ CAnimParamHandle AnticipationPosParam { get; }
 ref float AnticipationTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float AnticipationTime { get; }
 ref float MaxSpringTension { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MaxSpringTension { get; }
 ref float MinSpeedScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MinSpeedScale { get; }
 ref float MinSpringTension { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float MinSpringTension { get; }
 ref float SpringConstant { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_UpdateParticleTransform
 public interface CUserMsg_ParticleManager_UpdateParticleTransform : ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticleTransform>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleTransform : ITypedProtob
 int ControlPoint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ControlPoint { get; set; }
 float InterpolationInterval { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float InterpolationInterval { get; set; }
 CMsgQuaternion Orientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgQuaternion](/docs/api/shared/protobufdefinitions/cmsgquaternion)
 
@@ -46,7 +46,7 @@ CMsgQuaternion Orientation { get; }
 Vector Position { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

@@ -6,7 +6,7 @@ title: C_INIT_CheckParticleForWater
 public interface C_INIT_CheckParticleForWater : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_CheckParticleForWater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_CheckParticleForWater : CParticleFunctionInitializer, CP
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 CParticleRemapFloatInput OutputRemap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleRemapFloatInput](/docs/api/shared/schemadefinitions/cparticleremapfloatinput)
 
@@ -36,7 +36,7 @@ CParticleRemapFloatInput OutputRemap { get; }
 CPerParticleFloatInput Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -46,7 +46,7 @@ CPerParticleFloatInput Radius { get; }
 ref ParticleSetMethod_t SetMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 

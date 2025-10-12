@@ -6,7 +6,7 @@ title: FeNodeReverseOffset_t
 public interface FeNodeReverseOffset_t : ISchemaClass<FeNodeReverseOffset_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeNodeReverseOffset_t : ISchemaClass<FeNodeReverseOffset_t>, IS
 ref ushort BoneCtrl { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort BoneCtrl { get; }
 ref Vector Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector Offset { get; }
 ref ushort TargetNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

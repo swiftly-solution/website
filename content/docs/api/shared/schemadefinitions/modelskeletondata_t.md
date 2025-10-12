@@ -6,7 +6,7 @@ title: ModelSkeletonData_t
 public interface ModelSkeletonData_t : ISchemaClass<ModelSkeletonData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ModelSkeletonData_t : ISchemaClass<ModelSkeletonData_t>, ISchem
 ref CUtlVector<CUtlString> BoneName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CUtlString> BoneName { get; }
 ref CUtlVector<Vector> BonePosParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<Vector> BonePosParent { get; }
 ref CUtlVector BoneRotParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector BoneRotParent { get; }
 ref CUtlVector<float> BoneScaleParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<float> BoneScaleParent { get; }
 ref CUtlVector<float> BoneSphere { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<float> BoneSphere { get; }
 ref CUtlVector<uint> Flag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -76,7 +76,7 @@ ref CUtlVector<uint> Flag { get; }
 ref CUtlVector<short> Parent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[short](https://learn.microsoft.com/dotnet/api/system.int16)>
 

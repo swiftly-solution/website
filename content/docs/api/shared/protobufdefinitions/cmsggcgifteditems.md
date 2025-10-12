@@ -6,7 +6,7 @@ title: CMsgGCGiftedItems
 public interface CMsgGCGiftedItems : ITypedProtobuf<CMsgGCGiftedItems>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCGiftedItems : ITypedProtobuf<CMsgGCGiftedItems>, INativeH
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 uint Giftdefindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Giftdefindex { get; set; }
 uint MaxGiftsPossible { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint MaxGiftsPossible { get; set; }
 uint NumEligibleRecipients { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint NumEligibleRecipients { get; set; }
 IProtobufRepeatedFieldValueType<uint> RecipientsAccountids { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

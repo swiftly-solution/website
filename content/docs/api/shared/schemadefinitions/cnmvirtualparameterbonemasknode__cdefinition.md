@@ -6,7 +6,7 @@ title: CNmVirtualParameterBoneMaskNode__CDefinition
 public interface CNmVirtualParameterBoneMaskNode__CDefinition : CNmBoneMaskValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmBoneMaskValueNode__CDefinition>, ISchemaClass<CNmVirtualParameterBoneMaskNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmVirtualParameterBoneMaskNode__CDefinition : CNmBoneMaskValue
 ref short ChildNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

@@ -6,7 +6,7 @@ title: CPulseCell_Inflow_GraphHook
 public interface CPulseCell_Inflow_GraphHook : CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_Inflow_BaseEntrypoint>, ISchemaClass<CPulseCell_Inflow_GraphHook>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Inflow_GraphHook : CPulseCell_Inflow_BaseEntrypoint,
 SchemaUntypedField HookName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

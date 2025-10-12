@@ -6,7 +6,7 @@ title: CDemoStringTables_table_t
 public interface CDemoStringTables_table_t : ITypedProtobuf<CDemoStringTables_table_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoStringTables_table_t : ITypedProtobuf<CDemoStringTables_ta
 IProtobufRepeatedFieldSubMessageType<CDemoStringTables_items_t> Items { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDemoStringTables_items_t](/docs/api/shared/protobufdefinitions/cdemostringtables_items_t)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CDemoStringTables_items_t> Items { get; }
 IProtobufRepeatedFieldSubMessageType<CDemoStringTables_items_t> ItemsClientside { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDemoStringTables_items_t](/docs/api/shared/protobufdefinitions/cdemostringtables_items_t)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CDemoStringTables_items_t> ItemsClientside 
 int TableFlags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int TableFlags { get; set; }
 string TableName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CCSPlayerBase_CameraServices
 public interface CCSPlayerBase_CameraServices : CPlayer_CameraServices, CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_CameraServices>, ISchemaClass<CCSPlayerBase_CameraServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayerBase_CameraServices : CPlayer_CameraServices, CPlayerP
 ref uint FOV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint FOV { get; }
 ref float FOVRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float FOVRate { get; }
 ref uint FOVStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint FOVStart { get; }
 GameTime_t FOVTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -56,7 +56,7 @@ GameTime_t FOVTime { get; }
 ref CHandle<CBaseEntity> LastFogTrigger { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -66,7 +66,7 @@ ref CHandle<CBaseEntity> LastFogTrigger { get; }
 ref CUtlVector<CHandle<CBaseEntity>> TriggerFogList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
@@ -76,7 +76,7 @@ ref CUtlVector<CHandle<CBaseEntity>> TriggerFogList { get; }
 ref CHandle<CBaseEntity> ZoomOwner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

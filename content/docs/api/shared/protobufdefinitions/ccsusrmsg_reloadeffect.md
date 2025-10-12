@@ -6,7 +6,7 @@ title: CCSUsrMsg_ReloadEffect
 public interface CCSUsrMsg_ReloadEffect : ITypedProtobuf<CCSUsrMsg_ReloadEffect>, INativeHandle, INetMessage<CCSUsrMsg_ReloadEffect>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ReloadEffect : ITypedProtobuf<CCSUsrMsg_ReloadEffect>
 int Actanim { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Actanim { get; set; }
 int Entidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Entidx { get; set; }
 float OriginX { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float OriginX { get; set; }
 float OriginY { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ float OriginY { get; set; }
 float OriginZ { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

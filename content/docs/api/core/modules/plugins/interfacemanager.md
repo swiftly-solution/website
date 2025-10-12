@@ -6,11 +6,11 @@ title: InterfaceManager
 public class InterfaceManager : IInterfaceManager, IDisposable
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Implements
+- Implements
 
-#### Inherited Members
+- Inherited Members
 
 ## Methods
 
@@ -20,12 +20,12 @@ public class InterfaceManager : IInterfaceManager, IDisposable
 public void AddSharedInterface<TInterface, TImpl>(string key, TImpl implInstance) where TInterface : class where TImpl : class, TInterface
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The key of the interface.
 - **implInstance**: TImpl - The implementation of the interface.
 
-#### Type Parameters
+- Type Parameters
 
 - **TInterface**:  - The interface to add.
 - **TImpl**:  - The implementation of the interface.
@@ -48,15 +48,15 @@ public void Dispose()
 public TInterface GetSharedInterface<TInterface>(string key) where TInterface : class
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The key of the interface.
 
-#### Returns
+- Returns
 
 - TInterface - The implementation of the interface.
 
-#### Type Parameters
+- Type Parameters
 
 - **TInterface**:  - The interface to get.
 
@@ -66,11 +66,11 @@ public TInterface GetSharedInterface<TInterface>(string key) where TInterface : 
 public bool HasSharedInterface(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The key of the interface.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the interface exists, false otherwise.
 

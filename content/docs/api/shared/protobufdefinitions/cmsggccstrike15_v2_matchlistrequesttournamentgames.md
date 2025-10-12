@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchListRequestTournamentGames
 public interface CMsgGCCStrike15_v2_MatchListRequestTournamentGames : ITypedProtobuf<CMsgGCCStrike15_v2_MatchListRequestTournamentGames>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchListRequestTournamentGames : ITypedProt
 int Eventid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

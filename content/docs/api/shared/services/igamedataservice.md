@@ -14,7 +14,7 @@ public interface IGameDataService
 void ApplyPatch(string patchName)
 ```
 
-#### Parameters
+- Parameters
 
 - **patchName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Patch name defined in `patchs.jsonc` file.
 
@@ -24,11 +24,11 @@ void ApplyPatch(string patchName)
 nint GetOffset(string offsetName)
 ```
 
-#### Parameters
+- Parameters
 
 - **offsetName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Offset name defined in `offsets.jsonc` file.
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The offset.
 
@@ -38,11 +38,11 @@ nint GetOffset(string offsetName)
 nint GetSignature(string signatureName)
 ```
 
-#### Parameters
+- Parameters
 
 - **signatureName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Signature name defined in `signatures.jsonc` file.
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The signature.
 
@@ -52,11 +52,11 @@ nint GetSignature(string signatureName)
 bool HasOffset(string offsetName)
 ```
 
-#### Parameters
+- Parameters
 
 - **offsetName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Offset name defined in `offsets.jsonc` file.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the offset exists.
 
@@ -66,11 +66,11 @@ bool HasOffset(string offsetName)
 bool HasPatch(string patchName)
 ```
 
-#### Parameters
+- Parameters
 
 - **patchName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Patch name defined in `patchs.jsonc` file.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the patch exists.
 
@@ -80,11 +80,11 @@ bool HasPatch(string patchName)
 bool HasSignature(string signatureName)
 ```
 
-#### Parameters
+- Parameters
 
 - **signatureName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Signature name defined in `signatures.jsonc` file.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the signature exists.
 
@@ -94,12 +94,12 @@ bool HasSignature(string signatureName)
 bool TryGetOffset(string offsetName, out nint offset)
 ```
 
-#### Parameters
+- Parameters
 
 - **offsetName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Offset name defined in `offsets.jsonc` file.
 - **offset**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The offset.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the offset exists.
 
@@ -109,12 +109,12 @@ bool TryGetOffset(string offsetName, out nint offset)
 bool TryGetSignature(string signatureName, out nint signature)
 ```
 
-#### Parameters
+- Parameters
 
 - **signatureName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Signature name defined in `signatures.jsonc` file.
 - **signature**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The signature.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the signature exists.
 

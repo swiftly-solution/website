@@ -6,7 +6,7 @@ title: CMsgClientWelcome_Location
 public interface CMsgClientWelcome_Location : ITypedProtobuf<CMsgClientWelcome_Location>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgClientWelcome_Location : ITypedProtobuf<CMsgClientWelcome_L
 string Country { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Country { get; set; }
 float Latitude { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float Latitude { get; set; }
 float Longitude { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

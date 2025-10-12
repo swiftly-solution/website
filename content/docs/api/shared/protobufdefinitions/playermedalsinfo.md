@@ -6,7 +6,7 @@ title: PlayerMedalsInfo
 public interface PlayerMedalsInfo : ITypedProtobuf<PlayerMedalsInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PlayerMedalsInfo : ITypedProtobuf<PlayerMedalsInfo>, INativeHan
 IProtobufRepeatedFieldValueType<uint> DisplayItemsDefidx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<uint> DisplayItemsDefidx { get; }
 uint FeaturedDisplayItemDefidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

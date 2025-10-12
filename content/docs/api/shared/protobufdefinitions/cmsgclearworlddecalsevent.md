@@ -6,7 +6,7 @@ title: CMsgClearWorldDecalsEvent
 public interface CMsgClearWorldDecalsEvent : ITypedProtobuf<CMsgClearWorldDecalsEvent>, INativeHandle, INetMessage<CMsgClearWorldDecalsEvent>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgClearWorldDecalsEvent : ITypedProtobuf<CMsgClearWorldDecals
 uint Flagstoclear { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

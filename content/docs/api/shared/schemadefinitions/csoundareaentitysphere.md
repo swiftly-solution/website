@@ -6,7 +6,7 @@ title: CSoundAreaEntitySphere
 public interface CSoundAreaEntitySphere : CSoundAreaEntityBase, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSoundAreaEntityBase>, ISchemaClass<CSoundAreaEntitySphere>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSoundAreaEntitySphere : CSoundAreaEntityBase, CBaseEntity, CEn
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: SequenceWeightedList_t
 public interface SequenceWeightedList_t : ISchemaClass<SequenceWeightedList_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SequenceWeightedList_t : ISchemaClass<SequenceWeightedList_t>, 
 ref float RelativeWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float RelativeWeight { get; }
 ref int Sequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

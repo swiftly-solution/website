@@ -6,7 +6,7 @@ title: CMsgTEBeamEntPoint
 public interface CMsgTEBeamEntPoint : ITypedProtobuf<CMsgTEBeamEntPoint>, INativeHandle, INetMessage<CMsgTEBeamEntPoint>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEBeamEntPoint : ITypedProtobuf<CMsgTEBeamEntPoint>, INativ
 CMsgTEBaseBeam Base { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgTEBaseBeam](/docs/api/shared/protobufdefinitions/cmsgtebasebeam)
 
@@ -26,7 +26,7 @@ CMsgTEBaseBeam Base { get; }
 Vector End { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector End { get; set; }
 uint Endentity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Endentity { get; set; }
 Vector Start { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ Vector Start { get; set; }
 uint Startentity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

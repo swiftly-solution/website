@@ -6,7 +6,7 @@ title: VMixEQ8Desc_t
 public interface VMixEQ8Desc_t : ISchemaClass<VMixEQ8Desc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixEQ8Desc_t : ISchemaClass<VMixEQ8Desc_t>, ISchemaField, ISch
 SchemaUntypedField Stages { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

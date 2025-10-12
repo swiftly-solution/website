@@ -6,7 +6,7 @@ title: VMixDiffusorDesc_t
 public interface VMixDiffusorDesc_t : ISchemaClass<VMixDiffusorDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixDiffusorDesc_t : ISchemaClass<VMixDiffusorDesc_t>, ISchemaF
 ref float Complexity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Complexity { get; }
 ref float Feedback { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Feedback { get; }
 ref float OutputGain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float OutputGain { get; }
 ref float Size { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: ScriptInfo_t
 public interface ScriptInfo_t : ISchemaClass<ScriptInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ScriptInfo_t : ISchemaClass<ScriptInfo_t>, ISchemaField, ISchem
 string Code { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Code { get; set; }
 ref CUtlVector ParamsModified { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector ParamsModified { get; }
 ref CUtlVector<int> ProxyReadParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<int> ProxyReadParams { get; }
 ref CUtlVector<int> ProxyWriteParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<int> ProxyWriteParams { get; }
 ref AnimScriptType ScriptType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimScriptType](/docs/api/shared/schemadefinitions/animscripttype)
 

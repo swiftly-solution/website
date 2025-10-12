@@ -6,7 +6,7 @@ title: C_OP_ClientPhysics
 public interface C_OP_ClientPhysics : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_ClientPhysics>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_ClientPhysics : CParticleFunctionRenderer, CParticleFuncti
 ref ParticleColorBlendType_t ColorBlendType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
@@ -26,7 +26,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 ref int ControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ControlPoint { get; }
 ref bool DeleteSim { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool DeleteSim { get; }
 ref int ForcedSimId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int ForcedSimId { get; }
 ref ParticleAttrBoxFlags_t ForcedStatusEffects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttrBoxFlags_t](/docs/api/shared/schemadefinitions/particleattrboxflags_t)
 
@@ -66,7 +66,7 @@ ref ParticleAttrBoxFlags_t ForcedStatusEffects { get; }
 ref bool KillParticles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool KillParticles { get; }
 ref int MaxParticleCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int MaxParticleCount { get; }
 CParticleCollectionFloatInput PlayerWakeRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -96,7 +96,7 @@ CParticleCollectionFloatInput PlayerWakeRadius { get; }
 ref bool RespectExclusionVolumes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool RespectExclusionVolumes { get; }
 ref bool StartAsleep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool StartAsleep { get; }
 string StrPhysicsType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -126,7 +126,7 @@ string StrPhysicsType { get; set; }
 ref bool UseHighQualitySimulation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool UseHighQualitySimulation { get; }
 CParticleCollectionFloatInput VehicleWakeRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 

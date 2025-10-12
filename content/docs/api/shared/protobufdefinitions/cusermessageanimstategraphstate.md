@@ -6,7 +6,7 @@ title: CUserMessageAnimStateGraphState
 public interface CUserMessageAnimStateGraphState : ITypedProtobuf<CUserMessageAnimStateGraphState>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageAnimStateGraphState : ITypedProtobuf<CUserMessageAn
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] Data { get; set; }
 int EntityIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

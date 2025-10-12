@@ -6,7 +6,7 @@ title: CSVCMsg_HLTVStatus
 public interface CSVCMsg_HLTVStatus : ITypedProtobuf<CSVCMsg_HLTVStatus>, INativeHandle, INetMessage<CSVCMsg_HLTVStatus>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_HLTVStatus : ITypedProtobuf<CSVCMsg_HLTVStatus>, INativ
 int Clients { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Clients { get; set; }
 string Master { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Master { get; set; }
 int Proxies { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Proxies { get; set; }
 int Slots { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

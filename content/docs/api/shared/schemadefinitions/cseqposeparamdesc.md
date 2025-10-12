@@ -6,7 +6,7 @@ title: CSeqPoseParamDesc
 public interface CSeqPoseParamDesc : ISchemaClass<CSeqPoseParamDesc>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSeqPoseParamDesc : ISchemaClass<CSeqPoseParamDesc>, ISchemaFie
 ref float End { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float End { get; }
 ref float Loop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Loop { get; }
 ref bool Looping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Looping { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -56,7 +56,7 @@ ref CBufferString Name { get; }
 ref float Start { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

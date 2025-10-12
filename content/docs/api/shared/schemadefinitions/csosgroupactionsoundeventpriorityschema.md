@@ -6,7 +6,7 @@ title: CSosGroupActionSoundeventPrioritySchema
 public interface CSosGroupActionSoundeventPrioritySchema : CSosGroupActionSchema, ISchemaClass<CSosGroupActionSchema>, ISchemaClass<CSosGroupActionSoundeventPrioritySchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSosGroupActionSoundeventPrioritySchema : CSosGroupActionSchema
 string PriorityContributeButDontRead { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string PriorityContributeButDontRead { get; set; }
 string PriorityReadButDontContribute { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string PriorityReadButDontContribute { get; set; }
 string PriorityValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string PriorityValue { get; set; }
 string PriorityVolumeScalar { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CPulse_CallInfo
 public interface CPulse_CallInfo : ISchemaClass<CPulse_CallInfo>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulse_CallInfo : ISchemaClass<CPulse_CallInfo>, ISchemaField, 
 PulseDocNodeID_t CallMethodID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
@@ -26,7 +26,7 @@ PulseDocNodeID_t CallMethodID { get; }
 PulseDocNodeID_t EditorNodeID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
@@ -36,7 +36,7 @@ PulseDocNodeID_t EditorNodeID { get; }
 SchemaUntypedField PortName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField PortName { get; }
 PulseRegisterMap_t RegisterMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRegisterMap_t](/docs/api/shared/schemadefinitions/pulseregistermap_t)
 
@@ -56,7 +56,7 @@ PulseRegisterMap_t RegisterMap { get; }
 PulseRuntimeChunkIndex_t SrcChunk { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeChunkIndex_t](/docs/api/shared/schemadefinitions/pulseruntimechunkindex_t)
 
@@ -66,7 +66,7 @@ PulseRuntimeChunkIndex_t SrcChunk { get; }
 ref int SrcInstruction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CSVCMsg_VoiceInit
 public interface CSVCMsg_VoiceInit : ITypedProtobuf<CSVCMsg_VoiceInit>, INativeHandle, INetMessage<CSVCMsg_VoiceInit>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_VoiceInit : ITypedProtobuf<CSVCMsg_VoiceInit>, INativeH
 string Codec { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Codec { get; set; }
 int Quality { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Quality { get; set; }
 int Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CMsgIPCAddress
 public interface CMsgIPCAddress : ITypedProtobuf<CMsgIPCAddress>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgIPCAddress : ITypedProtobuf<CMsgIPCAddress>, INativeHandle
 ulong ComputerGuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong ComputerGuid { get; set; }
 uint ProcessId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

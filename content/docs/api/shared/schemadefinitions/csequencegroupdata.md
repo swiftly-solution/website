@@ -6,7 +6,7 @@ title: CSequenceGroupData
 public interface CSequenceGroupData : ISchemaClass<CSequenceGroupData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSequenceGroupData : ISchemaClass<CSequenceGroupData>, ISchemaF
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint Flags { get; }
 SchemaUntypedField KeyValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField KeyValues { get; }
 ref CUtlVector LocalBoneMaskArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector LocalBoneMaskArray { get; }
 ref CUtlVector<CBufferString> LocalBoneNameArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<CBufferString> LocalBoneNameArray { get; }
 ref CUtlVector LocalCmdSeqDescArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector LocalCmdSeqDescArray { get; }
 ref CUtlVector LocalIKAutoplayLockArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector LocalIKAutoplayLockArray { get; }
 ref CUtlVector LocalMultiSeqDescArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -86,7 +86,7 @@ ref CUtlVector LocalMultiSeqDescArray { get; }
 ref CBufferString LocalNodeName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -96,7 +96,7 @@ ref CBufferString LocalNodeName { get; }
 ref CUtlVector LocalPoseParamArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -106,7 +106,7 @@ ref CUtlVector LocalPoseParamArray { get; }
 ref CUtlVector LocalS1SeqDescArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -116,7 +116,7 @@ ref CUtlVector LocalS1SeqDescArray { get; }
 ref CUtlVector LocalScaleSetArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -126,7 +126,7 @@ ref CUtlVector LocalScaleSetArray { get; }
 ref CUtlVector<CBufferString> LocalSequenceNameArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
 
@@ -136,7 +136,7 @@ ref CUtlVector<CBufferString> LocalSequenceNameArray { get; }
 ref CUtlVector LocalSynthAnimDescArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -146,7 +146,7 @@ ref CUtlVector LocalSynthAnimDescArray { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 

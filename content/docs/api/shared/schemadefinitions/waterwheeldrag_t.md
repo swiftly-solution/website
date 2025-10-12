@@ -6,7 +6,7 @@ title: WaterWheelDrag_t
 public interface WaterWheelDrag_t : ISchemaClass<WaterWheelDrag_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface WaterWheelDrag_t : ISchemaClass<WaterWheelDrag_t>, ISchemaField
 ref float FractionOfWheelSubmerged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float FractionOfWheelSubmerged { get; }
 ref float WheelDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

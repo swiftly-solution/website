@@ -6,7 +6,7 @@ title: CMsgAdjustItemEquippedState
 public interface CMsgAdjustItemEquippedState : ITypedProtobuf<CMsgAdjustItemEquippedState>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgAdjustItemEquippedState : ITypedProtobuf<CMsgAdjustItemEqui
 ulong ItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong ItemId { get; set; }
 uint NewClass { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint NewClass { get; set; }
 uint NewSlot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint NewSlot { get; set; }
 bool Swap { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

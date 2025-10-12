@@ -6,7 +6,7 @@ title: CPulseRuntimeMethodArg
 public interface CPulseRuntimeMethodArg : ISchemaClass<CPulseRuntimeMethodArg>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseRuntimeMethodArg : ISchemaClass<CPulseRuntimeMethodArg>, 
 string Description { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Description { get; set; }
 SchemaUntypedField Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Name { get; }
 SchemaUntypedField Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

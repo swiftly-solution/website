@@ -14,7 +14,7 @@ public interface ISizedNativeHandle
 public static abstract int GetSize()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

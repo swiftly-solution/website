@@ -6,7 +6,7 @@ title: VariableInfo_t
 public interface VariableInfo_t : ISchemaClass<VariableInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VariableInfo_t : ISchemaClass<VariableInfo_t>, ISchemaField, IS
 ref FuseVariableAccess_t Access { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FuseVariableAccess_t](/docs/api/shared/schemadefinitions/fusevariableaccess_t)
 
@@ -26,7 +26,7 @@ ref FuseVariableAccess_t Access { get; }
 FuseVariableIndex_t Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FuseVariableIndex_t](/docs/api/shared/schemadefinitions/fusevariableindex_t)
 
@@ -36,7 +36,7 @@ FuseVariableIndex_t Index { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Name { get; set; }
 ref CUtlStringToken NameToken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -56,7 +56,7 @@ ref CUtlStringToken NameToken { get; }
 ref byte NumComponents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -66,7 +66,7 @@ ref byte NumComponents { get; }
 ref FuseVariableType_t VarType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FuseVariableType_t](/docs/api/shared/schemadefinitions/fusevariabletype_t)
 

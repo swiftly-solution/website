@@ -6,7 +6,7 @@ title: CTriggerHurt
 public interface CTriggerHurt : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerHurt>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTriggerHurt : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBa
 ref DamageTypes_t BitsDamageInflict { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DamageTypes_t](/docs/api/shared/schemadefinitions/damagetypes_t)
 
@@ -26,7 +26,7 @@ ref DamageTypes_t BitsDamageInflict { get; }
 ref float Damage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Damage { get; }
 ref float DamageCap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float DamageCap { get; }
 ref Vector DamageForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector DamageForce { get; }
 ref int DamageModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int DamageModel { get; }
 ref float ForgivenessDelay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float ForgivenessDelay { get; }
 ref CUtlVector<CHandle<CBaseEntity>> HurtEntities { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
@@ -86,7 +86,7 @@ ref CUtlVector<CHandle<CBaseEntity>> HurtEntities { get; }
 ref float HurtThinkPeriod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float HurtThinkPeriod { get; }
 GameTime_t LastDmgTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -106,7 +106,7 @@ GameTime_t LastDmgTime { get; }
 ref bool NoDmgForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool NoDmgForce { get; }
 CEntityIOOutput OnHurt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -126,7 +126,7 @@ CEntityIOOutput OnHurt { get; }
 CEntityIOOutput OnHurtPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -136,7 +136,7 @@ CEntityIOOutput OnHurtPlayer { get; }
 ref float OriginalDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float OriginalDamage { get; }
 ref bool ThinkAlways { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CNetworkViewOffsetVector
 public interface CNetworkViewOffsetVector : ISchemaClass<CNetworkViewOffsetVector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNetworkViewOffsetVector : ISchemaClass<CNetworkViewOffsetVecto
 ref CNetworkedQuantizedFloat X { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 
@@ -26,7 +26,7 @@ ref CNetworkedQuantizedFloat X { get; }
 ref CNetworkedQuantizedFloat Y { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 
@@ -36,7 +36,7 @@ ref CNetworkedQuantizedFloat Y { get; }
 ref CNetworkedQuantizedFloat Z { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 

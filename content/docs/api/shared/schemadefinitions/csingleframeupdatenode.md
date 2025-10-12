@@ -6,7 +6,7 @@ title: CSingleFrameUpdateNode
 public interface CSingleFrameUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CLeafUpdateNode>, ISchemaClass<CSingleFrameUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSingleFrameUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBase, 
 ref CUtlVector Actions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Actions { get; }
 ref float Cycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Cycle { get; }
 CPoseHandle PoseCacheHandle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPoseHandle](/docs/api/shared/schemadefinitions/cposehandle)
 
@@ -46,7 +46,7 @@ CPoseHandle PoseCacheHandle { get; }
 HSequence Sequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 

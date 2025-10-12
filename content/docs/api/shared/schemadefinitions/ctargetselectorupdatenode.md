@@ -6,7 +6,7 @@ title: CTargetSelectorUpdateNode
 public interface CTargetSelectorUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CTargetSelectorUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTargetSelectorUpdateNode : CAnimUpdateNodeBase, ISchemaClass<C
 ref TargetSelectorAngleMode_t AngleMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TargetSelectorAngleMode_t](/docs/api/shared/schemadefinitions/targetselectoranglemode_t)
 
@@ -26,7 +26,7 @@ ref TargetSelectorAngleMode_t AngleMode { get; }
 ref CUtlVector Children { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector Children { get; }
 CAnimParamHandle DesiredMoveHeadingParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -46,7 +46,7 @@ CAnimParamHandle DesiredMoveHeadingParameter { get; }
 ref bool EnablePhaseMatching { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool EnablePhaseMatching { get; }
 CAnimParamHandle MoveHeadingParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -66,7 +66,7 @@ CAnimParamHandle MoveHeadingParameter { get; }
 ref float PhaseMatchingMaxRootMotionSkip { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float PhaseMatchingMaxRootMotionSkip { get; }
 ref bool TargetFacePositionIsWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool TargetFacePositionIsWorldSpace { get; }
 CAnimParamHandle TargetFacePositionParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -96,7 +96,7 @@ CAnimParamHandle TargetFacePositionParameter { get; }
 CAnimParamHandle TargetPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -106,7 +106,7 @@ CAnimParamHandle TargetPosition { get; }
 ref bool TargetPositionIsWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

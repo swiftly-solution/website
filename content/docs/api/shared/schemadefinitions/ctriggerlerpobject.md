@@ -6,7 +6,7 @@ title: CTriggerLerpObject
 public interface CTriggerLerpObject : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerLerpObject>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTriggerLerpObject : CBaseTrigger, CBaseToggle, CBaseModelEntit
 ref bool AttachTouchingObject { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AttachTouchingObject { get; }
 ref CHandle<CBaseEntity> EntityToWaitForDisconnect { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> EntityToWaitForDisconnect { get; }
 ref float LerpDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float LerpDuration { get; }
 string LerpEffect { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string LerpEffect { get; set; }
 ref bool LerpRestoreMoveType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool LerpRestoreMoveType { get; }
 string LerpSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string LerpSound { get; set; }
 string LerpTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string LerpTarget { get; set; }
 ref CHandle<CBaseEntity> LerpTarget1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -96,7 +96,7 @@ ref CHandle<CBaseEntity> LerpTarget1 { get; }
 string LerpTargetAttachment { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string LerpTargetAttachment { get; set; }
 AttachmentHandle_t LerpTargetAttachment2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AttachmentHandle_t](/docs/api/shared/schemadefinitions/attachmenthandle_t)
 
@@ -116,7 +116,7 @@ AttachmentHandle_t LerpTargetAttachment2 { get; }
 ref CUtlVector LerpingObjects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -126,7 +126,7 @@ ref CUtlVector LerpingObjects { get; }
 CEntityIOOutput OnDetached { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -136,7 +136,7 @@ CEntityIOOutput OnDetached { get; }
 CEntityIOOutput OnLerpFinished { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -146,7 +146,7 @@ CEntityIOOutput OnLerpFinished { get; }
 CEntityIOOutput OnLerpStarted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -156,7 +156,7 @@ CEntityIOOutput OnLerpStarted { get; }
 ref bool SingleLerpObject { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: BakedLightingInfo_t__BakedShadowAssignment_t
 public interface BakedLightingInfo_t__BakedShadowAssignment_t : ISchemaClass<BakedLightingInfo_t__BakedShadowAssignment_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface BakedLightingInfo_t__BakedShadowAssignment_t : ISchemaClass<Bak
 ref uint LightHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint LightHash { get; }
 ref uint MapHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint MapHash { get; }
 ref byte ShadowChannel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

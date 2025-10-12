@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_CreateParticle
 public interface CUserMsg_ParticleManager_CreateParticle : ITypedProtobuf<CUserMsg_ParticleManager_CreateParticle>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_CreateParticle : ITypedProtobuf<CUserM
 Vector AggregationPosition { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ Vector AggregationPosition { get; set; }
 bool ApplyVoiceBanRules { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool ApplyVoiceBanRules { get; set; }
 int AttachType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int AttachType { get; set; }
 bool Cluster { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ bool Cluster { get; set; }
 string ControlPointConfiguration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string ControlPointConfiguration { get; set; }
 float EndcapTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ float EndcapTime { get; set; }
 uint EntityHandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint EntityHandle { get; set; }
 uint EntityHandleForModifiers { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ uint EntityHandleForModifiers { get; set; }
 ulong ParticleNameIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -106,7 +106,7 @@ ulong ParticleNameIndex { get; set; }
 int TeamBehavior { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

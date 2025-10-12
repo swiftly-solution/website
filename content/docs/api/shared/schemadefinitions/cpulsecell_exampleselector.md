@@ -6,7 +6,7 @@ title: CPulseCell_ExampleSelector
 public interface CPulseCell_ExampleSelector : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_ExampleSelector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_ExampleSelector : CPulseCell_BaseFlow, CPulseCell_Ba
 PulseSelectorOutflowList_t OutflowList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseSelectorOutflowList_t](/docs/api/shared/schemadefinitions/pulseselectoroutflowlist_t)
 

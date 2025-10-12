@@ -6,7 +6,7 @@ title: CNmVirtualParameterTargetNode__CDefinition
 public interface CNmVirtualParameterTargetNode__CDefinition : CNmTargetValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmTargetValueNode__CDefinition>, ISchemaClass<CNmVirtualParameterTargetNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmVirtualParameterTargetNode__CDefinition : CNmTargetValueNode
 ref short ChildNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

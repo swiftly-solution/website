@@ -6,7 +6,7 @@ title: RelationshipOverride_t
 public interface RelationshipOverride_t : Relationship_t, ISchemaClass<Relationship_t>, ISchemaClass<RelationshipOverride_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RelationshipOverride_t : Relationship_t, ISchemaClass<Relations
 ref Class_T ClassType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Class_T](/docs/api/shared/schemadefinitions/class_t)
 
@@ -26,7 +26,7 @@ ref Class_T ClassType { get; }
 ref CHandle<CBaseEntity> Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

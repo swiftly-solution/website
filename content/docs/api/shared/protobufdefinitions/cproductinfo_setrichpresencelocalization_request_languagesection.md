@@ -6,7 +6,7 @@ title: CProductInfo_SetRichPresenceLocalization_Request_LanguageSection
 public interface CProductInfo_SetRichPresenceLocalization_Request_LanguageSection : ITypedProtobuf<CProductInfo_SetRichPresenceLocalization_Request_LanguageSection>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CProductInfo_SetRichPresenceLocalization_Request_LanguageSectio
 string Language { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Language { get; set; }
 IProtobufRepeatedFieldSubMessageType<CProductInfo_SetRichPresenceLocalization_Request_Token> Tokens { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CProductInfo_SetRichPresenceLocalization_Request_Token](/docs/api/shared/protobufdefinitions/cproductinfo_setrichpresencelocalization_request_token)>
 

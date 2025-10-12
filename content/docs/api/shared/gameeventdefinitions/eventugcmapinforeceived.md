@@ -6,7 +6,7 @@ title: EventUgcMapInfoReceived
 public interface EventUgcMapInfoReceived : IGameEvent<EventUgcMapInfoReceived>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventUgcMapInfoReceived : IGameEvent<EventUgcMapInfoReceived>
 ulong PublishedFileId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

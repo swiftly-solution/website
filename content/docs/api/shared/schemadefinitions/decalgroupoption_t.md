@@ -6,7 +6,7 @@ title: DecalGroupOption_t
 public interface DecalGroupOption_t : ISchemaClass<DecalGroupOption_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface DecalGroupOption_t : ISchemaClass<DecalGroupOption_t>, ISchemaF
 ref bool EnableAngleBetweenNormalAndGravityRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool EnableAngleBetweenNormalAndGravityRange { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -36,7 +36,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 ref float MaxAngleBetweenNormalAndGravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float MaxAngleBetweenNormalAndGravity { get; }
 ref float MinAngleBetweenNormalAndGravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MinAngleBetweenNormalAndGravity { get; }
 ref float Probability { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float Probability { get; }
 ref CGlobalSymbol SequenceName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

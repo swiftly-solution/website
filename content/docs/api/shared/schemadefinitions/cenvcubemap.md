@@ -6,7 +6,7 @@ title: CEnvCubemap
 public interface CEnvCubemap : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CEnvCubemap>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEnvCubemap : CBaseEntity, CEntityInstance, ISchemaClass<CEntit
 ref bool Entity_bCopyDiffuseFromDefaultCubemap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Entity_bCopyDiffuseFromDefaultCubemap { get; }
 ref bool Entity_bCustomCubemapTexture { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Entity_bCustomCubemapTexture { get; }
 ref bool Entity_bDefaultEnvMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Entity_bDefaultEnvMap { get; }
 ref bool Entity_bDefaultSpecEnvMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool Entity_bDefaultSpecEnvMap { get; }
 ref bool Entity_bEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool Entity_bEnabled { get; }
 ref bool Entity_bIndoorCubeMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool Entity_bIndoorCubeMap { get; }
 ref bool Entity_bMoveable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool Entity_bMoveable { get; }
 ref bool Entity_bStartDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool Entity_bStartDisabled { get; }
 ref float Entity_flDiffuseScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float Entity_flDiffuseScale { get; }
 ref float Entity_flEdgeFadeDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float Entity_flEdgeFadeDist { get; }
 ref float Entity_flInfluenceRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float Entity_flInfluenceRadius { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hCubemapTexture { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -136,7 +136,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> Entity_hCubemapTexture { get;
 ref int Entity_nEnvCubeMapArrayIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int Entity_nEnvCubeMapArrayIndex { get; }
 ref int Entity_nHandshake { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int Entity_nHandshake { get; }
 ref int Entity_nPriority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ ref int Entity_nPriority { get; }
 ref Vector Entity_vBoxProjectMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -176,7 +176,7 @@ ref Vector Entity_vBoxProjectMaxs { get; }
 ref Vector Entity_vBoxProjectMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -186,7 +186,7 @@ ref Vector Entity_vBoxProjectMins { get; }
 ref Vector Entity_vEdgeFadeDists { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

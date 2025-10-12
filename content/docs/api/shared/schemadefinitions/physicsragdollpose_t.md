@@ -6,7 +6,7 @@ title: PhysicsRagdollPose_t
 public interface PhysicsRagdollPose_t : ISchemaClass<PhysicsRagdollPose_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PhysicsRagdollPose_t : ISchemaClass<PhysicsRagdollPose_t>, ISch
 ref CHandle<CBaseEntity> Owner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> Owner { get; }
 ref bool SetFromDebugHistory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool SetFromDebugHistory { get; }
 ref CUtlVector<CTransform> Transforms { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 

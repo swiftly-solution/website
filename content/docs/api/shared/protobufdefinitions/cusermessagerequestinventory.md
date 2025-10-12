@@ -6,7 +6,7 @@ title: CUserMessageRequestInventory
 public interface CUserMessageRequestInventory : ITypedProtobuf<CUserMessageRequestInventory>, INativeHandle, INetMessage<CUserMessageRequestInventory>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageRequestInventory : ITypedProtobuf<CUserMessageReque
 int Inventory { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Inventory { get; set; }
 int Offset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Offset { get; set; }
 int Options { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

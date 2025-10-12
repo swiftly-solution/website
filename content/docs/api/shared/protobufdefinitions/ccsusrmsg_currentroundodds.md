@@ -6,7 +6,7 @@ title: CCSUsrMsg_CurrentRoundOdds
 public interface CCSUsrMsg_CurrentRoundOdds : ITypedProtobuf<CCSUsrMsg_CurrentRoundOdds>, INativeHandle, INetMessage<CCSUsrMsg_CurrentRoundOdds>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_CurrentRoundOdds : ITypedProtobuf<CCSUsrMsg_CurrentRo
 int Odds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

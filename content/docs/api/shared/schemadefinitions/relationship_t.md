@@ -6,7 +6,7 @@ title: Relationship_t
 public interface Relationship_t : ISchemaClass<Relationship_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface Relationship_t : ISchemaClass<Relationship_t>, ISchemaField, IS
 ref Disposition_t Disposition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Disposition_t](/docs/api/shared/schemadefinitions/disposition_t)
 
@@ -26,7 +26,7 @@ ref Disposition_t Disposition { get; }
 ref int Priority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

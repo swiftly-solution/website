@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_UpdateEntityPosition
 public interface CUserMsg_ParticleManager_UpdateEntityPosition : ITypedProtobuf<CUserMsg_ParticleManager_UpdateEntityPosition>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_UpdateEntityPosition : ITypedProtobuf<
 uint EntityHandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint EntityHandle { get; set; }
 Vector Position { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

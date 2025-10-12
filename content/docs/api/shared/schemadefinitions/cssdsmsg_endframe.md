@@ -6,7 +6,7 @@ title: CSSDSMsg_EndFrame
 public interface CSSDSMsg_EndFrame : ISchemaClass<CSSDSMsg_EndFrame>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSSDSMsg_EndFrame : ISchemaClass<CSSDSMsg_EndFrame>, ISchemaFie
 ref CUtlVector Views { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

@@ -6,7 +6,7 @@ title: RagdollCreationParams_t
 public interface RagdollCreationParams_t : ISchemaClass<RagdollCreationParams_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RagdollCreationParams_t : ISchemaClass<RagdollCreationParams_t>
 ref Vector Force { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector Force { get; }
 ref int ForceBone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ForceBone { get; }
 ref bool ForceCurrentWorldTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ForceCurrentWorldTransform { get; }
 ref int HealthToGrant { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int HealthToGrant { get; }
 ref bool UseLRURetirement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

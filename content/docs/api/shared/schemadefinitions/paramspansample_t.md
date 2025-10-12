@@ -6,7 +6,7 @@ title: ParamSpanSample_t
 public interface ParamSpanSample_t : ISchemaClass<ParamSpanSample_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParamSpanSample_t : ISchemaClass<ParamSpanSample_t>, ISchemaFie
 ref float Cycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Cycle { get; }
 SchemaUntypedField Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

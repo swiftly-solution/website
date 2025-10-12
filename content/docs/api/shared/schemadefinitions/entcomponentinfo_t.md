@@ -6,7 +6,7 @@ title: EntComponentInfo_t
 public interface EntComponentInfo_t : ISchemaClass<EntComponentInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EntComponentInfo_t : ISchemaClass<EntComponentInfo_t>, ISchemaF
 CEntityComponentHelper? BaseClassComponentHelper { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityComponentHelper](/docs/api/shared/schemadefinitions/centitycomponenthelper)?
 
@@ -26,7 +26,7 @@ CEntityComponentHelper? BaseClassComponentHelper { get; }
 string CPPClassname { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string CPPClassname { get; set; }
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint Flags { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string Name { get; set; }
 string NetworkDataReferencedDescription { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string NetworkDataReferencedDescription { get; set; }
 string NetworkDataReferencedPtrPropDescription { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string NetworkDataReferencedPtrPropDescription { get; set; }
 ref int RuntimeIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

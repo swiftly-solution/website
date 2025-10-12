@@ -6,7 +6,7 @@ title: CCSUsrMsg_VGUIMenu
 public interface CCSUsrMsg_VGUIMenu : ITypedProtobuf<CCSUsrMsg_VGUIMenu>, INativeHandle, INetMessage<CCSUsrMsg_VGUIMenu>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_VGUIMenu : ITypedProtobuf<CCSUsrMsg_VGUIMenu>, INativ
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_VGUIMenu_Keys> Keys { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_VGUIMenu_Keys](/docs/api/shared/protobufdefinitions/ccsusrmsg_vguimenu_keys)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_VGUIMenu_Keys> Keys { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Name { get; set; }
 bool Show { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

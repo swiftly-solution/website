@@ -6,7 +6,7 @@ title: PostProcessingResource_t
 public interface PostProcessingResource_t : ISchemaClass<PostProcessingResource_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PostProcessingResource_t : ISchemaClass<PostProcessingResource_
 PostProcessingBloomParameters_t BloomParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PostProcessingBloomParameters_t](/docs/api/shared/schemadefinitions/postprocessingbloomparameters_t)
 
@@ -26,7 +26,7 @@ PostProcessingBloomParameters_t BloomParams { get; }
 ref CUtlBinaryBlock ColorCorrectionVolumeData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 
@@ -36,7 +36,7 @@ ref CUtlBinaryBlock ColorCorrectionVolumeData { get; }
 ref int ColorCorrectionVolumeDim { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int ColorCorrectionVolumeDim { get; }
 PostProcessingFogScatteringParameters_t FogScatteringParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PostProcessingFogScatteringParameters_t](/docs/api/shared/schemadefinitions/postprocessingfogscatteringparameters_t)
 
@@ -56,7 +56,7 @@ PostProcessingFogScatteringParameters_t FogScatteringParams { get; }
 ref bool HasBloomParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool HasBloomParams { get; }
 ref bool HasColorCorrection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool HasColorCorrection { get; }
 ref bool HasFogScatteringParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool HasFogScatteringParams { get; }
 ref bool HasLocalContrastParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool HasLocalContrastParams { get; }
 ref bool HasTonemapParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool HasTonemapParams { get; }
 ref bool HasVignetteParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool HasVignetteParams { get; }
 PostProcessingLocalContrastParameters_t LocalConstrastParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PostProcessingLocalContrastParameters_t](/docs/api/shared/schemadefinitions/postprocessinglocalcontrastparameters_t)
 
@@ -126,7 +126,7 @@ PostProcessingLocalContrastParameters_t LocalConstrastParams { get; }
 PostProcessingTonemapParameters_t ToneMapParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PostProcessingTonemapParameters_t](/docs/api/shared/schemadefinitions/postprocessingtonemapparameters_t)
 
@@ -136,7 +136,7 @@ PostProcessingTonemapParameters_t ToneMapParams { get; }
 PostProcessingVignetteParameters_t VignetteParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PostProcessingVignetteParameters_t](/docs/api/shared/schemadefinitions/postprocessingvignetteparameters_t)
 

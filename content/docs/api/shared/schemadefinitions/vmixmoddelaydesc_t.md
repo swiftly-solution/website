@@ -6,7 +6,7 @@ title: VMixModDelayDesc_t
 public interface VMixModDelayDesc_t : ISchemaClass<VMixModDelayDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixModDelayDesc_t : ISchemaClass<VMixModDelayDesc_t>, ISchemaF
 ref bool ApplyAntialiasing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ApplyAntialiasing { get; }
 ref float Delay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Delay { get; }
 VMixFilterDesc_t FeedbackFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixFilterDesc_t](/docs/api/shared/schemadefinitions/vmixfilterdesc_t)
 
@@ -46,7 +46,7 @@ VMixFilterDesc_t FeedbackFilter { get; }
 ref float FeedbackGain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float FeedbackGain { get; }
 ref float GlideTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float GlideTime { get; }
 ref float ModDepth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float ModDepth { get; }
 ref float ModRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float ModRate { get; }
 ref float OutputGain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float OutputGain { get; }
 ref bool PhaseInvert { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

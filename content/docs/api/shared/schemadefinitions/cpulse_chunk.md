@@ -6,7 +6,7 @@ title: CPulse_Chunk
 public interface CPulse_Chunk : ISchemaClass<CPulse_Chunk>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulse_Chunk : ISchemaClass<CPulse_Chunk>, ISchemaField, ISchem
 SchemaUntypedField InstructionEditorIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField InstructionEditorIDs { get; }
 SchemaUntypedField Instructions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Instructions { get; }
 SchemaUntypedField Registers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

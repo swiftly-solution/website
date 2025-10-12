@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_GotvSyncPacket
 public interface CMsgGCCStrike15_GotvSyncPacket : ITypedProtobuf<CMsgGCCStrike15_GotvSyncPacket>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_GotvSyncPacket : ITypedProtobuf<CMsgGCCStrike15
 CEngineGotvSyncPacket Data { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEngineGotvSyncPacket](/docs/api/shared/protobufdefinitions/cenginegotvsyncpacket)
 

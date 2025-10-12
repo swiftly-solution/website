@@ -6,7 +6,7 @@ title: CSAdditionalMatchStats_t
 public interface CSAdditionalMatchStats_t : CSAdditionalPerRoundStats_t, ISchemaClass<CSAdditionalPerRoundStats_t>, ISchemaClass<CSAdditionalMatchStats_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSAdditionalMatchStats_t : CSAdditionalPerRoundStats_t, ISchema
 ref int MaxNumRoundsSurvived { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int MaxNumRoundsSurvived { get; }
 ref int NumClutchKills { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int NumClutchKills { get; }
 ref int NumFirstKills { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int NumFirstKills { get; }
 ref int NumPistolKills { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int NumPistolKills { get; }
 ref int NumRoundsSurvived { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int NumRoundsSurvived { get; }
 ref int NumRoundsSurvivedTotal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int NumRoundsSurvivedTotal { get; }
 ref int NumSniperKills { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int NumSniperKills { get; }
 ref int NumSuicides { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int NumSuicides { get; }
 ref int NumTeamKills { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int NumTeamKills { get; }
 ref int RoundsWonWithoutPurchase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int RoundsWonWithoutPurchase { get; }
 ref int RoundsWonWithoutPurchaseTotal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int RoundsWonWithoutPurchaseTotal { get; }
 ref float TeamDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

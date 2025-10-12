@@ -6,5 +6,5 @@ title: InfoForResourceTypeCRenderMesh
 public interface InfoForResourceTypeCRenderMesh : ISchemaClass<InfoForResourceTypeCRenderMesh>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

@@ -7,13 +7,13 @@ title: EventListener<T>
 public class EventListener<T> : Attribute where T : Delegate
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 

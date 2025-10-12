@@ -6,7 +6,7 @@ title: CFogTrigger
 public interface CFogTrigger : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CFogTrigger>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFogTrigger : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBas
 fogparams_t Fog { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fogparams_t](/docs/api/shared/schemadefinitions/fogparams_t)
 

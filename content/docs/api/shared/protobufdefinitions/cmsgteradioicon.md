@@ -6,7 +6,7 @@ title: CMsgTERadioIcon
 public interface CMsgTERadioIcon : ITypedProtobuf<CMsgTERadioIcon>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTERadioIcon : ITypedProtobuf<CMsgTERadioIcon>, INativeHandl
 uint Player { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

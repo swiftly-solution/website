@@ -14,7 +14,7 @@ public interface IGameEventService
 void Fire<T>() where T : IGameEvent<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The event type.
 
@@ -24,11 +24,11 @@ void Fire<T>() where T : IGameEvent<T>
 void Fire<T>(Action<T> configureEvent) where T : IGameEvent<T>
 ```
 
-#### Parameters
+- Parameters
 
 - **configureEvent**: [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<T>
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The event type.
 
@@ -38,11 +38,11 @@ void Fire<T>(Action<T> configureEvent) where T : IGameEvent<T>
 void FireToPlayer<T>(int slot) where T : IGameEvent<T>
 ```
 
-#### Parameters
+- Parameters
 
 - **slot**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The player slot.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The event type.
 
@@ -52,12 +52,12 @@ void FireToPlayer<T>(int slot) where T : IGameEvent<T>
 void FireToPlayer<T>(int slot, Action<T> configureEvent) where T : IGameEvent<T>
 ```
 
-#### Parameters
+- Parameters
 
 - **slot**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The player slot.
 - **configureEvent**: [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<T> - The action to configure the event.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The event type.
 
@@ -67,7 +67,7 @@ void FireToPlayer<T>(int slot, Action<T> configureEvent) where T : IGameEvent<T>
 void FireToServer<T>() where T : IGameEvent<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -77,11 +77,11 @@ void FireToServer<T>() where T : IGameEvent<T>
 void FireToServer<T>(Action<T> configureEvent) where T : IGameEvent<T>
 ```
 
-#### Parameters
+- Parameters
 
 - **configureEvent**: [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<T> - The action to configure the event.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The event type.
 
@@ -91,15 +91,15 @@ void FireToServer<T>(Action<T> configureEvent) where T : IGameEvent<T>
 Guid HookPost<T>(IGameEventService.GameEventHandler<T> callback) where T : IGameEvent<T>
 ```
 
-#### Parameters
+- Parameters
 
 - **callback**: [IGameEventService](/docs/api/shared/gameevents/igameeventservice).[GameEventHandler](/docs/api/shared/gameevents/igameeventservice/gameeventhandler-1)<T> - The callback to hook.
 
-#### Returns
+- Returns
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - A GUID representing the hook. You can use this to unhook the callback later.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The event type.
 
@@ -109,15 +109,15 @@ Guid HookPost<T>(IGameEventService.GameEventHandler<T> callback) where T : IGame
 Guid HookPre<T>(IGameEventService.GameEventHandler<T> callback) where T : IGameEvent<T>
 ```
 
-#### Parameters
+- Parameters
 
 - **callback**: [IGameEventService](/docs/api/shared/gameevents/igameeventservice).[GameEventHandler](/docs/api/shared/gameevents/igameeventservice/gameeventhandler-1)<T> - The callback to hook.
 
-#### Returns
+- Returns
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - A GUID representing the hook. You can use this to unhook the callback later.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The event type.
 
@@ -127,7 +127,7 @@ Guid HookPre<T>(IGameEventService.GameEventHandler<T> callback) where T : IGameE
 void Unhook(Guid guid)
 ```
 
-#### Parameters
+- Parameters
 
 - **guid**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The GUID of the hook to unhook.
 
@@ -137,7 +137,7 @@ void Unhook(Guid guid)
 void UnhookPost<T>() where T : IGameEvent<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The event type.
 
@@ -147,7 +147,7 @@ void UnhookPost<T>() where T : IGameEvent<T>
 void UnhookPre<T>() where T : IGameEvent<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The event type.
 

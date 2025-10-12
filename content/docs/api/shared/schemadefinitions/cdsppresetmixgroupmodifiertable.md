@@ -6,7 +6,7 @@ title: CDSPPresetMixgroupModifierTable
 public interface CDSPPresetMixgroupModifierTable : ISchemaClass<CDSPPresetMixgroupModifierTable>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDSPPresetMixgroupModifierTable : ISchemaClass<CDSPPresetMixgro
 ref CUtlVector Table { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

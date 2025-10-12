@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_ParticleCanFreeze
 public interface CUserMsg_ParticleManager_ParticleCanFreeze : ITypedProtobuf<CUserMsg_ParticleManager_ParticleCanFreeze>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_ParticleCanFreeze : ITypedProtobuf<CUs
 bool CanFreeze { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

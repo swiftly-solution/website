@@ -6,7 +6,7 @@ title: AutoRoomDoorwayPairs_t
 public interface AutoRoomDoorwayPairs_t : ISchemaClass<AutoRoomDoorwayPairs_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AutoRoomDoorwayPairs_t : ISchemaClass<AutoRoomDoorwayPairs_t>, 
 ref Vector P1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector P1 { get; }
 ref Vector P2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

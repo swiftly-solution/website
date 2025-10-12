@@ -6,7 +6,7 @@ title: RnHull_t
 public interface RnHull_t : ISchemaClass<RnHull_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnHull_t : ISchemaClass<RnHull_t>, ISchemaField, ISchemaClass, 
 AABB_t Bounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AABB_t](/docs/api/shared/schemadefinitions/aabb_t)
 
@@ -26,7 +26,7 @@ AABB_t Bounds { get; }
 ref Vector Centroid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector Centroid { get; }
 ref CUtlVector Edges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector Edges { get; }
 ref CUtlVector FacePlanes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector FacePlanes { get; }
 ref CUtlVector Faces { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector Faces { get; }
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ ref uint Flags { get; }
 ref matrix3x4_t MassProperties { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)
 
@@ -86,7 +86,7 @@ ref matrix3x4_t MassProperties { get; }
 ref float MaxAngularRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float MaxAngularRadius { get; }
 ref Vector OrthographicAreas { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -106,7 +106,7 @@ ref Vector OrthographicAreas { get; }
 CRegionSVM? RegionSVM { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRegionSVM](/docs/api/shared/schemadefinitions/cregionsvm)?
 
@@ -116,7 +116,7 @@ CRegionSVM? RegionSVM { get; }
 ref float SurfaceArea { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float SurfaceArea { get; }
 ref CUtlVector<Vector> VertexPositions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -136,7 +136,7 @@ ref CUtlVector<Vector> VertexPositions { get; }
 ref CUtlVector Vertices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -146,7 +146,7 @@ ref CUtlVector Vertices { get; }
 ref float Volume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

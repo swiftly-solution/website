@@ -6,7 +6,7 @@ title: CMaterialDrawDescriptor
 public interface CMaterialDrawDescriptor : ISchemaClass<CMaterialDrawDescriptor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMaterialDrawDescriptor : ISchemaClass<CMaterialDrawDescriptor>
 ref float Alpha { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Alpha { get; }
 ref uint AppliedIndexOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint AppliedIndexOffset { get; }
 ref int BaseVertex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int BaseVertex { get; }
 ref byte DepthVertexBufferIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -56,7 +56,7 @@ ref byte DepthVertexBufferIndex { get; }
 ref uint FirstMeshlet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ ref uint FirstMeshlet { get; }
 CRenderBufferBinding IndexBuffer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRenderBufferBinding](/docs/api/shared/schemadefinitions/crenderbufferbinding)
 
@@ -76,7 +76,7 @@ CRenderBufferBinding IndexBuffer { get; }
 ref int IndexCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int IndexCount { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -96,7 +96,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 CRenderBufferBinding MeshletPackedIVB { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRenderBufferBinding](/docs/api/shared/schemadefinitions/crenderbufferbinding)
 
@@ -106,7 +106,7 @@ CRenderBufferBinding MeshletPackedIVB { get; }
 ref byte MeshletPackedIVBIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -116,7 +116,7 @@ ref byte MeshletPackedIVBIndex { get; }
 ref ushort NumMeshlets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -126,7 +126,7 @@ ref ushort NumMeshlets { get; }
 ref RenderPrimitiveType_t PrimitiveType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RenderPrimitiveType_t](/docs/api/shared/schemadefinitions/renderprimitivetype_t)
 
@@ -136,7 +136,7 @@ ref RenderPrimitiveType_t PrimitiveType { get; }
 SchemaUntypedField RigidMeshParts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -146,7 +146,7 @@ SchemaUntypedField RigidMeshParts { get; }
 ref int StartIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int StartIndex { get; }
 ref Vector TintColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -166,7 +166,7 @@ ref Vector TintColor { get; }
 ref float UvDensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float UvDensity { get; }
 ref int VertexCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CTraceFilter
 public struct CTraceFilter
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -24,7 +24,7 @@ public CTraceFilter()
 public bool IterateEntities
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -34,7 +34,7 @@ public bool IterateEntities
 public RnQueryShapeAttr_t QueryShapeAttributes
 ```
 
-#### Field Value
+- Field Value
 
 - [RnQueryShapeAttr_t](/docs/api/shared/natives/rnqueryshapeattr_t)
 

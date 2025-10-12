@@ -6,7 +6,7 @@ title: C_OP_CalculateVectorAttribute
 public interface C_OP_CalculateVectorAttribute : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_CalculateVectorAttribute>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_CalculateVectorAttribute : CParticleFunctionOperator, CPar
 ControlPointReference_t ControlPointInput1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ControlPointReference_t](/docs/api/shared/schemadefinitions/controlpointreference_t)
 
@@ -26,7 +26,7 @@ ControlPointReference_t ControlPointInput1 { get; }
 ControlPointReference_t ControlPointInput2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ControlPointReference_t](/docs/api/shared/schemadefinitions/controlpointreference_t)
 
@@ -36,7 +36,7 @@ ControlPointReference_t ControlPointInput2 { get; }
 ref float ControlPointScale1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float ControlPointScale1 { get; }
 ref float ControlPointScale2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float ControlPointScale2 { get; }
 ParticleAttributeIndex_t FieldInput1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -66,7 +66,7 @@ ParticleAttributeIndex_t FieldInput1 { get; }
 ParticleAttributeIndex_t FieldInput2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -76,7 +76,7 @@ ParticleAttributeIndex_t FieldInput2 { get; }
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -86,7 +86,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 ref Vector FinalOutputScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector FinalOutputScale { get; }
 ref float InputScale1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float InputScale1 { get; }
 ref float InputScale2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float InputScale2 { get; }
 ref Vector StartValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

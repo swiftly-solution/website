@@ -6,7 +6,7 @@ title: CAnimData
 public interface CAnimData : ISchemaClass<CAnimData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimData : ISchemaClass<CAnimData>, ISchemaField, ISchemaClass
 ref CUtlVector AnimArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector AnimArray { get; }
 ref CUtlVector DecoderArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector DecoderArray { get; }
 ref int MaxUniqueFrameIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int MaxUniqueFrameIndex { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -56,7 +56,7 @@ ref CBufferString Name { get; }
 ref CUtlVector SegmentArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

@@ -6,7 +6,7 @@ title: CProductQuantizer
 public interface CProductQuantizer : ISchemaClass<CProductQuantizer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CProductQuantizer : ISchemaClass<CProductQuantizer>, ISchemaFie
 ref int Dimensions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Dimensions { get; }
 ref CUtlVector SubQuantizers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

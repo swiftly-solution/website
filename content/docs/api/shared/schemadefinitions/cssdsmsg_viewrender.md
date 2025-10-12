@@ -6,7 +6,7 @@ title: CSSDSMsg_ViewRender
 public interface CSSDSMsg_ViewRender : ISchemaClass<CSSDSMsg_ViewRender>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSSDSMsg_ViewRender : ISchemaClass<CSSDSMsg_ViewRender>, ISchem
 SceneViewId_t ViewId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SceneViewId_t](/docs/api/shared/schemadefinitions/sceneviewid_t)
 
@@ -26,7 +26,7 @@ SceneViewId_t ViewId { get; }
 string ViewName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

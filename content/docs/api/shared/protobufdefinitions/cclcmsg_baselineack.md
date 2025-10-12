@@ -6,7 +6,7 @@ title: CCLCMsg_BaselineAck
 public interface CCLCMsg_BaselineAck : ITypedProtobuf<CCLCMsg_BaselineAck>, INativeHandle, INetMessage<CCLCMsg_BaselineAck>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_BaselineAck : ITypedProtobuf<CCLCMsg_BaselineAck>, INat
 int BaselineNr { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int BaselineNr { get; set; }
 int BaselineTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CMotionGraph
 public interface CMotionGraph : ISchemaClass<CMotionGraph>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionGraph : ISchemaClass<CMotionGraph>, ISchemaField, ISchem
 ref int ConfigCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ConfigCount { get; }
 ref int ConfigStartIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ConfigStartIndex { get; }
 ref bool Loop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Loop { get; }
 CParamSpanUpdater ParamSpans { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParamSpanUpdater](/docs/api/shared/schemadefinitions/cparamspanupdater)
 
@@ -56,7 +56,7 @@ CParamSpanUpdater ParamSpans { get; }
 ref int ParameterCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int ParameterCount { get; }
 SchemaUntypedField RootNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField RootNode { get; }
 ref CUtlVector Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

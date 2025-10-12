@@ -6,7 +6,7 @@ title: C_INIT_PositionPlaceOnGround
 public interface C_INIT_PositionPlaceOnGround : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_PositionPlaceOnGround>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_PositionPlaceOnGround : CParticleFunctionInitializer, CP
 ParticleAttributeIndex_t Attribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t Attribute { get; }
 string CollisionGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string CollisionGroupName { get; set; }
 ref int IgnoreCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int IgnoreCP { get; }
 ref bool IncludeWater { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool IncludeWater { get; }
 CPerParticleFloatInput MaxTraceLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -66,7 +66,7 @@ CPerParticleFloatInput MaxTraceLength { get; }
 CPerParticleFloatInput Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -76,7 +76,7 @@ CPerParticleFloatInput Offset { get; }
 ref float OffsetByRadiusFactor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float OffsetByRadiusFactor { get; }
 ref bool OffsetonColOnly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool OffsetonColOnly { get; }
 ref int PreserveOffsetCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int PreserveOffsetCP { get; }
 ref bool SetNormal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool SetNormal { get; }
 ref bool SetPXYZOnly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool SetPXYZOnly { get; }
 ref bool TraceAlongNormal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool TraceAlongNormal { get; }
 ParticleAttributeIndex_t TraceDirectionAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -146,7 +146,7 @@ ParticleAttributeIndex_t TraceDirectionAttribute { get; }
 ref ParticleTraceMissBehavior_t TraceMissBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleTraceMissBehavior_t](/docs/api/shared/schemadefinitions/particletracemissbehavior_t)
 
@@ -156,7 +156,7 @@ ref ParticleTraceMissBehavior_t TraceMissBehavior { get; }
 ref ParticleTraceSet_t TraceSet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleTraceSet_t](/docs/api/shared/schemadefinitions/particletraceset_t)
 

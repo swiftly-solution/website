@@ -6,7 +6,7 @@ title: lerpdata_t
 public interface lerpdata_t : ISchemaClass<lerpdata_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface lerpdata_t : ISchemaClass<lerpdata_t>, ISchemaField, ISchemaCla
 ref CHandle<CBaseEntity> Ent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> Ent { get; }
 ParticleIndex_t FXIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleIndex_t](/docs/api/shared/schemadefinitions/particleindex_t)
 
@@ -36,7 +36,7 @@ ParticleIndex_t FXIndex { get; }
 ref MoveType_t MoveType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MoveType_t](/docs/api/shared/schemadefinitions/movetype_t)
 
@@ -46,7 +46,7 @@ ref MoveType_t MoveType { get; }
 ref Vector StartOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector StartOrigin { get; }
 ref Quaternion StartRot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -66,7 +66,7 @@ ref Quaternion StartRot { get; }
 GameTime_t StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 

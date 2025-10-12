@@ -6,7 +6,7 @@ title: C_OP_RemapDistanceToLineSegmentToVector
 public interface C_OP_RemapDistanceToLineSegmentToVector : C_OP_RemapDistanceToLineSegmentBase, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_RemapDistanceToLineSegmentBase>, ISchemaClass<C_OP_RemapDistanceToLineSegmentToVector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RemapDistanceToLineSegmentToVector : C_OP_RemapDistanceToL
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 ref Vector MaxOutputValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector MaxOutputValue { get; }
 ref Vector MinOutputValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

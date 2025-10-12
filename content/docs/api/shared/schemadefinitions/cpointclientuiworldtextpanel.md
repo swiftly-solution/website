@@ -6,7 +6,7 @@ title: CPointClientUIWorldTextPanel
 public interface CPointClientUIWorldTextPanel : CPointClientUIWorldPanel, CBaseClientUIEntity, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseClientUIEntity>, ISchemaClass<CPointClientUIWorldPanel>, ISchemaClass<CPointClientUIWorldTextPanel>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointClientUIWorldTextPanel : CPointClientUIWorldPanel, CBaseC
 string MessageText { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

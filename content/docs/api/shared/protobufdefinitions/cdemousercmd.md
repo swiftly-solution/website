@@ -6,7 +6,7 @@ title: CDemoUserCmd
 public interface CDemoUserCmd : ITypedProtobuf<CDemoUserCmd>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoUserCmd : ITypedProtobuf<CDemoUserCmd>, INativeHandle
 int CmdNumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int CmdNumber { get; set; }
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

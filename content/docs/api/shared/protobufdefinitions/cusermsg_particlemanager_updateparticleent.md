@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_UpdateParticleEnt
 public interface CUserMsg_ParticleManager_UpdateParticleEnt : ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticleEnt>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleEnt : ITypedProtobuf<CUs
 int AttachType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AttachType { get; set; }
 int Attachment { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Attachment { get; set; }
 int ControlPoint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int ControlPoint { get; set; }
 uint EntityHandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint EntityHandle { get; set; }
 Vector FallbackPosition { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ Vector FallbackPosition { get; set; }
 bool IncludeWearables { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ bool IncludeWearables { get; set; }
 QAngle OffsetAngles { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -86,7 +86,7 @@ QAngle OffsetAngles { get; set; }
 Vector OffsetPosition { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

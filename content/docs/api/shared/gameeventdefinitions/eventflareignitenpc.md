@@ -6,7 +6,7 @@ title: EventFlareIgniteNpc
 public interface EventFlareIgniteNpc : IGameEvent<EventFlareIgniteNpc>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventFlareIgniteNpc : IGameEvent<EventFlareIgniteNpc>
 int EntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

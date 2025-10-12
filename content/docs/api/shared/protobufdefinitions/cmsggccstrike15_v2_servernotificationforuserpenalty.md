@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ServerNotificationForUserPenalty
 public interface CMsgGCCStrike15_v2_ServerNotificationForUserPenalty : ITypedProtobuf<CMsgGCCStrike15_v2_ServerNotificationForUserPenalty>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ServerNotificationForUserPenalty : ITypedPro
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 bool CommunicationCooldown { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool CommunicationCooldown { get; set; }
 uint Reason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Reason { get; set; }
 uint Seconds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

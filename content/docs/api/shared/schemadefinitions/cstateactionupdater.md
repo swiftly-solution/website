@@ -6,7 +6,7 @@ title: CStateActionUpdater
 public interface CStateActionUpdater : ISchemaClass<CStateActionUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CStateActionUpdater : ISchemaClass<CStateActionUpdater>, ISchem
 SchemaUntypedField Action { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Action { get; }
 ref StateActionBehavior Behavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [StateActionBehavior](/docs/api/shared/schemadefinitions/stateactionbehavior)
 

@@ -6,7 +6,7 @@ title: CSAdditionalPerRoundStats_t
 public interface CSAdditionalPerRoundStats_t : ISchemaClass<CSAdditionalPerRoundStats_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSAdditionalPerRoundStats_t : ISchemaClass<CSAdditionalPerRound
 ref float BlastDamageInflicted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BlastDamageInflicted { get; }
 ref int BombCarrierkills { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int BombCarrierkills { get; }
 ref float BurnDamageInflicted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float BurnDamageInflicted { get; }
 ref int Dinks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int Dinks { get; }
 ref int KillsWhileBlind { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int KillsWhileBlind { get; }
 ref int NumChickensKilled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

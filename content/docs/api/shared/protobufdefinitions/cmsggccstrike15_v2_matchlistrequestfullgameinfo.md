@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchListRequestFullGameInfo
 public interface CMsgGCCStrike15_v2_MatchListRequestFullGameInfo : ITypedProtobuf<CMsgGCCStrike15_v2_MatchListRequestFullGameInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchListRequestFullGameInfo : ITypedProtobu
 ulong Matchid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Matchid { get; set; }
 ulong Outcomeid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong Outcomeid { get; set; }
 uint Token { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

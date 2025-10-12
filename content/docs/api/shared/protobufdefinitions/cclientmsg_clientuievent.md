@@ -6,7 +6,7 @@ title: CClientMsg_ClientUIEvent
 public interface CClientMsg_ClientUIEvent : ITypedProtobuf<CClientMsg_ClientUIEvent>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CClientMsg_ClientUIEvent : ITypedProtobuf<CClientMsg_ClientUIEv
 uint ClientEhandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ClientEhandle { get; set; }
 string Data1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Data1 { get; set; }
 string Data2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Data2 { get; set; }
 uint EntEhandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint EntEhandle { get; set; }
 EClientUIEvent Event { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EClientUIEvent](/docs/api/shared/protobufdefinitions/eclientuievent)
 

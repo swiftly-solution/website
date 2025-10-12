@@ -6,7 +6,7 @@ title: CMsgSource1LegacyGameEventList_descriptor_t
 public interface CMsgSource1LegacyGameEventList_descriptor_t : ITypedProtobuf<CMsgSource1LegacyGameEventList_descriptor_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSource1LegacyGameEventList_descriptor_t : ITypedProtobuf<CM
 int Eventid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Eventid { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEventList_key_t> Keys { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSource1LegacyGameEventList_key_t](/docs/api/shared/protobufdefinitions/cmsgsource1legacygameeventlist_key_t)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEventList_key_t> Keys 
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

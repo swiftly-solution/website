@@ -6,7 +6,7 @@ title: CWorkshop_AddSpecialPayment_Request
 public interface CWorkshop_AddSpecialPayment_Request : ITypedProtobuf<CWorkshop_AddSpecialPayment_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWorkshop_AddSpecialPayment_Request : ITypedProtobuf<CWorkshop_
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Appid { get; set; }
 string Date { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Date { get; set; }
 uint Gameitemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Gameitemid { get; set; }
 ulong PaymentRowUsd { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ulong PaymentRowUsd { get; set; }
 ulong PaymentUsUsd { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

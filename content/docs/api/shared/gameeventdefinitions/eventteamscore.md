@@ -6,7 +6,7 @@ title: EventTeamScore
 public interface EventTeamScore : IGameEvent<EventTeamScore>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventTeamScore : IGameEvent<EventTeamScore>
 short Score { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short Score { get; set; }
 byte TeamID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

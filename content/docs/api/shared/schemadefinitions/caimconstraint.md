@@ -6,7 +6,7 @@ title: CAimConstraint
 public interface CAimConstraint : CBaseConstraint, CBoneConstraintBase, ISchemaClass<CBoneConstraintBase>, ISchemaClass<CBaseConstraint>, ISchemaClass<CAimConstraint>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAimConstraint : CBaseConstraint, CBoneConstraintBase, ISchemaC
 ref Quaternion AimOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -26,7 +26,7 @@ ref Quaternion AimOffset { get; }
 ref uint UpType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

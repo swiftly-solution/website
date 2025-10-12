@@ -6,7 +6,7 @@ title: C_INIT_CreateSequentialPath
 public interface C_INIT_CreateSequentialPath : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_CreateSequentialPath>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_CreateSequentialPath : CParticleFunctionInitializer, CPa
 ref bool CPPairs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CPPairs { get; }
 ref bool Loop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Loop { get; }
 ref float MaxDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float MaxDistance { get; }
 ref float NumToAssign { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float NumToAssign { get; }
 CPathParameters PathParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathParameters](/docs/api/shared/schemadefinitions/cpathparameters)
 
@@ -66,7 +66,7 @@ CPathParameters PathParams { get; }
 ref bool SaveOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

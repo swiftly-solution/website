@@ -6,7 +6,7 @@ title: CNmBoneMaskBlendNode__CDefinition
 public interface CNmBoneMaskBlendNode__CDefinition : CNmBoneMaskValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmBoneMaskValueNode__CDefinition>, ISchemaClass<CNmBoneMaskBlendNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmBoneMaskBlendNode__CDefinition : CNmBoneMaskValueNode__CDefi
 ref short BlendWeightValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short BlendWeightValueNodeIdx { get; }
 ref short SourceMaskNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short SourceMaskNodeIdx { get; }
 ref short TargetMaskNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

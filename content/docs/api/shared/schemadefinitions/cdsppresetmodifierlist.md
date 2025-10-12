@@ -6,7 +6,7 @@ title: CDspPresetModifierList
 public interface CDspPresetModifierList : ISchemaClass<CDspPresetModifierList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDspPresetModifierList : ISchemaClass<CDspPresetModifierList>, 
 string DspName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string DspName { get; set; }
 ref CUtlVector Modifiers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

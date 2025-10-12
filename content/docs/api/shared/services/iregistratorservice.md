@@ -14,7 +14,7 @@ public interface IRegistratorService
 void Register(object instance)
 ```
 
-#### Parameters
+- Parameters
 
 - **instance**: [object](https://learn.microsoft.com/dotnet/api/system.object) - Any object that contains attributes for listeners.
 

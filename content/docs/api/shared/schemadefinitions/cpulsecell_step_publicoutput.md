@@ -6,7 +6,7 @@ title: CPulseCell_Step_PublicOutput
 public interface CPulseCell_Step_PublicOutput : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_Step_PublicOutput>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Step_PublicOutput : CPulseCell_BaseFlow, CPulseCell_
 PulseRuntimeOutputIndex_t OutputIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeOutputIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeoutputindex_t)
 

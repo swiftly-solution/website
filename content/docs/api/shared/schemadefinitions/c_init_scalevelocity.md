@@ -6,7 +6,7 @@ title: C_INIT_ScaleVelocity
 public interface C_INIT_ScaleVelocity : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_ScaleVelocity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_ScaleVelocity : CParticleFunctionInitializer, CParticleF
 CParticleCollectionVecInput Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 

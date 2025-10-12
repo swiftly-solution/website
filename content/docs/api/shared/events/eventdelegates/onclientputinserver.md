@@ -6,7 +6,7 @@ title: EventDelegates.OnClientPutInServer
 public delegate void EventDelegates.OnClientPutInServer(IOnClientPutInServerEvent @event)
 ```
 
-#### Parameters
+- Parameters
 
 - **event**: [IOnClientPutInServerEvent](/docs/api/shared/events/ionclientputinserverevent)
 

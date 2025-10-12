@@ -6,7 +6,7 @@ title: CMsgStoreGetUserDataResponse
 public interface CMsgStoreGetUserDataResponse : ITypedProtobuf<CMsgStoreGetUserDataResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgStoreGetUserDataResponse : ITypedProtobuf<CMsgStoreGetUserD
 string CountryDeprecated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string CountryDeprecated { get; set; }
 int CurrencyDeprecated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int CurrencyDeprecated { get; set; }
 byte[] PriceSheet { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -46,7 +46,7 @@ byte[] PriceSheet { get; set; }
 uint PriceSheetVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint PriceSheetVersion { get; set; }
 int Result { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

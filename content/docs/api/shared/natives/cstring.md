@@ -6,7 +6,7 @@ title: CString
 public struct CString
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Properties
 
@@ -16,7 +16,7 @@ public struct CString
 public string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -28,11 +28,11 @@ public string Value { get; set; }
 public static implicit operator string(CString str)
 ```
 
-#### Parameters
+- Parameters
 
 - **str**: [CString](/docs/api/shared/natives/cstring)
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -42,11 +42,11 @@ public static implicit operator string(CString str)
 public static implicit operator CString(string str)
 ```
 
-#### Parameters
+- Parameters
 
 - **str**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [CString](/docs/api/shared/natives/cstring)
 

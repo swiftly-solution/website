@@ -6,7 +6,7 @@ title: CMsgServerNetworkStats_Port
 public interface CMsgServerNetworkStats_Port : ITypedProtobuf<CMsgServerNetworkStats_Port>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgServerNetworkStats_Port : ITypedProtobuf<CMsgServerNetworkS
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Name { get; set; }
 int Port { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

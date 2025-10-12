@@ -6,7 +6,7 @@ title: CCSUsrMsg_HudMsg
 public interface CCSUsrMsg_HudMsg : ITypedProtobuf<CCSUsrMsg_HudMsg>, INativeHandle, INetMessage<CCSUsrMsg_HudMsg>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_HudMsg : ITypedProtobuf<CCSUsrMsg_HudMsg>, INativeHan
 int Channel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Channel { get; set; }
 Color Clr1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -36,7 +36,7 @@ Color Clr1 { get; set; }
 Color Clr2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -46,7 +46,7 @@ Color Clr2 { get; set; }
 int Effect { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int Effect { get; set; }
 float FadeInTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ float FadeInTime { get; set; }
 float FadeOutTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ float FadeOutTime { get; set; }
 float FxTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ float FxTime { get; set; }
 float HoldTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ float HoldTime { get; set; }
 Vector2D Pos { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -106,7 +106,7 @@ Vector2D Pos { get; set; }
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

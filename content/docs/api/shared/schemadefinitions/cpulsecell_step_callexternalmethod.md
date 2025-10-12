@@ -6,7 +6,7 @@ title: CPulseCell_Step_CallExternalMethod
 public interface CPulseCell_Step_CallExternalMethod : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_Step_CallExternalMethod>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Step_CallExternalMethod : CPulseCell_BaseYieldingInf
 ref PulseMethodCallMode_t AsyncCallMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseMethodCallMode_t](/docs/api/shared/schemadefinitions/pulsemethodcallmode_t)
 
@@ -26,7 +26,7 @@ ref PulseMethodCallMode_t AsyncCallMode { get; }
 SchemaUntypedField ExpectedArgs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField ExpectedArgs { get; }
 SchemaUntypedField GameBlackboard { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField GameBlackboard { get; }
 SchemaUntypedField MethodName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField MethodName { get; }
 CPulse_ResumePoint OnFinished { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 

@@ -6,7 +6,7 @@ title: CMsgGCServerVersionUpdated
 public interface CMsgGCServerVersionUpdated : ITypedProtobuf<CMsgGCServerVersionUpdated>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCServerVersionUpdated : ITypedProtobuf<CMsgGCServerVersion
 uint ServerVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

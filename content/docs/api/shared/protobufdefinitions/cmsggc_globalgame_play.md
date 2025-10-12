@@ -6,7 +6,7 @@ title: CMsgGC_GlobalGame_Play
 public interface CMsgGC_GlobalGame_Play : ITypedProtobuf<CMsgGC_GlobalGame_Play>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGC_GlobalGame_Play : ITypedProtobuf<CMsgGC_GlobalGame_Play>
 uint Gametimems { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Gametimems { get; set; }
 uint Msperpoint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Msperpoint { get; set; }
 ulong Ticket { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

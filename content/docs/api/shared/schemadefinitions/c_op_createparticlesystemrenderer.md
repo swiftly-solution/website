@@ -6,7 +6,7 @@ title: C_OP_CreateParticleSystemRenderer
 public interface C_OP_CreateParticleSystemRenderer : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_CreateParticleSystemRenderer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_CreateParticleSystemRenderer : CParticleFunctionRenderer, 
 CPerParticleVecInput AggregationPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -26,7 +26,7 @@ CPerParticleVecInput AggregationPos { get; }
 SchemaUntypedField CPs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField CPs { get; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> Effect { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -46,7 +46,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> Effect { get; }
 ref EventTypeSelection_t EventType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EventTypeSelection_t](/docs/api/shared/schemadefinitions/eventtypeselection_t)
 
@@ -56,7 +56,7 @@ ref EventTypeSelection_t EventType { get; }
 string ParticleConfig { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

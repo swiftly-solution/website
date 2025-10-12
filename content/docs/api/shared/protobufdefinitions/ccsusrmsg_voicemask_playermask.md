@@ -6,7 +6,7 @@ title: CCSUsrMsg_VoiceMask_PlayerMask
 public interface CCSUsrMsg_VoiceMask_PlayerMask : ITypedProtobuf<CCSUsrMsg_VoiceMask_PlayerMask>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_VoiceMask_PlayerMask : ITypedProtobuf<CCSUsrMsg_Voice
 int BanMasks { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int BanMasks { get; set; }
 int GameRulesMask { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: ScoreLeaderboardData_Entry
 public interface ScoreLeaderboardData_Entry : ITypedProtobuf<ScoreLeaderboardData_Entry>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ScoreLeaderboardData_Entry : ITypedProtobuf<ScoreLeaderboardDat
 uint Tag { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Tag { get; set; }
 uint Val { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

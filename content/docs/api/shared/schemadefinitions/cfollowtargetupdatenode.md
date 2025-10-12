@@ -6,7 +6,7 @@ title: CFollowTargetUpdateNode
 public interface CFollowTargetUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CFollowTargetUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFollowTargetUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase
 FollowTargetOpFixedSettings_t OpFixedData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FollowTargetOpFixedSettings_t](/docs/api/shared/schemadefinitions/followtargetopfixedsettings_t)
 
@@ -26,7 +26,7 @@ FollowTargetOpFixedSettings_t OpFixedData { get; }
 CAnimParamHandle ParameterOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -36,7 +36,7 @@ CAnimParamHandle ParameterOrientation { get; }
 CAnimParamHandle ParameterPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 

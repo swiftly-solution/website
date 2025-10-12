@@ -6,7 +6,7 @@ title: CLookComponentUpdater
 public interface CLookComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CLookComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLookComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAn
 CAnimParamHandle LookDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -26,7 +26,7 @@ CAnimParamHandle LookDirection { get; }
 CAnimParamHandle LookDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -36,7 +36,7 @@ CAnimParamHandle LookDistance { get; }
 CAnimParamHandle LookHeading { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -46,7 +46,7 @@ CAnimParamHandle LookHeading { get; }
 CAnimParamHandle LookHeadingNormalized { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -56,7 +56,7 @@ CAnimParamHandle LookHeadingNormalized { get; }
 CAnimParamHandle LookHeadingVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -66,7 +66,7 @@ CAnimParamHandle LookHeadingVelocity { get; }
 CAnimParamHandle LookPitch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -76,7 +76,7 @@ CAnimParamHandle LookPitch { get; }
 CAnimParamHandle LookTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -86,7 +86,7 @@ CAnimParamHandle LookTarget { get; }
 CAnimParamHandle LookTargetWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -96,7 +96,7 @@ CAnimParamHandle LookTargetWorldSpace { get; }
 ref bool NetworkLookTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

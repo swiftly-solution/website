@@ -6,7 +6,7 @@ title: CPoseHandle
 public interface CPoseHandle : ISchemaClass<CPoseHandle>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPoseHandle : ISchemaClass<CPoseHandle>, ISchemaField, ISchemaC
 ref ushort Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort Index { get; }
 ref PoseType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PoseType_t](/docs/api/shared/schemadefinitions/posetype_t)
 

@@ -6,7 +6,7 @@ title: CMsgSOCacheSubscriptionRefresh
 public interface CMsgSOCacheSubscriptionRefresh : ITypedProtobuf<CMsgSOCacheSubscriptionRefresh>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOCacheSubscriptionRefresh : ITypedProtobuf<CMsgSOCacheSubs
 CMsgSOIDOwner OwnerSoid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSOIDOwner](/docs/api/shared/protobufdefinitions/cmsgsoidowner)
 

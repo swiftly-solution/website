@@ -14,7 +14,7 @@ public interface IPluginConfigurationService
 string BasePath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -24,7 +24,7 @@ string BasePath { get; }
 bool BasePathExists { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -34,7 +34,7 @@ bool BasePathExists { get; }
 IConfigurationManager Manager { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IConfigurationManager](https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfigurationmanager)
 
@@ -46,11 +46,11 @@ IConfigurationManager Manager { get; }
 IPluginConfigurationService Configure(Action<IConfigurationBuilder> configure)
 ```
 
-#### Parameters
+- Parameters
 
 - **configure**: [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<[IConfigurationBuilder](https://learn.microsoft.com/dotnet/api/microsoft.extensions.configuration.iconfigurationbuilder)> - The action to configure the configuration manager.
 
-#### Returns
+- Returns
 
 - [IPluginConfigurationService](/docs/api/shared/services/ipluginconfigurationservice) - The plugin configuration service.
 
@@ -60,11 +60,11 @@ IPluginConfigurationService Configure(Action<IConfigurationBuilder> configure)
 string GetConfigPath(string name)
 ```
 
-#### Parameters
+- Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the configuration file, including the extension.
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The path to the configuration file.
 
@@ -74,16 +74,16 @@ string GetConfigPath(string name)
 IPluginConfigurationService InitializeJsonWithModel<T>(string name, string sectionName) where T : class, new()
 ```
 
-#### Parameters
+- Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the configuration file.
 - **sectionName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the section in the configuration file.
 
-#### Returns
+- Returns
 
 - [IPluginConfigurationService](/docs/api/shared/services/ipluginconfigurationservice)
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The type of the configuration model.
 
@@ -93,12 +93,12 @@ IPluginConfigurationService InitializeJsonWithModel<T>(string name, string secti
 IPluginConfigurationService InitializeWithTemplate(string name, string templateName)
 ```
 
-#### Parameters
+- Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the configuration file.
 - **templateName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the template file.
 
-#### Returns
+- Returns
 
 - [IPluginConfigurationService](/docs/api/shared/services/ipluginconfigurationservice)
 

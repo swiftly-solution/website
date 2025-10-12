@@ -6,7 +6,7 @@ title: ParticleControlPointDriver_t
 public interface ParticleControlPointDriver_t : ISchemaClass<ParticleControlPointDriver_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParticleControlPointDriver_t : ISchemaClass<ParticleControlPoin
 ref ParticleAttachment_t AttachType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttachment_t](/docs/api/shared/schemadefinitions/particleattachment_t)
 
@@ -26,7 +26,7 @@ ref ParticleAttachment_t AttachType { get; }
 string AttachmentName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string AttachmentName { get; set; }
 ref int ControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int ControlPoint { get; }
 string EntityName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string EntityName { get; set; }
 ref Vector Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector Offset { get; }
 ref QAngle Offset1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 

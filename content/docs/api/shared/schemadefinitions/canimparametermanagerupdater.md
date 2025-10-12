@@ -6,7 +6,7 @@ title: CAnimParameterManagerUpdater
 public interface CAnimParameterManagerUpdater : ISchemaClass<CAnimParameterManagerUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimParameterManagerUpdater : ISchemaClass<CAnimParameterManag
 SchemaUntypedField AutoResetMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField AutoResetMap { get; }
 ref CUtlVector AutoResetParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector AutoResetParams { get; }
 SchemaUntypedField IdToIndexMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField IdToIndexMap { get; }
 ref CUtlVector IndexToHandle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector IndexToHandle { get; }
 SchemaUntypedField NameToIndexMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -66,7 +66,7 @@ SchemaUntypedField NameToIndexMap { get; }
 ref CUtlVector Parameters { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

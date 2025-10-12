@@ -6,7 +6,7 @@ title: CCSPlayer_RadioServices
 public interface CCSPlayer_RadioServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CCSPlayer_RadioServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayer_RadioServices : CPlayerPawnComponent, ISchemaClass<CP
 GameTime_t C4PlantTalkTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -26,7 +26,7 @@ GameTime_t C4PlantTalkTimer { get; }
 GameTime_t DefusingTalkTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -36,7 +36,7 @@ GameTime_t DefusingTalkTimer { get; }
 GameTime_t GotHostageTalkTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -46,7 +46,7 @@ GameTime_t GotHostageTalkTimer { get; }
 ref bool IgnoreRadio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool IgnoreRadio { get; }
 SchemaUntypedField RadioTokenSlots { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

@@ -6,7 +6,7 @@ title: CDemoSettingsComponentUpdater
 public interface CDemoSettingsComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CDemoSettingsComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoSettingsComponentUpdater : CAnimComponentUpdater, ISchemaC
 CAnimDemoCaptureSettings Settings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimDemoCaptureSettings](/docs/api/shared/schemadefinitions/canimdemocapturesettings)
 

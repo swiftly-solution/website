@@ -6,7 +6,7 @@ title: CNETMsg_SignonState
 public interface CNETMsg_SignonState : ITypedProtobuf<CNETMsg_SignonState>, INativeHandle, INetMessage<CNETMsg_SignonState>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNETMsg_SignonState : ITypedProtobuf<CNETMsg_SignonState>, INat
 string Addons { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Addons { get; set; }
 string MapName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string MapName { get; set; }
 uint NumServerPlayers { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint NumServerPlayers { get; set; }
 IProtobufRepeatedFieldValueType<string> PlayersNetworkids { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldValueType<string> PlayersNetworkids { get; }
 SignonState_t SignonState { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SignonState_t](/docs/api/shared/protobufdefinitions/signonstate_t)
 
@@ -66,7 +66,7 @@ SignonState_t SignonState { get; set; }
 uint SpawnCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CAnimDecoder
 public interface CAnimDecoder : ISchemaClass<CAnimDecoder>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimDecoder : ISchemaClass<CAnimDecoder>, ISchemaField, ISchem
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -26,7 +26,7 @@ ref CBufferString Name { get; }
 ref int Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int Type { get; }
 ref int Version { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: C_OP_StopAfterCPDuration
 public interface C_OP_StopAfterCPDuration : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_StopAfterCPDuration>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_StopAfterCPDuration : CParticleFunctionPreEmission, CParti
 ref bool DestroyImmediately { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool DestroyImmediately { get; }
 CParticleCollectionFloatInput Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput Duration { get; }
 ref bool PlayEndCap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

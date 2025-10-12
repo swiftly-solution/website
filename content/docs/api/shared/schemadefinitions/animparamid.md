@@ -6,7 +6,7 @@ title: AnimParamID
 public interface AnimParamID : ISchemaClass<AnimParamID>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AnimParamID : ISchemaClass<AnimParamID>, ISchemaField, ISchemaC
 ref uint Id { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

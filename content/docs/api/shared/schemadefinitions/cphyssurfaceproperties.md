@@ -6,7 +6,7 @@ title: CPhysSurfaceProperties
 public interface CPhysSurfaceProperties : ISchemaClass<CPhysSurfaceProperties>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysSurfaceProperties : ISchemaClass<CPhysSurfaceProperties>, 
 CPhysSurfacePropertiesAudio AudioParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPhysSurfacePropertiesAudio](/docs/api/shared/schemadefinitions/cphyssurfacepropertiesaudio)
 
@@ -26,7 +26,7 @@ CPhysSurfacePropertiesAudio AudioParams { get; }
 CPhysSurfacePropertiesSoundNames AudioSounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPhysSurfacePropertiesSoundNames](/docs/api/shared/schemadefinitions/cphyssurfacepropertiessoundnames)
 
@@ -36,7 +36,7 @@ CPhysSurfacePropertiesSoundNames AudioSounds { get; }
 ref uint BaseNameHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint BaseNameHash { get; }
 string Description { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string Description { get; set; }
 ref bool Hidden { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool Hidden { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string Name { get; set; }
 ref uint NameHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ ref uint NameHash { get; }
 CPhysSurfacePropertiesPhysics Physics { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPhysSurfacePropertiesPhysics](/docs/api/shared/schemadefinitions/cphyssurfacepropertiesphysics)
 
@@ -96,7 +96,7 @@ CPhysSurfacePropertiesPhysics Physics { get; }
 CPhysSurfacePropertiesVehicle VehicleParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPhysSurfacePropertiesVehicle](/docs/api/shared/schemadefinitions/cphyssurfacepropertiesvehicle)
 

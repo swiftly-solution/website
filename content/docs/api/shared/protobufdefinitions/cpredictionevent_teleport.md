@@ -6,7 +6,7 @@ title: CPredictionEvent_Teleport
 public interface CPredictionEvent_Teleport : ITypedProtobuf<CPredictionEvent_Teleport>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPredictionEvent_Teleport : ITypedProtobuf<CPredictionEvent_Tel
 QAngle Angles { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ QAngle Angles { get; set; }
 float DropToGroundRange { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float DropToGroundRange { get; set; }
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

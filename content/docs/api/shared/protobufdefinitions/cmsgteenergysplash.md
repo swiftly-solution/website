@@ -6,7 +6,7 @@ title: CMsgTEEnergySplash
 public interface CMsgTEEnergySplash : ITypedProtobuf<CMsgTEEnergySplash>, INativeHandle, INetMessage<CMsgTEEnergySplash>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEEnergySplash : ITypedProtobuf<CMsgTEEnergySplash>, INativ
 Vector Dir { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ Vector Dir { get; set; }
 bool Explosive { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool Explosive { get; set; }
 Vector Pos { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

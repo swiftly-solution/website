@@ -6,7 +6,7 @@ title: CUserMsg_CustomGameEvent
 public interface CUserMsg_CustomGameEvent : ITypedProtobuf<CUserMsg_CustomGameEvent>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_CustomGameEvent : ITypedProtobuf<CUserMsg_CustomGameEv
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] Data { get; set; }
 string EventName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

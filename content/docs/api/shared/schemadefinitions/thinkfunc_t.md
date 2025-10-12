@@ -6,7 +6,7 @@ title: thinkfunc_t
 public interface thinkfunc_t : ISchemaClass<thinkfunc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface thinkfunc_t : ISchemaClass<thinkfunc_t>, ISchemaField, ISchemaC
 ref CUtlStringToken Context { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -26,7 +26,7 @@ ref CUtlStringToken Context { get; }
 SchemaUntypedField Fn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Fn { get; }
 GameTick_t LastThinkTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
@@ -46,7 +46,7 @@ GameTick_t LastThinkTick { get; }
 GameTick_t NextThinkTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 

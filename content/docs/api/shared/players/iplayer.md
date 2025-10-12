@@ -6,7 +6,7 @@ title: IPlayer
 public interface IPlayer : IEquatable<IPlayer>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface IPlayer : IEquatable<IPlayer>
 uint ConnectedTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ConnectedTime { get; }
 CCSPlayerController Controller { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
@@ -36,7 +36,7 @@ CCSPlayerController Controller { get; }
 string IPAddress { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string IPAddress { get; }
 bool IsAuthorized { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ bool IsAuthorized { get; }
 bool IsFakeClient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ bool IsFakeClient { get; }
 bool IsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ bool IsValid { get; }
 CBasePlayerPawn? Pawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)?
 
@@ -86,7 +86,7 @@ CBasePlayerPawn? Pawn { get; }
 int PlayerID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ int PlayerID { get; }
 Language PlayerLanguage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -106,7 +106,7 @@ Language PlayerLanguage { get; }
 CCSPlayerPawn? PlayerPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)?
 
@@ -116,7 +116,7 @@ CCSPlayerPawn? PlayerPawn { get; }
 GameButtonFlags PressedButtons { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameButtonFlags](/docs/api/shared/events/gamebuttonflags)
 
@@ -126,7 +126,7 @@ GameButtonFlags PressedButtons { get; }
 CCSPlayerController RequiredController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
@@ -136,7 +136,7 @@ CCSPlayerController RequiredController { get; }
 CBasePlayerPawn RequiredPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)
 
@@ -146,7 +146,7 @@ CBasePlayerPawn RequiredPawn { get; }
 CCSPlayerPawn RequiredPlayerPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
@@ -156,7 +156,7 @@ CCSPlayerPawn RequiredPlayerPawn { get; }
 ulong SteamID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -166,7 +166,7 @@ ulong SteamID { get; }
 ulong UnauthorizedSteamID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -176,7 +176,7 @@ ulong UnauthorizedSteamID { get; }
 VoiceFlagValue VoiceFlags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VoiceFlagValue](/docs/api/shared/players/voiceflagvalue)
 
@@ -188,7 +188,7 @@ VoiceFlagValue VoiceFlags { get; set; }
 void ChangeTeam(Team team)
 ```
 
-#### Parameters
+- Parameters
 
 - **team**: [Team](/docs/api/shared/players/team) - The team to assign. Cannot be null.
 
@@ -204,11 +204,11 @@ void ClearTransmitEntityBlocks()
 ListenOverride GetListenOverride(int player)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The identifier of the player whose listen override settings are to be retrieved. Must be a valid player index.
 
-#### Returns
+- Returns
 
 - [ListenOverride](/docs/api/shared/players/listenoverride) - A ListenOverride object containing the listen override settings for the specified player.
 
@@ -218,11 +218,11 @@ ListenOverride GetListenOverride(int player)
 bool IsTransmitEntityBlocked(int entityid)
 ```
 
-#### Parameters
+- Parameters
 
 - **entityid**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The unique identifier of the entity to check for transmit blocking. Must be a valid entity ID.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - true if the entity is blocked from transmitting; otherwise, false.
 
@@ -232,7 +232,7 @@ bool IsTransmitEntityBlocked(int entityid)
 void Kick(string reason, ENetworkDisconnectionReason gameReason)
 ```
 
-#### Parameters
+- Parameters
 
 - **reason**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The message describing the reason for the disconnection. This message may be displayed to the user. Cannot be
     null or empty.
@@ -250,7 +250,7 @@ void Respawn()
 void SendMessage(MessageType kind, string message)
 ```
 
-#### Parameters
+- Parameters
 
 - **kind**: [MessageType](/docs/api/shared/players/messagetype) - The type of message to send. Determines how the message is processed or displayed.
 - **message**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The content of the message to send. Cannot be null.
@@ -261,7 +261,7 @@ void SendMessage(MessageType kind, string message)
 void SetListenOverride(int player, ListenOverride listenOverride)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The identifier of the player whose listen override setting will be updated. Must be a valid player index.
 - **listenOverride**: [ListenOverride](/docs/api/shared/players/listenoverride) - The listen override value to apply to the specified player.
@@ -272,7 +272,7 @@ void SetListenOverride(int player, ListenOverride listenOverride)
 void ShouldBlockTransmitEntity(int entityid, bool shouldBlockTransmit)
 ```
 
-#### Parameters
+- Parameters
 
 - **entityid**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The unique identifier of the entity whose transmission status is to be updated.
 - **shouldBlockTransmit**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - A value indicating whether transmission for the entity should be blocked. Specify <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> to
@@ -284,7 +284,7 @@ void ShouldBlockTransmitEntity(int entityid, bool shouldBlockTransmit)
 void SwitchTeam(Team team)
 ```
 
-#### Parameters
+- Parameters
 
 - **team**: [Team](/docs/api/shared/players/team) - The team to switch to. Cannot be null.
 
@@ -294,7 +294,7 @@ void SwitchTeam(Team team)
 void TakeDamage(CTakeDamageInfo damageInfo)
 ```
 
-#### Parameters
+- Parameters
 
 - **damageInfo**: [CTakeDamageInfo](/docs/api/shared/natives/ctakedamageinfo) - An object containing details about the damage to be applied, including the amount, type, and source. Cannot be
     null.
@@ -305,7 +305,7 @@ void TakeDamage(CTakeDamageInfo damageInfo)
 void Teleport(Vector pos, QAngle angle, Vector velocity)
 ```
 
-#### Parameters
+- Parameters
 
 - **pos**: [Vector](/docs/api/shared/natives/vector) - The target position to teleport the entity to, represented as a <xref href="SwiftlyS2.Shared.Natives.Vector" data-throw-if-not-resolved="false"></xref>.
 - **angle**: [QAngle](/docs/api/shared/natives/qangle) - The orientation to apply to the entity after teleportation, represented as a <xref href="SwiftlyS2.Shared.Natives.QAngle" data-throw-if-not-resolved="false"></xref>.

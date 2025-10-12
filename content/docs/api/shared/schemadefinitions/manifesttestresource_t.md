@@ -6,7 +6,7 @@ title: ManifestTestResource_t
 public interface ManifestTestResource_t : ISchemaClass<ManifestTestResource_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ManifestTestResource_t : ISchemaClass<ManifestTestResource_t>, 
 ref CStrongHandle<InfoForResourceTypeManifestTestResource_t> Child { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeManifestTestResource_t](/docs/api/shared/schemadefinitions/infoforresourcetypemanifesttestresource_t)>
 
@@ -26,7 +26,7 @@ ref CStrongHandle<InfoForResourceTypeManifestTestResource_t> Child { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CNmCachedBoolNode__CDefinition
 public interface CNmCachedBoolNode__CDefinition : CNmBoolValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmBoolValueNode__CDefinition>, ISchemaClass<CNmCachedBoolNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmCachedBoolNode__CDefinition : CNmBoolValueNode__CDefinition,
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short InputValueNodeIdx { get; }
 ref NmCachedValueMode_t Mode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmCachedValueMode_t](/docs/api/shared/schemadefinitions/nmcachedvaluemode_t)
 

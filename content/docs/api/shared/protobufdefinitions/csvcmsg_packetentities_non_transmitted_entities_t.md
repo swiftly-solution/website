@@ -6,7 +6,7 @@ title: CSVCMsg_PacketEntities_non_transmitted_entities_t
 public interface CSVCMsg_PacketEntities_non_transmitted_entities_t : ITypedProtobuf<CSVCMsg_PacketEntities_non_transmitted_entities_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_PacketEntities_non_transmitted_entities_t : ITypedProto
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] Data { get; set; }
 int HeaderCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

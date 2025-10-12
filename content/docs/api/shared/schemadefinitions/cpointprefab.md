@@ -6,7 +6,7 @@ title: CPointPrefab
 public interface CPointPrefab : CServerOnlyPointEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CServerOnlyPointEntity>, ISchemaClass<CPointPrefab>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointPrefab : CServerOnlyPointEntity, CServerOnlyEntity, CBase
 ref CHandle<CPointPrefab> AssociatedRelayEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPointPrefab](/docs/api/shared/schemadefinitions/cpointprefab)>
 
@@ -26,7 +26,7 @@ ref CHandle<CPointPrefab> AssociatedRelayEntity { get; }
 string AssociatedRelayTargetName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string AssociatedRelayTargetName { get; set; }
 ref bool FixupNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool FixupNames { get; }
 string ForceWorldGroupID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string ForceWorldGroupID { get; set; }
 ref bool LoadDynamic { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool LoadDynamic { get; }
 string TargetMapName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

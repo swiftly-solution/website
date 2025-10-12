@@ -6,7 +6,7 @@ title: CNmFloatRemapNode__RemapRange_t
 public interface CNmFloatRemapNode__RemapRange_t : ISchemaClass<CNmFloatRemapNode__RemapRange_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFloatRemapNode__RemapRange_t : ISchemaClass<CNmFloatRemapNod
 ref float Begin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Begin { get; }
 ref float End { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

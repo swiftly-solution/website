@@ -6,7 +6,7 @@ title: World_t
 public interface World_t : ISchemaClass<World_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface World_t : ISchemaClass<World_t>, ISchemaField, ISchemaClass, IN
 WorldBuilderParams_t BuilderParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [WorldBuilderParams_t](/docs/api/shared/schemadefinitions/worldbuilderparams_t)
 
@@ -26,7 +26,7 @@ WorldBuilderParams_t BuilderParams { get; }
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCEntityLump>> EntityLumps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCEntityLump](/docs/api/shared/schemadefinitions/infoforresourcetypecentitylump)>>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCEntityLump>> EntityLumps { get;
 BakedLightingInfo_t WorldLightingInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BakedLightingInfo_t](/docs/api/shared/schemadefinitions/bakedlightinginfo_t)
 
@@ -46,7 +46,7 @@ BakedLightingInfo_t WorldLightingInfo { get; }
 ref CUtlVector WorldNodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

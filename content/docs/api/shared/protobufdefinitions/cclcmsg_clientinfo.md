@@ -6,7 +6,7 @@ title: CCLCMsg_ClientInfo
 public interface CCLCMsg_ClientInfo : ITypedProtobuf<CCLCMsg_ClientInfo>, INativeHandle, INetMessage<CCLCMsg_ClientInfo>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_ClientInfo : ITypedProtobuf<CCLCMsg_ClientInfo>, INativ
 uint FriendsId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint FriendsId { get; set; }
 string FriendsName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string FriendsName { get; set; }
 bool IsHltv { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool IsHltv { get; set; }
 uint SendTableCrc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint SendTableCrc { get; set; }
 uint ServerCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CPredictionEvent_Diagnostic
 public interface CPredictionEvent_Diagnostic : ITypedProtobuf<CPredictionEvent_Diagnostic>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPredictionEvent_Diagnostic : ITypedProtobuf<CPredictionEvent_D
 IProtobufRepeatedFieldValueType<uint> ExecutionSync { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<uint> ExecutionSync { get; }
 uint Id { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Id { get; set; }
 uint RequestedPlayerIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint RequestedPlayerIndex { get; set; }
 uint RequestedSync { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

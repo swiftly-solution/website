@@ -14,11 +14,11 @@ public interface IDatabaseService
 IDbConnection GetConnection(string connectionName)
 ```
 
-#### Parameters
+- Parameters
 
 - **connectionName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the connection to get the connection for.
 
-#### Returns
+- Returns
 
 - [IDbConnection](https://learn.microsoft.com/dotnet/api/system.data.idbconnection) - A connection to the database. Return the default connection if the connection name is not found.
 
@@ -28,11 +28,11 @@ IDbConnection GetConnection(string connectionName)
 string GetConnectionString(string connectionName)
 ```
 
-#### Parameters
+- Parameters
 
 - **connectionName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the connection to get the connection string for.
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The connection string for the given connection name. Return the default connection string if the connection name is not found.
 

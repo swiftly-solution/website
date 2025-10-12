@@ -6,7 +6,7 @@ title: AnimationDecodeDebugDumpElement_t
 public interface AnimationDecodeDebugDumpElement_t : ISchemaClass<AnimationDecodeDebugDumpElement_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AnimationDecodeDebugDumpElement_t : ISchemaClass<AnimationDecod
 ref CUtlVector<CUtlString> DecodeOps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CUtlString> DecodeOps { get; }
 ref CUtlVector<CUtlString> DecodedAnims { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlString> DecodedAnims { get; }
 ref int EntityIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int EntityIndex { get; }
 ref CUtlVector<CUtlString> InternalOps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<CUtlString> InternalOps { get; }
 string ModelName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string ModelName { get; set; }
 ref CUtlVector<CUtlString> PoseParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 

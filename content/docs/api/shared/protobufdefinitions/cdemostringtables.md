@@ -6,7 +6,7 @@ title: CDemoStringTables
 public interface CDemoStringTables : ITypedProtobuf<CDemoStringTables>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoStringTables : ITypedProtobuf<CDemoStringTables>, INativeH
 IProtobufRepeatedFieldSubMessageType<CDemoStringTables_table_t> Tables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDemoStringTables_table_t](/docs/api/shared/protobufdefinitions/cdemostringtables_table_t)>
 

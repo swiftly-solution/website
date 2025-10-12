@@ -6,7 +6,7 @@ title: CModelConfigElement_RandomPick
 public interface CModelConfigElement_RandomPick : CModelConfigElement, ISchemaClass<CModelConfigElement>, ISchemaClass<CModelConfigElement_RandomPick>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfigElement_RandomPick : CModelConfigElement, ISchemaCl
 ref CUtlVector<float> ChoiceWeights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<float> ChoiceWeights { get; }
 ref CUtlVector<CUtlString> Choices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 

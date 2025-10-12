@@ -6,7 +6,7 @@ title: CGameScriptedMoveDef_t
 public interface CGameScriptedMoveDef_t : ISchemaClass<CGameScriptedMoveDef_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameScriptedMoveDef_t : ISchemaClass<CGameScriptedMoveDef_t>, 
 ref bool AimDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AimDisabled { get; }
 ref float AngRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AngRate { get; }
 ref QAngle Dest { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -46,7 +46,7 @@ ref QAngle Dest { get; }
 ref CHandle<CBaseEntity> DestEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -56,7 +56,7 @@ ref CHandle<CBaseEntity> DestEntity { get; }
 ref Vector DestOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector DestOffset { get; }
 ref float Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float Duration { get; }
 ref ForcedCrouchState_t ForcedCrouchState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ForcedCrouchState_t](/docs/api/shared/schemadefinitions/forcedcrouchstate_t)
 
@@ -86,7 +86,7 @@ ref ForcedCrouchState_t ForcedCrouchState { get; }
 ref bool IgnoreRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool IgnoreRotation { get; }
 ref float MoveSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

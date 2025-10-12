@@ -6,7 +6,7 @@ title: CPhysSurfacePropertiesSoundNamesTrace
 public struct CPhysSurfacePropertiesSoundNamesTrace
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct CPhysSurfacePropertiesSoundNamesTrace
 public CUtlString Break
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -26,7 +26,7 @@ public CUtlString Break
 public CUtlString BulletImpact
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -36,7 +36,7 @@ public CUtlString BulletImpact
 public CUtlString ImpactHard
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -46,7 +46,7 @@ public CUtlString ImpactHard
 public CUtlString ImpactSoft
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -56,7 +56,7 @@ public CUtlString ImpactSoft
 public CUtlString MeleeImpact
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -66,7 +66,7 @@ public CUtlString MeleeImpact
 public CUtlString PushOff
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -76,7 +76,7 @@ public CUtlString PushOff
 public CUtlString Rolling
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -86,7 +86,7 @@ public CUtlString Rolling
 public CUtlString ScrapeRough
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -96,7 +96,7 @@ public CUtlString ScrapeRough
 public CUtlString ScrapeSmooth
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -106,7 +106,7 @@ public CUtlString ScrapeSmooth
 public CUtlString SkidStop
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -116,7 +116,7 @@ public CUtlString SkidStop
 public CUtlString Strain
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 

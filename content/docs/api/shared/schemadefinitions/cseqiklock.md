@@ -6,7 +6,7 @@ title: CSeqIKLock
 public interface CSeqIKLock : ISchemaClass<CSeqIKLock>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSeqIKLock : ISchemaClass<CSeqIKLock>, ISchemaField, ISchemaCla
 ref float AngleWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AngleWeight { get; }
 ref bool BonesOrientedAlongPositiveX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool BonesOrientedAlongPositiveX { get; }
 ref short LocalBone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ ref short LocalBone { get; }
 ref float PosWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

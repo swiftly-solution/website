@@ -6,7 +6,7 @@ title: CIronSightController
 public interface CIronSightController : ISchemaClass<CIronSightController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CIronSightController : ISchemaClass<CIronSightController>, ISch
 ref float IronSightAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float IronSightAmount { get; }
 ref float IronSightAmountBiased { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float IronSightAmountBiased { get; }
 ref float IronSightAmountGained { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float IronSightAmountGained { get; }
 ref bool IronSightAvailable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

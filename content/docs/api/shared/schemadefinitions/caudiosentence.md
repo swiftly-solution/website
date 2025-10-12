@@ -6,7 +6,7 @@ title: CAudioSentence
 public interface CAudioSentence : ISchemaClass<CAudioSentence>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAudioSentence : ISchemaClass<CAudioSentence>, ISchemaField, IS
 ref CUtlVector EmphasisSamples { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector EmphasisSamples { get; }
 CAudioMorphData MorphData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAudioMorphData](/docs/api/shared/schemadefinitions/caudiomorphdata)
 
@@ -36,7 +36,7 @@ CAudioMorphData MorphData { get; }
 ref CUtlVector RunTimePhonemes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector RunTimePhonemes { get; }
 ref bool ShouldVoiceDuck { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

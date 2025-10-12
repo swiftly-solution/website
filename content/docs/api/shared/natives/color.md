@@ -6,9 +6,9 @@ title: Color
 public struct Color : IEquatable<Color>
 ```
 
-#### Implements
+- Implements
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -18,7 +18,7 @@ public struct Color : IEquatable<Color>
 public Color(byte r, byte g, byte b, byte a)
 ```
 
-#### Parameters
+- Parameters
 
 - **r**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 - **g**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)
@@ -31,7 +31,7 @@ public Color(byte r, byte g, byte b, byte a)
 public Color(byte r, byte g, byte b)
 ```
 
-#### Parameters
+- Parameters
 
 - **r**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 - **g**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)
@@ -43,7 +43,7 @@ public Color(byte r, byte g, byte b)
 public Color(int r, int g, int b)
 ```
 
-#### Parameters
+- Parameters
 
 - **r**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **g**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -55,7 +55,7 @@ public Color(int r, int g, int b)
 public Color(int r, int g, int b, int a)
 ```
 
-#### Parameters
+- Parameters
 
 - **r**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **g**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -68,7 +68,7 @@ public Color(int r, int g, int b, int a)
 public Color(char r, char g, char b, char a)
 ```
 
-#### Parameters
+- Parameters
 
 - **r**: [char](https://learn.microsoft.com/dotnet/api/system.char)
 - **g**: [char](https://learn.microsoft.com/dotnet/api/system.char)
@@ -81,7 +81,7 @@ public Color(char r, char g, char b, char a)
 public Color(char r, char g, char b)
 ```
 
-#### Parameters
+- Parameters
 
 - **r**: [char](https://learn.microsoft.com/dotnet/api/system.char)
 - **g**: [char](https://learn.microsoft.com/dotnet/api/system.char)
@@ -95,7 +95,7 @@ public Color(char r, char g, char b)
 public byte A
 ```
 
-#### Field Value
+- Field Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -105,7 +105,7 @@ public byte A
 public byte B
 ```
 
-#### Field Value
+- Field Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -115,7 +115,7 @@ public byte B
 public byte G
 ```
 
-#### Field Value
+- Field Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -125,7 +125,7 @@ public byte G
 public byte R
 ```
 
-#### Field Value
+- Field Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -137,11 +137,11 @@ public byte R
 public override bool Equals(object? obj)
 ```
 
-#### Parameters
+- Parameters
 
 - **obj**: [object](https://learn.microsoft.com/dotnet/api/system.object)? - The object to compare with the current instance.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
@@ -151,11 +151,11 @@ public override bool Equals(object? obj)
 public bool Equals(Color other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Color](/docs/api/shared/natives/color) - An object to compare with this object.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
@@ -165,11 +165,11 @@ public bool Equals(Color other)
 public static Color FromBuiltin(Color color)
 ```
 
-#### Parameters
+- Parameters
 
 - **color**: [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-#### Returns
+- Returns
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -179,11 +179,11 @@ public static Color FromBuiltin(Color color)
 public static Color FromHex(string hex)
 ```
 
-#### Parameters
+- Parameters
 
 - **hex**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -193,11 +193,11 @@ public static Color FromHex(string hex)
 public static Color FromInt32(int color)
 ```
 
-#### Parameters
+- Parameters
 
 - **color**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -207,7 +207,7 @@ public static Color FromInt32(int color)
 public override int GetHashCode()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
@@ -217,7 +217,7 @@ public override int GetHashCode()
 public Color ToBuiltin()
 ```
 
-#### Returns
+- Returns
 
 - [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
@@ -227,11 +227,11 @@ public Color ToBuiltin()
 public string ToHex(bool includeAlpha = false)
 ```
 
-#### Parameters
+- Parameters
 
 - **includeAlpha**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -241,7 +241,7 @@ public string ToHex(bool includeAlpha = false)
 public int ToInt32()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -251,7 +251,7 @@ public int ToInt32()
 public override string ToString()
 ```
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The fully qualified type name.
 
@@ -263,12 +263,12 @@ public override string ToString()
 public static bool operator ==(Color left, Color right)
 ```
 
-#### Parameters
+- Parameters
 
 - **left**: [Color](/docs/api/shared/natives/color)
 - **right**: [Color](/docs/api/shared/natives/color)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -278,12 +278,12 @@ public static bool operator ==(Color left, Color right)
 public static bool operator !=(Color left, Color right)
 ```
 
-#### Parameters
+- Parameters
 
 - **left**: [Color](/docs/api/shared/natives/color)
 - **right**: [Color](/docs/api/shared/natives/color)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

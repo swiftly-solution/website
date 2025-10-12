@@ -6,7 +6,7 @@ title: CDataGCCStrike15_v2_TournamentGroupTeam
 public interface CDataGCCStrike15_v2_TournamentGroupTeam : ITypedProtobuf<CDataGCCStrike15_v2_TournamentGroupTeam>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDataGCCStrike15_v2_TournamentGroupTeam : ITypedProtobuf<CDataG
 bool Correctpick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool Correctpick { get; set; }
 int Score { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Score { get; set; }
 int TeamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

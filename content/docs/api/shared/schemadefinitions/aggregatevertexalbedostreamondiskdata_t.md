@@ -6,7 +6,7 @@ title: AggregateVertexAlbedoStreamOnDiskData_t
 public interface AggregateVertexAlbedoStreamOnDiskData_t : ISchemaClass<AggregateVertexAlbedoStreamOnDiskData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AggregateVertexAlbedoStreamOnDiskData_t : ISchemaClass<Aggregat
 ref CUtlBinaryBlock BufferData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 

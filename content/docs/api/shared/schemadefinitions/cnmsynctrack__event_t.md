@@ -6,7 +6,7 @@ title: CNmSyncTrack__Event_t
 public interface CNmSyncTrack__Event_t : ISchemaClass<CNmSyncTrack__Event_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmSyncTrack__Event_t : ISchemaClass<CNmSyncTrack__Event_t>, IS
 NmPercent_t Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmPercent_t](/docs/api/shared/schemadefinitions/nmpercent_t)
 
@@ -26,7 +26,7 @@ NmPercent_t Duration { get; }
 ref CGlobalSymbol ID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -36,7 +36,7 @@ ref CGlobalSymbol ID { get; }
 NmPercent_t StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmPercent_t](/docs/api/shared/schemadefinitions/nmpercent_t)
 

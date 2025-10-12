@@ -6,7 +6,7 @@ title: CCLCMsg_LoadingProgress
 public interface CCLCMsg_LoadingProgress : ITypedProtobuf<CCLCMsg_LoadingProgress>, INativeHandle, INetMessage<CCLCMsg_LoadingProgress>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_LoadingProgress : ITypedProtobuf<CCLCMsg_LoadingProgres
 int Progress { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

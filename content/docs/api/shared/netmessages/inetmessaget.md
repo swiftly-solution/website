@@ -6,7 +6,7 @@ title: INetMessage<T>
 public interface INetMessage<T> where T : INetMessage<T>, ITypedProtobuf<T>, IDisposable
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -18,7 +18,7 @@ public interface INetMessage<T> where T : INetMessage<T>, ITypedProtobuf<T>, IDi
 public static abstract int MessageId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -28,7 +28,7 @@ public static abstract int MessageId { get; }
 public static abstract string MessageName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -38,7 +38,7 @@ public static abstract string MessageName { get; }
 ref CRecipientFilter Recipients { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRecipientFilter](/docs/api/shared/natives/crecipientfilter)
 
@@ -62,7 +62,7 @@ void SendToAllPlayers()
 void SendToPlayer(int playerId)
 ```
 
-#### Parameters
+- Parameters
 
 - **playerId**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The player ID.
 

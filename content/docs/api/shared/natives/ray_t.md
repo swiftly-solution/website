@@ -6,7 +6,7 @@ title: Ray_t
 public struct Ray_t
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct Ray_t
 public CapsuleTrace Capsule
 ```
 
-#### Field Value
+- Field Value
 
 - [CapsuleTrace](/docs/api/shared/natives/capsuletrace)
 
@@ -26,7 +26,7 @@ public CapsuleTrace Capsule
 public HullTrace Hull
 ```
 
-#### Field Value
+- Field Value
 
 - [HullTrace](/docs/api/shared/natives/hulltrace)
 
@@ -36,7 +36,7 @@ public HullTrace Hull
 public LineTrace Line
 ```
 
-#### Field Value
+- Field Value
 
 - [LineTrace](/docs/api/shared/natives/linetrace)
 
@@ -46,7 +46,7 @@ public LineTrace Line
 public MeshTrace Mesh
 ```
 
-#### Field Value
+- Field Value
 
 - [MeshTrace](/docs/api/shared/natives/meshtrace)
 
@@ -56,7 +56,7 @@ public MeshTrace Mesh
 public SphereTrace Sphere
 ```
 
-#### Field Value
+- Field Value
 
 - [SphereTrace](/docs/api/shared/natives/spheretrace)
 
@@ -66,7 +66,7 @@ public SphereTrace Sphere
 public RayType_t Type
 ```
 
-#### Field Value
+- Field Value
 
 - [RayType_t](/docs/api/shared/natives/raytype_t)
 
@@ -78,7 +78,7 @@ public RayType_t Type
 public void Init(Vector StartOffset)
 ```
 
-#### Parameters
+- Parameters
 
 - **StartOffset**: [Vector](/docs/api/shared/natives/vector)
 
@@ -88,7 +88,7 @@ public void Init(Vector StartOffset)
 public void Init(Vector Center, float Radius)
 ```
 
-#### Parameters
+- Parameters
 
 - **Center**: [Vector](/docs/api/shared/natives/vector)
 - **Radius**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -99,7 +99,7 @@ public void Init(Vector Center, float Radius)
 public void Init(Vector Mins, Vector Maxs)
 ```
 
-#### Parameters
+- Parameters
 
 - **Mins**: [Vector](/docs/api/shared/natives/vector)
 - **Maxs**: [Vector](/docs/api/shared/natives/vector)
@@ -110,7 +110,7 @@ public void Init(Vector Mins, Vector Maxs)
 public void Init(Vector CenterA, Vector CenterB, float Radius)
 ```
 
-#### Parameters
+- Parameters
 
 - **CenterA**: [Vector](/docs/api/shared/natives/vector)
 - **CenterB**: [Vector](/docs/api/shared/natives/vector)
@@ -122,7 +122,7 @@ public void Init(Vector CenterA, Vector CenterB, float Radius)
 public void Init(Vector Mins, Vector Maxs, Vector* Vertices, int NumVertices)
 ```
 
-#### Parameters
+- Parameters
 
 - **Mins**: [Vector](/docs/api/shared/natives/vector)
 - **Maxs**: [Vector](/docs/api/shared/natives/vector)

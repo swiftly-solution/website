@@ -6,7 +6,7 @@ title: CCSUsrMsg_HudText
 public interface CCSUsrMsg_HudText : ITypedProtobuf<CCSUsrMsg_HudText>, INativeHandle, INetMessage<CCSUsrMsg_HudText>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_HudText : ITypedProtobuf<CCSUsrMsg_HudText>, INativeH
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

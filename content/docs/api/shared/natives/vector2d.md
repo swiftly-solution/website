@@ -6,7 +6,7 @@ title: Vector2D
 public struct Vector2D
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -16,7 +16,7 @@ public struct Vector2D
 public Vector2D(float x, float y)
 ```
 
-#### Parameters
+- Parameters
 
 - **x**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **y**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -27,7 +27,7 @@ public Vector2D(float x, float y)
 public Vector2D(Vector2D other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -39,7 +39,7 @@ public Vector2D(Vector2D other)
 public float X
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -49,7 +49,7 @@ public float X
 public float Y
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -61,7 +61,7 @@ public float Y
 public static Vector2D One { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -71,7 +71,7 @@ public static Vector2D One { get; }
 public static Vector2D Zero { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -83,7 +83,7 @@ public static Vector2D Zero { get; }
 public void Deconstruct(out float x, out float y)
 ```
 
-#### Parameters
+- Parameters
 
 - **x**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **y**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -94,11 +94,11 @@ public void Deconstruct(out float x, out float y)
 public float Distance(Vector2D other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -108,11 +108,11 @@ public float Distance(Vector2D other)
 public float DistanceSquared(Vector2D other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -122,12 +122,12 @@ public float DistanceSquared(Vector2D other)
 public static float Dot(Vector2D a, Vector2D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 - **b**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -137,11 +137,11 @@ public static float Dot(Vector2D a, Vector2D b)
 public float Dot(Vector2D other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -151,11 +151,11 @@ public float Dot(Vector2D other)
 public override bool Equals(object? obj)
 ```
 
-#### Parameters
+- Parameters
 
 - **obj**: [object](https://learn.microsoft.com/dotnet/api/system.object)? - The object to compare with the current instance.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
@@ -165,11 +165,11 @@ public override bool Equals(object? obj)
 public static Vector2D FromBuiltin(Vector2 vector)
 ```
 
-#### Parameters
+- Parameters
 
 - **vector**: [Vector2](https://learn.microsoft.com/dotnet/api/system.numerics.vector2)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -179,7 +179,7 @@ public static Vector2D FromBuiltin(Vector2 vector)
 public override int GetHashCode()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
@@ -189,7 +189,7 @@ public override int GetHashCode()
 public float Length()
 ```
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -199,7 +199,7 @@ public float Length()
 public float LengthSquared()
 ```
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -215,7 +215,7 @@ public void Normalize()
 public Vector2D Normalized()
 ```
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -225,7 +225,7 @@ public Vector2D Normalized()
 public Vector2 ToBuiltin()
 ```
 
-#### Returns
+- Returns
 
 - [Vector2](https://learn.microsoft.com/dotnet/api/system.numerics.vector2)
 
@@ -235,7 +235,7 @@ public Vector2 ToBuiltin()
 public override string ToString()
 ```
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The fully qualified type name.
 
@@ -247,12 +247,12 @@ public override string ToString()
 public static Vector2D operator +(Vector2D a, Vector2D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 - **b**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -262,12 +262,12 @@ public static Vector2D operator +(Vector2D a, Vector2D b)
 public static Vector2D operator /(Vector2D a, Vector2D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 - **b**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -277,12 +277,12 @@ public static Vector2D operator /(Vector2D a, Vector2D b)
 public static Vector2D operator /(Vector2D a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -292,12 +292,12 @@ public static Vector2D operator /(Vector2D a, float b)
 public static bool operator ==(Vector2D a, Vector2D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 - **b**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -307,12 +307,12 @@ public static bool operator ==(Vector2D a, Vector2D b)
 public static bool operator !=(Vector2D a, Vector2D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 - **b**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -322,12 +322,12 @@ public static bool operator !=(Vector2D a, Vector2D b)
 public static Vector2D operator *(Vector2D a, Vector2D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 - **b**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -337,12 +337,12 @@ public static Vector2D operator *(Vector2D a, Vector2D b)
 public static Vector2D operator *(Vector2D a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -352,12 +352,12 @@ public static Vector2D operator *(Vector2D a, float b)
 public static Vector2D operator *(float b, Vector2D a)
 ```
 
-#### Parameters
+- Parameters
 
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -367,12 +367,12 @@ public static Vector2D operator *(float b, Vector2D a)
 public static Vector2D operator -(Vector2D a, Vector2D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 - **b**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -382,11 +382,11 @@ public static Vector2D operator -(Vector2D a, Vector2D b)
 public static Vector2D operator -(Vector2D a)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector2D](/docs/api/shared/natives/vector2d)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 

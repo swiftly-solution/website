@@ -6,7 +6,7 @@ title: CUserMessageCurrentTimescale
 public interface CUserMessageCurrentTimescale : ITypedProtobuf<CUserMessageCurrentTimescale>, INativeHandle, INetMessage<CUserMessageCurrentTimescale>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageCurrentTimescale : ITypedProtobuf<CUserMessageCurre
 float Current { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CEntityMessagePlayJingle
 public interface CEntityMessagePlayJingle : ITypedProtobuf<CEntityMessagePlayJingle>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityMessagePlayJingle : ITypedProtobuf<CEntityMessagePlayJin
 CEntityMsg EntityMsg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityMsg](/docs/api/shared/protobufdefinitions/centitymsg)
 

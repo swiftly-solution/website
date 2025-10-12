@@ -6,7 +6,7 @@ title: CSVCMsg_UserMessage
 public interface CSVCMsg_UserMessage : ITypedProtobuf<CSVCMsg_UserMessage>, INativeHandle, INetMessage<CSVCMsg_UserMessage>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_UserMessage : ITypedProtobuf<CSVCMsg_UserMessage>, INat
 byte[] MsgData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] MsgData { get; set; }
 int MsgType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int MsgType { get; set; }
 int Passthrough { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

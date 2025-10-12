@@ -6,7 +6,7 @@ title: C_OP_EndCapTimedDecay
 public interface C_OP_EndCapTimedDecay : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_EndCapTimedDecay>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_EndCapTimedDecay : CParticleFunctionOperator, CParticleFun
 ref float DecayTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

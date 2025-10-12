@@ -14,7 +14,7 @@ public interface ICBitVec
 void Clear(uint index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -24,7 +24,7 @@ void Clear(uint index)
 void Clear(int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -40,7 +40,7 @@ void ClearAll()
 int Count()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -50,7 +50,7 @@ int Count()
 uint GetNumBits()
 ```
 
-#### Returns
+- Returns
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -60,7 +60,7 @@ uint GetNumBits()
 bool IsAllClear()
 ```
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -70,7 +70,7 @@ bool IsAllClear()
 bool IsFixedSize()
 ```
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -80,11 +80,11 @@ bool IsFixedSize()
 bool IsSet(uint index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -94,11 +94,11 @@ bool IsSet(uint index)
 bool IsSet(int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -108,7 +108,7 @@ bool IsSet(int index)
 uint NumDWords()
 ```
 
-#### Returns
+- Returns
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -118,7 +118,7 @@ uint NumDWords()
 void Set(uint index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -128,7 +128,7 @@ void Set(uint index)
 void Set(int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

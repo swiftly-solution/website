@@ -6,7 +6,7 @@ title: CFuncShatterglass
 public interface CFuncShatterglass : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CFuncShatterglass>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFuncShatterglass : CBaseModelEntity, CBaseEntity, CEntityInsta
 ref bool BreakShardless { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool BreakShardless { get; }
 ref bool BreakSilent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool BreakSilent { get; }
 ref bool Broken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Broken { get; }
 string DamagePositioningEntityName01 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string DamagePositioningEntityName01 { get; set; }
 string DamagePositioningEntityName02 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string DamagePositioningEntityName02 { get; set; }
 string DamagePositioningEntityName03 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string DamagePositioningEntityName03 { get; set; }
 string DamagePositioningEntityName04 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string DamagePositioningEntityName04 { get; set; }
 ref CUtlVector<Vector> ExtraDamagePositions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<Vector> ExtraDamagePositions { get; }
 ref bool GlassInFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool GlassInFrame { get; }
 ref bool GlassNavIgnore { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool GlassNavIgnore { get; }
 ref float GlassThickness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float GlassThickness { get; }
 GameTime_t InitAtTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -136,7 +136,7 @@ GameTime_t InitAtTime { get; }
 ref CUtlVector<Vector> InitialDamagePositions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -146,7 +146,7 @@ ref CUtlVector<Vector> InitialDamagePositions { get; }
 ref byte InitialDamageType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -156,7 +156,7 @@ ref byte InitialDamageType { get; }
 ref CUtlVector<Vector4D> InitialPanelVertices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector4D](/docs/api/shared/natives/vector4d)>
 
@@ -166,7 +166,7 @@ ref CUtlVector<Vector4D> InitialPanelVertices { get; }
 GameTime_t LastCleanupTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -176,7 +176,7 @@ GameTime_t LastCleanupTime { get; }
 GameTime_t LastShatterSoundEmitTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -186,7 +186,7 @@ GameTime_t LastShatterSoundEmitTime { get; }
 ref matrix3x4_t MatPanelTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)
 
@@ -196,7 +196,7 @@ ref matrix3x4_t MatPanelTransform { get; }
 ref matrix3x4_t MatPanelTransformWsTemp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)
 
@@ -206,7 +206,7 @@ ref matrix3x4_t MatPanelTransformWsTemp { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialDamageBase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -216,7 +216,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialDamageBase { get; }
 CEntityIOOutput OnBroken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -226,7 +226,7 @@ CEntityIOOutput OnBroken { get; }
 ref Vector2D PanelSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -236,7 +236,7 @@ ref Vector2D PanelSize { get; }
 ref CUtlVector<uint> ShatterGlassShards { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -246,7 +246,7 @@ ref CUtlVector<uint> ShatterGlassShards { get; }
 ref float SpawnInvulnerability { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -256,7 +256,7 @@ ref float SpawnInvulnerability { get; }
 ref bool StartBroken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -266,7 +266,7 @@ ref bool StartBroken { get; }
 ref byte SurfaceType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

@@ -6,7 +6,7 @@ title: CUserMessageHapticsManagerEffect
 public interface CUserMessageHapticsManagerEffect : ITypedProtobuf<CUserMessageHapticsManagerEffect>, INativeHandle, INetMessage<CUserMessageHapticsManagerEffect>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageHapticsManagerEffect : ITypedProtobuf<CUserMessageH
 uint EffectNameHashCode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint EffectNameHashCode { get; set; }
 float EffectScale { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float EffectScale { get; set; }
 int HandId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

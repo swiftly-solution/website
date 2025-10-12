@@ -6,7 +6,7 @@ title: CAnimUpdateNodeBase
 public interface CAnimUpdateNodeBase : ISchemaClass<CAnimUpdateNodeBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimUpdateNodeBase : ISchemaClass<CAnimUpdateNodeBase>, ISchem
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Name { get; set; }
 ref AnimNodeNetworkMode NetworkMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimNodeNetworkMode](/docs/api/shared/schemadefinitions/animnodenetworkmode)
 
@@ -36,7 +36,7 @@ ref AnimNodeNetworkMode NetworkMode { get; }
 CAnimNodePath NodePath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimNodePath](/docs/api/shared/schemadefinitions/canimnodepath)
 

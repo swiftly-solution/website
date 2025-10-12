@@ -6,7 +6,7 @@ title: CUserMessageCameraTransition_Transition_DataDriven
 public interface CUserMessageCameraTransition_Transition_DataDriven : ITypedProtobuf<CUserMessageCameraTransition_Transition_DataDriven>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageCameraTransition_Transition_DataDriven : ITypedProt
 int AttachEntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AttachEntIndex { get; set; }
 float Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float Duration { get; set; }
 string Filename { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

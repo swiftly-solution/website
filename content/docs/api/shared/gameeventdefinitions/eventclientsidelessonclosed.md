@@ -6,7 +6,7 @@ title: EventClientsideLessonClosed
 public interface EventClientsideLessonClosed : IGameEvent<EventClientsideLessonClosed>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventClientsideLessonClosed : IGameEvent<EventClientsideLessonC
 string LessonName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

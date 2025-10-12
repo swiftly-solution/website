@@ -6,7 +6,7 @@ title: CMsgTEArmorRicochet
 public interface CMsgTEArmorRicochet : ITypedProtobuf<CMsgTEArmorRicochet>, INativeHandle, INetMessage<CMsgTEArmorRicochet>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEArmorRicochet : ITypedProtobuf<CMsgTEArmorRicochet>, INat
 Vector Dir { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ Vector Dir { get; set; }
 Vector Pos { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

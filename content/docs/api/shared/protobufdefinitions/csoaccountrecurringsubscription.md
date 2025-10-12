@@ -6,7 +6,7 @@ title: CSOAccountRecurringSubscription
 public interface CSOAccountRecurringSubscription : ITypedProtobuf<CSOAccountRecurringSubscription>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOAccountRecurringSubscription : ITypedProtobuf<CSOAccountRecu
 uint TimeInitiated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint TimeInitiated { get; set; }
 uint TimeNextCycle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

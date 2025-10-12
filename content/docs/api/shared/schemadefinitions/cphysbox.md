@@ -6,7 +6,7 @@ title: CPhysBox
 public interface CPhysBox : CBreakable, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBreakable>, ISchemaClass<CPhysBox>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysBox : CBreakable, CBaseModelEntity, CBaseEntity, CEntityIn
 ref CHandle<CBasePlayerPawn> CarryingPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBasePlayerPawn> CarryingPlayer { get; }
 ref int DamageToEnableMotion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int DamageToEnableMotion { get; }
 ref int DamageType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int DamageType { get; }
 ref bool EnableUseOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool EnableUseOutput { get; }
 ref float ForceToEnableMotion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float ForceToEnableMotion { get; }
 ref QAngle HoverPoseAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -76,7 +76,7 @@ ref QAngle HoverPoseAngles { get; }
 ref HoverPoseFlags_t HoverPoseFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HoverPoseFlags_t](/docs/api/shared/schemadefinitions/hoverposeflags_t)
 
@@ -86,7 +86,7 @@ ref HoverPoseFlags_t HoverPoseFlags { get; }
 ref Vector HoverPosePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector HoverPosePosition { get; }
 ref bool NotSolidToWorld { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool NotSolidToWorld { get; }
 CEntityIOOutput OnAwakened { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -116,7 +116,7 @@ CEntityIOOutput OnAwakened { get; }
 CEntityIOOutput OnDamaged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -126,7 +126,7 @@ CEntityIOOutput OnDamaged { get; }
 CEntityIOOutput OnMotionEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -136,7 +136,7 @@ CEntityIOOutput OnMotionEnabled { get; }
 CEntityIOOutput OnPlayerUse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -146,7 +146,7 @@ CEntityIOOutput OnPlayerUse { get; }
 CEntityIOOutput OnStartTouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -156,7 +156,7 @@ CEntityIOOutput OnStartTouch { get; }
 ref float TouchOutputPerEntityDelay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

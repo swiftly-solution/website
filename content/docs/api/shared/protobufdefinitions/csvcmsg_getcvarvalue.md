@@ -6,7 +6,7 @@ title: CSVCMsg_GetCvarValue
 public interface CSVCMsg_GetCvarValue : ITypedProtobuf<CSVCMsg_GetCvarValue>, INativeHandle, INetMessage<CSVCMsg_GetCvarValue>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_GetCvarValue : ITypedProtobuf<CSVCMsg_GetCvarValue>, IN
 int Cookie { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Cookie { get; set; }
 string CvarName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

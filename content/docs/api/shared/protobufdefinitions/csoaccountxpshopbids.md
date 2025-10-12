@@ -6,7 +6,7 @@ title: CSOAccountXpShopBids
 public interface CSOAccountXpShopBids : ITypedProtobuf<CSOAccountXpShopBids>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOAccountXpShopBids : ITypedProtobuf<CSOAccountXpShopBids>, IN
 uint CampaignId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint CampaignId { get; set; }
 uint ExpectedCost { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ExpectedCost { get; set; }
 uint GenerationTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint GenerationTime { get; set; }
 uint RedeemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

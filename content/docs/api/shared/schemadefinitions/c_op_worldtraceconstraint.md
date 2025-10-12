@@ -6,7 +6,7 @@ title: C_OP_WorldTraceConstraint
 public interface C_OP_WorldTraceConstraint : CParticleFunctionConstraint, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionConstraint>, ISchemaClass<C_OP_WorldTraceConstraint>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_WorldTraceConstraint : CParticleFunctionConstraint, CParti
 CPerParticleFloatInput BounceAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -26,7 +26,7 @@ CPerParticleFloatInput BounceAmount { get; }
 ref bool BrushOnly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool BrushOnly { get; }
 ref int CP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int CP { get; }
 ref float CollisionConfirmationSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float CollisionConfirmationSpeed { get; }
 string CollisionGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string CollisionGroupName { get; set; }
 ref ParticleCollisionMode_t CollisionMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleCollisionMode_t](/docs/api/shared/schemadefinitions/particlecollisionmode_t)
 
@@ -76,7 +76,7 @@ ref ParticleCollisionMode_t CollisionMode { get; }
 ref ParticleCollisionMode_t CollisionModeMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleCollisionMode_t](/docs/api/shared/schemadefinitions/particlecollisionmode_t)
 
@@ -86,7 +86,7 @@ ref ParticleCollisionMode_t CollisionModeMin { get; }
 ref float CpMovementTolerance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float CpMovementTolerance { get; }
 ref Vector CpOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -106,7 +106,7 @@ ref Vector CpOffset { get; }
 ref bool DecayBounce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool DecayBounce { get; }
 ParticleAttributeIndex_t EntityStickDataField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -126,7 +126,7 @@ ParticleAttributeIndex_t EntityStickDataField { get; }
 ParticleAttributeIndex_t EntityStickNormalField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -136,7 +136,7 @@ ParticleAttributeIndex_t EntityStickNormalField { get; }
 ref int IgnoreCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int IgnoreCP { get; }
 ref bool IncludeWater { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool IncludeWater { get; }
 ref bool KillonContact { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool KillonContact { get; }
 ref float MaxTracesPerFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float MaxTracesPerFrame { get; }
 ref float MinSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float MinSpeed { get; }
 CPerParticleFloatInput RadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -196,7 +196,7 @@ CPerParticleFloatInput RadiusScale { get; }
 CPerParticleFloatInput RandomDirScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -206,7 +206,7 @@ CPerParticleFloatInput RandomDirScale { get; }
 ref float RetestRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float RetestRate { get; }
 ref bool SetNormal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool SetNormal { get; }
 CPerParticleFloatInput SlideAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -236,7 +236,7 @@ CPerParticleFloatInput SlideAmount { get; }
 ParticleAttributeIndex_t StickOnCollisionField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -246,7 +246,7 @@ ParticleAttributeIndex_t StickOnCollisionField { get; }
 CPerParticleFloatInput StopSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -256,7 +256,7 @@ CPerParticleFloatInput StopSpeed { get; }
 ref ParticleTraceSet_t TraceSet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleTraceSet_t](/docs/api/shared/schemadefinitions/particletraceset_t)
 
@@ -266,7 +266,7 @@ ref ParticleTraceSet_t TraceSet { get; }
 ref float TraceTolerance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -276,7 +276,7 @@ ref float TraceTolerance { get; }
 ref bool WorldOnly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

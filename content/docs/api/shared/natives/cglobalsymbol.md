@@ -6,7 +6,7 @@ title: CGlobalSymbol
 public struct CGlobalSymbol
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Properties
 
@@ -16,7 +16,7 @@ public struct CGlobalSymbol
 public string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

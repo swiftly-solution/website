@@ -6,7 +6,7 @@ title: CSkyboxReference
 public interface CSkyboxReference : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSkyboxReference>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSkyboxReference : CBaseEntity, CEntityInstance, ISchemaClass<C
 ref CHandle<CSkyCamera> SkyCamera { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CSkyCamera](/docs/api/shared/schemadefinitions/cskycamera)>
 
@@ -26,7 +26,7 @@ ref CHandle<CSkyCamera> SkyCamera { get; }
 ref uint WorldGroupId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

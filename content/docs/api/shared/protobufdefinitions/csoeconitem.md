@@ -6,7 +6,7 @@ title: CSOEconItem
 public interface CSOEconItem : ITypedProtobuf<CSOEconItem>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOEconItem : ITypedProtobuf<CSOEconItem>, INativeHandle
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 IProtobufRepeatedFieldSubMessageType<CSOEconItemAttribute> Attribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSOEconItemAttribute](/docs/api/shared/protobufdefinitions/csoeconitemattribute)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CSOEconItemAttribute> Attribute { get; }
 string CustomDesc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string CustomDesc { get; set; }
 string CustomName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string CustomName { get; set; }
 uint DefIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint DefIndex { get; set; }
 IProtobufRepeatedFieldSubMessageType<CSOEconItemEquipped> EquippedState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSOEconItemEquipped](/docs/api/shared/protobufdefinitions/csoeconitemequipped)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldSubMessageType<CSOEconItemEquipped> EquippedState { get; }
 uint Flags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint Flags { get; set; }
 ulong Id { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -96,7 +96,7 @@ ulong Id { get; set; }
 bool InUse { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ bool InUse { get; set; }
 CSOEconItem InteriorItem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSOEconItem](/docs/api/shared/protobufdefinitions/csoeconitem)
 
@@ -116,7 +116,7 @@ CSOEconItem InteriorItem { get; }
 uint Inventory { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ uint Inventory { get; set; }
 uint Level { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint Level { get; set; }
 uint Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ uint Origin { get; set; }
 ulong OriginalId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -156,7 +156,7 @@ ulong OriginalId { get; set; }
 uint Quality { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -166,7 +166,7 @@ uint Quality { get; set; }
 uint Quantity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -176,7 +176,7 @@ uint Quantity { get; set; }
 uint Rarity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -186,7 +186,7 @@ uint Rarity { get; set; }
 uint Style { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

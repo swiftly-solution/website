@@ -6,7 +6,7 @@ title: AnimationSnapshot_t
 public interface AnimationSnapshot_t : AnimationSnapshotBase_t, ISchemaClass<AnimationSnapshotBase_t>, ISchemaClass<AnimationSnapshot_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AnimationSnapshot_t : AnimationSnapshotBase_t, ISchemaClass<Ani
 ref int EntIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int EntIndex { get; }
 string ModelName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

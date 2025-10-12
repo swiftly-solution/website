@@ -6,7 +6,7 @@ title: FourVectors2D
 public interface FourVectors2D : ISchemaClass<FourVectors2D>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FourVectors2D : ISchemaClass<FourVectors2D>, ISchemaField, ISch
 ref fltx4 X { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -26,7 +26,7 @@ ref fltx4 X { get; }
 ref fltx4 Y { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 

@@ -6,7 +6,7 @@ title: CBodyComponentPoint
 public interface CBodyComponentPoint : CBodyComponent, CEntityComponent, ISchemaClass<CEntityComponent>, ISchemaClass<CBodyComponent>, ISchemaClass<CBodyComponentPoint>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBodyComponentPoint : CBodyComponent, CEntityComponent, ISchema
 CGameSceneNode SceneNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGameSceneNode](/docs/api/shared/schemadefinitions/cgamescenenode)
 

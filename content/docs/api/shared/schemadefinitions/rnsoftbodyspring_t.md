@@ -6,7 +6,7 @@ title: RnSoftbodySpring_t
 public interface RnSoftbodySpring_t : ISchemaClass<RnSoftbodySpring_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnSoftbodySpring_t : ISchemaClass<RnSoftbodySpring_t>, ISchemaF
 ref float Length { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Length { get; }
 ISchemaFixedArray<ushort> Particle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 

@@ -6,7 +6,7 @@ title: AnimationDecodeDebugDump_t
 public interface AnimationDecodeDebugDump_t : ISchemaClass<AnimationDecodeDebugDump_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AnimationDecodeDebugDump_t : ISchemaClass<AnimationDecodeDebugD
 ref CUtlVector Elems { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Elems { get; }
 ref AnimationProcessingType_t ProcessingType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimationProcessingType_t](/docs/api/shared/schemadefinitions/animationprocessingtype_t)
 

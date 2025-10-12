@@ -6,7 +6,7 @@ title: CMsgGCToGCBannedWordListUpdated
 public interface CMsgGCToGCBannedWordListUpdated : ITypedProtobuf<CMsgGCToGCBannedWordListUpdated>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCToGCBannedWordListUpdated : ITypedProtobuf<CMsgGCToGCBann
 uint GroupId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

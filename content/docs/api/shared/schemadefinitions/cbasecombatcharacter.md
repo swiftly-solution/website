@@ -6,7 +6,7 @@ title: CBaseCombatCharacter
 public interface CBaseCombatCharacter : CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CBaseCombatCharacter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseCombatCharacter : CBaseFlex, CBaseAnimGraph, CBaseModelEnt
 ref bool ApplyStressDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ApplyStressDamage { get; }
 ref bool DeathEventsDispatched { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool DeathEventsDispatched { get; }
 ref bool ForceServerRagdoll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ForceServerRagdoll { get; }
 ref Hull_t Hull { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Hull_t](/docs/api/shared/schemadefinitions/hull_t)
 
@@ -56,7 +56,7 @@ ref Hull_t Hull { get; }
 ref float ImpactEnergyScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float ImpactEnergyScale { get; }
 ref int MinVehicleDamageToTempRagdoll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int MinVehicleDamageToTempRagdoll { get; }
 CMovementStatsProperty MovementStats { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMovementStatsProperty](/docs/api/shared/schemadefinitions/cmovementstatsproperty)
 
@@ -86,7 +86,7 @@ CMovementStatsProperty MovementStats { get; }
 ref CUtlVector<CHandle<CEconWearable>> MyWearables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CEconWearable](/docs/api/shared/schemadefinitions/ceconwearable)>>
 
@@ -96,7 +96,7 @@ ref CUtlVector<CHandle<CEconWearable>> MyWearables { get; }
 ref uint NavHullIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ ref uint NavHullIdx { get; }
 string StrRelationships { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -116,7 +116,7 @@ string StrRelationships { get; set; }
 ref CUtlVector VecRelationships { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

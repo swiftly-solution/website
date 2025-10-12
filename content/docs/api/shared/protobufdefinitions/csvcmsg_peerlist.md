@@ -6,7 +6,7 @@ title: CSVCMsg_PeerList
 public interface CSVCMsg_PeerList : ITypedProtobuf<CSVCMsg_PeerList>, INativeHandle, INetMessage<CSVCMsg_PeerList>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_PeerList : ITypedProtobuf<CSVCMsg_PeerList>, INativeHan
 IProtobufRepeatedFieldSubMessageType<CMsgServerPeer> Peer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgServerPeer](/docs/api/shared/protobufdefinitions/cmsgserverpeer)>
 

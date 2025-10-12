@@ -6,7 +6,7 @@ title: CClientMsg_CustomGameEvent
 public interface CClientMsg_CustomGameEvent : ITypedProtobuf<CClientMsg_CustomGameEvent>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CClientMsg_CustomGameEvent : ITypedProtobuf<CClientMsg_CustomGa
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] Data { get; set; }
 string EventName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

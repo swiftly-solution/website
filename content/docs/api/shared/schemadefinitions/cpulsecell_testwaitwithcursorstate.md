@@ -6,7 +6,7 @@ title: CPulseCell_TestWaitWithCursorState
 public interface CPulseCell_TestWaitWithCursorState : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_TestWaitWithCursorState>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_TestWaitWithCursorState : CPulseCell_BaseYieldingInf
 CPulse_ResumePoint WakeCancel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -26,7 +26,7 @@ CPulse_ResumePoint WakeCancel { get; }
 CPulse_ResumePoint WakeFail { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -36,7 +36,7 @@ CPulse_ResumePoint WakeFail { get; }
 CPulse_ResumePoint WakeResume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 

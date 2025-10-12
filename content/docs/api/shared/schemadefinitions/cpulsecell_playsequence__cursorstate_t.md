@@ -6,7 +6,7 @@ title: CPulseCell_PlaySequence__CursorState_t
 public interface CPulseCell_PlaySequence__CursorState_t : ISchemaClass<CPulseCell_PlaySequence__CursorState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_PlaySequence__CursorState_t : ISchemaClass<CPulseCel
 ref CHandle<CBaseAnimGraph> Target { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseAnimGraph](/docs/api/shared/schemadefinitions/cbaseanimgraph)>
 

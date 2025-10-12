@@ -6,7 +6,7 @@ title: CAnimTagManagerUpdater
 public interface CAnimTagManagerUpdater : ISchemaClass<CAnimTagManagerUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimTagManagerUpdater : ISchemaClass<CAnimTagManagerUpdater>, 
 ref CUtlVector Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

@@ -6,7 +6,7 @@ title: PermModelData_t
 public interface PermModelData_t : ISchemaClass<PermModelData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PermModelData_t : ISchemaClass<PermModelData_t>, ISchemaField, 
 ref CUtlVector AnimatedMaterialAttributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector AnimatedMaterialAttributes { get; }
 ref CUtlVector<CUtlString> BodyGroupsHiddenInTools { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlString> BodyGroupsHiddenInTools { get; }
 ref CUtlVector BoneFlexDrivers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector BoneFlexDrivers { get; }
 ref ulong DefaultMeshGroupMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ref ulong DefaultMeshGroupMask { get; }
 ref CUtlVector ExtParts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector ExtParts { get; }
 ref CUtlVector<float> LodGroupSwitchDistances { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -76,7 +76,7 @@ ref CUtlVector<float> LodGroupSwitchDistances { get; }
 ref CUtlVector MaterialGroups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -86,7 +86,7 @@ ref CUtlVector MaterialGroups { get; }
 ref CUtlVector<CUtlString> MeshGroups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<CUtlString> MeshGroups { get; }
 CModelConfigList? ModelConfigList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CModelConfigList](/docs/api/shared/schemadefinitions/cmodelconfiglist)?
 
@@ -106,7 +106,7 @@ CModelConfigList? ModelConfigList { get; }
 PermModelInfo_t ModelInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PermModelInfo_t](/docs/api/shared/schemadefinitions/permmodelinfo_t)
 
@@ -116,7 +116,7 @@ PermModelInfo_t ModelInfo { get; }
 ModelSkeletonData_t ModelSkeleton { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ModelSkeletonData_t](/docs/api/shared/schemadefinitions/modelskeletondata_t)
 
@@ -126,7 +126,7 @@ ModelSkeletonData_t ModelSkeleton { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string Name { get; set; }
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>> RefAnimGroups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCAnimationGroup](/docs/api/shared/schemadefinitions/infoforresourcetypecanimationgroup)>>
 
@@ -146,7 +146,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>> RefAnimGroups 
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCModel>> RefAnimIncludeModels { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>>
 
@@ -156,7 +156,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCModel>> RefAnimIncludeModels { 
 ref CUtlVector<byte> RefLODGroupMasks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -166,7 +166,7 @@ ref CUtlVector<byte> RefLODGroupMasks { get; }
 ref CUtlVector<ulong> RefMeshGroupMasks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -176,7 +176,7 @@ ref CUtlVector<ulong> RefMeshGroupMasks { get; }
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCRenderMesh>> RefMeshes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCRenderMesh](/docs/api/shared/schemadefinitions/infoforresourcetypecrendermesh)>>
 
@@ -186,7 +186,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCRenderMesh>> RefMeshes { get; }
 ref CUtlVector<ulong> RefPhysGroupMasks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -196,7 +196,7 @@ ref CUtlVector<ulong> RefPhysGroupMasks { get; }
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>> RefPhysicsData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCPhysAggregateData](/docs/api/shared/schemadefinitions/infoforresourcetypecphysaggregatedata)>>
 
@@ -206,7 +206,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>> RefPhysicsD
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>> RefPhysicsHitboxData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCPhysAggregateData](/docs/api/shared/schemadefinitions/infoforresourcetypecphysaggregatedata)>>
 
@@ -216,7 +216,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCPhysAggregateData>> RefPhysicsH
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCSequenceGroupData>> RefSequenceGroups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCSequenceGroupData](/docs/api/shared/schemadefinitions/infoforresourcetypecsequencegroupdata)>>
 
@@ -226,7 +226,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCSequenceGroupData>> RefSequence
 ref CUtlVector<short> RemappingTable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[short](https://learn.microsoft.com/dotnet/api/system.int16)>
 
@@ -236,7 +236,7 @@ ref CUtlVector<short> RemappingTable { get; }
 ref CUtlVector<ushort> RemappingTableStarts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 

@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve
 public interface CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve : ITypedProtobuf
 IProtobufRepeatedFieldValueType<uint> AccountIds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<uint> AccountIds { get; }
 ulong EncryptionKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong EncryptionKey { get; set; }
 ulong EncryptionKeyPub { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong EncryptionKeyPub { get; set; }
 uint Flags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint Flags { get; set; }
 uint GameType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint GameType { get; set; }
 ulong MatchId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -76,7 +76,7 @@ ulong MatchId { get; set; }
 uint MatchIdAdditional { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint MatchIdAdditional { get; set; }
 IProtobufRepeatedFieldSubMessageType<OperationalVarValue> OpVarValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[OperationalVarValue](/docs/api/shared/protobufdefinitions/operationalvarvalue)>
 
@@ -96,7 +96,7 @@ IProtobufRepeatedFieldSubMessageType<OperationalVarValue> OpVarValues { get; }
 IProtobufRepeatedFieldValueType<uint> PartyIds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -106,7 +106,7 @@ IProtobufRepeatedFieldValueType<uint> PartyIds { get; }
 CPreMatchInfoData PreMatchData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPreMatchInfoData](/docs/api/shared/protobufdefinitions/cprematchinfodata)
 
@@ -116,7 +116,7 @@ CPreMatchInfoData PreMatchData { get; }
 IProtobufRepeatedFieldSubMessageType<PlayerRankingInfo> Rankings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[PlayerRankingInfo](/docs/api/shared/protobufdefinitions/playerrankinginfo)>
 
@@ -126,7 +126,7 @@ IProtobufRepeatedFieldSubMessageType<PlayerRankingInfo> Rankings { get; }
 uint ServerVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint ServerVersion { get; set; }
 uint SocacheControl { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ uint SocacheControl { get; set; }
 IProtobufRepeatedFieldValueType<int> TeammateColors { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -156,7 +156,7 @@ IProtobufRepeatedFieldValueType<int> TeammateColors { get; }
 IProtobufRepeatedFieldValueType<uint> TournamentCastersAccountIds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -166,7 +166,7 @@ IProtobufRepeatedFieldValueType<uint> TournamentCastersAccountIds { get; }
 TournamentEvent TournamentEvent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TournamentEvent](/docs/api/shared/protobufdefinitions/tournamentevent)
 
@@ -176,7 +176,7 @@ TournamentEvent TournamentEvent { get; }
 IProtobufRepeatedFieldSubMessageType<TournamentTeam> TournamentTeams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[TournamentTeam](/docs/api/shared/protobufdefinitions/tournamentteam)>
 
@@ -186,7 +186,7 @@ IProtobufRepeatedFieldSubMessageType<TournamentTeam> TournamentTeams { get; }
 uint TvControl { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -196,7 +196,7 @@ uint TvControl { get; set; }
 ulong TvMasterSteamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -206,7 +206,7 @@ ulong TvMasterSteamid { get; set; }
 ulong TvRelaySteamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -216,7 +216,7 @@ ulong TvRelaySteamid { get; set; }
 IProtobufRepeatedFieldSubMessageType<IpAddressMask> Whitelist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[IpAddressMask](/docs/api/shared/protobufdefinitions/ipaddressmask)>
 

@@ -6,7 +6,7 @@ title: CCSUsrMsg_MatchEndConditions
 public interface CCSUsrMsg_MatchEndConditions : ITypedProtobuf<CCSUsrMsg_MatchEndConditions>, INativeHandle, INetMessage<CCSUsrMsg_MatchEndConditions>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_MatchEndConditions : ITypedProtobuf<CCSUsrMsg_MatchEn
 int Fraglimit { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Fraglimit { get; set; }
 int MpMaxrounds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int MpMaxrounds { get; set; }
 float MpTimelimit { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float MpTimelimit { get; set; }
 int MpWinlimit { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

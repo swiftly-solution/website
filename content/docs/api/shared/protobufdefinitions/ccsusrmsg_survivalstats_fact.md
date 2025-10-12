@@ -6,7 +6,7 @@ title: CCSUsrMsg_SurvivalStats_Fact
 public interface CCSUsrMsg_SurvivalStats_Fact : ITypedProtobuf<CCSUsrMsg_SurvivalStats_Fact>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SurvivalStats_Fact : ITypedProtobuf<CCSUsrMsg_Surviva
 int Display { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Display { get; set; }
 float Interestingness { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float Interestingness { get; set; }
 int Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Type { get; set; }
 int Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: EventClientsideReloadCustomEcon
 public interface EventClientsideReloadCustomEcon : IGameEvent<EventClientsideReloadCustomEcon>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventClientsideReloadCustomEcon : IGameEvent<EventClientsideRel
 string SteamID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

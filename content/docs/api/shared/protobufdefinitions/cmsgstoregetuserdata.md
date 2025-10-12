@@ -6,7 +6,7 @@ title: CMsgStoreGetUserData
 public interface CMsgStoreGetUserData : ITypedProtobuf<CMsgStoreGetUserData>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgStoreGetUserData : ITypedProtobuf<CMsgStoreGetUserData>, IN
 int Currency { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Currency { get; set; }
 uint PriceSheetVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

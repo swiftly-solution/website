@@ -6,7 +6,7 @@ title: CNmClip__ModelSpaceSamplingChainLink_t
 public interface CNmClip__ModelSpaceSamplingChainLink_t : ISchemaClass<CNmClip__ModelSpaceSamplingChainLink_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmClip__ModelSpaceSamplingChainLink_t : ISchemaClass<CNmClip__
 ref int BoneIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int BoneIdx { get; }
 ref int ParentBoneIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ParentBoneIdx { get; }
 ref int ParentChainLinkIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

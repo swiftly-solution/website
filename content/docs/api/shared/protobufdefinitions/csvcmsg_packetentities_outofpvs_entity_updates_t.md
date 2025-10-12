@@ -6,7 +6,7 @@ title: CSVCMsg_PacketEntities_outofpvs_entity_updates_t
 public interface CSVCMsg_PacketEntities_outofpvs_entity_updates_t : ITypedProtobuf<CSVCMsg_PacketEntities_outofpvs_entity_updates_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_PacketEntities_outofpvs_entity_updates_t : ITypedProtob
 int Count { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Count { get; set; }
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

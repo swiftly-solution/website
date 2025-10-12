@@ -6,7 +6,7 @@ title: EntitySpottedState_t
 public interface EntitySpottedState_t : ISchemaClass<EntitySpottedState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EntitySpottedState_t : ISchemaClass<EntitySpottedState_t>, ISch
 ref bool Spotted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Spotted { get; }
 ISchemaFixedArray<uint> SpottedByMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

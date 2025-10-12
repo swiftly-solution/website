@@ -6,7 +6,7 @@ title: MLTick
 public interface MLTick : ITypedProtobuf<MLTick>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MLTick : ITypedProtobuf<MLTick>, INativeHandle
 IProtobufRepeatedFieldSubMessageType<MLEvent> Events { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[MLEvent](/docs/api/shared/protobufdefinitions/mlevent)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<MLEvent> Events { get; }
 MLGameState State { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MLGameState](/docs/api/shared/protobufdefinitions/mlgamestate)
 
@@ -36,7 +36,7 @@ MLGameState State { get; }
 int TickCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

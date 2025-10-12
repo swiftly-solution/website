@@ -6,7 +6,7 @@ title: CCycleBase
 public interface CCycleBase : ISchemaClass<CCycleBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCycleBase : ISchemaClass<CCycleBase>, ISchemaField, ISchemaCla
 ref float Cycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: MotionDBIndex
 public interface MotionDBIndex : ISchemaClass<MotionDBIndex>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MotionDBIndex : ISchemaClass<MotionDBIndex>, ISchemaField, ISch
 ref uint Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

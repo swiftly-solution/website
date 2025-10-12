@@ -6,7 +6,7 @@ title: CUserMessageServerFrameTime
 public interface CUserMessageServerFrameTime : ITypedProtobuf<CUserMessageServerFrameTime>, INativeHandle, INetMessage<CUserMessageServerFrameTime>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageServerFrameTime : ITypedProtobuf<CUserMessageServer
 float FrameTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

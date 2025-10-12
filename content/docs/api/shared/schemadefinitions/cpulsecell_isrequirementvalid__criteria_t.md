@@ -6,7 +6,7 @@ title: CPulseCell_IsRequirementValid__Criteria_t
 public interface CPulseCell_IsRequirementValid__Criteria_t : ISchemaClass<CPulseCell_IsRequirementValid__Criteria_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_IsRequirementValid__Criteria_t : ISchemaClass<CPulse
 ref bool IsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CMsgCStrike15Welcome
 public interface CMsgCStrike15Welcome : ITypedProtobuf<CMsgCStrike15Welcome>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgCStrike15Welcome : ITypedProtobuf<CMsgCStrike15Welcome>, IN
 ulong Gscookieid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Gscookieid { get; set; }
 uint LastIpAddress { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint LastIpAddress { get; set; }
 uint LastTimePlayed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint LastTimePlayed { get; set; }
 uint StoreItemHash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint StoreItemHash { get; set; }
 uint TimeFirstPlayed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint TimeFirstPlayed { get; set; }
 uint Timeplayedconsecutively { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint Timeplayedconsecutively { get; set; }
 ulong Uniqueid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

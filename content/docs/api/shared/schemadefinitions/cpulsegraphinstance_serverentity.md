@@ -6,7 +6,7 @@ title: CPulseGraphInstance_ServerEntity
 public interface CPulseGraphInstance_ServerEntity : CBasePulseGraphInstance, ISchemaClass<CBasePulseGraphInstance>, ISchemaClass<CPulseGraphInstance_ServerEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseGraphInstance_ServerEntity : CBasePulseGraphInstance, ISc
 ref bool Activated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Activated { get; }
 string NameFixupLocal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string NameFixupLocal { get; set; }
 string NameFixupParent { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string NameFixupParent { get; set; }
 string NameFixupStaticPrefix { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string NameFixupStaticPrefix { get; set; }
 ref CHandle<CBaseEntity> Owner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -66,7 +66,7 @@ ref CHandle<CBaseEntity> Owner { get; }
 string ProceduralWorldNameForRelays { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

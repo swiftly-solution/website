@@ -6,7 +6,7 @@ title: CEntityInstance
 public interface CEntityInstance : ISchemaClass<CEntityInstance>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityInstance : ISchemaClass<CEntityInstance>, ISchemaField, 
 CScriptComponent? CScriptComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CScriptComponent](/docs/api/shared/schemadefinitions/cscriptcomponent)?
 
@@ -26,7 +26,7 @@ CScriptComponent? CScriptComponent { get; }
 string DesignerName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string DesignerName { get; }
 CEntityIdentity? Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIdentity](/docs/api/shared/schemadefinitions/centityidentity)?
 
@@ -46,7 +46,7 @@ CEntityIdentity? Entity { get; }
 uint Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint Index { get; }
 string PrivateVScripts { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -68,7 +68,7 @@ string PrivateVScripts { get; set; }
 void AcceptInput<T>(string input, T value, CEntityInstance? activator = null, CEntityInstance? caller = null, int outputID = 0)
 ```
 
-#### Parameters
+- Parameters
 
 - **input**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Input name.
 - **value**: T - Input value.
@@ -76,7 +76,7 @@ void AcceptInput<T>(string input, T value, CEntityInstance? activator = null, CE
 - **caller**: [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)? - Caller entity. Nullable.
 - **outputID**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - Output ID.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - Param type. Support bool, int, uint, long, ulong, float, double, string
 
@@ -86,7 +86,7 @@ void AcceptInput<T>(string input, T value, CEntityInstance? activator = null, CE
 void AddEntityIOEvent<T>(string input, T value, CEntityInstance? activator = null, CEntityInstance? caller = null, float delay = 0)
 ```
 
-#### Parameters
+- Parameters
 
 - **input**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Input name.
 - **value**: T - Input value.
@@ -94,7 +94,7 @@ void AddEntityIOEvent<T>(string input, T value, CEntityInstance? activator = nul
 - **caller**: [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)? - Caller entity. Nullable.
 - **delay**: [float](https://learn.microsoft.com/dotnet/api/system.single) - Delay in seconds.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - Param type. Support bool, int, uint, long, ulong, float, double, string
 
@@ -110,7 +110,7 @@ void Despawn()
 void DispatchSpawn(CEntityKeyValues? entityKV = null)
 ```
 
-#### Parameters
+- Parameters
 
 - **entityKV**: [CEntityKeyValues](/docs/api/shared/entitysystem/centitykeyvalues)? - Entity key values. Nullable.
 

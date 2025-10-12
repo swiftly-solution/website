@@ -6,7 +6,7 @@ title: CMotionMetricEvaluator
 public interface CMotionMetricEvaluator : ISchemaClass<CMotionMetricEvaluator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionMetricEvaluator : ISchemaClass<CMotionMetricEvaluator>, 
 ref int DimensionStartIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int DimensionStartIndex { get; }
 ref CUtlVector<float> Means { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<float> Means { get; }
 ref CUtlVector<float> StandardDeviations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<float> StandardDeviations { get; }
 ref float Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

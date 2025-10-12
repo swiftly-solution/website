@@ -6,7 +6,7 @@ title: CUserMessageShakeDir
 public interface CUserMessageShakeDir : ITypedProtobuf<CUserMessageShakeDir>, INativeHandle, INetMessage<CUserMessageShakeDir>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageShakeDir : ITypedProtobuf<CUserMessageShakeDir>, IN
 Vector Direction { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ Vector Direction { get; set; }
 CUserMessageShake Shake { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMessageShake](/docs/api/shared/protobufdefinitions/cusermessageshake)
 

@@ -6,7 +6,7 @@ title: CPathParticleRope
 public interface CPathParticleRope : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPathParticleRope>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPathParticleRope : CBaseEntity, CEntityInstance, ISchemaClass<
 ref Color ColorTint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -26,7 +26,7 @@ ref Color ColorTint { get; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> EffectIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -36,7 +36,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> EffectIndex { ge
 string EffectName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string EffectName { get; set; }
 ref int EffectState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int EffectState { get; }
 ref float MaxSimulationTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MaxSimulationTime { get; }
 ref float ParticleSpacing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float ParticleSpacing { get; }
 ref CUtlVector<Vector> PathNodes_Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -86,7 +86,7 @@ ref CUtlVector<Vector> PathNodes_Color { get; }
 ref CUtlVector<CUtlSymbolLarge> PathNodes_Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<CUtlSymbolLarge> PathNodes_Name { get; }
 ref CUtlVector<bool> PathNodes_PinEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 
@@ -106,7 +106,7 @@ ref CUtlVector<bool> PathNodes_PinEnabled { get; }
 ref CUtlVector<Vector> PathNodes_Position { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -116,7 +116,7 @@ ref CUtlVector<Vector> PathNodes_Position { get; }
 ref CUtlVector<float> PathNodes_RadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -126,7 +126,7 @@ ref CUtlVector<float> PathNodes_RadiusScale { get; }
 ref CUtlVector<Vector> PathNodes_TangentIn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -136,7 +136,7 @@ ref CUtlVector<Vector> PathNodes_TangentIn { get; }
 ref CUtlVector<Vector> PathNodes_TangentOut { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -146,7 +146,7 @@ ref CUtlVector<Vector> PathNodes_TangentOut { get; }
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float Radius { get; }
 ref float Slack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float Slack { get; }
 ref bool StartActive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CAnimMorphDifference
 public interface CAnimMorphDifference : ISchemaClass<CAnimMorphDifference>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimMorphDifference : ISchemaClass<CAnimMorphDifference>, ISch
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 

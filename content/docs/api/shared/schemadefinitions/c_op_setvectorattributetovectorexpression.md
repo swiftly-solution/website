@@ -6,7 +6,7 @@ title: C_OP_SetVectorAttributeToVectorExpression
 public interface C_OP_SetVectorAttributeToVectorExpression : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_SetVectorAttributeToVectorExpression>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_SetVectorAttributeToVectorExpression : CParticleFunctionOp
 ref VectorExpressionType_t Expression { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VectorExpressionType_t](/docs/api/shared/schemadefinitions/vectorexpressiontype_t)
 
@@ -26,7 +26,7 @@ ref VectorExpressionType_t Expression { get; }
 CPerParticleVecInput Input1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -36,7 +36,7 @@ CPerParticleVecInput Input1 { get; }
 CPerParticleVecInput Input2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -46,7 +46,7 @@ CPerParticleVecInput Input2 { get; }
 CPerParticleFloatInput Lerp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -56,7 +56,7 @@ CPerParticleFloatInput Lerp { get; }
 ref bool NormalizedOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool NormalizedOutput { get; }
 ParticleAttributeIndex_t OutputField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -76,7 +76,7 @@ ParticleAttributeIndex_t OutputField { get; }
 ref ParticleSetMethod_t SetMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 

@@ -6,7 +6,7 @@ title: NetMessageConnectionClosed
 public interface NetMessageConnectionClosed : ITypedProtobuf<NetMessageConnectionClosed>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NetMessageConnectionClosed : ITypedProtobuf<NetMessageConnectio
 string Message { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Message { get; set; }
 uint Reason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

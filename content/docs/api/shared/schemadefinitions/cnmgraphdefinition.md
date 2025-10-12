@@ -6,7 +6,7 @@ title: CNmGraphDefinition
 public interface CNmGraphDefinition : ISchemaClass<CNmGraphDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmGraphDefinition : ISchemaClass<CNmGraphDefinition>, ISchemaF
 ref CUtlVector<CGlobalSymbol> ControlParameterIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CGlobalSymbol> ControlParameterIDs { get; }
 ref CUtlVector ExternalGraphSlots { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector ExternalGraphSlots { get; }
 ref CUtlVector<CUtlString> NodePaths { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<CUtlString> NodePaths { get; }
 ref CUtlVector<short> PersistentNodeIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[short](https://learn.microsoft.com/dotnet/api/system.int16)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<short> PersistentNodeIndices { get; }
 ref CUtlVector ReferencedGraphSlots { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector ReferencedGraphSlots { get; }
 ref CUtlVector Resources { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector Resources { get; }
 ref short RootNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -86,7 +86,7 @@ ref short RootNodeIdx { get; }
 ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCNmSkeleton](/docs/api/shared/schemadefinitions/infoforresourcetypecnmskeleton)>
 
@@ -96,7 +96,7 @@ ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
 ref CGlobalSymbol VariationID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -106,7 +106,7 @@ ref CGlobalSymbol VariationID { get; }
 ref CUtlVector<CGlobalSymbol> VirtualParameterIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
 
@@ -116,7 +116,7 @@ ref CUtlVector<CGlobalSymbol> VirtualParameterIDs { get; }
 ref CUtlVector<short> VirtualParameterNodeIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[short](https://learn.microsoft.com/dotnet/api/system.int16)>
 

@@ -6,7 +6,7 @@ title: CStanceOverrideUpdateNode
 public interface CStanceOverrideUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CStanceOverrideUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CStanceOverrideUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBa
 ref CUtlVector FootStanceInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector FootStanceInfo { get; }
 ref StanceOverrideMode Mode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [StanceOverrideMode](/docs/api/shared/schemadefinitions/stanceoverridemode)
 
@@ -36,7 +36,7 @@ ref StanceOverrideMode Mode { get; }
 CAnimParamHandle Parameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -46,7 +46,7 @@ CAnimParamHandle Parameter { get; }
 CAnimUpdateNodeRef StanceSourceNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimUpdateNodeRef](/docs/api/shared/schemadefinitions/canimupdatenoderef)
 

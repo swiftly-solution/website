@@ -6,7 +6,7 @@ title: CNmEntityAttributeIntEvent
 public interface CNmEntityAttributeIntEvent : CNmEntityAttributeEventBase, CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmEntityAttributeEventBase>, ISchemaClass<CNmEntityAttributeIntEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmEntityAttributeIntEvent : CNmEntityAttributeEventBase, CNmEv
 ref int IntValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

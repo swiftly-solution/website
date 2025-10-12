@@ -6,7 +6,7 @@ title: CMsgPartyInviteResponse
 public interface CMsgPartyInviteResponse : ITypedProtobuf<CMsgPartyInviteResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgPartyInviteResponse : ITypedProtobuf<CMsgPartyInviteRespons
 bool Accept { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool Accept { get; set; }
 uint ClientVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ClientVersion { get; set; }
 ulong PartyId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong PartyId { get; set; }
 uint TeamInvite { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

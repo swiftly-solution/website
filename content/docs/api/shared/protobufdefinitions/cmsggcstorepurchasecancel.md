@@ -6,7 +6,7 @@ title: CMsgGCStorePurchaseCancel
 public interface CMsgGCStorePurchaseCancel : ITypedProtobuf<CMsgGCStorePurchaseCancel>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCStorePurchaseCancel : ITypedProtobuf<CMsgGCStorePurchaseC
 ulong TxnId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

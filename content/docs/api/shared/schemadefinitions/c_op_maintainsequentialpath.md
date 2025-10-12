@@ -6,7 +6,7 @@ title: C_OP_MaintainSequentialPath
 public interface C_OP_MaintainSequentialPath : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_MaintainSequentialPath>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_MaintainSequentialPath : CParticleFunctionOperator, CParti
 ref float CohesionStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float CohesionStrength { get; }
 ref bool Loop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Loop { get; }
 ref float MaxDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float MaxDistance { get; }
 ref float NumToAssign { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float NumToAssign { get; }
 CPathParameters PathParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathParameters](/docs/api/shared/schemadefinitions/cpathparameters)
 
@@ -66,7 +66,7 @@ CPathParameters PathParams { get; }
 ref float Tolerance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float Tolerance { get; }
 ref bool UseParticleCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

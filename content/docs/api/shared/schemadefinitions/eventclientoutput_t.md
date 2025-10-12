@@ -6,7 +6,7 @@ title: EventClientOutput_t
 public interface EventClientOutput_t : ISchemaClass<EventClientOutput_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventClientOutput_t : ISchemaClass<EventClientOutput_t>, ISchem
 EngineLoopState_t LoopState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
@@ -26,7 +26,7 @@ EngineLoopState_t LoopState { get; }
 ref float RealTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float RealTime { get; }
 ref float RenderFrameTimeUnbounded { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float RenderFrameTimeUnbounded { get; }
 ref bool RenderOnly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool RenderOnly { get; }
 ref float RenderTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CStepsRemainingMetricEvaluator
 public interface CStepsRemainingMetricEvaluator : CMotionMetricEvaluator, ISchemaClass<CMotionMetricEvaluator>, ISchemaClass<CStepsRemainingMetricEvaluator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CStepsRemainingMetricEvaluator : CMotionMetricEvaluator, ISchem
 ref CUtlVector<int> FootIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<int> FootIndices { get; }
 ref float MinStepsRemaining { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

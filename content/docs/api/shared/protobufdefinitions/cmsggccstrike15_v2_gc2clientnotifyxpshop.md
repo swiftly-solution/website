@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GC2ClientNotifyXPShop
 public interface CMsgGCCStrike15_v2_GC2ClientNotifyXPShop : ITypedProtobuf<CMsgGCCStrike15_v2_GC2ClientNotifyXPShop>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GC2ClientNotifyXPShop : ITypedProtobuf<CMsgG
 uint CurrentLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint CurrentLevel { get; set; }
 uint CurrentXp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint CurrentXp { get; set; }
 CSOAccountXpShop Postmatch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSOAccountXpShop](/docs/api/shared/protobufdefinitions/csoaccountxpshop)
 
@@ -46,7 +46,7 @@ CSOAccountXpShop Postmatch { get; }
 CSOAccountXpShop Prematch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSOAccountXpShop](/docs/api/shared/protobufdefinitions/csoaccountxpshop)
 

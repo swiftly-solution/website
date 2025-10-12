@@ -6,7 +6,7 @@ title: EventPlayerStatsUpdated
 public interface EventPlayerStatsUpdated : IGameEvent<EventPlayerStatsUpdated>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventPlayerStatsUpdated : IGameEvent<EventPlayerStatsUpdated>
 bool ForceUpload { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

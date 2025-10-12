@@ -6,7 +6,7 @@ title: SampleCode
 public interface SampleCode : ISchemaClass<SampleCode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SampleCode : ISchemaClass<SampleCode>, ISchemaField, ISchemaCla
 ISchemaFixedArray<byte> SubCode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 

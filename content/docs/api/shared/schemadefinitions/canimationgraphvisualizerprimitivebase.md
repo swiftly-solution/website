@@ -6,7 +6,7 @@ title: CAnimationGraphVisualizerPrimitiveBase
 public interface CAnimationGraphVisualizerPrimitiveBase : ISchemaClass<CAnimationGraphVisualizerPrimitiveBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimationGraphVisualizerPrimitiveBase : ISchemaClass<CAnimatio
 ref int OwningAnimNodePathCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int OwningAnimNodePathCount { get; }
 SchemaUntypedField OwningAnimNodePaths { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField OwningAnimNodePaths { get; }
 ref CAnimationGraphVisualizerPrimitiveType Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimationGraphVisualizerPrimitiveType](/docs/api/shared/schemadefinitions/canimationgraphvisualizerprimitivetype)
 

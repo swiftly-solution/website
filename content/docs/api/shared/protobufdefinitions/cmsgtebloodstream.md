@@ -6,7 +6,7 @@ title: CMsgTEBloodStream
 public interface CMsgTEBloodStream : ITypedProtobuf<CMsgTEBloodStream>, INativeHandle, INetMessage<CMsgTEBloodStream>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEBloodStream : ITypedProtobuf<CMsgTEBloodStream>, INativeH
 uint Amount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Amount { get; set; }
 uint Color { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Color { get; set; }
 Vector Direction { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ Vector Direction { get; set; }
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

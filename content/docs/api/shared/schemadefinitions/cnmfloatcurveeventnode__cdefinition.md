@@ -6,7 +6,7 @@ title: CNmFloatCurveEventNode__CDefinition
 public interface CNmFloatCurveEventNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmFloatCurveEventNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFloatCurveEventNode__CDefinition : CNmFloatValueNode__CDefin
 ref short DefaultNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short DefaultNodeIdx { get; }
 ref float DefaultValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DefaultValue { get; }
 CNmBitFlags EventConditionRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmBitFlags](/docs/api/shared/schemadefinitions/cnmbitflags)
 
@@ -46,7 +46,7 @@ CNmBitFlags EventConditionRules { get; }
 ref CGlobalSymbol EventID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

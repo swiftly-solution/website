@@ -6,7 +6,7 @@ title: RnBodyDesc_t
 public interface RnBodyDesc_t : ISchemaClass<RnBodyDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnBodyDesc_t : ISchemaClass<RnBodyDesc_t>, ISchemaField, ISchem
 ref float AngularBuoyancyDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AngularBuoyancyDrag { get; }
 ref float AngularDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AngularDamping { get; }
 ref float AngularDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float AngularDrag { get; }
 ref Vector AngularVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector AngularVelocity { get; }
 ref int BodyType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int BodyType { get; }
 ref bool BuoyancyDragEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool BuoyancyDragEnabled { get; }
 ref float BuoyancyFactor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float BuoyancyFactor { get; }
 string DebugName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string DebugName { get; set; }
 ref bool DragEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool DragEnabled { get; }
 ref DynamicContinuousContactBehavior_t DynamicContinuousContactBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DynamicContinuousContactBehavior_t](/docs/api/shared/schemadefinitions/dynamiccontinuouscontactbehavior_t)
 
@@ -116,7 +116,7 @@ ref DynamicContinuousContactBehavior_t DynamicContinuousContactBehavior { get; }
 ref bool Enabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool Enabled { get; }
 ref uint GameFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ ref uint GameFlags { get; }
 ref uint GameIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ ref uint GameIndex { get; }
 ref float GameMass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float GameMass { get; }
 ref Vector Gravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -166,7 +166,7 @@ ref Vector Gravity { get; }
 ref float GravityScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float GravityScale { get; }
 ref bool HasShadowController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -186,7 +186,7 @@ ref bool HasShadowController { get; }
 ref float InertiaScaleInv { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float InertiaScaleInv { get; }
 ref bool IsContinuousEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool IsContinuousEnabled { get; }
 ref Vector LastAwakeForceAccum { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -216,7 +216,7 @@ ref Vector LastAwakeForceAccum { get; }
 ref Vector LastAwakeTorqueAccum { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -226,7 +226,7 @@ ref Vector LastAwakeTorqueAccum { get; }
 ref float LinearBuoyancyDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float LinearBuoyancyDrag { get; }
 ref float LinearDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -246,7 +246,7 @@ ref float LinearDamping { get; }
 ref float LinearDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -256,7 +256,7 @@ ref float LinearDrag { get; }
 ref Vector LinearVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -266,7 +266,7 @@ ref Vector LinearVelocity { get; }
 ISchemaFixedArray<Vector> LocalInertiaInv { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -276,7 +276,7 @@ ISchemaFixedArray<Vector> LocalInertiaInv { get; }
 ref Vector LocalMassCenter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -286,7 +286,7 @@ ref Vector LocalMassCenter { get; }
 ref float MassInv { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -296,7 +296,7 @@ ref float MassInv { get; }
 ref byte MassPriority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -306,7 +306,7 @@ ref byte MassPriority { get; }
 ref float MassScaleInv { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -316,7 +316,7 @@ ref float MassScaleInv { get; }
 ref byte MinPositionIterations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -326,7 +326,7 @@ ref byte MinPositionIterations { get; }
 ref byte MinVelocityIterations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -336,7 +336,7 @@ ref byte MinVelocityIterations { get; }
 SchemaUntypedField Orientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -346,7 +346,7 @@ SchemaUntypedField Orientation { get; }
 ref Vector Position { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -356,7 +356,7 @@ ref Vector Position { get; }
 ref bool Sleeping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -366,7 +366,7 @@ ref bool Sleeping { get; }
 ref bool SpeculativeEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,7 +376,7 @@ ref bool SpeculativeEnabled { get; }
 ref float TimeScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

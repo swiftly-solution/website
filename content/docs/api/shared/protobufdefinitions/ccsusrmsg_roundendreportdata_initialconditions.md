@@ -6,7 +6,7 @@ title: CCSUsrMsg_RoundEndReportData_InitialConditions
 public interface CCSUsrMsg_RoundEndReportData_InitialConditions : ITypedProtobuf<CCSUsrMsg_RoundEndReportData_InitialConditions>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_RoundEndReportData_InitialConditions : ITypedProtobuf
 int CtEquipValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int CtEquipValue { get; set; }
 int TEquipValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int TEquipValue { get; set; }
 int TerroristOdds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

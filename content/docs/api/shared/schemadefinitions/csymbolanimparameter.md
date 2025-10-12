@@ -6,7 +6,7 @@ title: CSymbolAnimParameter
 public interface CSymbolAnimParameter : CConcreteAnimParameter, CAnimParameterBase, ISchemaClass<CAnimParameterBase>, ISchemaClass<CConcreteAnimParameter>, ISchemaClass<CSymbolAnimParameter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSymbolAnimParameter : CConcreteAnimParameter, CAnimParameterBa
 ref CGlobalSymbol DefaultValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

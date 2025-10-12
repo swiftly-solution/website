@@ -6,7 +6,7 @@ title: CSVCMsg_FullFrameSplit
 public interface CSVCMsg_FullFrameSplit : ITypedProtobuf<CSVCMsg_FullFrameSplit>, INativeHandle, INetMessage<CSVCMsg_FullFrameSplit>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_FullFrameSplit : ITypedProtobuf<CSVCMsg_FullFrameSplit>
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] Data { get; set; }
 int Section { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Section { get; set; }
 int Tick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Tick { get; set; }
 int Total { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

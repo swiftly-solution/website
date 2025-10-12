@@ -6,7 +6,7 @@ title: CPhysThruster
 public interface CPhysThruster : CPhysForce, CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CPhysForce>, ISchemaClass<CPhysThruster>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysThruster : CPhysForce, CPointEntity, CBaseEntity, CEntityI
 ref Vector LocalOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

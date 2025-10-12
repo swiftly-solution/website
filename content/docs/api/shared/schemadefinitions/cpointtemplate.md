@@ -6,7 +6,7 @@ title: CPointTemplate
 public interface CPointTemplate : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CPointTemplate>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointTemplate : CLogicalEntity, CServerOnlyEntity, CBaseEntity
 ref bool AsynchronouslySpawnEntities { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AsynchronouslySpawnEntities { get; }
 ref PointTemplateClientOnlyEntityBehavior_t ClientOnlyEntityBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointTemplateClientOnlyEntityBehavior_t](/docs/api/shared/schemadefinitions/pointtemplateclientonlyentitybehavior_t)
 
@@ -36,7 +36,7 @@ ref PointTemplateClientOnlyEntityBehavior_t ClientOnlyEntityBehavior { get; }
 ref CUtlVector<uint> CreatedSpawnGroupHandles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<uint> CreatedSpawnGroupHandles { get; }
 string EntityFilterName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string EntityFilterName { get; set; }
 ref PointTemplateOwnerSpawnGroupType_t OwnerSpawnGroupType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointTemplateOwnerSpawnGroupType_t](/docs/api/shared/schemadefinitions/pointtemplateownerspawngrouptype_t)
 
@@ -66,7 +66,7 @@ ref PointTemplateOwnerSpawnGroupType_t OwnerSpawnGroupType { get; }
 SchemaUntypedField ScriptCallbackScope { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField ScriptCallbackScope { get; }
 SchemaUntypedField ScriptSpawnCallback { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -86,7 +86,7 @@ SchemaUntypedField ScriptSpawnCallback { get; }
 string Source2EntityLumpName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string Source2EntityLumpName { get; set; }
 ref CUtlVector<CHandle<CEntityInstance>> SpawnedEntityHandles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>>
 
@@ -106,7 +106,7 @@ ref CUtlVector<CHandle<CEntityInstance>> SpawnedEntityHandles { get; }
 ref float TimeoutInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float TimeoutInterval { get; }
 string WorldName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

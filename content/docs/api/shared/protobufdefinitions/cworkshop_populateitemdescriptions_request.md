@@ -6,7 +6,7 @@ title: CWorkshop_PopulateItemDescriptions_Request
 public interface CWorkshop_PopulateItemDescriptions_Request : ITypedProtobuf<CWorkshop_PopulateItemDescriptions_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWorkshop_PopulateItemDescriptions_Request : ITypedProtobuf<CWo
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Appid { get; set; }
 IProtobufRepeatedFieldSubMessageType<CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock> Languages { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock](/docs/api/shared/protobufdefinitions/cworkshop_populateitemdescriptions_request_itemdescriptionslanguageblock)>
 

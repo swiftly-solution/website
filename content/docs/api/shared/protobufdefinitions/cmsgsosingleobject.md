@@ -6,7 +6,7 @@ title: CMsgSOSingleObject
 public interface CMsgSOSingleObject : ITypedProtobuf<CMsgSOSingleObject>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOSingleObject : ITypedProtobuf<CMsgSOSingleObject>, INativ
 byte[] ObjectData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] ObjectData { get; set; }
 CMsgSOIDOwner OwnerSoid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSOIDOwner](/docs/api/shared/protobufdefinitions/cmsgsoidowner)
 
@@ -36,7 +36,7 @@ CMsgSOIDOwner OwnerSoid { get; }
 int TypeId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int TypeId { get; set; }
 ulong Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

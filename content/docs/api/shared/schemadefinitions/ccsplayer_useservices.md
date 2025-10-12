@@ -6,7 +6,7 @@ title: CCSPlayer_UseServices
 public interface CCSPlayer_UseServices : CPlayer_UseServices, CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_UseServices>, ISchemaClass<CCSPlayer_UseServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayer_UseServices : CPlayer_UseServices, CPlayerPawnCompone
 ref CHandle<CBaseEntity> LastKnownUseEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> LastKnownUseEntity { get; }
 GameTime_t LastUseTimeStamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -36,7 +36,7 @@ GameTime_t LastUseTimeStamp { get; }
 GameTime_t TimeLastUsedWindow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 

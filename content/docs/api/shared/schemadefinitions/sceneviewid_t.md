@@ -6,7 +6,7 @@ title: SceneViewId_t
 public interface SceneViewId_t : ISchemaClass<SceneViewId_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SceneViewId_t : ISchemaClass<SceneViewId_t>, ISchemaField, ISch
 ref ulong FrameCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ref ulong FrameCount { get; }
 ref ulong ViewId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

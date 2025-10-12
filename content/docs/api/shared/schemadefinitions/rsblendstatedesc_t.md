@@ -6,7 +6,7 @@ title: RsBlendStateDesc_t
 public interface RsBlendStateDesc_t : ISchemaClass<RsBlendStateDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RsBlendStateDesc_t : ISchemaClass<RsBlendStateDesc_t>, ISchemaF
 SchemaUntypedField AlphaToCoverageEnable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField AlphaToCoverageEnable { get; }
 ref byte BlendEnableBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -36,7 +36,7 @@ ref byte BlendEnableBits { get; }
 ref uint BlendOpAlphaBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint BlendOpAlphaBits { get; }
 SchemaUntypedField BlendOpBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField BlendOpBits { get; }
 ref uint DestBlendAlphaBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ ref uint DestBlendAlphaBits { get; }
 ref uint DestBlendBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ ref uint DestBlendBits { get; }
 SchemaUntypedField IndependentBlendEnable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -86,7 +86,7 @@ SchemaUntypedField IndependentBlendEnable { get; }
 ref uint RenderTargetWriteMaskBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ ref uint RenderTargetWriteMaskBits { get; }
 ref uint SrcBlendAlphaBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ ref uint SrcBlendAlphaBits { get; }
 ref uint SrcBlendBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -116,7 +116,7 @@ ref uint SrcBlendBits { get; }
 ref byte SrgbWriteEnableBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

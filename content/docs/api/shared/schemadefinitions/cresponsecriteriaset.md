@@ -6,7 +6,7 @@ title: CResponseCriteriaSet
 public interface CResponseCriteriaSet : ISchemaClass<CResponseCriteriaSet>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CResponseCriteriaSet : ISchemaClass<CResponseCriteriaSet>, ISch
 ref int NumPrefixedContexts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int NumPrefixedContexts { get; }
 ref bool OverrideOnAppend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

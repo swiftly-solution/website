@@ -6,7 +6,7 @@ title: CSVCMsg_Print
 public interface CSVCMsg_Print : ITypedProtobuf<CSVCMsg_Print>, INativeHandle, INetMessage<CSVCMsg_Print>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_Print : ITypedProtobuf<CSVCMsg_Print>, INativeHandle, I
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

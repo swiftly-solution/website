@@ -6,7 +6,7 @@ title: EventGameMessage
 public interface EventGameMessage : IGameEvent<EventGameMessage>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventGameMessage : IGameEvent<EventGameMessage>
 byte Target { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -26,7 +26,7 @@ byte Target { get; set; }
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

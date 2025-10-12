@@ -14,7 +14,7 @@ public interface ILocalizer
 string this[string key] { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -24,7 +24,7 @@ string this[string key] { get; }
 string this[string key, params object[] args] { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

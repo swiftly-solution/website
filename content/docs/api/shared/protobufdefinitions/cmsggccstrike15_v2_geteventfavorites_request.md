@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GetEventFavorites_Request
 public interface CMsgGCCStrike15_v2_GetEventFavorites_Request : ITypedProtobuf<CMsgGCCStrike15_v2_GetEventFavorites_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GetEventFavorites_Request : ITypedProtobuf<C
 bool AllEvents { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

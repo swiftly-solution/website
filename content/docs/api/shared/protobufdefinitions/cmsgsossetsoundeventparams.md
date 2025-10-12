@@ -6,7 +6,7 @@ title: CMsgSosSetSoundEventParams
 public interface CMsgSosSetSoundEventParams : ITypedProtobuf<CMsgSosSetSoundEventParams>, INativeHandle, INetMessage<CMsgSosSetSoundEventParams>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSosSetSoundEventParams : ITypedProtobuf<CMsgSosSetSoundEven
 byte[] PackedParams { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] PackedParams { get; set; }
 int SoundeventGuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetVData
 public interface CUserMsg_ParticleManager_SetVData : ITypedProtobuf<CUserMsg_ParticleManager_SetVData>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetVData : ITypedProtobuf<CUserMsg_Par
 string VdataName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

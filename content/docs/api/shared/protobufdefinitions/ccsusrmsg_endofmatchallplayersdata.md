@@ -6,7 +6,7 @@ title: CCSUsrMsg_EndOfMatchAllPlayersData
 public interface CCSUsrMsg_EndOfMatchAllPlayersData : ITypedProtobuf<CCSUsrMsg_EndOfMatchAllPlayersData>, INativeHandle, INetMessage<CCSUsrMsg_EndOfMatchAllPlayersData>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_EndOfMatchAllPlayersData : ITypedProtobuf<CCSUsrMsg_E
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData> Allplayerdata { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_EndOfMatchAllPlayersData_PlayerData](/docs/api/shared/protobufdefinitions/ccsusrmsg_endofmatchallplayersdata_playerdata)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_EndOfMatchAllPlayersData_PlayerDa
 int Scene { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

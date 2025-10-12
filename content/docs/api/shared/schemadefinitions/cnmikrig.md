@@ -6,7 +6,7 @@ title: CNmIKRig
 public interface CNmIKRig : ISchemaClass<CNmIKRig>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmIKRig : ISchemaClass<CNmIKRig>, ISchemaField, ISchemaClass, 
 ref CUtlVector Bodies { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Bodies { get; }
 ref CUtlVector Joints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector Joints { get; }
 ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCNmSkeleton](/docs/api/shared/schemadefinitions/infoforresourcetypecnmskeleton)>
 

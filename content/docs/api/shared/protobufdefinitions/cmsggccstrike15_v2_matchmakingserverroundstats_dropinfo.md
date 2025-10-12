@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo
 public interface CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingServerRoundStats_DropInfo : IType
 uint AccountMvp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

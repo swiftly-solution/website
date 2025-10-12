@@ -6,7 +6,7 @@ title: CClientMsg_ListenForResponseFound
 public interface CClientMsg_ListenForResponseFound : ITypedProtobuf<CClientMsg_ListenForResponseFound>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CClientMsg_ListenForResponseFound : ITypedProtobuf<CClientMsg_L
 int PlayerSlot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

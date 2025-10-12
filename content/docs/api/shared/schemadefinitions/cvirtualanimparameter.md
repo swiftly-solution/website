@@ -6,7 +6,7 @@ title: CVirtualAnimParameter
 public interface CVirtualAnimParameter : CAnimParameterBase, ISchemaClass<CAnimParameterBase>, ISchemaClass<CVirtualAnimParameter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVirtualAnimParameter : CAnimParameterBase, ISchemaClass<CAnimP
 string ExpressionString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string ExpressionString { get; set; }
 ref AnimParamType_t ParamType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimParamType_t](/docs/api/shared/schemadefinitions/animparamtype_t)
 

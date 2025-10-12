@@ -6,7 +6,7 @@ title: C_OP_RenderLights
 public interface C_OP_RenderLights : C_OP_RenderPoints, CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderPoints>, ISchemaClass<C_OP_RenderLights>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderLights : C_OP_RenderPoints, CParticleFunctionRendere
 ref bool AnimateInFPS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AnimateInFPS { get; }
 ref float AnimationRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AnimationRate { get; }
 ref AnimationType_t AnimationType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimationType_t](/docs/api/shared/schemadefinitions/animationtype_t)
 
@@ -46,7 +46,7 @@ ref AnimationType_t AnimationType { get; }
 ref float EndFadeSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float EndFadeSize { get; }
 ref float MaxSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MaxSize { get; }
 ref float MinSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float MinSize { get; }
 ref float StartFadeSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CCSUsrMsg_ScoreLeaderboardData
 public interface CCSUsrMsg_ScoreLeaderboardData : ITypedProtobuf<CCSUsrMsg_ScoreLeaderboardData>, INativeHandle, INetMessage<CCSUsrMsg_ScoreLeaderboardData>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ScoreLeaderboardData : ITypedProtobuf<CCSUsrMsg_Score
 ScoreLeaderboardData Data { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ScoreLeaderboardData](/docs/api/shared/protobufdefinitions/scoreleaderboarddata)
 

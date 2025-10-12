@@ -6,7 +6,7 @@ title: PredictedDamageTag_t
 public interface PredictedDamageTag_t : ISchemaClass<PredictedDamageTag_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PredictedDamageTag_t : ISchemaClass<PredictedDamageTag_t>, ISch
 ref float FlinchModLarge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float FlinchModLarge { get; }
 ref float FlinchModSmall { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float FlinchModSmall { get; }
 ref float FriendlyFireDamageReductionRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float FriendlyFireDamageReductionRatio { get; }
 GameTick_t TagTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 

@@ -6,7 +6,7 @@ title: AggregateMeshInfo_t
 public interface AggregateMeshInfo_t : ISchemaClass<AggregateMeshInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AggregateMeshInfo_t : ISchemaClass<AggregateMeshInfo_t>, ISchem
 ref short DrawCallIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short DrawCallIndex { get; }
 ref bool HasTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool HasTransform { get; }
 ref uint InstanceStreamOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint InstanceStreamOffset { get; }
 ref AggregateInstanceStream_t InstanceStreams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AggregateInstanceStream_t](/docs/api/shared/schemadefinitions/aggregateinstancestream_t)
 
@@ -56,7 +56,7 @@ ref AggregateInstanceStream_t InstanceStreams { get; }
 ref byte LODGroupMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -66,7 +66,7 @@ ref byte LODGroupMask { get; }
 ref short LODSetupIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -76,7 +76,7 @@ ref short LODSetupIndex { get; }
 ref int LightProbeVolumePrecomputedHandshake { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int LightProbeVolumePrecomputedHandshake { get; }
 ref ObjectTypeFlags_t ObjectFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ObjectTypeFlags_t](/docs/api/shared/schemadefinitions/objecttypeflags_t)
 
@@ -96,7 +96,7 @@ ref ObjectTypeFlags_t ObjectFlags { get; }
 ref Color TintColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -106,7 +106,7 @@ ref Color TintColor { get; }
 ref uint VertexAlbedoStreamOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -116,7 +116,7 @@ ref uint VertexAlbedoStreamOffset { get; }
 ref byte VisClusterMemberCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -126,7 +126,7 @@ ref byte VisClusterMemberCount { get; }
 ref uint VisClusterMemberOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CPredictionEvent_StringCommand
 public interface CPredictionEvent_StringCommand : ITypedProtobuf<CPredictionEvent_StringCommand>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPredictionEvent_StringCommand : ITypedProtobuf<CPredictionEven
 string Command { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

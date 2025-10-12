@@ -14,7 +14,7 @@ public interface IPlayerManagerService
 int PlayerCap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -24,7 +24,7 @@ int PlayerCap { get; }
 int PlayerCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -42,7 +42,7 @@ void ClearAllBlockedTransmitEntities()
 IEnumerable<IPlayer> GetAllPlayers()
 ```
 
-#### Returns
+- Returns
 
 - [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)<[IPlayer](/docs/api/shared/players/iplayer)> - An enumerable collection of <xref href="SwiftlyS2.Shared.Players.IPlayer" data-throw-if-not-resolved="false"></xref> instances representing all online players.
 
@@ -52,11 +52,11 @@ IEnumerable<IPlayer> GetAllPlayers()
 IPlayer GetPlayer(int playerid)
 ```
 
-#### Parameters
+- Parameters
 
 - **playerid**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The unique identifier of the player to retrieve. Must be a valid player ID.
 
-#### Returns
+- Returns
 
 - [IPlayer](/docs/api/shared/players/iplayer) - An <xref href="SwiftlyS2.Shared.Players.IPlayer" data-throw-if-not-resolved="false"></xref> instance representing the player with the specified ID, or <code>null</code> if no such
     player exists.
@@ -67,11 +67,11 @@ IPlayer GetPlayer(int playerid)
 bool IsPlayerOnline(int playerid)
 ```
 
-#### Parameters
+- Parameters
 
 - **playerid**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the player is online, false otherwise.
 
@@ -81,7 +81,7 @@ bool IsPlayerOnline(int playerid)
 void SendMessage(MessageType kind, string message)
 ```
 
-#### Parameters
+- Parameters
 
 - **kind**: [MessageType](/docs/api/shared/players/messagetype) - The type of message display.
 - **message**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The text content to send to players.
@@ -92,7 +92,7 @@ void SendMessage(MessageType kind, string message)
 void ShouldBlockTransmitEntity(int entityid, bool shouldBlockTransmit)
 ```
 
-#### Parameters
+- Parameters
 
 - **entityid**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **shouldBlockTransmit**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)

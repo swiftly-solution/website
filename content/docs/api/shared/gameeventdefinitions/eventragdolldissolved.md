@@ -6,7 +6,7 @@ title: EventRagdollDissolved
 public interface EventRagdollDissolved : IGameEvent<EventRagdollDissolved>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventRagdollDissolved : IGameEvent<EventRagdollDissolved>
 int EntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

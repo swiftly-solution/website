@@ -6,7 +6,7 @@ title: CSVCMsg_CmdKeyValues
 public interface CSVCMsg_CmdKeyValues : ITypedProtobuf<CSVCMsg_CmdKeyValues>, INativeHandle, INetMessage<CSVCMsg_CmdKeyValues>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_CmdKeyValues : ITypedProtobuf<CSVCMsg_CmdKeyValues>, IN
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

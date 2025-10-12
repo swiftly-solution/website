@@ -6,7 +6,7 @@ title: CBaseFlex
 public interface CBaseFlex : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseFlex : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEnt
 GameTime_t AllowResponsesEndTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -26,7 +26,7 @@ GameTime_t AllowResponsesEndTime { get; }
 ref bool Blinktoggle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Blinktoggle { get; }
 ref CUtlVector<float> FlexWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<float> FlexWeight { get; }
 GameTime_t LastFlexAnimationTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -56,7 +56,7 @@ GameTime_t LastFlexAnimationTime { get; }
 ref Vector LookTargetPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector LookTargetPosition { get; }
 SceneEventId_t NextSceneEventId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SceneEventId_t](/docs/api/shared/schemadefinitions/sceneeventid_t)
 
@@ -76,7 +76,7 @@ SceneEventId_t NextSceneEventId { get; }
 ref bool UpdateLayerPriorities { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

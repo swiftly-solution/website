@@ -6,7 +6,7 @@ title: CMsgTEFizz
 public interface CMsgTEFizz : ITypedProtobuf<CMsgTEFizz>, INativeHandle, INetMessage<CMsgTEFizz>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEFizz : ITypedProtobuf<CMsgTEFizz>, INativeHandle, INetMes
 int Current { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Current { get; set; }
 uint Density { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Density { get; set; }
 int Entity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

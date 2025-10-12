@@ -6,7 +6,7 @@ title: LookAtOpFixedSettings_t
 public interface LookAtOpFixedSettings_t : ISchemaClass<LookAtOpFixedSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface LookAtOpFixedSettings_t : ISchemaClass<LookAtOpFixedSettings_t>
 CAnimAttachment Attachment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimAttachment](/docs/api/shared/schemadefinitions/canimattachment)
 
@@ -26,7 +26,7 @@ CAnimAttachment Attachment { get; }
 ref CUtlVector Bones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector Bones { get; }
 CAnimInputDamping Damping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -46,7 +46,7 @@ CAnimInputDamping Damping { get; }
 ref float HysteresisInnerAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float HysteresisInnerAngle { get; }
 ref float HysteresisOuterAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float HysteresisOuterAngle { get; }
 ref bool MaintainUpDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool MaintainUpDirection { get; }
 ref float PitchLimit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float PitchLimit { get; }
 ref bool RotateYawForward { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool RotateYawForward { get; }
 ref bool TargetIsPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool TargetIsPosition { get; }
 ref bool UseHysteresis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool UseHysteresis { get; }
 ref float YawLimit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

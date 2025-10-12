@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Account_RequestCoPlays_Player
 public interface CMsgGCCStrike15_v2_Account_RequestCoPlays_Player : ITypedProtobuf<CMsgGCCStrike15_v2_Account_RequestCoPlays_Player>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Account_RequestCoPlays_Player : ITypedProtob
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 bool Online { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool Online { get; set; }
 uint Rtcoplay { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

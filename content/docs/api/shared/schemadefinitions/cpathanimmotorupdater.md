@@ -6,5 +6,5 @@ title: CPathAnimMotorUpdater
 public interface CPathAnimMotorUpdater : CPathAnimMotorUpdaterBase, CAnimMotorUpdaterBase, ISchemaClass<CAnimMotorUpdaterBase>, ISchemaClass<CPathAnimMotorUpdaterBase>, ISchemaClass<CPathAnimMotorUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

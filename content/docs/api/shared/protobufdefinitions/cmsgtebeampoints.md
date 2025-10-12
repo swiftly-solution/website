@@ -6,7 +6,7 @@ title: CMsgTEBeamPoints
 public interface CMsgTEBeamPoints : ITypedProtobuf<CMsgTEBeamPoints>, INativeHandle, INetMessage<CMsgTEBeamPoints>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEBeamPoints : ITypedProtobuf<CMsgTEBeamPoints>, INativeHan
 CMsgTEBaseBeam Base { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgTEBaseBeam](/docs/api/shared/protobufdefinitions/cmsgtebasebeam)
 
@@ -26,7 +26,7 @@ CMsgTEBaseBeam Base { get; }
 Vector End { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector End { get; set; }
 Vector Start { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

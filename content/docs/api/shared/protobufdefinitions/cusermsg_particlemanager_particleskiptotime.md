@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_ParticleSkipToTime
 public interface CUserMsg_ParticleManager_ParticleSkipToTime : ITypedProtobuf<CUserMsg_ParticleManager_ParticleSkipToTime>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_ParticleSkipToTime : ITypedProtobuf<CU
 float SkipToTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

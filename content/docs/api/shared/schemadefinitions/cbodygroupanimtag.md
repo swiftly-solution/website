@@ -6,7 +6,7 @@ title: CBodyGroupAnimTag
 public interface CBodyGroupAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CBodyGroupAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBodyGroupAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, I
 ref CUtlVector BodyGroupSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector BodyGroupSettings { get; }
 ref int Priority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

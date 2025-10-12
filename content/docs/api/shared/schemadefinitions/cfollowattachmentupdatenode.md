@@ -6,7 +6,7 @@ title: CFollowAttachmentUpdateNode
 public interface CFollowAttachmentUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CFollowAttachmentUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFollowAttachmentUpdateNode : CUnaryUpdateNode, CAnimUpdateNode
 FollowAttachmentSettings_t OpFixedData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FollowAttachmentSettings_t](/docs/api/shared/schemadefinitions/followattachmentsettings_t)
 

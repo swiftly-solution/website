@@ -6,7 +6,7 @@ title: AABB_t
 public interface AABB_t : ISchemaClass<AABB_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AABB_t : ISchemaClass<AABB_t>, ISchemaField, ISchemaClass, INat
 ref Vector MaxBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector MaxBounds { get; }
 ref Vector MinBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

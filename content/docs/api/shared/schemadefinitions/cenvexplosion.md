@@ -6,7 +6,7 @@ title: CEnvExplosion
 public interface CEnvExplosion : CModelPointEntity, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CModelPointEntity>, ISchemaClass<CEnvExplosion>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEnvExplosion : CModelPointEntity, CBaseModelEntity, CBaseEntit
 ref Class_T ClassIgnore { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Class_T](/docs/api/shared/schemadefinitions/class_t)
 
@@ -26,7 +26,7 @@ ref Class_T ClassIgnore { get; }
 ref Class_T ClassIgnore2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Class_T](/docs/api/shared/schemadefinitions/class_t)
 
@@ -36,7 +36,7 @@ ref Class_T ClassIgnore2 { get; }
 ref bool CreateDebris { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool CreateDebris { get; }
 ref DamageTypes_t CustomDamageType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DamageTypes_t](/docs/api/shared/schemadefinitions/damagetypes_t)
 
@@ -56,7 +56,7 @@ ref DamageTypes_t CustomDamageType { get; }
 string CustomEffectName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string CustomEffectName { get; set; }
 string CustomSoundName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string CustomSoundName { get; set; }
 ref float DamageForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float DamageForce { get; }
 ref CHandle<CBaseEntity> EntityIgnore { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -96,7 +96,7 @@ ref CHandle<CBaseEntity> EntityIgnore { get; }
 string EntityIgnoreName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string EntityIgnoreName { get; set; }
 ref CHandle<CBaseEntity> Inflictor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -116,7 +116,7 @@ ref CHandle<CBaseEntity> Inflictor { get; }
 ref float InnerRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float InnerRadius { get; }
 ref int Magnitude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int Magnitude { get; }
 ref float PlayerDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float PlayerDamage { get; }
 ref int RadiusOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int RadiusOverride { get; }
 ref bool SuppressParticleImpulse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

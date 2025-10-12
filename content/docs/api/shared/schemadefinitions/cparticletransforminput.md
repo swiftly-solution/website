@@ -6,7 +6,7 @@ title: CParticleTransformInput
 public interface CParticleTransformInput : CParticleInput, ISchemaClass<CParticleInput>, ISchemaClass<CParticleTransformInput>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleTransformInput : CParticleInput, ISchemaClass<CParticl
 ref int ControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ControlPoint { get; }
 ref int ControlPointRangeMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int ControlPointRangeMax { get; }
 ref float EndCPGrowthTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float EndCPGrowthTime { get; }
 ref bool FollowNamedValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool FollowNamedValue { get; }
 SchemaUntypedField NamedValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -66,7 +66,7 @@ SchemaUntypedField NamedValue { get; }
 ref bool SupportsDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool SupportsDisabled { get; }
 ref ParticleTransformType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleTransformType_t](/docs/api/shared/schemadefinitions/particletransformtype_t)
 
@@ -86,7 +86,7 @@ ref ParticleTransformType_t Type { get; }
 ref bool UseOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

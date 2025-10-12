@@ -6,7 +6,7 @@ title: FloatInputMaterialVariable_t
 public interface FloatInputMaterialVariable_t : ISchemaClass<FloatInputMaterialVariable_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FloatInputMaterialVariable_t : ISchemaClass<FloatInputMaterialV
 CParticleCollectionFloatInput Input { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionFloatInput Input { get; }
 string StrVariable { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

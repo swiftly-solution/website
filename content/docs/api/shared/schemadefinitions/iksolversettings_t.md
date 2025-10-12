@@ -6,7 +6,7 @@ title: IKSolverSettings_t
 public interface IKSolverSettings_t : ISchemaClass<IKSolverSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface IKSolverSettings_t : ISchemaClass<IKSolverSettings_t>, ISchemaF
 ref EIKEndEffectorRotationFixUpMode EndEffectorRotationFixUpMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EIKEndEffectorRotationFixUpMode](/docs/api/shared/schemadefinitions/eikendeffectorrotationfixupmode)
 
@@ -26,7 +26,7 @@ ref EIKEndEffectorRotationFixUpMode EndEffectorRotationFixUpMode { get; }
 ref int NumIterations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int NumIterations { get; }
 ref IKSolverType SolverType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IKSolverType](/docs/api/shared/schemadefinitions/iksolvertype)
 

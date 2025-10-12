@@ -6,7 +6,7 @@ title: CNetworkedQuantizedFloat
 public struct CNetworkedQuantizedFloat
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct CNetworkedQuantizedFloat
 public ushort Encoder
 ```
 
-#### Field Value
+- Field Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ public ushort Encoder
 public bool Unflattened
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ public bool Unflattened
 public float Value
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

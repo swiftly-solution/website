@@ -6,7 +6,7 @@ title: CAnimGraphNetworkedVariables
 public interface CAnimGraphNetworkedVariables : ISchemaClass<CAnimGraphNetworkedVariables>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimGraphNetworkedVariables : ISchemaClass<CAnimGraphNetworked
 ref int BoolVariablesCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int BoolVariablesCount { get; }
 ref float LastTeleportTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float LastTeleportTime { get; }
 ref int OwnerOnlyBoolVariablesCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int OwnerOnlyBoolVariablesCount { get; }
 ref CUtlVector<uint> OwnerOnlyPredNetBoolVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<uint> OwnerOnlyPredNetBoolVariables { get; }
 ref CUtlVector<byte> OwnerOnlyPredNetByteVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<byte> OwnerOnlyPredNetByteVariables { get; }
 ref CUtlVector<float> OwnerOnlyPredNetFloatVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -76,7 +76,7 @@ ref CUtlVector<float> OwnerOnlyPredNetFloatVariables { get; }
 ref CUtlVector<CGlobalSymbol> OwnerOnlyPredNetGlobalSymbolVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
 
@@ -86,7 +86,7 @@ ref CUtlVector<CGlobalSymbol> OwnerOnlyPredNetGlobalSymbolVariables { get; }
 ref CUtlVector<int> OwnerOnlyPredNetIntVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<int> OwnerOnlyPredNetIntVariables { get; }
 ref CUtlVector<Quaternion> OwnerOnlyPredNetQuaternionVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Quaternion](/docs/api/shared/natives/quaternion)>
 
@@ -106,7 +106,7 @@ ref CUtlVector<Quaternion> OwnerOnlyPredNetQuaternionVariables { get; }
 ref CUtlVector<ushort> OwnerOnlyPredNetUInt16Variables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -116,7 +116,7 @@ ref CUtlVector<ushort> OwnerOnlyPredNetUInt16Variables { get; }
 ref CUtlVector<uint> OwnerOnlyPredNetUInt32Variables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -126,7 +126,7 @@ ref CUtlVector<uint> OwnerOnlyPredNetUInt32Variables { get; }
 ref CUtlVector<ulong> OwnerOnlyPredNetUInt64Variables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -136,7 +136,7 @@ ref CUtlVector<ulong> OwnerOnlyPredNetUInt64Variables { get; }
 ref CUtlVector<Vector> OwnerOnlyPredNetVectorVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -146,7 +146,7 @@ ref CUtlVector<Vector> OwnerOnlyPredNetVectorVariables { get; }
 ref CUtlVector<uint> PredNetBoolVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -156,7 +156,7 @@ ref CUtlVector<uint> PredNetBoolVariables { get; }
 ref CUtlVector<byte> PredNetByteVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -166,7 +166,7 @@ ref CUtlVector<byte> PredNetByteVariables { get; }
 ref CUtlVector<float> PredNetFloatVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -176,7 +176,7 @@ ref CUtlVector<float> PredNetFloatVariables { get; }
 ref CUtlVector<CGlobalSymbol> PredNetGlobalSymbolVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
 
@@ -186,7 +186,7 @@ ref CUtlVector<CGlobalSymbol> PredNetGlobalSymbolVariables { get; }
 ref CUtlVector<int> PredNetIntVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -196,7 +196,7 @@ ref CUtlVector<int> PredNetIntVariables { get; }
 ref CUtlVector<Quaternion> PredNetQuaternionVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Quaternion](/docs/api/shared/natives/quaternion)>
 
@@ -206,7 +206,7 @@ ref CUtlVector<Quaternion> PredNetQuaternionVariables { get; }
 ref CUtlVector<ushort> PredNetUInt16Variables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -216,7 +216,7 @@ ref CUtlVector<ushort> PredNetUInt16Variables { get; }
 ref CUtlVector<uint> PredNetUInt32Variables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -226,7 +226,7 @@ ref CUtlVector<uint> PredNetUInt32Variables { get; }
 ref CUtlVector<ulong> PredNetUInt64Variables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -236,7 +236,7 @@ ref CUtlVector<ulong> PredNetUInt64Variables { get; }
 ref CUtlVector<Vector> PredNetVectorVariables { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -246,7 +246,7 @@ ref CUtlVector<Vector> PredNetVectorVariables { get; }
 ref int RandomSeedOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CEnumAnimParameter
 public interface CEnumAnimParameter : CConcreteAnimParameter, CAnimParameterBase, ISchemaClass<CAnimParameterBase>, ISchemaClass<CConcreteAnimParameter>, ISchemaClass<CEnumAnimParameter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEnumAnimParameter : CConcreteAnimParameter, CAnimParameterBase
 ref byte DefaultValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -26,7 +26,7 @@ ref byte DefaultValue { get; }
 ref CUtlVector<CUtlString> EnumOptions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlString> EnumOptions { get; }
 ref CUtlVector<ulong> EnumReferenced { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 

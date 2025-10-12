@@ -6,7 +6,7 @@ title: CPulse_Constant
 public interface CPulse_Constant : ISchemaClass<CPulse_Constant>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulse_Constant : ISchemaClass<CPulse_Constant>, ISchemaField, 
 SchemaUntypedField Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Type { get; }
 SchemaUntypedField Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

@@ -6,7 +6,7 @@ title: CUserMessageRequestDllStatus
 public interface CUserMessageRequestDllStatus : ITypedProtobuf<CUserMessageRequestDllStatus>, INativeHandle, INetMessage<CUserMessageRequestDllStatus>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageRequestDllStatus : ITypedProtobuf<CUserMessageReque
 string DllAction { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string DllAction { get; set; }
 bool FullReport { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

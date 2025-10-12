@@ -6,7 +6,7 @@ title: CMsgSOCacheSubscribed_SubscribedType
 public interface CMsgSOCacheSubscribed_SubscribedType : ITypedProtobuf<CMsgSOCacheSubscribed_SubscribedType>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOCacheSubscribed_SubscribedType : ITypedProtobuf<CMsgSOCac
 IProtobufRepeatedFieldValueType<byte[]> ObjectData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<byte[]> ObjectData { get; }
 int TypeId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

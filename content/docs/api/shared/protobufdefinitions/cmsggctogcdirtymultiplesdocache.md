@@ -6,7 +6,7 @@ title: CMsgGCToGCDirtyMultipleSDOCache
 public interface CMsgGCToGCDirtyMultipleSDOCache : ITypedProtobuf<CMsgGCToGCDirtyMultipleSDOCache>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCToGCDirtyMultipleSDOCache : ITypedProtobuf<CMsgGCToGCDirt
 IProtobufRepeatedFieldValueType<ulong> KeyUint64 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<ulong> KeyUint64 { get; }
 uint SdoType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

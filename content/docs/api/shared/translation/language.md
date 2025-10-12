@@ -6,11 +6,11 @@ title: Language
 public sealed class Language : IEquatable<Language>
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Implements
+- Implements
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -20,7 +20,7 @@ public sealed class Language : IEquatable<Language>
 public Language(string value)
 ```
 
-#### Parameters
+- Parameters
 
 - **value**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -32,7 +32,7 @@ public Language(string value)
 public static Language Arabic
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -42,7 +42,7 @@ public static Language Arabic
 public static Language Brazilian
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -52,7 +52,7 @@ public static Language Brazilian
 public static Language Bulgarian
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -62,7 +62,7 @@ public static Language Bulgarian
 public static Language ChineseCN
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -72,7 +72,7 @@ public static Language ChineseCN
 public static Language ChineseTW
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -82,7 +82,7 @@ public static Language ChineseTW
 public static Language Czech
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -92,7 +92,7 @@ public static Language Czech
 public static Language Danish
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -102,7 +102,7 @@ public static Language Danish
 public static Language Dutch
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -112,7 +112,7 @@ public static Language Dutch
 public static Language English
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -122,7 +122,7 @@ public static Language English
 public static Language Finnish
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -132,7 +132,7 @@ public static Language Finnish
 public static Language French
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -142,7 +142,7 @@ public static Language French
 public static Language German
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -152,7 +152,7 @@ public static Language German
 public static Language Greek
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -162,7 +162,7 @@ public static Language Greek
 public static Language Hungarian
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -172,7 +172,7 @@ public static Language Hungarian
 public static Language Indonesian
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -182,7 +182,7 @@ public static Language Indonesian
 public static Language Italian
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -192,7 +192,7 @@ public static Language Italian
 public static Language Japanese
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -202,7 +202,7 @@ public static Language Japanese
 public static Language Korean
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -212,7 +212,7 @@ public static Language Korean
 public static Language LatinAmerica
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -222,7 +222,7 @@ public static Language LatinAmerica
 public static Language Norwegian
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -232,7 +232,7 @@ public static Language Norwegian
 public static Language Polish
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -242,7 +242,7 @@ public static Language Polish
 public static Language Portuguese
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -252,7 +252,7 @@ public static Language Portuguese
 public static Language Romanian
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -262,7 +262,7 @@ public static Language Romanian
 public static Language Russian
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -272,7 +272,7 @@ public static Language Russian
 public static Language Spanish
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -282,7 +282,7 @@ public static Language Spanish
 public static Language Swedish
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -292,7 +292,7 @@ public static Language Swedish
 public static Language Thai
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -302,7 +302,7 @@ public static Language Thai
 public static Language Turkish
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -312,7 +312,7 @@ public static Language Turkish
 public static Language Ukrainian
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -322,7 +322,7 @@ public static Language Ukrainian
 public static Language Vietnamese
 ```
 
-#### Field Value
+- Field Value
 
 - [Language](/docs/api/shared/translation/language)
 
@@ -334,7 +334,7 @@ public static Language Vietnamese
 public string Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -346,11 +346,11 @@ public string Value { get; }
 public bool Equals(Language? other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Language](/docs/api/shared/translation/language)? - An object to compare with this object.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the current object is equal to the <code class="paramref">other</code> parameter; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
@@ -360,11 +360,11 @@ public bool Equals(Language? other)
 public override bool Equals(object? obj)
 ```
 
-#### Parameters
+- Parameters
 
 - **obj**: [object](https://learn.microsoft.com/dotnet/api/system.object)? - The object to compare with the current object.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the specified object  is equal to the current object; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
@@ -374,7 +374,7 @@ public override bool Equals(object? obj)
 public override int GetHashCode()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A hash code for the current object.
 
@@ -384,7 +384,7 @@ public override int GetHashCode()
 public override string ToString()
 ```
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - A string that represents the current object.
 
@@ -396,11 +396,11 @@ public override string ToString()
 public static implicit operator string(Language language)
 ```
 
-#### Parameters
+- Parameters
 
 - **language**: [Language](/docs/api/shared/translation/language)
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

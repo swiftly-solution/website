@@ -6,7 +6,7 @@ title: CStateNodeStateData
 public interface CStateNodeStateData : ISchemaClass<CStateNodeStateData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CStateNodeStateData : ISchemaClass<CStateNodeStateData>, ISchem
 CAnimUpdateNodeRef Child { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimUpdateNodeRef](/docs/api/shared/schemadefinitions/canimupdatenoderef)
 
@@ -26,7 +26,7 @@ CAnimUpdateNodeRef Child { get; }
 SchemaUntypedField ExclusiveRootMotion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField ExclusiveRootMotion { get; }
 SchemaUntypedField ExclusiveRootMotionFirstFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

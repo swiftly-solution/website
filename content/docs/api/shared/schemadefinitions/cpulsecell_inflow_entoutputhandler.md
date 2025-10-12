@@ -6,7 +6,7 @@ title: CPulseCell_Inflow_EntOutputHandler
 public interface CPulseCell_Inflow_EntOutputHandler : CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_Inflow_BaseEntrypoint>, ISchemaClass<CPulseCell_Inflow_EntOutputHandler>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Inflow_EntOutputHandler : CPulseCell_Inflow_BaseEntr
 SchemaUntypedField ExpectedParamType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField ExpectedParamType { get; }
 SchemaUntypedField SourceEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField SourceEntity { get; }
 SchemaUntypedField SourceOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

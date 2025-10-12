@@ -6,7 +6,7 @@ title: CEntityIdentity
 public interface CEntityIdentity : ISchemaClass<CEntityIdentity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityIdentity : ISchemaClass<CEntityIdentity>, ISchemaField, 
 ref uint DataObjectTypes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint DataObjectTypes { get; }
 string DesignerName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string DesignerName { get; set; }
 CHandle<CEntityInstance> EntityHandle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
@@ -46,7 +46,7 @@ CHandle<CEntityInstance> EntityHandle { get; }
 CEntityInstance EntityInstance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
 
@@ -56,7 +56,7 @@ CEntityInstance EntityInstance { get; }
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ ref uint Flags { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string Name { get; set; }
 ref int NameStringableIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int NameStringableIndex { get; }
 CEntityIdentity? Next { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIdentity](/docs/api/shared/schemadefinitions/centityidentity)?
 
@@ -96,7 +96,7 @@ CEntityIdentity? Next { get; }
 CEntityIdentity? NextByClass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIdentity](/docs/api/shared/schemadefinitions/centityidentity)?
 
@@ -106,7 +106,7 @@ CEntityIdentity? NextByClass { get; }
 ref ChangeAccessorFieldPathIndex_t PathIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ChangeAccessorFieldPathIndex_t](/docs/api/shared/natives/changeaccessorfieldpathindex_t)
 
@@ -116,7 +116,7 @@ ref ChangeAccessorFieldPathIndex_t PathIndex { get; }
 CEntityIdentity? Prev { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIdentity](/docs/api/shared/schemadefinitions/centityidentity)?
 
@@ -126,7 +126,7 @@ CEntityIdentity? Prev { get; }
 CEntityIdentity? PrevByClass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIdentity](/docs/api/shared/schemadefinitions/centityidentity)?
 
@@ -136,7 +136,7 @@ CEntityIdentity? PrevByClass { get; }
 ref uint WorldGroupId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

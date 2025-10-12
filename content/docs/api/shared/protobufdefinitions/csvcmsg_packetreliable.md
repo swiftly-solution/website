@@ -6,7 +6,7 @@ title: CSVCMsg_PacketReliable
 public interface CSVCMsg_PacketReliable : ITypedProtobuf<CSVCMsg_PacketReliable>, INativeHandle, INetMessage<CSVCMsg_PacketReliable>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_PacketReliable : ITypedProtobuf<CSVCMsg_PacketReliable>
 int Messagessize { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Messagessize { get; set; }
 bool State { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool State { get; set; }
 int Tick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

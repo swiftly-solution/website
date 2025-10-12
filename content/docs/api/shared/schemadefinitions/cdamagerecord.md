@@ -6,7 +6,7 @@ title: CDamageRecord
 public interface CDamageRecord : ISchemaClass<CDamageRecord>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDamageRecord : ISchemaClass<CDamageRecord>, ISchemaField, ISch
 ref float ActualHealthRemoved { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float ActualHealthRemoved { get; }
 ref float BulletsDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float BulletsDamage { get; }
 ref float Damage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Damage { get; }
 ref ulong DamagerXuid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ref ulong DamagerXuid { get; }
 ref bool IsOtherEnemy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IsOtherEnemy { get; }
 ref EKillTypes_t KillType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EKillTypes_t](/docs/api/shared/schemadefinitions/ekilltypes_t)
 
@@ -76,7 +76,7 @@ ref EKillTypes_t KillType { get; }
 ref int LastBulletUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int LastBulletUpdate { get; }
 ref int NumHits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int NumHits { get; }
 ref CHandle<CCSPlayerController> PlayerControllerDamager { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)>
 
@@ -106,7 +106,7 @@ ref CHandle<CCSPlayerController> PlayerControllerDamager { get; }
 ref CHandle<CCSPlayerController> PlayerControllerRecipient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)>
 
@@ -116,7 +116,7 @@ ref CHandle<CCSPlayerController> PlayerControllerRecipient { get; }
 ref CHandle<CCSPlayerPawn> PlayerDamager { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -126,7 +126,7 @@ ref CHandle<CCSPlayerPawn> PlayerDamager { get; }
 string PlayerDamagerName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string PlayerDamagerName { get; set; }
 ref CHandle<CCSPlayerPawn> PlayerRecipient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -146,7 +146,7 @@ ref CHandle<CCSPlayerPawn> PlayerRecipient { get; }
 string PlayerRecipientName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -156,7 +156,7 @@ string PlayerRecipientName { get; set; }
 ref ulong RecipientXuid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

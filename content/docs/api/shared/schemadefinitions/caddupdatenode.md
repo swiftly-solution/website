@@ -6,7 +6,7 @@ title: CAddUpdateNode
 public interface CAddUpdateNode : CBinaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CBinaryUpdateNode>, ISchemaClass<CAddUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAddUpdateNode : CBinaryUpdateNode, CAnimUpdateNodeBase, ISchem
 ref bool ApplyChannelsSeparately { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ApplyChannelsSeparately { get; }
 ref bool ApplyScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ApplyScale { get; }
 ref bool ApplyToFootMotion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ApplyToFootMotion { get; }
 ref BinaryNodeChildOption FootMotionTiming { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BinaryNodeChildOption](/docs/api/shared/schemadefinitions/binarynodechildoption)
 
@@ -56,7 +56,7 @@ ref BinaryNodeChildOption FootMotionTiming { get; }
 ref bool UseModelSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

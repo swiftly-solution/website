@@ -6,7 +6,7 @@ title: CCLCMsg_Move
 public interface CCLCMsg_Move : ITypedProtobuf<CCLCMsg_Move>, INativeHandle, INetMessage<CCLCMsg_Move>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_Move : ITypedProtobuf<CCLCMsg_Move>, INativeHandle, INe
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] Data { get; set; }
 uint LastCommandNumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

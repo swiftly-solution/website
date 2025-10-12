@@ -6,7 +6,7 @@ title: CInfoDynamicShadowHintBox
 public interface CInfoDynamicShadowHintBox : CInfoDynamicShadowHint, CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CInfoDynamicShadowHint>, ISchemaClass<CInfoDynamicShadowHintBox>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CInfoDynamicShadowHintBox : CInfoDynamicShadowHint, CPointEntit
 ref Vector BoxMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector BoxMaxs { get; }
 ref Vector BoxMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

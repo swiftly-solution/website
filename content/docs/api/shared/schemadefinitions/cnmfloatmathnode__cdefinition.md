@@ -6,7 +6,7 @@ title: CNmFloatMathNode__CDefinition
 public interface CNmFloatMathNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmFloatMathNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFloatMathNode__CDefinition : CNmFloatValueNode__CDefinition,
 ref short InputValueNodeIdxA { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short InputValueNodeIdxA { get; }
 ref short InputValueNodeIdxB { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short InputValueNodeIdxB { get; }
 ref CNmFloatMathNode__Operator_t Operator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmFloatMathNode__Operator_t](/docs/api/shared/schemadefinitions/cnmfloatmathnode__operator_t)
 
@@ -46,7 +46,7 @@ ref CNmFloatMathNode__Operator_t Operator { get; }
 ref bool ReturnAbsoluteResult { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool ReturnAbsoluteResult { get; }
 ref bool ReturnNegatedResult { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool ReturnNegatedResult { get; }
 ref float ValueB { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

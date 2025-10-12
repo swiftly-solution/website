@@ -6,11 +6,11 @@ title: AllocableNativeHandle
 public abstract class AllocableNativeHandle : SafeHandleZeroOrMinusOneIsInvalid, IDisposable, INativeHandle
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Implements
+- Implements
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -20,7 +20,7 @@ public abstract class AllocableNativeHandle : SafeHandleZeroOrMinusOneIsInvalid,
 protected AllocableNativeHandle(nint handle, bool ownsHandle)
 ```
 
-#### Parameters
+- Parameters
 
 - **handle**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 - **ownsHandle**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
@@ -33,7 +33,7 @@ protected AllocableNativeHandle(nint handle, bool ownsHandle)
 public nint Address { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -43,7 +43,7 @@ public nint Address { get; }
 public bool IsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -55,7 +55,7 @@ public bool IsValid { get; }
 protected abstract bool Free()
 ```
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -65,7 +65,7 @@ protected abstract bool Free()
 protected override bool ReleaseHandle()
 ```
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the handle is released successfully; otherwise, in the event of a catastrophic failure, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>. In this case, it generates a releaseHandleFailed Managed Debugging Assistant.
 

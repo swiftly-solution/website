@@ -6,7 +6,7 @@ title: CNmEntityAttributeFloatEvent
 public interface CNmEntityAttributeFloatEvent : CNmEntityAttributeEventBase, CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmEntityAttributeEventBase>, ISchemaClass<CNmEntityAttributeFloatEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmEntityAttributeFloatEvent : CNmEntityAttributeEventBase, CNm
 SchemaUntypedField FloatValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

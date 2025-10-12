@@ -6,7 +6,7 @@ title: CModelConfig
 public interface CModelConfig : ISchemaClass<CModelConfig>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfig : ISchemaClass<CModelConfig>, ISchemaField, ISchem
 ref bool ActiveInEditorByDefault { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ActiveInEditorByDefault { get; }
 string ConfigName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ConfigName { get; set; }
 ref CUtlVector<PointerTo<CModelConfigElement>> Elements { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CModelConfigElement](/docs/api/shared/schemadefinitions/cmodelconfigelement)>>
 
@@ -46,7 +46,7 @@ ref CUtlVector<PointerTo<CModelConfigElement>> Elements { get; }
 ref bool TopLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

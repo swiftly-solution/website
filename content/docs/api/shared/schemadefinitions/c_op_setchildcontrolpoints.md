@@ -6,7 +6,7 @@ title: C_OP_SetChildControlPoints
 public interface C_OP_SetChildControlPoints : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_SetChildControlPoints>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_SetChildControlPoints : CParticleFunctionOperator, CPartic
 ref int ChildGroupID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ChildGroupID { get; }
 ref int FirstControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int FirstControlPoint { get; }
 CParticleCollectionFloatInput FirstSourcePoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionFloatInput FirstSourcePoint { get; }
 ref int NumControlPoints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int NumControlPoints { get; }
 ref ParticleOrientationType_t Orientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleOrientationType_t](/docs/api/shared/schemadefinitions/particleorientationtype_t)
 
@@ -66,7 +66,7 @@ ref ParticleOrientationType_t Orientation { get; }
 ref bool Reverse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool Reverse { get; }
 ref bool SetOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

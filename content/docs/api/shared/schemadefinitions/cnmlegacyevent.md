@@ -6,7 +6,7 @@ title: CNmLegacyEvent
 public interface CNmLegacyEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmLegacyEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmLegacyEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass
 string AnimEventClassName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AnimEventClassName { get; set; }
 SchemaUntypedField KV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

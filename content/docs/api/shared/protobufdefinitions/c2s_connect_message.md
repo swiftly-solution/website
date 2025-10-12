@@ -6,7 +6,7 @@ title: C2S_CONNECT_Message
 public interface C2S_CONNECT_Message : ITypedProtobuf<C2S_CONNECT_Message>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C2S_CONNECT_Message : ITypedProtobuf<C2S_CONNECT_Message>, INat
 uint AuthProtocol { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AuthProtocol { get; set; }
 byte[] AuthSteam { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -36,7 +36,7 @@ byte[] AuthSteam { get; set; }
 string ChallengeContext { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string ChallengeContext { get; set; }
 uint ChallengeNumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint ChallengeNumber { get; set; }
 byte[] EncryptedPassword { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -66,7 +66,7 @@ byte[] EncryptedPassword { get; set; }
 uint HostVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint HostVersion { get; set; }
 C2S_CONNECT_SameProcessCheck LocalhostSameProcessCheck { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [C2S_CONNECT_SameProcessCheck](/docs/api/shared/protobufdefinitions/c2s_connect_sameprocesscheck)
 
@@ -86,7 +86,7 @@ C2S_CONNECT_SameProcessCheck LocalhostSameProcessCheck { get; }
 bool LowViolence { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ bool LowViolence { get; set; }
 ulong ReservationCookie { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -106,7 +106,7 @@ ulong ReservationCookie { get; set; }
 IProtobufRepeatedFieldSubMessageType<CCLCMsg_SplitPlayerConnect> Splitplayers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCLCMsg_SplitPlayerConnect](/docs/api/shared/protobufdefinitions/cclcmsg_splitplayerconnect)>
 

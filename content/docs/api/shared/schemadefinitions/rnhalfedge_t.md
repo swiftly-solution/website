@@ -6,7 +6,7 @@ title: RnHalfEdge_t
 public interface RnHalfEdge_t : ISchemaClass<RnHalfEdge_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnHalfEdge_t : ISchemaClass<RnHalfEdge_t>, ISchemaField, ISchem
 ref byte Face { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -26,7 +26,7 @@ ref byte Face { get; }
 ref byte Next { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -36,7 +36,7 @@ ref byte Next { get; }
 ref byte Origin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -46,7 +46,7 @@ ref byte Origin { get; }
 ref byte Twin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

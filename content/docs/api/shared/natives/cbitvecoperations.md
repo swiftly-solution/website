@@ -6,9 +6,9 @@ title: CBitVecOperations
 public static class CBitVecOperations
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Methods
 
@@ -18,7 +18,7 @@ public static class CBitVecOperations
 public static void Clear(uint* buffer, uint index, uint maxBits)
 ```
 
-#### Parameters
+- Parameters
 
 - **buffer**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
@@ -30,7 +30,7 @@ public static void Clear(uint* buffer, uint index, uint maxBits)
 public static void Clear(uint* buffer, int index, uint maxBits)
 ```
 
-#### Parameters
+- Parameters
 
 - **buffer**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -42,7 +42,7 @@ public static void Clear(uint* buffer, int index, uint maxBits)
 public static void ClearAll(uint* buffer, int intCount)
 ```
 
-#### Parameters
+- Parameters
 
 - **buffer**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 - **intCount**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -53,12 +53,12 @@ public static void ClearAll(uint* buffer, int intCount)
 public static int Count(uint* buffer, int intCount)
 ```
 
-#### Parameters
+- Parameters
 
 - **buffer**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 - **intCount**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -68,12 +68,12 @@ public static int Count(uint* buffer, int intCount)
 public static bool IsAllClear(uint* buffer, int intCount)
 ```
 
-#### Parameters
+- Parameters
 
 - **buffer**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 - **intCount**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -83,13 +83,13 @@ public static bool IsAllClear(uint* buffer, int intCount)
 public static bool IsSet(uint* buffer, uint index, uint maxBits)
 ```
 
-#### Parameters
+- Parameters
 
 - **buffer**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 - **maxBits**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -99,13 +99,13 @@ public static bool IsSet(uint* buffer, uint index, uint maxBits)
 public static bool IsSet(uint* buffer, int index, uint maxBits)
 ```
 
-#### Parameters
+- Parameters
 
 - **buffer**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **maxBits**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -115,7 +115,7 @@ public static bool IsSet(uint* buffer, int index, uint maxBits)
 public static void Set(uint* buffer, uint index, uint maxBits)
 ```
 
-#### Parameters
+- Parameters
 
 - **buffer**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 - **index**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
@@ -127,7 +127,7 @@ public static void Set(uint* buffer, uint index, uint maxBits)
 public static void Set(uint* buffer, int index, uint maxBits)
 ```
 
-#### Parameters
+- Parameters
 
 - **buffer**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -139,7 +139,7 @@ public static void Set(uint* buffer, int index, uint maxBits)
 public static void SetAll(uint* buffer, int intCount)
 ```
 
-#### Parameters
+- Parameters
 
 - **buffer**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)*
 - **intCount**: [int](https://learn.microsoft.com/dotnet/api/system.int32)

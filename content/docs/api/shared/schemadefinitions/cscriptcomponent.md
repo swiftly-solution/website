@@ -6,7 +6,7 @@ title: CScriptComponent
 public interface CScriptComponent : CEntityComponent, ISchemaClass<CEntityComponent>, ISchemaClass<CScriptComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CScriptComponent : CEntityComponent, ISchemaClass<CEntityCompon
 string ScriptClassName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

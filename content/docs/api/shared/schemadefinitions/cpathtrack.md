@@ -6,7 +6,7 @@ title: CPathTrack
 public interface CPathTrack : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CPathTrack>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPathTrack : CPointEntity, CBaseEntity, CEntityInstance, ISchem
 string AltName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AltName { get; set; }
 ref int IterVal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int IterVal { get; }
 ref float Length { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Length { get; }
 CEntityIOOutput OnPass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -56,7 +56,7 @@ CEntityIOOutput OnPass { get; }
 ref TrackOrientationType_t OrientationType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TrackOrientationType_t](/docs/api/shared/schemadefinitions/trackorientationtype_t)
 
@@ -66,7 +66,7 @@ ref TrackOrientationType_t OrientationType { get; }
 CPathTrack? Paltpath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)?
 
@@ -76,7 +76,7 @@ CPathTrack? Paltpath { get; }
 CPathTrack? Pnext { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)?
 
@@ -86,7 +86,7 @@ CPathTrack? Pnext { get; }
 CPathTrack? Pprevious { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)?
 
@@ -96,7 +96,7 @@ CPathTrack? Pprevious { get; }
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

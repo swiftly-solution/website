@@ -6,7 +6,7 @@ title: audioparams_t
 public interface audioparams_t : ISchemaClass<audioparams_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface audioparams_t : ISchemaClass<audioparams_t>, ISchemaField, ISch
 ref byte LocalBits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -26,7 +26,7 @@ ref byte LocalBits { get; }
 ISchemaFixedArray<Vector> LocalSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<Vector> LocalSound { get; }
 ref uint SoundEventHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint SoundEventHash { get; }
 ref int SoundscapeEntityListIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int SoundscapeEntityListIndex { get; }
 ref int SoundscapeIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

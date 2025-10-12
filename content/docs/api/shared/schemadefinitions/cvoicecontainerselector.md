@@ -6,7 +6,7 @@ title: CVoiceContainerSelector
 public interface CVoiceContainerSelector : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerSelector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerSelector : CVoiceContainerBase, ISchemaClass<CVo
 ref PlayBackMode_t Mode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PlayBackMode_t](/docs/api/shared/schemadefinitions/playbackmode_t)
 
@@ -26,7 +26,7 @@ ref PlayBackMode_t Mode { get; }
 ref CUtlVector<float> ProbabilityWeights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<float> ProbabilityWeights { get; }
 CSoundContainerReferenceArray SoundsToPlay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSoundContainerReferenceArray](/docs/api/shared/schemadefinitions/csoundcontainerreferencearray)
 

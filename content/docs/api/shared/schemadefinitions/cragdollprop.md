@@ -6,7 +6,7 @@ title: CRagdollProp
 public interface CRagdollProp : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CRagdollProp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRagdollProp : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, C
 ref bool AllAsleep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AllAsleep { get; }
 ref bool AllowStretch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool AllowStretch { get; }
 GameTime_t AwakeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -46,7 +46,7 @@ GameTime_t AwakeTime { get; }
 ref float BlendWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float BlendWeight { get; }
 ref CHandle<CBaseEntity> DamageEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -66,7 +66,7 @@ ref CHandle<CBaseEntity> DamageEntity { get; }
 ref float DefaultFadeScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float DefaultFadeScale { get; }
 GameTime_t FadeOutStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -86,7 +86,7 @@ GameTime_t FadeOutStartTime { get; }
 ref float FadeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float FadeTime { get; }
 ref bool FirstCollisionAfterLaunch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool FirstCollisionAfterLaunch { get; }
 ref bool HasBeenPhysgunned { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool HasBeenPhysgunned { get; }
 ref CHandle<CBaseEntity> Killer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -126,7 +126,7 @@ ref CHandle<CBaseEntity> Killer { get; }
 ref Vector LastOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -136,7 +136,7 @@ ref Vector LastOrigin { get; }
 GameTime_t LastOriginChangeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -146,7 +146,7 @@ GameTime_t LastOriginChangeTime { get; }
 GameTime_t LastPhysicsInfluenceTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -156,7 +156,7 @@ GameTime_t LastPhysicsInfluenceTime { get; }
 ref uint LastUpdateTickCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -166,7 +166,7 @@ ref uint LastUpdateTickCount { get; }
 ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>
 
@@ -176,7 +176,7 @@ ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
 ref CUtlVector<QAngle> RagAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[QAngle](/docs/api/shared/natives/qangle)>
 
@@ -186,7 +186,7 @@ ref CUtlVector<QAngle> RagAngles { get; }
 ref CUtlVector<bool> RagEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 
@@ -196,7 +196,7 @@ ref CUtlVector<bool> RagEnabled { get; }
 ref CUtlVector<Vector> RagPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -206,7 +206,7 @@ ref CUtlVector<Vector> RagPos { get; }
 ragdoll_t Ragdoll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ragdoll_t](/docs/api/shared/schemadefinitions/ragdoll_t)
 
@@ -216,7 +216,7 @@ ragdoll_t Ragdoll { get; }
 ref CUtlVector<Vector> RagdollMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -226,7 +226,7 @@ ref CUtlVector<Vector> RagdollMaxs { get; }
 ref CUtlVector<Vector> RagdollMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -236,7 +236,7 @@ ref CUtlVector<Vector> RagdollMins { get; }
 ref CHandle<CBaseEntity> RagdollSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -246,7 +246,7 @@ ref CHandle<CBaseEntity> RagdollSource { get; }
 ref bool ShouldDeleteActivationRecord { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -256,7 +256,7 @@ ref bool ShouldDeleteActivationRecord { get; }
 ref bool StartDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -266,7 +266,7 @@ ref bool StartDisabled { get; }
 string StrOriginClassName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -276,7 +276,7 @@ string StrOriginClassName { get; set; }
 string StrSourceClassName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve
 public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve : ITypedProtobuf
 uint DirectUdpIp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint DirectUdpIp { get; set; }
 uint DirectUdpPort { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint DirectUdpPort { get; set; }
 uint GsLocationId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint GsLocationId { get; set; }
 DataCenterPing GsPing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DataCenterPing](/docs/api/shared/protobufdefinitions/datacenterping)
 
@@ -56,7 +56,7 @@ DataCenterPing GsPing { get; }
 string Map { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string Map { get; set; }
 CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve Reservation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2serverreserve)
 
@@ -76,7 +76,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ServerReserve Reservation { get; }
 ulong Reservationid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -86,7 +86,7 @@ ulong Reservationid { get; set; }
 string ServerAddress { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string ServerAddress { get; set; }
 ulong Serverid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

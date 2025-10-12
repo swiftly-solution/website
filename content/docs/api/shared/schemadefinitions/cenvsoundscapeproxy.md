@@ -6,7 +6,7 @@ title: CEnvSoundscapeProxy
 public interface CEnvSoundscapeProxy : CEnvSoundscape, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CEnvSoundscape>, ISchemaClass<CEnvSoundscapeProxy>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEnvSoundscapeProxy : CEnvSoundscape, CBaseEntity, CEntityInsta
 string MainSoundscapeName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

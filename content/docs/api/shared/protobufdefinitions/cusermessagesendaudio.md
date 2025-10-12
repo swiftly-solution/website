@@ -6,7 +6,7 @@ title: CUserMessageSendAudio
 public interface CUserMessageSendAudio : ITypedProtobuf<CUserMessageSendAudio>, INativeHandle, INetMessage<CUserMessageSendAudio>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageSendAudio : ITypedProtobuf<CUserMessageSendAudio>, 
 string Soundname { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Soundname { get; set; }
 bool Stop { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CCommentarySystem
 public interface CCommentarySystem : ISchemaClass<CCommentarySystem>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCommentarySystem : ISchemaClass<CCommentarySystem>, ISchemaFie
 ref CHandle<CPointCommentaryNode> ActiveCommentaryNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPointCommentaryNode](/docs/api/shared/schemadefinitions/cpointcommentarynode)>
 
@@ -26,7 +26,7 @@ ref CHandle<CPointCommentaryNode> ActiveCommentaryNode { get; }
 ref bool CheatState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool CheatState { get; }
 ref bool CommentaryConvarsChanging { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool CommentaryConvarsChanging { get; }
 ref bool CommentaryEnabledMidGame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool CommentaryEnabledMidGame { get; }
 ref CHandle<CPointCommentaryNode> CurrentNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPointCommentaryNode](/docs/api/shared/schemadefinitions/cpointcommentarynode)>
 
@@ -66,7 +66,7 @@ ref CHandle<CPointCommentaryNode> CurrentNode { get; }
 ref bool IsFirstSpawnGroupToLoad { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool IsFirstSpawnGroupToLoad { get; }
 ref CHandle<CPointCommentaryNode> LastCommentaryNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPointCommentaryNode](/docs/api/shared/schemadefinitions/cpointcommentarynode)>
 
@@ -86,7 +86,7 @@ ref CHandle<CPointCommentaryNode> LastCommentaryNode { get; }
 GameTime_t NextTeleportTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -96,7 +96,7 @@ GameTime_t NextTeleportTime { get; }
 ref CUtlVector<CHandle<CPointCommentaryNode>> Nodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CPointCommentaryNode](/docs/api/shared/schemadefinitions/cpointcommentarynode)>>
 
@@ -106,7 +106,7 @@ ref CUtlVector<CHandle<CPointCommentaryNode>> Nodes { get; }
 ref int TeleportStage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

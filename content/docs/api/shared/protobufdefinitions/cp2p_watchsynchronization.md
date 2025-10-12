@@ -6,7 +6,7 @@ title: CP2P_WatchSynchronization
 public interface CP2P_WatchSynchronization : ITypedProtobuf<CP2P_WatchSynchronization>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CP2P_WatchSynchronization : ITypedProtobuf<CP2P_WatchSynchroniz
 int DemoTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int DemoTick { get; set; }
 int DotaReplaySpeed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int DotaReplaySpeed { get; set; }
 int DotaSpectatorAutospeed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int DotaSpectatorAutospeed { get; set; }
 int DotaSpectatorHeroIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int DotaSpectatorHeroIndex { get; set; }
 int DotaSpectatorMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int DotaSpectatorMode { get; set; }
 bool DotaSpectatorWatchingBroadcaster { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ bool DotaSpectatorWatchingBroadcaster { get; set; }
 bool Paused { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ bool Paused { get; set; }
 ulong TvListenVoiceIndices { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,7 +6,7 @@ title: EntityKeyValueData_t
 public interface EntityKeyValueData_t : ISchemaClass<EntityKeyValueData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EntityKeyValueData_t : ISchemaClass<EntityKeyValueData_t>, ISch
 ref CUtlVector Connections { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Connections { get; }
 ref CUtlBinaryBlock KeyValuesData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 

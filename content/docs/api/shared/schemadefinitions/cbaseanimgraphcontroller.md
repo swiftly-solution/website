@@ -6,7 +6,7 @@ title: CBaseAnimGraphController
 public interface CBaseAnimGraphController : CSkeletonAnimationController, ISkeletonAnimationController, ISchemaClass<ISkeletonAnimationController>, ISchemaClass<CSkeletonAnimationController>, ISchemaClass<CBaseAnimGraphController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseAnimGraphController : CSkeletonAnimationController, ISkele
 ref uint ActiveIKChainMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint ActiveIKChainMask { get; }
 CAnimGraphNetworkedVariables AnimGraphNetworkedVars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimGraphNetworkedVariables](/docs/api/shared/schemadefinitions/canimgraphnetworkedvariables)
 
@@ -36,7 +36,7 @@ CAnimGraphNetworkedVariables AnimGraphNetworkedVars { get; }
 ref AnimLoopMode_t AnimLoopMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimLoopMode_t](/docs/api/shared/schemadefinitions/animloopmode_t)
 
@@ -46,7 +46,7 @@ ref AnimLoopMode_t AnimLoopMode { get; }
 ref byte GraphCreationFlagsAG2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -56,7 +56,7 @@ ref byte GraphCreationFlagsAG2 { get; }
 ref CStrongHandle<InfoForResourceTypeCNmGraphDefinition> GraphDefinitionAG2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCNmGraphDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypecnmgraphdefinition)>
 
@@ -66,7 +66,7 @@ ref CStrongHandle<InfoForResourceTypeCNmGraphDefinition> GraphDefinitionAG2 { ge
 ref bool IsUsingAG2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool IsUsingAG2 { get; }
 ref bool LastUpdateSkipped { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool LastUpdateSkipped { get; }
 ref bool NetworkedAnimationInputsChanged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool NetworkedAnimationInputsChanged { get; }
 ref bool NetworkedSequenceChanged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool NetworkedSequenceChanged { get; }
 ref SequenceFinishNotifyState_t NotifyState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SequenceFinishNotifyState_t](/docs/api/shared/schemadefinitions/sequencefinishnotifystate_t)
 
@@ -116,7 +116,7 @@ ref SequenceFinishNotifyState_t NotifyState { get; }
 ref CNetworkedQuantizedFloat PlaybackRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 
@@ -126,7 +126,7 @@ ref CNetworkedQuantizedFloat PlaybackRate { get; }
 GameTime_t PrevAnimUpdateTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -136,7 +136,7 @@ GameTime_t PrevAnimUpdateTime { get; }
 ref float SeqFixedCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float SeqFixedCycle { get; }
 GameTime_t SeqStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -156,7 +156,7 @@ GameTime_t SeqStartTime { get; }
 HSequence Sequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
@@ -166,7 +166,7 @@ HSequence Sequence { get; }
 ref bool SequenceFinished { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool SequenceFinished { get; }
 ref int SerializePoseRecipeSizeAG2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int SerializePoseRecipeSizeAG2 { get; }
 ref int SerializePoseRecipeVersionAG2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ ref int SerializePoseRecipeVersionAG2 { get; }
 ref CUtlVector<byte> SerializedPoseRecipeAG2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -206,7 +206,7 @@ ref CUtlVector<byte> SerializedPoseRecipeAG2 { get; }
 ref int ServerGraphDefReloadCountAG2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -216,7 +216,7 @@ ref int ServerGraphDefReloadCountAG2 { get; }
 ref float SoundSyncTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

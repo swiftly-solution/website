@@ -6,7 +6,7 @@ title: AnimNodeOutputID
 public interface AnimNodeOutputID : ISchemaClass<AnimNodeOutputID>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AnimNodeOutputID : ISchemaClass<AnimNodeOutputID>, ISchemaField
 ref uint Id { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

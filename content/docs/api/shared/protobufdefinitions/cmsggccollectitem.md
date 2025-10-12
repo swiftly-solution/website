@@ -6,7 +6,7 @@ title: CMsgGCCollectItem
 public interface CMsgGCCollectItem : ITypedProtobuf<CMsgGCCollectItem>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCollectItem : ITypedProtobuf<CMsgGCCollectItem>, INativeH
 ulong CollectionItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong CollectionItemId { get; set; }
 ulong SubjectItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

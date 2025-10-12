@@ -6,5 +6,5 @@ title: InfoForResourceTypeCModel
 public interface InfoForResourceTypeCModel : ISchemaClass<InfoForResourceTypeCModel>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

@@ -6,7 +6,7 @@ title: EmptyTestScript
 public interface EmptyTestScript : CAnimScriptBase, ISchemaClass<CAnimScriptBase>, ISchemaClass<EmptyTestScript>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EmptyTestScript : CAnimScriptBase, ISchemaClass<CAnimScriptBase
 SchemaUntypedField Test { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

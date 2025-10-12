@@ -6,7 +6,7 @@ title: CGCToGCMsgMasterAck_Response
 public interface CGCToGCMsgMasterAck_Response : ITypedProtobuf<CGCToGCMsgMasterAck_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGCToGCMsgMasterAck_Response : ITypedProtobuf<CGCToGCMsgMasterA
 int Eresult { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

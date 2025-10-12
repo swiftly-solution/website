@@ -6,7 +6,7 @@ title: CDemoClassInfo
 public interface CDemoClassInfo : ITypedProtobuf<CDemoClassInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoClassInfo : ITypedProtobuf<CDemoClassInfo>, INativeHandle
 IProtobufRepeatedFieldSubMessageType<CDemoClassInfo_class_t> Classes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDemoClassInfo_class_t](/docs/api/shared/protobufdefinitions/cdemoclassinfo_class_t)>
 

@@ -6,11 +6,11 @@ title: IProtobufRepeatedFieldSubMessageType<T>
 public interface IProtobufRepeatedFieldSubMessageType<T> : IRepeatedField, IEnumerable<T>, IEnumerable where T : ITypedProtobuf<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -20,7 +20,7 @@ public interface IProtobufRepeatedFieldSubMessageType<T> : IRepeatedField, IEnum
 int Count { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -32,7 +32,7 @@ int Count { get; }
 T Add()
 ```
 
-#### Returns
+- Returns
 
 - T
 
@@ -42,11 +42,11 @@ T Add()
 T Get(int index)
 ```
 
-#### Parameters
+- Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-#### Returns
+- Returns
 
 - T
 

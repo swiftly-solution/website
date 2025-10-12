@@ -6,7 +6,7 @@ title: CAnimEnum
 public interface CAnimEnum : ISchemaClass<CAnimEnum>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimEnum : ISchemaClass<CAnimEnum>, ISchemaField, ISchemaClass
 ref byte Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

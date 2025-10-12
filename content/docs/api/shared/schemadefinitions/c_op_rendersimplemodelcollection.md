@@ -6,7 +6,7 @@ title: C_OP_RenderSimpleModelCollection
 public interface C_OP_RenderSimpleModelCollection : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderSimpleModelCollection>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderSimpleModelCollection : CParticleFunctionRenderer, C
 ref bool AcceptsDecals { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AcceptsDecals { get; }
 ParticleAttributeIndex_t AngularVelocityField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t AngularVelocityField { get; }
 ref bool CenterOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool CenterOffset { get; }
 ref bool DisableMotionBlur { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool DisableMotionBlur { get; }
 ref bool DisableShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool DisableShadows { get; }
 CPerParticleFloatInput DrawFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -76,7 +76,7 @@ CPerParticleFloatInput DrawFilter { get; }
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
@@ -86,7 +86,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 CParticleModelInput ModelInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleModelInput](/docs/api/shared/schemadefinitions/cparticlemodelinput)
 
@@ -96,7 +96,7 @@ CParticleModelInput ModelInput { get; }
 CParticleCollectionFloatInput SizeCullScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 

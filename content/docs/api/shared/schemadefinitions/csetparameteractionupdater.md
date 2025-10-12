@@ -6,7 +6,7 @@ title: CSetParameterActionUpdater
 public interface CSetParameterActionUpdater : CAnimActionUpdater, ISchemaClass<CAnimActionUpdater>, ISchemaClass<CSetParameterActionUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSetParameterActionUpdater : CAnimActionUpdater, ISchemaClass<C
 CAnimParamHandle Param { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -26,7 +26,7 @@ CAnimParamHandle Param { get; }
 SchemaUntypedField Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

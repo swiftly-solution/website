@@ -6,7 +6,7 @@ title: CMsgGCToGCBroadcastConsoleCommand
 public interface CMsgGCToGCBroadcastConsoleCommand : ITypedProtobuf<CMsgGCToGCBroadcastConsoleCommand>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCToGCBroadcastConsoleCommand : ITypedProtobuf<CMsgGCToGCBr
 string ConCommand { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

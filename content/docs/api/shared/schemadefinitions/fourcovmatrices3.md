@@ -6,7 +6,7 @@ title: FourCovMatrices3
 public interface FourCovMatrices3 : ISchemaClass<FourCovMatrices3>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FourCovMatrices3 : ISchemaClass<FourCovMatrices3>, ISchemaField
 ref FourVectors Diag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FourVectors](/docs/api/shared/natives/fourvectors)
 
@@ -26,7 +26,7 @@ ref FourVectors Diag { get; }
 ref fltx4 XY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -36,7 +36,7 @@ ref fltx4 XY { get; }
 ref fltx4 XZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -46,7 +46,7 @@ ref fltx4 XZ { get; }
 ref fltx4 YZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 

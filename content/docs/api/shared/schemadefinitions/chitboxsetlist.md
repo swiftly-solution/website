@@ -6,7 +6,7 @@ title: CHitBoxSetList
 public interface CHitBoxSetList : ISchemaClass<CHitBoxSetList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CHitBoxSetList : ISchemaClass<CHitBoxSetList>, ISchemaField, IS
 ref CUtlVector HitBoxSets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

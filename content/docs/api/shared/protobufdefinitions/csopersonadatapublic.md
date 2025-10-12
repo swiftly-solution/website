@@ -6,7 +6,7 @@ title: CSOPersonaDataPublic
 public interface CSOPersonaDataPublic : ITypedProtobuf<CSOPersonaDataPublic>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOPersonaDataPublic : ITypedProtobuf<CSOPersonaDataPublic>, IN
 PlayerCommendationInfo Commendation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PlayerCommendationInfo](/docs/api/shared/protobufdefinitions/playercommendationinfo)
 
@@ -26,7 +26,7 @@ PlayerCommendationInfo Commendation { get; }
 bool ElevatedState { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool ElevatedState { get; set; }
 int PlayerLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int PlayerLevel { get; set; }
 uint XpTrailLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint XpTrailLevel { get; set; }
 uint XpTrailTimestampRefresh { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CBtActionAim
 public interface CBtActionAim : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<CBtActionAim>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBtActionAim : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<CBt
 ref bool Acquired { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Acquired { get; }
 string AimReadyKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string AimReadyKey { get; set; }
 CountdownTimer AimTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -46,7 +46,7 @@ CountdownTimer AimTimer { get; }
 ref bool DoneAiming { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool DoneAiming { get; }
 CountdownTimer FocusIntervalTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -66,7 +66,7 @@ CountdownTimer FocusIntervalTimer { get; }
 ref float LerpStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float LerpStartTime { get; }
 ref QAngle NextLookTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -86,7 +86,7 @@ ref QAngle NextLookTarget { get; }
 ref float NextLookTargetLerpTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float NextLookTargetLerpTime { get; }
 ref float PenaltyReductionRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float PenaltyReductionRatio { get; }
 string SensorInputKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -116,7 +116,7 @@ string SensorInputKey { get; set; }
 CountdownTimer SniperHoldTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -126,7 +126,7 @@ CountdownTimer SniperHoldTimer { get; }
 ref float ZoomCooldownTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

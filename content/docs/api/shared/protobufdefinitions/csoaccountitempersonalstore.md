@@ -6,7 +6,7 @@ title: CSOAccountItemPersonalStore
 public interface CSOAccountItemPersonalStore : ITypedProtobuf<CSOAccountItemPersonalStore>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOAccountItemPersonalStore : ITypedProtobuf<CSOAccountItemPers
 uint GenerationTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint GenerationTime { get; set; }
 IProtobufRepeatedFieldValueType<ulong> Items { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<ulong> Items { get; }
 uint RedeemableBalance { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

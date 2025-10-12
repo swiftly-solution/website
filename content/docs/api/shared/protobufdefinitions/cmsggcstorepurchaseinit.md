@@ -6,7 +6,7 @@ title: CMsgGCStorePurchaseInit
 public interface CMsgGCStorePurchaseInit : ITypedProtobuf<CMsgGCStorePurchaseInit>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCStorePurchaseInit : ITypedProtobuf<CMsgGCStorePurchaseIni
 string Country { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Country { get; set; }
 int Currency { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Currency { get; set; }
 int Language { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Language { get; set; }
 IProtobufRepeatedFieldSubMessageType<CGCStorePurchaseInit_LineItem> LineItems { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CGCStorePurchaseInit_LineItem](/docs/api/shared/protobufdefinitions/cgcstorepurchaseinit_lineitem)>
 

@@ -6,7 +6,7 @@ title: ProtoFlattenedSerializer_t
 public interface ProtoFlattenedSerializer_t : ITypedProtobuf<ProtoFlattenedSerializer_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ProtoFlattenedSerializer_t : ITypedProtobuf<ProtoFlattenedSeria
 IProtobufRepeatedFieldValueType<int> FieldsIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<int> FieldsIndex { get; }
 int SerializerNameSym { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int SerializerNameSym { get; set; }
 int SerializerVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

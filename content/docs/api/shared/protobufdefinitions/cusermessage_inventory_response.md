@@ -6,7 +6,7 @@ title: CUserMessage_Inventory_Response
 public interface CUserMessage_Inventory_Response : ITypedProtobuf<CUserMessage_Inventory_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessage_Inventory_Response : ITypedProtobuf<CUserMessage_I
 int BuildVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int BuildVersion { get; set; }
 int ClientTimestamp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int ClientTimestamp { get; set; }
 uint Crc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Crc { get; set; }
 int Instance { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int Instance { get; set; }
 int InvType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int InvType { get; set; }
 IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDetail> Inventories { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_Inventory_Response_InventoryDetail](/docs/api/shared/protobufdefinitions/cusermessage_inventory_response_inventorydetail)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDe
 IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDetail> Inventories2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_Inventory_Response_InventoryDetail](/docs/api/shared/protobufdefinitions/cusermessage_inventory_response_inventorydetail)>
 
@@ -86,7 +86,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDe
 IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDetail> Inventories3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_Inventory_Response_InventoryDetail](/docs/api/shared/protobufdefinitions/cusermessage_inventory_response_inventorydetail)>
 
@@ -96,7 +96,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_Inventory_Response_InventoryDe
 int ItemCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ int ItemCount { get; set; }
 int Osversion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ int Osversion { get; set; }
 int PerfTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ int PerfTime { get; set; }
 int Platform { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ int Platform { get; set; }
 long StartTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 

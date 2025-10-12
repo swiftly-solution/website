@@ -6,7 +6,7 @@ title: CMsgSOCacheSubscribed
 public interface CMsgSOCacheSubscribed : ITypedProtobuf<CMsgSOCacheSubscribed>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOCacheSubscribed : ITypedProtobuf<CMsgSOCacheSubscribed>, 
 IProtobufRepeatedFieldSubMessageType<CMsgSOCacheSubscribed_SubscribedType> Objects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSOCacheSubscribed_SubscribedType](/docs/api/shared/protobufdefinitions/cmsgsocachesubscribed_subscribedtype)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSOCacheSubscribed_SubscribedType> Objec
 CMsgSOIDOwner OwnerSoid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSOIDOwner](/docs/api/shared/protobufdefinitions/cmsgsoidowner)
 
@@ -36,7 +36,7 @@ CMsgSOIDOwner OwnerSoid { get; }
 ulong Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

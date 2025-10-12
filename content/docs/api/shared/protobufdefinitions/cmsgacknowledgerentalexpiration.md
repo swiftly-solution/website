@@ -6,7 +6,7 @@ title: CMsgAcknowledgeRentalExpiration
 public interface CMsgAcknowledgeRentalExpiration : ITypedProtobuf<CMsgAcknowledgeRentalExpiration>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgAcknowledgeRentalExpiration : ITypedProtobuf<CMsgAcknowledg
 ulong CrateItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

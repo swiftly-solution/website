@@ -6,7 +6,7 @@ title: CModelConfigElement_AttachedModel
 public interface CModelConfigElement_AttachedModel : CModelConfigElement, ISchemaClass<CModelConfigElement>, ISchemaClass<CModelConfigElement_AttachedModel>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfigElement_AttachedModel : CModelConfigElement, ISchem
 ref bool AcceptParentMaterialDrivenDecals { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AcceptParentMaterialDrivenDecals { get; }
 ref QAngle AngOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -36,7 +36,7 @@ ref QAngle AngOffset { get; }
 string AttachmentName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string AttachmentName { get; set; }
 ref ModelConfigAttachmentType_t AttachmentType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ModelConfigAttachmentType_t](/docs/api/shared/schemadefinitions/modelconfigattachmenttype_t)
 
@@ -56,7 +56,7 @@ ref ModelConfigAttachmentType_t AttachmentType { get; }
 string BodygroupOnOtherModels { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string BodygroupOnOtherModels { get; set; }
 ref bool BoneMergeFlex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool BoneMergeFlex { get; }
 string EntityClass { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string EntityClass { get; set; }
 string InstanceName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string InstanceName { get; set; }
 string LocalAttachmentOffsetName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string LocalAttachmentOffsetName { get; set; }
 string MaterialGroupOnOtherModels { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -116,7 +116,7 @@ string MaterialGroupOnOtherModels { get; set; }
 ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
@@ -126,7 +126,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> Model { get; }
 ref Vector Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -136,7 +136,7 @@ ref Vector Offset { get; }
 ref bool UserSpecifiedColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool UserSpecifiedColor { get; }
 ref bool UserSpecifiedMaterialGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

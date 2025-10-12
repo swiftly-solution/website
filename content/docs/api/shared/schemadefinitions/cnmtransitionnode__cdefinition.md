@@ -6,7 +6,7 @@ title: CNmTransitionNode__CDefinition
 public interface CNmTransitionNode__CDefinition : CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmTransitionNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmTransitionNode__CDefinition : CNmPoseNode__CDefinition, CNmG
 ref NmEasingOperation_t BlendWeightEasing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmEasingOperation_t](/docs/api/shared/schemadefinitions/nmeasingoperation_t)
 
@@ -26,7 +26,7 @@ ref NmEasingOperation_t BlendWeightEasing { get; }
 NmPercent_t BoneMaskBlendInTimePercentage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmPercent_t](/docs/api/shared/schemadefinitions/nmpercent_t)
 
@@ -36,7 +36,7 @@ NmPercent_t BoneMaskBlendInTimePercentage { get; }
 ref float Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Duration { get; }
 ref short DurationOverrideNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ ref short DurationOverrideNodeIdx { get; }
 ref NmRootMotionBlendMode_t RootMotionBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmRootMotionBlendMode_t](/docs/api/shared/schemadefinitions/nmrootmotionblendmode_t)
 
@@ -66,7 +66,7 @@ ref NmRootMotionBlendMode_t RootMotionBlend { get; }
 ref short StartBoneMaskNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -76,7 +76,7 @@ ref short StartBoneMaskNodeIdx { get; }
 ref short TargetStateNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -86,7 +86,7 @@ ref short TargetStateNodeIdx { get; }
 ref short TargetSyncIDNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -96,7 +96,7 @@ ref short TargetSyncIDNodeIdx { get; }
 ref float TimeOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float TimeOffset { get; }
 ref short TimeOffsetOverrideNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -116,7 +116,7 @@ ref short TimeOffsetOverrideNodeIdx { get; }
 CNmBitFlags TransitionOptions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmBitFlags](/docs/api/shared/schemadefinitions/cnmbitflags)
 

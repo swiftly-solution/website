@@ -6,7 +6,7 @@ title: FootStepTrigger
 public interface FootStepTrigger : ISchemaClass<FootStepTrigger>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FootStepTrigger : ISchemaClass<FootStepTrigger>, ISchemaField, 
 ref int FootIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int FootIndex { get; }
 ref CUtlVector<int> Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<int> Tags { get; }
 ref StepPhase TriggerPhase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [StepPhase](/docs/api/shared/schemadefinitions/stepphase)
 

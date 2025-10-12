@@ -6,7 +6,7 @@ title: AggregateLODSetup_t
 public interface AggregateLODSetup_t : ISchemaClass<AggregateLODSetup_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AggregateLODSetup_t : ISchemaClass<AggregateLODSetup_t>, ISchem
 ref Vector LODOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector LODOrigin { get; }
 ref float MaxObjectScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float MaxObjectScale { get; }
 ref CUtlVector<float> SwitchDistances { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

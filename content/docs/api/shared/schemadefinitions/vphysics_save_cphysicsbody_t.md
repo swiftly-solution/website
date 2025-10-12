@@ -6,7 +6,7 @@ title: vphysics_save_cphysicsbody_t
 public interface vphysics_save_cphysicsbody_t : RnBodyDesc_t, ISchemaClass<RnBodyDesc_t>, ISchemaClass<vphysics_save_cphysicsbody_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface vphysics_save_cphysicsbody_t : RnBodyDesc_t, ISchemaClass<RnBod
 ref ulong OldPointer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,7 +6,7 @@ title: ChangeAccessorFieldPathIndex_t
 public struct ChangeAccessorFieldPathIndex_t
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct ChangeAccessorFieldPathIndex_t
 public int Value
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

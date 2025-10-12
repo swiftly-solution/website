@@ -6,7 +6,7 @@ title: C_OP_SetControlPointToVectorExpression
 public interface C_OP_SetControlPointToVectorExpression : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_SetControlPointToVectorExpression>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_SetControlPointToVectorExpression : CParticleFunctionPreEm
 ref VectorExpressionType_t Expression { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VectorExpressionType_t](/docs/api/shared/schemadefinitions/vectorexpressiontype_t)
 
@@ -26,7 +26,7 @@ ref VectorExpressionType_t Expression { get; }
 CParticleCollectionVecInput Input1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionVecInput Input1 { get; }
 CParticleCollectionVecInput Input2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionVecInput Input2 { get; }
 CPerParticleFloatInput Lerp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -56,7 +56,7 @@ CPerParticleFloatInput Lerp { get; }
 ref bool NormalizedOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool NormalizedOutput { get; }
 ref int OutputCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

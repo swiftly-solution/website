@@ -6,7 +6,7 @@ title: CGameInfo_CDotaGameInfo_CHeroSelectEvent
 public interface CGameInfo_CDotaGameInfo_CHeroSelectEvent : ITypedProtobuf<CGameInfo_CDotaGameInfo_CHeroSelectEvent>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameInfo_CDotaGameInfo_CHeroSelectEvent : ITypedProtobuf<CGame
 int HeroId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int HeroId { get; set; }
 bool IsPick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool IsPick { get; set; }
 uint Team { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CCSGameModeRules_Deathmatch
 public interface CCSGameModeRules_Deathmatch : CCSGameModeRules, ISchemaClass<CCSGameModeRules>, ISchemaClass<CCSGameModeRules_Deathmatch>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSGameModeRules_Deathmatch : CCSGameModeRules, ISchemaClass<CC
 GameTime_t DMBonusStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -26,7 +26,7 @@ GameTime_t DMBonusStartTime { get; }
 ref float DMBonusTimeLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DMBonusTimeLength { get; }
 string DMBonusWeapon { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

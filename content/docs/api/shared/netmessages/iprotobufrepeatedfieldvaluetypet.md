@@ -6,9 +6,9 @@ title: IProtobufRepeatedFieldValueType<T>
 public interface IProtobufRepeatedFieldValueType<T> : IRepeatedField, IList<T>, ICollection<T>, IEnumerable<T>, IEnumerable
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
-#### Implements
+- Implements
 

@@ -6,7 +6,7 @@ title: CVoiceContainerAnalysisBase
 public interface CVoiceContainerAnalysisBase : ISchemaClass<CVoiceContainerAnalysisBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerAnalysisBase : ISchemaClass<CVoiceContainerAnaly
 SchemaUntypedField Curve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Curve { get; }
 ref bool RegenerateCurveOnCompile { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

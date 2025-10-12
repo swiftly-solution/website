@@ -6,7 +6,7 @@ title: CSGOInterpolationInfoPB
 public interface CSGOInterpolationInfoPB : ITypedProtobuf<CSGOInterpolationInfoPB>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSGOInterpolationInfoPB : ITypedProtobuf<CSGOInterpolationInfoP
 int DstTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int DstTick { get; set; }
 float Frac { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float Frac { get; set; }
 int SrcTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

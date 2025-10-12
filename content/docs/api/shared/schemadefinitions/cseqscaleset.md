@@ -6,7 +6,7 @@ title: CSeqScaleSet
 public interface CSeqScaleSet : ISchemaClass<CSeqScaleSet>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSeqScaleSet : ISchemaClass<CSeqScaleSet>, ISchemaField, ISchem
 ref CUtlVector<float> BoneScaleArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<float> BoneScaleArray { get; }
 ref CUtlVector<short> LocalBoneArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[short](https://learn.microsoft.com/dotnet/api/system.int16)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<short> LocalBoneArray { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -46,7 +46,7 @@ ref CBufferString Name { get; }
 ref bool RootOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool RootOffset { get; }
 ref Vector RootOffset1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

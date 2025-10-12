@@ -6,7 +6,7 @@ title: IUnmanagedFunction<TDelegate>
 public interface IUnmanagedFunction<TDelegate> where TDelegate : Delegate
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **TDelegate**: 
 
@@ -18,7 +18,7 @@ public interface IUnmanagedFunction<TDelegate> where TDelegate : Delegate
 nint Address { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -28,7 +28,7 @@ nint Address { get; }
 TDelegate Call { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - TDelegate
 
@@ -38,7 +38,7 @@ TDelegate Call { get; }
 TDelegate CallOriginal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - TDelegate
 
@@ -50,11 +50,11 @@ TDelegate CallOriginal { get; }
 Guid AddHook(Func<Func<TDelegate>, TDelegate> callbackBuilder)
 ```
 
-#### Parameters
+- Parameters
 
 - **callbackBuilder**: [Func](https://learn.microsoft.com/dotnet/api/system.func-2)<[Func](https://learn.microsoft.com/dotnet/api/system.func-1)<TDelegate>, TDelegate> - Builder that receives the next function pointer and returns the managed callback.
 
-#### Returns
+- Returns
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - a guid for the hook.
 
@@ -64,7 +64,7 @@ Guid AddHook(Func<Func<TDelegate>, TDelegate> callbackBuilder)
 void RemoveHook(Guid id)
 ```
 
-#### Parameters
+- Parameters
 
 - **id**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The id of the hook to unhook.
 

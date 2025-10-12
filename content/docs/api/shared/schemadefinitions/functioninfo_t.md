@@ -6,7 +6,7 @@ title: FunctionInfo_t
 public interface FunctionInfo_t : ISchemaClass<FunctionInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FunctionInfo_t : ISchemaClass<FunctionInfo_t>, ISchemaField, IS
 FuseFunctionIndex_t Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FuseFunctionIndex_t](/docs/api/shared/schemadefinitions/fusefunctionindex_t)
 
@@ -26,7 +26,7 @@ FuseFunctionIndex_t Index { get; }
 ref bool IsPure { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool IsPure { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Name { get; set; }
 ref CUtlStringToken NameToken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -56,7 +56,7 @@ ref CUtlStringToken NameToken { get; }
 ref int ParamCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

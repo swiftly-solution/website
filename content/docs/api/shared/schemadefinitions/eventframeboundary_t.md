@@ -6,7 +6,7 @@ title: EventFrameBoundary_t
 public interface EventFrameBoundary_t : ISchemaClass<EventFrameBoundary_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventFrameBoundary_t : ISchemaClass<EventFrameBoundary_t>, ISch
 ref float FrameTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

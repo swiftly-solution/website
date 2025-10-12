@@ -6,7 +6,7 @@ title: CMsgTEWorldDecal
 public interface CMsgTEWorldDecal : ITypedProtobuf<CMsgTEWorldDecal>, INativeHandle, INetMessage<CMsgTEWorldDecal>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEWorldDecal : ITypedProtobuf<CMsgTEWorldDecal>, INativeHan
 uint Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Index { get; set; }
 Vector Normal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector Normal { get; set; }
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

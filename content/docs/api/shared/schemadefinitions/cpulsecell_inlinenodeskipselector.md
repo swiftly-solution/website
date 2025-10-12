@@ -6,7 +6,7 @@ title: CPulseCell_InlineNodeSkipSelector
 public interface CPulseCell_InlineNodeSkipSelector : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_InlineNodeSkipSelector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_InlineNodeSkipSelector : CPulseCell_BaseFlow, CPulse
 ref bool And { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool And { get; }
 CPulse_OutflowConnection FailOutflow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
@@ -36,7 +36,7 @@ CPulse_OutflowConnection FailOutflow { get; }
 PulseDocNodeID_t FlowNodeID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
@@ -46,7 +46,7 @@ PulseDocNodeID_t FlowNodeID { get; }
 PulseSelectorOutflowList_t PassOutflow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseSelectorOutflowList_t](/docs/api/shared/schemadefinitions/pulseselectoroutflowlist_t)
 

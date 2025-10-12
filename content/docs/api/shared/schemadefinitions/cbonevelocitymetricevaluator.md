@@ -6,7 +6,7 @@ title: CBoneVelocityMetricEvaluator
 public interface CBoneVelocityMetricEvaluator : CMotionMetricEvaluator, ISchemaClass<CMotionMetricEvaluator>, ISchemaClass<CBoneVelocityMetricEvaluator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBoneVelocityMetricEvaluator : CMotionMetricEvaluator, ISchemaC
 ref int BoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

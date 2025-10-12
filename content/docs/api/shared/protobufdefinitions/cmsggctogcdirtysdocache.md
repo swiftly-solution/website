@@ -6,7 +6,7 @@ title: CMsgGCToGCDirtySDOCache
 public interface CMsgGCToGCDirtySDOCache : ITypedProtobuf<CMsgGCToGCDirtySDOCache>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCToGCDirtySDOCache : ITypedProtobuf<CMsgGCToGCDirtySDOCach
 ulong KeyUint64 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong KeyUint64 { get; set; }
 uint SdoType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

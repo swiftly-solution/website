@@ -6,7 +6,7 @@ title: CMsgSOMultipleObjects_SingleObject
 public interface CMsgSOMultipleObjects_SingleObject : ITypedProtobuf<CMsgSOMultipleObjects_SingleObject>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOMultipleObjects_SingleObject : ITypedProtobuf<CMsgSOMulti
 byte[] ObjectData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] ObjectData { get; set; }
 int TypeId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

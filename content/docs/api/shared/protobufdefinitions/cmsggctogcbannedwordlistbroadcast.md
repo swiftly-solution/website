@@ -6,7 +6,7 @@ title: CMsgGCToGCBannedWordListBroadcast
 public interface CMsgGCToGCBannedWordListBroadcast : ITypedProtobuf<CMsgGCToGCBannedWordListBroadcast>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCToGCBannedWordListBroadcast : ITypedProtobuf<CMsgGCToGCBa
 CMsgGCBannedWordListResponse Broadcast { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCBannedWordListResponse](/docs/api/shared/protobufdefinitions/cmsggcbannedwordlistresponse)
 

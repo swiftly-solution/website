@@ -6,7 +6,7 @@ title: CPlayer_WeaponServices
 public interface CPlayer_WeaponServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_WeaponServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPlayer_WeaponServices : CPlayerPawnComponent, ISchemaClass<CPl
 ref CHandle<CBasePlayerWeapon> ActiveWeapon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerWeapon](/docs/api/shared/schemadefinitions/cbaseplayerweapon)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBasePlayerWeapon> ActiveWeapon { get; }
 ISchemaFixedArray<ushort> Ammo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<ushort> Ammo { get; }
 ref CHandle<CBasePlayerWeapon> LastWeapon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerWeapon](/docs/api/shared/schemadefinitions/cbaseplayerweapon)>
 
@@ -46,7 +46,7 @@ ref CHandle<CBasePlayerWeapon> LastWeapon { get; }
 ref CUtlVector<CHandle<CBasePlayerWeapon>> MyWeapons { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerWeapon](/docs/api/shared/schemadefinitions/cbaseplayerweapon)>>
 
@@ -56,7 +56,7 @@ ref CUtlVector<CHandle<CBasePlayerWeapon>> MyWeapons { get; }
 ref bool PreventWeaponPickup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -80,7 +80,7 @@ void AmmoUpdated()
 void DropWeapon(CBasePlayerWeapon weapon)
 ```
 
-#### Parameters
+- Parameters
 
 - **weapon**: [CBasePlayerWeapon](/docs/api/shared/schemadefinitions/cbaseplayerweapon) - The weapon to drop.
 
@@ -90,7 +90,7 @@ void DropWeapon(CBasePlayerWeapon weapon)
 void DropWeaponByClass<T>() where T : CBasePlayerWeapon
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The weapon class.
 
@@ -112,7 +112,7 @@ void MyWeaponsUpdated()
 void RemoveWeapon(CBasePlayerWeapon weapon)
 ```
 
-#### Parameters
+- Parameters
 
 - **weapon**: [CBasePlayerWeapon](/docs/api/shared/schemadefinitions/cbaseplayerweapon) - The weapon to remove.
 
@@ -122,7 +122,7 @@ void RemoveWeapon(CBasePlayerWeapon weapon)
 void RemoveWeaponByClass<T>() where T : CBasePlayerWeapon
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The weapon class.
 
@@ -132,7 +132,7 @@ void RemoveWeaponByClass<T>() where T : CBasePlayerWeapon
 void SelectWeapon(CBasePlayerWeapon weapon)
 ```
 
-#### Parameters
+- Parameters
 
 - **weapon**: [CBasePlayerWeapon](/docs/api/shared/schemadefinitions/cbaseplayerweapon) - The weapon to select.
 
@@ -142,7 +142,7 @@ void SelectWeapon(CBasePlayerWeapon weapon)
 void SelectWeaponByClass<T>() where T : CBasePlayerWeapon
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The weapon class.
 

@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_DestroyParticleNamed
 public interface CUserMsg_ParticleManager_DestroyParticleNamed : ITypedProtobuf<CUserMsg_ParticleManager_DestroyParticleNamed>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_DestroyParticleNamed : ITypedProtobuf<
 bool DestroyImmediately { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool DestroyImmediately { get; set; }
 uint EntityHandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint EntityHandle { get; set; }
 ulong ParticleNameIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong ParticleNameIndex { get; set; }
 bool PlayEndcap { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

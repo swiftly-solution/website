@@ -6,7 +6,7 @@ title: ParticleChildrenInfo_t
 public interface ParticleChildrenInfo_t : ISchemaClass<ParticleChildrenInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParticleChildrenInfo_t : ISchemaClass<ParticleChildrenInfo_t>, 
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ChildRef { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -26,7 +26,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ChildRef { get; 
 ref float Delay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Delay { get; }
 ref ParticleDetailLevel_t DetailLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleDetailLevel_t](/docs/api/shared/schemadefinitions/particledetaillevel_t)
 
@@ -46,7 +46,7 @@ ref ParticleDetailLevel_t DetailLevel { get; }
 ref bool DisableChild { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool DisableChild { get; }
 ref bool EndCap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

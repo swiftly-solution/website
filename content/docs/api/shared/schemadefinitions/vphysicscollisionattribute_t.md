@@ -6,7 +6,7 @@ title: VPhysicsCollisionAttribute_t
 public interface VPhysicsCollisionAttribute_t : ISchemaClass<VPhysicsCollisionAttribute_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VPhysicsCollisionAttribute_t : ISchemaClass<VPhysicsCollisionAt
 ref byte CollisionFunctionMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -26,7 +26,7 @@ ref byte CollisionFunctionMask { get; }
 ref byte CollisionGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -36,7 +36,7 @@ ref byte CollisionGroup { get; }
 ref uint EntityId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint EntityId { get; }
 ref ushort HierarchyId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -56,7 +56,7 @@ ref ushort HierarchyId { get; }
 ref ulong InteractsAs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -66,7 +66,7 @@ ref ulong InteractsAs { get; }
 ref ulong InteractsExclude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -76,7 +76,7 @@ ref ulong InteractsExclude { get; }
 ref ulong InteractsWith { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -86,7 +86,7 @@ ref ulong InteractsWith { get; }
 ref uint OwnerId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

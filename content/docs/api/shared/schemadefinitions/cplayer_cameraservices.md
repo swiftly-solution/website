@@ -6,7 +6,7 @@ title: CPlayer_CameraServices
 public interface CPlayer_CameraServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_CameraServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPlayer_CameraServices : CPlayerPawnComponent, ISchemaClass<CPl
 audioparams_t Audio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [audioparams_t](/docs/api/shared/schemadefinitions/audioparams_t)
 
@@ -26,7 +26,7 @@ audioparams_t Audio { get; }
 ref CHandle<CColorCorrection> ColorCorrectionCtrl { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CColorCorrection](/docs/api/shared/schemadefinitions/ccolorcorrection)>
 
@@ -36,7 +36,7 @@ ref CHandle<CColorCorrection> ColorCorrectionCtrl { get; }
 ref QAngle CsViewPunchAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -46,7 +46,7 @@ ref QAngle CsViewPunchAngle { get; }
 GameTick_t CsViewPunchAngleTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
@@ -56,7 +56,7 @@ GameTick_t CsViewPunchAngleTick { get; }
 ref float CsViewPunchAngleTickRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float CsViewPunchAngleTickRatio { get; }
 ref float OldPlayerViewOffsetZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float OldPlayerViewOffsetZ { get; }
 ref float OldPlayerZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float OldPlayerZ { get; }
 fogplayerparams_t PlayerFog { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fogplayerparams_t](/docs/api/shared/schemadefinitions/fogplayerparams_t)
 
@@ -96,7 +96,7 @@ fogplayerparams_t PlayerFog { get; }
 ref CUtlVector<CHandle<CPostProcessingVolume>> PostProcessingVolumes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CPostProcessingVolume](/docs/api/shared/schemadefinitions/cpostprocessingvolume)>>
 
@@ -106,7 +106,7 @@ ref CUtlVector<CHandle<CPostProcessingVolume>> PostProcessingVolumes { get; }
 ref CHandle<CTonemapController2> TonemapController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CTonemapController2](/docs/api/shared/schemadefinitions/ctonemapcontroller2)>
 
@@ -116,7 +116,7 @@ ref CHandle<CTonemapController2> TonemapController { get; }
 ref CUtlVector<CHandle<CEnvSoundscapeTriggerable>> TriggerSoundscapeList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CEnvSoundscapeTriggerable](/docs/api/shared/schemadefinitions/cenvsoundscapetriggerable)>>
 
@@ -126,7 +126,7 @@ ref CUtlVector<CHandle<CEnvSoundscapeTriggerable>> TriggerSoundscapeList { get; 
 ref CHandle<CBaseEntity> ViewEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

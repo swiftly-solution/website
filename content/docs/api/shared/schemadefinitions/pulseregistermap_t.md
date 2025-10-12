@@ -6,7 +6,7 @@ title: PulseRegisterMap_t
 public interface PulseRegisterMap_t : ISchemaClass<PulseRegisterMap_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseRegisterMap_t : ISchemaClass<PulseRegisterMap_t>, ISchemaF
 SchemaUntypedField Inparams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Inparams { get; }
 SchemaUntypedField InparamsWhichCanBeMoved { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField InparamsWhichCanBeMoved { get; }
 SchemaUntypedField Outparams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

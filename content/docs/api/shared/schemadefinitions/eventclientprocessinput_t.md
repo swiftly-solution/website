@@ -6,7 +6,7 @@ title: EventClientProcessInput_t
 public interface EventClientProcessInput_t : ISchemaClass<EventClientProcessInput_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventClientProcessInput_t : ISchemaClass<EventClientProcessInpu
 EngineLoopState_t LoopState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
@@ -26,7 +26,7 @@ EngineLoopState_t LoopState { get; }
 ref float RealTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float RealTime { get; }
 ref float TickInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float TickInterval { get; }
 ref double TickStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 

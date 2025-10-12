@@ -6,7 +6,7 @@ title: C_OP_LockToBone
 public interface C_OP_LockToBone : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_LockToBone>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_LockToBone : CParticleFunctionOperator, CParticleFunction,
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 ParticleAttributeIndex_t FieldOutputPrev { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t FieldOutputPrev { get; }
 string HitboxSetName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string HitboxSetName { get; set; }
 ref float JumpThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float JumpThreshold { get; }
 ref float LifeTimeFadeEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float LifeTimeFadeEnd { get; }
 ref float LifeTimeFadeStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float LifeTimeFadeStart { get; }
 CParticleModelInput ModelInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleModelInput](/docs/api/shared/schemadefinitions/cparticlemodelinput)
 
@@ -86,7 +86,7 @@ CParticleModelInput ModelInput { get; }
 ref float PrevPosScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float PrevPosScale { get; }
 ref bool Rigid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool Rigid { get; }
 ref bool RigidRotationLock { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool RigidRotationLock { get; }
 CPerParticleFloatInput RotLerp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -126,7 +126,7 @@ CPerParticleFloatInput RotLerp { get; }
 CPerParticleVecInput Rotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -136,7 +136,7 @@ CPerParticleVecInput Rotation { get; }
 ref ParticleRotationLockType_t RotationSetType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleRotationLockType_t](/docs/api/shared/schemadefinitions/particlerotationlocktype_t)
 
@@ -146,7 +146,7 @@ ref ParticleRotationLockType_t RotationSetType { get; }
 CParticleTransformInput TransformInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 
@@ -156,7 +156,7 @@ CParticleTransformInput TransformInput { get; }
 ref bool UseBones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

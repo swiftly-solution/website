@@ -6,7 +6,7 @@ title: CPulse_BlackboardReference
 public interface CPulse_BlackboardReference : ISchemaClass<CPulse_BlackboardReference>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulse_BlackboardReference : ISchemaClass<CPulse_BlackboardRefe
 ref CStrongHandle<InfoForResourceTypeIPulseGraphDef> BlackboardResource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIPulseGraphDef](/docs/api/shared/schemadefinitions/infoforresourcetypeipulsegraphdef)>
 
@@ -26,7 +26,7 @@ ref CStrongHandle<InfoForResourceTypeIPulseGraphDef> BlackboardResource { get; }
 SchemaUntypedField BlackboardResource1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField BlackboardResource1 { get; }
 PulseDocNodeID_t NodeID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
@@ -46,7 +46,7 @@ PulseDocNodeID_t NodeID { get; }
 ref CGlobalSymbol NodeName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

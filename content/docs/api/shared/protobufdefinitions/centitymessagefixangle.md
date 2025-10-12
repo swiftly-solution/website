@@ -6,7 +6,7 @@ title: CEntityMessageFixAngle
 public interface CEntityMessageFixAngle : ITypedProtobuf<CEntityMessageFixAngle>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityMessageFixAngle : ITypedProtobuf<CEntityMessageFixAngle>
 QAngle Angle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ QAngle Angle { get; set; }
 CEntityMsg EntityMsg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityMsg](/docs/api/shared/protobufdefinitions/centitymsg)
 
@@ -36,7 +36,7 @@ CEntityMsg EntityMsg { get; }
 bool Relative { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CPhysSurfacePropertiesTrace
 public struct CPhysSurfacePropertiesTrace
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct CPhysSurfacePropertiesTrace
 public CPhysSurfacePropertiesAudioTrace AudioParams
 ```
 
-#### Field Value
+- Field Value
 
 - [CPhysSurfacePropertiesAudioTrace](/docs/api/shared/natives/cphyssurfacepropertiesaudiotrace)
 
@@ -26,7 +26,7 @@ public CPhysSurfacePropertiesAudioTrace AudioParams
 public CPhysSurfacePropertiesSoundNamesTrace AudioSounds
 ```
 
-#### Field Value
+- Field Value
 
 - [CPhysSurfacePropertiesSoundNamesTrace](/docs/api/shared/natives/cphyssurfacepropertiessoundnamestrace)
 
@@ -36,7 +36,7 @@ public CPhysSurfacePropertiesSoundNamesTrace AudioSounds
 public int BaseListIndex
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ public int BaseListIndex
 public uint BaseNameHash
 ```
 
-#### Field Value
+- Field Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ public uint BaseNameHash
 public CUtlString Description
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -66,7 +66,7 @@ public CUtlString Description
 public bool Hidden
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ public bool Hidden
 public int ListIndex
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ public int ListIndex
 public CUtlString Name
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -96,7 +96,7 @@ public CUtlString Name
 public uint NameHash
 ```
 
-#### Field Value
+- Field Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ public uint NameHash
 public CPhysSurfacePropertiesPhysicsTrace Physics
 ```
 
-#### Field Value
+- Field Value
 
 - [CPhysSurfacePropertiesPhysicsTrace](/docs/api/shared/natives/cphyssurfacepropertiesphysicstrace)
 

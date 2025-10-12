@@ -6,7 +6,7 @@ title: CGameRules
 public interface CGameRules : ISchemaClass<CGameRules>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameRules : ISchemaClass<CGameRules>, ISchemaField, ISchemaCla
 ref bool GamePaused { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool GamePaused { get; }
 ref int PauseStartTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int PauseStartTick { get; }
 string QuestName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string QuestName { get; set; }
 ref int QuestPhase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int QuestPhase { get; }
 ref int TotalPausedTicks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int TotalPausedTicks { get; }
 ref CNetworkVarChainer __m_pChainEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkVarChainer](/docs/api/shared/natives/cnetworkvarchainer)
 

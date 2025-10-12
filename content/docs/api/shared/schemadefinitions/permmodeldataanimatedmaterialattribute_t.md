@@ -6,7 +6,7 @@ title: PermModelDataAnimatedMaterialAttribute_t
 public interface PermModelDataAnimatedMaterialAttribute_t : ISchemaClass<PermModelDataAnimatedMaterialAttribute_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PermModelDataAnimatedMaterialAttribute_t : ISchemaClass<PermMod
 string AttributeName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AttributeName { get; set; }
 ref int NumChannels { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

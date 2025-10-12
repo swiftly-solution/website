@@ -6,7 +6,7 @@ title: CCSUsrMsg_SendPlayerItemDrops
 public interface CCSUsrMsg_SendPlayerItemDrops : ITypedProtobuf<CCSUsrMsg_SendPlayerItemDrops>, INativeHandle, INetMessage<CCSUsrMsg_SendPlayerItemDrops>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SendPlayerItemDrops : ITypedProtobuf<CCSUsrMsg_SendPl
 IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock> EntityUpdates { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CEconItemPreviewDataBlock](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock)>
 

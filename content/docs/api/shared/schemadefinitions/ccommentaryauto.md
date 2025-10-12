@@ -6,7 +6,7 @@ title: CCommentaryAuto
 public interface CCommentaryAuto : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CCommentaryAuto>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCommentaryAuto : CBaseEntity, CEntityInstance, ISchemaClass<CE
 CEntityIOOutput OnCommentaryMidGame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -26,7 +26,7 @@ CEntityIOOutput OnCommentaryMidGame { get; }
 CEntityIOOutput OnCommentaryMultiplayerSpawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -36,7 +36,7 @@ CEntityIOOutput OnCommentaryMultiplayerSpawn { get; }
 CEntityIOOutput OnCommentaryNewGame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 

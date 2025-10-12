@@ -6,7 +6,7 @@ title: QAngle
 public struct QAngle
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -16,7 +16,7 @@ public struct QAngle
 public QAngle(float pitch, float yaw, float roll)
 ```
 
-#### Parameters
+- Parameters
 
 - **pitch**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **yaw**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -28,7 +28,7 @@ public QAngle(float pitch, float yaw, float roll)
 public QAngle(QAngle other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [QAngle](/docs/api/shared/natives/qangle)
 
@@ -40,7 +40,7 @@ public QAngle(QAngle other)
 public float Pitch
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -50,7 +50,7 @@ public float Pitch
 public float Roll
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -60,7 +60,7 @@ public float Roll
 public float Yaw
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -72,7 +72,7 @@ public float Yaw
 public static QAngle Zero { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -84,11 +84,11 @@ public static QAngle Zero { get; }
 public override bool Equals(object? obj)
 ```
 
-#### Parameters
+- Parameters
 
 - **obj**: [object](https://learn.microsoft.com/dotnet/api/system.object)? - The object to compare with the current instance.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
@@ -98,7 +98,7 @@ public override bool Equals(object? obj)
 public override int GetHashCode()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
@@ -108,7 +108,7 @@ public override int GetHashCode()
 public RadianEuler ToRadianEuler()
 ```
 
-#### Returns
+- Returns
 
 - [RadianEuler](/docs/api/shared/natives/radianeuler)
 
@@ -118,7 +118,7 @@ public RadianEuler ToRadianEuler()
 public override string ToString()
 ```
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The fully qualified type name.
 
@@ -130,12 +130,12 @@ public override string ToString()
 public static QAngle operator +(QAngle a, QAngle b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [QAngle](/docs/api/shared/natives/qangle)
 - **b**: [QAngle](/docs/api/shared/natives/qangle)
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -145,12 +145,12 @@ public static QAngle operator +(QAngle a, QAngle b)
 public static QAngle operator /(QAngle a, QAngle b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [QAngle](/docs/api/shared/natives/qangle)
 - **b**: [QAngle](/docs/api/shared/natives/qangle)
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -160,12 +160,12 @@ public static QAngle operator /(QAngle a, QAngle b)
 public static QAngle operator /(QAngle a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [QAngle](/docs/api/shared/natives/qangle)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -175,12 +175,12 @@ public static QAngle operator /(QAngle a, float b)
 public static bool operator ==(QAngle a, QAngle b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [QAngle](/docs/api/shared/natives/qangle)
 - **b**: [QAngle](/docs/api/shared/natives/qangle)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -190,12 +190,12 @@ public static bool operator ==(QAngle a, QAngle b)
 public static bool operator !=(QAngle a, QAngle b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [QAngle](/docs/api/shared/natives/qangle)
 - **b**: [QAngle](/docs/api/shared/natives/qangle)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -205,12 +205,12 @@ public static bool operator !=(QAngle a, QAngle b)
 public static QAngle operator *(QAngle a, QAngle b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [QAngle](/docs/api/shared/natives/qangle)
 - **b**: [QAngle](/docs/api/shared/natives/qangle)
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -220,12 +220,12 @@ public static QAngle operator *(QAngle a, QAngle b)
 public static QAngle operator *(QAngle a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [QAngle](/docs/api/shared/natives/qangle)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -235,12 +235,12 @@ public static QAngle operator *(QAngle a, float b)
 public static QAngle operator -(QAngle a, QAngle b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [QAngle](/docs/api/shared/natives/qangle)
 - **b**: [QAngle](/docs/api/shared/natives/qangle)
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -250,11 +250,11 @@ public static QAngle operator -(QAngle a, QAngle b)
 public static QAngle operator -(QAngle a)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [QAngle](/docs/api/shared/natives/qangle)
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 

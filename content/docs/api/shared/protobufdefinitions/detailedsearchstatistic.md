@@ -6,7 +6,7 @@ title: DetailedSearchStatistic
 public interface DetailedSearchStatistic : ITypedProtobuf<DetailedSearchStatistic>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface DetailedSearchStatistic : ITypedProtobuf<DetailedSearchStatisti
 uint GameType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint GameType { get; set; }
 uint PlayersSearching { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint PlayersSearching { get; set; }
 uint SearchTimeAvg { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

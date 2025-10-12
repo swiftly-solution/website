@@ -6,7 +6,7 @@ title: CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded
 public interface CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded : ITypedProtobuf<CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCstrike15_v2_GC2ServerNotifyXPRewarded : ITypedProtobuf<C
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 uint CurrentLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint CurrentLevel { get; set; }
 uint CurrentXp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint CurrentXp { get; set; }
 uint FreeRewards { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint FreeRewards { get; set; }
 uint OperationPointsAwarded { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint OperationPointsAwarded { get; set; }
 uint UpgradedDefidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint UpgradedDefidx { get; set; }
 IProtobufRepeatedFieldSubMessageType<XpProgressData> XpProgressData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[XpProgressData](/docs/api/shared/protobufdefinitions/xpprogressdata)>
 
@@ -86,7 +86,7 @@ IProtobufRepeatedFieldSubMessageType<XpProgressData> XpProgressData { get; }
 uint XpTrailLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ uint XpTrailLevel { get; set; }
 uint XpTrailRemaining { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ uint XpTrailRemaining { get; set; }
 int XpTrailXpNeeded { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

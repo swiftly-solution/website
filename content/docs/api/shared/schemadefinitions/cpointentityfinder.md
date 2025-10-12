@@ -6,7 +6,7 @@ title: CPointEntityFinder
 public interface CPointEntityFinder : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntityFinder>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointEntityFinder : CBaseEntity, CEntityInstance, ISchemaClass
 ref CHandle<CBaseEntity> Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 ref CHandle<CBaseFilter> Filter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseFilter](/docs/api/shared/schemadefinitions/cbasefilter)>
 
@@ -36,7 +36,7 @@ ref CHandle<CBaseFilter> Filter { get; }
 string FilterName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string FilterName { get; set; }
 ref EntFinderMethod_t FindMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EntFinderMethod_t](/docs/api/shared/schemadefinitions/entfindermethod_t)
 
@@ -56,7 +56,7 @@ ref EntFinderMethod_t FindMethod { get; }
 CEntityIOOutput OnFoundEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -66,7 +66,7 @@ CEntityIOOutput OnFoundEntity { get; }
 string RefName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string RefName { get; set; }
 ref CHandle<CBaseEntity> Reference { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

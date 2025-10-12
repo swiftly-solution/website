@@ -6,7 +6,7 @@ title: C2S_CONNECTION_Message
 public interface C2S_CONNECTION_Message : ITypedProtobuf<C2S_CONNECTION_Message>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C2S_CONNECTION_Message : ITypedProtobuf<C2S_CONNECTION_Message>
 string AddonName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AddonName { get; set; }
 C2S_CONNECT_SameProcessCheck LocalhostSameProcessCheck { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [C2S_CONNECT_SameProcessCheck](/docs/api/shared/protobufdefinitions/c2s_connect_sameprocesscheck)
 

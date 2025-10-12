@@ -14,7 +14,7 @@ public interface IPlugin
 void ConfigureSharedInterface(IInterfaceManager interfaceManager)
 ```
 
-#### Parameters
+- Parameters
 
 - **interfaceManager**: [IInterfaceManager](/docs/api/shared/iinterfacemanager)
 
@@ -24,7 +24,7 @@ void ConfigureSharedInterface(IInterfaceManager interfaceManager)
 void Load(bool hotReload)
 ```
 
-#### Parameters
+- Parameters
 
 - **hotReload**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -40,7 +40,7 @@ void Unload()
 void UseSharedInterface(IInterfaceManager interfaceManager)
 ```
 
-#### Parameters
+- Parameters
 
 - **interfaceManager**: [IInterfaceManager](/docs/api/shared/iinterfacemanager)
 

@@ -6,7 +6,7 @@ title: C_INIT_ScreenSpacePositionOfTarget
 public interface C_INIT_ScreenSpacePositionOfTarget : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_ScreenSpacePositionOfTarget>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_ScreenSpacePositionOfTarget : CParticleFunctionInitializ
 ParticleAttributeIndex_t BehindFieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t BehindFieldOutput { get; }
 CParticleRemapFloatInput BehindOutputRemap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleRemapFloatInput](/docs/api/shared/schemadefinitions/cparticleremapfloatinput)
 
@@ -36,7 +36,7 @@ CParticleRemapFloatInput BehindOutputRemap { get; }
 ref bool OututBehindness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool OututBehindness { get; }
 CPerParticleVecInput TargetPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 

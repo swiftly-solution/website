@@ -6,7 +6,7 @@ title: GlobalStatistics
 public interface GlobalStatistics : ITypedProtobuf<GlobalStatistics>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface GlobalStatistics : ITypedProtobuf<GlobalStatistics>, INativeHan
 uint ActiveSurveyId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ActiveSurveyId { get; set; }
 uint ActiveTournamentEventid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ActiveTournamentEventid { get; set; }
 string MainPostUrl { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string MainPostUrl { get; set; }
 uint OngoingMatches { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint OngoingMatches { get; set; }
 uint PlayersOnline { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint PlayersOnline { get; set; }
 uint PlayersSearching { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint PlayersSearching { get; set; }
 uint PricesheetVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint PricesheetVersion { get; set; }
 uint RequiredAppidVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ uint RequiredAppidVersion { get; set; }
 uint RequiredAppidVersion2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ uint RequiredAppidVersion2 { get; set; }
 uint Rtime32Cur { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -116,7 +116,7 @@ uint Rtime32Cur { get; set; }
 IProtobufRepeatedFieldSubMessageType<DetailedSearchStatistic> SearchStatistics { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[DetailedSearchStatistic](/docs/api/shared/protobufdefinitions/detailedsearchstatistic)>
 
@@ -126,7 +126,7 @@ IProtobufRepeatedFieldSubMessageType<DetailedSearchStatistic> SearchStatistics {
 uint SearchTimeAvg { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint SearchTimeAvg { get; set; }
 uint ServersAvailable { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ uint ServersAvailable { get; set; }
 uint ServersOnline { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -156,7 +156,7 @@ uint ServersOnline { get; set; }
 uint TwitchStreamsVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

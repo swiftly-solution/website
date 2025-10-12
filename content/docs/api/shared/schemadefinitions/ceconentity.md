@@ -6,7 +6,7 @@ title: CEconEntity
 public interface CEconEntity : CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CEconEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEconEntity : CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBas
 CAttributeContainer AttributeManager { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAttributeContainer](/docs/api/shared/schemadefinitions/cattributecontainer)
 
@@ -26,7 +26,7 @@ CAttributeContainer AttributeManager { get; }
 ref int FallbackPaintKit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int FallbackPaintKit { get; }
 ref int FallbackSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int FallbackSeed { get; }
 ref int FallbackStatTrak { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int FallbackStatTrak { get; }
 ref float FallbackWear { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float FallbackWear { get; }
 ref int OldOwnerClass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int OldOwnerClass { get; }
 ref CHandle<CBaseEntity> OldProvidee { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -86,7 +86,7 @@ ref CHandle<CBaseEntity> OldProvidee { get; }
 ref uint OriginalOwnerXuidHigh { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ ref uint OriginalOwnerXuidHigh { get; }
 ref uint OriginalOwnerXuidLow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

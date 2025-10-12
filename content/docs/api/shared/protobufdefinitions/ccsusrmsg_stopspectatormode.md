@@ -6,7 +6,7 @@ title: CCSUsrMsg_StopSpectatorMode
 public interface CCSUsrMsg_StopSpectatorMode : ITypedProtobuf<CCSUsrMsg_StopSpectatorMode>, INativeHandle, INetMessage<CCSUsrMsg_StopSpectatorMode>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_StopSpectatorMode : ITypedProtobuf<CCSUsrMsg_StopSpec
 int Dummy { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

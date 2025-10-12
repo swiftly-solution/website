@@ -6,7 +6,7 @@ title: ParticleNamedValueSource_t
 public interface ParticleNamedValueSource_t : ISchemaClass<ParticleNamedValueSource_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParticleNamedValueSource_t : ISchemaClass<ParticleNamedValueSou
 ParticleNamedValueConfiguration_t DefaultConfig { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleNamedValueConfiguration_t](/docs/api/shared/schemadefinitions/particlenamedvalueconfiguration_t)
 
@@ -26,7 +26,7 @@ ParticleNamedValueConfiguration_t DefaultConfig { get; }
 ref bool IsPublic { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool IsPublic { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Name { get; set; }
 ref CUtlVector NamedConfigs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector NamedConfigs { get; }
 ref PulseValueType_t ValueType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseValueType_t](/docs/api/shared/schemadefinitions/pulsevaluetype_t)
 

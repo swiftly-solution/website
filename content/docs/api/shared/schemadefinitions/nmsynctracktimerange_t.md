@@ -6,7 +6,7 @@ title: NmSyncTrackTimeRange_t
 public interface NmSyncTrackTimeRange_t : ISchemaClass<NmSyncTrackTimeRange_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NmSyncTrackTimeRange_t : ISchemaClass<NmSyncTrackTimeRange_t>, 
 NmSyncTrackTime_t EndTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmSyncTrackTime_t](/docs/api/shared/schemadefinitions/nmsynctracktime_t)
 
@@ -26,7 +26,7 @@ NmSyncTrackTime_t EndTime { get; }
 NmSyncTrackTime_t StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmSyncTrackTime_t](/docs/api/shared/schemadefinitions/nmsynctracktime_t)
 

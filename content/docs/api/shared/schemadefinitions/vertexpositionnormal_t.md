@@ -6,7 +6,7 @@ title: VertexPositionNormal_t
 public interface VertexPositionNormal_t : ISchemaClass<VertexPositionNormal_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VertexPositionNormal_t : ISchemaClass<VertexPositionNormal_t>, 
 ref Vector Normal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector Normal { get; }
 ref Vector Position { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

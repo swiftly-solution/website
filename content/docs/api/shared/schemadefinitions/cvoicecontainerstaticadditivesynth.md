@@ -6,7 +6,7 @@ title: CVoiceContainerStaticAdditiveSynth
 public interface CVoiceContainerStaticAdditiveSynth : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerStaticAdditiveSynth>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerStaticAdditiveSynth : CVoiceContainerBase, ISche
 ref CUtlVector Tones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

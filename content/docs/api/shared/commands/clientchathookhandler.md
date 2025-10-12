@@ -7,9 +7,9 @@ title: ClientChatHookHandler
 public class ClientChatHookHandler : Attribute
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 

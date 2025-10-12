@@ -6,7 +6,7 @@ title: CCSWeaponBaseVData
 public interface CCSWeaponBaseVData : CBasePlayerWeaponVData, CEntitySubclassVDataBase, ISchemaClass<CEntitySubclassVDataBase>, ISchemaClass<CBasePlayerWeaponVData>, ISchemaClass<CCSWeaponBaseVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSWeaponBaseVData : CBasePlayerWeaponVData, CEntitySubclassVDa
 ref CGlobalSymbol AnimClass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -26,7 +26,7 @@ ref CGlobalSymbol AnimClass { get; }
 SchemaUntypedField AnimSkeleton { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField AnimSkeleton { get; }
 ref float ArmorRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float ArmorRatio { get; }
 ref float AttackMovespeedFactor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float AttackMovespeedFactor { get; }
 ref bool CannotShootUnderwater { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool CannotShootUnderwater { get; }
 ref int CrosshairDeltaDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int CrosshairDeltaDistance { get; }
 ref int CrosshairMinDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int CrosshairMinDistance { get; }
 CFiringModeFloat CycleTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -96,7 +96,7 @@ CFiringModeFloat CycleTime { get; }
 ref int Damage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int Damage { get; }
 ref loadout_slot_t DefaultLoadoutSlot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [loadout_slot_t](/docs/api/shared/schemadefinitions/loadout_slot_t)
 
@@ -116,7 +116,7 @@ ref loadout_slot_t DefaultLoadoutSlot { get; }
 ref float DeployDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float DeployDuration { get; }
 ref float DisallowAttackAfterReloadStartDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float DisallowAttackAfterReloadStartDuration { get; }
 ref float FlinchVelocityModifierLarge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float FlinchVelocityModifierLarge { get; }
 ref float FlinchVelocityModifierSmall { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float FlinchVelocityModifierSmall { get; }
 ref gear_slot_t GearSlot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [gear_slot_t](/docs/api/shared/schemadefinitions/gear_slot_t)
 
@@ -166,7 +166,7 @@ ref gear_slot_t GearSlot { get; }
 ref int GearSlotPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -176,7 +176,7 @@ ref int GearSlotPosition { get; }
 ref bool HasBurstMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -186,7 +186,7 @@ ref bool HasBurstMode { get; }
 ref float HeadshotMultiplier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float HeadshotMultiplier { get; }
 ref bool HideViewModelWhenZoomed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool HideViewModelWhenZoomed { get; }
 ref float InaccuracyAltSoundThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float InaccuracyAltSoundThreshold { get; }
 CFiringModeFloat InaccuracyCrouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -226,7 +226,7 @@ CFiringModeFloat InaccuracyCrouch { get; }
 CFiringModeFloat InaccuracyFire { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -236,7 +236,7 @@ CFiringModeFloat InaccuracyFire { get; }
 CFiringModeFloat InaccuracyJump { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -246,7 +246,7 @@ CFiringModeFloat InaccuracyJump { get; }
 ref float InaccuracyJumpApex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -256,7 +256,7 @@ ref float InaccuracyJumpApex { get; }
 ref float InaccuracyJumpInitial { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -266,7 +266,7 @@ ref float InaccuracyJumpInitial { get; }
 CFiringModeFloat InaccuracyLadder { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -276,7 +276,7 @@ CFiringModeFloat InaccuracyLadder { get; }
 CFiringModeFloat InaccuracyLand { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -286,7 +286,7 @@ CFiringModeFloat InaccuracyLand { get; }
 CFiringModeFloat InaccuracyMove { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -296,7 +296,7 @@ CFiringModeFloat InaccuracyMove { get; }
 ref float InaccuracyPitchShift { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -306,7 +306,7 @@ ref float InaccuracyPitchShift { get; }
 ref float InaccuracyReload { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -316,7 +316,7 @@ ref float InaccuracyReload { get; }
 CFiringModeFloat InaccuracyStand { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -326,7 +326,7 @@ CFiringModeFloat InaccuracyStand { get; }
 ref float IronSightFOV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -336,7 +336,7 @@ ref float IronSightFOV { get; }
 ref float IronSightLooseness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -346,7 +346,7 @@ ref float IronSightLooseness { get; }
 ref float IronSightPivotForward { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -356,7 +356,7 @@ ref float IronSightPivotForward { get; }
 ref float IronSightPullUpSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -366,7 +366,7 @@ ref float IronSightPullUpSpeed { get; }
 ref float IronSightPutDownSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -376,7 +376,7 @@ ref float IronSightPutDownSpeed { get; }
 ref bool IsFullAuto { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -386,7 +386,7 @@ ref bool IsFullAuto { get; }
 ref bool IsRevolver { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -396,7 +396,7 @@ ref bool IsRevolver { get; }
 ref int KillAward { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -406,7 +406,7 @@ ref int KillAward { get; }
 CFiringModeFloat MaxSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -416,7 +416,7 @@ CFiringModeFloat MaxSpeed { get; }
 ref bool MeleeWeapon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -426,7 +426,7 @@ ref bool MeleeWeapon { get; }
 SchemaUntypedField Model_AG2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -436,7 +436,7 @@ SchemaUntypedField Model_AG2 { get; }
 ref Vector MuzzlePos0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -446,7 +446,7 @@ ref Vector MuzzlePos0 { get; }
 ref Vector MuzzlePos1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -456,7 +456,7 @@ ref Vector MuzzlePos1 { get; }
 ref CGlobalSymbol Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -466,7 +466,7 @@ ref CGlobalSymbol Name { get; }
 ref int NumBullets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -476,7 +476,7 @@ ref int NumBullets { get; }
 ref float Penetration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -486,7 +486,7 @@ ref float Penetration { get; }
 ref int Price { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -496,7 +496,7 @@ ref int Price { get; }
 ref int PrimaryReserveAmmoMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -506,7 +506,7 @@ ref int PrimaryReserveAmmoMax { get; }
 ref float Range { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -516,7 +516,7 @@ ref float Range { get; }
 ref float RangeModifier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -526,7 +526,7 @@ ref float RangeModifier { get; }
 CFiringModeFloat RecoilAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -536,7 +536,7 @@ CFiringModeFloat RecoilAngle { get; }
 CFiringModeFloat RecoilAngleVariance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -546,7 +546,7 @@ CFiringModeFloat RecoilAngleVariance { get; }
 CFiringModeFloat RecoilMagnitude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -556,7 +556,7 @@ CFiringModeFloat RecoilMagnitude { get; }
 CFiringModeFloat RecoilMagnitudeVariance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -566,7 +566,7 @@ CFiringModeFloat RecoilMagnitudeVariance { get; }
 ref int RecoilSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -576,7 +576,7 @@ ref int RecoilSeed { get; }
 ref float RecoveryTimeCrouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -586,7 +586,7 @@ ref float RecoveryTimeCrouch { get; }
 ref float RecoveryTimeCrouchFinal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -596,7 +596,7 @@ ref float RecoveryTimeCrouchFinal { get; }
 ref float RecoveryTimeStand { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -606,7 +606,7 @@ ref float RecoveryTimeStand { get; }
 ref float RecoveryTimeStandFinal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -616,7 +616,7 @@ ref float RecoveryTimeStandFinal { get; }
 ref int RecoveryTransitionEndBullet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -626,7 +626,7 @@ ref int RecoveryTransitionEndBullet { get; }
 ref int RecoveryTransitionStartBullet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -636,7 +636,7 @@ ref int RecoveryTransitionStartBullet { get; }
 ref bool ReloadsSingleShells { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -646,7 +646,7 @@ ref bool ReloadsSingleShells { get; }
 ref int SecondaryReserveAmmoMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -656,7 +656,7 @@ ref int SecondaryReserveAmmoMax { get; }
 ref CSWeaponSilencerType SilencerType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSWeaponSilencerType](/docs/api/shared/schemadefinitions/csweaponsilencertype)
 
@@ -666,7 +666,7 @@ ref CSWeaponSilencerType SilencerType { get; }
 ref Vector SmokeColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -676,7 +676,7 @@ ref Vector SmokeColor { get; }
 CFiringModeFloat Spread { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeFloat](/docs/api/shared/schemadefinitions/cfiringmodefloat)
 
@@ -686,7 +686,7 @@ CFiringModeFloat Spread { get; }
 ref int SpreadSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -696,7 +696,7 @@ ref int SpreadSeed { get; }
 ref float ThrowVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -706,7 +706,7 @@ ref float ThrowVelocity { get; }
 CFiringModeInt TracerFrequency { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFiringModeInt](/docs/api/shared/schemadefinitions/cfiringmodeint)
 
@@ -716,7 +716,7 @@ CFiringModeInt TracerFrequency { get; }
 SchemaUntypedField TracerParticle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -726,7 +726,7 @@ SchemaUntypedField TracerParticle { get; }
 ref bool UnzoomsAfterShot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -736,7 +736,7 @@ ref bool UnzoomsAfterShot { get; }
 string UseRadioSubtitle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -746,7 +746,7 @@ string UseRadioSubtitle { get; set; }
 ref CSWeaponCategory WeaponCategory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSWeaponCategory](/docs/api/shared/schemadefinitions/csweaponcategory)
 
@@ -756,7 +756,7 @@ ref CSWeaponCategory WeaponCategory { get; }
 ref CSWeaponType WeaponType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSWeaponType](/docs/api/shared/schemadefinitions/csweapontype)
 
@@ -766,7 +766,7 @@ ref CSWeaponType WeaponType { get; }
 ref int ZoomFOV1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -776,7 +776,7 @@ ref int ZoomFOV1 { get; }
 ref int ZoomFOV2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -786,7 +786,7 @@ ref int ZoomFOV2 { get; }
 ref int ZoomLevels { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -796,7 +796,7 @@ ref int ZoomLevels { get; }
 ref float ZoomTime0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -806,7 +806,7 @@ ref float ZoomTime0 { get; }
 ref float ZoomTime1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -816,7 +816,7 @@ ref float ZoomTime1 { get; }
 ref float ZoomTime2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

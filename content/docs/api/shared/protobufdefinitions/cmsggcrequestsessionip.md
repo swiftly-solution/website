@@ -6,7 +6,7 @@ title: CMsgGCRequestSessionIP
 public interface CMsgGCRequestSessionIP : ITypedProtobuf<CMsgGCRequestSessionIP>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCRequestSessionIP : ITypedProtobuf<CMsgGCRequestSessionIP>
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

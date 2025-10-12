@@ -6,7 +6,7 @@ title: CSosGroupActionLimitSchema
 public interface CSosGroupActionLimitSchema : CSosGroupActionSchema, ISchemaClass<CSosGroupActionSchema>, ISchemaClass<CSosGroupActionLimitSchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSosGroupActionLimitSchema : CSosGroupActionSchema, ISchemaClas
 ref bool CountStopped { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CountStopped { get; }
 ref int MaxCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int MaxCount { get; }
 ref SosActionSortType_t SortType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SosActionSortType_t](/docs/api/shared/schemadefinitions/sosactionsorttype_t)
 
@@ -46,7 +46,7 @@ ref SosActionSortType_t SortType { get; }
 ref bool StopImmediate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool StopImmediate { get; }
 ref SosActionStopType_t StopType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SosActionStopType_t](/docs/api/shared/schemadefinitions/sosactionstoptype_t)
 

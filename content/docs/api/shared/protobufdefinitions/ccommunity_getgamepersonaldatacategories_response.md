@@ -6,7 +6,7 @@ title: CCommunity_GetGamePersonalDataCategories_Response
 public interface CCommunity_GetGamePersonalDataCategories_Response : ITypedProtobuf<CCommunity_GetGamePersonalDataCategories_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCommunity_GetGamePersonalDataCategories_Response : ITypedProto
 string AppAssetsBasename { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AppAssetsBasename { get; set; }
 IProtobufRepeatedFieldSubMessageType<CCommunity_GamePersonalDataCategoryInfo> Categories { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCommunity_GamePersonalDataCategoryInfo](/docs/api/shared/protobufdefinitions/ccommunity_gamepersonaldatacategoryinfo)>
 

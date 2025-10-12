@@ -6,7 +6,7 @@ title: EventResetGameTitledata
 public interface EventResetGameTitledata : IGameEvent<EventResetGameTitledata>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventResetGameTitledata : IGameEvent<EventResetGameTitledata>
 short ControllerId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

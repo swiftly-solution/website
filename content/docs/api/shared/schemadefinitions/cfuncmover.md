@@ -6,7 +6,7 @@ title: CFuncMover
 public interface CFuncMover : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CFuncMover>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFuncMover : CBaseModelEntity, CBaseEntity, CEntityInstance, IS
 ref bool AllowMovableNavMeshDockingOnEntireEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AllowMovableNavMeshDockingOnEntireEntity { get; }
 string ArriveAtDestinationSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ArriveAtDestinationSound { get; set; }
 ref bool CreateMovableNavMesh { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool CreateMovableNavMesh { get; }
 ref float CurFollowEntityT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float CurFollowEntityT { get; }
 ref float CurFollowSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float CurFollowSpeed { get; }
 ref int CurrentNodeIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int CurrentNodeIndex { get; }
 ref int DelayedTeleportToNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int DelayedTeleportToNode { get; }
 ref float DistanceToReachMaxSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float DistanceToReachMaxSpeed { get; }
 ref float DistanceToReachZeroSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float DistanceToReachZeroSpeed { get; }
 ref float DurationBlendToNewOrientationRan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float DurationBlendToNewOrientationRan { get; }
 ref float FollowDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float FollowDistance { get; }
 ref CHandle<CBaseEntity> FollowEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -136,7 +136,7 @@ ref CHandle<CBaseEntity> FollowEntity { get; }
 ref CFuncMover__FollowEntityDirection_t FollowEntityDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFuncMover__FollowEntityDirection_t](/docs/api/shared/schemadefinitions/cfuncmover__followentitydirection_t)
 
@@ -146,7 +146,7 @@ ref CFuncMover__FollowEntityDirection_t FollowEntityDirection { get; }
 ref float FollowMinimumSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float FollowMinimumSpeed { get; }
 ref bool IsMoving { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool IsMoving { get; }
 ref bool IsPaused { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool IsPaused { get; }
 ref bool IsReversing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -186,7 +186,7 @@ ref bool IsReversing { get; }
 ref bool IsVerboseLogging { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool IsVerboseLogging { get; }
 ref Vector LerpToNewPosEndInPathEntitySpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -206,7 +206,7 @@ ref Vector LerpToNewPosEndInPathEntitySpace { get; }
 ref Vector LerpToNewPosStartInPathEntitySpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -216,7 +216,7 @@ ref Vector LerpToNewPosStartInPathEntitySpace { get; }
 ref float LerpToPositionDeltaT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -226,7 +226,7 @@ ref float LerpToPositionDeltaT { get; }
 ref float LerpToPositionT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float LerpToPositionT { get; }
 string LoopForwardSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -246,7 +246,7 @@ string LoopForwardSound { get; set; }
 string LoopReverseSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -256,7 +256,7 @@ string LoopReverseSound { get; set; }
 ref CFuncMover__Move_t MoveType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFuncMover__Move_t](/docs/api/shared/schemadefinitions/cfuncmover__move_t)
 
@@ -266,7 +266,7 @@ ref CFuncMover__Move_t MoveType { get; }
 ref bool NextNodeReturnsCurrent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -276,7 +276,7 @@ ref bool NextNodeReturnsCurrent { get; }
 CEntityIOOutput OnLerpToPositionComplete { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -286,7 +286,7 @@ CEntityIOOutput OnLerpToPositionComplete { get; }
 CEntityIOOutput OnMovementEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -296,7 +296,7 @@ CEntityIOOutput OnMovementEnd { get; }
 CEntityIOOutput OnNodePassed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -306,7 +306,7 @@ CEntityIOOutput OnNodePassed { get; }
 CEntityIOOutput OnStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -316,7 +316,7 @@ CEntityIOOutput OnStart { get; }
 CEntityIOOutput OnStartForward { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -326,7 +326,7 @@ CEntityIOOutput OnStartForward { get; }
 CEntityIOOutput OnStartReverse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -336,7 +336,7 @@ CEntityIOOutput OnStartReverse { get; }
 CEntityIOOutput OnStop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -346,7 +346,7 @@ CEntityIOOutput OnStop { get; }
 CEntityIOOutput OnStopped { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -356,7 +356,7 @@ CEntityIOOutput OnStopped { get; }
 ref CHandle<CBaseEntity> OrientationFaceEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -366,7 +366,7 @@ ref CHandle<CBaseEntity> OrientationFaceEntity { get; }
 ref CHandle<CBaseEntity> OrientationMatchEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -376,7 +376,7 @@ ref CHandle<CBaseEntity> OrientationMatchEntity { get; }
 string OrientationMatchEntityName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -386,7 +386,7 @@ string OrientationMatchEntityName { get; set; }
 ref CFuncMover__OrientationUpdate_t OrientationUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFuncMover__OrientationUpdate_t](/docs/api/shared/schemadefinitions/cfuncmover__orientationupdate_t)
 
@@ -396,7 +396,7 @@ ref CFuncMover__OrientationUpdate_t OrientationUpdate { get; }
 ref int OriginalOrientationIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -406,7 +406,7 @@ ref int OriginalOrientationIndex { get; }
 ref float PathLocation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -416,7 +416,7 @@ ref float PathLocation { get; }
 ref float PathLocationToBeginStop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -426,7 +426,7 @@ ref float PathLocationToBeginStop { get; }
 ref CHandle<CPathMover> PathMover { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPathMover](/docs/api/shared/schemadefinitions/cpathmover)>
 
@@ -436,7 +436,7 @@ ref CHandle<CPathMover> PathMover { get; }
 string PathName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -446,7 +446,7 @@ string PathName { get; set; }
 string PathNodeEnd { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -456,7 +456,7 @@ string PathNodeEnd { get; set; }
 string PathNodeStart { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -466,7 +466,7 @@ string PathNodeStart { get; set; }
 ref CHandle<CPathMover> PrevPathMover { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPathMover](/docs/api/shared/schemadefinitions/cpathmover)>
 
@@ -476,7 +476,7 @@ ref CHandle<CPathMover> PrevPathMover { get; }
 ref int PreviousNodeIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -486,7 +486,7 @@ ref int PreviousNodeIndex { get; }
 ref SolidType_t SolidType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SolidType_t](/docs/api/shared/schemadefinitions/solidtype_t)
 
@@ -496,7 +496,7 @@ ref SolidType_t SolidType { get; }
 ref bool StartAtClosestPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -506,7 +506,7 @@ ref bool StartAtClosestPoint { get; }
 ref bool StartAtEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -516,7 +516,7 @@ ref bool StartAtEnd { get; }
 string StartForwardSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -526,7 +526,7 @@ string StartForwardSound { get; set; }
 string StartReverseSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -536,7 +536,7 @@ string StartReverseSound { get; set; }
 ref float StartSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -546,7 +546,7 @@ ref float StartSpeed { get; }
 ref bool StartedMoving { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -556,7 +556,7 @@ ref bool StartedMoving { get; }
 ref CHandle<CMoverPathNode> StopAtNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CMoverPathNode](/docs/api/shared/schemadefinitions/cmoverpathnode)>
 
@@ -566,7 +566,7 @@ ref CHandle<CMoverPathNode> StopAtNode { get; }
 string StopForwardSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -576,7 +576,7 @@ string StopForwardSound { get; set; }
 string StopReverseSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -586,7 +586,7 @@ string StopReverseSound { get; set; }
 string StrOrientationFaceEntityName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -596,7 +596,7 @@ string StrOrientationFaceEntityName { get; set; }
 ref float T { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -606,7 +606,7 @@ ref float T { get; }
 ref Vector Target { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -616,7 +616,7 @@ ref Vector Target { get; }
 GameTime_t TimeMovementStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -626,7 +626,7 @@ GameTime_t TimeMovementStart { get; }
 GameTime_t TimeMovementStop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -636,7 +636,7 @@ GameTime_t TimeMovementStop { get; }
 GameTime_t TimeStartOrientationChange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -646,7 +646,7 @@ GameTime_t TimeStartOrientationChange { get; }
 ref float TimeToBlendToNewOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -656,7 +656,7 @@ ref float TimeToBlendToNewOrientation { get; }
 ref float TimeToReachMaxSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -666,7 +666,7 @@ ref float TimeToReachMaxSpeed { get; }
 ref float TimeToReachZeroSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -676,7 +676,7 @@ ref float TimeToReachZeroSpeed { get; }
 ref float TimeToTraverseToNextNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -686,7 +686,7 @@ ref float TimeToTraverseToNextNode { get; }
 ref CFuncMover__TransitionToPathNodeAction_t TransitionedToPathNodeAction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFuncMover__TransitionToPathNodeAction_t](/docs/api/shared/schemadefinitions/cfuncmover__transitiontopathnodeaction_t)
 

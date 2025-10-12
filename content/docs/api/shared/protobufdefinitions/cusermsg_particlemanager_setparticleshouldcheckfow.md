@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetParticleShouldCheckFoW
 public interface CUserMsg_ParticleManager_SetParticleShouldCheckFoW : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleShouldCheckFoW>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetParticleShouldCheckFoW : ITypedProt
 bool CheckFow { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

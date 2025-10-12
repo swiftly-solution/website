@@ -6,7 +6,7 @@ title: VPhysXCollisionAttributes_t
 public interface VPhysXCollisionAttributes_t : ISchemaClass<VPhysXCollisionAttributes_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VPhysXCollisionAttributes_t : ISchemaClass<VPhysXCollisionAttri
 ref uint CollisionGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint CollisionGroup { get; }
 string CollisionGroupString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string CollisionGroupString { get; set; }
 ref CUtlVector<uint> InteractAs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<uint> InteractAs { get; }
 ref CUtlVector<CUtlString> InteractAsStrings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<CUtlString> InteractAsStrings { get; }
 ref CUtlVector<uint> InteractExclude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<uint> InteractExclude { get; }
 ref CUtlVector<CUtlString> InteractExcludeStrings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -76,7 +76,7 @@ ref CUtlVector<CUtlString> InteractExcludeStrings { get; }
 ref CUtlVector<uint> InteractWith { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -86,7 +86,7 @@ ref CUtlVector<uint> InteractWith { get; }
 ref CUtlVector<CUtlString> InteractWithStrings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 

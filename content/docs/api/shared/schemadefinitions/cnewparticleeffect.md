@@ -6,7 +6,7 @@ title: CNewParticleEffect
 public interface CNewParticleEffect : IParticleEffect, ISchemaClass<IParticleEffect>, ISchemaClass<CNewParticleEffect>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNewParticleEffect : IParticleEffect, ISchemaClass<IParticleEff
 ref Vector AggregationCenter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector AggregationCenter { get; }
 SchemaUntypedField Allocated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Allocated { get; }
 SchemaUntypedField AutoUpdateBBox { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField AutoUpdateBBox { get; }
 ref bool CanFreeze { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool CanFreeze { get; }
 string DebugName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string DebugName { get; set; }
 SchemaUntypedField DontRemove { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField DontRemove { get; }
 SchemaUntypedField ForceNoDraw { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -86,7 +86,7 @@ SchemaUntypedField ForceNoDraw { get; }
 ref bool FreezeTargetState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool FreezeTargetState { get; }
 ref bool FreezeTransitionActive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool FreezeTransitionActive { get; }
 ref float FreezeTransitionDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float FreezeTransitionDuration { get; }
 ref float FreezeTransitionOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float FreezeTransitionOverride { get; }
 ref float FreezeTransitionStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float FreezeTransitionStart { get; }
 SchemaUntypedField IsFirstFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -146,7 +146,7 @@ SchemaUntypedField IsFirstFrame { get; }
 ref Vector LastMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -156,7 +156,7 @@ ref Vector LastMax { get; }
 ref Vector LastMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -166,7 +166,7 @@ ref Vector LastMin { get; }
 SchemaUntypedField NeedsBBoxUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -176,7 +176,7 @@ SchemaUntypedField NeedsBBoxUpdate { get; }
 CNewParticleEffect? Next { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNewParticleEffect](/docs/api/shared/schemadefinitions/cnewparticleeffect)?
 
@@ -186,7 +186,7 @@ CNewParticleEffect? Next { get; }
 PARTICLE_EHANDLE__? Owner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PARTICLE_EHANDLE__](/docs/api/shared/schemadefinitions/particle_ehandle__)?
 
@@ -196,7 +196,7 @@ PARTICLE_EHANDLE__? Owner { get; }
 CParticleProperty? OwningParticleProperty { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleProperty](/docs/api/shared/schemadefinitions/cparticleproperty)?
 
@@ -206,7 +206,7 @@ CParticleProperty? OwningParticleProperty { get; }
 IParticleCollection? Particles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IParticleCollection](/docs/api/shared/schemadefinitions/iparticlecollection)?
 
@@ -216,7 +216,7 @@ IParticleCollection? Particles { get; }
 CNewParticleEffect? Prev { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNewParticleEffect](/docs/api/shared/schemadefinitions/cnewparticleeffect)?
 
@@ -226,7 +226,7 @@ CNewParticleEffect? Prev { get; }
 ref int RefCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int RefCount { get; }
 SchemaUntypedField Remove { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -246,7 +246,7 @@ SchemaUntypedField Remove { get; }
 ref float Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -256,7 +256,7 @@ ref float Scale { get; }
 SchemaUntypedField ShouldCheckFoW { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -266,7 +266,7 @@ SchemaUntypedField ShouldCheckFoW { get; }
 SchemaUntypedField ShouldPerformCullCheck { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -276,7 +276,7 @@ SchemaUntypedField ShouldPerformCullCheck { get; }
 SchemaUntypedField ShouldSave { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -286,7 +286,7 @@ SchemaUntypedField ShouldSave { get; }
 SchemaUntypedField ShouldSimulateDuringGamePaused { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -296,7 +296,7 @@ SchemaUntypedField ShouldSimulateDuringGamePaused { get; }
 SchemaUntypedField Simulate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -306,7 +306,7 @@ SchemaUntypedField Simulate { get; }
 ref Vector SortOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -316,7 +316,7 @@ ref Vector SortOrigin { get; }
 ref uint SplitScreenUser { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -326,7 +326,7 @@ ref uint SplitScreenUser { get; }
 SchemaUntypedField SuppressScreenSpaceEffect { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

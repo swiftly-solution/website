@@ -6,7 +6,7 @@ title: CBaseIssue
 public interface CBaseIssue : ISchemaClass<CBaseIssue>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseIssue : ISchemaClass<CBaseIssue>, ISchemaField, ISchemaCla
 string DetailsString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string DetailsString { get; set; }
 ref int NumNoVotes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int NumNoVotes { get; }
 ref int NumPotentialVotes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int NumPotentialVotes { get; }
 ref int NumYesVotes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int NumYesVotes { get; }
 string TypeString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string TypeString { get; set; }
 CVoteController? VoteController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CVoteController](/docs/api/shared/schemadefinitions/cvotecontroller)?
 

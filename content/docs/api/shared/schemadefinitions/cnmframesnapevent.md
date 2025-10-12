@@ -6,7 +6,7 @@ title: CNmFrameSnapEvent
 public interface CNmFrameSnapEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmFrameSnapEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFrameSnapEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaCl
 ref NmFrameSnapEventMode_t FrameSnapMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmFrameSnapEventMode_t](/docs/api/shared/schemadefinitions/nmframesnapeventmode_t)
 

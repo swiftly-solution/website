@@ -6,7 +6,7 @@ title: PulseCursorID_t
 public interface PulseCursorID_t : ISchemaClass<PulseCursorID_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseCursorID_t : ISchemaClass<PulseCursorID_t>, ISchemaField, 
 ref int Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

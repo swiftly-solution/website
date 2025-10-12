@@ -6,7 +6,7 @@ title: SkeletonDemoDb_t
 public interface SkeletonDemoDb_t : ISchemaClass<SkeletonDemoDb_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SkeletonDemoDb_t : ISchemaClass<SkeletonDemoDb_t>, ISchemaField
 ref CUtlVector<PointerTo<SkeletonAnimCapture_t>> AnimCaptures { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SkeletonAnimCapture_t](/docs/api/shared/schemadefinitions/skeletonanimcapture_t)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<PointerTo<SkeletonAnimCapture_t>> AnimCaptures { get; }
 ref CUtlVector CameraTrack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector CameraTrack { get; }
 ref float RecordingTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CNmParameterizedBlendNode__Parameterization_t
 public interface CNmParameterizedBlendNode__Parameterization_t : ISchemaClass<CNmParameterizedBlendNode__Parameterization_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmParameterizedBlendNode__Parameterization_t : ISchemaClass<CN
 SchemaUntypedField BlendRanges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField BlendRanges { get; }
 SchemaUntypedField ParameterRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

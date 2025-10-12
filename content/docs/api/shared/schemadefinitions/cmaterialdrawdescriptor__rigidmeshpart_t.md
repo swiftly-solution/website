@@ -6,7 +6,7 @@ title: CMaterialDrawDescriptor__RigidMeshPart_t
 public interface CMaterialDrawDescriptor__RigidMeshPart_t : ISchemaClass<CMaterialDrawDescriptor__RigidMeshPart_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMaterialDrawDescriptor__RigidMeshPart_t : ISchemaClass<CMateri
 ref short BoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short BoneIndex { get; }
 ref uint PrimitiveCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint PrimitiveCount { get; }
 ref ushort RigidBLASIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort RigidBLASIndex { get; }
 ref uint StartIndexOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

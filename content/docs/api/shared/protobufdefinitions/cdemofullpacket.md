@@ -6,7 +6,7 @@ title: CDemoFullPacket
 public interface CDemoFullPacket : ITypedProtobuf<CDemoFullPacket>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoFullPacket : ITypedProtobuf<CDemoFullPacket>, INativeHandl
 CDemoPacket Packet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CDemoPacket](/docs/api/shared/protobufdefinitions/cdemopacket)
 
@@ -26,7 +26,7 @@ CDemoPacket Packet { get; }
 CDemoStringTables StringTable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CDemoStringTables](/docs/api/shared/protobufdefinitions/cdemostringtables)
 

@@ -6,7 +6,7 @@ title: CCSUsrMsg_Train
 public interface CCSUsrMsg_Train : ITypedProtobuf<CCSUsrMsg_Train>, INativeHandle, INetMessage<CCSUsrMsg_Train>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_Train : ITypedProtobuf<CCSUsrMsg_Train>, INativeHandl
 int Train { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

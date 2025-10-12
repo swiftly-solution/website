@@ -6,7 +6,7 @@ title: C_OP_RepeatedTriggerChildGroup
 public interface C_OP_RepeatedTriggerChildGroup : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_RepeatedTriggerChildGroup>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RepeatedTriggerChildGroup : CParticleFunctionPreEmission, 
 ref int ChildGroupID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ChildGroupID { get; }
 CParticleCollectionFloatInput ClusterCooldown { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput ClusterCooldown { get; }
 CParticleCollectionFloatInput ClusterRefireTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionFloatInput ClusterRefireTime { get; }
 CParticleCollectionFloatInput ClusterSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -56,7 +56,7 @@ CParticleCollectionFloatInput ClusterSize { get; }
 ref bool LimitChildCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

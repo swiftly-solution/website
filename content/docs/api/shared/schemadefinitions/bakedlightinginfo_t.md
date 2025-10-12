@@ -6,7 +6,7 @@ title: BakedLightingInfo_t
 public interface BakedLightingInfo_t : ISchemaClass<BakedLightingInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface BakedLightingInfo_t : ISchemaClass<BakedLightingInfo_t>, ISchem
 ref CUtlVector BakedShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector BakedShadows { get; }
 ref bool BakedShadowsGamma20 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool BakedShadowsGamma20 { get; }
 ref byte ChartPackIterations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -46,7 +46,7 @@ ref byte ChartPackIterations { get; }
 ref bool CompressionEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool CompressionEnabled { get; }
 ref bool HasLightmaps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool HasLightmaps { get; }
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCTextureBase>> LightMaps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>>
 
@@ -76,7 +76,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCTextureBase>> LightMaps { get; 
 ref uint LightmapGameVersionNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ ref uint LightmapGameVersionNumber { get; }
 ref Vector2D LightmapUvScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -96,7 +96,7 @@ ref Vector2D LightmapUvScale { get; }
 ref uint LightmapVersionNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ ref uint LightmapVersionNumber { get; }
 ref bool SHLightmaps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool SHLightmaps { get; }
 ref byte VradQuality { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

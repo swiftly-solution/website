@@ -6,7 +6,7 @@ title: EventSetInstructorGroupEnabled
 public interface EventSetInstructorGroupEnabled : IGameEvent<EventSetInstructorGroupEnabled>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventSetInstructorGroupEnabled : IGameEvent<EventSetInstructorG
 short Enabled { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short Enabled { get; set; }
 string Group { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

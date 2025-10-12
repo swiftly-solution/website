@@ -6,7 +6,7 @@ title: AggregateInstanceStreamOnDiskData_t
 public interface AggregateInstanceStreamOnDiskData_t : ISchemaClass<AggregateInstanceStreamOnDiskData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AggregateInstanceStreamOnDiskData_t : ISchemaClass<AggregateIns
 ref CUtlBinaryBlock BufferData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 
@@ -26,7 +26,7 @@ ref CUtlBinaryBlock BufferData { get; }
 ref uint DecodedSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

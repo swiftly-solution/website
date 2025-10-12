@@ -6,7 +6,7 @@ title: CNmSkeleton
 public interface CNmSkeleton : ISchemaClass<CNmSkeleton>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmSkeleton : ISchemaClass<CNmSkeleton>, ISchemaField, ISchemaC
 SchemaUntypedField BoneIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField BoneIDs { get; }
 ref CGlobalSymbol ID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -36,7 +36,7 @@ ref CGlobalSymbol ID { get; }
 ref bool IsPropSkeleton { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IsPropSkeleton { get; }
 SchemaUntypedField MaskDefinitions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField MaskDefinitions { get; }
 ref CUtlVector<CTransform> ModelSpaceReferencePose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<CTransform> ModelSpaceReferencePose { get; }
 ref int NumBonesToSampleAtLowLOD { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int NumBonesToSampleAtLowLOD { get; }
 ref CUtlVector<int> ParentIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -86,7 +86,7 @@ ref CUtlVector<int> ParentIndices { get; }
 ref CUtlVector<CTransform> ParentSpaceReferencePose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<CTransform> ParentSpaceReferencePose { get; }
 SchemaUntypedField SecondarySkeletons { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

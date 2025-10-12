@@ -6,5 +6,5 @@ title: InfoForResourceTypeCSequenceGroupData
 public interface InfoForResourceTypeCSequenceGroupData : ISchemaClass<InfoForResourceTypeCSequenceGroupData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

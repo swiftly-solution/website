@@ -6,7 +6,7 @@ title: CLookAtUpdateNode
 public interface CLookAtUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CLookAtUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLookAtUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISch
 ref bool LockWhenWaning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool LockWhenWaning { get; }
 LookAtOpFixedSettings_t OpFixedSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [LookAtOpFixedSettings_t](/docs/api/shared/schemadefinitions/lookatopfixedsettings_t)
 
@@ -36,7 +36,7 @@ LookAtOpFixedSettings_t OpFixedSettings { get; }
 CAnimParamHandle ParamIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -46,7 +46,7 @@ CAnimParamHandle ParamIndex { get; }
 ref bool ResetChild { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool ResetChild { get; }
 ref AnimVectorSource Target { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimVectorSource](/docs/api/shared/schemadefinitions/animvectorsource)
 
@@ -66,7 +66,7 @@ ref AnimVectorSource Target { get; }
 CAnimParamHandle WeightParamIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 

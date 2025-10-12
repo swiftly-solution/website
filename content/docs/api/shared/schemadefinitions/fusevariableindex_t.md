@@ -6,7 +6,7 @@ title: FuseVariableIndex_t
 public interface FuseVariableIndex_t : ISchemaClass<FuseVariableIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FuseVariableIndex_t : ISchemaClass<FuseVariableIndex_t>, ISchem
 ref ushort Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

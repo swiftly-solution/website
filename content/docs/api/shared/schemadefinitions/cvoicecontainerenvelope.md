@@ -6,7 +6,7 @@ title: CVoiceContainerEnvelope
 public interface CVoiceContainerEnvelope : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerEnvelope>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerEnvelope : CVoiceContainerBase, ISchemaClass<CVo
 CVoiceContainerAnalysisBase? AnalysisContainer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CVoiceContainerAnalysisBase](/docs/api/shared/schemadefinitions/cvoicecontaineranalysisbase)?
 
@@ -26,7 +26,7 @@ CVoiceContainerAnalysisBase? AnalysisContainer { get; }
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> Sound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>
 

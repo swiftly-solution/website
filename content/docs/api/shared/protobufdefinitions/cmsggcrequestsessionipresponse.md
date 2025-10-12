@@ -6,7 +6,7 @@ title: CMsgGCRequestSessionIPResponse
 public interface CMsgGCRequestSessionIPResponse : ITypedProtobuf<CMsgGCRequestSessionIPResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCRequestSessionIPResponse : ITypedProtobuf<CMsgGCRequestSe
 uint Ip { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CMsgInviteToParty
 public interface CMsgInviteToParty : ITypedProtobuf<CMsgInviteToParty>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgInviteToParty : ITypedProtobuf<CMsgInviteToParty>, INativeH
 uint ClientVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ClientVersion { get; set; }
 ulong SteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong SteamId { get; set; }
 uint TeamInvite { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

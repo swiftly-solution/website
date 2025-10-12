@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientReportValidation
 public interface CMsgGCCStrike15_v2_ClientReportValidation : ITypedProtobuf<CMsgGCCStrike15_v2_ClientReportValidation>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientReportValidation : ITypedProtobuf<CMsg
 ulong ClientTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong ClientTime { get; set; }
 uint Clientreportversion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Clientreportversion { get; set; }
 string CommandLine { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string CommandLine { get; set; }
 uint CountCompleted { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint CountCompleted { get; set; }
 uint CountPending { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint CountPending { get; set; }
 uint Diagnostic1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint Diagnostic1 { get; set; }
 ulong Diagnostic2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -86,7 +86,7 @@ ulong Diagnostic2 { get; set; }
 ulong Diagnostic3 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -96,7 +96,7 @@ ulong Diagnostic3 { get; set; }
 ulong Diagnostic4 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -106,7 +106,7 @@ ulong Diagnostic4 { get; set; }
 ulong Diagnostic5 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -116,7 +116,7 @@ ulong Diagnostic5 { get; set; }
 IProtobufRepeatedFieldSubMessageType<CVDiagnostic> Diagnostics { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CVDiagnostic](/docs/api/shared/protobufdefinitions/cvdiagnostic)>
 
@@ -126,7 +126,7 @@ IProtobufRepeatedFieldSubMessageType<CVDiagnostic> Diagnostics { get; }
 string FileReport { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string FileReport { get; set; }
 uint InternalError { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ uint InternalError { get; set; }
 string LastLaunchData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -156,7 +156,7 @@ string LastLaunchData { get; set; }
 int Osversion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ int Osversion { get; set; }
 uint ProcessId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -176,7 +176,7 @@ uint ProcessId { get; set; }
 uint ReportCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -186,7 +186,7 @@ uint ReportCount { get; set; }
 uint StatusId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -196,7 +196,7 @@ uint StatusId { get; set; }
 uint TotalFiles { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -206,7 +206,7 @@ uint TotalFiles { get; set; }
 uint TrustTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CUserMessageHudText
 public interface CUserMessageHudText : ITypedProtobuf<CUserMessageHudText>, INativeHandle, INetMessage<CUserMessageHudText>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageHudText : ITypedProtobuf<CUserMessageHudText>, INat
 string Message { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

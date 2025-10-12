@@ -6,7 +6,7 @@ title: ParticleControlPointConfiguration_t
 public interface ParticleControlPointConfiguration_t : ISchemaClass<ParticleControlPointConfiguration_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParticleControlPointConfiguration_t : ISchemaClass<ParticleCont
 ref CUtlVector Drivers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Drivers { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Name { get; set; }
 ParticlePreviewState_t PreviewState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticlePreviewState_t](/docs/api/shared/schemadefinitions/particlepreviewstate_t)
 

@@ -6,7 +6,7 @@ title: CNmParameterizedBlendNode__BlendRange_t
 public interface CNmParameterizedBlendNode__BlendRange_t : ISchemaClass<CNmParameterizedBlendNode__BlendRange_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmParameterizedBlendNode__BlendRange_t : ISchemaClass<CNmParam
 ref short InputIdx0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short InputIdx0 { get; }
 ref short InputIdx1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short InputIdx1 { get; }
 SchemaUntypedField ParameterValueRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

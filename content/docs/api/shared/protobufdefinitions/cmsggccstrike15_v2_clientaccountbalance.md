@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientAccountBalance
 public interface CMsgGCCStrike15_v2_ClientAccountBalance : ITypedProtobuf<CMsgGCCStrike15_v2_ClientAccountBalance>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientAccountBalance : ITypedProtobuf<CMsgGC
 ulong Amount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Amount { get; set; }
 string Url { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

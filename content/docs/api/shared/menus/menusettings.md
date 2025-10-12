@@ -6,7 +6,7 @@ title: MenuSettings
 public struct MenuSettings
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct MenuSettings
 public string ButtonsExit
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ public string ButtonsExit
 public string ButtonsScroll
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ public string ButtonsScroll
 public string ButtonsUse
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ public string ButtonsUse
 public string InputMode
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ public string InputMode
 public int ItemsPerPage
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ public int ItemsPerPage
 public string NavigationPrefix
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ public string NavigationPrefix
 public string SoundExitName
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ public string SoundExitName
 public float SoundExitVolume
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ public float SoundExitVolume
 public string SoundScrollName
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ public string SoundScrollName
 public float SoundScrollVolume
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ public float SoundScrollVolume
 public string SoundUseName
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -126,7 +126,7 @@ public string SoundUseName
 public float SoundUseVolume
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

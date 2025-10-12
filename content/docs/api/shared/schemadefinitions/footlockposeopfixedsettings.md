@@ -6,7 +6,7 @@ title: FootLockPoseOpFixedSettings
 public interface FootLockPoseOpFixedSettings : ISchemaClass<FootLockPoseOpFixedSettings>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FootLockPoseOpFixedSettings : ISchemaClass<FootLockPoseOpFixedS
 ref bool AlwaysUseFallbackHinge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AlwaysUseFallbackHinge { get; }
 ref bool ApplyFootRotationLimits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ApplyFootRotationLimits { get; }
 ref bool ApplyHipDrop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ApplyHipDrop { get; }
 ref bool ApplyLegTwistLimits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool ApplyLegTwistLimits { get; }
 ref bool ApplyTilt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool ApplyTilt { get; }
 ref bool EnableLockBreaking { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool EnableLockBreaking { get; }
 ref bool EnableStretching { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool EnableStretching { get; }
 ref float ExtensionScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float ExtensionScale { get; }
 ref CUtlVector FootInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -106,7 +106,7 @@ ref CUtlVector FootInfo { get; }
 ref int HipBoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int HipBoneIndex { get; }
 CAnimInputDamping HipDampingSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -126,7 +126,7 @@ CAnimInputDamping HipDampingSettings { get; }
 ref IKSolverType IkSolverType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IKSolverType](/docs/api/shared/schemadefinitions/iksolvertype)
 
@@ -136,7 +136,7 @@ ref IKSolverType IkSolverType { get; }
 ref float LockBlendTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float LockBlendTime { get; }
 ref float LockBreakTolerance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float LockBreakTolerance { get; }
 ref float MaxFootHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float MaxFootHeight { get; }
 ref float MaxLegTwist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float MaxLegTwist { get; }
 ref float MaxStretchAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float MaxStretchAmount { get; }
 ref float StretchExtensionScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

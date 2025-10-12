@@ -6,7 +6,7 @@ title: CCSUsrMsg_ServerRankUpdate
 public interface CCSUsrMsg_ServerRankUpdate : ITypedProtobuf<CCSUsrMsg_ServerRankUpdate>, INativeHandle, INetMessage<CCSUsrMsg_ServerRankUpdate>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ServerRankUpdate : ITypedProtobuf<CCSUsrMsg_ServerRan
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_ServerRankUpdate_RankUpdate> RankUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_ServerRankUpdate_RankUpdate](/docs/api/shared/protobufdefinitions/ccsusrmsg_serverrankupdate_rankupdate)>
 

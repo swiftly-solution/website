@@ -6,7 +6,7 @@ title: CSpeedScaleUpdateNode
 public interface CSpeedScaleUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CSpeedScaleUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSpeedScaleUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 CAnimParamHandle ParamIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 

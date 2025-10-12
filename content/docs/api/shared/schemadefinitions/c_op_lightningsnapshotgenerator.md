@@ -6,7 +6,7 @@ title: C_OP_LightningSnapshotGenerator
 public interface C_OP_LightningSnapshotGenerator : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_LightningSnapshotGenerator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_LightningSnapshotGenerator : CParticleFunctionPreEmission,
 ref ParticleLightnintBranchBehavior_t BranchBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleLightnintBranchBehavior_t](/docs/api/shared/schemadefinitions/particlelightnintbranchbehavior_t)
 
@@ -26,7 +26,7 @@ ref ParticleLightnintBranchBehavior_t BranchBehavior { get; }
 CParticleCollectionFloatInput BranchTwist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput BranchTwist { get; }
 ref int CPEndPnt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int CPEndPnt { get; }
 ref int CPSnapshot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int CPSnapshot { get; }
 ref int CPStartPnt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int CPStartPnt { get; }
 CParticleCollectionFloatInput DedicatedPool { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -76,7 +76,7 @@ CParticleCollectionFloatInput DedicatedPool { get; }
 CParticleCollectionFloatInput Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -86,7 +86,7 @@ CParticleCollectionFloatInput Offset { get; }
 CParticleCollectionFloatInput OffsetDecay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -96,7 +96,7 @@ CParticleCollectionFloatInput OffsetDecay { get; }
 CParticleCollectionFloatInput RadiusEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -106,7 +106,7 @@ CParticleCollectionFloatInput RadiusEnd { get; }
 CParticleCollectionFloatInput RadiusStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -116,7 +116,7 @@ CParticleCollectionFloatInput RadiusStart { get; }
 CParticleCollectionFloatInput RecalcRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -126,7 +126,7 @@ CParticleCollectionFloatInput RecalcRate { get; }
 CParticleCollectionFloatInput Segments { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -136,7 +136,7 @@ CParticleCollectionFloatInput Segments { get; }
 CParticleCollectionFloatInput SplitRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -146,7 +146,7 @@ CParticleCollectionFloatInput SplitRate { get; }
 CParticleCollectionFloatInput UVOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -156,7 +156,7 @@ CParticleCollectionFloatInput UVOffset { get; }
 CParticleCollectionFloatInput UVScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 

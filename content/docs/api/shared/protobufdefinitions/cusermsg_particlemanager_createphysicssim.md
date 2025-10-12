@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_CreatePhysicsSim
 public interface CUserMsg_ParticleManager_CreatePhysicsSim : ITypedProtobuf<CUserMsg_ParticleManager_CreatePhysicsSim>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_CreatePhysicsSim : ITypedProtobuf<CUse
 uint MaxParticleCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint MaxParticleCount { get; set; }
 string PropGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string PropGroupName { get; set; }
 bool UseHighQualitySimulation { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

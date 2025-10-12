@@ -6,7 +6,7 @@ title: CAttachment
 public interface CAttachment : ISchemaClass<CAttachment>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAttachment : ISchemaClass<CAttachment>, ISchemaField, ISchemaC
 ref bool IgnoreRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool IgnoreRotation { get; }
 string InfluenceNames { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string InfluenceNames { get; set; }
 ISchemaFixedArray<Vector> InfluenceOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -46,7 +46,7 @@ ISchemaFixedArray<Vector> InfluenceOffsets { get; }
 ISchemaFixedArray<bool> InfluenceRootTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 
@@ -56,7 +56,7 @@ ISchemaFixedArray<bool> InfluenceRootTransform { get; }
 ISchemaFixedArray<Quaternion> InfluenceRotations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Quaternion](/docs/api/shared/natives/quaternion)>
 
@@ -66,7 +66,7 @@ ISchemaFixedArray<Quaternion> InfluenceRotations { get; }
 ISchemaFixedArray<float> InfluenceWeights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -76,7 +76,7 @@ ISchemaFixedArray<float> InfluenceWeights { get; }
 ref byte Influences { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -86,7 +86,7 @@ ref byte Influences { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

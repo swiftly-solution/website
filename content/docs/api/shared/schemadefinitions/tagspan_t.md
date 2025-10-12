@@ -6,7 +6,7 @@ title: TagSpan_t
 public interface TagSpan_t : ISchemaClass<TagSpan_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface TagSpan_t : ISchemaClass<TagSpan_t>, ISchemaField, ISchemaClass
 ref float EndCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float EndCycle { get; }
 ref float StartCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float StartCycle { get; }
 ref int TagIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

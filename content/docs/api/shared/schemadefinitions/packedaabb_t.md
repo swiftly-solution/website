@@ -6,7 +6,7 @@ title: PackedAABB_t
 public interface PackedAABB_t : ISchemaClass<PackedAABB_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PackedAABB_t : ISchemaClass<PackedAABB_t>, ISchemaField, ISchem
 ref uint PackedMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint PackedMax { get; }
 ref uint PackedMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

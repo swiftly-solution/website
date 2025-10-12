@@ -6,5 +6,5 @@ title: CBoneConstraintBase
 public interface CBoneConstraintBase : ISchemaClass<CBoneConstraintBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

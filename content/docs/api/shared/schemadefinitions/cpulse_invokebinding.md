@@ -6,7 +6,7 @@ title: CPulse_InvokeBinding
 public interface CPulse_InvokeBinding : ISchemaClass<CPulse_InvokeBinding>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulse_InvokeBinding : ISchemaClass<CPulse_InvokeBinding>, ISch
 PulseRuntimeCellIndex_t CellIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeCellIndex_t](/docs/api/shared/schemadefinitions/pulseruntimecellindex_t)
 
@@ -26,7 +26,7 @@ PulseRuntimeCellIndex_t CellIndex { get; }
 SchemaUntypedField FuncName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField FuncName { get; }
 PulseRegisterMap_t RegisterMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRegisterMap_t](/docs/api/shared/schemadefinitions/pulseregistermap_t)
 
@@ -46,7 +46,7 @@ PulseRegisterMap_t RegisterMap { get; }
 PulseRuntimeChunkIndex_t SrcChunk { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeChunkIndex_t](/docs/api/shared/schemadefinitions/pulseruntimechunkindex_t)
 
@@ -56,7 +56,7 @@ PulseRuntimeChunkIndex_t SrcChunk { get; }
 ref int SrcInstruction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

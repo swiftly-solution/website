@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientRequestJoinServerData
 public interface CMsgGCCStrike15_v2_ClientRequestJoinServerData : ITypedProtobuf<CMsgGCCStrike15_v2_ClientRequestJoinServerData>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientRequestJoinServerData : ITypedProtobuf
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 string Errormsg { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Errormsg { get; set; }
 CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve Res { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2clientreserve)
 
@@ -46,7 +46,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve Res { get; }
 uint ServerIp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint ServerIp { get; set; }
 uint ServerPort { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint ServerPort { get; set; }
 ulong Serverid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -76,7 +76,7 @@ ulong Serverid { get; set; }
 uint Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

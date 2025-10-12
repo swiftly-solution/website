@@ -6,7 +6,7 @@ title: CCSGameRules
 public interface CCSGameRules : CTeamplayRules, CMultiplayRules, CGameRules, ISchemaClass<CGameRules>, ISchemaClass<CMultiplayRules>, ISchemaClass<CTeamplayRules>, ISchemaClass<CCSGameRules>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSGameRules : CTeamplayRules, CMultiplayRules, CGameRules, ISc
 ref int AccountCT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int AccountCT { get; }
 ref int AccountTerrorist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int AccountTerrorist { get; }
 ref float AccumulatedRoundOffDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float AccumulatedRoundOffDamage { get; }
 ref bool AllowWeaponSwitch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool AllowWeaponSwitch { get; }
 ref bool AnyHostageReached { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool AnyHostageReached { get; }
 ref float AutobalanceDisplayTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float AutobalanceDisplayTime { get; }
 ref float AvgPlayerRank { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float AvgPlayerRank { get; }
 ref bool BombDefused { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool BombDefused { get; }
 ref bool BombDropped { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool BombDropped { get; }
 ref bool BombPlanted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool BombPlanted { get; }
 SchemaUntypedField BtGlobalBlackboard { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -126,7 +126,7 @@ SchemaUntypedField BtGlobalBlackboard { get; }
 ref bool BuyTimeEnded { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool BuyTimeEnded { get; }
 GameTime_t CMMItemDropRevealEndTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -146,7 +146,7 @@ GameTime_t CMMItemDropRevealEndTime { get; }
 GameTime_t CMMItemDropRevealStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -156,7 +156,7 @@ GameTime_t CMMItemDropRevealStartTime { get; }
 ref bool CTCantBuy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool CTCantBuy { get; }
 ref float CTSpawnPointUsedTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float CTSpawnPointUsedTime { get; }
 ref CUtlVector<PointerTo<SpawnPoint>> CTSpawnPoints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SpawnPoint](/docs/api/shared/schemadefinitions/spawnpoint)>>
 
@@ -186,7 +186,7 @@ ref CUtlVector<PointerTo<SpawnPoint>> CTSpawnPoints { get; }
 ref CUtlVector<PointerTo<SpawnPoint>> CTSpawnPointsMasterList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SpawnPoint](/docs/api/shared/schemadefinitions/spawnpoint)>>
 
@@ -196,7 +196,7 @@ ref CUtlVector<PointerTo<SpawnPoint>> CTSpawnPointsMasterList { get; }
 ref int CTTeamIntroVariant { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -206,7 +206,7 @@ ref int CTTeamIntroVariant { get; }
 ref bool CTTimeOutActive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool CTTimeOutActive { get; }
 ref float CTTimeOutRemaining { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -226,7 +226,7 @@ ref float CTTimeOutRemaining { get; }
 ref int CTTimeOuts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int CTTimeOuts { get; }
 ref int CTsAliveAtFreezetimeEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -246,7 +246,7 @@ ref int CTsAliveAtFreezetimeEnd { get; }
 ref bool CanDonateWeapons { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -256,7 +256,7 @@ ref bool CanDonateWeapons { get; }
 ref bool CompleteReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -266,7 +266,7 @@ ref bool CompleteReset { get; }
 ISchemaFixedArray<int> EndMatchMapGroupVoteOptions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -276,7 +276,7 @@ ISchemaFixedArray<int> EndMatchMapGroupVoteOptions { get; }
 ISchemaFixedArray<int> EndMatchMapGroupVoteTypes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -286,7 +286,7 @@ ISchemaFixedArray<int> EndMatchMapGroupVoteTypes { get; }
 ref int EndMatchMapVoteWinner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -296,7 +296,7 @@ ref int EndMatchMapVoteWinner { get; }
 ref bool EndMatchOnRoundReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -306,7 +306,7 @@ ref bool EndMatchOnRoundReset { get; }
 ref bool EndMatchOnThink { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -316,7 +316,7 @@ ref bool EndMatchOnThink { get; }
 ref CUtlVector<int> EndMatchTiedVotes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -326,7 +326,7 @@ ref CUtlVector<int> EndMatchTiedVotes { get; }
 ref float FirstBloodTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -336,7 +336,7 @@ ref float FirstBloodTime { get; }
 ref bool FirstConnected { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -346,7 +346,7 @@ ref bool FirstConnected { get; }
 ref float FirstKillTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -356,7 +356,7 @@ ref float FirstKillTime { get; }
 ref bool ForceTeamChangeSilent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -366,7 +366,7 @@ ref bool ForceTeamChangeSilent { get; }
 ref bool FreezePeriod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,7 +376,7 @@ ref bool FreezePeriod { get; }
 ref int FreezeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -386,7 +386,7 @@ ref int FreezeTime { get; }
 CCSGameModeRules? GameModeRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSGameModeRules](/docs/api/shared/schemadefinitions/ccsgamemoderules)?
 
@@ -396,7 +396,7 @@ CCSGameModeRules? GameModeRules { get; }
 ref int GamePhase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -406,7 +406,7 @@ ref int GamePhase { get; }
 ref bool GameRestart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -416,7 +416,7 @@ ref bool GameRestart { get; }
 ref float GameStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -426,7 +426,7 @@ ref float GameStartTime { get; }
 ref int HalloweenMaskListSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -436,7 +436,7 @@ ref int HalloweenMaskListSeed { get; }
 ref bool HasHostageBeenTouched { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -446,7 +446,7 @@ ref bool HasHostageBeenTouched { get; }
 ref bool HasMatchStarted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -456,7 +456,7 @@ ref bool HasMatchStarted { get; }
 ref bool HasTriggeredRoundStartMusic { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -466,7 +466,7 @@ ref bool HasTriggeredRoundStartMusic { get; }
 ref bool HostageWasInjured { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -476,7 +476,7 @@ ref bool HostageWasInjured { get; }
 ref bool HostageWasKilled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -486,7 +486,7 @@ ref bool HostageWasKilled { get; }
 ref int HostagesRemaining { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -496,7 +496,7 @@ ref int HostagesRemaining { get; }
 ref int HostagesRescued { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -506,7 +506,7 @@ ref int HostagesRescued { get; }
 ref int HostagesTouched { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -516,7 +516,7 @@ ref int HostagesTouched { get; }
 GameTime_t IntermissionEndTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -526,7 +526,7 @@ GameTime_t IntermissionEndTime { get; }
 GameTime_t IntermissionStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -536,7 +536,7 @@ GameTime_t IntermissionStartTime { get; }
 ref bool IsDroppingItems { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -546,7 +546,7 @@ ref bool IsDroppingItems { get; }
 ref bool IsHltvActive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -556,7 +556,7 @@ ref bool IsHltvActive { get; }
 ref bool IsQuestEligible { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -566,7 +566,7 @@ ref bool IsQuestEligible { get; }
 ref bool IsQueuedMatchmaking { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -576,7 +576,7 @@ ref bool IsQueuedMatchmaking { get; }
 ref bool IsUnreservedGameServer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -586,7 +586,7 @@ ref bool IsUnreservedGameServer { get; }
 ref bool IsValveDS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -596,7 +596,7 @@ ref bool IsValveDS { get; }
 ref int LastFreezeEndBeep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -606,7 +606,7 @@ ref int LastFreezeEndBeep { get; }
 ref double LastPerfSampleTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -616,7 +616,7 @@ ref double LastPerfSampleTime { get; }
 GameTime_t LastThinkTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -626,7 +626,7 @@ GameTime_t LastThinkTime { get; }
 ref bool LevelInitialized { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -636,7 +636,7 @@ ref bool LevelInitialized { get; }
 ref bool LoadingRoundBackupData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -646,7 +646,7 @@ ref bool LoadingRoundBackupData { get; }
 ref bool LogoMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -656,7 +656,7 @@ ref bool LogoMap { get; }
 ref int LoserBonusMostRecentTeam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -666,7 +666,7 @@ ref int LoserBonusMostRecentTeam { get; }
 ref float MTeamDMLastThinkTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -676,7 +676,7 @@ ref float MTeamDMLastThinkTime { get; }
 ref int MTeamDMLastWinningTeamNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -686,7 +686,7 @@ ref int MTeamDMLastWinningTeamNumber { get; }
 ref Vector MainCTSpawnPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -696,7 +696,7 @@ ref Vector MainCTSpawnPos { get; }
 ref bool MapHasBombTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -706,7 +706,7 @@ ref bool MapHasBombTarget { get; }
 ref bool MapHasBombZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -716,7 +716,7 @@ ref bool MapHasBombZone { get; }
 ref bool MapHasBuyZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -726,7 +726,7 @@ ref bool MapHasBuyZone { get; }
 ref bool MapHasRescueZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -736,7 +736,7 @@ ref bool MapHasRescueZone { get; }
 ref int MatchAbortedEarlyReason { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -746,7 +746,7 @@ ref int MatchAbortedEarlyReason { get; }
 ref int MatchDevice { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -756,7 +756,7 @@ ref int MatchDevice { get; }
 ref byte MatchEndCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -766,7 +766,7 @@ ref byte MatchEndCount { get; }
 ref float MatchInfoDecidedTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -776,7 +776,7 @@ ref float MatchInfoDecidedTime { get; }
 ref int MatchInfoShowType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -786,7 +786,7 @@ ref int MatchInfoShowType { get; }
 ref float MatchStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -796,7 +796,7 @@ ref float MatchStartTime { get; }
 string MatchStatTxt { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -806,7 +806,7 @@ string MatchStatTxt { get; set; }
 ISchemaFixedArray<int> MatchStats_PlayersAlive_CT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -816,7 +816,7 @@ ISchemaFixedArray<int> MatchStats_PlayersAlive_CT { get; }
 ISchemaFixedArray<int> MatchStats_PlayersAlive_T { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -826,7 +826,7 @@ ISchemaFixedArray<int> MatchStats_PlayersAlive_T { get; }
 ISchemaFixedArray<int> MatchStats_RoundResults { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -836,7 +836,7 @@ ISchemaFixedArray<int> MatchStats_RoundResults { get; }
 ref bool MatchWaitingForResume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -846,7 +846,7 @@ ref bool MatchWaitingForResume { get; }
 ref int MaxNumCTs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -856,7 +856,7 @@ ref int MaxNumCTs { get; }
 ref int MaxNumTerrorists { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -866,7 +866,7 @@ ref int MaxNumTerrorists { get; }
 ref Vector MinimapMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -876,7 +876,7 @@ ref Vector MinimapMaxs { get; }
 ref Vector MinimapMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -886,7 +886,7 @@ ref Vector MinimapMins { get; }
 ISchemaFixedArray<float> MinimapVerticalSectionHeights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -896,7 +896,7 @@ ISchemaFixedArray<float> MinimapVerticalSectionHeights { get; }
 ref bool NeedToAskPlayersForContinueVote { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -906,7 +906,7 @@ ref bool NeedToAskPlayersForContinueVote { get; }
 ref int NextCTSpawnPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -916,7 +916,7 @@ ref int NextCTSpawnPoint { get; }
 ref float NextHostageAnnouncement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -926,7 +926,7 @@ ref float NextHostageAnnouncement { get; }
 ref int NextMapInMapgroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -936,7 +936,7 @@ ref int NextMapInMapgroup { get; }
 SchemaUntypedField NextRespawnWave { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -946,7 +946,7 @@ SchemaUntypedField NextRespawnWave { get; }
 ref int NextTerroristSpawnPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -956,7 +956,7 @@ ref int NextTerroristSpawnPoint { get; }
 ref float NextUpdateTeamClanNamesTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -966,7 +966,7 @@ ref float NextUpdateTeamClanNamesTime { get; }
 ref bool NoCTsKilled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -976,7 +976,7 @@ ref bool NoCTsKilled { get; }
 ref bool NoEnemiesKilled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -986,7 +986,7 @@ ref bool NoEnemiesKilled { get; }
 ref bool NoTerroristsKilled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -996,7 +996,7 @@ ref bool NoTerroristsKilled { get; }
 ref int NumBestOfMaps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1006,7 +1006,7 @@ ref int NumBestOfMaps { get; }
 ref int NumCT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1016,7 +1016,7 @@ ref int NumCT { get; }
 ref int NumConsecutiveCTLoses { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1026,7 +1026,7 @@ ref int NumConsecutiveCTLoses { get; }
 ref int NumConsecutiveTerroristLoses { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1036,7 +1036,7 @@ ref int NumConsecutiveTerroristLoses { get; }
 ref uint NumQueuedMatchmakingAccounts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -1046,7 +1046,7 @@ ref uint NumQueuedMatchmakingAccounts { get; }
 ref int NumSpawnableCT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1056,7 +1056,7 @@ ref int NumSpawnableCT { get; }
 ref int NumSpawnableTerrorist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1066,7 +1066,7 @@ ref int NumSpawnableTerrorist { get; }
 ref uint NumSpectatorsCountMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -1076,7 +1076,7 @@ ref uint NumSpectatorsCountMax { get; }
 ref uint NumSpectatorsCountMaxLnk { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -1086,7 +1086,7 @@ ref uint NumSpectatorsCountMaxLnk { get; }
 ref uint NumSpectatorsCountMaxTV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -1096,7 +1096,7 @@ ref uint NumSpectatorsCountMaxTV { get; }
 ref int NumTerrorist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1106,7 +1106,7 @@ ref int NumTerrorist { get; }
 ref uint NumTotalTournamentDrops { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -1116,7 +1116,7 @@ ref uint NumTotalTournamentDrops { get; }
 ref int OvertimePlaying { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1126,7 +1126,7 @@ ref int OvertimePlaying { get; }
 GameTime_t PhaseChangeAnnouncementTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -1136,7 +1136,7 @@ GameTime_t PhaseChangeAnnouncementTime { get; }
 ref bool PickNewTeamsOnReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1146,7 +1146,7 @@ ref bool PickNewTeamsOnReset { get; }
 ref bool PlayAllStepSoundsOnServer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1156,7 +1156,7 @@ ref bool PlayAllStepSoundsOnServer { get; }
 ref bool PlayedTeamIntroVO { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1166,7 +1166,7 @@ ref bool PlayedTeamIntroVO { get; }
 ref CHandle<CBaseEntity> PlayerResource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -1176,7 +1176,7 @@ ref CHandle<CBaseEntity> PlayerResource { get; }
 ISchemaFixedArray<ushort> ProhibitedItemIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -1186,7 +1186,7 @@ ISchemaFixedArray<ushort> ProhibitedItemIndices { get; }
 ref int QueuedMatchmakingMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1196,7 +1196,7 @@ ref int QueuedMatchmakingMode { get; }
 string QueuedMatchmakingReservationString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -1206,7 +1206,7 @@ string QueuedMatchmakingReservationString { get; set; }
 ref bool RespawningAllRespawnablePlayers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1216,7 +1216,7 @@ ref bool RespawningAllRespawnablePlayers { get; }
 GameTime_t RestartRoundTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -1226,7 +1226,7 @@ GameTime_t RestartRoundTime { get; }
 CRetakeGameRules RetakeRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRetakeGameRules](/docs/api/shared/schemadefinitions/cretakegamerules)
 
@@ -1236,7 +1236,7 @@ CRetakeGameRules RetakeRules { get; }
 ref byte RoundEndCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -1246,7 +1246,7 @@ ref byte RoundEndCount { get; }
 ref int RoundEndFunFactData1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1256,7 +1256,7 @@ ref int RoundEndFunFactData1 { get; }
 ref int RoundEndFunFactData2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1266,7 +1266,7 @@ ref int RoundEndFunFactData2 { get; }
 ref int RoundEndFunFactData3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1276,7 +1276,7 @@ ref int RoundEndFunFactData3 { get; }
 ref uint RoundEndFunFactPlayerSlot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -1286,7 +1286,7 @@ ref uint RoundEndFunFactPlayerSlot { get; }
 string RoundEndFunFactToken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -1296,7 +1296,7 @@ string RoundEndFunFactToken { get; set; }
 ref int RoundEndLegacy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1306,7 +1306,7 @@ ref int RoundEndLegacy { get; }
 string RoundEndMessage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -1316,7 +1316,7 @@ string RoundEndMessage { get; set; }
 ref bool RoundEndNoMusic { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1326,7 +1326,7 @@ ref bool RoundEndNoMusic { get; }
 ref int RoundEndPlayerCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1336,7 +1336,7 @@ ref int RoundEndPlayerCount { get; }
 ref int RoundEndReason { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1346,7 +1346,7 @@ ref int RoundEndReason { get; }
 ref bool RoundEndShowTimerDefend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1356,7 +1356,7 @@ ref bool RoundEndShowTimerDefend { get; }
 ref int RoundEndTimerTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1366,7 +1366,7 @@ ref int RoundEndTimerTime { get; }
 ref int RoundEndWinnerTeam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1376,7 +1376,7 @@ ref int RoundEndWinnerTeam { get; }
 ref byte RoundStartCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -1386,7 +1386,7 @@ ref byte RoundStartCount { get; }
 ref int RoundStartRoundNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1396,7 +1396,7 @@ ref int RoundStartRoundNumber { get; }
 GameTime_t RoundStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -1406,7 +1406,7 @@ GameTime_t RoundStartTime { get; }
 ref int RoundTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1416,7 +1416,7 @@ ref int RoundTime { get; }
 ref bool RoundTimeWarningTriggered { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1426,7 +1426,7 @@ ref bool RoundTimeWarningTriggered { get; }
 ref int RoundWinReason { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1436,7 +1436,7 @@ ref int RoundWinReason { get; }
 ref int RoundWinStatus { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1446,7 +1446,7 @@ ref int RoundWinStatus { get; }
 ref int RoundsPlayedThisPhase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1456,7 +1456,7 @@ ref int RoundsPlayedThisPhase { get; }
 ref bool ScrambleTeamsOnRestart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1466,7 +1466,7 @@ ref bool ScrambleTeamsOnRestart { get; }
 ref CUtlVector<int> SelectedHostageSpawnIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -1476,7 +1476,7 @@ ref CUtlVector<int> SelectedHostageSpawnIndices { get; }
 ref bool ServerVoteOnReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1486,7 +1486,7 @@ ref bool ServerVoteOnReset { get; }
 ref int ShorthandedBonusLastEvalRound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1496,7 +1496,7 @@ ref int ShorthandedBonusLastEvalRound { get; }
 ref int SpawnPointCount_CT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1506,7 +1506,7 @@ ref int SpawnPointCount_CT { get; }
 ref int SpawnPointCount_Terrorist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1516,7 +1516,7 @@ ref int SpawnPointCount_Terrorist { get; }
 ref int SpawnPointsRandomSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1526,7 +1526,7 @@ ref int SpawnPointsRandomSeed { get; }
 ref int SpectatorSlotCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1536,7 +1536,7 @@ ref int SpectatorSlotCount { get; }
 ref bool SwapTeamsOnRestart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1546,7 +1546,7 @@ ref bool SwapTeamsOnRestart { get; }
 ref bool SwitchingTeamsAtRoundReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1556,7 +1556,7 @@ ref bool SwitchingTeamsAtRoundReset { get; }
 ref bool TCantBuy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1566,7 +1566,7 @@ ref bool TCantBuy { get; }
 ref int TTeamIntroVariant { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1576,7 +1576,7 @@ ref int TTeamIntroVariant { get; }
 ref bool TargetBombed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1586,7 +1586,7 @@ ref bool TargetBombed { get; }
 ref float TeamDMLastAnnouncementTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1596,7 +1596,7 @@ ref float TeamDMLastAnnouncementTime { get; }
 ref bool TeamIntroPeriod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1606,7 +1606,7 @@ ref bool TeamIntroPeriod { get; }
 GameTime_t TeamIntroPeriodEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -1616,7 +1616,7 @@ GameTime_t TeamIntroPeriodEnd { get; }
 ISchemaFixedArray<bool> TeamLastKillUsedUniqueWeaponMatch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 
@@ -1626,7 +1626,7 @@ ISchemaFixedArray<bool> TeamLastKillUsedUniqueWeaponMatch { get; }
 ISchemaFixedArray<float> TeamRespawnWaveTimes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -1636,7 +1636,7 @@ ISchemaFixedArray<float> TeamRespawnWaveTimes { get; }
 ISchemaFixedArray<CUtlVector<int>> TeamUniqueKillWeaponsMatch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>>
 
@@ -1646,7 +1646,7 @@ ISchemaFixedArray<CUtlVector<int>> TeamUniqueKillWeaponsMatch { get; }
 ref bool TechnicalTimeOut { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1656,7 +1656,7 @@ ref bool TechnicalTimeOut { get; }
 ref float TerroristSpawnPointUsedTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1666,7 +1666,7 @@ ref float TerroristSpawnPointUsedTime { get; }
 ref CUtlVector<PointerTo<SpawnPoint>> TerroristSpawnPoints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SpawnPoint](/docs/api/shared/schemadefinitions/spawnpoint)>>
 
@@ -1676,7 +1676,7 @@ ref CUtlVector<PointerTo<SpawnPoint>> TerroristSpawnPoints { get; }
 ref CUtlVector<PointerTo<SpawnPoint>> TerroristSpawnPointsMasterList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SpawnPoint](/docs/api/shared/schemadefinitions/spawnpoint)>>
 
@@ -1686,7 +1686,7 @@ ref CUtlVector<PointerTo<SpawnPoint>> TerroristSpawnPointsMasterList { get; }
 ref bool TerroristTimeOutActive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1696,7 +1696,7 @@ ref bool TerroristTimeOutActive { get; }
 ref float TerroristTimeOutRemaining { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1706,7 +1706,7 @@ ref float TerroristTimeOutRemaining { get; }
 ref int TerroristTimeOuts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1716,7 +1716,7 @@ ref int TerroristTimeOuts { get; }
 ref int TerroristsAliveAtFreezetimeEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1726,7 +1726,7 @@ ref int TerroristsAliveAtFreezetimeEnd { get; }
 ref float TimeUntilNextPhaseStarts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1736,7 +1736,7 @@ ref float TimeUntilNextPhaseStarts { get; }
 ref float TmNextPeriodicThink { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1746,7 +1746,7 @@ ref float TmNextPeriodicThink { get; }
 ref int TotalRoundsPlayed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1756,7 +1756,7 @@ ref int TotalRoundsPlayed { get; }
 ref int TotalRoundsPlayed1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1766,7 +1766,7 @@ ref int TotalRoundsPlayed1 { get; }
 ISchemaFixedArray<uint> TournamentActiveCasterAccounts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -1776,7 +1776,7 @@ ISchemaFixedArray<uint> TournamentActiveCasterAccounts { get; }
 string TournamentEventName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -1786,7 +1786,7 @@ string TournamentEventName { get; set; }
 string TournamentEventStage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -1796,7 +1796,7 @@ string TournamentEventStage { get; set; }
 ref int TournamentPredictionsPct { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1806,7 +1806,7 @@ ref int TournamentPredictionsPct { get; }
 string TournamentPredictionsTxt { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -1816,7 +1816,7 @@ string TournamentPredictionsTxt { get; set; }
 ref ulong UllLocalMatchID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -1826,7 +1826,7 @@ ref ulong UllLocalMatchID { get; }
 ref int UnBalancedRounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1836,7 +1836,7 @@ ref int UnBalancedRounds { get; }
 ref bool VoiceWonMatchBragFired { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1846,7 +1846,7 @@ ref bool VoiceWonMatchBragFired { get; }
 ref bool VoteCalled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1856,7 +1856,7 @@ ref bool VoteCalled { get; }
 ref float VoteCheckThrottle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1866,7 +1866,7 @@ ref float VoteCheckThrottle { get; }
 ref float WarmupNextChatNoticeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1876,7 +1876,7 @@ ref float WarmupNextChatNoticeTime { get; }
 ref bool WarmupPeriod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1886,7 +1886,7 @@ ref bool WarmupPeriod { get; }
 GameTime_t WarmupPeriodEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -1896,7 +1896,7 @@ GameTime_t WarmupPeriodEnd { get; }
 GameTime_t WarmupPeriodStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -1986,15 +1986,15 @@ void EndMatchMapVoteWinnerUpdated()
 T? FindPickerEntity<T>(CBasePlayerController controller) where T : ISchemaClass<T>
 ```
 
-#### Parameters
+- Parameters
 
 - **controller**: [CBasePlayerController](/docs/api/shared/schemadefinitions/cbaseplayercontroller) - Player Controller
 
-#### Returns
+- Returns
 
 - T?
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - Entity Class
 

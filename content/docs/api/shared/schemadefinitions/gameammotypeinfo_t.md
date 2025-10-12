@@ -6,7 +6,7 @@ title: GameAmmoTypeInfo_t
 public interface GameAmmoTypeInfo_t : AmmoTypeInfo_t, ISchemaClass<AmmoTypeInfo_t>, ISchemaClass<GameAmmoTypeInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface GameAmmoTypeInfo_t : AmmoTypeInfo_t, ISchemaClass<AmmoTypeInfo_
 ref int BuySize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int BuySize { get; }
 ref int Cost { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

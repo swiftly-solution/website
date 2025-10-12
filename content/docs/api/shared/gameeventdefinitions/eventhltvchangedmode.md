@@ -6,7 +6,7 @@ title: EventHltvChangedMode
 public interface EventHltvChangedMode : IGameEvent<EventHltvChangedMode>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventHltvChangedMode : IGameEvent<EventHltvChangedMode>
 int NewMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int NewMode { get; set; }
 int ObsTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int ObsTarget { get; set; }
 int OldMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

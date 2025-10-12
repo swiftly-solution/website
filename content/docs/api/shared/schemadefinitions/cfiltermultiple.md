@@ -6,7 +6,7 @@ title: CFilterMultiple
 public interface CFilterMultiple : CBaseFilter, CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CBaseFilter>, ISchemaClass<CFilterMultiple>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFilterMultiple : CBaseFilter, CLogicalEntity, CServerOnlyEntit
 ISchemaFixedArray<CHandle<CBaseEntity>> Filter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 
@@ -26,7 +26,7 @@ ISchemaFixedArray<CHandle<CBaseEntity>> Filter { get; }
 string FilterName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string FilterName { get; set; }
 ref filter_t FilterType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [filter_t](/docs/api/shared/schemadefinitions/filter_t)
 

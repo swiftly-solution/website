@@ -6,7 +6,7 @@ title: CCSUsrMsg_SendLastKillerDamageToClient
 public interface CCSUsrMsg_SendLastKillerDamageToClient : ITypedProtobuf<CCSUsrMsg_SendLastKillerDamageToClient>, INativeHandle, INetMessage<CCSUsrMsg_SendLastKillerDamageToClient>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SendLastKillerDamageToClient : ITypedProtobuf<CCSUsrM
 int ActualDamageGiven { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ActualDamageGiven { get; set; }
 int ActualDamageTaken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int ActualDamageTaken { get; set; }
 int DamageGiven { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int DamageGiven { get; set; }
 int DamageTaken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int DamageTaken { get; set; }
 int NumHitsGiven { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int NumHitsGiven { get; set; }
 int NumHitsTaken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

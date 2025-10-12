@@ -6,7 +6,7 @@ title: CNmBitFlags
 public interface CNmBitFlags : ISchemaClass<CNmBitFlags>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmBitFlags : ISchemaClass<CNmBitFlags>, ISchemaField, ISchemaC
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

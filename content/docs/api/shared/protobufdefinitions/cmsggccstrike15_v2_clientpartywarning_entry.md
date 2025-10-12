@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientPartyWarning_Entry
 public interface CMsgGCCStrike15_v2_ClientPartyWarning_Entry : ITypedProtobuf<CMsgGCCStrike15_v2_ClientPartyWarning_Entry>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientPartyWarning_Entry : ITypedProtobuf<CM
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 uint Warntype { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

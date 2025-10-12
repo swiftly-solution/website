@@ -6,7 +6,7 @@ title: CDemoConsoleCmd
 public interface CDemoConsoleCmd : ITypedProtobuf<CDemoConsoleCmd>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoConsoleCmd : ITypedProtobuf<CDemoConsoleCmd>, INativeHandl
 string Cmdstring { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

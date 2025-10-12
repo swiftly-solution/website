@@ -6,7 +6,7 @@ title: CMsgReplayUploadedToYouTube
 public interface CMsgReplayUploadedToYouTube : ITypedProtobuf<CMsgReplayUploadedToYouTube>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgReplayUploadedToYouTube : ITypedProtobuf<CMsgReplayUploaded
 ulong SessionId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong SessionId { get; set; }
 string YoutubeAccountName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string YoutubeAccountName { get; set; }
 string YoutubeUrl { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

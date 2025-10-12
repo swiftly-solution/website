@@ -6,7 +6,7 @@ title: FeProxyVertexMap_t
 public interface FeProxyVertexMap_t : ISchemaClass<FeProxyVertexMap_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeProxyVertexMap_t : ISchemaClass<FeProxyVertexMap_t>, ISchemaF
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Name { get; set; }
 ref float Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

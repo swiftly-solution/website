@@ -6,7 +6,7 @@ title: CEntityMessageScreenOverlay
 public interface CEntityMessageScreenOverlay : ITypedProtobuf<CEntityMessageScreenOverlay>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityMessageScreenOverlay : ITypedProtobuf<CEntityMessageScre
 CEntityMsg EntityMsg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityMsg](/docs/api/shared/protobufdefinitions/centitymsg)
 
@@ -26,7 +26,7 @@ CEntityMsg EntityMsg { get; }
 bool StartEffect { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

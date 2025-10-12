@@ -6,7 +6,7 @@ title: FeFitMatrix_t
 public interface FeFitMatrix_t : ISchemaClass<FeFitMatrix_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeFitMatrix_t : ISchemaClass<FeFitMatrix_t>, ISchemaField, ISch
 ref ushort BeginDynamic { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort BeginDynamic { get; }
 ref CTransform Bone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -36,7 +36,7 @@ ref CTransform Bone { get; }
 ref Vector Center { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector Center { get; }
 ref ushort End { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -56,7 +56,7 @@ ref ushort End { get; }
 ref ushort Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

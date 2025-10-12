@@ -6,7 +6,7 @@ title: CMotionGraphUpdateNode
 public interface CMotionGraphUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CLeafUpdateNode>, ISchemaClass<CMotionGraphUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionGraphUpdateNode : CLeafUpdateNode, CAnimUpdateNodeBase, 
 SchemaUntypedField MotionGraph { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

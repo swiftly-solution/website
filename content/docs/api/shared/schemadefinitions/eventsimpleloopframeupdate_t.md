@@ -6,7 +6,7 @@ title: EventSimpleLoopFrameUpdate_t
 public interface EventSimpleLoopFrameUpdate_t : ISchemaClass<EventSimpleLoopFrameUpdate_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventSimpleLoopFrameUpdate_t : ISchemaClass<EventSimpleLoopFram
 ref float FrameTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float FrameTime { get; }
 EngineLoopState_t LoopState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
@@ -36,7 +36,7 @@ EngineLoopState_t LoopState { get; }
 ref float RealTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

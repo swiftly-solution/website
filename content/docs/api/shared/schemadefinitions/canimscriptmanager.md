@@ -6,7 +6,7 @@ title: CAnimScriptManager
 public interface CAnimScriptManager : ISchemaClass<CAnimScriptManager>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimScriptManager : ISchemaClass<CAnimScriptManager>, ISchemaF
 ref CUtlVector ScriptInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

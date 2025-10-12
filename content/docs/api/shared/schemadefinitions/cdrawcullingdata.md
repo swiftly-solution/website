@@ -6,7 +6,7 @@ title: CDrawCullingData
 public interface CDrawCullingData : ISchemaClass<CDrawCullingData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDrawCullingData : ISchemaClass<CDrawCullingData>, ISchemaField
 ISchemaFixedArray<byte> ConeAxis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -26,7 +26,7 @@ ISchemaFixedArray<byte> ConeAxis { get; }
 ref byte ConeCutoff { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

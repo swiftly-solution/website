@@ -6,7 +6,7 @@ title: FeAntiTunnelGroupBuild_t
 public interface FeAntiTunnelGroupBuild_t : ISchemaClass<FeAntiTunnelGroupBuild_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeAntiTunnelGroupBuild_t : ISchemaClass<FeAntiTunnelGroupBuild_
 ref uint CollisionMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint CollisionMask { get; }
 ref uint VertexMapHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

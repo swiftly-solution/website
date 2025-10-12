@@ -6,7 +6,7 @@ title: CNmFloatRemapNode__CDefinition
 public interface CNmFloatRemapNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmFloatRemapNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFloatRemapNode__CDefinition : CNmFloatValueNode__CDefinition
 CNmFloatRemapNode__RemapRange_t InputRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmFloatRemapNode__RemapRange_t](/docs/api/shared/schemadefinitions/cnmfloatremapnode__remaprange_t)
 
@@ -26,7 +26,7 @@ CNmFloatRemapNode__RemapRange_t InputRange { get; }
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short InputValueNodeIdx { get; }
 CNmFloatRemapNode__RemapRange_t OutputRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmFloatRemapNode__RemapRange_t](/docs/api/shared/schemadefinitions/cnmfloatremapnode__remaprange_t)
 

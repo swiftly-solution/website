@@ -6,7 +6,7 @@ title: CBreakableProp
 public interface CBreakableProp : CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBreakableProp : CBaseProp, CBaseAnimGraph, CBaseModelEntity, C
 ref BreakableContentsType_t BreakableContentsType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BreakableContentsType_t](/docs/api/shared/schemadefinitions/breakablecontentstype_t)
 
@@ -26,7 +26,7 @@ ref BreakableContentsType_t BreakableContentsType { get; }
 ref CHandle<CBaseEntity> Breaker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> Breaker { get; }
 CPropDataComponent CPropDataComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPropDataComponent](/docs/api/shared/schemadefinitions/cpropdatacomponent)
 
@@ -46,7 +46,7 @@ CPropDataComponent CPropDataComponent { get; }
 ref Vector DefBurstOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector DefBurstOffset { get; }
 ref float DefBurstScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float DefBurstScale { get; }
 ref float DefaultFadeScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float DefaultFadeScale { get; }
 ref float ExplodeDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float ExplodeDamage { get; }
 ref float ExplodeRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float ExplodeRadius { get; }
 string ExplosionBuildupSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string ExplosionBuildupSound { get; set; }
 string ExplosionCustomEffect { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -116,7 +116,7 @@ string ExplosionCustomEffect { get; set; }
 string ExplosionCustomSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -126,7 +126,7 @@ string ExplosionCustomSound { get; set; }
 ref float ExplosionDelay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float ExplosionDelay { get; }
 string ExplosionModifier { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -146,7 +146,7 @@ string ExplosionModifier { get; set; }
 ref bool HasBreakPiecesOrCommands { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool HasBreakPiecesOrCommands { get; }
 ref float ImpactEnergyScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float ImpactEnergyScale { get; }
 ref CHandle<CBaseEntity> LastAttacker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -176,7 +176,7 @@ ref CHandle<CBaseEntity> LastAttacker { get; }
 GameTime_t LastPhysicsInfluenceTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -186,7 +186,7 @@ GameTime_t LastPhysicsInfluenceTime { get; }
 ref int MinHealthDmg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ ref int MinHealthDmg { get; }
 CEntityIOOutput OnBreak { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -206,7 +206,7 @@ CEntityIOOutput OnBreak { get; }
 SchemaUntypedField OnHealthChanged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -216,7 +216,7 @@ SchemaUntypedField OnHealthChanged { get; }
 CEntityIOOutput OnStartDeath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -226,7 +226,7 @@ CEntityIOOutput OnStartDeath { get; }
 CEntityIOOutput OnTakeDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -236,7 +236,7 @@ CEntityIOOutput OnTakeDamage { get; }
 ref bool OriginalBlockLOS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -246,7 +246,7 @@ ref bool OriginalBlockLOS { get; }
 ref PerformanceMode_t PerformanceMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PerformanceMode_t](/docs/api/shared/schemadefinitions/performancemode_t)
 
@@ -256,7 +256,7 @@ ref PerformanceMode_t PerformanceMode { get; }
 ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)>
 
@@ -266,7 +266,7 @@ ref CHandle<CBasePlayerPawn> PhysicsAttacker { get; }
 ref QAngle PreferredCarryAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -276,7 +276,7 @@ ref QAngle PreferredCarryAngles { get; }
 ref float PressureDelay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -286,7 +286,7 @@ ref float PressureDelay { get; }
 GameTime_t PreventDamageBeforeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -296,7 +296,7 @@ GameTime_t PreventDamageBeforeTime { get; }
 string PuntSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -306,7 +306,7 @@ string PuntSound { get; set; }
 string StrBreakableContentsParticleOverride { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -316,7 +316,7 @@ string StrBreakableContentsParticleOverride { get; set; }
 string StrBreakableContentsPropGroupOverride { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -326,7 +326,7 @@ string StrBreakableContentsPropGroupOverride { get; set; }
 ref bool UsePuntSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

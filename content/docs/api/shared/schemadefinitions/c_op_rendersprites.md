@@ -6,7 +6,7 @@ title: C_OP_RenderSprites
 public interface C_OP_RenderSprites : CBaseRendererSource2, CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<CBaseRendererSource2>, ISchemaClass<C_OP_RenderSprites>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderSprites : CBaseRendererSource2, CParticleFunctionRen
 CParticleCollectionRendererFloatInput AlphaAdjustWithSizeAdjust { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionRendererFloatInput AlphaAdjustWithSizeAdjust { get; }
 ref bool DistanceAlpha { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool DistanceAlpha { get; }
 ref float EdgeSoftnessEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float EdgeSoftnessEnd { get; }
 ref float EdgeSoftnessStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float EdgeSoftnessStart { get; }
 ref float EndFadeDot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float EndFadeDot { get; }
 CParticleCollectionRendererFloatInput EndFadeSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -76,7 +76,7 @@ CParticleCollectionRendererFloatInput EndFadeSize { get; }
 CParticleCollectionRendererFloatInput LightingDirectionality { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -86,7 +86,7 @@ CParticleCollectionRendererFloatInput LightingDirectionality { get; }
 ref ParticleLightingQuality_t LightingMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleLightingQuality_t](/docs/api/shared/schemadefinitions/particlelightingquality_t)
 
@@ -96,7 +96,7 @@ ref ParticleLightingQuality_t LightingMode { get; }
 CParticleCollectionRendererFloatInput LightingTessellation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -106,7 +106,7 @@ CParticleCollectionRendererFloatInput LightingTessellation { get; }
 CParticleCollectionRendererFloatInput MaxSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -116,7 +116,7 @@ CParticleCollectionRendererFloatInput MaxSize { get; }
 CParticleCollectionRendererFloatInput MinSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -126,7 +126,7 @@ CParticleCollectionRendererFloatInput MinSize { get; }
 ref int OrientationControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int OrientationControlPoint { get; }
 ref ParticleOrientationChoiceList_t OrientationType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleOrientationChoiceList_t](/docs/api/shared/schemadefinitions/particleorientationchoicelist_t)
 
@@ -146,7 +146,7 @@ ref ParticleOrientationChoiceList_t OrientationType { get; }
 ref bool Outline { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool Outline { get; }
 ref int OutlineAlpha { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ ref int OutlineAlpha { get; }
 ref Color OutlineColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -176,7 +176,7 @@ ref Color OutlineColor { get; }
 ref float OutlineEnd0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float OutlineEnd0 { get; }
 ref float OutlineEnd1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float OutlineEnd1 { get; }
 ref float OutlineStart0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float OutlineStart0 { get; }
 ref float OutlineStart1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float OutlineStart1 { get; }
 ref bool ParticleShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool ParticleShadows { get; }
 CReplicationParameters ReplicationParameters { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CReplicationParameters](/docs/api/shared/schemadefinitions/creplicationparameters)
 
@@ -236,7 +236,7 @@ CReplicationParameters ReplicationParameters { get; }
 ref bool SequenceNumbersAreRawSequenceIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -246,7 +246,7 @@ ref bool SequenceNumbersAreRawSequenceIndices { get; }
 CParticleCollectionRendererFloatInput SequenceOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -256,7 +256,7 @@ CParticleCollectionRendererFloatInput SequenceOverride { get; }
 ref float ShadowDensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -266,7 +266,7 @@ ref float ShadowDensity { get; }
 ref bool SoftEdges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -276,7 +276,7 @@ ref bool SoftEdges { get; }
 ref float StartFadeDot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -286,7 +286,7 @@ ref float StartFadeDot { get; }
 CParticleCollectionRendererFloatInput StartFadeSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -296,7 +296,7 @@ CParticleCollectionRendererFloatInput StartFadeSize { get; }
 ref bool UseYawWithNormalAligned { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

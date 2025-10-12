@@ -6,7 +6,7 @@ title: CAnimParameterBase
 public interface CAnimParameterBase : ISchemaClass<CAnimParameterBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimParameterBase : ISchemaClass<CAnimParameterBase>, ISchemaF
 string Comment { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Comment { get; set; }
 string ComponentName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ComponentName { get; set; }
 string Group { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Group { get; set; }
 AnimParamID Id { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimParamID](/docs/api/shared/schemadefinitions/animparamid)
 
@@ -56,7 +56,7 @@ AnimParamID Id { get; }
 ref bool IsReferenced { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IsReferenced { get; }
 ref CGlobalSymbol Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -76,7 +76,7 @@ ref CGlobalSymbol Name { get; }
 ref bool NetworkingRequested { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

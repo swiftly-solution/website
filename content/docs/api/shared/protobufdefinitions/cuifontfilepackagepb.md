@@ -6,7 +6,7 @@ title: CUIFontFilePackagePB
 public interface CUIFontFilePackagePB : ITypedProtobuf<CUIFontFilePackagePB>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUIFontFilePackagePB : ITypedProtobuf<CUIFontFilePackagePB>, IN
 IProtobufRepeatedFieldSubMessageType<CUIFontFilePackagePB_CUIEncryptedFontFilePB> EncryptedFontFiles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUIFontFilePackagePB_CUIEncryptedFontFilePB](/docs/api/shared/protobufdefinitions/cuifontfilepackagepb_cuiencryptedfontfilepb)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CUIFontFilePackagePB_CUIEncryptedFontFilePB
 uint PackageVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

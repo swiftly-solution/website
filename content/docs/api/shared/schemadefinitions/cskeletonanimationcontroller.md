@@ -6,7 +6,7 @@ title: CSkeletonAnimationController
 public interface CSkeletonAnimationController : ISkeletonAnimationController, ISchemaClass<ISkeletonAnimationController>, ISchemaClass<CSkeletonAnimationController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSkeletonAnimationController : ISkeletonAnimationController, IS
 CSkeletonInstance? SkeletonInstance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSkeletonInstance](/docs/api/shared/schemadefinitions/cskeletoninstance)?
 

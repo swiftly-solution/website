@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingClient2ServerPing
 public interface CMsgGCCStrike15_v2_MatchmakingClient2ServerPing : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingClient2ServerPing>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingClient2ServerPing : ITypedProtobu
 IProtobufRepeatedFieldSubMessageType<DataCenterPing> DataCenterPings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[DataCenterPing](/docs/api/shared/protobufdefinitions/datacenterping)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<DataCenterPing> DataCenterPings { get; }
 string DebugMessage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string DebugMessage { get; set; }
 int FinalBatch { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int FinalBatch { get; set; }
 IProtobufRepeatedFieldSubMessageType<GameServerPing> Gameserverpings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[GameServerPing](/docs/api/shared/protobufdefinitions/gameserverping)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldSubMessageType<GameServerPing> Gameserverpings { get; }
 uint MaxPing { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint MaxPing { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note> Notes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_MatchmakingGC2ClientUpdate_Note](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2clientupdate_note)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_MatchmakingGC2ClientUpda
 int OffsetIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ int OffsetIndex { get; set; }
 byte[] SearchKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -96,7 +96,7 @@ byte[] SearchKey { get; set; }
 uint TestToken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

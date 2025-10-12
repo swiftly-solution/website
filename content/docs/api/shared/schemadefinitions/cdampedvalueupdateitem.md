@@ -6,7 +6,7 @@ title: CDampedValueUpdateItem
 public interface CDampedValueUpdateItem : ISchemaClass<CDampedValueUpdateItem>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDampedValueUpdateItem : ISchemaClass<CDampedValueUpdateItem>, 
 CAnimInputDamping Damping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -26,7 +26,7 @@ CAnimInputDamping Damping { get; }
 CAnimParamHandle ParamIn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -36,7 +36,7 @@ CAnimParamHandle ParamIn { get; }
 CAnimParamHandle ParamOut { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 

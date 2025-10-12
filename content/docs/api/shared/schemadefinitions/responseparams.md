@@ -6,7 +6,7 @@ title: ResponseParams
 public interface ResponseParams : ISchemaClass<ResponseParams>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ResponseParams : ISchemaClass<ResponseParams>, ISchemaField, IS
 ref short Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short Flags { get; }
 ResponseFollowup? Followup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ResponseFollowup](/docs/api/shared/schemadefinitions/responsefollowup)?
 
@@ -36,7 +36,7 @@ ResponseFollowup? Followup { get; }
 ref short Odds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

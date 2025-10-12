@@ -6,7 +6,7 @@ title: CCSGO_TeamPreviewCharacterPosition
 public interface CCSGO_TeamPreviewCharacterPosition : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CCSGO_TeamPreviewCharacterPosition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSGO_TeamPreviewCharacterPosition : CBaseEntity, CEntityInstan
 CEconItemView AgentItem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemView](/docs/api/shared/schemadefinitions/ceconitemview)
 
@@ -26,7 +26,7 @@ CEconItemView AgentItem { get; }
 CEconItemView GlovesItem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemView](/docs/api/shared/schemadefinitions/ceconitemview)
 
@@ -36,7 +36,7 @@ CEconItemView GlovesItem { get; }
 ref int Ordinal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int Ordinal { get; }
 ref int Random { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int Random { get; }
 ref int Variant { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int Variant { get; }
 CEconItemView WeaponItem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemView](/docs/api/shared/schemadefinitions/ceconitemview)
 
@@ -76,7 +76,7 @@ CEconItemView WeaponItem { get; }
 string WeaponName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string WeaponName { get; set; }
 ref ulong Xuid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

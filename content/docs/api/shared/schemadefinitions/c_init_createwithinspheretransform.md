@@ -6,7 +6,7 @@ title: C_INIT_CreateWithinSphereTransform
 public interface C_INIT_CreateWithinSphereTransform : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_CreateWithinSphereTransform>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_CreateWithinSphereTransform : CParticleFunctionInitializ
 CPerParticleVecInput DistanceBias { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -26,7 +26,7 @@ CPerParticleVecInput DistanceBias { get; }
 ref Vector DistanceBiasAbs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector DistanceBiasAbs { get; }
 ParticleAttributeIndex_t FieldOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -46,7 +46,7 @@ ParticleAttributeIndex_t FieldOutput { get; }
 ParticleAttributeIndex_t FieldVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -56,7 +56,7 @@ ParticleAttributeIndex_t FieldVelocity { get; }
 CPerParticleVecInput LocalCoordinateSystemSpeedMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -66,7 +66,7 @@ CPerParticleVecInput LocalCoordinateSystemSpeedMax { get; }
 CPerParticleVecInput LocalCoordinateSystemSpeedMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -76,7 +76,7 @@ CPerParticleVecInput LocalCoordinateSystemSpeedMin { get; }
 ref bool LocalCoords { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool LocalCoords { get; }
 CPerParticleFloatInput RadiusMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -96,7 +96,7 @@ CPerParticleFloatInput RadiusMax { get; }
 CPerParticleFloatInput RadiusMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -106,7 +106,7 @@ CPerParticleFloatInput RadiusMin { get; }
 CPerParticleFloatInput SpeedMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -116,7 +116,7 @@ CPerParticleFloatInput SpeedMax { get; }
 CPerParticleFloatInput SpeedMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -126,7 +126,7 @@ CPerParticleFloatInput SpeedMin { get; }
 ref float SpeedRandExp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float SpeedRandExp { get; }
 CParticleTransformInput TransformInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleTransformInput](/docs/api/shared/schemadefinitions/cparticletransforminput)
 

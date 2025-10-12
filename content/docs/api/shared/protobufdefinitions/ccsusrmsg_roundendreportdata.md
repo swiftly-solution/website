@@ -6,7 +6,7 @@ title: CCSUsrMsg_RoundEndReportData
 public interface CCSUsrMsg_RoundEndReportData : ITypedProtobuf<CCSUsrMsg_RoundEndReportData>, INativeHandle, INetMessage<CCSUsrMsg_RoundEndReportData>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_RoundEndReportData : ITypedProtobuf<CCSUsrMsg_RoundEn
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_RoundEndReportData_RerEvent> AllRerEventData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_RoundEndReportData_RerEvent](/docs/api/shared/protobufdefinitions/ccsusrmsg_roundendreportdata_rerevent)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_RoundEndReportData_RerEvent> AllR
 CCSUsrMsg_RoundEndReportData_InitialConditions InitConditions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSUsrMsg_RoundEndReportData_InitialConditions](/docs/api/shared/protobufdefinitions/ccsusrmsg_roundendreportdata_initialconditions)
 

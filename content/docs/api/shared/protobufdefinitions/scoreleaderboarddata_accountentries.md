@@ -6,7 +6,7 @@ title: ScoreLeaderboardData_AccountEntries
 public interface ScoreLeaderboardData_AccountEntries : ITypedProtobuf<ScoreLeaderboardData_AccountEntries>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ScoreLeaderboardData_AccountEntries : ITypedProtobuf<ScoreLeade
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 IProtobufRepeatedFieldSubMessageType<ScoreLeaderboardData_Entry> Entries { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ScoreLeaderboardData_Entry](/docs/api/shared/protobufdefinitions/scoreleaderboarddata_entry)>
 

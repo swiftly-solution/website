@@ -6,7 +6,7 @@ title: FeNodeBase_t
 public interface FeNodeBase_t : ISchemaClass<FeNodeBase_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeNodeBase_t : ISchemaClass<FeNodeBase_t>, ISchemaField, ISchem
 SchemaUntypedField Adjust { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Adjust { get; }
 ISchemaFixedArray<ushort> Dummy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<ushort> Dummy { get; }
 ref ushort Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort Node { get; }
 ref ushort NodeX0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -56,7 +56,7 @@ ref ushort NodeX0 { get; }
 ref ushort NodeX1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -66,7 +66,7 @@ ref ushort NodeX1 { get; }
 ref ushort NodeY0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -76,7 +76,7 @@ ref ushort NodeY0 { get; }
 ref ushort NodeY1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

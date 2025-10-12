@@ -6,7 +6,7 @@ title: CSource2Metrics_MatchPerfSummary_Notification
 public interface CSource2Metrics_MatchPerfSummary_Notification : ITypedProtobuf<CSource2Metrics_MatchPerfSummary_Notification>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSource2Metrics_MatchPerfSummary_Notification : ITypedProtobuf<
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Appid { get; set; }
 IProtobufRepeatedFieldSubMessageType<CSource2Metrics_MatchPerfSummary_Notification_Client> Clients { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSource2Metrics_MatchPerfSummary_Notification_Client](/docs/api/shared/protobufdefinitions/csource2metrics_matchperfsummary_notification_client)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CSource2Metrics_MatchPerfSummary_Notificati
 string GameMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string GameMode { get; set; }
 string Map { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string Map { get; set; }
 uint ServerBuildId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint ServerBuildId { get; set; }
 uint ServerPopid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint ServerPopid { get; set; }
 CMsgSource2VProfLiteReport ServerProfile { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSource2VProfLiteReport](/docs/api/shared/protobufdefinitions/cmsgsource2vproflitereport)
 

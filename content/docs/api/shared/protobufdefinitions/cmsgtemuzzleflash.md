@@ -6,7 +6,7 @@ title: CMsgTEMuzzleFlash
 public interface CMsgTEMuzzleFlash : ITypedProtobuf<CMsgTEMuzzleFlash>, INativeHandle, INetMessage<CMsgTEMuzzleFlash>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEMuzzleFlash : ITypedProtobuf<CMsgTEMuzzleFlash>, INativeH
 QAngle Angles { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ QAngle Angles { get; set; }
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector Origin { get; set; }
 float Scale { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float Scale { get; set; }
 uint Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

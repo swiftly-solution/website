@@ -6,7 +6,7 @@ title: CCSUsrMsg_PlayerDecalDigitalSignature
 public interface CCSUsrMsg_PlayerDecalDigitalSignature : ITypedProtobuf<CCSUsrMsg_PlayerDecalDigitalSignature>, INativeHandle, INetMessage<CCSUsrMsg_PlayerDecalDigitalSignature>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_PlayerDecalDigitalSignature : ITypedProtobuf<CCSUsrMs
 PlayerDecalDigitalSignature Data { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PlayerDecalDigitalSignature](/docs/api/shared/protobufdefinitions/playerdecaldigitalsignature)
 

@@ -6,7 +6,7 @@ title: FeCollisionPlane_t
 public interface FeCollisionPlane_t : ISchemaClass<FeCollisionPlane_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeCollisionPlane_t : ISchemaClass<FeCollisionPlane_t>, ISchemaF
 ref ushort ChildNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort ChildNode { get; }
 ref ushort CtrlParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort CtrlParent { get; }
 RnPlane_t Plane { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RnPlane_t](/docs/api/shared/schemadefinitions/rnplane_t)
 
@@ -46,7 +46,7 @@ RnPlane_t Plane { get; }
 ref float Strength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

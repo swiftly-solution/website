@@ -6,7 +6,7 @@ title: CPulseCell_Outflow_CycleOrdered__InstanceState_t
 public interface CPulseCell_Outflow_CycleOrdered__InstanceState_t : ISchemaClass<CPulseCell_Outflow_CycleOrdered__InstanceState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Outflow_CycleOrdered__InstanceState_t : ISchemaClass
 ref int NextIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: ChainToSolveData_t
 public interface ChainToSolveData_t : ISchemaClass<ChainToSolveData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ChainToSolveData_t : ISchemaClass<ChainToSolveData_t>, ISchemaF
 ref int ChainIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ChainIndex { get; }
 ref float DebugNormalizedValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DebugNormalizedValue { get; }
 ref Vector DebugOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector DebugOffset { get; }
 ref SolveIKChainAnimNodeDebugSetting DebugSetting { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SolveIKChainAnimNodeDebugSetting](/docs/api/shared/schemadefinitions/solveikchainanimnodedebugsetting)
 
@@ -56,7 +56,7 @@ ref SolveIKChainAnimNodeDebugSetting DebugSetting { get; }
 IKSolverSettings_t SolverSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IKSolverSettings_t](/docs/api/shared/schemadefinitions/iksolversettings_t)
 
@@ -66,7 +66,7 @@ IKSolverSettings_t SolverSettings { get; }
 IKTargetSettings_t TargetSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IKTargetSettings_t](/docs/api/shared/schemadefinitions/iktargetsettings_t)
 

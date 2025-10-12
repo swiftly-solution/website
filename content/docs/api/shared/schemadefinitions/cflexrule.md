@@ -6,7 +6,7 @@ title: CFlexRule
 public interface CFlexRule : ISchemaClass<CFlexRule>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFlexRule : ISchemaClass<CFlexRule>, ISchemaField, ISchemaClass
 ref int Flex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Flex { get; }
 ref CUtlVector FlexOps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

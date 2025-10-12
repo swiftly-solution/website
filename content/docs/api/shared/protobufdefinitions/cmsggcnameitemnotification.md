@@ -6,7 +6,7 @@ title: CMsgGCNameItemNotification
 public interface CMsgGCNameItemNotification : ITypedProtobuf<CMsgGCNameItemNotification>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCNameItemNotification : ITypedProtobuf<CMsgGCNameItemNotif
 uint ItemDefIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ItemDefIndex { get; set; }
 string ItemNameCustom { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ItemNameCustom { get; set; }
 ulong PlayerSteamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

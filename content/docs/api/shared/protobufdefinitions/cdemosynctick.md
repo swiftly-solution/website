@@ -6,5 +6,5 @@ title: CDemoSyncTick
 public interface CDemoSyncTick : ITypedProtobuf<CDemoSyncTick>, INativeHandle
 ```
 
-#### Implements
+- Implements
 

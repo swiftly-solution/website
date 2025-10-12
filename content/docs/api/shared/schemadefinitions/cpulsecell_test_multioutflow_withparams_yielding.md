@@ -6,7 +6,7 @@ title: CPulseCell_Test_MultiOutflow_WithParams_Yielding
 public interface CPulseCell_Test_MultiOutflow_WithParams_Yielding : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_Test_MultiOutflow_WithParams_Yielding>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Test_MultiOutflow_WithParams_Yielding : CPulseCell_B
 SignatureOutflow_Continue AsyncChild1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SignatureOutflow_Continue](/docs/api/shared/schemadefinitions/signatureoutflow_continue)
 
@@ -26,7 +26,7 @@ SignatureOutflow_Continue AsyncChild1 { get; }
 SignatureOutflow_Continue AsyncChild2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SignatureOutflow_Continue](/docs/api/shared/schemadefinitions/signatureoutflow_continue)
 
@@ -36,7 +36,7 @@ SignatureOutflow_Continue AsyncChild2 { get; }
 SignatureOutflow_Continue Out1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SignatureOutflow_Continue](/docs/api/shared/schemadefinitions/signatureoutflow_continue)
 
@@ -46,7 +46,7 @@ SignatureOutflow_Continue Out1 { get; }
 SignatureOutflow_Resume YieldResume1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SignatureOutflow_Resume](/docs/api/shared/schemadefinitions/signatureoutflow_resume)
 
@@ -56,7 +56,7 @@ SignatureOutflow_Resume YieldResume1 { get; }
 SignatureOutflow_Resume YieldResume2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SignatureOutflow_Resume](/docs/api/shared/schemadefinitions/signatureoutflow_resume)
 

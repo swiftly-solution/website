@@ -6,7 +6,7 @@ title: CParticleFunctionInitializer
 public interface CParticleFunctionInitializer : CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleFunctionInitializer : CParticleFunction, ISchemaClass<
 ref int AssociatedEmitterIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

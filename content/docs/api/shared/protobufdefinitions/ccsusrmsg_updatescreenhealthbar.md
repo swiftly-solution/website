@@ -6,7 +6,7 @@ title: CCSUsrMsg_UpdateScreenHealthBar
 public interface CCSUsrMsg_UpdateScreenHealthBar : ITypedProtobuf<CCSUsrMsg_UpdateScreenHealthBar>, INativeHandle, INetMessage<CCSUsrMsg_UpdateScreenHealthBar>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_UpdateScreenHealthBar : ITypedProtobuf<CCSUsrMsg_Upda
 int Entidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Entidx { get; set; }
 float HealthratioNew { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float HealthratioNew { get; set; }
 float HealthratioOld { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float HealthratioOld { get; set; }
 int Style { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

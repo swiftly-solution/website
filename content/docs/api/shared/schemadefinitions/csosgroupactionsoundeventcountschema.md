@@ -6,7 +6,7 @@ title: CSosGroupActionSoundeventCountSchema
 public interface CSosGroupActionSoundeventCountSchema : CSosGroupActionSchema, ISchemaClass<CSosGroupActionSchema>, ISchemaClass<CSosGroupActionSoundeventCountSchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSosGroupActionSoundeventCountSchema : CSosGroupActionSchema, I
 ref bool ExcludeStoppedSounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ExcludeStoppedSounds { get; }
 string StrCountKeyName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CParticleVecInput
 public interface CParticleVecInput : CParticleInput, ISchemaClass<CParticleInput>, ISchemaClass<CParticleVecInput>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleVecInput : CParticleInput, ISchemaClass<CParticleInput
 ref Vector CPRelativeDir { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector CPRelativeDir { get; }
 ref Vector CPRelativePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector CPRelativePosition { get; }
 ref Vector CPValueScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector CPValueScale { get; }
 ref int ControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int ControlPoint { get; }
 ref int DeltaControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int DeltaControlPoint { get; }
 CParticleFloatInput FloatComponentX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleFloatInput](/docs/api/shared/schemadefinitions/cparticlefloatinput)
 
@@ -76,7 +76,7 @@ CParticleFloatInput FloatComponentX { get; }
 CParticleFloatInput FloatComponentY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleFloatInput](/docs/api/shared/schemadefinitions/cparticlefloatinput)
 
@@ -86,7 +86,7 @@ CParticleFloatInput FloatComponentY { get; }
 CParticleFloatInput FloatComponentZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleFloatInput](/docs/api/shared/schemadefinitions/cparticlefloatinput)
 
@@ -96,7 +96,7 @@ CParticleFloatInput FloatComponentZ { get; }
 CParticleFloatInput FloatInterp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleFloatInput](/docs/api/shared/schemadefinitions/cparticlefloatinput)
 
@@ -106,7 +106,7 @@ CParticleFloatInput FloatInterp { get; }
 ref bool FollowNamedValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool FollowNamedValue { get; }
 SchemaUntypedField Gradient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -126,7 +126,7 @@ SchemaUntypedField Gradient { get; }
 ref float InterpInput0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float InterpInput0 { get; }
 ref float InterpInput1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float InterpInput1 { get; }
 ref Vector InterpOutput0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -156,7 +156,7 @@ ref Vector InterpOutput0 { get; }
 ref Vector InterpOutput1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -166,7 +166,7 @@ ref Vector InterpOutput1 { get; }
 ref Color LiteralColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -176,7 +176,7 @@ ref Color LiteralColor { get; }
 ref Vector LiteralValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -186,7 +186,7 @@ ref Vector LiteralValue { get; }
 SchemaUntypedField NamedValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -196,7 +196,7 @@ SchemaUntypedField NamedValue { get; }
 ref Vector RandomMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -206,7 +206,7 @@ ref Vector RandomMax { get; }
 ref Vector RandomMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -216,7 +216,7 @@ ref Vector RandomMin { get; }
 ref ParticleVecType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleVecType_t](/docs/api/shared/schemadefinitions/particlevectype_t)
 
@@ -226,7 +226,7 @@ ref ParticleVecType_t Type { get; }
 ParticleAttributeIndex_t VectorAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -236,7 +236,7 @@ ParticleAttributeIndex_t VectorAttribute { get; }
 ref Vector VectorAttributeScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

@@ -6,7 +6,7 @@ title: CAnimSequenceParams
 public interface CAnimSequenceParams : ISchemaClass<CAnimSequenceParams>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimSequenceParams : ISchemaClass<CAnimSequenceParams>, ISchem
 ref float FadeInTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float FadeInTime { get; }
 ref float FadeOutTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

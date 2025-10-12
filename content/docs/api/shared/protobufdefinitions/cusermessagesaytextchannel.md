@@ -6,7 +6,7 @@ title: CUserMessageSayTextChannel
 public interface CUserMessageSayTextChannel : ITypedProtobuf<CUserMessageSayTextChannel>, INativeHandle, INetMessage<CUserMessageSayTextChannel>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageSayTextChannel : ITypedProtobuf<CUserMessageSayText
 int Channel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Channel { get; set; }
 int Player { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Player { get; set; }
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

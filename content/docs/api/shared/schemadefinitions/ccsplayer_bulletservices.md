@@ -6,7 +6,7 @@ title: CCSPlayer_BulletServices
 public interface CCSPlayer_BulletServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CCSPlayer_BulletServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayer_BulletServices : CPlayerPawnComponent, ISchemaClass<C
 ref int TotalHitsOnServer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

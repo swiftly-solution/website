@@ -6,5 +6,5 @@ title: InfoForResourceTypeCTestResourceData
 public interface InfoForResourceTypeCTestResourceData : ISchemaClass<InfoForResourceTypeCTestResourceData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

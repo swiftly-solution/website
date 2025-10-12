@@ -6,7 +6,7 @@ title: CLogicNPCCounter
 public interface CLogicNPCCounter : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CLogicNPCCounter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLogicNPCCounter : CBaseEntity, CEntityInstance, ISchemaClass<C
 ref float DefaultDist_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float DefaultDist_1 { get; }
 ref float DefaultDist_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DefaultDist_2 { get; }
 ref float DefaultDist_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float DefaultDist_3 { get; }
 ref bool Disabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool Disabled { get; }
 ref float DistanceMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float DistanceMax { get; }
 ref bool InvertState_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool InvertState_1 { get; }
 ref bool InvertState_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool InvertState_2 { get; }
 ref bool InvertState_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool InvertState_3 { get; }
 ref int MaxCountAll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int MaxCountAll { get; }
 ref int MaxCount_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int MaxCount_1 { get; }
 ref int MaxCount_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int MaxCount_2 { get; }
 ref int MaxCount_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int MaxCount_3 { get; }
 ref int MaxFactorAll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int MaxFactorAll { get; }
 ref int MaxFactor_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int MaxFactor_1 { get; }
 ref int MaxFactor_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ ref int MaxFactor_2 { get; }
 ref int MaxFactor_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -176,7 +176,7 @@ ref int MaxFactor_3 { get; }
 ref int MinCountAll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int MinCountAll { get; }
 ref int MinCount_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ ref int MinCount_1 { get; }
 ref int MinCount_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -206,7 +206,7 @@ ref int MinCount_2 { get; }
 ref int MinCount_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -216,7 +216,7 @@ ref int MinCount_3 { get; }
 ref int MinFactorAll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -226,7 +226,7 @@ ref int MinFactorAll { get; }
 ref int MinFactor_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int MinFactor_1 { get; }
 ref int MinFactor_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -246,7 +246,7 @@ ref int MinFactor_2 { get; }
 ref int MinFactor_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -256,7 +256,7 @@ ref int MinFactor_3 { get; }
 string NPCClassname_1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -266,7 +266,7 @@ string NPCClassname_1 { get; set; }
 string NPCClassname_2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -276,7 +276,7 @@ string NPCClassname_2 { get; set; }
 string NPCClassname_3 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -286,7 +286,7 @@ string NPCClassname_3 { get; set; }
 ref int NPCState_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -296,7 +296,7 @@ ref int NPCState_1 { get; }
 ref int NPCState_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -306,7 +306,7 @@ ref int NPCState_2 { get; }
 ref int NPCState_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -316,7 +316,7 @@ ref int NPCState_3 { get; }
 SchemaUntypedField OnFactorAll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -326,7 +326,7 @@ SchemaUntypedField OnFactorAll { get; }
 SchemaUntypedField OnFactor_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -336,7 +336,7 @@ SchemaUntypedField OnFactor_1 { get; }
 SchemaUntypedField OnFactor_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -346,7 +346,7 @@ SchemaUntypedField OnFactor_2 { get; }
 SchemaUntypedField OnFactor_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -356,7 +356,7 @@ SchemaUntypedField OnFactor_3 { get; }
 CEntityIOOutput OnMaxCountAll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -366,7 +366,7 @@ CEntityIOOutput OnMaxCountAll { get; }
 CEntityIOOutput OnMaxCount_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -376,7 +376,7 @@ CEntityIOOutput OnMaxCount_1 { get; }
 CEntityIOOutput OnMaxCount_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -386,7 +386,7 @@ CEntityIOOutput OnMaxCount_2 { get; }
 CEntityIOOutput OnMaxCount_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -396,7 +396,7 @@ CEntityIOOutput OnMaxCount_3 { get; }
 CEntityIOOutput OnMinCountAll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -406,7 +406,7 @@ CEntityIOOutput OnMinCountAll { get; }
 CEntityIOOutput OnMinCount_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -416,7 +416,7 @@ CEntityIOOutput OnMinCount_1 { get; }
 CEntityIOOutput OnMinCount_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -426,7 +426,7 @@ CEntityIOOutput OnMinCount_2 { get; }
 CEntityIOOutput OnMinCount_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -436,7 +436,7 @@ CEntityIOOutput OnMinCount_3 { get; }
 SchemaUntypedField OnMinPlayerDistAll { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -446,7 +446,7 @@ SchemaUntypedField OnMinPlayerDistAll { get; }
 SchemaUntypedField OnMinPlayerDist_1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -456,7 +456,7 @@ SchemaUntypedField OnMinPlayerDist_1 { get; }
 SchemaUntypedField OnMinPlayerDist_2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -466,7 +466,7 @@ SchemaUntypedField OnMinPlayerDist_2 { get; }
 SchemaUntypedField OnMinPlayerDist_3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -476,7 +476,7 @@ SchemaUntypedField OnMinPlayerDist_3 { get; }
 ref CHandle<CEntityInstance> Source { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
@@ -486,7 +486,7 @@ ref CHandle<CEntityInstance> Source { get; }
 string SourceEntityName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CEmitTagActionUpdater
 public interface CEmitTagActionUpdater : CAnimActionUpdater, ISchemaClass<CAnimActionUpdater>, ISchemaClass<CEmitTagActionUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEmitTagActionUpdater : CAnimActionUpdater, ISchemaClass<CAnimA
 ref bool IsZeroDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool IsZeroDuration { get; }
 ref int TagIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -14,11 +14,11 @@ public interface INetMessageService
 T Create<T>() where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
 ```
 
-#### Returns
+- Returns
 
 - T - The new net message.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - Net message type.
 
@@ -28,15 +28,15 @@ T Create<T>() where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
 Guid HookClientMessage<T>(INetMessageService.ClientNetMessageHandler<T> callback) where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
 ```
 
-#### Parameters
+- Parameters
 
 - **callback**: [INetMessageService](/docs/api/shared/netmessages/inetmessageservice).[ClientNetMessageHandler](/docs/api/shared/netmessages/inetmessageservice/clientnetmessagehandler-1)<T> - The callback to handle the net message.
 
-#### Returns
+- Returns
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The unique Guid for the handler. Can be used to unhook it later.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - Client net message type.
 
@@ -46,15 +46,15 @@ Guid HookClientMessage<T>(INetMessageService.ClientNetMessageHandler<T> callback
 Guid HookServerMessage<T>(INetMessageService.ServerNetMessageHandler<T> callback) where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
 ```
 
-#### Parameters
+- Parameters
 
 - **callback**: [INetMessageService](/docs/api/shared/netmessages/inetmessageservice).[ServerNetMessageHandler](/docs/api/shared/netmessages/inetmessageservice/servernetmessagehandler-1)<T> - The callback to handle the net message.
 
-#### Returns
+- Returns
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The unique Guid for the handler. Can be used to unhook it later.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - Server net message type.
 
@@ -64,11 +64,11 @@ Guid HookServerMessage<T>(INetMessageService.ServerNetMessageHandler<T> callback
 void Send<T>(Action<T> configureMessage) where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
 ```
 
-#### Parameters
+- Parameters
 
 - **configureMessage**: [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<T> - The action to configure the net message and recipient filter.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - Net message type.
 
@@ -78,7 +78,7 @@ void Send<T>(Action<T> configureMessage) where T : ITypedProtobuf<T>, INetMessag
 void Unhook(Guid guid)
 ```
 
-#### Parameters
+- Parameters
 
 - **guid**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The unique Guid for the handler.
 
@@ -88,7 +88,7 @@ void Unhook(Guid guid)
 void UnhookClientMessage<T>() where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - Client net message type.
 
@@ -98,7 +98,7 @@ void UnhookClientMessage<T>() where T : ITypedProtobuf<T>, INetMessage<T>, IDisp
 void UnhookServerMessage<T>() where T : ITypedProtobuf<T>, INetMessage<T>, IDisposable
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - Server net message type.
 

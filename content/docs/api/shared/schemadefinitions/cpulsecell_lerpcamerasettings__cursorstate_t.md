@@ -6,7 +6,7 @@ title: CPulseCell_LerpCameraSettings__CursorState_t
 public interface CPulseCell_LerpCameraSettings__CursorState_t : CPulseCell_BaseLerp__CursorState_t, ISchemaClass<CPulseCell_BaseLerp__CursorState_t>, ISchemaClass<CPulseCell_LerpCameraSettings__CursorState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_LerpCameraSettings__CursorState_t : CPulseCell_BaseL
 ref CHandle<CPointCamera> Camera { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPointCamera](/docs/api/shared/schemadefinitions/cpointcamera)>
 
@@ -26,7 +26,7 @@ ref CHandle<CPointCamera> Camera { get; }
 PointCameraSettings_t OverlaidEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointCameraSettings_t](/docs/api/shared/schemadefinitions/pointcamerasettings_t)
 
@@ -36,7 +36,7 @@ PointCameraSettings_t OverlaidEnd { get; }
 PointCameraSettings_t OverlaidStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointCameraSettings_t](/docs/api/shared/schemadefinitions/pointcamerasettings_t)
 

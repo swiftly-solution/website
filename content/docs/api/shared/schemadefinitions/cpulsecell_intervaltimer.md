@@ -6,7 +6,7 @@ title: CPulseCell_IntervalTimer
 public interface CPulseCell_IntervalTimer : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_IntervalTimer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_IntervalTimer : CPulseCell_BaseYieldingInflow, CPuls
 CPulse_ResumePoint Completed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -26,7 +26,7 @@ CPulse_ResumePoint Completed { get; }
 SignatureOutflow_Continue OnInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SignatureOutflow_Continue](/docs/api/shared/schemadefinitions/signatureoutflow_continue)
 

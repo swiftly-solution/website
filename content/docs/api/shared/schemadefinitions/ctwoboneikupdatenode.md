@@ -6,7 +6,7 @@ title: CTwoBoneIKUpdateNode
 public interface CTwoBoneIKUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CTwoBoneIKUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTwoBoneIKUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, I
 TwoBoneIKSettings_t OpFixedData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TwoBoneIKSettings_t](/docs/api/shared/schemadefinitions/twoboneiksettings_t)
 

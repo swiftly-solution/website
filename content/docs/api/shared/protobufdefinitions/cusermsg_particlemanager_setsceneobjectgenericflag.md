@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetSceneObjectGenericFlag
 public interface CUserMsg_ParticleManager_SetSceneObjectGenericFlag : ITypedProtobuf<CUserMsg_ParticleManager_SetSceneObjectGenericFlag>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetSceneObjectGenericFlag : ITypedProt
 bool FlagValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

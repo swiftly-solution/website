@@ -6,7 +6,7 @@ title: CBoneConstraintPoseSpaceMorph__Input_t
 public interface CBoneConstraintPoseSpaceMorph__Input_t : ISchemaClass<CBoneConstraintPoseSpaceMorph__Input_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBoneConstraintPoseSpaceMorph__Input_t : ISchemaClass<CBoneCons
 ref Vector InputValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector InputValue { get; }
 ref CUtlVector<float> OutputWeightList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

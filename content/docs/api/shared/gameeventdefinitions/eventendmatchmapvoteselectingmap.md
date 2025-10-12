@@ -6,7 +6,7 @@ title: EventEndmatchMapvoteSelectingMap
 public interface EventEndmatchMapvoteSelectingMap : IGameEvent<EventEndmatchMapvoteSelectingMap>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventEndmatchMapvoteSelectingMap : IGameEvent<EventEndmatchMapv
 byte Count { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -26,7 +26,7 @@ byte Count { get; set; }
 byte Slot1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -36,7 +36,7 @@ byte Slot1 { get; set; }
 byte Slot10 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -46,7 +46,7 @@ byte Slot10 { get; set; }
 byte Slot2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -56,7 +56,7 @@ byte Slot2 { get; set; }
 byte Slot3 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -66,7 +66,7 @@ byte Slot3 { get; set; }
 byte Slot4 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -76,7 +76,7 @@ byte Slot4 { get; set; }
 byte Slot5 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -86,7 +86,7 @@ byte Slot5 { get; set; }
 byte Slot6 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -96,7 +96,7 @@ byte Slot6 { get; set; }
 byte Slot7 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -106,7 +106,7 @@ byte Slot7 { get; set; }
 byte Slot8 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -116,7 +116,7 @@ byte Slot8 { get; set; }
 byte Slot9 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

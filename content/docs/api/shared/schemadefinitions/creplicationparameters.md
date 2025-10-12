@@ -6,7 +6,7 @@ title: CReplicationParameters
 public interface CReplicationParameters : ISchemaClass<CReplicationParameters>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CReplicationParameters : ISchemaClass<CReplicationParameters>, 
 CParticleCollectionVecInput MaxRandomDisplacement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionVecInput MaxRandomDisplacement { get; }
 CParticleCollectionFloatInput MaxRandomRadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionFloatInput MaxRandomRadiusScale { get; }
 CParticleCollectionVecInput MinRandomDisplacement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionVecInput MinRandomDisplacement { get; }
 CParticleCollectionFloatInput MinRandomRadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -56,7 +56,7 @@ CParticleCollectionFloatInput MinRandomRadiusScale { get; }
 CParticleCollectionFloatInput ModellingScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionFloatInput ModellingScale { get; }
 ref ParticleReplicationMode_t ReplicationMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleReplicationMode_t](/docs/api/shared/schemadefinitions/particlereplicationmode_t)
 
@@ -76,7 +76,7 @@ ref ParticleReplicationMode_t ReplicationMode { get; }
 ref bool ScaleChildParticleRadii { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

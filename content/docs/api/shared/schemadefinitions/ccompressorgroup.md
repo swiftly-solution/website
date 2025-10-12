@@ -6,7 +6,7 @@ title: CCompressorGroup
 public interface CCompressorGroup : ISchemaClass<CCompressorGroup>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCompressorGroup : ISchemaClass<CCompressorGroup>, ISchemaField
 ref CUtlVector<PointerTo<SchemaUntypedField>> BoolCompressor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> BoolCompressor { get; }
 ref CUtlVector<CString> ChannelClass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CString](/docs/api/shared/natives/cstring)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CString> ChannelClass { get; }
 ref CUtlVector<PointerTo<SchemaUntypedField>> ColorCompressor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)>>
 
@@ -46,7 +46,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> ColorCompressor { get; }
 ref CUtlVector<int> CompressorIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<int> CompressorIndex { get; }
 ref CUtlVector<uint> ElementMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<uint> ElementMask { get; }
 ref CUtlVector<CUtlVector<CString>> ElementNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlVector](/docs/api/-1)<[CString](/docs/api/shared/natives/cstring)>>
 
@@ -76,7 +76,7 @@ ref CUtlVector<CUtlVector<CString>> ElementNames { get; }
 ref CUtlVector<CUtlVector<int>> ElementUniqueID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>>
 
@@ -86,7 +86,7 @@ ref CUtlVector<CUtlVector<int>> ElementUniqueID { get; }
 ref CUtlVector<int> Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<int> Flags { get; }
 ref CUtlVector<CUtlString> Grouping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -106,7 +106,7 @@ ref CUtlVector<CUtlString> Grouping { get; }
 ref CUtlVector<PointerTo<SchemaUntypedField>> IntCompressor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)>>
 
@@ -116,7 +116,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> IntCompressor { get; }
 ref CUtlVector<PointerTo<SchemaUntypedField>> QuaternionCompressor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)>>
 
@@ -126,7 +126,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> QuaternionCompressor { get; }
 ref int TotalElementCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int TotalElementCount { get; }
 ref CUtlVector<fieldtype_t> Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[fieldtype_t](/docs/api/shared/schemadefinitions/fieldtype_t)>
 
@@ -146,7 +146,7 @@ ref CUtlVector<fieldtype_t> Type { get; }
 ref CUtlVector<CString> VariableName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CString](/docs/api/shared/natives/cstring)>
 
@@ -156,7 +156,7 @@ ref CUtlVector<CString> VariableName { get; }
 ref CUtlVector<PointerTo<SchemaUntypedField>> Vector2DCompressor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)>>
 
@@ -166,7 +166,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> Vector2DCompressor { get; }
 ref CUtlVector<PointerTo<SchemaUntypedField>> Vector4DCompressor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)>>
 
@@ -176,7 +176,7 @@ ref CUtlVector<PointerTo<SchemaUntypedField>> Vector4DCompressor { get; }
 ref CUtlVector<PointerTo<SchemaUntypedField>> VectorCompressor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)>>
 

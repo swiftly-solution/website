@@ -6,7 +6,7 @@ title: CGCToGCMsgMasterAck
 public interface CGCToGCMsgMasterAck : ITypedProtobuf<CGCToGCMsgMasterAck>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGCToGCMsgMasterAck : ITypedProtobuf<CGCToGCMsgMasterAck>, INat
 uint DirIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint DirIndex { get; set; }
 uint GcType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CNETMsg_SpawnGroup_SetCreationTick
 public interface CNETMsg_SpawnGroup_SetCreationTick : ITypedProtobuf<CNETMsg_SpawnGroup_SetCreationTick>, INativeHandle, INetMessage<CNETMsg_SpawnGroup_SetCreationTick>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNETMsg_SpawnGroup_SetCreationTick : ITypedProtobuf<CNETMsg_Spa
 uint Creationsequence { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Creationsequence { get; set; }
 uint Spawngrouphandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Spawngrouphandle { get; set; }
 int Tickcount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

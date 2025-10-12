@@ -6,7 +6,7 @@ title: CBtActionCombatPositioning
 public interface CBtActionCombatPositioning : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<CBtActionCombatPositioning>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBtActionCombatPositioning : CBtNode, ISchemaClass<CBtNode>, IS
 CountdownTimer ActionTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -26,7 +26,7 @@ CountdownTimer ActionTimer { get; }
 ref bool Crouching { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Crouching { get; }
 string IsAttackingKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string IsAttackingKey { get; set; }
 string SensorInputKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

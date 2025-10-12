@@ -6,7 +6,7 @@ title: CPulseCell_Outflow_ListenForEntityOutput__CursorState_t
 public interface CPulseCell_Outflow_ListenForEntityOutput__CursorState_t : ISchemaClass<CPulseCell_Outflow_ListenForEntityOutput__CursorState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Outflow_ListenForEntityOutput__CursorState_t : ISche
 ref CHandle<CBaseEntity> Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

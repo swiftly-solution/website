@@ -6,7 +6,7 @@ title: CCSUsrMsg_ClientInfo
 public interface CCSUsrMsg_ClientInfo : ITypedProtobuf<CCSUsrMsg_ClientInfo>, INativeHandle, INetMessage<CCSUsrMsg_ClientInfo>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ClientInfo : ITypedProtobuf<CCSUsrMsg_ClientInfo>, IN
 int Dummy { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CParamSpanUpdater
 public interface CParamSpanUpdater : ISchemaClass<CParamSpanUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParamSpanUpdater : ISchemaClass<CParamSpanUpdater>, ISchemaFie
 ref CUtlVector Spans { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

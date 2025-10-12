@@ -6,7 +6,7 @@ title: EventAchievementEvent
 public interface EventAchievementEvent : IGameEvent<EventAchievementEvent>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventAchievementEvent : IGameEvent<EventAchievementEvent>
 string AchievementName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AchievementName { get; set; }
 short CurVal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ short CurVal { get; set; }
 short MaxVal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

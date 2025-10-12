@@ -6,7 +6,7 @@ title: CSVCMsg_UpdateStringTable
 public interface CSVCMsg_UpdateStringTable : ITypedProtobuf<CSVCMsg_UpdateStringTable>, INativeHandle, INetMessage<CSVCMsg_UpdateStringTable>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_UpdateStringTable : ITypedProtobuf<CSVCMsg_UpdateString
 int NumChangedEntries { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int NumChangedEntries { get; set; }
 byte[] StringData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -36,7 +36,7 @@ byte[] StringData { get; set; }
 int TableId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

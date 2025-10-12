@@ -6,7 +6,7 @@ title: CPlayerPawnComponent
 public interface CPlayerPawnComponent : ISchemaClass<CPlayerPawnComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPlayerPawnComponent : ISchemaClass<CPlayerPawnComponent>, ISch
 CBasePlayerPawn Pawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)
 
@@ -26,7 +26,7 @@ CBasePlayerPawn Pawn { get; }
 ref CNetworkVarChainer __m_pChainEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkVarChainer](/docs/api/shared/natives/cnetworkvarchainer)
 

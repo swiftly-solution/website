@@ -14,7 +14,7 @@ public interface IOnPrecacheResourceEvent
 void AddItem(string path)
 ```
 
-#### Parameters
+- Parameters
 
 - **path**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The path of the resource to precache.
 

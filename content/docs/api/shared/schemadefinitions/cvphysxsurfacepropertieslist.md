@@ -6,7 +6,7 @@ title: CVPhysXSurfacePropertiesList
 public interface CVPhysXSurfacePropertiesList : ISchemaClass<CVPhysXSurfacePropertiesList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVPhysXSurfacePropertiesList : ISchemaClass<CVPhysXSurfacePrope
 ref CUtlVector<PointerTo<CPhysSurfaceProperties>> SurfacePropertiesList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CPhysSurfaceProperties](/docs/api/shared/schemadefinitions/cphyssurfaceproperties)>>
 

@@ -6,7 +6,7 @@ title: CVoiceContainerLoopTrigger
 public interface CVoiceContainerLoopTrigger : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerLoopTrigger>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerLoopTrigger : CVoiceContainerBase, ISchemaClass<
 ref bool CrossFade { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CrossFade { get; }
 ref float FadeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float FadeTime { get; }
 ref float RetriggerTimeMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float RetriggerTimeMax { get; }
 ref float RetriggerTimeMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float RetriggerTimeMin { get; }
 CSoundContainerReference Sound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSoundContainerReference](/docs/api/shared/schemadefinitions/csoundcontainerreference)
 

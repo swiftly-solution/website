@@ -6,7 +6,7 @@ title: CUserMessage_UtilMsg_Response_ItemDetail
 public interface CUserMessage_UtilMsg_Response_ItemDetail : ITypedProtobuf<CUserMessage_UtilMsg_Response_ItemDetail>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessage_UtilMsg_Response_ItemDetail : ITypedProtobuf<CUser
 int Crc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Crc { get; set; }
 int Hash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Hash { get; set; }
 int Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Index { get; set; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

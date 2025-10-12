@@ -6,7 +6,7 @@ title: CDemoStringTables_items_t
 public interface CDemoStringTables_items_t : ITypedProtobuf<CDemoStringTables_items_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoStringTables_items_t : ITypedProtobuf<CDemoStringTables_it
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] Data { get; set; }
 string Str { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

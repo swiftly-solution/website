@@ -6,7 +6,7 @@ title: EventHltvVersioninfo
 public interface EventHltvVersioninfo : IGameEvent<EventHltvVersioninfo>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventHltvVersioninfo : IGameEvent<EventHltvVersioninfo>
 int Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

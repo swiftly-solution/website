@@ -6,7 +6,7 @@ title: CMsgTEEffectDispatch
 public interface CMsgTEEffectDispatch : ITypedProtobuf<CMsgTEEffectDispatch>, INativeHandle, INetMessage<CMsgTEEffectDispatch>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEEffectDispatch : ITypedProtobuf<CMsgTEEffectDispatch>, IN
 CMsgEffectData Effectdata { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgEffectData](/docs/api/shared/protobufdefinitions/cmsgeffectdata)
 

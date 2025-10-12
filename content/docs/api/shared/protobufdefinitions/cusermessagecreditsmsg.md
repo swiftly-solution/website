@@ -6,7 +6,7 @@ title: CUserMessageCreditsMsg
 public interface CUserMessageCreditsMsg : ITypedProtobuf<CUserMessageCreditsMsg>, INativeHandle, INetMessage<CUserMessageCreditsMsg>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageCreditsMsg : ITypedProtobuf<CUserMessageCreditsMsg>
 float LogoLength { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float LogoLength { get; set; }
 eRollType Rolltype { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [eRollType](/docs/api/shared/protobufdefinitions/erolltype)
 

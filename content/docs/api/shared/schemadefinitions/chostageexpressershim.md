@@ -6,7 +6,7 @@ title: CHostageExpresserShim
 public interface CHostageExpresserShim : CBaseCombatCharacter, CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CBaseCombatCharacter>, ISchemaClass<CHostageExpresserShim>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CHostageExpresserShim : CBaseCombatCharacter, CBaseFlex, CBaseA
 CAI_Expresser? Expresser { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAI_Expresser](/docs/api/shared/schemadefinitions/cai_expresser)?
 

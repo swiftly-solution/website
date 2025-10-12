@@ -6,7 +6,7 @@ title: CNetworkVarChainer
 public struct CNetworkVarChainer
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct CNetworkVarChainer
 public ChangeAccessorFieldPathIndex_t PathIndex
 ```
 
-#### Field Value
+- Field Value
 
 - [ChangeAccessorFieldPathIndex_t](/docs/api/shared/natives/changeaccessorfieldpathindex_t)
 
@@ -26,7 +26,7 @@ public ChangeAccessorFieldPathIndex_t PathIndex
 public void* pEntity
 ```
 
-#### Field Value
+- Field Value
 
 - [void](https://learn.microsoft.com/dotnet/api/system.void)*
 
@@ -38,7 +38,7 @@ public void* pEntity
 public readonly CEntityInstance Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
 

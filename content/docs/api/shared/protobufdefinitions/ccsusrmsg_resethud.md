@@ -6,7 +6,7 @@ title: CCSUsrMsg_ResetHud
 public interface CCSUsrMsg_ResetHud : ITypedProtobuf<CCSUsrMsg_ResetHud>, INativeHandle, INetMessage<CCSUsrMsg_ResetHud>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ResetHud : ITypedProtobuf<CCSUsrMsg_ResetHud>, INativ
 bool Reset { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

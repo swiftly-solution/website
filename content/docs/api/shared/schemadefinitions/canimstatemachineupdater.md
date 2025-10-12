@@ -6,7 +6,7 @@ title: CAnimStateMachineUpdater
 public interface CAnimStateMachineUpdater : ISchemaClass<CAnimStateMachineUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimStateMachineUpdater : ISchemaClass<CAnimStateMachineUpdate
 ref int StartStateIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int StartStateIndex { get; }
 ref CUtlVector States { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector States { get; }
 ref CUtlVector Transitions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

@@ -6,7 +6,7 @@ title: CSVCMsg_HltvFixupOperatorStatus
 public interface CSVCMsg_HltvFixupOperatorStatus : ITypedProtobuf<CSVCMsg_HltvFixupOperatorStatus>, INativeHandle, INetMessage<CSVCMsg_HltvFixupOperatorStatus>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_HltvFixupOperatorStatus : ITypedProtobuf<CSVCMsg_HltvFi
 uint Mode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Mode { get; set; }
 string OverrideOperatorName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

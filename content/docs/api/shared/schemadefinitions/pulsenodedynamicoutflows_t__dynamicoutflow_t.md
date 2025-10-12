@@ -6,7 +6,7 @@ title: PulseNodeDynamicOutflows_t__DynamicOutflow_t
 public interface PulseNodeDynamicOutflows_t__DynamicOutflow_t : ISchemaClass<PulseNodeDynamicOutflows_t__DynamicOutflow_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseNodeDynamicOutflows_t__DynamicOutflow_t : ISchemaClass<Pul
 CPulse_OutflowConnection Connection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
@@ -26,7 +26,7 @@ CPulse_OutflowConnection Connection { get; }
 ref CGlobalSymbol OutflowID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

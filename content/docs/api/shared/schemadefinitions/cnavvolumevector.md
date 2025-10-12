@@ -6,7 +6,7 @@ title: CNavVolumeVector
 public interface CNavVolumeVector : CNavVolume, ISchemaClass<CNavVolume>, ISchemaClass<CNavVolumeVector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNavVolumeVector : CNavVolume, ISchemaClass<CNavVolume>, ISchem
 ref bool HasBeenPreFiltered { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

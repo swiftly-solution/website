@@ -6,7 +6,7 @@ title: CActionComponentUpdater
 public interface CActionComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CActionComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CActionComponentUpdater : CAnimComponentUpdater, ISchemaClass<C
 ref CUtlVector Actions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

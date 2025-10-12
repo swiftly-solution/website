@@ -6,7 +6,7 @@ title: CParticleFloatInput
 public interface CParticleFloatInput : CParticleInput, ISchemaClass<CParticleInput>, ISchemaClass<CParticleFloatInput>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleFloatInput : CParticleInput, ISchemaClass<CParticleInp
 ref float BiasParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BiasParameter { get; }
 ref ParticleFloatBiasType_t BiasType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleFloatBiasType_t](/docs/api/shared/schemadefinitions/particlefloatbiastype_t)
 
@@ -36,7 +36,7 @@ ref ParticleFloatBiasType_t BiasType { get; }
 ref int ControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int ControlPoint { get; }
 SchemaUntypedField Curve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField Curve { get; }
 ref bool HasRandomSignFlip { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool HasRandomSignFlip { get; }
 ref float Input0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float Input0 { get; }
 ref float Input1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float Input1 { get; }
 ref ParticleFloatInputMode_t InputMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleFloatInputMode_t](/docs/api/shared/schemadefinitions/particlefloatinputmode_t)
 
@@ -96,7 +96,7 @@ ref ParticleFloatInputMode_t InputMode { get; }
 ref float LOD0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float LOD0 { get; }
 ref float LOD1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float LOD1 { get; }
 ref float LOD2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float LOD2 { get; }
 ref float LOD3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float LOD3 { get; }
 ref float LiteralValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float LiteralValue { get; }
 ref ParticleFloatMapType_t MapType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleFloatMapType_t](/docs/api/shared/schemadefinitions/particlefloatmaptype_t)
 
@@ -156,7 +156,7 @@ ref ParticleFloatMapType_t MapType { get; }
 ref float MultFactor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float MultFactor { get; }
 SchemaUntypedField NamedValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -176,7 +176,7 @@ SchemaUntypedField NamedValue { get; }
 ref float NoCameraFallback { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float NoCameraFallback { get; }
 ref bool NoiseImgPreviewLive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool NoiseImgPreviewLive { get; }
 ref float NoiseImgPreviewScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float NoiseImgPreviewScale { get; }
 ParticleAttributeIndex_t NoiseInputVectorAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -216,7 +216,7 @@ ParticleAttributeIndex_t NoiseInputVectorAttribute { get; }
 ref PFNoiseModifier_t NoiseModifier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PFNoiseModifier_t](/docs/api/shared/schemadefinitions/pfnoisemodifier_t)
 
@@ -226,7 +226,7 @@ ref PFNoiseModifier_t NoiseModifier { get; }
 ref int NoiseOctaves { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int NoiseOctaves { get; }
 ref float NoiseOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -246,7 +246,7 @@ ref float NoiseOffset { get; }
 ref Vector NoiseOffsetRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -256,7 +256,7 @@ ref Vector NoiseOffsetRate { get; }
 ref float NoiseOutputMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -266,7 +266,7 @@ ref float NoiseOutputMax { get; }
 ref float NoiseOutputMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -276,7 +276,7 @@ ref float NoiseOutputMin { get; }
 ref float NoiseScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -286,7 +286,7 @@ ref float NoiseScale { get; }
 ref PFNoiseTurbulence_t NoiseTurbulence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PFNoiseTurbulence_t](/docs/api/shared/schemadefinitions/pfnoiseturbulence_t)
 
@@ -296,7 +296,7 @@ ref PFNoiseTurbulence_t NoiseTurbulence { get; }
 ref float NoiseTurbulenceMix { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -306,7 +306,7 @@ ref float NoiseTurbulenceMix { get; }
 ref float NoiseTurbulenceScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -316,7 +316,7 @@ ref float NoiseTurbulenceScale { get; }
 ref PFNoiseType_t NoiseType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PFNoiseType_t](/docs/api/shared/schemadefinitions/pfnoisetype_t)
 
@@ -326,7 +326,7 @@ ref PFNoiseType_t NoiseType { get; }
 ref float NotchedOutputInside { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -336,7 +336,7 @@ ref float NotchedOutputInside { get; }
 ref float NotchedOutputOutside { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -346,7 +346,7 @@ ref float NotchedOutputOutside { get; }
 ref float NotchedRangeMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -356,7 +356,7 @@ ref float NotchedRangeMax { get; }
 ref float NotchedRangeMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -366,7 +366,7 @@ ref float NotchedRangeMin { get; }
 ref float Output0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -376,7 +376,7 @@ ref float Output0 { get; }
 ref float Output1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -386,7 +386,7 @@ ref float Output1 { get; }
 ref float RandomMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -396,7 +396,7 @@ ref float RandomMax { get; }
 ref float RandomMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -406,7 +406,7 @@ ref float RandomMin { get; }
 ref ParticleFloatRandomMode_t RandomMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleFloatRandomMode_t](/docs/api/shared/schemadefinitions/particlefloatrandommode_t)
 
@@ -416,7 +416,7 @@ ref ParticleFloatRandomMode_t RandomMode { get; }
 ref int RandomSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -426,7 +426,7 @@ ref int RandomSeed { get; }
 ref bool ReverseOrder { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -436,7 +436,7 @@ ref bool ReverseOrder { get; }
 ref ParticleFloatRoundType_t RoundType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleFloatRoundType_t](/docs/api/shared/schemadefinitions/particlefloatroundtype_t)
 
@@ -446,7 +446,7 @@ ref ParticleFloatRoundType_t RoundType { get; }
 ParticleAttributeIndex_t ScalarAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -456,7 +456,7 @@ ParticleAttributeIndex_t ScalarAttribute { get; }
 ref ParticleFloatType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleFloatType_t](/docs/api/shared/schemadefinitions/particlefloattype_t)
 
@@ -466,7 +466,7 @@ ref ParticleFloatType_t Type { get; }
 ref bool UseBoundsCenter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -476,7 +476,7 @@ ref bool UseBoundsCenter { get; }
 ParticleAttributeIndex_t VectorAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -486,7 +486,7 @@ ParticleAttributeIndex_t VectorAttribute { get; }
 ref int VectorComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CSoundPatch
 public interface CSoundPatch : ISchemaClass<CSoundPatch>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSoundPatch : ISchemaClass<CSoundPatch>, ISchemaField, ISchemaC
 string ClassName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string ClassName { get; set; }
 ref float CloseCaptionDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float CloseCaptionDuration { get; }
 ref CHandle<CBaseEntity> Ent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -46,7 +46,7 @@ ref CHandle<CBaseEntity> Ent { get; }
 CCopyRecipientFilter Filter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCopyRecipientFilter](/docs/api/shared/schemadefinitions/ccopyrecipientfilter)
 
@@ -56,7 +56,7 @@ CCopyRecipientFilter Filter { get; }
 ref int IsPlaying { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int IsPlaying { get; }
 ref float LastTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float LastTime { get; }
 CSoundEnvelope Pitch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSoundEnvelope](/docs/api/shared/schemadefinitions/csoundenvelope)
 
@@ -86,7 +86,7 @@ CSoundEnvelope Pitch { get; }
 ref float ShutdownTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float ShutdownTime { get; }
 ref uint SoundEntityIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ ref uint SoundEntityIndex { get; }
 ref Vector SoundOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -116,7 +116,7 @@ ref Vector SoundOrigin { get; }
 string SoundScriptName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -126,7 +126,7 @@ string SoundScriptName { get; set; }
 ref bool UpdatedSoundOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool UpdatedSoundOrigin { get; }
 CSoundEnvelope Volume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSoundEnvelope](/docs/api/shared/schemadefinitions/csoundenvelope)
 

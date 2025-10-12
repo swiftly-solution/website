@@ -6,7 +6,7 @@ title: magnetted_objects_t
 public interface magnetted_objects_t : ISchemaClass<magnetted_objects_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface magnetted_objects_t : ISchemaClass<magnetted_objects_t>, ISchem
 ref CHandle<CBaseEntity> Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

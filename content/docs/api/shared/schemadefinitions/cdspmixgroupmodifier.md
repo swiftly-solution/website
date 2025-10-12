@@ -6,7 +6,7 @@ title: CDSPMixgroupModifier
 public interface CDSPMixgroupModifier : ISchemaClass<CDSPMixgroupModifier>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDSPMixgroupModifier : ISchemaClass<CDSPMixgroupModifier>, ISch
 ref float ListenerReverbModifierWhenSourceReverbIsActive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float ListenerReverbModifierWhenSourceReverbIsActive { get; }
 string Mixgroup { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Mixgroup { get; set; }
 ref float Modifier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Modifier { get; }
 ref float ModifierMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float ModifierMin { get; }
 ref float SourceModifier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float SourceModifier { get; }
 ref float SourceModifierMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

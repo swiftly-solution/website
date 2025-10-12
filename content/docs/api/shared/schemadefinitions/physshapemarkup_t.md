@@ -6,7 +6,7 @@ title: PhysShapeMarkup_t
 public interface PhysShapeMarkup_t : ISchemaClass<PhysShapeMarkup_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PhysShapeMarkup_t : ISchemaClass<PhysShapeMarkup_t>, ISchemaFie
 ref int BodyInAggregate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int BodyInAggregate { get; }
 ref CGlobalSymbol HitGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -36,7 +36,7 @@ ref CGlobalSymbol HitGroup { get; }
 ref int ShapeInBody { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

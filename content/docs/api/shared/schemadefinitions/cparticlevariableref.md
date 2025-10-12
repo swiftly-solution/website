@@ -6,7 +6,7 @@ title: CParticleVariableRef
 public interface CParticleVariableRef : ISchemaClass<CParticleVariableRef>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleVariableRef : ISchemaClass<CParticleVariableRef>, ISch
 SchemaUntypedField VariableName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField VariableName { get; }
 ref PulseValueType_t VariableType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseValueType_t](/docs/api/shared/schemadefinitions/pulsevaluetype_t)
 

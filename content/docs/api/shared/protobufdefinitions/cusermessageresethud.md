@@ -6,5 +6,5 @@ title: CUserMessageResetHUD
 public interface CUserMessageResetHUD : ITypedProtobuf<CUserMessageResetHUD>, INativeHandle, INetMessage<CUserMessageResetHUD>, IDisposable
 ```
 
-#### Implements
+- Implements
 

@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetMaterialOverride
 public interface CUserMsg_ParticleManager_SetMaterialOverride : ITypedProtobuf<CUserMsg_ParticleManager_SetMaterialOverride>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetMaterialOverride : ITypedProtobuf<C
 bool IncludeChildren { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool IncludeChildren { get; set; }
 string MaterialName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

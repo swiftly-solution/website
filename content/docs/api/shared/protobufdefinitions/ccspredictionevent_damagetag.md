@@ -6,7 +6,7 @@ title: CCSPredictionEvent_DamageTag
 public interface CCSPredictionEvent_DamageTag : ITypedProtobuf<CCSPredictionEvent_DamageTag>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPredictionEvent_DamageTag : ITypedProtobuf<CCSPredictionEven
 float FlinchModLarge { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float FlinchModLarge { get; set; }
 float FlinchModSmall { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float FlinchModSmall { get; set; }
 float FriendlyFireDamageReductionRatio { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

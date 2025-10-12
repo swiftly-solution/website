@@ -6,7 +6,7 @@ title: CPhysicsBodyGameMarkup
 public interface CPhysicsBodyGameMarkup : ISchemaClass<CPhysicsBodyGameMarkup>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysicsBodyGameMarkup : ISchemaClass<CPhysicsBodyGameMarkup>, 
 ref CGlobalSymbol Tag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -26,7 +26,7 @@ ref CGlobalSymbol Tag { get; }
 string TargetBody { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

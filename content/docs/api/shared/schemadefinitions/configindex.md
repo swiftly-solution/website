@@ -6,7 +6,7 @@ title: ConfigIndex
 public interface ConfigIndex : ISchemaClass<ConfigIndex>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ConfigIndex : ISchemaClass<ConfigIndex>, ISchemaField, ISchemaC
 ref ushort Config { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort Config { get; }
 ref ushort Group { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

@@ -6,7 +6,7 @@ title: EventDelegates.OnMapLoad
 public delegate void EventDelegates.OnMapLoad(IOnMapLoadEvent @event)
 ```
 
-#### Parameters
+- Parameters
 
 - **event**: [IOnMapLoadEvent](/docs/api/shared/events/ionmaploadevent)
 

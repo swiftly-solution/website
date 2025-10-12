@@ -6,7 +6,7 @@ title: CUserMessageShowMenu
 public interface CUserMessageShowMenu : ITypedProtobuf<CUserMessageShowMenu>, INativeHandle, INetMessage<CUserMessageShowMenu>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageShowMenu : ITypedProtobuf<CUserMessageShowMenu>, IN
 uint Displaytime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Displaytime { get; set; }
 string Menustring { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Menustring { get; set; }
 bool Needmore { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool Needmore { get; set; }
 uint Validslots { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

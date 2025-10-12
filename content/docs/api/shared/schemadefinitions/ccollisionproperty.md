@@ -6,7 +6,7 @@ title: CCollisionProperty
 public interface CCollisionProperty : ISchemaClass<CCollisionProperty>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCollisionProperty : ISchemaClass<CCollisionProperty>, ISchemaF
 ref float BoundingRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BoundingRadius { get; }
 ref Vector CapsuleCenter1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector CapsuleCenter1 { get; }
 ref Vector CapsuleCenter2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector CapsuleCenter2 { get; }
 ref float CapsuleRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float CapsuleRadius { get; }
 VPhysicsCollisionAttribute_t CollisionAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VPhysicsCollisionAttribute_t](/docs/api/shared/schemadefinitions/vphysicscollisionattribute_t)
 
@@ -66,7 +66,7 @@ VPhysicsCollisionAttribute_t CollisionAttribute { get; }
 ref byte CollisionGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -76,7 +76,7 @@ ref byte CollisionGroup { get; }
 ref byte EnablePhysics { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -86,7 +86,7 @@ ref byte EnablePhysics { get; }
 ref Vector Maxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector Maxs { get; }
 ref Vector Mins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -106,7 +106,7 @@ ref Vector Mins { get; }
 ref byte SolidFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -116,7 +116,7 @@ ref byte SolidFlags { get; }
 ref SolidType_t SolidType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SolidType_t](/docs/api/shared/schemadefinitions/solidtype_t)
 
@@ -126,7 +126,7 @@ ref SolidType_t SolidType { get; }
 ref Vector SpecifiedSurroundingMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -136,7 +136,7 @@ ref Vector SpecifiedSurroundingMaxs { get; }
 ref Vector SpecifiedSurroundingMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -146,7 +146,7 @@ ref Vector SpecifiedSurroundingMins { get; }
 ref SurroundingBoundsType_t SurroundType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SurroundingBoundsType_t](/docs/api/shared/schemadefinitions/surroundingboundstype_t)
 
@@ -156,7 +156,7 @@ ref SurroundingBoundsType_t SurroundType { get; }
 ref Vector SurroundingMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -166,7 +166,7 @@ ref Vector SurroundingMaxs { get; }
 ref Vector SurroundingMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -176,7 +176,7 @@ ref Vector SurroundingMins { get; }
 ref byte TriggerBloat { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

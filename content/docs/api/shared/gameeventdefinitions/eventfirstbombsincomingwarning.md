@@ -6,7 +6,7 @@ title: EventFirstbombsIncomingWarning
 public interface EventFirstbombsIncomingWarning : IGameEvent<EventFirstbombsIncomingWarning>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventFirstbombsIncomingWarning : IGameEvent<EventFirstbombsInco
 bool Global { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

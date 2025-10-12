@@ -6,7 +6,7 @@ title: CMsgGCError
 public interface CMsgGCError : ITypedProtobuf<CMsgGCError>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCError : ITypedProtobuf<CMsgGCError>, INativeHandle
 string ErrorText { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

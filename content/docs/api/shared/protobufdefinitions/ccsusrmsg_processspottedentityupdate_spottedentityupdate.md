@@ -6,7 +6,7 @@ title: CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate
 public interface CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate : ITypedProtobuf<CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate : ITyp
 int AngleY { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AngleY { get; set; }
 int ClassId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int ClassId { get; set; }
 bool Defuser { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool Defuser { get; set; }
 int EntityIdx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int EntityIdx { get; set; }
 int OriginX { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int OriginX { get; set; }
 int OriginY { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int OriginY { get; set; }
 int OriginZ { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ int OriginZ { get; set; }
 bool PlayerHasC4 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ bool PlayerHasC4 { get; set; }
 bool PlayerHasDefuser { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

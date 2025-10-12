@@ -6,7 +6,7 @@ title: CNmTargetWarpNode__CDefinition
 public interface CNmTargetWarpNode__CDefinition : CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmTargetWarpNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmTargetWarpNode__CDefinition : CNmPoseNode__CDefinition, CNmG
 ref bool AllowTargetUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AllowTargetUpdate { get; }
 ref short ClipReferenceNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short ClipReferenceNodeIdx { get; }
 ref float LerpFallbackDistanceThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float LerpFallbackDistanceThreshold { get; }
 ref float MaxTangentLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MaxTangentLength { get; }
 ref CNmRootMotionData__SamplingMode_t SamplingMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmRootMotionData__SamplingMode_t](/docs/api/shared/schemadefinitions/cnmrootmotiondata__samplingmode_t)
 
@@ -66,7 +66,7 @@ ref CNmRootMotionData__SamplingMode_t SamplingMode { get; }
 ref float SamplingPositionErrorThresholdSq { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float SamplingPositionErrorThresholdSq { get; }
 ref float TargetUpdateAngleThresholdRadians { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float TargetUpdateAngleThresholdRadians { get; }
 ref float TargetUpdateDistanceThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float TargetUpdateDistanceThreshold { get; }
 ref short TargetValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

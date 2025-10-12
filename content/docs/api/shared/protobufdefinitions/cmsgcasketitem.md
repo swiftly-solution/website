@@ -6,7 +6,7 @@ title: CMsgCasketItem
 public interface CMsgCasketItem : ITypedProtobuf<CMsgCasketItem>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgCasketItem : ITypedProtobuf<CMsgCasketItem>, INativeHandle
 ulong CasketItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong CasketItemId { get; set; }
 ulong ItemItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

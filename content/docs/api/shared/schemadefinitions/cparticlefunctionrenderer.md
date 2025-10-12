@@ -6,7 +6,7 @@ title: CParticleFunctionRenderer
 public interface CParticleFunctionRenderer : CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CParticleFunctionRenderer : CParticleFunction, ISchemaClass<CPa
 ref bool CannotBeRefracted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CannotBeRefracted { get; }
 ref bool SkipRenderingOnMobile { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool SkipRenderingOnMobile { get; }
 CParticleVisibilityInputs VisibilityInputs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleVisibilityInputs](/docs/api/shared/schemadefinitions/cparticlevisibilityinputs)
 

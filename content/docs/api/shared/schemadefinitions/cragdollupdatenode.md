@@ -6,7 +6,7 @@ title: CRagdollUpdateNode
 public interface CRagdollUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CRagdollUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRagdollUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISc
 ref RagdollPoseControl PoseControlMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RagdollPoseControl](/docs/api/shared/schemadefinitions/ragdollposecontrol)
 
@@ -26,7 +26,7 @@ ref RagdollPoseControl PoseControlMethod { get; }
 ref int WeightListIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

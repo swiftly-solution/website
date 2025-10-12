@@ -6,7 +6,7 @@ title: CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute
 public interface CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute : ITypedProtobuf<CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute : I
 uint Attribute { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Attribute { get; set; }
 ulong Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

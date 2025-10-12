@@ -6,7 +6,7 @@ title: CAnimParamHandle
 public interface CAnimParamHandle : ISchemaClass<CAnimParamHandle>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimParamHandle : ISchemaClass<CAnimParamHandle>, ISchemaField
 ref byte Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -26,7 +26,7 @@ ref byte Index { get; }
 ref AnimParamType_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimParamType_t](/docs/api/shared/schemadefinitions/animparamtype_t)
 

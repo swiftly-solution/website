@@ -6,7 +6,7 @@ title: CCSUsrMsg_HintText
 public interface CCSUsrMsg_HintText : ITypedProtobuf<CCSUsrMsg_HintText>, INativeHandle, INetMessage<CCSUsrMsg_HintText>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_HintText : ITypedProtobuf<CCSUsrMsg_HintText>, INativ
 string Message { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

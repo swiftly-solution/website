@@ -6,7 +6,7 @@ title: CTimeRemainingMetricEvaluator
 public interface CTimeRemainingMetricEvaluator : CMotionMetricEvaluator, ISchemaClass<CMotionMetricEvaluator>, ISchemaClass<CTimeRemainingMetricEvaluator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTimeRemainingMetricEvaluator : CMotionMetricEvaluator, ISchema
 ref bool FilterByTimeRemaining { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool FilterByTimeRemaining { get; }
 ref bool MatchByTimeRemaining { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool MatchByTimeRemaining { get; }
 ref float MaxTimeRemaining { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float MaxTimeRemaining { get; }
 ref float MinTimeRemaining { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

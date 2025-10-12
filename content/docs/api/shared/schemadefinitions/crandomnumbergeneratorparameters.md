@@ -6,7 +6,7 @@ title: CRandomNumberGeneratorParameters
 public interface CRandomNumberGeneratorParameters : ISchemaClass<CRandomNumberGeneratorParameters>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRandomNumberGeneratorParameters : ISchemaClass<CRandomNumberGe
 ref bool DistributeEvenly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool DistributeEvenly { get; }
 ref int Seed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

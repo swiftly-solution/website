@@ -6,9 +6,9 @@ title: SwiftlyCoreInjection
 public static class SwiftlyCoreInjection
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Methods
 
@@ -18,14 +18,14 @@ public static class SwiftlyCoreInjection
 public static IServiceCollection AddSwiftly(this IServiceCollection self, ISwiftlyCore core, bool addLogger = true, bool addConfiguration = true)
 ```
 
-#### Parameters
+- Parameters
 
 - **self**: [IServiceCollection](https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection)
 - **core**: [ISwiftlyCore](/docs/api/shared/iswiftlycore)
 - **addLogger**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 - **addConfiguration**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-#### Returns
+- Returns
 
 - [IServiceCollection](https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicecollection)
 

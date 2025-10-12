@@ -6,7 +6,7 @@ title: CChicken_GraphController
 public interface CChicken_GraphController : CBaseAnimGraphAnimGraphController, CAnimGraphControllerBase, ISchemaClass<CAnimGraphControllerBase>, ISchemaClass<CBaseAnimGraphAnimGraphController>, ISchemaClass<CChicken_GraphController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CChicken_GraphController : CBaseAnimGraphAnimGraphController, C
 SchemaUntypedField ActivityFinished { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField ActivityFinished { get; }
 SchemaUntypedField ParamActivity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField ParamActivity { get; }
 SchemaUntypedField ParamEndActivityImmediately { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField ParamEndActivityImmediately { get; }
 SchemaUntypedField ParamTurnAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

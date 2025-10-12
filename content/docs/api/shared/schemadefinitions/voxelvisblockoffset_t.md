@@ -6,7 +6,7 @@ title: VoxelVisBlockOffset_t
 public interface VoxelVisBlockOffset_t : ISchemaClass<VoxelVisBlockOffset_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VoxelVisBlockOffset_t : ISchemaClass<VoxelVisBlockOffset_t>, IS
 ref uint ElementCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint ElementCount { get; }
 ref uint Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

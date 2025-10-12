@@ -6,7 +6,7 @@ title: CCSUsrMsg_EndOfMatchAllPlayersData_Accolade
 public interface CCSUsrMsg_EndOfMatchAllPlayersData_Accolade : ITypedProtobuf<CCSUsrMsg_EndOfMatchAllPlayersData_Accolade>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_EndOfMatchAllPlayersData_Accolade : ITypedProtobuf<CC
 int Eaccolade { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Eaccolade { get; set; }
 int Position { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Position { get; set; }
 float Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

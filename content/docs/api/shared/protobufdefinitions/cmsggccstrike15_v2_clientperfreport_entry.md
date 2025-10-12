@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientPerfReport_Entry
 public interface CMsgGCCStrike15_v2_ClientPerfReport_Entry : ITypedProtobuf<CMsgGCCStrike15_v2_ClientPerfReport_Entry>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientPerfReport_Entry : ITypedProtobuf<CMsg
 byte[] Actual { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] Actual { get; set; }
 uint Length { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Length { get; set; }
 uint Perfcounter { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Perfcounter { get; set; }
 byte[] Reference { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -56,7 +56,7 @@ byte[] Reference { get; set; }
 uint Sourceid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint Sourceid { get; set; }
 uint Status { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CItemGenericTriggerHelper
 public interface CItemGenericTriggerHelper : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CItemGenericTriggerHelper>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CItemGenericTriggerHelper : CBaseModelEntity, CBaseEntity, CEnt
 ref CHandle<CItemGeneric> ParentItem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CItemGeneric](/docs/api/shared/schemadefinitions/citemgeneric)>
 

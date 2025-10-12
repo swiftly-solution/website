@@ -6,7 +6,7 @@ title: CNmSkeleton__SecondarySkeleton_t
 public interface CNmSkeleton__SecondarySkeleton_t : ISchemaClass<CNmSkeleton__SecondarySkeleton_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmSkeleton__SecondarySkeleton_t : ISchemaClass<CNmSkeleton__Se
 ref CGlobalSymbol AttachToBoneID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -26,7 +26,7 @@ ref CGlobalSymbol AttachToBoneID { get; }
 ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCNmSkeleton](/docs/api/shared/schemadefinitions/infoforresourcetypecnmskeleton)>
 

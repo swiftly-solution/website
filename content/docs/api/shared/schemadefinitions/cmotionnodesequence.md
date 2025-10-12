@@ -6,7 +6,7 @@ title: CMotionNodeSequence
 public interface CMotionNodeSequence : CMotionNode, ISchemaClass<CMotionNode>, ISchemaClass<CMotionNodeSequence>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionNodeSequence : CMotionNode, ISchemaClass<CMotionNode>, I
 ref float PlaybackSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float PlaybackSpeed { get; }
 HSequence Sequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
@@ -36,7 +36,7 @@ HSequence Sequence { get; }
 ref CUtlVector Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

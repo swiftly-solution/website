@@ -6,7 +6,7 @@ title: CP2P_Voice
 public interface CP2P_Voice : ITypedProtobuf<CP2P_Voice>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CP2P_Voice : ITypedProtobuf<CP2P_Voice>, INativeHandle
 CMsgVoiceAudio Audio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgVoiceAudio](/docs/api/shared/protobufdefinitions/cmsgvoiceaudio)
 
@@ -26,7 +26,7 @@ CMsgVoiceAudio Audio { get; }
 uint BroadcastGroup { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

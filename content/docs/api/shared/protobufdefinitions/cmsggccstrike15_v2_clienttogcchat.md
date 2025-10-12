@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientToGCChat
 public interface CMsgGCCStrike15_v2_ClientToGCChat : ITypedProtobuf<CMsgGCCStrike15_v2_ClientToGCChat>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientToGCChat : ITypedProtobuf<CMsgGCCStrik
 ulong MatchId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong MatchId { get; set; }
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

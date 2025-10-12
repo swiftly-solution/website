@@ -6,7 +6,7 @@ title: CAudioEmphasisSample
 public interface CAudioEmphasisSample : ISchemaClass<CAudioEmphasisSample>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAudioEmphasisSample : ISchemaClass<CAudioEmphasisSample>, ISch
 ref float Time { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Time { get; }
 ref float Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

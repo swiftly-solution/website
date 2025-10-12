@@ -6,7 +6,7 @@ title: CScriptTriggerHurt
 public interface CScriptTriggerHurt : CTriggerHurt, CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerHurt>, ISchemaClass<CScriptTriggerHurt>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CScriptTriggerHurt : CTriggerHurt, CBaseTrigger, CBaseToggle, C
 ref Vector Extent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

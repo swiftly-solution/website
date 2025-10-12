@@ -6,7 +6,7 @@ title: CSVCMsg_SendTable
 public interface CSVCMsg_SendTable : ITypedProtobuf<CSVCMsg_SendTable>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_SendTable : ITypedProtobuf<CSVCMsg_SendTable>, INativeH
 bool IsEnd { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool IsEnd { get; set; }
 bool NeedsDecoder { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool NeedsDecoder { get; set; }
 string NetTableName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string NetTableName { get; set; }
 IProtobufRepeatedFieldSubMessageType<CSVCMsg_SendTable_sendprop_t> Props { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSVCMsg_SendTable_sendprop_t](/docs/api/shared/protobufdefinitions/csvcmsg_sendtable_sendprop_t)>
 

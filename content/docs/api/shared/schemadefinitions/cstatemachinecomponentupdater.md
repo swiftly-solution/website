@@ -6,7 +6,7 @@ title: CStateMachineComponentUpdater
 public interface CStateMachineComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CStateMachineComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CStateMachineComponentUpdater : CAnimComponentUpdater, ISchemaC
 CAnimStateMachineUpdater StateMachine { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimStateMachineUpdater](/docs/api/shared/schemadefinitions/canimstatemachineupdater)
 

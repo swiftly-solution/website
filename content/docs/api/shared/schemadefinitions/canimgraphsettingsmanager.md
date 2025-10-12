@@ -6,7 +6,7 @@ title: CAnimGraphSettingsManager
 public interface CAnimGraphSettingsManager : ISchemaClass<CAnimGraphSettingsManager>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimGraphSettingsManager : ISchemaClass<CAnimGraphSettingsMana
 ref CUtlVector SettingsGroups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

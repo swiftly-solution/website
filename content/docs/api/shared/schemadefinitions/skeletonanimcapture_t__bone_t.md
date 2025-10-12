@@ -6,7 +6,7 @@ title: SkeletonAnimCapture_t__Bone_t
 public interface SkeletonAnimCapture_t__Bone_t : ISchemaClass<SkeletonAnimCapture_t__Bone_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SkeletonAnimCapture_t__Bone_t : ISchemaClass<SkeletonAnimCaptur
 ref CTransform BindPose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -26,7 +26,7 @@ ref CTransform BindPose { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Name { get; set; }
 ref int Parent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

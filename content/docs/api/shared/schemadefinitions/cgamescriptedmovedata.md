@@ -6,7 +6,7 @@ title: CGameScriptedMoveData
 public interface CGameScriptedMoveData : ISchemaClass<CGameScriptedMoveData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameScriptedMoveData : ISchemaClass<CGameScriptedMoveData>, IS
 ref Vector AccumulatedRootMotion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector AccumulatedRootMotion { get; }
 ref QAngle AccumulatedRootMotionRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -36,7 +36,7 @@ ref QAngle AccumulatedRootMotionRotation { get; }
 ref bool Active { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Active { get; }
 ref float AngRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float AngRate { get; }
 ref QAngle Current { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -66,7 +66,7 @@ ref QAngle Current { get; }
 ref Vector Dest { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector Dest { get; }
 ref CHandle<CBaseEntity> DestEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -86,7 +86,7 @@ ref CHandle<CBaseEntity> DestEntity { get; }
 ref QAngle Dst { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -96,7 +96,7 @@ ref QAngle Dst { get; }
 ref float Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float Duration { get; }
 ref ForcedCrouchState_t ForcedCrouchState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ForcedCrouchState_t](/docs/api/shared/schemadefinitions/forcedcrouchstate_t)
 
@@ -116,7 +116,7 @@ ref ForcedCrouchState_t ForcedCrouchState { get; }
 ref bool IgnoreCollisions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool IgnoreCollisions { get; }
 ref bool IgnoreRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool IgnoreRotation { get; }
 ref float LockedSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float LockedSpeed { get; }
 ref Vector Src { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -156,7 +156,7 @@ ref Vector Src { get; }
 ref QAngle Src1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -166,7 +166,7 @@ ref QAngle Src1 { get; }
 GameTime_t StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -176,7 +176,7 @@ GameTime_t StartTime { get; }
 ref bool Success { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -186,7 +186,7 @@ ref bool Success { get; }
 ref bool TeleportOnEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

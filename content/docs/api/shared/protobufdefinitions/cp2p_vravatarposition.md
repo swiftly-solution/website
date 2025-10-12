@@ -6,7 +6,7 @@ title: CP2P_VRAvatarPosition
 public interface CP2P_VRAvatarPosition : ITypedProtobuf<CP2P_VRAvatarPosition>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CP2P_VRAvatarPosition : ITypedProtobuf<CP2P_VRAvatarPosition>, 
 IProtobufRepeatedFieldSubMessageType<CP2P_VRAvatarPosition_COrientation> BodyParts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CP2P_VRAvatarPosition_COrientation](/docs/api/shared/protobufdefinitions/cp2p_vravatarposition_corientation)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CP2P_VRAvatarPosition_COrientation> BodyPar
 int HatId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int HatId { get; set; }
 int SceneId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int SceneId { get; set; }
 int WorldScale { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

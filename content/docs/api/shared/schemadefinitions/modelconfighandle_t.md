@@ -6,7 +6,7 @@ title: ModelConfigHandle_t
 public interface ModelConfigHandle_t : ISchemaClass<ModelConfigHandle_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ModelConfigHandle_t : ISchemaClass<ModelConfigHandle_t>, ISchem
 ref uint Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

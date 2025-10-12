@@ -6,5 +6,5 @@ title: EventGameinstructorDraw
 public interface EventGameinstructorDraw : IGameEvent<EventGameinstructorDraw>
 ```
 
-#### Implements
+- Implements
 

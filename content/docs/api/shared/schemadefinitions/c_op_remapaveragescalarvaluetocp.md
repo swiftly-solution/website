@@ -6,7 +6,7 @@ title: C_OP_RemapAverageScalarValuetoCP
 public interface C_OP_RemapAverageScalarValuetoCP : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_RemapAverageScalarValuetoCP>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RemapAverageScalarValuetoCP : CParticleFunctionPreEmission
 CParticleCollectionFloatInput DecimalPlaces { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionFloatInput DecimalPlaces { get; }
 ref SetStatisticExpressionType_t Expression { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SetStatisticExpressionType_t](/docs/api/shared/schemadefinitions/setstatisticexpressiontype_t)
 
@@ -36,7 +36,7 @@ ref SetStatisticExpressionType_t Expression { get; }
 ParticleAttributeIndex_t Field { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -46,7 +46,7 @@ ParticleAttributeIndex_t Field { get; }
 ref int OutControlPointNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int OutControlPointNumber { get; }
 ref int OutVectorField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int OutVectorField { get; }
 CParticleRemapFloatInput OutputRemap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleRemapFloatInput](/docs/api/shared/schemadefinitions/cparticleremapfloatinput)
 

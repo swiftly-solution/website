@@ -6,7 +6,7 @@ title: LineTrace
 public struct LineTrace
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct LineTrace
 public float Radius
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ public float Radius
 public Vector StartOffset
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

@@ -6,7 +6,7 @@ title: CSosSoundEventGroupSchema
 public interface CSosSoundEventGroupSchema : ISchemaClass<CSosSoundEventGroupSchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSosSoundEventGroupSchema : ISchemaClass<CSosSoundEventGroupSch
 ref CUtlVector<PointerTo<CSosGroupActionSchema>> Actions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CSosGroupActionSchema](/docs/api/shared/schemadefinitions/csosgroupactionschema)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<PointerTo<CSosGroupActionSchema>> Actions { get; }
 ref SosGroupFieldBehavior_t Behavior_EntIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SosGroupFieldBehavior_t](/docs/api/shared/schemadefinitions/sosgroupfieldbehavior_t)
 
@@ -36,7 +36,7 @@ ref SosGroupFieldBehavior_t Behavior_EntIndex { get; }
 ref SosGroupFieldBehavior_t Behavior_EventName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SosGroupFieldBehavior_t](/docs/api/shared/schemadefinitions/sosgroupfieldbehavior_t)
 
@@ -46,7 +46,7 @@ ref SosGroupFieldBehavior_t Behavior_EventName { get; }
 ref SosGroupFieldBehavior_t Behavior_Opvar { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SosGroupFieldBehavior_t](/docs/api/shared/schemadefinitions/sosgroupfieldbehavior_t)
 
@@ -56,7 +56,7 @@ ref SosGroupFieldBehavior_t Behavior_Opvar { get; }
 ref SosGroupFieldBehavior_t Behavior_String { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SosGroupFieldBehavior_t](/docs/api/shared/schemadefinitions/sosgroupfieldbehavior_t)
 
@@ -66,7 +66,7 @@ ref SosGroupFieldBehavior_t Behavior_String { get; }
 ref int BlockMaxCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int BlockMaxCount { get; }
 ref bool BlocksEvents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool BlocksEvents { get; }
 ref float EntIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float EntIndex { get; }
 ref SosGroupType_t GroupType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SosGroupType_t](/docs/api/shared/schemadefinitions/sosgrouptype_t)
 
@@ -106,7 +106,7 @@ ref SosGroupType_t GroupType { get; }
 ref bool InvertMatch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool InvertMatch { get; }
 ref bool MatchEventSubString { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool MatchEventSubString { get; }
 string MatchSoundEventName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string MatchSoundEventName { get; set; }
 string MatchSoundEventSubString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -146,7 +146,7 @@ string MatchSoundEventSubString { get; set; }
 ref float MemberLifespanTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float MemberLifespanTime { get; }
 ref float Opvar { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float Opvar { get; }
 string OpvarString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

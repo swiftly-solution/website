@@ -6,7 +6,7 @@ title: EventReadGameTitledata
 public interface EventReadGameTitledata : IGameEvent<EventReadGameTitledata>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventReadGameTitledata : IGameEvent<EventReadGameTitledata>
 short ControllerId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

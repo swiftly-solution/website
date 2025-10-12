@@ -6,7 +6,7 @@ title: CSVCMsg_Broadcast_Command
 public interface CSVCMsg_Broadcast_Command : ITypedProtobuf<CSVCMsg_Broadcast_Command>, INativeHandle, INetMessage<CSVCMsg_Broadcast_Command>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_Broadcast_Command : ITypedProtobuf<CSVCMsg_Broadcast_Co
 string Cmd { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

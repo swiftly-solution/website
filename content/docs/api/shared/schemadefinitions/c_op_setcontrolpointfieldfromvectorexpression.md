@@ -6,7 +6,7 @@ title: C_OP_SetControlPointFieldFromVectorExpression
 public interface C_OP_SetControlPointFieldFromVectorExpression : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_SetControlPointFieldFromVectorExpression>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_SetControlPointFieldFromVectorExpression : CParticleFuncti
 ref VectorFloatExpressionType_t Expression { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VectorFloatExpressionType_t](/docs/api/shared/schemadefinitions/vectorfloatexpressiontype_t)
 
@@ -26,7 +26,7 @@ ref VectorFloatExpressionType_t Expression { get; }
 CParticleCollectionVecInput Input1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionVecInput Input1 { get; }
 CParticleCollectionVecInput Input2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionVecInput Input2 { get; }
 CPerParticleFloatInput Lerp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -56,7 +56,7 @@ CPerParticleFloatInput Lerp { get; }
 ref int OutVectorField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int OutVectorField { get; }
 ref int OutputCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int OutputCP { get; }
 CParticleRemapFloatInput OutputRemap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleRemapFloatInput](/docs/api/shared/schemadefinitions/cparticleremapfloatinput)
 

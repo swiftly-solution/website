@@ -6,7 +6,7 @@ title: EventServerMessage
 public interface EventServerMessage : IGameEvent<EventServerMessage>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventServerMessage : IGameEvent<EventServerMessage>
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

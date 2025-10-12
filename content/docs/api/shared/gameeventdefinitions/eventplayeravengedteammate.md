@@ -6,7 +6,7 @@ title: EventPlayerAvengedTeammate
 public interface EventPlayerAvengedTeammate : IGameEvent<EventPlayerAvengedTeammate>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventPlayerAvengedTeammate : IGameEvent<EventPlayerAvengedTeamm
 int AvengedPlayerId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AvengedPlayerId { get; set; }
 int AvengerId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

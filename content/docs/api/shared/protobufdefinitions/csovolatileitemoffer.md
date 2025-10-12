@@ -6,7 +6,7 @@ title: CSOVolatileItemOffer
 public interface CSOVolatileItemOffer : ITypedProtobuf<CSOVolatileItemOffer>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOVolatileItemOffer : ITypedProtobuf<CSOVolatileItemOffer>, IN
 uint Defidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Defidx { get; set; }
 IProtobufRepeatedFieldValueType<ulong> FauxItemid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<ulong> FauxItemid { get; }
 IProtobufRepeatedFieldValueType<uint> GenerationTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

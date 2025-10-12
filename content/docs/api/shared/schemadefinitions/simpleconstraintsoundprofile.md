@@ -6,7 +6,7 @@ title: SimpleConstraintSoundProfile
 public interface SimpleConstraintSoundProfile : ISchemaClass<SimpleConstraintSoundProfile>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SimpleConstraintSoundProfile : ISchemaClass<SimpleConstraintSou
 ISchemaFixedArray<float> KeyPoints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -26,7 +26,7 @@ ISchemaFixedArray<float> KeyPoints { get; }
 ref SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t Keypoints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t](/docs/api/shared/schemadefinitions/simpleconstraintsoundprofile__simpleconstraintssoundprofilekeypoints_t)
 
@@ -36,7 +36,7 @@ ref SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t Keypo
 ISchemaFixedArray<float> ReversalSoundThresholds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

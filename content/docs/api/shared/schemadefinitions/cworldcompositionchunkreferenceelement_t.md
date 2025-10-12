@@ -6,7 +6,7 @@ title: CWorldCompositionChunkReferenceElement_t
 public interface CWorldCompositionChunkReferenceElement_t : ISchemaClass<CWorldCompositionChunkReferenceElement_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWorldCompositionChunkReferenceElement_t : ISchemaClass<CWorldC
 string StrLandmarkName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string StrLandmarkName { get; set; }
 string StrMapToLoad { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

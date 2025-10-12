@@ -6,7 +6,7 @@ title: CNETMsg_Tick
 public interface CNETMsg_Tick : ITypedProtobuf<CNETMsg_Tick>, INativeHandle, INetMessage<CNETMsg_Tick>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNETMsg_Tick : ITypedProtobuf<CNETMsg_Tick>, INativeHandle, INe
 uint ExpectedLongTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ExpectedLongTick { get; set; }
 string ExpectedLongTickReason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ExpectedLongTickReason { get; set; }
 uint HltvReplayFlags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint HltvReplayFlags { get; set; }
 uint HostComputationtime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint HostComputationtime { get; set; }
 uint HostComputationtimeStdDeviation { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint HostComputationtimeStdDeviation { get; set; }
 uint HostFrameDroppedPctX10 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint HostFrameDroppedPctX10 { get; set; }
 uint HostFrameIrregularArrivalPctX10 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint HostFrameIrregularArrivalPctX10 { get; set; }
 uint HostUnfilteredFrametime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ uint HostUnfilteredFrametime { get; set; }
 uint LegacyHostLoss { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ uint LegacyHostLoss { get; set; }
 uint Tick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

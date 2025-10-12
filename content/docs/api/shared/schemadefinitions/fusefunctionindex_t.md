@@ -6,7 +6,7 @@ title: FuseFunctionIndex_t
 public interface FuseFunctionIndex_t : ISchemaClass<FuseFunctionIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FuseFunctionIndex_t : ISchemaClass<FuseFunctionIndex_t>, ISchem
 ref ushort Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

@@ -6,7 +6,7 @@ title: CMsgSosStopSoundEvent
 public interface CMsgSosStopSoundEvent : ITypedProtobuf<CMsgSosStopSoundEvent>, INativeHandle, INetMessage<CMsgSosStopSoundEvent>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSosStopSoundEvent : ITypedProtobuf<CMsgSosStopSoundEvent>, 
 int SoundeventGuid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CCSPlace
 public interface CCSPlace : CServerOnlyModelEntity, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CServerOnlyModelEntity>, ISchemaClass<CCSPlace>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlace : CServerOnlyModelEntity, CBaseModelEntity, CBaseEntit
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

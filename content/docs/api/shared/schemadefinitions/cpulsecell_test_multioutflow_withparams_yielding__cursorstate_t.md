@@ -6,7 +6,7 @@ title: CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t
 public interface CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t : ISchemaClass<CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Test_MultiOutflow_WithParams_Yielding__CursorState_t
 ref int TestStep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CPulseCell_Unknown
 public interface CPulseCell_Unknown : CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_Unknown>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Unknown : CPulseCell_Base, ISchemaClass<CPulseCell_B
 SchemaUntypedField UnknownKeys { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

@@ -6,5 +6,5 @@ title: InfoForResourceTypeWorld_t
 public interface InfoForResourceTypeWorld_t : ISchemaClass<InfoForResourceTypeWorld_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

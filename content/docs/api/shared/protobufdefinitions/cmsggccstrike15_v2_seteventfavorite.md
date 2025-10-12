@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_SetEventFavorite
 public interface CMsgGCCStrike15_v2_SetEventFavorite : ITypedProtobuf<CMsgGCCStrike15_v2_SetEventFavorite>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_SetEventFavorite : ITypedProtobuf<CMsgGCCStr
 ulong Eventid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Eventid { get; set; }
 bool IsFavorite { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

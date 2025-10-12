@@ -6,7 +6,7 @@ title: CSolveIKChainUpdateNode
 public interface CSolveIKChainUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CSolveIKChainUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSolveIKChainUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase
 SolveIKChainPoseOpFixedSettings_t OpFixedData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SolveIKChainPoseOpFixedSettings_t](/docs/api/shared/schemadefinitions/solveikchainposeopfixedsettings_t)
 
@@ -26,7 +26,7 @@ SolveIKChainPoseOpFixedSettings_t OpFixedData { get; }
 ref CUtlVector TargetHandles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

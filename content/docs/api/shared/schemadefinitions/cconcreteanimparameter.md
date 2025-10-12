@@ -6,7 +6,7 @@ title: CConcreteAnimParameter
 public interface CConcreteAnimParameter : CAnimParameterBase, ISchemaClass<CAnimParameterBase>, ISchemaClass<CConcreteAnimParameter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CConcreteAnimParameter : CAnimParameterBase, ISchemaClass<CAnim
 ref bool AutoReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AutoReset { get; }
 ref bool GameWritable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool GameWritable { get; }
 ref bool GraphWritable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool GraphWritable { get; }
 ref AnimParamNetworkSetting NetworkSetting { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimParamNetworkSetting](/docs/api/shared/schemadefinitions/animparamnetworksetting)
 
@@ -56,7 +56,7 @@ ref AnimParamNetworkSetting NetworkSetting { get; }
 ref AnimParamButton_t PreviewButton { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimParamButton_t](/docs/api/shared/schemadefinitions/animparambutton_t)
 
@@ -66,7 +66,7 @@ ref AnimParamButton_t PreviewButton { get; }
 ref bool UseMostRecentValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

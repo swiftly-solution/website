@@ -6,7 +6,7 @@ title: CMsgTEImpact
 public interface CMsgTEImpact : ITypedProtobuf<CMsgTEImpact>, INativeHandle, INetMessage<CMsgTEImpact>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTEImpact : ITypedProtobuf<CMsgTEImpact>, INativeHandle, INe
 Vector Normal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ Vector Normal { get; set; }
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector Origin { get; set; }
 uint Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

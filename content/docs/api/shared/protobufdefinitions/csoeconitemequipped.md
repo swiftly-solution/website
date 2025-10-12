@@ -6,7 +6,7 @@ title: CSOEconItemEquipped
 public interface CSOEconItemEquipped : ITypedProtobuf<CSOEconItemEquipped>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOEconItemEquipped : ITypedProtobuf<CSOEconItemEquipped>, INat
 uint NewClass { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint NewClass { get; set; }
 uint NewSlot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

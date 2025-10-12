@@ -6,7 +6,7 @@ title: CAttributeContainer
 public interface CAttributeContainer : CAttributeManager, ISchemaClass<CAttributeManager>, ISchemaClass<CAttributeContainer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAttributeContainer : CAttributeManager, ISchemaClass<CAttribut
 CEconItemView Item { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemView](/docs/api/shared/schemadefinitions/ceconitemview)
 

@@ -6,7 +6,7 @@ title: CSVCMsg_FlattenedSerializer
 public interface CSVCMsg_FlattenedSerializer : ITypedProtobuf<CSVCMsg_FlattenedSerializer>, INativeHandle, INetMessage<CSVCMsg_FlattenedSerializer>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_FlattenedSerializer : ITypedProtobuf<CSVCMsg_FlattenedS
 IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializerField_t> Fields { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ProtoFlattenedSerializerField_t](/docs/api/shared/protobufdefinitions/protoflattenedserializerfield_t)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializerField_t> Fields { g
 IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializer_t> Serializers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ProtoFlattenedSerializer_t](/docs/api/shared/protobufdefinitions/protoflattenedserializer_t)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializer_t> Serializers { g
 IProtobufRepeatedFieldValueType<string> Symbols { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 

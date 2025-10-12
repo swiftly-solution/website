@@ -6,7 +6,7 @@ title: FeWorldCollisionParams_t
 public interface FeWorldCollisionParams_t : ISchemaClass<FeWorldCollisionParams_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeWorldCollisionParams_t : ISchemaClass<FeWorldCollisionParams_
 ref float GroundFriction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float GroundFriction { get; }
 ref ushort ListBegin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort ListBegin { get; }
 ref ushort ListEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort ListEnd { get; }
 ref float WorldFriction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

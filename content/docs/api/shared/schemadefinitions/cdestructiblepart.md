@@ -6,7 +6,7 @@ title: CDestructiblePart
 public interface CDestructiblePart : ISchemaClass<CDestructiblePart>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDestructiblePart : ISchemaClass<CDestructiblePart>, ISchemaFie
 ref CGlobalSymbol BodyGroupName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -26,7 +26,7 @@ ref CGlobalSymbol BodyGroupName { get; }
 ref CUtlVector DamageLevels { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector DamageLevels { get; }
 ref CGlobalSymbol DebugName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -46,7 +46,7 @@ ref CGlobalSymbol DebugName { get; }
 ref bool DisableHitGroupWhenDestroyed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool DisableHitGroupWhenDestroyed { get; }
 ref HitGroup_t HitGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 
@@ -66,7 +66,7 @@ ref HitGroup_t HitGroup { get; }
 ref bool OnlyDestroyWhenGibbing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool OnlyDestroyWhenGibbing { get; }
 ref CUtlVector<HitGroup_t> OtherHitgroupsToDestroyWhenFullyDestructed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)>
 

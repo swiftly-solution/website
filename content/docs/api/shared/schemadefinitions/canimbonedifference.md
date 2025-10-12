@@ -6,7 +6,7 @@ title: CAnimBoneDifference
 public interface CAnimBoneDifference : ISchemaClass<CAnimBoneDifference>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimBoneDifference : ISchemaClass<CAnimBoneDifference>, ISchem
 ref bool HasMovement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool HasMovement { get; }
 ref bool HasRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool HasRotation { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -46,7 +46,7 @@ ref CBufferString Name { get; }
 ref CBufferString Parent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -56,7 +56,7 @@ ref CBufferString Parent { get; }
 ref Vector PosError { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

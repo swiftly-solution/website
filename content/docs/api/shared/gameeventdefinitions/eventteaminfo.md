@@ -6,7 +6,7 @@ title: EventTeamInfo
 public interface EventTeamInfo : IGameEvent<EventTeamInfo>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventTeamInfo : IGameEvent<EventTeamInfo>
 byte TeamID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -26,7 +26,7 @@ byte TeamID { get; set; }
 string Teamname { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

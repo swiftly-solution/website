@@ -6,7 +6,7 @@ title: CUserMessage_NotifyResponseFound
 public interface CUserMessage_NotifyResponseFound : ITypedProtobuf<CUserMessage_NotifyResponseFound>, INativeHandle, INetMessage<CUserMessage_NotifyResponseFound>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessage_NotifyResponseFound : ITypedProtobuf<CUserMessage_
 IProtobufRepeatedFieldSubMessageType<CUserMessage_NotifyResponseFound_Criteria> Criteria { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_NotifyResponseFound_Criteria](/docs/api/shared/protobufdefinitions/cusermessage_notifyresponsefound_criteria)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_NotifyResponseFound_Criteria> 
 int EntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int EntIndex { get; set; }
 IProtobufRepeatedFieldValueType<uint> FloatCriteriaNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldValueType<uint> FloatCriteriaNames { get; }
 IProtobufRepeatedFieldValueType<float> FloatCriteriaValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldValueType<float> FloatCriteriaValues { get; }
 IProtobufRepeatedFieldValueType<uint> IntCriteriaNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -66,7 +66,7 @@ IProtobufRepeatedFieldValueType<uint> IntCriteriaNames { get; }
 IProtobufRepeatedFieldValueType<int> IntCriteriaValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldValueType<int> IntCriteriaValues { get; }
 string ResponseConcept { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string ResponseConcept { get; set; }
 string ResponseValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string ResponseValue { get; set; }
 string RuleName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string RuleName { get; set; }
 int SpeakResult { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ int SpeakResult { get; set; }
 IProtobufRepeatedFieldValueType<uint> SymbolCriteriaNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -126,7 +126,7 @@ IProtobufRepeatedFieldValueType<uint> SymbolCriteriaNames { get; }
 IProtobufRepeatedFieldValueType<uint> SymbolCriteriaValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

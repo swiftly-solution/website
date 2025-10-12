@@ -6,7 +6,7 @@ title: CCSUsrMsg_QuestProgress
 public interface CCSUsrMsg_QuestProgress : ITypedProtobuf<CCSUsrMsg_QuestProgress>, INativeHandle, INetMessage<CCSUsrMsg_QuestProgress>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_QuestProgress : ITypedProtobuf<CCSUsrMsg_QuestProgres
 uint BonusPoints { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint BonusPoints { get; set; }
 bool IsEventQuest { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool IsEventQuest { get; set; }
 uint NormalPoints { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint NormalPoints { get; set; }
 uint QuestId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

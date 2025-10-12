@@ -7,9 +7,9 @@ title: ClientNetMessageHandler
 public class ClientNetMessageHandler : Attribute
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 

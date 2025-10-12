@@ -14,12 +14,12 @@ public interface IMemoryService
 nint? GetAddressBySignature(string library, string signature)
 ```
 
-#### Parameters
+- Parameters
 
 - **library**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The library of that signature belongs to.
 - **signature**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The signature of the function.
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)? - The address of the function. Return null if not found.
 
@@ -29,11 +29,11 @@ nint? GetAddressBySignature(string library, string signature)
 nint? GetInterfaceByName(string name)
 ```
 
-#### Parameters
+- Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the interface.
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)? - The address of the interface. Return null if not found.
 
@@ -43,15 +43,15 @@ nint? GetInterfaceByName(string name)
 IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByAddress<TDelegate>(nint address) where TDelegate : Delegate
 ```
 
-#### Parameters
+- Parameters
 
 - **address**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the unmanaged function.
 
-#### Returns
+- Returns
 
 - [IUnmanagedFunction](/docs/api/shared/memory/iunmanagedfunction-1)<TDelegate> - The unmanaged function.
 
-#### Type Parameters
+- Type Parameters
 
 - **TDelegate**:  - The delegate type of the unmanaged function.
 
@@ -61,16 +61,16 @@ IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByAddress<TDelegate>(nint addr
 IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByVTable<TDelegate>(nint pVTable, int index) where TDelegate : Delegate
 ```
 
-#### Parameters
+- Parameters
 
 - **pVTable**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the vtable.
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The index of the function in the vtable.
 
-#### Returns
+- Returns
 
 - [IUnmanagedFunction](/docs/api/shared/memory/iunmanagedfunction-1)<TDelegate> - The unmanaged function.
 
-#### Type Parameters
+- Type Parameters
 
 - **TDelegate**: 
 
@@ -80,11 +80,11 @@ IUnmanagedFunction<TDelegate> GetUnmanagedFunctionByVTable<TDelegate>(nint pVTab
 IUnmanagedMemory GetUnmanagedMemoryByAddress(nint address)
 ```
 
-#### Parameters
+- Parameters
 
 - **address**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address from which to create the Unmanaged Memory wrapper.
 
-#### Returns
+- Returns
 
 - [IUnmanagedMemory](/docs/api/shared/memory/iunmanagedmemory)
 
@@ -94,12 +94,12 @@ IUnmanagedMemory GetUnmanagedMemoryByAddress(nint address)
 nint? GetVTableAddress(string library, string vtableName)
 ```
 
-#### Parameters
+- Parameters
 
 - **library**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The library of that vtable belongs to.
 - **vtableName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the vtable.
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)? - The address of the vtable. Return null if not found.
 
@@ -109,11 +109,11 @@ nint? GetVTableAddress(string library, string vtableName)
 nint ResolveXrefAddress(nint xrefAddress)
 ```
 
-#### Parameters
+- Parameters
 
 - **xrefAddress**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the xref.
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The resolved address.
 
@@ -123,15 +123,15 @@ nint ResolveXrefAddress(nint xrefAddress)
 T ToSchemaClass<T>(nint address) where T : class, ISchemaClass<T>
 ```
 
-#### Parameters
+- Parameters
 
 - **address**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the schema class.
 
-#### Returns
+- Returns
 
 - T - The schema class.
 
-#### Type Parameters
+- Type Parameters
 
 - **T**:  - The schema class type.
 

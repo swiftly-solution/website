@@ -6,7 +6,7 @@ title: CJiggleBoneUpdateNode
 public interface CJiggleBoneUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CJiggleBoneUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CJiggleBoneUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 JiggleBoneSettingsList_t OpFixedData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [JiggleBoneSettingsList_t](/docs/api/shared/schemadefinitions/jigglebonesettingslist_t)
 

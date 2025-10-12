@@ -6,7 +6,7 @@ title: CNETMsg_SpawnGroup_LoadCompleted
 public interface CNETMsg_SpawnGroup_LoadCompleted : ITypedProtobuf<CNETMsg_SpawnGroup_LoadCompleted>, INativeHandle, INetMessage<CNETMsg_SpawnGroup_LoadCompleted>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNETMsg_SpawnGroup_LoadCompleted : ITypedProtobuf<CNETMsg_Spawn
 uint Spawngrouphandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CHitBoxTrace
 public struct CHitBoxTrace
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct CHitBoxTrace
 public uint m_CRC
 ```
 
-#### Field Value
+- Field Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ public uint m_CRC
 public bool m_bForcedTransform
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ public bool m_bForcedTransform
 public bool m_bTranslationOnly
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ public bool m_bTranslationOnly
 public Color m_cRenderColor
 ```
 
-#### Field Value
+- Field Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -56,7 +56,7 @@ public Color m_cRenderColor
 public float m_flShapeRadius
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ public float m_flShapeRadius
 public CTransform m_forcedTransform
 ```
 
-#### Field Value
+- Field Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -76,7 +76,7 @@ public CTransform m_forcedTransform
 public CUtlStringToken m_nBoneNameHash
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -86,7 +86,7 @@ public CUtlStringToken m_nBoneNameHash
 public HitGroup_t m_nGroupId
 ```
 
-#### Field Value
+- Field Value
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 
@@ -96,7 +96,7 @@ public HitGroup_t m_nGroupId
 public ushort m_nHitBoxIndex
 ```
 
-#### Field Value
+- Field Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -106,7 +106,7 @@ public ushort m_nHitBoxIndex
 public byte m_nShapeType
 ```
 
-#### Field Value
+- Field Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -116,7 +116,7 @@ public byte m_nShapeType
 public CUtlString m_name
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -126,7 +126,7 @@ public CUtlString m_name
 public CUtlString m_sBoneName
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -136,7 +136,7 @@ public CUtlString m_sBoneName
 public CUtlString m_sSurfaceProperty
 ```
 
-#### Field Value
+- Field Value
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 
@@ -146,7 +146,7 @@ public CUtlString m_sSurfaceProperty
 public Vector m_vMaxBounds
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -156,7 +156,7 @@ public Vector m_vMaxBounds
 public Vector m_vMinBounds
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

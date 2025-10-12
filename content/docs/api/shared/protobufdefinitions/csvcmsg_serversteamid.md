@@ -6,7 +6,7 @@ title: CSVCMsg_ServerSteamID
 public interface CSVCMsg_ServerSteamID : ITypedProtobuf<CSVCMsg_ServerSteamID>, INativeHandle, INetMessage<CSVCMsg_ServerSteamID>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_ServerSteamID : ITypedProtobuf<CSVCMsg_ServerSteamID>, 
 ulong SteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,5 +6,5 @@ title: CSosGroupActionSchema
 public interface CSosGroupActionSchema : ISchemaClass<CSosGroupActionSchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

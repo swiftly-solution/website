@@ -6,7 +6,7 @@ title: CNmSyncEventIndexConditionNode__CDefinition
 public interface CNmSyncEventIndexConditionNode__CDefinition : CNmBoolValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmBoolValueNode__CDefinition>, ISchemaClass<CNmSyncEventIndexConditionNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmSyncEventIndexConditionNode__CDefinition : CNmBoolValueNode_
 ref short SourceStateNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short SourceStateNodeIdx { get; }
 ref int SyncEventIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int SyncEventIdx { get; }
 ref CNmSyncEventIndexConditionNode__TriggerMode_t TriggerMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmSyncEventIndexConditionNode__TriggerMode_t](/docs/api/shared/schemadefinitions/cnmsynceventindexconditionnode__triggermode_t)
 

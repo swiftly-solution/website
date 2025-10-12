@@ -6,7 +6,7 @@ title: PostProcessingBloomParameters_t
 public interface PostProcessingBloomParameters_t : ISchemaClass<PostProcessingBloomParameters_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PostProcessingBloomParameters_t : ISchemaClass<PostProcessingBl
 ref BloomBlendMode_t BlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BloomBlendMode_t](/docs/api/shared/schemadefinitions/bloomblendmode_t)
 
@@ -26,7 +26,7 @@ ref BloomBlendMode_t BlendMode { get; }
 ref float BloomStartValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float BloomStartValue { get; }
 ref float BloomStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float BloomStrength { get; }
 ref float BloomThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float BloomThreshold { get; }
 ref float BloomThresholdWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float BloomThresholdWidth { get; }
 ref float BlurBloomStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float BlurBloomStrength { get; }
 ISchemaFixedArray<Vector> BlurTint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -86,7 +86,7 @@ ISchemaFixedArray<Vector> BlurTint { get; }
 ISchemaFixedArray<float> BlurWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -96,7 +96,7 @@ ISchemaFixedArray<float> BlurWeight { get; }
 ref float ComputeBloomEffectsScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float ComputeBloomEffectsScale { get; }
 ref float ComputeBloomLensDirtBlackLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float ComputeBloomLensDirtBlackLevel { get; }
 ref float ComputeBloomLensDirtStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float ComputeBloomLensDirtStrength { get; }
 ref float ComputeBloomRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float ComputeBloomRadius { get; }
 ref float ComputeBloomStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float ComputeBloomStrength { get; }
 ref float ComputeBloomThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float ComputeBloomThreshold { get; }
 ref float ScreenBloomStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float ScreenBloomStrength { get; }
 ref float SkyboxBloomStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

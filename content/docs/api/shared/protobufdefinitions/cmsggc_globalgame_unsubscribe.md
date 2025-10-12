@@ -6,7 +6,7 @@ title: CMsgGC_GlobalGame_Unsubscribe
 public interface CMsgGC_GlobalGame_Unsubscribe : ITypedProtobuf<CMsgGC_GlobalGame_Unsubscribe>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGC_GlobalGame_Unsubscribe : ITypedProtobuf<CMsgGC_GlobalGam
 int Timeleft { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

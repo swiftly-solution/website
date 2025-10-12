@@ -6,7 +6,7 @@ title: CFutureVelocityMetricEvaluator
 public interface CFutureVelocityMetricEvaluator : CMotionMetricEvaluator, ISchemaClass<CMotionMetricEvaluator>, ISchemaClass<CFutureVelocityMetricEvaluator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFutureVelocityMetricEvaluator : CMotionMetricEvaluator, ISchem
 ref float Distance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Distance { get; }
 ref VelocityMetricMode Mode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VelocityMetricMode](/docs/api/shared/schemadefinitions/velocitymetricmode)
 
@@ -36,7 +36,7 @@ ref VelocityMetricMode Mode { get; }
 ref float StoppingDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float StoppingDistance { get; }
 ref float TargetSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

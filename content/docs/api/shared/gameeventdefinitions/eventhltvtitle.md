@@ -6,7 +6,7 @@ title: EventHltvTitle
 public interface EventHltvTitle : IGameEvent<EventHltvTitle>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventHltvTitle : IGameEvent<EventHltvTitle>
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

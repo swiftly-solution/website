@@ -6,7 +6,7 @@ title: C_OP_RenderStandardLight
 public interface C_OP_RenderStandardLight : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderStandardLight>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderStandardLight : CParticleFunctionRenderer, CParticle
 ref StandardLightingAttenuationStyle_t AttenuationStyle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [StandardLightingAttenuationStyle_t](/docs/api/shared/schemadefinitions/standardlightingattenuationstyle_t)
 
@@ -26,7 +26,7 @@ ref StandardLightingAttenuationStyle_t AttenuationStyle { get; }
 ref float CapsuleLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float CapsuleLength { get; }
 ref ParticleLightBehaviorChoiceList_t CapsuleLightBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleLightBehaviorChoiceList_t](/docs/api/shared/schemadefinitions/particlelightbehaviorchoicelist_t)
 
@@ -46,7 +46,7 @@ ref ParticleLightBehaviorChoiceList_t CapsuleLightBehavior { get; }
 ref bool CastShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool CastShadows { get; }
 ref bool ClosedLoop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool ClosedLoop { get; }
 ref ParticleColorBlendType_t ColorBlendType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
@@ -76,7 +76,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 CParticleCollectionVecInput ColorScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -86,7 +86,7 @@ CParticleCollectionVecInput ColorScale { get; }
 ref float ConstrainRadiusToLengthRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float ConstrainRadiusToLengthRatio { get; }
 CParticleCollectionFloatInput FalloffLinearity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -106,7 +106,7 @@ CParticleCollectionFloatInput FalloffLinearity { get; }
 CParticleCollectionFloatInput FiftyPercentFalloff { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -116,7 +116,7 @@ CParticleCollectionFloatInput FiftyPercentFalloff { get; }
 CParticleCollectionRendererFloatInput FogContribution { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -126,7 +126,7 @@ CParticleCollectionRendererFloatInput FogContribution { get; }
 ref ParticleLightFogLightingMode_t FogLightingMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleLightFogLightingMode_t](/docs/api/shared/schemadefinitions/particlelightfoglightingmode_t)
 
@@ -136,7 +136,7 @@ ref ParticleLightFogLightingMode_t FogLightingMode { get; }
 ref bool IgnoreDT { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool IgnoreDT { get; }
 CParticleCollectionFloatInput Intensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -156,7 +156,7 @@ CParticleCollectionFloatInput Intensity { get; }
 ref float LengthFadeInTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float LengthFadeInTime { get; }
 ref float LengthScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float LengthScale { get; }
 string LightCookie { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -186,7 +186,7 @@ string LightCookie { get; set; }
 ref ParticleLightTypeChoiceList_t LightType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleLightTypeChoiceList_t](/docs/api/shared/schemadefinitions/particlelighttypechoicelist_t)
 
@@ -196,7 +196,7 @@ ref ParticleLightTypeChoiceList_t LightType { get; }
 ref float MaxLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float MaxLength { get; }
 ref float MinLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float MinLength { get; }
 CParticleCollectionFloatInput Phi { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -226,7 +226,7 @@ CParticleCollectionFloatInput Phi { get; }
 ParticleAttributeIndex_t PrevPntSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -236,7 +236,7 @@ ParticleAttributeIndex_t PrevPntSource { get; }
 ref int Priority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -246,7 +246,7 @@ ref int Priority { get; }
 CParticleCollectionFloatInput RadiusMultiplier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -256,7 +256,7 @@ CParticleCollectionFloatInput RadiusMultiplier { get; }
 ref bool RenderDiffuse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -266,7 +266,7 @@ ref bool RenderDiffuse { get; }
 ref bool RenderSpecular { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -276,7 +276,7 @@ ref bool RenderSpecular { get; }
 ref bool ReverseOrder { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -286,7 +286,7 @@ ref bool ReverseOrder { get; }
 CParticleCollectionFloatInput Theta { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -296,7 +296,7 @@ CParticleCollectionFloatInput Theta { get; }
 CParticleCollectionFloatInput ZeroPercentFalloff { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 

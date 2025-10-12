@@ -6,7 +6,7 @@ title: CGameTrace
 public struct CGameTrace
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct CGameTrace
 public void* Body
 ```
 
-#### Field Value
+- Field Value
 
 - [void](https://learn.microsoft.com/dotnet/api/system.void)*
 
@@ -26,7 +26,7 @@ public void* Body
 public CTransform BodyTransform
 ```
 
-#### Field Value
+- Field Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -36,7 +36,7 @@ public CTransform BodyTransform
 public ulong Contents
 ```
 
-#### Field Value
+- Field Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ public ulong Contents
 public Vector EndPos
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ public Vector EndPos
 public bool ExactHitPoint
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ public bool ExactHitPoint
 public float Fraction
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ public float Fraction
 public CHitBoxTrace* HitBox
 ```
 
-#### Field Value
+- Field Value
 
 - [CHitBoxTrace](/docs/api/shared/natives/chitboxtrace)*
 
@@ -86,7 +86,7 @@ public CHitBoxTrace* HitBox
 public Vector HitNormal
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ public Vector HitNormal
 public float HitOffset
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ public float HitOffset
 public Vector HitPoint
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -116,7 +116,7 @@ public Vector HitPoint
 public short HitboxBoneIndex
 ```
 
-#### Field Value
+- Field Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -126,7 +126,7 @@ public short HitboxBoneIndex
 public RayType_t RayType
 ```
 
-#### Field Value
+- Field Value
 
 - [RayType_t](/docs/api/shared/natives/raytype_t)
 
@@ -136,7 +136,7 @@ public RayType_t RayType
 public void* Shape
 ```
 
-#### Field Value
+- Field Value
 
 - [void](https://learn.microsoft.com/dotnet/api/system.void)*
 
@@ -146,7 +146,7 @@ public void* Shape
 public RnCollisionAttr_t ShapeAttributes
 ```
 
-#### Field Value
+- Field Value
 
 - [RnCollisionAttr_t](/docs/api/shared/natives/rncollisionattr_t)
 
@@ -156,7 +156,7 @@ public RnCollisionAttr_t ShapeAttributes
 public bool StartInSolid
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ public bool StartInSolid
 public Vector StartPos
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -176,7 +176,7 @@ public Vector StartPos
 public CPhysSurfacePropertiesTrace* SurfaceProperties
 ```
 
-#### Field Value
+- Field Value
 
 - [CPhysSurfacePropertiesTrace](/docs/api/shared/natives/cphyssurfacepropertiestrace)*
 
@@ -186,7 +186,7 @@ public CPhysSurfacePropertiesTrace* SurfaceProperties
 public int Triangle
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ public int Triangle
 public void* pEntity
 ```
 
-#### Field Value
+- Field Value
 
 - [void](https://learn.microsoft.com/dotnet/api/system.void)*
 
@@ -208,7 +208,7 @@ public void* pEntity
 public CEntityInstance Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
 

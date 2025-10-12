@@ -6,7 +6,7 @@ title: PointDefinitionWithTimeValues_t
 public interface PointDefinitionWithTimeValues_t : PointDefinition_t, ISchemaClass<PointDefinition_t>, ISchemaClass<PointDefinitionWithTimeValues_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PointDefinitionWithTimeValues_t : PointDefinition_t, ISchemaCla
 ref float TimeDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

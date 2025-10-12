@@ -6,7 +6,7 @@ title: FootPinningPoseOpFixedData_t
 public interface FootPinningPoseOpFixedData_t : ISchemaClass<FootPinningPoseOpFixedData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FootPinningPoseOpFixedData_t : ISchemaClass<FootPinningPoseOpFi
 ref bool ApplyFootRotationLimits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ApplyFootRotationLimits { get; }
 ref bool ApplyLegTwistLimits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ApplyLegTwistLimits { get; }
 ref float BlendTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float BlendTime { get; }
 ref CUtlVector FootInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector FootInfo { get; }
 ref int HipBoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int HipBoneIndex { get; }
 ref float LockBreakDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float LockBreakDistance { get; }
 ref float MaxLegTwist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

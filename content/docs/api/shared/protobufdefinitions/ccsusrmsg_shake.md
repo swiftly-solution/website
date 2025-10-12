@@ -6,7 +6,7 @@ title: CCSUsrMsg_Shake
 public interface CCSUsrMsg_Shake : ITypedProtobuf<CCSUsrMsg_Shake>, INativeHandle, INetMessage<CCSUsrMsg_Shake>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_Shake : ITypedProtobuf<CCSUsrMsg_Shake>, INativeHandl
 int Command { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Command { get; set; }
 float Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float Duration { get; set; }
 float Frequency { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float Frequency { get; set; }
 float LocalAmplitude { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

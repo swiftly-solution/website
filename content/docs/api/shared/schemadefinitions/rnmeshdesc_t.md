@@ -6,7 +6,7 @@ title: RnMeshDesc_t
 public interface RnMeshDesc_t : RnShapeDesc_t, ISchemaClass<RnShapeDesc_t>, ISchemaClass<RnMeshDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnMeshDesc_t : RnShapeDesc_t, ISchemaClass<RnShapeDesc_t>, ISch
 RnMesh_t Mesh { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RnMesh_t](/docs/api/shared/schemadefinitions/rnmesh_t)
 

@@ -7,9 +7,9 @@ title: ServerNetMessageHandler
 public class ServerNetMessageHandler : Attribute
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 

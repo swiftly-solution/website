@@ -6,7 +6,7 @@ title: CLightComponent
 public interface CLightComponent : CEntityComponent, ISchemaClass<CEntityComponent>, ISchemaClass<CLightComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLightComponent : CEntityComponent, ISchemaClass<CEntityCompone
 ref bool AllowSSTGeneration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AllowSSTGeneration { get; }
 ref float Attenuation0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Attenuation0 { get; }
 ref float Attenuation1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Attenuation1 { get; }
 ref float Attenuation2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float Attenuation2 { get; }
 ref int BakedShadowIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int BakedShadowIndex { get; }
 ref float Brightness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float Brightness { get; }
 ref float BrightnessMult { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float BrightnessMult { get; }
 ref float BrightnessScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float BrightnessScale { get; }
 ref float CapsuleLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float CapsuleLength { get; }
 ref int CascadeRenderStaticObjects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int CascadeRenderStaticObjects { get; }
 ref int Cascades { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int Cascades { get; }
 ref int CastShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int CastShadows { get; }
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -146,7 +146,7 @@ ref Color Color { get; }
 ref int DirectLight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int DirectLight { get; }
 ref bool Enabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool Enabled { get; }
 ref float FadeMaxDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float FadeMaxDist { get; }
 ref float FadeMinDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float FadeMinDist { get; }
 ref float Falloff { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float Falloff { get; }
 ref bool Flicker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool Flicker { get; }
 ref float FogContributionStength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float FogContributionStength { get; }
 ref int FogLightingMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -226,7 +226,7 @@ ref int FogLightingMode { get; }
 ref int IndirectLight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int IndirectLight { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> LightCookie { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -246,7 +246,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> LightCookie { get; }
 ref int LightMapUniqueId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -256,7 +256,7 @@ ref int LightMapUniqueId { get; }
 ref int LightPathUniqueId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -266,7 +266,7 @@ ref int LightPathUniqueId { get; }
 GameTime_t LightStyleStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -276,7 +276,7 @@ GameTime_t LightStyleStartTime { get; }
 ref float MinRoughness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -286,7 +286,7 @@ ref float MinRoughness { get; }
 ref bool MixedShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -296,7 +296,7 @@ ref bool MixedShadows { get; }
 ref float NearClipPlane { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -306,7 +306,7 @@ ref float NearClipPlane { get; }
 ref float OrthoLightHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -316,7 +316,7 @@ ref float OrthoLightHeight { get; }
 ref float OrthoLightWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -326,7 +326,7 @@ ref float OrthoLightWidth { get; }
 string Pattern { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -336,7 +336,7 @@ string Pattern { get; set; }
 ref float Phi { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -346,7 +346,7 @@ ref float Phi { get; }
 ref Vector PrecomputedBoundsMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -356,7 +356,7 @@ ref Vector PrecomputedBoundsMaxs { get; }
 ref Vector PrecomputedBoundsMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -366,7 +366,7 @@ ref Vector PrecomputedBoundsMins { get; }
 ref bool PrecomputedFieldsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,7 +376,7 @@ ref bool PrecomputedFieldsValid { get; }
 ref float PrecomputedMaxRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -386,7 +386,7 @@ ref float PrecomputedMaxRange { get; }
 ref QAngle PrecomputedOBBAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -396,7 +396,7 @@ ref QAngle PrecomputedOBBAngles { get; }
 ref Vector PrecomputedOBBExtent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -406,7 +406,7 @@ ref Vector PrecomputedOBBExtent { get; }
 ref Vector PrecomputedOBBOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -416,7 +416,7 @@ ref Vector PrecomputedOBBOrigin { get; }
 ref bool PvsModifyEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -426,7 +426,7 @@ ref bool PvsModifyEntity { get; }
 ref float Range { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -436,7 +436,7 @@ ref float Range { get; }
 ref bool RenderDiffuse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -446,7 +446,7 @@ ref bool RenderDiffuse { get; }
 ref int RenderSpecular { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -456,7 +456,7 @@ ref int RenderSpecular { get; }
 ref bool RenderToCubemaps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -466,7 +466,7 @@ ref bool RenderToCubemaps { get; }
 ref bool RenderTransmissive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -476,7 +476,7 @@ ref bool RenderTransmissive { get; }
 ref Color SecondaryColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -486,7 +486,7 @@ ref Color SecondaryColor { get; }
 ref float ShadowCascadeCrossFade { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -496,7 +496,7 @@ ref float ShadowCascadeCrossFade { get; }
 ref float ShadowCascadeDistance0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -506,7 +506,7 @@ ref float ShadowCascadeDistance0 { get; }
 ref float ShadowCascadeDistance1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -516,7 +516,7 @@ ref float ShadowCascadeDistance1 { get; }
 ref float ShadowCascadeDistance2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -526,7 +526,7 @@ ref float ShadowCascadeDistance2 { get; }
 ref float ShadowCascadeDistance3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -536,7 +536,7 @@ ref float ShadowCascadeDistance3 { get; }
 ref float ShadowCascadeDistanceFade { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -546,7 +546,7 @@ ref float ShadowCascadeDistanceFade { get; }
 ref int ShadowCascadeResolution0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -556,7 +556,7 @@ ref int ShadowCascadeResolution0 { get; }
 ref int ShadowCascadeResolution1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -566,7 +566,7 @@ ref int ShadowCascadeResolution1 { get; }
 ref int ShadowCascadeResolution2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -576,7 +576,7 @@ ref int ShadowCascadeResolution2 { get; }
 ref int ShadowCascadeResolution3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -586,7 +586,7 @@ ref int ShadowCascadeResolution3 { get; }
 ref float ShadowFadeMaxDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -596,7 +596,7 @@ ref float ShadowFadeMaxDist { get; }
 ref float ShadowFadeMinDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -606,7 +606,7 @@ ref float ShadowFadeMinDist { get; }
 ref int ShadowHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -616,7 +616,7 @@ ref int ShadowHeight { get; }
 ref int ShadowPriority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -626,7 +626,7 @@ ref int ShadowPriority { get; }
 ref int ShadowWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -636,7 +636,7 @@ ref int ShadowWidth { get; }
 ref Color SkyAmbientBounce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -646,7 +646,7 @@ ref Color SkyAmbientBounce { get; }
 ref Color SkyColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -656,7 +656,7 @@ ref Color SkyColor { get; }
 ref float SkyIntensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -666,7 +666,7 @@ ref float SkyIntensity { get; }
 ref int Style { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -676,7 +676,7 @@ ref int Style { get; }
 ref float Theta { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -686,7 +686,7 @@ ref float Theta { get; }
 ref bool UseSecondaryColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -696,7 +696,7 @@ ref bool UseSecondaryColor { get; }
 ref bool UsesBakedShadowing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -706,7 +706,7 @@ ref bool UsesBakedShadowing { get; }
 ref CNetworkVarChainer __m_pChainEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkVarChainer](/docs/api/shared/natives/cnetworkvarchainer)
 

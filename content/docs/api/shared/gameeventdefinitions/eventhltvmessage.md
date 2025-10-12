@@ -6,7 +6,7 @@ title: EventHltvMessage
 public interface EventHltvMessage : IGameEvent<EventHltvMessage>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventHltvMessage : IGameEvent<EventHltvMessage>
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

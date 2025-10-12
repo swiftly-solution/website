@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_BetaEnrollment
 public interface CMsgGCCStrike15_v2_BetaEnrollment : ITypedProtobuf<CMsgGCCStrike15_v2_BetaEnrollment>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_BetaEnrollment : ITypedProtobuf<CMsgGCCStrik
 uint Eresult { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

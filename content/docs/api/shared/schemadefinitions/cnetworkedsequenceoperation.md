@@ -6,7 +6,7 @@ title: CNetworkedSequenceOperation
 public interface CNetworkedSequenceOperation : ISchemaClass<CNetworkedSequenceOperation>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNetworkedSequenceOperation : ISchemaClass<CNetworkedSequenceOp
 ref float Cycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Cycle { get; }
 ref bool Discontinuity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Discontinuity { get; }
 ref float PrevCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float PrevCycle { get; }
 ref float PrevCycleForAnimEventDetection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float PrevCycleForAnimEventDetection { get; }
 ref float PrevCycleFromDiscontinuity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float PrevCycleFromDiscontinuity { get; }
 HSequence Sequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
@@ -76,7 +76,7 @@ HSequence Sequence { get; }
 ref bool SequenceChangeNetworked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool SequenceChangeNetworked { get; }
 ref CNetworkedQuantizedFloat Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 

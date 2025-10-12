@@ -6,7 +6,7 @@ title: CCLCMsg_CmdKeyValues
 public interface CCLCMsg_CmdKeyValues : ITypedProtobuf<CCLCMsg_CmdKeyValues>, INativeHandle, INetMessage<CCLCMsg_CmdKeyValues>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_CmdKeyValues : ITypedProtobuf<CCLCMsg_CmdKeyValues>, IN
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

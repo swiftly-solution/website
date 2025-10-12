@@ -6,7 +6,7 @@ title: CShatterGlassShardPhysics
 public interface CShatterGlassShardPhysics : CPhysicsProp, CBreakableProp, CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaClass<CPhysicsProp>, ISchemaClass<CShatterGlassShardPhysics>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CShatterGlassShardPhysics : CPhysicsProp, CBreakableProp, CBase
 ref bool Debris { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Debris { get; }
 ref uint ParentShard { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint ParentShard { get; }
 shard_model_desc_t ShardDesc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [shard_model_desc_t](/docs/api/shared/schemadefinitions/shard_model_desc_t)
 

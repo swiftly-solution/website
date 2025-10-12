@@ -6,7 +6,7 @@ title: CPhysicsShake
 public interface CPhysicsShake : ISchemaClass<CPhysicsShake>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysicsShake : ISchemaClass<CPhysicsShake>, ISchemaField, ISch
 ref Vector Force { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

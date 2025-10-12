@@ -6,7 +6,7 @@ title: CPulseCell_BaseLerp__CursorState_t
 public interface CPulseCell_BaseLerp__CursorState_t : ISchemaClass<CPulseCell_BaseLerp__CursorState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_BaseLerp__CursorState_t : ISchemaClass<CPulseCell_Ba
 GameTime_t EndTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -26,7 +26,7 @@ GameTime_t EndTime { get; }
 GameTime_t StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 

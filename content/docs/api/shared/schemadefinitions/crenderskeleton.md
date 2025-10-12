@@ -6,7 +6,7 @@ title: CRenderSkeleton
 public interface CRenderSkeleton : ISchemaClass<CRenderSkeleton>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRenderSkeleton : ISchemaClass<CRenderSkeleton>, ISchemaField, 
 ref CUtlVector<int> BoneParents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<int> BoneParents { get; }
 ref int BoneWeightCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int BoneWeightCount { get; }
 ref CUtlVector Bones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

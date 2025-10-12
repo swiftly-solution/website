@@ -6,7 +6,7 @@ title: CUserMessageRequestUtilAction
 public interface CUserMessageRequestUtilAction : ITypedProtobuf<CUserMessageRequestUtilAction>, INativeHandle, INetMessage<CUserMessageRequestUtilAction>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageRequestUtilAction : ITypedProtobuf<CUserMessageRequ
 int Util1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Util1 { get; set; }
 int Util2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Util2 { get; set; }
 int Util3 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Util3 { get; set; }
 int Util4 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int Util4 { get; set; }
 int Util5 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

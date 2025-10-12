@@ -6,7 +6,7 @@ title: CStateMachineUpdateNode
 public interface CStateMachineUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CStateMachineUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CStateMachineUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAn
 ref bool BlockWaningTags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool BlockWaningTags { get; }
 ref bool LockStateWhenWaning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool LockStateWhenWaning { get; }
 ref bool ResetWhenActivated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ResetWhenActivated { get; }
 ref CUtlVector StateData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector StateData { get; }
 CAnimStateMachineUpdater StateMachine { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimStateMachineUpdater](/docs/api/shared/schemadefinitions/canimstatemachineupdater)
 
@@ -66,7 +66,7 @@ CAnimStateMachineUpdater StateMachine { get; }
 ref CUtlVector TransitionData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

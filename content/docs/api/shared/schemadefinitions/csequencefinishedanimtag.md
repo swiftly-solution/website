@@ -6,7 +6,7 @@ title: CSequenceFinishedAnimTag
 public interface CSequenceFinishedAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CSequenceFinishedAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSequenceFinishedAnimTag : CAnimTagBase, ISchemaClass<CAnimTagB
 string SequenceName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

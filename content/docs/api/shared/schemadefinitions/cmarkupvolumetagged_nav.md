@@ -6,7 +6,7 @@ title: CMarkupVolumeTagged_Nav
 public interface CMarkupVolumeTagged_Nav : CMarkupVolumeTagged, CMarkupVolume, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CMarkupVolume>, ISchemaClass<CMarkupVolumeTagged>, ISchemaClass<CMarkupVolumeTagged_Nav>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMarkupVolumeTagged_Nav : CMarkupVolumeTagged, CMarkupVolume, C
 ref NavScopeFlags_t Scopes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NavScopeFlags_t](/docs/api/shared/schemadefinitions/navscopeflags_t)
 

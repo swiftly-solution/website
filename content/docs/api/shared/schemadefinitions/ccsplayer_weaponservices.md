@@ -6,7 +6,7 @@ title: CCSPlayer_WeaponServices
 public interface CCSPlayer_WeaponServices : CPlayer_WeaponServices, CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_WeaponServices>, ISchemaClass<CCSPlayer_WeaponServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayer_WeaponServices : CPlayer_WeaponServices, CPlayerPawnC
 ref bool BlockInspectUntilNextGraphUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool BlockInspectUntilNextGraphUpdate { get; }
 ref bool DisableAutoDeploy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool DisableAutoDeploy { get; }
 ref bool IsBeingGivenItem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IsBeingGivenItem { get; }
 ref bool IsHoldingLookAtWeapon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool IsHoldingLookAtWeapon { get; }
 ref bool IsLookingAtWeapon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IsLookingAtWeapon { get; }
 ref bool IsPickingUpGroundWeapon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool IsPickingUpGroundWeapon { get; }
 ref bool IsPickingUpItemWithUse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool IsPickingUpItemWithUse { get; }
 ref CUtlVector<byte> NetworkAnimTiming { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<byte> NetworkAnimTiming { get; }
 GameTime_t NextAttack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -106,7 +106,7 @@ GameTime_t NextAttack { get; }
 ref bool PickedUpWeapon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool PickedUpWeapon { get; }
 ref CHandle<CBasePlayerWeapon> SavedWeapon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerWeapon](/docs/api/shared/schemadefinitions/cbaseplayerweapon)>
 
@@ -126,7 +126,7 @@ ref CHandle<CBasePlayerWeapon> SavedWeapon { get; }
 ref int TimeToMelee { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int TimeToMelee { get; }
 ref int TimeToPrimary { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int TimeToPrimary { get; }
 ref int TimeToSecondary { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int TimeToSecondary { get; }
 ref int TimeToSniperRifle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

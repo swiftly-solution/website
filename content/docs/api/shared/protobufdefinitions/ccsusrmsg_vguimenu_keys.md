@@ -6,7 +6,7 @@ title: CCSUsrMsg_VGUIMenu_Keys
 public interface CCSUsrMsg_VGUIMenu_Keys : ITypedProtobuf<CCSUsrMsg_VGUIMenu_Keys>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_VGUIMenu_Keys : ITypedProtobuf<CCSUsrMsg_VGUIMenu_Key
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Name { get; set; }
 string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: PulseGraphExecutionHistoryEntry_t
 public interface PulseGraphExecutionHistoryEntry_t : ISchemaClass<PulseGraphExecutionHistoryEntry_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseGraphExecutionHistoryEntry_t : ISchemaClass<PulseGraphExec
 PulseCursorID_t CursorID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseCursorID_t](/docs/api/shared/schemadefinitions/pulsecursorid_t)
 
@@ -26,7 +26,7 @@ PulseCursorID_t CursorID { get; }
 PulseDocNodeID_t EditorID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
@@ -36,7 +36,7 @@ PulseDocNodeID_t EditorID { get; }
 ref float ExecTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float ExecTime { get; }
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ ref uint Flags { get; }
 SchemaUntypedField TagName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

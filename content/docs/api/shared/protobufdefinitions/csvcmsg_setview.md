@@ -6,7 +6,7 @@ title: CSVCMsg_SetView
 public interface CSVCMsg_SetView : ITypedProtobuf<CSVCMsg_SetView>, INativeHandle, INetMessage<CSVCMsg_SetView>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_SetView : ITypedProtobuf<CSVCMsg_SetView>, INativeHandl
 int EntityIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int EntityIndex { get; set; }
 int Slot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

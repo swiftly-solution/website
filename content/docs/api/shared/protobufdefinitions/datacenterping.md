@@ -6,7 +6,7 @@ title: DataCenterPing
 public interface DataCenterPing : ITypedProtobuf<DataCenterPing>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface DataCenterPing : ITypedProtobuf<DataCenterPing>, INativeHandle
 uint DataCenterId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint DataCenterId { get; set; }
 int Ping { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

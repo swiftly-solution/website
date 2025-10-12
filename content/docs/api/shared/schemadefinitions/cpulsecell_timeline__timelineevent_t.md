@@ -6,7 +6,7 @@ title: CPulseCell_Timeline__TimelineEvent_t
 public interface CPulseCell_Timeline__TimelineEvent_t : ISchemaClass<CPulseCell_Timeline__TimelineEvent_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Timeline__TimelineEvent_t : ISchemaClass<CPulseCell_
 CPulse_OutflowConnection EventOutflow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
@@ -26,7 +26,7 @@ CPulse_OutflowConnection EventOutflow { get; }
 ref float TimeFromPrevious { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

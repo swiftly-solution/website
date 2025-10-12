@@ -6,5 +6,5 @@ title: EventGuardianWaveRestart
 public interface EventGuardianWaveRestart : IGameEvent<EventGuardianWaveRestart>
 ```
 
-#### Implements
+- Implements
 

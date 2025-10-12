@@ -6,7 +6,7 @@ title: EventDoorBreak
 public interface EventDoorBreak : IGameEvent<EventDoorBreak>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventDoorBreak : IGameEvent<EventDoorBreak>
 int DMgState { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int DMgState { get; set; }
 int EntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

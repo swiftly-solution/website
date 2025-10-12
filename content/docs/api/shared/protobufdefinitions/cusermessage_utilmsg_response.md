@@ -6,7 +6,7 @@ title: CUserMessage_UtilMsg_Response
 public interface CUserMessage_UtilMsg_Response : ITypedProtobuf<CUserMessage_UtilMsg_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessage_UtilMsg_Response : ITypedProtobuf<CUserMessage_Uti
 int ClientTimestamp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ClientTimestamp { get; set; }
 uint Crc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Crc { get; set; }
 uint Crc2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Crc2 { get; set; }
 IProtobufRepeatedFieldValueType<int> CrcPart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldValueType<int> CrcPart { get; }
 IProtobufRepeatedFieldValueType<int> CrcPart2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -66,7 +66,7 @@ IProtobufRepeatedFieldValueType<int> CrcPart2 { get; }
 int ItemCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int ItemCount { get; set; }
 int ItemCount2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ int ItemCount2 { get; set; }
 IProtobufRepeatedFieldSubMessageType<CUserMessage_UtilMsg_Response_ItemDetail> Itemdetails { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CUserMessage_UtilMsg_Response_ItemDetail](/docs/api/shared/protobufdefinitions/cusermessage_utilmsg_response_itemdetail)>
 
@@ -96,7 +96,7 @@ IProtobufRepeatedFieldSubMessageType<CUserMessage_UtilMsg_Response_ItemDetail> I
 int Itemgroup { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ int Itemgroup { get; set; }
 int Platform { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ int Platform { get; set; }
 int TotalCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ int TotalCount { get; set; }
 int TotalCount2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

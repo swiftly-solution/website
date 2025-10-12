@@ -6,7 +6,7 @@ title: CBidirMsg_RebroadcastGameEvent
 public interface CBidirMsg_RebroadcastGameEvent : ITypedProtobuf<CBidirMsg_RebroadcastGameEvent>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBidirMsg_RebroadcastGameEvent : ITypedProtobuf<CBidirMsg_Rebro
 int Buftype { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Buftype { get; set; }
 uint Clientbitcount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Clientbitcount { get; set; }
 bool Posttoserver { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool Posttoserver { get; set; }
 ulong Receivingclients { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

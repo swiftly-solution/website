@@ -6,7 +6,7 @@ title: CPulseCell_LimitCount__InstanceState_t
 public interface CPulseCell_LimitCount__InstanceState_t : ISchemaClass<CPulseCell_LimitCount__InstanceState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_LimitCount__InstanceState_t : ISchemaClass<CPulseCel
 ref int CurrentCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

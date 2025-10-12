@@ -6,7 +6,7 @@ title: CSosGroupActionSetSoundeventParameterSchema
 public interface CSosGroupActionSetSoundeventParameterSchema : CSosGroupActionSchema, ISchemaClass<CSosGroupActionSchema>, ISchemaClass<CSosGroupActionSetSoundeventParameterSchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSosGroupActionSetSoundeventParameterSchema : CSosGroupActionSc
 ref int MaxCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int MaxCount { get; }
 ref float MaxValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float MaxValue { get; }
 ref float MinValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float MinValue { get; }
 string OpvarName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string OpvarName { get; set; }
 ref SosActionSortType_t SortType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SosActionSortType_t](/docs/api/shared/schemadefinitions/sosactionsorttype_t)
 

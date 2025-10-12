@@ -6,7 +6,7 @@ title: CInButtonStatePB
 public interface CInButtonStatePB : ITypedProtobuf<CInButtonStatePB>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CInButtonStatePB : ITypedProtobuf<CInButtonStatePB>, INativeHan
 ulong Buttonstate1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Buttonstate1 { get; set; }
 ulong Buttonstate2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong Buttonstate2 { get; set; }
 ulong Buttonstate3 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

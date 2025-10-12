@@ -6,7 +6,7 @@ title: CPulseCell_Base
 public interface CPulseCell_Base : ISchemaClass<CPulseCell_Base>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Base : ISchemaClass<CPulseCell_Base>, ISchemaField, 
 PulseDocNodeID_t EditorNodeID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 

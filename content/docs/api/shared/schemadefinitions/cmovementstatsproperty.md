@@ -6,7 +6,7 @@ title: CMovementStatsProperty
 public interface CMovementStatsProperty : ISchemaClass<CMovementStatsProperty>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMovementStatsProperty : ISchemaClass<CMovementStatsProperty>, 
 CVectorExponentialMovingAverage EmaMovementDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CVectorExponentialMovingAverage](/docs/api/shared/schemadefinitions/cvectorexponentialmovingaverage)
 
@@ -26,7 +26,7 @@ CVectorExponentialMovingAverage EmaMovementDirection { get; }
 ref int UseCounter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

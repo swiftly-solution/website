@@ -6,7 +6,7 @@ title: CCSUsrMsg_RecurringMissionSchema
 public interface CCSUsrMsg_RecurringMissionSchema : ITypedProtobuf<CCSUsrMsg_RecurringMissionSchema>, INativeHandle, INetMessage<CCSUsrMsg_RecurringMissionSchema>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_RecurringMissionSchema : ITypedProtobuf<CCSUsrMsg_Rec
 byte[] MissionSchema { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] MissionSchema { get; set; }
 uint Period { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

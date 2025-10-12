@@ -6,7 +6,7 @@ title: CDemoClassInfo_class_t
 public interface CDemoClassInfo_class_t : ITypedProtobuf<CDemoClassInfo_class_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoClassInfo_class_t : ITypedProtobuf<CDemoClassInfo_class_t>
 int ClassId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ClassId { get; set; }
 string NetworkName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string NetworkName { get; set; }
 string TableName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

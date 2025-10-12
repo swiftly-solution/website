@@ -6,7 +6,7 @@ title: CFootstepLandedAnimTag
 public interface CFootstepLandedAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CFootstepLandedAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFootstepLandedAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBas
 string BoneName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string BoneName { get; set; }
 string DebugAnimSourceString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string DebugAnimSourceString { get; set; }
 ref FootstepLandedFootSoundType_t FootstepType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FootstepLandedFootSoundType_t](/docs/api/shared/schemadefinitions/footsteplandedfootsoundtype_t)
 
@@ -46,7 +46,7 @@ ref FootstepLandedFootSoundType_t FootstepType { get; }
 string OverrideSoundName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

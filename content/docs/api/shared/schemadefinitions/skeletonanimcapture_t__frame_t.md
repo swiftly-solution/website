@@ -6,7 +6,7 @@ title: SkeletonAnimCapture_t__Frame_t
 public interface SkeletonAnimCapture_t__Frame_t : ISchemaClass<SkeletonAnimCapture_t__Frame_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SkeletonAnimCapture_t__Frame_t : ISchemaClass<SkeletonAnimCaptu
 ref CUtlVector<CTransform> CompositeBones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CTransform> CompositeBones { get; }
 ref CUtlVector<CTransform> FeModelAnims { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CTransform> FeModelAnims { get; }
 ref CUtlVector<Vector> FeModelPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<Vector> FeModelPos { get; }
 ref CUtlVector<float> FlexControllerWeights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<float> FlexControllerWeights { get; }
 ref CUtlVector<CTransform> SimStateBones { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<CTransform> SimStateBones { get; }
 SkeletonAnimCapture_t__FrameStamp_t Stamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SkeletonAnimCapture_t__FrameStamp_t](/docs/api/shared/schemadefinitions/skeletonanimcapture_t__framestamp_t)
 
@@ -76,7 +76,7 @@ SkeletonAnimCapture_t__FrameStamp_t Stamp { get; }
 ref bool Teleport { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool Teleport { get; }
 ref float Time { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float Time { get; }
 ref CTransform Transform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

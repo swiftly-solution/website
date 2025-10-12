@@ -6,7 +6,7 @@ title: EventClientSceneSystemThreadStateChange_t
 public interface EventClientSceneSystemThreadStateChange_t : ISchemaClass<EventClientSceneSystemThreadStateChange_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventClientSceneSystemThreadStateChange_t : ISchemaClass<EventC
 ref bool ThreadsActive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

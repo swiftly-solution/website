@@ -6,5 +6,5 @@ title: CBlockSelectionMetricEvaluator
 public interface CBlockSelectionMetricEvaluator : CMotionMetricEvaluator, ISchemaClass<CMotionMetricEvaluator>, ISchemaClass<CBlockSelectionMetricEvaluator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

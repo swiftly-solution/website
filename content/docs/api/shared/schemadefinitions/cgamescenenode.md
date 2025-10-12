@@ -6,7 +6,7 @@ title: CGameSceneNode
 public interface CGameSceneNode : ISchemaClass<CGameSceneNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameSceneNode : ISchemaClass<CGameSceneNode>, ISchemaField, IS
 ref Vector AbsOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector AbsOrigin { get; }
 ref QAngle AbsRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -36,7 +36,7 @@ ref QAngle AbsRotation { get; }
 ref float AbsScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float AbsScale { get; }
 SchemaUntypedField BoneMergeFlex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField BoneMergeFlex { get; }
 CGameSceneNode? Child { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGameSceneNode](/docs/api/shared/schemadefinitions/cgamescenenode)?
 
@@ -66,7 +66,7 @@ CGameSceneNode? Child { get; }
 ref float ClientLocalScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float ClientLocalScale { get; }
 ref bool DebugAbsOriginChanges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool DebugAbsOriginChanges { get; }
 SchemaUntypedField DirtyBoneMergeBoneToRoot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -96,7 +96,7 @@ SchemaUntypedField DirtyBoneMergeBoneToRoot { get; }
 SchemaUntypedField DirtyBoneMergeInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -106,7 +106,7 @@ SchemaUntypedField DirtyBoneMergeInfo { get; }
 SchemaUntypedField DirtyHierarchy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -116,7 +116,7 @@ SchemaUntypedField DirtyHierarchy { get; }
 ref byte DoNotSetAnimTimeInInvalidatePhysicsCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -126,7 +126,7 @@ ref byte DoNotSetAnimTimeInInvalidatePhysicsCount { get; }
 ref bool Dormant { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool Dormant { get; }
 ref bool ForceParentToBeNetworked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool ForceParentToBeNetworked { get; }
 ref byte HierarchicalDepth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -156,7 +156,7 @@ ref byte HierarchicalDepth { get; }
 ref CUtlStringToken HierarchyAttachName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -166,7 +166,7 @@ ref CUtlStringToken HierarchyAttachName { get; }
 ref byte HierarchyType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -176,7 +176,7 @@ ref byte HierarchyType { get; }
 SchemaUntypedField LatchAbsOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -186,7 +186,7 @@ SchemaUntypedField LatchAbsOrigin { get; }
 ref CUtlStringToken Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -196,7 +196,7 @@ ref CUtlStringToken Name { get; }
 SchemaUntypedField NetworkedAnglesChanged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -206,7 +206,7 @@ SchemaUntypedField NetworkedAnglesChanged { get; }
 SchemaUntypedField NetworkedPositionChanged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -216,7 +216,7 @@ SchemaUntypedField NetworkedPositionChanged { get; }
 SchemaUntypedField NetworkedScaleChanged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -226,7 +226,7 @@ SchemaUntypedField NetworkedScaleChanged { get; }
 CGameSceneNode? NextSibling { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGameSceneNode](/docs/api/shared/schemadefinitions/cgamescenenode)?
 
@@ -236,7 +236,7 @@ CGameSceneNode? NextSibling { get; }
 ref CTransform NodeToWorld { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -246,7 +246,7 @@ ref CTransform NodeToWorld { get; }
 CNetworkOriginCellCoordQuantizedVector Origin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkOriginCellCoordQuantizedVector](/docs/api/shared/schemadefinitions/cnetworkorigincellcoordquantizedvector)
 
@@ -256,7 +256,7 @@ CNetworkOriginCellCoordQuantizedVector Origin { get; }
 CEntityInstance? Owner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)?
 
@@ -266,7 +266,7 @@ CEntityInstance? Owner { get; }
 CGameSceneNode? Parent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGameSceneNode](/docs/api/shared/schemadefinitions/cgamescenenode)?
 
@@ -276,7 +276,7 @@ CGameSceneNode? Parent { get; }
 CGameSceneNodeHandle Parent1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGameSceneNodeHandle](/docs/api/shared/schemadefinitions/cgamescenenodehandle)
 
@@ -286,7 +286,7 @@ CGameSceneNodeHandle Parent1 { get; }
 ref short ParentAttachmentOrBone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -296,7 +296,7 @@ ref short ParentAttachmentOrBone { get; }
 ref Vector RenderOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -306,7 +306,7 @@ ref Vector RenderOrigin { get; }
 ref QAngle Rotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -316,7 +316,7 @@ ref QAngle Rotation { get; }
 ref float Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -326,7 +326,7 @@ ref float Scale { get; }
 SchemaUntypedField WillBeCallingPostDataUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -336,7 +336,7 @@ SchemaUntypedField WillBeCallingPostDataUpdate { get; }
 ref float ZOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -348,7 +348,7 @@ ref float ZOffset { get; }
 CSkeletonInstance GetSkeletonInstance()
 ```
 
-#### Returns
+- Returns
 
 - [CSkeletonInstance](/docs/api/shared/schemadefinitions/cskeletoninstance)
 

@@ -6,7 +6,7 @@ title: CCommunity_GetGamePersonalDataEntries_Response
 public interface CCommunity_GetGamePersonalDataEntries_Response : ITypedProtobuf<CCommunity_GetGamePersonalDataEntries_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCommunity_GetGamePersonalDataEntries_Response : ITypedProtobuf
 string ContinueText { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string ContinueText { get; set; }
 string ContinueToken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ContinueToken { get; set; }
 IProtobufRepeatedFieldValueType<string> Entries { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldValueType<string> Entries { get; }
 uint Gceresult { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

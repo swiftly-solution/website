@@ -6,7 +6,7 @@ title: CDebugHistory
 public interface CDebugHistory : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CDebugHistory>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDebugHistory : CBaseEntity, CEntityInstance, ISchemaClass<CEnt
 ref int NpcEvents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

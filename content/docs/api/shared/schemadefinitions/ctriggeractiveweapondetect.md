@@ -6,7 +6,7 @@ title: CTriggerActiveWeaponDetect
 public interface CTriggerActiveWeaponDetect : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerActiveWeaponDetect>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTriggerActiveWeaponDetect : CBaseTrigger, CBaseToggle, CBaseMo
 CEntityIOOutput OnTouchedActiveWeapon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -26,7 +26,7 @@ CEntityIOOutput OnTouchedActiveWeapon { get; }
 string WeaponClassName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

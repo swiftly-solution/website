@@ -6,7 +6,7 @@ title: CBodyComponentBaseAnimGraph
 public interface CBodyComponentBaseAnimGraph : CBodyComponentSkeletonInstance, CBodyComponent, CEntityComponent, ISchemaClass<CEntityComponent>, ISchemaClass<CBodyComponent>, ISchemaClass<CBodyComponentSkeletonInstance>, ISchemaClass<CBodyComponentBaseAnimGraph>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBodyComponentBaseAnimGraph : CBodyComponentSkeletonInstance, C
 CBaseAnimGraphController AnimationController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBaseAnimGraphController](/docs/api/shared/schemadefinitions/cbaseanimgraphcontroller)
 

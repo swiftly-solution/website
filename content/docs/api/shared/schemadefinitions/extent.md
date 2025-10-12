@@ -6,7 +6,7 @@ title: Extent
 public interface Extent : ISchemaClass<Extent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface Extent : ISchemaClass<Extent>, ISchemaField, ISchemaClass, INat
 ref Vector Hi { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector Hi { get; }
 ref Vector Lo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

@@ -6,7 +6,7 @@ title: RsRasterizerStateDesc_t
 public interface RsRasterizerStateDesc_t : ISchemaClass<RsRasterizerStateDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RsRasterizerStateDesc_t : ISchemaClass<RsRasterizerStateDesc_t>
 ref RsCullMode_t CullMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RsCullMode_t](/docs/api/shared/schemadefinitions/rscullmode_t)
 
@@ -26,7 +26,7 @@ ref RsCullMode_t CullMode { get; }
 ref int DepthBias { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int DepthBias { get; }
 ref float DepthBiasClamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float DepthBiasClamp { get; }
 ref bool DepthClipEnable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool DepthClipEnable { get; }
 ref RsFillMode_t FillMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RsFillMode_t](/docs/api/shared/schemadefinitions/rsfillmode_t)
 
@@ -66,7 +66,7 @@ ref RsFillMode_t FillMode { get; }
 ref bool MultisampleEnable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool MultisampleEnable { get; }
 ref float SlopeScaledDepthBias { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

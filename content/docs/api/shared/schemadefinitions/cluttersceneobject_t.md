@@ -6,7 +6,7 @@ title: ClutterSceneObject_t
 public interface ClutterSceneObject_t : ISchemaClass<ClutterSceneObject_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ClutterSceneObject_t : ISchemaClass<ClutterSceneObject_t>, ISch
 ref float BeginCullSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BeginCullSize { get; }
 AABB_t Bounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AABB_t](/docs/api/shared/schemadefinitions/aabb_t)
 
@@ -36,7 +36,7 @@ AABB_t Bounds { get; }
 ref float EndCullSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float EndCullSize { get; }
 ref ObjectTypeFlags_t Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ObjectTypeFlags_t](/docs/api/shared/schemadefinitions/objecttypeflags_t)
 
@@ -56,7 +56,7 @@ ref ObjectTypeFlags_t Flags { get; }
 ref CUtlVector<Vector> InstancePositions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<Vector> InstancePositions { get; }
 ref CUtlVector<float> InstanceScales { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -76,7 +76,7 @@ ref CUtlVector<float> InstanceScales { get; }
 ref CUtlVector<Color> InstanceTintSrgb { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Color](/docs/api/shared/natives/color)>
 
@@ -86,7 +86,7 @@ ref CUtlVector<Color> InstanceTintSrgb { get; }
 ref short Layer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -96,7 +96,7 @@ ref short Layer { get; }
 ref CUtlStringToken MaterialGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -106,7 +106,7 @@ ref CUtlStringToken MaterialGroup { get; }
 ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
@@ -116,7 +116,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
 ref CUtlVector Tiles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

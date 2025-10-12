@@ -6,7 +6,7 @@ title: CProductInfo_SetRichPresenceLocalization_Request
 public interface CProductInfo_SetRichPresenceLocalization_Request : ITypedProtobuf<CProductInfo_SetRichPresenceLocalization_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CProductInfo_SetRichPresenceLocalization_Request : ITypedProtob
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Appid { get; set; }
 IProtobufRepeatedFieldSubMessageType<CProductInfo_SetRichPresenceLocalization_Request_LanguageSection> Languages { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CProductInfo_SetRichPresenceLocalization_Request_LanguageSection](/docs/api/shared/protobufdefinitions/cproductinfo_setrichpresencelocalization_request_languagesection)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CProductInfo_SetRichPresenceLocalization_Re
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

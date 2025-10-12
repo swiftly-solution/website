@@ -6,7 +6,7 @@ title: CEconItemView
 public interface CEconItemView : IEconItemInterface, ISchemaClass<IEconItemInterface>, ISchemaClass<CEconItemView>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEconItemView : IEconItemInterface, ISchemaClass<IEconItemInter
 ref uint AccountID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint AccountID { get; }
 CAttributeList AttributeList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAttributeList](/docs/api/shared/schemadefinitions/cattributelist)
 
@@ -36,7 +36,7 @@ CAttributeList AttributeList { get; }
 string CustomName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string CustomName { get; set; }
 string CustomNameOverride { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string CustomNameOverride { get; set; }
 ref uint EntityLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ ref uint EntityLevel { get; }
 ref int EntityQuality { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int EntityQuality { get; }
 ref bool Initialized { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool Initialized { get; }
 ref uint InventoryPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ ref uint InventoryPosition { get; }
 ref ushort ItemDefinitionIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -106,7 +106,7 @@ ref ushort ItemDefinitionIndex { get; }
 ref ulong ItemID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -116,7 +116,7 @@ ref ulong ItemID { get; }
 ref uint ItemIDHigh { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ ref uint ItemIDHigh { get; }
 ref uint ItemIDLow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ ref uint ItemIDLow { get; }
 CAttributeList NetworkedDynamicAttributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAttributeList](/docs/api/shared/schemadefinitions/cattributelist)
 

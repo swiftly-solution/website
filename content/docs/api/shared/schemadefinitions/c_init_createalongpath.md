@@ -6,7 +6,7 @@ title: C_INIT_CreateAlongPath
 public interface C_INIT_CreateAlongPath : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_CreateAlongPath>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_CreateAlongPath : CParticleFunctionInitializer, CParticl
 ref Vector EndOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector EndOffset { get; }
 ref float MaxDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float MaxDistance { get; }
 CPathParameters PathParams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathParameters](/docs/api/shared/schemadefinitions/cpathparameters)
 
@@ -46,7 +46,7 @@ CPathParameters PathParams { get; }
 ref bool SaveOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool SaveOffset { get; }
 ref bool UseRandomCPs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

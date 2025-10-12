@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GC2ClientTextMsg
 public interface CMsgGCCStrike15_v2_GC2ClientTextMsg : ITypedProtobuf<CMsgGCCStrike15_v2_GC2ClientTextMsg>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GC2ClientTextMsg : ITypedProtobuf<CMsgGCCStr
 uint Id { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Id { get; set; }
 byte[] Payload { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -36,7 +36,7 @@ byte[] Payload { get; set; }
 uint Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

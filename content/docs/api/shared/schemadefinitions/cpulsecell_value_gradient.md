@@ -6,7 +6,7 @@ title: CPulseCell_Value_Gradient
 public interface CPulseCell_Value_Gradient : CPulseCell_BaseValue, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseValue>, ISchemaClass<CPulseCell_Value_Gradient>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Value_Gradient : CPulseCell_BaseValue, CPulseCell_Ba
 SchemaUntypedField Gradient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

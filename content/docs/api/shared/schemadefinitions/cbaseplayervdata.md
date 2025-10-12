@@ -6,7 +6,7 @@ title: CBasePlayerVData
 public interface CBasePlayerVData : CEntitySubclassVDataBase, ISchemaClass<CEntitySubclassVDataBase>, ISchemaClass<CBasePlayerVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBasePlayerVData : CEntitySubclassVDataBase, ISchemaClass<CEnti
 CSkillFloat ArmDamageMultiplier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
@@ -26,7 +26,7 @@ CSkillFloat ArmDamageMultiplier { get; }
 CSkillFloat ChestDamageMultiplier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
@@ -36,7 +36,7 @@ CSkillFloat ChestDamageMultiplier { get; }
 ref float CrouchTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float CrouchTime { get; }
 ref int DrowningDamageInitial { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int DrowningDamageInitial { get; }
 ref float DrowningDamageInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float DrowningDamageInterval { get; }
 ref int DrowningDamageMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int DrowningDamageMax { get; }
 CSkillFloat HeadDamageMultiplier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
@@ -86,7 +86,7 @@ CSkillFloat HeadDamageMultiplier { get; }
 ref float HoldBreathTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float HoldBreathTime { get; }
 CSkillFloat LegDamageMultiplier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
@@ -106,7 +106,7 @@ CSkillFloat LegDamageMultiplier { get; }
 SchemaUntypedField ModelName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -116,7 +116,7 @@ SchemaUntypedField ModelName { get; }
 CSkillFloat StomachDamageMultiplier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSkillFloat](/docs/api/shared/schemadefinitions/cskillfloat)
 
@@ -126,7 +126,7 @@ CSkillFloat StomachDamageMultiplier { get; }
 ref float UseAngleTolerance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float UseAngleTolerance { get; }
 ref float UseRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float UseRange { get; }
 ref int WaterSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

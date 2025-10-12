@@ -6,7 +6,7 @@ title: CSceneListManager
 public interface CSceneListManager : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CSceneListManager>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSceneListManager : CLogicalEntity, CServerOnlyEntity, CBaseEnt
 ref CUtlVector<CHandle<CSceneListManager>> ListManagers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CSceneListManager](/docs/api/shared/schemadefinitions/cscenelistmanager)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CHandle<CSceneListManager>> ListManagers { get; }
 string Scenes { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Scenes { get; set; }
 ISchemaFixedArray<CHandle<CBaseEntity>> Scenes1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>>
 

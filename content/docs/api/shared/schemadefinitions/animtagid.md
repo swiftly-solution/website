@@ -6,7 +6,7 @@ title: AnimTagID
 public interface AnimTagID : ISchemaClass<AnimTagID>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AnimTagID : ISchemaClass<AnimTagID>, ISchemaField, ISchemaClass
 ref uint Id { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

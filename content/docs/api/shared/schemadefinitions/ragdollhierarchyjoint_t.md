@@ -6,7 +6,7 @@ title: ragdollhierarchyjoint_t
 public interface ragdollhierarchyjoint_t : ISchemaClass<ragdollhierarchyjoint_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ragdollhierarchyjoint_t : ISchemaClass<ragdollhierarchyjoint_t>
 ref int ChildIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ChildIndex { get; }
 ref int ParentIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CSVCMsg_GameEventList_descriptor_t
 public interface CSVCMsg_GameEventList_descriptor_t : ITypedProtobuf<CSVCMsg_GameEventList_descriptor_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_GameEventList_descriptor_t : ITypedProtobuf<CSVCMsg_Gam
 int Eventid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Eventid { get; set; }
 IProtobufRepeatedFieldSubMessageType<CSVCMsg_GameEventList_key_t> Keys { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSVCMsg_GameEventList_key_t](/docs/api/shared/protobufdefinitions/csvcmsg_gameeventlist_key_t)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CSVCMsg_GameEventList_key_t> Keys { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

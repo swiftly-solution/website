@@ -6,7 +6,7 @@ title: CNavVolumeSphericalShell
 public interface CNavVolumeSphericalShell : CNavVolumeSphere, CNavVolume, ISchemaClass<CNavVolume>, ISchemaClass<CNavVolumeSphere>, ISchemaClass<CNavVolumeSphericalShell>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNavVolumeSphericalShell : CNavVolumeSphere, CNavVolume, ISchem
 ref float RadiusInner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

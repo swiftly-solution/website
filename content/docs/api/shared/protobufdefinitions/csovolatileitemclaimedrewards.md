@@ -6,7 +6,7 @@ title: CSOVolatileItemClaimedRewards
 public interface CSOVolatileItemClaimedRewards : ITypedProtobuf<CSOVolatileItemClaimedRewards>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOVolatileItemClaimedRewards : ITypedProtobuf<CSOVolatileItemC
 uint Defidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Defidx { get; set; }
 IProtobufRepeatedFieldValueType<uint> GenerationTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<uint> GenerationTime { get; }
 IProtobufRepeatedFieldValueType<uint> Reward { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

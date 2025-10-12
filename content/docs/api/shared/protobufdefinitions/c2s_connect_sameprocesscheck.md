@@ -6,7 +6,7 @@ title: C2S_CONNECT_SameProcessCheck
 public interface C2S_CONNECT_SameProcessCheck : ITypedProtobuf<C2S_CONNECT_SameProcessCheck>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C2S_CONNECT_SameProcessCheck : ITypedProtobuf<C2S_CONNECT_SameP
 ulong Key { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Key { get; set; }
 ulong LocalhostProcessId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

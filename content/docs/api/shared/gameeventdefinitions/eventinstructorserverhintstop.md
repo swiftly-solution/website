@@ -6,7 +6,7 @@ title: EventInstructorServerHintStop
 public interface EventInstructorServerHintStop : IGameEvent<EventInstructorServerHintStop>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventInstructorServerHintStop : IGameEvent<EventInstructorServe
 int HintEntindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int HintEntindex { get; set; }
 string HintName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

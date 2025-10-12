@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientNetworkConfig
 public interface CMsgGCCStrike15_v2_ClientNetworkConfig : ITypedProtobuf<CMsgGCCStrike15_v2_ClientNetworkConfig>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientNetworkConfig : ITypedProtobuf<CMsgGCC
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

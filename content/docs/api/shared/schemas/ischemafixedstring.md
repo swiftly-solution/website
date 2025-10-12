@@ -6,7 +6,7 @@ title: ISchemaFixedString
 public interface ISchemaFixedString : ISchemaFixedArray<byte>, ISchemaField, INativeHandle, IFormattable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ISchemaFixedString : ISchemaFixedArray<byte>, ISchemaField, INa
 string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

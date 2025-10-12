@@ -6,7 +6,7 @@ title: C_OP_DecayOffscreen
 public interface C_OP_DecayOffscreen : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_DecayOffscreen>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_DecayOffscreen : CParticleFunctionOperator, CParticleFunct
 CParticleCollectionFloatInput OffscreenTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 

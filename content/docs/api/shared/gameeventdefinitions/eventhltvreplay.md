@@ -6,7 +6,7 @@ title: EventHltvReplay
 public interface EventHltvReplay : IGameEvent<EventHltvReplay>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventHltvReplay : IGameEvent<EventHltvReplay>
 int Delay { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Delay { get; set; }
 int Reason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

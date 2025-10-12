@@ -6,7 +6,7 @@ title: VPhysXBodyPart_t
 public interface VPhysXBodyPart_t : ISchemaClass<VPhysXBodyPart_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VPhysXBodyPart_t : ISchemaClass<VPhysXBodyPart_t>, ISchemaField
 ref float AngularDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AngularDamping { get; }
 ref float AngularDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AngularDrag { get; }
 ref ushort CollisionAttributeIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort CollisionAttributeIndex { get; }
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ ref uint Flags { get; }
 ref float InertiaScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float InertiaScale { get; }
 ref float LinearDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float LinearDamping { get; }
 ref float LinearDrag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float LinearDrag { get; }
 ref float Mass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float Mass { get; }
 ref Vector MassCenterOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -106,7 +106,7 @@ ref Vector MassCenterOverride { get; }
 ref bool OverrideMassCenter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool OverrideMassCenter { get; }
 ref ushort Reserved { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -126,7 +126,7 @@ ref ushort Reserved { get; }
 VPhysics2ShapeDef_t RnShape { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VPhysics2ShapeDef_t](/docs/api/shared/schemadefinitions/vphysics2shapedef_t)
 

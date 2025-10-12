@@ -6,7 +6,7 @@ title: C_OP_RenderModels
 public interface C_OP_RenderModels : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderModels>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderModels : CParticleFunctionRenderer, CParticleFunctio
 ref bool AcceptsDecals { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AcceptsDecals { get; }
 string ActivityName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ActivityName { get; set; }
 ref bool AllowApproximateTransforms { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool AllowApproximateTransforms { get; }
 ParticleAttributeIndex_t Alpha2Field { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -56,7 +56,7 @@ ParticleAttributeIndex_t Alpha2Field { get; }
 CParticleCollectionFloatInput AlphaScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionFloatInput AlphaScale { get; }
 ref bool Animated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool Animated { get; }
 ParticleAttributeIndex_t AnimationField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -86,7 +86,7 @@ ParticleAttributeIndex_t AnimationField { get; }
 CPerParticleFloatInput AnimationRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -96,7 +96,7 @@ CPerParticleFloatInput AnimationRate { get; }
 ParticleAttributeIndex_t AnimationScaleField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -106,7 +106,7 @@ ParticleAttributeIndex_t AnimationScaleField { get; }
 ParticleAttributeIndex_t BodyGroupField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -116,7 +116,7 @@ ParticleAttributeIndex_t BodyGroupField { get; }
 ref bool CenterOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool CenterOffset { get; }
 string ClothEffectName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string ClothEffectName { get; set; }
 ref ParticleColorBlendType_t ColorBlendType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
@@ -146,7 +146,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 CParticleCollectionVecInput ColorScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
@@ -156,7 +156,7 @@ CParticleCollectionVecInput ColorScale { get; }
 CPerParticleVecInput ComponentScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -166,7 +166,7 @@ CPerParticleVecInput ComponentScale { get; }
 ref bool DisableDepthPrepass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool DisableDepthPrepass { get; }
 ref bool DisableShadows { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -186,7 +186,7 @@ ref bool DisableShadows { get; }
 ref bool DoNotDrawInParticlePass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool DoNotDrawInParticlePass { get; }
 string EconSlotName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -206,7 +206,7 @@ string EconSlotName { get; set; }
 ref bool EnableClothSimulation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool EnableClothSimulation { get; }
 ref bool ForceDrawInterlevedWithSiblings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool ForceDrawInterlevedWithSiblings { get; }
 ref bool ForceLoopingAnimation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -236,7 +236,7 @@ ref bool ForceLoopingAnimation { get; }
 ref bool IgnoreNormal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -246,7 +246,7 @@ ref bool IgnoreNormal { get; }
 ref bool IgnoreRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -256,7 +256,7 @@ ref bool IgnoreRadius { get; }
 ref int LOD { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -266,7 +266,7 @@ ref int LOD { get; }
 CPerParticleVecInput LocalOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -276,7 +276,7 @@ CPerParticleVecInput LocalOffset { get; }
 CPerParticleVecInput LocalRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -286,7 +286,7 @@ CPerParticleVecInput LocalRotation { get; }
 ref bool LocalScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -296,7 +296,7 @@ ref bool LocalScale { get; }
 ref bool ManualAnimFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -306,7 +306,7 @@ ref bool ManualAnimFrame { get; }
 ParticleAttributeIndex_t ManualFrameField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -316,7 +316,7 @@ ParticleAttributeIndex_t ManualFrameField { get; }
 CPerParticleFloatInput ManualModelSelection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -326,7 +326,7 @@ CPerParticleFloatInput ManualModelSelection { get; }
 ref CUtlVector MaterialVars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -336,7 +336,7 @@ ref CUtlVector MaterialVars { get; }
 CParticleModelInput ModelInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleModelInput](/docs/api/shared/schemadefinitions/cparticlemodelinput)
 
@@ -346,7 +346,7 @@ CParticleModelInput ModelInput { get; }
 ref CUtlVector ModelList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -356,7 +356,7 @@ ref CUtlVector ModelList { get; }
 ref int ModelScaleCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -366,7 +366,7 @@ ref int ModelScaleCP { get; }
 ref bool OnlyRenderInEffecsGameOverlay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,7 +376,7 @@ ref bool OnlyRenderInEffecsGameOverlay { get; }
 ref bool OnlyRenderInEffectsBloomPass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -386,7 +386,7 @@ ref bool OnlyRenderInEffectsBloomPass { get; }
 ref bool OnlyRenderInEffectsWaterPass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -396,7 +396,7 @@ ref bool OnlyRenderInEffectsWaterPass { get; }
 ref bool OrientZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -406,7 +406,7 @@ ref bool OrientZ { get; }
 ref bool OriginalModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -416,7 +416,7 @@ ref bool OriginalModel { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> OverrideMaterial { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -426,7 +426,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> OverrideMaterial { get; }
 ref bool OverrideTranslucentMaterials { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -436,7 +436,7 @@ ref bool OverrideTranslucentMaterials { get; }
 CParticleCollectionFloatInput RadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -446,7 +446,7 @@ CParticleCollectionFloatInput RadiusScale { get; }
 string RenderAttribute { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -456,7 +456,7 @@ string RenderAttribute { get; set; }
 CPerParticleFloatInput RenderFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -466,7 +466,7 @@ CPerParticleFloatInput RenderFilter { get; }
 ref bool ResetAnimOnStop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -476,7 +476,7 @@ ref bool ResetAnimOnStop { get; }
 CParticleCollectionFloatInput RollScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
@@ -486,7 +486,7 @@ CParticleCollectionFloatInput RollScale { get; }
 ref bool ScaleAnimationRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -496,7 +496,7 @@ ref bool ScaleAnimationRate { get; }
 string SequenceName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -506,7 +506,7 @@ string SequenceName { get; set; }
 ref int SizeCullBloat { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -516,7 +516,7 @@ ref int SizeCullBloat { get; }
 CPerParticleFloatInput Skin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -526,7 +526,7 @@ CPerParticleFloatInput Skin { get; }
 ParticleAttributeIndex_t SubModelField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -536,7 +536,7 @@ ParticleAttributeIndex_t SubModelField { get; }
 ref RenderModelSubModelFieldType_t SubModelFieldType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RenderModelSubModelFieldType_t](/docs/api/shared/schemadefinitions/rendermodelsubmodelfieldtype_t)
 
@@ -546,7 +546,7 @@ ref RenderModelSubModelFieldType_t SubModelFieldType { get; }
 ref bool SuppressTint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -556,7 +556,7 @@ ref bool SuppressTint { get; }
 ref bool UseMixedResolutionRendering { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CWarpSectionAnimTag
 public interface CWarpSectionAnimTag : CWarpSectionAnimTagBase, CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CWarpSectionAnimTagBase>, ISchemaClass<CWarpSectionAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWarpSectionAnimTag : CWarpSectionAnimTagBase, CAnimTagBase, IS
 ref bool WarpOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool WarpOrientation { get; }
 ref bool WarpPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

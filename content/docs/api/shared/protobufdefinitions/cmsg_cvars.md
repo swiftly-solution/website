@@ -6,7 +6,7 @@ title: CMsg_CVars
 public interface CMsg_CVars : ITypedProtobuf<CMsg_CVars>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsg_CVars : ITypedProtobuf<CMsg_CVars>, INativeHandle
 IProtobufRepeatedFieldSubMessageType<CMsg_CVars_CVar> Cvars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsg_CVars_CVar](/docs/api/shared/protobufdefinitions/cmsg_cvars_cvar)>
 

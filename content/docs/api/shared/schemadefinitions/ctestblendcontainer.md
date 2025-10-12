@@ -6,7 +6,7 @@ title: CTestBlendContainer
 public interface CTestBlendContainer : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CTestBlendContainer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTestBlendContainer : CVoiceContainerBase, ISchemaClass<CVoiceC
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> FirstSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>
 
@@ -26,7 +26,7 @@ ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> FirstSound { get; }
 ref CStrongHandle<InfoForResourceTypeCVoiceContainerBase> SecondSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>
 

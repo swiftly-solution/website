@@ -6,7 +6,7 @@ title: CMsgSetItemPositions
 public interface CMsgSetItemPositions : ITypedProtobuf<CMsgSetItemPositions>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSetItemPositions : ITypedProtobuf<CMsgSetItemPositions>, IN
 IProtobufRepeatedFieldSubMessageType<CMsgSetItemPositions_ItemPosition> ItemPositions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSetItemPositions_ItemPosition](/docs/api/shared/protobufdefinitions/cmsgsetitempositions_itemposition)>
 

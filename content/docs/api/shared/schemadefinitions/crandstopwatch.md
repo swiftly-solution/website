@@ -6,7 +6,7 @@ title: CRandStopwatch
 public interface CRandStopwatch : CStopwatchBase, CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>, ISchemaClass<CStopwatchBase>, ISchemaClass<CRandStopwatch>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRandStopwatch : CStopwatchBase, CSimpleSimTimer, ISchemaClass<
 ref float MaxInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float MaxInterval { get; }
 ref float MinInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

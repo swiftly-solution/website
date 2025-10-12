@@ -6,7 +6,7 @@ title: CMsgModifyItemAttribute
 public interface CMsgModifyItemAttribute : ITypedProtobuf<CMsgModifyItemAttribute>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgModifyItemAttribute : ITypedProtobuf<CMsgModifyItemAttribut
 uint AttrDefidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AttrDefidx { get; set; }
 uint AttrValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint AttrValue { get; set; }
 ulong ItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

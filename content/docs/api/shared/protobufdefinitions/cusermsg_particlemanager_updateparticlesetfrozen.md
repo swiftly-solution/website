@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_UpdateParticleSetFrozen
 public interface CUserMsg_ParticleManager_UpdateParticleSetFrozen : ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticleSetFrozen>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleSetFrozen : ITypedProtob
 bool SetFrozen { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool SetFrozen { get; set; }
 float TransitionDuration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

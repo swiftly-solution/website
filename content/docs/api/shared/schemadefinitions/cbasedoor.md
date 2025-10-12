@@ -6,7 +6,7 @@ title: CBaseDoor
 public interface CBaseDoor : CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseDoor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseDoor : CBaseToggle, CBaseModelEntity, CBaseEntity, CEntity
 ref float BlockDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BlockDamage { get; }
 string ChainTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ChainTarget { get; set; }
 ref bool CreateNavObstacle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool CreateNavObstacle { get; }
 ref bool DoorGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool DoorGroup { get; }
 ref bool ForceClosed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool ForceClosed { get; }
 ref bool IgnoreDebris { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool IgnoreDebris { get; }
 ref bool IsChaining { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool IsChaining { get; }
 ref bool IsUsable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool IsUsable { get; }
 ref bool Locked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool Locked { get; }
 ref bool LoopMoveSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool LoopMoveSound { get; }
 locksound_t Ls { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [locksound_t](/docs/api/shared/schemadefinitions/locksound_t)
 
@@ -126,7 +126,7 @@ locksound_t Ls { get; }
 ref Vector MoveDirParentSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -136,7 +136,7 @@ ref Vector MoveDirParentSpace { get; }
 ref QAngle MoveEntitySpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -146,7 +146,7 @@ ref QAngle MoveEntitySpace { get; }
 ref bool NoNPCs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool NoNPCs { get; }
 string NoiseArrived { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -166,7 +166,7 @@ string NoiseArrived { get; set; }
 string NoiseArrivedClosed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -176,7 +176,7 @@ string NoiseArrivedClosed { get; set; }
 string NoiseMoving { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -186,7 +186,7 @@ string NoiseMoving { get; set; }
 string NoiseMovingClosed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -196,7 +196,7 @@ string NoiseMovingClosed { get; set; }
 CEntityIOOutput OnBlockedClosing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -206,7 +206,7 @@ CEntityIOOutput OnBlockedClosing { get; }
 CEntityIOOutput OnBlockedOpening { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -216,7 +216,7 @@ CEntityIOOutput OnBlockedOpening { get; }
 CEntityIOOutput OnClose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -226,7 +226,7 @@ CEntityIOOutput OnClose { get; }
 CEntityIOOutput OnFullyClosed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -236,7 +236,7 @@ CEntityIOOutput OnFullyClosed { get; }
 CEntityIOOutput OnFullyOpen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -246,7 +246,7 @@ CEntityIOOutput OnFullyOpen { get; }
 CEntityIOOutput OnLockedUse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -256,7 +256,7 @@ CEntityIOOutput OnLockedUse { get; }
 CEntityIOOutput OnOpen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -266,7 +266,7 @@ CEntityIOOutput OnOpen { get; }
 CEntityIOOutput OnUnblockedClosing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -276,7 +276,7 @@ CEntityIOOutput OnUnblockedClosing { get; }
 CEntityIOOutput OnUnblockedOpening { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -286,7 +286,7 @@ CEntityIOOutput OnUnblockedOpening { get; }
 ref FuncDoorSpawnPos_t SpawnPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FuncDoorSpawnPos_t](/docs/api/shared/schemadefinitions/funcdoorspawnpos_t)
 

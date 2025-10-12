@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_ClientDeepStats
 public interface CMsgGCCStrike15_ClientDeepStats : ITypedProtobuf<CMsgGCCStrike15_ClientDeepStats>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_ClientDeepStats : ITypedProtobuf<CMsgGCCStrike1
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch> Matches { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch](/docs/api/shared/protobufdefinitions/cmsggccstrike15_clientdeepstats_deepstatsmatch)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_ClientDeepStats_DeepStatsMa
 CMsgGCCStrike15_ClientDeepStats_DeepStatsRange Range { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_ClientDeepStats_DeepStatsRange](/docs/api/shared/protobufdefinitions/cmsggccstrike15_clientdeepstats_deepstatsrange)
 

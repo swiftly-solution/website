@@ -6,7 +6,7 @@ title: CCSBot
 public interface CCSBot : CBot, ISchemaClass<CBot>, ISchemaClass<CCSBot>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSBot : CBot, ISchemaClass<CBot>, ISchemaClass<CCSBot>, ISchem
 ref QAngle AimError { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ ref QAngle AimError { get; }
 ref float AimFocus { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AimFocus { get; }
 ref float AimFocusInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float AimFocusInterval { get; }
 GameTime_t AimFocusNextUpdate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -56,7 +56,7 @@ GameTime_t AimFocusNextUpdate { get; }
 ref QAngle AimGoal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -66,7 +66,7 @@ ref QAngle AimGoal { get; }
 CountdownTimer AlertTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -76,7 +76,7 @@ CountdownTimer AlertTimer { get; }
 ref bool AllowActive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool AllowActive { get; }
 ref float AllowAutoFollowTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float AllowAutoFollowTime { get; }
 ref byte ApproachPointCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -106,7 +106,7 @@ ref byte ApproachPointCount { get; }
 ref Vector ApproachPointViewPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -116,7 +116,7 @@ ref Vector ApproachPointViewPosition { get; }
 GameTime_t AreaEnteredTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -126,7 +126,7 @@ GameTime_t AreaEnteredTimestamp { get; }
 ref float AttackedTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float AttackedTimestamp { get; }
 ref CHandle<CCSPlayerPawn> Attacker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -146,7 +146,7 @@ ref CHandle<CCSPlayerPawn> Attacker { get; }
 IntervalTimer AttentionInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IntervalTimer](/docs/api/shared/schemadefinitions/intervaltimer)
 
@@ -156,7 +156,7 @@ IntervalTimer AttentionInterval { get; }
 ISchemaFixedArray<float> AvgVel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -166,7 +166,7 @@ ISchemaFixedArray<float> AvgVel { get; }
 ref int AvgVelCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -176,7 +176,7 @@ ref int AvgVelCount { get; }
 ref int AvgVelIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int AvgVelIndex { get; }
 ref CHandle<CBaseEntity> Avoid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -196,7 +196,7 @@ ref CHandle<CBaseEntity> Avoid { get; }
 CountdownTimer AvoidFriendTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -206,7 +206,7 @@ CountdownTimer AvoidFriendTimer { get; }
 ref float AvoidTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float AvoidTimestamp { get; }
 ref bool BendNoisePositionValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool BendNoisePositionValid { get; }
 ref Vector BentNoisePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -236,7 +236,7 @@ ref Vector BentNoisePosition { get; }
 ref bool BlindFire { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -246,7 +246,7 @@ ref bool BlindFire { get; }
 ref CHandle<CCSPlayerPawn> Bomber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -256,7 +256,7 @@ ref CHandle<CCSPlayerPawn> Bomber { get; }
 IntervalTimer BurnedByFlamesTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IntervalTimer](/docs/api/shared/schemadefinitions/intervaltimer)
 
@@ -266,7 +266,7 @@ IntervalTimer BurnedByFlamesTimer { get; }
 ref int CheckedHidingSpotCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -276,7 +276,7 @@ ref int CheckedHidingSpotCount { get; }
 ref CHandle<CCSPlayerPawn> ClosestVisibleFriend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -286,7 +286,7 @@ ref CHandle<CCSPlayerPawn> ClosestVisibleFriend { get; }
 ref CHandle<CCSPlayerPawn> ClosestVisibleHumanFriend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -296,7 +296,7 @@ ref CHandle<CCSPlayerPawn> ClosestVisibleHumanFriend { get; }
 ref float CombatRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -306,7 +306,7 @@ ref float CombatRange { get; }
 ref float CurrentEnemyAcquireTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -316,7 +316,7 @@ ref float CurrentEnemyAcquireTimestamp { get; }
 ref int DesiredTeam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -326,7 +326,7 @@ ref int DesiredTeam { get; }
 ref bool DiedLastRound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -336,7 +336,7 @@ ref bool DiedLastRound { get; }
 ref CHandle<CCSPlayerPawn> Enemy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -346,7 +346,7 @@ ref CHandle<CCSPlayerPawn> Enemy { get; }
 ref float EnemyDeathTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -356,7 +356,7 @@ ref float EnemyDeathTimestamp { get; }
 ref byte EnemyQueueAttendIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -366,7 +366,7 @@ ref byte EnemyQueueAttendIndex { get; }
 ref byte EnemyQueueCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -376,7 +376,7 @@ ref byte EnemyQueueCount { get; }
 ref byte EnemyQueueIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -386,7 +386,7 @@ ref byte EnemyQueueIndex { get; }
 IntervalTimer EquipTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IntervalTimer](/docs/api/shared/schemadefinitions/intervaltimer)
 
@@ -396,7 +396,7 @@ IntervalTimer EquipTimer { get; }
 ref bool EyeAnglesUnderPathFinderControl { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -406,7 +406,7 @@ ref bool EyeAnglesUnderPathFinderControl { get; }
 ref Vector EyePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -416,7 +416,7 @@ ref Vector EyePosition { get; }
 GameTime_t FireWeaponTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -426,7 +426,7 @@ GameTime_t FireWeaponTimestamp { get; }
 ref float FirstSawEnemyTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -436,7 +436,7 @@ ref float FirstSawEnemyTimestamp { get; }
 ref float FollowTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -446,7 +446,7 @@ ref float FollowTimestamp { get; }
 ref float ForwardAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -456,7 +456,7 @@ ref float ForwardAngle { get; }
 ref float FriendDeathTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -466,7 +466,7 @@ ref float FriendDeathTimestamp { get; }
 ref CHandle<CBaseEntity> GoalEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -476,7 +476,7 @@ ref CHandle<CBaseEntity> GoalEntity { get; }
 ref Vector GoalPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -486,7 +486,7 @@ ref Vector GoalPosition { get; }
 ref bool HasJoined { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -496,7 +496,7 @@ ref bool HasJoined { get; }
 ref bool HasVisitedEnemySpawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -506,7 +506,7 @@ ref bool HasVisitedEnemySpawn { get; }
 ref byte HostageEscortCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -516,7 +516,7 @@ ref byte HostageEscortCount { get; }
 ref float HostageEscortCountTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -526,7 +526,7 @@ ref float HostageEscortCountTimestamp { get; }
 CountdownTimer HurryTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -536,7 +536,7 @@ CountdownTimer HurryTimer { get; }
 CountdownTimer IgnoreEnemiesTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -546,7 +546,7 @@ CountdownTimer IgnoreEnemiesTimer { get; }
 ref float InhibitLookAroundTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -556,7 +556,7 @@ ref float InhibitLookAroundTimestamp { get; }
 CountdownTimer InhibitWaitingForHostageTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -566,7 +566,7 @@ CountdownTimer InhibitWaitingForHostageTimer { get; }
 ref bool IsAimingAtEnemy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -576,7 +576,7 @@ ref bool IsAimingAtEnemy { get; }
 ref bool IsAttacking { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -586,7 +586,7 @@ ref bool IsAttacking { get; }
 CountdownTimer IsAvoidingGrenade { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -596,7 +596,7 @@ CountdownTimer IsAvoidingGrenade { get; }
 ref bool IsEnemySniperVisible { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -606,7 +606,7 @@ ref bool IsEnemySniperVisible { get; }
 ref bool IsEnemyVisible { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -616,7 +616,7 @@ ref bool IsEnemyVisible { get; }
 ref bool IsFollowing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -626,7 +626,7 @@ ref bool IsFollowing { get; }
 ref bool IsFriendInTheWay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -636,7 +636,7 @@ ref bool IsFriendInTheWay { get; }
 ref bool IsLastEnemyDead { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -646,7 +646,7 @@ ref bool IsLastEnemyDead { get; }
 ref bool IsOpeningDoor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -656,7 +656,7 @@ ref bool IsOpeningDoor { get; }
 ref bool IsRapidFiring { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -666,7 +666,7 @@ ref bool IsRapidFiring { get; }
 ref bool IsRogue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -676,7 +676,7 @@ ref bool IsRogue { get; }
 ref bool IsSleeping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -686,7 +686,7 @@ ref bool IsSleeping { get; }
 ref bool IsStopping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -696,7 +696,7 @@ ref bool IsStopping { get; }
 ref bool IsStuck { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -706,7 +706,7 @@ ref bool IsStuck { get; }
 ref bool IsWaitingBehindFriend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -716,7 +716,7 @@ ref bool IsWaitingBehindFriend { get; }
 ref bool IsWaitingForHostage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -726,7 +726,7 @@ ref bool IsWaitingForHostage { get; }
 ref Vector LastEnemyPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -736,7 +736,7 @@ ref Vector LastEnemyPosition { get; }
 ref Vector LastOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -746,7 +746,7 @@ ref Vector LastOrigin { get; }
 ref float LastRadioRecievedTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -756,7 +756,7 @@ ref float LastRadioRecievedTimestamp { get; }
 ref float LastRadioSentTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -766,7 +766,7 @@ ref float LastRadioSentTimestamp { get; }
 ref float LastSawEnemyTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -776,7 +776,7 @@ ref float LastSawEnemyTimestamp { get; }
 ref int LastValidReactionQueueFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -786,7 +786,7 @@ ref int LastValidReactionQueueFrame { get; }
 ref int LastVictimID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -796,7 +796,7 @@ ref int LastVictimID { get; }
 ref CHandle<CCSPlayerPawn> Leader { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -806,7 +806,7 @@ ref CHandle<CCSPlayerPawn> Leader { get; }
 ref float LookAheadAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -816,7 +816,7 @@ ref float LookAheadAngle { get; }
 ref float LookAroundStateTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -826,7 +826,7 @@ ref float LookAroundStateTimestamp { get; }
 string LookAtDesc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -836,7 +836,7 @@ string LookAtDesc { get; set; }
 ref Vector LookAtSpot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -846,7 +846,7 @@ ref Vector LookAtSpot { get; }
 ref float LookAtSpotAngleTolerance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -856,7 +856,7 @@ ref float LookAtSpotAngleTolerance { get; }
 ref bool LookAtSpotAttack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -866,7 +866,7 @@ ref bool LookAtSpotAttack { get; }
 ref bool LookAtSpotClearIfClose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -876,7 +876,7 @@ ref bool LookAtSpotClearIfClose { get; }
 ref float LookAtSpotDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -886,7 +886,7 @@ ref float LookAtSpotDuration { get; }
 ref float LookAtSpotTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -896,7 +896,7 @@ ref float LookAtSpotTimestamp { get; }
 CountdownTimer LookForWeaponsOnGroundTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -906,7 +906,7 @@ CountdownTimer LookForWeaponsOnGroundTimer { get; }
 ref float LookPitch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -916,7 +916,7 @@ ref float LookPitch { get; }
 ref float LookPitchVel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -926,7 +926,7 @@ ref float LookPitchVel { get; }
 ref float LookYaw { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -936,7 +936,7 @@ ref float LookYaw { get; }
 ref float LookYawVel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -946,7 +946,7 @@ ref float LookYawVel { get; }
 CountdownTimer MustRunTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -956,7 +956,7 @@ CountdownTimer MustRunTimer { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -966,7 +966,7 @@ string Name { get; set; }
 ref int NearbyEnemyCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -976,7 +976,7 @@ ref int NearbyEnemyCount { get; }
 ref int NearbyFriendCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -986,7 +986,7 @@ ref int NearbyFriendCount { get; }
 GameTime_t NextCleanupCheckTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -996,7 +996,7 @@ GameTime_t NextCleanupCheckTimestamp { get; }
 CountdownTimer NoiseBendTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1006,7 +1006,7 @@ CountdownTimer NoiseBendTimer { get; }
 ref Vector NoisePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -1016,7 +1016,7 @@ ref Vector NoisePosition { get; }
 CCSPlayerPawn? NoiseSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)?
 
@@ -1026,7 +1026,7 @@ CCSPlayerPawn? NoiseSource { get; }
 ref float NoiseTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1036,7 +1036,7 @@ ref float NoiseTimestamp { get; }
 ref float NoiseTravelDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1046,7 +1046,7 @@ ref float NoiseTravelDistance { get; }
 CountdownTimer PanicTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1056,7 +1056,7 @@ CountdownTimer PanicTimer { get; }
 ref int PathIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -1066,7 +1066,7 @@ ref int PathIndex { get; }
 ref float PathLadderEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1076,7 +1076,7 @@ ref float PathLadderEnd { get; }
 ref float PeripheralTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1086,7 +1086,7 @@ ref float PeripheralTimestamp { get; }
 ISchemaFixedArray<float> PlayerTravelDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -1096,7 +1096,7 @@ ISchemaFixedArray<float> PlayerTravelDistance { get; }
 CountdownTimer PoliteTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1106,7 +1106,7 @@ CountdownTimer PoliteTimer { get; }
 ref Vector RadioPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -1116,7 +1116,7 @@ ref Vector RadioPosition { get; }
 ref CHandle<CCSPlayerPawn> RadioSubject { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -1126,7 +1126,7 @@ ref CHandle<CCSPlayerPawn> RadioSubject { get; }
 CountdownTimer RepathTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1136,7 +1136,7 @@ CountdownTimer RepathTimer { get; }
 CountdownTimer RogueTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1146,7 +1146,7 @@ CountdownTimer RogueTimer { get; }
 ref float SafeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1156,7 +1156,7 @@ ref float SafeTime { get; }
 CountdownTimer SawEnemySniperTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1166,7 +1166,7 @@ CountdownTimer SawEnemySniperTimer { get; }
 CountdownTimer SneakTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1176,7 +1176,7 @@ CountdownTimer SneakTimer { get; }
 ref float SpotCheckTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1186,7 +1186,7 @@ ref float SpotCheckTimestamp { get; }
 ref float StateTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1196,7 +1196,7 @@ ref float StateTimestamp { get; }
 IntervalTimer StillTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IntervalTimer](/docs/api/shared/schemadefinitions/intervaltimer)
 
@@ -1206,7 +1206,7 @@ IntervalTimer StillTimer { get; }
 CountdownTimer StuckJumpTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1216,7 +1216,7 @@ CountdownTimer StuckJumpTimer { get; }
 ref Vector StuckSpot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -1226,7 +1226,7 @@ ref Vector StuckSpot { get; }
 GameTime_t StuckTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -1236,7 +1236,7 @@ GameTime_t StuckTimestamp { get; }
 CountdownTimer SurpriseTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1246,7 +1246,7 @@ CountdownTimer SurpriseTimer { get; }
 ref Vector TargetSpot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -1256,7 +1256,7 @@ ref Vector TargetSpot { get; }
 ref Vector TargetSpotPredicted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -1266,7 +1266,7 @@ ref Vector TargetSpotPredicted { get; }
 GameTime_t TargetSpotTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -1276,7 +1276,7 @@ GameTime_t TargetSpotTime { get; }
 ref Vector TargetSpotVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -1286,7 +1286,7 @@ ref Vector TargetSpotVelocity { get; }
 ref CHandle<CBaseEntity> TaskEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -1296,7 +1296,7 @@ ref CHandle<CBaseEntity> TaskEntity { get; }
 CountdownTimer TossGrenadeTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1306,7 +1306,7 @@ CountdownTimer TossGrenadeTimer { get; }
 ref byte TravelDistancePhase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -1316,7 +1316,7 @@ ref byte TravelDistancePhase { get; }
 CountdownTimer UpdateTravelDistanceTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1326,7 +1326,7 @@ CountdownTimer UpdateTravelDistanceTimer { get; }
 IntervalTimer ViewSteadyTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IntervalTimer](/docs/api/shared/schemadefinitions/intervaltimer)
 
@@ -1336,7 +1336,7 @@ IntervalTimer ViewSteadyTimer { get; }
 ref byte VisibleEnemyParts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -1346,7 +1346,7 @@ ref byte VisibleEnemyParts { get; }
 ref float VoiceEndTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -1356,7 +1356,7 @@ ref float VoiceEndTimestamp { get; }
 CountdownTimer WaitForHostageTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1366,7 +1366,7 @@ CountdownTimer WaitForHostageTimer { get; }
 CountdownTimer WaitTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1376,7 +1376,7 @@ CountdownTimer WaitTimer { get; }
 ref bool WasSafe { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -1386,7 +1386,7 @@ ref bool WasSafe { get; }
 CountdownTimer WiggleTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -1396,7 +1396,7 @@ CountdownTimer WiggleTimer { get; }
 CountdownTimer ZoomTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 

@@ -6,7 +6,7 @@ title: CAttributeManager__cached_attribute_float_t
 public interface CAttributeManager__cached_attribute_float_t : ISchemaClass<CAttributeManager__cached_attribute_float_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAttributeManager__cached_attribute_float_t : ISchemaClass<CAtt
 string AttribHook { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AttribHook { get; set; }
 ref float In { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float In { get; }
 ref float Out { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: C_OP_RenderStatusEffect
 public interface C_OP_RenderStatusEffect : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderStatusEffect>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderStatusEffect : CParticleFunctionRenderer, CParticleF
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureColorWarp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -26,7 +26,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureColorWarp { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDetail2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -36,7 +36,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDetail2 { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDiffuseWarp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -46,7 +46,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDiffuseWarp { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureEnvMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -56,7 +56,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureEnvMap { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureFresnelColorWarp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -66,7 +66,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureFresnelColorWarp { get
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureFresnelWarp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -76,7 +76,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureFresnelWarp { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureSpecularWarp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 

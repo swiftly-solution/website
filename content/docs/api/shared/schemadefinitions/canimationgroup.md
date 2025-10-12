@@ -6,7 +6,7 @@ title: CAnimationGroup
 public interface CAnimationGroup : ISchemaClass<CAnimationGroup>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimationGroup : ISchemaClass<CAnimationGroup>, ISchemaField, 
 ref CUtlVector AdditionalExtRefs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector AdditionalExtRefs { get; }
 CAnimKeyData DecodeKey { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimKeyData](/docs/api/shared/schemadefinitions/canimkeydata)
 
@@ -36,7 +36,7 @@ CAnimKeyData DecodeKey { get; }
 ref CStrongHandle<InfoForResourceTypeCSequenceGroupData> DirectHSeqGroup_Handle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCSequenceGroupData](/docs/api/shared/schemadefinitions/infoforresourcetypecsequencegroupdata)>
 
@@ -46,7 +46,7 @@ ref CStrongHandle<InfoForResourceTypeCSequenceGroupData> DirectHSeqGroup_Handle 
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ ref uint Flags { get; }
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>> IncludedGroupArray_Handle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCAnimationGroup](/docs/api/shared/schemadefinitions/infoforresourcetypecanimationgroup)>>
 
@@ -66,7 +66,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimationGroup>> IncludedGroupA
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimData>> LocalHAnimArray_Handle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCAnimData](/docs/api/shared/schemadefinitions/infoforresourcetypecanimdata)>>
 
@@ -76,7 +76,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCAnimData>> LocalHAnimArray_Hand
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -86,7 +86,7 @@ ref CBufferString Name { get; }
 ref CUtlVector<CBufferString> Scripts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
 

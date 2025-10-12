@@ -6,7 +6,7 @@ title: CNmRootMotionOverrideNode__CDefinition
 public interface CNmRootMotionOverrideNode__CDefinition : CNmPassthroughNode__CDefinition, CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmPassthroughNode__CDefinition>, ISchemaClass<CNmRootMotionOverrideNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmRootMotionOverrideNode__CDefinition : CNmPassthroughNode__CD
 ref short AngularVelocityLimitNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short AngularVelocityLimitNodeIdx { get; }
 ref short DesiredFacingDirectionNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short DesiredFacingDirectionNodeIdx { get; }
 ref short DesiredMovingVelocityNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ ref short DesiredMovingVelocityNodeIdx { get; }
 ref short LinearVelocityLimitNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ ref short LinearVelocityLimitNodeIdx { get; }
 ref float MaxAngularVelocityRadians { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MaxAngularVelocityRadians { get; }
 ref float MaxLinearVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float MaxLinearVelocity { get; }
 CNmBitFlags OverrideFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmBitFlags](/docs/api/shared/schemadefinitions/cnmbitflags)
 

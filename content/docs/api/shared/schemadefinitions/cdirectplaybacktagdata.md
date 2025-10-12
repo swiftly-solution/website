@@ -6,7 +6,7 @@ title: CDirectPlaybackTagData
 public interface CDirectPlaybackTagData : ISchemaClass<CDirectPlaybackTagData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDirectPlaybackTagData : ISchemaClass<CDirectPlaybackTagData>, 
 string SequenceName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string SequenceName { get; set; }
 ref CUtlVector Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

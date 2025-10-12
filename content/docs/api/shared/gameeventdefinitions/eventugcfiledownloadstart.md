@@ -6,7 +6,7 @@ title: EventUgcFileDownloadStart
 public interface EventUgcFileDownloadStart : IGameEvent<EventUgcFileDownloadStart>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventUgcFileDownloadStart : IGameEvent<EventUgcFileDownloadStar
 ulong HContent { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong HContent { get; set; }
 ulong PublishedFileId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,7 +6,7 @@ title: C_INIT_InitFromParentKilled
 public interface C_INIT_InitFromParentKilled : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_InitFromParentKilled>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_InitFromParentKilled : CParticleFunctionInitializer, CPa
 ParticleAttributeIndex_t AttributeToCopy { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -26,7 +26,7 @@ ParticleAttributeIndex_t AttributeToCopy { get; }
 ref EventTypeSelection_t EventType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EventTypeSelection_t](/docs/api/shared/schemadefinitions/eventtypeselection_t)
 

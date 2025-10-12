@@ -6,7 +6,7 @@ title: TwoBoneIKSettings_t
 public interface TwoBoneIKSettings_t : ISchemaClass<TwoBoneIKSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface TwoBoneIKSettings_t : ISchemaClass<TwoBoneIKSettings_t>, ISchem
 ref bool AlwaysUseFallbackHinge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AlwaysUseFallbackHinge { get; }
 ref bool ConstrainTwist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ConstrainTwist { get; }
 ref int EndBoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int EndBoneIndex { get; }
 CAnimAttachment EndEffectorAttachment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimAttachment](/docs/api/shared/schemadefinitions/canimattachment)
 
@@ -56,7 +56,7 @@ CAnimAttachment EndEffectorAttachment { get; }
 ref IkEndEffectorType EndEffectorType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IkEndEffectorType](/docs/api/shared/schemadefinitions/ikendeffectortype)
 
@@ -66,7 +66,7 @@ ref IkEndEffectorType EndEffectorType { get; }
 ref int FixedBoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int FixedBoneIndex { get; }
 ref Vector LsFallbackHingeAxis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector LsFallbackHingeAxis { get; }
 ref bool MatchTargetOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool MatchTargetOrientation { get; }
 ref float MaxTwist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float MaxTwist { get; }
 ref int MiddleBoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int MiddleBoneIndex { get; }
 CAnimParamHandle PositionParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -126,7 +126,7 @@ CAnimParamHandle PositionParam { get; }
 CAnimParamHandle RotationParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -136,7 +136,7 @@ CAnimParamHandle RotationParam { get; }
 CAnimAttachment TargetAttachment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimAttachment](/docs/api/shared/schemadefinitions/canimattachment)
 
@@ -146,7 +146,7 @@ CAnimAttachment TargetAttachment { get; }
 ref int TargetBoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int TargetBoneIndex { get; }
 ref IkTargetType TargetType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IkTargetType](/docs/api/shared/schemadefinitions/iktargettype)
 

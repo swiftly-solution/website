@@ -6,7 +6,7 @@ title: TraceSettings_t
 public interface TraceSettings_t : ISchemaClass<TraceSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface TraceSettings_t : ISchemaClass<TraceSettings_t>, ISchemaField, 
 ref float TraceHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float TraceHeight { get; }
 ref float TraceRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

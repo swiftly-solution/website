@@ -14,7 +14,7 @@ public interface IOnClientProcessUsercmdsEvent
 float Margin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -24,7 +24,7 @@ float Margin { get; }
 bool Paused { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -34,7 +34,7 @@ bool Paused { get; }
 int PlayerId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -44,7 +44,7 @@ int PlayerId { get; }
 List<CSGOUserCmdPB> Usercmds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[CSGOUserCmdPB](/docs/api/shared/protobufdefinitions/csgousercmdpb)>
 

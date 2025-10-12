@@ -6,7 +6,7 @@ title: EventSurvivalParadropBreak
 public interface EventSurvivalParadropBreak : IGameEvent<EventSurvivalParadropBreak>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventSurvivalParadropBreak : IGameEvent<EventSurvivalParadropBr
 short EntityID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

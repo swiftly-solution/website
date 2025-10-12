@@ -6,7 +6,7 @@ title: MLRoundState
 public interface MLRoundState : ITypedProtobuf<MLRoundState>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MLRoundState : ITypedProtobuf<MLRoundState>, INativeHandle
 string BombState { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string BombState { get; set; }
 string Phase { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Phase { get; set; }
 ETeam WinTeam { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ETeam](/docs/api/shared/protobufdefinitions/eteam)
 

@@ -6,7 +6,7 @@ title: CFootCycleMetricEvaluator
 public interface CFootCycleMetricEvaluator : CMotionMetricEvaluator, ISchemaClass<CMotionMetricEvaluator>, ISchemaClass<CFootCycleMetricEvaluator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFootCycleMetricEvaluator : CMotionMetricEvaluator, ISchemaClas
 ref CUtlVector<int> FootIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

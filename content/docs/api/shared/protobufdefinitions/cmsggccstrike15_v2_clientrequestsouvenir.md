@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientRequestSouvenir
 public interface CMsgGCCStrike15_v2_ClientRequestSouvenir : ITypedProtobuf<CMsgGCCStrike15_v2_ClientRequestSouvenir>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientRequestSouvenir : ITypedProtobuf<CMsgG
 int Eventid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Eventid { get; set; }
 ulong Itemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong Itemid { get; set; }
 ulong Matchid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

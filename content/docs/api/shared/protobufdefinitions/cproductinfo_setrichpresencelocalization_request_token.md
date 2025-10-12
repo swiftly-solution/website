@@ -6,7 +6,7 @@ title: CProductInfo_SetRichPresenceLocalization_Request_Token
 public interface CProductInfo_SetRichPresenceLocalization_Request_Token : ITypedProtobuf<CProductInfo_SetRichPresenceLocalization_Request_Token>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CProductInfo_SetRichPresenceLocalization_Request_Token : ITyped
 string Token { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Token { get; set; }
 string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

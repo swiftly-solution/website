@@ -6,7 +6,7 @@ title: VPhysXJoint_t
 public interface VPhysXJoint_t : ISchemaClass<VPhysXJoint_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VPhysXJoint_t : ISchemaClass<VPhysXJoint_t>, ISchemaField, ISch
 ref float AngularDampingRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AngularDampingRatio { get; }
 ref float AngularFrequency { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AngularFrequency { get; }
 ref Vector AngularTargetVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector AngularTargetVelocity { get; }
 ref ushort Body1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -56,7 +56,7 @@ ref ushort Body1 { get; }
 ref ushort Body2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -66,7 +66,7 @@ ref ushort Body2 { get; }
 ref float ElasticDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float ElasticDamping { get; }
 ref float Elasticity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float Elasticity { get; }
 ref bool EnableAngularMotor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool EnableAngularMotor { get; }
 ref bool EnableCollision { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool EnableCollision { get; }
 ref bool EnableLinearLimit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool EnableLinearLimit { get; }
 ref bool EnableLinearMotor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool EnableLinearMotor { get; }
 ref bool EnableSwingLimit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool EnableSwingLimit { get; }
 ref bool EnableTwistLimit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool EnableTwistLimit { get; }
 ref ushort Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -156,7 +156,7 @@ ref ushort Flags { get; }
 ref CTransform Frame1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -166,7 +166,7 @@ ref CTransform Frame1 { get; }
 ref CTransform Frame2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -176,7 +176,7 @@ ref CTransform Frame2 { get; }
 ref float Friction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float Friction { get; }
 ref bool IsAngularConstraintDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool IsAngularConstraintDisabled { get; }
 ref bool IsLinearConstraintDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool IsLinearConstraintDisabled { get; }
 ref float LinearDampingRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -216,7 +216,7 @@ ref float LinearDampingRatio { get; }
 ref float LinearFrequency { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -226,7 +226,7 @@ ref float LinearFrequency { get; }
 VPhysXRange_t LinearLimit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VPhysXRange_t](/docs/api/shared/schemadefinitions/vphysxrange_t)
 
@@ -236,7 +236,7 @@ VPhysXRange_t LinearLimit { get; }
 ref Vector LinearTargetVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -246,7 +246,7 @@ ref Vector LinearTargetVelocity { get; }
 ref float MaxForce { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -256,7 +256,7 @@ ref float MaxForce { get; }
 ref float MaxTorque { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -266,7 +266,7 @@ ref float MaxTorque { get; }
 ref float Plasticity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -276,7 +276,7 @@ ref float Plasticity { get; }
 VPhysXRange_t SwingLimit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VPhysXRange_t](/docs/api/shared/schemadefinitions/vphysxrange_t)
 
@@ -286,7 +286,7 @@ VPhysXRange_t SwingLimit { get; }
 string Tag { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -296,7 +296,7 @@ string Tag { get; set; }
 VPhysXRange_t TwistLimit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VPhysXRange_t](/docs/api/shared/schemadefinitions/vphysxrange_t)
 
@@ -306,7 +306,7 @@ VPhysXRange_t TwistLimit { get; }
 ref ushort Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

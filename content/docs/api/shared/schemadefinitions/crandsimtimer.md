@@ -6,7 +6,7 @@ title: CRandSimTimer
 public interface CRandSimTimer : CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>, ISchemaClass<CRandSimTimer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRandSimTimer : CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>,
 ref float MaxInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float MaxInterval { get; }
 ref float MinInterval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

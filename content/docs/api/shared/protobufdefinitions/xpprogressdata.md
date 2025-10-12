@@ -6,7 +6,7 @@ title: XpProgressData
 public interface XpProgressData : ITypedProtobuf<XpProgressData>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface XpProgressData : ITypedProtobuf<XpProgressData>, INativeHandle
 int XpCategory { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int XpCategory { get; set; }
 uint XpPoints { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

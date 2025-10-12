@@ -6,7 +6,7 @@ title: CPulseGraphDef
 public interface CPulseGraphDef : ISchemaClass<CPulseGraphDef>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseGraphDef : ISchemaClass<CPulseGraphDef>, ISchemaField, IS
 ref CUtlVector BlackboardReferences { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector BlackboardReferences { get; }
 ref CUtlVector<PointerTo<CPulse_CallInfo>> CallInfos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CPulse_CallInfo](/docs/api/shared/schemadefinitions/cpulse_callinfo)>>
 
@@ -36,7 +36,7 @@ ref CUtlVector<PointerTo<CPulse_CallInfo>> CallInfos { get; }
 ref CUtlVector<PointerTo<CPulseCell_Base>> Cells { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CPulseCell_Base](/docs/api/shared/schemadefinitions/cpulsecell_base)>>
 
@@ -46,7 +46,7 @@ ref CUtlVector<PointerTo<CPulseCell_Base>> Cells { get; }
 ref CUtlVector<PointerTo<CPulse_Chunk>> Chunks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CPulse_Chunk](/docs/api/shared/schemadefinitions/cpulse_chunk)>>
 
@@ -56,7 +56,7 @@ ref CUtlVector<PointerTo<CPulse_Chunk>> Chunks { get; }
 ref CUtlVector Constants { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector Constants { get; }
 SchemaUntypedField DomainIdentifier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -76,7 +76,7 @@ SchemaUntypedField DomainIdentifier { get; }
 SchemaUntypedField DomainSubType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -86,7 +86,7 @@ SchemaUntypedField DomainSubType { get; }
 ref CUtlVector DomainValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -96,7 +96,7 @@ ref CUtlVector DomainValues { get; }
 ref CUtlVector<PointerTo<CPulse_InvokeBinding>> InvokeBindings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CPulse_InvokeBinding](/docs/api/shared/schemadefinitions/cpulse_invokebinding)>>
 
@@ -106,7 +106,7 @@ ref CUtlVector<PointerTo<CPulse_InvokeBinding>> InvokeBindings { get; }
 ref CUtlVector<PointerTo<CPulse_OutputConnection>> OutputConnections { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CPulse_OutputConnection](/docs/api/shared/schemadefinitions/cpulse_outputconnection)>>
 
@@ -116,7 +116,7 @@ ref CUtlVector<PointerTo<CPulse_OutputConnection>> OutputConnections { get; }
 SchemaUntypedField ParentMapName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -126,7 +126,7 @@ SchemaUntypedField ParentMapName { get; }
 SchemaUntypedField ParentXmlName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -136,7 +136,7 @@ SchemaUntypedField ParentXmlName { get; }
 ref CUtlVector PublicOutputs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -146,7 +146,7 @@ ref CUtlVector PublicOutputs { get; }
 ref CUtlVector Vars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

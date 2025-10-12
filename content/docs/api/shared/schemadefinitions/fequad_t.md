@@ -6,7 +6,7 @@ title: FeQuad_t
 public interface FeQuad_t : ISchemaClass<FeQuad_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeQuad_t : ISchemaClass<FeQuad_t>, ISchemaField, ISchemaClass, 
 ISchemaFixedArray<ushort> Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -26,7 +26,7 @@ ISchemaFixedArray<ushort> Node { get; }
 ISchemaFixedArray<Vector4D> Shape { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector4D](/docs/api/shared/natives/vector4d)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<Vector4D> Shape { get; }
 ref float Slack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

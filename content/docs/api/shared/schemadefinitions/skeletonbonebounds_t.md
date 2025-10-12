@@ -6,7 +6,7 @@ title: SkeletonBoneBounds_t
 public interface SkeletonBoneBounds_t : ISchemaClass<SkeletonBoneBounds_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SkeletonBoneBounds_t : ISchemaClass<SkeletonBoneBounds_t>, ISch
 ref Vector Center { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector Center { get; }
 ref Vector Size { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

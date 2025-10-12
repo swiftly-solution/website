@@ -6,7 +6,7 @@ title: CNmStateMachineNode__StateDefinition_t
 public interface CNmStateMachineNode__StateDefinition_t : ISchemaClass<CNmStateMachineNode__StateDefinition_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmStateMachineNode__StateDefinition_t : ISchemaClass<CNmStateM
 ref short EntryConditionNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short EntryConditionNodeIdx { get; }
 ref short StateNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short StateNodeIdx { get; }
 SchemaUntypedField TransitionDefinitions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

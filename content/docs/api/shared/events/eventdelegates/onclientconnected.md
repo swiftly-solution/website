@@ -6,7 +6,7 @@ title: EventDelegates.OnClientConnected
 public delegate void EventDelegates.OnClientConnected(IOnClientConnectedEvent @event)
 ```
 
-#### Parameters
+- Parameters
 
 - **event**: [IOnClientConnectedEvent](/docs/api/shared/events/ionclientconnectedevent)
 

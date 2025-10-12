@@ -6,7 +6,7 @@ title: CFuncTrackTrain
 public interface CFuncTrackTrain : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CFuncTrackTrain>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFuncTrackTrain : CBaseModelEntity, CBaseEntity, CEntityInstanc
 ref float AccelSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AccelSpeed { get; }
 ref bool AccelToSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool AccelToSpeed { get; }
 ref float Bank { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Bank { get; }
 ref float BlockDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float BlockDamage { get; }
 ref Vector ControlMaxs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -66,7 +66,7 @@ ref Vector ControlMaxs { get; }
 ref Vector ControlMins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector ControlMins { get; }
 ref float DecelSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float DecelSpeed { get; }
 ref float DesiredSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float DesiredSpeed { get; }
 ref float Dir { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float Dir { get; }
 ref float Height { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float Height { get; }
 ref Vector LastBlockPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -126,7 +126,7 @@ ref Vector LastBlockPos { get; }
 ref int LastBlockTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ ref int LastBlockTick { get; }
 ref float Length { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float Length { get; }
 ref bool ManualSpeedChanges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool ManualSpeedChanges { get; }
 ref float MaxSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float MaxSpeed { get; }
 ref float MoveSoundMaxDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float MoveSoundMaxDuration { get; }
 ref float MoveSoundMaxPitch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float MoveSoundMaxPitch { get; }
 ref float MoveSoundMinDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float MoveSoundMinDuration { get; }
 ref float MoveSoundMinPitch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ ref float MoveSoundMinPitch { get; }
 GameTime_t NextMPSoundTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -216,7 +216,7 @@ GameTime_t NextMPSoundTime { get; }
 GameTime_t NextMoveSoundTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -226,7 +226,7 @@ GameTime_t NextMoveSoundTime { get; }
 ref float OldSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float OldSpeed { get; }
 CEntityIOOutput OnArrivedAtDestinationNode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -246,7 +246,7 @@ CEntityIOOutput OnArrivedAtDestinationNode { get; }
 CEntityIOOutput OnNext { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -256,7 +256,7 @@ CEntityIOOutput OnNext { get; }
 CEntityIOOutput OnStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -266,7 +266,7 @@ CEntityIOOutput OnStart { get; }
 ref TrainOrientationType_t OrientationType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TrainOrientationType_t](/docs/api/shared/schemadefinitions/trainorientationtype_t)
 
@@ -276,7 +276,7 @@ ref TrainOrientationType_t OrientationType { get; }
 ref Vector PosPrev { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -286,7 +286,7 @@ ref Vector PosPrev { get; }
 ref CHandle<CPathTrack> Ppath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)>
 
@@ -296,7 +296,7 @@ ref CHandle<CPathTrack> Ppath { get; }
 ref QAngle Prev { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -306,7 +306,7 @@ ref QAngle Prev { get; }
 string SoundMove { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -316,7 +316,7 @@ string SoundMove { get; set; }
 string SoundMovePing { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -326,7 +326,7 @@ string SoundMovePing { get; set; }
 string SoundStart { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -336,7 +336,7 @@ string SoundStart { get; set; }
 string SoundStop { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -346,7 +346,7 @@ string SoundStop { get; set; }
 GameTime_t SpeedChangeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -356,7 +356,7 @@ GameTime_t SpeedChangeTime { get; }
 string StrPathTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -366,7 +366,7 @@ string StrPathTarget { get; set; }
 ref TrainVelocityType_t VelocityType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TrainVelocityType_t](/docs/api/shared/schemadefinitions/trainvelocitytype_t)
 
@@ -376,7 +376,7 @@ ref TrainVelocityType_t VelocityType { get; }
 ref float Volume { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

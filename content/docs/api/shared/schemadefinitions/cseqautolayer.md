@@ -6,7 +6,7 @@ title: CSeqAutoLayer
 public interface CSeqAutoLayer : ISchemaClass<CSeqAutoLayer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSeqAutoLayer : ISchemaClass<CSeqAutoLayer>, ISchemaField, ISch
 ref float End { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float End { get; }
 CSeqAutoLayerFlag Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSeqAutoLayerFlag](/docs/api/shared/schemadefinitions/cseqautolayerflag)
 
@@ -36,7 +36,7 @@ CSeqAutoLayerFlag Flags { get; }
 ref short LocalPose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ ref short LocalPose { get; }
 ref short LocalReference { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ ref short LocalReference { get; }
 ref float Peak { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float Peak { get; }
 ref float Start { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float Start { get; }
 ref float Tail { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

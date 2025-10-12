@@ -6,7 +6,7 @@ title: ProtoFlattenedSerializerField_t
 public interface ProtoFlattenedSerializerField_t : ITypedProtobuf<ProtoFlattenedSerializerField_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ProtoFlattenedSerializerField_t : ITypedProtobuf<ProtoFlattened
 int BitCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int BitCount { get; set; }
 int EncodeFlags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int EncodeFlags { get; set; }
 int FieldSerializerNameSym { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int FieldSerializerNameSym { get; set; }
 int FieldSerializerVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int FieldSerializerVersion { get; set; }
 float HighValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ float HighValue { get; set; }
 float LowValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ float LowValue { get; set; }
 IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializerField_t_polymorphic_field_t> PolymorphicTypes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[ProtoFlattenedSerializerField_t_polymorphic_field_t](/docs/api/shared/protobufdefinitions/protoflattenedserializerfield_t_polymorphic_field_t)>
 
@@ -86,7 +86,7 @@ IProtobufRepeatedFieldSubMessageType<ProtoFlattenedSerializerField_t_polymorphic
 int SendNodeSym { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ int SendNodeSym { get; set; }
 int VarEncoderSym { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ int VarEncoderSym { get; set; }
 int VarNameSym { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ int VarNameSym { get; set; }
 int VarSerializerSym { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ int VarSerializerSym { get; set; }
 int VarTypeSym { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

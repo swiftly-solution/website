@@ -6,7 +6,7 @@ title: CSVCMsg_PacketEntities
 public interface CSVCMsg_PacketEntities : ITypedProtobuf<CSVCMsg_PacketEntities>, INativeHandle, INetMessage<CSVCMsg_PacketEntities>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_PacketEntities : ITypedProtobuf<CSVCMsg_PacketEntities>
 uint ActiveSpawngroupHandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ActiveSpawngroupHandle { get; set; }
 IProtobufRepeatedFieldSubMessageType<CSVCMsg_PacketEntities_alternate_baseline_t> AlternateBaselines { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSVCMsg_PacketEntities_alternate_baseline_t](/docs/api/shared/protobufdefinitions/csvcmsg_packetentities_alternate_baseline_t)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CSVCMsg_PacketEntities_alternate_baseline_t
 int Baseline { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Baseline { get; set; }
 IProtobufRepeatedFieldValueType<int> CmdRecvStatus { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldValueType<int> CmdRecvStatus { get; }
 uint CqDiscardedCommandTicks { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint CqDiscardedCommandTicks { get; set; }
 uint CqStarvedCommandTicks { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint CqStarvedCommandTicks { get; set; }
 int DeltaFrom { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ int DeltaFrom { get; set; }
 byte[] DevPadding { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -96,7 +96,7 @@ byte[] DevPadding { get; set; }
 byte[] EntityData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -106,7 +106,7 @@ byte[] EntityData { get; set; }
 uint HasPvsVisBitsDeprecated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -116,7 +116,7 @@ uint HasPvsVisBitsDeprecated { get; set; }
 uint LastCmdNumberExecuted { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ uint LastCmdNumberExecuted { get; set; }
 int LastCmdNumberRecvDelta { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ int LastCmdNumberRecvDelta { get; set; }
 bool LegacyIsDelta { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ bool LegacyIsDelta { get; set; }
 int MaxEntries { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ int MaxEntries { get; set; }
 uint MaxSpawngroupCreationsequence { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -166,7 +166,7 @@ uint MaxSpawngroupCreationsequence { get; set; }
 CSVCMsg_PacketEntities_non_transmitted_entities_t NonTransmittedEntities { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSVCMsg_PacketEntities_non_transmitted_entities_t](/docs/api/shared/protobufdefinitions/csvcmsg_packetentities_non_transmitted_entities_t)
 
@@ -176,7 +176,7 @@ CSVCMsg_PacketEntities_non_transmitted_entities_t NonTransmittedEntities { get; 
 CSVCMsg_PacketEntities_outofpvs_entity_updates_t OutofpvsEntityUpdates { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSVCMsg_PacketEntities_outofpvs_entity_updates_t](/docs/api/shared/protobufdefinitions/csvcmsg_packetentities_outofpvs_entity_updates_t)
 
@@ -186,7 +186,7 @@ CSVCMsg_PacketEntities_outofpvs_entity_updates_t OutofpvsEntityUpdates { get; }
 bool PendingFullFrame { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ bool PendingFullFrame { get; set; }
 byte[] SerializedEntities { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -206,7 +206,7 @@ byte[] SerializedEntities { get; set; }
 uint ServerTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -216,7 +216,7 @@ uint ServerTick { get; set; }
 bool UpdateBaseline { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ bool UpdateBaseline { get; set; }
 int UpdatedEntries { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CUtlSymbolLarge
 public struct CUtlSymbolLarge
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Properties
 
@@ -16,7 +16,7 @@ public struct CUtlSymbolLarge
 public string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -28,11 +28,11 @@ public string Value { get; set; }
 public static implicit operator string(CUtlSymbolLarge symbol)
 ```
 
-#### Parameters
+- Parameters
 
 - **symbol**: [CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -42,11 +42,11 @@ public static implicit operator string(CUtlSymbolLarge symbol)
 public static implicit operator CUtlSymbolLarge(string value)
 ```
 
-#### Parameters
+- Parameters
 
 - **value**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)
 

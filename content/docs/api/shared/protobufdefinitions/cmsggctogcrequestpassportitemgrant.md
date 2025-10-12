@@ -6,7 +6,7 @@ title: CMsgGCToGCRequestPassportItemGrant
 public interface CMsgGCToGCRequestPassportItemGrant : ITypedProtobuf<CMsgGCToGCRequestPassportItemGrant>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCToGCRequestPassportItemGrant : ITypedProtobuf<CMsgGCToGCR
 uint LeagueId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint LeagueId { get; set; }
 int RewardFlag { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int RewardFlag { get; set; }
 ulong SteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientToGCRequestElevate
 public interface CMsgGCCStrike15_v2_ClientToGCRequestElevate : ITypedProtobuf<CMsgGCCStrike15_v2_ClientToGCRequestElevate>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientToGCRequestElevate : ITypedProtobuf<CM
 uint Stage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

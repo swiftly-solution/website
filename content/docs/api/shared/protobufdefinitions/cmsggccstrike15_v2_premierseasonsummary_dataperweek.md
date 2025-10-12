@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek
 public interface CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek : ITypedProtobuf<CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_PremierSeasonSummary_DataPerWeek : ITypedPro
 uint MatchesPlayed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint MatchesPlayed { get; set; }
 uint RankId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint RankId { get; set; }
 ulong WeekId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,7 +6,7 @@ title: C_OP_ScreenSpaceRotateTowardTarget
 public interface C_OP_ScreenSpaceRotateTowardTarget : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_ScreenSpaceRotateTowardTarget>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_ScreenSpaceRotateTowardTarget : CParticleFunctionOperator,
 CParticleRemapFloatInput OutputRemap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleRemapFloatInput](/docs/api/shared/schemadefinitions/cparticleremapfloatinput)
 
@@ -26,7 +26,7 @@ CParticleRemapFloatInput OutputRemap { get; }
 CPerParticleFloatInput ScreenEdgeAlignmentDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -36,7 +36,7 @@ CPerParticleFloatInput ScreenEdgeAlignmentDistance { get; }
 ref ParticleSetMethod_t SetMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 
@@ -46,7 +46,7 @@ ref ParticleSetMethod_t SetMethod { get; }
 CPerParticleVecInput TargetPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 

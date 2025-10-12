@@ -6,7 +6,7 @@ title: CSOItemCriteria
 public interface CSOItemCriteria : ITypedProtobuf<CSOItemCriteria>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOItemCriteria : ITypedProtobuf<CSOItemCriteria>, INativeHandl
 IProtobufRepeatedFieldSubMessageType<CSOItemCriteriaCondition> Conditions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSOItemCriteriaCondition](/docs/api/shared/protobufdefinitions/csoitemcriteriacondition)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CSOItemCriteriaCondition> Conditions { get;
 bool IgnoreEnabledFlag { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ bool IgnoreEnabledFlag { get; set; }
 uint InitialInventory { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint InitialInventory { get; set; }
 uint InitialQuantity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint InitialQuantity { get; set; }
 uint ItemLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint ItemLevel { get; set; }
 bool ItemLevelSet { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ bool ItemLevelSet { get; set; }
 int ItemQuality { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ int ItemQuality { get; set; }
 bool ItemQualitySet { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ bool ItemQualitySet { get; set; }
 int ItemRarity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ int ItemRarity { get; set; }
 bool ItemRaritySet { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ bool ItemRaritySet { get; set; }
 bool RecentOnly { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CNmRootMotionData
 public interface CNmRootMotionData : ISchemaClass<CNmRootMotionData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmRootMotionData : ISchemaClass<CNmRootMotionData>, ISchemaFie
 ref float AverageAngularVelocityRadians { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AverageAngularVelocityRadians { get; }
 ref float AverageLinearVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AverageLinearVelocity { get; }
 ref int NumFrames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int NumFrames { get; }
 ref CTransform TotalDelta { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -56,7 +56,7 @@ ref CTransform TotalDelta { get; }
 ref CUtlVector<CTransform> Transforms { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 

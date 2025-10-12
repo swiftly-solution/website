@@ -6,7 +6,7 @@ title: CTestDomainDerived_Cursor
 public interface CTestDomainDerived_Cursor : CPulseExecCursor, ISchemaClass<CPulseExecCursor>, ISchemaClass<CTestDomainDerived_Cursor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTestDomainDerived_Cursor : CPulseExecCursor, ISchemaClass<CPul
 ref int CursorValueA { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int CursorValueA { get; }
 ref int CursorValueB { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Account_RequestCoPlays
 public interface CMsgGCCStrike15_v2_Account_RequestCoPlays : ITypedProtobuf<CMsgGCCStrike15_v2_Account_RequestCoPlays>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Account_RequestCoPlays : ITypedProtobuf<CMsg
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_Account_RequestCoPlays_Player> Players { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_Account_RequestCoPlays_Player](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_account_requestcoplays_player)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_Account_RequestCoPlays_P
 uint Servertime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

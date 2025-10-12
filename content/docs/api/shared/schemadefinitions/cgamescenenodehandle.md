@@ -6,7 +6,7 @@ title: CGameSceneNodeHandle
 public interface CGameSceneNodeHandle : ISchemaClass<CGameSceneNodeHandle>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameSceneNodeHandle : ISchemaClass<CGameSceneNodeHandle>, ISch
 ref CUtlStringToken Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -26,7 +26,7 @@ ref CUtlStringToken Name { get; }
 ref CHandle<CEntityInstance> Owner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 

@@ -6,7 +6,7 @@ title: C_OP_EndCapTimedFreeze
 public interface C_OP_EndCapTimedFreeze : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_EndCapTimedFreeze>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_EndCapTimedFreeze : CParticleFunctionOperator, CParticleFu
 CParticleCollectionFloatInput FreezeTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 

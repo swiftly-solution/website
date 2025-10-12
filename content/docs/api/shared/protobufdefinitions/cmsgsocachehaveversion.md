@@ -6,7 +6,7 @@ title: CMsgSOCacheHaveVersion
 public interface CMsgSOCacheHaveVersion : ITypedProtobuf<CMsgSOCacheHaveVersion>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOCacheHaveVersion : ITypedProtobuf<CMsgSOCacheHaveVersion>
 CMsgSOIDOwner Soid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSOIDOwner](/docs/api/shared/protobufdefinitions/cmsgsoidowner)
 
@@ -26,7 +26,7 @@ CMsgSOIDOwner Soid { get; }
 ulong Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

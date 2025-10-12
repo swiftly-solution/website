@@ -6,7 +6,7 @@ title: CSVCMsg_SplitScreen
 public interface CSVCMsg_SplitScreen : ITypedProtobuf<CSVCMsg_SplitScreen>, INativeHandle, INetMessage<CSVCMsg_SplitScreen>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_SplitScreen : ITypedProtobuf<CSVCMsg_SplitScreen>, INat
 int PlayerIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int PlayerIndex { get; set; }
 int Slot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Slot { get; set; }
 ESplitScreenMessageType Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ESplitScreenMessageType](/docs/api/shared/protobufdefinitions/esplitscreenmessagetype)
 

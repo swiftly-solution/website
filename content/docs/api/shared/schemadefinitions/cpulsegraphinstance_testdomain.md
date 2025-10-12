@@ -6,7 +6,7 @@ title: CPulseGraphInstance_TestDomain
 public interface CPulseGraphInstance_TestDomain : CBasePulseGraphInstance, ISchemaClass<CBasePulseGraphInstance>, ISchemaClass<CPulseGraphInstance_TestDomain>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseGraphInstance_TestDomain : CBasePulseGraphInstance, ISche
 ref int CursorsTerminatedDueToMaxInstructions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int CursorsTerminatedDueToMaxInstructions { get; }
 ref bool ExpectingCursorTerminatedDueToMaxInstructions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ExpectingCursorTerminatedDueToMaxInstructions { get; }
 ref bool ExpectingToDestroyWithYieldedCursors { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ExpectingToDestroyWithYieldedCursors { get; }
 ref bool ExplicitTimeStepping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool ExplicitTimeStepping { get; }
 ref bool IsRunningUnitTests { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IsRunningUnitTests { get; }
 ref int NextValidateIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int NextValidateIndex { get; }
 ref bool QuietTracepoints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool QuietTracepoints { get; }
 ref bool TestYesOrNoPath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool TestYesOrNoPath { get; }
 ref CUtlVector<CUtlString> Tracepoints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 

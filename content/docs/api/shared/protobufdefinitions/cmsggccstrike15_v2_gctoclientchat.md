@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GCToClientChat
 public interface CMsgGCCStrike15_v2_GCToClientChat : ITypedProtobuf<CMsgGCCStrike15_v2_GCToClientChat>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GCToClientChat : ITypedProtobuf<CMsgGCCStrik
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CQuest_PublisherAddCommunityItemsToPlayer_Request
 public interface CQuest_PublisherAddCommunityItemsToPlayer_Request : ITypedProtobuf<CQuest_PublisherAddCommunityItemsToPlayer_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CQuest_PublisherAddCommunityItemsToPlayer_Request : ITypedProto
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Appid { get; set; }
 IProtobufRepeatedFieldSubMessageType<CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute> Attributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CQuest_PublisherAddCommunityItemsToPlayer_Request_Attribute](/docs/api/shared/protobufdefinitions/cquest_publisheraddcommunityitemstoplayer_request_attribute)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CQuest_PublisherAddCommunityItemsToPlayer_R
 uint MatchItemClass { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint MatchItemClass { get; set; }
 uint MatchItemType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint MatchItemType { get; set; }
 string Note { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string Note { get; set; }
 string PrefixItemName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string PrefixItemName { get; set; }
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

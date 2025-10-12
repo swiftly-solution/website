@@ -6,7 +6,7 @@ title: FeTreeChildren_t
 public interface FeTreeChildren_t : ISchemaClass<FeTreeChildren_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeTreeChildren_t : ISchemaClass<FeTreeChildren_t>, ISchemaField
 ISchemaFixedArray<ushort> Child { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 

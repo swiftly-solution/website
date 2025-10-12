@@ -6,7 +6,7 @@ title: SolveIKChainPoseOpFixedSettings_t
 public interface SolveIKChainPoseOpFixedSettings_t : ISchemaClass<SolveIKChainPoseOpFixedSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SolveIKChainPoseOpFixedSettings_t : ISchemaClass<SolveIKChainPo
 ref CUtlVector ChainsToSolveData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

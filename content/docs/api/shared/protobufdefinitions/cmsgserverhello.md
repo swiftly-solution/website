@@ -6,7 +6,7 @@ title: CMsgServerHello
 public interface CMsgServerHello : ITypedProtobuf<CMsgServerHello>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgServerHello : ITypedProtobuf<CMsgServerHello>, INativeHandl
 uint ClientLauncher { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ClientLauncher { get; set; }
 uint LegacyClientSessionNeed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint LegacyClientSessionNeed { get; set; }
 byte[] LegacySteamdatagramRouting { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -46,7 +46,7 @@ byte[] LegacySteamdatagramRouting { get; set; }
 uint RequiredInternalAddr { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint RequiredInternalAddr { get; set; }
 uint SocacheControl { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint SocacheControl { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgSOCacheHaveVersion> SocacheHaveVersions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSOCacheHaveVersion](/docs/api/shared/protobufdefinitions/cmsgsocachehaveversion)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSOCacheHaveVersion> SocacheHaveVersions
 byte[] SteamdatagramLogin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -86,7 +86,7 @@ byte[] SteamdatagramLogin { get; set; }
 uint Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

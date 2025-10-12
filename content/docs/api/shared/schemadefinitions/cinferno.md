@@ -6,7 +6,7 @@ title: CInferno
 public interface CInferno : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CInferno>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CInferno : CBaseModelEntity, CBaseEntity, CEntityInstance, ISch
 IntervalTimer ActiveTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IntervalTimer](/docs/api/shared/schemadefinitions/intervaltimer)
 
@@ -26,7 +26,7 @@ IntervalTimer ActiveTimer { get; }
 CountdownTimer BookkeepingTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -36,7 +36,7 @@ CountdownTimer BookkeepingTimer { get; }
 ISchemaFixedArray<Vector> BurnNormal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -46,7 +46,7 @@ ISchemaFixedArray<Vector> BurnNormal { get; }
 CountdownTimer DamageRampTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -56,7 +56,7 @@ CountdownTimer DamageRampTimer { get; }
 CountdownTimer DamageTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -66,7 +66,7 @@ CountdownTimer DamageTimer { get; }
 Extent Extent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Extent](/docs/api/shared/schemadefinitions/extent)
 
@@ -76,7 +76,7 @@ Extent Extent { get; }
 ref int FireCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int FireCount { get; }
 ref int FireEffectTickBegin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int FireEffectTickBegin { get; }
 ISchemaFixedArray<bool> FireIsBurning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 
@@ -106,7 +106,7 @@ ISchemaFixedArray<bool> FireIsBurning { get; }
 ref float FireLifetime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float FireLifetime { get; }
 ISchemaFixedArray<Vector> FireParentPositions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -126,7 +126,7 @@ ISchemaFixedArray<Vector> FireParentPositions { get; }
 ISchemaFixedArray<Vector> FirePositions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -136,7 +136,7 @@ ISchemaFixedArray<Vector> FirePositions { get; }
 ref int FireSpawnOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int FireSpawnOffset { get; }
 ref bool InPostEffectTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool InPostEffectTime { get; }
 ref int InfernoType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ ref int InfernoType { get; }
 ref Vector InitialSplashVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -176,7 +176,7 @@ ref Vector InitialSplashVelocity { get; }
 ref int MaxFlames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int MaxFlames { get; }
 CountdownTimer NextSpreadTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -196,7 +196,7 @@ CountdownTimer NextSpreadTimer { get; }
 ref Vector OriginalSpawnLocation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -206,7 +206,7 @@ ref Vector OriginalSpawnLocation { get; }
 ref ushort SourceItemDefIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -216,7 +216,7 @@ ref ushort SourceItemDefIndex { get; }
 ref Vector SplashVelocity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -226,7 +226,7 @@ ref Vector SplashVelocity { get; }
 ref int SpreadCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int SpreadCount { get; }
 ref Vector StartPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -246,7 +246,7 @@ ref Vector StartPos { get; }
 ref bool WasCreatedInSmoke { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

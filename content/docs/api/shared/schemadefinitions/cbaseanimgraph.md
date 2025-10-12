@@ -6,7 +6,7 @@ title: CBaseAnimGraph
 public interface CBaseAnimGraph : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseAnimGraph : CBaseModelEntity, CBaseEntity, CEntityInstance
 ref bool AnimGraphUpdateEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AnimGraphUpdateEnabled { get; }
 ref bool AnimationUpdateScheduled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool AnimationUpdateScheduled { get; }
 IChoreoServices? ChoreoServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IChoreoServices](/docs/api/shared/schemadefinitions/ichoreoservices)?
 
@@ -46,7 +46,7 @@ IChoreoServices? ChoreoServices { get; }
 ref Vector Force { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector Force { get; }
 ref int ForceBone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int ForceBone { get; }
 ref bool InitiallyPopulateInterpHistory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool InitiallyPopulateInterpHistory { get; }
 ref Vector LastSlopeCheckPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector LastSlopeCheckPos { get; }
 ref float MaxSlopeDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float MaxSlopeDistance { get; }
 ref bool RagdollClientSide { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool RagdollClientSide { get; }
 ref bool RagdollEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool RagdollEnabled { get; }
 PhysicsRagdollPose_t RagdollPose { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PhysicsRagdollPose_t](/docs/api/shared/schemadefinitions/physicsragdollpose_t)
 

@@ -6,7 +6,7 @@ title: CNETMsg_StringCmd
 public interface CNETMsg_StringCmd : ITypedProtobuf<CNETMsg_StringCmd>, INativeHandle, INetMessage<CNETMsg_StringCmd>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNETMsg_StringCmd : ITypedProtobuf<CNETMsg_StringCmd>, INativeH
 string Command { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Command { get; set; }
 uint PredictionSync { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

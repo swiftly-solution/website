@@ -6,7 +6,7 @@ title: CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription
 public interface CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription : ITypedProtobuf<CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWorkshop_PopulateItemDescriptions_Request_SingleItemDescriptio
 uint Gameitemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Gameitemid { get; set; }
 string ItemDescription { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ItemDescription { get; set; }
 bool OnePerAccount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

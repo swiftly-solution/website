@@ -6,7 +6,7 @@ title: CPathQueryUtil
 public interface CPathQueryUtil : ISchemaClass<CPathQueryUtil>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPathQueryUtil : ISchemaClass<CPathQueryUtil>, ISchemaField, IS
 ref bool IsClosedLoop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool IsClosedLoop { get; }
 ref CUtlVector<float> PathSampleDistances { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<float> PathSampleDistances { get; }
 ref CUtlVector<float> PathSampleParameters { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<float> PathSampleParameters { get; }
 ref CUtlVector<Vector> PathSamplePositions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector](/docs/api/shared/natives/vector)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<Vector> PathSamplePositions { get; }
 ref CTransform PathToEntityTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

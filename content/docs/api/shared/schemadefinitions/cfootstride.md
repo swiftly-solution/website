@@ -6,7 +6,7 @@ title: CFootStride
 public interface CFootStride : ISchemaClass<CFootStride>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFootStride : ISchemaClass<CFootStride>, ISchemaField, ISchemaC
 CFootCycleDefinition Definition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFootCycleDefinition](/docs/api/shared/schemadefinitions/cfootcycledefinition)
 
@@ -26,7 +26,7 @@ CFootCycleDefinition Definition { get; }
 CFootTrajectories Trajectories { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CFootTrajectories](/docs/api/shared/schemadefinitions/cfoottrajectories)
 

@@ -6,7 +6,7 @@ title: CMsgSortItems
 public interface CMsgSortItems : ITypedProtobuf<CMsgSortItems>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSortItems : ITypedProtobuf<CMsgSortItems>, INativeHandle
 uint SortType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

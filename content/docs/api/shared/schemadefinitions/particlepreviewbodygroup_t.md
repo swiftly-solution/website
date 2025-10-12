@@ -6,7 +6,7 @@ title: ParticlePreviewBodyGroup_t
 public interface ParticlePreviewBodyGroup_t : ISchemaClass<ParticlePreviewBodyGroup_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParticlePreviewBodyGroup_t : ISchemaClass<ParticlePreviewBodyGr
 string BodyGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string BodyGroupName { get; set; }
 ref int Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: C_OP_SetUserEvent
 public interface C_OP_SetUserEvent : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_SetUserEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_SetUserEvent : CParticleFunctionOperator, CParticleFunctio
 CPerParticleFloatInput FallingEdge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -26,7 +26,7 @@ CPerParticleFloatInput FallingEdge { get; }
 ref EventTypeSelection_t FallingEventType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EventTypeSelection_t](/docs/api/shared/schemadefinitions/eventtypeselection_t)
 
@@ -36,7 +36,7 @@ ref EventTypeSelection_t FallingEventType { get; }
 CPerParticleFloatInput Input { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -46,7 +46,7 @@ CPerParticleFloatInput Input { get; }
 CPerParticleFloatInput RisingEdge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -56,7 +56,7 @@ CPerParticleFloatInput RisingEdge { get; }
 ref EventTypeSelection_t RisingEventType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EventTypeSelection_t](/docs/api/shared/schemadefinitions/eventtypeselection_t)
 

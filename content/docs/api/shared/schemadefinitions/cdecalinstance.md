@@ -6,7 +6,7 @@ title: CDecalInstance
 public interface CDecalInstance : ISchemaClass<CDecalInstance>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDecalInstance : ISchemaClass<CDecalInstance>, ISchemaField, IS
 ref float AnimationScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AnimationScale { get; }
 ref int BoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int BoneIndex { get; }
 ref float BoundingRadiusSqr { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float BoundingRadiusSqr { get; }
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -56,7 +56,7 @@ ref Color Color { get; }
 ref CGlobalSymbol DecalGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -66,7 +66,7 @@ ref CGlobalSymbol DecalGroup { get; }
 ref float Depth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float Depth { get; }
 ref bool DoDecalLightmapping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool DoDecalLightmapping { get; }
 ref CHandle<CBaseEntity> Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -96,7 +96,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 ref float FadeDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float FadeDuration { get; }
 ref float FadeStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float FadeStartTime { get; }
 ref DecalFlags_t Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DecalFlags_t](/docs/api/shared/schemadefinitions/decalflags_t)
 
@@ -126,7 +126,7 @@ ref DecalFlags_t Flags { get; }
 ref float Height { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float Height { get; }
 ref bool IsAdjacent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool IsAdjacent { get; }
 ref float LightingOriginOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float LightingOriginOffset { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -166,7 +166,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 CDecalInstance? Next { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CDecalInstance](/docs/api/shared/schemadefinitions/cdecalinstance)?
 
@@ -176,7 +176,7 @@ CDecalInstance? Next { get; }
 ref Vector NormalLS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -186,7 +186,7 @@ ref Vector NormalLS { get; }
 GameTime_t PlaceTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -196,7 +196,7 @@ GameTime_t PlaceTime { get; }
 ref Vector PositionLS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -206,7 +206,7 @@ ref Vector PositionLS { get; }
 CDecalInstance? Prev { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CDecalInstance](/docs/api/shared/schemadefinitions/cdecalinstance)?
 
@@ -216,7 +216,7 @@ CDecalInstance? Prev { get; }
 ref Vector SAxisLS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -226,7 +226,7 @@ ref Vector SAxisLS { get; }
 ref short SequenceIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -236,7 +236,7 @@ ref short SequenceIndex { get; }
 ref CUtlStringToken SequenceName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -246,7 +246,7 @@ ref CUtlStringToken SequenceName { get; }
 ref float Width { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

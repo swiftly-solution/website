@@ -6,7 +6,7 @@ title: PulseRuntimeCallInfoIndex_t
 public interface PulseRuntimeCallInfoIndex_t : ISchemaClass<PulseRuntimeCallInfoIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseRuntimeCallInfoIndex_t : ISchemaClass<PulseRuntimeCallInfo
 ref int Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CSoundEventMetaData
 public interface CSoundEventMetaData : ISchemaClass<CSoundEventMetaData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSoundEventMetaData : ISchemaClass<CSoundEventMetaData>, ISchem
 ref CStrongHandle<InfoForResourceTypeCVMixListResource> SoundEventVMix { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVMixListResource](/docs/api/shared/schemadefinitions/infoforresourcetypecvmixlistresource)>
 

@@ -6,7 +6,7 @@ title: CSSDSEndFrameViewInfo
 public interface CSSDSEndFrameViewInfo : ISchemaClass<CSSDSEndFrameViewInfo>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSSDSEndFrameViewInfo : ISchemaClass<CSSDSEndFrameViewInfo>, IS
 ref ulong ViewId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ref ulong ViewId { get; }
 string ViewName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

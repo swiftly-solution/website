@@ -6,7 +6,7 @@ title: CEntityComponentHelper
 public interface CEntityComponentHelper : ISchemaClass<CEntityComponentHelper>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityComponentHelper : ISchemaClass<CEntityComponentHelper>, 
 ref uint Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint Flags { get; }
 EntComponentInfo_t? Info { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EntComponentInfo_t](/docs/api/shared/schemadefinitions/entcomponentinfo_t)?
 
@@ -36,7 +36,7 @@ EntComponentInfo_t? Info { get; }
 CEntityComponentHelper? Next { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityComponentHelper](/docs/api/shared/schemadefinitions/centitycomponenthelper)?
 
@@ -46,7 +46,7 @@ CEntityComponentHelper? Next { get; }
 ref int Priority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

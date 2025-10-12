@@ -6,7 +6,7 @@ title: CMsgSetItemPositions_ItemPosition
 public interface CMsgSetItemPositions_ItemPosition : ITypedProtobuf<CMsgSetItemPositions_ItemPosition>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSetItemPositions_ItemPosition : ITypedProtobuf<CMsgSetItemP
 ulong ItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong ItemId { get; set; }
 uint LegacyItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint LegacyItemId { get; set; }
 uint Position { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

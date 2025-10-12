@@ -6,7 +6,7 @@ title: CCSPlayer_MovementServices
 public interface CCSPlayer_MovementServices : CPlayer_MovementServices_Humanoid, CPlayer_MovementServices, CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_MovementServices>, ISchemaClass<CPlayer_MovementServices_Humanoid>, ISchemaClass<CCSPlayer_MovementServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayer_MovementServices : CPlayer_MovementServices_Humanoid,
 ref float AccumulatedJumpError { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AccumulatedJumpError { get; }
 ref ulong ButtonDownMaskPrev { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ref ulong ButtonDownMaskPrev { get; }
 ref bool DesiresDuck { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool DesiresDuck { get; }
 ref float DuckAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float DuckAmount { get; }
 ref uint DuckJumpTimeMsecs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ ref uint DuckJumpTimeMsecs { get; }
 ref float DuckOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float DuckOffset { get; }
 ref bool DuckOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool DuckOverride { get; }
 ref float DuckSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float DuckSpeed { get; }
 ref uint DuckTimeMsecs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ ref uint DuckTimeMsecs { get; }
 ref bool DuckUntilOnGround { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool DuckUntilOnGround { get; }
 ref int Footsteps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int Footsteps { get; }
 ref Vector Forward { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -136,7 +136,7 @@ ref Vector Forward { get; }
 ref int GameCodeHasMovedPlayerAfterCommand { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int GameCodeHasMovedPlayerAfterCommand { get; }
 ref bool HasWalkMovedSinceLastJump { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool HasWalkMovedSinceLastJump { get; }
 ref float HeightAtJumpStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float HeightAtJumpStart { get; }
 ref bool InStuckTest { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool InStuckTest { get; }
 ref Vector InputRotated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -186,7 +186,7 @@ ref Vector InputRotated { get; }
 ref float JumpPressedTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float JumpPressedTime { get; }
 ref uint JumpTimeMsecs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -206,7 +206,7 @@ ref uint JumpTimeMsecs { get; }
 ref Vector LadderNormal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -216,7 +216,7 @@ ref Vector LadderNormal { get; }
 ref int LadderSurfacePropIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -226,7 +226,7 @@ ref int LadderSurfacePropIndex { get; }
 ref float LastDuckTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -236,7 +236,7 @@ ref float LastDuckTime { get; }
 ref Vector2D LastPositionAtFullCrouchSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -246,7 +246,7 @@ ref Vector2D LastPositionAtFullCrouchSpeed { get; }
 ref Vector Left { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -256,7 +256,7 @@ ref Vector Left { get; }
 ref bool MadeFootstepNoise { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -266,7 +266,7 @@ ref bool MadeFootstepNoise { get; }
 ref float MaxJumpHeightLastJump { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -276,7 +276,7 @@ ref float MaxJumpHeightLastJump { get; }
 ref float MaxJumpHeightThisJump { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -286,7 +286,7 @@ ref float MaxJumpHeightThisJump { get; }
 ref float OffsetTickCompleteTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -296,7 +296,7 @@ ref float OffsetTickCompleteTime { get; }
 ref float OffsetTickStashedSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -306,7 +306,7 @@ ref float OffsetTickStashedSpeed { get; }
 ref bool OldJumpPressed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -316,7 +316,7 @@ ref bool OldJumpPressed { get; }
 ref int OldWaterLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -326,7 +326,7 @@ ref int OldWaterLevel { get; }
 ref bool SpeedCropped { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -336,7 +336,7 @@ ref bool SpeedCropped { get; }
 ref float Stamina { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -346,7 +346,7 @@ ref float Stamina { get; }
 ref float StaminaAtJumpStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -356,7 +356,7 @@ ref float StaminaAtJumpStart { get; }
 GameTime_t StashGrenadeParameterWhen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -366,7 +366,7 @@ GameTime_t StashGrenadeParameterWhen { get; }
 ref int StuckLast { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -376,7 +376,7 @@ ref int StuckLast { get; }
 ref float TicksSinceLastSurfingDetected { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -386,7 +386,7 @@ ref float TicksSinceLastSurfingDetected { get; }
 ref int TraceCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -396,7 +396,7 @@ ref int TraceCount { get; }
 ref Vector Up { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -406,7 +406,7 @@ ref Vector Up { get; }
 ref bool WasSurfing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -416,7 +416,7 @@ ref bool WasSurfing { get; }
 ref float WaterEntryTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

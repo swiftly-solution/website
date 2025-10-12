@@ -6,7 +6,7 @@ title: CPhysicsProp
 public interface CPhysicsProp : CBreakableProp, CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaClass<CPhysicsProp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPhysicsProp : CBreakableProp, CBaseProp, CBaseAnimGraph, CBase
 ref bool AcceptDamageFromHeldObjects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AcceptDamageFromHeldObjects { get; }
 ref bool AttachedToReferenceFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool AttachedToReferenceFrame { get; }
 ref bool Awake { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool Awake { get; }
 ref float BuoyancyScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float BuoyancyScale { get; }
 ref CPhysicsProp__CrateType_t CrateType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPhysicsProp__CrateType_t](/docs/api/shared/schemadefinitions/cphysicsprop__cratetype_t)
 
@@ -66,7 +66,7 @@ ref CPhysicsProp__CrateType_t CrateType { get; }
 ref int DamageToEnableMotion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int DamageToEnableMotion { get; }
 ref int DamageType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int DamageType { get; }
 ref bool DroppedByPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool DroppedByPlayer { get; }
 ref DynamicContinuousContactBehavior_t DynamicContinuousContactBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DynamicContinuousContactBehavior_t](/docs/api/shared/schemadefinitions/dynamiccontinuouscontactbehavior_t)
 
@@ -106,7 +106,7 @@ ref DynamicContinuousContactBehavior_t DynamicContinuousContactBehavior { get; }
 ref bool EnableUseOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool EnableUseOutput { get; }
 ref bool FirstCollisionAfterLaunch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool FirstCollisionAfterLaunch { get; }
 ref bool ForceNavIgnore { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool ForceNavIgnore { get; }
 ref bool ForceNpcExclude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool ForceNpcExclude { get; }
 ref float ForceToEnableMotion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float ForceToEnableMotion { get; }
 ref Color GlowColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -166,7 +166,7 @@ ref Color GlowColor { get; }
 ref int GlowRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -176,7 +176,7 @@ ref int GlowRange { get; }
 ref int GlowRangeMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int GlowRangeMin { get; }
 ref bool HasBeenAwakened { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool HasBeenAwakened { get; }
 ref int InitialGlowState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -206,7 +206,7 @@ ref int InitialGlowState { get; }
 ref bool IsOverrideProp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool IsOverrideProp { get; }
 ISchemaFixedArray<int> ItemCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -226,7 +226,7 @@ ISchemaFixedArray<int> ItemCount { get; }
 GameTime_t LastBurn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -236,7 +236,7 @@ GameTime_t LastBurn { get; }
 ref float MassScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -246,7 +246,7 @@ ref float MassScale { get; }
 CEntityIOOutput MotionEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -256,7 +256,7 @@ CEntityIOOutput MotionEnabled { get; }
 ref bool MuteImpactEffects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -266,7 +266,7 @@ ref bool MuteImpactEffects { get; }
 GameTime_t NextCheckDisableMotionContactsTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -276,7 +276,7 @@ GameTime_t NextCheckDisableMotionContactsTime { get; }
 ref bool NoNavmeshBlocker { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -286,7 +286,7 @@ ref bool NoNavmeshBlocker { get; }
 CEntityIOOutput OnAsleep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -296,7 +296,7 @@ CEntityIOOutput OnAsleep { get; }
 CEntityIOOutput OnAwake { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -306,7 +306,7 @@ CEntityIOOutput OnAwake { get; }
 CEntityIOOutput OnAwakened { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -316,7 +316,7 @@ CEntityIOOutput OnAwakened { get; }
 CEntityIOOutput OnOutOfWorld { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -326,7 +326,7 @@ CEntityIOOutput OnOutOfWorld { get; }
 CEntityIOOutput OnPlayerPickup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -336,7 +336,7 @@ CEntityIOOutput OnPlayerPickup { get; }
 CEntityIOOutput OnPlayerUse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -346,7 +346,7 @@ CEntityIOOutput OnPlayerUse { get; }
 ref bool RemovableForAmmoBalancing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -356,7 +356,7 @@ ref bool RemovableForAmmoBalancing { get; }
 ref bool ShouldAutoConvertBackFromDebris { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -366,7 +366,7 @@ ref bool ShouldAutoConvertBackFromDebris { get; }
 string StrItemClass { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -376,7 +376,7 @@ string StrItemClass { get; set; }
 ref bool ThrownByPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -386,7 +386,7 @@ ref bool ThrownByPlayer { get; }
 ref bool TouchedByPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

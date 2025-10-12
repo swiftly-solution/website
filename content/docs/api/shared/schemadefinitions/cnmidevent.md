@@ -6,7 +6,7 @@ title: CNmIDEvent
 public interface CNmIDEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmIDEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmIDEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNm
 ref CGlobalSymbol ID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -26,7 +26,7 @@ ref CGlobalSymbol ID { get; }
 ref CGlobalSymbol SecondaryID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

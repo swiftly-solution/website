@@ -6,7 +6,7 @@ title: sky3dparams_t
 public interface sky3dparams_t : ISchemaClass<sky3dparams_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface sky3dparams_t : ISchemaClass<sky3dparams_t>, ISchemaField, ISch
 ref bool Clip3DSkyBoxNearToWorldFar { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Clip3DSkyBoxNearToWorldFar { get; }
 ref float Clip3DSkyBoxNearToWorldFarOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Clip3DSkyBoxNearToWorldFarOffset { get; }
 fogparams_t Fog { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fogparams_t](/docs/api/shared/schemadefinitions/fogparams_t)
 
@@ -46,7 +46,7 @@ fogparams_t Fog { get; }
 ref Vector Origin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector Origin { get; }
 ref short Scale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -66,7 +66,7 @@ ref short Scale { get; }
 ref uint WorldGroupID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

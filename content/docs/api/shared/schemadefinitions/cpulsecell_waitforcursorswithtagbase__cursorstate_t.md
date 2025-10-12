@@ -6,7 +6,7 @@ title: CPulseCell_WaitForCursorsWithTagBase__CursorState_t
 public interface CPulseCell_WaitForCursorsWithTagBase__CursorState_t : ISchemaClass<CPulseCell_WaitForCursorsWithTagBase__CursorState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_WaitForCursorsWithTagBase__CursorState_t : ISchemaCl
 SchemaUntypedField TagName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

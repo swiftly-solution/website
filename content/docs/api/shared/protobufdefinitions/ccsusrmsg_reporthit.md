@@ -6,7 +6,7 @@ title: CCSUsrMsg_ReportHit
 public interface CCSUsrMsg_ReportHit : ITypedProtobuf<CCSUsrMsg_ReportHit>, INativeHandle, INetMessage<CCSUsrMsg_ReportHit>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ReportHit : ITypedProtobuf<CCSUsrMsg_ReportHit>, INat
 float PosX { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float PosX { get; set; }
 float PosY { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float PosY { get; set; }
 float PosZ { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float PosZ { get; set; }
 float Timestamp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

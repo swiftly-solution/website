@@ -6,5 +6,5 @@ title: InfoForResourceTypeCNmIKRig
 public interface InfoForResourceTypeCNmIKRig : ISchemaClass<InfoForResourceTypeCNmIKRig>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

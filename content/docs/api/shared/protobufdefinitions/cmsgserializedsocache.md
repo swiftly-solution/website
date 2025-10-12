@@ -6,7 +6,7 @@ title: CMsgSerializedSOCache
 public interface CMsgSerializedSOCache : ITypedProtobuf<CMsgSerializedSOCache>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSerializedSOCache : ITypedProtobuf<CMsgSerializedSOCache>, 
 IProtobufRepeatedFieldSubMessageType<CMsgSerializedSOCache_Cache> Caches { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSerializedSOCache_Cache](/docs/api/shared/protobufdefinitions/cmsgserializedsocache_cache)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSerializedSOCache_Cache> Caches { get; 
 uint FileVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint FileVersion { get; set; }
 uint GcSocacheFileVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

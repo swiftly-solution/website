@@ -6,7 +6,7 @@ title: CNmFootEvent
 public interface CNmFootEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmFootEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFootEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<C
 ref NmFootPhase_t Phase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmFootPhase_t](/docs/api/shared/schemadefinitions/nmfootphase_t)
 

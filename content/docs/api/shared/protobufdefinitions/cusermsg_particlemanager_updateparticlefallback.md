@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_UpdateParticleFallback
 public interface CUserMsg_ParticleManager_UpdateParticleFallback : ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticleFallback>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_UpdateParticleFallback : ITypedProtobu
 int ControlPoint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ControlPoint { get; set; }
 Vector Position { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

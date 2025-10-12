@@ -6,7 +6,7 @@ title: FeRigidColliderIndices_t
 public interface FeRigidColliderIndices_t : ISchemaClass<FeRigidColliderIndices_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeRigidColliderIndices_t : ISchemaClass<FeRigidColliderIndices_
 ref ushort BoxRigidIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort BoxRigidIndex { get; }
 ref ushort CollisionPlaneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort CollisionPlaneIndex { get; }
 ref ushort SDFRigidIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort SDFRigidIndex { get; }
 ref ushort SphereRigidIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -56,7 +56,7 @@ ref ushort SphereRigidIndex { get; }
 ref ushort TaperedCapsuleRigidIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

@@ -6,7 +6,7 @@ title: CBodyGroupSetting
 public interface CBodyGroupSetting : ISchemaClass<CBodyGroupSetting>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBodyGroupSetting : ISchemaClass<CBodyGroupSetting>, ISchemaFie
 string BodyGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string BodyGroupName { get; set; }
 ref int BodyGroupOption { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CPulse_Variable
 public interface CPulse_Variable : ISchemaClass<CPulse_Variable>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulse_Variable : ISchemaClass<CPulse_Variable>, ISchemaField, 
 SchemaUntypedField DefaultValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField DefaultValue { get; }
 string Description { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Description { get; set; }
 PulseDocNodeID_t EditorNodeID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
@@ -46,7 +46,7 @@ PulseDocNodeID_t EditorNodeID { get; }
 ref bool IsObservable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool IsObservable { get; }
 ref bool IsPublicBlackboardVariable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IsPublicBlackboardVariable { get; }
 ref PulseVariableKeysSource_t KeysSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseVariableKeysSource_t](/docs/api/shared/schemadefinitions/pulsevariablekeyssource_t)
 
@@ -76,7 +76,7 @@ ref PulseVariableKeysSource_t KeysSource { get; }
 SchemaUntypedField Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -86,7 +86,7 @@ SchemaUntypedField Name { get; }
 SchemaUntypedField Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

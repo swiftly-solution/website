@@ -6,7 +6,7 @@ title: FeCtrlSoftOffset_t
 public interface FeCtrlSoftOffset_t : ISchemaClass<FeCtrlSoftOffset_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeCtrlSoftOffset_t : ISchemaClass<FeCtrlSoftOffset_t>, ISchemaF
 ref float Alpha { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Alpha { get; }
 ref ushort CtrlChild { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort CtrlChild { get; }
 ref ushort CtrlParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort CtrlParent { get; }
 ref Vector Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

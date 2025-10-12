@@ -6,7 +6,7 @@ title: CEntityMessagePropagateForce
 public interface CEntityMessagePropagateForce : ITypedProtobuf<CEntityMessagePropagateForce>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityMessagePropagateForce : ITypedProtobuf<CEntityMessagePro
 CEntityMsg EntityMsg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityMsg](/docs/api/shared/protobufdefinitions/centitymsg)
 
@@ -26,7 +26,7 @@ CEntityMsg EntityMsg { get; }
 Vector Impulse { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

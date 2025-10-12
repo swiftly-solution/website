@@ -6,7 +6,7 @@ title: ParticleNode_t
 public interface ParticleNode_t : ISchemaClass<ParticleNode_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParticleNode_t : ISchemaClass<ParticleNode_t>, ISchemaField, IS
 ref float EndcapTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float EndcapTime { get; }
 ref CHandle<CBaseEntity> Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -36,7 +36,7 @@ ref CHandle<CBaseEntity> Entity { get; }
 ref float GrowthDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float GrowthDuration { get; }
 ref Vector GrowthOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -56,7 +56,7 @@ ref Vector GrowthOrigin { get; }
 ParticleIndex_t Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleIndex_t](/docs/api/shared/schemadefinitions/particleindex_t)
 
@@ -66,7 +66,7 @@ ParticleIndex_t Index { get; }
 ref bool MarkedForDelete { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool MarkedForDelete { get; }
 GameTime_t StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 

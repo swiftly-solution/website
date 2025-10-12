@@ -6,7 +6,7 @@ title: CMsgOpenCrate
 public interface CMsgOpenCrate : ITypedProtobuf<CMsgOpenCrate>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgOpenCrate : ITypedProtobuf<CMsgOpenCrate>, INativeHandle
 bool ForRental { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool ForRental { get; set; }
 uint PointsRemaining { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint PointsRemaining { get; set; }
 ulong SubjectItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong SubjectItemId { get; set; }
 ulong ToolItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

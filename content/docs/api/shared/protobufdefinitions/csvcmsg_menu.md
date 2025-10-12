@@ -6,7 +6,7 @@ title: CSVCMsg_Menu
 public interface CSVCMsg_Menu : ITypedProtobuf<CSVCMsg_Menu>, INativeHandle, INetMessage<CSVCMsg_Menu>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_Menu : ITypedProtobuf<CSVCMsg_Menu>, INativeHandle, INe
 int DialogType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int DialogType { get; set; }
 byte[] MenuKeyValues { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntry
 public interface CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntry : ITypedProtobuf<CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntry>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GiftsLeaderboardResponse_GiftLeaderboardEntr
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 uint Gifts { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

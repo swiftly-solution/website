@@ -6,7 +6,7 @@ title: CTriggerBuoyancy
 public interface CTriggerBuoyancy : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerBuoyancy>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTriggerBuoyancy : CBaseTrigger, CBaseToggle, CBaseModelEntity,
 CBuoyancyHelper BuoyancyHelper { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBuoyancyHelper](/docs/api/shared/schemadefinitions/cbuoyancyhelper)
 
@@ -26,7 +26,7 @@ CBuoyancyHelper BuoyancyHelper { get; }
 ref float FluidDensity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: CWorkshop_SetItemPaymentRules_Request
 public interface CWorkshop_SetItemPaymentRules_Request : ITypedProtobuf<CWorkshop_SetItemPaymentRules_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWorkshop_SetItemPaymentRules_Request : ITypedProtobuf<CWorksho
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Appid { get; set; }
 CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule AssociatedWorkshopFileForDirectPayments { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule](/docs/api/shared/protobufdefinitions/cworkshop_setitempaymentrules_request_workshopdirectpaymentrule)
 
@@ -36,7 +36,7 @@ CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule AssociatedWorksh
 IProtobufRepeatedFieldSubMessageType<CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule> AssociatedWorkshopFiles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CWorkshop_SetItemPaymentRules_Request_WorkshopItemPaymentRule](/docs/api/shared/protobufdefinitions/cworkshop_setitempaymentrules_request_workshopitempaymentrule)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldSubMessageType<CWorkshop_SetItemPaymentRules_Request_Works
 uint Gameitemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint Gameitemid { get; set; }
 bool MakeWorkshopFilesSubscribable { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ bool MakeWorkshopFilesSubscribable { get; set; }
 IProtobufRepeatedFieldSubMessageType<CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule> PartnerAccounts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CWorkshop_SetItemPaymentRules_Request_PartnerItemPaymentRule](/docs/api/shared/protobufdefinitions/cworkshop_setitempaymentrules_request_partneritempaymentrule)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldSubMessageType<CWorkshop_SetItemPaymentRules_Request_Partn
 bool ValidateOnly { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

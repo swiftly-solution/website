@@ -6,7 +6,7 @@ title: CExampleSchemaVData_PolymorphicDerivedA
 public interface CExampleSchemaVData_PolymorphicDerivedA : CExampleSchemaVData_PolymorphicBase, ISchemaClass<CExampleSchemaVData_PolymorphicBase>, ISchemaClass<CExampleSchemaVData_PolymorphicDerivedA>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CExampleSchemaVData_PolymorphicDerivedA : CExampleSchemaVData_P
 ref int DerivedA { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

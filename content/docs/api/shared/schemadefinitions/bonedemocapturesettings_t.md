@@ -6,7 +6,7 @@ title: BoneDemoCaptureSettings_t
 public interface BoneDemoCaptureSettings_t : ISchemaClass<BoneDemoCaptureSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface BoneDemoCaptureSettings_t : ISchemaClass<BoneDemoCaptureSetting
 string BoneName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string BoneName { get; set; }
 ref float ErrorQuantizationRotationMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float ErrorQuantizationRotationMax { get; }
 ref float ErrorQuantizationScaleMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float ErrorQuantizationScaleMax { get; }
 ref float ErrorQuantizationTranslationMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float ErrorQuantizationTranslationMax { get; }
 ref float ErrorSplineRotationMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float ErrorSplineRotationMax { get; }
 ref float ErrorSplineScaleMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float ErrorSplineScaleMax { get; }
 ref float ErrorSplineTranslationMax { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

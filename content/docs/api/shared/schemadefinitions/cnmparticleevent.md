@@ -6,7 +6,7 @@ title: CNmParticleEvent
 public interface CNmParticleEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmParticleEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmParticleEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaCla
 string AttachmentPoint0 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AttachmentPoint0 { get; set; }
 string AttachmentPoint1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string AttachmentPoint1 { get; set; }
 ref ParticleAttachment_t AttachmentType0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttachment_t](/docs/api/shared/schemadefinitions/particleattachment_t)
 
@@ -46,7 +46,7 @@ ref ParticleAttachment_t AttachmentType0 { get; }
 ref ParticleAttachment_t AttachmentType1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttachment_t](/docs/api/shared/schemadefinitions/particleattachment_t)
 
@@ -56,7 +56,7 @@ ref ParticleAttachment_t AttachmentType1 { get; }
 string Config { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string Config { get; set; }
 ref bool DetachFromOwner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool DetachFromOwner { get; }
 string EffectForConfig { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string EffectForConfig { get; set; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ParticleSystem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -96,7 +96,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> ParticleSystem {
 ref bool PlayEndCap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool PlayEndCap { get; }
 ref CNmEventRelevance_t Relevance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmEventRelevance_t](/docs/api/shared/schemadefinitions/cnmeventrelevance_t)
 
@@ -116,7 +116,7 @@ ref CNmEventRelevance_t Relevance { get; }
 ref bool StopImmediately { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool StopImmediately { get; }
 string Tags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string Tags { get; set; }
 ref CNmParticleEvent__Type_t Type { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmParticleEvent__Type_t](/docs/api/shared/schemadefinitions/cnmparticleevent__type_t)
 

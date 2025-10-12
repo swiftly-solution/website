@@ -6,7 +6,7 @@ title: CFlexOp
 public interface CFlexOp : ISchemaClass<CFlexOp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFlexOp : ISchemaClass<CFlexOp>, ISchemaField, ISchemaClass, IN
 ref int Data { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Data { get; }
 ref FlexOpCode_t OpCode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FlexOpCode_t](/docs/api/shared/schemadefinitions/flexopcode_t)
 

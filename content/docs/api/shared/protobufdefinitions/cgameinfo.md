@@ -6,7 +6,7 @@ title: CGameInfo
 public interface CGameInfo : ITypedProtobuf<CGameInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameInfo : ITypedProtobuf<CGameInfo>, INativeHandle
 CGameInfo_CCSGameInfo Cs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGameInfo_CCSGameInfo](/docs/api/shared/protobufdefinitions/cgameinfo_ccsgameinfo)
 
@@ -26,7 +26,7 @@ CGameInfo_CCSGameInfo Cs { get; }
 CGameInfo_CDotaGameInfo Dota { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGameInfo_CDotaGameInfo](/docs/api/shared/protobufdefinitions/cgameinfo_cdotagameinfo)
 

@@ -6,7 +6,7 @@ title: CCSPlayer_ItemServices
 public interface CCSPlayer_ItemServices : CPlayer_ItemServices, CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_ItemServices>, ISchemaClass<CCSPlayer_ItemServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayer_ItemServices : CPlayer_ItemServices, CPlayerPawnCompo
 ref bool HasDefuser { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool HasDefuser { get; }
 ref bool HasHelmet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

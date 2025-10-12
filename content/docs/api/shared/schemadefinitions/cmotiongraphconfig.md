@@ -6,7 +6,7 @@ title: CMotionGraphConfig
 public interface CMotionGraphConfig : ISchemaClass<CMotionGraphConfig>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionGraphConfig : ISchemaClass<CMotionGraphConfig>, ISchemaF
 ref float Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Duration { get; }
 MotionIndex MotionIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MotionIndex](/docs/api/shared/schemadefinitions/motionindex)
 
@@ -36,7 +36,7 @@ MotionIndex MotionIndex { get; }
 ISchemaFixedArray<float> ParamValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -46,7 +46,7 @@ ISchemaFixedArray<float> ParamValues { get; }
 ref int SampleCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int SampleCount { get; }
 ref int SampleStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CCSUsrMsg_ShootInfo
 public interface CCSUsrMsg_ShootInfo : ITypedProtobuf<CCSUsrMsg_ShootInfo>, INativeHandle, INetMessage<CCSUsrMsg_ShootInfo>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ShootInfo : ITypedProtobuf<CCSUsrMsg_ShootInfo>, INat
 int FrameNumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int FrameNumber { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgTransform> HitboxTransforms { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgTransform](/docs/api/shared/protobufdefinitions/cmsgtransform)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgTransform> HitboxTransforms { get; }
 QAngle ShootDir { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -46,7 +46,7 @@ QAngle ShootDir { get; set; }
 Vector ShootPos { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

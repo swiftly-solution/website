@@ -6,7 +6,7 @@ title: RnHullDesc_t
 public interface RnHullDesc_t : RnShapeDesc_t, ISchemaClass<RnShapeDesc_t>, ISchemaClass<RnHullDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnHullDesc_t : RnShapeDesc_t, ISchemaClass<RnShapeDesc_t>, ISch
 RnHull_t Hull { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RnHull_t](/docs/api/shared/schemadefinitions/rnhull_t)
 

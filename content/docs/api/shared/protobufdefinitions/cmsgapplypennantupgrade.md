@@ -6,7 +6,7 @@ title: CMsgApplyPennantUpgrade
 public interface CMsgApplyPennantUpgrade : ITypedProtobuf<CMsgApplyPennantUpgrade>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgApplyPennantUpgrade : ITypedProtobuf<CMsgApplyPennantUpgrad
 ulong PennantItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong PennantItemId { get; set; }
 ulong UpgradeItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

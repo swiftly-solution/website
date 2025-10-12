@@ -6,7 +6,7 @@ title: CVoiceContainerStaticAdditiveSynth__CHarmonic
 public interface CVoiceContainerStaticAdditiveSynth__CHarmonic : ISchemaClass<CVoiceContainerStaticAdditiveSynth__CHarmonic>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerStaticAdditiveSynth__CHarmonic : ISchemaClass<CV
 ref float Cents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Cents { get; }
 SchemaUntypedField Curve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Curve { get; }
 ref EMidiNote Fundamental { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EMidiNote](/docs/api/shared/schemadefinitions/emidinote)
 
@@ -46,7 +46,7 @@ ref EMidiNote Fundamental { get; }
 ref int Octave { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int Octave { get; }
 ref float Phase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float Phase { get; }
 CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance VolumeScaling { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance](/docs/api/shared/schemadefinitions/cvoicecontainerstaticadditivesynth__cgainscaleperinstance)
 
@@ -76,7 +76,7 @@ CVoiceContainerStaticAdditiveSynth__CGainScalePerInstance VolumeScaling { get; }
 ref EWaveform Waveform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EWaveform](/docs/api/shared/schemadefinitions/ewaveform)
 

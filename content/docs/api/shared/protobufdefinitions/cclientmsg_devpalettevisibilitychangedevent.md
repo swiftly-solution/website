@@ -6,7 +6,7 @@ title: CClientMsg_DevPaletteVisibilityChangedEvent
 public interface CClientMsg_DevPaletteVisibilityChangedEvent : ITypedProtobuf<CClientMsg_DevPaletteVisibilityChangedEvent>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CClientMsg_DevPaletteVisibilityChangedEvent : ITypedProtobuf<CC
 bool Visible { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

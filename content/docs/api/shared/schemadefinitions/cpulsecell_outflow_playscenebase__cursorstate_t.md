@@ -6,7 +6,7 @@ title: CPulseCell_Outflow_PlaySceneBase__CursorState_t
 public interface CPulseCell_Outflow_PlaySceneBase__CursorState_t : ISchemaClass<CPulseCell_Outflow_PlaySceneBase__CursorState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Outflow_PlaySceneBase__CursorState_t : ISchemaClass<
 ref CHandle<CBaseEntity> MainActor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -26,7 +26,7 @@ ref CHandle<CBaseEntity> MainActor { get; }
 ref CHandle<CBaseEntity> SceneInstance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

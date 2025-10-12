@@ -6,7 +6,7 @@ title: OperationalStatisticsPacket
 public interface OperationalStatisticsPacket : ITypedProtobuf<OperationalStatisticsPacket>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface OperationalStatisticsPacket : ITypedProtobuf<OperationalStatist
 int Mstimestamp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Mstimestamp { get; set; }
 int Packetid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Packetid { get; set; }
 IProtobufRepeatedFieldSubMessageType<OperationalStatisticElement> Values { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[OperationalStatisticElement](/docs/api/shared/protobufdefinitions/operationalstatisticelement)>
 

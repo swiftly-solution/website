@@ -6,7 +6,7 @@ title: CBaseModelEntity
 public interface CBaseModelEntity : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseModelEntity : CBaseEntity, CEntityInstance, ISchemaClass<C
 ref int AddDecal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int AddDecal { get; }
 ref bool AllowFadeInView { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool AllowFadeInView { get; }
 CHitboxComponent CHitboxComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHitboxComponent](/docs/api/shared/schemadefinitions/chitboxcomponent)
 
@@ -46,7 +46,7 @@ CHitboxComponent CHitboxComponent { get; }
 CRenderComponent? CRenderComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRenderComponent](/docs/api/shared/schemadefinitions/crendercomponent)?
 
@@ -56,7 +56,7 @@ CRenderComponent? CRenderComponent { get; }
 CCollisionProperty Collision { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCollisionProperty](/docs/api/shared/schemadefinitions/ccollisionproperty)
 
@@ -66,7 +66,7 @@ CCollisionProperty Collision { get; }
 ref CUtlVector<CHandle<CBaseModelEntity>> ConfigEntitiesToPropagateMaterialDecalsTo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>>
 
@@ -76,7 +76,7 @@ ref CUtlVector<CHandle<CBaseModelEntity>> ConfigEntitiesToPropagateMaterialDecal
 ref Vector DecalForwardAxis { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector DecalForwardAxis { get; }
 ref float DecalHealBloodRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float DecalHealBloodRate { get; }
 ref float DecalHealHeightRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float DecalHealHeightRate { get; }
 ref DecalMode_t DecalMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DecalMode_t](/docs/api/shared/schemadefinitions/decalmode_t)
 
@@ -116,7 +116,7 @@ ref DecalMode_t DecalMode { get; }
 ref Vector DecalPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -126,7 +126,7 @@ ref Vector DecalPosition { get; }
 ref HitGroup_t DestructiblePartInitialStateDestructed0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 
@@ -136,7 +136,7 @@ ref HitGroup_t DestructiblePartInitialStateDestructed0 { get; }
 ref int DestructiblePartInitialStateDestructed0_PartIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int DestructiblePartInitialStateDestructed0_PartIndex { get; }
 ref HitGroup_t DestructiblePartInitialStateDestructed1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 
@@ -156,7 +156,7 @@ ref HitGroup_t DestructiblePartInitialStateDestructed1 { get; }
 ref int DestructiblePartInitialStateDestructed1_PartIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ ref int DestructiblePartInitialStateDestructed1_PartIndex { get; }
 ref HitGroup_t DestructiblePartInitialStateDestructed2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 
@@ -176,7 +176,7 @@ ref HitGroup_t DestructiblePartInitialStateDestructed2 { get; }
 ref int DestructiblePartInitialStateDestructed2_PartIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int DestructiblePartInitialStateDestructed2_PartIndex { get; }
 ref HitGroup_t DestructiblePartInitialStateDestructed3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 
@@ -196,7 +196,7 @@ ref HitGroup_t DestructiblePartInitialStateDestructed3 { get; }
 ref int DestructiblePartInitialStateDestructed3_PartIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -206,7 +206,7 @@ ref int DestructiblePartInitialStateDestructed3_PartIndex { get; }
 ref HitGroup_t DestructiblePartInitialStateDestructed4 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 
@@ -216,7 +216,7 @@ ref HitGroup_t DestructiblePartInitialStateDestructed4 { get; }
 ref int DestructiblePartInitialStateDestructed4_PartIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -226,7 +226,7 @@ ref int DestructiblePartInitialStateDestructed4_PartIndex { get; }
 CDestructiblePartsComponent? DestructiblePartsSystemComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CDestructiblePartsComponent](/docs/api/shared/schemadefinitions/cdestructiblepartscomponent)?
 
@@ -236,7 +236,7 @@ CDestructiblePartsComponent? DestructiblePartsSystemComponent { get; }
 ISchemaFixedArray<uint> DisabledHitGroups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -246,7 +246,7 @@ ISchemaFixedArray<uint> DisabledHitGroups { get; }
 GameTime_t DissolveStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -256,7 +256,7 @@ GameTime_t DissolveStartTime { get; }
 ref float FadeMaxDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -266,7 +266,7 @@ ref float FadeMaxDist { get; }
 ref float FadeMinDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -276,7 +276,7 @@ ref float FadeMinDist { get; }
 ref float FadeScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -286,7 +286,7 @@ ref float FadeScale { get; }
 CGlowProperty Glow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlowProperty](/docs/api/shared/schemadefinitions/cglowproperty)
 
@@ -296,7 +296,7 @@ CGlowProperty Glow { get; }
 ref float GlowBackfaceMult { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -306,7 +306,7 @@ ref float GlowBackfaceMult { get; }
 ref Vector LastDamagePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -316,7 +316,7 @@ ref Vector LastDamagePosition { get; }
 ref CGlobalSymbol LastDamageSourceName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -326,7 +326,7 @@ ref CGlobalSymbol LastDamageSourceName { get; }
 ref HitGroup_t LastHitGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 
@@ -336,7 +336,7 @@ ref HitGroup_t LastHitGroup { get; }
 ref bool NoInterpolate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -346,7 +346,7 @@ ref bool NoInterpolate { get; }
 ref byte ObjectCulling { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -356,7 +356,7 @@ ref byte ObjectCulling { get; }
 CEntityIOOutput OnIgnite { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -366,7 +366,7 @@ CEntityIOOutput OnIgnite { get; }
 ref Color Render { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -376,7 +376,7 @@ ref Color Render { get; }
 ref CUtlVector RenderAttributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -386,7 +386,7 @@ ref CUtlVector RenderAttributes { get; }
 ref RenderFx_t RenderFX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RenderFx_t](/docs/api/shared/schemadefinitions/renderfx_t)
 
@@ -396,7 +396,7 @@ ref RenderFx_t RenderFX { get; }
 ref RenderMode_t RenderMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RenderMode_t](/docs/api/shared/schemadefinitions/rendermode_t)
 
@@ -406,7 +406,7 @@ ref RenderMode_t RenderMode { get; }
 ref bool RenderToCubemaps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -416,7 +416,7 @@ ref bool RenderToCubemaps { get; }
 ref DecalMode_t RequiredDecalMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DecalMode_t](/docs/api/shared/schemadefinitions/decalmode_t)
 
@@ -426,7 +426,7 @@ ref DecalMode_t RequiredDecalMode { get; }
 ref float ShadowStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -436,7 +436,7 @@ ref float ShadowStrength { get; }
 CNetworkViewOffsetVector ViewOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkViewOffsetVector](/docs/api/shared/schemadefinitions/cnetworkviewoffsetvector)
 
@@ -598,7 +598,7 @@ void RequiredDecalModeUpdated()
 void SetModel(string model)
 ```
 
-#### Parameters
+- Parameters
 
 - **model**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The model path to be used.
 

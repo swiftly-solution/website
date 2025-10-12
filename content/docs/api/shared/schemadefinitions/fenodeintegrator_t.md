@@ -6,7 +6,7 @@ title: FeNodeIntegrator_t
 public interface FeNodeIntegrator_t : ISchemaClass<FeNodeIntegrator_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeNodeIntegrator_t : ISchemaClass<FeNodeIntegrator_t>, ISchemaF
 ref float AnimationForceAttraction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AnimationForceAttraction { get; }
 ref float AnimationVertexAttraction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AnimationVertexAttraction { get; }
 ref float Gravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float Gravity { get; }
 ref float PointDamping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

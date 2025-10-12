@@ -6,7 +6,7 @@ title: CRenderBufferBinding
 public interface CRenderBufferBinding : ISchemaClass<CRenderBufferBinding>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRenderBufferBinding : ISchemaClass<CRenderBufferBinding>, ISch
 ref uint BindOffsetBytes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint BindOffsetBytes { get; }
 ref ulong Buffer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

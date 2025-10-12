@@ -6,7 +6,7 @@ title: CMsgCsgoSteamUserStatChange
 public interface CMsgCsgoSteamUserStatChange : ITypedProtobuf<CMsgCsgoSteamUserStatChange>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgCsgoSteamUserStatChange : ITypedProtobuf<CMsgCsgoSteamUserS
 bool Absolute { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool Absolute { get; set; }
 int Delta { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Delta { get; set; }
 int Ecsgosteamuserstat { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

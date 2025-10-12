@@ -6,7 +6,7 @@ title: CLogicNavigation
 public interface CLogicNavigation : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CLogicNavigation>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLogicNavigation : CLogicalEntity, CServerOnlyEntity, CBaseEnti
 ref bool IsOn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool IsOn { get; }
 ref navproperties_t NavProperty { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [navproperties_t](/docs/api/shared/schemadefinitions/navproperties_t)
 

@@ -6,7 +6,7 @@ title: CAnimationGraphVisualizerAxis
 public interface CAnimationGraphVisualizerAxis : CAnimationGraphVisualizerPrimitiveBase, ISchemaClass<CAnimationGraphVisualizerPrimitiveBase>, ISchemaClass<CAnimationGraphVisualizerAxis>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimationGraphVisualizerAxis : CAnimationGraphVisualizerPrimit
 ref float AxisSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AxisSize { get; }
 ref CTransform XWsTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

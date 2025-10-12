@@ -6,7 +6,7 @@ title: DynamicMeshDeformParams_t
 public interface DynamicMeshDeformParams_t : ISchemaClass<DynamicMeshDeformParams_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface DynamicMeshDeformParams_t : ISchemaClass<DynamicMeshDeformParam
 ref bool ComputeDynamicMeshTensionAfterAnimation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ComputeDynamicMeshTensionAfterAnimation { get; }
 ref bool RecomputeSmoothNormalsAfterAnimation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool RecomputeSmoothNormalsAfterAnimation { get; }
 ref bool SmoothNormalsAcrossUvSeams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool SmoothNormalsAcrossUvSeams { get; }
 ref float TensionCompressScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float TensionCompressScale { get; }
 ref float TensionStretchScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

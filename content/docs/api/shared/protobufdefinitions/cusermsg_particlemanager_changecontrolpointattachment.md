@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_ChangeControlPointAttachment
 public interface CUserMsg_ParticleManager_ChangeControlPointAttachment : ITypedProtobuf<CUserMsg_ParticleManager_ChangeControlPointAttachment>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_ChangeControlPointAttachment : ITypedP
 int AttachmentNew { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int AttachmentNew { get; set; }
 int AttachmentOld { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int AttachmentOld { get; set; }
 uint EntityHandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

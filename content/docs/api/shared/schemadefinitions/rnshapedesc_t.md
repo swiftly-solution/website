@@ -6,7 +6,7 @@ title: RnShapeDesc_t
 public interface RnShapeDesc_t : ISchemaClass<RnShapeDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnShapeDesc_t : ISchemaClass<RnShapeDesc_t>, ISchemaField, ISch
 ref uint CollisionAttributeIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint CollisionAttributeIndex { get; }
 ref uint SurfacePropertyIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint SurfacePropertyIndex { get; }
 ref uint ToolMaterialHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint ToolMaterialHash { get; }
 string UserFriendlyName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string UserFriendlyName { get; set; }
 ref bool UserFriendlyNameLong { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool UserFriendlyNameLong { get; }
 ref bool UserFriendlyNameSealed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

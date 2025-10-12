@@ -6,7 +6,7 @@ title: CMultiLightProxy
 public interface CMultiLightProxy : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CMultiLightProxy>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMultiLightProxy : CLogicalEntity, CServerOnlyEntity, CBaseEnti
 ref float BrightnessDelta { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BrightnessDelta { get; }
 ref float CurrentBrightnessMultiplier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float CurrentBrightnessMultiplier { get; }
 string LightClassFilter { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string LightClassFilter { get; set; }
 string LightNameFilter { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string LightNameFilter { get; set; }
 ref float LightRadiusFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float LightRadiusFilter { get; }
 ref CUtlVector<CHandle<CLightEntity>> Lights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CLightEntity](/docs/api/shared/schemadefinitions/clightentity)>>
 
@@ -76,7 +76,7 @@ ref CUtlVector<CHandle<CLightEntity>> Lights { get; }
 ref bool PerformScreenFade { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool PerformScreenFade { get; }
 ref float TargetBrightnessMultiplier { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

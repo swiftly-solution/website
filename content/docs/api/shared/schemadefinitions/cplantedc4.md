@@ -6,7 +6,7 @@ title: CPlantedC4
 public interface CPlantedC4 : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CPlantedC4>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPlantedC4 : CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEn
 CAttributeContainer AttributeManager { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAttributeContainer](/docs/api/shared/schemadefinitions/cattributecontainer)
 
@@ -26,7 +26,7 @@ CAttributeContainer AttributeManager { get; }
 ref bool BeingDefused { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool BeingDefused { get; }
 ref bool BombDefused { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool BombDefused { get; }
 ref CHandle<CCSPlayerPawn> BombDefuser { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -56,7 +56,7 @@ ref CHandle<CCSPlayerPawn> BombDefuser { get; }
 ref int BombSite { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int BombSite { get; }
 ref bool BombTicking { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool BombTicking { get; }
 GameTime_t C4Blow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -86,7 +86,7 @@ GameTime_t C4Blow { get; }
 ref bool CannotBeDefused { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool CannotBeDefused { get; }
 ref QAngle CatchUpToPlayerEye { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -106,7 +106,7 @@ ref QAngle CatchUpToPlayerEye { get; }
 GameTime_t DefuseCountDown { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -116,7 +116,7 @@ GameTime_t DefuseCountDown { get; }
 ref float DefuseLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float DefuseLength { get; }
 EntitySpottedState_t EntitySpottedState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EntitySpottedState_t](/docs/api/shared/schemadefinitions/entityspottedstate_t)
 
@@ -136,7 +136,7 @@ EntitySpottedState_t EntitySpottedState { get; }
 ref bool HasExploded { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool HasExploded { get; }
 GameTime_t LastDefuseTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -156,7 +156,7 @@ GameTime_t LastDefuseTime { get; }
 GameTime_t LastSpinDetectionTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -166,7 +166,7 @@ GameTime_t LastSpinDetectionTime { get; }
 GameTime_t NextBotBeepTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -176,7 +176,7 @@ GameTime_t NextBotBeepTime { get; }
 CEntityIOOutput OnBombBeginDefuse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -186,7 +186,7 @@ CEntityIOOutput OnBombBeginDefuse { get; }
 CEntityIOOutput OnBombDefuseAborted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -196,7 +196,7 @@ CEntityIOOutput OnBombDefuseAborted { get; }
 CEntityIOOutput OnBombDefused { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -206,7 +206,7 @@ CEntityIOOutput OnBombDefused { get; }
 ref int ProgressBarTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -216,7 +216,7 @@ ref int ProgressBarTime { get; }
 ref int SourceSoundscapeHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -226,7 +226,7 @@ ref int SourceSoundscapeHash { get; }
 ref int SpotRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int SpotRules { get; }
 ref float TimerLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -246,7 +246,7 @@ ref float TimerLength { get; }
 ref bool TrainingPlacedByPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -256,7 +256,7 @@ ref bool TrainingPlacedByPlayer { get; }
 ref bool VoiceAlertFired { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -266,7 +266,7 @@ ref bool VoiceAlertFired { get; }
 ISchemaFixedArray<bool> VoiceAlertPlayed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)>
 

@@ -6,7 +6,7 @@ title: RenderHairStrandInfo_t
 public interface RenderHairStrandInfo_t : ISchemaClass<RenderHairStrandInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RenderHairStrandInfo_t : ISchemaClass<RenderHairStrandInfo_t>, 
 ref uint DataOffset_Segments { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint DataOffset_Segments { get; }
 ISchemaFixedArray<ushort> GuideBary_vBaseBary { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<ushort> GuideBary_vBaseBary { get; }
 ISchemaFixedArray<uint> GuideHairIndices_nSurfaceTriIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -46,7 +46,7 @@ ISchemaFixedArray<uint> GuideHairIndices_nSurfaceTriIndex { get; }
 ISchemaFixedArray<ushort> PackedBaseUv { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -56,7 +56,7 @@ ISchemaFixedArray<ushort> PackedBaseUv { get; }
 ref uint PackedSurfaceNormalOs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ ref uint PackedSurfaceNormalOs { get; }
 ref uint PackedSurfaceTangentOs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ ref uint PackedSurfaceTangentOs { get; }
 ISchemaFixedArray<ushort> RootOffset_flLengthScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 

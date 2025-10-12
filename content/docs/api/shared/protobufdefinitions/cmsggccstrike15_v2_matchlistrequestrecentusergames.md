@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchListRequestRecentUserGames
 public interface CMsgGCCStrike15_v2_MatchListRequestRecentUserGames : ITypedProtobuf<CMsgGCCStrike15_v2_MatchListRequestRecentUserGames>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchListRequestRecentUserGames : ITypedProt
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CAnimationGraphVisualizerLine
 public interface CAnimationGraphVisualizerLine : CAnimationGraphVisualizerPrimitiveBase, ISchemaClass<CAnimationGraphVisualizerPrimitiveBase>, ISchemaClass<CAnimationGraphVisualizerLine>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimationGraphVisualizerLine : CAnimationGraphVisualizerPrimit
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -26,7 +26,7 @@ ref Color Color { get; }
 ref Vector WsPositionEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector WsPositionEnd { get; }
 ref Vector WsPositionStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

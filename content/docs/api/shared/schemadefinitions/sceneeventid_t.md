@@ -6,7 +6,7 @@ title: SceneEventId_t
 public interface SceneEventId_t : ISchemaClass<SceneEventId_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SceneEventId_t : ISchemaClass<SceneEventId_t>, ISchemaField, IS
 ref uint Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

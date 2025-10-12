@@ -6,7 +6,7 @@ title: CSGOUserCmdPB
 public interface CSGOUserCmdPB : ITypedProtobuf<CSGOUserCmdPB>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSGOUserCmdPB : ITypedProtobuf<CSGOUserCmdPB>, INativeHandle
 int Attack1StartHistoryIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Attack1StartHistoryIndex { get; set; }
 int Attack2StartHistoryIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Attack2StartHistoryIndex { get; set; }
 CBaseUserCmdPB Base { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBaseUserCmdPB](/docs/api/shared/protobufdefinitions/cbaseusercmdpb)
 
@@ -46,7 +46,7 @@ CBaseUserCmdPB Base { get; }
 IProtobufRepeatedFieldSubMessageType<CSGOInputHistoryEntryPB> InputHistory { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSGOInputHistoryEntryPB](/docs/api/shared/protobufdefinitions/csgoinputhistoryentrypb)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldSubMessageType<CSGOInputHistoryEntryPB> InputHistory { get
 bool IsPredictingBodyShotFx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ bool IsPredictingBodyShotFx { get; set; }
 bool IsPredictingHeadShotFx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ bool IsPredictingHeadShotFx { get; set; }
 bool IsPredictingKillRagdolls { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ bool IsPredictingKillRagdolls { get; set; }
 bool LeftHandDesired { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

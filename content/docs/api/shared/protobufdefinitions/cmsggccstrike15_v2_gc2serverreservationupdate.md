@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GC2ServerReservationUpdate
 public interface CMsgGCCStrike15_v2_GC2ServerReservationUpdate : ITypedProtobuf<CMsgGCCStrike15_v2_GC2ServerReservationUpdate>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GC2ServerReservationUpdate : ITypedProtobuf<
 uint ViewersExternalSteam { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint ViewersExternalSteam { get; set; }
 uint ViewersExternalTotal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

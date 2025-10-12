@@ -6,7 +6,7 @@ title: CDemoRecovery
 public interface CDemoRecovery : ITypedProtobuf<CDemoRecovery>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoRecovery : ITypedProtobuf<CDemoRecovery>, INativeHandle
 CDemoRecovery_DemoInitialSpawnGroupEntry InitialSpawnGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CDemoRecovery_DemoInitialSpawnGroupEntry](/docs/api/shared/protobufdefinitions/cdemorecovery_demoinitialspawngroupentry)
 
@@ -26,7 +26,7 @@ CDemoRecovery_DemoInitialSpawnGroupEntry InitialSpawnGroup { get; }
 byte[] SpawnGroupMessage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

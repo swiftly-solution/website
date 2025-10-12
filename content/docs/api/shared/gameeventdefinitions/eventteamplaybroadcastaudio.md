@@ -6,7 +6,7 @@ title: EventTeamplayBroadcastAudio
 public interface EventTeamplayBroadcastAudio : IGameEvent<EventTeamplayBroadcastAudio>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventTeamplayBroadcastAudio : IGameEvent<EventTeamplayBroadcast
 string Sound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Sound { get; set; }
 byte Team { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

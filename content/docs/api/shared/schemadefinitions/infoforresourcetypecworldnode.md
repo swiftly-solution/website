@@ -6,5 +6,5 @@ title: InfoForResourceTypeCWorldNode
 public interface InfoForResourceTypeCWorldNode : ISchemaClass<InfoForResourceTypeCWorldNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

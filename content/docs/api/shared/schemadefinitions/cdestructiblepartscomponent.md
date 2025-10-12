@@ -6,7 +6,7 @@ title: CDestructiblePartsComponent
 public interface CDestructiblePartsComponent : ISchemaClass<CDestructiblePartsComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDestructiblePartsComponent : ISchemaClass<CDestructiblePartsCo
 ref CUtlVector<ushort> DamageTakenByHitGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<ushort> DamageTakenByHitGroup { get; }
 ref int LastHitDamageLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int LastHitDamageLevel { get; }
 ref CHandle<CBaseModelEntity> Owner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseModelEntity](/docs/api/shared/schemadefinitions/cbasemodelentity)>
 
@@ -46,7 +46,7 @@ ref CHandle<CBaseModelEntity> Owner { get; }
 ref CNetworkVarChainer __m_pChainEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkVarChainer](/docs/api/shared/natives/cnetworkvarchainer)
 

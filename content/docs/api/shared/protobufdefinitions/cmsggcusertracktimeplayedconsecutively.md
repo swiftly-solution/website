@@ -6,7 +6,7 @@ title: CMsgGCUserTrackTimePlayedConsecutively
 public interface CMsgGCUserTrackTimePlayedConsecutively : ITypedProtobuf<CMsgGCUserTrackTimePlayedConsecutively>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCUserTrackTimePlayedConsecutively : ITypedProtobuf<CMsgGCU
 uint State { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

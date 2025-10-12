@@ -6,7 +6,7 @@ title: ModelBoneFlexDriverControl_t
 public interface ModelBoneFlexDriverControl_t : ISchemaClass<ModelBoneFlexDriverControl_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ModelBoneFlexDriverControl_t : ISchemaClass<ModelBoneFlexDriver
 ref ModelBoneFlexComponent_t BoneComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ModelBoneFlexComponent_t](/docs/api/shared/schemadefinitions/modelboneflexcomponent_t)
 
@@ -26,7 +26,7 @@ ref ModelBoneFlexComponent_t BoneComponent { get; }
 string FlexController { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string FlexController { get; set; }
 ref uint FlexControllerToken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint FlexControllerToken { get; }
 ref float Max { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float Max { get; }
 ref float Min { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

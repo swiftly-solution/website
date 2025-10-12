@@ -6,7 +6,7 @@ title: IGameEventAccessor
 public interface IGameEventAccessor : INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface IGameEventAccessor : INativeHandle
 bool DontBroadcast { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -28,11 +28,11 @@ bool DontBroadcast { get; set; }
 bool GetBool(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Boolean value.
 
@@ -42,15 +42,15 @@ bool GetBool(string key)
 K GetEntity<K>(string key) where K : CEntityInstance
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - K - Entity instance.
 
-#### Type Parameters
+- Type Parameters
 
 - **K**:  - Entity type derived from <xref href="SwiftlyS2.Shared.SchemaDefinitions.CEntityInstance" data-throw-if-not-resolved="false"></xref>.
 
@@ -60,11 +60,11 @@ K GetEntity<K>(string key) where K : CEntityInstance
 int GetEntityIndex(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - Entity index.
 
@@ -74,11 +74,11 @@ int GetEntityIndex(string key)
 float GetFloat(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single) - Float value.
 
@@ -88,11 +88,11 @@ float GetFloat(string key)
 int GetInt32(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - Integer value.
 
@@ -102,11 +102,11 @@ int GetInt32(string key)
 int GetPawnEntityIndex(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - Pawn entity index.
 
@@ -116,11 +116,11 @@ int GetPawnEntityIndex(string key)
 IPlayer GetPlayer(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [IPlayer](/docs/api/shared/players/iplayer) - Player.
 
@@ -130,11 +130,11 @@ IPlayer GetPlayer(string key)
 CCSPlayerController GetPlayerController(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller) - Player controller.
 
@@ -144,11 +144,11 @@ CCSPlayerController GetPlayerController(string key)
 CCSPlayerPawn GetPlayerPawn(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn) - Player pawn.
 
@@ -158,11 +158,11 @@ CCSPlayerPawn GetPlayerPawn(string key)
 int GetPlayerSlot(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - Player slot.
 
@@ -172,11 +172,11 @@ int GetPlayerSlot(string key)
 nint GetPtr(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - Pointer value.
 
@@ -186,11 +186,11 @@ nint GetPtr(string key)
 string GetString(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - String value.
 
@@ -200,11 +200,11 @@ string GetString(string key)
 ulong GetUInt64(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 
-#### Returns
+- Returns
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - Unsigned 64-bit value.
 
@@ -214,7 +214,7 @@ ulong GetUInt64(string key)
 bool IsLocal()
 ```
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if local.
 
@@ -224,7 +224,7 @@ bool IsLocal()
 bool IsReliable()
 ```
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if reliable.
 
@@ -234,7 +234,7 @@ bool IsReliable()
 void SetBool(string key, bool value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Boolean value.
@@ -245,12 +245,12 @@ void SetBool(string key, bool value)
 void SetEntity<K>(string key, K value) where K : CEntityInstance
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: K - Entity instance.
 
-#### Type Parameters
+- Type Parameters
 
 - **K**:  - Entity type derived from <xref href="SwiftlyS2.Shared.SchemaDefinitions.CEntityInstance" data-throw-if-not-resolved="false"></xref>.
 
@@ -260,7 +260,7 @@ void SetEntity<K>(string key, K value) where K : CEntityInstance
 void SetEntityIndex(string key, int value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - Entity index.
@@ -271,7 +271,7 @@ void SetEntityIndex(string key, int value)
 void SetFloat(string key, float value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [float](https://learn.microsoft.com/dotnet/api/system.single) - Float value.
@@ -282,7 +282,7 @@ void SetFloat(string key, float value)
 void SetInt32(string key, int value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - Integer value.
@@ -293,7 +293,7 @@ void SetInt32(string key, int value)
 void SetPlayerSlot(string key, int value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - Player slot.
@@ -304,7 +304,7 @@ void SetPlayerSlot(string key, int value)
 void SetPtr(string key, nint value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - Pointer value.
@@ -315,7 +315,7 @@ void SetPtr(string key, nint value)
 void SetString(string key, string value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [string](https://learn.microsoft.com/dotnet/api/system.string) - String value.
@@ -326,7 +326,7 @@ void SetString(string key, string value)
 void SetUInt64(string key, ulong value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Field name.
 - **value**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64) - Unsigned 64-bit value.

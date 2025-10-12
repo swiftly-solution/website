@@ -6,7 +6,7 @@ title: CDynamicProp
 public interface CDynamicProp : CBreakableProp, CBaseProp, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseProp>, ISchemaClass<CBreakableProp>, ISchemaClass<CDynamicProp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDynamicProp : CBreakableProp, CBaseProp, CBaseAnimGraph, CBase
 ref bool CreateNavObstacle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool CreateNavObstacle { get; }
 ref bool CreateNonSolid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool CreateNonSolid { get; }
 ref bool FiredStartEndOutput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool FiredStartEndOutput { get; }
 ref bool ForceNpcExclude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool ForceNpcExclude { get; }
 ref Color GlowColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -66,7 +66,7 @@ ref Color GlowColor { get; }
 ref int GlowRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int GlowRange { get; }
 ref int GlowRangeMin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int GlowRangeMin { get; }
 ref int GlowTeam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int GlowTeam { get; }
 string IdleAnim { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string IdleAnim { get; set; }
 ref AnimLoopMode_t IdleAnimLoopMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimLoopMode_t](/docs/api/shared/schemadefinitions/animloopmode_t)
 
@@ -116,7 +116,7 @@ ref AnimLoopMode_t IdleAnimLoopMode { get; }
 ref int InitialGlowState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int InitialGlowState { get; }
 ref bool IsOverrideProp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool IsOverrideProp { get; }
 ref bool NavObstacleUpdatesOverridden { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool NavObstacleUpdatesOverridden { get; }
 CEntityIOOutput OnAnimReachedEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -156,7 +156,7 @@ CEntityIOOutput OnAnimReachedEnd { get; }
 CEntityIOOutput OnAnimReachedStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -166,7 +166,7 @@ CEntityIOOutput OnAnimReachedStart { get; }
 CEntityIOOutput OutputAnimBegun { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -176,7 +176,7 @@ CEntityIOOutput OutputAnimBegun { get; }
 CEntityIOOutput OutputAnimLoopCycleOver { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -186,7 +186,7 @@ CEntityIOOutput OutputAnimLoopCycleOver { get; }
 CEntityIOOutput OutputAnimOver { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -196,7 +196,7 @@ CEntityIOOutput OutputAnimOver { get; }
 ref bool RandomizeCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -206,7 +206,7 @@ ref bool RandomizeCycle { get; }
 ref bool StartDisabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool StartDisabled { get; }
 ref bool UseAnimGraph { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool UseAnimGraph { get; }
 ref bool UseHitboxesForRenderBox { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

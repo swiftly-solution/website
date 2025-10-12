@@ -6,7 +6,7 @@ title: CTransform
 public struct CTransform
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct CTransform
 public Quaternion Orientation
 ```
 
-#### Field Value
+- Field Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -26,7 +26,7 @@ public Quaternion Orientation
 public Vector Position
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

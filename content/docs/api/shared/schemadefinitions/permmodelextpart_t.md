@@ -6,7 +6,7 @@ title: PermModelExtPart_t
 public interface PermModelExtPart_t : ISchemaClass<PermModelExtPart_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PermModelExtPart_t : ISchemaClass<PermModelExtPart_t>, ISchemaF
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Name { get; set; }
 ref int Parent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int Parent { get; }
 ref CStrongHandle<InfoForResourceTypeCModel> RefModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
@@ -46,7 +46,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> RefModel { get; }
 ref CTransform Transform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

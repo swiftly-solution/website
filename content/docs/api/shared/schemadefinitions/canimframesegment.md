@@ -6,7 +6,7 @@ title: CAnimFrameSegment
 public interface CAnimFrameSegment : ISchemaClass<CAnimFrameSegment>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimFrameSegment : ISchemaClass<CAnimFrameSegment>, ISchemaFie
 ref CUtlBinaryBlock Container { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 
@@ -26,7 +26,7 @@ ref CUtlBinaryBlock Container { get; }
 ref int LocalChannel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int LocalChannel { get; }
 ref uint LocalElementMasks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint LocalElementMasks { get; }
 ref int UniqueFrameIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

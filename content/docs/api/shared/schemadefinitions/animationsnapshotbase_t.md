@@ -6,7 +6,7 @@ title: AnimationSnapshotBase_t
 public interface AnimationSnapshotBase_t : ISchemaClass<AnimationSnapshotBase_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AnimationSnapshotBase_t : ISchemaClass<AnimationSnapshotBase_t>
 ref CUtlVector<uint> BoneSetupMask { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<uint> BoneSetupMask { get; }
 ref CUtlVector<matrix3x4_t> BoneTransforms { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<matrix3x4_t> BoneTransforms { get; }
 ref bool BonesInWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool BonesInWorldSpace { get; }
 AnimationDecodeDebugDumpElement_t DecodeDump { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimationDecodeDebugDumpElement_t](/docs/api/shared/schemadefinitions/animationdecodedebugdumpelement_t)
 
@@ -56,7 +56,7 @@ AnimationDecodeDebugDumpElement_t DecodeDump { get; }
 ref CUtlVector<float> FlexControllers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<float> FlexControllers { get; }
 ref bool HasDecodeDump { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool HasDecodeDump { get; }
 ref float RealTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float RealTime { get; }
 ref matrix3x4_t RootToWorld { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)
 
@@ -96,7 +96,7 @@ ref matrix3x4_t RootToWorld { get; }
 ref AnimationSnapshotType_t SnapshotType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimationSnapshotType_t](/docs/api/shared/schemadefinitions/animationsnapshottype_t)
 

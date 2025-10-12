@@ -6,7 +6,7 @@ title: CMsgSource1LegacyGameEventList_key_t
 public interface CMsgSource1LegacyGameEventList_key_t : ITypedProtobuf<CMsgSource1LegacyGameEventList_key_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSource1LegacyGameEventList_key_t : ITypedProtobuf<CMsgSourc
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Name { get; set; }
 int Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: FeStiffHingeBuild_t
 public interface FeStiffHingeBuild_t : ISchemaClass<FeStiffHingeBuild_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeStiffHingeBuild_t : ISchemaClass<FeStiffHingeBuild_t>, ISchem
 ref float MaxAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float MaxAngle { get; }
 ISchemaFixedArray<float> MotionBias { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<float> MotionBias { get; }
 ISchemaFixedArray<ushort> Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -46,7 +46,7 @@ ISchemaFixedArray<ushort> Node { get; }
 ref float Strength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

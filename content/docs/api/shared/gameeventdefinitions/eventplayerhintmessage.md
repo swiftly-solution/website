@@ -6,7 +6,7 @@ title: EventPlayerHintmessage
 public interface EventPlayerHintmessage : IGameEvent<EventPlayerHintmessage>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventPlayerHintmessage : IGameEvent<EventPlayerHintmessage>
 string HintMessage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

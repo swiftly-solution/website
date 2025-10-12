@@ -14,7 +14,7 @@ public interface IOnEntityCreatedEvent
 CEntityInstance Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
 

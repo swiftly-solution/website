@@ -6,7 +6,7 @@ title: PlayerRankingInfo_PerMapRank
 public interface PlayerRankingInfo_PerMapRank : ITypedProtobuf<PlayerRankingInfo_PerMapRank>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PlayerRankingInfo_PerMapRank : ITypedProtobuf<PlayerRankingInfo
 uint MapId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint MapId { get; set; }
 uint RankId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint RankId { get; set; }
 uint Wins { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

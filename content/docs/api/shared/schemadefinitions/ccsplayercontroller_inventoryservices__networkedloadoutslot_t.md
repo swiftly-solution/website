@@ -6,7 +6,7 @@ title: CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t
 public interface CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t : ISchemaClass<CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t :
 CEconItemView? Item { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemView](/docs/api/shared/schemadefinitions/ceconitemview)?
 
@@ -26,7 +26,7 @@ CEconItemView? Item { get; }
 ref ushort Slot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort Slot { get; }
 ref ushort Team { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

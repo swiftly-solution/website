@@ -6,7 +6,7 @@ title: VMixOscDesc_t
 public interface VMixOscDesc_t : ISchemaClass<VMixOscDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixOscDesc_t : ISchemaClass<VMixOscDesc_t>, ISchemaField, ISch
 ref float Freq { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Freq { get; }
 ref VMixLFOShape_t OscType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixLFOShape_t](/docs/api/shared/schemadefinitions/vmixlfoshape_t)
 
@@ -36,7 +36,7 @@ ref VMixLFOShape_t OscType { get; }
 ref float Phase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -14,11 +14,11 @@ public interface ITranslationService
 ILocalizer GetPlayerLocalizer(IPlayer player)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to get the localizer for.
 
-#### Returns
+- Returns
 
 - [ILocalizer](/docs/api/shared/translation/ilocalizer) - The localizer for the specified player.
 

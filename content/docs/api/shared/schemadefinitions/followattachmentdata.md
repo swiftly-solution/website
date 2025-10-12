@@ -6,7 +6,7 @@ title: FollowAttachmentData
 public interface FollowAttachmentData : ISchemaClass<FollowAttachmentData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FollowAttachmentData : ISchemaClass<FollowAttachmentData>, ISch
 AttachmentHandle_t AttachmentHandle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AttachmentHandle_t](/docs/api/shared/schemadefinitions/attachmenthandle_t)
 
@@ -26,7 +26,7 @@ AttachmentHandle_t AttachmentHandle { get; }
 ref int BoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

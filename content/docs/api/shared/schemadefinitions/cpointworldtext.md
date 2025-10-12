@@ -6,7 +6,7 @@ title: CPointWorldText
 public interface CPointWorldText : CModelPointEntity, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CModelPointEntity>, ISchemaClass<CPointWorldText>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointWorldText : CModelPointEntity, CBaseModelEntity, CBaseEnt
 ref float BackgroundBorderHeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float BackgroundBorderHeight { get; }
 ref float BackgroundBorderWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float BackgroundBorderWidth { get; }
 string BackgroundMaterialName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string BackgroundMaterialName { get; set; }
 ref float BackgroundWorldToUV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float BackgroundWorldToUV { get; }
 ref Color Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -66,7 +66,7 @@ ref Color Color { get; }
 ref float DepthOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float DepthOffset { get; }
 ref bool DrawBackground { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool DrawBackground { get; }
 ref bool Enabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool Enabled { get; }
 string FontName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string FontName { get; set; }
 ref float FontSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float FontSize { get; }
 ref bool Fullbright { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool Fullbright { get; }
 ref PointWorldTextJustifyHorizontal_t JustifyHorizontal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointWorldTextJustifyHorizontal_t](/docs/api/shared/schemadefinitions/pointworldtextjustifyhorizontal_t)
 
@@ -136,7 +136,7 @@ ref PointWorldTextJustifyHorizontal_t JustifyHorizontal { get; }
 ref PointWorldTextJustifyVertical_t JustifyVertical { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointWorldTextJustifyVertical_t](/docs/api/shared/schemadefinitions/pointworldtextjustifyvertical_t)
 
@@ -146,7 +146,7 @@ ref PointWorldTextJustifyVertical_t JustifyVertical { get; }
 string MessageText { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -156,7 +156,7 @@ string MessageText { get; set; }
 ref PointWorldTextReorientMode_t ReorientMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointWorldTextReorientMode_t](/docs/api/shared/schemadefinitions/pointworldtextreorientmode_t)
 
@@ -166,7 +166,7 @@ ref PointWorldTextReorientMode_t ReorientMode { get; }
 ref float WorldUnitsPerPx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

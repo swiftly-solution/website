@@ -14,7 +14,7 @@ public interface IEngineService
 float CurrentTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -24,7 +24,7 @@ float CurrentTime { get; }
 string Map { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -34,7 +34,7 @@ string Map { get; }
 int MaxPlayers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -44,7 +44,7 @@ int MaxPlayers { get; }
 string ServerIP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -54,7 +54,7 @@ string ServerIP { get; }
 int TickCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int TickCount { get; }
 void ExecuteCommand(string command)
 ```
 
-#### Parameters
+- Parameters
 
 - **command**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The command to execute. Cannot be null or empty.
 
@@ -76,11 +76,11 @@ void ExecuteCommand(string command)
 bool IsMapValid(string map)
 ```
 
-#### Parameters
+- Parameters
 
 - **map**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The map string to validate. It also supports Workshop ID.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - true if the map is valid; otherwise, false.
 

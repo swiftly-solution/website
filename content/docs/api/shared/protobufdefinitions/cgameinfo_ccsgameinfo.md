@@ -6,7 +6,7 @@ title: CGameInfo_CCSGameInfo
 public interface CGameInfo_CCSGameInfo : ITypedProtobuf<CGameInfo_CCSGameInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameInfo_CCSGameInfo : ITypedProtobuf<CGameInfo_CCSGameInfo>, 
 IProtobufRepeatedFieldValueType<int> RoundStartTicks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

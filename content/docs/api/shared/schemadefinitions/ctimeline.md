@@ -6,7 +6,7 @@ title: CTimeline
 public interface CTimeline : IntervalTimer, ISchemaClass<IntervalTimer>, ISchemaClass<CTimeline>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTimeline : IntervalTimer, ISchemaClass<IntervalTimer>, ISchema
 ref int BucketCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int BucketCount { get; }
 ref TimelineCompression_t CompressionType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TimelineCompression_t](/docs/api/shared/schemadefinitions/timelinecompression_t)
 
@@ -36,7 +36,7 @@ ref TimelineCompression_t CompressionType { get; }
 ref float FinalValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float FinalValue { get; }
 ref float Interval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float Interval { get; }
 ref bool Stopped { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool Stopped { get; }
 ISchemaFixedArray<int> ValueCounts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -76,7 +76,7 @@ ISchemaFixedArray<int> ValueCounts { get; }
 ISchemaFixedArray<float> Values { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

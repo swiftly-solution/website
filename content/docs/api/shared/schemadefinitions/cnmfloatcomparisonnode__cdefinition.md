@@ -6,7 +6,7 @@ title: CNmFloatComparisonNode__CDefinition
 public interface CNmFloatComparisonNode__CDefinition : CNmBoolValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmBoolValueNode__CDefinition>, ISchemaClass<CNmFloatComparisonNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFloatComparisonNode__CDefinition : CNmBoolValueNode__CDefini
 ref short ComparandValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short ComparandValueNodeIdx { get; }
 ref CNmFloatComparisonNode__Comparison_t Comparison { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmFloatComparisonNode__Comparison_t](/docs/api/shared/schemadefinitions/cnmfloatcomparisonnode__comparison_t)
 
@@ -36,7 +36,7 @@ ref CNmFloatComparisonNode__Comparison_t Comparison { get; }
 ref float ComparisonValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float ComparisonValue { get; }
 ref float Epsilon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float Epsilon { get; }
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

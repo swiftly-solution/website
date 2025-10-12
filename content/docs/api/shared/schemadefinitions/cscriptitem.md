@@ -6,7 +6,7 @@ title: CScriptItem
 public interface CScriptItem : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CItem>, ISchemaClass<CScriptItem>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CScriptItem : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEnt
 ref MoveType_t MoveTypeOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MoveType_t](/docs/api/shared/schemadefinitions/movetype_t)
 

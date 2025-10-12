@@ -6,7 +6,7 @@ title: CStaticPoseCache
 public interface CStaticPoseCache : ISchemaClass<CStaticPoseCache>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CStaticPoseCache : ISchemaClass<CStaticPoseCache>, ISchemaField
 ref int BoneCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int BoneCount { get; }
 ref int MorphCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int MorphCount { get; }
 ref CUtlVector Poses { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

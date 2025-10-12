@@ -6,7 +6,7 @@ title: MLEvent
 public interface MLEvent : ITypedProtobuf<MLEvent>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MLEvent : ITypedProtobuf<MLEvent>, INativeHandle
 IProtobufRepeatedFieldSubMessageType<MLDict> Data { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[MLDict](/docs/api/shared/protobufdefinitions/mldict)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<MLDict> Data { get; }
 string EventName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

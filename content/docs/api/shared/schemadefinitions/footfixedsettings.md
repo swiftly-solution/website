@@ -6,7 +6,7 @@ title: FootFixedSettings
 public interface FootFixedSettings : ISchemaClass<FootFixedSettings>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FootFixedSettings : ISchemaClass<FootFixedSettings>, ISchemaFie
 ref int DisableTagIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int DisableTagIndex { get; }
 ref bool EnableTracing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool EnableTracing { get; }
 ref Vector FootBaseBindPosePositionMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector FootBaseBindPosePositionMS { get; }
 ref float FootBaseLength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float FootBaseLength { get; }
 ref int FootIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int FootIndex { get; }
 ref int FootstepLandedTagIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int FootstepLandedTagIndex { get; }
 ref float MaxRotationLeft { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float MaxRotationLeft { get; }
 ref float MaxRotationRight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float MaxRotationRight { get; }
 ref float TraceAngleBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float TraceAngleBlend { get; }
 TraceSettings_t TraceSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TraceSettings_t](/docs/api/shared/schemadefinitions/tracesettings_t)
 

@@ -6,7 +6,7 @@ title: SoundOpvarTraceResult_t
 public interface SoundOpvarTraceResult_t : ISchemaClass<SoundOpvarTraceResult_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SoundOpvarTraceResult_t : ISchemaClass<SoundOpvarTraceResult_t>
 ref bool DidHit { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool DidHit { get; }
 ref float DistSqrToCenter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DistSqrToCenter { get; }
 ref Vector Pos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

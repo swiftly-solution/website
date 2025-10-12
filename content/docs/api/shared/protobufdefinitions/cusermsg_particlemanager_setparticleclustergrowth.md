@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetParticleClusterGrowth
 public interface CUserMsg_ParticleManager_SetParticleClusterGrowth : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleClusterGrowth>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetParticleClusterGrowth : ITypedProto
 float Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float Duration { get; set; }
 Vector Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

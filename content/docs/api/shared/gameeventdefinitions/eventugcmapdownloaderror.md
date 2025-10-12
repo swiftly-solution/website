@@ -6,7 +6,7 @@ title: EventUgcMapDownloadError
 public interface EventUgcMapDownloadError : IGameEvent<EventUgcMapDownloadError>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventUgcMapDownloadError : IGameEvent<EventUgcMapDownloadError>
 int ErrorCode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ErrorCode { get; set; }
 ulong PublishedFileId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

@@ -6,7 +6,7 @@ title: CRenderGroom
 public interface CRenderGroom : ISchemaClass<CRenderGroom>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRenderGroom : ISchemaClass<CRenderGroom>, ISchemaField, ISchem
 ref int AttachBoneIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int AttachBoneIdx { get; }
 ref int AttachMeshDrawCallIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int AttachMeshDrawCallIdx { get; }
 ref int AttachMeshIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int AttachMeshIdx { get; }
 ref bool EnableSimulation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool EnableSimulation { get; }
 ref int GroomGroupID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int GroomGroupID { get; }
 ref int GuideHairCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int GuideHairCount { get; }
 ref int HairCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int HairCount { get; }
 ref CUtlVector<uint> HairPositionOffsets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<uint> HairPositionOffsets { get; }
 ref CUtlVector Hairs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -106,7 +106,7 @@ ref CUtlVector Hairs { get; }
 ref int MaxSegmentsPerHairStrand { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int MaxSegmentsPerHairStrand { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> SimParamsMat { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -126,7 +126,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> SimParamsMat { get; }
 ref CUtlVector<int> StrandSegmentCountHist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -136,7 +136,7 @@ ref CUtlVector<int> StrandSegmentCountHist { get; }
 ref int TotalSegmentCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int TotalSegmentCount { get; }
 ref int TotalVertexCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

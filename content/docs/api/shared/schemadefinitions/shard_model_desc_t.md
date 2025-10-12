@@ -6,7 +6,7 @@ title: shard_model_desc_t
 public interface shard_model_desc_t : ISchemaClass<shard_model_desc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface shard_model_desc_t : ISchemaClass<shard_model_desc_t>, ISchemaF
 ref float GlassHalfThickness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float GlassHalfThickness { get; }
 ref bool HasParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool HasParent { get; }
 ref CUtlVector<Vector4D> InitialPanelVertices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector4D](/docs/api/shared/natives/vector4d)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<Vector4D> InitialPanelVertices { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialBase { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -56,7 +56,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialBase { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialDamageOverlay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -66,7 +66,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> MaterialDamageOverlay { get; }
 ref int ModelID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int ModelID { get; }
 ref Vector2D PanelSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -86,7 +86,7 @@ ref Vector2D PanelSize { get; }
 ref CUtlVector<Vector2D> PanelVertices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[Vector2D](/docs/api/shared/natives/vector2d)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<Vector2D> PanelVertices { get; }
 ref bool ParentFrozen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool ParentFrozen { get; }
 ref ShardSolid_t Solid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ShardSolid_t](/docs/api/shared/schemadefinitions/shardsolid_t)
 
@@ -116,7 +116,7 @@ ref ShardSolid_t Solid { get; }
 ref Vector2D StressPositionA { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -126,7 +126,7 @@ ref Vector2D StressPositionA { get; }
 ref Vector2D StressPositionB { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -136,7 +136,7 @@ ref Vector2D StressPositionB { get; }
 ref CUtlStringToken SurfacePropStringToken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 

@@ -6,7 +6,7 @@ title: MoodAnimation_t
 public interface MoodAnimation_t : ISchemaClass<MoodAnimation_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MoodAnimation_t : ISchemaClass<MoodAnimation_t>, ISchemaField, 
 SchemaUntypedField Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Name { get; }
 ref float Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

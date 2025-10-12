@@ -6,7 +6,7 @@ title: CUserMessage_NotifyResponseFound_Criteria
 public interface CUserMessage_NotifyResponseFound_Criteria : ITypedProtobuf<CUserMessage_NotifyResponseFound_Criteria>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessage_NotifyResponseFound_Criteria : ITypedProtobuf<CUse
 uint NameSymbol { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint NameSymbol { get; set; }
 string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

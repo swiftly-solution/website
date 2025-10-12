@@ -6,5 +6,5 @@ title: CEditableMotionGraph
 public interface CEditableMotionGraph : CMotionGraph, ISchemaClass<CMotionGraph>, ISchemaClass<CEditableMotionGraph>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

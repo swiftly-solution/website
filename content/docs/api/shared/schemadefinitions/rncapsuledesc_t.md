@@ -6,7 +6,7 @@ title: RnCapsuleDesc_t
 public interface RnCapsuleDesc_t : RnShapeDesc_t, ISchemaClass<RnShapeDesc_t>, ISchemaClass<RnCapsuleDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnCapsuleDesc_t : RnShapeDesc_t, ISchemaClass<RnShapeDesc_t>, I
 RnCapsule_t Capsule { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RnCapsule_t](/docs/api/shared/schemadefinitions/rncapsule_t)
 

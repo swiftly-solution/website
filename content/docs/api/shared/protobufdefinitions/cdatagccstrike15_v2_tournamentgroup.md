@@ -6,7 +6,7 @@ title: CDataGCCStrike15_v2_TournamentGroup
 public interface CDataGCCStrike15_v2_TournamentGroup : ITypedProtobuf<CDataGCCStrike15_v2_TournamentGroup>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDataGCCStrike15_v2_TournamentGroup : ITypedProtobuf<CDataGCCSt
 string Desc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Desc { get; set; }
 uint Groupid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Groupid { get; set; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Name { get; set; }
 uint Pickableteams { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint Pickableteams { get; set; }
 uint Picklockuntiltime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint Picklockuntiltime { get; set; }
 IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentGroup_Picks> Picks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDataGCCStrike15_v2_TournamentGroup_Picks](/docs/api/shared/protobufdefinitions/cdatagccstrike15_v2_tournamentgroup_picks)>
 
@@ -76,7 +76,7 @@ IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentGroup_Picks> 
 uint PicksDeprecated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint PicksDeprecated { get; set; }
 uint PointsPerPick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ uint PointsPerPick { get; set; }
 IProtobufRepeatedFieldValueType<int> StageIds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -106,7 +106,7 @@ IProtobufRepeatedFieldValueType<int> StageIds { get; }
 IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentGroupTeam> Teams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDataGCCStrike15_v2_TournamentGroupTeam](/docs/api/shared/protobufdefinitions/cdatagccstrike15_v2_tournamentgroupteam)>
 

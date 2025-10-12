@@ -6,7 +6,7 @@ title: CPulseCell_Inflow_ObservableVariableListener
 public interface CPulseCell_Inflow_ObservableVariableListener : CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_Inflow_BaseEntrypoint>, ISchemaClass<CPulseCell_Inflow_ObservableVariableListener>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Inflow_ObservableVariableListener : CPulseCell_Inflo
 PulseRuntimeBlackboardReferenceIndex_t BlackboardReference { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeBlackboardReferenceIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeblackboardreferenceindex_t)
 
@@ -26,7 +26,7 @@ PulseRuntimeBlackboardReferenceIndex_t BlackboardReference { get; }
 ref bool SelfReference { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CDataGCCStrike15_v2_TournamentSection
 public interface CDataGCCStrike15_v2_TournamentSection : ITypedProtobuf<CDataGCCStrike15_v2_TournamentSection>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDataGCCStrike15_v2_TournamentSection : ITypedProtobuf<CDataGCC
 string Desc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Desc { get; set; }
 IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentGroup> Groups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDataGCCStrike15_v2_TournamentGroup](/docs/api/shared/protobufdefinitions/cdatagccstrike15_v2_tournamentgroup)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentGroup> Groups
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string Name { get; set; }
 uint Sectionid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

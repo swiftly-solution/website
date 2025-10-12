@@ -6,7 +6,7 @@ title: EventShowDeathpanel
 public interface EventShowDeathpanel : IGameEvent<EventShowDeathpanel>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventShowDeathpanel : IGameEvent<EventShowDeathpanel>
 short DamageGiven { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short DamageGiven { get; set; }
 short DamageTaken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ short DamageTaken { get; set; }
 short HitsGiven { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ short HitsGiven { get; set; }
 short HitsTaken { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ short HitsTaken { get; set; }
 nint Killer { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -66,7 +66,7 @@ nint Killer { get; set; }
 int KillerController { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int KillerController { get; set; }
 int Victim { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

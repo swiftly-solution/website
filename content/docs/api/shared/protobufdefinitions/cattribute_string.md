@@ -6,7 +6,7 @@ title: CAttribute_String
 public interface CAttribute_String : ITypedProtobuf<CAttribute_String>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAttribute_String : ITypedProtobuf<CAttribute_String>, INativeH
 string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

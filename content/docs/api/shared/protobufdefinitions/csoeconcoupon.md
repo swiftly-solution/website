@@ -6,7 +6,7 @@ title: CSOEconCoupon
 public interface CSOEconCoupon : ITypedProtobuf<CSOEconCoupon>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOEconCoupon : ITypedProtobuf<CSOEconCoupon>, INativeHandle
 uint Defidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Defidx { get; set; }
 uint Entryid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Entryid { get; set; }
 uint ExpirationDate { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

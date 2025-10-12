@@ -6,7 +6,7 @@ title: CSVCMsg_TempEntities
 public interface CSVCMsg_TempEntities : ITypedProtobuf<CSVCMsg_TempEntities>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_TempEntities : ITypedProtobuf<CSVCMsg_TempEntities>, IN
 byte[] EntityData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] EntityData { get; set; }
 int NumEntries { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int NumEntries { get; set; }
 bool Reliable { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

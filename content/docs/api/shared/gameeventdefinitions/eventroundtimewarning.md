@@ -6,5 +6,5 @@ title: EventRoundTimeWarning
 public interface EventRoundTimeWarning : IGameEvent<EventRoundTimeWarning>
 ```
 
-#### Implements
+- Implements
 

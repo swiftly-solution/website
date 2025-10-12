@@ -6,7 +6,7 @@ title: CDecalGroupVData
 public interface CDecalGroupVData : ISchemaClass<CDecalGroupVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDecalGroupVData : ISchemaClass<CDecalGroupVData>, ISchemaField
 ref CUtlVector Options { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Options { get; }
 ref float TotalProbability { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

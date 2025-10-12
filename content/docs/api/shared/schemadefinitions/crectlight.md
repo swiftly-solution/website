@@ -6,7 +6,7 @@ title: CRectLight
 public interface CRectLight : CBarnLight, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBarnLight>, ISchemaClass<CRectLight>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRectLight : CBarnLight, CBaseModelEntity, CBaseEntity, CEntity
 ref bool ShowLight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

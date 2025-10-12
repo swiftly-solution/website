@@ -6,7 +6,7 @@ title: CMotionSearchNode
 public interface CMotionSearchNode : ISchemaClass<CMotionSearchNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionSearchNode : ISchemaClass<CMotionSearchNode>, ISchemaFie
 ref CUtlVector<PointerTo<CMotionSearchNode>> Children { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CMotionSearchNode](/docs/api/shared/schemadefinitions/cmotionsearchnode)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<PointerTo<CMotionSearchNode>> Children { get; }
 CVectorQuantizer Quantizer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CVectorQuantizer](/docs/api/shared/schemadefinitions/cvectorquantizer)
 
@@ -36,7 +36,7 @@ CVectorQuantizer Quantizer { get; }
 ref CUtlVector<CUtlVector> SampleCodes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlVector](/docs/api/)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<CUtlVector> SampleCodes { get; }
 ref CUtlVector<CUtlVector<int>> SampleIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>>
 
@@ -56,7 +56,7 @@ ref CUtlVector<CUtlVector<int>> SampleIndices { get; }
 ref CUtlVector<int> SelectableSamples { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

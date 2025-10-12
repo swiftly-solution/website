@@ -6,7 +6,7 @@ title: RnCollisionAttr_t
 public struct RnCollisionAttr_t
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct RnCollisionAttr_t
 public CollisionFunctionMask_t CollisionFunctionMask
 ```
 
-#### Field Value
+- Field Value
 
 - [CollisionFunctionMask_t](/docs/api/shared/natives/collisionfunctionmask_t)
 
@@ -26,7 +26,7 @@ public CollisionFunctionMask_t CollisionFunctionMask
 public CollisionGroup CollisionGroup
 ```
 
-#### Field Value
+- Field Value
 
 - [CollisionGroup](/docs/api/shared/natives/collisiongroup)
 
@@ -36,7 +36,7 @@ public CollisionGroup CollisionGroup
 public uint EntityId
 ```
 
-#### Field Value
+- Field Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ public uint EntityId
 public ushort HierarchyId
 ```
 
-#### Field Value
+- Field Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -56,7 +56,7 @@ public ushort HierarchyId
 public ulong InteractsAs
 ```
 
-#### Field Value
+- Field Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -66,7 +66,7 @@ public ulong InteractsAs
 public ulong InteractsExclude
 ```
 
-#### Field Value
+- Field Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -76,7 +76,7 @@ public ulong InteractsExclude
 public ulong InteractsWith
 ```
 
-#### Field Value
+- Field Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -86,7 +86,7 @@ public ulong InteractsWith
 public uint OwnerId
 ```
 
-#### Field Value
+- Field Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

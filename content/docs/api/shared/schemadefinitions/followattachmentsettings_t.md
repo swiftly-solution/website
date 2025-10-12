@@ -6,7 +6,7 @@ title: FollowAttachmentSettings_t
 public interface FollowAttachmentSettings_t : ISchemaClass<FollowAttachmentSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FollowAttachmentSettings_t : ISchemaClass<FollowAttachmentSetti
 CAnimAttachment Attachment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimAttachment](/docs/api/shared/schemadefinitions/canimattachment)
 
@@ -26,7 +26,7 @@ CAnimAttachment Attachment { get; }
 AttachmentHandle_t AttachmentHandle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AttachmentHandle_t](/docs/api/shared/schemadefinitions/attachmenthandle_t)
 
@@ -36,7 +36,7 @@ AttachmentHandle_t AttachmentHandle { get; }
 ref int BoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int BoneIndex { get; }
 ref bool MatchRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool MatchRotation { get; }
 ref bool MatchTranslation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

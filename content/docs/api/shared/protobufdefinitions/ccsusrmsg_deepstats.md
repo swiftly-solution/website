@@ -6,7 +6,7 @@ title: CCSUsrMsg_DeepStats
 public interface CCSUsrMsg_DeepStats : ITypedProtobuf<CCSUsrMsg_DeepStats>, INativeHandle, INetMessage<CCSUsrMsg_DeepStats>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_DeepStats : ITypedProtobuf<CCSUsrMsg_DeepStats>, INat
 CMsgGCCStrike15_ClientDeepStats Stats { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_ClientDeepStats](/docs/api/shared/protobufdefinitions/cmsggccstrike15_clientdeepstats)
 

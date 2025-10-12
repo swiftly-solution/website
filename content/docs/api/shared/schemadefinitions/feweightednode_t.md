@@ -6,7 +6,7 @@ title: FeWeightedNode_t
 public interface FeWeightedNode_t : ISchemaClass<FeWeightedNode_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeWeightedNode_t : ISchemaClass<FeWeightedNode_t>, ISchemaField
 ref ushort Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort Node { get; }
 ref ushort Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

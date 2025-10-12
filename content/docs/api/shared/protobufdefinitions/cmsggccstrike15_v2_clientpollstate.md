@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientPollState
 public interface CMsgGCCStrike15_v2_ClientPollState : ITypedProtobuf<CMsgGCCStrike15_v2_ClientPollState>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientPollState : ITypedProtobuf<CMsgGCCStri
 IProtobufRepeatedFieldValueType<string> Names { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<string> Names { get; }
 uint Pollid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Pollid { get; set; }
 IProtobufRepeatedFieldValueType<int> Values { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

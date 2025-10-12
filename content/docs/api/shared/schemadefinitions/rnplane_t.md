@@ -6,7 +6,7 @@ title: RnPlane_t
 public interface RnPlane_t : ISchemaClass<RnPlane_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnPlane_t : ISchemaClass<RnPlane_t>, ISchemaField, ISchemaClass
 ref Vector Normal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector Normal { get; }
 ref float Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

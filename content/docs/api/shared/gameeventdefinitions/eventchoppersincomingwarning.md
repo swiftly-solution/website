@@ -6,7 +6,7 @@ title: EventChoppersIncomingWarning
 public interface EventChoppersIncomingWarning : IGameEvent<EventChoppersIncomingWarning>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventChoppersIncomingWarning : IGameEvent<EventChoppersIncoming
 bool Global { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CMsgSource2NetworkFlowQuality
 public interface CMsgSource2NetworkFlowQuality : ITypedProtobuf<CMsgSource2NetworkFlowQuality>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSource2NetworkFlowQuality : ITypedProtobuf<CMsgSource2Netwo
 uint BytesSecP95 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint BytesSecP95 { get; set; }
 uint BytesSecP99 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint BytesSecP99 { get; set; }
 ulong BytesTotal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong BytesTotal { get; set; }
 ulong BytesTotalReliable { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ulong BytesTotalReliable { get; set; }
 ulong BytesTotalVoice { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -66,7 +66,7 @@ ulong BytesTotalVoice { get; set; }
 uint Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint Duration { get; set; }
 uint EnginemsgsSecP95 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ uint EnginemsgsSecP95 { get; set; }
 uint EnginemsgsSecP99 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ uint EnginemsgsSecP99 { get; set; }
 uint EnginemsgsTotal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ uint EnginemsgsTotal { get; set; }
 int RecvmarginP1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ int RecvmarginP1 { get; set; }
 int RecvmarginP25 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ int RecvmarginP25 { get; set; }
 int RecvmarginP5 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ int RecvmarginP5 { get; set; }
 int RecvmarginP50 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ int RecvmarginP50 { get; set; }
 int RecvmarginP75 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ int RecvmarginP75 { get; set; }
 int RecvmarginP95 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ int RecvmarginP95 { get; set; }
 uint TickMissrateSamplesPerfect { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -176,7 +176,7 @@ uint TickMissrateSamplesPerfect { get; set; }
 uint TickMissrateSamplesPerfectnet { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -186,7 +186,7 @@ uint TickMissrateSamplesPerfectnet { get; set; }
 uint TickMissrateSamplesTotal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -196,7 +196,7 @@ uint TickMissrateSamplesTotal { get; set; }
 uint TickMissratenetP75X10 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -206,7 +206,7 @@ uint TickMissratenetP75X10 { get; set; }
 uint TickMissratenetP95X10 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -216,7 +216,7 @@ uint TickMissratenetP95X10 { get; set; }
 uint TickMissratenetP99X10 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -226,7 +226,7 @@ uint TickMissratenetP99X10 { get; set; }
 uint TicksBadDropped { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -236,7 +236,7 @@ uint TicksBadDropped { get; set; }
 uint TicksBadLate { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -246,7 +246,7 @@ uint TicksBadLate { get; set; }
 uint TicksBadOther { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -256,7 +256,7 @@ uint TicksBadOther { get; set; }
 uint TicksFixedDropped { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -266,7 +266,7 @@ uint TicksFixedDropped { get; set; }
 uint TicksFixedLate { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -276,7 +276,7 @@ uint TicksFixedLate { get; set; }
 uint TicksGood { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -286,7 +286,7 @@ uint TicksGood { get; set; }
 uint TicksGoodAlmostLate { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -296,7 +296,7 @@ uint TicksGoodAlmostLate { get; set; }
 uint TicksTotal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

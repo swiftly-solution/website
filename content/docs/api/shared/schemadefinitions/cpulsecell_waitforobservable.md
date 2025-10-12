@@ -6,7 +6,7 @@ title: CPulseCell_WaitForObservable
 public interface CPulseCell_WaitForObservable : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_WaitForObservable>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_WaitForObservable : CPulseCell_BaseYieldingInflow, C
 PulseObservableBoolExpression_t Condition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseObservableBoolExpression_t](/docs/api/shared/schemadefinitions/pulseobservableboolexpression_t)
 
@@ -26,7 +26,7 @@ PulseObservableBoolExpression_t Condition { get; }
 CPulse_ResumePoint OnTrue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 

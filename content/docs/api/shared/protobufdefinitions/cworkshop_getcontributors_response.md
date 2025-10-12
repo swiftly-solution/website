@@ -6,7 +6,7 @@ title: CWorkshop_GetContributors_Response
 public interface CWorkshop_GetContributors_Response : ITypedProtobuf<CWorkshop_GetContributors_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWorkshop_GetContributors_Response : ITypedProtobuf<CWorkshop_G
 IProtobufRepeatedFieldValueType<ulong> Contributors { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 

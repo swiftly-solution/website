@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientCommendPlayer
 public interface CMsgGCCStrike15_v2_ClientCommendPlayer : ITypedProtobuf<CMsgGCCStrike15_v2_ClientCommendPlayer>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientCommendPlayer : ITypedProtobuf<CMsgGCC
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 PlayerCommendationInfo Commendation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PlayerCommendationInfo](/docs/api/shared/protobufdefinitions/playercommendationinfo)
 
@@ -36,7 +36,7 @@ PlayerCommendationInfo Commendation { get; }
 ulong MatchId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong MatchId { get; set; }
 uint Tokens { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

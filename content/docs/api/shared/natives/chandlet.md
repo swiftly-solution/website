@@ -6,11 +6,11 @@ title: CHandle<T>
 public struct CHandle<T> where T : class, ISchemaClass<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -20,7 +20,7 @@ public struct CHandle<T> where T : class, ISchemaClass<T>
 public CHandle(uint raw)
 ```
 
-#### Parameters
+- Parameters
 
 - **raw**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -32,7 +32,7 @@ public CHandle(uint raw)
 public readonly uint EntityIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -42,7 +42,7 @@ public readonly uint EntityIndex { get; }
 public readonly bool IsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -52,7 +52,7 @@ public readonly bool IsValid { get; }
 public uint Raw { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -62,7 +62,7 @@ public uint Raw { get; set; }
 public readonly uint SerialNumber { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -72,7 +72,7 @@ public readonly uint SerialNumber { get; }
 public T? Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - T?
 
@@ -84,11 +84,11 @@ public T? Value { get; set; }
 public static implicit operator T(CHandle<T> handle)
 ```
 
-#### Parameters
+- Parameters
 
 - **handle**: [CHandle](/docs/api/shared/natives/chandle-1)<T>
 
-#### Returns
+- Returns
 
 - T
 

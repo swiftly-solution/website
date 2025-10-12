@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch
 public interface CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch : ITypedProtobuf<CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_ClientDeepStats_DeepStatsMatch : ITypedProtobuf
 IProtobufRepeatedFieldSubMessageType<DeepPlayerMatchEvent> Events { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[DeepPlayerMatchEvent](/docs/api/shared/protobufdefinitions/deepplayermatchevent)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<DeepPlayerMatchEvent> Events { get; }
 DeepPlayerStatsEntry Player { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DeepPlayerStatsEntry](/docs/api/shared/protobufdefinitions/deepplayerstatsentry)
 

@@ -6,7 +6,7 @@ title: CScriptUniformRandomStream
 public interface CScriptUniformRandomStream : ISchemaClass<CScriptUniformRandomStream>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CScriptUniformRandomStream : ISchemaClass<CScriptUniformRandomS
 ref int InitialSeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int InitialSeed { get; }
 SchemaUntypedField ScriptScope { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

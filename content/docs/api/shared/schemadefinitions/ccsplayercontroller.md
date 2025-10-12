@@ -6,7 +6,7 @@ title: CCSPlayerController
 public interface CCSPlayerController : CBasePlayerController, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBasePlayerController>, ISchemaClass<CCSPlayerController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayerController : CBasePlayerController, CBaseEntity, CEnti
 ref bool AbandonAllowsSurrender { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AbandonAllowsSurrender { get; }
 ref bool AbandonOffersInstantSurrender { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool AbandonOffersInstantSurrender { get; }
 CCSPlayerController_ActionTrackingServices? ActionTrackingServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController_ActionTrackingServices](/docs/api/shared/schemadefinitions/ccsplayercontroller_actiontrackingservices)?
 
@@ -46,7 +46,7 @@ CCSPlayerController_ActionTrackingServices? ActionTrackingServices { get; }
 ref ushort ActiveQuestId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -56,7 +56,7 @@ ref ushort ActiveQuestId { get; }
 ref bool AttemptedToGetColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool AttemptedToGetColor { get; }
 ref int BotsControlledThisRound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int BotsControlledThisRound { get; }
 ref bool CanControlObservedBot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool CanControlObservedBot { get; }
 ref bool CannotBeKicked { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool CannotBeKicked { get; }
 string Clan { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string Clan { get; set; }
 ref int CoachingTeam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int CoachingTeam { get; }
 ref int CompTeammateColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ ref int CompTeammateColor { get; }
 ref byte CompetitiveRankType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -136,7 +136,7 @@ ref byte CompetitiveRankType { get; }
 ref int CompetitiveRanking { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int CompetitiveRanking { get; }
 ref int CompetitiveRankingPredicted_Loss { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ ref int CompetitiveRankingPredicted_Loss { get; }
 ref int CompetitiveRankingPredicted_Tie { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ ref int CompetitiveRankingPredicted_Tie { get; }
 ref int CompetitiveRankingPredicted_Win { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -176,7 +176,7 @@ ref int CompetitiveRankingPredicted_Win { get; }
 ref int CompetitiveWins { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ ref int CompetitiveWins { get; }
 ref bool ControllingBot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -196,7 +196,7 @@ ref bool ControllingBot { get; }
 string CrosshairCodes { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -206,7 +206,7 @@ string CrosshairCodes { get; set; }
 CCSPlayerController_DamageServices? DamageServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController_DamageServices](/docs/api/shared/schemadefinitions/ccsplayercontroller_damageservices)?
 
@@ -216,7 +216,7 @@ CCSPlayerController_DamageServices? DamageServices { get; }
 ref double DblLastReceivedPacketPlatFloatTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -226,7 +226,7 @@ ref double DblLastReceivedPacketPlatFloatTime { get; }
 ref int DesiredObserverMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -236,7 +236,7 @@ ref int DesiredObserverMode { get; }
 ref CHandle<CEntityInstance> DesiredObserverTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
@@ -246,7 +246,7 @@ ref CHandle<CEntityInstance> DesiredObserverTarget { get; }
 ref bool Disconnection1MinWarningPrinted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -256,7 +256,7 @@ ref bool Disconnection1MinWarningPrinted { get; }
 ref int DisconnectionTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -266,7 +266,7 @@ ref int DisconnectionTick { get; }
 ref int DraftIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -276,7 +276,7 @@ ref int DraftIndex { get; }
 ref int EndMatchNextMapVote { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -286,7 +286,7 @@ ref int EndMatchNextMapVote { get; }
 ref bool EverFullyConnected { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -296,7 +296,7 @@ ref bool EverFullyConnected { get; }
 ref bool EverPlayedOnTeam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -306,7 +306,7 @@ ref bool EverPlayedOnTeam { get; }
 ref bool FireBulletsSeedSynchronized { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -316,7 +316,7 @@ ref bool FireBulletsSeedSynchronized { get; }
 ref byte FirstKill { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -326,7 +326,7 @@ ref byte FirstKill { get; }
 GameTime_t ForceTeamTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -336,7 +336,7 @@ GameTime_t ForceTeamTime { get; }
 ref bool GaveTeamDamageWarning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -346,7 +346,7 @@ ref bool GaveTeamDamageWarning { get; }
 ref bool GaveTeamDamageWarningThisRound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -356,7 +356,7 @@ ref bool GaveTeamDamageWarningThisRound { get; }
 ref bool HasBeenControlledByPlayerThisRound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -366,7 +366,7 @@ ref bool HasBeenControlledByPlayerThisRound { get; }
 ref bool HasCommunicationAbuseMute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,7 +376,7 @@ ref bool HasCommunicationAbuseMute { get; }
 ref bool HasControlledBotThisRound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -386,7 +386,7 @@ ref bool HasControlledBotThisRound { get; }
 ref bool HasSeenJoinGame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -396,7 +396,7 @@ ref bool HasSeenJoinGame { get; }
 CCSPlayerController_InGameMoneyServices? InGameMoneyServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController_InGameMoneyServices](/docs/api/shared/schemadefinitions/ccsplayercontroller_ingamemoneyservices)?
 
@@ -406,7 +406,7 @@ CCSPlayerController_InGameMoneyServices? InGameMoneyServices { get; }
 ref bool InSwitchTeam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -416,7 +416,7 @@ ref bool InSwitchTeam { get; }
 CCSPlayerController_InventoryServices? InventoryServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayerController_InventoryServices](/docs/api/shared/schemadefinitions/ccsplayercontroller_inventoryservices)?
 
@@ -426,7 +426,7 @@ CCSPlayerController_InventoryServices? InventoryServices { get; }
 ref bool JustBecameSpectator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -436,7 +436,7 @@ ref bool JustBecameSpectator { get; }
 ref bool JustDidTeamKill { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -446,7 +446,7 @@ ref bool JustDidTeamKill { get; }
 ref byte KillCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -456,7 +456,7 @@ ref byte KillCount { get; }
 IntervalTimer LastHeldVoteTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IntervalTimer](/docs/api/shared/schemadefinitions/intervaltimer)
 
@@ -466,7 +466,7 @@ IntervalTimer LastHeldVoteTimer { get; }
 GameTime_t LastJoinTeamTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -476,7 +476,7 @@ GameTime_t LastJoinTeamTime { get; }
 GameTime_t LastTeamDamageWarningTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -486,7 +486,7 @@ GameTime_t LastTeamDamageWarningTime { get; }
 GameTime_t LastTimePlayerWasDisconnectedForPawnsRemove { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -496,7 +496,7 @@ GameTime_t LastTimePlayerWasDisconnectedForPawnsRemove { get; }
 ref int MVPs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -506,7 +506,7 @@ ref int MVPs { get; }
 ref uint MsQueuedModeDisconnectionTimestamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -516,7 +516,7 @@ ref uint MsQueuedModeDisconnectionTimestamp { get; }
 ref int MusicKitID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -526,7 +526,7 @@ ref int MusicKitID { get; }
 ref int MusicKitMVPs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -536,7 +536,7 @@ ref int MusicKitMVPs { get; }
 ref bool MvpNoMusic { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -546,7 +546,7 @@ ref bool MvpNoMusic { get; }
 ref int MvpReason { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -556,7 +556,7 @@ ref int MvpReason { get; }
 ref uint NetworkDisconnectionReason { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -566,7 +566,7 @@ ref uint NetworkDisconnectionReason { get; }
 ref int NextTimeCheck { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -576,7 +576,7 @@ ref int NextTimeCheck { get; }
 ref uint NonSuspiciousHitStreak { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -586,7 +586,7 @@ ref uint NonSuspiciousHitStreak { get; }
 ref CHandle<CCSObserverPawn> ObserverPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSObserverPawn](/docs/api/shared/schemadefinitions/ccsobserverpawn)>
 
@@ -596,7 +596,7 @@ ref CHandle<CCSObserverPawn> ObserverPawn { get; }
 ref CHandle<CCSPlayerController> OriginalControllerOfCurrentPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)>
 
@@ -606,7 +606,7 @@ ref CHandle<CCSPlayerController> OriginalControllerOfCurrentPawn { get; }
 ref int PawnArmor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -616,7 +616,7 @@ ref int PawnArmor { get; }
 ref int PawnBotDifficulty { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -626,7 +626,7 @@ ref int PawnBotDifficulty { get; }
 ref ushort PawnCharacterDefIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -636,7 +636,7 @@ ref ushort PawnCharacterDefIndex { get; }
 ref bool PawnHasDefuser { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -646,7 +646,7 @@ ref bool PawnHasDefuser { get; }
 ref bool PawnHasHelmet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -656,7 +656,7 @@ ref bool PawnHasHelmet { get; }
 ref uint PawnHealth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -666,7 +666,7 @@ ref uint PawnHealth { get; }
 ref bool PawnIsAlive { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -676,7 +676,7 @@ ref bool PawnIsAlive { get; }
 ref int PawnLifetimeEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -686,7 +686,7 @@ ref int PawnLifetimeEnd { get; }
 ref int PawnLifetimeStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -696,7 +696,7 @@ ref int PawnLifetimeStart { get; }
 ref byte PendingTeamNum { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -706,7 +706,7 @@ ref byte PendingTeamNum { get; }
 ref uint Ping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -716,7 +716,7 @@ ref uint Ping { get; }
 ref ulong PlayerDominated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -726,7 +726,7 @@ ref ulong PlayerDominated { get; }
 ref ulong PlayerDominatingMe { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -736,7 +736,7 @@ ref ulong PlayerDominatingMe { get; }
 ref CHandle<CCSPlayerPawn> PlayerPawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
 
@@ -746,7 +746,7 @@ ref CHandle<CCSPlayerPawn> PlayerPawn { get; }
 ref uint PlayerTvControlFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -756,7 +756,7 @@ ref uint PlayerTvControlFlags { get; }
 ref bool PunishForTeamKill { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -766,7 +766,7 @@ ref bool PunishForTeamKill { get; }
 ref QuestProgress__Reason QuestProgressReason { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QuestProgress__Reason](/docs/api/shared/schemadefinitions/questprogress__reason)
 
@@ -776,7 +776,7 @@ ref QuestProgress__Reason QuestProgressReason { get; }
 ISchemaFixedArray<byte> RecentKillQueue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -786,7 +786,7 @@ ISchemaFixedArray<byte> RecentKillQueue { get; }
 ref bool RemoveAllItemsOnNextRoundReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -796,7 +796,7 @@ ref bool RemoveAllItemsOnNextRoundReset { get; }
 ref int RoundScore { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -806,7 +806,7 @@ ref int RoundScore { get; }
 ref int RoundsWon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -816,7 +816,7 @@ ref int RoundsWon { get; }
 ref uint RtActiveMissionPeriod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -826,7 +826,7 @@ ref uint RtActiveMissionPeriod { get; }
 ref int Score { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -836,7 +836,7 @@ ref int Score { get; }
 ref bool ScoreReported { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -846,7 +846,7 @@ ref bool ScoreReported { get; }
 ref bool ShowHints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -856,7 +856,7 @@ ref bool ShowHints { get; }
 ref float SmoothedPing { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -866,7 +866,7 @@ ref float SmoothedPing { get; }
 ref uint SuspiciousHitCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -876,7 +876,7 @@ ref uint SuspiciousHitCount { get; }
 ref bool SwitchTeamsOnNextRoundReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -886,7 +886,7 @@ ref bool SwitchTeamsOnNextRoundReset { get; }
 ref bool TeamChanged { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -896,7 +896,7 @@ ref bool TeamChanged { get; }
 ref int TeammatePreferredColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -906,7 +906,7 @@ ref int TeammatePreferredColor { get; }
 ref uint UiAbandonRecordedReason { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -916,7 +916,7 @@ ref uint UiAbandonRecordedReason { get; }
 ref uint UiCommunicationMuteFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -926,7 +926,7 @@ ref uint UiCommunicationMuteFlags { get; }
 ref int UpdateCounter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

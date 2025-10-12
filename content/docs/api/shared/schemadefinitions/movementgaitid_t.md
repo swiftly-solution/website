@@ -6,7 +6,7 @@ title: MovementGaitId_t
 public interface MovementGaitId_t : ISchemaClass<MovementGaitId_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MovementGaitId_t : ISchemaClass<MovementGaitId_t>, ISchemaField
 ref CGlobalSymbol Id { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

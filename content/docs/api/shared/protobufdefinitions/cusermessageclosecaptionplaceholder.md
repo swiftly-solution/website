@@ -6,7 +6,7 @@ title: CUserMessageCloseCaptionPlaceholder
 public interface CUserMessageCloseCaptionPlaceholder : ITypedProtobuf<CUserMessageCloseCaptionPlaceholder>, INativeHandle, INetMessage<CUserMessageCloseCaptionPlaceholder>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageCloseCaptionPlaceholder : ITypedProtobuf<CUserMessa
 float Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float Duration { get; set; }
 int EntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int EntIndex { get; set; }
 bool FromPlayer { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool FromPlayer { get; set; }
 string String { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: EventEntityKilled
 public interface EventEntityKilled : IGameEvent<EventEntityKilled>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventEntityKilled : IGameEvent<EventEntityKilled>
 int DamageBits { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int DamageBits { get; set; }
 int EntindexAttacker { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int EntindexAttacker { get; set; }
 int EntindexInflictor { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int EntindexInflictor { get; set; }
 int EntindexKilled { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

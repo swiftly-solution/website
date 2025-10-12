@@ -14,7 +14,7 @@ public interface IContextedProfilerService
 void RecordTime(string name, double duration)
 ```
 
-#### Parameters
+- Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the profile to record the time for.
 - **duration**: [double](https://learn.microsoft.com/dotnet/api/system.double) - The duration to record.
@@ -25,7 +25,7 @@ void RecordTime(string name, double duration)
 void StartRecording(string name)
 ```
 
-#### Parameters
+- Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the profile to start.
 
@@ -35,7 +35,7 @@ void StartRecording(string name)
 void StopRecording(string name)
 ```
 
-#### Parameters
+- Parameters
 
 - **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the profile to stop.
 

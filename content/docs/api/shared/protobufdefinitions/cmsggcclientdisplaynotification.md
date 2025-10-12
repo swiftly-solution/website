@@ -6,7 +6,7 @@ title: CMsgGCClientDisplayNotification
 public interface CMsgGCClientDisplayNotification : ITypedProtobuf<CMsgGCClientDisplayNotification>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCClientDisplayNotification : ITypedProtobuf<CMsgGCClientDi
 IProtobufRepeatedFieldValueType<string> BodySubstringKeys { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<string> BodySubstringKeys { get; }
 IProtobufRepeatedFieldValueType<string> BodySubstringValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<string> BodySubstringValues { get; }
 string NotificationBodyLocalizationKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string NotificationBodyLocalizationKey { get; set; }
 string NotificationTitleLocalizationKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

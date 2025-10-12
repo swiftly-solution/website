@@ -6,7 +6,7 @@ title: CNavLinkMovementVData
 public interface CNavLinkMovementVData : ISchemaClass<CNavLinkMovementVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNavLinkMovementVData : ISchemaClass<CNavLinkMovementVData>, IS
 ref CUtlVector AnimgraphVars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector AnimgraphVars { get; }
 ref bool IsInterpolated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool IsInterpolated { get; }
 ref uint RecommendedDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint RecommendedDistance { get; }
 SchemaUntypedField ToolsOnlyOwnerModelName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

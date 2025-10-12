@@ -6,7 +6,7 @@ title: CP2P_VRAvatarPosition_COrientation
 public interface CP2P_VRAvatarPosition_COrientation : ITypedProtobuf<CP2P_VRAvatarPosition_COrientation>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CP2P_VRAvatarPosition_COrientation : ITypedProtobuf<CP2P_VRAvat
 QAngle Ang { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ QAngle Ang { get; set; }
 Vector Pos { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

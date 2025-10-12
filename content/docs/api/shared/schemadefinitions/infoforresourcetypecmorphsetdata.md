@@ -6,5 +6,5 @@ title: InfoForResourceTypeCMorphSetData
 public interface InfoForResourceTypeCMorphSetData : ISchemaClass<InfoForResourceTypeCMorphSetData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

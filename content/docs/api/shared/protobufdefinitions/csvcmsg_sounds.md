@@ -6,7 +6,7 @@ title: CSVCMsg_Sounds
 public interface CSVCMsg_Sounds : ITypedProtobuf<CSVCMsg_Sounds>, INativeHandle, INetMessage<CSVCMsg_Sounds>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_Sounds : ITypedProtobuf<CSVCMsg_Sounds>, INativeHandle,
 bool ReliableSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool ReliableSound { get; set; }
 IProtobufRepeatedFieldSubMessageType<CSVCMsg_Sounds_sounddata_t> Sounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSVCMsg_Sounds_sounddata_t](/docs/api/shared/protobufdefinitions/csvcmsg_sounds_sounddata_t)>
 

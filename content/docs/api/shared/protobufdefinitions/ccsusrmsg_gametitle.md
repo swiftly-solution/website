@@ -6,7 +6,7 @@ title: CCSUsrMsg_GameTitle
 public interface CCSUsrMsg_GameTitle : ITypedProtobuf<CCSUsrMsg_GameTitle>, INativeHandle, INetMessage<CCSUsrMsg_GameTitle>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_GameTitle : ITypedProtobuf<CCSUsrMsg_GameTitle>, INat
 int Dummy { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

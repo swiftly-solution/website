@@ -6,7 +6,7 @@ title: PulseGraphInstanceID_t
 public interface PulseGraphInstanceID_t : ISchemaClass<PulseGraphInstanceID_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseGraphInstanceID_t : ISchemaClass<PulseGraphInstanceID_t>, 
 ref uint Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

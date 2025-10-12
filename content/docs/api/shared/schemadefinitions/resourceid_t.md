@@ -6,7 +6,7 @@ title: ResourceId_t
 public interface ResourceId_t : ISchemaClass<ResourceId_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ResourceId_t : ISchemaClass<ResourceId_t>, ISchemaField, ISchem
 ref ulong Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

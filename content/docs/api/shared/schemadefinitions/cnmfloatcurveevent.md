@@ -6,7 +6,7 @@ title: CNmFloatCurveEvent
 public interface CNmFloatCurveEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaClass<CNmFloatCurveEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFloatCurveEvent : CNmEvent, ISchemaClass<CNmEvent>, ISchemaC
 SchemaUntypedField Curve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Curve { get; }
 ref CGlobalSymbol ID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

@@ -6,7 +6,7 @@ title: CBasePlayerWeapon
 public interface CBasePlayerWeapon : CEconEntity, CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CEconEntity>, ISchemaClass<CBasePlayerWeapon>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBasePlayerWeapon : CEconEntity, CBaseFlex, CBaseAnimGraph, CBa
 ref int Clip1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Clip1 { get; }
 ref int Clip2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int Clip2 { get; }
 GameTick_t NextPrimaryAttackTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
@@ -46,7 +46,7 @@ GameTick_t NextPrimaryAttackTick { get; }
 ref float NextPrimaryAttackTickRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float NextPrimaryAttackTickRatio { get; }
 GameTick_t NextSecondaryAttackTick { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTick_t](/docs/api/shared/schemadefinitions/gametick_t)
 
@@ -66,7 +66,7 @@ GameTick_t NextSecondaryAttackTick { get; }
 ref float NextSecondaryAttackTickRatio { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float NextSecondaryAttackTickRatio { get; }
 CEntityIOOutput OnPlayerUse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -86,7 +86,7 @@ CEntityIOOutput OnPlayerUse { get; }
 CBasePlayerWeaponVData PlayerWeaponVData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBasePlayerWeaponVData](/docs/api/shared/schemadefinitions/cbaseplayerweaponvdata)
 
@@ -96,7 +96,7 @@ CBasePlayerWeaponVData PlayerWeaponVData { get; }
 ISchemaFixedArray<int> ReserveAmmo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

@@ -6,7 +6,7 @@ title: VMixDelayDesc_t
 public interface VMixDelayDesc_t : ISchemaClass<VMixDelayDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixDelayDesc_t : ISchemaClass<VMixDelayDesc_t>, ISchemaField, 
 ref float Delay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Delay { get; }
 ref float DelayGain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DelayGain { get; }
 ref float DirectGain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float DirectGain { get; }
 ref bool EnableFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool EnableFilter { get; }
 VMixFilterDesc_t FeedbackFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixFilterDesc_t](/docs/api/shared/schemadefinitions/vmixfilterdesc_t)
 
@@ -66,7 +66,7 @@ VMixFilterDesc_t FeedbackFilter { get; }
 ref float FeedbackGain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float FeedbackGain { get; }
 ref float Width { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

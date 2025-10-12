@@ -14,7 +14,7 @@ public interface ITraceManager
 void TracePlayerBBox(Vector start, Vector end, BBox_t bounds, CTraceFilter filter, ref CGameTrace trace)
 ```
 
-#### Parameters
+- Parameters
 
 - **start**: [Vector](/docs/api/shared/natives/vector) - The starting position of the trace, typically representing the player's initial location.
 - **end**: [Vector](/docs/api/shared/natives/vector) - The ending position of the trace, representing the target location for the bounding box movement.
@@ -29,7 +29,7 @@ void TracePlayerBBox(Vector start, Vector end, BBox_t bounds, CTraceFilter filte
 void TraceShape(Vector start, Vector end, Ray_t ray, CTraceFilter filter, ref CGameTrace trace)
 ```
 
-#### Parameters
+- Parameters
 
 - **start**: [Vector](/docs/api/shared/natives/vector) - The starting position of the trace, represented as a vector.
 - **end**: [Vector](/docs/api/shared/natives/vector) - The ending position of the trace, represented as a vector.

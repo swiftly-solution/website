@@ -6,11 +6,11 @@ title: ISchemaFixedArray<T>
 public interface ISchemaFixedArray<T> : ISchemaField, INativeHandle where T : unmanaged
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -20,7 +20,7 @@ public interface ISchemaFixedArray<T> : ISchemaField, INativeHandle where T : un
 int ElementAlignment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -30,7 +30,7 @@ int ElementAlignment { get; }
 int ElementCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -40,7 +40,7 @@ int ElementCount { get; }
 int ElementSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -50,7 +50,7 @@ int ElementSize { get; }
 ref T this[int index] { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - T
 

@@ -6,7 +6,7 @@ title: CModelConfigElement_SetMaterialGroupOnAttachedModels
 public interface CModelConfigElement_SetMaterialGroupOnAttachedModels : CModelConfigElement, ISchemaClass<CModelConfigElement>, ISchemaClass<CModelConfigElement_SetMaterialGroupOnAttachedModels>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfigElement_SetMaterialGroupOnAttachedModels : CModelCo
 string MaterialGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

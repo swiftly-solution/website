@@ -6,7 +6,7 @@ title: CDemoSendTables
 public interface CDemoSendTables : ITypedProtobuf<CDemoSendTables>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDemoSendTables : ITypedProtobuf<CDemoSendTables>, INativeHandl
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

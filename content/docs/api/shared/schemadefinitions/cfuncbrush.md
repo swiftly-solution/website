@@ -6,7 +6,7 @@ title: CFuncBrush
 public interface CFuncBrush : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CFuncBrush>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFuncBrush : CBaseModelEntity, CBaseEntity, CEntityInstance, IS
 ref int Disabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Disabled { get; }
 string ExcludedClass { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ExcludedClass { get; set; }
 ref bool InvertExclusion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool InvertExclusion { get; }
 ref bool ScriptedMovement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool ScriptedMovement { get; }
 ref bool SolidBsp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool SolidBsp { get; }
 ref BrushSolidities_e Solidity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BrushSolidities_e](/docs/api/shared/schemadefinitions/brushsolidities_e)
 

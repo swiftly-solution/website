@@ -6,7 +6,7 @@ title: CPulseCell_Outflow_TestExplicitYesNo
 public interface CPulseCell_Outflow_TestExplicitYesNo : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_Outflow_TestExplicitYesNo>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Outflow_TestExplicitYesNo : CPulseCell_BaseFlow, CPu
 CPulse_OutflowConnection No { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
@@ -26,7 +26,7 @@ CPulse_OutflowConnection No { get; }
 CPulse_OutflowConnection Yes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 

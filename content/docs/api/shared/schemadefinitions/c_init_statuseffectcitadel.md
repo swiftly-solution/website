@@ -6,7 +6,7 @@ title: C_INIT_StatusEffectCitadel
 public interface C_INIT_StatusEffectCitadel : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_StatusEffectCitadel>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_INIT_StatusEffectCitadel : CParticleFunctionInitializer, CPar
 ref DetailCombo_t DetailCombo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DetailCombo_t](/docs/api/shared/schemadefinitions/detailcombo_t)
 
@@ -26,7 +26,7 @@ ref DetailCombo_t DetailCombo { get; }
 ref float SFXColorWarpAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float SFXColorWarpAmount { get; }
 ref float SFXMetalnessAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float SFXMetalnessAmount { get; }
 ref float SFXNormalAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float SFXNormalAmount { get; }
 ref float SFXRoughnessAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float SFXRoughnessAmount { get; }
 ref float SFXSDetailAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float SFXSDetailAmount { get; }
 ref float SFXSDetailScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float SFXSDetailScale { get; }
 ref float SFXSDetailScrollX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float SFXSDetailScrollX { get; }
 ref float SFXSDetailScrollY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float SFXSDetailScrollY { get; }
 ref float SFXSDetailScrollZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float SFXSDetailScrollZ { get; }
 ref float SFXSOffsetX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ ref float SFXSOffsetX { get; }
 ref float SFXSOffsetY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float SFXSOffsetY { get; }
 ref float SFXSOffsetZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -146,7 +146,7 @@ ref float SFXSOffsetZ { get; }
 ref float SFXSScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float SFXSScale { get; }
 ref float SFXSScrollX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -166,7 +166,7 @@ ref float SFXSScrollX { get; }
 ref float SFXSScrollY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ ref float SFXSScrollY { get; }
 ref float SFXSScrollZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float SFXSScrollZ { get; }
 ref float SFXSUseModelUVs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float SFXSUseModelUVs { get; }
 ref float SFXSelfIllumAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

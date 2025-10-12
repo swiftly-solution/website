@@ -6,7 +6,7 @@ title: CSVCMsg_RconServerDetails
 public interface CSVCMsg_RconServerDetails : ITypedProtobuf<CSVCMsg_RconServerDetails>, INativeHandle, INetMessage<CSVCMsg_RconServerDetails>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_RconServerDetails : ITypedProtobuf<CSVCMsg_RconServerDe
 string Details { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Details { get; set; }
 byte[] Token { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

@@ -6,7 +6,7 @@ title: CHitReactUpdateNode
 public interface CHitReactUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CHitReactUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CHitReactUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, IS
 CAnimParamHandle HitBoneParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -26,7 +26,7 @@ CAnimParamHandle HitBoneParam { get; }
 CAnimParamHandle HitDirectionParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -36,7 +36,7 @@ CAnimParamHandle HitDirectionParam { get; }
 CAnimParamHandle HitOffsetParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -46,7 +46,7 @@ CAnimParamHandle HitOffsetParam { get; }
 CAnimParamHandle HitStrengthParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -56,7 +56,7 @@ CAnimParamHandle HitStrengthParam { get; }
 ref float MinDelayBetweenHits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MinDelayBetweenHits { get; }
 HitReactFixedSettings_t OpFixedSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HitReactFixedSettings_t](/docs/api/shared/schemadefinitions/hitreactfixedsettings_t)
 
@@ -76,7 +76,7 @@ HitReactFixedSettings_t OpFixedSettings { get; }
 ref bool ResetChild { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool ResetChild { get; }
 CAnimParamHandle TriggerParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 

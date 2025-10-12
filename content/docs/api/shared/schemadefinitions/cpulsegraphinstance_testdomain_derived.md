@@ -6,7 +6,7 @@ title: CPulseGraphInstance_TestDomain_Derived
 public interface CPulseGraphInstance_TestDomain_Derived : CPulseGraphInstance_TestDomain, CBasePulseGraphInstance, ISchemaClass<CBasePulseGraphInstance>, ISchemaClass<CPulseGraphInstance_TestDomain>, ISchemaClass<CPulseGraphInstance_TestDomain_Derived>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseGraphInstance_TestDomain_Derived : CPulseGraphInstance_Te
 ref int InstanceValueX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

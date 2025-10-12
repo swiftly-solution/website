@@ -6,7 +6,7 @@ title: CEnvWindController
 public interface CEnvWindController : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CEnvWindController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEnvWindController : CBaseEntity, CEntityInstance, ISchemaClass
 ref int ClipmapLevels { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int ClipmapLevels { get; }
 ref float DirectionVariation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DirectionVariation { get; }
 CEnvWindShared EnvWindShared { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEnvWindShared](/docs/api/shared/schemadefinitions/cenvwindshared)
 
@@ -46,7 +46,7 @@ CEnvWindShared EnvWindShared { get; }
 ref bool FirstTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool FirstTime { get; }
 ref bool IsMaster { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IsMaster { get; }
 ref float SpeedVariation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float SpeedVariation { get; }
 ref float Turbulence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float Turbulence { get; }
 ref float VolumeHalfExtentXY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float VolumeHalfExtentXY { get; }
 ref float VolumeHalfExtentZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float VolumeHalfExtentZ { get; }
 ref int VolumeResolutionXY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ ref int VolumeResolutionXY { get; }
 ref int VolumeResolutionZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

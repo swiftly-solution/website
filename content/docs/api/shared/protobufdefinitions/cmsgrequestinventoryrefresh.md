@@ -6,5 +6,5 @@ title: CMsgRequestInventoryRefresh
 public interface CMsgRequestInventoryRefresh : ITypedProtobuf<CMsgRequestInventoryRefresh>, INativeHandle
 ```
 
-#### Implements
+- Implements
 

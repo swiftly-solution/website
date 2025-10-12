@@ -6,7 +6,7 @@ title: PermEntityLumpData_t
 public interface PermEntityLumpData_t : ISchemaClass<PermEntityLumpData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PermEntityLumpData_t : ISchemaClass<PermEntityLumpData_t>, ISch
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCEntityLump>> ChildLumps { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCEntityLump](/docs/api/shared/schemadefinitions/infoforresourcetypecentitylump)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCEntityLump>> ChildLumps { get; 
 SchemaUntypedField EntityKeyValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField EntityKeyValues { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CMsgGCShowItemsPickedUp
 public interface CMsgGCShowItemsPickedUp : ITypedProtobuf<CMsgGCShowItemsPickedUp>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCShowItemsPickedUp : ITypedProtobuf<CMsgGCShowItemsPickedU
 ulong PlayerSteamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

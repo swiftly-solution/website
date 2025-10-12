@@ -6,7 +6,7 @@ title: CCommunity_TerminateGamePersonalDataEntries_Request
 public interface CCommunity_TerminateGamePersonalDataEntries_Request : ITypedProtobuf<CCommunity_TerminateGamePersonalDataEntries_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCommunity_TerminateGamePersonalDataEntries_Request : ITypedPro
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Appid { get; set; }
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

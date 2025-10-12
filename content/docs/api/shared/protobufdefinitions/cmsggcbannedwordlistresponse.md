@@ -6,7 +6,7 @@ title: CMsgGCBannedWordListResponse
 public interface CMsgGCBannedWordListResponse : ITypedProtobuf<CMsgGCBannedWordListResponse>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCBannedWordListResponse : ITypedProtobuf<CMsgGCBannedWordL
 uint BanListGroupId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint BanListGroupId { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgGCBannedWord> WordList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCBannedWord](/docs/api/shared/protobufdefinitions/cmsggcbannedword)>
 

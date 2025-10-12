@@ -6,7 +6,7 @@ title: CMsgKickFromParty
 public interface CMsgKickFromParty : ITypedProtobuf<CMsgKickFromParty>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgKickFromParty : ITypedProtobuf<CMsgKickFromParty>, INativeH
 ulong SteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

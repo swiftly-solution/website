@@ -6,7 +6,7 @@ title: CMorphData
 public interface CMorphData : ISchemaClass<CMorphData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMorphData : ISchemaClass<CMorphData>, ISchemaField, ISchemaCla
 ref CUtlVector MorphRectDatas { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector MorphRectDatas { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CGameInfo_CDotaGameInfo_CPlayerInfo
 public interface CGameInfo_CDotaGameInfo_CPlayerInfo : ITypedProtobuf<CGameInfo_CDotaGameInfo_CPlayerInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameInfo_CDotaGameInfo_CPlayerInfo : ITypedProtobuf<CGameInfo_
 int GameTeam { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int GameTeam { get; set; }
 string HeroName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string HeroName { get; set; }
 bool IsFakeClient { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool IsFakeClient { get; set; }
 string PlayerName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string PlayerName { get; set; }
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

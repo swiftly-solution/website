@@ -6,7 +6,7 @@ title: CBtNodeConditionInactive
 public interface CBtNodeConditionInactive : CBtNodeCondition, CBtNodeDecorator, CBtNode, ISchemaClass<CBtNode>, ISchemaClass<CBtNodeDecorator>, ISchemaClass<CBtNodeCondition>, ISchemaClass<CBtNodeConditionInactive>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBtNodeConditionInactive : CBtNodeCondition, CBtNodeDecorator, 
 ref float RoundStartThresholdSeconds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float RoundStartThresholdSeconds { get; }
 ref float SensorInactivityThresholdSeconds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float SensorInactivityThresholdSeconds { get; }
 CountdownTimer SensorInactivityTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 

@@ -6,7 +6,7 @@ title: CUIFontFilePackagePB_CUIEncryptedFontFilePB
 public interface CUIFontFilePackagePB_CUIEncryptedFontFilePB : ITypedProtobuf<CUIFontFilePackagePB_CUIEncryptedFontFilePB>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUIFontFilePackagePB_CUIEncryptedFontFilePB : ITypedProtobuf<CU
 byte[] EncryptedContents { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

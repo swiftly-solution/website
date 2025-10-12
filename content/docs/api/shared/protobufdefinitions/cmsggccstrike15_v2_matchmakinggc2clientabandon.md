@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingGC2ClientAbandon
 public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientAbandon : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingGC2ClientAbandon>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientAbandon : ITypedProtobuf
 CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve AbandonedMatch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2clientreserve)
 
@@ -26,7 +26,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve AbandonedMatch { get; }
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint AccountId { get; set; }
 uint PenaltyReason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint PenaltyReason { get; set; }
 uint PenaltySeconds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CCSUsrMsg_VotePass
 public interface CCSUsrMsg_VotePass : ITypedProtobuf<CCSUsrMsg_VotePass>, INativeHandle, INetMessage<CCSUsrMsg_VotePass>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_VotePass : ITypedProtobuf<CCSUsrMsg_VotePass>, INativ
 string DetailsStr { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string DetailsStr { get; set; }
 string DispStr { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string DispStr { get; set; }
 int Team { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Team { get; set; }
 int VoteType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

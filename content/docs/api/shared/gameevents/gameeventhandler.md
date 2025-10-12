@@ -7,9 +7,9 @@ title: GameEventHandler
 public class GameEventHandler : Attribute
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -19,7 +19,7 @@ public class GameEventHandler : Attribute
 public GameEventHandler(HookMode hookMode)
 ```
 
-#### Parameters
+- Parameters
 
 - **hookMode**: [HookMode](/docs/api/shared/misc/hookmode)
 
@@ -31,7 +31,7 @@ public GameEventHandler(HookMode hookMode)
 public HookMode HookMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HookMode](/docs/api/shared/misc/hookmode)
 

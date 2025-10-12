@@ -6,7 +6,7 @@ title: JiggleBoneSettingsList_t
 public interface JiggleBoneSettingsList_t : ISchemaClass<JiggleBoneSettingsList_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface JiggleBoneSettingsList_t : ISchemaClass<JiggleBoneSettingsList_
 ref CUtlVector BoneSettings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

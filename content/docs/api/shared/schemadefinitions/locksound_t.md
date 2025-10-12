@@ -6,7 +6,7 @@ title: locksound_t
 public interface locksound_t : ISchemaClass<locksound_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface locksound_t : ISchemaClass<locksound_t>, ISchemaField, ISchemaC
 GameTime_t FlwaitSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -26,7 +26,7 @@ GameTime_t FlwaitSound { get; }
 string LockedSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string LockedSound { get; set; }
 string UnlockedSound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

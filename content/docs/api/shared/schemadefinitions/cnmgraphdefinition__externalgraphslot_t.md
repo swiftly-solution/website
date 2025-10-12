@@ -6,7 +6,7 @@ title: CNmGraphDefinition__ExternalGraphSlot_t
 public interface CNmGraphDefinition__ExternalGraphSlot_t : ISchemaClass<CNmGraphDefinition__ExternalGraphSlot_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmGraphDefinition__ExternalGraphSlot_t : ISchemaClass<CNmGraph
 ref short NodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short NodeIdx { get; }
 ref CGlobalSymbol SlotID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

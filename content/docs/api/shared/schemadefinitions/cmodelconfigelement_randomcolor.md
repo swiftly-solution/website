@@ -6,7 +6,7 @@ title: CModelConfigElement_RandomColor
 public interface CModelConfigElement_RandomColor : CModelConfigElement, ISchemaClass<CModelConfigElement>, ISchemaClass<CModelConfigElement_RandomColor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfigElement_RandomColor : CModelConfigElement, ISchemaC
 SchemaUntypedField Gradient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

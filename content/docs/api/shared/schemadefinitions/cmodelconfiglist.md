@@ -6,7 +6,7 @@ title: CModelConfigList
 public interface CModelConfigList : ISchemaClass<CModelConfigList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfigList : ISchemaClass<CModelConfigList>, ISchemaField
 ref CUtlVector<PointerTo<CModelConfig>> Configs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CModelConfig](/docs/api/shared/schemadefinitions/cmodelconfig)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<PointerTo<CModelConfig>> Configs { get; }
 ref bool HideMaterialGroupInTools { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool HideMaterialGroupInTools { get; }
 ref bool HideRenderColorInTools { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

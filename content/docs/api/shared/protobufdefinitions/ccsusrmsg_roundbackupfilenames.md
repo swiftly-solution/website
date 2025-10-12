@@ -6,7 +6,7 @@ title: CCSUsrMsg_RoundBackupFilenames
 public interface CCSUsrMsg_RoundBackupFilenames : ITypedProtobuf<CCSUsrMsg_RoundBackupFilenames>, INativeHandle, INetMessage<CCSUsrMsg_RoundBackupFilenames>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_RoundBackupFilenames : ITypedProtobuf<CCSUsrMsg_Round
 int Count { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Count { get; set; }
 string Filename { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Filename { get; set; }
 int Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int Index { get; set; }
 string Nicename { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

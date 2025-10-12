@@ -6,7 +6,7 @@ title: CTakeDamageResult
 public interface CTakeDamageResult : ISchemaClass<CTakeDamageResult>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTakeDamageResult : ISchemaClass<CTakeDamageResult>, ISchemaFie
 ref int DamageDealt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int DamageDealt { get; }
 ref int HealthLost { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ ref int HealthLost { get; }
 ref CTakeDamageInfo OriginatingInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTakeDamageInfo](/docs/api/shared/natives/ctakedamageinfo)
 
@@ -46,7 +46,7 @@ ref CTakeDamageInfo OriginatingInfo { get; }
 ref float PreModifiedDamage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float PreModifiedDamage { get; }
 ref int TotalledDamageDealt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int TotalledDamageDealt { get; }
 ref int TotalledHealthLost { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

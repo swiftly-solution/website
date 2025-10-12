@@ -6,7 +6,7 @@ title: JiggleBoneSettings_t
 public interface JiggleBoneSettings_t : ISchemaClass<JiggleBoneSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface JiggleBoneSettings_t : ISchemaClass<JiggleBoneSettings_t>, ISch
 ref int BoneIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int BoneIndex { get; }
 ref Vector BoundsMaxLS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ ref Vector BoundsMaxLS { get; }
 ref Vector BoundsMinLS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -46,7 +46,7 @@ ref Vector BoundsMinLS { get; }
 ref float Damping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float Damping { get; }
 ref float MaxTimeStep { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MaxTimeStep { get; }
 ref JiggleBoneSimSpace SimSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [JiggleBoneSimSpace](/docs/api/shared/schemadefinitions/jigglebonesimspace)
 
@@ -76,7 +76,7 @@ ref JiggleBoneSimSpace SimSpace { get; }
 ref float SpringStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

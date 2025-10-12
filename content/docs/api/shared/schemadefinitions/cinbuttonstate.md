@@ -6,7 +6,7 @@ title: CInButtonState
 public interface CInButtonState : ISchemaClass<CInButtonState>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CInButtonState : ISchemaClass<CInButtonState>, ISchemaField, IS
 ISchemaFixedArray<ulong> ButtonStates { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 

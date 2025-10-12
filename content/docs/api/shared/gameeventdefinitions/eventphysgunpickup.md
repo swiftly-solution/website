@@ -6,7 +6,7 @@ title: EventPhysgunPickup
 public interface EventPhysgunPickup : IGameEvent<EventPhysgunPickup>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventPhysgunPickup : IGameEvent<EventPhysgunPickup>
 nint Target { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 

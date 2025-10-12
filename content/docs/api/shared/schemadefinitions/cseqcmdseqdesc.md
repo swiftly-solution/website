@@ -6,7 +6,7 @@ title: CSeqCmdSeqDesc
 public interface CSeqCmdSeqDesc : ISchemaClass<CSeqCmdSeqDesc>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSeqCmdSeqDesc : ISchemaClass<CSeqCmdSeqDesc>, ISchemaField, IS
 ref CUtlVector ActivityArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector ActivityArray { get; }
 ref CUtlVector CmdLayerArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector CmdLayerArray { get; }
 ref CUtlVector EventArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector EventArray { get; }
 ref float FPS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float FPS { get; }
 CSeqSeqDescFlag Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSeqSeqDescFlag](/docs/api/shared/schemadefinitions/cseqseqdescflag)
 
@@ -66,7 +66,7 @@ CSeqSeqDescFlag Flags { get; }
 ref short FrameCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -76,7 +76,7 @@ ref short FrameCount { get; }
 ref short FrameRangeSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -86,7 +86,7 @@ ref short FrameRangeSequence { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -96,7 +96,7 @@ ref CBufferString Name { get; }
 ref short NumLocalResults { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -106,7 +106,7 @@ ref short NumLocalResults { get; }
 ref CUtlVector PoseSettingArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -116,7 +116,7 @@ ref CUtlVector PoseSettingArray { get; }
 ref short SubCycles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -126,7 +126,7 @@ ref short SubCycles { get; }
 CSeqTransition Transition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSeqTransition](/docs/api/shared/schemadefinitions/cseqtransition)
 

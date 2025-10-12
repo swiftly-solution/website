@@ -6,7 +6,7 @@ title: C_OP_RenderPostProcessing
 public interface C_OP_RenderPostProcessing : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderPostProcessing>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderPostProcessing : CParticleFunctionRenderer, CParticl
 CPerParticleFloatInput PostProcessStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -26,7 +26,7 @@ CPerParticleFloatInput PostProcessStrength { get; }
 ref CStrongHandle<InfoForResourceTypeCPostProcessingResource> PostTexture { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCPostProcessingResource](/docs/api/shared/schemadefinitions/infoforresourcetypecpostprocessingresource)>
 
@@ -36,7 +36,7 @@ ref CStrongHandle<InfoForResourceTypeCPostProcessingResource> PostTexture { get;
 ref ParticlePostProcessPriorityGroup_t Priority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticlePostProcessPriorityGroup_t](/docs/api/shared/schemadefinitions/particlepostprocessprioritygroup_t)
 

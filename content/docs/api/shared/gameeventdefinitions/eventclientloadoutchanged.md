@@ -6,5 +6,5 @@ title: EventClientLoadoutChanged
 public interface EventClientLoadoutChanged : IGameEvent<EventClientLoadoutChanged>
 ```
 
-#### Implements
+- Implements
 

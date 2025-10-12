@@ -6,7 +6,7 @@ title: ParticlePreviewState_t
 public interface ParticlePreviewState_t : ISchemaClass<ParticlePreviewState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ParticlePreviewState_t : ISchemaClass<ParticlePreviewState_t>, 
 ref bool AnimationNonLooping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AnimationNonLooping { get; }
 ref CUtlVector BodyGroups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector BodyGroups { get; }
 ref int FireParticleOnSequenceFrame { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ ref int FireParticleOnSequenceFrame { get; }
 ref PetGroundType_t GroundType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PetGroundType_t](/docs/api/shared/schemadefinitions/petgroundtype_t)
 
@@ -56,7 +56,7 @@ ref PetGroundType_t GroundType { get; }
 string HitboxSetName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string HitboxSetName { get; set; }
 string MaterialGroupName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string MaterialGroupName { get; set; }
 ref uint ModSpecificData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ ref uint ModSpecificData { get; }
 ref float ParticleSimulationRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float ParticleSimulationRate { get; }
 ref float PlaybackSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float PlaybackSpeed { get; }
 ref Vector PreviewGravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -116,7 +116,7 @@ ref Vector PreviewGravity { get; }
 string PreviewModel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -126,7 +126,7 @@ string PreviewModel { get; set; }
 string SequenceName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string SequenceName { get; set; }
 ref bool ShouldDrawAttachmentNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool ShouldDrawAttachmentNames { get; }
 ref bool ShouldDrawAttachments { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -156,7 +156,7 @@ ref bool ShouldDrawAttachments { get; }
 ref bool ShouldDrawControlPointAxes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -166,7 +166,7 @@ ref bool ShouldDrawControlPointAxes { get; }
 ref bool ShouldDrawHitboxes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

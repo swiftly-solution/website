@@ -6,7 +6,7 @@ title: CPointOrient
 public interface CPointOrient : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointOrient>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPointOrient : CBaseEntity, CEntityInstance, ISchemaClass<CEnti
 ref bool Active { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Active { get; }
 ref PointOrientConstraint_t Constraint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointOrientConstraint_t](/docs/api/shared/schemadefinitions/pointorientconstraint_t)
 
@@ -36,7 +36,7 @@ ref PointOrientConstraint_t Constraint { get; }
 ref PointOrientGoalDirectionType_t GoalDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PointOrientGoalDirectionType_t](/docs/api/shared/schemadefinitions/pointorientgoaldirectiontype_t)
 
@@ -46,7 +46,7 @@ ref PointOrientGoalDirectionType_t GoalDirection { get; }
 GameTime_t LastGameTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -56,7 +56,7 @@ GameTime_t LastGameTime { get; }
 ref float MaxTurnRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float MaxTurnRate { get; }
 string SpawnTargetName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string SpawnTargetName { get; set; }
 ref CHandle<CBaseEntity> Target { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 

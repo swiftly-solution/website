@@ -6,7 +6,7 @@ title: RotatorQueueEntry_t
 public interface RotatorQueueEntry_t : ISchemaClass<RotatorQueueEntry_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RotatorQueueEntry_t : ISchemaClass<RotatorQueueEntry_t>, ISchem
 ref RotatorTargetSpace_t Space { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RotatorTargetSpace_t](/docs/api/shared/schemadefinitions/rotatortargetspace_t)
 
@@ -26,7 +26,7 @@ ref RotatorTargetSpace_t Space { get; }
 ref Quaternion Target { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 

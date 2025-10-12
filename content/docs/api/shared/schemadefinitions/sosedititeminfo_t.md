@@ -6,7 +6,7 @@ title: SosEditItemInfo_t
 public interface SosEditItemInfo_t : ISchemaClass<SosEditItemInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SosEditItemInfo_t : ISchemaClass<SosEditItemInfo_t>, ISchemaFie
 string ItemKVString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string ItemKVString { get; set; }
 string ItemName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ItemName { get; set; }
 ref Vector2D ItemPos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -46,7 +46,7 @@ ref Vector2D ItemPos { get; }
 ref SosEditItemType_t ItemType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SosEditItemType_t](/docs/api/shared/schemadefinitions/sosedititemtype_t)
 
@@ -56,7 +56,7 @@ ref SosEditItemType_t ItemType { get; }
 string ItemTypeName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

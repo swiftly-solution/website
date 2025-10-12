@@ -6,7 +6,7 @@ title: CBufferString
 public struct CBufferString
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Methods
 

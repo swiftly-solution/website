@@ -6,7 +6,7 @@ title: NmSyncTrackTime_t
 public interface NmSyncTrackTime_t : ISchemaClass<NmSyncTrackTime_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NmSyncTrackTime_t : ISchemaClass<NmSyncTrackTime_t>, ISchemaFie
 ref int EventIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int EventIdx { get; }
 NmPercent_t PercentageThrough { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmPercent_t](/docs/api/shared/schemadefinitions/nmpercent_t)
 

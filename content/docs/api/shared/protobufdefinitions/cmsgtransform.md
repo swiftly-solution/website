@@ -6,7 +6,7 @@ title: CMsgTransform
 public interface CMsgTransform : ITypedProtobuf<CMsgTransform>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgTransform : ITypedProtobuf<CMsgTransform>, INativeHandle
 CMsgQuaternion Orientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgQuaternion](/docs/api/shared/protobufdefinitions/cmsgquaternion)
 
@@ -26,7 +26,7 @@ CMsgQuaternion Orientation { get; }
 Vector Position { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector Position { get; set; }
 float Scale { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

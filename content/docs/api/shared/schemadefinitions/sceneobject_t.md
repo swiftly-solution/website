@@ -6,7 +6,7 @@ title: SceneObject_t
 public interface SceneObject_t : ISchemaClass<SceneObject_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SceneObject_t : ISchemaClass<SceneObject_t>, ISchemaField, ISch
 ref int CubeMapPrecomputedHandshake { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int CubeMapPrecomputedHandshake { get; }
 ref float FadeEndDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float FadeEndDistance { get; }
 ref float FadeStartDistance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float FadeStartDistance { get; }
 ref short LODOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -56,7 +56,7 @@ ref short LODOverride { get; }
 ref int LightProbeVolumePrecomputedHandshake { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int LightProbeVolumePrecomputedHandshake { get; }
 ref Vector LightingOrigin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector LightingOrigin { get; }
 ref uint ObjectID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -86,7 +86,7 @@ ref uint ObjectID { get; }
 ref ObjectTypeFlags_t ObjectTypeFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ObjectTypeFlags_t](/docs/api/shared/schemadefinitions/objecttypeflags_t)
 
@@ -96,7 +96,7 @@ ref ObjectTypeFlags_t ObjectTypeFlags { get; }
 ref short OverlayRenderOrder { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -106,7 +106,7 @@ ref short OverlayRenderOrder { get; }
 ref CStrongHandle<InfoForResourceTypeCRenderMesh> Renderable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCRenderMesh](/docs/api/shared/schemadefinitions/infoforresourcetypecrendermesh)>
 
@@ -116,7 +116,7 @@ ref CStrongHandle<InfoForResourceTypeCRenderMesh> Renderable { get; }
 ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
@@ -126,7 +126,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
 string Skin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -136,7 +136,7 @@ string Skin { get; set; }
 ref Vector4D TintColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -146,7 +146,7 @@ ref Vector4D TintColor { get; }
 ISchemaFixedArray<Vector4D> Transform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[Vector4D](/docs/api/shared/natives/vector4d)>
 

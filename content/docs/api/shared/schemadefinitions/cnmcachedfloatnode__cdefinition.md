@@ -6,7 +6,7 @@ title: CNmCachedFloatNode__CDefinition
 public interface CNmCachedFloatNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmCachedFloatNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmCachedFloatNode__CDefinition : CNmFloatValueNode__CDefinitio
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ ref short InputValueNodeIdx { get; }
 ref NmCachedValueMode_t Mode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmCachedValueMode_t](/docs/api/shared/schemadefinitions/nmcachedvaluemode_t)
 

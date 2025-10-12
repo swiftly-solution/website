@@ -6,7 +6,7 @@ title: CRemapValueComponentUpdater
 public interface CRemapValueComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CRemapValueComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRemapValueComponentUpdater : CAnimComponentUpdater, ISchemaCla
 ref CUtlVector Items { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

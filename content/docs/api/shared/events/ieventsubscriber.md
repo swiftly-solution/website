@@ -12,7 +12,7 @@ public interface IEventSubscriber
 event EventDelegates.OnClientConnected? OnClientConnected
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnClientConnected](/docs/api/shared/events/eventdelegates/onclientconnected)?
 
@@ -22,7 +22,7 @@ event EventDelegates.OnClientConnected? OnClientConnected
 event EventDelegates.OnClientDisconnected? OnClientDisconnected
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnClientDisconnected](/docs/api/shared/events/eventdelegates/onclientdisconnected)?
 
@@ -32,7 +32,7 @@ event EventDelegates.OnClientDisconnected? OnClientDisconnected
 event EventDelegates.OnClientKeyStateChanged? OnClientKeyStateChanged
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnClientKeyStateChanged](/docs/api/shared/events/eventdelegates/onclientkeystatechanged)?
 
@@ -42,7 +42,7 @@ event EventDelegates.OnClientKeyStateChanged? OnClientKeyStateChanged
 event EventDelegates.OnClientProcessUsercmds? OnClientProcessUsercmds
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnClientProcessUsercmds](/docs/api/shared/events/eventdelegates/onclientprocessusercmds)?
 
@@ -52,7 +52,7 @@ event EventDelegates.OnClientProcessUsercmds? OnClientProcessUsercmds
 event EventDelegates.OnClientPutInServer? OnClientPutInServer
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnClientPutInServer](/docs/api/shared/events/eventdelegates/onclientputinserver)?
 
@@ -62,7 +62,7 @@ event EventDelegates.OnClientPutInServer? OnClientPutInServer
 event EventDelegates.OnClientSteamAuthorize? OnClientSteamAuthorize
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnClientSteamAuthorize](/docs/api/shared/events/eventdelegates/onclientsteamauthorize)?
 
@@ -72,7 +72,7 @@ event EventDelegates.OnClientSteamAuthorize? OnClientSteamAuthorize
 event EventDelegates.OnClientSteamAuthorizeFail? OnClientSteamAuthorizeFail
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnClientSteamAuthorizeFail](/docs/api/shared/events/eventdelegates/onclientsteamauthorizefail)?
 
@@ -82,7 +82,7 @@ event EventDelegates.OnClientSteamAuthorizeFail? OnClientSteamAuthorizeFail
 event EventDelegates.OnEntityCreated? OnEntityCreated
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityCreated](/docs/api/shared/events/eventdelegates/onentitycreated)?
 
@@ -92,7 +92,7 @@ event EventDelegates.OnEntityCreated? OnEntityCreated
 event EventDelegates.OnEntityDeleted? OnEntityDeleted
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityDeleted](/docs/api/shared/events/eventdelegates/onentitydeleted)?
 
@@ -102,7 +102,7 @@ event EventDelegates.OnEntityDeleted? OnEntityDeleted
 event EventDelegates.OnEntityParentChanged? OnEntityParentChanged
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityParentChanged](/docs/api/shared/events/eventdelegates/onentityparentchanged)?
 
@@ -112,7 +112,7 @@ event EventDelegates.OnEntityParentChanged? OnEntityParentChanged
 event EventDelegates.OnEntitySpawned? OnEntitySpawned
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntitySpawned](/docs/api/shared/events/eventdelegates/onentityspawned)?
 
@@ -122,7 +122,7 @@ event EventDelegates.OnEntitySpawned? OnEntitySpawned
 event EventDelegates.OnEntityTakeDamage? OnEntityTakeDamage
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityTakeDamage](/docs/api/shared/events/eventdelegates/onentitytakedamage)?
 
@@ -132,7 +132,7 @@ event EventDelegates.OnEntityTakeDamage? OnEntityTakeDamage
 event EventDelegates.OnItemServicesCanAcquireHook? OnItemServicesCanAcquireHook
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnItemServicesCanAcquireHook](/docs/api/shared/events/eventdelegates/onitemservicescanacquirehook)?
 
@@ -142,7 +142,7 @@ event EventDelegates.OnItemServicesCanAcquireHook? OnItemServicesCanAcquireHook
 event EventDelegates.OnMapLoad? OnMapLoad
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnMapLoad](/docs/api/shared/events/eventdelegates/onmapload)?
 
@@ -152,7 +152,7 @@ event EventDelegates.OnMapLoad? OnMapLoad
 event EventDelegates.OnMapUnload? OnMapUnload
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnMapUnload](/docs/api/shared/events/eventdelegates/onmapunload)?
 
@@ -162,7 +162,7 @@ event EventDelegates.OnMapUnload? OnMapUnload
 event EventDelegates.OnPrecacheResource? OnPrecacheResource
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnPrecacheResource](/docs/api/shared/events/eventdelegates/onprecacheresource)?
 
@@ -172,7 +172,7 @@ event EventDelegates.OnPrecacheResource? OnPrecacheResource
 event EventDelegates.OnTick? OnTick
 ```
 
-#### Event Type
+- Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnTick](/docs/api/shared/events/eventdelegates/ontick)?
 

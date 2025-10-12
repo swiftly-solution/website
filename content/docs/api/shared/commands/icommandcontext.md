@@ -14,7 +14,7 @@ public interface ICommandContext
 string[] Args { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)[]
 
@@ -24,7 +24,7 @@ string[] Args { get; }
 bool IsSentByPlayer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -34,7 +34,7 @@ bool IsSentByPlayer { get; }
 bool IsSlient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -44,7 +44,7 @@ bool IsSlient { get; }
 string Prefix { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -54,7 +54,7 @@ string Prefix { get; }
 IPlayer? Sender { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IPlayer](/docs/api/shared/players/iplayer)?
 
@@ -66,7 +66,7 @@ IPlayer? Sender { get; }
 void Reply(string message)
 ```
 
-#### Parameters
+- Parameters
 
 - **message**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 

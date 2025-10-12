@@ -6,7 +6,7 @@ title: IKDemoCaptureSettings_t
 public interface IKDemoCaptureSettings_t : ISchemaClass<IKDemoCaptureSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface IKDemoCaptureSettings_t : ISchemaClass<IKDemoCaptureSettings_t>
 string IkChainName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string IkChainName { get; set; }
 ref IKChannelMode Mode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IKChannelMode](/docs/api/shared/schemadefinitions/ikchannelmode)
 
@@ -36,7 +36,7 @@ ref IKChannelMode Mode { get; }
 string OneBoneEnd { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string OneBoneEnd { get; set; }
 string OneBoneStart { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string OneBoneStart { get; set; }
 string ParentBoneName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

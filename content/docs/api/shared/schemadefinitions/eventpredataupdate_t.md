@@ -6,7 +6,7 @@ title: EventPreDataUpdate_t
 public interface EventPreDataUpdate_t : ISchemaClass<EventPreDataUpdate_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventPreDataUpdate_t : ISchemaClass<EventPreDataUpdate_t>, ISch
 ref int Count { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

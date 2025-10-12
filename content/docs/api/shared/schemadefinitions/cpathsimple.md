@@ -6,7 +6,7 @@ title: CPathSimple
 public interface CPathSimple : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPathSimple>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPathSimple : CBaseEntity, CEntityInstance, ISchemaClass<CEntit
 CPathQueryComponent CPathQueryComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathQueryComponent](/docs/api/shared/schemadefinitions/cpathquerycomponent)
 
@@ -26,7 +26,7 @@ CPathQueryComponent CPathQueryComponent { get; }
 ref bool ClosedLoop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ClosedLoop { get; }
 string PathString { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

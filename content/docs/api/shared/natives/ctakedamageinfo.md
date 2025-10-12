@@ -6,7 +6,7 @@ title: CTakeDamageInfo
 public struct CTakeDamageInfo
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -22,7 +22,7 @@ public CTakeDamageInfo()
 public CTakeDamageInfo(CBaseEntity inflictor, CBaseEntity attacker, CBaseEntity ability, float flDamage, DamageTypes_t bitsDamageType)
 ```
 
-#### Parameters
+- Parameters
 
 - **inflictor**: [CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)
 - **attacker**: [CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)
@@ -38,7 +38,7 @@ public CTakeDamageInfo(CBaseEntity inflictor, CBaseEntity attacker, CBaseEntity 
 public CHandle<CEntityInstance> Ability
 ```
 
-#### Field Value
+- Field Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
@@ -48,7 +48,7 @@ public CHandle<CEntityInstance> Ability
 public sbyte AmmoType
 ```
 
-#### Field Value
+- Field Value
 
 - [sbyte](https://learn.microsoft.com/dotnet/api/system.sbyte)
 
@@ -58,7 +58,7 @@ public sbyte AmmoType
 public CHandle<CEntityInstance> Attacker
 ```
 
-#### Field Value
+- Field Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
@@ -68,7 +68,7 @@ public CHandle<CEntityInstance> Attacker
 public AttackerInfo_t AttackerInfo
 ```
 
-#### Field Value
+- Field Value
 
 - [AttackerInfo_t](/docs/api/shared/natives/attackerinfo_t)
 
@@ -78,7 +78,7 @@ public AttackerInfo_t AttackerInfo
 public float Damage
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -88,7 +88,7 @@ public float Damage
 public uint DamageCustom
 ```
 
-#### Field Value
+- Field Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -98,7 +98,7 @@ public uint DamageCustom
 public Vector DamageDirection
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -108,7 +108,7 @@ public Vector DamageDirection
 public TakeDamageFlags_t DamageFlags
 ```
 
-#### Field Value
+- Field Value
 
 - [TakeDamageFlags_t](/docs/api/shared/schemadefinitions/takedamageflags_t)
 
@@ -118,7 +118,7 @@ public TakeDamageFlags_t DamageFlags
 public Vector DamageForce
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -128,7 +128,7 @@ public Vector DamageForce
 public Vector DamagePosition
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -138,7 +138,7 @@ public Vector DamagePosition
 public CString DamageSourceName
 ```
 
-#### Field Value
+- Field Value
 
 - [CString](/docs/api/shared/natives/cstring)
 
@@ -148,7 +148,7 @@ public CString DamageSourceName
 public DamageTypes_t DamageType
 ```
 
-#### Field Value
+- Field Value
 
 - [DamageTypes_t](/docs/api/shared/schemadefinitions/damagetypes_t)
 
@@ -158,7 +158,7 @@ public DamageTypes_t DamageType
 public float FriendlyFireDamageReductionRatio
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -169,7 +169,7 @@ public float FriendlyFireDamageReductionRatio
 public HitGroup_t HitGroupId
 ```
 
-#### Field Value
+- Field Value
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 
@@ -179,7 +179,7 @@ public HitGroup_t HitGroupId
 public bool InTakeDamageFlow
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -189,7 +189,7 @@ public bool InTakeDamageFlow
 public CHandle<CEntityInstance> Inflictor
 ```
 
-#### Field Value
+- Field Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)>
 
@@ -199,7 +199,7 @@ public CHandle<CEntityInstance> Inflictor
 public int NumObjectsPenetrated
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -209,7 +209,7 @@ public int NumObjectsPenetrated
 public float OriginalDamage
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -219,7 +219,7 @@ public float OriginalDamage
 public Vector ReportedPosition
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -229,7 +229,7 @@ public Vector ReportedPosition
 public void* ScriptInstance
 ```
 
-#### Field Value
+- Field Value
 
 - [void](https://learn.microsoft.com/dotnet/api/system.void)*
 
@@ -239,7 +239,7 @@ public void* ScriptInstance
 public bool ShouldBleed
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -249,7 +249,7 @@ public bool ShouldBleed
 public bool ShouldSpark
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -259,7 +259,7 @@ public bool ShouldSpark
 public float TotalledDamage
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -269,7 +269,7 @@ public float TotalledDamage
 public CGameTrace* Trace
 ```
 
-#### Field Value
+- Field Value
 
 - [CGameTrace](/docs/api/shared/natives/cgametrace)*
 
@@ -279,7 +279,7 @@ public CGameTrace* Trace
 public nint _pVTable
 ```
 
-#### Field Value
+- Field Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -291,7 +291,7 @@ public nint _pVTable
 public HitGroup_t ActualHitGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HitGroup_t](/docs/api/shared/schemadefinitions/hitgroup_t)
 

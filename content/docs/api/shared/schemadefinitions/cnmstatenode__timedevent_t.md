@@ -6,7 +6,7 @@ title: CNmStateNode__TimedEvent_t
 public interface CNmStateNode__TimedEvent_t : ISchemaClass<CNmStateNode__TimedEvent_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmStateNode__TimedEvent_t : ISchemaClass<CNmStateNode__TimedEv
 ref CNmStateNode__TimedEvent_t__Comparison_t ComparisionOperator { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmStateNode__TimedEvent_t__Comparison_t](/docs/api/shared/schemadefinitions/cnmstatenode__timedevent_t__comparison_t)
 
@@ -26,7 +26,7 @@ ref CNmStateNode__TimedEvent_t__Comparison_t ComparisionOperator { get; }
 ref CGlobalSymbol ID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -36,7 +36,7 @@ ref CGlobalSymbol ID { get; }
 ref float TimeValueSeconds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

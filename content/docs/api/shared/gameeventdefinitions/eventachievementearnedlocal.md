@@ -6,7 +6,7 @@ title: EventAchievementEarnedLocal
 public interface EventAchievementEarnedLocal : IGameEvent<EventAchievementEarnedLocal>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventAchievementEarnedLocal : IGameEvent<EventAchievementEarned
 short Achievement { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -26,7 +26,7 @@ short Achievement { get; set; }
 short SplitScreenPlayer { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

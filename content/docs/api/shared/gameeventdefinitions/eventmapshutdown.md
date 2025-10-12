@@ -6,5 +6,5 @@ title: EventMapShutdown
 public interface EventMapShutdown : IGameEvent<EventMapShutdown>
 ```
 
-#### Implements
+- Implements
 

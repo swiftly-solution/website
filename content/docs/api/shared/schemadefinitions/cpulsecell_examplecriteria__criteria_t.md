@@ -6,7 +6,7 @@ title: CPulseCell_ExampleCriteria__Criteria_t
 public interface CPulseCell_ExampleCriteria__Criteria_t : ISchemaClass<CPulseCell_ExampleCriteria__Criteria_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_ExampleCriteria__Criteria_t : ISchemaClass<CPulseCel
 ref float FloatValue1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float FloatValue1 { get; }
 ref float FloatValue2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float FloatValue2 { get; }
 ref bool MyBool { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,7 +6,7 @@ title: CGameServers_AggregationQuery_Response_Group
 public interface CGameServers_AggregationQuery_Response_Group : ITypedProtobuf<CGameServers_AggregationQuery_Response_Group>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameServers_AggregationQuery_Response_Group : ITypedProtobuf<C
 IProtobufRepeatedFieldValueType<string> GroupValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<string> GroupValues { get; }
 uint PlayerCapacity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint PlayerCapacity { get; set; }
 uint PlayersBots { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint PlayersBots { get; set; }
 uint PlayersHumans { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint PlayersHumans { get; set; }
 uint ServersEmpty { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint ServersEmpty { get; set; }
 uint ServersFull { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint ServersFull { get; set; }
 uint ServersTotal { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

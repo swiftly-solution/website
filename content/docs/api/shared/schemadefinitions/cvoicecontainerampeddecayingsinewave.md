@@ -6,7 +6,7 @@ title: CVoiceContainerAmpedDecayingSineWave
 public interface CVoiceContainerAmpedDecayingSineWave : CVoiceContainerDecayingSineWave, CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerDecayingSineWave>, ISchemaClass<CVoiceContainerAmpedDecayingSineWave>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerAmpedDecayingSineWave : CVoiceContainerDecayingS
 ref float GainAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

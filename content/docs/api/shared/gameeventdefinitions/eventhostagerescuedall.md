@@ -6,5 +6,5 @@ title: EventHostageRescuedAll
 public interface EventHostageRescuedAll : IGameEvent<EventHostageRescuedAll>
 ```
 
-#### Implements
+- Implements
 

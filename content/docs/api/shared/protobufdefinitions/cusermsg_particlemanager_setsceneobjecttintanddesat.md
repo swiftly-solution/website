@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetSceneObjectTintAndDesat
 public interface CUserMsg_ParticleManager_SetSceneObjectTintAndDesat : ITypedProtobuf<CUserMsg_ParticleManager_SetSceneObjectTintAndDesat>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetSceneObjectTintAndDesat : ITypedPro
 float Desat { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float Desat { get; set; }
 uint Tint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

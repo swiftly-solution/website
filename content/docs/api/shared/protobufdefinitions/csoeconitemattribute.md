@@ -6,7 +6,7 @@ title: CSOEconItemAttribute
 public interface CSOEconItemAttribute : ITypedProtobuf<CSOEconItemAttribute>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOEconItemAttribute : ITypedProtobuf<CSOEconItemAttribute>, IN
 uint DefIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint DefIndex { get; set; }
 uint Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Value { get; set; }
 byte[] ValueBytes { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

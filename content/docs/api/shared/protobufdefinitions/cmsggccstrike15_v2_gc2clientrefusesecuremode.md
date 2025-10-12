@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GC2ClientRefuseSecureMode
 public interface CMsgGCCStrike15_v2_GC2ClientRefuseSecureMode : ITypedProtobuf<CMsgGCCStrike15_v2_GC2ClientRefuseSecureMode>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GC2ClientRefuseSecureMode : ITypedProtobuf<C
 string FileReport { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string FileReport { get; set; }
 string FilesPreventedTrusted { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string FilesPreventedTrusted { get; set; }
 bool KickUser { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool KickUser { get; set; }
 bool OfferInsecureMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ bool OfferInsecureMode { get; set; }
 bool OfferSecureMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ bool OfferSecureMode { get; set; }
 bool ShowTrustedUi { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ bool ShowTrustedUi { get; set; }
 bool ShowUnsignedUi { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ bool ShowUnsignedUi { get; set; }
 bool ShowWarningNotTrusted { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ bool ShowWarningNotTrusted { get; set; }
 bool ShowWarningNotTrusted2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

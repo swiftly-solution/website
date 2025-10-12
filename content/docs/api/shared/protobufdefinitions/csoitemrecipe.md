@@ -6,7 +6,7 @@ title: CSOItemRecipe
 public interface CSOItemRecipe : ITypedProtobuf<CSOItemRecipe>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOItemRecipe : ITypedProtobuf<CSOItemRecipe>, INativeHandle
 int ClassUsageForOutput { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ClassUsageForOutput { get; set; }
 uint DefIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint DefIndex { get; set; }
 string DescInputs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string DescInputs { get; set; }
 string DescOutputs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string DescOutputs { get; set; }
 string DiA { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -66,7 +66,7 @@ string DiA { get; set; }
 string DiB { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string DiB { get; set; }
 string DiC { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string DiC { get; set; }
 string DoA { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string DoA { get; set; }
 string DoB { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string DoB { get; set; }
 string DoC { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -116,7 +116,7 @@ string DoC { get; set; }
 IProtobufRepeatedFieldValueType<uint> InputItemDupeCounts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -126,7 +126,7 @@ IProtobufRepeatedFieldValueType<uint> InputItemDupeCounts { get; }
 IProtobufRepeatedFieldSubMessageType<CSOItemCriteria> InputItemsCriteria { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSOItemCriteria](/docs/api/shared/protobufdefinitions/csoitemcriteria)>
 
@@ -136,7 +136,7 @@ IProtobufRepeatedFieldSubMessageType<CSOItemCriteria> InputItemsCriteria { get; 
 string NA { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -146,7 +146,7 @@ string NA { get; set; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -156,7 +156,7 @@ string Name { get; set; }
 IProtobufRepeatedFieldSubMessageType<CSOItemCriteria> OutputItemsCriteria { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSOItemCriteria](/docs/api/shared/protobufdefinitions/csoitemcriteria)>
 
@@ -166,7 +166,7 @@ IProtobufRepeatedFieldSubMessageType<CSOItemCriteria> OutputItemsCriteria { get;
 bool RequiresAllSameClass { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ bool RequiresAllSameClass { get; set; }
 bool RequiresAllSameSlot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -186,7 +186,7 @@ bool RequiresAllSameSlot { get; set; }
 int SetForOutput { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -196,7 +196,7 @@ int SetForOutput { get; set; }
 int SlotUsageForOutput { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

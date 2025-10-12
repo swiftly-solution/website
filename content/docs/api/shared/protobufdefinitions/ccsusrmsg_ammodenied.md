@@ -6,7 +6,7 @@ title: CCSUsrMsg_AmmoDenied
 public interface CCSUsrMsg_AmmoDenied : ITypedProtobuf<CCSUsrMsg_AmmoDenied>, INativeHandle, INetMessage<CCSUsrMsg_AmmoDenied>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_AmmoDenied : ITypedProtobuf<CCSUsrMsg_AmmoDenied>, IN
 int Ammoidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

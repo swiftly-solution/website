@@ -6,7 +6,7 @@ title: CPulseCell_WaitForCursorsWithTag
 public interface CPulseCell_WaitForCursorsWithTag : CPulseCell_WaitForCursorsWithTagBase, CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_WaitForCursorsWithTagBase>, ISchemaClass<CPulseCell_WaitForCursorsWithTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_WaitForCursorsWithTag : CPulseCell_WaitForCursorsWit
 ref PulseCursorCancelPriority_t DesiredKillPriority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseCursorCancelPriority_t](/docs/api/shared/schemadefinitions/pulsecursorcancelpriority_t)
 
@@ -26,7 +26,7 @@ ref PulseCursorCancelPriority_t DesiredKillPriority { get; }
 ref bool TagSelfWhenComplete { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

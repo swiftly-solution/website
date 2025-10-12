@@ -6,7 +6,7 @@ title: CSSDSMsg_ViewTargetList
 public interface CSSDSMsg_ViewTargetList : ISchemaClass<CSSDSMsg_ViewTargetList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSSDSMsg_ViewTargetList : ISchemaClass<CSSDSMsg_ViewTargetList>
 ref CUtlVector Targets { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Targets { get; }
 SceneViewId_t ViewId { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SceneViewId_t](/docs/api/shared/schemadefinitions/sceneviewid_t)
 
@@ -36,7 +36,7 @@ SceneViewId_t ViewId { get; }
 string ViewName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

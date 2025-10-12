@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientAuthKeyCode
 public interface CMsgGCCStrike15_v2_ClientAuthKeyCode : ITypedProtobuf<CMsgGCCStrike15_v2_ClientAuthKeyCode>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientAuthKeyCode : ITypedProtobuf<CMsgGCCSt
 string Code { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Code { get; set; }
 uint Eventid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

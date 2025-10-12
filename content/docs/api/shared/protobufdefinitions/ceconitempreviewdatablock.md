@@ -6,7 +6,7 @@ title: CEconItemPreviewDataBlock
 public interface CEconItemPreviewDataBlock : ITypedProtobuf<CEconItemPreviewDataBlock>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEconItemPreviewDataBlock : ITypedProtobuf<CEconItemPreviewData
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 string Customname { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string Customname { get; set; }
 uint Defindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Defindex { get; set; }
 uint Dropreason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint Dropreason { get; set; }
 int Entindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int Entindex { get; set; }
 uint Inventory { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint Inventory { get; set; }
 ulong Itemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -86,7 +86,7 @@ ulong Itemid { get; set; }
 IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock_Sticker> Keychains { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CEconItemPreviewDataBlock_Sticker](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock_sticker)>
 
@@ -96,7 +96,7 @@ IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock_Sticker> Keychain
 uint Killeaterscoretype { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ uint Killeaterscoretype { get; set; }
 uint Killeatervalue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -116,7 +116,7 @@ uint Killeatervalue { get; set; }
 uint Musicindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ uint Musicindex { get; set; }
 uint Origin { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint Origin { get; set; }
 uint Paintindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ uint Paintindex { get; set; }
 uint Paintseed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -156,7 +156,7 @@ uint Paintseed { get; set; }
 uint Paintwear { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -166,7 +166,7 @@ uint Paintwear { get; set; }
 uint Petindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -176,7 +176,7 @@ uint Petindex { get; set; }
 uint Quality { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -186,7 +186,7 @@ uint Quality { get; set; }
 uint Questid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -196,7 +196,7 @@ uint Questid { get; set; }
 uint Rarity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -206,7 +206,7 @@ uint Rarity { get; set; }
 IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock_Sticker> Stickers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CEconItemPreviewDataBlock_Sticker](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock_sticker)>
 
@@ -216,7 +216,7 @@ IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock_Sticker> Stickers
 uint Style { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -226,7 +226,7 @@ uint Style { get; set; }
 uint UpgradeLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -236,7 +236,7 @@ uint UpgradeLevel { get; set; }
 IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock_Sticker> Variations { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CEconItemPreviewDataBlock_Sticker](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock_sticker)>
 

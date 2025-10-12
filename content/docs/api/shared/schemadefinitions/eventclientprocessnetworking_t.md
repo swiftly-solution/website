@@ -6,7 +6,7 @@ title: EventClientProcessNetworking_t
 public interface EventClientProcessNetworking_t : ISchemaClass<EventClientProcessNetworking_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventClientProcessNetworking_t : ISchemaClass<EventClientProces
 ref int TickCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

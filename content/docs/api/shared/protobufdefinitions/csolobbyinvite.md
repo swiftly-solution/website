@@ -6,7 +6,7 @@ title: CSOLobbyInvite
 public interface CSOLobbyInvite : ITypedProtobuf<CSOLobbyInvite>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSOLobbyInvite : ITypedProtobuf<CSOLobbyInvite>, INativeHandle
 ulong GroupId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong GroupId { get; set; }
 ulong SenderId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong SenderId { get; set; }
 string SenderName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CCSUsrMsg_DesiredTimescale
 public interface CCSUsrMsg_DesiredTimescale : ITypedProtobuf<CCSUsrMsg_DesiredTimescale>, INativeHandle, INetMessage<CCSUsrMsg_DesiredTimescale>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_DesiredTimescale : ITypedProtobuf<CCSUsrMsg_DesiredTi
 float DesiredTimescale { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float DesiredTimescale { get; set; }
 float DurationRealtimeSec { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float DurationRealtimeSec { get; set; }
 int InterpolatorType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int InterpolatorType { get; set; }
 float StartBlendTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

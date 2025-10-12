@@ -6,7 +6,7 @@ title: VMixDualCompressorDesc_t
 public interface VMixDualCompressorDesc_t : ISchemaClass<VMixDualCompressorDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixDualCompressorDesc_t : ISchemaClass<VMixDualCompressorDesc_
 VMixDynamicsBand_t BandDesc { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixDynamicsBand_t](/docs/api/shared/schemadefinitions/vmixdynamicsband_t)
 
@@ -26,7 +26,7 @@ VMixDynamicsBand_t BandDesc { get; }
 ref float FldbKneeWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float FldbKneeWidth { get; }
 ref bool PeakMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool PeakMode { get; }
 ref float RMSTimeMS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float RMSTimeMS { get; }
 ref float WetMix { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

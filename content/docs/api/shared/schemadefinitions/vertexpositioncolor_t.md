@@ -6,7 +6,7 @@ title: VertexPositionColor_t
 public interface VertexPositionColor_t : ISchemaClass<VertexPositionColor_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VertexPositionColor_t : ISchemaClass<VertexPositionColor_t>, IS
 ref Vector Position { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

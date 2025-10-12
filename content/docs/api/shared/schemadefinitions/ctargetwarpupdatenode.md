@@ -6,7 +6,7 @@ title: CTargetWarpUpdateNode
 public interface CTargetWarpUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CTargetWarpUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTargetWarpUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, 
 ref TargetWarpAngleMode_t AngleMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TargetWarpAngleMode_t](/docs/api/shared/schemadefinitions/targetwarpanglemode_t)
 
@@ -26,7 +26,7 @@ ref TargetWarpAngleMode_t AngleMode { get; }
 ref TargetWarpCorrectionMethod CorrectionMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TargetWarpCorrectionMethod](/docs/api/shared/schemadefinitions/targetwarpcorrectionmethod)
 
@@ -36,7 +36,7 @@ ref TargetWarpCorrectionMethod CorrectionMethod { get; }
 CAnimParamHandle DesiredMoveHeadingParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -46,7 +46,7 @@ CAnimParamHandle DesiredMoveHeadingParameter { get; }
 ref float MaxAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MaxAngle { get; }
 CAnimParamHandle MoveHeadingParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -66,7 +66,7 @@ CAnimParamHandle MoveHeadingParameter { get; }
 ref bool OnlyWarpWhenTagIsFound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool OnlyWarpWhenTagIsFound { get; }
 ref bool TargetFacePositionIsWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool TargetFacePositionIsWorldSpace { get; }
 CAnimParamHandle TargetFacePositionParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -96,7 +96,7 @@ CAnimParamHandle TargetFacePositionParameter { get; }
 ref bool TargetPositionIsWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool TargetPositionIsWorldSpace { get; }
 CAnimParamHandle TargetPositionParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -116,7 +116,7 @@ CAnimParamHandle TargetPositionParameter { get; }
 CAnimParamHandle TargetUpVectorParameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -126,7 +126,7 @@ CAnimParamHandle TargetUpVectorParameter { get; }
 ref TargetWarpTimingMethod TargetWarpTimingMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TargetWarpTimingMethod](/docs/api/shared/schemadefinitions/targetwarptimingmethod)
 
@@ -136,7 +136,7 @@ ref TargetWarpTimingMethod TargetWarpTimingMethod { get; }
 ref bool WarpAroundCenter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool WarpAroundCenter { get; }
 ref bool WarpOrientationDuringTranslation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

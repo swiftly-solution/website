@@ -6,7 +6,7 @@ title: CGameChoreoServices
 public interface CGameChoreoServices : IChoreoServices, ISchemaClass<IChoreoServices>, ISchemaClass<CGameChoreoServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameChoreoServices : IChoreoServices, ISchemaClass<IChoreoServ
 ref IChoreoServices__ChoreoState_t ChoreoState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IChoreoServices__ChoreoState_t](/docs/api/shared/schemadefinitions/ichoreoservices__choreostate_t)
 
@@ -26,7 +26,7 @@ ref IChoreoServices__ChoreoState_t ChoreoState { get; }
 ref CHandle<CBaseAnimGraph> Owner { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseAnimGraph](/docs/api/shared/schemadefinitions/cbaseanimgraph)>
 
@@ -36,7 +36,7 @@ ref CHandle<CBaseAnimGraph> Owner { get; }
 ref IChoreoServices__ScriptState_t ScriptState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IChoreoServices__ScriptState_t](/docs/api/shared/schemadefinitions/ichoreoservices__scriptstate_t)
 
@@ -46,7 +46,7 @@ ref IChoreoServices__ScriptState_t ScriptState { get; }
 ref CHandle<CScriptedSequence> ScriptedSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CScriptedSequence](/docs/api/shared/schemadefinitions/cscriptedsequence)>
 
@@ -56,7 +56,7 @@ ref CHandle<CScriptedSequence> ScriptedSequence { get; }
 GameTime_t TimeStartedState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 

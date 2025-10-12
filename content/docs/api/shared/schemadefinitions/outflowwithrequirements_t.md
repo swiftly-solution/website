@@ -6,7 +6,7 @@ title: OutflowWithRequirements_t
 public interface OutflowWithRequirements_t : ISchemaClass<OutflowWithRequirements_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface OutflowWithRequirements_t : ISchemaClass<OutflowWithRequirement
 CPulse_OutflowConnection Connection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
@@ -26,7 +26,7 @@ CPulse_OutflowConnection Connection { get; }
 ref CUtlVector<int> CursorStateBlockIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<int> CursorStateBlockIndex { get; }
 PulseDocNodeID_t DestinationFlowNodeID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t)
 
@@ -46,7 +46,7 @@ PulseDocNodeID_t DestinationFlowNodeID { get; }
 ref CUtlVector RequirementNodeIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

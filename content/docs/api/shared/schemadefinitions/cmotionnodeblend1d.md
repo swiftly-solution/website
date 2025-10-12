@@ -6,7 +6,7 @@ title: CMotionNodeBlend1D
 public interface CMotionNodeBlend1D : CMotionNode, ISchemaClass<CMotionNode>, ISchemaClass<CMotionNodeBlend1D>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMotionNodeBlend1D : CMotionNode, ISchemaClass<CMotionNode>, IS
 ref CUtlVector BlendItems { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector BlendItems { get; }
 ref int ParamIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

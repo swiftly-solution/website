@@ -6,11 +6,11 @@ title: CEntityKeyValues
 public class CEntityKeyValues : IDisposable
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Implements
+- Implements
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -34,15 +34,15 @@ public void Dispose()
 public T Get<T>(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - T
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -52,11 +52,11 @@ public T Get<T>(string key)
 public bool GetBool(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,11 +66,11 @@ public bool GetBool(string key)
 public Color GetColor(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -80,11 +80,11 @@ public Color GetColor(string key)
 public double GetDouble(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
@@ -94,11 +94,11 @@ public double GetDouble(string key)
 public float GetFloat(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -108,11 +108,11 @@ public float GetFloat(string key)
 public int GetInt32(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -122,11 +122,11 @@ public int GetInt32(string key)
 public long GetInt64(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
@@ -136,11 +136,11 @@ public long GetInt64(string key)
 public nint GetPtr(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -150,11 +150,11 @@ public nint GetPtr(string key)
 public QAngle GetQAngle(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -164,11 +164,11 @@ public QAngle GetQAngle(string key)
 public string GetString(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -178,11 +178,11 @@ public string GetString(string key)
 public CUtlStringToken GetStringToken(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -192,11 +192,11 @@ public CUtlStringToken GetStringToken(string key)
 public uint GetUInt32(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -206,11 +206,11 @@ public uint GetUInt32(string key)
 public ulong GetUInt64(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -220,11 +220,11 @@ public ulong GetUInt64(string key)
 public Vector GetVector(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -234,11 +234,11 @@ public Vector GetVector(string key)
 public Vector2D GetVector2D(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
@@ -248,11 +248,11 @@ public Vector2D GetVector2D(string key)
 public Vector4D GetVector4D(string key)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -262,12 +262,12 @@ public Vector4D GetVector4D(string key)
 public void Set<T>(string key, T value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: T
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
@@ -277,7 +277,7 @@ public void Set<T>(string key, T value)
 public void SetBool(string key, bool value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
@@ -288,7 +288,7 @@ public void SetBool(string key, bool value)
 public void SetColor(string key, Color value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [Color](/docs/api/shared/natives/color)
@@ -299,7 +299,7 @@ public void SetColor(string key, Color value)
 public void SetDouble(string key, double value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [double](https://learn.microsoft.com/dotnet/api/system.double)
@@ -310,7 +310,7 @@ public void SetDouble(string key, double value)
 public void SetFloat(string key, float value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -321,7 +321,7 @@ public void SetFloat(string key, float value)
 public void SetInt32(string key, int value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -332,7 +332,7 @@ public void SetInt32(string key, int value)
 public void SetInt64(string key, long value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [long](https://learn.microsoft.com/dotnet/api/system.int64)
@@ -343,7 +343,7 @@ public void SetInt64(string key, long value)
 public void SetPtr(string key, nint value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
@@ -354,7 +354,7 @@ public void SetPtr(string key, nint value)
 public void SetQAngle(string key, QAngle value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [QAngle](/docs/api/shared/natives/qangle)
@@ -365,7 +365,7 @@ public void SetQAngle(string key, QAngle value)
 public void SetString(string key, string value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [string](https://learn.microsoft.com/dotnet/api/system.string)
@@ -376,7 +376,7 @@ public void SetString(string key, string value)
 public void SetStringToken(string key, CUtlStringToken value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
@@ -387,7 +387,7 @@ public void SetStringToken(string key, CUtlStringToken value)
 public void SetUInt32(string key, uint value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
@@ -398,7 +398,7 @@ public void SetUInt32(string key, uint value)
 public void SetUInt64(string key, ulong value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
@@ -409,7 +409,7 @@ public void SetUInt64(string key, ulong value)
 public void SetVector(string key, Vector value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [Vector](/docs/api/shared/natives/vector)
@@ -420,7 +420,7 @@ public void SetVector(string key, Vector value)
 public void SetVector2D(string key, Vector2D value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [Vector2D](/docs/api/shared/natives/vector2d)
@@ -431,7 +431,7 @@ public void SetVector2D(string key, Vector2D value)
 public void SetVector4D(string key, Vector4D value)
 ```
 
-#### Parameters
+- Parameters
 
 - **key**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **value**: [Vector4D](/docs/api/shared/natives/vector4d)

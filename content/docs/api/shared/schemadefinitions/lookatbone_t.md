@@ -6,7 +6,7 @@ title: LookAtBone_t
 public interface LookAtBone_t : ISchemaClass<LookAtBone_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface LookAtBone_t : ISchemaClass<LookAtBone_t>, ISchemaField, ISchem
 ref int Index { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int Index { get; }
 ref float Weight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

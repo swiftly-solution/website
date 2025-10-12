@@ -6,7 +6,7 @@ title: CAnimTagBase
 public interface CAnimTagBase : ISchemaClass<CAnimTagBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimTagBase : ISchemaClass<CAnimTagBase>, ISchemaField, ISchem
 string Comment { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string Comment { get; set; }
 ref CGlobalSymbol Group { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -36,7 +36,7 @@ ref CGlobalSymbol Group { get; }
 ref bool IsReferenced { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IsReferenced { get; }
 ref CGlobalSymbol Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -56,7 +56,7 @@ ref CGlobalSymbol Name { get; }
 AnimTagID TagID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimTagID](/docs/api/shared/schemadefinitions/animtagid)
 

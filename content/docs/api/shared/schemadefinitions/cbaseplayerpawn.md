@@ -6,7 +6,7 @@ title: CBasePlayerPawn
 public interface CBasePlayerPawn : CBaseCombatCharacter, CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CBaseCombatCharacter>, ISchemaClass<CBasePlayerPawn>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBasePlayerPawn : CBaseCombatCharacter, CBaseFlex, CBaseAnimGra
 CPlayer_AutoaimServices? AutoaimServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPlayer_AutoaimServices](/docs/api/shared/schemadefinitions/cplayer_autoaimservices)?
 
@@ -26,7 +26,7 @@ CPlayer_AutoaimServices? AutoaimServices { get; }
 CPlayer_CameraServices? CameraServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPlayer_CameraServices](/docs/api/shared/schemadefinitions/cplayer_cameraservices)?
 
@@ -36,7 +36,7 @@ CPlayer_CameraServices? CameraServices { get; }
 ref CHandle<CBasePlayerController> Controller { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerController](/docs/api/shared/schemadefinitions/cbaseplayercontroller)>
 
@@ -46,7 +46,7 @@ ref CHandle<CBasePlayerController> Controller { get; }
 GameTime_t DeathTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -56,7 +56,7 @@ GameTime_t DeathTime { get; }
 ref CHandle<CBasePlayerController> DefaultController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBasePlayerController](/docs/api/shared/schemadefinitions/cbaseplayercontroller)>
 
@@ -66,7 +66,7 @@ ref CHandle<CBasePlayerController> DefaultController { get; }
 CAI_Expresser? Expresser { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAI_Expresser](/docs/api/shared/schemadefinitions/cai_expresser)?
 
@@ -76,7 +76,7 @@ CAI_Expresser? Expresser { get; }
 CPlayer_FlashlightServices? FlashlightServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPlayer_FlashlightServices](/docs/api/shared/schemadefinitions/cplayer_flashlightservices)?
 
@@ -86,7 +86,7 @@ CPlayer_FlashlightServices? FlashlightServices { get; }
 ref uint HideHUD { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ ref uint HideHUD { get; }
 ref float HltvReplayDelay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float HltvReplayDelay { get; }
 ref float HltvReplayEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float HltvReplayEnd { get; }
 ref uint HltvReplayEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ ref uint HltvReplayEntity { get; }
 ref bool InitHUD { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool InitHUD { get; }
 CPlayer_ItemServices? ItemServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPlayer_ItemServices](/docs/api/shared/schemadefinitions/cplayer_itemservices)?
 
@@ -146,7 +146,7 @@ CPlayer_ItemServices? ItemServices { get; }
 CPlayer_MovementServices? MovementServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPlayer_MovementServices](/docs/api/shared/schemadefinitions/cplayer_movementservices)?
 
@@ -156,7 +156,7 @@ CPlayer_MovementServices? MovementServices { get; }
 GameTime_t NextSuicideTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -166,7 +166,7 @@ GameTime_t NextSuicideTime { get; }
 CPlayer_ObserverServices? ObserverServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPlayer_ObserverServices](/docs/api/shared/schemadefinitions/cplayer_observerservices)?
 
@@ -176,7 +176,7 @@ CPlayer_ObserverServices? ObserverServices { get; }
 ref CUtlVector ServerViewAngleChanges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -186,7 +186,7 @@ ref CUtlVector ServerViewAngleChanges { get; }
 sky3dparams_t Skybox3d { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [sky3dparams_t](/docs/api/shared/schemadefinitions/sky3dparams_t)
 
@@ -196,7 +196,7 @@ sky3dparams_t Skybox3d { get; }
 ref CUtlVector SndOpvarLatchData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -206,7 +206,7 @@ ref CUtlVector SndOpvarLatchData { get; }
 GameTime_t TimeLastHurt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -216,7 +216,7 @@ GameTime_t TimeLastHurt { get; }
 CPlayer_UseServices? UseServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPlayer_UseServices](/docs/api/shared/schemadefinitions/cplayer_useservices)?
 
@@ -226,7 +226,7 @@ CPlayer_UseServices? UseServices { get; }
 ref QAngle V_angle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -236,7 +236,7 @@ ref QAngle V_angle { get; }
 ref QAngle V_anglePrevious { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -246,7 +246,7 @@ ref QAngle V_anglePrevious { get; }
 CPlayer_WaterServices? WaterServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPlayer_WaterServices](/docs/api/shared/schemadefinitions/cplayer_waterservices)?
 
@@ -256,7 +256,7 @@ CPlayer_WaterServices? WaterServices { get; }
 CPlayer_WeaponServices? WeaponServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPlayer_WeaponServices](/docs/api/shared/schemadefinitions/cplayer_weaponservices)?
 
@@ -280,7 +280,7 @@ void CameraServicesUpdated()
 void CommitSuicide(bool explode, bool force)
 ```
 
-#### Parameters
+- Parameters
 
 - **explode**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 - **force**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)

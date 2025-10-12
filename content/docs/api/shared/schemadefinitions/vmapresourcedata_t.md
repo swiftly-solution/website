@@ -6,5 +6,5 @@ title: VMapResourceData_t
 public interface VMapResourceData_t : ISchemaClass<VMapResourceData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

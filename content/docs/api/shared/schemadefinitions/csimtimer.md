@@ -6,7 +6,7 @@ title: CSimTimer
 public interface CSimTimer : CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>, ISchemaClass<CSimTimer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSimTimer : CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>, ISc
 ref float Interval { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

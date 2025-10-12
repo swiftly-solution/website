@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingGC2ClientHello
 public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientHello : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingGC2ClientHello>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingGC2ClientHello : ITypedProtobuf<C
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 AccountActivity Activity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AccountActivity](/docs/api/shared/protobufdefinitions/accountactivity)
 
@@ -36,7 +36,7 @@ AccountActivity Activity { get; }
 PlayerCommendationInfo Commendation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PlayerCommendationInfo](/docs/api/shared/protobufdefinitions/playercommendationinfo)
 
@@ -46,7 +46,7 @@ PlayerCommendationInfo Commendation { get; }
 GlobalStatistics GlobalStats { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GlobalStatistics](/docs/api/shared/protobufdefinitions/globalstatistics)
 
@@ -56,7 +56,7 @@ GlobalStatistics GlobalStats { get; }
 PlayerMedalsInfo Medals { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PlayerMedalsInfo](/docs/api/shared/protobufdefinitions/playermedalsinfo)
 
@@ -66,7 +66,7 @@ PlayerMedalsInfo Medals { get; }
 TournamentEvent MyCurrentEvent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TournamentEvent](/docs/api/shared/protobufdefinitions/tournamentevent)
 
@@ -76,7 +76,7 @@ TournamentEvent MyCurrentEvent { get; }
 IProtobufRepeatedFieldSubMessageType<TournamentEvent> MyCurrentEventStages { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[TournamentEvent](/docs/api/shared/protobufdefinitions/tournamentevent)>
 
@@ -86,7 +86,7 @@ IProtobufRepeatedFieldSubMessageType<TournamentEvent> MyCurrentEventStages { get
 IProtobufRepeatedFieldSubMessageType<TournamentTeam> MyCurrentEventTeams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[TournamentTeam](/docs/api/shared/protobufdefinitions/tournamentteam)>
 
@@ -96,7 +96,7 @@ IProtobufRepeatedFieldSubMessageType<TournamentTeam> MyCurrentEventTeams { get; 
 TournamentTeam MyCurrentTeam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TournamentTeam](/docs/api/shared/protobufdefinitions/tournamentteam)
 
@@ -106,7 +106,7 @@ TournamentTeam MyCurrentTeam { get; }
 CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve Ongoingmatch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2clientreserve)
 
@@ -116,7 +116,7 @@ CMsgGCCStrike15_v2_MatchmakingGC2ClientReserve Ongoingmatch { get; }
 ulong Owcaseid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -126,7 +126,7 @@ ulong Owcaseid { get; set; }
 uint PenaltyReason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint PenaltyReason { get; set; }
 uint PenaltySeconds { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ uint PenaltySeconds { get; set; }
 int PlayerCurXp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ int PlayerCurXp { get; set; }
 int PlayerLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ int PlayerLevel { get; set; }
 int PlayerXpBonusFlags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -176,7 +176,7 @@ int PlayerXpBonusFlags { get; set; }
 PlayerRankingInfo Ranking { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PlayerRankingInfo](/docs/api/shared/protobufdefinitions/playerrankinginfo)
 
@@ -186,7 +186,7 @@ PlayerRankingInfo Ranking { get; }
 IProtobufRepeatedFieldSubMessageType<PlayerRankingInfo> Rankings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[PlayerRankingInfo](/docs/api/shared/protobufdefinitions/playerrankinginfo)>
 
@@ -196,7 +196,7 @@ IProtobufRepeatedFieldSubMessageType<PlayerRankingInfo> Rankings { get; }
 uint SurveyVote { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -206,7 +206,7 @@ uint SurveyVote { get; set; }
 int VacBanned { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

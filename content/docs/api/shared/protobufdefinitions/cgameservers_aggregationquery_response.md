@@ -6,7 +6,7 @@ title: CGameServers_AggregationQuery_Response
 public interface CGameServers_AggregationQuery_Response : ITypedProtobuf<CGameServers_AggregationQuery_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGameServers_AggregationQuery_Response : ITypedProtobuf<CGameSe
 IProtobufRepeatedFieldSubMessageType<CGameServers_AggregationQuery_Response_Group> Groups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CGameServers_AggregationQuery_Response_Group](/docs/api/shared/protobufdefinitions/cgameservers_aggregationquery_response_group)>
 

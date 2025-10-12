@@ -6,7 +6,7 @@ title: CSosGroupActionSoundeventMinMaxValuesSchema
 public interface CSosGroupActionSoundeventMinMaxValuesSchema : CSosGroupActionSchema, ISchemaClass<CSosGroupActionSchema>, ISchemaClass<CSosGroupActionSoundeventMinMaxValuesSchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSosGroupActionSoundeventMinMaxValuesSchema : CSosGroupActionSc
 ref bool ExcludSoundsAboveThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool ExcludSoundsAboveThreshold { get; }
 ref bool ExcludeDelayedSounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool ExcludeDelayedSounds { get; }
 ref bool ExcludeSoundsBelowThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool ExcludeSoundsBelowThreshold { get; }
 ref float ExcludeSoundsMaxThresholdValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float ExcludeSoundsMaxThresholdValue { get; }
 ref float ExcludeSoundsMinThresholdValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float ExcludeSoundsMinThresholdValue { get; }
 ref bool ExcludeStoppedSounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool ExcludeStoppedSounds { get; }
 string StrDelayPublicFieldName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -86,7 +86,7 @@ string StrDelayPublicFieldName { get; set; }
 string StrMaxValueName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string StrMaxValueName { get; set; }
 string StrMinValueName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string StrMinValueName { get; set; }
 string StrQueryPublicFieldName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

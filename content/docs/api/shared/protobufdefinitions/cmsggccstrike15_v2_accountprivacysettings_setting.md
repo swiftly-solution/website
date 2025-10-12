@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_AccountPrivacySettings_Setting
 public interface CMsgGCCStrike15_v2_AccountPrivacySettings_Setting : ITypedProtobuf<CMsgGCCStrike15_v2_AccountPrivacySettings_Setting>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_AccountPrivacySettings_Setting : ITypedProto
 uint SettingType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint SettingType { get; set; }
 uint SettingValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CCSPlayerPawnBase
 public interface CCSPlayerPawnBase : CBasePlayerPawn, CBaseCombatCharacter, CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CBaseCombatCharacter>, ISchemaClass<CBasePlayerPawn>, ISchemaClass<CCSPlayerPawnBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayerPawnBase : CBasePlayerPawn, CBaseCombatCharacter, CBas
 GameTime_t BlindStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -26,7 +26,7 @@ GameTime_t BlindStartTime { get; }
 GameTime_t BlindUntilTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -36,7 +36,7 @@ GameTime_t BlindUntilTime { get; }
 CTouchExpansionComponent CTouchExpansionComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTouchExpansionComponent](/docs/api/shared/schemadefinitions/ctouchexpansioncomponent)
 
@@ -46,7 +46,7 @@ CTouchExpansionComponent CTouchExpansionComponent { get; }
 ref float FlashDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float FlashDuration { get; }
 ref float FlashMaxAlpha { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float FlashMaxAlpha { get; }
 ref bool HasMovedSinceSpawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool HasMovedSinceSpawn { get; }
 ref float IdleTimeSinceLastAction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float IdleTimeSinceLastAction { get; }
 ref float NextRadarUpdateTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ ref float NextRadarUpdateTime { get; }
 ref int NumSpawns { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int NumSpawns { get; }
 ref CHandle<CCSPlayerController> OriginalController { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)>
 
@@ -116,7 +116,7 @@ ref CHandle<CCSPlayerController> OriginalController { get; }
 CCSPlayer_PingServices? PingServices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CCSPlayer_PingServices](/docs/api/shared/schemadefinitions/ccsplayer_pingservices)?
 
@@ -126,7 +126,7 @@ CCSPlayer_PingServices? PingServices { get; }
 ref CSPlayerState PlayerState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSPlayerState](/docs/api/shared/schemadefinitions/csplayerstate)
 
@@ -136,7 +136,7 @@ ref CSPlayerState PlayerState { get; }
 ref int ProgressBarDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ ref int ProgressBarDuration { get; }
 ref float ProgressBarStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -156,7 +156,7 @@ ref float ProgressBarStartTime { get; }
 ref bool Respawning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

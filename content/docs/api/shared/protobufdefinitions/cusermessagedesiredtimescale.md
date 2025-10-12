@@ -6,7 +6,7 @@ title: CUserMessageDesiredTimescale
 public interface CUserMessageDesiredTimescale : ITypedProtobuf<CUserMessageDesiredTimescale>, INativeHandle, INetMessage<CUserMessageDesiredTimescale>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageDesiredTimescale : ITypedProtobuf<CUserMessageDesir
 float Acceleration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float Acceleration { get; set; }
 float Blenddeltamultiplier { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float Blenddeltamultiplier { get; set; }
 float Desired { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float Desired { get; set; }
 float Minblendrate { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

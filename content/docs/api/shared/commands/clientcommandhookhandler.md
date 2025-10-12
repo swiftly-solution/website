@@ -7,9 +7,9 @@ title: ClientCommandHookHandler
 public class ClientCommandHookHandler : Attribute
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 

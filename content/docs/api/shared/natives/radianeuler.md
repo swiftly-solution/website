@@ -6,7 +6,7 @@ title: RadianEuler
 public struct RadianEuler
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -16,7 +16,7 @@ public struct RadianEuler
 public RadianEuler(float x, float y, float z)
 ```
 
-#### Parameters
+- Parameters
 
 - **x**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **y**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -28,7 +28,7 @@ public RadianEuler(float x, float y, float z)
 public RadianEuler(RadianEuler other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 
@@ -40,7 +40,7 @@ public RadianEuler(RadianEuler other)
 public float X
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -50,7 +50,7 @@ public float X
 public float Y
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -60,7 +60,7 @@ public float Y
 public float Z
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -72,7 +72,7 @@ public float Z
 public static RadianEuler Zero { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RadianEuler](/docs/api/shared/natives/radianeuler)
 
@@ -84,11 +84,11 @@ public static RadianEuler Zero { get; }
 public override bool Equals(object? obj)
 ```
 
-#### Parameters
+- Parameters
 
 - **obj**: [object](https://learn.microsoft.com/dotnet/api/system.object)? - The object to compare with the current instance.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
@@ -98,7 +98,7 @@ public override bool Equals(object? obj)
 public override int GetHashCode()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
@@ -108,7 +108,7 @@ public override int GetHashCode()
 public QAngle ToQAngle()
 ```
 
-#### Returns
+- Returns
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -118,7 +118,7 @@ public QAngle ToQAngle()
 public override string ToString()
 ```
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The fully qualified type name.
 
@@ -130,12 +130,12 @@ public override string ToString()
 public static RadianEuler operator +(RadianEuler a, RadianEuler b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 - **b**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 
-#### Returns
+- Returns
 
 - [RadianEuler](/docs/api/shared/natives/radianeuler)
 
@@ -145,12 +145,12 @@ public static RadianEuler operator +(RadianEuler a, RadianEuler b)
 public static RadianEuler operator /(RadianEuler a, RadianEuler b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 - **b**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 
-#### Returns
+- Returns
 
 - [RadianEuler](/docs/api/shared/natives/radianeuler)
 
@@ -160,12 +160,12 @@ public static RadianEuler operator /(RadianEuler a, RadianEuler b)
 public static RadianEuler operator /(RadianEuler a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [RadianEuler](/docs/api/shared/natives/radianeuler)
 
@@ -175,12 +175,12 @@ public static RadianEuler operator /(RadianEuler a, float b)
 public static bool operator ==(RadianEuler a, RadianEuler b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 - **b**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -190,12 +190,12 @@ public static bool operator ==(RadianEuler a, RadianEuler b)
 public static bool operator !=(RadianEuler a, RadianEuler b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 - **b**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -205,12 +205,12 @@ public static bool operator !=(RadianEuler a, RadianEuler b)
 public static RadianEuler operator *(RadianEuler a, RadianEuler b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 - **b**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 
-#### Returns
+- Returns
 
 - [RadianEuler](/docs/api/shared/natives/radianeuler)
 
@@ -220,12 +220,12 @@ public static RadianEuler operator *(RadianEuler a, RadianEuler b)
 public static RadianEuler operator *(RadianEuler a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [RadianEuler](/docs/api/shared/natives/radianeuler)
 
@@ -235,12 +235,12 @@ public static RadianEuler operator *(RadianEuler a, float b)
 public static RadianEuler operator -(RadianEuler a, RadianEuler b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 - **b**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 
-#### Returns
+- Returns
 
 - [RadianEuler](/docs/api/shared/natives/radianeuler)
 
@@ -250,11 +250,11 @@ public static RadianEuler operator -(RadianEuler a, RadianEuler b)
 public static RadianEuler operator -(RadianEuler a)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [RadianEuler](/docs/api/shared/natives/radianeuler)
 
-#### Returns
+- Returns
 
 - [RadianEuler](/docs/api/shared/natives/radianeuler)
 

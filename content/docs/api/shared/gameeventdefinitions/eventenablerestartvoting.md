@@ -6,7 +6,7 @@ title: EventEnableRestartVoting
 public interface EventEnableRestartVoting : IGameEvent<EventEnableRestartVoting>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventEnableRestartVoting : IGameEvent<EventEnableRestartVoting>
 bool Enable { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

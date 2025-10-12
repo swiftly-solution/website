@@ -6,7 +6,7 @@ title: CModelConfigElement_UserPick
 public interface CModelConfigElement_UserPick : CModelConfigElement, ISchemaClass<CModelConfigElement>, ISchemaClass<CModelConfigElement_UserPick>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CModelConfigElement_UserPick : CModelConfigElement, ISchemaClas
 ref CUtlVector<CUtlString> Choices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 

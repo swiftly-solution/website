@@ -6,7 +6,7 @@ title: FeSimdQuad_t
 public interface FeSimdQuad_t : ISchemaClass<FeSimdQuad_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface FeSimdQuad_t : ISchemaClass<FeSimdQuad_t>, ISchemaField, ISchem
 ref fltx4 F4Slack { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
@@ -26,7 +26,7 @@ ref fltx4 F4Slack { get; }
 ISchemaFixedArray<fltx4> F4Weights { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[fltx4](/docs/api/shared/natives/fltx4)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<fltx4> F4Weights { get; }
 SchemaUntypedField Node { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField Node { get; }
 ISchemaFixedArray<FourVectors> Shape { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[FourVectors](/docs/api/shared/natives/fourvectors)>
 

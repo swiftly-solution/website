@@ -6,7 +6,7 @@ title: CCSUsrMsg_KillCam
 public interface CCSUsrMsg_KillCam : ITypedProtobuf<CCSUsrMsg_KillCam>, INativeHandle, INetMessage<CCSUsrMsg_KillCam>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_KillCam : ITypedProtobuf<CCSUsrMsg_KillCam>, INativeH
 int FirstTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int FirstTarget { get; set; }
 int ObsMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int ObsMode { get; set; }
 int SecondTarget { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

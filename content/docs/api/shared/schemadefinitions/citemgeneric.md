@@ -6,7 +6,7 @@ title: CItemGeneric
 public interface CItemGeneric : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CItem>, ISchemaClass<CItemGeneric>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CItemGeneric : CItem, CBaseAnimGraph, CBaseModelEntity, CBaseEn
 string AllowPickupScriptFunction { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AllowPickupScriptFunction { get; set; }
 string AmbientSoundEffect { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string AmbientSoundEffect { get; set; }
 ref bool AutoStartAmbientSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool AutoStartAmbientSound { get; }
 ref Color GlowColor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
@@ -56,7 +56,7 @@ ref Color GlowColor { get; }
 ref bool GlowWhenInTrigger { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool GlowWhenInTrigger { get; }
 ref bool HasPickupRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool HasPickupRadius { get; }
 ref bool HasTriggerRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool HasTriggerRadius { get; }
 GameTime_t LastPickupCheck { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -96,7 +96,7 @@ GameTime_t LastPickupCheck { get; }
 CEntityIOOutput OnPickup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -106,7 +106,7 @@ CEntityIOOutput OnPickup { get; }
 CEntityIOOutput OnTimeout { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -116,7 +116,7 @@ CEntityIOOutput OnTimeout { get; }
 CEntityIOOutput OnTriggerEndTouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -126,7 +126,7 @@ CEntityIOOutput OnTriggerEndTouch { get; }
 CEntityIOOutput OnTriggerStartTouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -136,7 +136,7 @@ CEntityIOOutput OnTriggerStartTouch { get; }
 CEntityIOOutput OnTriggerTouch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -146,7 +146,7 @@ CEntityIOOutput OnTriggerTouch { get; }
 ref CHandle<CBaseFilter> PickupFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseFilter](/docs/api/shared/schemadefinitions/cbasefilter)>
 
@@ -156,7 +156,7 @@ ref CHandle<CBaseFilter> PickupFilter { get; }
 string PickupFilterName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -166,7 +166,7 @@ string PickupFilterName { get; set; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> PickupParticleEffect { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -176,7 +176,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> PickupParticleEf
 ref float PickupRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -186,7 +186,7 @@ ref float PickupRadius { get; }
 ref float PickupRadiusSqr { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ ref float PickupRadiusSqr { get; }
 string PickupScriptFunction { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -206,7 +206,7 @@ string PickupScriptFunction { get; set; }
 string PickupSoundEffect { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -216,7 +216,7 @@ string PickupSoundEffect { get; set; }
 ref bool PlayerCounterListenerAdded { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool PlayerCounterListenerAdded { get; }
 ref bool PlayerInTriggerRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -236,7 +236,7 @@ ref bool PlayerInTriggerRadius { get; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> SpawnParticleEffect { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -246,7 +246,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> SpawnParticleEff
 string SpawnScriptFunction { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -256,7 +256,7 @@ string SpawnScriptFunction { get; set; }
 ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> TimeoutParticleEffect { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIParticleSystemDefinition](/docs/api/shared/schemadefinitions/infoforresourcetypeiparticlesystemdefinition)>
 
@@ -266,7 +266,7 @@ ref CStrongHandle<InfoForResourceTypeIParticleSystemDefinition> TimeoutParticleE
 string TimeoutScriptFunction { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -276,7 +276,7 @@ string TimeoutScriptFunction { get; set; }
 string TimeoutSoundEffect { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -286,7 +286,7 @@ string TimeoutSoundEffect { get; set; }
 ref CHandle<CItemGenericTriggerHelper> TriggerHelper { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CItemGenericTriggerHelper](/docs/api/shared/schemadefinitions/citemgenerictriggerhelper)>
 
@@ -296,7 +296,7 @@ ref CHandle<CItemGenericTriggerHelper> TriggerHelper { get; }
 ref float TriggerRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -306,7 +306,7 @@ ref float TriggerRadius { get; }
 ref float TriggerRadiusSqr { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -316,7 +316,7 @@ ref float TriggerRadiusSqr { get; }
 string TriggerSoundEffect { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -326,7 +326,7 @@ string TriggerSoundEffect { get; set; }
 ref bool Useable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

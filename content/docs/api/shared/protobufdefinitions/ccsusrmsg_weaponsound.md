@@ -6,7 +6,7 @@ title: CCSUsrMsg_WeaponSound
 public interface CCSUsrMsg_WeaponSound : ITypedProtobuf<CCSUsrMsg_WeaponSound>, INativeHandle, INetMessage<CCSUsrMsg_WeaponSound>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_WeaponSound : ITypedProtobuf<CCSUsrMsg_WeaponSound>, 
 int Entidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Entidx { get; set; }
 float GameTimestamp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float GameTimestamp { get; set; }
 float OriginX { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float OriginX { get; set; }
 float OriginY { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ float OriginY { get; set; }
 float OriginZ { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ float OriginZ { get; set; }
 string Sound { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string Sound { get; set; }
 uint SourceSoundscapeid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

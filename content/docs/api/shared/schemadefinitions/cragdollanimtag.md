@@ -6,7 +6,7 @@ title: CRagdollAnimTag
 public interface CRagdollAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CRagdollAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CRagdollAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISc
 ref CGlobalSymbol ProfileName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

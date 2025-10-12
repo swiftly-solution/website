@@ -6,7 +6,7 @@ title: CMsgServerNetworkStats
 public interface CMsgServerNetworkStats : ITypedProtobuf<CMsgServerNetworkStats>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgServerNetworkStats : ITypedProtobuf<CMsgServerNetworkStats>
 float AvgDataIn { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float AvgDataIn { get; set; }
 float AvgDataOut { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ float AvgDataOut { get; set; }
 float AvgEngineLatencyOut { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ float AvgEngineLatencyOut { get; set; }
 float AvgLossIn { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ float AvgLossIn { get; set; }
 float AvgLossOut { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ float AvgLossOut { get; set; }
 float AvgPacketsIn { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ float AvgPacketsIn { get; set; }
 float AvgPacketsOut { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ float AvgPacketsOut { get; set; }
 float AvgPingMs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -96,7 +96,7 @@ float AvgPingMs { get; set; }
 int CpuUsage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ int CpuUsage { get; set; }
 bool Dedicated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ bool Dedicated { get; set; }
 float Fps { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -126,7 +126,7 @@ float Fps { get; set; }
 int MemoryFreeMb { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ int MemoryFreeMb { get; set; }
 int MemoryUsedMb { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ int MemoryUsedMb { get; set; }
 int NumBots { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ int NumBots { get; set; }
 int NumClients { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -166,7 +166,7 @@ int NumClients { get; set; }
 int NumSpectators { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -176,7 +176,7 @@ int NumSpectators { get; set; }
 int NumTvRelays { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ int NumTvRelays { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgServerNetworkStats_Player> Players { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgServerNetworkStats_Player](/docs/api/shared/protobufdefinitions/cmsgservernetworkstats_player)>
 
@@ -196,7 +196,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgServerNetworkStats_Player> Players { ge
 IProtobufRepeatedFieldSubMessageType<CMsgServerNetworkStats_Port> Ports { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgServerNetworkStats_Port](/docs/api/shared/protobufdefinitions/cmsgservernetworkstats_port)>
 
@@ -206,7 +206,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgServerNetworkStats_Port> Ports { get; }
 int SpawnCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -216,7 +216,7 @@ int SpawnCount { get; set; }
 ulong TotalDataIn { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -226,7 +226,7 @@ ulong TotalDataIn { get; set; }
 ulong TotalDataOut { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -236,7 +236,7 @@ ulong TotalDataOut { get; set; }
 ulong TotalPacketsIn { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -246,7 +246,7 @@ ulong TotalPacketsIn { get; set; }
 ulong TotalPacketsOut { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -256,7 +256,7 @@ ulong TotalPacketsOut { get; set; }
 int Uptime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

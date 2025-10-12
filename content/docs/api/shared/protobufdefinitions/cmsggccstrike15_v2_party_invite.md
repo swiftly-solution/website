@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Party_Invite
 public interface CMsgGCCStrike15_v2_Party_Invite : ITypedProtobuf<CMsgGCCStrike15_v2_Party_Invite>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Party_Invite : ITypedProtobuf<CMsgGCCStrike1
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 uint Lobbyid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: EventVoteCastNo
 public interface EventVoteCastNo : IGameEvent<EventVoteCastNo>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventVoteCastNo : IGameEvent<EventVoteCastNo>
 int EntityID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int EntityID { get; set; }
 byte Team { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

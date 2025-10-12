@@ -6,7 +6,7 @@ title: PulseCursorYieldToken_t
 public interface PulseCursorYieldToken_t : ISchemaClass<PulseCursorYieldToken_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseCursorYieldToken_t : ISchemaClass<PulseCursorYieldToken_t>
 ref int Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

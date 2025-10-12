@@ -6,7 +6,7 @@ title: CSelectorUpdateNode
 public interface CSelectorUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CSelectorUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSelectorUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUp
 CBlendCurve BlendCurve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBlendCurve](/docs/api/shared/schemadefinitions/cblendcurve)
 
@@ -26,7 +26,7 @@ CBlendCurve BlendCurve { get; }
 SchemaUntypedField BlendTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField BlendTime { get; }
 ref CUtlVector Children { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector Children { get; }
 ref bool LockWhenWaning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool LockWhenWaning { get; }
 CAnimParamHandle Parameter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -66,7 +66,7 @@ CAnimParamHandle Parameter { get; }
 ref bool ResetOnChange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool ResetOnChange { get; }
 ref bool SyncCyclesOnChange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool SyncCyclesOnChange { get; }
 ref SelectorTagBehavior_t TagBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SelectorTagBehavior_t](/docs/api/shared/schemadefinitions/selectortagbehavior_t)
 
@@ -96,7 +96,7 @@ ref SelectorTagBehavior_t TagBehavior { get; }
 ref int TagIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ ref int TagIndex { get; }
 ref CUtlVector<byte> Tags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 

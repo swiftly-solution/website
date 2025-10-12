@@ -6,5 +6,5 @@ title: CMsgRequestRecurringMissionSchedule
 public interface CMsgRequestRecurringMissionSchedule : ITypedProtobuf<CMsgRequestRecurringMissionSchedule>, INativeHandle
 ```
 
-#### Implements
+- Implements
 

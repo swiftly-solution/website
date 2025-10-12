@@ -6,7 +6,7 @@ title: CCSUsrMsg_SendPlayerItemFound
 public interface CCSUsrMsg_SendPlayerItemFound : ITypedProtobuf<CCSUsrMsg_SendPlayerItemFound>, INativeHandle, INetMessage<CCSUsrMsg_SendPlayerItemFound>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SendPlayerItemFound : ITypedProtobuf<CCSUsrMsg_SendPl
 CEconItemPreviewDataBlock Iteminfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemPreviewDataBlock](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock)
 
@@ -26,7 +26,7 @@ CEconItemPreviewDataBlock Iteminfo { get; }
 int Playerslot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

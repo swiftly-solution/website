@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Fantasy_FantasySlot
 public interface CMsgGCCStrike15_v2_Fantasy_FantasySlot : ITypedProtobuf<CMsgGCCStrike15_v2_Fantasy_FantasySlot>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Fantasy_FantasySlot : ITypedProtobuf<CMsgGCC
 ulong Itemid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong Itemid { get; set; }
 int Pick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Pick { get; set; }
 int Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

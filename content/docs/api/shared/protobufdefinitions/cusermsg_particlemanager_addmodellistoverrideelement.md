@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_AddModellistOverrideElement
 public interface CUserMsg_ParticleManager_AddModellistOverrideElement : ITypedProtobuf<CUserMsg_ParticleManager_AddModellistOverrideElement>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_AddModellistOverrideElement : ITypedPr
 uint Groupid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Groupid { get; set; }
 string ModelName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string ModelName { get; set; }
 float SpawnProbability { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,7 +6,7 @@ title: ServerAuthoritativeWeaponSlot_t
 public interface ServerAuthoritativeWeaponSlot_t : ISchemaClass<ServerAuthoritativeWeaponSlot_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ServerAuthoritativeWeaponSlot_t : ISchemaClass<ServerAuthoritat
 ref ushort Class { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -26,7 +26,7 @@ ref ushort Class { get; }
 ref ushort ItemDefIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -36,7 +36,7 @@ ref ushort ItemDefIdx { get; }
 ref ushort Slot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

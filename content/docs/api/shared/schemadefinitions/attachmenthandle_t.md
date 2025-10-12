@@ -6,7 +6,7 @@ title: AttachmentHandle_t
 public interface AttachmentHandle_t : ISchemaClass<AttachmentHandle_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AttachmentHandle_t : ISchemaClass<AttachmentHandle_t>, ISchemaF
 ref byte Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

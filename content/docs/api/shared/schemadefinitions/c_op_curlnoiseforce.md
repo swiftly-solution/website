@@ -6,7 +6,7 @@ title: C_OP_CurlNoiseForce
 public interface C_OP_CurlNoiseForce : CParticleFunctionForce, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionForce>, ISchemaClass<C_OP_CurlNoiseForce>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_CurlNoiseForce : CParticleFunctionForce, CParticleFunction
 CPerParticleVecInput NoiseFreq { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -26,7 +26,7 @@ CPerParticleVecInput NoiseFreq { get; }
 CPerParticleVecInput NoiseScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -36,7 +36,7 @@ CPerParticleVecInput NoiseScale { get; }
 ref ParticleDirectionNoiseType_t NoiseType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleDirectionNoiseType_t](/docs/api/shared/schemadefinitions/particledirectionnoisetype_t)
 
@@ -46,7 +46,7 @@ ref ParticleDirectionNoiseType_t NoiseType { get; }
 CPerParticleVecInput Offset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -56,7 +56,7 @@ CPerParticleVecInput Offset { get; }
 CPerParticleVecInput OffsetRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
@@ -66,7 +66,7 @@ CPerParticleVecInput OffsetRate { get; }
 CPerParticleFloatInput WorleyJitter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
@@ -76,7 +76,7 @@ CPerParticleFloatInput WorleyJitter { get; }
 CPerParticleFloatInput WorleySeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 

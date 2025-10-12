@@ -6,7 +6,7 @@ title: CNmFollowBoneNode__CDefinition
 public interface CNmFollowBoneNode__CDefinition : CNmPassthroughNode__CDefinition, CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmPassthroughNode__CDefinition>, ISchemaClass<CNmFollowBoneNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFollowBoneNode__CDefinition : CNmPassthroughNode__CDefinitio
 ref CGlobalSymbol Bone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -26,7 +26,7 @@ ref CGlobalSymbol Bone { get; }
 ref short EnabledNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -36,7 +36,7 @@ ref short EnabledNodeIdx { get; }
 ref CGlobalSymbol FollowTargetBone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -46,7 +46,7 @@ ref CGlobalSymbol FollowTargetBone { get; }
 ref NmFollowBoneMode_t Mode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmFollowBoneMode_t](/docs/api/shared/schemadefinitions/nmfollowbonemode_t)
 

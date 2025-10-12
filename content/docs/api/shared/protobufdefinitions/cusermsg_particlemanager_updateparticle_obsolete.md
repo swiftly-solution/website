@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_UpdateParticle_OBSOLETE
 public interface CUserMsg_ParticleManager_UpdateParticle_OBSOLETE : ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticle_OBSOLETE>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_UpdateParticle_OBSOLETE : ITypedProtob
 int ControlPoint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ControlPoint { get; set; }
 Vector Position { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

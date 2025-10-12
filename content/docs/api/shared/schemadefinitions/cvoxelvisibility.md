@@ -6,7 +6,7 @@ title: CVoxelVisibility
 public interface CVoxelVisibility : ISchemaClass<CVoxelVisibility>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoxelVisibility : ISchemaClass<CVoxelVisibility>, ISchemaField
 ref uint BaseClusterCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint BaseClusterCount { get; }
 VoxelVisBlockOffset_t EnclosedClusterListBlock { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VoxelVisBlockOffset_t](/docs/api/shared/schemadefinitions/voxelvisblockoffset_t)
 
@@ -36,7 +36,7 @@ VoxelVisBlockOffset_t EnclosedClusterListBlock { get; }
 VoxelVisBlockOffset_t EnclosedClustersBlock { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VoxelVisBlockOffset_t](/docs/api/shared/schemadefinitions/voxelvisblockoffset_t)
 
@@ -46,7 +46,7 @@ VoxelVisBlockOffset_t EnclosedClustersBlock { get; }
 ref float GridSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float GridSize { get; }
 VoxelVisBlockOffset_t MasksBlock { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VoxelVisBlockOffset_t](/docs/api/shared/schemadefinitions/voxelvisblockoffset_t)
 
@@ -66,7 +66,7 @@ VoxelVisBlockOffset_t MasksBlock { get; }
 ref Vector MaxBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -76,7 +76,7 @@ ref Vector MaxBounds { get; }
 ref Vector MinBounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector MinBounds { get; }
 VoxelVisBlockOffset_t NodeBlock { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VoxelVisBlockOffset_t](/docs/api/shared/schemadefinitions/voxelvisblockoffset_t)
 
@@ -96,7 +96,7 @@ VoxelVisBlockOffset_t NodeBlock { get; }
 ref uint PVSBytesPerCluster { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -106,7 +106,7 @@ ref uint PVSBytesPerCluster { get; }
 VoxelVisBlockOffset_t RegionBlock { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VoxelVisBlockOffset_t](/docs/api/shared/schemadefinitions/voxelvisblockoffset_t)
 
@@ -116,7 +116,7 @@ VoxelVisBlockOffset_t RegionBlock { get; }
 ref uint SkyVisibilityCluster { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -126,7 +126,7 @@ ref uint SkyVisibilityCluster { get; }
 ref uint SunVisibilityCluster { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ ref uint SunVisibilityCluster { get; }
 VoxelVisBlockOffset_t VisBlocks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VoxelVisBlockOffset_t](/docs/api/shared/schemadefinitions/voxelvisblockoffset_t)
 

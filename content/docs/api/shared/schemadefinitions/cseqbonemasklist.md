@@ -6,7 +6,7 @@ title: CSeqBoneMaskList
 public interface CSeqBoneMaskList : ISchemaClass<CSeqBoneMaskList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSeqBoneMaskList : ISchemaClass<CSeqBoneMaskList>, ISchemaField
 ref CUtlVector<float> BoneWeightArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<float> BoneWeightArray { get; }
 ref float DefaultMorphCtrlWeight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float DefaultMorphCtrlWeight { get; }
 ref CUtlVector<short> LocalBoneArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[short](https://learn.microsoft.com/dotnet/api/system.int16)>
 
@@ -46,7 +46,7 @@ ref CUtlVector<short> LocalBoneArray { get; }
 ref CUtlVector MorphCtrlWeightArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector MorphCtrlWeightArray { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 

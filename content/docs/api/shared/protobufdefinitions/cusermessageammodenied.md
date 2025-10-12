@@ -6,7 +6,7 @@ title: CUserMessageAmmoDenied
 public interface CUserMessageAmmoDenied : ITypedProtobuf<CUserMessageAmmoDenied>, INativeHandle, INetMessage<CUserMessageAmmoDenied>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageAmmoDenied : ITypedProtobuf<CUserMessageAmmoDenied>
 uint AmmoId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetParticleNamedValueContext_TransformContextVal
 public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_TransformContextValue : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleNamedValueContext_TransformContextValue>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_Transform
 QAngle Angles { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -26,7 +26,7 @@ QAngle Angles { get; set; }
 Vector Translation { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector Translation { get; set; }
 uint ValueNameHash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

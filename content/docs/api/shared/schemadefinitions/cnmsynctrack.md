@@ -6,7 +6,7 @@ title: CNmSyncTrack
 public interface CNmSyncTrack : ISchemaClass<CNmSyncTrack>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmSyncTrack : ISchemaClass<CNmSyncTrack>, ISchemaField, ISchem
 ref int StartEventOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int StartEventOffset { get; }
 SchemaUntypedField SyncEvents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

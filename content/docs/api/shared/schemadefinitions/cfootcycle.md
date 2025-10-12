@@ -6,5 +6,5 @@ title: CFootCycle
 public interface CFootCycle : CCycleBase, ISchemaClass<CCycleBase>, ISchemaClass<CFootCycle>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

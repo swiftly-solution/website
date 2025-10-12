@@ -6,7 +6,7 @@ title: MaterialParamInt_t
 public interface MaterialParamInt_t : MaterialParam_t, ISchemaClass<MaterialParam_t>, ISchemaClass<MaterialParamInt_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface MaterialParamInt_t : MaterialParam_t, ISchemaClass<MaterialPara
 ref int Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

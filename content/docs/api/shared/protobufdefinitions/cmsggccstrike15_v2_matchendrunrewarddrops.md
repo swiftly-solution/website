@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchEndRunRewardDrops
 public interface CMsgGCCStrike15_v2_MatchEndRunRewardDrops : ITypedProtobuf<CMsgGCCStrike15_v2_MatchEndRunRewardDrops>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchEndRunRewardDrops : ITypedProtobuf<CMsg
 CMsgGC_ServerQuestUpdateData MatchEndQuestData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGC_ServerQuestUpdateData](/docs/api/shared/protobufdefinitions/cmsggc_serverquestupdatedata)
 
@@ -26,7 +26,7 @@ CMsgGC_ServerQuestUpdateData MatchEndQuestData { get; }
 CMsgGCCStrike15_v2_MatchmakingServerReservationResponse Serverinfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgGCCStrike15_v2_MatchmakingServerReservationResponse](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakingserverreservationresponse)
 

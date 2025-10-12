@@ -6,7 +6,7 @@ title: PulseRuntimeStateOffset_t
 public interface PulseRuntimeStateOffset_t : ISchemaClass<PulseRuntimeStateOffset_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PulseRuntimeStateOffset_t : ISchemaClass<PulseRuntimeStateOffse
 ref ushort Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 

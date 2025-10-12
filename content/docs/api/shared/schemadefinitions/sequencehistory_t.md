@@ -6,7 +6,7 @@ title: SequenceHistory_t
 public interface SequenceHistory_t : ISchemaClass<SequenceHistory_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SequenceHistory_t : ISchemaClass<SequenceHistory_t>, ISchemaFie
 ref float CyclesPerSecond { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float CyclesPerSecond { get; }
 ref float PlaybackRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float PlaybackRate { get; }
 ref float SeqFixedCycle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float SeqFixedCycle { get; }
 ref AnimLoopMode_t SeqLoopMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimLoopMode_t](/docs/api/shared/schemadefinitions/animloopmode_t)
 
@@ -56,7 +56,7 @@ ref AnimLoopMode_t SeqLoopMode { get; }
 GameTime_t SeqStartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -66,7 +66,7 @@ GameTime_t SeqStartTime { get; }
 HSequence Sequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 

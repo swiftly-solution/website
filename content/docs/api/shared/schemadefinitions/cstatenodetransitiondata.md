@@ -6,7 +6,7 @@ title: CStateNodeTransitionData
 public interface CStateNodeTransitionData : ISchemaClass<CStateNodeTransitionData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CStateNodeTransitionData : ISchemaClass<CStateNodeTransitionDat
 SchemaUntypedField BlendDuration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField BlendDuration { get; }
 CBlendCurve Curve { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBlendCurve](/docs/api/shared/schemadefinitions/cblendcurve)
 
@@ -36,7 +36,7 @@ CBlendCurve Curve { get; }
 SchemaUntypedField Reset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField Reset { get; }
 SchemaUntypedField ResetCycleOption { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField ResetCycleOption { get; }
 SchemaUntypedField ResetCycleValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

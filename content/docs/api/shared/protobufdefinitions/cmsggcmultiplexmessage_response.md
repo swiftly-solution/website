@@ -6,7 +6,7 @@ title: CMsgGCMultiplexMessage_Response
 public interface CMsgGCMultiplexMessage_Response : ITypedProtobuf<CMsgGCMultiplexMessage_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCMultiplexMessage_Response : ITypedProtobuf<CMsgGCMultiple
 uint Msgtype { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

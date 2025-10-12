@@ -6,7 +6,7 @@ title: CNavVolumeSphere
 public interface CNavVolumeSphere : CNavVolume, ISchemaClass<CNavVolume>, ISchemaClass<CNavVolumeSphere>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNavVolumeSphere : CNavVolume, ISchemaClass<CNavVolume>, ISchem
 ref Vector Center { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector Center { get; }
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

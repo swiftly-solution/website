@@ -6,7 +6,7 @@ title: ClutterTile_t
 public interface ClutterTile_t : ISchemaClass<ClutterTile_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface ClutterTile_t : ISchemaClass<ClutterTile_t>, ISchemaField, ISch
 AABB_t BoundsWs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AABB_t](/docs/api/shared/schemadefinitions/aabb_t)
 
@@ -26,7 +26,7 @@ AABB_t BoundsWs { get; }
 ref uint FirstInstance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ ref uint FirstInstance { get; }
 ref uint LastInstance { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

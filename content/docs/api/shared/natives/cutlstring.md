@@ -6,7 +6,7 @@ title: CUtlString
 public struct CUtlString
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Properties
 
@@ -16,7 +16,7 @@ public struct CUtlString
 public string Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -28,11 +28,11 @@ public string Value { get; set; }
 public static implicit operator string(CUtlString str)
 ```
 
-#### Parameters
+- Parameters
 
 - **str**: [CUtlString](/docs/api/shared/natives/cutlstring)
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -42,11 +42,11 @@ public static implicit operator string(CUtlString str)
 public static implicit operator CUtlString(string str)
 ```
 
-#### Parameters
+- Parameters
 
 - **str**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-#### Returns
+- Returns
 
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 

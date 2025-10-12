@@ -6,7 +6,7 @@ title: CStateUpdateData
 public interface CStateUpdateData : ISchemaClass<CStateUpdateData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CStateUpdateData : ISchemaClass<CStateUpdateData>, ISchemaField
 ref CUtlVector Actions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Actions { get; }
 SchemaUntypedField IsEndState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField IsEndState { get; }
 SchemaUntypedField IsPassthrough { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField IsPassthrough { get; }
 SchemaUntypedField IsPassthroughRootMotion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField IsPassthroughRootMotion { get; }
 SchemaUntypedField IsStartState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -66,7 +66,7 @@ SchemaUntypedField IsStartState { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string Name { get; set; }
 SchemaUntypedField PreEvaluatePassthroughTransitionPath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -86,7 +86,7 @@ SchemaUntypedField PreEvaluatePassthroughTransitionPath { get; }
 AnimScriptHandle Script { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimScriptHandle](/docs/api/shared/schemadefinitions/animscripthandle)
 
@@ -96,7 +96,7 @@ AnimScriptHandle Script { get; }
 AnimStateID StateID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimStateID](/docs/api/shared/schemadefinitions/animstateid)
 
@@ -106,7 +106,7 @@ AnimStateID StateID { get; }
 ref CUtlVector<int> TransitionIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

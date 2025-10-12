@@ -6,7 +6,7 @@ title: CFootFallAnimTag
 public interface CFootFallAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CFootFallAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFootFallAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, IS
 ref FootFallTagFoot_t Foot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [FootFallTagFoot_t](/docs/api/shared/schemadefinitions/footfalltagfoot_t)
 

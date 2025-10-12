@@ -6,7 +6,7 @@ title: CFiringModeFloat
 public interface CFiringModeFloat : ISchemaClass<CFiringModeFloat>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CFiringModeFloat : ISchemaClass<CFiringModeFloat>, ISchemaField
 ISchemaFixedArray<float> Values { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

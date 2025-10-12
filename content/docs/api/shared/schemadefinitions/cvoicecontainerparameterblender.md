@@ -6,7 +6,7 @@ title: CVoiceContainerParameterBlender
 public interface CVoiceContainerParameterBlender : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerParameterBlender>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVoiceContainerParameterBlender : CVoiceContainerBase, ISchemaC
 SchemaUntypedField Curve1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -26,7 +26,7 @@ SchemaUntypedField Curve1 { get; }
 SchemaUntypedField Curve2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Curve2 { get; }
 SchemaUntypedField Curve3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField Curve3 { get; }
 SchemaUntypedField Curve4 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -56,7 +56,7 @@ SchemaUntypedField Curve4 { get; }
 ref bool EnableDistanceBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool EnableDistanceBlend { get; }
 ref bool EnableOcclusionBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool EnableOcclusionBlend { get; }
 CSoundContainerReference FirstSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSoundContainerReference](/docs/api/shared/schemadefinitions/csoundcontainerreference)
 
@@ -86,7 +86,7 @@ CSoundContainerReference FirstSound { get; }
 CSoundContainerReference SecondSound { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSoundContainerReference](/docs/api/shared/schemadefinitions/csoundcontainerreference)
 

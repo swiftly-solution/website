@@ -6,7 +6,7 @@ title: CMsgGCToGCIsTrustedServer
 public interface CMsgGCToGCIsTrustedServer : ITypedProtobuf<CMsgGCToGCIsTrustedServer>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCToGCIsTrustedServer : ITypedProtobuf<CMsgGCToGCIsTrustedS
 ulong SteamId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

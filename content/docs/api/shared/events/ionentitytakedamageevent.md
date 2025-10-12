@@ -14,7 +14,7 @@ public interface IOnEntityTakeDamageEvent
 CEntityInstance Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
 
@@ -24,7 +24,7 @@ CEntityInstance Entity { get; }
 ref CTakeDamageInfo Info { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTakeDamageInfo](/docs/api/shared/natives/ctakedamageinfo)
 
@@ -34,7 +34,7 @@ ref CTakeDamageInfo Info { get; }
 HookResult Result { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [HookResult](/docs/api/shared/misc/hookresult)
 

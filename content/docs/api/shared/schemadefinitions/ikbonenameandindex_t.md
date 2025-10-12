@@ -6,7 +6,7 @@ title: IKBoneNameAndIndex_t
 public interface IKBoneNameAndIndex_t : ISchemaClass<IKBoneNameAndIndex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface IKBoneNameAndIndex_t : ISchemaClass<IKBoneNameAndIndex_t>, ISch
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

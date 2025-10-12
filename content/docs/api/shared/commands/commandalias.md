@@ -7,9 +7,9 @@ title: CommandAlias
 public class CommandAlias : Attribute
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -19,7 +19,7 @@ public class CommandAlias : Attribute
 public CommandAlias(string alias, bool registerRaw = false)
 ```
 
-#### Parameters
+- Parameters
 
 - **alias**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **registerRaw**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
@@ -32,7 +32,7 @@ public CommandAlias(string alias, bool registerRaw = false)
 public string Alias { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -42,7 +42,7 @@ public string Alias { get; set; }
 public bool RegisterRaw { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

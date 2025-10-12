@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue
 public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatCont
 float Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ float Value { get; set; }
 uint ValueNameHash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

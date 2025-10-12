@@ -6,7 +6,7 @@ title: CLightEntity
 public interface CLightEntity : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CLightEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CLightEntity : CBaseModelEntity, CBaseEntity, CEntityInstance, 
 CLightComponent? CLightComponent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CLightComponent](/docs/api/shared/schemadefinitions/clightcomponent)?
 

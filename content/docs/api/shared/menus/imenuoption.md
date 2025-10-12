@@ -14,7 +14,7 @@ public interface IMenuOption
 object? DefaultValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [object](https://learn.microsoft.com/dotnet/api/system.object)?
 
@@ -24,7 +24,7 @@ object? DefaultValue { get; set; }
 bool Disabled { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -34,7 +34,7 @@ bool Disabled { get; set; }
 string Display { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -44,7 +44,7 @@ string Display { get; set; }
 int Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -54,7 +54,7 @@ int Index { get; set; }
 IMenu? Menu { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IMenu](/docs/api/shared/menus/imenu)?
 
@@ -64,7 +64,7 @@ IMenu? Menu { get; set; }
 Action<IPlayer, IMenuOption, IMenu>? OnChoice { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Action](https://learn.microsoft.com/dotnet/api/system.action-3)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu)>?
 
@@ -74,7 +74,7 @@ Action<IPlayer, IMenuOption, IMenu>? OnChoice { get; set; }
 int SelectedIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -84,7 +84,7 @@ int SelectedIndex { get; }
 int SliderDisplayItems { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -94,7 +94,7 @@ int SliderDisplayItems { get; set; }
 List<object>? SliderValues { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)>?
 
@@ -104,7 +104,7 @@ List<object>? SliderValues { get; set; }
 OptionType Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [OptionType](/docs/api/shared/menus/optiontype)
 
@@ -114,7 +114,7 @@ OptionType Type { get; set; }
 object? Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [object](https://learn.microsoft.com/dotnet/api/system.object)?
 

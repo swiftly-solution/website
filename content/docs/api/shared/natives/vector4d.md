@@ -6,7 +6,7 @@ title: Vector4D
 public struct Vector4D
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -16,7 +16,7 @@ public struct Vector4D
 public Vector4D(float x, float y, float z, float w)
 ```
 
-#### Parameters
+- Parameters
 
 - **x**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **y**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -29,7 +29,7 @@ public Vector4D(float x, float y, float z, float w)
 public Vector4D(Vector4D other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -41,7 +41,7 @@ public Vector4D(Vector4D other)
 public float W
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -51,7 +51,7 @@ public float W
 public float X
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -61,7 +61,7 @@ public float X
 public float Y
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -71,7 +71,7 @@ public float Y
 public float Z
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -83,7 +83,7 @@ public float Z
 public static Vector4D One { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -93,7 +93,7 @@ public static Vector4D One { get; }
 public static Vector4D Zero { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -105,7 +105,7 @@ public static Vector4D Zero { get; }
 public void Deconstruct(out float x, out float y, out float z, out float w)
 ```
 
-#### Parameters
+- Parameters
 
 - **x**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **y**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -118,12 +118,12 @@ public void Deconstruct(out float x, out float y, out float z, out float w)
 public static float Dot(Vector4D a, Vector4D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 - **b**: [Vector4D](/docs/api/shared/natives/vector4d)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -133,11 +133,11 @@ public static float Dot(Vector4D a, Vector4D b)
 public float Dot(Vector4D other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector4D](/docs/api/shared/natives/vector4d)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -147,11 +147,11 @@ public float Dot(Vector4D other)
 public override bool Equals(object? obj)
 ```
 
-#### Parameters
+- Parameters
 
 - **obj**: [object](https://learn.microsoft.com/dotnet/api/system.object)? - The object to compare with the current instance.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
@@ -161,11 +161,11 @@ public override bool Equals(object? obj)
 public static Vector4D FromBuiltin(Vector4 vector)
 ```
 
-#### Parameters
+- Parameters
 
 - **vector**: [Vector4](https://learn.microsoft.com/dotnet/api/system.numerics.vector4)
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -175,7 +175,7 @@ public static Vector4D FromBuiltin(Vector4 vector)
 public override int GetHashCode()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
@@ -185,7 +185,7 @@ public override int GetHashCode()
 public float Length()
 ```
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -195,7 +195,7 @@ public float Length()
 public float LengthSquared()
 ```
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -211,7 +211,7 @@ public void Normalize()
 public Vector4D Normalized()
 ```
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -221,7 +221,7 @@ public Vector4D Normalized()
 public Vector4 ToBuiltin()
 ```
 
-#### Returns
+- Returns
 
 - [Vector4](https://learn.microsoft.com/dotnet/api/system.numerics.vector4)
 
@@ -231,7 +231,7 @@ public Vector4 ToBuiltin()
 public override string ToString()
 ```
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The fully qualified type name.
 
@@ -243,12 +243,12 @@ public override string ToString()
 public static Vector4D operator +(Vector4D a, Vector4D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 - **b**: [Vector4D](/docs/api/shared/natives/vector4d)
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -258,12 +258,12 @@ public static Vector4D operator +(Vector4D a, Vector4D b)
 public static Vector4D operator /(Vector4D a, Vector4D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 - **b**: [Vector4D](/docs/api/shared/natives/vector4d)
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -273,12 +273,12 @@ public static Vector4D operator /(Vector4D a, Vector4D b)
 public static Vector4D operator /(Vector4D a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -288,12 +288,12 @@ public static Vector4D operator /(Vector4D a, float b)
 public static bool operator ==(Vector4D a, Vector4D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 - **b**: [Vector4D](/docs/api/shared/natives/vector4d)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -303,12 +303,12 @@ public static bool operator ==(Vector4D a, Vector4D b)
 public static bool operator !=(Vector4D a, Vector4D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 - **b**: [Vector4D](/docs/api/shared/natives/vector4d)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -318,12 +318,12 @@ public static bool operator !=(Vector4D a, Vector4D b)
 public static Vector4D operator *(Vector4D a, Vector4D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 - **b**: [Vector4D](/docs/api/shared/natives/vector4d)
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -333,12 +333,12 @@ public static Vector4D operator *(Vector4D a, Vector4D b)
 public static Vector4D operator *(Vector4D a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -348,12 +348,12 @@ public static Vector4D operator *(Vector4D a, float b)
 public static Vector4D operator *(float b, Vector4D a)
 ```
 
-#### Parameters
+- Parameters
 
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -363,12 +363,12 @@ public static Vector4D operator *(float b, Vector4D a)
 public static Vector4D operator -(Vector4D a, Vector4D b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 - **b**: [Vector4D](/docs/api/shared/natives/vector4d)
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 
@@ -378,11 +378,11 @@ public static Vector4D operator -(Vector4D a, Vector4D b)
 public static Vector4D operator -(Vector4D a)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector4D](/docs/api/shared/natives/vector4d)
 
-#### Returns
+- Returns
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 

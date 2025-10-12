@@ -6,7 +6,7 @@ title: VMixFilterDesc_t
 public interface VMixFilterDesc_t : ISchemaClass<VMixFilterDesc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VMixFilterDesc_t : ISchemaClass<VMixFilterDesc_t>, ISchemaField
 ref float CutoffFreq { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float CutoffFreq { get; }
 ref bool Enabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool Enabled { get; }
 ref VMixFilterSlope_t FilterSlope { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixFilterSlope_t](/docs/api/shared/schemadefinitions/vmixfilterslope_t)
 
@@ -46,7 +46,7 @@ ref VMixFilterSlope_t FilterSlope { get; }
 ref VMixFilterType_t FilterType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [VMixFilterType_t](/docs/api/shared/schemadefinitions/vmixfiltertype_t)
 
@@ -56,7 +56,7 @@ ref VMixFilterType_t FilterType { get; }
 ref float FldbGain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ ref float FldbGain { get; }
 ref float Q { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

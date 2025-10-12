@@ -6,7 +6,7 @@ title: CMsgGCCstrike15_v2_ClientRedeemMissionReward
 public interface CMsgGCCstrike15_v2_ClientRedeemMissionReward : ITypedProtobuf<CMsgGCCstrike15_v2_ClientRedeemMissionReward>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCstrike15_v2_ClientRedeemMissionReward : ITypedProtobuf<C
 int BidControl { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int BidControl { get; set; }
 uint CampaignId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint CampaignId { get; set; }
 uint ExpectedCost { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint ExpectedCost { get; set; }
 uint RedeemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint RedeemId { get; set; }
 uint RedeemableBalance { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

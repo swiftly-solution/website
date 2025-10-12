@@ -6,7 +6,7 @@ title: RnVertex_t
 public interface RnVertex_t : ISchemaClass<RnVertex_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RnVertex_t : ISchemaClass<RnVertex_t>, ISchemaField, ISchemaCla
 ref byte Edge { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

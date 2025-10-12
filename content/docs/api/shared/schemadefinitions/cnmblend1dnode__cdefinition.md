@@ -6,7 +6,7 @@ title: CNmBlend1DNode__CDefinition
 public interface CNmBlend1DNode__CDefinition : CNmParameterizedBlendNode__CDefinition, CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmParameterizedBlendNode__CDefinition>, ISchemaClass<CNmBlend1DNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmBlend1DNode__CDefinition : CNmParameterizedBlendNode__CDefin
 CNmParameterizedBlendNode__Parameterization_t Parameterization { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmParameterizedBlendNode__Parameterization_t](/docs/api/shared/schemadefinitions/cnmparameterizedblendnode__parameterization_t)
 

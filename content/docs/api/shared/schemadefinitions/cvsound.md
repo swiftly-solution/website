@@ -6,7 +6,7 @@ title: CVSound
 public interface CVSound : ISchemaClass<CVSound>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CVSound : ISchemaClass<CVSound>, ISchemaField, ISchemaClass, IN
 ref uint Channels { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ ref uint Channels { get; }
 ref float Duration { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float Duration { get; }
 ref CUtlBinaryBlock EncodedHeader { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 
@@ -46,7 +46,7 @@ ref CUtlBinaryBlock EncodedHeader { get; }
 ref CVSoundFormat_t Format { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CVSoundFormat_t](/docs/api/shared/schemadefinitions/cvsoundformat_t)
 
@@ -56,7 +56,7 @@ ref CVSoundFormat_t Format { get; }
 ref int LoopEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int LoopEnd { get; }
 ref int LoopStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int LoopStart { get; }
 ref int Rate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int Rate { get; }
 ref uint SampleCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ ref uint SampleCount { get; }
 ref CUtlVector<int> SeekTable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -106,7 +106,7 @@ ref CUtlVector<int> SeekTable { get; }
 ref CUtlVector Sentences { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -116,7 +116,7 @@ ref CUtlVector Sentences { get; }
 ref uint StreamingSize { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: AggregateSceneObject_t
 public interface AggregateSceneObject_t : ISchemaClass<AggregateSceneObject_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface AggregateSceneObject_t : ISchemaClass<AggregateSceneObject_t>, 
 ref CUtlVector AggregateMeshes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector AggregateMeshes { get; }
 ref ObjectTypeFlags_t AllFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ObjectTypeFlags_t](/docs/api/shared/schemadefinitions/objecttypeflags_t)
 
@@ -36,7 +36,7 @@ ref ObjectTypeFlags_t AllFlags { get; }
 ref ObjectTypeFlags_t AnyFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ObjectTypeFlags_t](/docs/api/shared/schemadefinitions/objecttypeflags_t)
 
@@ -46,7 +46,7 @@ ref ObjectTypeFlags_t AnyFlags { get; }
 ref CUtlVector<matrix3x4_t> FragmentTransforms { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[matrix3x4_t](/docs/api/shared/natives/matrix3x4_t)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<matrix3x4_t> FragmentTransforms { get; }
 ref short InstanceStream { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -66,7 +66,7 @@ ref short InstanceStream { get; }
 ref short Layer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -76,7 +76,7 @@ ref short Layer { get; }
 ref CUtlVector LodSetups { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -86,7 +86,7 @@ ref CUtlVector LodSetups { get; }
 ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCModel](/docs/api/shared/schemadefinitions/infoforresourcetypecmodel)>
 
@@ -96,7 +96,7 @@ ref CStrongHandle<InfoForResourceTypeCModel> RenderableModel { get; }
 ref short VertexAlbedoStream { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -106,7 +106,7 @@ ref short VertexAlbedoStream { get; }
 ref CUtlVector<ushort> VisClusterMembership { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 

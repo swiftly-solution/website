@@ -6,7 +6,7 @@ title: CMsgLegacySource1ClientWelcome
 public interface CMsgLegacySource1ClientWelcome : ITypedProtobuf<CMsgLegacySource1ClientWelcome>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgLegacySource1ClientWelcome : ITypedProtobuf<CMsgLegacySourc
 uint Balance { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Balance { get; set; }
 string BalanceUrl { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -36,7 +36,7 @@ string BalanceUrl { get; set; }
 uint Currency { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint Currency { get; set; }
 byte[] GameData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -56,7 +56,7 @@ byte[] GameData { get; set; }
 byte[] GameData2 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -66,7 +66,7 @@ byte[] GameData2 { get; set; }
 CMsgLegacySource1ClientWelcome_Location Location { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgLegacySource1ClientWelcome_Location](/docs/api/shared/protobufdefinitions/cmsglegacysource1clientwelcome_location)
 
@@ -76,7 +76,7 @@ CMsgLegacySource1ClientWelcome_Location Location { get; }
 IProtobufRepeatedFieldSubMessageType<CMsgSOCacheSubscribed> OutofdateSubscribedCaches { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSOCacheSubscribed](/docs/api/shared/protobufdefinitions/cmsgsocachesubscribed)>
 
@@ -86,7 +86,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSOCacheSubscribed> OutofdateSubscribedC
 uint Rtime32GcWelcomeTimestamp { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -96,7 +96,7 @@ uint Rtime32GcWelcomeTimestamp { get; set; }
 string TxnCountryCode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string TxnCountryCode { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgSOCacheSubscriptionCheck> UptodateSubscribedCaches { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSOCacheSubscriptionCheck](/docs/api/shared/protobufdefinitions/cmsgsocachesubscriptioncheck)>
 
@@ -116,7 +116,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSOCacheSubscriptionCheck> UptodateSubsc
 uint Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

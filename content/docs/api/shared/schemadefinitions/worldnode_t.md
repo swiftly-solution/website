@@ -6,7 +6,7 @@ title: WorldNode_t
 public interface WorldNode_t : ISchemaClass<WorldNode_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface WorldNode_t : ISchemaClass<WorldNode_t>, ISchemaField, ISchemaC
 ref CUtlVector AggregateInstanceStreams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector AggregateInstanceStreams { get; }
 ref CUtlVector AggregateSceneObjects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector AggregateSceneObjects { get; }
 ref CUtlVector ClutterSceneObjects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector ClutterSceneObjects { get; }
 ref CUtlVector ExtraVertexStreamOverrides { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector ExtraVertexStreamOverrides { get; }
 ref CUtlVector ExtraVertexStreams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector ExtraVertexStreams { get; }
 string GrassFileName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string GrassFileName { get; set; }
 ref bool HasBakedGeometryFlag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool HasBakedGeometryFlag { get; }
 ref CUtlVector<CUtlString> LayerNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -96,7 +96,7 @@ ref CUtlVector<CUtlString> LayerNames { get; }
 ref CUtlVector MaterialOverrides { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -106,7 +106,7 @@ ref CUtlVector MaterialOverrides { get; }
 BakedLightingInfo_t NodeLightingInfo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BakedLightingInfo_t](/docs/api/shared/schemadefinitions/bakedlightinginfo_t)
 
@@ -116,7 +116,7 @@ BakedLightingInfo_t NodeLightingInfo { get; }
 ref CUtlVector<byte> SceneObjectLayerIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -126,7 +126,7 @@ ref CUtlVector<byte> SceneObjectLayerIndices { get; }
 ref CUtlVector SceneObjects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -136,7 +136,7 @@ ref CUtlVector SceneObjects { get; }
 ref CUtlVector VertexAlbedoStreams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -146,7 +146,7 @@ ref CUtlVector VertexAlbedoStreams { get; }
 ref CUtlVector<ushort> VisClusterMembership { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 

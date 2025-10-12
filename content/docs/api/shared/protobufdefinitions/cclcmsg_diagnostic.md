@@ -6,7 +6,7 @@ title: CCLCMsg_Diagnostic
 public interface CCLCMsg_Diagnostic : ITypedProtobuf<CCLCMsg_Diagnostic>, INativeHandle, INetMessage<CCLCMsg_Diagnostic>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCLCMsg_Diagnostic : ITypedProtobuf<CCLCMsg_Diagnostic>, INativ
 CMsgSource2NetworkFlowQuality DownstreamFlow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSource2NetworkFlowQuality](/docs/api/shared/protobufdefinitions/cmsgsource2networkflowquality)
 
@@ -26,7 +26,7 @@ CMsgSource2NetworkFlowQuality DownstreamFlow { get; }
 IProtobufRepeatedFieldSubMessageType<CMsgSource2PerfIntervalSample> PerfSamples { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSource2PerfIntervalSample](/docs/api/shared/protobufdefinitions/cmsgsource2perfintervalsample)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgSource2PerfIntervalSample> PerfSamples 
 CMsgSource2SystemSpecs SystemSpecs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSource2SystemSpecs](/docs/api/shared/protobufdefinitions/cmsgsource2systemspecs)
 
@@ -46,7 +46,7 @@ CMsgSource2SystemSpecs SystemSpecs { get; }
 CMsgSource2NetworkFlowQuality UpstreamFlow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSource2NetworkFlowQuality](/docs/api/shared/protobufdefinitions/cmsgsource2networkflowquality)
 
@@ -56,7 +56,7 @@ CMsgSource2NetworkFlowQuality UpstreamFlow { get; }
 CMsgSource2VProfLiteReport VprofReport { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSource2VProfLiteReport](/docs/api/shared/protobufdefinitions/cmsgsource2vproflitereport)
 

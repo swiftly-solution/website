@@ -6,7 +6,7 @@ title: CUserMessageItemPickup
 public interface CUserMessageItemPickup : ITypedProtobuf<CUserMessageItemPickup>, INativeHandle, INetMessage<CUserMessageItemPickup>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageItemPickup : ITypedProtobuf<CUserMessageItemPickup>
 string Itemname { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

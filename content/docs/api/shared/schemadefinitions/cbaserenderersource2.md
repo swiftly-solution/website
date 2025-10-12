@@ -6,7 +6,7 @@ title: CBaseRendererSource2
 public interface CBaseRendererSource2 : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<CBaseRendererSource2>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseRendererSource2 : CParticleFunctionRenderer, CParticleFunc
 CParticleCollectionRendererFloatInput AddSelfAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionRendererFloatInput AddSelfAmount { get; }
 ParticleAttributeIndex_t Alpha2Field { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -36,7 +36,7 @@ ParticleAttributeIndex_t Alpha2Field { get; }
 CParticleCollectionRendererFloatInput AlphaReferenceSoftness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -46,7 +46,7 @@ CParticleCollectionRendererFloatInput AlphaReferenceSoftness { get; }
 ref ParticleAlphaReferenceType_t AlphaReferenceType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAlphaReferenceType_t](/docs/api/shared/schemadefinitions/particlealphareferencetype_t)
 
@@ -56,7 +56,7 @@ ref ParticleAlphaReferenceType_t AlphaReferenceType { get; }
 CParticleCollectionRendererFloatInput AlphaScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -66,7 +66,7 @@ CParticleCollectionRendererFloatInput AlphaScale { get; }
 ref bool AnimateInFPS { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool AnimateInFPS { get; }
 ref float AnimationRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float AnimationRate { get; }
 ref AnimationType_t AnimationType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimationType_t](/docs/api/shared/schemadefinitions/animationtype_t)
 
@@ -96,7 +96,7 @@ ref AnimationType_t AnimationType { get; }
 ref bool BlendFramesSeq0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool BlendFramesSeq0 { get; }
 ref float BumpStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float BumpStrength { get; }
 CParticleCollectionRendererFloatInput CenterXOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -126,7 +126,7 @@ CParticleCollectionRendererFloatInput CenterXOffset { get; }
 CParticleCollectionRendererFloatInput CenterYOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -136,7 +136,7 @@ CParticleCollectionRendererFloatInput CenterYOffset { get; }
 ref ParticleColorBlendType_t ColorBlendType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleColorBlendType_t](/docs/api/shared/schemadefinitions/particlecolorblendtype_t)
 
@@ -146,7 +146,7 @@ ref ParticleColorBlendType_t ColorBlendType { get; }
 CParticleCollectionRendererVecInput ColorScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionrenderervecinput)
 
@@ -156,7 +156,7 @@ CParticleCollectionRendererVecInput ColorScale { get; }
 ref ParticleSequenceCropOverride_t CropTextureOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleSequenceCropOverride_t](/docs/api/shared/schemadefinitions/particlesequencecropoverride_t)
 
@@ -166,7 +166,7 @@ ref ParticleSequenceCropOverride_t CropTextureOverride { get; }
 CParticleCollectionRendererFloatInput DepthBias { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -176,7 +176,7 @@ CParticleCollectionRendererFloatInput DepthBias { get; }
 CParticleCollectionRendererFloatInput Desaturation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -186,7 +186,7 @@ CParticleCollectionRendererFloatInput Desaturation { get; }
 CParticleCollectionRendererFloatInput DiffuseAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -196,7 +196,7 @@ CParticleCollectionRendererFloatInput DiffuseAmount { get; }
 CParticleCollectionRendererFloatInput DiffuseClamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -206,7 +206,7 @@ CParticleCollectionRendererFloatInput DiffuseClamp { get; }
 ref bool DisableZBuffering { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool DisableZBuffering { get; }
 CParticleCollectionRendererFloatInput FeatheringDepthMapFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -226,7 +226,7 @@ CParticleCollectionRendererFloatInput FeatheringDepthMapFilter { get; }
 CParticleCollectionRendererFloatInput FeatheringFilter { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -236,7 +236,7 @@ CParticleCollectionRendererFloatInput FeatheringFilter { get; }
 CParticleCollectionRendererFloatInput FeatheringMaxDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -246,7 +246,7 @@ CParticleCollectionRendererFloatInput FeatheringMaxDist { get; }
 CParticleCollectionRendererFloatInput FeatheringMinDist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -256,7 +256,7 @@ CParticleCollectionRendererFloatInput FeatheringMinDist { get; }
 ref ParticleDepthFeatheringMode_t FeatheringMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleDepthFeatheringMode_t](/docs/api/shared/schemadefinitions/particledepthfeatheringmode_t)
 
@@ -266,7 +266,7 @@ ref ParticleDepthFeatheringMode_t FeatheringMode { get; }
 CParticleCollectionRendererFloatInput FogAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -276,7 +276,7 @@ CParticleCollectionRendererFloatInput FogAmount { get; }
 ref ParticleFogType_t FogType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleFogType_t](/docs/api/shared/schemadefinitions/particlefogtype_t)
 
@@ -286,7 +286,7 @@ ref ParticleFogType_t FogType { get; }
 ref bool GammaCorrectVertexColors { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -296,7 +296,7 @@ ref bool GammaCorrectVertexColors { get; }
 ref int HSVShiftControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -306,7 +306,7 @@ ref int HSVShiftControlPoint { get; }
 ref int LightingControlPoint { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -316,7 +316,7 @@ ref int LightingControlPoint { get; }
 ref bool MaxLuminanceBlendingSequence0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -326,7 +326,7 @@ ref bool MaxLuminanceBlendingSequence0 { get; }
 CParticleCollectionRendererFloatInput MotionVectorScaleU { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -336,7 +336,7 @@ CParticleCollectionRendererFloatInput MotionVectorScaleU { get; }
 CParticleCollectionRendererFloatInput MotionVectorScaleV { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -346,7 +346,7 @@ CParticleCollectionRendererFloatInput MotionVectorScaleV { get; }
 ref bool OnlyRenderInEffecsGameOverlay { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -356,7 +356,7 @@ ref bool OnlyRenderInEffecsGameOverlay { get; }
 ref bool OnlyRenderInEffectsBloomPass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -366,7 +366,7 @@ ref bool OnlyRenderInEffectsBloomPass { get; }
 ref bool OnlyRenderInEffectsWaterPass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,7 +376,7 @@ ref bool OnlyRenderInEffectsWaterPass { get; }
 ref ParticleOutputBlendMode_t OutputBlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleOutputBlendMode_t](/docs/api/shared/schemadefinitions/particleoutputblendmode_t)
 
@@ -386,7 +386,7 @@ ref ParticleOutputBlendMode_t OutputBlendMode { get; }
 CParticleCollectionRendererFloatInput OverbrightFactor { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -396,7 +396,7 @@ CParticleCollectionRendererFloatInput OverbrightFactor { get; }
 ref SpriteCardPerParticleScale_t PerParticleAlphaRefWindow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
@@ -406,7 +406,7 @@ ref SpriteCardPerParticleScale_t PerParticleAlphaRefWindow { get; }
 ref SpriteCardPerParticleScale_t PerParticleAlphaReference { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardPerParticleScale_t](/docs/api/shared/schemadefinitions/spritecardperparticlescale_t)
 
@@ -416,7 +416,7 @@ ref SpriteCardPerParticleScale_t PerParticleAlphaReference { get; }
 CParticleCollectionRendererFloatInput RadiusScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -426,7 +426,7 @@ CParticleCollectionRendererFloatInput RadiusScale { get; }
 ref bool Refract { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -436,7 +436,7 @@ ref bool Refract { get; }
 CParticleCollectionRendererFloatInput RefractAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -446,7 +446,7 @@ CParticleCollectionRendererFloatInput RefractAmount { get; }
 ref int RefractBlurRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -456,7 +456,7 @@ ref int RefractBlurRadius { get; }
 ref BlurFilterType_t RefractBlurType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BlurFilterType_t](/docs/api/shared/schemadefinitions/blurfiltertype_t)
 
@@ -466,7 +466,7 @@ ref BlurFilterType_t RefractBlurType { get; }
 ref bool RefractSolid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -476,7 +476,7 @@ ref bool RefractSolid { get; }
 ref bool ReverseZBuffering { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -486,7 +486,7 @@ ref bool ReverseZBuffering { get; }
 CParticleCollectionRendererFloatInput RollScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -496,7 +496,7 @@ CParticleCollectionRendererFloatInput RollScale { get; }
 ref bool SaturateColorPreAlphaBlend { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -506,7 +506,7 @@ ref bool SaturateColorPreAlphaBlend { get; }
 CParticleCollectionRendererFloatInput SelfIllumAmount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -516,7 +516,7 @@ CParticleCollectionRendererFloatInput SelfIllumAmount { get; }
 ParticleAttributeIndex_t SelfIllumPerParticle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
@@ -526,7 +526,7 @@ ParticleAttributeIndex_t SelfIllumPerParticle { get; }
 ref SpriteCardShaderType_t ShaderType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SpriteCardShaderType_t](/docs/api/shared/schemadefinitions/spritecardshadertype_t)
 
@@ -536,7 +536,7 @@ ref SpriteCardShaderType_t ShaderType { get; }
 ref ParticleSortingChoiceList_t SortMethod { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleSortingChoiceList_t](/docs/api/shared/schemadefinitions/particlesortingchoicelist_t)
 
@@ -546,7 +546,7 @@ ref ParticleSortingChoiceList_t SortMethod { get; }
 CParticleCollectionRendererFloatInput SourceAlphaValueToMapToOne { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -556,7 +556,7 @@ CParticleCollectionRendererFloatInput SourceAlphaValueToMapToOne { get; }
 CParticleCollectionRendererFloatInput SourceAlphaValueToMapToZero { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -566,7 +566,7 @@ CParticleCollectionRendererFloatInput SourceAlphaValueToMapToZero { get; }
 ref bool StencilTestExclude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -576,7 +576,7 @@ ref bool StencilTestExclude { get; }
 string StencilTestID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -586,7 +586,7 @@ string StencilTestID { get; set; }
 string StencilWriteID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -596,7 +596,7 @@ string StencilWriteID { get; set; }
 string StrShaderOverride { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -606,7 +606,7 @@ string StrShaderOverride { get; set; }
 SchemaUntypedField TexturesInput { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -616,7 +616,7 @@ SchemaUntypedField TexturesInput { get; }
 ref bool TintByFOW { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -626,7 +626,7 @@ ref bool TintByFOW { get; }
 ref bool TintByGlobalLight { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -636,7 +636,7 @@ ref bool TintByGlobalLight { get; }
 ref bool UseMixedResolutionRendering { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -646,7 +646,7 @@ ref bool UseMixedResolutionRendering { get; }
 ref bool WriteStencilOnDepthFail { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -656,7 +656,7 @@ ref bool WriteStencilOnDepthFail { get; }
 ref bool WriteStencilOnDepthPass { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

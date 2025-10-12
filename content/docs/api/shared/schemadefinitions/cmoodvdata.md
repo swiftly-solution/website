@@ -6,7 +6,7 @@ title: CMoodVData
 public interface CMoodVData : ISchemaClass<CMoodVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMoodVData : ISchemaClass<CMoodVData>, ISchemaField, ISchemaCla
 ref CUtlVector AnimationLayers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector AnimationLayers { get; }
 SchemaUntypedField ModelName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField ModelName { get; }
 ref MoodType_t MoodType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MoodType_t](/docs/api/shared/schemadefinitions/moodtype_t)
 

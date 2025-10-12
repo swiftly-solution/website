@@ -6,7 +6,7 @@ title: CUserMessageLagCompensationError
 public interface CUserMessageLagCompensationError : ITypedProtobuf<CUserMessageLagCompensationError>, INativeHandle, INetMessage<CUserMessageLagCompensationError>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMessageLagCompensationError : ITypedProtobuf<CUserMessageL
 float Distance { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

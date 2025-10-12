@@ -6,7 +6,7 @@ title: EventHostnameChanged
 public interface EventHostnameChanged : IGameEvent<EventHostnameChanged>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventHostnameChanged : IGameEvent<EventHostnameChanged>
 string Hostname { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

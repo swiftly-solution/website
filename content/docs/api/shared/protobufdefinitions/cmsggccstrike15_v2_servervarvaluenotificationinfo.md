@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ServerVarValueNotificationInfo
 public interface CMsgGCCStrike15_v2_ServerVarValueNotificationInfo : ITypedProtobuf<CMsgGCCStrike15_v2_ServerVarValueNotificationInfo>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ServerVarValueNotificationInfo : ITypedProto
 uint Accountid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Accountid { get; set; }
 uint Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Type { get; set; }
 IProtobufRepeatedFieldValueType<uint> Userdata { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -46,7 +46,7 @@ IProtobufRepeatedFieldValueType<uint> Userdata { get; }
 IProtobufRepeatedFieldValueType<uint> Viewangles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

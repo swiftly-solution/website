@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_ClientRequestPlayersProfile
 public interface CMsgGCCStrike15_v2_ClientRequestPlayersProfile : ITypedProtobuf<CMsgGCCStrike15_v2_ClientRequestPlayersProfile>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_ClientRequestPlayersProfile : ITypedProtobuf
 uint AccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint AccountId { get; set; }
 IProtobufRepeatedFieldValueType<uint> AccountIdsDeprecated { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -36,7 +36,7 @@ IProtobufRepeatedFieldValueType<uint> AccountIdsDeprecated { get; }
 uint RequestIdDeprecated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint RequestIdDeprecated { get; set; }
 uint RequestLevel { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

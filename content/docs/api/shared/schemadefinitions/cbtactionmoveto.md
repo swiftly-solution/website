@@ -6,7 +6,7 @@ title: CBtActionMoveTo
 public interface CBtActionMoveTo : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<CBtActionMoveTo>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBtActionMoveTo : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<
 ref float AdditionalArrivalEpsilon2D { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float AdditionalArrivalEpsilon2D { get; }
 ref float ArrivalEpsilon { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float ArrivalEpsilon { get; }
 ref bool AutoLookAdjust { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool AutoLookAdjust { get; }
 CountdownTimer CheckApproximateCornersTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -56,7 +56,7 @@ CountdownTimer CheckApproximateCornersTimer { get; }
 CountdownTimer CheckHighPriorityItem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -66,7 +66,7 @@ CountdownTimer CheckHighPriorityItem { get; }
 ref bool ComputePath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool ComputePath { get; }
 ref float DamagingAreasPenaltyCost { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float DamagingAreasPenaltyCost { get; }
 ref Vector Destination { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -96,7 +96,7 @@ ref Vector Destination { get; }
 string DestinationInputKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string DestinationInputKey { get; set; }
 ref float HidingSpotCheckDistanceThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -116,7 +116,7 @@ ref float HidingSpotCheckDistanceThreshold { get; }
 string HidingSpotInputKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -126,7 +126,7 @@ string HidingSpotInputKey { get; set; }
 ref float NearestAreaDistanceThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -136,7 +136,7 @@ ref float NearestAreaDistanceThreshold { get; }
 CountdownTimer RepathTimer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CountdownTimer](/docs/api/shared/schemadefinitions/countdowntimer)
 
@@ -146,7 +146,7 @@ CountdownTimer RepathTimer { get; }
 string ThreatInputKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

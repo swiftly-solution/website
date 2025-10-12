@@ -6,7 +6,7 @@ title: CMsgSource1LegacyListenEvents
 public interface CMsgSource1LegacyListenEvents : ITypedProtobuf<CMsgSource1LegacyListenEvents>, INativeHandle, INetMessage<CMsgSource1LegacyListenEvents>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSource1LegacyListenEvents : ITypedProtobuf<CMsgSource1Legac
 IProtobufRepeatedFieldValueType<uint> Eventarraybits { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<uint> Eventarraybits { get; }
 int Playerslot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CNmFloatEaseNode__CDefinition
 public interface CNmFloatEaseNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmFloatEaseNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFloatEaseNode__CDefinition : CNmFloatValueNode__CDefinition,
 ref float EaseTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float EaseTime { get; }
 ref NmEasingOperation_t EasingOp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmEasingOperation_t](/docs/api/shared/schemadefinitions/nmeasingoperation_t)
 
@@ -36,7 +36,7 @@ ref NmEasingOperation_t EasingOp { get; }
 ref short InputValueNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
@@ -46,7 +46,7 @@ ref short InputValueNodeIdx { get; }
 ref float StartValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float StartValue { get; }
 ref bool UseStartValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

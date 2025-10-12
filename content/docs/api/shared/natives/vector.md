@@ -6,7 +6,7 @@ title: Vector
 public struct Vector
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -16,7 +16,7 @@ public struct Vector
 public Vector(float x, float y, float z)
 ```
 
-#### Parameters
+- Parameters
 
 - **x**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **y**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -28,7 +28,7 @@ public Vector(float x, float y, float z)
 public Vector(Vector other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector](/docs/api/shared/natives/vector)
 
@@ -40,7 +40,7 @@ public Vector(Vector other)
 public float X
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -50,7 +50,7 @@ public float X
 public float Y
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -60,7 +60,7 @@ public float Y
 public float Z
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -72,7 +72,7 @@ public float Z
 public static Vector One { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -82,7 +82,7 @@ public static Vector One { get; }
 public static Vector Zero { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -94,11 +94,11 @@ public static Vector Zero { get; }
 public Vector Cross(Vector other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -108,7 +108,7 @@ public Vector Cross(Vector other)
 public void Deconstruct(out float x, out float y, out float z)
 ```
 
-#### Parameters
+- Parameters
 
 - **x**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **y**: [float](https://learn.microsoft.com/dotnet/api/system.single)
@@ -120,11 +120,11 @@ public void Deconstruct(out float x, out float y, out float z)
 public float Distance(Vector other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -134,11 +134,11 @@ public float Distance(Vector other)
 public float DistanceSquared(Vector other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -148,12 +148,12 @@ public float DistanceSquared(Vector other)
 public static float Dot(Vector a, Vector b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector](/docs/api/shared/natives/vector)
 - **b**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -163,11 +163,11 @@ public static float Dot(Vector a, Vector b)
 public float Dot(Vector other)
 ```
 
-#### Parameters
+- Parameters
 
 - **other**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -177,11 +177,11 @@ public float Dot(Vector other)
 public override bool Equals(object? obj)
 ```
 
-#### Parameters
+- Parameters
 
 - **obj**: [object](https://learn.microsoft.com/dotnet/api/system.object)? - The object to compare with the current instance.
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if <code class="paramref">obj</code> and this instance are the same type and represent the same value; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
@@ -191,11 +191,11 @@ public override bool Equals(object? obj)
 public static Vector FromBuiltin(Vector3 vector)
 ```
 
-#### Parameters
+- Parameters
 
 - **vector**: [Vector3](https://learn.microsoft.com/dotnet/api/system.numerics.vector3)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -205,7 +205,7 @@ public static Vector FromBuiltin(Vector3 vector)
 public override int GetHashCode()
 ```
 
-#### Returns
+- Returns
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32) - A 32-bit signed integer that is the hash code for this instance.
 
@@ -215,7 +215,7 @@ public override int GetHashCode()
 public float Length()
 ```
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -225,7 +225,7 @@ public float Length()
 public float LengthSquared()
 ```
 
-#### Returns
+- Returns
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -241,7 +241,7 @@ public void Normalize()
 public Vector Normalized()
 ```
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -251,7 +251,7 @@ public Vector Normalized()
 public Vector3 ToBuiltin()
 ```
 
-#### Returns
+- Returns
 
 - [Vector3](https://learn.microsoft.com/dotnet/api/system.numerics.vector3)
 
@@ -261,7 +261,7 @@ public Vector3 ToBuiltin()
 public override string ToString()
 ```
 
-#### Returns
+- Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string) - The fully qualified type name.
 
@@ -273,12 +273,12 @@ public override string ToString()
 public static Vector operator +(Vector a, Vector b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector](/docs/api/shared/natives/vector)
 - **b**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -288,12 +288,12 @@ public static Vector operator +(Vector a, Vector b)
 public static Vector operator /(Vector a, Vector b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector](/docs/api/shared/natives/vector)
 - **b**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -303,12 +303,12 @@ public static Vector operator /(Vector a, Vector b)
 public static Vector operator /(Vector a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector](/docs/api/shared/natives/vector)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -318,12 +318,12 @@ public static Vector operator /(Vector a, float b)
 public static bool operator ==(Vector a, Vector b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector](/docs/api/shared/natives/vector)
 - **b**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -333,12 +333,12 @@ public static bool operator ==(Vector a, Vector b)
 public static bool operator !=(Vector a, Vector b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector](/docs/api/shared/natives/vector)
 - **b**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -348,12 +348,12 @@ public static bool operator !=(Vector a, Vector b)
 public static Vector operator *(Vector a, Vector b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector](/docs/api/shared/natives/vector)
 - **b**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -363,12 +363,12 @@ public static Vector operator *(Vector a, Vector b)
 public static Vector operator *(Vector a, float b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector](/docs/api/shared/natives/vector)
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -378,12 +378,12 @@ public static Vector operator *(Vector a, float b)
 public static Vector operator *(float b, Vector a)
 ```
 
-#### Parameters
+- Parameters
 
 - **b**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 - **a**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -393,12 +393,12 @@ public static Vector operator *(float b, Vector a)
 public static Vector operator -(Vector a, Vector b)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector](/docs/api/shared/natives/vector)
 - **b**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -408,11 +408,11 @@ public static Vector operator -(Vector a, Vector b)
 public static Vector operator -(Vector a)
 ```
 
-#### Parameters
+- Parameters
 
 - **a**: [Vector](/docs/api/shared/natives/vector)
 
-#### Returns
+- Returns
 
 - [Vector](/docs/api/shared/natives/vector)
 

@@ -6,7 +6,7 @@ title: CBlood
 public interface CBlood : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CBlood>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBlood : CPointEntity, CBaseEntity, CEntityInstance, ISchemaCla
 ref float Amount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Amount { get; }
 ref BloodType Color { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BloodType](/docs/api/shared/schemadefinitions/bloodtype)
 
@@ -36,7 +36,7 @@ ref BloodType Color { get; }
 ref QAngle SprayAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -46,7 +46,7 @@ ref QAngle SprayAngles { get; }
 ref Vector SprayDir { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

@@ -6,7 +6,7 @@ title: CMsgSource1LegacyGameEventList
 public interface CMsgSource1LegacyGameEventList : ITypedProtobuf<CMsgSource1LegacyGameEventList>, INativeHandle, INetMessage<CMsgSource1LegacyGameEventList>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSource1LegacyGameEventList : ITypedProtobuf<CMsgSource1Lega
 IProtobufRepeatedFieldSubMessageType<CMsgSource1LegacyGameEventList_descriptor_t> Descriptors { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgSource1LegacyGameEventList_descriptor_t](/docs/api/shared/protobufdefinitions/cmsgsource1legacygameeventlist_descriptor_t)>
 

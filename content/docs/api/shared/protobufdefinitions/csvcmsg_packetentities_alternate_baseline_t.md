@@ -6,7 +6,7 @@ title: CSVCMsg_PacketEntities_alternate_baseline_t
 public interface CSVCMsg_PacketEntities_alternate_baseline_t : ITypedProtobuf<CSVCMsg_PacketEntities_alternate_baseline_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_PacketEntities_alternate_baseline_t : ITypedProtobuf<CS
 int BaselineIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int BaselineIndex { get; set; }
 int EntityIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

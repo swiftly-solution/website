@@ -6,7 +6,7 @@ title: CDestructiblePart_DamageLevel
 public interface CDestructiblePart_DamageLevel : ISchemaClass<CDestructiblePart_DamageLevel>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDestructiblePart_DamageLevel : ISchemaClass<CDestructiblePart_
 ref int BodyGroupValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int BodyGroupValue { get; }
 ref CGlobalSymbol BreakablePieceName { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -36,7 +36,7 @@ ref CGlobalSymbol BreakablePieceName { get; }
 ref CGlobalSymbol CustomDeathHandshake { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
@@ -46,7 +46,7 @@ ref CGlobalSymbol CustomDeathHandshake { get; }
 ref EDestructiblePartDamagePassThroughType DamagePassthroughType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [EDestructiblePartDamagePassThroughType](/docs/api/shared/schemadefinitions/edestructiblepartdamagepassthroughtype)
 
@@ -56,7 +56,7 @@ ref EDestructiblePartDamagePassThroughType DamagePassthroughType { get; }
 CRangeFloat DeathDestroyTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CRangeFloat](/docs/api/shared/schemadefinitions/crangefloat)
 
@@ -66,7 +66,7 @@ CRangeFloat DeathDestroyTime { get; }
 ref DestructiblePartDestructionDeathBehavior_t DestructionDeathBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [DestructiblePartDestructionDeathBehavior_t](/docs/api/shared/schemadefinitions/destructiblepartdestructiondeathbehavior_t)
 
@@ -76,7 +76,7 @@ ref DestructiblePartDestructionDeathBehavior_t DestructionDeathBehavior { get; }
 CSkillInt Health { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSkillInt](/docs/api/shared/schemadefinitions/cskillint)
 
@@ -86,7 +86,7 @@ CSkillInt Health { get; }
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -96,7 +96,7 @@ string Name { get; set; }
 ref bool ShouldDestroyOnDeath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

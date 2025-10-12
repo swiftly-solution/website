@@ -6,7 +6,7 @@ title: C_OP_PlayEndCapWhenFinished
 public interface C_OP_PlayEndCapWhenFinished : CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<CParticleFunctionPreEmission>, ISchemaClass<C_OP_PlayEndCapWhenFinished>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_PlayEndCapWhenFinished : CParticleFunctionPreEmission, CPa
 ref bool FireOnEmissionEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool FireOnEmissionEnd { get; }
 ref bool IncludeChildren { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

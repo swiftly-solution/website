@@ -6,11 +6,11 @@ title: CStrongHandle<T>
 public struct CStrongHandle<T> where T : INativeHandle, ISchemaClass<T>
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
-#### Inherited Members
+- Inherited Members
 
 ## Properties
 
@@ -20,7 +20,7 @@ public struct CStrongHandle<T> where T : INativeHandle, ISchemaClass<T>
 public readonly bool IsValid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -30,7 +30,7 @@ public readonly bool IsValid { get; }
 public readonly T Value { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - T
 

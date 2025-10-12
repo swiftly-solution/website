@@ -6,7 +6,7 @@ title: SkeletonAnimCapture_t__Camera_t
 public interface SkeletonAnimCapture_t__Camera_t : ISchemaClass<SkeletonAnimCapture_t__Camera_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface SkeletonAnimCapture_t__Camera_t : ISchemaClass<SkeletonAnimCapt
 ref float Time { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float Time { get; }
 ref CTransform TmCamera { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

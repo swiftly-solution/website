@@ -6,7 +6,7 @@ title: CMsgGC_GlobalGame_Subscribe
 public interface CMsgGC_GlobalGame_Subscribe : ITypedProtobuf<CMsgGC_GlobalGame_Subscribe>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGC_GlobalGame_Subscribe : ITypedProtobuf<CMsgGC_GlobalGame_
 ulong Ticket { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

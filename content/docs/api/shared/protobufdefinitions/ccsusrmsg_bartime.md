@@ -6,7 +6,7 @@ title: CCSUsrMsg_BarTime
 public interface CCSUsrMsg_BarTime : ITypedProtobuf<CCSUsrMsg_BarTime>, INativeHandle, INetMessage<CCSUsrMsg_BarTime>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_BarTime : ITypedProtobuf<CCSUsrMsg_BarTime>, INativeH
 string Time { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

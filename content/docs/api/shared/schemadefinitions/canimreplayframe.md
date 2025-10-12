@@ -6,7 +6,7 @@ title: CAnimReplayFrame
 public interface CAnimReplayFrame : ISchemaClass<CAnimReplayFrame>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimReplayFrame : ISchemaClass<CAnimReplayFrame>, ISchemaField
 ref CUtlVector<CUtlBinaryBlock> InputDataBlocks { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CUtlBinaryBlock> InputDataBlocks { get; }
 ref CUtlBinaryBlock InstanceData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 
@@ -36,7 +36,7 @@ ref CUtlBinaryBlock InstanceData { get; }
 ref CTransform LocalToWorldTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -46,7 +46,7 @@ ref CTransform LocalToWorldTransform { get; }
 ref CTransform StartingLocalToWorldTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -56,7 +56,7 @@ ref CTransform StartingLocalToWorldTransform { get; }
 ref float TimeStamp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

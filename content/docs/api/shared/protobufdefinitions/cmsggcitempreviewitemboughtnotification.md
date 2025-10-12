@@ -6,7 +6,7 @@ title: CMsgGCItemPreviewItemBoughtNotification
 public interface CMsgGCItemPreviewItemBoughtNotification : ITypedProtobuf<CMsgGCItemPreviewItemBoughtNotification>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCItemPreviewItemBoughtNotification : ITypedProtobuf<CMsgGC
 uint ItemDefIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

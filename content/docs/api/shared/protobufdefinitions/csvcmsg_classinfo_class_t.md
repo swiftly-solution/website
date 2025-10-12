@@ -6,7 +6,7 @@ title: CSVCMsg_ClassInfo_class_t
 public interface CSVCMsg_ClassInfo_class_t : ITypedProtobuf<CSVCMsg_ClassInfo_class_t>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_ClassInfo_class_t : ITypedProtobuf<CSVCMsg_ClassInfo_cl
 int ClassId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ClassId { get; set; }
 string ClassName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,7 +6,7 @@ title: CSVCMsg_CrosshairAngle
 public interface CSVCMsg_CrosshairAngle : ITypedProtobuf<CSVCMsg_CrosshairAngle>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_CrosshairAngle : ITypedProtobuf<CSVCMsg_CrosshairAngle>
 QAngle Angle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 

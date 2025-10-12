@@ -6,15 +6,15 @@ title: ManagedCUtlVector<T>
 public class ManagedCUtlVector<T> : IDisposable where T : unmanaged
 ```
 
-#### Type Parameters
+- Type Parameters
 
 - **T**: 
 
-#### Inheritance
+- Inheritance
 
-#### Implements
+- Implements
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
@@ -24,7 +24,7 @@ public class ManagedCUtlVector<T> : IDisposable where T : unmanaged
 public ManagedCUtlVector(int growSize, int initSize)
 ```
 
-#### Parameters
+- Parameters
 
 - **growSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **initSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -35,7 +35,7 @@ public ManagedCUtlVector(int growSize, int initSize)
 public ManagedCUtlVector(nint memory, int allocationCount, int numElements)
 ```
 
-#### Parameters
+- Parameters
 
 - **memory**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 - **allocationCount**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -49,7 +49,7 @@ public ManagedCUtlVector(nint memory, int allocationCount, int numElements)
 public nint Base { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
@@ -59,7 +59,7 @@ public nint Base { get; }
 public int Count { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -69,7 +69,7 @@ public int Count { get; }
 public ref T this[int index] { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - T
 

@@ -6,7 +6,7 @@ title: CScriptedSequence
 public interface CScriptedSequence : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CScriptedSequence>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CScriptedSequence : CBaseEntity, CEntityInstance, ISchemaClass<
 ref bool AllowCustomInterruptConditions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool AllowCustomInterruptConditions { get; }
 ref float AngRate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float AngRate { get; }
 ref bool CanOverrideNPCState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool CanOverrideNPCState { get; }
 ref ScriptedConflictResponse_t ConflictResponse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ScriptedConflictResponse_t](/docs/api/shared/schemadefinitions/scriptedconflictresponse_t)
 
@@ -56,7 +56,7 @@ ref ScriptedConflictResponse_t ConflictResponse { get; }
 ref bool ContinueOnDeath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool ContinueOnDeath { get; }
 ref bool DisableAimingWhileMoving { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -76,7 +76,7 @@ ref bool DisableAimingWhileMoving { get; }
 ref bool DisableNPCCollisions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool DisableNPCCollisions { get; }
 ref bool DisallowInterrupts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool DisallowInterrupts { get; }
 ref bool DontAddModifiers { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool DontAddModifiers { get; }
 ref bool DontCancelOtherSequences { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -116,7 +116,7 @@ ref bool DontCancelOtherSequences { get; }
 ref bool DontRotateOther { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -126,7 +126,7 @@ ref bool DontRotateOther { get; }
 ref bool DontTeleportAtEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool DontTeleportAtEnd { get; }
 ref bool EnsureOnNavmeshOnFinish { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -146,7 +146,7 @@ ref bool EnsureOnNavmeshOnFinish { get; }
 string Entity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -156,7 +156,7 @@ string Entity { get; set; }
 string Entry { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -166,7 +166,7 @@ string Entry { get; set; }
 ref bool ForceSynch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -176,7 +176,7 @@ ref bool ForceSynch { get; }
 ref ForcedCrouchState_t ForcedCrouchState { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ForcedCrouchState_t](/docs/api/shared/schemadefinitions/forcedcrouchstate_t)
 
@@ -186,7 +186,7 @@ ref ForcedCrouchState_t ForcedCrouchState { get; }
 ref CHandle<CBaseAnimGraph> ForcedTarget { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseAnimGraph](/docs/api/shared/schemadefinitions/cbaseanimgraph)>
 
@@ -196,7 +196,7 @@ ref CHandle<CBaseAnimGraph> ForcedTarget { get; }
 ref ScriptedHeldWeaponBehavior_t HeldWeaponBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ScriptedHeldWeaponBehavior_t](/docs/api/shared/schemadefinitions/scriptedheldweaponbehavior_t)
 
@@ -206,7 +206,7 @@ ref ScriptedHeldWeaponBehavior_t HeldWeaponBehavior { get; }
 ref bool HideDebugComplaints { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -216,7 +216,7 @@ ref bool HideDebugComplaints { get; }
 ref bool HighPriority { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -226,7 +226,7 @@ ref bool HighPriority { get; }
 ref bool IgnoreGravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -236,7 +236,7 @@ ref bool IgnoreGravity { get; }
 ref bool IgnoreLookAt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -246,7 +246,7 @@ ref bool IgnoreLookAt { get; }
 ref bool IgnoreRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -256,7 +256,7 @@ ref bool IgnoreRotation { get; }
 ref bool InitiatedSelfDelete { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -266,7 +266,7 @@ ref bool InitiatedSelfDelete { get; }
 ref CHandle<CBaseEntity> InteractionMainEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -276,7 +276,7 @@ ref CHandle<CBaseEntity> InteractionMainEntity { get; }
 ref bool Interruptable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -286,7 +286,7 @@ ref bool Interruptable { get; }
 ref bool IsPlayingAction { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -296,7 +296,7 @@ ref bool IsPlayingAction { get; }
 ref bool IsPlayingEntry { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -306,7 +306,7 @@ ref bool IsPlayingEntry { get; }
 ref bool IsPlayingPostIdle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -316,7 +316,7 @@ ref bool IsPlayingPostIdle { get; }
 ref bool IsPlayingPreIdle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -326,7 +326,7 @@ ref bool IsPlayingPreIdle { get; }
 ref bool IsRepeatable { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -336,7 +336,7 @@ ref bool IsRepeatable { get; }
 ref bool IsTeleportingDueToMoveTo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -346,7 +346,7 @@ ref bool IsTeleportingDueToMoveTo { get; }
 ref bool KeepAnimgraphLockedPost { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -356,7 +356,7 @@ ref bool KeepAnimgraphLockedPost { get; }
 ref bool LoopActionSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -366,7 +366,7 @@ ref bool LoopActionSequence { get; }
 ref bool LoopPostIdleSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -376,7 +376,7 @@ ref bool LoopPostIdleSequence { get; }
 ref bool LoopPreIdleSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -386,7 +386,7 @@ ref bool LoopPreIdleSequence { get; }
 ref CTransform MatOtherToMain { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
@@ -396,7 +396,7 @@ ref CTransform MatOtherToMain { get; }
 string ModifierToAddOnPlay { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -406,7 +406,7 @@ string ModifierToAddOnPlay { get; set; }
 ref float MoveInterpTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -416,7 +416,7 @@ ref float MoveInterpTime { get; }
 ref float MoveSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -426,7 +426,7 @@ ref float MoveSpeed { get; }
 ref ScriptedMoveTo_t MoveTo { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ScriptedMoveTo_t](/docs/api/shared/schemadefinitions/scriptedmoveto_t)
 
@@ -436,7 +436,7 @@ ref ScriptedMoveTo_t MoveTo { get; }
 ref SharedMovementGait_t MoveToGait { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SharedMovementGait_t](/docs/api/shared/schemadefinitions/sharedmovementgait_t)
 
@@ -446,7 +446,7 @@ ref SharedMovementGait_t MoveToGait { get; }
 ref CHandle<CScriptedSequence> NextCine { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CScriptedSequence](/docs/api/shared/schemadefinitions/cscriptedsequence)>
 
@@ -456,7 +456,7 @@ ref CHandle<CScriptedSequence> NextCine { get; }
 string NextScript { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -466,7 +466,7 @@ string NextScript { get; set; }
 ref int NotReadySequenceCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -476,7 +476,7 @@ ref int NotReadySequenceCount { get; }
 CEntityIOOutput OnActionStartOrLoop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -486,7 +486,7 @@ CEntityIOOutput OnActionStartOrLoop { get; }
 CEntityIOOutput OnBeginSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -496,7 +496,7 @@ CEntityIOOutput OnBeginSequence { get; }
 CEntityIOOutput OnCancelFailedSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -506,7 +506,7 @@ CEntityIOOutput OnCancelFailedSequence { get; }
 CEntityIOOutput OnCancelSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -516,7 +516,7 @@ CEntityIOOutput OnCancelSequence { get; }
 ref ScriptedOnDeath_t OnDeathBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ScriptedOnDeath_t](/docs/api/shared/schemadefinitions/scriptedondeath_t)
 
@@ -526,7 +526,7 @@ ref ScriptedOnDeath_t OnDeathBehavior { get; }
 CEntityIOOutput OnEndSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -536,7 +536,7 @@ CEntityIOOutput OnEndSequence { get; }
 CEntityIOOutput OnPostIdleEndSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -546,7 +546,7 @@ CEntityIOOutput OnPostIdleEndSequence { get; }
 SchemaUntypedField OnScriptEvent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -556,7 +556,7 @@ SchemaUntypedField OnScriptEvent { get; }
 string Play { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -566,7 +566,7 @@ string Play { get; set; }
 ref float PlayAnimFadeInTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -576,7 +576,7 @@ ref float PlayAnimFadeInTime { get; }
 ref int PlayerDeathBehavior { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -586,7 +586,7 @@ ref int PlayerDeathBehavior { get; }
 ref bool PositionRelativeToOtherEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -596,7 +596,7 @@ ref bool PositionRelativeToOtherEntity { get; }
 string PostIdle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -606,7 +606,7 @@ string PostIdle { get; set; }
 string PreIdle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -616,7 +616,7 @@ string PreIdle { get; set; }
 ref bool PreventUpdateYawOnFinish { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -626,7 +626,7 @@ ref bool PreventUpdateYawOnFinish { get; }
 ref float Radius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -636,7 +636,7 @@ ref float Radius { get; }
 ref float Repeat { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -646,7 +646,7 @@ ref float Repeat { get; }
 ref int SavedCollisionGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -656,7 +656,7 @@ ref int SavedCollisionGroup { get; }
 ref int SavedFlags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -666,7 +666,7 @@ ref int SavedFlags { get; }
 ref int Saved_effects { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -676,7 +676,7 @@ ref int Saved_effects { get; }
 ref bool SequenceStarted { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -686,7 +686,7 @@ ref bool SequenceStarted { get; }
 ref bool ShouldLeaveCorpse { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -696,7 +696,7 @@ ref bool ShouldLeaveCorpse { get; }
 ref bool SkipFadeIn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -706,7 +706,7 @@ ref bool SkipFadeIn { get; }
 ref bool StartOnSpawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -716,7 +716,7 @@ ref bool StartOnSpawn { get; }
 GameTime_t StartTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
@@ -726,7 +726,7 @@ GameTime_t StartTime { get; }
 string SyncGroup { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -736,7 +736,7 @@ string SyncGroup { get; set; }
 ref bool SynchPostIdles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -746,7 +746,7 @@ ref bool SynchPostIdles { get; }
 ref CHandle<CBaseEntity> TargetEnt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
@@ -756,7 +756,7 @@ ref CHandle<CBaseEntity> TargetEnt { get; }
 ref bool Thinking { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -766,7 +766,7 @@ ref bool Thinking { get; }
 ref bool WaitForBeginSequence { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -776,7 +776,7 @@ ref bool WaitForBeginSequence { get; }
 ref bool WaitUntilMoveCompletesToStartAnimation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

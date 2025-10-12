@@ -6,7 +6,7 @@ title: CCSPlayerController_InventoryServices
 public interface CCSPlayerController_InventoryServices : CPlayerControllerComponent, ISchemaClass<CPlayerControllerComponent>, ISchemaClass<CCSPlayerController_InventoryServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSPlayerController_InventoryServices : CPlayerControllerCompon
 ref ulong CurrentLoadoutHash { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ref ulong CurrentLoadoutHash { get; }
 ISchemaFixedArray<uint> EquippedPlayerSprayIDs { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -36,7 +36,7 @@ ISchemaFixedArray<uint> EquippedPlayerSprayIDs { get; }
 ref ushort MusicID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
@@ -46,7 +46,7 @@ ref ushort MusicID { get; }
 ref int PersonaDataPublicCommendsFriendly { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ ref int PersonaDataPublicCommendsFriendly { get; }
 ref int PersonaDataPublicCommendsLeader { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ ref int PersonaDataPublicCommendsLeader { get; }
 ref int PersonaDataPublicCommendsTeacher { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ ref int PersonaDataPublicCommendsTeacher { get; }
 ref int PersonaDataPublicLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int PersonaDataPublicLevel { get; }
 ref int PersonaDataXpTrailLevel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int PersonaDataXpTrailLevel { get; }
 ISchemaFixedArray<MedalRank_t> Rank { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[MedalRank_t](/docs/api/shared/schemadefinitions/medalrank_t)>
 
@@ -106,7 +106,7 @@ ISchemaFixedArray<MedalRank_t> Rank { get; }
 ref CUtlVector ServerAuthoritativeWeaponSlots { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

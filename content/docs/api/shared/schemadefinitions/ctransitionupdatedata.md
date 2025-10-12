@@ -6,7 +6,7 @@ title: CTransitionUpdateData
 public interface CTransitionUpdateData : ISchemaClass<CTransitionUpdateData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CTransitionUpdateData : ISchemaClass<CTransitionUpdateData>, IS
 ref byte DestStateIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
@@ -26,7 +26,7 @@ ref byte DestStateIndex { get; }
 SchemaUntypedField Disabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -36,7 +36,7 @@ SchemaUntypedField Disabled { get; }
 SchemaUntypedField HandshakeMaskToDisableFirst { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField HandshakeMaskToDisableFirst { get; }
 ref byte SrcStateIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

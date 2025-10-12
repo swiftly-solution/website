@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest
 public interface CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest : ITypedProtobuf<CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_Client2GCEconPreviewDataBlockRequest : IType
 ulong ParamA { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -26,7 +26,7 @@ ulong ParamA { get; set; }
 ulong ParamD { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -36,7 +36,7 @@ ulong ParamD { get; set; }
 ulong ParamM { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -46,7 +46,7 @@ ulong ParamM { get; set; }
 ulong ParamS { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

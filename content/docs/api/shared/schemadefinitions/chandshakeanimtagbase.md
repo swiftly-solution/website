@@ -6,7 +6,7 @@ title: CHandshakeAnimTagBase
 public interface CHandshakeAnimTagBase : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CHandshakeAnimTagBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CHandshakeAnimTagBase : CAnimTagBase, ISchemaClass<CAnimTagBase
 ref bool IsDisableTag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

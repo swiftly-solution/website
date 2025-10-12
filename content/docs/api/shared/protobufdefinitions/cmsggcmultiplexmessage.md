@@ -6,7 +6,7 @@ title: CMsgGCMultiplexMessage
 public interface CMsgGCMultiplexMessage : ITypedProtobuf<CMsgGCMultiplexMessage>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCMultiplexMessage : ITypedProtobuf<CMsgGCMultiplexMessage>
 uint Msgtype { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Msgtype { get; set; }
 byte[] Payload { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -36,7 +36,7 @@ byte[] Payload { get; set; }
 bool Replytogc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool Replytogc { get; set; }
 IProtobufRepeatedFieldValueType<ulong> Steamids { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[ulong](https://learn.microsoft.com/dotnet/api/system.uint64)>
 

@@ -6,7 +6,7 @@ title: CBidirMsg_RebroadcastSource
 public interface CBidirMsg_RebroadcastSource : ITypedProtobuf<CBidirMsg_RebroadcastSource>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBidirMsg_RebroadcastSource : ITypedProtobuf<CBidirMsg_Rebroadc
 int Eventsource { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

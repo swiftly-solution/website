@@ -6,7 +6,7 @@ title: PostProcessingLocalContrastParameters_t
 public interface PostProcessingLocalContrastParameters_t : ISchemaClass<PostProcessingLocalContrastParameters_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PostProcessingLocalContrastParameters_t : ISchemaClass<PostProc
 ref float LocalContrastEdgeStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -26,7 +26,7 @@ ref float LocalContrastEdgeStrength { get; }
 ref float LocalContrastStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -36,7 +36,7 @@ ref float LocalContrastStrength { get; }
 ref float LocalContrastVignetteBlur { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float LocalContrastVignetteBlur { get; }
 ref float LocalContrastVignetteEnd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float LocalContrastVignetteEnd { get; }
 ref float LocalContrastVignetteStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

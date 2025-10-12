@@ -6,7 +6,7 @@ title: CMsgGCBannedWordListRequest
 public interface CMsgGCBannedWordListRequest : ITypedProtobuf<CMsgGCBannedWordListRequest>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCBannedWordListRequest : ITypedProtobuf<CMsgGCBannedWordLi
 uint BanListGroupId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint BanListGroupId { get; set; }
 uint WordId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

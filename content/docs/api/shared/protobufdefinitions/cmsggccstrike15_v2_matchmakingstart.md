@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_MatchmakingStart
 public interface CMsgGCCStrike15_v2_MatchmakingStart : ITypedProtobuf<CMsgGCCStrike15_v2_MatchmakingStart>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_MatchmakingStart : ITypedProtobuf<CMsgGCCStr
 IProtobufRepeatedFieldValueType<uint> AccountIds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<uint> AccountIds { get; }
 uint ClientVersion { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ClientVersion { get; set; }
 uint GameType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint GameType { get; set; }
 ulong LobbyId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
@@ -56,7 +56,7 @@ ulong LobbyId { get; set; }
 bool PrimeOnly { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ bool PrimeOnly { get; set; }
 string TicketData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string TicketData { get; set; }
 TournamentMatchSetup TournamentMatch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [TournamentMatchSetup](/docs/api/shared/protobufdefinitions/tournamentmatchsetup)
 
@@ -86,7 +86,7 @@ TournamentMatchSetup TournamentMatch { get; }
 uint TvControl { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

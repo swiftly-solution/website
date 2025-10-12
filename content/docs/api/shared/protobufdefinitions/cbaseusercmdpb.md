@@ -6,7 +6,7 @@ title: CBaseUserCmdPB
 public interface CBaseUserCmdPB : ITypedProtobuf<CBaseUserCmdPB>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBaseUserCmdPB : ITypedProtobuf<CBaseUserCmdPB>, INativeHandle
 CInButtonStatePB ButtonsPb { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CInButtonStatePB](/docs/api/shared/protobufdefinitions/cinbuttonstatepb)
 
@@ -26,7 +26,7 @@ CInButtonStatePB ButtonsPb { get; }
 int ClientTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int ClientTick { get; set; }
 int CmdFlags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int CmdFlags { get; set; }
 uint ConsumedServerAngleChanges { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint ConsumedServerAngleChanges { get; set; }
 float Forwardmove { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -66,7 +66,7 @@ float Forwardmove { get; set; }
 int Impulse { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int Impulse { get; set; }
 float Leftmove { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ float Leftmove { get; set; }
 int LegacyCommandNumber { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ int LegacyCommandNumber { get; set; }
 int Mousedx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ int Mousedx { get; set; }
 int Mousedy { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ int Mousedy { get; set; }
 byte[] MoveCrc { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -126,7 +126,7 @@ byte[] MoveCrc { get; set; }
 uint PawnEntityHandle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint PawnEntityHandle { get; set; }
 uint PredictionOffsetTicksX256 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -146,7 +146,7 @@ uint PredictionOffsetTicksX256 { get; set; }
 int RandomSeed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ int RandomSeed { get; set; }
 IProtobufRepeatedFieldSubMessageType<CSubtickMoveStep> SubtickMoves { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSubtickMoveStep](/docs/api/shared/protobufdefinitions/csubtickmovestep)>
 
@@ -166,7 +166,7 @@ IProtobufRepeatedFieldSubMessageType<CSubtickMoveStep> SubtickMoves { get; }
 float Upmove { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -176,7 +176,7 @@ float Upmove { get; set; }
 QAngle Viewangles { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -186,7 +186,7 @@ QAngle Viewangles { get; set; }
 int Weaponselect { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_WatchInfoUsers
 public interface CMsgGCCStrike15_v2_WatchInfoUsers : ITypedProtobuf<CMsgGCCStrike15_v2_WatchInfoUsers>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_WatchInfoUsers : ITypedProtobuf<CMsgGCCStrik
 IProtobufRepeatedFieldValueType<uint> AccountIds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<uint> AccountIds { get; }
 uint ExtendedTimeout { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint ExtendedTimeout { get; set; }
 uint RequestId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ uint RequestId { get; set; }
 IProtobufRepeatedFieldSubMessageType<WatchableMatchInfo> WatchableMatchInfos { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[WatchableMatchInfo](/docs/api/shared/protobufdefinitions/watchablematchinfo)>
 

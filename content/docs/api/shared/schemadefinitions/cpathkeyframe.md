@@ -6,7 +6,7 @@ title: CPathKeyFrame
 public interface CPathKeyFrame : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CPathKeyFrame>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPathKeyFrame : CLogicalEntity, CServerOnlyEntity, CBaseEntity,
 ref Quaternion Angle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -26,7 +26,7 @@ ref Quaternion Angle { get; }
 ref QAngle Angles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
@@ -36,7 +36,7 @@ ref QAngle Angles { get; }
 ref float MoveSpeed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -46,7 +46,7 @@ ref float MoveSpeed { get; }
 string NextKey { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -56,7 +56,7 @@ string NextKey { get; set; }
 CPathKeyFrame? NextKey1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathKeyFrame](/docs/api/shared/schemadefinitions/cpathkeyframe)?
 
@@ -66,7 +66,7 @@ CPathKeyFrame? NextKey1 { get; }
 ref float NextTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -76,7 +76,7 @@ ref float NextTime { get; }
 ref Vector Origin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -86,7 +86,7 @@ ref Vector Origin { get; }
 CPathKeyFrame? PrevKey { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPathKeyFrame](/docs/api/shared/schemadefinitions/cpathkeyframe)?
 

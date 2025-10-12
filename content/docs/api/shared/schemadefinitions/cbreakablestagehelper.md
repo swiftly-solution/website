@@ -6,7 +6,7 @@ title: CBreakableStageHelper
 public interface CBreakableStageHelper : ISchemaClass<CBreakableStageHelper>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBreakableStageHelper : ISchemaClass<CBreakableStageHelper>, IS
 ref int CurrentStage { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ ref int CurrentStage { get; }
 ref int StageCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

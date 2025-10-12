@@ -6,7 +6,7 @@ title: CMsgSOCacheSubscriptionCheck
 public interface CMsgSOCacheSubscriptionCheck : ITypedProtobuf<CMsgSOCacheSubscriptionCheck>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSOCacheSubscriptionCheck : ITypedProtobuf<CMsgSOCacheSubscr
 CMsgSOIDOwner OwnerSoid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSOIDOwner](/docs/api/shared/protobufdefinitions/cmsgsoidowner)
 
@@ -26,7 +26,7 @@ CMsgSOIDOwner OwnerSoid { get; }
 ulong Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

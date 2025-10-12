@@ -6,7 +6,7 @@ title: CCSUsrMsg_VoteFailed
 public interface CCSUsrMsg_VoteFailed : ITypedProtobuf<CCSUsrMsg_VoteFailed>, INativeHandle, INetMessage<CCSUsrMsg_VoteFailed>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_VoteFailed : ITypedProtobuf<CCSUsrMsg_VoteFailed>, IN
 int Reason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Reason { get; set; }
 int Team { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,7 +6,7 @@ title: CGamePlayerZone
 public interface CGamePlayerZone : CRuleBrushEntity, CRuleEntity, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CRuleEntity>, ISchemaClass<CRuleBrushEntity>, ISchemaClass<CGamePlayerZone>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGamePlayerZone : CRuleBrushEntity, CRuleEntity, CBaseModelEnti
 CEntityIOOutput OnPlayerInZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -26,7 +26,7 @@ CEntityIOOutput OnPlayerInZone { get; }
 CEntityIOOutput OnPlayerOutZone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
@@ -36,7 +36,7 @@ CEntityIOOutput OnPlayerOutZone { get; }
 SchemaUntypedField PlayersInCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -46,7 +46,7 @@ SchemaUntypedField PlayersInCount { get; }
 SchemaUntypedField PlayersOutCount { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager_SetControlPointModel
 public interface CUserMsg_ParticleManager_SetControlPointModel : ITypedProtobuf<CUserMsg_ParticleManager_SetControlPointModel>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager_SetControlPointModel : ITypedProtobuf<
 int ControlPoint { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int ControlPoint { get; set; }
 string ModelName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

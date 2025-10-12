@@ -6,7 +6,7 @@ title: EventAppShutdown_t
 public interface EventAppShutdown_t : ISchemaClass<EventAppShutdown_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventAppShutdown_t : ISchemaClass<EventAppShutdown_t>, ISchemaF
 ref int Dummy0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

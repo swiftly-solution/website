@@ -6,7 +6,7 @@ title: EventUgcMapUnsubscribed
 public interface EventUgcMapUnsubscribed : IGameEvent<EventUgcMapUnsubscribed>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventUgcMapUnsubscribed : IGameEvent<EventUgcMapUnsubscribed>
 ulong PublishedFileId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

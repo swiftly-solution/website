@@ -6,7 +6,7 @@ title: EventServerShutdown
 public interface EventServerShutdown : IGameEvent<EventServerShutdown>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventServerShutdown : IGameEvent<EventServerShutdown>
 string Reason { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

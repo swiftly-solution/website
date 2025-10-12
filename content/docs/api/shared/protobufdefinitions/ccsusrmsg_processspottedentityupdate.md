@@ -6,7 +6,7 @@ title: CCSUsrMsg_ProcessSpottedEntityUpdate
 public interface CCSUsrMsg_ProcessSpottedEntityUpdate : ITypedProtobuf<CCSUsrMsg_ProcessSpottedEntityUpdate>, INativeHandle, INetMessage<CCSUsrMsg_ProcessSpottedEntityUpdate>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_ProcessSpottedEntityUpdate : ITypedProtobuf<CCSUsrMsg
 IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate> EntityUpdates { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CCSUsrMsg_ProcessSpottedEntityUpdate_SpottedEntityUpdate](/docs/api/shared/protobufdefinitions/ccsusrmsg_processspottedentityupdate_spottedentityupdate)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CCSUsrMsg_ProcessSpottedEntityUpdate_Spotte
 bool NewUpdate { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

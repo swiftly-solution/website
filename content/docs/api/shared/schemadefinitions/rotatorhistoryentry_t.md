@@ -6,7 +6,7 @@ title: RotatorHistoryEntry_t
 public interface RotatorHistoryEntry_t : ISchemaClass<RotatorHistoryEntry_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface RotatorHistoryEntry_t : ISchemaClass<RotatorHistoryEntry_t>, IS
 ref Quaternion InvChange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -26,7 +26,7 @@ ref Quaternion InvChange { get; }
 GameTime_t TimeRotationStart { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 

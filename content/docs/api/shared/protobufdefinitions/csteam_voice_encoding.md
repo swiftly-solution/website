@@ -6,7 +6,7 @@ title: CSteam_Voice_Encoding
 public interface CSteam_Voice_Encoding : ITypedProtobuf<CSteam_Voice_Encoding>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSteam_Voice_Encoding : ITypedProtobuf<CSteam_Voice_Encoding>, 
 byte[] VoiceData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

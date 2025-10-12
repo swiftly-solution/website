@@ -6,7 +6,7 @@ title: CPathAnimMotorUpdaterBase
 public interface CPathAnimMotorUpdaterBase : CAnimMotorUpdaterBase, ISchemaClass<CAnimMotorUpdaterBase>, ISchemaClass<CPathAnimMotorUpdaterBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPathAnimMotorUpdaterBase : CAnimMotorUpdaterBase, ISchemaClass
 ref bool LockToPath { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

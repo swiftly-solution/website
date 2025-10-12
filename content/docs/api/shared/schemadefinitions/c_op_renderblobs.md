@@ -6,7 +6,7 @@ title: C_OP_RenderBlobs
 public interface C_OP_RenderBlobs : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderBlobs>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderBlobs : CParticleFunctionRenderer, CParticleFunction
 CParticleCollectionRendererFloatInput CubeWidth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -26,7 +26,7 @@ CParticleCollectionRendererFloatInput CubeWidth { get; }
 CParticleCollectionRendererFloatInput CutoffRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -36,7 +36,7 @@ CParticleCollectionRendererFloatInput CutoffRadius { get; }
 ref uint IndexCountKb { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -46,7 +46,7 @@ ref uint IndexCountKb { get; }
 ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeIMaterial2](/docs/api/shared/schemadefinitions/infoforresourcetypeimaterial2)>
 
@@ -56,7 +56,7 @@ ref CStrongHandle<InfoForResourceTypeIMaterial2> Material { get; }
 ref CUtlVector MaterialVars { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector MaterialVars { get; }
 CParticleCollectionRendererFloatInput RenderRadius { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CParticleCollectionRendererFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionrendererfloatinput)
 
@@ -76,7 +76,7 @@ CParticleCollectionRendererFloatInput RenderRadius { get; }
 ref int ScaleCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ ref int ScaleCP { get; }
 ref uint VertexCountKb { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

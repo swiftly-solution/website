@@ -6,7 +6,7 @@ title: CPulseCell_Step_FollowEntity
 public interface CPulseCell_Step_FollowEntity : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_Step_FollowEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Step_FollowEntity : CPulseCell_BaseFlow, CPulseCell_
 string ParamBoneOrAttachName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string ParamBoneOrAttachName { get; set; }
 string ParamBoneOrAttachNameChild { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

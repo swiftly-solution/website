@@ -6,7 +6,7 @@ title: CEntityMsg
 public interface CEntityMsg : ITypedProtobuf<CEntityMsg>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CEntityMsg : ITypedProtobuf<CEntityMsg>, INativeHandle
 uint TargetEntity { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,7 +6,7 @@ title: CCSUsrMsg_SendPlayerLoadout_LoadoutItem
 public interface CCSUsrMsg_SendPlayerLoadout_LoadoutItem : ITypedProtobuf<CCSUsrMsg_SendPlayerLoadout_LoadoutItem>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_SendPlayerLoadout_LoadoutItem : ITypedProtobuf<CCSUsr
 CEconItemPreviewDataBlock EconItem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEconItemPreviewDataBlock](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock)
 
@@ -26,7 +26,7 @@ CEconItemPreviewDataBlock EconItem { get; }
 int Slot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int Slot { get; set; }
 int Team { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

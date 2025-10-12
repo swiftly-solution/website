@@ -6,7 +6,7 @@ title: CUserMsg_ParticleManager
 public interface CUserMsg_ParticleManager : ITypedProtobuf<CUserMsg_ParticleManager>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CUserMsg_ParticleManager : ITypedProtobuf<CUserMsg_ParticleMana
 CUserMsg_ParticleManager_AddFan AddFan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_AddFan](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_addfan)
 
@@ -26,7 +26,7 @@ CUserMsg_ParticleManager_AddFan AddFan { get; }
 CUserMsg_ParticleManager_AddModellistOverrideElement AddModellistOverrideElement { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_AddModellistOverrideElement](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_addmodellistoverrideelement)
 
@@ -36,7 +36,7 @@ CUserMsg_ParticleManager_AddModellistOverrideElement AddModellistOverrideElement
 CUserMsg_ParticleManager_ChangeControlPointAttachment ChangeControlPointAttachment { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_ChangeControlPointAttachment](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_changecontrolpointattachment)
 
@@ -46,7 +46,7 @@ CUserMsg_ParticleManager_ChangeControlPointAttachment ChangeControlPointAttachme
 CUserMsg_ParticleManager_ClearModellistOverride ClearModellistOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_ClearModellistOverride](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_clearmodellistoverride)
 
@@ -56,7 +56,7 @@ CUserMsg_ParticleManager_ClearModellistOverride ClearModellistOverride { get; }
 CUserMsg_ParticleManager_CreateParticle CreateParticle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_CreateParticle](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_createparticle)
 
@@ -66,7 +66,7 @@ CUserMsg_ParticleManager_CreateParticle CreateParticle { get; }
 CUserMsg_ParticleManager_CreatePhysicsSim CreatePhysicsSim { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_CreatePhysicsSim](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_createphysicssim)
 
@@ -76,7 +76,7 @@ CUserMsg_ParticleManager_CreatePhysicsSim CreatePhysicsSim { get; }
 CUserMsg_ParticleManager_DestroyParticle DestroyParticle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_DestroyParticle](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_destroyparticle)
 
@@ -86,7 +86,7 @@ CUserMsg_ParticleManager_DestroyParticle DestroyParticle { get; }
 CUserMsg_ParticleManager_DestroyParticleInvolving DestroyParticleInvolving { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_DestroyParticleInvolving](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_destroyparticleinvolving)
 
@@ -96,7 +96,7 @@ CUserMsg_ParticleManager_DestroyParticleInvolving DestroyParticleInvolving { get
 CUserMsg_ParticleManager_DestroyParticleNamed DestroyParticleNamed { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_DestroyParticleNamed](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_destroyparticlenamed)
 
@@ -106,7 +106,7 @@ CUserMsg_ParticleManager_DestroyParticleNamed DestroyParticleNamed { get; }
 CUserMsg_ParticleManager_DestroyPhysicsSim DestroyPhysicsSim { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_DestroyPhysicsSim](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_destroyphysicssim)
 
@@ -116,7 +116,7 @@ CUserMsg_ParticleManager_DestroyPhysicsSim DestroyPhysicsSim { get; }
 CUserMsg_ParticleManager_FreezeParticleInvolving FreezeParticleInvolving { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_FreezeParticleInvolving](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_freezeparticleinvolving)
 
@@ -126,7 +126,7 @@ CUserMsg_ParticleManager_FreezeParticleInvolving FreezeParticleInvolving { get; 
 uint Index { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -136,7 +136,7 @@ uint Index { get; set; }
 CUserMsg_ParticleManager_ParticleCanFreeze ParticleCanFreeze { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_ParticleCanFreeze](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_particlecanfreeze)
 
@@ -146,7 +146,7 @@ CUserMsg_ParticleManager_ParticleCanFreeze ParticleCanFreeze { get; }
 CUserMsg_ParticleManager_ParticleFreezeTransitionOverride ParticleFreezeTransitionOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_ParticleFreezeTransitionOverride](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_particlefreezetransitionoverride)
 
@@ -156,7 +156,7 @@ CUserMsg_ParticleManager_ParticleFreezeTransitionOverride ParticleFreezeTransiti
 CUserMsg_ParticleManager_ParticleSkipToTime ParticleSkipToTime { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_ParticleSkipToTime](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_particleskiptotime)
 
@@ -166,7 +166,7 @@ CUserMsg_ParticleManager_ParticleSkipToTime ParticleSkipToTime { get; }
 CUserMsg_ParticleManager_ReleaseParticleIndex ReleaseParticleIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_ReleaseParticleIndex](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_releaseparticleindex)
 
@@ -176,7 +176,7 @@ CUserMsg_ParticleManager_ReleaseParticleIndex ReleaseParticleIndex { get; }
 CUserMsg_ParticleManager_RemoveFan RemoveFan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_RemoveFan](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_removefan)
 
@@ -186,7 +186,7 @@ CUserMsg_ParticleManager_RemoveFan RemoveFan { get; }
 CUserMsg_ParticleManager_SetControlPointModel SetControlPointModel { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetControlPointModel](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setcontrolpointmodel)
 
@@ -196,7 +196,7 @@ CUserMsg_ParticleManager_SetControlPointModel SetControlPointModel { get; }
 CUserMsg_ParticleManager_SetControlPointSnapshot SetControlPointSnapshot { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetControlPointSnapshot](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setcontrolpointsnapshot)
 
@@ -206,7 +206,7 @@ CUserMsg_ParticleManager_SetControlPointSnapshot SetControlPointSnapshot { get; 
 CUserMsg_ParticleManager_SetMaterialOverride SetMaterialOverride { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetMaterialOverride](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setmaterialoverride)
 
@@ -216,7 +216,7 @@ CUserMsg_ParticleManager_SetMaterialOverride SetMaterialOverride { get; }
 CUserMsg_ParticleManager_SetParticleNamedValueContext SetNamedValueContext { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetParticleNamedValueContext](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setparticlenamedvaluecontext)
 
@@ -226,7 +226,7 @@ CUserMsg_ParticleManager_SetParticleNamedValueContext SetNamedValueContext { get
 CUserMsg_ParticleManager_SetParticleClusterGrowth SetParticleClusterGrowth { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetParticleClusterGrowth](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setparticleclustergrowth)
 
@@ -236,7 +236,7 @@ CUserMsg_ParticleManager_SetParticleClusterGrowth SetParticleClusterGrowth { get
 CUserMsg_ParticleManager_SetParticleFoWProperties SetParticleFowProperties { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetParticleFoWProperties](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setparticlefowproperties)
 
@@ -246,7 +246,7 @@ CUserMsg_ParticleManager_SetParticleFoWProperties SetParticleFowProperties { get
 CUserMsg_ParticleManager_SetParticleShouldCheckFoW SetParticleShouldCheckFow { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetParticleShouldCheckFoW](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setparticleshouldcheckfow)
 
@@ -256,7 +256,7 @@ CUserMsg_ParticleManager_SetParticleShouldCheckFoW SetParticleShouldCheckFow { g
 CUserMsg_ParticleManager_SetParticleText SetParticleText { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetParticleText](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setparticletext)
 
@@ -266,7 +266,7 @@ CUserMsg_ParticleManager_SetParticleText SetParticleText { get; }
 CUserMsg_ParticleManager_SetSceneObjectGenericFlag SetSceneObjectGenericFlag { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetSceneObjectGenericFlag](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setsceneobjectgenericflag)
 
@@ -276,7 +276,7 @@ CUserMsg_ParticleManager_SetSceneObjectGenericFlag SetSceneObjectGenericFlag { g
 CUserMsg_ParticleManager_SetSceneObjectTintAndDesat SetSceneObjectTintAndDesat { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetSceneObjectTintAndDesat](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setsceneobjecttintanddesat)
 
@@ -286,7 +286,7 @@ CUserMsg_ParticleManager_SetSceneObjectTintAndDesat SetSceneObjectTintAndDesat {
 CUserMsg_ParticleManager_SetTextureAttribute SetTextureAttribute { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetTextureAttribute](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_settextureattribute)
 
@@ -296,7 +296,7 @@ CUserMsg_ParticleManager_SetTextureAttribute SetTextureAttribute { get; }
 CUserMsg_ParticleManager_SetVData SetVdata { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_SetVData](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_setvdata)
 
@@ -306,7 +306,7 @@ CUserMsg_ParticleManager_SetVData SetVdata { get; }
 PARTICLE_MESSAGE Type { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PARTICLE_MESSAGE](/docs/api/shared/protobufdefinitions/particle_message)
 
@@ -316,7 +316,7 @@ PARTICLE_MESSAGE Type { get; set; }
 CUserMsg_ParticleManager_UpdateEntityPosition UpdateEntityPosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateEntityPosition](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateentityposition)
 
@@ -326,7 +326,7 @@ CUserMsg_ParticleManager_UpdateEntityPosition UpdateEntityPosition { get; }
 CUserMsg_ParticleManager_UpdateFan UpdateFan { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateFan](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updatefan)
 
@@ -336,7 +336,7 @@ CUserMsg_ParticleManager_UpdateFan UpdateFan { get; }
 CUserMsg_ParticleManager_UpdateParticle_OBSOLETE UpdateParticle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateParticle_OBSOLETE](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticle_obsolete)
 
@@ -346,7 +346,7 @@ CUserMsg_ParticleManager_UpdateParticle_OBSOLETE UpdateParticle { get; }
 CUserMsg_ParticleManager_UpdateParticleEnt UpdateParticleEnt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateParticleEnt](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticleent)
 
@@ -356,7 +356,7 @@ CUserMsg_ParticleManager_UpdateParticleEnt UpdateParticleEnt { get; }
 CUserMsg_ParticleManager_UpdateParticleFallback UpdateParticleFallback { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateParticleFallback](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticlefallback)
 
@@ -366,7 +366,7 @@ CUserMsg_ParticleManager_UpdateParticleFallback UpdateParticleFallback { get; }
 CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE UpdateParticleFwd { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticlefwd_obsolete)
 
@@ -376,7 +376,7 @@ CUserMsg_ParticleManager_UpdateParticleFwd_OBSOLETE UpdateParticleFwd { get; }
 CUserMsg_ParticleManager_UpdateParticleOffset UpdateParticleOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateParticleOffset](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticleoffset)
 
@@ -386,7 +386,7 @@ CUserMsg_ParticleManager_UpdateParticleOffset UpdateParticleOffset { get; }
 CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE UpdateParticleOrient { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticleorient_obsolete)
 
@@ -396,7 +396,7 @@ CUserMsg_ParticleManager_UpdateParticleOrient_OBSOLETE UpdateParticleOrient { ge
 CUserMsg_ParticleManager_UpdateParticleSetFrozen UpdateParticleSetFrozen { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateParticleSetFrozen](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticlesetfrozen)
 
@@ -406,7 +406,7 @@ CUserMsg_ParticleManager_UpdateParticleSetFrozen UpdateParticleSetFrozen { get; 
 CUserMsg_ParticleManager_UpdateParticleShouldDraw UpdateParticleShouldDraw { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateParticleShouldDraw](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticleshoulddraw)
 
@@ -416,7 +416,7 @@ CUserMsg_ParticleManager_UpdateParticleShouldDraw UpdateParticleShouldDraw { get
 CUserMsg_ParticleManager_UpdateParticleTransform UpdateParticleTransform { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMsg_ParticleManager_UpdateParticleTransform](/docs/api/shared/protobufdefinitions/cusermsg_particlemanager_updateparticletransform)
 

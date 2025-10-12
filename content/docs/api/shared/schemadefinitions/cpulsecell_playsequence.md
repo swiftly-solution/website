@@ -6,7 +6,7 @@ title: CPulseCell_PlaySequence
 public interface CPulseCell_PlaySequence : CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_BaseYieldingInflow>, ISchemaClass<CPulseCell_PlaySequence>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_PlaySequence : CPulseCell_BaseYieldingInflow, CPulse
 CPulse_ResumePoint OnCanceled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -26,7 +26,7 @@ CPulse_ResumePoint OnCanceled { get; }
 CPulse_ResumePoint OnFinished { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPulse_ResumePoint](/docs/api/shared/schemadefinitions/cpulse_resumepoint)
 
@@ -36,7 +36,7 @@ CPulse_ResumePoint OnFinished { get; }
 PulseNodeDynamicOutflows_t PulseAnimEvents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseNodeDynamicOutflows_t](/docs/api/shared/schemadefinitions/pulsenodedynamicoutflows_t)
 
@@ -46,7 +46,7 @@ PulseNodeDynamicOutflows_t PulseAnimEvents { get; }
 string SequenceName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

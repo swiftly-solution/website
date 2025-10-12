@@ -14,7 +14,7 @@ public interface IMenuManager
 MenuSettings Settings { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [MenuSettings](/docs/api/shared/menus/menusettings)
 
@@ -26,7 +26,7 @@ MenuSettings Settings { get; }
 void ClearRenderForPlayer(IPlayer player)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer)
 
@@ -36,7 +36,7 @@ void ClearRenderForPlayer(IPlayer player)
 void CloseMenu(IPlayer player)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer)
 
@@ -46,14 +46,14 @@ void CloseMenu(IPlayer player)
 IMenu CreateMenu(string title, bool freezePlayer, bool hasSound, bool canExit)
 ```
 
-#### Parameters
+- Parameters
 
 - **title**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The title of the menu.
 - **freezePlayer**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether to freeze the player while the menu is open.
 - **hasSound**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the menu has sound effects.
 - **canExit**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the menu can be exited.
 
-#### Returns
+- Returns
 
 - [IMenu](/docs/api/shared/menus/imenu) - Menu Object
 
@@ -63,11 +63,11 @@ IMenu CreateMenu(string title, bool freezePlayer, bool hasSound, bool canExit)
 IMenu? GetCurrentMenu(IPlayer player)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer)
 
-#### Returns
+- Returns
 
 - [IMenu](/docs/api/shared/menus/imenu)?
 
@@ -77,11 +77,11 @@ IMenu? GetCurrentMenu(IPlayer player)
 Action<IPlayer, IMenuOption, IMenu, string>? GetInputState(IPlayer player)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer)
 
-#### Returns
+- Returns
 
 - [Action](https://learn.microsoft.com/dotnet/api/system.action-4)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu), [string](https://learn.microsoft.com/dotnet/api/system.string)>?
 
@@ -91,11 +91,11 @@ Action<IPlayer, IMenuOption, IMenu, string>? GetInputState(IPlayer player)
 IPlayer? GetPlayerFromMenu(IMenu menu)
 ```
 
-#### Parameters
+- Parameters
 
 - **menu**: [IMenu](/docs/api/shared/menus/imenu)
 
-#### Returns
+- Returns
 
 - [IPlayer](/docs/api/shared/players/iplayer)?
 
@@ -105,11 +105,11 @@ IPlayer? GetPlayerFromMenu(IMenu menu)
 bool HasInputState(IPlayer player)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -119,11 +119,11 @@ bool HasInputState(IPlayer player)
 bool IsMenuOpen(IPlayer player)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer)
 
-#### Returns
+- Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -133,7 +133,7 @@ bool IsMenuOpen(IPlayer player)
 void OpenMenu(IPlayer player, IMenu menu)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer)
 - **menu**: [IMenu](/docs/api/shared/menus/imenu)
@@ -144,7 +144,7 @@ void OpenMenu(IPlayer player, IMenu menu)
 void OpenMenu(IPlayer player, IMenu menu, float autoCloseDelay)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to open the menu for.
 - **menu**: [IMenu](/docs/api/shared/menus/imenu) - The menu to open.
@@ -156,7 +156,7 @@ void OpenMenu(IPlayer player, IMenu menu, float autoCloseDelay)
 void OpenSubMenu(IPlayer player, IMenu menu)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer)
 - **menu**: [IMenu](/docs/api/shared/menus/imenu)
@@ -167,7 +167,7 @@ void OpenSubMenu(IPlayer player, IMenu menu)
 void OpenSubMenu(IPlayer player, IMenu menu, float autoCloseDelay)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to open the submenu for.
 - **menu**: [IMenu](/docs/api/shared/menus/imenu) - The submenu to open.
@@ -179,7 +179,7 @@ void OpenSubMenu(IPlayer player, IMenu menu, float autoCloseDelay)
 void RenderForPlayer(IPlayer player)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer)
 
@@ -189,7 +189,7 @@ void RenderForPlayer(IPlayer player)
 void SetInputState(IPlayer player, Action<IPlayer, IMenuOption, IMenu, string>? onInput)
 ```
 
-#### Parameters
+- Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer)
 - **onInput**: [Action](https://learn.microsoft.com/dotnet/api/system.action-4)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu), [string](https://learn.microsoft.com/dotnet/api/system.string)>?
@@ -200,7 +200,7 @@ void SetInputState(IPlayer player, Action<IPlayer, IMenuOption, IMenu, string>? 
 event Action<IPlayer, IMenu>? OnMenuClosed
 ```
 
-#### Event Type
+- Event Type
 
 - [Action](https://learn.microsoft.com/dotnet/api/system.action-2)<[IPlayer](/docs/api/shared/players/iplayer), [IMenu](/docs/api/shared/menus/imenu)>?
 
@@ -210,7 +210,7 @@ event Action<IPlayer, IMenu>? OnMenuClosed
 event Action<IPlayer, IMenu>? OnMenuOpened
 ```
 
-#### Event Type
+- Event Type
 
 - [Action](https://learn.microsoft.com/dotnet/api/system.action-2)<[IPlayer](/docs/api/shared/players/iplayer), [IMenu](/docs/api/shared/menus/imenu)>?
 

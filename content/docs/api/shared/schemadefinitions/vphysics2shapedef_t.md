@@ -6,7 +6,7 @@ title: VPhysics2ShapeDef_t
 public interface VPhysics2ShapeDef_t : ISchemaClass<VPhysics2ShapeDef_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VPhysics2ShapeDef_t : ISchemaClass<VPhysics2ShapeDef_t>, ISchem
 ref CUtlVector Capsules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Capsules { get; }
 ref CUtlVector<ushort> CollisionAttributeIndices { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
@@ -36,7 +36,7 @@ ref CUtlVector<ushort> CollisionAttributeIndices { get; }
 ref CUtlVector Hulls { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector Hulls { get; }
 ref CUtlVector Meshes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -56,7 +56,7 @@ ref CUtlVector Meshes { get; }
 ref CUtlVector Spheres { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

@@ -6,7 +6,7 @@ title: CPulseCell_Inflow_BaseEntrypoint
 public interface CPulseCell_Inflow_BaseEntrypoint : CPulseCell_BaseFlow, CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaClass<CPulseCell_Inflow_BaseEntrypoint>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPulseCell_Inflow_BaseEntrypoint : CPulseCell_BaseFlow, CPulseC
 PulseRuntimeChunkIndex_t EntryChunk { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRuntimeChunkIndex_t](/docs/api/shared/schemadefinitions/pulseruntimechunkindex_t)
 
@@ -26,7 +26,7 @@ PulseRuntimeChunkIndex_t EntryChunk { get; }
 PulseRegisterMap_t RegisterMap { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [PulseRegisterMap_t](/docs/api/shared/schemadefinitions/pulseregistermap_t)
 

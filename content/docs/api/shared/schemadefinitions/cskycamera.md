@@ -6,7 +6,7 @@ title: CSkyCamera
 public interface CSkyCamera : CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSkyCamera>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSkyCamera : CBaseEntity, CEntityInstance, ISchemaClass<CEntity
 CSkyCamera? Next { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSkyCamera](/docs/api/shared/schemadefinitions/cskycamera)?
 
@@ -26,7 +26,7 @@ CSkyCamera? Next { get; }
 sky3dparams_t SkyboxData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [sky3dparams_t](/docs/api/shared/schemadefinitions/sky3dparams_t)
 
@@ -36,7 +36,7 @@ sky3dparams_t SkyboxData { get; }
 ref CUtlStringToken SkyboxSlotToken { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 
@@ -46,7 +46,7 @@ ref CUtlStringToken SkyboxSlotToken { get; }
 ref bool UseAngles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

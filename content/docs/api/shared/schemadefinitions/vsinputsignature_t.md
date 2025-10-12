@@ -6,7 +6,7 @@ title: VsInputSignature_t
 public interface VsInputSignature_t : ISchemaClass<VsInputSignature_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface VsInputSignature_t : ISchemaClass<VsInputSignature_t>, ISchemaF
 ref CUtlVector Depth_elems { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector Depth_elems { get; }
 ref CUtlVector Elems { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

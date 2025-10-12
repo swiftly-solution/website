@@ -6,7 +6,7 @@ title: CMsgGC_ServerQuestUpdateData
 public interface CMsgGC_ServerQuestUpdateData : ITypedProtobuf<CMsgGC_ServerQuestUpdateData>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGC_ServerQuestUpdateData : ITypedProtobuf<CMsgGC_ServerQues
 byte[] BinaryData { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -26,7 +26,7 @@ byte[] BinaryData { get; set; }
 uint Flags { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint Flags { get; set; }
 ScoreLeaderboardData Missionlbsdata { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ScoreLeaderboardData](/docs/api/shared/protobufdefinitions/scoreleaderboarddata)
 
@@ -46,7 +46,7 @@ ScoreLeaderboardData Missionlbsdata { get; }
 uint MmGameMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -56,7 +56,7 @@ uint MmGameMode { get; set; }
 IProtobufRepeatedFieldSubMessageType<PlayerQuestData> PlayerQuestData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[PlayerQuestData](/docs/api/shared/protobufdefinitions/playerquestdata)>
 

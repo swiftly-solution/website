@@ -6,7 +6,7 @@ title: CPairedSequenceUpdateNode
 public interface CPairedSequenceUpdateNode : CSequenceUpdateNodeBase, CLeafUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CLeafUpdateNode>, ISchemaClass<CSequenceUpdateNodeBase>, ISchemaClass<CPairedSequenceUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CPairedSequenceUpdateNode : CSequenceUpdateNodeBase, CLeafUpdat
 ref CGlobalSymbol PairedSequenceRole { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

@@ -6,7 +6,7 @@ title: CCPPScriptComponentUpdater
 public interface CCPPScriptComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CCPPScriptComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCPPScriptComponentUpdater : CAnimComponentUpdater, ISchemaClas
 ref CUtlVector<CGlobalSymbol> ScriptsToRun { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)>
 

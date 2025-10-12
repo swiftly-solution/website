@@ -6,7 +6,7 @@ title: CGCToGCMsgRouted
 public interface CGCToGCMsgRouted : ITypedProtobuf<CGCToGCMsgRouted>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CGCToGCMsgRouted : ITypedProtobuf<CGCToGCMsgRouted>, INativeHan
 uint Ip { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Ip { get; set; }
 uint MsgType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint MsgType { get; set; }
 byte[] NetMessage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -46,7 +46,7 @@ byte[] NetMessage { get; set; }
 ulong SenderId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

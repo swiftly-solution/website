@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_PlayersProfile
 public interface CMsgGCCStrike15_v2_PlayersProfile : ITypedProtobuf<CMsgGCCStrike15_v2_PlayersProfile>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_PlayersProfile : ITypedProtobuf<CMsgGCCStrik
 IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_MatchmakingGC2ClientHello> AccountProfiles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgGCCStrike15_v2_MatchmakingGC2ClientHello](/docs/api/shared/protobufdefinitions/cmsggccstrike15_v2_matchmakinggc2clienthello)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgGCCStrike15_v2_MatchmakingGC2ClientHell
 uint RequestId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

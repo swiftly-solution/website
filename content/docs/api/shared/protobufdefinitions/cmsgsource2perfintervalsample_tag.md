@@ -6,7 +6,7 @@ title: CMsgSource2PerfIntervalSample_Tag
 public interface CMsgSource2PerfIntervalSample_Tag : ITypedProtobuf<CMsgSource2PerfIntervalSample_Tag>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgSource2PerfIntervalSample_Tag : ITypedProtobuf<CMsgSource2P
 uint MaxValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint MaxValue { get; set; }
 string Tag { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

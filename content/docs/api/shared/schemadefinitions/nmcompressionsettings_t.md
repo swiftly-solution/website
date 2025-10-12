@@ -6,7 +6,7 @@ title: NmCompressionSettings_t
 public interface NmCompressionSettings_t : ISchemaClass<NmCompressionSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NmCompressionSettings_t : ISchemaClass<NmCompressionSettings_t>
 ref Quaternion ConstantRotation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
@@ -26,7 +26,7 @@ ref Quaternion ConstantRotation { get; }
 ref bool IsRotationStatic { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool IsRotationStatic { get; }
 ref bool IsScaleStatic { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ ref bool IsScaleStatic { get; }
 ref bool IsTranslationStatic { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -56,7 +56,7 @@ ref bool IsTranslationStatic { get; }
 NmCompressionSettings_t__QuantizationRange_t ScaleRange { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmCompressionSettings_t__QuantizationRange_t](/docs/api/shared/schemadefinitions/nmcompressionsettings_t__quantizationrange_t)
 
@@ -66,7 +66,7 @@ NmCompressionSettings_t__QuantizationRange_t ScaleRange { get; }
 NmCompressionSettings_t__QuantizationRange_t TranslationRangeX { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmCompressionSettings_t__QuantizationRange_t](/docs/api/shared/schemadefinitions/nmcompressionsettings_t__quantizationrange_t)
 
@@ -76,7 +76,7 @@ NmCompressionSettings_t__QuantizationRange_t TranslationRangeX { get; }
 NmCompressionSettings_t__QuantizationRange_t TranslationRangeY { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmCompressionSettings_t__QuantizationRange_t](/docs/api/shared/schemadefinitions/nmcompressionsettings_t__quantizationrange_t)
 
@@ -86,7 +86,7 @@ NmCompressionSettings_t__QuantizationRange_t TranslationRangeY { get; }
 NmCompressionSettings_t__QuantizationRange_t TranslationRangeZ { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmCompressionSettings_t__QuantizationRange_t](/docs/api/shared/schemadefinitions/nmcompressionsettings_t__quantizationrange_t)
 

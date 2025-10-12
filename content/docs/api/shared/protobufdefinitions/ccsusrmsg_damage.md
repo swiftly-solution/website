@@ -6,7 +6,7 @@ title: CCSUsrMsg_Damage
 public interface CCSUsrMsg_Damage : ITypedProtobuf<CCSUsrMsg_Damage>, INativeHandle, INetMessage<CCSUsrMsg_Damage>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_Damage : ITypedProtobuf<CCSUsrMsg_Damage>, INativeHan
 int Amount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -26,7 +26,7 @@ int Amount { get; set; }
 Vector InflictorWorldPos { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -36,7 +36,7 @@ Vector InflictorWorldPos { get; set; }
 int VictimEntindex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

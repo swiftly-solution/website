@@ -6,7 +6,7 @@ title: CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock
 public interface CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock : ITypedProtobuf<CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLang
 IProtobufRepeatedFieldSubMessageType<CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription> Descriptions { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription](/docs/api/shared/protobufdefinitions/cworkshop_populateitemdescriptions_request_singleitemdescription)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CWorkshop_PopulateItemDescriptions_Request_
 string Language { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

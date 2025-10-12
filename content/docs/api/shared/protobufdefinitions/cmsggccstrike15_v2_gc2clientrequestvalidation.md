@@ -6,7 +6,7 @@ title: CMsgGCCStrike15_v2_GC2ClientRequestValidation
 public interface CMsgGCCStrike15_v2_GC2ClientRequestValidation : ITypedProtobuf<CMsgGCCStrike15_v2_GC2ClientRequestValidation>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCCStrike15_v2_GC2ClientRequestValidation : ITypedProtobuf<
 bool FullReport { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ bool FullReport { get; set; }
 string Module { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

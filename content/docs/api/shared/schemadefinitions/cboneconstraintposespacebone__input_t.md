@@ -6,7 +6,7 @@ title: CBoneConstraintPoseSpaceBone__Input_t
 public interface CBoneConstraintPoseSpaceBone__Input_t : ISchemaClass<CBoneConstraintPoseSpaceBone__Input_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBoneConstraintPoseSpaceBone__Input_t : ISchemaClass<CBoneConst
 ref Vector InputValue { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
@@ -26,7 +26,7 @@ ref Vector InputValue { get; }
 ref CUtlVector<CTransform> OutputTransformList { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 

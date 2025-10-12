@@ -6,7 +6,7 @@ title: CSVCMsg_ServerInfo
 public interface CSVCMsg_ServerInfo : ITypedProtobuf<CSVCMsg_ServerInfo>, INativeHandle, INetMessage<CSVCMsg_ServerInfo>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSVCMsg_ServerInfo : ITypedProtobuf<CSVCMsg_ServerInfo>, INativ
 string AddonName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -26,7 +26,7 @@ string AddonName { get; set; }
 int COs { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int COs { get; set; }
 string GameDir { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -46,7 +46,7 @@ string GameDir { get; set; }
 CSVCMsg_GameSessionConfiguration GameSessionConfig { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSVCMsg_GameSessionConfiguration](/docs/api/shared/protobufdefinitions/csvcmsg_gamesessionconfiguration)
 
@@ -56,7 +56,7 @@ CSVCMsg_GameSessionConfiguration GameSessionConfig { get; }
 byte[] GameSessionManifest { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
@@ -66,7 +66,7 @@ byte[] GameSessionManifest { get; set; }
 string HostName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -76,7 +76,7 @@ string HostName { get; set; }
 bool IsDedicated { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ bool IsDedicated { get; set; }
 bool IsHltv { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ bool IsHltv { get; set; }
 string MapName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -106,7 +106,7 @@ string MapName { get; set; }
 int MaxClasses { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ int MaxClasses { get; set; }
 int MaxClients { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -126,7 +126,7 @@ int MaxClients { get; set; }
 int PlayerSlot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -136,7 +136,7 @@ int PlayerSlot { get; set; }
 int Protocol { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -146,7 +146,7 @@ int Protocol { get; set; }
 int ServerCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -156,7 +156,7 @@ int ServerCount { get; set; }
 string SkyName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -166,7 +166,7 @@ string SkyName { get; set; }
 float TickInterval { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

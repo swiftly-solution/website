@@ -6,7 +6,7 @@ title: COrientationWarpUpdateNode
 public interface COrientationWarpUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<COrientationWarpUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface COrientationWarpUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeB
 CAnimInputDamping Damping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -26,7 +26,7 @@ CAnimInputDamping Damping { get; }
 ref bool EnablePreferredRotationDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -36,7 +36,7 @@ ref bool EnablePreferredRotationDirection { get; }
 CAnimParamHandle FallbackTargetPositionParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -46,7 +46,7 @@ CAnimParamHandle FallbackTargetPositionParam { get; }
 ref float MaxRootMotionScale { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -56,7 +56,7 @@ ref float MaxRootMotionScale { get; }
 ref OrientationWarpMode_t Mode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [OrientationWarpMode_t](/docs/api/shared/schemadefinitions/orientationwarpmode_t)
 
@@ -66,7 +66,7 @@ ref OrientationWarpMode_t Mode { get; }
 ref AnimValueSource PreferredRotationDirection { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 
@@ -76,7 +76,7 @@ ref AnimValueSource PreferredRotationDirection { get; }
 ref float PreferredRotationThreshold { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -86,7 +86,7 @@ ref float PreferredRotationThreshold { get; }
 ref OrientationWarpRootMotionSource_t RootMotionSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [OrientationWarpRootMotionSource_t](/docs/api/shared/schemadefinitions/orientationwarprootmotionsource_t)
 
@@ -96,7 +96,7 @@ ref OrientationWarpRootMotionSource_t RootMotionSource { get; }
 ref float TargetOffset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -106,7 +106,7 @@ ref float TargetOffset { get; }
 ref OrientationWarpTargetOffsetMode_t TargetOffsetMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [OrientationWarpTargetOffsetMode_t](/docs/api/shared/schemadefinitions/orientationwarptargetoffsetmode_t)
 
@@ -116,7 +116,7 @@ ref OrientationWarpTargetOffsetMode_t TargetOffsetMode { get; }
 CAnimParamHandle TargetOffsetParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -126,7 +126,7 @@ CAnimParamHandle TargetOffsetParam { get; }
 CAnimParamHandle TargetParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -136,7 +136,7 @@ CAnimParamHandle TargetParam { get; }
 CAnimParamHandle TargetPositionParam { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 

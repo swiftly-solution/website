@@ -6,7 +6,7 @@ title: CSoundContainerReferenceArray
 public interface CSoundContainerReferenceArray : ISchemaClass<CSoundContainerReferenceArray>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSoundContainerReferenceArray : ISchemaClass<CSoundContainerRef
 ref CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>> Sounds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCVoiceContainerBase](/docs/api/shared/schemadefinitions/infoforresourcetypecvoicecontainerbase)>>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CStrongHandle<InfoForResourceTypeCVoiceContainerBase>> Sounds { g
 ref CUtlVector<PointerTo<CVoiceContainerBase>> Sounds1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[PointerTo](/docs/api/shared/natives/pointerto-1)<[CVoiceContainerBase](/docs/api/shared/schemadefinitions/cvoicecontainerbase)>>
 
@@ -36,7 +36,7 @@ ref CUtlVector<PointerTo<CVoiceContainerBase>> Sounds1 { get; }
 ref bool UseReference { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

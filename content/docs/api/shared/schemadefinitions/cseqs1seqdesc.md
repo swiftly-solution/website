@@ -6,7 +6,7 @@ title: CSeqS1SeqDesc
 public interface CSeqS1SeqDesc : ISchemaClass<CSeqS1SeqDesc>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSeqS1SeqDesc : ISchemaClass<CSeqS1SeqDesc>, ISchemaField, ISch
 ref CUtlVector ActivityArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -26,7 +26,7 @@ ref CUtlVector ActivityArray { get; }
 ref CUtlVector AutoLayerArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -36,7 +36,7 @@ ref CUtlVector AutoLayerArray { get; }
 CSeqMultiFetch Fetch { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSeqMultiFetch](/docs/api/shared/schemadefinitions/cseqmultifetch)
 
@@ -46,7 +46,7 @@ CSeqMultiFetch Fetch { get; }
 CSeqSeqDescFlag Flags { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSeqSeqDescFlag](/docs/api/shared/schemadefinitions/cseqseqdescflag)
 
@@ -56,7 +56,7 @@ CSeqSeqDescFlag Flags { get; }
 ref CUtlVector FootMotion { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -66,7 +66,7 @@ ref CUtlVector FootMotion { get; }
 ref CUtlVector IKLockArray { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -76,7 +76,7 @@ ref CUtlVector IKLockArray { get; }
 ref CBufferString LegacyKeyValueText { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -86,7 +86,7 @@ ref CBufferString LegacyKeyValueText { get; }
 ref int LocalWeightlist { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ ref int LocalWeightlist { get; }
 ref CBufferString Name { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
@@ -106,7 +106,7 @@ ref CBufferString Name { get; }
 SchemaUntypedField SequenceKeys { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
@@ -116,7 +116,7 @@ SchemaUntypedField SequenceKeys { get; }
 CSeqTransition Transition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CSeqTransition](/docs/api/shared/schemadefinitions/cseqtransition)
 

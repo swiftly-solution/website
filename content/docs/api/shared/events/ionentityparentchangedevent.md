@@ -14,7 +14,7 @@ public interface IOnEntityParentChangedEvent
 CEntityInstance Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
 
@@ -24,7 +24,7 @@ CEntityInstance Entity { get; }
 CEntityInstance? NewParent { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)?
 

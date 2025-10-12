@@ -6,7 +6,7 @@ title: C_OP_RenderStatusEffectCitadel
 public interface C_OP_RenderStatusEffectCitadel : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderStatusEffectCitadel>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface C_OP_RenderStatusEffectCitadel : CParticleFunctionRenderer, CPa
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureColorWarp { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -26,7 +26,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureColorWarp { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDetail { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -36,7 +36,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureDetail { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureMetalness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -46,7 +46,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureMetalness { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureNormal { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -56,7 +56,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureNormal { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureRoughness { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
@@ -66,7 +66,7 @@ ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureRoughness { get; }
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureSelfIllum { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 

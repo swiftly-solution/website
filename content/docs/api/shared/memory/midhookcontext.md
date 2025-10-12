@@ -6,7 +6,7 @@ title: MidHookContext
 public struct MidHookContext
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
@@ -16,7 +16,7 @@ public struct MidHookContext
 public nuint R10
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -26,7 +26,7 @@ public nuint R10
 public nuint R11
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -36,7 +36,7 @@ public nuint R11
 public nuint R12
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -46,7 +46,7 @@ public nuint R12
 public nuint R13
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -56,7 +56,7 @@ public nuint R13
 public nuint R14
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -66,7 +66,7 @@ public nuint R14
 public nuint R15
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -76,7 +76,7 @@ public nuint R15
 public nuint R8
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -86,7 +86,7 @@ public nuint R8
 public nuint R9
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -96,7 +96,7 @@ public nuint R9
 public nuint RAX
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -106,7 +106,7 @@ public nuint RAX
 public nuint RBP
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -116,7 +116,7 @@ public nuint RBP
 public nuint RBX
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -126,7 +126,7 @@ public nuint RBX
 public nuint RCX
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -136,7 +136,7 @@ public nuint RCX
 public nuint RDI
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -146,7 +146,7 @@ public nuint RDI
 public nuint RDX
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -156,7 +156,7 @@ public nuint RDX
 public nuint RFLAGS
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -166,7 +166,7 @@ public nuint RFLAGS
 public nuint RIP
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -176,7 +176,7 @@ public nuint RIP
 public nuint RSI
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -186,7 +186,7 @@ public nuint RSI
 public nuint RSP
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -196,7 +196,7 @@ public nuint RSP
 public nuint TRAMPOLINE_RSP
 ```
 
-#### Field Value
+- Field Value
 
 - [nuint](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
@@ -206,7 +206,7 @@ public nuint TRAMPOLINE_RSP
 public Xmm XMM0
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -216,7 +216,7 @@ public Xmm XMM0
 public Xmm XMM1
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -226,7 +226,7 @@ public Xmm XMM1
 public Xmm XMM10
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -236,7 +236,7 @@ public Xmm XMM10
 public Xmm XMM11
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -246,7 +246,7 @@ public Xmm XMM11
 public Xmm XMM12
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -256,7 +256,7 @@ public Xmm XMM12
 public Xmm XMM13
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -266,7 +266,7 @@ public Xmm XMM13
 public Xmm XMM14
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -276,7 +276,7 @@ public Xmm XMM14
 public Xmm XMM15
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -286,7 +286,7 @@ public Xmm XMM15
 public Xmm XMM2
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -296,7 +296,7 @@ public Xmm XMM2
 public Xmm XMM3
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -306,7 +306,7 @@ public Xmm XMM3
 public Xmm XMM4
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -316,7 +316,7 @@ public Xmm XMM4
 public Xmm XMM5
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -326,7 +326,7 @@ public Xmm XMM5
 public Xmm XMM6
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -336,7 +336,7 @@ public Xmm XMM6
 public Xmm XMM7
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -346,7 +346,7 @@ public Xmm XMM7
 public Xmm XMM8
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 
@@ -356,7 +356,7 @@ public Xmm XMM8
 public Xmm XMM9
 ```
 
-#### Field Value
+- Field Value
 
 - [Xmm](/docs/api/shared/memory/xmm)
 

@@ -6,7 +6,7 @@ title: CAnimSkeleton
 public interface CAnimSkeleton : ISchemaClass<CAnimSkeleton>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CAnimSkeleton : ISchemaClass<CAnimSkeleton>, ISchemaField, ISch
 ref CUtlVector<CUtlString> BoneNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -26,7 +26,7 @@ ref CUtlVector<CUtlString> BoneNames { get; }
 ref CUtlVector<CUtlVector<int>> Children { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>>
 
@@ -36,7 +36,7 @@ ref CUtlVector<CUtlVector<int>> Children { get; }
 ref CUtlVector Feet { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector Feet { get; }
 ref CUtlVector<CTransform> LocalSpaceTransforms { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
@@ -56,7 +56,7 @@ ref CUtlVector<CTransform> LocalSpaceTransforms { get; }
 ref CUtlVector<int> LodBoneCounts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -66,7 +66,7 @@ ref CUtlVector<int> LodBoneCounts { get; }
 ref CUtlVector<CTransform> ModelSpaceTransforms { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
@@ -76,7 +76,7 @@ ref CUtlVector<CTransform> ModelSpaceTransforms { get; }
 ref CUtlVector<CUtlString> MorphNames { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 
@@ -86,7 +86,7 @@ ref CUtlVector<CUtlString> MorphNames { get; }
 ref CUtlVector<int> Parents { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

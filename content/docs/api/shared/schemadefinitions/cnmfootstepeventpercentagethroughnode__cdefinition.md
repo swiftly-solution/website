@@ -6,7 +6,7 @@ title: CNmFootstepEventPercentageThroughNode__CDefinition
 public interface CNmFootstepEventPercentageThroughNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmFootstepEventPercentageThroughNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CNmFootstepEventPercentageThroughNode__CDefinition : CNmFloatVa
 CNmBitFlags EventConditionRules { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNmBitFlags](/docs/api/shared/schemadefinitions/cnmbitflags)
 
@@ -26,7 +26,7 @@ CNmBitFlags EventConditionRules { get; }
 ref NmFootPhaseCondition_t PhaseCondition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmFootPhaseCondition_t](/docs/api/shared/schemadefinitions/nmfootphasecondition_t)
 
@@ -36,7 +36,7 @@ ref NmFootPhaseCondition_t PhaseCondition { get; }
 ref short SourceStateNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

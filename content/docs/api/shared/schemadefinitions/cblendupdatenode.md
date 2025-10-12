@@ -6,7 +6,7 @@ title: CBlendUpdateNode
 public interface CBlendUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CBlendUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CBlendUpdateNode : CAnimUpdateNodeBase, ISchemaClass<CAnimUpdat
 ref BlendKeyType BlendKeyType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [BlendKeyType](/docs/api/shared/schemadefinitions/blendkeytype)
 
@@ -26,7 +26,7 @@ ref BlendKeyType BlendKeyType { get; }
 ref AnimValueSource BlendValueSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimValueSource](/docs/api/shared/schemadefinitions/animvaluesource)
 
@@ -36,7 +36,7 @@ ref AnimValueSource BlendValueSource { get; }
 ref CUtlVector Children { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
@@ -46,7 +46,7 @@ ref CUtlVector Children { get; }
 CAnimInputDamping Damping { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimInputDamping](/docs/api/shared/schemadefinitions/caniminputdamping)
 
@@ -56,7 +56,7 @@ CAnimInputDamping Damping { get; }
 ref bool IsAngle { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -66,7 +66,7 @@ ref bool IsAngle { get; }
 ref LinearRootMotionBlendMode_t LinearRootMotionBlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [LinearRootMotionBlendMode_t](/docs/api/shared/schemadefinitions/linearrootmotionblendmode_t)
 
@@ -76,7 +76,7 @@ ref LinearRootMotionBlendMode_t LinearRootMotionBlendMode { get; }
 ref bool LockBlendOnReset { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -86,7 +86,7 @@ ref bool LockBlendOnReset { get; }
 ref bool LockWhenWaning { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -96,7 +96,7 @@ ref bool LockWhenWaning { get; }
 ref bool Loop { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -106,7 +106,7 @@ ref bool Loop { get; }
 CAnimParamHandle ParamIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
@@ -116,7 +116,7 @@ CAnimParamHandle ParamIndex { get; }
 ref CUtlVector<byte> SortedOrder { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 
@@ -126,7 +126,7 @@ ref CUtlVector<byte> SortedOrder { get; }
 ref bool SyncCycles { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -136,7 +136,7 @@ ref bool SyncCycles { get; }
 ref CUtlVector<float> TargetValues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

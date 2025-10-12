@@ -6,7 +6,7 @@ title: IKTargetSettings_t
 public interface IKTargetSettings_t : ISchemaClass<IKTargetSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface IKTargetSettings_t : ISchemaClass<IKTargetSettings_t>, ISchemaF
 AnimParamID AnimgraphParameterNameOrientation { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimParamID](/docs/api/shared/schemadefinitions/animparamid)
 
@@ -26,7 +26,7 @@ AnimParamID AnimgraphParameterNameOrientation { get; }
 AnimParamID AnimgraphParameterNamePosition { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimParamID](/docs/api/shared/schemadefinitions/animparamid)
 
@@ -36,7 +36,7 @@ AnimParamID AnimgraphParameterNamePosition { get; }
 IKBoneNameAndIndex_t Bone { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IKBoneNameAndIndex_t](/docs/api/shared/schemadefinitions/ikbonenameandindex_t)
 
@@ -46,7 +46,7 @@ IKBoneNameAndIndex_t Bone { get; }
 ref IKTargetCoordinateSystem TargetCoordSystem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IKTargetCoordinateSystem](/docs/api/shared/schemadefinitions/iktargetcoordinatesystem)
 
@@ -56,7 +56,7 @@ ref IKTargetCoordinateSystem TargetCoordSystem { get; }
 ref IKTargetSource TargetSource { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IKTargetSource](/docs/api/shared/schemadefinitions/iktargetsource)
 

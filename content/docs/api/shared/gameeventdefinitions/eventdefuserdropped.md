@@ -6,7 +6,7 @@ title: EventDefuserDropped
 public interface EventDefuserDropped : IGameEvent<EventDefuserDropped>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface EventDefuserDropped : IGameEvent<EventDefuserDropped>
 int EntityID { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

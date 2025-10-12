@@ -6,7 +6,7 @@ title: CSlowDownOnSlopesUpdateNode
 public interface CSlowDownOnSlopesUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CSlowDownOnSlopesUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CSlowDownOnSlopesUpdateNode : CUnaryUpdateNode, CAnimUpdateNode
 ref float SlowDownStrength { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

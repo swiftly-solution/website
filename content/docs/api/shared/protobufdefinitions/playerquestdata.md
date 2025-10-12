@@ -6,7 +6,7 @@ title: PlayerQuestData
 public interface PlayerQuestData : ITypedProtobuf<PlayerQuestData>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface PlayerQuestData : ITypedProtobuf<PlayerQuestData>, INativeHandl
 IProtobufRepeatedFieldSubMessageType<MatchEndItemUpdates> ItemUpdates { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[MatchEndItemUpdates](/docs/api/shared/protobufdefinitions/matchenditemupdates)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<MatchEndItemUpdates> ItemUpdates { get; }
 uint MmGameMode { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -36,7 +36,7 @@ uint MmGameMode { get; set; }
 bool OperationPointsEligible { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -46,7 +46,7 @@ bool OperationPointsEligible { get; set; }
 IProtobufRepeatedFieldSubMessageType<PlayerQuestData_QuestItemData> QuestItemData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[PlayerQuestData_QuestItemData](/docs/api/shared/protobufdefinitions/playerquestdata_questitemdata)>
 
@@ -56,7 +56,7 @@ IProtobufRepeatedFieldSubMessageType<PlayerQuestData_QuestItemData> QuestItemDat
 uint QuesterAccountId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -66,7 +66,7 @@ uint QuesterAccountId { get; set; }
 uint TimePlayed { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -76,7 +76,7 @@ uint TimePlayed { get; set; }
 IProtobufRepeatedFieldSubMessageType<CMsgCsgoSteamUserStatChange> Userstatchanges { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CMsgCsgoSteamUserStatChange](/docs/api/shared/protobufdefinitions/cmsgcsgosteamuserstatchange)>
 
@@ -86,7 +86,7 @@ IProtobufRepeatedFieldSubMessageType<CMsgCsgoSteamUserStatChange> Userstatchange
 IProtobufRepeatedFieldSubMessageType<XpProgressData> XpProgressData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[XpProgressData](/docs/api/shared/protobufdefinitions/xpprogressdata)>
 

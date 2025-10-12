@@ -6,7 +6,7 @@ title: CDataGCCStrike15_v2_TournamentMatchDraft
 public interface CDataGCCStrike15_v2_TournamentMatchDraft : ITypedProtobuf<CDataGCCStrike15_v2_TournamentMatchDraft>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CDataGCCStrike15_v2_TournamentMatchDraft : ITypedProtobuf<CData
 IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentMatchDraft_Entry> Drafts { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CDataGCCStrike15_v2_TournamentMatchDraft_Entry](/docs/api/shared/protobufdefinitions/cdatagccstrike15_v2_tournamentmatchdraft_entry)>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldSubMessageType<CDataGCCStrike15_v2_TournamentMatchDraft_En
 int EventId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -36,7 +36,7 @@ int EventId { get; set; }
 int EventStageId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -46,7 +46,7 @@ int EventStageId { get; set; }
 int MapsCount { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -56,7 +56,7 @@ int MapsCount { get; set; }
 int MapsCurrent { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -66,7 +66,7 @@ int MapsCurrent { get; set; }
 int TeamId0 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -76,7 +76,7 @@ int TeamId0 { get; set; }
 int TeamId1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -86,7 +86,7 @@ int TeamId1 { get; set; }
 int TeamIdPickn { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -96,7 +96,7 @@ int TeamIdPickn { get; set; }
 int TeamIdStart { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -106,7 +106,7 @@ int TeamIdStart { get; set; }
 int TeamIdVeto1 { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -116,7 +116,7 @@ int TeamIdVeto1 { get; set; }
 IProtobufRepeatedFieldValueType<int> VoteMapid0 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -126,7 +126,7 @@ IProtobufRepeatedFieldValueType<int> VoteMapid0 { get; }
 IProtobufRepeatedFieldValueType<int> VoteMapid1 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -136,7 +136,7 @@ IProtobufRepeatedFieldValueType<int> VoteMapid1 { get; }
 IProtobufRepeatedFieldValueType<int> VoteMapid2 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -146,7 +146,7 @@ IProtobufRepeatedFieldValueType<int> VoteMapid2 { get; }
 IProtobufRepeatedFieldValueType<int> VoteMapid3 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -156,7 +156,7 @@ IProtobufRepeatedFieldValueType<int> VoteMapid3 { get; }
 IProtobufRepeatedFieldValueType<int> VoteMapid4 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -166,7 +166,7 @@ IProtobufRepeatedFieldValueType<int> VoteMapid4 { get; }
 IProtobufRepeatedFieldValueType<int> VoteMapid5 { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
@@ -176,7 +176,7 @@ IProtobufRepeatedFieldValueType<int> VoteMapid5 { get; }
 int VotePhase { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
@@ -186,7 +186,7 @@ int VotePhase { get; set; }
 float VotePhaseLength { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -196,7 +196,7 @@ float VotePhaseLength { get; set; }
 float VotePhaseStart { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
@@ -206,7 +206,7 @@ float VotePhaseStart { get; set; }
 IProtobufRepeatedFieldValueType<int> VoteStartingSide { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

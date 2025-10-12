@@ -6,7 +6,7 @@ title: NavGravity_t
 public interface NavGravity_t : ISchemaClass<NavGravity_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface NavGravity_t : ISchemaClass<NavGravity_t>, ISchemaField, ISchem
 ref bool Default { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
@@ -26,7 +26,7 @@ ref bool Default { get; }
 ref Vector Gravity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

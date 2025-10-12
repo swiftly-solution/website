@@ -6,7 +6,7 @@ title: CCSUsrMsg_VoteSetup
 public interface CCSUsrMsg_VoteSetup : ITypedProtobuf<CCSUsrMsg_VoteSetup>, INativeHandle, INetMessage<CCSUsrMsg_VoteSetup>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CCSUsrMsg_VoteSetup : ITypedProtobuf<CCSUsrMsg_VoteSetup>, INat
 IProtobufRepeatedFieldValueType<string> PotentialIssues { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 

@@ -6,7 +6,7 @@ title: CMsgRecurringMissionSchema_MissionTemplateList
 public interface CMsgRecurringMissionSchema_MissionTemplateList : ITypedProtobuf<CMsgRecurringMissionSchema_MissionTemplateList>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgRecurringMissionSchema_MissionTemplateList : ITypedProtobuf
 IProtobufRepeatedFieldValueType<byte[]> MissionTemplates { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
@@ -26,7 +26,7 @@ IProtobufRepeatedFieldValueType<byte[]> MissionTemplates { get; }
 uint Period { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

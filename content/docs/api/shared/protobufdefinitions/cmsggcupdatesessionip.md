@@ -6,7 +6,7 @@ title: CMsgGCUpdateSessionIP
 public interface CMsgGCUpdateSessionIP : ITypedProtobuf<CMsgGCUpdateSessionIP>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
@@ -16,7 +16,7 @@ public interface CMsgGCUpdateSessionIP : ITypedProtobuf<CMsgGCUpdateSessionIP>, 
 uint Ip { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
@@ -26,7 +26,7 @@ uint Ip { get; set; }
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
