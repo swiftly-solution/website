@@ -6,249 +6,209 @@ title: CGameTrace
 public struct CGameTrace
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
-### Body
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L23)
+### **Body** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L23)
 
 ```csharp
 public void* Body
 ```
 
-#### Field Value
+- Field Value
 
 - [void](https://learn.microsoft.com/dotnet/api/system.void)*
 
-### BodyTransform
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L27)
+### **BodyTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L27)
 
 ```csharp
 public CTransform BodyTransform
 ```
 
-#### Field Value
+- Field Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-### Contents
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L26)
+### **Contents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L26)
 
 ```csharp
 public ulong Contents
 ```
 
-#### Field Value
+- Field Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### EndPos
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L31)
+### **EndPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L31)
 
 ```csharp
 public Vector EndPos
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### ExactHitPoint
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L44)
+### **ExactHitPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L44)
 
 ```csharp
 public bool ExactHitPoint
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Fraction
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L36)
+### **Fraction** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L36)
 
 ```csharp
 public float Fraction
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### HitBox
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L21)
+### **HitBox** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L21)
 
 ```csharp
 public CHitBoxTrace* HitBox
 ```
 
-#### Field Value
+- Field Value
 
 - [CHitBoxTrace](/docs/api/shared/natives/chitboxtrace)*
 
-### HitNormal
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L32)
+### **HitNormal** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L32)
 
 ```csharp
 public Vector HitNormal
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### HitOffset
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L35)
+### **HitOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L35)
 
 ```csharp
 public float HitOffset
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### HitPoint
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L33)
+### **HitPoint** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L33)
 
 ```csharp
 public Vector HitPoint
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### HitboxBoneIndex
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L39)
+### **HitboxBoneIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L39)
 
 ```csharp
 public short HitboxBoneIndex
 ```
 
-#### Field Value
+- Field Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### RayType
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L41)
+### **RayType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L41)
 
 ```csharp
 public RayType_t RayType
 ```
 
-#### Field Value
+- Field Value
 
 - [RayType_t](/docs/api/shared/natives/raytype_t)
 
-### Shape
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L24)
+### **Shape** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L24)
 
 ```csharp
 public void* Shape
 ```
 
-#### Field Value
+- Field Value
 
 - [void](https://learn.microsoft.com/dotnet/api/system.void)*
 
-### ShapeAttributes
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L28)
+### **ShapeAttributes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L28)
 
 ```csharp
 public RnCollisionAttr_t ShapeAttributes
 ```
 
-#### Field Value
+- Field Value
 
 - [RnCollisionAttr_t](/docs/api/shared/natives/rncollisionattr_t)
 
-### StartInSolid
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L43)
+### **StartInSolid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L43)
 
 ```csharp
 public bool StartInSolid
 ```
 
-#### Field Value
+- Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### StartPos
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L30)
+### **StartPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L30)
 
 ```csharp
 public Vector StartPos
 ```
 
-#### Field Value
+- Field Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### SurfaceProperties
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L19)
+### **SurfaceProperties** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L19)
 
 ```csharp
 public CPhysSurfacePropertiesTrace* SurfaceProperties
 ```
 
-#### Field Value
+- Field Value
 
 - [CPhysSurfacePropertiesTrace](/docs/api/shared/natives/cphyssurfacepropertiestrace)*
 
-### Triangle
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L38)
+### **Triangle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L38)
 
 ```csharp
 public int Triangle
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### pEntity
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L20)
+### **pEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L20)
 
 ```csharp
 public void* pEntity
 ```
 
-#### Field Value
+- Field Value
 
 - [void](https://learn.microsoft.com/dotnet/api/system.void)*
 
 ## Properties
 
-### Entity
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L46)
+### **Entity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CGameTrace.cs#L46)
 
 ```csharp
 public CEntityInstance Entity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityInstance](/docs/api/shared/schemadefinitions/centityinstance)
 

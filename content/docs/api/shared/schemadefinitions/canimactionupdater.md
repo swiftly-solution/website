@@ -6,5 +6,5 @@ title: CAnimActionUpdater
 public interface CAnimActionUpdater : ISchemaClass<CAnimActionUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

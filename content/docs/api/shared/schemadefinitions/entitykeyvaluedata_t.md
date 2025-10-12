@@ -6,31 +6,27 @@ title: EntityKeyValueData_t
 public interface EntityKeyValueData_t : ISchemaClass<EntityKeyValueData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Connections
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L17)
+### **Connections** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L17)
 
 ```csharp
 ref CUtlVector Connections { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
-### KeyValuesData
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L19)
+### **KeyValuesData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L19)
 
 ```csharp
 ref CUtlBinaryBlock KeyValuesData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 

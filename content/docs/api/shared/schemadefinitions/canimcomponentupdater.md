@@ -6,55 +6,47 @@ title: CAnimComponentUpdater
 public interface CAnimComponentUpdater : ISchemaClass<CAnimComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Id
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L18)
+### **Id** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L18)
 
 ```csharp
 AnimComponentID Id { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimComponentID](/docs/api/shared/schemadefinitions/animcomponentid)
 
-### Name
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L16)
+### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L16)
 
 ```csharp
 string Name { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NetworkMode
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L20)
+### **NetworkMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L20)
 
 ```csharp
 ref AnimNodeNetworkMode NetworkMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimNodeNetworkMode](/docs/api/shared/schemadefinitions/animnodenetworkmode)
 
-### StartEnabled
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L22)
+### **StartEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimComponentUpdater.cs#L22)
 
 ```csharp
 ref bool StartEnabled { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

@@ -6,5 +6,5 @@ title: InfoForResourceTypeCSmartProp
 public interface InfoForResourceTypeCSmartProp : ISchemaClass<InfoForResourceTypeCSmartProp>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

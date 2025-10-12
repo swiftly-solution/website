@@ -6,7 +6,7 @@ title: EventDelegates.OnClientSteamAuthorizeFail
 public delegate void EventDelegates.OnClientSteamAuthorizeFail(IOnClientSteamAuthorizeFailEvent @event)
 ```
 
-#### Parameters
+- Parameters
 
 - **event**: [IOnClientSteamAuthorizeFailEvent](/docs/api/shared/events/ionclientsteamauthorizefailevent)
 

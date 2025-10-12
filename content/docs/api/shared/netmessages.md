@@ -1,5 +1,5 @@
 ---
-title: NetMessages
+title: SwiftlyS2.Shared.NetMessages
 ---
 
 - [ClientNetMessageHandler](/docs/api/shared/netmessages/clientnetmessagehandler)

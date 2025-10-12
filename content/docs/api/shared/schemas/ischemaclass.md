@@ -6,23 +6,21 @@ title: ISchemaClass
 public interface ISchemaClass : INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Methods
 
-### As()
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaClass.cs#L12)
+### **As<K>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/ISchemaClass.cs#L12)
 
 ```csharp
 K As<K>() where K : ISchemaClass<K>
 ```
 
-#### Returns
+- Returns
 
 - K - The converted handle.
 
-#### Type Parameters
+- Type Parameters
 
 - **K**:  - The type to convert to.
 

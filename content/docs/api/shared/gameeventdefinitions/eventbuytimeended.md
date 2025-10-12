@@ -6,5 +6,5 @@ title: EventBuytimeEnded
 public interface EventBuytimeEnded : IGameEvent<EventBuytimeEnded>
 ```
 
-#### Implements
+- Implements
 

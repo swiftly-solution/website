@@ -1,5 +1,5 @@
 ---
-title: Misc
+title: SwiftlyS2.Shared.Misc
 ---
 
 - [MurmurHash2](/docs/api/shared/misc/murmurhash2)

@@ -1,5 +1,5 @@
 ---
-title: EntitySystem
+title: SwiftlyS2.Shared.EntitySystem
 ---
 
 - [CEntityKeyValues](/docs/api/shared/entitysystem/centitykeyvalues)

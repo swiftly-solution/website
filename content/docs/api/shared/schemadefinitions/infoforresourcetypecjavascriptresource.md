@@ -6,5 +6,5 @@ title: InfoForResourceTypeCJavaScriptResource
 public interface InfoForResourceTypeCJavaScriptResource : ISchemaClass<InfoForResourceTypeCJavaScriptResource>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

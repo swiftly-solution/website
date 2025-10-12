@@ -6,5 +6,5 @@ title: CNmCachedPoseReadTask
 public interface CNmCachedPoseReadTask : CNmPoseTask, ISchemaClass<CNmPoseTask>, ISchemaClass<CNmCachedPoseReadTask>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

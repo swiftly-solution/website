@@ -6,5 +6,5 @@ title: CBaseTriggerAPI
 public interface CBaseTriggerAPI : ISchemaClass<CBaseTriggerAPI>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

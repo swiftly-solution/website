@@ -6,19 +6,17 @@ title: EventEnableRestartVoting
 public interface EventEnableRestartVoting : IGameEvent<EventEnableRestartVoting>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Enable
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEnableRestartVoting.cs#L21)
+### **Enable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventEnableRestartVoting.cs#L21)
 
 ```csharp
 bool Enable { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

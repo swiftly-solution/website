@@ -6,5 +6,5 @@ title: EventCsRoundStartBeep
 public interface EventCsRoundStartBeep : IGameEvent<EventCsRoundStartBeep>
 ```
 
-#### Implements
+- Implements
 

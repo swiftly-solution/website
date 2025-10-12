@@ -6,5 +6,5 @@ title: EntInput_t
 public interface EntInput_t : ISchemaClass<EntInput_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

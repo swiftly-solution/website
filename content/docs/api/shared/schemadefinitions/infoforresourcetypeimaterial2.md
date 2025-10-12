@@ -6,5 +6,5 @@ title: InfoForResourceTypeIMaterial2
 public interface InfoForResourceTypeIMaterial2 : ISchemaClass<InfoForResourceTypeIMaterial2>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

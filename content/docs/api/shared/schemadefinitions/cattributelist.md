@@ -6,39 +6,33 @@ title: CAttributeList
 public interface CAttributeList : ISchemaClass<CAttributeList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Attributes
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L17)
+### **Attributes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L17)
 
 ```csharp
 ref CUtlVector Attributes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 
-### Manager
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L19)
+### **Manager** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L19)
 
 ```csharp
 CAttributeManager? Manager { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAttributeManager](/docs/api/shared/schemadefinitions/cattributemanager)?
 
 ## Methods
 
-### AttributesUpdated()
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L21)
+### **AttributesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAttributeList.cs#L21)
 
 ```csharp
 void AttributesUpdated()

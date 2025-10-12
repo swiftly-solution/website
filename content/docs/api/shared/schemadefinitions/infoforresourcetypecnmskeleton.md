@@ -6,5 +6,5 @@ title: InfoForResourceTypeCNmSkeleton
 public interface InfoForResourceTypeCNmSkeleton : ISchemaClass<InfoForResourceTypeCNmSkeleton>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

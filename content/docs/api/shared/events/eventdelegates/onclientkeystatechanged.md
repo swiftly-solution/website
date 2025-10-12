@@ -6,7 +6,7 @@ title: EventDelegates.OnClientKeyStateChanged
 public delegate void EventDelegates.OnClientKeyStateChanged(IOnClientKeyStateChangedEvent @event)
 ```
 
-#### Parameters
+- Parameters
 
 - **event**: [IOnClientKeyStateChangedEvent](/docs/api/shared/events/ionclientkeystatechangedevent)
 

@@ -6,5 +6,5 @@ title: InfoForResourceTypeCNmGraphDefinition
 public interface InfoForResourceTypeCNmGraphDefinition : ISchemaClass<InfoForResourceTypeCNmGraphDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

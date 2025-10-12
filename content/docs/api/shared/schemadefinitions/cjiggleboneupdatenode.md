@@ -6,19 +6,17 @@ title: CJiggleBoneUpdateNode
 public interface CJiggleBoneUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CJiggleBoneUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### OpFixedData
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJiggleBoneUpdateNode.cs#L16)
+### **OpFixedData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CJiggleBoneUpdateNode.cs#L16)
 
 ```csharp
 JiggleBoneSettingsList_t OpFixedData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [JiggleBoneSettingsList_t](/docs/api/shared/schemadefinitions/jigglebonesettingslist_t)
 

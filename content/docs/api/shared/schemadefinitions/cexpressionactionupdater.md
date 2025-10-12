@@ -6,43 +6,37 @@ title: CExpressionActionUpdater
 public interface CExpressionActionUpdater : CAnimActionUpdater, ISchemaClass<CAnimActionUpdater>, ISchemaClass<CExpressionActionUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Param
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L16)
+### **Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L16)
 
 ```csharp
 CAnimParamHandle Param { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-### ParamType
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L18)
+### **ParamType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L18)
 
 ```csharp
 ref AnimParamType_t ParamType { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimParamType_t](/docs/api/shared/schemadefinitions/animparamtype_t)
 
-### Script
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L20)
+### **Script** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CExpressionActionUpdater.cs#L20)
 
 ```csharp
 AnimScriptHandle Script { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [AnimScriptHandle](/docs/api/shared/schemadefinitions/animscripthandle)
 

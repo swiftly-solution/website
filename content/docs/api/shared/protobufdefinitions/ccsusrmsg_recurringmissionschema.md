@@ -6,31 +6,27 @@ title: CCSUsrMsg_RecurringMissionSchema
 public interface CCSUsrMsg_RecurringMissionSchema : ITypedProtobuf<CCSUsrMsg_RecurringMissionSchema>, INativeHandle, INetMessage<CCSUsrMsg_RecurringMissionSchema>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### MissionSchema
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RecurringMissionSchema.cs#L21)
+### **MissionSchema** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RecurringMissionSchema.cs#L21)
 
 ```csharp
 byte[] MissionSchema { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-### Period
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RecurringMissionSchema.cs#L18)
+### **Period** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_RecurringMissionSchema.cs#L18)
 
 ```csharp
 uint Period { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

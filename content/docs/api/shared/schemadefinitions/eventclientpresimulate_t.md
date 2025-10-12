@@ -6,5 +6,5 @@ title: EventClientPreSimulate_t
 public interface EventClientPreSimulate_t : EventSimulate_t, ISchemaClass<EventSimulate_t>, ISchemaClass<EventClientPreSimulate_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

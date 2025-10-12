@@ -6,31 +6,27 @@ title: CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue
 public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Value
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue.cs#L16)
+### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue.cs#L16)
 
 ```csharp
 float Value { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### ValueNameHash
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue.cs#L13)
+### **ValueNameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_FloatContextValue.cs#L13)
 
 ```csharp
 uint ValueNameHash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,5 +6,5 @@ title: EventRoundFreezeEnd
 public interface EventRoundFreezeEnd : IGameEvent<EventRoundFreezeEnd>
 ```
 
-#### Implements
+- Implements
 

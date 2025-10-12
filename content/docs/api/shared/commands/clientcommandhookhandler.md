@@ -7,15 +7,13 @@ title: ClientCommandHookHandler
 public class ClientCommandHookHandler : Attribute
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Constructors
 
-### ClientCommandHookHandler()
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/ClientCommandHookHandlerAttribute.cs#L6)
+### **ClientCommandHookHandler()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Commands/Attributes/ClientCommandHookHandlerAttribute.cs#L6)
 
 ```csharp
 public ClientCommandHookHandler()

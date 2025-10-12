@@ -6,67 +6,57 @@ title: CMsgGCHAccountPhoneNumberChange
 public interface CMsgGCHAccountPhoneNumberChange : ITypedProtobuf<CMsgGCHAccountPhoneNumberChange>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Appid
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHAccountPhoneNumberChange.cs#L16)
+### **Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHAccountPhoneNumberChange.cs#L16)
 
 ```csharp
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### IsIdentifying
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHAccountPhoneNumberChange.cs#L25)
+### **IsIdentifying** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHAccountPhoneNumberChange.cs#L25)
 
 ```csharp
 bool IsIdentifying { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsVerified
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHAccountPhoneNumberChange.cs#L22)
+### **IsVerified** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHAccountPhoneNumberChange.cs#L22)
 
 ```csharp
 bool IsVerified { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PhoneId
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHAccountPhoneNumberChange.cs#L19)
+### **PhoneId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHAccountPhoneNumberChange.cs#L19)
 
 ```csharp
 ulong PhoneId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### Steamid
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHAccountPhoneNumberChange.cs#L13)
+### **Steamid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCHAccountPhoneNumberChange.cs#L13)
 
 ```csharp
 ulong Steamid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

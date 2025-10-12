@@ -6,19 +6,17 @@ title: CUserMsg_ParticleManager_UpdateParticleShouldDraw
 public interface CUserMsg_ParticleManager_UpdateParticleShouldDraw : ITypedProtobuf<CUserMsg_ParticleManager_UpdateParticleShouldDraw>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### ShouldDraw
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleShouldDraw.cs#L13)
+### **ShouldDraw** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_UpdateParticleShouldDraw.cs#L13)
 
 ```csharp
 bool ShouldDraw { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

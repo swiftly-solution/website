@@ -6,5 +6,5 @@ title: InfoForResourceTypeCDOTAPatchNotesList
 public interface InfoForResourceTypeCDOTAPatchNotesList : ISchemaClass<InfoForResourceTypeCDOTAPatchNotesList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

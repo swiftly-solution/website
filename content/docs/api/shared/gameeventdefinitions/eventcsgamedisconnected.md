@@ -6,5 +6,5 @@ title: EventCsGameDisconnected
 public interface EventCsGameDisconnected : IGameEvent<EventCsGameDisconnected>
 ```
 
-#### Implements
+- Implements
 

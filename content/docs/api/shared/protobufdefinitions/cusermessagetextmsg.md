@@ -6,31 +6,27 @@ title: CUserMessageTextMsg
 public interface CUserMessageTextMsg : ITypedProtobuf<CUserMessageTextMsg>, INativeHandle, INetMessage<CUserMessageTextMsg>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Dest
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageTextMsg.cs#L18)
+### **Dest** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageTextMsg.cs#L18)
 
 ```csharp
 uint Dest { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### Param
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageTextMsg.cs#L21)
+### **Param** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageTextMsg.cs#L21)
 
 ```csharp
 IProtobufRepeatedFieldValueType<string> Param { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)>
 

@@ -6,7 +6,7 @@ title: EventDelegates.OnItemServicesCanAcquireHook
 public delegate void EventDelegates.OnItemServicesCanAcquireHook(IOnItemServicesCanAcquireHookEvent @event)
 ```
 
-#### Parameters
+- Parameters
 
 - **event**: [IOnItemServicesCanAcquireHookEvent](/docs/api/shared/events/ionitemservicescanacquirehookevent)
 

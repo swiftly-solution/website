@@ -6,5 +6,5 @@ title: EventClientPauseSimulate_t
 public interface EventClientPauseSimulate_t : EventSimulate_t, ISchemaClass<EventSimulate_t>, ISchemaClass<EventClientPauseSimulate_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

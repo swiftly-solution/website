@@ -6,7 +6,7 @@ title: MidHookDelegate
 public delegate void MidHookDelegate(ref MidHookContext context)
 ```
 
-#### Parameters
+- Parameters
 
 - **context**: [MidHookContext](/docs/api/shared/memory/midhookcontext)
 

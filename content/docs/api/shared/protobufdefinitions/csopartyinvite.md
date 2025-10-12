@@ -6,43 +6,37 @@ title: CSOPartyInvite
 public interface CSOPartyInvite : ITypedProtobuf<CSOPartyInvite>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### GroupId
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPartyInvite.cs#L13)
+### **GroupId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPartyInvite.cs#L13)
 
 ```csharp
 ulong GroupId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### SenderId
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPartyInvite.cs#L16)
+### **SenderId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPartyInvite.cs#L16)
 
 ```csharp
 ulong SenderId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### SenderName
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPartyInvite.cs#L19)
+### **SenderName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOPartyInvite.cs#L19)
 
 ```csharp
 string SenderName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

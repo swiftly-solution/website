@@ -6,5 +6,5 @@ title: EventMapTransition
 public interface EventMapTransition : IGameEvent<EventMapTransition>
 ```
 
-#### Implements
+- Implements
 

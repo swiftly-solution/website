@@ -6,5 +6,5 @@ title: EventRoundAnnounceFinal
 public interface EventRoundAnnounceFinal : IGameEvent<EventRoundAnnounceFinal>
 ```
 
-#### Implements
+- Implements
 

@@ -6,5 +6,5 @@ title: CDemoStop
 public interface CDemoStop : ITypedProtobuf<CDemoStop>, INativeHandle
 ```
 
-#### Implements
+- Implements
 

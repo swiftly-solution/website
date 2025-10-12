@@ -6,5 +6,5 @@ title: CBaseEntityAPI
 public interface CBaseEntityAPI : ISchemaClass<CBaseEntityAPI>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

@@ -6,5 +6,5 @@ title: IParticleCollection
 public interface IParticleCollection : ISchemaClass<IParticleCollection>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

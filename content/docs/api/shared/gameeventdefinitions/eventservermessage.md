@@ -6,19 +6,17 @@ title: EventServerMessage
 public interface EventServerMessage : IGameEvent<EventServerMessage>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Text
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerMessage.cs#L24)
+### **Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventServerMessage.cs#L24)
 
 ```csharp
 string Text { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

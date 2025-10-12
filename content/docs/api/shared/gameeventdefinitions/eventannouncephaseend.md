@@ -6,5 +6,5 @@ title: EventAnnouncePhaseEnd
 public interface EventAnnouncePhaseEnd : IGameEvent<EventAnnouncePhaseEnd>
 ```
 
-#### Implements
+- Implements
 

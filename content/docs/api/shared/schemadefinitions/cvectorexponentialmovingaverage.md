@@ -6,5 +6,5 @@ title: CVectorExponentialMovingAverage
 public interface CVectorExponentialMovingAverage : ISchemaClass<CVectorExponentialMovingAverage>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

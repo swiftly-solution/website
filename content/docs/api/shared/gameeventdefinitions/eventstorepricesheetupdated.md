@@ -6,5 +6,5 @@ title: EventStorePricesheetUpdated
 public interface EventStorePricesheetUpdated : IGameEvent<EventStorePricesheetUpdated>
 ```
 
-#### Implements
+- Implements
 

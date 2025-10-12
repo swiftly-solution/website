@@ -6,5 +6,5 @@ title: CMsgServerAvailable
 public interface CMsgServerAvailable : ITypedProtobuf<CMsgServerAvailable>, INativeHandle
 ```
 
-#### Implements
+- Implements
 

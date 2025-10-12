@@ -6,19 +6,17 @@ title: EventPlayerHintmessage
 public interface EventPlayerHintmessage : IGameEvent<EventPlayerHintmessage>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### HintMessage
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHintmessage.cs#L23)
+### **HintMessage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerHintmessage.cs#L23)
 
 ```csharp
 string HintMessage { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

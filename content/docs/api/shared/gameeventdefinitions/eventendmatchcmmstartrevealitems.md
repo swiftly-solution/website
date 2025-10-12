@@ -6,5 +6,5 @@ title: EventEndmatchCmmStartRevealItems
 public interface EventEndmatchCmmStartRevealItems : IGameEvent<EventEndmatchCmmStartRevealItems>
 ```
 
-#### Implements
+- Implements
 

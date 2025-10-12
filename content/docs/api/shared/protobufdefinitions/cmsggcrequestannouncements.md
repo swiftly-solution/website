@@ -6,5 +6,5 @@ title: CMsgGCRequestAnnouncements
 public interface CMsgGCRequestAnnouncements : ITypedProtobuf<CMsgGCRequestAnnouncements>, INativeHandle
 ```
 
-#### Implements
+- Implements
 

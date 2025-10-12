@@ -6,5 +6,5 @@ title: EventRoundStartPreEntity
 public interface EventRoundStartPreEntity : IGameEvent<EventRoundStartPreEntity>
 ```
 
-#### Implements
+- Implements
 

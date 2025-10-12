@@ -6,5 +6,5 @@ title: EventHelicopterGrenadePuntMiss
 public interface EventHelicopterGrenadePuntMiss : IGameEvent<EventHelicopterGrenadePuntMiss>
 ```
 
-#### Implements
+- Implements
 

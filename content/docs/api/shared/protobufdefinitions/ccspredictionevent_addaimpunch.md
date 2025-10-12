@@ -6,43 +6,37 @@ title: CCSPredictionEvent_AddAimPunch
 public interface CCSPredictionEvent_AddAimPunch : ITypedProtobuf<CCSPredictionEvent_AddAimPunch>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### PunchAngle
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSPredictionEvent_AddAimPunch.cs#L13)
+### **PunchAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSPredictionEvent_AddAimPunch.cs#L13)
 
 ```csharp
 QAngle PunchAngle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-### WhenTick
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSPredictionEvent_AddAimPunch.cs#L16)
+### **WhenTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSPredictionEvent_AddAimPunch.cs#L16)
 
 ```csharp
 uint WhenTick { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### WhenTickFrac
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSPredictionEvent_AddAimPunch.cs#L19)
+### **WhenTickFrac** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSPredictionEvent_AddAimPunch.cs#L19)
 
 ```csharp
 float WhenTickFrac { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

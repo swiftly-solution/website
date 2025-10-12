@@ -6,5 +6,5 @@ title: EventRoundAnnounceLastRoundHalf
 public interface EventRoundAnnounceLastRoundHalf : IGameEvent<EventRoundAnnounceLastRoundHalf>
 ```
 
-#### Implements
+- Implements
 

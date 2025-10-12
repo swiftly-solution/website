@@ -6,5 +6,5 @@ title: EventRoundAnnounceMatchPoint
 public interface EventRoundAnnounceMatchPoint : IGameEvent<EventRoundAnnounceMatchPoint>
 ```
 
-#### Implements
+- Implements
 

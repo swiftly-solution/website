@@ -6,43 +6,37 @@ title: PulseRegisterMap_t
 public interface PulseRegisterMap_t : ISchemaClass<PulseRegisterMap_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Inparams
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L17)
+### **Inparams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L17)
 
 ```csharp
 SchemaUntypedField Inparams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-### InparamsWhichCanBeMoved
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L20)
+### **InparamsWhichCanBeMoved** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L20)
 
 ```csharp
 SchemaUntypedField InparamsWhichCanBeMoved { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-### Outparams
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L23)
+### **Outparams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseRegisterMap_t.cs#L23)
 
 ```csharp
 SchemaUntypedField Outparams { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

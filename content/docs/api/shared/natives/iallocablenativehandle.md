@@ -6,5 +6,5 @@ title: IAllocableNativeHandle
 public interface IAllocableNativeHandle : INativeHandle, IDisposable
 ```
 
-#### Implements
+- Implements
 

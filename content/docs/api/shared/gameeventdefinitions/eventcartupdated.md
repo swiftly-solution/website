@@ -6,5 +6,5 @@ title: EventCartUpdated
 public interface EventCartUpdated : IGameEvent<EventCartUpdated>
 ```
 
-#### Implements
+- Implements
 

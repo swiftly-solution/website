@@ -6,5 +6,5 @@ title: CProductInfo_SetRichPresenceLocalization_Response
 public interface CProductInfo_SetRichPresenceLocalization_Response : ITypedProtobuf<CProductInfo_SetRichPresenceLocalization_Response>, INativeHandle
 ```
 
-#### Implements
+- Implements
 

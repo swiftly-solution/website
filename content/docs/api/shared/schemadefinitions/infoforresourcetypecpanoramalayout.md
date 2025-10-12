@@ -6,5 +6,5 @@ title: InfoForResourceTypeCPanoramaLayout
 public interface InfoForResourceTypeCPanoramaLayout : ISchemaClass<InfoForResourceTypeCPanoramaLayout>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

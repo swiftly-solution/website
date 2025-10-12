@@ -6,5 +6,5 @@ title: InfoForResourceTypeVMapResourceData_t
 public interface InfoForResourceTypeVMapResourceData_t : ISchemaClass<InfoForResourceTypeVMapResourceData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

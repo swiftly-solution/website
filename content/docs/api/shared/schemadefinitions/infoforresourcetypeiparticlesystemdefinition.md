@@ -6,5 +6,5 @@ title: InfoForResourceTypeIParticleSystemDefinition
 public interface InfoForResourceTypeIParticleSystemDefinition : ISchemaClass<InfoForResourceTypeIParticleSystemDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

@@ -6,19 +6,17 @@ title: VMixEQ8Desc_t
 public interface VMixEQ8Desc_t : ISchemaClass<VMixEQ8Desc_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Stages
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixEQ8Desc_t.cs#L17)
+### **Stages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VMixEQ8Desc_t.cs#L17)
 
 ```csharp
 SchemaUntypedField Stages { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

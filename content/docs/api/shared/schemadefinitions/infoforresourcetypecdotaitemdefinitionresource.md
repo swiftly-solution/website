@@ -6,5 +6,5 @@ title: InfoForResourceTypeCDotaItemDefinitionResource
 public interface InfoForResourceTypeCDotaItemDefinitionResource : ISchemaClass<InfoForResourceTypeCDotaItemDefinitionResource>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

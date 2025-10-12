@@ -6,5 +6,5 @@ title: InfoForResourceTypeCVSoundStackScriptList
 public interface InfoForResourceTypeCVSoundStackScriptList : ISchemaClass<InfoForResourceTypeCVSoundStackScriptList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

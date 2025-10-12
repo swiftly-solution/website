@@ -6,5 +6,5 @@ title: CPulseCell_BaseFlow
 public interface CPulseCell_BaseFlow : CPulseCell_Base, ISchemaClass<CPulseCell_Base>, ISchemaClass<CPulseCell_BaseFlow>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

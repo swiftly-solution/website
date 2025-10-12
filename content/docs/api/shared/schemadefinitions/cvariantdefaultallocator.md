@@ -6,5 +6,5 @@ title: CVariantDefaultAllocator
 public interface CVariantDefaultAllocator : ISchemaClass<CVariantDefaultAllocator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

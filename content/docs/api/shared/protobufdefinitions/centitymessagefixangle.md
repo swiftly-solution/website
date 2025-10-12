@@ -6,43 +6,37 @@ title: CEntityMessageFixAngle
 public interface CEntityMessageFixAngle : ITypedProtobuf<CEntityMessageFixAngle>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Angle
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageFixAngle.cs#L16)
+### **Angle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageFixAngle.cs#L16)
 
 ```csharp
 QAngle Angle { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-### EntityMsg
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageFixAngle.cs#L19)
+### **EntityMsg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageFixAngle.cs#L19)
 
 ```csharp
 CEntityMsg EntityMsg { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityMsg](/docs/api/shared/protobufdefinitions/centitymsg)
 
-### Relative
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageFixAngle.cs#L13)
+### **Relative** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEntityMessageFixAngle.cs#L13)
 
 ```csharp
 bool Relative { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

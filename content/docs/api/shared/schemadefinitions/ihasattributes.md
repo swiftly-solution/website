@@ -6,5 +6,5 @@ title: IHasAttributes
 public interface IHasAttributes : ISchemaClass<IHasAttributes>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

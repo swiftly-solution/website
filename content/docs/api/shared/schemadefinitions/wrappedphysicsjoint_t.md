@@ -6,5 +6,5 @@ title: WrappedPhysicsJoint_t
 public interface WrappedPhysicsJoint_t : ISchemaClass<WrappedPhysicsJoint_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

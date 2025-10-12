@@ -8,45 +8,39 @@ public interface IUnmanagedMemory
 
 ## Properties
 
-### Address
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L42)
+### **Address** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L42)
 
 ```csharp
 nint Address { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
 ## Methods
 
-### AddHook(MidHookDelegate)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L49)
+### **AddHook(MidHookDelegate)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L49)
 
 ```csharp
 Guid AddHook(MidHookDelegate callback)
 ```
 
-#### Parameters
+- Parameters
 
 - **callback**: [MidHookDelegate](/docs/api/shared/memory/midhookdelegate) - The callback to call when the code reaches that address.
 
-#### Returns
+- Returns
 
 - [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
 
-### RemoveHook(Guid)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L55)
+### **RemoveHook(Guid)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IUnmanagedMemory.cs#L55)
 
 ```csharp
 void RemoveHook(Guid id)
 ```
 
-#### Parameters
+- Parameters
 
 - **id**: [Guid](https://learn.microsoft.com/dotnet/api/system.guid) - The id of the hook to unhook.
 

@@ -6,31 +6,27 @@ title: CRenderBufferBinding
 public interface CRenderBufferBinding : ISchemaClass<CRenderBufferBinding>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### BindOffsetBytes
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderBufferBinding.cs#L18)
+### **BindOffsetBytes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderBufferBinding.cs#L18)
 
 ```csharp
 ref uint BindOffsetBytes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### Buffer
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderBufferBinding.cs#L16)
+### **Buffer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRenderBufferBinding.cs#L16)
 
 ```csharp
 ref ulong Buffer { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

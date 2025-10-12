@@ -6,5 +6,5 @@ title: CStringAnimTag
 public interface CStringAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CStringAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

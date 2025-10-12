@@ -6,19 +6,17 @@ title: CPulseCell_Outflow_CycleOrdered__InstanceState_t
 public interface CPulseCell_Outflow_CycleOrdered__InstanceState_t : ISchemaClass<CPulseCell_Outflow_CycleOrdered__InstanceState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### NextIndex
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleOrdered__InstanceState_t.cs#L16)
+### **NextIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Outflow_CycleOrdered__InstanceState_t.cs#L16)
 
 ```csharp
 ref int NextIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

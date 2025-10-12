@@ -6,5 +6,5 @@ title: EventCsIntermission
 public interface EventCsIntermission : IGameEvent<EventCsIntermission>
 ```
 
-#### Implements
+- Implements
 

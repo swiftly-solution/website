@@ -6,55 +6,47 @@ title: C_OP_RenderVRHapticEvent
 public interface C_OP_RenderVRHapticEvent : CParticleFunctionRenderer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionRenderer>, ISchemaClass<C_OP_RenderVRHapticEvent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Amplitude
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L22)
+### **Amplitude** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L22)
 
 ```csharp
 CPerParticleFloatInput Amplitude { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-### Hand
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L16)
+### **Hand** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L16)
 
 ```csharp
 ref ParticleVRHandChoiceList_t Hand { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ParticleVRHandChoiceList_t](/docs/api/shared/schemadefinitions/particlevrhandchoicelist_t)
 
-### OutputField
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L20)
+### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L20)
 
 ```csharp
 ref int OutputField { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### OutputHandCP
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L18)
+### **OutputHandCP** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_RenderVRHapticEvent.cs#L18)
 
 ```csharp
 ref int OutputHandCP { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

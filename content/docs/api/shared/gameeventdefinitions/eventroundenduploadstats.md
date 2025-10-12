@@ -6,5 +6,5 @@ title: EventRoundEndUploadStats
 public interface EventRoundEndUploadStats : IGameEvent<EventRoundEndUploadStats>
 ```
 
-#### Implements
+- Implements
 

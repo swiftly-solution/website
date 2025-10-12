@@ -6,19 +6,17 @@ title: CItemGenericTriggerHelper
 public interface CItemGenericTriggerHelper : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CItemGenericTriggerHelper>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### ParentItem
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGenericTriggerHelper.cs#L16)
+### **ParentItem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CItemGenericTriggerHelper.cs#L16)
 
 ```csharp
 ref CHandle<CItemGeneric> ParentItem { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CItemGeneric](/docs/api/shared/schemadefinitions/citemgeneric)>
 

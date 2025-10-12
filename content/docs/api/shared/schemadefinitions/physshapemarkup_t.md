@@ -6,43 +6,37 @@ title: PhysShapeMarkup_t
 public interface PhysShapeMarkup_t : ISchemaClass<PhysShapeMarkup_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### BodyInAggregate
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysShapeMarkup_t.cs#L16)
+### **BodyInAggregate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysShapeMarkup_t.cs#L16)
 
 ```csharp
 ref int BodyInAggregate { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### HitGroup
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysShapeMarkup_t.cs#L20)
+### **HitGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysShapeMarkup_t.cs#L20)
 
 ```csharp
 ref CGlobalSymbol HitGroup { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-### ShapeInBody
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysShapeMarkup_t.cs#L18)
+### **ShapeInBody** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysShapeMarkup_t.cs#L18)
 
 ```csharp
 ref int ShapeInBody { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,31 +6,27 @@ title: EventPlayerAvengedTeammate
 public interface EventPlayerAvengedTeammate : IGameEvent<EventPlayerAvengedTeammate>
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### AvengedPlayerId
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerAvengedTeammate.cs#L26)
+### **AvengedPlayerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerAvengedTeammate.cs#L26)
 
 ```csharp
 int AvengedPlayerId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### AvengerId
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerAvengedTeammate.cs#L21)
+### **AvengerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerAvengedTeammate.cs#L21)
 
 ```csharp
 int AvengerId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

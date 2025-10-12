@@ -6,31 +6,27 @@ title: CMsgSOCacheSubscribed_SubscribedType
 public interface CMsgSOCacheSubscribed_SubscribedType : ITypedProtobuf<CMsgSOCacheSubscribed_SubscribedType>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### ObjectData
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscribed_SubscribedType.cs#L16)
+### **ObjectData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscribed_SubscribedType.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<byte[]> ObjectData { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)[]>
 
-### TypeId
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscribed_SubscribedType.cs#L13)
+### **TypeId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscribed_SubscribedType.cs#L13)
 
 ```csharp
 int TypeId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

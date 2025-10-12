@@ -6,5 +6,5 @@ title: CEntityComponent
 public interface CEntityComponent : ISchemaClass<CEntityComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

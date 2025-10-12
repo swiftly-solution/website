@@ -6,19 +6,17 @@ title: CMsgGCToGCUpdateSQLKeyValue
 public interface CMsgGCToGCUpdateSQLKeyValue : ITypedProtobuf<CMsgGCToGCUpdateSQLKeyValue>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### KeyName
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCUpdateSQLKeyValue.cs#L13)
+### **KeyName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCToGCUpdateSQLKeyValue.cs#L13)
 
 ```csharp
 string KeyName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

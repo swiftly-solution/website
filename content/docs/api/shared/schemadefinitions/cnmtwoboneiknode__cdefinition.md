@@ -6,79 +6,67 @@ title: CNmTwoBoneIKNode__CDefinition
 public interface CNmTwoBoneIKNode__CDefinition : CNmPassthroughNode__CDefinition, CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmPassthroughNode__CDefinition>, ISchemaClass<CNmTwoBoneIKNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### BlendMode
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L24)
+### **BlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L24)
 
 ```csharp
 ref NmIKBlendMode_t BlendMode { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [NmIKBlendMode_t](/docs/api/shared/schemadefinitions/nmikblendmode_t)
 
-### BlendTimeSeconds
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L22)
+### **BlendTimeSeconds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L22)
 
 ```csharp
 ref float BlendTimeSeconds { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### EffectorBoneID
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L16)
+### **EffectorBoneID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L16)
 
 ```csharp
 ref CGlobalSymbol EffectorBoneID { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-### EffectorTargetNodeIdx
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L18)
+### **EffectorTargetNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L18)
 
 ```csharp
 ref short EffectorTargetNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### EnabledNodeIdx
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L20)
+### **EnabledNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L20)
 
 ```csharp
 ref short EnabledNodeIdx { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### IsTargetInWorldSpace
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L26)
+### **IsTargetInWorldSpace** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTwoBoneIKNode__CDefinition.cs#L26)
 
 ```csharp
 ref bool IsTargetInWorldSpace { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

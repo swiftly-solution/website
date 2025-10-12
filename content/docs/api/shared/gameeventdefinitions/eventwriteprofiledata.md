@@ -6,5 +6,5 @@ title: EventWriteProfileData
 public interface EventWriteProfileData : IGameEvent<EventWriteProfileData>
 ```
 
-#### Implements
+- Implements
 

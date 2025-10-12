@@ -6,31 +6,27 @@ title: CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule
 public interface CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule : ITypedProtobuf<CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### RuleDescription
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule.cs#L16)
+### **RuleDescription** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule.cs#L16)
 
 ```csharp
 string RuleDescription { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### WorkshopFileId
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule.cs#L13)
+### **WorkshopFileId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_SetItemPaymentRules_Request_WorkshopDirectPaymentRule.cs#L13)
 
 ```csharp
 ulong WorkshopFileId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

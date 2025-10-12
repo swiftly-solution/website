@@ -6,31 +6,27 @@ title: CNmFloatRemapNode__RemapRange_t
 public interface CNmFloatRemapNode__RemapRange_t : ISchemaClass<CNmFloatRemapNode__RemapRange_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Begin
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__RemapRange_t.cs#L16)
+### **Begin** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__RemapRange_t.cs#L16)
 
 ```csharp
 ref float Begin { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### End
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__RemapRange_t.cs#L18)
+### **End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatRemapNode__RemapRange_t.cs#L18)
 
 ```csharp
 ref float End { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

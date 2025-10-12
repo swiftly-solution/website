@@ -6,31 +6,27 @@ title: CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext
 public interface CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### EntIndex
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext.cs#L16)
+### **EntIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext.cs#L16)
 
 ```csharp
 uint EntIndex { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### ValueNameHash
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext.cs#L13)
+### **ValueNameHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleNamedValueContext_EHandleContext.cs#L13)
 
 ```csharp
 uint ValueNameHash { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

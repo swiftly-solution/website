@@ -6,5 +6,5 @@ title: CMsgGCToGCWebAPIAccountChanged
 public interface CMsgGCToGCWebAPIAccountChanged : ITypedProtobuf<CMsgGCToGCWebAPIAccountChanged>, INativeHandle
 ```
 
-#### Implements
+- Implements
 

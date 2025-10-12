@@ -6,43 +6,37 @@ title: CClientMsg_CustomGameEventBounce
 public interface CClientMsg_CustomGameEventBounce : ITypedProtobuf<CClientMsg_CustomGameEventBounce>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Data
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L16)
+### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L16)
 
 ```csharp
 byte[] Data { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-### EventName
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L13)
+### **EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L13)
 
 ```csharp
 string EventName { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PlayerSlot
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L19)
+### **PlayerSlot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CClientMsg_CustomGameEventBounce.cs#L19)
 
 ```csharp
 int PlayerSlot { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

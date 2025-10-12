@@ -6,5 +6,5 @@ title: EventUpdateMatchmakingStats
 public interface EventUpdateMatchmakingStats : IGameEvent<EventUpdateMatchmakingStats>
 ```
 
-#### Implements
+- Implements
 

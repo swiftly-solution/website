@@ -6,47 +6,39 @@ title: WeaponPurchaseCount_t
 public interface WeaponPurchaseCount_t : ISchemaClass<WeaponPurchaseCount_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Count
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L18)
+### **Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L18)
 
 ```csharp
 ref ushort Count { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-### ItemDefIndex
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L16)
+### **ItemDefIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L16)
 
 ```csharp
 ref ushort ItemDefIndex { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
 ## Methods
 
-### CountUpdated()
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L21)
+### **CountUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L21)
 
 ```csharp
 void CountUpdated()
 ```
 
-### ItemDefIndexUpdated()
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L20)
+### **ItemDefIndexUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WeaponPurchaseCount_t.cs#L20)
 
 ```csharp
 void ItemDefIndexUpdated()

@@ -6,5 +6,5 @@ title: InfoForResourceTypeCCSGOEconItem
 public interface InfoForResourceTypeCCSGOEconItem : ISchemaClass<InfoForResourceTypeCCSGOEconItem>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

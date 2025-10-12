@@ -6,31 +6,27 @@ title: CP2P_Ping
 public interface CP2P_Ping : ITypedProtobuf<CP2P_Ping>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### IsReply
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_Ping.cs#L16)
+### **IsReply** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_Ping.cs#L16)
 
 ```csharp
 bool IsReply { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SendTime
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_Ping.cs#L13)
+### **SendTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CP2P_Ping.cs#L13)
 
 ```csharp
 ulong SendTime { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

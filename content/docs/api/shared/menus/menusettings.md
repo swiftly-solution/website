@@ -6,151 +6,127 @@ title: MenuSettings
 public struct MenuSettings
 ```
 
-#### Inherited Members
+- Inherited Members
 
 ## Fields
 
-### ButtonsExit
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L12)
+### **ButtonsExit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L12)
 
 ```csharp
 public string ButtonsExit
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ButtonsScroll
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L11)
+### **ButtonsScroll** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L11)
 
 ```csharp
 public string ButtonsScroll
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ButtonsUse
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L10)
+### **ButtonsUse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L10)
 
 ```csharp
 public string ButtonsUse
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InputMode
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L9)
+### **InputMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L9)
 
 ```csharp
 public string InputMode
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ItemsPerPage
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L19)
+### **ItemsPerPage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L19)
 
 ```csharp
 public int ItemsPerPage
 ```
 
-#### Field Value
+- Field Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NavigationPrefix
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L8)
+### **NavigationPrefix** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L8)
 
 ```csharp
 public string NavigationPrefix
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SoundExitName
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L17)
+### **SoundExitName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L17)
 
 ```csharp
 public string SoundExitName
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SoundExitVolume
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L18)
+### **SoundExitVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L18)
 
 ```csharp
 public float SoundExitVolume
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### SoundScrollName
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L15)
+### **SoundScrollName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L15)
 
 ```csharp
 public string SoundScrollName
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SoundScrollVolume
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L16)
+### **SoundScrollVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L16)
 
 ```csharp
 public float SoundScrollVolume
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### SoundUseName
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L13)
+### **SoundUseName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L13)
 
 ```csharp
 public string SoundUseName
 ```
 
-#### Field Value
+- Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SoundUseVolume
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L14)
+### **SoundUseVolume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L14)
 
 ```csharp
 public float SoundUseVolume
 ```
 
-#### Field Value
+- Field Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,19 +6,17 @@ title: CCSUsrMsg_Geiger
 public interface CCSUsrMsg_Geiger : ITypedProtobuf<CCSUsrMsg_Geiger>, INativeHandle, INetMessage<CCSUsrMsg_Geiger>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Range
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Geiger.cs#L18)
+### **Range** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_Geiger.cs#L18)
 
 ```csharp
 int Range { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

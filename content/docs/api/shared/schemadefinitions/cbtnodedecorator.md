@@ -6,5 +6,5 @@ title: CBtNodeDecorator
 public interface CBtNodeDecorator : CBtNode, ISchemaClass<CBtNode>, ISchemaClass<CBtNodeDecorator>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

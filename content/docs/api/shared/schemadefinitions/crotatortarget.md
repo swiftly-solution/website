@@ -6,31 +6,27 @@ title: CRotatorTarget
 public interface CRotatorTarget : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CRotatorTarget>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### OnArrivedAt
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRotatorTarget.cs#L16)
+### **OnArrivedAt** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRotatorTarget.cs#L16)
 
 ```csharp
 CEntityIOOutput OnArrivedAt { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-### Space
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRotatorTarget.cs#L18)
+### **Space** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRotatorTarget.cs#L18)
 
 ```csharp
 ref RotatorTargetSpace_t Space { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [RotatorTargetSpace_t](/docs/api/shared/schemadefinitions/rotatortargetspace_t)
 

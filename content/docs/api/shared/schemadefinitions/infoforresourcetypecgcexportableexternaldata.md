@@ -6,5 +6,5 @@ title: InfoForResourceTypeCGcExportableExternalData
 public interface InfoForResourceTypeCGcExportableExternalData : ISchemaClass<InfoForResourceTypeCGcExportableExternalData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

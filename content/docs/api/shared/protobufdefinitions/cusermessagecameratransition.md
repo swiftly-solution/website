@@ -6,43 +6,37 @@ title: CUserMessageCameraTransition
 public interface CUserMessageCameraTransition : ITypedProtobuf<CUserMessageCameraTransition>, INativeHandle, INetMessage<CUserMessageCameraTransition>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### CameraType
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L18)
+### **CameraType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L18)
 
 ```csharp
 uint CameraType { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### Duration
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L21)
+### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L21)
 
 ```csharp
 float Duration { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### ParamsDataDriven
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L24)
+### **ParamsDataDriven** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageCameraTransition.cs#L24)
 
 ```csharp
 CUserMessageCameraTransition_Transition_DataDriven ParamsDataDriven { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUserMessageCameraTransition_Transition_DataDriven](/docs/api/shared/protobufdefinitions/cusermessagecameratransition_transition_datadriven)
 

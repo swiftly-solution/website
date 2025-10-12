@@ -6,43 +6,37 @@ title: CMsgModifyItemAttribute
 public interface CMsgModifyItemAttribute : ITypedProtobuf<CMsgModifyItemAttribute>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### AttrDefidx
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgModifyItemAttribute.cs#L16)
+### **AttrDefidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgModifyItemAttribute.cs#L16)
 
 ```csharp
 uint AttrDefidx { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### AttrValue
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgModifyItemAttribute.cs#L19)
+### **AttrValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgModifyItemAttribute.cs#L19)
 
 ```csharp
 uint AttrValue { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### ItemId
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgModifyItemAttribute.cs#L13)
+### **ItemId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgModifyItemAttribute.cs#L13)
 
 ```csharp
 ulong ItemId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

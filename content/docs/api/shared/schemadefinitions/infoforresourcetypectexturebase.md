@@ -6,5 +6,5 @@ title: InfoForResourceTypeCTextureBase
 public interface InfoForResourceTypeCTextureBase : ISchemaClass<InfoForResourceTypeCTextureBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 

@@ -6,60 +6,54 @@ title: MurmurHash2
 public static class MurmurHash2
 ```
 
-#### Inheritance
+- Inheritance
 
-#### Inherited Members
+- Inherited Members
 
 ## Methods
 
-### Hash(byte[], uint)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Misc/MurmurHash2.cs#L10)
+### **Hash(byte[], uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Misc/MurmurHash2.cs#L10)
 
 ```csharp
 public static uint Hash(byte[] data, uint seed = 826366246)
 ```
 
-#### Parameters
+- Parameters
 
 - **data**: [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 - **seed**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-#### Returns
+- Returns
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### HashString(string, uint)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Misc/MurmurHash2.cs#L58)
+### **HashString(string, uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Misc/MurmurHash2.cs#L58)
 
 ```csharp
 public static uint HashString(string text, uint seed = 826366246)
 ```
 
-#### Parameters
+- Parameters
 
 - **text**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **seed**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-#### Returns
+- Returns
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### HashStringLowercase(string, uint)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Shared/Misc/MurmurHash2.cs#L66)
+### **HashStringLowercase(string, uint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Misc/MurmurHash2.cs#L66)
 
 ```csharp
 public static uint HashStringLowercase(string text, uint seed = 826366246)
 ```
 
-#### Parameters
+- Parameters
 
 - **text**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 - **seed**: [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-#### Returns
+- Returns
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

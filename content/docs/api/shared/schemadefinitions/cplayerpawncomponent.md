@@ -6,31 +6,27 @@ title: CPlayerPawnComponent
 public interface CPlayerPawnComponent : ISchemaClass<CPlayerPawnComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Pawn
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayerPawnComponent.cs#L8)
+### **Pawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayerPawnComponent.cs#L8)
 
 ```csharp
 CBasePlayerPawn Pawn { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CBasePlayerPawn](/docs/api/shared/schemadefinitions/cbaseplayerpawn)
 
-### __m_pChainEntity
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPawnComponent.cs#L16)
+### **__m_pChainEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerPawnComponent.cs#L16)
 
 ```csharp
 ref CNetworkVarChainer __m_pChainEntity { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CNetworkVarChainer](/docs/api/shared/natives/cnetworkvarchainer)
 

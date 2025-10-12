@@ -6,19 +6,17 @@ title: CMultiplayer_Expresser
 public interface CMultiplayer_Expresser : CAI_ExpresserWithFollowup, CAI_Expresser, ISchemaClass<CAI_Expresser>, ISchemaClass<CAI_ExpresserWithFollowup>, ISchemaClass<CMultiplayer_Expresser>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### AllowMultipleScenes
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiplayer_Expresser.cs#L16)
+### **AllowMultipleScenes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMultiplayer_Expresser.cs#L16)
 
 ```csharp
 ref bool AllowMultipleScenes { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

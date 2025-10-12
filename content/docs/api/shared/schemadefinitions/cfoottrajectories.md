@@ -6,19 +6,17 @@ title: CFootTrajectories
 public interface CFootTrajectories : ISchemaClass<CFootTrajectories>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Trajectories
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootTrajectories.cs#L17)
+### **Trajectories** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFootTrajectories.cs#L17)
 
 ```csharp
 ref CUtlVector Trajectories { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CUtlVector](/docs/api/)
 

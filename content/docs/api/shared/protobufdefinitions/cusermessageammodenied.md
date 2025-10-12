@@ -6,19 +6,17 @@ title: CUserMessageAmmoDenied
 public interface CUserMessageAmmoDenied : ITypedProtobuf<CUserMessageAmmoDenied>, INativeHandle, INetMessage<CUserMessageAmmoDenied>, IDisposable
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### AmmoId
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAmmoDenied.cs#L18)
+### **AmmoId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageAmmoDenied.cs#L18)
 
 ```csharp
 uint AmmoId { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

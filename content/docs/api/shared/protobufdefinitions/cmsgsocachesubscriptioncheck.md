@@ -6,31 +6,27 @@ title: CMsgSOCacheSubscriptionCheck
 public interface CMsgSOCacheSubscriptionCheck : ITypedProtobuf<CMsgSOCacheSubscriptionCheck>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### OwnerSoid
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscriptionCheck.cs#L16)
+### **OwnerSoid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscriptionCheck.cs#L16)
 
 ```csharp
 CMsgSOIDOwner OwnerSoid { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [CMsgSOIDOwner](/docs/api/shared/protobufdefinitions/cmsgsoidowner)
 
-### Version
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscriptionCheck.cs#L13)
+### **Version** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgSOCacheSubscriptionCheck.cs#L13)
 
 ```csharp
 ulong Version { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 

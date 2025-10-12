@@ -6,31 +6,27 @@ title: CWorkshop_PopulateItemDescriptions_Request
 public interface CWorkshop_PopulateItemDescriptions_Request : ITypedProtobuf<CWorkshop_PopulateItemDescriptions_Request>, INativeHandle
 ```
 
-#### Implements
+- Implements
 
 ## Properties
 
-### Appid
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request.cs#L13)
+### **Appid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request.cs#L13)
 
 ```csharp
 uint Appid { get; set; }
 ```
 
-#### Property Value
+- Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### Languages
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/beta/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request.cs#L16)
+### **Languages** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CWorkshop_PopulateItemDescriptions_Request.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock> Languages { get; }
 ```
 
-#### Property Value
+- Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock](/docs/api/shared/protobufdefinitions/cworkshop_populateitemdescriptions_request_itemdescriptionslanguageblock)>
 
