@@ -6,57 +6,67 @@ title: CTriggerBrush
 public interface CTriggerBrush : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CTriggerBrush>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **DontMessageParent** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L24)
+### DontMessageParent
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L25)
 
 ```csharp
 ref int DontMessageParent { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **InputFilter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L22)
+### InputFilter
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L23)
 
 ```csharp
 ref int InputFilter { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **OnEndTouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L18)
+### OnEndTouch
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L19)
 
 ```csharp
 CEntityIOOutput OnEndTouch { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-### **OnStartTouch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L16)
+### OnStartTouch
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L17)
 
 ```csharp
 CEntityIOOutput OnStartTouch { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-### **OnUse** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L20)
+### OnUse
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerBrush.cs#L21)
 
 ```csharp
 CEntityIOOutput OnUse { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 

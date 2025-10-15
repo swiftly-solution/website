@@ -6,17 +6,19 @@ title: CUserMsg_ParticleManager_SetParticleShouldCheckFoW
 public interface CUserMsg_ParticleManager_SetParticleShouldCheckFoW : ITypedProtobuf<CUserMsg_ParticleManager_SetParticleShouldCheckFoW>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **CheckFow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleShouldCheckFoW.cs#L13)
+### CheckFow
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_SetParticleShouldCheckFoW.cs#L13)
 
 ```csharp
 bool CheckFow { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

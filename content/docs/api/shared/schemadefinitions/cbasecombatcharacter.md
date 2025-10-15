@@ -6,123 +6,135 @@ title: CBaseCombatCharacter
 public interface CBaseCombatCharacter : CBaseFlex, CBaseAnimGraph, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseAnimGraph>, ISchemaClass<CBaseFlex>, ISchemaClass<CBaseCombatCharacter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ApplyStressDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L24)
+### ApplyStressDamage
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L23)
 
 ```csharp
 ref bool ApplyStressDamage { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **DeathEventsDispatched** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L26)
+### DeathEventsDispatched
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L25)
 
 ```csharp
 ref bool DeathEventsDispatched { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **ForceServerRagdoll** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L16)
+### ForceServerRagdoll
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L17)
 
 ```csharp
 ref bool ForceServerRagdoll { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Hull** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L33)
+### Hull
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L31)
 
 ```csharp
 ref Hull_t Hull { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Hull_t](/docs/api/shared/schemadefinitions/hull_t)
 
-### **ImpactEnergyScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L20)
+### ImpactEnergyScale
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L21)
 
 ```csharp
 ref float ImpactEnergyScale { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **MinVehicleDamageToTempRagdoll** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L22)
+### MovementStats
 
-```csharp
-ref int MinVehicleDamageToTempRagdoll { get; }
-```
-
-- Property Value
-
-- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### **MovementStats** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L35)
 
 ```csharp
 CMovementStatsProperty MovementStats { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CMovementStatsProperty](/docs/api/shared/schemadefinitions/cmovementstatsproperty)
 
-### **MyWearables** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L18)
+### MyWearables
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L19)
 
 ```csharp
 ref CUtlVector<CHandle<CEconWearable>> MyWearables { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[CHandle](/docs/api/shared/natives/chandle-1)<[CEconWearable](/docs/api/shared/schemadefinitions/ceconwearable)>>
 
-### **NavHullIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L35)
+### NavHullIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L33)
 
 ```csharp
 ref uint NavHullIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### **StrRelationships** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L31)
+### StrRelationships
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L29)
 
 ```csharp
 string StrRelationships { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **VecRelationships** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L29)
+### VecRelationships
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L27)
 
 ```csharp
-ref CUtlVector VecRelationships { get; }
+ref CUtlVector<RelationshipOverride_t> VecRelationships { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[RelationshipOverride_t](/docs/api/shared/schemadefinitions/relationshipoverride_t)>
 
 ## Methods
 
-### **MyWearablesUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L39)
+### MyWearablesUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseCombatCharacter.cs#L37)
 
 ```csharp
 void MyWearablesUpdated()

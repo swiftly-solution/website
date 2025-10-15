@@ -6,67 +6,79 @@ title: C_OP_InterpolateRadius
 public interface C_OP_InterpolateRadius : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_InterpolateRadius>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Bias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L26)
+### Bias
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L27)
 
 ```csharp
 ref float Bias { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **EaseInAndOut** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L24)
+### EaseInAndOut
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L25)
 
 ```csharp
 ref bool EaseInAndOut { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **EndScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L22)
+### EndScale
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L23)
 
 ```csharp
 ref float EndScale { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L18)
+### EndTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L19)
 
 ```csharp
 ref float EndTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **StartScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L20)
+### StartScale
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L21)
 
 ```csharp
 ref float StartScale { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L16)
+### StartTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_InterpolateRadius.cs#L17)
 
 ```csharp
 ref float StartTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

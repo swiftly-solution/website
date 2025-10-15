@@ -6,77 +6,91 @@ title: CSeqAutoLayer
 public interface CSeqAutoLayer : ISchemaClass<CSeqAutoLayer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L28)
+### End
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L29)
 
 ```csharp
 ref float End { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L20)
+### Flags
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L21)
 
 ```csharp
 CSeqAutoLayerFlag Flags { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CSeqAutoLayerFlag](/docs/api/shared/schemadefinitions/cseqautolayerflag)
 
-### **LocalPose** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L18)
+### LocalPose
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L19)
 
 ```csharp
 ref short LocalPose { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **LocalReference** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L16)
+### LocalReference
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L17)
 
 ```csharp
 ref short LocalReference { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **Peak** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L24)
+### Peak
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L25)
 
 ```csharp
 ref float Peak { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L22)
+### Start
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L23)
 
 ```csharp
 ref float Start { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Tail** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L26)
+### Tail
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSeqAutoLayer.cs#L27)
 
 ```csharp
 ref float Tail { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

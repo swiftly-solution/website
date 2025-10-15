@@ -6,17 +6,19 @@ title: MaterialParamString_t
 public interface MaterialParamString_t : MaterialParam_t, ISchemaClass<MaterialParam_t>, ISchemaClass<MaterialParamString_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialParamString_t.cs#L16)
+### Value
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialParamString_t.cs#L17)
 
 ```csharp
 string Value { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

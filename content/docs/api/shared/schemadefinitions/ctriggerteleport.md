@@ -6,47 +6,55 @@ title: CTriggerTeleport
 public interface CTriggerTeleport : CBaseTrigger, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBaseTrigger>, ISchemaClass<CTriggerTeleport>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **CheckDestIfClearForPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L22)
+### CheckDestIfClearForPlayer
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L23)
 
 ```csharp
 ref bool CheckDestIfClearForPlayer { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Landmark** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L16)
+### Landmark
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L17)
 
 ```csharp
 string Landmark { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **MirrorPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L20)
+### MirrorPlayer
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L21)
 
 ```csharp
 ref bool MirrorPlayer { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **UseLandmarkAngles** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L18)
+### UseLandmarkAngles
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CTriggerTeleport.cs#L19)
 
 ```csharp
 ref bool UseLandmarkAngles { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

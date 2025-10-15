@@ -6,17 +6,19 @@ title: CUserMessageItemPickup
 public interface CUserMessageItemPickup : ITypedProtobuf<CUserMessageItemPickup>, INativeHandle, INetMessage<CUserMessageItemPickup>, IDisposable
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Itemname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageItemPickup.cs#L18)
+### Itemname
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageItemPickup.cs#L18)
 
 ```csharp
 string Itemname { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

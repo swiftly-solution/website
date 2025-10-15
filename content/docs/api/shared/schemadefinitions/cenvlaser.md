@@ -6,57 +6,67 @@ title: CEnvLaser
 public interface CEnvLaser : CBeam, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBeam>, ISchemaClass<CEnvLaser>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **FirePosition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L22)
+### FirePosition
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L23)
 
 ```csharp
 ref Vector FirePosition { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **LaserTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L16)
+### LaserTarget
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L17)
 
 ```csharp
 string LaserTarget { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **Sprite** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L18)
+### Sprite
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L19)
 
 ```csharp
 CSprite? Sprite { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CSprite](/docs/api/shared/schemadefinitions/csprite)?
 
-### **SpriteName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L20)
+### SpriteName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L21)
 
 ```csharp
 string SpriteName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **StartFrame** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L24)
+### StartFrame
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CEnvLaser.cs#L25)
 
 ```csharp
 ref float StartFrame { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

@@ -6,37 +6,43 @@ title: CLogicAutosave
 public interface CLogicAutosave : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CLogicAutosave>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ForceNewLevelUnit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAutosave.cs#L16)
+### ForceNewLevelUnit
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAutosave.cs#L17)
 
 ```csharp
 ref bool ForceNewLevelUnit { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **MinHitPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAutosave.cs#L18)
+### MinHitPoints
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAutosave.cs#L19)
 
 ```csharp
 ref int MinHitPoints { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **MinHitPointsToCommit** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAutosave.cs#L20)
+### MinHitPointsToCommit
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CLogicAutosave.cs#L21)
 
 ```csharp
 ref int MinHitPointsToCommit { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

@@ -6,5 +6,5 @@ title: CPointTeleportAPI
 public interface CPointTeleportAPI : ISchemaClass<CPointTeleportAPI>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

@@ -6,47 +6,55 @@ title: CSoundEnvelope
 public interface CSoundEnvelope : ISchemaClass<CSoundEnvelope>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Current** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L16)
+### Current
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L17)
 
 ```csharp
 ref float Current { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Forceupdate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L22)
+### Forceupdate
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L23)
 
 ```csharp
 ref bool Forceupdate { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Rate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L20)
+### Rate
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L21)
 
 ```csharp
 ref float Rate { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L18)
+### Target
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundEnvelope.cs#L19)
 
 ```csharp
 ref float Target { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

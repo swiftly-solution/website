@@ -6,37 +6,43 @@ title: PulseObservableBoolExpression_t
 public interface PulseObservableBoolExpression_t : ISchemaClass<PulseObservableBoolExpression_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **DependentObservableBlackboardReferences** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L22)
+### DependentObservableBlackboardReferences
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L21)
 
 ```csharp
-ref CUtlVector DependentObservableBlackboardReferences { get; }
+ref CUtlVector<PulseRuntimeBlackboardReferenceIndex_t> DependentObservableBlackboardReferences { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[PulseRuntimeBlackboardReferenceIndex_t](/docs/api/shared/schemadefinitions/pulseruntimeblackboardreferenceindex_t)>
 
-### **DependentObservableVars** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L19)
+### DependentObservableVars
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L19)
 
 ```csharp
-ref CUtlVector DependentObservableVars { get; }
+ref CUtlVector<PulseRuntimeVarIndex_t> DependentObservableVars { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[PulseRuntimeVarIndex_t](/docs/api/shared/schemadefinitions/pulseruntimevarindex_t)>
 
-### **EvaluateConnection** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L16)
+### EvaluateConnection
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseObservableBoolExpression_t.cs#L17)
 
 ```csharp
 CPulse_OutflowConnection EvaluateConnection { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 

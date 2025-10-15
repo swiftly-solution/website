@@ -6,47 +6,55 @@ title: CNavLinkMovementVData
 public interface CNavLinkMovementVData : ISchemaClass<CNavLinkMovementVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AnimgraphVars** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L24)
+### AnimgraphVars
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L24)
 
 ```csharp
-ref CUtlVector AnimgraphVars { get; }
+ref CUtlVector<CNavLinkAnimgraphVar> AnimgraphVars { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CNavLinkAnimgraphVar](/docs/api/shared/schemadefinitions/cnavlinkanimgraphvar)>
 
-### **IsInterpolated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L19)
+### IsInterpolated
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L20)
 
 ```csharp
 ref bool IsInterpolated { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **RecommendedDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L21)
+### RecommendedDistance
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L22)
 
 ```csharp
 ref uint RecommendedDistance { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### **ToolsOnlyOwnerModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L17)
+### ToolsOnlyOwnerModelName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavLinkMovementVData.cs#L18)
 
 ```csharp
 SchemaUntypedField ToolsOnlyOwnerModelName { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

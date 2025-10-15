@@ -6,17 +6,19 @@ title: CDampedValueComponentUpdater
 public interface CDampedValueComponentUpdater : CAnimComponentUpdater, ISchemaClass<CAnimComponentUpdater>, ISchemaClass<CDampedValueComponentUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Items** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedValueComponentUpdater.cs#L17)
+### Items
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDampedValueComponentUpdater.cs#L17)
 
 ```csharp
-ref CUtlVector Items { get; }
+ref CUtlVector<CDampedValueUpdateItem> Items { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CDampedValueUpdateItem](/docs/api/shared/schemadefinitions/cdampedvalueupdateitem)>
 

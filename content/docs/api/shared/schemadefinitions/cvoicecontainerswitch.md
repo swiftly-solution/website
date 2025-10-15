@@ -6,17 +6,19 @@ title: CVoiceContainerSwitch
 public interface CVoiceContainerSwitch : CVoiceContainerBase, ISchemaClass<CVoiceContainerBase>, ISchemaClass<CVoiceContainerSwitch>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **SoundsToPlay** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSwitch.cs#L17)
+### SoundsToPlay
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CVoiceContainerSwitch.cs#L17)
 
 ```csharp
-ref CUtlVector SoundsToPlay { get; }
+ref CUtlVector<CSoundContainerReference> SoundsToPlay { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CSoundContainerReference](/docs/api/shared/schemadefinitions/csoundcontainerreference)>
 

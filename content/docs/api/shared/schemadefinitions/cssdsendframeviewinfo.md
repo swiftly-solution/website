@@ -6,27 +6,31 @@ title: CSSDSEndFrameViewInfo
 public interface CSSDSEndFrameViewInfo : ISchemaClass<CSSDSEndFrameViewInfo>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ViewId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSEndFrameViewInfo.cs#L16)
+### ViewId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSEndFrameViewInfo.cs#L17)
 
 ```csharp
 ref ulong ViewId { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### **ViewName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSEndFrameViewInfo.cs#L18)
+### ViewName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSEndFrameViewInfo.cs#L19)
 
 ```csharp
 string ViewName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

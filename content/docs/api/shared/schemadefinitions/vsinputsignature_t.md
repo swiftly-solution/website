@@ -6,27 +6,31 @@ title: VsInputSignature_t
 public interface VsInputSignature_t : ISchemaClass<VsInputSignature_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Depth_elems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L20)
+### Depth_elems
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L19)
 
 ```csharp
-ref CUtlVector Depth_elems { get; }
+ref CUtlVector<VsInputSignatureElement_t> Depth_elems { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[VsInputSignatureElement_t](/docs/api/shared/schemadefinitions/vsinputsignatureelement_t)>
 
-### **Elems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L17)
+### Elems
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VsInputSignature_t.cs#L17)
 
 ```csharp
-ref CUtlVector Elems { get; }
+ref CUtlVector<VsInputSignatureElement_t> Elems { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[VsInputSignatureElement_t](/docs/api/shared/schemadefinitions/vsinputsignatureelement_t)>
 

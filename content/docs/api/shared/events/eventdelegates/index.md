@@ -6,7 +6,7 @@ title: Class EventDelegates
 public class EventDelegates
 ```
 
-- Inheritance
+#### Inheritance
 
-- Inherited Members
+#### Inherited Members
 

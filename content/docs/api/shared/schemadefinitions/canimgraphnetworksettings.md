@@ -6,17 +6,19 @@ title: CAnimGraphNetworkSettings
 public interface CAnimGraphNetworkSettings : CAnimGraphSettingsGroup, ISchemaClass<CAnimGraphSettingsGroup>, ISchemaClass<CAnimGraphNetworkSettings>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **NetworkingEnabled** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkSettings.cs#L16)
+### NetworkingEnabled
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimGraphNetworkSettings.cs#L17)
 
 ```csharp
 ref bool NetworkingEnabled { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

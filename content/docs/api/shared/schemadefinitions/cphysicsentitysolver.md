@@ -6,47 +6,55 @@ title: CPhysicsEntitySolver
 public interface CPhysicsEntitySolver : CLogicalEntity, CServerOnlyEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CServerOnlyEntity>, ISchemaClass<CLogicalEntity>, ISchemaClass<CPhysicsEntitySolver>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **CancelTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L22)
+### CancelTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L23)
 
 ```csharp
 GameTime_t CancelTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-### **MovingEntity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L16)
+### MovingEntity
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L17)
 
 ```csharp
 ref CHandle<CBaseEntity> MovingEntity { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-### **PhysicsBlocker** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L18)
+### PhysicsBlocker
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L19)
 
 ```csharp
 ref CHandle<CBaseEntity> PhysicsBlocker { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-### **SeparationDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L20)
+### SeparationDuration
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPhysicsEntitySolver.cs#L21)
 
 ```csharp
 ref float SeparationDuration { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

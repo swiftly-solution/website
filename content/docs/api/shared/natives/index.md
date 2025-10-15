@@ -26,10 +26,17 @@ title: Natives
 - [CString](/docs/api/shared/natives/cstring) - Wrapper class for native char*.
 - [CStrongHandle<T>](/docs/api/shared/natives/cstronghandle-1) - An partial implementation of the CStrongHandle struct.
 - [CTakeDamageInfo](/docs/api/shared/natives/ctakedamageinfo)
+- [CTakeDamageResult](/docs/api/shared/natives/ctakedamageresult)
 - [CTraceFilter](/docs/api/shared/natives/ctracefilter)
 - [CTransform](/docs/api/shared/natives/ctransform)
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
+- [CUtlLeanVector<T, I>](/docs/api/shared/natives/cutlleanvector-2)
+- [CUtlMap<TKey, TValue, TIndex>](/docs/api/shared/natives/cutlmap-3)
+- [CUtlMapTreeNode<TKey, TValue>](/docs/api/shared/natives/cutlmaptreenode-2)
 - [CUtlMemory<T>](/docs/api/shared/natives/cutlmemory-1)
+- [CUtlRBTree<TValue, TKey>](/docs/api/shared/natives/cutlrbtree-2)
+- [CUtlRBTreeLinks<TKey>](/docs/api/shared/natives/cutlrbtreelinks-1)
+- [CUtlRBTreeNode<TKey, TValue>](/docs/api/shared/natives/cutlrbtreenode-2)
 - [CUtlString](/docs/api/shared/natives/cutlstring)
 - [CUtlStringToken](/docs/api/shared/natives/cutlstringtoken)
 - [CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)
@@ -38,6 +45,7 @@ title: Natives
 - [Color](/docs/api/shared/natives/color)
 - [FourVectors](/docs/api/shared/natives/fourvectors)
 - [HullTrace](/docs/api/shared/natives/hulltrace)
+- [CUtlLeanVector<T, I>.Iterator_t](/docs/api/shared/natives/cutlleanvector-2/iterator_t)
 - [LineTrace](/docs/api/shared/natives/linetrace)
 - [MeshTrace](/docs/api/shared/natives/meshtrace)
 - [PointerTo<T>](/docs/api/shared/natives/pointerto-1) - Pointer to a native handle.
@@ -73,6 +81,9 @@ and handled within the core.
 - [InteractionLayer](/docs/api/shared/natives/interactionlayer)
 - [MaskTrace](/docs/api/shared/natives/masktrace)
 - [NetChannelBufType_t](/docs/api/shared/natives/netchannelbuftype_t)
+- [NodeColor_t](/docs/api/shared/natives/nodecolor_t)
 - [RayType_t](/docs/api/shared/natives/raytype_t)
 - [RnQueryObjectSet](/docs/api/shared/natives/rnqueryobjectset)
+
+- [CUtlRBTree<TValue, TKey>.LessFunc](/docs/api/shared/natives/cutlrbtree-2/lessfunc)
 

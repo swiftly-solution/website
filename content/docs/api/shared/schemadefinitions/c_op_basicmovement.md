@@ -6,57 +6,67 @@ title: C_OP_BasicMovement
 public interface C_OP_BasicMovement : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_BasicMovement>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Drag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BasicMovement.cs#L18)
+### Drag
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BasicMovement.cs#L19)
 
 ```csharp
 CParticleCollectionFloatInput Drag { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CParticleCollectionFloatInput](/docs/api/shared/schemadefinitions/cparticlecollectionfloatinput)
 
-### **Gravity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BasicMovement.cs#L16)
+### Gravity
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BasicMovement.cs#L17)
 
 ```csharp
 CParticleCollectionVecInput Gravity { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CParticleCollectionVecInput](/docs/api/shared/schemadefinitions/cparticlecollectionvecinput)
 
-### **MassControls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BasicMovement.cs#L20)
+### MassControls
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BasicMovement.cs#L21)
 
 ```csharp
 CParticleMassCalculationParameters MassControls { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CParticleMassCalculationParameters](/docs/api/shared/schemadefinitions/cparticlemasscalculationparameters)
 
-### **MaxConstraintPasses** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BasicMovement.cs#L22)
+### MaxConstraintPasses
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BasicMovement.cs#L23)
 
 ```csharp
 ref int MaxConstraintPasses { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **UseNewCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BasicMovement.cs#L24)
+### UseNewCode
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_BasicMovement.cs#L25)
 
 ```csharp
 ref bool UseNewCode { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

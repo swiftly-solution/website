@@ -6,77 +6,91 @@ title: EventPlayerScore
 public interface EventPlayerScore : IGameEvent<EventPlayerScore>
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Deaths** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L56)
+### Deaths
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L56)
 
 ```csharp
 short Deaths { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **Kills** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L49)
+### Kills
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L49)
 
 ```csharp
 short Kills { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **Score** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L63)
+### Score
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L63)
 
 ```csharp
 short Score { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **UserId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L42)
+### UserId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L42)
 
 ```csharp
 int UserId { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **UserIdController** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L24)
+### UserIdController
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L24)
 
 ```csharp
 CCSPlayerController UserIdController { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CCSPlayerController](/docs/api/shared/schemadefinitions/ccsplayercontroller)
 
-### **UserIdPawn** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L31)
+### UserIdPawn
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L31)
 
 ```csharp
 CCSPlayerPawn UserIdPawn { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
-### **UserIdPlayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L35)
+### UserIdPlayer
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventPlayerScore.cs#L35)
 
 ```csharp
 IPlayer UserIdPlayer { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IPlayer](/docs/api/shared/players/iplayer)
 

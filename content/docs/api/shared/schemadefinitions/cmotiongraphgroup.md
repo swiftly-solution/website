@@ -6,57 +6,67 @@ title: CMotionGraphGroup
 public interface CMotionGraphGroup : ISchemaClass<CMotionGraphGroup>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **IsActiveScript** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L26)
+### IsActiveScript
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L25)
 
 ```csharp
 AnimScriptHandle IsActiveScript { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [AnimScriptHandle](/docs/api/shared/schemadefinitions/animscripthandle)
 
-### **MotionGraphConfigs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L22)
+### MotionGraphConfigs
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L21)
 
 ```csharp
-ref CUtlVector MotionGraphConfigs { get; }
+ref CUtlVector<CMotionGraphConfig> MotionGraphConfigs { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CMotionGraphConfig](/docs/api/shared/schemadefinitions/cmotiongraphconfig)>
 
-### **MotionGraphs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L19)
+### MotionGraphs
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L19)
 
 ```csharp
-ref CUtlVector MotionGraphs { get; }
+ref CUtlVector<SchemaUntypedField> MotionGraphs { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)>
 
-### **SampleToConfig** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L24)
+### SampleToConfig
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L23)
 
 ```csharp
 ref CUtlVector<int> SampleToConfig { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-### **SearchDB** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L16)
+### SearchDB
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionGraphGroup.cs#L17)
 
 ```csharp
 CMotionSearchDB SearchDB { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CMotionSearchDB](/docs/api/shared/schemadefinitions/cmotionsearchdb)
 

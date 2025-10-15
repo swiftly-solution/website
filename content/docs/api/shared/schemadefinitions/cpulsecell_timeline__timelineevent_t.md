@@ -6,27 +6,31 @@ title: CPulseCell_Timeline__TimelineEvent_t
 public interface CPulseCell_Timeline__TimelineEvent_t : ISchemaClass<CPulseCell_Timeline__TimelineEvent_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **EventOutflow** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline__TimelineEvent_t.cs#L18)
+### EventOutflow
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline__TimelineEvent_t.cs#L19)
 
 ```csharp
 CPulse_OutflowConnection EventOutflow { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CPulse_OutflowConnection](/docs/api/shared/schemadefinitions/cpulse_outflowconnection)
 
-### **TimeFromPrevious** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline__TimelineEvent_t.cs#L16)
+### TimeFromPrevious
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_Timeline__TimelineEvent_t.cs#L17)
 
 ```csharp
 ref float TimeFromPrevious { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

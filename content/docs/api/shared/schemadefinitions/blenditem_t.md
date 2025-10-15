@@ -6,67 +6,79 @@ title: BlendItem_t
 public interface BlendItem_t : ISchemaClass<BlendItem_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Child** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L19)
+### Child
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L19)
 
 ```csharp
 CAnimUpdateNodeRef Child { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CAnimUpdateNodeRef](/docs/api/shared/schemadefinitions/canimupdatenoderef)
 
-### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L25)
+### Duration
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L25)
 
 ```csharp
 ref float Duration { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L23)
+### Pos
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L23)
 
 ```csharp
 ref Vector2D Pos { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 
-### **Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L21)
+### Sequence
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L21)
 
 ```csharp
 HSequence Sequence { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
-### **Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L17)
+### Tags
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L17)
 
 ```csharp
-ref CUtlVector Tags { get; }
+ref CUtlVector<TagSpan_t> Tags { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[TagSpan_t](/docs/api/shared/schemadefinitions/tagspan_t)>
 
-### **UseCustomDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L27)
+### UseCustomDuration
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BlendItem_t.cs#L27)
 
 ```csharp
 ref bool UseCustomDuration { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

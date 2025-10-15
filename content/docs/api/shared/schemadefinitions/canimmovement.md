@@ -6,77 +6,91 @@ title: CAnimMovement
 public interface CAnimMovement : ISchemaClass<CAnimMovement>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Angle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L24)
+### Angle
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L25)
 
 ```csharp
 ref float Angle { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Endframe** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L16)
+### Endframe
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L17)
 
 ```csharp
 ref int Endframe { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **Motionflags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L18)
+### Motionflags
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L19)
 
 ```csharp
 ref int Motionflags { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **Position** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L28)
+### Position
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L29)
 
 ```csharp
 ref Vector Position { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **V0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L20)
+### V0
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L21)
 
 ```csharp
 ref float V0 { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **V1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L22)
+### V1
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L23)
 
 ```csharp
 ref float V1 { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Vector** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L26)
+### Vector
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimMovement.cs#L27)
 
 ```csharp
 ref Vector Vector { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

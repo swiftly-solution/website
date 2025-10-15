@@ -6,377 +6,451 @@ title: CFuncTrackTrain
 public interface CFuncTrackTrain : CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CFuncTrackTrain>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AccelSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L82)
+### AccelSpeed
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L83)
 
 ```csharp
 ref float AccelSpeed { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **AccelToSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L86)
+### AccelToSpeed
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L87)
 
 ```csharp
 ref bool AccelToSpeed { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Bank** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L34)
+### Bank
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L35)
 
 ```csharp
 ref float Bank { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **BlockDamage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L38)
+### BlockDamage
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L39)
 
 ```csharp
 ref float BlockDamage { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **ControlMaxs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L26)
+### ControlMaxs
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L27)
 
 ```csharp
 ref Vector ControlMaxs { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **ControlMins** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L24)
+### ControlMins
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L25)
 
 ```csharp
 ref Vector ControlMins { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **DecelSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L84)
+### DecelSpeed
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L85)
 
 ```csharp
 ref float DecelSpeed { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **DesiredSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L78)
+### DesiredSpeed
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L79)
 
 ```csharp
 ref float DesiredSpeed { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Dir** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L44)
+### Dir
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L45)
 
 ```csharp
 ref float Dir { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Height** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L40)
+### Height
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L41)
 
 ```csharp
 ref float Height { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **LastBlockPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L28)
+### LastBlockPos
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L29)
 
 ```csharp
 ref Vector LastBlockPos { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **LastBlockTick** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L30)
+### LastBlockTick
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L31)
 
 ```csharp
 ref int LastBlockTick { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **Length** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L18)
+### Length
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L19)
 
 ```csharp
 ref float Length { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **ManualSpeedChanges** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L76)
+### ManualSpeedChanges
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L77)
 
 ```csharp
 ref bool ManualSpeedChanges { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **MaxSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L42)
+### MaxSpeed
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L43)
 
 ```csharp
 ref float MaxSpeed { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **MoveSoundMaxDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L58)
+### MoveSoundMaxDuration
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L59)
 
 ```csharp
 ref float MoveSoundMaxDuration { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **MoveSoundMaxPitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L64)
+### MoveSoundMaxPitch
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L65)
 
 ```csharp
 ref float MoveSoundMaxPitch { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **MoveSoundMinDuration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L56)
+### MoveSoundMinDuration
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L57)
 
 ```csharp
 ref float MoveSoundMinDuration { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **MoveSoundMinPitch** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L62)
+### MoveSoundMinPitch
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L63)
 
 ```csharp
 ref float MoveSoundMinPitch { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **NextMPSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L88)
+### NextMPSoundTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L89)
 
 ```csharp
 GameTime_t NextMPSoundTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-### **NextMoveSoundTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L60)
+### NextMoveSoundTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L61)
 
 ```csharp
 GameTime_t NextMoveSoundTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-### **OldSpeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L36)
+### OldSpeed
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L37)
 
 ```csharp
 ref float OldSpeed { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **OnArrivedAtDestinationNode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L74)
+### OnArrivedAtDestinationNode
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L75)
 
 ```csharp
 CEntityIOOutput OnArrivedAtDestinationNode { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-### **OnNext** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L72)
+### OnNext
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L73)
 
 ```csharp
 CEntityIOOutput OnNext { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-### **OnStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L70)
+### OnStart
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L71)
 
 ```csharp
 CEntityIOOutput OnStart { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CEntityIOOutput](/docs/api/shared/schemadefinitions/centityiooutput)
 
-### **OrientationType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L66)
+### OrientationType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L67)
 
 ```csharp
 ref TrainOrientationType_t OrientationType { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [TrainOrientationType_t](/docs/api/shared/schemadefinitions/trainorientationtype_t)
 
-### **PosPrev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L20)
+### PosPrev
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L21)
 
 ```csharp
 ref Vector PosPrev { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **Ppath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L16)
+### Ppath
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L17)
 
 ```csharp
 ref CHandle<CPathTrack> Ppath { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CPathTrack](/docs/api/shared/schemadefinitions/cpathtrack)>
 
-### **Prev** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L22)
+### Prev
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L23)
 
 ```csharp
 ref QAngle Prev { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-### **SoundMove** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L46)
+### SoundMove
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L47)
 
 ```csharp
 string SoundMove { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **SoundMovePing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L48)
+### SoundMovePing
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L49)
 
 ```csharp
 string SoundMovePing { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **SoundStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L50)
+### SoundStart
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L51)
 
 ```csharp
 string SoundStart { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **SoundStop** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L52)
+### SoundStop
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L53)
 
 ```csharp
 string SoundStop { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **SpeedChangeTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L80)
+### SpeedChangeTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L81)
 
 ```csharp
 GameTime_t SpeedChangeTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-### **StrPathTarget** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L54)
+### StrPathTarget
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L55)
 
 ```csharp
 string StrPathTarget { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **VelocityType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L68)
+### VelocityType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L69)
 
 ```csharp
 ref TrainVelocityType_t VelocityType { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [TrainVelocityType_t](/docs/api/shared/schemadefinitions/trainvelocitytype_t)
 
-### **Volume** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L32)
+### Volume
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncTrackTrain.cs#L33)
 
 ```csharp
 ref float Volume { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

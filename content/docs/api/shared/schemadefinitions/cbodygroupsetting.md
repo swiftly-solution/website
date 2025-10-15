@@ -6,27 +6,31 @@ title: CBodyGroupSetting
 public interface CBodyGroupSetting : ISchemaClass<CBodyGroupSetting>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **BodyGroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupSetting.cs#L16)
+### BodyGroupName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupSetting.cs#L17)
 
 ```csharp
 string BodyGroupName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **BodyGroupOption** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupSetting.cs#L18)
+### BodyGroupOption
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupSetting.cs#L19)
 
 ```csharp
 ref int BodyGroupOption { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

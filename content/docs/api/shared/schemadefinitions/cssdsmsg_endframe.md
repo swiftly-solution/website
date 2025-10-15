@@ -6,17 +6,19 @@ title: CSSDSMsg_EndFrame
 public interface CSSDSMsg_EndFrame : ISchemaClass<CSSDSMsg_EndFrame>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Views** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_EndFrame.cs#L17)
+### Views
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_EndFrame.cs#L17)
 
 ```csharp
-ref CUtlVector Views { get; }
+ref CUtlVector<CSSDSEndFrameViewInfo> Views { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CSSDSEndFrameViewInfo](/docs/api/shared/schemadefinitions/cssdsendframeviewinfo)>
 

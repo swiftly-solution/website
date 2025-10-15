@@ -6,5 +6,5 @@ title: CParticleInput
 public interface CParticleInput : ISchemaClass<CParticleInput>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

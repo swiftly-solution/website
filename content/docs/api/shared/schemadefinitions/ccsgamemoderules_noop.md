@@ -6,5 +6,5 @@ title: CCSGameModeRules_Noop
 public interface CCSGameModeRules_Noop : CCSGameModeRules, ISchemaClass<CCSGameModeRules>, ISchemaClass<CCSGameModeRules_Noop>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

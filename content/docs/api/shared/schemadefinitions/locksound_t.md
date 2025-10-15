@@ -6,37 +6,43 @@ title: locksound_t
 public interface locksound_t : ISchemaClass<locksound_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **FlwaitSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/locksound_t.cs#L20)
+### FlwaitSound
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/locksound_t.cs#L21)
 
 ```csharp
 GameTime_t FlwaitSound { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-### **LockedSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/locksound_t.cs#L16)
+### LockedSound
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/locksound_t.cs#L17)
 
 ```csharp
 string LockedSound { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **UnlockedSound** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/locksound_t.cs#L18)
+### UnlockedSound
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/locksound_t.cs#L19)
 
 ```csharp
 string UnlockedSound { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

@@ -6,5 +6,5 @@ title: EventRoundOfficiallyEnded
 public interface EventRoundOfficiallyEnded : IGameEvent<EventRoundOfficiallyEnded>
 ```
 
-- Implements
+#### Implements
 

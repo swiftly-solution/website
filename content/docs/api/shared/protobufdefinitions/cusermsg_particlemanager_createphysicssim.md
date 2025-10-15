@@ -6,37 +6,43 @@ title: CUserMsg_ParticleManager_CreatePhysicsSim
 public interface CUserMsg_ParticleManager_CreatePhysicsSim : ITypedProtobuf<CUserMsg_ParticleManager_CreatePhysicsSim>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **MaxParticleCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L19)
+### MaxParticleCount
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L19)
 
 ```csharp
 uint MaxParticleCount { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### **PropGroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L13)
+### PropGroupName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L13)
 
 ```csharp
 string PropGroupName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **UseHighQualitySimulation** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L16)
+### UseHighQualitySimulation
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_ParticleManager_CreatePhysicsSim.cs#L16)
 
 ```csharp
 bool UseHighQualitySimulation { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

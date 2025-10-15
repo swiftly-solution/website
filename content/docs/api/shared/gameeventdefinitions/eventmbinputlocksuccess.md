@@ -6,5 +6,5 @@ title: EventMbInputLockSuccess
 public interface EventMbInputLockSuccess : IGameEvent<EventMbInputLockSuccess>
 ```
 
-- Implements
+#### Implements
 

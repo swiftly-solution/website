@@ -6,27 +6,31 @@ title: CDestructiblePartsSystemData
 public interface CDestructiblePartsSystemData : ISchemaClass<CDestructiblePartsSystemData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **MinMaxNumberHitGroupsToDestroyWhenGibbing** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsSystemData.cs#L19)
+### MinMaxNumberHitGroupsToDestroyWhenGibbing
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsSystemData.cs#L20)
 
 ```csharp
 CRangeInt MinMaxNumberHitGroupsToDestroyWhenGibbing { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CRangeInt](/docs/api/shared/schemadefinitions/crangeint)
 
-### **PartsDataByHitGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsSystemData.cs#L17)
+### PartsDataByHitGroup
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDestructiblePartsSystemData.cs#L18)
 
 ```csharp
 SchemaUntypedField PartsDataByHitGroup { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

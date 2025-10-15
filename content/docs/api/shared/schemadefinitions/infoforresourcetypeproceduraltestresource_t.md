@@ -6,5 +6,5 @@ title: InfoForResourceTypeProceduralTestResource_t
 public interface InfoForResourceTypeProceduralTestResource_t : ISchemaClass<InfoForResourceTypeProceduralTestResource_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

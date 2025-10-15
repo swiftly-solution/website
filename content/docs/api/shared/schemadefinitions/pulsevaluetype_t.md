@@ -11,7 +11,7 @@ public enum PulseValueType_t : uint
 - **PVAL_ARRAY**: 28
 - **PVAL_BOOL**: 0
 - **PVAL_COLOR_RGB**: 11
-- **PVAL_COUNT**: 30
+- **PVAL_COUNT**: 31
 - **PVAL_CURSOR_FLOW**: 22
 - **PVAL_EHANDLE**: 13
 - **PVAL_ENTITY_NAME**: 18
@@ -21,6 +21,7 @@ public enum PulseValueType_t : uint
 - **PVAL_MODEL_MATERIAL_GROUP**: 21
 - **PVAL_OPAQUE_HANDLE**: 19
 - **PVAL_PANORAMA_PANEL_HANDLE**: 26
+- **PVAL_PARTICLE_EHANDLE**: 30
 - **PVAL_QANGLE**: 6
 - **PVAL_RESOURCE**: 14
 - **PVAL_RESOURCE_NAME**: 15

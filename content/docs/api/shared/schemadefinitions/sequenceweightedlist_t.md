@@ -6,27 +6,31 @@ title: SequenceWeightedList_t
 public interface SequenceWeightedList_t : ISchemaClass<SequenceWeightedList_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **RelativeWeight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceWeightedList_t.cs#L18)
+### RelativeWeight
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceWeightedList_t.cs#L19)
 
 ```csharp
 ref float RelativeWeight { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceWeightedList_t.cs#L16)
+### Sequence
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SequenceWeightedList_t.cs#L17)
 
 ```csharp
 ref int Sequence { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

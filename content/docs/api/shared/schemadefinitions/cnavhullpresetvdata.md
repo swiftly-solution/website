@@ -6,17 +6,19 @@ title: CNavHullPresetVData
 public interface CNavHullPresetVData : ISchemaClass<CNavHullPresetVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **NavHulls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullPresetVData.cs#L16)
+### NavHulls
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavHullPresetVData.cs#L17)
 
 ```csharp
 ref CUtlVector<CUtlString> NavHulls { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlString](/docs/api/shared/natives/cutlstring)>
 

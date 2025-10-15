@@ -6,5 +6,5 @@ title: CSoundInfoHeader
 public interface CSoundInfoHeader : ISchemaClass<CSoundInfoHeader>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

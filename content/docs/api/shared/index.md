@@ -27,6 +27,7 @@ title: Shared
 - [SwiftlyS2.Shared.Sounds](/docs/api/shared/sounds)
 - [SwiftlyS2.Shared.Translation](/docs/api/shared/translation)
 
+- [Helper.ChatColors](/docs/api/shared/helper/chatcolors)
 - [Helper](/docs/api/shared/helper)
 - [PluginMetadata](/docs/api/shared/pluginmetadata)
 - [SwiftlyCoreInjection](/docs/api/shared/swiftlycoreinjection)

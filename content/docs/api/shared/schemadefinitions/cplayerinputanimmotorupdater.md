@@ -6,67 +6,79 @@ title: CPlayerInputAnimMotorUpdater
 public interface CPlayerInputAnimMotorUpdater : CAnimMotorUpdaterBase, ISchemaClass<CAnimMotorUpdaterBase>, ISchemaClass<CPlayerInputAnimMotorUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AnticipationDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L20)
+### AnticipationDistance
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L21)
 
 ```csharp
 ref float AnticipationDistance { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **AnticipationHeadingParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L24)
+### AnticipationHeadingParam
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L25)
 
 ```csharp
 CAnimParamHandle AnticipationHeadingParam { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-### **AnticipationPosParam** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L22)
+### AnticipationPosParam
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L23)
 
 ```csharp
 CAnimParamHandle AnticipationPosParam { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)
 
-### **SampleTimes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L16)
+### SampleTimes
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L17)
 
 ```csharp
 ref CUtlVector<float> SampleTimes { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-### **SpringConstant** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L18)
+### SpringConstant
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L19)
 
 ```csharp
 ref float SpringConstant { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **UseAcceleration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L26)
+### UseAcceleration
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPlayerInputAnimMotorUpdater.cs#L27)
 
 ```csharp
 ref bool UseAcceleration { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

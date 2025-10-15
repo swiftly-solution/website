@@ -6,5 +6,5 @@ title: CMsgLeaveParty
 public interface CMsgLeaveParty : ITypedProtobuf<CMsgLeaveParty>, INativeHandle
 ```
 
-- Implements
+#### Implements
 

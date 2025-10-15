@@ -6,17 +6,19 @@ title: CParticleFunctionInitializer
 public interface CParticleFunctionInitializer : CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AssociatedEmitterIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionInitializer.cs#L16)
+### AssociatedEmitterIndex
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleFunctionInitializer.cs#L17)
 
 ```csharp
 ref int AssociatedEmitterIndex { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

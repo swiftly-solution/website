@@ -6,37 +6,43 @@ title: SimpleConstraintSoundProfile
 public interface SimpleConstraintSoundProfile : ISchemaClass<SimpleConstraintSoundProfile>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **KeyPoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L18)
+### KeyPoints
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L19)
 
 ```csharp
 ISchemaFixedArray<float> KeyPoints { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-### **Keypoints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L16)
+### Keypoints
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L17)
 
 ```csharp
 ref SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t Keypoints { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SimpleConstraintSoundProfile__SimpleConstraintsSoundProfileKeypoints_t](/docs/api/shared/schemadefinitions/simpleconstraintsoundprofile__simpleconstraintssoundprofilekeypoints_t)
 
-### **ReversalSoundThresholds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L20)
+### ReversalSoundThresholds
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SimpleConstraintSoundProfile.cs#L21)
 
 ```csharp
 ISchemaFixedArray<float> ReversalSoundThresholds { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 

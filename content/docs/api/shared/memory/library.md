@@ -6,49 +6,57 @@ title: Library
 public static class Library
 ```
 
-- Inheritance
+#### Inheritance
 
-- Inherited Members
+#### Inherited Members
 
 ## Fields
 
-### **Engine** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L7)
+### Engine
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L7)
 
 ```csharp
 public static readonly string Engine
 ```
 
-- Field Value
+#### Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **NetworkSystem** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L13)
+### NetworkSystem
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L13)
 
 ```csharp
 public static readonly string NetworkSystem
 ```
 
-- Field Value
+#### Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **Server** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L11)
+### Server
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L11)
 
 ```csharp
 public static readonly string Server
 ```
 
-- Field Value
+#### Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **Tier0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L9)
+### Tier0
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/Library.cs#L9)
 
 ```csharp
 public static readonly string Tier0
 ```
 
-- Field Value
+#### Field Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

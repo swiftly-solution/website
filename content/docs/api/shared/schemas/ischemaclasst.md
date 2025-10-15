@@ -1,14 +1,14 @@
 ---
-title: ISchemaClass<T>
+title: ISchemaClass
 ---
 
 ```csharp
 public interface ISchemaClass<T> : ISchemaField, ISchemaClass, INativeHandle where T : ISchemaClass<T>
 ```
 
-- Type Parameters
+#### Type Parameters
 
 - **T**: 
 
-- Implements
+#### Implements
 

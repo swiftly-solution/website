@@ -6,5 +6,5 @@ title: InfoForResourceTypeCPanoramaDynamicImages
 public interface InfoForResourceTypeCPanoramaDynamicImages : ISchemaClass<InfoForResourceTypeCPanoramaDynamicImages>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

@@ -6,57 +6,67 @@ title: CAnimEncodedFrames
 public interface CAnimEncodedFrames : ISchemaClass<CAnimEncodedFrames>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **FileName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L16)
+### FileName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L17)
 
 ```csharp
 ref CBufferString FileName { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-### **FrameblockArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L23)
+### FrameblockArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L23)
 
 ```csharp
-ref CUtlVector FrameblockArray { get; }
+ref CUtlVector<CAnimFrameBlockAnim> FrameblockArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CAnimFrameBlockAnim](/docs/api/shared/schemadefinitions/canimframeblockanim)>
 
-### **Frames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L18)
+### Frames
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L19)
 
 ```csharp
 ref int Frames { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **FramesPerBlock** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L20)
+### FramesPerBlock
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L21)
 
 ```csharp
 ref int FramesPerBlock { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **UsageDifferences** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L25)
+### UsageDifferences
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimEncodedFrames.cs#L25)
 
 ```csharp
 CAnimEncodeDifference UsageDifferences { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CAnimEncodeDifference](/docs/api/shared/schemadefinitions/canimencodedifference)
 

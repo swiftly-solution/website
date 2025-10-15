@@ -6,5 +6,5 @@ title: CBasePlayerControllerAPI
 public interface CBasePlayerControllerAPI : ISchemaClass<CBasePlayerControllerAPI>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

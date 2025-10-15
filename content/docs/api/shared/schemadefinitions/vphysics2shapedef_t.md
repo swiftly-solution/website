@@ -6,57 +6,67 @@ title: VPhysics2ShapeDef_t
 public interface VPhysics2ShapeDef_t : ISchemaClass<VPhysics2ShapeDef_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Capsules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L20)
+### Capsules
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L19)
 
 ```csharp
-ref CUtlVector Capsules { get; }
+ref CUtlVector<RnCapsuleDesc_t> Capsules { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[RnCapsuleDesc_t](/docs/api/shared/schemadefinitions/rncapsuledesc_t)>
 
-### **CollisionAttributeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L28)
+### CollisionAttributeIndices
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L25)
 
 ```csharp
 ref CUtlVector<ushort> CollisionAttributeIndices { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
-### **Hulls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L23)
+### Hulls
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L21)
 
 ```csharp
-ref CUtlVector Hulls { get; }
+ref CUtlVector<RnHullDesc_t> Hulls { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[RnHullDesc_t](/docs/api/shared/schemadefinitions/rnhulldesc_t)>
 
-### **Meshes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L26)
+### Meshes
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L23)
 
 ```csharp
-ref CUtlVector Meshes { get; }
+ref CUtlVector<RnMeshDesc_t> Meshes { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[RnMeshDesc_t](/docs/api/shared/schemadefinitions/rnmeshdesc_t)>
 
-### **Spheres** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L17)
+### Spheres
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/VPhysics2ShapeDef_t.cs#L17)
 
 ```csharp
-ref CUtlVector Spheres { get; }
+ref CUtlVector<RnSphereDesc_t> Spheres { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[RnSphereDesc_t](/docs/api/shared/schemadefinitions/rnspheredesc_t)>
 

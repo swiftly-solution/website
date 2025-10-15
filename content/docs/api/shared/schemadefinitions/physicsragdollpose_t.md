@@ -6,49 +6,59 @@ title: PhysicsRagdollPose_t
 public interface PhysicsRagdollPose_t : ISchemaClass<PhysicsRagdollPose_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Owner** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L18)
+### Owner
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L19)
 
 ```csharp
 ref CHandle<CBaseEntity> Owner { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
 
-### **SetFromDebugHistory** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L20)
+### SetFromDebugHistory
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L21)
 
 ```csharp
 ref bool SetFromDebugHistory { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Transforms** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L16)
+### Transforms
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L17)
 
 ```csharp
 ref CUtlVector<CTransform> Transforms { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 
 ## Methods
 
-### **OwnerUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L23)
+### OwnerUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L24)
 
 ```csharp
 void OwnerUpdated()
 ```
 
-### **TransformsUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L22)
+### TransformsUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PhysicsRagdollPose_t.cs#L23)
 
 ```csharp
 void TransformsUpdated()

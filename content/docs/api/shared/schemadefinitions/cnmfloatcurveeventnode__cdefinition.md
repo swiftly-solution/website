@@ -6,47 +6,55 @@ title: CNmFloatCurveEventNode__CDefinition
 public interface CNmFloatCurveEventNode__CDefinition : CNmFloatValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmFloatValueNode__CDefinition>, ISchemaClass<CNmFloatCurveEventNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **DefaultNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L18)
+### DefaultNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L19)
 
 ```csharp
 ref short DefaultNodeIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **DefaultValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L20)
+### DefaultValue
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L21)
 
 ```csharp
 ref float DefaultValue { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **EventConditionRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L22)
+### EventConditionRules
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L23)
 
 ```csharp
 CNmBitFlags EventConditionRules { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CNmBitFlags](/docs/api/shared/schemadefinitions/cnmbitflags)
 
-### **EventID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L16)
+### EventID
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmFloatCurveEventNode__CDefinition.cs#L17)
 
 ```csharp
 ref CGlobalSymbol EventID { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

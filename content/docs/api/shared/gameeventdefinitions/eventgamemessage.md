@@ -6,27 +6,31 @@ title: EventGameMessage
 public interface EventGameMessage : IGameEvent<EventGameMessage>
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Target** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGameMessage.cs#L24)
+### Target
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGameMessage.cs#L24)
 
 ```csharp
 byte Target { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-### **Text** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGameMessage.cs#L31)
+### Text
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventGameMessage.cs#L31)
 
 ```csharp
 string Text { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

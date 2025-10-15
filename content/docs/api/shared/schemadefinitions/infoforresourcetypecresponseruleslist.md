@@ -6,5 +6,5 @@ title: InfoForResourceTypeCResponseRulesList
 public interface InfoForResourceTypeCResponseRulesList : ISchemaClass<InfoForResourceTypeCResponseRulesList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

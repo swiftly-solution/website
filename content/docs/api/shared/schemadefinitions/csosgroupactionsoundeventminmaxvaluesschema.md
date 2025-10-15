@@ -6,107 +6,127 @@ title: CSosGroupActionSoundeventMinMaxValuesSchema
 public interface CSosGroupActionSoundeventMinMaxValuesSchema : CSosGroupActionSchema, ISchemaClass<CSosGroupActionSchema>, ISchemaClass<CSosGroupActionSoundeventMinMaxValuesSchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ExcludSoundsAboveThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L28)
+### ExcludSoundsAboveThreshold
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L29)
 
 ```csharp
 ref bool ExcludSoundsAboveThreshold { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **ExcludeDelayedSounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L22)
+### ExcludeDelayedSounds
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L23)
 
 ```csharp
 ref bool ExcludeDelayedSounds { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **ExcludeSoundsBelowThreshold** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L24)
+### ExcludeSoundsBelowThreshold
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L25)
 
 ```csharp
 ref bool ExcludeSoundsBelowThreshold { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **ExcludeSoundsMaxThresholdValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L30)
+### ExcludeSoundsMaxThresholdValue
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L31)
 
 ```csharp
 ref float ExcludeSoundsMaxThresholdValue { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **ExcludeSoundsMinThresholdValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L26)
+### ExcludeSoundsMinThresholdValue
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L27)
 
 ```csharp
 ref float ExcludeSoundsMinThresholdValue { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **ExcludeStoppedSounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L20)
+### ExcludeStoppedSounds
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L21)
 
 ```csharp
 ref bool ExcludeStoppedSounds { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **StrDelayPublicFieldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L18)
+### StrDelayPublicFieldName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L19)
 
 ```csharp
 string StrDelayPublicFieldName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **StrMaxValueName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L34)
+### StrMaxValueName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L35)
 
 ```csharp
 string StrMaxValueName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **StrMinValueName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L32)
+### StrMinValueName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L33)
 
 ```csharp
 string StrMinValueName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **StrQueryPublicFieldName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L16)
+### StrQueryPublicFieldName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSoundeventMinMaxValuesSchema.cs#L17)
 
 ```csharp
 string StrQueryPublicFieldName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

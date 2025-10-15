@@ -6,5 +6,5 @@ title: CNmEventConsumerSound
 public interface CNmEventConsumerSound : CNmEventConsumer, ISchemaClass<CNmEventConsumer>, ISchemaClass<CNmEventConsumerSound>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

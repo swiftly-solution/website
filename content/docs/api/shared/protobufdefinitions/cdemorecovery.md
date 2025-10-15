@@ -6,27 +6,31 @@ title: CDemoRecovery
 public interface CDemoRecovery : ITypedProtobuf<CDemoRecovery>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **InitialSpawnGroup** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoRecovery.cs#L13)
+### InitialSpawnGroup
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoRecovery.cs#L13)
 
 ```csharp
 CDemoRecovery_DemoInitialSpawnGroupEntry InitialSpawnGroup { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CDemoRecovery_DemoInitialSpawnGroupEntry](/docs/api/shared/protobufdefinitions/cdemorecovery_demoinitialspawngroupentry)
 
-### **SpawnGroupMessage** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoRecovery.cs#L16)
+### SpawnGroupMessage
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CDemoRecovery.cs#L16)
 
 ```csharp
 byte[] SpawnGroupMessage { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

@@ -6,17 +6,19 @@ title: MaterialParamBuffer_t
 public interface MaterialParamBuffer_t : MaterialParam_t, ISchemaClass<MaterialParam_t>, ISchemaClass<MaterialParamBuffer_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialParamBuffer_t.cs#L16)
+### Value
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MaterialParamBuffer_t.cs#L17)
 
 ```csharp
 ref CUtlBinaryBlock Value { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 

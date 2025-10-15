@@ -6,37 +6,43 @@ title: CPulse_Chunk
 public interface CPulse_Chunk : ISchemaClass<CPulse_Chunk>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **InstructionEditorIDs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L23)
+### InstructionEditorIDs
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L21)
 
 ```csharp
-SchemaUntypedField InstructionEditorIDs { get; }
+ref CUtlLeanVector<PulseDocNodeID_t, int> InstructionEditorIDs { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
+- [CUtlLeanVector](/docs/api/shared/natives/cutlleanvector-2)<[PulseDocNodeID_t](/docs/api/shared/schemadefinitions/pulsedocnodeid_t), [int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-### **Instructions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L17)
+### Instructions
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L17)
 
 ```csharp
-SchemaUntypedField Instructions { get; }
+ref CUtlLeanVector<PGDInstruction_t, int> Instructions { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
+- [CUtlLeanVector](/docs/api/shared/natives/cutlleanvector-2)<[PGDInstruction_t](/docs/api/shared/schemadefinitions/pgdinstruction_t), [int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-### **Registers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L20)
+### Registers
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulse_Chunk.cs#L19)
 
 ```csharp
-SchemaUntypedField Registers { get; }
+ref CUtlLeanVector<CPulse_RegisterInfo, int> Registers { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
+- [CUtlLeanVector](/docs/api/shared/natives/cutlleanvector-2)<[CPulse_RegisterInfo](/docs/api/shared/schemadefinitions/cpulse_registerinfo), [int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

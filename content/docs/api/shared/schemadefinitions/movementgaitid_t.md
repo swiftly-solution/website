@@ -6,17 +6,19 @@ title: MovementGaitId_t
 public interface MovementGaitId_t : ISchemaClass<MovementGaitId_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Id** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MovementGaitId_t.cs#L16)
+### Id
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/MovementGaitId_t.cs#L17)
 
 ```csharp
 ref CGlobalSymbol Id { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

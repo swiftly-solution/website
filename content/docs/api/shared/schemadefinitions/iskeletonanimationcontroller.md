@@ -6,5 +6,5 @@ title: ISkeletonAnimationController
 public interface ISkeletonAnimationController : ISchemaClass<ISkeletonAnimationController>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

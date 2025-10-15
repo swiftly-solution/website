@@ -6,17 +6,19 @@ title: PulseSelectorOutflowList_t
 public interface PulseSelectorOutflowList_t : ISchemaClass<PulseSelectorOutflowList_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Outflows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseSelectorOutflowList_t.cs#L17)
+### Outflows
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseSelectorOutflowList_t.cs#L17)
 
 ```csharp
-ref CUtlVector Outflows { get; }
+ref CUtlVector<OutflowWithRequirements_t> Outflows { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[OutflowWithRequirements_t](/docs/api/shared/schemadefinitions/outflowwithrequirements_t)>
 

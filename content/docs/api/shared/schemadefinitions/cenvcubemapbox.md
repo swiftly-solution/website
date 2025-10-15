@@ -6,5 +6,5 @@ title: CEnvCubemapBox
 public interface CEnvCubemapBox : CEnvCubemap, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CEnvCubemap>, ISchemaClass<CEnvCubemapBox>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

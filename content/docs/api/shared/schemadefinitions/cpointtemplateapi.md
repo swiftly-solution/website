@@ -6,5 +6,5 @@ title: CPointTemplateAPI
 public interface CPointTemplateAPI : ISchemaClass<CPointTemplateAPI>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

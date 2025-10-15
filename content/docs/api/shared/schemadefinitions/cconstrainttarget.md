@@ -6,67 +6,79 @@ title: CConstraintTarget
 public interface CConstraintTarget : ISchemaClass<CConstraintTarget>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **BoneHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L20)
+### BoneHash
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L21)
 
 ```csharp
 ref uint BoneHash { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### **IsAttachment** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L26)
+### IsAttachment
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L27)
 
 ```csharp
 ref bool IsAttachment { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L22)
+### Name
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L23)
 
 ```csharp
 string Name { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **Offset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L16)
+### Offset
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L17)
 
 ```csharp
 ref Quaternion Offset { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
-### **Offset1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L18)
+### Offset1
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L19)
 
 ```csharp
 ref Vector Offset1 { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **Weight** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L24)
+### Weight
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConstraintTarget.cs#L25)
 
 ```csharp
 ref float Weight { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

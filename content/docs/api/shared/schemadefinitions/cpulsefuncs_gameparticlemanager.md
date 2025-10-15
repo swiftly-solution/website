@@ -6,5 +6,5 @@ title: CPulseFuncs_GameParticleManager
 public interface CPulseFuncs_GameParticleManager : ISchemaClass<CPulseFuncs_GameParticleManager>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

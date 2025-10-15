@@ -6,67 +6,79 @@ title: CConcreteAnimParameter
 public interface CConcreteAnimParameter : CAnimParameterBase, ISchemaClass<CAnimParameterBase>, ISchemaClass<CConcreteAnimParameter>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AutoReset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L22)
+### AutoReset
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L23)
 
 ```csharp
 ref bool AutoReset { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **GameWritable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L24)
+### GameWritable
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L25)
 
 ```csharp
 ref bool GameWritable { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **GraphWritable** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L26)
+### GraphWritable
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L27)
 
 ```csharp
 ref bool GraphWritable { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **NetworkSetting** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L18)
+### NetworkSetting
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L19)
 
 ```csharp
 ref AnimParamNetworkSetting NetworkSetting { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [AnimParamNetworkSetting](/docs/api/shared/schemadefinitions/animparamnetworksetting)
 
-### **PreviewButton** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L16)
+### PreviewButton
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L17)
 
 ```csharp
 ref AnimParamButton_t PreviewButton { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [AnimParamButton_t](/docs/api/shared/schemadefinitions/animparambutton_t)
 
-### **UseMostRecentValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L20)
+### UseMostRecentValue
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CConcreteAnimParameter.cs#L21)
 
 ```csharp
 ref bool UseMostRecentValue { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

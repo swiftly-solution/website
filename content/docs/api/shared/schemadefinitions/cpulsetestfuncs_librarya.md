@@ -6,5 +6,5 @@ title: CPulseTestFuncs_LibraryA
 public interface CPulseTestFuncs_LibraryA : ISchemaClass<CPulseTestFuncs_LibraryA>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

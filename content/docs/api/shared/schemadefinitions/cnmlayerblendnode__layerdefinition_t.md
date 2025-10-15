@@ -6,87 +6,103 @@ title: CNmLayerBlendNode__LayerDefinition_t
 public interface CNmLayerBlendNode__LayerDefinition_t : ISchemaClass<CNmLayerBlendNode__LayerDefinition_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **BlendMode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L30)
+### BlendMode
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L31)
 
 ```csharp
 ref NmPoseBlendMode_t BlendMode { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [NmPoseBlendMode_t](/docs/api/shared/schemadefinitions/nmposeblendmode_t)
 
-### **BoneMaskValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L20)
+### BoneMaskValueNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L21)
 
 ```csharp
 ref short BoneMaskValueNodeIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **IgnoreEvents** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L26)
+### IgnoreEvents
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L27)
 
 ```csharp
 ref bool IgnoreEvents { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **InputNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L16)
+### InputNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L17)
 
 ```csharp
 ref short InputNodeIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **IsStateMachineLayer** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L28)
+### IsStateMachineLayer
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L29)
 
 ```csharp
 ref bool IsStateMachineLayer { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **IsSynchronized** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L24)
+### IsSynchronized
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L25)
 
 ```csharp
 ref bool IsSynchronized { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **RootMotionWeightValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L22)
+### RootMotionWeightValueNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L23)
 
 ```csharp
 ref short RootMotionWeightValueNodeIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **WeightValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L18)
+### WeightValueNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__LayerDefinition_t.cs#L19)
 
 ```csharp
 ref short WeightValueNodeIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

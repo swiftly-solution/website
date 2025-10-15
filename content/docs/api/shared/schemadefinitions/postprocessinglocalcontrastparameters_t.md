@@ -6,57 +6,67 @@ title: PostProcessingLocalContrastParameters_t
 public interface PostProcessingLocalContrastParameters_t : ISchemaClass<PostProcessingLocalContrastParameters_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **LocalContrastEdgeStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L18)
+### LocalContrastEdgeStrength
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L19)
 
 ```csharp
 ref float LocalContrastEdgeStrength { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **LocalContrastStrength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L16)
+### LocalContrastStrength
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L17)
 
 ```csharp
 ref float LocalContrastStrength { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **LocalContrastVignetteBlur** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L24)
+### LocalContrastVignetteBlur
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L25)
 
 ```csharp
 ref float LocalContrastVignetteBlur { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **LocalContrastVignetteEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L22)
+### LocalContrastVignetteEnd
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L23)
 
 ```csharp
 ref float LocalContrastVignetteEnd { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **LocalContrastVignetteStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L20)
+### LocalContrastVignetteStart
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PostProcessingLocalContrastParameters_t.cs#L21)
 
 ```csharp
 ref float LocalContrastVignetteStart { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

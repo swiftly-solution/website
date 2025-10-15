@@ -6,37 +6,43 @@ title: CMoodVData
 public interface CMoodVData : ISchemaClass<CMoodVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AnimationLayers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L22)
+### AnimationLayers
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L22)
 
 ```csharp
-ref CUtlVector AnimationLayers { get; }
+ref CUtlVector<MoodAnimationLayer_t> AnimationLayers { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[MoodAnimationLayer_t](/docs/api/shared/schemadefinitions/moodanimationlayer_t)>
 
-### **ModelName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L17)
+### ModelName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L18)
 
 ```csharp
 SchemaUntypedField ModelName { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-### **MoodType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L19)
+### MoodType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMoodVData.cs#L20)
 
 ```csharp
 ref MoodType_t MoodType { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [MoodType_t](/docs/api/shared/schemadefinitions/moodtype_t)
 

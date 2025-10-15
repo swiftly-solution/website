@@ -6,5 +6,5 @@ title: CParticleFunctionConstraint
 public interface CParticleFunctionConstraint : CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionConstraint>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

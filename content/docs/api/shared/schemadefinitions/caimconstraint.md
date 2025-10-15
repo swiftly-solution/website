@@ -6,27 +6,31 @@ title: CAimConstraint
 public interface CAimConstraint : CBaseConstraint, CBoneConstraintBase, ISchemaClass<CBoneConstraintBase>, ISchemaClass<CBaseConstraint>, ISchemaClass<CAimConstraint>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AimOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimConstraint.cs#L16)
+### AimOffset
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimConstraint.cs#L17)
 
 ```csharp
 ref Quaternion AimOffset { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
-### **UpType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimConstraint.cs#L18)
+### UpType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAimConstraint.cs#L19)
 
 ```csharp
 ref uint UpType { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

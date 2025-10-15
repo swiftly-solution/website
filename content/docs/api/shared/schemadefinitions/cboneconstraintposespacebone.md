@@ -6,17 +6,19 @@ title: CBoneConstraintPoseSpaceBone
 public interface CBoneConstraintPoseSpaceBone : CBaseConstraint, CBoneConstraintBase, ISchemaClass<CBoneConstraintBase>, ISchemaClass<CBaseConstraint>, ISchemaClass<CBoneConstraintPoseSpaceBone>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **InputList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone.cs#L17)
+### InputList
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone.cs#L17)
 
 ```csharp
-ref CUtlVector InputList { get; }
+ref CUtlVector<CBoneConstraintPoseSpaceBone__Input_t> InputList { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CBoneConstraintPoseSpaceBone__Input_t](/docs/api/shared/schemadefinitions/cboneconstraintposespacebone__input_t)>
 

@@ -6,17 +6,19 @@ title: CCSUsrMsg_SendPlayerItemDrops
 public interface CCSUsrMsg_SendPlayerItemDrops : ITypedProtobuf<CCSUsrMsg_SendPlayerItemDrops>, INativeHandle, INetMessage<CCSUsrMsg_SendPlayerItemDrops>, IDisposable
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **EntityUpdates** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerItemDrops.cs#L18)
+### EntityUpdates
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCSUsrMsg_SendPlayerItemDrops.cs#L18)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CEconItemPreviewDataBlock> EntityUpdates { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CEconItemPreviewDataBlock](/docs/api/shared/protobufdefinitions/ceconitempreviewdatablock)>
 

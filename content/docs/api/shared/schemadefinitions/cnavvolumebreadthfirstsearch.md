@@ -6,27 +6,31 @@ title: CNavVolumeBreadthFirstSearch
 public interface CNavVolumeBreadthFirstSearch : CNavVolumeCalculatedVector, CNavVolume, ISchemaClass<CNavVolume>, ISchemaClass<CNavVolumeCalculatedVector>, ISchemaClass<CNavVolumeBreadthFirstSearch>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **SearchDist** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeBreadthFirstSearch.cs#L18)
+### SearchDist
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeBreadthFirstSearch.cs#L19)
 
 ```csharp
 ref float SearchDist { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **StartPos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeBreadthFirstSearch.cs#L16)
+### StartPos
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeBreadthFirstSearch.cs#L17)
 
 ```csharp
 ref Vector StartPos { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

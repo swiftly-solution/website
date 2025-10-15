@@ -6,55 +6,67 @@ title: CNetworkVelocityVector
 public interface CNetworkVelocityVector : ISchemaClass<CNetworkVelocityVector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **X** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L16)
+### X
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L17)
 
 ```csharp
 ref CNetworkedQuantizedFloat X { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 
-### **Y** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L18)
+### Y
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L19)
 
 ```csharp
 ref CNetworkedQuantizedFloat Y { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 
-### **Z** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L20)
+### Z
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L21)
 
 ```csharp
 ref CNetworkedQuantizedFloat Z { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CNetworkedQuantizedFloat](/docs/api/shared/natives/cnetworkedquantizedfloat)
 
 ## Methods
 
-### **XUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L22)
+### XUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L23)
 
 ```csharp
 void XUpdated()
 ```
 
-### **YUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L23)
+### YUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L24)
 
 ```csharp
 void YUpdated()
 ```
 
-### **ZUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L24)
+### ZUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkVelocityVector.cs#L25)
 
 ```csharp
 void ZUpdated()

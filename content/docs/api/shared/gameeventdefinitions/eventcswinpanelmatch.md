@@ -6,5 +6,5 @@ title: EventCsWinPanelMatch
 public interface EventCsWinPanelMatch : IGameEvent<EventCsWinPanelMatch>
 ```
 
-- Implements
+#### Implements
 

@@ -6,27 +6,31 @@ title: CUserMsg_CustomGameEvent
 public interface CUserMsg_CustomGameEvent : ITypedProtobuf<CUserMsg_CustomGameEvent>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Data** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_CustomGameEvent.cs#L16)
+### Data
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_CustomGameEvent.cs#L16)
 
 ```csharp
 byte[] Data { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 
-### **EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_CustomGameEvent.cs#L13)
+### EventName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMsg_CustomGameEvent.cs#L13)
 
 ```csharp
 string EventName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

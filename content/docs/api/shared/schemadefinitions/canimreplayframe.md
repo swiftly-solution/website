@@ -6,57 +6,67 @@ title: CAnimReplayFrame
 public interface CAnimReplayFrame : ISchemaClass<CAnimReplayFrame>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **InputDataBlocks** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L16)
+### InputDataBlocks
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L17)
 
 ```csharp
 ref CUtlVector<CUtlBinaryBlock> InputDataBlocks { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)>
 
-### **InstanceData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L18)
+### InstanceData
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L19)
 
 ```csharp
 ref CUtlBinaryBlock InstanceData { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 
-### **LocalToWorldTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L22)
+### LocalToWorldTransform
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L23)
 
 ```csharp
 ref CTransform LocalToWorldTransform { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-### **StartingLocalToWorldTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L20)
+### StartingLocalToWorldTransform
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L21)
 
 ```csharp
 ref CTransform StartingLocalToWorldTransform { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-### **TimeStamp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L24)
+### TimeStamp
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimReplayFrame.cs#L25)
 
 ```csharp
 ref float TimeStamp { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

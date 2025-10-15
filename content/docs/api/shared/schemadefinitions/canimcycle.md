@@ -6,5 +6,5 @@ title: CAnimCycle
 public interface CAnimCycle : CCycleBase, ISchemaClass<CCycleBase>, ISchemaClass<CAnimCycle>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

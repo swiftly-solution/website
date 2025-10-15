@@ -6,37 +6,43 @@ title: CNmLayerBlendNode__CDefinition
 public interface CNmLayerBlendNode__CDefinition : CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmLayerBlendNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **BaseNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L16)
+### BaseNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L17)
 
 ```csharp
 ref short BaseNodeIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **LayerDefinition** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L21)
+### LayerDefinition
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L22)
 
 ```csharp
 SchemaUntypedField LayerDefinition { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-### **OnlySampleBaseRootMotion** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L18)
+### OnlySampleBaseRootMotion
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmLayerBlendNode__CDefinition.cs#L19)
 
 ```csharp
 ref bool OnlySampleBaseRootMotion { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

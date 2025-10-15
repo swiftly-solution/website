@@ -6,57 +6,67 @@ title: CNmParameterizedSelectorNode__CDefinition
 public interface CNmParameterizedSelectorNode__CDefinition : CNmPoseNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaClass<CNmParameterizedSelectorNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **HasWeightsSet** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L26)
+### HasWeightsSet
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L27)
 
 ```csharp
 ref bool HasWeightsSet { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **IgnoreInvalidOptions** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L24)
+### IgnoreInvalidOptions
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L25)
 
 ```csharp
 ref bool IgnoreInvalidOptions { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **OptionNodeIndices** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L17)
+### OptionNodeIndices
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L18)
 
 ```csharp
 SchemaUntypedField OptionNodeIndices { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-### **OptionWeights** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L20)
+### OptionWeights
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L21)
 
 ```csharp
 SchemaUntypedField OptionWeights { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-### **ParameterNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L22)
+### ParameterNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedSelectorNode__CDefinition.cs#L23)
 
 ```csharp
 ref short ParameterNodeIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

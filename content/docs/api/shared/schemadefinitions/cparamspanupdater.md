@@ -6,17 +6,19 @@ title: CParamSpanUpdater
 public interface CParamSpanUpdater : ISchemaClass<CParamSpanUpdater>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Spans** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParamSpanUpdater.cs#L17)
+### Spans
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParamSpanUpdater.cs#L17)
 
 ```csharp
-ref CUtlVector Spans { get; }
+ref CUtlVector<ParamSpan_t> Spans { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[ParamSpan_t](/docs/api/shared/schemadefinitions/paramspan_t)>
 

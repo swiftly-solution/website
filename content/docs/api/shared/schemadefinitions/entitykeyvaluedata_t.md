@@ -6,27 +6,31 @@ title: EntityKeyValueData_t
 public interface EntityKeyValueData_t : ISchemaClass<EntityKeyValueData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Connections** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L17)
+### Connections
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L17)
 
 ```csharp
-ref CUtlVector Connections { get; }
+ref CUtlVector<EntityIOConnectionData_t> Connections { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[EntityIOConnectionData_t](/docs/api/shared/schemadefinitions/entityioconnectiondata_t)>
 
-### **KeyValuesData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L19)
+### KeyValuesData
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EntityKeyValueData_t.cs#L19)
 
 ```csharp
 ref CUtlBinaryBlock KeyValuesData { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlBinaryBlock](/docs/api/shared/natives/cutlbinaryblock)
 

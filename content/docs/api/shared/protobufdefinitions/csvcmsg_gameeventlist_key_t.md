@@ -6,27 +6,31 @@ title: CSVCMsg_GameEventList_key_t
 public interface CSVCMsg_GameEventList_key_t : ITypedProtobuf<CSVCMsg_GameEventList_key_t>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEventList_key_t.cs#L16)
+### Name
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEventList_key_t.cs#L16)
 
 ```csharp
 string Name { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEventList_key_t.cs#L13)
+### Type
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEventList_key_t.cs#L13)
 
 ```csharp
 int Type { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

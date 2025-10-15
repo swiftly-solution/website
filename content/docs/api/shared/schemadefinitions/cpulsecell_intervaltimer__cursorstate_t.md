@@ -6,57 +6,67 @@ title: CPulseCell_IntervalTimer__CursorState_t
 public interface CPulseCell_IntervalTimer__CursorState_t : ISchemaClass<CPulseCell_IntervalTimer__CursorState_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **CompleteOnNextWake** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer__CursorState_t.cs#L24)
+### CompleteOnNextWake
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer__CursorState_t.cs#L25)
 
 ```csharp
 ref bool CompleteOnNextWake { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer__CursorState_t.cs#L18)
+### EndTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer__CursorState_t.cs#L19)
 
 ```csharp
 GameTime_t EndTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer__CursorState_t.cs#L16)
+### StartTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer__CursorState_t.cs#L17)
 
 ```csharp
 GameTime_t StartTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [GameTime_t](/docs/api/shared/schemadefinitions/gametime_t)
 
-### **WaitInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer__CursorState_t.cs#L20)
+### WaitInterval
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer__CursorState_t.cs#L21)
 
 ```csharp
 ref float WaitInterval { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **WaitIntervalHigh** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer__CursorState_t.cs#L22)
+### WaitIntervalHigh
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseCell_IntervalTimer__CursorState_t.cs#L23)
 
 ```csharp
 ref float WaitIntervalHigh { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

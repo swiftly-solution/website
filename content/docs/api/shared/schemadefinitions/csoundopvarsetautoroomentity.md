@@ -6,57 +6,67 @@ title: CSoundOpvarSetAutoRoomEntity
 public interface CSoundOpvarSetAutoRoomEntity : CSoundOpvarSetPointEntity, CSoundOpvarSetPointBase, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CSoundOpvarSetPointBase>, ISchemaClass<CSoundOpvarSetPointEntity>, ISchemaClass<CSoundOpvarSetAutoRoomEntity>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **DoorwayPairs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L20)
+### DoorwayPairs
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L19)
 
 ```csharp
-ref CUtlVector DoorwayPairs { get; }
+ref CUtlVector<AutoRoomDoorwayPairs_t> DoorwayPairs { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[AutoRoomDoorwayPairs_t](/docs/api/shared/schemadefinitions/autoroomdoorwaypairs_t)>
 
-### **HeightTolerance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L24)
+### HeightTolerance
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L23)
 
 ```csharp
 ref float HeightTolerance { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Size** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L22)
+### Size
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L21)
 
 ```csharp
 ref float Size { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **SizeSqr** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L26)
+### SizeSqr
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L25)
 
 ```csharp
 ref float SizeSqr { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **TraceResults** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L17)
+### TraceResults
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSoundOpvarSetAutoRoomEntity.cs#L17)
 
 ```csharp
-ref CUtlVector TraceResults { get; }
+ref CUtlVector<SoundOpvarTraceResult_t> TraceResults { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[SoundOpvarTraceResult_t](/docs/api/shared/schemadefinitions/soundopvartraceresult_t)>
 

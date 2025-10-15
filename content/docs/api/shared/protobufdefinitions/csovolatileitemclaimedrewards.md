@@ -6,37 +6,43 @@ title: CSOVolatileItemClaimedRewards
 public interface CSOVolatileItemClaimedRewards : ITypedProtobuf<CSOVolatileItemClaimedRewards>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Defidx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOVolatileItemClaimedRewards.cs#L13)
+### Defidx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOVolatileItemClaimedRewards.cs#L13)
 
 ```csharp
 uint Defidx { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### **GenerationTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOVolatileItemClaimedRewards.cs#L19)
+### GenerationTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOVolatileItemClaimedRewards.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> GenerationTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
-### **Reward** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOVolatileItemClaimedRewards.cs#L16)
+### Reward
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSOVolatileItemClaimedRewards.cs#L16)
 
 ```csharp
 IProtobufRepeatedFieldValueType<uint> Reward { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldValueType](/docs/api/shared/netmessages/iprotobufrepeatedfieldvaluetype-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 

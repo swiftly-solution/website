@@ -6,5 +6,5 @@ title: InfoForResourceTypeCChoreoSceneFileData
 public interface InfoForResourceTypeCChoreoSceneFileData : ISchemaClass<InfoForResourceTypeCChoreoSceneFileData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

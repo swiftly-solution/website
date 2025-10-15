@@ -6,77 +6,91 @@ title: C_INIT_SetVectorAttributeToVectorExpression
 public interface C_INIT_SetVectorAttributeToVectorExpression : CParticleFunctionInitializer, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionInitializer>, ISchemaClass<C_INIT_SetVectorAttributeToVectorExpression>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Expression** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L16)
+### Expression
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L17)
 
 ```csharp
 ref VectorExpressionType_t Expression { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [VectorExpressionType_t](/docs/api/shared/schemadefinitions/vectorexpressiontype_t)
 
-### **Input1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L18)
+### Input1
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L19)
 
 ```csharp
 CPerParticleVecInput Input1 { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-### **Input2** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L20)
+### Input2
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L21)
 
 ```csharp
 CPerParticleVecInput Input2 { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CPerParticleVecInput](/docs/api/shared/schemadefinitions/cperparticlevecinput)
 
-### **Lerp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L22)
+### Lerp
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L23)
 
 ```csharp
 CPerParticleFloatInput Lerp { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CPerParticleFloatInput](/docs/api/shared/schemadefinitions/cperparticlefloatinput)
 
-### **NormalizedOutput** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L28)
+### NormalizedOutput
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L29)
 
 ```csharp
 ref bool NormalizedOutput { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **OutputField** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L24)
+### OutputField
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L25)
 
 ```csharp
 ParticleAttributeIndex_t OutputField { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ParticleAttributeIndex_t](/docs/api/shared/schemadefinitions/particleattributeindex_t)
 
-### **SetMethod** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L26)
+### SetMethod
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_INIT_SetVectorAttributeToVectorExpression.cs#L27)
 
 ```csharp
 ref ParticleSetMethod_t SetMethod { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ParticleSetMethod_t](/docs/api/shared/schemadefinitions/particlesetmethod_t)
 

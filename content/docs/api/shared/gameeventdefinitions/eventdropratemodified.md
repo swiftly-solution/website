@@ -6,5 +6,5 @@ title: EventDropRateModified
 public interface EventDropRateModified : IGameEvent<EventDropRateModified>
 ```
 
-- Implements
+#### Implements
 

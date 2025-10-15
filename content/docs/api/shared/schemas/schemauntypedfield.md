@@ -6,59 +6,67 @@ title: SchemaUntypedField
 public class SchemaUntypedField : ISchemaClass<SchemaUntypedField>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Inheritance
+#### Inheritance
 
-- Implements
+#### Implements
 
-- Inherited Members
+#### Inherited Members
 
 ## Constructors
 
-### **SchemaUntypedField(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L12)
+### SchemaUntypedField(nint)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L13)
 
 ```csharp
 public SchemaUntypedField(nint handle)
 ```
 
-- Parameters
+#### Parameters
 
 - **handle**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
 ## Properties
 
-### **Address** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L20)
+### Address
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L23)
 
 ```csharp
 public nint Address { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-### **IsValid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L10)
+### IsValid
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L10)
 
 ```csharp
 public bool IsValid { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ## Methods
 
-### **From(nint)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L16)
+### From(nint)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaUntypedField.cs#L18)
 
 ```csharp
 public static SchemaUntypedField From(nint handle)
 ```
 
-- Parameters
+#### Parameters
 
 - **handle**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-- Returns
+#### Returns
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

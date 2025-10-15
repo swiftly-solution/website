@@ -10,6 +10,8 @@ public enum DecalMode_t : byte
 
 - **kDecalBlood**: 0
 - **kDecalCloak**: 1
+- **kDecalCloakDamage**: 2
 - **kDecalDefault**: 0
-- **kDecalMax**: 2
+- **kDecalInvalid**: 255
+- **kDecalMax**: 3
 

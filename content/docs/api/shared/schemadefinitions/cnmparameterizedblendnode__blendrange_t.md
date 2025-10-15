@@ -6,37 +6,43 @@ title: CNmParameterizedBlendNode__BlendRange_t
 public interface CNmParameterizedBlendNode__BlendRange_t : ISchemaClass<CNmParameterizedBlendNode__BlendRange_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **InputIdx0** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L16)
+### InputIdx0
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L17)
 
 ```csharp
 ref short InputIdx0 { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **InputIdx1** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L18)
+### InputIdx1
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L19)
 
 ```csharp
 ref short InputIdx1 { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **ParameterValueRange** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L21)
+### ParameterValueRange
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmParameterizedBlendNode__BlendRange_t.cs#L22)
 
 ```csharp
 SchemaUntypedField ParameterValueRange { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

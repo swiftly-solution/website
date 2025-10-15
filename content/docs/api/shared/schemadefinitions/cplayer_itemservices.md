@@ -6,49 +6,57 @@ title: CPlayer_ItemServices
 public interface CPlayer_ItemServices : CPlayerPawnComponent, ISchemaClass<CPlayerPawnComponent>, ISchemaClass<CPlayer_ItemServices>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Methods
 
-### **DropActiveItem()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L25)
+### DropActiveItem()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L25)
 
 ```csharp
 void DropActiveItem()
 ```
 
-### **GiveItem<T>()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L13)
+### GiveItem()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L13)
 
 ```csharp
 T GiveItem<T>() where T : ISchemaClass<T>
 ```
 
-- Returns
+#### Returns
 
 - T - The item that was given.
 
-- Type Parameters
+#### Type Parameters
 
 - **T**:  - The type of the item to give.
 
-### **GiveItem<T>(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L20)
+### GiveItem(string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L20)
 
 ```csharp
 T GiveItem<T>(string itemDesignerName) where T : ISchemaClass<T>
 ```
 
-- Parameters
+#### Parameters
 
 - **itemDesignerName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The designer name of the item to give.
 
-- Returns
+#### Returns
 
 - T - The item that was given.
 
-- Type Parameters
+#### Type Parameters
 
 - **T**: 
 
-### **RemoveItems()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L30)
+### RemoveItems()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L30)
 
 ```csharp
 void RemoveItems()

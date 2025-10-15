@@ -6,27 +6,31 @@ title: EventTeamInfo
 public interface EventTeamInfo : IGameEvent<EventTeamInfo>
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **TeamID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventTeamInfo.cs#L24)
+### TeamID
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventTeamInfo.cs#L24)
 
 ```csharp
 byte TeamID { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-### **Teamname** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventTeamInfo.cs#L31)
+### Teamname
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventTeamInfo.cs#L31)
 
 ```csharp
 string Teamname { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

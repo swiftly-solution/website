@@ -6,5 +6,5 @@ title: InfoForResourceTypeCVPhysXSurfacePropertiesList
 public interface InfoForResourceTypeCVPhysXSurfacePropertiesList : ISchemaClass<InfoForResourceTypeCVPhysXSurfacePropertiesList>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

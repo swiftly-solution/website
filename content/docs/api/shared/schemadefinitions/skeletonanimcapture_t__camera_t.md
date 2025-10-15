@@ -6,27 +6,31 @@ title: SkeletonAnimCapture_t__Camera_t
 public interface SkeletonAnimCapture_t__Camera_t : ISchemaClass<SkeletonAnimCapture_t__Camera_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Time** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Camera_t.cs#L18)
+### Time
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Camera_t.cs#L19)
 
 ```csharp
 ref float Time { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **TmCamera** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Camera_t.cs#L16)
+### TmCamera
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SkeletonAnimCapture_t__Camera_t.cs#L17)
 
 ```csharp
 ref CTransform TmCamera { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

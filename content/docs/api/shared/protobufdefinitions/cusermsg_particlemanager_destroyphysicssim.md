@@ -6,5 +6,5 @@ title: CUserMsg_ParticleManager_DestroyPhysicsSim
 public interface CUserMsg_ParticleManager_DestroyPhysicsSim : ITypedProtobuf<CUserMsg_ParticleManager_DestroyPhysicsSim>, INativeHandle
 ```
 
-- Implements
+#### Implements
 

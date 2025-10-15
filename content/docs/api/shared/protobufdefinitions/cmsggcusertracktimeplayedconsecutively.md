@@ -6,17 +6,19 @@ title: CMsgGCUserTrackTimePlayedConsecutively
 public interface CMsgGCUserTrackTimePlayedConsecutively : ITypedProtobuf<CMsgGCUserTrackTimePlayedConsecutively>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **State** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCUserTrackTimePlayedConsecutively.cs#L13)
+### State
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCUserTrackTimePlayedConsecutively.cs#L13)
 
 ```csharp
 uint State { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

@@ -6,5 +6,5 @@ title: EventWarmupEnd
 public interface EventWarmupEnd : IGameEvent<EventWarmupEnd>
 ```
 
-- Implements
+#### Implements
 

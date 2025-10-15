@@ -6,27 +6,31 @@ title: CMotionNodeBlend1D
 public interface CMotionNodeBlend1D : CMotionNode, ISchemaClass<CMotionNode>, ISchemaClass<CMotionNodeBlend1D>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **BlendItems** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeBlend1D.cs#L17)
+### BlendItems
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeBlend1D.cs#L17)
 
 ```csharp
-ref CUtlVector BlendItems { get; }
+ref CUtlVector<MotionBlendItem> BlendItems { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[MotionBlendItem](/docs/api/shared/schemadefinitions/motionblenditem)>
 
-### **ParamIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeBlend1D.cs#L19)
+### ParamIndex
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMotionNodeBlend1D.cs#L19)
 
 ```csharp
 ref int ParamIndex { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

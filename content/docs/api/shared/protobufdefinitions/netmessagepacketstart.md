@@ -6,5 +6,5 @@ title: NetMessagePacketStart
 public interface NetMessagePacketStart : ITypedProtobuf<NetMessagePacketStart>, INativeHandle
 ```
 
-- Implements
+#### Implements
 

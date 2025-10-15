@@ -6,5 +6,5 @@ title: InfoForResourceTypeIParticleSnapshot
 public interface InfoForResourceTypeIParticleSnapshot : ISchemaClass<InfoForResourceTypeIParticleSnapshot>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

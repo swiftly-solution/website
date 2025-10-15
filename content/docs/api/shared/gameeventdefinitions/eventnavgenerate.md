@@ -6,5 +6,5 @@ title: EventNavGenerate
 public interface EventNavGenerate : IGameEvent<EventNavGenerate>
 ```
 
-- Implements
+#### Implements
 

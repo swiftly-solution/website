@@ -6,47 +6,55 @@ title: CSequenceUpdateNode
 public interface CSequenceUpdateNode : CSequenceUpdateNodeBase, CLeafUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CLeafUpdateNode>, ISchemaClass<CSequenceUpdateNodeBase>, ISchemaClass<CSequenceUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Duration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNode.cs#L18)
+### Duration
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNode.cs#L19)
 
 ```csharp
 ref float Duration { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **ParamSpans** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNode.cs#L20)
+### ParamSpans
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNode.cs#L21)
 
 ```csharp
 CParamSpanUpdater ParamSpans { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CParamSpanUpdater](/docs/api/shared/schemadefinitions/cparamspanupdater)
 
-### **Sequence** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNode.cs#L16)
+### Sequence
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNode.cs#L17)
 
 ```csharp
 HSequence Sequence { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [HSequence](/docs/api/shared/schemadefinitions/hsequence)
 
-### **Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNode.cs#L23)
+### Tags
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceUpdateNode.cs#L23)
 
 ```csharp
-ref CUtlVector Tags { get; }
+ref CUtlVector<TagSpan_t> Tags { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[TagSpan_t](/docs/api/shared/schemadefinitions/tagspan_t)>
 

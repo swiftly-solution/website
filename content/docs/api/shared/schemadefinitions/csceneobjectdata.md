@@ -6,67 +6,79 @@ title: CSceneObjectData
 public interface CSceneObjectData : ISchemaClass<CSceneObjectData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **DrawBounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L24)
+### DrawBounds
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L23)
 
 ```csharp
-SchemaUntypedField DrawBounds { get; }
+ref CUtlLeanVector<AABB_t, int> DrawBounds { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
+- [CUtlLeanVector](/docs/api/shared/natives/cutlleanvector-2)<[AABB_t](/docs/api/shared/schemadefinitions/aabb_t), [int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-### **DrawCalls** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L21)
+### DrawCalls
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L21)
 
 ```csharp
-SchemaUntypedField DrawCalls { get; }
+ref CUtlLeanVector<CMaterialDrawDescriptor, int> DrawCalls { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
+- [CUtlLeanVector](/docs/api/shared/natives/cutlleanvector-2)<[CMaterialDrawDescriptor](/docs/api/shared/schemadefinitions/cmaterialdrawdescriptor), [int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-### **MaxBounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L18)
+### MaxBounds
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L19)
 
 ```csharp
 ref Vector MaxBounds { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **Meshlets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L27)
+### Meshlets
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L25)
 
 ```csharp
-SchemaUntypedField Meshlets { get; }
+ref CUtlLeanVector<CMeshletDescriptor, int> Meshlets { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
+- [CUtlLeanVector](/docs/api/shared/natives/cutlleanvector-2)<[CMeshletDescriptor](/docs/api/shared/schemadefinitions/cmeshletdescriptor), [int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-### **MinBounds** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L16)
+### MinBounds
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L17)
 
 ```csharp
 ref Vector MinBounds { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **TintColor** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L29)
+### TintColor
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSceneObjectData.cs#L27)
 
 ```csharp
 ref Vector4D TintColor { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector4D](/docs/api/shared/natives/vector4d)
 

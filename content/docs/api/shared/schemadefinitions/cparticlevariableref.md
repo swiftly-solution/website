@@ -6,27 +6,31 @@ title: CParticleVariableRef
 public interface CParticleVariableRef : ISchemaClass<CParticleVariableRef>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **VariableName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVariableRef.cs#L17)
+### VariableName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVariableRef.cs#L18)
 
 ```csharp
 SchemaUntypedField VariableName { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-### **VariableType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVariableRef.cs#L19)
+### VariableType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CParticleVariableRef.cs#L21)
 
 ```csharp
-ref PulseValueType_t VariableType { get; }
+SchemaUntypedField VariableType { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [PulseValueType_t](/docs/api/shared/schemadefinitions/pulsevaluetype_t)
+- [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

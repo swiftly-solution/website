@@ -6,47 +6,55 @@ title: FourCovMatrices3
 public interface FourCovMatrices3 : ISchemaClass<FourCovMatrices3>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Diag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L16)
+### Diag
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L17)
 
 ```csharp
 ref FourVectors Diag { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [FourVectors](/docs/api/shared/natives/fourvectors)
 
-### **XY** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L18)
+### XY
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L19)
 
 ```csharp
 ref fltx4 XY { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
-### **XZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L20)
+### XZ
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L21)
 
 ```csharp
 ref fltx4 XZ { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 
-### **YZ** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L22)
+### YZ
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FourCovMatrices3.cs#L23)
 
 ```csharp
 ref fltx4 YZ { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [fltx4](/docs/api/shared/natives/fltx4)
 

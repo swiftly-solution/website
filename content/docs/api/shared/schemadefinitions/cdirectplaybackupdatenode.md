@@ -6,37 +6,43 @@ title: CDirectPlaybackUpdateNode
 public interface CDirectPlaybackUpdateNode : CUnaryUpdateNode, CAnimUpdateNodeBase, ISchemaClass<CAnimUpdateNodeBase>, ISchemaClass<CUnaryUpdateNode>, ISchemaClass<CDirectPlaybackUpdateNode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AllTags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L21)
+### AllTags
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L21)
 
 ```csharp
-ref CUtlVector AllTags { get; }
+ref CUtlVector<CDirectPlaybackTagData> AllTags { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CDirectPlaybackTagData](/docs/api/shared/schemadefinitions/cdirectplaybacktagdata)>
 
-### **FinishEarly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L16)
+### FinishEarly
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L17)
 
 ```csharp
 ref bool FinishEarly { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **ResetOnFinish** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L18)
+### ResetOnFinish
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDirectPlaybackUpdateNode.cs#L19)
 
 ```csharp
 ref bool ResetOnFinish { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

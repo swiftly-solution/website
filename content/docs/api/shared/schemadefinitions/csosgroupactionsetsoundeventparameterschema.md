@@ -6,57 +6,67 @@ title: CSosGroupActionSetSoundeventParameterSchema
 public interface CSosGroupActionSetSoundeventParameterSchema : CSosGroupActionSchema, ISchemaClass<CSosGroupActionSchema>, ISchemaClass<CSosGroupActionSetSoundeventParameterSchema>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **MaxCount** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L16)
+### MaxCount
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L17)
 
 ```csharp
 ref int MaxCount { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **MaxValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L20)
+### MaxValue
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L21)
 
 ```csharp
 ref float MaxValue { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **MinValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L18)
+### MinValue
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L19)
 
 ```csharp
 ref float MinValue { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **OpvarName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L22)
+### OpvarName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L23)
 
 ```csharp
 string OpvarName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **SortType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L24)
+### SortType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSosGroupActionSetSoundeventParameterSchema.cs#L25)
 
 ```csharp
-ref SosActionSortType_t SortType { get; }
+ref SosActionSetParamSortType_t SortType { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [SosActionSortType_t](/docs/api/shared/schemadefinitions/sosactionsorttype_t)
+- [SosActionSetParamSortType_t](/docs/api/shared/schemadefinitions/sosactionsetparamsorttype_t)
 

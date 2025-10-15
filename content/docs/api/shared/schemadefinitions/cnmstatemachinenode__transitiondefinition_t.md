@@ -6,47 +6,55 @@ title: CNmStateMachineNode__TransitionDefinition_t
 public interface CNmStateMachineNode__TransitionDefinition_t : ISchemaClass<CNmStateMachineNode__TransitionDefinition_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **CanBeForced** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L22)
+### CanBeForced
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L23)
 
 ```csharp
 ref bool CanBeForced { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **ConditionNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L18)
+### ConditionNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L19)
 
 ```csharp
 ref short ConditionNodeIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **TargetStateIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L16)
+### TargetStateIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L17)
 
 ```csharp
 ref short TargetStateIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **TransitionNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L20)
+### TransitionNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmStateMachineNode__TransitionDefinition_t.cs#L21)
 
 ```csharp
 ref short TransitionNodeIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 

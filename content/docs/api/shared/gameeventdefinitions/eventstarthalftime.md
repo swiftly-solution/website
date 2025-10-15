@@ -6,5 +6,5 @@ title: EventStartHalftime
 public interface EventStartHalftime : IGameEvent<EventStartHalftime>
 ```
 
-- Implements
+#### Implements
 

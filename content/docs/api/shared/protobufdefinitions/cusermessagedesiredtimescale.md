@@ -6,47 +6,55 @@ title: CUserMessageDesiredTimescale
 public interface CUserMessageDesiredTimescale : ITypedProtobuf<CUserMessageDesiredTimescale>, INativeHandle, INetMessage<CUserMessageDesiredTimescale>, IDisposable
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Acceleration** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageDesiredTimescale.cs#L21)
+### Acceleration
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageDesiredTimescale.cs#L21)
 
 ```csharp
 float Acceleration { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Blenddeltamultiplier** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageDesiredTimescale.cs#L27)
+### Blenddeltamultiplier
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageDesiredTimescale.cs#L27)
 
 ```csharp
 float Blenddeltamultiplier { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Desired** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageDesiredTimescale.cs#L18)
+### Desired
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageDesiredTimescale.cs#L18)
 
 ```csharp
 float Desired { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **Minblendrate** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageDesiredTimescale.cs#L24)
+### Minblendrate
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CUserMessageDesiredTimescale.cs#L24)
 
 ```csharp
 float Minblendrate { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

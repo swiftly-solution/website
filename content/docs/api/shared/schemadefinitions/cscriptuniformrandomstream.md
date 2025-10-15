@@ -6,27 +6,31 @@ title: CScriptUniformRandomStream
 public interface CScriptUniformRandomStream : ISchemaClass<CScriptUniformRandomStream>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **InitialSeed** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptUniformRandomStream.cs#L19)
+### InitialSeed
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptUniformRandomStream.cs#L20)
 
 ```csharp
 ref int InitialSeed { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **ScriptScope** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptUniformRandomStream.cs#L17)
+### ScriptScope
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CScriptUniformRandomStream.cs#L18)
 
 ```csharp
 SchemaUntypedField ScriptScope { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 

@@ -6,27 +6,31 @@ title: CSVCMsg_RconServerDetails
 public interface CSVCMsg_RconServerDetails : ITypedProtobuf<CSVCMsg_RconServerDetails>, INativeHandle, INetMessage<CSVCMsg_RconServerDetails>, IDisposable
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Details** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_RconServerDetails.cs#L21)
+### Details
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_RconServerDetails.cs#L21)
 
 ```csharp
 string Details { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **Token** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_RconServerDetails.cs#L18)
+### Token
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_RconServerDetails.cs#L18)
 
 ```csharp
 byte[] Token { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)[]
 

@@ -6,37 +6,43 @@ title: CSVCMsg_GameEvent
 public interface CSVCMsg_GameEvent : ITypedProtobuf<CSVCMsg_GameEvent>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **EventName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEvent.cs#L13)
+### EventName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEvent.cs#L13)
 
 ```csharp
 string EventName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **Eventid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEvent.cs#L16)
+### Eventid
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEvent.cs#L16)
 
 ```csharp
 int Eventid { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **Keys** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEvent.cs#L19)
+### Keys
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CSVCMsg_GameEvent.cs#L19)
 
 ```csharp
 IProtobufRepeatedFieldSubMessageType<CSVCMsg_GameEvent_key_t> Keys { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IProtobufRepeatedFieldSubMessageType](/docs/api/shared/netmessages/iprotobufrepeatedfieldsubmessagetype-1)<[CSVCMsg_GameEvent_key_t](/docs/api/shared/protobufdefinitions/csvcmsg_gameevent_key_t)>
 

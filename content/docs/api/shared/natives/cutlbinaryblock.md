@@ -6,5 +6,5 @@ title: CUtlBinaryBlock
 public struct CUtlBinaryBlock
 ```
 
-- Inherited Members
+#### Inherited Members
 

@@ -6,27 +6,31 @@ title: EventInventoryUpdated
 public interface EventInventoryUpdated : IGameEvent<EventInventoryUpdated>
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ItemDef** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInventoryUpdated.cs#L21)
+### ItemDef
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInventoryUpdated.cs#L21)
 
 ```csharp
 short ItemDef { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **Itemid** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInventoryUpdated.cs#L26)
+### Itemid
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/GameEvents/Interfaces/EventInventoryUpdated.cs#L26)
 
 ```csharp
 int Itemid { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

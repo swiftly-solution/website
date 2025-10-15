@@ -6,17 +6,19 @@ title: CAnimScriptManager
 public interface CAnimScriptManager : ISchemaClass<CAnimScriptManager>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ScriptInfo** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimScriptManager.cs#L17)
+### ScriptInfo
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimScriptManager.cs#L17)
 
 ```csharp
-ref CUtlVector ScriptInfo { get; }
+ref CUtlVector<ScriptInfo_t> ScriptInfo { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[ScriptInfo_t](/docs/api/shared/schemadefinitions/scriptinfo_t)>
 

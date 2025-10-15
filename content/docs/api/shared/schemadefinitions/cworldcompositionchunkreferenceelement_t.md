@@ -6,27 +6,31 @@ title: CWorldCompositionChunkReferenceElement_t
 public interface CWorldCompositionChunkReferenceElement_t : ISchemaClass<CWorldCompositionChunkReferenceElement_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **StrLandmarkName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWorldCompositionChunkReferenceElement_t.cs#L18)
+### StrLandmarkName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWorldCompositionChunkReferenceElement_t.cs#L19)
 
 ```csharp
 string StrLandmarkName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **StrMapToLoad** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWorldCompositionChunkReferenceElement_t.cs#L16)
+### StrMapToLoad
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CWorldCompositionChunkReferenceElement_t.cs#L17)
 
 ```csharp
 string StrMapToLoad { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

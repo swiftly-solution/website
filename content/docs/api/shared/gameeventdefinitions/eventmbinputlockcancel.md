@@ -6,5 +6,5 @@ title: EventMbInputLockCancel
 public interface EventMbInputLockCancel : IGameEvent<EventMbInputLockCancel>
 ```
 
-- Implements
+#### Implements
 

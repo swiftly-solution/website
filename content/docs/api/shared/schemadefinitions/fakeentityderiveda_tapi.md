@@ -6,5 +6,5 @@ title: FakeEntityDerivedA_tAPI
 public interface FakeEntityDerivedA_tAPI : ISchemaClass<FakeEntityDerivedA_tAPI>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

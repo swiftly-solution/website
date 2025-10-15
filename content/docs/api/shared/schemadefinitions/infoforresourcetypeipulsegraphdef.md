@@ -6,5 +6,5 @@ title: InfoForResourceTypeIPulseGraphDef
 public interface InfoForResourceTypeIPulseGraphDef : ISchemaClass<InfoForResourceTypeIPulseGraphDef>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

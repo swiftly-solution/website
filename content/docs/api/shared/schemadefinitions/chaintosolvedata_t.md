@@ -6,67 +6,79 @@ title: ChainToSolveData_t
 public interface ChainToSolveData_t : ISchemaClass<ChainToSolveData_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ChainIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L16)
+### ChainIndex
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L17)
 
 ```csharp
 ref int ChainIndex { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **DebugNormalizedValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L24)
+### DebugNormalizedValue
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L25)
 
 ```csharp
 ref float DebugNormalizedValue { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **DebugOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L26)
+### DebugOffset
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L27)
 
 ```csharp
 ref Vector DebugOffset { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **DebugSetting** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L22)
+### DebugSetting
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L23)
 
 ```csharp
 ref SolveIKChainAnimNodeDebugSetting DebugSetting { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SolveIKChainAnimNodeDebugSetting](/docs/api/shared/schemadefinitions/solveikchainanimnodedebugsetting)
 
-### **SolverSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L18)
+### SolverSettings
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L19)
 
 ```csharp
 IKSolverSettings_t SolverSettings { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IKSolverSettings_t](/docs/api/shared/schemadefinitions/iksolversettings_t)
 
-### **TargetSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L20)
+### TargetSettings
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ChainToSolveData_t.cs#L21)
 
 ```csharp
 IKTargetSettings_t TargetSettings { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [IKTargetSettings_t](/docs/api/shared/schemadefinitions/iktargetsettings_t)
 

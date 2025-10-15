@@ -6,27 +6,31 @@ title: CResponseCriteriaSet
 public interface CResponseCriteriaSet : ISchemaClass<CResponseCriteriaSet>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **NumPrefixedContexts** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CResponseCriteriaSet.cs#L16)
+### NumPrefixedContexts
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CResponseCriteriaSet.cs#L17)
 
 ```csharp
 ref int NumPrefixedContexts { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **OverrideOnAppend** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CResponseCriteriaSet.cs#L18)
+### OverrideOnAppend
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CResponseCriteriaSet.cs#L19)
 
 ```csharp
 ref bool OverrideOnAppend { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

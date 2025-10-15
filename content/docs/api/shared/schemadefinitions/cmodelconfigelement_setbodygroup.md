@@ -6,27 +6,31 @@ title: CModelConfigElement_SetBodygroup
 public interface CModelConfigElement_SetBodygroup : CModelConfigElement, ISchemaClass<CModelConfigElement>, ISchemaClass<CModelConfigElement_SetBodygroup>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Choice** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroup.cs#L18)
+### Choice
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroup.cs#L19)
 
 ```csharp
 ref int Choice { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **GroupName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroup.cs#L16)
+### GroupName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CModelConfigElement_SetBodygroup.cs#L17)
 
 ```csharp
 ref CGlobalSymbol GroupName { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 

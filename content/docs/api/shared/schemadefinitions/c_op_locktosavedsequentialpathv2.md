@@ -6,47 +6,55 @@ title: C_OP_LockToSavedSequentialPathV2
 public interface C_OP_LockToSavedSequentialPathV2 : CParticleFunctionOperator, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionOperator>, ISchemaClass<C_OP_LockToSavedSequentialPathV2>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **CPPairs** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L20)
+### CPPairs
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L21)
 
 ```csharp
 ref bool CPPairs { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **FadeEnd** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L18)
+### FadeEnd
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L19)
 
 ```csharp
 ref float FadeEnd { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **FadeStart** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L16)
+### FadeStart
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L17)
 
 ```csharp
 ref float FadeStart { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **PathParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L22)
+### PathParams
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_LockToSavedSequentialPathV2.cs#L23)
 
 ```csharp
 CPathParameters PathParams { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CPathParameters](/docs/api/shared/schemadefinitions/cpathparameters)
 

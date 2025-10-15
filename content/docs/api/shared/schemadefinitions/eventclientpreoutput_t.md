@@ -6,67 +6,79 @@ title: EventClientPreOutput_t
 public interface EventClientPreOutput_t : ISchemaClass<EventClientPreOutput_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **LoopState** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L16)
+### LoopState
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L17)
 
 ```csharp
 EngineLoopState_t LoopState { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [EngineLoopState_t](/docs/api/shared/schemadefinitions/engineloopstate_t)
 
-### **RealTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L24)
+### RealTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L25)
 
 ```csharp
 ref float RealTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **RenderFrameTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L20)
+### RenderFrameTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L21)
 
 ```csharp
 ref double RenderFrameTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### **RenderFrameTimeUnbounded** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L22)
+### RenderFrameTimeUnbounded
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L23)
 
 ```csharp
 ref double RenderFrameTimeUnbounded { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### **RenderOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L26)
+### RenderOnly
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L27)
 
 ```csharp
 ref bool RenderOnly { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **RenderTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L18)
+### RenderTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/EventClientPreOutput_t.cs#L19)
 
 ```csharp
 ref double RenderTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [double](https://learn.microsoft.com/dotnet/api/system.double)
 

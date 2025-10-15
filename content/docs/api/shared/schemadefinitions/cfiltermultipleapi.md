@@ -6,5 +6,5 @@ title: CFilterMultipleAPI
 public interface CFilterMultipleAPI : ISchemaClass<CFilterMultipleAPI>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

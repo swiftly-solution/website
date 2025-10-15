@@ -6,5 +6,5 @@ title: CPulseTestScriptLib
 public interface CPulseTestScriptLib : ISchemaClass<CPulseTestScriptLib>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

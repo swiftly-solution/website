@@ -1,5 +1,5 @@
 ---
-title: EventListener<T>
+title: EventListener
 ---
 
 ```csharp
@@ -7,17 +7,19 @@ title: EventListener<T>
 public class EventListener<T> : Attribute where T : Delegate
 ```
 
-- Type Parameters
+#### Type Parameters
 
 - **T**: 
 
-- Inheritance
+#### Inheritance
 
-- Inherited Members
+#### Inherited Members
 
 ## Constructors
 
-### **EventListener()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventHandlerAttribute.cs#L7)
+### EventListener()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventHandlerAttribute.cs#L7)
 
 ```csharp
 public EventListener()

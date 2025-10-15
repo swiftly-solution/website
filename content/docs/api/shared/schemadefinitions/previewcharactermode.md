@@ -12,6 +12,7 @@ public enum PreviewCharacterMode : uint
 - **BUY_MENU**: 2
 - **DIORAMA**: 0
 - **END_OF_MATCH**: 4
+- **INVALID**: 4294967295
 - **INVENTORY_INSPECT**: 5
 - **MAIN_MENU**: 1
 - **TEAM_INTRO**: 7

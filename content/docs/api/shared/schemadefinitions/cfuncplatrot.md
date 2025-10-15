@@ -6,27 +6,31 @@ title: CFuncPlatRot
 public interface CFuncPlatRot : CFuncPlat, CBasePlatTrain, CBaseToggle, CBaseModelEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CBaseModelEntity>, ISchemaClass<CBaseToggle>, ISchemaClass<CBasePlatTrain>, ISchemaClass<CFuncPlat>, ISchemaClass<CFuncPlatRot>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **End** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncPlatRot.cs#L16)
+### End
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncPlatRot.cs#L17)
 
 ```csharp
 ref QAngle End { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 
-### **Start** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncPlatRot.cs#L18)
+### Start
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CFuncPlatRot.cs#L19)
 
 ```csharp
 ref QAngle Start { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [QAngle](/docs/api/shared/natives/qangle)
 

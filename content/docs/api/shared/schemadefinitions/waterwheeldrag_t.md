@@ -6,27 +6,31 @@ title: WaterWheelDrag_t
 public interface WaterWheelDrag_t : ISchemaClass<WaterWheelDrag_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **FractionOfWheelSubmerged** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WaterWheelDrag_t.cs#L16)
+### FractionOfWheelSubmerged
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WaterWheelDrag_t.cs#L17)
 
 ```csharp
 ref float FractionOfWheelSubmerged { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **WheelDrag** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WaterWheelDrag_t.cs#L18)
+### WheelDrag
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/WaterWheelDrag_t.cs#L19)
 
 ```csharp
 ref float WheelDrag { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

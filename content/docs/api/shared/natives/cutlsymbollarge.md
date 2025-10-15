@@ -6,47 +6,53 @@ title: CUtlSymbolLarge
 public struct CUtlSymbolLarge
 ```
 
-- Inherited Members
+#### Inherited Members
 
 ## Properties
 
-### **Value** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L12)
+### Value
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L12)
 
 ```csharp
 public string Value { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 ## Operators
 
-### **implicit operator string(CUtlSymbolLarge)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L22)
+### implicit operator string(CUtlSymbolLarge)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L22)
 
 ```csharp
 public static implicit operator string(CUtlSymbolLarge symbol)
 ```
 
-- Parameters
+#### Parameters
 
 - **symbol**: [CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)
 
-- Returns
+#### Returns
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **implicit operator CUtlSymbolLarge(string)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L24)
+### implicit operator CUtlSymbolLarge(string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlSymbolLarge.cs#L24)
 
 ```csharp
 public static implicit operator CUtlSymbolLarge(string value)
 ```
 
-- Parameters
+#### Parameters
 
 - **value**: [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-- Returns
+#### Returns
 
 - [CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge)
 

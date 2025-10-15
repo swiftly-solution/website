@@ -6,5 +6,5 @@ title: InfoForResourceTypeCVoxelVisibility
 public interface InfoForResourceTypeCVoxelVisibility : ISchemaClass<InfoForResourceTypeCVoxelVisibility>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

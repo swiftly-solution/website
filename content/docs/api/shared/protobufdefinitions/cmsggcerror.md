@@ -6,17 +6,19 @@ title: CMsgGCError
 public interface CMsgGCError : ITypedProtobuf<CMsgGCError>, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ErrorText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCError.cs#L13)
+### ErrorText
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgGCError.cs#L13)
 
 ```csharp
 string ErrorText { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

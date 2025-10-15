@@ -17,6 +17,7 @@ public enum PreviewEOMCelebration : uint
 - **GENDARMERIE_DEFEAT**: 13
 - **GUERILLA**: 7
 - **GUERILLA02**: 8
+- **INVALID**: 4294967295
 - **MAE_DEFEAT**: 14
 - **MASK_F**: 6
 - **MUHLIK_DEFEAT**: 21

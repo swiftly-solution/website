@@ -6,57 +6,67 @@ title: CAnimData
 public interface CAnimData : ISchemaClass<CAnimData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AnimArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L19)
+### AnimArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L19)
 
 ```csharp
-ref CUtlVector AnimArray { get; }
+ref CUtlVector<CAnimDesc> AnimArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CAnimDesc](/docs/api/shared/schemadefinitions/canimdesc)>
 
-### **DecoderArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L22)
+### DecoderArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L21)
 
 ```csharp
-ref CUtlVector DecoderArray { get; }
+ref CUtlVector<CAnimDecoder> DecoderArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CAnimDecoder](/docs/api/shared/schemadefinitions/canimdecoder)>
 
-### **MaxUniqueFrameIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L24)
+### MaxUniqueFrameIndex
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L23)
 
 ```csharp
 ref int MaxUniqueFrameIndex { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L16)
+### Name
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L17)
 
 ```csharp
 ref CBufferString Name { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-### **SegmentArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L27)
+### SegmentArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimData.cs#L25)
 
 ```csharp
-ref CUtlVector SegmentArray { get; }
+ref CUtlVector<CAnimFrameSegment> SegmentArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CAnimFrameSegment](/docs/api/shared/schemadefinitions/canimframesegment)>
 

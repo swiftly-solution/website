@@ -6,7 +6,7 @@ title: EventDelegates.OnEntityParentChanged
 public delegate void EventDelegates.OnEntityParentChanged(IOnEntityParentChangedEvent @event)
 ```
 
-- Parameters
+#### Parameters
 
 - **event**: [IOnEntityParentChangedEvent](/docs/api/shared/events/ionentityparentchangedevent)
 

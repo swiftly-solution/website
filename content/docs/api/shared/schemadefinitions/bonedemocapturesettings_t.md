@@ -6,77 +6,91 @@ title: BoneDemoCaptureSettings_t
 public interface BoneDemoCaptureSettings_t : ISchemaClass<BoneDemoCaptureSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **BoneName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L16)
+### BoneName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L17)
 
 ```csharp
 string BoneName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **ErrorQuantizationRotationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L24)
+### ErrorQuantizationRotationMax
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L25)
 
 ```csharp
 ref float ErrorQuantizationRotationMax { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **ErrorQuantizationScaleMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L28)
+### ErrorQuantizationScaleMax
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L29)
 
 ```csharp
 ref float ErrorQuantizationScaleMax { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **ErrorQuantizationTranslationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L26)
+### ErrorQuantizationTranslationMax
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L27)
 
 ```csharp
 ref float ErrorQuantizationTranslationMax { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **ErrorSplineRotationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L18)
+### ErrorSplineRotationMax
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L19)
 
 ```csharp
 ref float ErrorSplineRotationMax { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **ErrorSplineScaleMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L22)
+### ErrorSplineScaleMax
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L23)
 
 ```csharp
 ref float ErrorSplineScaleMax { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **ErrorSplineTranslationMax** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L20)
+### ErrorSplineTranslationMax
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/BoneDemoCaptureSettings_t.cs#L21)
 
 ```csharp
 ref float ErrorSplineTranslationMax { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

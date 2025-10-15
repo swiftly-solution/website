@@ -6,5 +6,5 @@ title: CMsgGCCStrike15_v2_Client2GcAckXPShopTracks
 public interface CMsgGCCStrike15_v2_Client2GcAckXPShopTracks : ITypedProtobuf<CMsgGCCStrike15_v2_Client2GcAckXPShopTracks>, INativeHandle
 ```
 
-- Implements
+#### Implements
 

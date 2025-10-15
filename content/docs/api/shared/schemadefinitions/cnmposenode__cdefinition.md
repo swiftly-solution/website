@@ -6,5 +6,5 @@ title: CNmPoseNode__CDefinition
 public interface CNmPoseNode__CDefinition : CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmPoseNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

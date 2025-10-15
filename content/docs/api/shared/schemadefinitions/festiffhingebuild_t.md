@@ -6,47 +6,55 @@ title: FeStiffHingeBuild_t
 public interface FeStiffHingeBuild_t : ISchemaClass<FeStiffHingeBuild_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **MaxAngle** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L16)
+### MaxAngle
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L17)
 
 ```csharp
 ref float MaxAngle { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **MotionBias** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L20)
+### MotionBias
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L21)
 
 ```csharp
 ISchemaFixedArray<float> MotionBias { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)>
 
-### **Node** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L22)
+### Node
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L23)
 
 ```csharp
 ISchemaFixedArray<ushort> Node { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[ushort](https://learn.microsoft.com/dotnet/api/system.uint16)>
 
-### **Strength** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L18)
+### Strength
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeStiffHingeBuild_t.cs#L19)
 
 ```csharp
 ref float Strength { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

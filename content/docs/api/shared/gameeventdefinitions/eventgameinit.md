@@ -6,5 +6,5 @@ title: EventGameInit
 public interface EventGameInit : IGameEvent<EventGameInit>
 ```
 
-- Implements
+#### Implements
 

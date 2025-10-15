@@ -6,27 +6,31 @@ title: CBodyGroupAnimTag
 public interface CBodyGroupAnimTag : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CBodyGroupAnimTag>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **BodyGroupSettings** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupAnimTag.cs#L19)
+### BodyGroupSettings
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupAnimTag.cs#L19)
 
 ```csharp
-ref CUtlVector BodyGroupSettings { get; }
+ref CUtlVector<CBodyGroupSetting> BodyGroupSettings { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CBodyGroupSetting](/docs/api/shared/schemadefinitions/cbodygroupsetting)>
 
-### **Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupAnimTag.cs#L16)
+### Priority
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBodyGroupAnimTag.cs#L17)
 
 ```csharp
 ref int Priority { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

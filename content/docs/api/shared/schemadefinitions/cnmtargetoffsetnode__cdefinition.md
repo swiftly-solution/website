@@ -6,47 +6,55 @@ title: CNmTargetOffsetNode__CDefinition
 public interface CNmTargetOffsetNode__CDefinition : CNmTargetValueNode__CDefinition, CNmValueNode__CDefinition, CNmGraphNode__CDefinition, ISchemaClass<CNmGraphNode__CDefinition>, ISchemaClass<CNmValueNode__CDefinition>, ISchemaClass<CNmTargetValueNode__CDefinition>, ISchemaClass<CNmTargetOffsetNode__CDefinition>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **InputValueNodeIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetOffsetNode__CDefinition.cs#L16)
+### InputValueNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetOffsetNode__CDefinition.cs#L17)
 
 ```csharp
 ref short InputValueNodeIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [short](https://learn.microsoft.com/dotnet/api/system.int16)
 
-### **IsBoneSpaceOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetOffsetNode__CDefinition.cs#L18)
+### IsBoneSpaceOffset
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetOffsetNode__CDefinition.cs#L19)
 
 ```csharp
 ref bool IsBoneSpaceOffset { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **RotationOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetOffsetNode__CDefinition.cs#L20)
+### RotationOffset
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetOffsetNode__CDefinition.cs#L21)
 
 ```csharp
 ref Quaternion RotationOffset { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Quaternion](/docs/api/shared/natives/quaternion)
 
-### **TranslationOffset** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetOffsetNode__CDefinition.cs#L22)
+### TranslationOffset
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmTargetOffsetNode__CDefinition.cs#L23)
 
 ```csharp
 ref Vector TranslationOffset { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

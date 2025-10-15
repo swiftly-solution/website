@@ -6,5 +6,5 @@ title: CPulseCursorFuncs
 public interface CPulseCursorFuncs : ISchemaClass<CPulseCursorFuncs>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

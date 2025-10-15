@@ -6,5 +6,5 @@ title: CWarpSectionAnimTagBase
 public interface CWarpSectionAnimTagBase : CAnimTagBase, ISchemaClass<CAnimTagBase>, ISchemaClass<CWarpSectionAnimTagBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

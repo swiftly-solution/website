@@ -6,17 +6,19 @@ title: CNetworkTransmitComponent
 public interface CNetworkTransmitComponent : ISchemaClass<CNetworkTransmitComponent>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **TransmitStateOwnedCounter** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkTransmitComponent.cs#L16)
+### TransmitStateOwnedCounter
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNetworkTransmitComponent.cs#L17)
 
 ```csharp
 ref byte TransmitStateOwnedCounter { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

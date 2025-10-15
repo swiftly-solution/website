@@ -6,27 +6,31 @@ title: CAnimationGraphVisualizerAxis
 public interface CAnimationGraphVisualizerAxis : CAnimationGraphVisualizerPrimitiveBase, ISchemaClass<CAnimationGraphVisualizerPrimitiveBase>, ISchemaClass<CAnimationGraphVisualizerAxis>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AxisSize** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerAxis.cs#L18)
+### AxisSize
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerAxis.cs#L19)
 
 ```csharp
 ref float AxisSize { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **XWsTransform** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerAxis.cs#L16)
+### XWsTransform
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimationGraphVisualizerAxis.cs#L17)
 
 ```csharp
 ref CTransform XWsTransform { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 

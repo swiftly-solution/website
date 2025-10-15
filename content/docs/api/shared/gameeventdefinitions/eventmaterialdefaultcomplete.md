@@ -6,5 +6,5 @@ title: EventMaterialDefaultComplete
 public interface EventMaterialDefaultComplete : IGameEvent<EventMaterialDefaultComplete>
 ```
 
-- Implements
+#### Implements
 

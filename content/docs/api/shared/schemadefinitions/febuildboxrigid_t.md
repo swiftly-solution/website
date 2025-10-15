@@ -6,37 +6,43 @@ title: FeBuildBoxRigid_t
 public interface FeBuildBoxRigid_t : FeBoxRigid_t, ISchemaClass<FeBoxRigid_t>, ISchemaClass<FeBuildBoxRigid_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AntitunnelGroupBits** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildBoxRigid_t.cs#L20)
+### AntitunnelGroupBits
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildBoxRigid_t.cs#L21)
 
 ```csharp
 ref uint AntitunnelGroupBits { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### **Priority** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildBoxRigid_t.cs#L16)
+### Priority
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildBoxRigid_t.cs#L17)
 
 ```csharp
 ref int Priority { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **VertexMapHash** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildBoxRigid_t.cs#L18)
+### VertexMapHash
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FeBuildBoxRigid_t.cs#L19)
 
 ```csharp
 ref uint VertexMapHash { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 

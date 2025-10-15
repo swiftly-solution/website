@@ -6,5 +6,5 @@ title: QuestProgress
 public interface QuestProgress : ISchemaClass<QuestProgress>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

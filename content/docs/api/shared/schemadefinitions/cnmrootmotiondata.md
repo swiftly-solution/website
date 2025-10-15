@@ -6,57 +6,67 @@ title: CNmRootMotionData
 public interface CNmRootMotionData : ISchemaClass<CNmRootMotionData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **AverageAngularVelocityRadians** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L22)
+### AverageAngularVelocityRadians
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L23)
 
 ```csharp
 ref float AverageAngularVelocityRadians { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **AverageLinearVelocity** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L20)
+### AverageLinearVelocity
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L21)
 
 ```csharp
 ref float AverageLinearVelocity { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **NumFrames** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L18)
+### NumFrames
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L19)
 
 ```csharp
 ref int NumFrames { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **TotalDelta** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L24)
+### TotalDelta
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L25)
 
 ```csharp
 ref CTransform TotalDelta { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CTransform](/docs/api/shared/natives/ctransform)
 
-### **Transforms** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L16)
+### Transforms
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmRootMotionData.cs#L17)
 
 ```csharp
 ref CUtlVector<CTransform> Transforms { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 

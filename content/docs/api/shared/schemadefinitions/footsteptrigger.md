@@ -6,37 +6,43 @@ title: FootStepTrigger
 public interface FootStepTrigger : ISchemaClass<FootStepTrigger>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **FootIndex** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L18)
+### FootIndex
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L19)
 
 ```csharp
 ref int FootIndex { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **Tags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L16)
+### Tags
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L17)
 
 ```csharp
 ref CUtlVector<int> Tags { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-### **TriggerPhase** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L20)
+### TriggerPhase
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/FootStepTrigger.cs#L21)
 
 ```csharp
 ref StepPhase TriggerPhase { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [StepPhase](/docs/api/shared/schemadefinitions/stepphase)
 

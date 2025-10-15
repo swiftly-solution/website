@@ -6,37 +6,43 @@ title: CNmIKRig
 public interface CNmIKRig : ISchemaClass<CNmIKRig>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Bodies** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L19)
+### Bodies
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L19)
 
 ```csharp
-ref CUtlVector Bodies { get; }
+ref CUtlVector<CNmIKBody> Bodies { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CNmIKBody](/docs/api/shared/schemadefinitions/cnmikbody)>
 
-### **Joints** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L22)
+### Joints
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L21)
 
 ```csharp
-ref CUtlVector Joints { get; }
+ref CUtlVector<CNmIKJoint> Joints { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CNmIKJoint](/docs/api/shared/schemadefinitions/cnmikjoint)>
 
-### **Skeleton** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L16)
+### Skeleton
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmIKRig.cs#L17)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCNmSkeleton> Skeleton { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCNmSkeleton](/docs/api/shared/schemadefinitions/infoforresourcetypecnmskeleton)>
 

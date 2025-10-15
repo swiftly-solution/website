@@ -6,17 +6,19 @@ title: CNavVolumeVector
 public interface CNavVolumeVector : CNavVolume, ISchemaClass<CNavVolume>, ISchemaClass<CNavVolumeVector>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **HasBeenPreFiltered** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeVector.cs#L16)
+### HasBeenPreFiltered
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNavVolumeVector.cs#L17)
 
 ```csharp
 ref bool HasBeenPreFiltered { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

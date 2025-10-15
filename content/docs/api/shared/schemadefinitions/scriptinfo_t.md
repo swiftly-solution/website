@@ -6,57 +6,67 @@ title: ScriptInfo_t
 public interface ScriptInfo_t : ISchemaClass<ScriptInfo_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Code** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ScriptInfo_t.cs#L16)
+### Code
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ScriptInfo_t.cs#L17)
 
 ```csharp
 string Code { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **ParamsModified** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ScriptInfo_t.cs#L19)
+### ParamsModified
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ScriptInfo_t.cs#L19)
 
 ```csharp
-ref CUtlVector ParamsModified { get; }
+ref CUtlVector<CAnimParamHandle> ParamsModified { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CAnimParamHandle](/docs/api/shared/schemadefinitions/canimparamhandle)>
 
-### **ProxyReadParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ScriptInfo_t.cs#L21)
+### ProxyReadParams
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ScriptInfo_t.cs#L21)
 
 ```csharp
 ref CUtlVector<int> ProxyReadParams { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-### **ProxyWriteParams** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ScriptInfo_t.cs#L23)
+### ProxyWriteParams
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ScriptInfo_t.cs#L23)
 
 ```csharp
 ref CUtlVector<int> ProxyWriteParams { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-### **ScriptType** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ScriptInfo_t.cs#L25)
+### ScriptType
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ScriptInfo_t.cs#L25)
 
 ```csharp
 ref AnimScriptType ScriptType { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [AnimScriptType](/docs/api/shared/schemadefinitions/animscripttype)
 

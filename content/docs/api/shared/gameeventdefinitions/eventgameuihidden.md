@@ -6,5 +6,5 @@ title: EventGameuiHidden
 public interface EventGameuiHidden : IGameEvent<EventGameuiHidden>
 ```
 
-- Implements
+#### Implements
 

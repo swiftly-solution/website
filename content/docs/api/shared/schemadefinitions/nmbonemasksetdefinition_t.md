@@ -6,37 +6,43 @@ title: NmBoneMaskSetDefinition_t
 public interface NmBoneMaskSetDefinition_t : ISchemaClass<NmBoneMaskSetDefinition_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ID** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L16)
+### ID
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L17)
 
 ```csharp
 ref CGlobalSymbol ID { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CGlobalSymbol](/docs/api/shared/natives/cglobalsymbol)
 
-### **PrimaryWeightList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L18)
+### PrimaryWeightList
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L19)
 
 ```csharp
 CNmBoneWeightList PrimaryWeightList { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CNmBoneWeightList](/docs/api/shared/schemadefinitions/cnmboneweightlist)
 
-### **SecondaryWeightLists** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L21)
+### SecondaryWeightLists
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmBoneMaskSetDefinition_t.cs#L21)
 
 ```csharp
-SchemaUntypedField SecondaryWeightLists { get; }
+ref CUtlLeanVector<CNmBoneWeightList, int> SecondaryWeightLists { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
+- [CUtlLeanVector](/docs/api/shared/natives/cutlleanvector-2)<[CNmBoneWeightList](/docs/api/shared/schemadefinitions/cnmboneweightlist), [int](https://learn.microsoft.com/dotnet/api/system.int32)>
 

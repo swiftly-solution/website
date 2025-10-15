@@ -6,17 +6,19 @@ title: PulseNodeDynamicOutflows_t
 public interface PulseNodeDynamicOutflows_t : ISchemaClass<PulseNodeDynamicOutflows_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Outflows** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseNodeDynamicOutflows_t.cs#L17)
+### Outflows
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/PulseNodeDynamicOutflows_t.cs#L17)
 
 ```csharp
-ref CUtlVector Outflows { get; }
+ref CUtlVector<PulseNodeDynamicOutflows_t__DynamicOutflow_t> Outflows { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[PulseNodeDynamicOutflows_t__DynamicOutflow_t](/docs/api/shared/schemadefinitions/pulsenodedynamicoutflows_t__dynamicoutflow_t)>
 

@@ -6,27 +6,31 @@ title: NmSyncTrackTimeRange_t
 public interface NmSyncTrackTimeRange_t : ISchemaClass<NmSyncTrackTimeRange_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **EndTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmSyncTrackTimeRange_t.cs#L18)
+### EndTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmSyncTrackTimeRange_t.cs#L19)
 
 ```csharp
 NmSyncTrackTime_t EndTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [NmSyncTrackTime_t](/docs/api/shared/schemadefinitions/nmsynctracktime_t)
 
-### **StartTime** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmSyncTrackTimeRange_t.cs#L16)
+### StartTime
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/NmSyncTrackTimeRange_t.cs#L17)
 
 ```csharp
 NmSyncTrackTime_t StartTime { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [NmSyncTrackTime_t](/docs/api/shared/schemadefinitions/nmsynctracktime_t)
 

@@ -6,17 +6,19 @@ title: SampleCode
 public interface SampleCode : ISchemaClass<SampleCode>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **SubCode** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SampleCode.cs#L16)
+### SubCode
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SampleCode.cs#L17)
 
 ```csharp
 ISchemaFixedArray<byte> SubCode { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ISchemaFixedArray](/docs/api/shared/schemas/ischemafixedarray-1)<[byte](https://learn.microsoft.com/dotnet/api/system.byte)>
 

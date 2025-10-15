@@ -6,27 +6,31 @@ title: CBoneConstraintPoseSpaceBone__Input_t
 public interface CBoneConstraintPoseSpaceBone__Input_t : ISchemaClass<CBoneConstraintPoseSpaceBone__Input_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **InputValue** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone__Input_t.cs#L16)
+### InputValue
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone__Input_t.cs#L17)
 
 ```csharp
 ref Vector InputValue { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 
-### **OutputTransformList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone__Input_t.cs#L18)
+### OutputTransformList
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBoneConstraintPoseSpaceBone__Input_t.cs#L19)
 
 ```csharp
 ref CUtlVector<CTransform> OutputTransformList { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[CTransform](/docs/api/shared/natives/ctransform)>
 

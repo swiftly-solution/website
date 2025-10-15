@@ -6,47 +6,55 @@ title: CBaseConstraint
 public interface CBaseConstraint : CBoneConstraintBase, ISchemaClass<CBoneConstraintBase>, ISchemaClass<CBaseConstraint>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L16)
+### Name
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L17)
 
 ```csharp
 string Name { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **Slaves** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L21)
+### Slaves
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L21)
 
 ```csharp
-SchemaUntypedField Slaves { get; }
+ref CUtlLeanVector<CConstraintSlave, int> Slaves { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
+- [CUtlLeanVector](/docs/api/shared/natives/cutlleanvector-2)<[CConstraintSlave](/docs/api/shared/schemadefinitions/cconstraintslave), [int](https://learn.microsoft.com/dotnet/api/system.int32)>
 
-### **Targets** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L24)
+### Targets
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L23)
 
 ```csharp
-ref CUtlVector Targets { get; }
+ref CUtlVector<CConstraintTarget> Targets { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CConstraintTarget](/docs/api/shared/schemadefinitions/cconstrainttarget)>
 
-### **UpVector** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L18)
+### UpVector
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CBaseConstraint.cs#L19)
 
 ```csharp
 ref Vector UpVector { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector](/docs/api/shared/natives/vector)
 

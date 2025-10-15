@@ -1,39 +1,43 @@
 ---
-title: CUtlMemory<T>
+title: CUtlMemory
 ---
 
 ```csharp
-public struct CUtlMemory<T> : IDisposable where T : unmanaged
+public struct CUtlMemory<T> : IDisposable
 ```
 
-- Type Parameters
+#### Type Parameters
 
 - **T**: 
 
-- Implements
+#### Implements
 
-- Inherited Members
+#### Inherited Members
 
 ## Constructors
 
-### **CUtlMemory(int, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L22)
+### CUtlMemory(int, int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L25)
 
 ```csharp
 public CUtlMemory(int growSize, int initSize)
 ```
 
-- Parameters
+#### Parameters
 
 - **growSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **initSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **CUtlMemory(nint, int, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L30)
+### CUtlMemory(nint, int, bool)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L33)
 
 ```csharp
 public CUtlMemory(nint memory, int numelements, bool readOnly)
 ```
 
-- Parameters
+#### Parameters
 
 - **memory**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 - **numelements**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
@@ -41,175 +45,221 @@ public CUtlMemory(nint memory, int numelements, bool readOnly)
 
 ## Properties
 
-### **Base** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L187)
+### Base
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L199)
 
 ```csharp
 public nint Base { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-### **Count** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L188)
+### Count
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L200)
 
 ```csharp
 public int Count { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **ExternallyAllocated** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L185)
+### ElementSize
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L23)
+
+```csharp
+public int ElementSize { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### ExternallyAllocated
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L197)
 
 ```csharp
 public bool ExternallyAllocated { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **IsReadOnly** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L186)
+### IsReadOnly
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L198)
 
 ```csharp
 public bool IsReadOnly { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **this[int]** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L184)
+### this
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L187)
 
 ```csharp
 public ref T this[int index] { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - T
 
 ## Methods
 
-### **AssumeMemory(nint, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L113)
+### AssumeMemory(nint, int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L116)
 
 ```csharp
 public void AssumeMemory(nint memory, int numelements)
 ```
 
-- Parameters
+#### Parameters
 
 - **memory**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 - **numelements**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **ConvertToGrowableMemory(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L85)
+### ConvertToGrowableMemory(int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L88)
 
 ```csharp
 public void ConvertToGrowableMemory(int growSize)
 ```
 
-- Parameters
+#### Parameters
 
 - **growSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **DetachMemory()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L122)
+### DetachMemory()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L125)
 
 ```csharp
 public nint DetachMemory()
 ```
 
-- Returns
+#### Returns
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-### **Dispose()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L38)
+### Dispose()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L41)
 
 ```csharp
 public void Dispose()
 ```
 
-### **EnsureCapacity(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L166)
+### EnsureCapacity(int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L169)
 
 ```csharp
 public void EnsureCapacity(int num)
 ```
 
-- Parameters
+#### Parameters
 
 - **num**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **Grow(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L133)
+### Grow(int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L136)
 
 ```csharp
 public void Grow(int num)
 ```
 
-- Parameters
+#### Parameters
 
 - **num**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **Init(int, int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L43)
+### Init(int, int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L46)
 
 ```csharp
 public void Init(int growSize, int initSize)
 ```
 
-- Parameters
+#### Parameters
 
 - **growSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **initSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **IsValidIndex(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L182)
+### IsValidIndex(int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L185)
 
 ```csharp
 public bool IsValidIndex(int index)
 ```
 
-- Parameters
+#### Parameters
 
 - **index**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-- Returns
+#### Returns
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Purge()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L53)
+### Purge()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L56)
 
 ```csharp
 public void Purge()
 ```
 
-### **Purge(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L64)
+### Purge(int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L67)
 
 ```csharp
 public void Purge(int numElements)
 ```
 
-- Parameters
+#### Parameters
 
 - **numElements**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **SetExternalBuffer(nint, int, bool)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L104)
+### SetExternalBuffer(nint, int, bool)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L107)
 
 ```csharp
 public void SetExternalBuffer(nint memory, int numelements, bool readOnly)
 ```
 
-- Parameters
+#### Parameters
 
 - **memory**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 - **numelements**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **readOnly**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **SetGrowSize(int)** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L177)
+### SetGrowSize(int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L180)
 
 ```csharp
 public void SetGrowSize(int size)
 ```
 
-- Parameters
+#### Parameters
 
 - **size**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

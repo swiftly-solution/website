@@ -6,5 +6,5 @@ title: CEmptyEntityInstance
 public interface CEmptyEntityInstance : ISchemaClass<CEmptyEntityInstance>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

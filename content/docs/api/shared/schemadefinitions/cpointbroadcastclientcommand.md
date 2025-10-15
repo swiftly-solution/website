@@ -6,5 +6,5 @@ title: CPointBroadcastClientCommand
 public interface CPointBroadcastClientCommand : CPointEntity, CBaseEntity, CEntityInstance, ISchemaClass<CEntityInstance>, ISchemaClass<CBaseEntity>, ISchemaClass<CPointEntity>, ISchemaClass<CPointBroadcastClientCommand>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

@@ -6,55 +6,67 @@ title: ServerAuthoritativeWeaponSlot_t
 public interface ServerAuthoritativeWeaponSlot_t : ISchemaClass<ServerAuthoritativeWeaponSlot_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Class** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L16)
+### Class
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L17)
 
 ```csharp
 ref ushort Class { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-### **ItemDefIdx** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L20)
+### ItemDefIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L21)
 
 ```csharp
 ref ushort ItemDefIdx { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
-### **Slot** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L18)
+### Slot
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L19)
 
 ```csharp
 ref ushort Slot { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ushort](https://learn.microsoft.com/dotnet/api/system.uint16)
 
 ## Methods
 
-### **ClassUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L22)
+### ClassUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L23)
 
 ```csharp
 void ClassUpdated()
 ```
 
-### **ItemDefIdxUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L24)
+### ItemDefIdxUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L25)
 
 ```csharp
 void ItemDefIdxUpdated()
 ```
 
-### **SlotUpdated()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L23)
+### SlotUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/ServerAuthoritativeWeaponSlot_t.cs#L24)
 
 ```csharp
 void SlotUpdated()

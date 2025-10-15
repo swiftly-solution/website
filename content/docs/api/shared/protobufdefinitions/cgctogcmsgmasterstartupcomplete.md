@@ -6,5 +6,5 @@ title: CGCToGCMsgMasterStartupComplete
 public interface CGCToGCMsgMasterStartupComplete : ITypedProtobuf<CGCToGCMsgMasterStartupComplete>, INativeHandle
 ```
 
-- Implements
+#### Implements
 

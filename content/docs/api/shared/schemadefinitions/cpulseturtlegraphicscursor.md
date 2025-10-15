@@ -6,47 +6,55 @@ title: CPulseTurtleGraphicsCursor
 public interface CPulseTurtleGraphicsCursor : CPulseExecCursor, ISchemaClass<CPulseExecCursor>, ISchemaClass<CPulseTurtleGraphicsCursor>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Color** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L16)
+### Color
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L17)
 
 ```csharp
 ref Color Color { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Color](/docs/api/shared/natives/color)
 
-### **HeadingDeg** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L20)
+### HeadingDeg
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L21)
 
 ```csharp
 ref float HeadingDeg { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **PenUp** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L22)
+### PenUp
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L23)
 
 ```csharp
 ref bool PenUp { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **Pos** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L18)
+### Pos
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CPulseTurtleGraphicsCursor.cs#L19)
 
 ```csharp
 ref Vector2D Pos { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [Vector2D](/docs/api/shared/natives/vector2d)
 

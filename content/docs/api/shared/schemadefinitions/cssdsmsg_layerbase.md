@@ -6,57 +6,67 @@ title: CSSDSMsg_LayerBase
 public interface CSSDSMsg_LayerBase : ISchemaClass<CSSDSMsg_LayerBase>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **DisplayText** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_LayerBase.cs#L24)
+### DisplayText
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_LayerBase.cs#L25)
 
 ```csharp
 string DisplayText { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **LayerId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_LayerBase.cs#L20)
+### LayerId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_LayerBase.cs#L21)
 
 ```csharp
 ref ulong LayerId { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### **LayerName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_LayerBase.cs#L22)
+### LayerName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_LayerBase.cs#L23)
 
 ```csharp
 string LayerName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### **ViewId** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_LayerBase.cs#L16)
+### ViewId
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_LayerBase.cs#L17)
 
 ```csharp
 SceneViewId_t ViewId { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SceneViewId_t](/docs/api/shared/schemadefinitions/sceneviewid_t)
 
-### **ViewName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_LayerBase.cs#L18)
+### ViewName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSSDSMsg_LayerBase.cs#L19)
 
 ```csharp
 string ViewName { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 

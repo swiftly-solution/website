@@ -6,11 +6,13 @@ title: CTraceFilter
 public struct CTraceFilter
 ```
 
-- Inherited Members
+#### Inherited Members
 
 ## Constructors
 
-### **CTraceFilter()** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTraceFilter.cs#L13)
+### CTraceFilter()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTraceFilter.cs#L13)
 
 ```csharp
 public CTraceFilter()
@@ -18,23 +20,27 @@ public CTraceFilter()
 
 ## Fields
 
-### **IterateEntities** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTraceFilter.cs#L11)
+### IterateEntities
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTraceFilter.cs#L11)
 
 ```csharp
 public bool IterateEntities
 ```
 
-- Field Value
+#### Field Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **QueryShapeAttributes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTraceFilter.cs#L10)
+### QueryShapeAttributes
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTraceFilter.cs#L10)
 
 ```csharp
 public RnQueryShapeAttr_t QueryShapeAttributes
 ```
 
-- Field Value
+#### Field Value
 
 - [RnQueryShapeAttr_t](/docs/api/shared/natives/rnqueryshapeattr_t)
 

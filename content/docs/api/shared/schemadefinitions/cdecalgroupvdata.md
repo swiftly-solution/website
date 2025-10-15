@@ -6,27 +6,31 @@ title: CDecalGroupVData
 public interface CDecalGroupVData : ISchemaClass<CDecalGroupVData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Options** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalGroupVData.cs#L17)
+### Options
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalGroupVData.cs#L17)
 
 ```csharp
-ref CUtlVector Options { get; }
+ref CUtlVector<DecalGroupOption_t> Options { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[DecalGroupOption_t](/docs/api/shared/schemadefinitions/decalgroupoption_t)>
 
-### **TotalProbability** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalGroupVData.cs#L19)
+### TotalProbability
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CDecalGroupVData.cs#L19)
 
 ```csharp
 ref float TotalProbability { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

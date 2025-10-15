@@ -6,17 +6,19 @@ title: CSimTimer
 public interface CSimTimer : CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>, ISchemaClass<CSimTimer>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Interval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSimTimer.cs#L16)
+### Interval
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSimTimer.cs#L17)
 
 ```csharp
 ref float Interval { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

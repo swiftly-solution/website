@@ -6,27 +6,31 @@ title: CRandStopwatch
 public interface CRandStopwatch : CStopwatchBase, CSimpleSimTimer, ISchemaClass<CSimpleSimTimer>, ISchemaClass<CStopwatchBase>, ISchemaClass<CRandStopwatch>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **MaxInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRandStopwatch.cs#L18)
+### MaxInterval
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRandStopwatch.cs#L19)
 
 ```csharp
 ref float MaxInterval { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **MinInterval** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRandStopwatch.cs#L16)
+### MinInterval
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRandStopwatch.cs#L17)
 
 ```csharp
 ref float MinInterval { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

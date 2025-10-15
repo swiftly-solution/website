@@ -14,6 +14,8 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [IOnClientPutInServerEvent](/docs/api/shared/events/ionclientputinserverevent) - Called when a client is put in the server.
 - [IOnClientSteamAuthorizeEvent](/docs/api/shared/events/ionclientsteamauthorizeevent) - Called when a client is authorized via Steam.
 - [IOnClientSteamAuthorizeFailEvent](/docs/api/shared/events/ionclientsteamauthorizefailevent) - Called when a client's Steam authorization fails.
+- [IOnCommandExecuteHookEvent](/docs/api/shared/events/ioncommandexecutehookevent) - Called when a command is executed.
+- [IOnConsoleOutputEvent](/docs/api/shared/events/ionconsoleoutputevent) - Called when a console output is received.
 - [IOnEntityCreatedEvent](/docs/api/shared/events/ionentitycreatedevent) - Called when an entity is created.
 - [IOnEntityDeletedEvent](/docs/api/shared/events/ionentitydeletedevent) - Called when an entity is deleted.
 - [IOnEntityParentChangedEvent](/docs/api/shared/events/ionentityparentchangedevent) - Called when an entity's parent changes.
@@ -37,6 +39,8 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [EventDelegates.OnClientPutInServer](/docs/api/shared/events/eventdelegates/onclientputinserver) - Called when a client is fully put in server.
 - [EventDelegates.OnClientSteamAuthorize](/docs/api/shared/events/eventdelegates/onclientsteamauthorize) - Called when a client is authorized by Steam.
 - [EventDelegates.OnClientSteamAuthorizeFail](/docs/api/shared/events/eventdelegates/onclientsteamauthorizefail) - Called when a client's Steam authorization fails.
+- [EventDelegates.OnCommandExecuteHook](/docs/api/shared/events/eventdelegates/oncommandexecutehook) - Called when a command is executed.
+- [EventDelegates.OnConsoleOutput](/docs/api/shared/events/eventdelegates/onconsoleoutput) - Called when a console output is received.
 - [EventDelegates.OnEntityCreated](/docs/api/shared/events/eventdelegates/onentitycreated) - Called when an entity is created.
 - [EventDelegates.OnEntityDeleted](/docs/api/shared/events/eventdelegates/onentitydeleted) - Called when an entity is deleted.
 - [EventDelegates.OnEntityParentChanged](/docs/api/shared/events/eventdelegates/onentityparentchanged) - Called when an entity's parent changes.

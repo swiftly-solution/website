@@ -6,17 +6,19 @@ title: CCLCMsg_ServerStatus
 public interface CCLCMsg_ServerStatus : ITypedProtobuf<CCLCMsg_ServerStatus>, INativeHandle, INetMessage<CCLCMsg_ServerStatus>, IDisposable
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Simplified** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ServerStatus.cs#L18)
+### Simplified
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CCLCMsg_ServerStatus.cs#L18)
 
 ```csharp
 bool Simplified { get; set; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 

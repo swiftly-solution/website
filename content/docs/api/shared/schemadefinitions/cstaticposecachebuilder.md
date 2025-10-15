@@ -6,5 +6,5 @@ title: CStaticPoseCacheBuilder
 public interface CStaticPoseCacheBuilder : CStaticPoseCache, ISchemaClass<CStaticPoseCache>, ISchemaClass<CStaticPoseCacheBuilder>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

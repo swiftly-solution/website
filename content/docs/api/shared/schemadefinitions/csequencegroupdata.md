@@ -6,147 +6,175 @@ title: CSequenceGroupData
 public interface CSequenceGroupData : ISchemaClass<CSequenceGroupData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Flags** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L18)
+### Flags
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L19)
 
 ```csharp
 ref uint Flags { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### **KeyValues** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L48)
+### KeyValues
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L42)
 
 ```csharp
 SchemaUntypedField KeyValues { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
-### **LocalBoneMaskArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L35)
+### LocalBoneMaskArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L31)
 
 ```csharp
-ref CUtlVector LocalBoneMaskArray { get; }
+ref CUtlVector<CSeqBoneMaskList> LocalBoneMaskArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CSeqBoneMaskList](/docs/api/shared/schemadefinitions/cseqbonemasklist)>
 
-### **LocalBoneNameArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L40)
+### LocalBoneNameArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L35)
 
 ```csharp
 ref CUtlVector<CBufferString> LocalBoneNameArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
 
-### **LocalCmdSeqDescArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L32)
+### LocalCmdSeqDescArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L29)
 
 ```csharp
-ref CUtlVector LocalCmdSeqDescArray { get; }
+ref CUtlVector<CSeqCmdSeqDesc> LocalCmdSeqDescArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CSeqCmdSeqDesc](/docs/api/shared/schemadefinitions/cseqcmdseqdesc)>
 
-### **LocalIKAutoplayLockArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L51)
+### LocalIKAutoplayLockArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L44)
 
 ```csharp
-ref CUtlVector LocalIKAutoplayLockArray { get; }
+ref CUtlVector<CSeqIKLock> LocalIKAutoplayLockArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CSeqIKLock](/docs/api/shared/schemadefinitions/cseqiklock)>
 
-### **LocalMultiSeqDescArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L26)
+### LocalMultiSeqDescArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L25)
 
 ```csharp
-ref CUtlVector LocalMultiSeqDescArray { get; }
+ref CUtlVector<CSeqS1SeqDesc> LocalMultiSeqDescArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CSeqS1SeqDesc](/docs/api/shared/schemadefinitions/cseqs1seqdesc)>
 
-### **LocalNodeName** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L42)
+### LocalNodeName
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L37)
 
 ```csharp
 ref CBufferString LocalNodeName { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-### **LocalPoseParamArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L45)
+### LocalPoseParamArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L39)
 
 ```csharp
-ref CUtlVector LocalPoseParamArray { get; }
+ref CUtlVector<CSeqPoseParamDesc> LocalPoseParamArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CSeqPoseParamDesc](/docs/api/shared/schemadefinitions/cseqposeparamdesc)>
 
-### **LocalS1SeqDescArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L23)
+### LocalS1SeqDescArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L23)
 
 ```csharp
-ref CUtlVector LocalS1SeqDescArray { get; }
+ref CUtlVector<CSeqS1SeqDesc> LocalS1SeqDescArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CSeqS1SeqDesc](/docs/api/shared/schemadefinitions/cseqs1seqdesc)>
 
-### **LocalScaleSetArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L38)
+### LocalScaleSetArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L33)
 
 ```csharp
-ref CUtlVector LocalScaleSetArray { get; }
+ref CUtlVector<CSeqScaleSet> LocalScaleSetArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CSeqScaleSet](/docs/api/shared/schemadefinitions/cseqscaleset)>
 
-### **LocalSequenceNameArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L20)
+### LocalSequenceNameArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L21)
 
 ```csharp
 ref CUtlVector<CBufferString> LocalSequenceNameArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[CBufferString](/docs/api/shared/natives/cbufferstring)>
 
-### **LocalSynthAnimDescArray** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L29)
+### LocalSynthAnimDescArray
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L27)
 
 ```csharp
-ref CUtlVector LocalSynthAnimDescArray { get; }
+ref CUtlVector<CSeqSynthAnimDesc> LocalSynthAnimDescArray { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CSeqSynthAnimDesc](/docs/api/shared/schemadefinitions/cseqsynthanimdesc)>
 
-### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L16)
+### Name
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CSequenceGroupData.cs#L17)
 
 ```csharp
 ref CBufferString Name { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 

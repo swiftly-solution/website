@@ -6,17 +6,19 @@ title: SolveIKChainPoseOpFixedSettings_t
 public interface SolveIKChainPoseOpFixedSettings_t : ISchemaClass<SolveIKChainPoseOpFixedSettings_t>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **ChainsToSolveData** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SolveIKChainPoseOpFixedSettings_t.cs#L17)
+### ChainsToSolveData
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/SolveIKChainPoseOpFixedSettings_t.cs#L17)
 
 ```csharp
-ref CUtlVector ChainsToSolveData { get; }
+ref CUtlVector<ChainToSolveData_t> ChainsToSolveData { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[ChainToSolveData_t](/docs/api/shared/schemadefinitions/chaintosolvedata_t)>
 

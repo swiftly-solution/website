@@ -6,57 +6,67 @@ title: C_OP_ConstrainDistanceToUserSpecifiedPath
 public interface C_OP_ConstrainDistanceToUserSpecifiedPath : CParticleFunctionConstraint, CParticleFunction, ISchemaClass<CParticleFunction>, ISchemaClass<CParticleFunctionConstraint>, ISchemaClass<C_OP_ConstrainDistanceToUserSpecifiedPath>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **LoopedPath** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToUserSpecifiedPath.cs#L22)
+### LoopedPath
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToUserSpecifiedPath.cs#L23)
 
 ```csharp
 ref bool LoopedPath { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### **MaxDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToUserSpecifiedPath.cs#L18)
+### MaxDistance
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToUserSpecifiedPath.cs#L19)
 
 ```csharp
 ref float MaxDistance { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **MinDistance** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToUserSpecifiedPath.cs#L16)
+### MinDistance
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToUserSpecifiedPath.cs#L17)
 
 ```csharp
 ref float MinDistance { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### **PointList** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToUserSpecifiedPath.cs#L25)
+### PointList
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToUserSpecifiedPath.cs#L25)
 
 ```csharp
-ref CUtlVector PointList { get; }
+ref CUtlVector<PointDefinitionWithTimeValues_t> PointList { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[PointDefinitionWithTimeValues_t](/docs/api/shared/schemadefinitions/pointdefinitionwithtimevalues_t)>
 
-### **TimeScale** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToUserSpecifiedPath.cs#L20)
+### TimeScale
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/C_OP_ConstrainDistanceToUserSpecifiedPath.cs#L21)
 
 ```csharp
 ref float TimeScale { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 

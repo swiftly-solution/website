@@ -6,5 +6,5 @@ title: CTestPulseIOAPI
 public interface CTestPulseIOAPI : ISchemaClass<CTestPulseIOAPI>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 

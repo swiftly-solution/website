@@ -6,87 +6,103 @@ title: CMorphSetData
 public interface CMorphSetData : ISchemaClass<CMorphSetData>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **BundleTypes** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L20)
+### BundleTypes
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L21)
 
 ```csharp
 ref CUtlVector<MorphBundleType_t> BundleTypes { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CUtlVector](/docs/api/-1)<[MorphBundleType_t](/docs/api/shared/schemadefinitions/morphbundletype_t)>
 
-### **FlexControllers** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L31)
+### FlexControllers
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L29)
 
 ```csharp
-ref CUtlVector FlexControllers { get; }
+ref CUtlVector<CFlexController> FlexControllers { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CFlexController](/docs/api/shared/schemadefinitions/cflexcontroller)>
 
-### **FlexDesc** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L28)
+### FlexDesc
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L27)
 
 ```csharp
-ref CUtlVector FlexDesc { get; }
+ref CUtlVector<CFlexDesc> FlexDesc { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CFlexDesc](/docs/api/shared/schemadefinitions/cflexdesc)>
 
-### **FlexRules** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L34)
+### FlexRules
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L31)
 
 ```csharp
-ref CUtlVector FlexRules { get; }
+ref CUtlVector<CFlexRule> FlexRules { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CFlexRule](/docs/api/shared/schemadefinitions/cflexrule)>
 
-### **Height** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L18)
+### Height
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L19)
 
 ```csharp
 ref int Height { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### **MorphDatas** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L23)
+### MorphDatas
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L23)
 
 ```csharp
-ref CUtlVector MorphDatas { get; }
+ref CUtlVector<CMorphData> MorphDatas { get; }
 ```
 
-- Property Value
+#### Property Value
 
-- [CUtlVector](/docs/api/)
+- [CUtlVector](/docs/api/-1)<[CMorphData](/docs/api/shared/schemadefinitions/cmorphdata)>
 
-### **TextureAtlas** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L25)
+### TextureAtlas
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L25)
 
 ```csharp
 ref CStrongHandle<InfoForResourceTypeCTextureBase> TextureAtlas { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CStrongHandle](/docs/api/shared/natives/cstronghandle-1)<[InfoForResourceTypeCTextureBase](/docs/api/shared/schemadefinitions/infoforresourcetypectexturebase)>
 
-### **Width** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L16)
+### Width
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CMorphSetData.cs#L17)
 
 ```csharp
 ref int Width { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 

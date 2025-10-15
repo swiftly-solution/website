@@ -6,27 +6,31 @@ title: CAnimUser
 public interface CAnimUser : ISchemaClass<CAnimUser>, ISchemaField, ISchemaClass, INativeHandle
 ```
 
-- Implements
+#### Implements
 
 ## Properties
 
-### **Name** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUser.cs#L16)
+### Name
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUser.cs#L17)
 
 ```csharp
 ref CBufferString Name { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [CBufferString](/docs/api/shared/natives/cbufferstring)
 
-### **Type** - [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUser.cs#L18)
+### Type
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CAnimUser.cs#L19)
 
 ```csharp
 ref int Type { get; }
 ```
 
-- Property Value
+#### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
