@@ -1,5 +1,5 @@
 ---
-title: SwiftlyS2.Shared.Players
+title: Players
 ---
 
 - [IPlayer](/docs/api/shared/players/iplayer)

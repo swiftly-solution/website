@@ -1,5 +1,5 @@
 ---
-title: Interface IGameEventService
+title: IGameEventService
 ---
 
 ```csharp
