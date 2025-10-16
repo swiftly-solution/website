@@ -12,10 +12,22 @@ public struct CTakeDamageResult
 
 ### DamageDealt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L94)
 
 ```csharp
 public int DamageDealt
+```
+
+#### Field Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+### HealthBefore
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L93)
+
+```csharp
+public int HealthBefore
 ```
 
 #### Field Value
@@ -48,7 +60,7 @@ public CTakeDamageInfo* OriginatingInfo
 
 ### PreModifiedDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L94)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L95)
 
 ```csharp
 public float PreModifiedDamage
@@ -60,7 +72,7 @@ public float PreModifiedDamage
 
 ### TotalledDamageDealt
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L96)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L97)
 
 ```csharp
 public int TotalledDamageDealt
@@ -72,7 +84,7 @@ public int TotalledDamageDealt
 
 ### TotalledHealthLost
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L96)
 
 ```csharp
 public int TotalledHealthLost
@@ -84,7 +96,7 @@ public int TotalledHealthLost
 
 ### WasDamageSuppressed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTakeDamageInfo.cs#L98)
 
 ```csharp
 public bool WasDamageSuppressed
