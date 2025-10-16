@@ -1,5 +1,5 @@
 ---
-title: Interface IEntitySystemService
+title: IEntitySystemService
 ---
 
 ```csharp

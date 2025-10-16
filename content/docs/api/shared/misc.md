@@ -1,5 +1,5 @@
 ---
-title: Misc
+title: SwiftlyS2.Shared.Misc
 ---
 
 - [MemoryHelpers](/docs/api/shared/misc/memoryhelpers)

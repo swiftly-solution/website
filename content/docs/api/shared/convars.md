@@ -1,5 +1,5 @@
 ---
-title: Convars
+title: SwiftlyS2.Shared.Convars
 ---
 
 - [IConVar<T>](/docs/api/shared/convars/iconvar-1)
