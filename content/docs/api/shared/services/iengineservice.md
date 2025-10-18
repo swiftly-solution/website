@@ -95,6 +95,22 @@ void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
 - **command**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The command to execute. Cannot be null or empty.
 - **bufferCallback**: [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)> - The callback to receive the output of the command.
 
+### FindGameSystemByName(string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L55)
+
+```csharp
+nint? FindGameSystemByName(string name)
+```
+
+#### Parameters
+
+- **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the game system.
+
+#### Returns
+
+- [nint](https://learn.microsoft.com/dotnet/api/system.intptr)? - The game system handle. Null if not found.
+
 ### IsMapValid(string)
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L20)

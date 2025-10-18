@@ -22,6 +22,20 @@ public class CEntityKeyValues : IDisposable
 public CEntityKeyValues()
 ```
 
+## Properties
+
+### Address
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/EntitySystem/CEntityKeyValues.cs#L19)
+
+```csharp
+public nint Address { get; }
+```
+
+#### Property Value
+
+- [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
+
 ## Methods
 
 ### Dispose()

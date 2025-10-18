@@ -3,14 +3,12 @@ title: CUtlMemory
 ---
 
 ```csharp
-public struct CUtlMemory<T> : IDisposable
+public struct CUtlMemory<T>
 ```
 
 #### Type Parameters
 
 - **T**: 
-
-#### Implements
 
 #### Inherited Members
 
@@ -18,7 +16,7 @@ public struct CUtlMemory<T> : IDisposable
 
 ### CUtlMemory(int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L29)
 
 ```csharp
 public CUtlMemory(int growSize, int initSize)
@@ -31,7 +29,7 @@ public CUtlMemory(int growSize, int initSize)
 
 ### CUtlMemory(nint, int, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L41)
 
 ```csharp
 public CUtlMemory(nint memory, int numelements, bool readOnly)
@@ -47,7 +45,7 @@ public CUtlMemory(nint memory, int numelements, bool readOnly)
 
 ### Base
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L199)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L202)
 
 ```csharp
 public nint Base { get; }
@@ -59,7 +57,7 @@ public nint Base { get; }
 
 ### Count
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L200)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L203)
 
 ```csharp
 public int Count { get; }
@@ -83,7 +81,7 @@ public int ElementSize { get; }
 
 ### ExternallyAllocated
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L197)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L200)
 
 ```csharp
 public bool ExternallyAllocated { get; }
@@ -95,7 +93,7 @@ public bool ExternallyAllocated { get; }
 
 ### IsReadOnly
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L198)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L201)
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -107,7 +105,7 @@ public bool IsReadOnly { get; }
 
 ### this
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L187)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L190)
 
 ```csharp
 public ref T this[int index] { get; }
@@ -121,7 +119,7 @@ public ref T this[int index] { get; }
 
 ### AssumeMemory(nint, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L116)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L119)
 
 ```csharp
 public void AssumeMemory(nint memory, int numelements)
@@ -134,7 +132,7 @@ public void AssumeMemory(nint memory, int numelements)
 
 ### ConvertToGrowableMemory(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L91)
 
 ```csharp
 public void ConvertToGrowableMemory(int growSize)
@@ -146,7 +144,7 @@ public void ConvertToGrowableMemory(int growSize)
 
 ### DetachMemory()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L125)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L128)
 
 ```csharp
 public nint DetachMemory()
@@ -156,17 +154,9 @@ public nint DetachMemory()
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-### Dispose()
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L41)
-
-```csharp
-public void Dispose()
-```
-
 ### EnsureCapacity(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L169)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L172)
 
 ```csharp
 public void EnsureCapacity(int num)
@@ -178,7 +168,7 @@ public void EnsureCapacity(int num)
 
 ### Grow(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L136)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L139)
 
 ```csharp
 public void Grow(int num)
@@ -190,7 +180,7 @@ public void Grow(int num)
 
 ### Init(int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L49)
 
 ```csharp
 public void Init(int growSize, int initSize)
@@ -203,7 +193,7 @@ public void Init(int growSize, int initSize)
 
 ### IsValidIndex(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L185)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L188)
 
 ```csharp
 public bool IsValidIndex(int index)
@@ -219,7 +209,7 @@ public bool IsValidIndex(int index)
 
 ### Purge()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L59)
 
 ```csharp
 public void Purge()
@@ -227,7 +217,7 @@ public void Purge()
 
 ### Purge(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L70)
 
 ```csharp
 public void Purge(int numElements)
@@ -239,7 +229,7 @@ public void Purge(int numElements)
 
 ### SetExternalBuffer(nint, int, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L107)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L110)
 
 ```csharp
 public void SetExternalBuffer(nint memory, int numelements, bool readOnly)
@@ -253,7 +243,7 @@ public void SetExternalBuffer(nint memory, int numelements, bool readOnly)
 
 ### SetGrowSize(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L180)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CUtlMemory.cs#L183)
 
 ```csharp
 public void SetGrowSize(int size)

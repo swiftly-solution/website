@@ -1,5 +1,5 @@
 ---
-title: INetMessageService
+title: Interface INetMessageService
 ---
 
 ```csharp

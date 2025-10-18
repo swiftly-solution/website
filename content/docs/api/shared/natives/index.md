@@ -4,6 +4,7 @@ title: Natives
 
 - [AllocableNativeHandle](/docs/api/shared/natives/allocablenativehandle)
 - [CBitVecOperations](/docs/api/shared/natives/cbitvecoperations)
+- [ManagedCUtlLeanVector<T, I>](/docs/api/shared/natives/managedcutlleanvector-2)
 - [ManagedCUtlMemory<T>](/docs/api/shared/natives/managedcutlmemory-1)
 - [ManagedCUtlVector<T>](/docs/api/shared/natives/managedcutlvector-1)
 

@@ -18,9 +18,17 @@ public class ManagedCUtlMemory<T> : IDisposable where T : unmanaged
 
 ## Constructors
 
+### ManagedCUtlMemory()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L8)
+
+```csharp
+public ManagedCUtlMemory()
+```
+
 ### ManagedCUtlMemory(int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L7)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L12)
 
 ```csharp
 public ManagedCUtlMemory(int growSize, int initSize)
@@ -31,65 +39,47 @@ public ManagedCUtlMemory(int growSize, int initSize)
 - **growSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 - **initSize**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### ManagedCUtlMemory(nint, int, bool)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L12)
-
-```csharp
-public ManagedCUtlMemory(nint memory, int numelements, bool readOnly)
-```
-
-#### Parameters
-
-- **memory**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
-- **numelements**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
-- **readOnly**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 ## Properties
 
-### Base
+### Value
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L43)
 
 ```csharp
-public nint Base { get; }
+public ref CUtlMemory<T> Value { get; }
 ```
 
 #### Property Value
 
-- [nint](https://learn.microsoft.com/dotnet/api/system.intptr)
-
-### Count
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L23)
-
-```csharp
-public int Count { get; }
-```
-
-#### Property Value
-
-- [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
-### this
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L25)
-
-```csharp
-public ref T this[int index] { get; }
-```
-
-#### Property Value
-
-- T
+- [CUtlMemory](/docs/api/shared/natives/cutlmemory-1)<T>
 
 ## Methods
 
 ### Dispose()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L22)
 
 ```csharp
 public void Dispose()
+```
+
+### Dispose(bool)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L28)
+
+```csharp
+protected virtual void Dispose(bool disposing)
+```
+
+#### Parameters
+
+- **disposing**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### ~ManagedCUtlMemory()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/ManagedCUtlMemory.cs#L17)
+
+```csharp
+protected ~ManagedCUtlMemory()
 ```
 
