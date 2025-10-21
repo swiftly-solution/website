@@ -8,7 +8,7 @@ public interface IEventSubscriber
 
 ### OnClientConnected
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L17)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L18)
 
 ```csharp
 event EventDelegates.OnClientConnected? OnClientConnected
@@ -20,7 +20,7 @@ event EventDelegates.OnClientConnected? OnClientConnected
 
 ### OnClientDisconnected
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L22)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L23)
 
 ```csharp
 event EventDelegates.OnClientDisconnected? OnClientDisconnected
@@ -32,7 +32,7 @@ event EventDelegates.OnClientDisconnected? OnClientDisconnected
 
 ### OnClientKeyStateChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L28)
 
 ```csharp
 event EventDelegates.OnClientKeyStateChanged? OnClientKeyStateChanged
@@ -44,7 +44,7 @@ event EventDelegates.OnClientKeyStateChanged? OnClientKeyStateChanged
 
 ### OnClientProcessUsercmds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L78)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L79)
 
 ```csharp
 event EventDelegates.OnClientProcessUsercmds? OnClientProcessUsercmds
@@ -56,7 +56,7 @@ event EventDelegates.OnClientProcessUsercmds? OnClientProcessUsercmds
 
 ### OnClientPutInServer
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L33)
 
 ```csharp
 event EventDelegates.OnClientPutInServer? OnClientPutInServer
@@ -68,7 +68,7 @@ event EventDelegates.OnClientPutInServer? OnClientPutInServer
 
 ### OnClientSteamAuthorize
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L38)
 
 ```csharp
 event EventDelegates.OnClientSteamAuthorize? OnClientSteamAuthorize
@@ -80,7 +80,7 @@ event EventDelegates.OnClientSteamAuthorize? OnClientSteamAuthorize
 
 ### OnClientSteamAuthorizeFail
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L43)
 
 ```csharp
 event EventDelegates.OnClientSteamAuthorizeFail? OnClientSteamAuthorizeFail
@@ -92,7 +92,7 @@ event EventDelegates.OnClientSteamAuthorizeFail? OnClientSteamAuthorizeFail
 
 ### OnCommandExecuteHook
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L103)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L119)
 
 ```csharp
 event EventDelegates.OnCommandExecuteHook? OnCommandExecuteHook
@@ -102,9 +102,45 @@ event EventDelegates.OnCommandExecuteHook? OnCommandExecuteHook
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnCommandExecuteHook](/docs/api/shared/events/eventdelegates/oncommandexecutehook)?
 
+### OnConCommandCreated
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L89)
+
+```csharp
+event EventDelegates.OnConCommandCreated? OnConCommandCreated
+```
+
+#### Event Type
+
+- [EventDelegates](/docs/api/shared/events/eventdelegates).[OnConCommandCreated](/docs/api/shared/events/eventdelegates/onconcommandcreated)?
+
+### OnConVarCreated
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L94)
+
+```csharp
+event EventDelegates.OnConVarCreated? OnConVarCreated
+```
+
+#### Event Type
+
+- [EventDelegates](/docs/api/shared/events/eventdelegates).[OnConVarCreated](/docs/api/shared/events/eventdelegates/onconvarcreated)?
+
+### OnConVarValueChanged
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L84)
+
+```csharp
+event EventDelegates.OnConVarValueChanged? OnConVarValueChanged
+```
+
+#### Event Type
+
+- [EventDelegates](/docs/api/shared/events/eventdelegates).[OnConVarValueChanged](/docs/api/shared/events/eventdelegates/onconvarvaluechanged)?
+
 ### OnConsoleOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L98)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L114)
 
 ```csharp
 event EventDelegates.OnConsoleOutput? OnConsoleOutput
@@ -116,7 +152,7 @@ event EventDelegates.OnConsoleOutput? OnConsoleOutput
 
 ### OnEntityCreated
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L48)
 
 ```csharp
 event EventDelegates.OnEntityCreated? OnEntityCreated
@@ -128,7 +164,7 @@ event EventDelegates.OnEntityCreated? OnEntityCreated
 
 ### OnEntityDeleted
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L53)
 
 ```csharp
 event EventDelegates.OnEntityDeleted? OnEntityDeleted
@@ -140,7 +176,7 @@ event EventDelegates.OnEntityDeleted? OnEntityDeleted
 
 ### OnEntityParentChanged
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L58)
 
 ```csharp
 event EventDelegates.OnEntityParentChanged? OnEntityParentChanged
@@ -152,7 +188,7 @@ event EventDelegates.OnEntityParentChanged? OnEntityParentChanged
 
 ### OnEntitySpawned
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L63)
 
 ```csharp
 event EventDelegates.OnEntitySpawned? OnEntitySpawned
@@ -164,7 +200,7 @@ event EventDelegates.OnEntitySpawned? OnEntitySpawned
 
 ### OnEntityTakeDamage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L83)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L99)
 
 ```csharp
 event EventDelegates.OnEntityTakeDamage? OnEntityTakeDamage
@@ -176,7 +212,7 @@ event EventDelegates.OnEntityTakeDamage? OnEntityTakeDamage
 
 ### OnItemServicesCanAcquireHook
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L109)
 
 ```csharp
 event EventDelegates.OnItemServicesCanAcquireHook? OnItemServicesCanAcquireHook
@@ -188,7 +224,7 @@ event EventDelegates.OnItemServicesCanAcquireHook? OnItemServicesCanAcquireHook
 
 ### OnMapLoad
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L68)
 
 ```csharp
 event EventDelegates.OnMapLoad? OnMapLoad
@@ -200,7 +236,7 @@ event EventDelegates.OnMapLoad? OnMapLoad
 
 ### OnMapUnload
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L73)
 
 ```csharp
 event EventDelegates.OnMapUnload? OnMapUnload
@@ -212,7 +248,7 @@ event EventDelegates.OnMapUnload? OnMapUnload
 
 ### OnPrecacheResource
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L104)
 
 ```csharp
 event EventDelegates.OnPrecacheResource? OnPrecacheResource
@@ -224,7 +260,7 @@ event EventDelegates.OnPrecacheResource? OnPrecacheResource
 
 ### OnTick
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L12)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L13)
 
 ```csharp
 event EventDelegates.OnTick? OnTick

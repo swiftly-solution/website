@@ -10,7 +10,7 @@ public interface IMenuManager
 
 ### Settings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L100)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L166)
 
 ```csharp
 MenuSettings Settings { get; }
@@ -22,124 +22,86 @@ MenuSettings Settings { get; }
 
 ## Methods
 
-### ClearRenderForPlayer(IPlayer)
+### CloseMenu(IMenu)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L112)
 
 ```csharp
-void ClearRenderForPlayer(IPlayer player)
+void CloseMenu(IMenu menu)
 ```
 
 #### Parameters
 
-- **player**: [IPlayer](/docs/api/shared/players/iplayer)
+- **menu**: [IMenu](/docs/api/shared/menus/imenu) - The menu instance to close.
 
-### CloseMenu(IPlayer)
+### CloseMenuByTitle(string, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L127)
 
 ```csharp
-void CloseMenu(IPlayer player)
+void CloseMenuByTitle(string title, bool exact = false)
 ```
 
 #### Parameters
 
-- **player**: [IPlayer](/docs/api/shared/players/iplayer)
+- **title**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The title of the menu(s) to close.
+- **exact**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - If true, only menus with exactly matching titles are closed. If false, menus containing the title are closed. Defaults to false.
 
-### CreateMenu(string, bool, bool, bool)
+### CloseMenuForPlayer(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L119)
 
 ```csharp
-IMenu CreateMenu(string title, bool freezePlayer, bool hasSound, bool canExit)
+void CloseMenuForPlayer(IPlayer player)
 ```
 
 #### Parameters
 
-- **title**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The title of the menu.
-- **freezePlayer**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether to freeze the player while the menu is open.
-- **hasSound**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the menu has sound effects.
-- **canExit**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the menu can be exited.
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player whose menu should be closed.
+
+### CreateMenu(string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L97)
+
+```csharp
+IMenu CreateMenu(string title)
+```
+
+#### Parameters
+
+- **title**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The title to display at the top of the menu.
 
 #### Returns
 
-- [IMenu](/docs/api/shared/menus/imenu) - Menu Object
+- [IMenu](/docs/api/shared/menus/imenu) - A new menu instance ready for configuration and use.
 
-### GetCurrentMenu(IPlayer)
+### GetMenu(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L105)
 
 ```csharp
-IMenu? GetCurrentMenu(IPlayer player)
+IMenu? GetMenu(IPlayer player)
 ```
 
 #### Parameters
 
-- **player**: [IPlayer](/docs/api/shared/players/iplayer)
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player whose current menu to retrieve.
 
 #### Returns
 
-- [IMenu](/docs/api/shared/menus/imenu)?
+- [IMenu](/docs/api/shared/menus/imenu)? - The player's current menu, or null if no menu is open.
 
-### GetInputState(IPlayer)
+### HasMenuOpen(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L141)
 
 ```csharp
-Action<IPlayer, IMenuOption, IMenu, string>? GetInputState(IPlayer player)
+bool HasMenuOpen(IPlayer player)
 ```
 
 #### Parameters
 
-- **player**: [IPlayer](/docs/api/shared/players/iplayer)
-
-#### Returns
-
-- [Action](https://learn.microsoft.com/dotnet/api/system.action-4)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu), [string](https://learn.microsoft.com/dotnet/api/system.string)>?
-
-### GetPlayerFromMenu(IMenu)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L52)
-
-```csharp
-IPlayer? GetPlayerFromMenu(IMenu menu)
-```
-
-#### Parameters
-
-- **menu**: [IMenu](/docs/api/shared/menus/imenu)
-
-#### Returns
-
-- [IPlayer](/docs/api/shared/players/iplayer)?
-
-### HasInputState(IPlayer)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L80)
-
-```csharp
-bool HasInputState(IPlayer player)
-```
-
-#### Parameters
-
-- **player**: [IPlayer](/docs/api/shared/players/iplayer)
-
-#### Returns
-
-- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
-### IsMenuOpen(IPlayer)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L56)
-
-```csharp
-bool IsMenuOpen(IPlayer player)
-```
-
-#### Parameters
-
-- **player**: [IPlayer](/docs/api/shared/players/iplayer)
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to check if the menu is open for.
 
 #### Returns
 
@@ -147,7 +109,7 @@ bool IsMenuOpen(IPlayer player)
 
 ### OpenMenu(IPlayer, IMenu)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L37)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L135)
 
 ```csharp
 void OpenMenu(IPlayer player, IMenu menu)
@@ -155,78 +117,12 @@ void OpenMenu(IPlayer player, IMenu menu)
 
 #### Parameters
 
-- **player**: [IPlayer](/docs/api/shared/players/iplayer)
-- **menu**: [IMenu](/docs/api/shared/menus/imenu)
-
-### OpenMenu(IPlayer, IMenu, float)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L44)
-
-```csharp
-void OpenMenu(IPlayer player, IMenu menu, float autoCloseDelay)
-```
-
-#### Parameters
-
 - **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to open the menu for.
-- **menu**: [IMenu](/docs/api/shared/menus/imenu) - The menu to open.
-- **autoCloseDelay**: [float](https://learn.microsoft.com/dotnet/api/system.single) - Time in seconds before auto-close. Values less than 1/64 second disable auto-close.
-
-### OpenSubMenu(IPlayer, IMenu)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L64)
-
-```csharp
-void OpenSubMenu(IPlayer player, IMenu menu)
-```
-
-#### Parameters
-
-- **player**: [IPlayer](/docs/api/shared/players/iplayer)
-- **menu**: [IMenu](/docs/api/shared/menus/imenu)
-
-### OpenSubMenu(IPlayer, IMenu, float)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L71)
-
-```csharp
-void OpenSubMenu(IPlayer player, IMenu menu, float autoCloseDelay)
-```
-
-#### Parameters
-
-- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to open the submenu for.
-- **menu**: [IMenu](/docs/api/shared/menus/imenu) - The submenu to open.
-- **autoCloseDelay**: [float](https://learn.microsoft.com/dotnet/api/system.single) - Time in seconds before auto-close. Values less than 1/64 second disable auto-close.
-
-### RenderForPlayer(IPlayer)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L86)
-
-```csharp
-void RenderForPlayer(IPlayer player)
-```
-
-#### Parameters
-
-- **player**: [IPlayer](/docs/api/shared/players/iplayer)
-
-### SetInputState(IPlayer, Action?)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L76)
-
-```csharp
-void SetInputState(IPlayer player, Action<IPlayer, IMenuOption, IMenu, string>? onInput)
-```
-
-#### Parameters
-
-- **player**: [IPlayer](/docs/api/shared/players/iplayer)
-- **onInput**: [Action](https://learn.microsoft.com/dotnet/api/system.action-4)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu), [string](https://learn.microsoft.com/dotnet/api/system.string)>?
+- **menu**: [IMenu](/docs/api/shared/menus/imenu) - The menu instance to open.
 
 ### OnMenuClosed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L96)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L147)
 
 ```csharp
 event Action<IPlayer, IMenu>? OnMenuClosed
@@ -238,10 +134,22 @@ event Action<IPlayer, IMenu>? OnMenuClosed
 
 ### OnMenuOpened
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L92)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L153)
 
 ```csharp
 event Action<IPlayer, IMenu>? OnMenuOpened
+```
+
+#### Event Type
+
+- [Action](https://learn.microsoft.com/dotnet/api/system.action-2)<[IPlayer](/docs/api/shared/players/iplayer), [IMenu](/docs/api/shared/menus/imenu)>?
+
+### OnMenuRendered
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L160)
+
+```csharp
+event Action<IPlayer, IMenu>? OnMenuRendered
 ```
 
 #### Event Type

@@ -8,48 +8,60 @@ public interface IMenu
 
 ## Properties
 
-### CanExit
+### AutoCloseAfter
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L81)
 
 ```csharp
-bool CanExit { get; set; }
+float AutoCloseAfter { get; set; }
 ```
 
 #### Property Value
 
-- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+- [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### Color
+### AutoCloseCancelTokens
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L39)
 
 ```csharp
-Color Color { get; set; }
+ConcurrentDictionary<IPlayer, CancellationTokenSource?> AutoCloseCancelTokens { get; set; }
 ```
 
 #### Property Value
 
-- [Color](/docs/api/shared/natives/color)
+- [ConcurrentDictionary](https://learn.microsoft.com/dotnet/api/system.collections.concurrent.concurrentdictionary-2)<[IPlayer](/docs/api/shared/players/iplayer), [CancellationTokenSource](https://learn.microsoft.com/dotnet/api/system.threading.cancellationtokensource)?>
 
-### CurrentIndex
+### Builder
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L87)
 
 ```csharp
-int CurrentIndex { get; set; }
+IMenuBuilder Builder { get; }
 ```
 
 #### Property Value
 
-- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+- [IMenuBuilder](/docs/api/shared/menus/imenubuilder)
 
-### FreezePlayer
+### ButtonOverrides
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L45)
 
 ```csharp
-bool? FreezePlayer { get; set; }
+IMenuButtonOverrides? ButtonOverrides { get; set; }
+```
+
+#### Property Value
+
+- [IMenuButtonOverrides](/docs/api/shared/menus/imenubuttonoverrides)?
+
+### CloseOnSelect
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L63)
+
+```csharp
+bool? CloseOnSelect { get; set; }
 ```
 
 #### Property Value
@@ -58,7 +70,7 @@ bool? FreezePlayer { get; set; }
 
 ### HasSound
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L32)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L27)
 
 ```csharp
 bool HasSound { get; set; }
@@ -68,65 +80,77 @@ bool HasSound { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Kind
+### MaxVisibleOptions
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L44)
-
-```csharp
-MenuType Kind { get; set; }
-```
-
-#### Property Value
-
-- [MenuType](/docs/api/shared/menus/menutype)
-
-### MaxTitleLength
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L51)
 
 ```csharp
-int MaxTitleLength { get; set; }
+int MaxVisibleOptions { get; set; }
 ```
 
 #### Property Value
 
 - [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Options
+### MenuManager
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L75)
 
 ```csharp
-List<IMenuOption> Options { get; set; }
+IMenuManager MenuManager { get; set; }
 ```
 
 #### Property Value
 
-- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[IMenuOption](/docs/api/shared/menus/imenuoption)>
+- [IMenuManager](/docs/api/shared/menus/imenumanager)
 
-### ParentMenu
+### Options
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L22)
 
 ```csharp
-IMenu? ParentMenu { get; set; }
+List<IOption> Options { get; }
+```
+
+#### Property Value
+
+- [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[IOption](/docs/api/shared/menus/ioption)>
+
+### Parent
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L33)
+
+```csharp
+IMenu? Parent { get; set; }
 ```
 
 #### Property Value
 
 - [IMenu](/docs/api/shared/menus/imenu)?
 
-### RenderText
+### RenderColor
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L69)
 
 ```csharp
-string? RenderText { get; }
+Color RenderColor { get; set; }
 ```
 
 #### Property Value
 
-- [string](https://learn.microsoft.com/dotnet/api/system.string)?
+- [Color](/docs/api/shared/natives/color)
+
+### ShouldFreeze
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L57)
+
+```csharp
+bool? ShouldFreeze { get; set; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)?
 
 ### Title
 
@@ -142,93 +166,206 @@ string Title { get; set; }
 
 ## Methods
 
-### AddBoolOption(string, bool, Action?, bool)
+### Close(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L74)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L143)
 
 ```csharp
-ref IMenuOption AddBoolOption(string display, bool defaultValue, Action<IPlayer, IMenuOption, IMenu>? onChoice, bool defaultDisabled = false)
+void Close(IPlayer player)
 ```
 
 #### Parameters
 
-- **display**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Text to display
-- **defaultValue**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Default value
-- **onChoice**: [Action](https://learn.microsoft.com/dotnet/api/system.action-3)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu)>? - Use Callback
-- **defaultDisabled**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Make it disabled by default
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to close the menu for.
+
+### IsCurrentOptionSelectable(IPlayer)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L181)
+
+```csharp
+bool IsCurrentOptionSelectable(IPlayer player)
+```
+
+#### Parameters
+
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to check the current selection for.
 
 #### Returns
 
-- [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the current option is selectable, false otherwise.
 
-### AddInputOption(string, string, string?, Action?, bool)
+### IsOptionSlider(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L187)
 
 ```csharp
-ref IMenuOption AddInputOption(string display, string placeholder, string? inputRequestMessage, Action<IPlayer, IMenuOption, IMenu, string>? onInput, bool defaultDisabled = false)
+bool IsOptionSlider(IPlayer player)
 ```
 
 #### Parameters
 
-- **display**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Text to display
-- **placeholder**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Placeholder text
-- **inputRequestMessage**: [string](https://learn.microsoft.com/dotnet/api/system.string)? - Input request message
-- **onInput**: [Action](https://learn.microsoft.com/dotnet/api/system.action-4)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu), [string](https://learn.microsoft.com/dotnet/api/system.string)>? - Use Callback
-- **defaultDisabled**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Make it disabled by default
+- **player**: [IPlayer](/docs/api/shared/players/iplayer)
 
 #### Returns
 
-- [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### AddOption(string, Action?, bool)
+### MoveSelection(IPlayer, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L65)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L151)
 
 ```csharp
-ref IMenuOption AddOption(string display, Action<IPlayer, IMenuOption, IMenu>? onChoice, bool defaultDisabled = false)
+void MoveSelection(IPlayer player, int offset)
 ```
 
 #### Parameters
 
-- **display**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Text to display
-- **onChoice**: [Action](https://learn.microsoft.com/dotnet/api/system.action-3)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu)>? - Use Callback
-- **defaultDisabled**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Make it disabled by default
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player whose selection to move.
+- **offset**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The number of positions to move the selection.
 
-#### Returns
+### Rerender(IPlayer)
 
-- [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
-
-### AddSliderOption(string, List, object?, int, Action?, bool)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L173)
 
 ```csharp
-ref IMenuOption AddSliderOption(string display, List<object> values, object? defaultValue, int displayItems, Action<IPlayer, IMenuOption, IMenu, int, object>? onSlide, bool defaultDisabled = false)
+void Rerender(IPlayer player)
 ```
 
 #### Parameters
 
-- **display**: [string](https://learn.microsoft.com/dotnet/api/system.string) - Text to display
-- **values**: [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)> - List of values
-- **defaultValue**: [object](https://learn.microsoft.com/dotnet/api/system.object)? - Default value
-- **displayItems**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - Number of items to display
-- **onSlide**: [Action](https://learn.microsoft.com/dotnet/api/system.action-5)<[IPlayer](/docs/api/shared/players/iplayer), [IMenuOption](/docs/api/shared/menus/imenuoption), [IMenu](/docs/api/shared/menus/imenu), [int](https://learn.microsoft.com/dotnet/api/system.int32), [object](https://learn.microsoft.com/dotnet/api/system.object)>? - Use Callback
-- **defaultDisabled**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Make it disabled by default
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to re-render the menu for.
 
-#### Returns
+### SetFreezeState(IPlayer, bool)
 
-- [IMenuOption](/docs/api/shared/menus/imenuoption) - Menu Option
-
-### ChangePosition(int)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L195)
 
 ```csharp
-void ChangePosition(int count)
+void SetFreezeState(IPlayer player, bool freeze)
 ```
 
 #### Parameters
 
-- **count**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The amount of advancements to make in front or in back
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to set the freeze state for.
+- **freeze**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True to freeze the player, false to unfreeze.
+
+### Show(IPlayer)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L136)
+
+```csharp
+void Show(IPlayer player)
+```
+
+#### Parameters
+
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to show the menu to.
+
+### UseSelection(IPlayer)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L158)
+
+```csharp
+void UseSelection(IPlayer player)
+```
+
+#### Parameters
+
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player whose current selection to use.
+
+### UseSlideOption(IPlayer, bool)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L166)
+
+```csharp
+void UseSlideOption(IPlayer player, bool isRight)
+```
+
+#### Parameters
+
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player interacting with the slide option.
+- **isRight**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if sliding right, false if sliding left.
+
+### AfterRender
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L129)
+
+```csharp
+event Action<IPlayer>? AfterRender
+```
+
+#### Event Type
+
+- [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<[IPlayer](/docs/api/shared/players/iplayer)>?
+
+### BeforeRender
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L123)
+
+```csharp
+event Action<IPlayer>? BeforeRender
+```
+
+#### Event Type
+
+- [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<[IPlayer](/docs/api/shared/players/iplayer)>?
+
+### OnClose
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L99)
+
+```csharp
+event Action<IPlayer>? OnClose
+```
+
+#### Event Type
+
+- [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<[IPlayer](/docs/api/shared/players/iplayer)>?
+
+### OnItemHovered
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L117)
+
+```csharp
+event Action<IPlayer, IOption>? OnItemHovered
+```
+
+#### Event Type
+
+- [Action](https://learn.microsoft.com/dotnet/api/system.action-2)<[IPlayer](/docs/api/shared/players/iplayer), [IOption](/docs/api/shared/menus/ioption)>?
+
+### OnItemSelected
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L111)
+
+```csharp
+event Action<IPlayer, IOption>? OnItemSelected
+```
+
+#### Event Type
+
+- [Action](https://learn.microsoft.com/dotnet/api/system.action-2)<[IPlayer](/docs/api/shared/players/iplayer), [IOption](/docs/api/shared/menus/ioption)>?
+
+### OnMove
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L105)
+
+```csharp
+event Action<IPlayer>? OnMove
+```
+
+#### Event Type
+
+- [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<[IPlayer](/docs/api/shared/players/iplayer)>?
+
+### OnOpen
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L93)
+
+```csharp
+event Action<IPlayer>? OnOpen
+```
+
+#### Event Type
+
+- [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<[IPlayer](/docs/api/shared/players/iplayer)>?
 

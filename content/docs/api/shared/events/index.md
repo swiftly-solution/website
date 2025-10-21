@@ -15,6 +15,9 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [IOnClientSteamAuthorizeEvent](/docs/api/shared/events/ionclientsteamauthorizeevent) - Called when a client is authorized via Steam.
 - [IOnClientSteamAuthorizeFailEvent](/docs/api/shared/events/ionclientsteamauthorizefailevent) - Called when a client's Steam authorization fails.
 - [IOnCommandExecuteHookEvent](/docs/api/shared/events/ioncommandexecutehookevent) - Called when a command is executed.
+- [IOnConCommandCreated](/docs/api/shared/events/ionconcommandcreated) - Called when a ConVar is created.
+- [IOnConVarCreated](/docs/api/shared/events/ionconvarcreated) - Called when a ConVar is created.
+- [IOnConVarValueChanged](/docs/api/shared/events/ionconvarvaluechanged) - Called when a ConVar value is changed.
 - [IOnConsoleOutputEvent](/docs/api/shared/events/ionconsoleoutputevent) - Called when a console output is received.
 - [IOnEntityCreatedEvent](/docs/api/shared/events/ionentitycreatedevent) - Called when an entity is created.
 - [IOnEntityDeletedEvent](/docs/api/shared/events/ionentitydeletedevent) - Called when an entity is deleted.
@@ -40,6 +43,9 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [EventDelegates.OnClientSteamAuthorize](/docs/api/shared/events/eventdelegates/onclientsteamauthorize) - Called when a client is authorized by Steam.
 - [EventDelegates.OnClientSteamAuthorizeFail](/docs/api/shared/events/eventdelegates/onclientsteamauthorizefail) - Called when a client's Steam authorization fails.
 - [EventDelegates.OnCommandExecuteHook](/docs/api/shared/events/eventdelegates/oncommandexecutehook) - Called when a command is executed.
+- [EventDelegates.OnConCommandCreated](/docs/api/shared/events/eventdelegates/onconcommandcreated) - Called when a ConCommand is created.
+- [EventDelegates.OnConVarCreated](/docs/api/shared/events/eventdelegates/onconvarcreated) - Called when a ConVar is created.
+- [EventDelegates.OnConVarValueChanged](/docs/api/shared/events/eventdelegates/onconvarvaluechanged) - Called when a ConVar value is changed.
 - [EventDelegates.OnConsoleOutput](/docs/api/shared/events/eventdelegates/onconsoleoutput) - Called when a console output is received.
 - [EventDelegates.OnEntityCreated](/docs/api/shared/events/eventdelegates/onentitycreated) - Called when an entity is created.
 - [EventDelegates.OnEntityDeleted](/docs/api/shared/events/eventdelegates/onentitydeleted) - Called when an entity is deleted.

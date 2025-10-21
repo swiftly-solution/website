@@ -1,5 +1,5 @@
 ---
-title: Helper
+title: Class Helper
 ---
 
 ```csharp
