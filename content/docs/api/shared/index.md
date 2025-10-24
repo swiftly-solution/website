@@ -2,6 +2,7 @@
 title: Shared
 ---
 
+- [SwiftlyS2.Shared.CommandLine](/docs/api/shared/commandline)
 - [SwiftlyS2.Shared.Commands](/docs/api/shared/commands)
 - [SwiftlyS2.Shared.ConsoleOutput](/docs/api/shared/consoleoutput)
 - [SwiftlyS2.Shared.Convars](/docs/api/shared/convars)

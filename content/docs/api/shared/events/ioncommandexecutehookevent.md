@@ -10,7 +10,7 @@ public interface IOnCommandExecuteHookEvent
 
 ### HookMode
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnCommandExecuteHookEvent.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnCommandExecuteHookEvent.cs#L23)
 
 ```csharp
 HookMode HookMode { get; }
@@ -19,6 +19,18 @@ HookMode HookMode { get; }
 #### Property Value
 
 - [HookMode](/docs/api/shared/misc/hookmode)
+
+### OriginalArgs
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnCommandExecuteHookEvent.cs#L18)
+
+```csharp
+string[] OriginalArgs { get; }
+```
+
+#### Property Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)[]
 
 ### OriginalName
 
@@ -36,7 +48,7 @@ string OriginalName { get; }
 
 ### SetCommandName(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnCommandExecuteHookEvent.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnCommandExecuteHookEvent.cs#L30)
 
 ```csharp
 void SetCommandName(string name)

@@ -10,9 +10,10 @@ public interface IEngineService
 
 ### CurrentTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L43)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L52)
 
 ```csharp
+[Obsolete("Use GlobalVars.CurrentTime instead.")]
 float CurrentTime { get; }
 ```
 
@@ -20,11 +21,24 @@ float CurrentTime { get; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
-### Map
+### GlobalVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L13)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L21)
 
 ```csharp
+ref CGlobalVars GlobalVars { get; }
+```
+
+#### Property Value
+
+- [CGlobalVars](/docs/api/shared/natives/cglobalvars)
+
+### Map
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L15)
+
+```csharp
+[Obsolete("Use GlobalVars.MapName instead.")]
 string Map { get; }
 ```
 
@@ -34,9 +48,10 @@ string Map { get; }
 
 ### MaxPlayers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L33)
 
 ```csharp
+[Obsolete("Use GlobalVars.MaxClients instead.")]
 int MaxPlayers { get; }
 ```
 
@@ -46,7 +61,7 @@ int MaxPlayers { get; }
 
 ### ServerIP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L8)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L10)
 
 ```csharp
 string ServerIP { get; }
@@ -58,9 +73,10 @@ string ServerIP { get; }
 
 ### TickCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L58)
 
 ```csharp
+[Obsolete("Use GlobalVars.TickCount instead.")]
 int TickCount { get; }
 ```
 
@@ -72,7 +88,7 @@ int TickCount { get; }
 
 ### ExecuteCommand(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L40)
 
 ```csharp
 void ExecuteCommand(string command)
@@ -84,7 +100,7 @@ void ExecuteCommand(string command)
 
 ### ExecuteCommandWithBuffer(string, Action)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L38)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L47)
 
 ```csharp
 void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
@@ -97,7 +113,7 @@ void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
 
 ### FindGameSystemByName(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L66)
 
 ```csharp
 nint? FindGameSystemByName(string name)
@@ -113,7 +129,7 @@ nint? FindGameSystemByName(string name)
 
 ### IsMapValid(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L20)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L28)
 
 ```csharp
 bool IsMapValid(string map)

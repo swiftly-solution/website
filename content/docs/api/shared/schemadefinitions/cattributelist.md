@@ -44,3 +44,16 @@ CAttributeManager? Manager { get; }
 void AttributesUpdated()
 ```
 
+### SetOrAddAttribute(string, float)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CAttributeList.cs#L8)
+
+```csharp
+void SetOrAddAttribute(string attributeName, float value)
+```
+
+#### Parameters
+
+- **attributeName**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+- **value**: [float](https://learn.microsoft.com/dotnet/api/system.single)
+

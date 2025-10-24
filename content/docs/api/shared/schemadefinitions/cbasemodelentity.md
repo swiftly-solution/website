@@ -688,6 +688,19 @@ void RenderUpdated()
 void RequiredDecalModeUpdated()
 ```
 
+### SetBodygroupByName(string, int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L14)
+
+```csharp
+void SetBodygroupByName(string group, int value)
+```
+
+#### Parameters
+
+- **group**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+- **value**: [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### SetModel(string)
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L9)
@@ -699,6 +712,18 @@ void SetModel(string model)
 #### Parameters
 
 - **model**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The model path to be used.
+
+### SetScale(float)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CBaseModelEntity.cs#L19)
+
+```csharp
+void SetScale(float scale)
+```
+
+#### Parameters
+
+- **scale**: [float](https://learn.microsoft.com/dotnet/api/system.single)
 
 ### ShadowStrengthUpdated()
 
