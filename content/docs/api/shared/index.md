@@ -11,6 +11,7 @@ title: Shared
 - [SwiftlyS2.Shared.Events](/docs/api/shared/events)
 - [SwiftlyS2.Shared.GameEventDefinitions](/docs/api/shared/gameeventdefinitions)
 - [SwiftlyS2.Shared.GameEvents](/docs/api/shared/gameevents)
+- [SwiftlyS2.Shared.Helpers](/docs/api/shared/helpers)
 - [SwiftlyS2.Shared.Memory](/docs/api/shared/memory)
 - [SwiftlyS2.Shared.Menus](/docs/api/shared/menus)
 - [SwiftlyS2.Shared.Misc](/docs/api/shared/misc)

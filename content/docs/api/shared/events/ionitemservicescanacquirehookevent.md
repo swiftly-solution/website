@@ -10,7 +10,7 @@ public interface IOnItemServicesCanAcquireHookEvent
 
 ### AcquireMethod
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L26)
 
 ```csharp
 AcquireMethod AcquireMethod { get; }
@@ -46,7 +46,7 @@ CCSPlayer_ItemServices ItemServices { get; }
 
 ### OriginalResult
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L26)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L31)
 
 ```csharp
 AcquireResult OriginalResult { get; }
@@ -56,11 +56,23 @@ AcquireResult OriginalResult { get; }
 
 - [AcquireResult](/docs/api/ult)
 
+### WeaponVData
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L21)
+
+```csharp
+CCSWeaponBaseVData? WeaponVData { get; }
+```
+
+#### Property Value
+
+- [CCSWeaponBaseVData](/docs/api/shared/schemadefinitions/ccsweaponbasevdata)?
+
 ## Methods
 
 ### SetAcquireResult(AcquireResult)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/EventParams/IOnItemServicesCanAcquireHookEvent.cs#L38)
 
 ```csharp
 void SetAcquireResult(AcquireResult result)

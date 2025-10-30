@@ -92,7 +92,7 @@ event EventDelegates.OnClientSteamAuthorizeFail? OnClientSteamAuthorizeFail
 
 ### OnCommandExecuteHook
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L124)
 
 ```csharp
 event EventDelegates.OnCommandExecuteHook? OnCommandExecuteHook
@@ -140,7 +140,7 @@ event EventDelegates.OnConVarValueChanged? OnConVarValueChanged
 
 ### OnConsoleOutput
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L114)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L119)
 
 ```csharp
 event EventDelegates.OnConsoleOutput? OnConsoleOutput
@@ -269,4 +269,16 @@ event EventDelegates.OnTick? OnTick
 #### Event Type
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnTick](/docs/api/shared/events/eventdelegates/ontick)?
+
+### OnWeaponServicesCanUseHook
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L114)
+
+```csharp
+event EventDelegates.OnWeaponServicesCanUseHook? OnWeaponServicesCanUseHook
+```
+
+#### Event Type
+
+- [EventDelegates](/docs/api/shared/events/eventdelegates).[OnWeaponServicesCanUseHook](/docs/api/shared/events/eventdelegates/onweaponservicescanusehook)?
 

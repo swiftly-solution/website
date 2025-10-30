@@ -28,6 +28,7 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [IOnMapLoadEvent](/docs/api/shared/events/ionmaploadevent) - Called when the map is loaded.
 - [IOnMapUnloadEvent](/docs/api/shared/events/ionmapunloadevent) - Called when the map is unloaded.
 - [IOnPrecacheResourceEvent](/docs/api/shared/events/ionprecacheresourceevent)
+- [IOnWeaponServicesCanUseHookEvent](/docs/api/shared/events/ionweaponservicescanusehookevent)
 
 - [ClientKind](/docs/api/shared/events/clientkind)
 - [GameButtonFlags](/docs/api/shared/events/gamebuttonflags)
@@ -58,4 +59,5 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [EventDelegates.OnPrecacheResource](/docs/api/shared/events/eventdelegates/onprecacheresource) - Called when the game is precaching resources.
 - [EventDelegates.OnTick](/docs/api/shared/events/eventdelegates/ontick) - Called when game has processed a tick. Won't be called if the server is in hibernation.
 This callback is a hot path, be careful with it and don't do anything expensive.
+- [EventDelegates.OnWeaponServicesCanUseHook](/docs/api/shared/events/eventdelegates/onweaponservicescanusehook) - Called when a weapon services can use hook is triggered.
 

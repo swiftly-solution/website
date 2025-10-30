@@ -42,6 +42,24 @@ int PlayerCount { get; }
 void ClearAllBlockedTransmitEntities()
 ```
 
+### FindTargettedPlayers(IPlayer, string, TargetSearchMode)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L59)
+
+```csharp
+IEnumerable<IPlayer> FindTargettedPlayers(IPlayer player, string target, TargetSearchMode searchMode)
+```
+
+#### Parameters
+
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player initiating the search.
+- **target**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The target player name or identifier.
+- **searchMode**: [TargetSearchMode](/docs/api/shared/players/targetsearchmode) - The search mode to apply.
+
+#### Returns
+
+- [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1)<[IPlayer](/docs/api/shared/players/iplayer)> - A collection of players matching the search criteria.
+
 ### GetAllPlayers()
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayerManager.cs#L50)
