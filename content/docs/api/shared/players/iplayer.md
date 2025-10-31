@@ -236,6 +236,18 @@ void ChangeTeam(Team team)
 void ClearTransmitEntityBlocks()
 ```
 
+### ExecuteCommand(string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L181)
+
+```csharp
+void ExecuteCommand(string command)
+```
+
+#### Parameters
+
+- **command**: [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### GetListenOverride(int)
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L149)

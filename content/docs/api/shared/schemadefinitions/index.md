@@ -2387,6 +2387,7 @@ title: SchemaDefinitions
 - [EntityIOTargetType_t](/docs/api/shared/schemadefinitions/entityiotargettype_t)
 - [EntityPlatformTypes_t](/docs/api/shared/schemadefinitions/entityplatformtypes_t)
 - [EntitySubclassScope_t](/docs/api/shared/schemadefinitions/entitysubclassscope_t)
+- [EntityTouchType](/docs/api/shared/schemadefinitions/entitytouchtype)
 - [EventTypeSelection_t](/docs/api/shared/schemadefinitions/eventtypeselection_t)
 - [Explosions](/docs/api/shared/schemadefinitions/explosions)
 - [FacingMode](/docs/api/shared/schemadefinitions/facingmode)

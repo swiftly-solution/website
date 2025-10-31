@@ -10,7 +10,7 @@ public interface IMenuManager
 
 ### Settings
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L166)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L172)
 
 ```csharp
 MenuSettings Settings { get; }
@@ -24,7 +24,7 @@ MenuSettings Settings { get; }
 
 ### CloseMenu(IMenu)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L112)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L118)
 
 ```csharp
 void CloseMenu(IMenu menu)
@@ -36,7 +36,7 @@ void CloseMenu(IMenu menu)
 
 ### CloseMenuByTitle(string, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L127)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L133)
 
 ```csharp
 void CloseMenuByTitle(string title, bool exact = false)
@@ -49,7 +49,7 @@ void CloseMenuByTitle(string title, bool exact = false)
 
 ### CloseMenuForPlayer(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L119)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L125)
 
 ```csharp
 void CloseMenuForPlayer(IPlayer player)
@@ -61,7 +61,7 @@ void CloseMenuForPlayer(IPlayer player)
 
 ### CreateMenu(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L103)
 
 ```csharp
 IMenu CreateMenu(string title)
@@ -77,7 +77,7 @@ IMenu CreateMenu(string title)
 
 ### GetMenu(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L111)
 
 ```csharp
 IMenu? GetMenu(IPlayer player)
@@ -93,7 +93,7 @@ IMenu? GetMenu(IPlayer player)
 
 ### HasMenuOpen(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L141)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L147)
 
 ```csharp
 bool HasMenuOpen(IPlayer player)
@@ -109,7 +109,7 @@ bool HasMenuOpen(IPlayer player)
 
 ### OpenMenu(IPlayer, IMenu)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L135)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L141)
 
 ```csharp
 void OpenMenu(IPlayer player, IMenu menu)
@@ -122,7 +122,7 @@ void OpenMenu(IPlayer player, IMenu menu)
 
 ### OnMenuClosed
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L147)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L153)
 
 ```csharp
 event Action<IPlayer, IMenu>? OnMenuClosed
@@ -134,7 +134,7 @@ event Action<IPlayer, IMenu>? OnMenuClosed
 
 ### OnMenuOpened
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L153)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L159)
 
 ```csharp
 event Action<IPlayer, IMenu>? OnMenuOpened
@@ -146,7 +146,7 @@ event Action<IPlayer, IMenu>? OnMenuOpened
 
 ### OnMenuRendered
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L160)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L166)
 
 ```csharp
 event Action<IPlayer, IMenu>? OnMenuRendered

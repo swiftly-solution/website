@@ -34,7 +34,7 @@ ConcurrentDictionary<IPlayer, CancellationTokenSource?> AutoCloseCancelTokens { 
 
 ### Builder
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L87)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L92)
 
 ```csharp
 IMenuBuilder Builder { get; }
@@ -140,6 +140,18 @@ Color RenderColor { get; set; }
 
 - [Color](/docs/api/shared/natives/color)
 
+### RenderOntick
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L86)
+
+```csharp
+bool RenderOntick { get; set; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### ShouldFreeze
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L57)
@@ -168,7 +180,7 @@ string Title { get; set; }
 
 ### Close(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L143)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L148)
 
 ```csharp
 void Close(IPlayer player)
@@ -180,7 +192,7 @@ void Close(IPlayer player)
 
 ### IsCurrentOptionSelectable(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L181)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L186)
 
 ```csharp
 bool IsCurrentOptionSelectable(IPlayer player)
@@ -196,7 +208,7 @@ bool IsCurrentOptionSelectable(IPlayer player)
 
 ### IsOptionSlider(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L187)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L192)
 
 ```csharp
 bool IsOptionSlider(IPlayer player)
@@ -212,7 +224,7 @@ bool IsOptionSlider(IPlayer player)
 
 ### MoveSelection(IPlayer, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L151)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L156)
 
 ```csharp
 void MoveSelection(IPlayer player, int offset)
@@ -225,7 +237,7 @@ void MoveSelection(IPlayer player, int offset)
 
 ### Rerender(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L173)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L178)
 
 ```csharp
 void Rerender(IPlayer player)
@@ -237,7 +249,7 @@ void Rerender(IPlayer player)
 
 ### SetFreezeState(IPlayer, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L195)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L200)
 
 ```csharp
 void SetFreezeState(IPlayer player, bool freeze)
@@ -250,7 +262,7 @@ void SetFreezeState(IPlayer player, bool freeze)
 
 ### Show(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L136)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L141)
 
 ```csharp
 void Show(IPlayer player)
@@ -262,7 +274,7 @@ void Show(IPlayer player)
 
 ### UseSelection(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L158)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L163)
 
 ```csharp
 void UseSelection(IPlayer player)
@@ -274,7 +286,7 @@ void UseSelection(IPlayer player)
 
 ### UseSlideOption(IPlayer, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L166)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L171)
 
 ```csharp
 void UseSlideOption(IPlayer player, bool isRight)
@@ -287,7 +299,7 @@ void UseSlideOption(IPlayer player, bool isRight)
 
 ### AfterRender
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L129)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L134)
 
 ```csharp
 event Action<IPlayer>? AfterRender
@@ -299,7 +311,7 @@ event Action<IPlayer>? AfterRender
 
 ### BeforeRender
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L123)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L128)
 
 ```csharp
 event Action<IPlayer>? BeforeRender
@@ -311,7 +323,7 @@ event Action<IPlayer>? BeforeRender
 
 ### OnClose
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L99)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L104)
 
 ```csharp
 event Action<IPlayer>? OnClose
@@ -323,7 +335,7 @@ event Action<IPlayer>? OnClose
 
 ### OnItemHovered
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L117)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L122)
 
 ```csharp
 event Action<IPlayer, IOption>? OnItemHovered
@@ -335,7 +347,7 @@ event Action<IPlayer, IOption>? OnItemHovered
 
 ### OnItemSelected
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L111)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L116)
 
 ```csharp
 event Action<IPlayer, IOption>? OnItemSelected
@@ -347,7 +359,7 @@ event Action<IPlayer, IOption>? OnItemSelected
 
 ### OnMove
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L110)
 
 ```csharp
 event Action<IPlayer>? OnMove
@@ -359,7 +371,7 @@ event Action<IPlayer>? OnMove
 
 ### OnOpen
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L98)
 
 ```csharp
 event Action<IPlayer>? OnOpen

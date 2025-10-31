@@ -12,7 +12,7 @@ public struct MenuSettings
 
 ### ButtonsExit
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L45)
 
 ```csharp
 public string ButtonsExit
@@ -28,6 +28,18 @@ public string ButtonsExit
 
 ```csharp
 public string ButtonsScroll
+```
+
+#### Field Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### ButtonsScrollBack
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L39)
+
+```csharp
+public string ButtonsScrollBack
 ```
 
 #### Field Value
@@ -60,7 +72,7 @@ public string InputMode
 
 ### ItemsPerPage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L87)
 
 ```csharp
 public int ItemsPerPage
@@ -84,7 +96,7 @@ public string NavigationPrefix
 
 ### SoundExitName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L75)
 
 ```csharp
 public string SoundExitName
@@ -96,7 +108,7 @@ public string SoundExitName
 
 ### SoundExitVolume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L81)
 
 ```csharp
 public float SoundExitVolume
@@ -108,7 +120,7 @@ public float SoundExitVolume
 
 ### SoundScrollName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L63)
 
 ```csharp
 public string SoundScrollName
@@ -120,7 +132,7 @@ public string SoundScrollName
 
 ### SoundScrollVolume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L69)
 
 ```csharp
 public float SoundScrollVolume
@@ -132,7 +144,7 @@ public float SoundScrollVolume
 
 ### SoundUseName
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L51)
 
 ```csharp
 public string SoundUseName
@@ -144,7 +156,7 @@ public string SoundUseName
 
 ### SoundUseVolume
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuManager.cs#L57)
 
 ```csharp
 public float SoundUseVolume

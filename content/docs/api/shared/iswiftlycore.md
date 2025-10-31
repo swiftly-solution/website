@@ -8,6 +8,18 @@ public interface ISwiftlyCore
 
 ## Properties
 
+### CSGODirectory
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L163)
+
+```csharp
+string CSGODirectory { get; }
+```
+
+#### Property Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### Command
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L57)
@@ -22,7 +34,7 @@ ICommandService Command { get; }
 
 ### CommandLine
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L158)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L153)
 
 ```csharp
 ICommandLine CommandLine { get; }
@@ -128,6 +140,18 @@ IGameDataService GameData { get; }
 
 - [IGameDataService](/docs/api/shared/services/igamedataservice)
 
+### GameDirectory
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L168)
+
+```csharp
+string GameDirectory { get; }
+```
+
+#### Property Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### GameEvent
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L42)
@@ -202,7 +226,7 @@ IMemoryService Memory { get; }
 
 ### Menus
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L153)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L148)
 
 ```csharp
 IMenuManager Menus { get; }
@@ -248,9 +272,21 @@ IPlayerManagerService PlayerManager { get; }
 
 - [IPlayerManagerService](/docs/api/shared/players/iplayermanagerservice)
 
+### PluginDataDirectory
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L174)
+
+```csharp
+string PluginDataDirectory { get; }
+```
+
+#### Property Value
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 ### PluginPath
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L148)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/ISwiftlyCore.cs#L158)
 
 ```csharp
 string PluginPath { get; }

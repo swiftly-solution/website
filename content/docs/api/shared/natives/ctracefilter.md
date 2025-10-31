@@ -12,7 +12,7 @@ public struct CTraceFilter
 
 ### CTraceFilter()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTraceFilter.cs#L13)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTraceFilter.cs#L14)
 
 ```csharp
 public CTraceFilter()
@@ -43,4 +43,16 @@ public RnQueryShapeAttr_t QueryShapeAttributes
 #### Field Value
 
 - [RnQueryShapeAttr_t](/docs/api/shared/natives/rnqueryshapeattr_t)
+
+### unk01
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CTraceFilter.cs#L12)
+
+```csharp
+public byte unk01
+```
+
+#### Field Value
+
+- [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 

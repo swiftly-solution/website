@@ -24,6 +24,8 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [IOnEntityParentChangedEvent](/docs/api/shared/events/ionentityparentchangedevent) - Called when an entity's parent changes.
 - [IOnEntitySpawnedEvent](/docs/api/shared/events/ionentityspawnedevent) - Called when an entity is spawned.
 - [IOnEntityTakeDamageEvent](/docs/api/shared/events/ionentitytakedamageevent) - Called when an entity takes damage.
+- [IOnEntityTouchHookEvent](/docs/api/shared/events/ionentitytouchhookevent) - Called when an entity touches another entity.
+<div class="NOTE"><h5>note</h5><p>This event is triggered for StartTouch, Touch, and EndTouch interactions.</p></div>
 - [IOnItemServicesCanAcquireHookEvent](/docs/api/shared/events/ionitemservicescanacquirehookevent)
 - [IOnMapLoadEvent](/docs/api/shared/events/ionmaploadevent) - Called when the map is loaded.
 - [IOnMapUnloadEvent](/docs/api/shared/events/ionmapunloadevent) - Called when the map is unloaded.
@@ -53,6 +55,7 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [EventDelegates.OnEntityParentChanged](/docs/api/shared/events/eventdelegates/onentityparentchanged) - Called when an entity's parent changes.
 - [EventDelegates.OnEntitySpawned](/docs/api/shared/events/eventdelegates/onentityspawned) - Called when an entity is spawned.
 - [EventDelegates.OnEntityTakeDamage](/docs/api/shared/events/eventdelegates/onentitytakedamage) - Called when an entity takes damage.
+- [EventDelegates.OnEntityTouchHook](/docs/api/shared/events/eventdelegates/onentitytouchhook) - Called when an entity is touching another entity.
 - [EventDelegates.OnItemServicesCanAcquireHook](/docs/api/shared/events/eventdelegates/onitemservicescanacquirehook) - Called when an item services can acquire hook is triggered.
 - [EventDelegates.OnMapLoad](/docs/api/shared/events/eventdelegates/onmapload) - Called when a map is loaded.
 - [EventDelegates.OnMapUnload](/docs/api/shared/events/eventdelegates/onmapunload) - Called when a map is unloaded.

@@ -72,7 +72,7 @@ public SphereTrace Sphere
 
 ### Type
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L53)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L52)
 
 ```csharp
 public RayType_t Type
@@ -86,7 +86,7 @@ public RayType_t Type
 
 ### Init(Vector)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L54)
 
 ```csharp
 public void Init(Vector StartOffset)
@@ -98,7 +98,7 @@ public void Init(Vector StartOffset)
 
 ### Init(Vector, float)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L61)
 
 ```csharp
 public void Init(Vector Center, float Radius)
@@ -111,7 +111,7 @@ public void Init(Vector Center, float Radius)
 
 ### Init(Vector, Vector)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L76)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L75)
 
 ```csharp
 public void Init(Vector Mins, Vector Maxs)
@@ -124,7 +124,7 @@ public void Init(Vector Mins, Vector Maxs)
 
 ### Init(Vector, Vector, float)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L90)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L89)
 
 ```csharp
 public void Init(Vector CenterA, Vector CenterB, float Radius)
@@ -138,7 +138,7 @@ public void Init(Vector CenterA, Vector CenterB, float Radius)
 
 ### Init(Vector, Vector, Vector*, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L112)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/Ray_t.cs#L111)
 
 ```csharp
 public void Init(Vector Mins, Vector Maxs, Vector* Vertices, int NumVertices)

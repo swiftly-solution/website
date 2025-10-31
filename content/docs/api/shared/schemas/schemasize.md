@@ -14,10 +14,26 @@ public static class SchemaSize
 
 ### Get()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaSize.cs#L11)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaSize.cs#L15)
 
 ```csharp
 public static int Get<T>()
+```
+
+#### Returns
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
+#### Type Parameters
+
+- **T**: 
+
+### GetSize()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Schemas/SchemaSize.cs#L11)
+
+```csharp
+public static int GetSize<T>() where T : ISchemaClass<T>
 ```
 
 #### Returns

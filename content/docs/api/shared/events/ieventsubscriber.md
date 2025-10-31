@@ -210,6 +210,18 @@ event EventDelegates.OnEntityTakeDamage? OnEntityTakeDamage
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityTakeDamage](/docs/api/shared/events/eventdelegates/onentitytakedamage)?
 
+### OnEntityTouchHook
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L129)
+
+```csharp
+event EventDelegates.OnEntityTouchHook? OnEntityTouchHook
+```
+
+#### Event Type
+
+- [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityTouchHook](/docs/api/shared/events/eventdelegates/onentitytouchhook)?
+
 ### OnItemServicesCanAcquireHook
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L109)
