@@ -2,215 +2,342 @@
 title: Menus
 ---
 
+SwiftlyS2 provides a powerful menu system that allows you to create interactive menus for players. The system uses a fluent builder API for easy menu creation and customization.
+
 ## Creating a Menu
 
-Use `Core.Menus.CreateMenu` to create a new menu instance.
+Use `Core.Menus.CreateMenu` to create a new menu instance, then use the builder to configure it.
 
 ```csharp
-IMenu menu = Core.Menus.CreateMenu("Menu Title", freezePlayer: true, hasSound: true, canExit: true);
+var menu = Core.Menus.CreateMenu("Menu Title");
+menu.Builder
+    .HasSound(true)
+    .ForceFreeze()
+    .AddButton("Click me", player => {
+        player.PrintToChat("Button clicked!");
+    });
+
+// Open the menu for a player
+menu.Show(player);
 ```
 
-Parameters:
-- `title`: The title of the menu
-- `freezePlayer`: Whether to freeze the player while the menu is open
-- `hasSound`: Whether the menu has sound effects
-- `canExit`: Whether the menu can be exited
+## Menu Builder API
 
-## Opening and Closing Menus
+The menu builder provides a fluent API for configuring menus. All builder methods return the builder instance, allowing you to chain multiple calls.
 
-### Open a Menu
+### Basic Configuration
 
 ```csharp
-Core.Menus.OpenMenu(player, menu);
+var menu = Core.Menus.CreateMenu("Settings");
+menu.Builder
+    .HasSound(true)           // Enable sound effects
+    .ForceFreeze()            // Freeze player while menu is open
+    .MaxVisibleItems(7)       // Set max visible items per page
+    .AutoClose(10.0f)         // Auto-close after 10 seconds
+    .CloseOnSelect()          // Close menu when any option is selected
+    .SetColor(new Color(255, 255, 255, 255));  // Set menu color
 ```
 
-### Close a Menu
+### Menu Options
 
-```csharp
-Core.Menus.CloseMenu(player);
-```
-
-### Open a Submenu
-
-```csharp
-Core.Menus.OpenSubMenu(player, submenu);
-```
-
-This will close the current menu and open the submenu.
-
-## Menu Options
-
-### Button Option
+#### Button Option
 
 A simple button that executes a callback when selected.
 
 ```csharp
-menu.AddOption("Click me", (player, option, menu) => {
-    player.PrintToChat("Button clicked!");
-});
+menu.Builder
+    .AddButton("Click me", player => {
+        player.PrintToChat("Button clicked!");
+    })
+    .AddButton("With option param", (player, option) => {
+        player.PrintToChat($"Selected: {option.Text}");
+    });
 ```
 
-### Boolean Option
+#### Toggle Option
 
-A toggle option that can be true or false.
+A boolean toggle that switches between on/off states.
 
 ```csharp
-menu.AddBoolOption("Enable feature", defaultValue: true, (player, option, menu) => {
-    bool isEnabled = (bool)option.Value;
-    player.PrintToChat($"Feature is now {(isEnabled ? "enabled" : "disabled")}");
-});
+menu.Builder
+    .AddToggle("Enable Feature", defaultValue: true, (player, enabled) => {
+        player.PrintToChat($"Feature is now {(enabled ? "enabled" : "disabled")}");
+    })
+    .AddToggle("With option param", false, (player, option, enabled) => {
+        player.PrintToChat($"{option.Text}: {enabled}");
+    });
 ```
 
-### Input Option
+#### Slider Option
 
-An option that prompts the player for text input.
+A slider that allows selecting numeric values within a range.
 
 ```csharp
-menu.AddInputOption(
-    display: "Enter your name",
-    placeholder: "Name",
-    inputRequestMessage: "Please enter your name:",
-    onInput: (player, option, menu, input) => {
-        player.PrintToChat($"You entered: {input}");
-    }
-);
+menu.Builder
+    .AddSlider("Volume", min: 0, max: 100, defaultValue: 50, step: 5, (player, value) => {
+        player.PrintToChat($"Volume set to: {value}");
+    })
+    .AddSlider("Sensitivity", 0.1f, 5.0f, 1.0f, 0.1f, (player, option, value) => {
+        player.PrintToChat($"{option.Text}: {value}");
+    });
 ```
 
-### Slider Option
+#### Choice Option
 
-An option that allows selecting from a list of values.
+A choice option that cycles through predefined string values.
 
 ```csharp
-var values = new List<object> { "Easy", "Medium", "Hard", "Expert" };
-menu.AddSliderOption(
-    display: "Difficulty",
-    values: values,
-    defaultValue: "Medium",
-    displayItems: 3,
-    onSlide: (player, option, menu, index, value) => {
-        player.PrintToChat($"Difficulty set to: {value}");
-    }
-);
+string[] difficulties = { "Easy", "Medium", "Hard", "Expert" };
+
+menu.Builder
+    .AddChoice("Difficulty", difficulties, defaultChoice: "Medium", (player, choice) => {
+        player.PrintToChat($"Difficulty set to: {choice}");
+    })
+    .AddChoice("Mode", new[] { "Casual", "Competitive" }, "Casual", (player, option, choice) => {
+        player.PrintToChat($"{option.Text}: {choice}");
+    });
 ```
 
-## Menu State
+#### Text Option
 
-### Check if Menu is Open
+Display non-interactive text in the menu.
 
 ```csharp
-bool isOpen = Core.Menus.IsMenuOpen(player);
+menu.Builder
+    .AddText("Welcome to the settings menu!", ITextAlign.Center, IMenuTextSize.Large)
+    .AddText("Configure your preferences below", ITextAlign.Left, IMenuTextSize.Small);
 ```
 
-### Get Current Menu
+#### Separator
+
+Add a visual separator between menu sections.
 
 ```csharp
-IMenu? currentMenu = Core.Menus.GetCurrentMenu(player);
+menu.Builder
+    .AddButton("Option 1", player => { })
+    .AddButton("Option 2", player => { })
+    .AddSeparator()
+    .AddButton("Option 3", player => { });
 ```
 
-### Get Player from Menu
+#### Progress Bar
+
+Display a progress bar that updates dynamically.
 
 ```csharp
-IPlayer? player = Core.Menus.GetPlayerFromMenu(menu);
+float progress = 0.0f;
+
+menu.Builder
+    .AddProgressBar("Loading", () => progress, barWidth: 20)
+    .AddProgressBar("Health", () => player.Controller.PlayerPawn.Health / 100f, 15);
 ```
 
-## Input State Management
+### Submenus
 
-For custom input handling, you can set an input state callback:
+Create hierarchical menus with submenus.
 
 ```csharp
-Core.Menus.SetInputState(player, (player, option, menu, input) => {
-    // Handle custom input
-});
+// Create a submenu
+var submenu = Core.Menus.CreateMenu("Submenu")
+submenu.Builder
+    .AddButton("Back", player => menu.Show(player))
+    .AddButton("Submenu option", player => {
+        player.PrintToChat("Submenu option selected!");
+    });
 
-bool hasInputState = Core.Menus.HasInputState(player);
-var inputStateCallback = Core.Menus.GetInputState(player);
+// Add submenu to main menu
+menu.Builder
+    .AddSubmenu("Open Submenu", submenu)
+    .AddSubmenu("Lazy Submenu", () => {
+        // Submenu is created when accessed
+        return Core.Menus.CreateMenu("Lazy Menu");
+    });
 ```
 
-## Menu Events
+### Async Buttons
 
-Subscribe to menu events to track when menus are opened or closed.
+Execute async operations from menu buttons.
 
 ```csharp
+menu.Builder
+    .AddAsyncButton("Load Data", async player => {
+        player.PrintToChat("Loading...");
+        await Task.Delay(1000);
+        player.PrintToChat("Data loaded!");
+    })
+    .AddAsyncButton("Save Data", async (player, option) => {
+        await SavePlayerDataAsync(player);
+        player.PrintToChat("Data saved!");
+    });
+```
+
+### Conditional Visibility and Enablement
+
+Control when options are visible or enabled.
+
+```csharp
+menu.Builder
+    .AddButton("Admin Only", player => {
+        player.PrintToChat("Admin action!");
+    })
+    .VisibleWhen(player => Core.Permission.PlayerHasPermission(player.SteamID, "admin"))
+    .EnabledWhen(player => player.Controller.PlayerPawn.Health > 0);
+```
+
+### Button Overrides
+
+Customize which buttons control menu interactions.
+
+```csharp
+menu.Builder
+    .OverrideSelectButton("attack", "attack2")     // Use attack buttons for selection
+    .OverrideMoveButton("forward", "back")         // Use movement buttons for navigation
+    .OverrideExitButton("duck");                   // Use duck button to exit
+```
+
+### Text Sizing
+
+Control the size of menu text.
+
+```csharp
+menu.Builder
+    .AddText("Extra Small", size: IMenuTextSize.ExtraSmall)
+    .AddText("Small", size: IMenuTextSize.Small)
+    .AddText("Medium", size: IMenuTextSize.Medium)          // Default
+    .AddText("Large", size: IMenuTextSize.Large)
+    .AddText("Extra Large", size: IMenuTextSize.ExtraLarge);
+```
+
+## Menu Management
+
+### Opening and Closing Menus
+
+```csharp
+// Open a menu
+menu.Show(player);
+Core.Menus.OpenMenu(player, menu);
+
+// Close a menu
+menu.Close(player);
+Core.Menus.CloseMenuForPlayer(player);
+Core.Menus.CloseMenu(menu);
+Core.Menus.CloseMenuByTitle("Settings", exact: true);
+
+// Check if menu is open
+bool isOpen = Core.Menus.HasMenuOpen(player);
+
+// Get current menu
+IMenu? currentMenu = Core.Menus.GetMenu(player);
+```
+
+### Menu Events
+
+Subscribe to menu events to track interactions.
+
+```csharp
+// Global events
 Core.Menus.OnMenuOpened += (player, menu) => {
-    Console.WriteLine($"Menu opened for {player.Name}");
+    Console.WriteLine($"Menu '{menu.Title}' opened for {player.Controller.PlayerName}");
 };
 
 Core.Menus.OnMenuClosed += (player, menu) => {
-    Console.WriteLine($"Menu closed for {player.Name}");
+    Console.WriteLine($"Menu '{menu.Title}' closed for {player.Controller.PlayerName}");
+};
+
+Core.Menus.OnMenuRendered += (player, menu) => {
+    Console.WriteLine($"Menu '{menu.Title}' rendered for {player.Controller.PlayerName}");
+};
+
+// Per-menu events
+menu.OnOpen += player => {
+    player.PrintToChat("Menu opened!");
+};
+
+menu.OnClose += player => {
+    player.PrintToChat("Menu closed!");
+};
+
+menu.OnMove += player => {
+    // Player moved selection
+};
+
+menu.OnItemSelected += (player, option) => {
+    Console.WriteLine($"Player selected: {option.Text}");
+};
+
+menu.OnItemHovered += (player, option) => {
+    // Player hovered over an option
+};
+
+menu.BeforeRender += player => {
+    // Before menu is rendered
+};
+
+menu.AfterRender += player => {
+    // After menu is rendered
 };
 ```
 
-## Menu Properties
-
-You can customize various menu properties:
-
-```csharp
-menu.Title = "New Title";
-menu.MaxTitleLength = 32;
-menu.FreezePlayer = true;
-menu.HasSound = true;
-menu.CanExit = true;
-menu.Kind = MenuType.CenterMenu;
-menu.Color = new Color(255, 255, 255, 255);
-```
 
 ## Advanced Features
 
-### Disabled Options
+### Parent Menus
 
-You can disable options to make them non-interactive:
+Set a parent menu to create a navigation hierarchy.
 
 ```csharp
-var option = menu.AddOption("Disabled option", null, defaultDisabled: true);
+var mainMenu = Core.Menus.CreateMenu("Main Menu");
+var subMenu = Core.Menus.CreateMenu("Sub Menu")
+    .Builder
+    .WithParent(mainMenu);
+
+// Now the submenu knows its parent
 ```
 
-Or dynamically:
+### Dynamic Menu Content
+
+Rerender menus to update dynamic content.
 
 ```csharp
-option.Disabled = true;
+var dynamicMenu = Core.Menus.CreateMenu("Player List")
+    .Builder
+    .AddText("Online Players:", ITextAlign.Center);
+
+foreach (var p in Core.PlayerManager.GetPlayers())
+{
+    dynamicMenu.Builder.AddButton(p.Controller.PlayerName, player => {
+        player.PrintToChat($"Selected: {p.Controller.PlayerName}");
+    });
+}
+
+// Update menu content
+Core.Scheduler.Repeat(1000, () => {
+    // Rebuild menu with updated player list
+    dynamicMenu.Rerender(player);
+});
 ```
 
-### Navigation
+### Freeze Control
 
-Change the current position in the menu:
-
-```csharp
-menu.ChangePosition(1);  // Move forward
-menu.ChangePosition(-1); // Move backward
-```
-
-## Complete Example
+Control player freeze state independently.
 
 ```csharp
-// Create a settings menu
-IMenu settingsMenu = Core.Menus.CreateMenu("Settings", freezePlayer: true, hasSound: true, canExit: true);
+// Freeze/unfreeze player
+menu.SetFreezeState(player, freeze: true);
 
-// Add a boolean option
-settingsMenu.AddBoolOption("Enable HUD", defaultValue: true, (player, option, menu) => {
-    bool enabled = (bool)option.Value;
-    player.PrintToChat($"HUD {(enabled ? "enabled" : "disabled")}");
-});
-
-// Add a slider option
-var volumes = new List<object> { 0, 25, 50, 75, 100 };
-settingsMenu.AddSliderOption("Volume", volumes, defaultValue: 50, displayItems: 3, (player, option, menu, index, value) => {
-    player.PrintToChat($"Volume set to: {value}%");
-});
-
-// Add an input option
-settingsMenu.AddInputOption("Set nickname", "Nickname", "Enter your nickname:", (player, option, menu, input) => {
-    player.PrintToChat($"Nickname set to: {input}");
-});
-
-// Add a button to close the menu
-settingsMenu.AddOption("Close", (player, option, menu) => {
-    Core.Menus.CloseMenu(player);
-});
-
-// Open the menu for a player
-Core.Menus.OpenMenu(player, settingsMenu);
+// Use NoFreeze() to prevent freezing
+var noFreezeMenu = Core.Menus.CreateMenu("No Freeze Menu")
+    .Builder
+    .NoFreeze();
 ```
 
 ## Reference
 
-See [IMenuManager](/docs/api/shared/menus/imenumanager), [IMenu](/docs/api/shared/menus/imenu), and [IMenuOption](/docs/api/shared/menus/imenuoption) for more details.
+See the following API documentation for more details:
+- [IMenuManager](/docs/api/shared/menus/imenumanager) - Menu manager interface
+- [IMenu](/docs/api/shared/menus/imenu) - Menu interface
+- [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - Menu builder interface
+- [IOption](/docs/api/shared/menus/ioption) - Menu option interface
+- [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - Text size enum
+- [ITextAlign](/docs/api/shared/menus/itextalign) - Text alignment enum
+- [MenuSettings](/docs/api/shared/menus/menusettings) - Global menu settings
