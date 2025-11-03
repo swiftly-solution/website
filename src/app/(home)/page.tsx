@@ -16,7 +16,7 @@ export default function HomePage() {
               </h1>
             </div>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              A powerful C# framework for Source Engine 2 servers with Metamod 2.x integration
+              A powerful C# framework for Source Engine 2 servers.
             </p>
             <div className="flex gap-4 justify-center">
               <Link
