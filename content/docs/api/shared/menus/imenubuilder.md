@@ -6,14 +6,28 @@ title: IMenuBuilder
 public interface IMenuBuilder
 ```
 
-## Methods
+## Properties
 
-### AddAsyncButton(string, Func, IMenuTextSize)
+### Design
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L12)
 
 ```csharp
-IMenuBuilder AddAsyncButton(string text, Func<IPlayer, Task> onClickAsync, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuDesign Design { get; }
+```
+
+#### Property Value
+
+- [IMenuDesign](/docs/api/shared/menus/imenudesign)
+
+## Methods
+
+### AddAsyncButton(string, Func, IMenuTextSize, MenuHorizontalStyle?)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L114)
+
+```csharp
+IMenuBuilder AddAsyncButton(string text, Func<IPlayer, Task> onClickAsync, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -21,17 +35,18 @@ IMenuBuilder AddAsyncButton(string text, Func<IPlayer, Task> onClickAsync, IMenu
 - **text**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The display text for the async button.
 - **onClickAsync**: [Func](https://learn.microsoft.com/dotnet/api/system.func-2)<[IPlayer](/docs/api/shared/players/iplayer), [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)> - The async function to execute when the button is clicked. Receives the player as parameter.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the button display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddAsyncButton(string, Func, IMenuTextSize)
+### AddAsyncButton(string, Func, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L115)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L125)
 
 ```csharp
-IMenuBuilder AddAsyncButton(string text, Func<IPlayer, IOption, Task> onClickAsync, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddAsyncButton(string text, Func<IPlayer, IOption, Task> onClickAsync, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -39,17 +54,18 @@ IMenuBuilder AddAsyncButton(string text, Func<IPlayer, IOption, Task> onClickAsy
 - **text**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The display text for the async button.
 - **onClickAsync**: [Func](https://learn.microsoft.com/dotnet/api/system.func-3)<[IPlayer](/docs/api/shared/players/iplayer), [IOption](/docs/api/shared/menus/ioption), [Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task)> - The async function to execute when the button is clicked. Receives the player and option as parameters.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the button display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddButton(string, Action?, IMenuTextSize)
+### AddButton(string, Action?, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L38)
 
 ```csharp
-IMenuBuilder AddButton(string text, Action<IPlayer>? onClick = null, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddButton(string text, Action<IPlayer>? onClick = null, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -57,17 +73,18 @@ IMenuBuilder AddButton(string text, Action<IPlayer>? onClick = null, IMenuTextSi
 - **text**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The display text for the button.
 - **onClick**: [Action](https://learn.microsoft.com/dotnet/api/system.action-1)<[IPlayer](/docs/api/shared/players/iplayer)>? - Optional action to execute when the button is clicked. Receives the player as parameter.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the button display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddButton(string, Action?, IMenuTextSize)
+### AddButton(string, Action?, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L49)
 
 ```csharp
-IMenuBuilder AddButton(string text, Action<IPlayer, IOption>? onClick, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddButton(string text, Action<IPlayer, IOption>? onClick, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -75,17 +92,18 @@ IMenuBuilder AddButton(string text, Action<IPlayer, IOption>? onClick, IMenuText
 - **text**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The display text for the button.
 - **onClick**: [Action](https://learn.microsoft.com/dotnet/api/system.action-2)<[IPlayer](/docs/api/shared/players/iplayer), [IOption](/docs/api/shared/menus/ioption)>? - Optional action to execute when the button is clicked. Receives the player and option as parameters.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the button display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddChoice(string, string[], string?, Action?, IMenuTextSize)
+### AddChoice(string, string[], string?, Action?, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L175)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L187)
 
 ```csharp
-IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice = null, Action<IPlayer, string>? onChange = null, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice = null, Action<IPlayer, string>? onChange = null, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -95,36 +113,18 @@ IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice = nu
 - **defaultChoice**: [string](https://learn.microsoft.com/dotnet/api/system.string)? - The initially selected choice. Defaults to null (first choice).
 - **onChange**: [Action](https://learn.microsoft.com/dotnet/api/system.action-2)<[IPlayer](/docs/api/shared/players/iplayer), [string](https://learn.microsoft.com/dotnet/api/system.string)>? - Optional action to execute when the choice changes. Receives the player and selected choice string.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the choice display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddChoice(string, string[], string?, Action?)
+### AddChoice(string, string[], string?, Action?, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L186)
-
-```csharp
-IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice, Action<IPlayer, string>? onChange)
-```
-
-#### Parameters
-
-- **text**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The display text for the choice option.
-- **choices**: [string](https://learn.microsoft.com/dotnet/api/system.string)[] - An array of available choice strings.
-- **defaultChoice**: [string](https://learn.microsoft.com/dotnet/api/system.string)? - The initially selected choice.
-- **onChange**: [Action](https://learn.microsoft.com/dotnet/api/system.action-2)<[IPlayer](/docs/api/shared/players/iplayer), [string](https://learn.microsoft.com/dotnet/api/system.string)>? - Optional action to execute when the choice changes. Receives the player and selected choice string.
-
-#### Returns
-
-- [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
-
-### AddChoice(string, string[], string?, Action?, IMenuTextSize)
-
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L198)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L213)
 
 ```csharp
-IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice, Action<IPlayer, IOption, string>? onChange, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice, Action<IPlayer, IOption, string>? onChange, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -134,17 +134,18 @@ IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice, Act
 - **defaultChoice**: [string](https://learn.microsoft.com/dotnet/api/system.string)? - The initially selected choice.
 - **onChange**: [Action](https://learn.microsoft.com/dotnet/api/system.action-3)<[IPlayer](/docs/api/shared/players/iplayer), [IOption](/docs/api/shared/menus/ioption), [string](https://learn.microsoft.com/dotnet/api/system.string)>? - Optional action to execute when the choice changes. Receives the player, option, and selected choice string.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the choice display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddProgressBar(string, Func, int, IMenuTextSize)
+### AddProgressBar(string, Func, int, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L216)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L232)
 
 ```csharp
-IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWidth = 20, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWidth = 20, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -153,17 +154,18 @@ IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWi
 - **progressProvider**: [Func](https://learn.microsoft.com/dotnet/api/system.func-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)> - A function that returns the current progress value (0.0 to 1.0).
 - **barWidth**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The character width of the progress bar. Defaults to 20.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the progress bar display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddProgressBar(string, Func, int)
+### AddProgressBar(string, Func, int, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L226)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L243)
 
 ```csharp
-IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWidth)
+IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWidth, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -171,6 +173,7 @@ IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWi
 - **text**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The display text for the progress bar.
 - **progressProvider**: [Func](https://learn.microsoft.com/dotnet/api/system.func-1)<[float](https://learn.microsoft.com/dotnet/api/system.single)> - A function that returns the current progress value (0.0 to 1.0).
 - **barWidth**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The character width of the progress bar.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
@@ -178,7 +181,7 @@ IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWi
 
 ### AddSeparator()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L205)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L220)
 
 ```csharp
 IMenuBuilder AddSeparator()
@@ -188,12 +191,12 @@ IMenuBuilder AddSeparator()
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddSlider(string, float, float, float, float, Action?, IMenuTextSize)
+### AddSlider(string, float, float, float, float, Action?, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L81)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L88)
 
 ```csharp
-IMenuBuilder AddSlider(string text, float min, float max, float defaultValue, float step = 1, Action<IPlayer, float>? onChange = null, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddSlider(string text, float min, float max, float defaultValue, float step = 1, Action<IPlayer, float>? onChange = null, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -205,17 +208,18 @@ IMenuBuilder AddSlider(string text, float min, float max, float defaultValue, fl
 - **step**: [float](https://learn.microsoft.com/dotnet/api/system.single) - The increment/decrement step size. Defaults to 1.
 - **onChange**: [Action](https://learn.microsoft.com/dotnet/api/system.action-2)<[IPlayer](/docs/api/shared/players/iplayer), [float](https://learn.microsoft.com/dotnet/api/system.single)>? - Optional action to execute when the slider value changes. Receives the player and new float value.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the slider display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddSlider(string, float, float, float, float, Action?, IMenuTextSize)
+### AddSlider(string, float, float, float, float, Action?, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L95)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L103)
 
 ```csharp
-IMenuBuilder AddSlider(string text, float min, float max, float defaultValue, float step, Action<IPlayer, IOption, float>? onChange, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddSlider(string text, float min, float max, float defaultValue, float step, Action<IPlayer, IOption, float>? onChange, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -227,6 +231,7 @@ IMenuBuilder AddSlider(string text, float min, float max, float defaultValue, fl
 - **step**: [float](https://learn.microsoft.com/dotnet/api/system.single) - The increment/decrement step size.
 - **onChange**: [Action](https://learn.microsoft.com/dotnet/api/system.action-3)<[IPlayer](/docs/api/shared/players/iplayer), [IOption](/docs/api/shared/menus/ioption), [float](https://learn.microsoft.com/dotnet/api/system.single)>? - Optional action to execute when the slider value changes. Receives the player, option, and new float value.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the slider display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
@@ -234,7 +239,7 @@ IMenuBuilder AddSlider(string text, float min, float max, float defaultValue, fl
 
 ### AddSubmenu(string, IMenu, IMenuTextSize)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L135)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L146)
 
 ```csharp
 IMenuBuilder AddSubmenu(string text, IMenu submenu, IMenuTextSize size = IMenuTextSize.Medium)
@@ -252,7 +257,7 @@ IMenuBuilder AddSubmenu(string text, IMenu submenu, IMenuTextSize size = IMenuTe
 
 ### AddSubmenu(string, IMenu)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L144)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L155)
 
 ```csharp
 IMenuBuilder AddSubmenu(string text, IMenu submenu)
@@ -269,7 +274,7 @@ IMenuBuilder AddSubmenu(string text, IMenu submenu)
 
 ### AddSubmenu(string, Func, IMenuTextSize)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L154)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L165)
 
 ```csharp
 IMenuBuilder AddSubmenu(string text, Func<IMenu> submenuBuilder, IMenuTextSize size = IMenuTextSize.Medium)
@@ -287,7 +292,7 @@ IMenuBuilder AddSubmenu(string text, Func<IMenu> submenuBuilder, IMenuTextSize s
 
 ### AddSubmenu(string, Func)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L163)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L174)
 
 ```csharp
 IMenuBuilder AddSubmenu(string text, Func<IMenu> submenuBuilder)
@@ -302,12 +307,12 @@ IMenuBuilder AddSubmenu(string text, Func<IMenu> submenuBuilder)
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddText(string, ITextAlign, IMenuTextSize)
+### AddText(string, ITextAlign, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L125)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L136)
 
 ```csharp
-IMenuBuilder AddText(string text, ITextAlign alignment = ITextAlign.Left, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddText(string text, ITextAlign alignment = ITextAlign.Left, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -315,17 +320,18 @@ IMenuBuilder AddText(string text, ITextAlign alignment = ITextAlign.Left, IMenuT
 - **text**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The text content to display.
 - **alignment**: [ITextAlign](/docs/api/shared/menus/itextalign) - The text alignment within the menu. Defaults to Left.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddToggle(string, bool, Action?, IMenuTextSize)
+### AddToggle(string, bool, Action?, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L56)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L61)
 
 ```csharp
-IMenuBuilder AddToggle(string text, bool defaultValue = false, Action<IPlayer, bool>? onToggle = null, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddToggle(string text, bool defaultValue = false, Action<IPlayer, bool>? onToggle = null, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -334,17 +340,18 @@ IMenuBuilder AddToggle(string text, bool defaultValue = false, Action<IPlayer, b
 - **defaultValue**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - The initial state of the toggle. Defaults to false.
 - **onToggle**: [Action](https://learn.microsoft.com/dotnet/api/system.action-2)<[IPlayer](/docs/api/shared/players/iplayer), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)>? - Optional action to execute when the toggle state changes. Receives the player and new boolean value.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the toggle display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
-### AddToggle(string, bool, Action?, IMenuTextSize)
+### AddToggle(string, bool, Action?, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L67)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L73)
 
 ```csharp
-IMenuBuilder AddToggle(string text, bool defaultValue, Action<IPlayer, IOption, bool>? onToggle, IMenuTextSize size = IMenuTextSize.Medium)
+IMenuBuilder AddToggle(string text, bool defaultValue, Action<IPlayer, IOption, bool>? onToggle, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
 ```
 
 #### Parameters
@@ -353,6 +360,7 @@ IMenuBuilder AddToggle(string text, bool defaultValue, Action<IPlayer, IOption, 
 - **defaultValue**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - The initial state of the toggle. Defaults to false.
 - **onToggle**: [Action](https://learn.microsoft.com/dotnet/api/system.action-3)<[IPlayer](/docs/api/shared/players/iplayer), [IOption](/docs/api/shared/menus/ioption), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)>? - Optional action to execute when the toggle state changes. Receives the player, option, and new boolean value.
 - **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the toggle display. Defaults to Medium.
+- **overflowStyle**: [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)? - The overflow style for the text. Defaults to null.
 
 #### Returns
 
@@ -360,7 +368,7 @@ IMenuBuilder AddToggle(string text, bool defaultValue, Action<IPlayer, IOption, 
 
 ### AutoClose(float)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L265)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L282)
 
 ```csharp
 IMenuBuilder AutoClose(float seconds)
@@ -376,7 +384,7 @@ IMenuBuilder AutoClose(float seconds)
 
 ### CloseOnSelect()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L257)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L274)
 
 ```csharp
 IMenuBuilder CloseOnSelect()
@@ -388,7 +396,7 @@ IMenuBuilder CloseOnSelect()
 
 ### EnabledWhen(Func)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L250)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L267)
 
 ```csharp
 IMenuBuilder EnabledWhen(Func<IPlayer, bool> condition)
@@ -404,7 +412,7 @@ IMenuBuilder EnabledWhen(Func<IPlayer, bool> condition)
 
 ### ForceFreeze()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L311)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L337)
 
 ```csharp
 IMenuBuilder ForceFreeze()
@@ -416,7 +424,7 @@ IMenuBuilder ForceFreeze()
 
 ### HasSound(bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L27)
 
 ```csharp
 IMenuBuilder HasSound(bool hasSound)
@@ -432,9 +440,10 @@ IMenuBuilder HasSound(bool hasSound)
 
 ### MaxVisibleItems(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L297)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L322)
 
 ```csharp
+[Obsolete("Use Design.MaxVisibleItems instead")]
 IMenuBuilder MaxVisibleItems(int count)
 ```
 
@@ -446,9 +455,11 @@ IMenuBuilder MaxVisibleItems(int count)
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
+#### Remarks
+
 ### NoFreeze()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L304)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L330)
 
 ```csharp
 IMenuBuilder NoFreeze()
@@ -460,9 +471,10 @@ IMenuBuilder NoFreeze()
 
 ### OverrideExitButton(params string[])
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L289)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L308)
 
 ```csharp
+[Obsolete("Use Design.OverrideExitButton instead")]
 IMenuBuilder OverrideExitButton(params string[] buttonNames)
 ```
 
@@ -476,9 +488,10 @@ IMenuBuilder OverrideExitButton(params string[] buttonNames)
 
 ### OverrideMoveButton(params string[])
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L281)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L299)
 
 ```csharp
+[Obsolete("Use Design.OverrideMoveButton instead")]
 IMenuBuilder OverrideMoveButton(params string[] buttonNames)
 ```
 
@@ -492,9 +505,10 @@ IMenuBuilder OverrideMoveButton(params string[] buttonNames)
 
 ### OverrideSelectButton(params string[])
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L273)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L290)
 
 ```csharp
+[Obsolete("Use Design.OverrideSelectButton instead")]
 IMenuBuilder OverrideSelectButton(params string[] buttonNames)
 ```
 
@@ -508,9 +522,10 @@ IMenuBuilder OverrideSelectButton(params string[] buttonNames)
 
 ### SetColor(Color)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L319)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L345)
 
 ```csharp
+[Obsolete("Use Design.SetColor instead")]
 IMenuBuilder SetColor(Color color)
 ```
 
@@ -524,7 +539,7 @@ IMenuBuilder SetColor(Color color)
 
 ### SetMenu(IMenu)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L18)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L20)
 
 ```csharp
 IMenuBuilder SetMenu(IMenu menu)
@@ -540,7 +555,7 @@ IMenuBuilder SetMenu(IMenu menu)
 
 ### VisibleWhen(Func)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L242)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L259)
 
 ```csharp
 IMenuBuilder VisibleWhen(Func<IPlayer, bool> condition)
@@ -556,7 +571,7 @@ IMenuBuilder VisibleWhen(Func<IPlayer, bool> condition)
 
 ### WithParent(IMenu)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L234)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L251)
 
 ```csharp
 IMenuBuilder WithParent(IMenu parent)

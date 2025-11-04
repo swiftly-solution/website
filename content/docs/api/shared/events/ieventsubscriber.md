@@ -174,6 +174,18 @@ event EventDelegates.OnEntityDeleted? OnEntityDeleted
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityDeleted](/docs/api/shared/events/eventdelegates/onentitydeleted)?
 
+### OnEntityEndTouch
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L142)
+
+```csharp
+event EventDelegates.OnEntityEndTouch? OnEntityEndTouch
+```
+
+#### Event Type
+
+- [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityEndTouch](/docs/api/shared/events/eventdelegates/onentityendtouch)?
+
 ### OnEntityParentChanged
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L58)
@@ -198,6 +210,18 @@ event EventDelegates.OnEntitySpawned? OnEntitySpawned
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntitySpawned](/docs/api/shared/events/eventdelegates/onentityspawned)?
 
+### OnEntityStartTouch
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L132)
+
+```csharp
+event EventDelegates.OnEntityStartTouch? OnEntityStartTouch
+```
+
+#### Event Type
+
+- [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityStartTouch](/docs/api/shared/events/eventdelegates/onentitystarttouch)?
+
 ### OnEntityTakeDamage
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L99)
@@ -210,11 +234,24 @@ event EventDelegates.OnEntityTakeDamage? OnEntityTakeDamage
 
 - [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityTakeDamage](/docs/api/shared/events/eventdelegates/onentitytakedamage)?
 
-### OnEntityTouchHook
+### OnEntityTouch
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L129)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L137)
 
 ```csharp
+event EventDelegates.OnEntityTouch? OnEntityTouch
+```
+
+#### Event Type
+
+- [EventDelegates](/docs/api/shared/events/eventdelegates).[OnEntityTouch](/docs/api/shared/events/eventdelegates/onentitytouch)?
+
+### OnEntityTouchHook
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Events/IEventSubscriber.cs#L127)
+
+```csharp
+[Obsolete("OnEntityTouchHook is deprecated. Use OnEntityStartTouch, OnEntityTouch, or OnEntityEndTouch instead.")]
 event EventDelegates.OnEntityTouchHook? OnEntityTouchHook
 ```
 

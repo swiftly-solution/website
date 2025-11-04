@@ -12,7 +12,7 @@ public interface CPlayer_ItemServices : CPlayerPawnComponent, ISchemaClass<CPlay
 
 ### DropActiveItem()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L25)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L32)
 
 ```csharp
 void DropActiveItem()
@@ -54,9 +54,21 @@ T GiveItem<T>(string itemDesignerName) where T : ISchemaClass<T>
 
 - **T**: 
 
+### GiveItem(string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L26)
+
+```csharp
+void GiveItem(string itemDesignerName)
+```
+
+#### Parameters
+
+- **itemDesignerName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The designer name of the item to give.
+
 ### RemoveItems()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_ItemServices.cs#L37)
 
 ```csharp
 void RemoveItems()

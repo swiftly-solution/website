@@ -3,6 +3,7 @@ title: EntityTouchType
 ---
 
 ```csharp
+[Obsolete("EntityTouchType is deprecated. Use separate OnEntityStartTouch, OnEntityTouch, and OnEntityEndTouch events instead.")]
 public enum EntityTouchType : byte
 ```
 

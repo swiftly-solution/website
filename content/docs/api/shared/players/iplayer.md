@@ -12,7 +12,7 @@ public interface IPlayer : IEquatable<IPlayer>
 
 ### ConnectedTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L64)
 
 ```csharp
 uint ConnectedTime { get; }
@@ -24,7 +24,7 @@ uint ConnectedTime { get; }
 
 ### Controller
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L70)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L76)
 
 ```csharp
 CCSPlayerController Controller { get; }
@@ -36,7 +36,7 @@ CCSPlayerController Controller { get; }
 
 ### IPAddress
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L101)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L107)
 
 ```csharp
 string IPAddress { get; }
@@ -48,7 +48,7 @@ string IPAddress { get; }
 
 ### IsAuthorized
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L60)
 
 ```csharp
 bool IsAuthorized { get; }
@@ -60,7 +60,7 @@ bool IsAuthorized { get; }
 
 ### IsFakeClient
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L50)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L56)
 
 ```csharp
 bool IsFakeClient { get; }
@@ -72,7 +72,7 @@ bool IsFakeClient { get; }
 
 ### IsValid
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L113)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L119)
 
 ```csharp
 bool IsValid { get; }
@@ -84,7 +84,7 @@ bool IsValid { get; }
 
 ### Pawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L79)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L85)
 
 ```csharp
 CBasePlayerPawn? Pawn { get; }
@@ -108,7 +108,7 @@ int PlayerID { get; }
 
 ### PlayerLanguage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L109)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L115)
 
 ```csharp
 Language PlayerLanguage { get; }
@@ -120,7 +120,7 @@ Language PlayerLanguage { get; }
 
 ### PlayerPawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L88)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L94)
 
 ```csharp
 CCSPlayerPawn? PlayerPawn { get; }
@@ -132,7 +132,7 @@ CCSPlayerPawn? PlayerPawn { get; }
 
 ### PressedButtons
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L97)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L103)
 
 ```csharp
 GameButtonFlags PressedButtons { get; }
@@ -144,7 +144,7 @@ GameButtonFlags PressedButtons { get; }
 
 ### RequiredController
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L75)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L81)
 
 ```csharp
 CCSPlayerController RequiredController { get; }
@@ -156,7 +156,7 @@ CCSPlayerController RequiredController { get; }
 
 ### RequiredPawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L90)
 
 ```csharp
 CBasePlayerPawn RequiredPawn { get; }
@@ -168,7 +168,7 @@ CBasePlayerPawn RequiredPawn { get; }
 
 ### RequiredPlayerPawn
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L93)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L99)
 
 ```csharp
 CCSPlayerPawn RequiredPlayerPawn { get; }
@@ -178,9 +178,21 @@ CCSPlayerPawn RequiredPlayerPawn { get; }
 
 - [CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)
 
+### Slot
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L45)
+
+```csharp
+int Slot { get; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 ### SteamID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L62)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L68)
 
 ```csharp
 ulong SteamID { get; }
@@ -192,7 +204,7 @@ ulong SteamID { get; }
 
 ### UnauthorizedSteamID
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L72)
 
 ```csharp
 ulong UnauthorizedSteamID { get; }
@@ -204,7 +216,7 @@ ulong UnauthorizedSteamID { get; }
 
 ### VoiceFlags
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L105)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L111)
 
 ```csharp
 VoiceFlagValue VoiceFlags { get; set; }
@@ -218,7 +230,7 @@ VoiceFlagValue VoiceFlags { get; set; }
 
 ### ChangeTeam(Team)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L172)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L178)
 
 ```csharp
 void ChangeTeam(Team team)
@@ -230,7 +242,7 @@ void ChangeTeam(Team team)
 
 ### ClearTransmitEntityBlocks()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L137)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L143)
 
 ```csharp
 void ClearTransmitEntityBlocks()
@@ -238,7 +250,7 @@ void ClearTransmitEntityBlocks()
 
 ### ExecuteCommand(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L181)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L187)
 
 ```csharp
 void ExecuteCommand(string command)
@@ -250,7 +262,7 @@ void ExecuteCommand(string command)
 
 ### GetListenOverride(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L149)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L155)
 
 ```csharp
 ListenOverride GetListenOverride(int player)
@@ -266,7 +278,7 @@ ListenOverride GetListenOverride(int player)
 
 ### IsTransmitEntityBlocked(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L133)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L139)
 
 ```csharp
 bool IsTransmitEntityBlocked(int entityid)
@@ -282,7 +294,7 @@ bool IsTransmitEntityBlocked(int entityid)
 
 ### Kick(string, ENetworkDisconnectionReason)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L120)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L126)
 
 ```csharp
 void Kick(string reason, ENetworkDisconnectionReason gameReason)
@@ -296,7 +308,7 @@ void Kick(string reason, ENetworkDisconnectionReason gameReason)
 
 ### Respawn()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L177)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L183)
 
 ```csharp
 void Respawn()
@@ -304,7 +316,7 @@ void Respawn()
 
 ### SendMessage(MessageType, string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L46)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L52)
 
 ```csharp
 void SendMessage(MessageType kind, string message)
@@ -317,7 +329,7 @@ void SendMessage(MessageType kind, string message)
 
 ### SetListenOverride(int, ListenOverride)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L143)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L149)
 
 ```csharp
 void SetListenOverride(int player, ListenOverride listenOverride)
@@ -330,7 +342,7 @@ void SetListenOverride(int player, ListenOverride listenOverride)
 
 ### ShouldBlockTransmitEntity(int, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L127)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L133)
 
 ```csharp
 void ShouldBlockTransmitEntity(int entityid, bool shouldBlockTransmit)
@@ -344,7 +356,7 @@ void ShouldBlockTransmitEntity(int entityid, bool shouldBlockTransmit)
 
 ### SwitchTeam(Team)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L167)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L173)
 
 ```csharp
 void SwitchTeam(Team team)
@@ -356,7 +368,7 @@ void SwitchTeam(Team team)
 
 ### TakeDamage(CTakeDamageInfo)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L155)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L161)
 
 ```csharp
 void TakeDamage(CTakeDamageInfo damageInfo)
@@ -369,7 +381,7 @@ void TakeDamage(CTakeDamageInfo damageInfo)
 
 ### Teleport(Vector, QAngle, Vector)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L162)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Players/IPlayer.cs#L168)
 
 ```csharp
 void Teleport(Vector pos, QAngle angle, Vector velocity)

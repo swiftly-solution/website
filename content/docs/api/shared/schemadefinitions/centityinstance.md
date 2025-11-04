@@ -114,7 +114,7 @@ void AddEntityIOEvent<T>(string input, T value, CEntityInstance? activator = nul
 
 ### Despawn()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L68)
 
 ```csharp
 void Despawn()
@@ -139,4 +139,45 @@ void DispatchSpawn(CEntityKeyValues? entityKV = null)
 ```csharp
 void EntityUpdated()
 ```
+
+### IsTransmitting(int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L64)
+
+```csharp
+bool IsTransmitting(int playerId)
+```
+
+#### Parameters
+
+- **playerId**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The player ID to check the transmit state for.
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### SetTransmitState(bool, int)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L52)
+
+```csharp
+void SetTransmitState(bool transmitting, int playerId)
+```
+
+#### Parameters
+
+- **transmitting**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the entity should be transmitting.
+- **playerId**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The player ID to set the transmit state for.
+
+### SetTransmitState(bool)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CEntityInstance.cs#L58)
+
+```csharp
+void SetTransmitState(bool transmitting)
+```
+
+#### Parameters
+
+- **transmitting**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether the entity should be transmitting.
 

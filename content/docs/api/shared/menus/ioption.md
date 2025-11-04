@@ -32,6 +32,18 @@ IMenu? Menu { get; set; }
 
 - [IMenu](/docs/api/shared/menus/imenu)?
 
+### OverflowStyle
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L33)
+
+```csharp
+MenuHorizontalStyle? OverflowStyle { get; }
+```
+
+#### Property Value
+
+- [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)?
+
 ### Text
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L13)
@@ -60,7 +72,7 @@ bool Visible { get; }
 
 ### CanInteract(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L47)
 
 ```csharp
 bool CanInteract(IPlayer player)
@@ -76,7 +88,7 @@ bool CanInteract(IPlayer player)
 
 ### GetDisplayText(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L49)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L54)
 
 ```csharp
 string GetDisplayText(IPlayer player)
@@ -92,7 +104,7 @@ string GetDisplayText(IPlayer player)
 
 ### GetTextSize()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L55)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L60)
 
 ```csharp
 IMenuTextSize GetTextSize()
@@ -104,7 +116,7 @@ IMenuTextSize GetTextSize()
 
 ### ShouldShow(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L35)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L40)
 
 ```csharp
 bool ShouldShow(IPlayer player)

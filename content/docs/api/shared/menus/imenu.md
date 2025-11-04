@@ -80,6 +80,18 @@ bool HasSound { get; set; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### HorizontalStyle
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L213)
+
+```csharp
+MenuHorizontalStyle? HorizontalStyle { get; set; }
+```
+
+#### Property Value
+
+- [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle)?
+
 ### MaxVisibleOptions
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L51)
@@ -176,6 +188,18 @@ string Title { get; set; }
 
 - [string](https://learn.microsoft.com/dotnet/api/system.string)
 
+### VerticalScrollStyle
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L207)
+
+```csharp
+MenuVerticalScrollStyle VerticalScrollStyle { get; set; }
+```
+
+#### Property Value
+
+- [MenuVerticalScrollStyle](/docs/api/shared/menus/menuverticalscrollstyle)
+
 ## Methods
 
 ### Close(IPlayer)
@@ -192,7 +216,7 @@ void Close(IPlayer player)
 
 ### IsCurrentOptionSelectable(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L186)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L187)
 
 ```csharp
 bool IsCurrentOptionSelectable(IPlayer player)
@@ -208,7 +232,7 @@ bool IsCurrentOptionSelectable(IPlayer player)
 
 ### IsOptionSlider(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L192)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L193)
 
 ```csharp
 bool IsOptionSlider(IPlayer player)
@@ -235,21 +259,22 @@ void MoveSelection(IPlayer player, int offset)
 - **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player whose selection to move.
 - **offset**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The number of positions to move the selection.
 
-### Rerender(IPlayer)
+### Rerender(IPlayer, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L178)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L179)
 
 ```csharp
-void Rerender(IPlayer player)
+void Rerender(IPlayer player, bool updateDisplayText = false)
 ```
 
 #### Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to re-render the menu for.
+- **updateDisplayText**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True to update display text, false to render without updating display text.
 
 ### SetFreezeState(IPlayer, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L200)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L201)
 
 ```csharp
 void SetFreezeState(IPlayer player, bool freeze)

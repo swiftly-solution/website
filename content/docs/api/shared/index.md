@@ -31,6 +31,7 @@ title: Shared
 
 - [Helper.ChatColors](/docs/api/shared/helper/chatcolors)
 - [Helper](/docs/api/shared/helper)
+- [HtmlGradient](/docs/api/shared/htmlgradient) - Provides utility methods for generating HTML text with gradient color effects.
 - [PluginMetadata](/docs/api/shared/pluginmetadata)
 - [SwiftlyCoreInjection](/docs/api/shared/swiftlycoreinjection)
 - [SwiftlyInject](/docs/api/shared/swiftlyinject)

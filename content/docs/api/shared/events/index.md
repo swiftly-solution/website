@@ -21,11 +21,13 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [IOnConsoleOutputEvent](/docs/api/shared/events/ionconsoleoutputevent) - Called when a console output is received.
 - [IOnEntityCreatedEvent](/docs/api/shared/events/ionentitycreatedevent) - Called when an entity is created.
 - [IOnEntityDeletedEvent](/docs/api/shared/events/ionentitydeletedevent) - Called when an entity is deleted.
+- [IOnEntityEndTouchEvent](/docs/api/shared/events/ionentityendtouchevent) - Called when an entity ends touching another entity.
 - [IOnEntityParentChangedEvent](/docs/api/shared/events/ionentityparentchangedevent) - Called when an entity's parent changes.
 - [IOnEntitySpawnedEvent](/docs/api/shared/events/ionentityspawnedevent) - Called when an entity is spawned.
+- [IOnEntityStartTouchEvent](/docs/api/shared/events/ionentitystarttouchevent) - Called when an entity starts touching another entity.
 - [IOnEntityTakeDamageEvent](/docs/api/shared/events/ionentitytakedamageevent) - Called when an entity takes damage.
-- [IOnEntityTouchHookEvent](/docs/api/shared/events/ionentitytouchhookevent) - Called when an entity touches another entity.
-<div class="NOTE"><h5>note</h5><p>This event is triggered for StartTouch, Touch, and EndTouch interactions.</p></div>
+- [IOnEntityTouchEvent](/docs/api/shared/events/ionentitytouchevent) - Called when an entity is touching another entity.
+- [IOnEntityTouchHookEvent](/docs/api/shared/events/ionentitytouchhookevent)
 - [IOnItemServicesCanAcquireHookEvent](/docs/api/shared/events/ionitemservicescanacquirehookevent)
 - [IOnMapLoadEvent](/docs/api/shared/events/ionmaploadevent) - Called when the map is loaded.
 - [IOnMapUnloadEvent](/docs/api/shared/events/ionmapunloadevent) - Called when the map is unloaded.
@@ -52,10 +54,13 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [EventDelegates.OnConsoleOutput](/docs/api/shared/events/eventdelegates/onconsoleoutput) - Called when a console output is received.
 - [EventDelegates.OnEntityCreated](/docs/api/shared/events/eventdelegates/onentitycreated) - Called when an entity is created.
 - [EventDelegates.OnEntityDeleted](/docs/api/shared/events/eventdelegates/onentitydeleted) - Called when an entity is deleted.
+- [EventDelegates.OnEntityEndTouch](/docs/api/shared/events/eventdelegates/onentityendtouch) - Called when an entity ends touching another entity.
 - [EventDelegates.OnEntityParentChanged](/docs/api/shared/events/eventdelegates/onentityparentchanged) - Called when an entity's parent changes.
 - [EventDelegates.OnEntitySpawned](/docs/api/shared/events/eventdelegates/onentityspawned) - Called when an entity is spawned.
+- [EventDelegates.OnEntityStartTouch](/docs/api/shared/events/eventdelegates/onentitystarttouch) - Called when an entity starts touching another entity.
 - [EventDelegates.OnEntityTakeDamage](/docs/api/shared/events/eventdelegates/onentitytakedamage) - Called when an entity takes damage.
-- [EventDelegates.OnEntityTouchHook](/docs/api/shared/events/eventdelegates/onentitytouchhook) - Called when an entity is touching another entity.
+- [EventDelegates.OnEntityTouch](/docs/api/shared/events/eventdelegates/onentitytouch) - Called when an entity is touching another entity.
+- [EventDelegates.OnEntityTouchHook](/docs/api/shared/events/eventdelegates/onentitytouchhook)
 - [EventDelegates.OnItemServicesCanAcquireHook](/docs/api/shared/events/eventdelegates/onitemservicescanacquirehook) - Called when an item services can acquire hook is triggered.
 - [EventDelegates.OnMapLoad](/docs/api/shared/events/eventdelegates/onmapload) - Called when a map is loaded.
 - [EventDelegates.OnMapUnload](/docs/api/shared/events/eventdelegates/onmapunload) - Called when a map is unloaded.

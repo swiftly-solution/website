@@ -10,7 +10,7 @@ public interface IEngineService
 
 ### CurrentTime
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L52)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L53)
 
 ```csharp
 [Obsolete("Use GlobalVars.CurrentTime instead.")]
@@ -23,7 +23,7 @@ float CurrentTime { get; }
 
 ### GlobalVars
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L22)
 
 ```csharp
 ref CGlobalVars GlobalVars { get; }
@@ -35,7 +35,7 @@ ref CGlobalVars GlobalVars { get; }
 
 ### Map
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L15)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L16)
 
 ```csharp
 [Obsolete("Use GlobalVars.MapName instead.")]
@@ -48,7 +48,7 @@ string Map { get; }
 
 ### MaxPlayers
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L34)
 
 ```csharp
 [Obsolete("Use GlobalVars.MaxClients instead.")]
@@ -61,7 +61,7 @@ int MaxPlayers { get; }
 
 ### ServerIP
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L10)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L11)
 
 ```csharp
 string ServerIP { get; }
@@ -73,7 +73,7 @@ string ServerIP { get; }
 
 ### TickCount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L58)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L59)
 
 ```csharp
 [Obsolete("Use GlobalVars.TickCount instead.")]
@@ -86,9 +86,28 @@ int TickCount { get; }
 
 ## Methods
 
+### DispatchParticleEffect(string, ParticleAttachment_t, byte, CUtlSymbolLarge, CRecipientFilter, bool, int, CBaseEntity?)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L80)
+
+```csharp
+void DispatchParticleEffect(string particleName, ParticleAttachment_t attachmentType, byte attachmentPoint, CUtlSymbolLarge attachmentName, CRecipientFilter filter, bool resetAllParticlesOnEntity = false, int splitScreenSlot = 0, CBaseEntity? entity = null)
+```
+
+#### Parameters
+
+- **particleName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the particle effect.
+- **attachmentType**: [ParticleAttachment_t](/docs/api/shared/schemadefinitions/particleattachment_t) - The type of attachment for the particle effect.
+- **attachmentPoint**: [byte](https://learn.microsoft.com/dotnet/api/system.byte) - The attachment point for the particle effect.
+- **attachmentName**: [CUtlSymbolLarge](/docs/api/shared/natives/cutlsymbollarge) - The name of the attachment for the particle effect.
+- **filter**: [CRecipientFilter](/docs/api/shared/natives/crecipientfilter) - The recipient filter for the particle effect.
+- **resetAllParticlesOnEntity**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Whether to reset all particles on the entity.
+- **splitScreenSlot**: [int](https://learn.microsoft.com/dotnet/api/system.int32) - The split screen slot for the particle effect.
+- **entity**: [CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)? - The entity to attach the particle effect to.
+
 ### ExecuteCommand(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L40)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L41)
 
 ```csharp
 void ExecuteCommand(string command)
@@ -100,7 +119,7 @@ void ExecuteCommand(string command)
 
 ### ExecuteCommandWithBuffer(string, Action)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L47)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L48)
 
 ```csharp
 void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
@@ -113,7 +132,7 @@ void ExecuteCommandWithBuffer(string command, Action<string> bufferCallback)
 
 ### FindGameSystemByName(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L67)
 
 ```csharp
 nint? FindGameSystemByName(string name)
@@ -129,7 +148,7 @@ nint? FindGameSystemByName(string name)
 
 ### IsMapValid(string)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Engine/IEngineService.cs#L29)
 
 ```csharp
 bool IsMapValid(string map)
