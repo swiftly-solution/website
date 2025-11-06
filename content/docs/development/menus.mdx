@@ -32,10 +32,14 @@ var menu = Core.Menus.CreateMenu("Settings");
 menu.Builder
     .HasSound(true)           // Enable sound effects
     .ForceFreeze()            // Freeze player while menu is open
-    .MaxVisibleItems(7)       // Set max visible items per page
     .AutoClose(10.0f)         // Auto-close after 10 seconds
-    .CloseOnSelect()          // Close menu when any option is selected
-    .SetColor(new Color(255, 255, 255, 255));  // Set menu color
+    .CloseOnSelect();         // Close menu when any option is selected
+
+// Design configuration (new API)
+menu.Builder.Design
+    .MaxVisibleItems(7)       // Set max visible items per page
+    .SetColor(new Color(255, 255, 255, 255))  // Set menu color
+    .SetVerticalScrollStyle(MenuVerticalScrollStyle.Arrows);  // Customize scroll style
 ```
 
 ### Menu Options
@@ -186,18 +190,18 @@ menu.Builder
 
 ### Button Overrides
 
-Customize which buttons control menu interactions.
+Customize which buttons control menu interactions using the Design API.
 
 ```csharp
-menu.Builder
+menu.Builder.Design
     .OverrideSelectButton("attack", "attack2")     // Use attack buttons for selection
     .OverrideMoveButton("forward", "back")         // Use movement buttons for navigation
     .OverrideExitButton("duck");                   // Use duck button to exit
 ```
 
-### Text Sizing
+### Text Sizing and Overflow
 
-Control the size of menu text.
+Control the size of menu text and how overflow is handled.
 
 ```csharp
 menu.Builder
@@ -206,6 +210,16 @@ menu.Builder
     .AddText("Medium", size: IMenuTextSize.Medium)          // Default
     .AddText("Large", size: IMenuTextSize.Large)
     .AddText("Extra Large", size: IMenuTextSize.ExtraLarge);
+
+// Control text overflow behavior with MenuHorizontalStyle
+menu.Builder
+    .AddButton("Long text that might overflow", player => { },
+        overflowStyle: MenuHorizontalStyle.Truncate)
+    .AddButton("Another long text", player => { },
+        overflowStyle: MenuHorizontalStyle.Scroll);
+
+// Set global horizontal style for all menu items
+menu.Builder.Design.SetGlobalHorizontalStyle(MenuHorizontalStyle.Wrap);
 ```
 
 ## Menu Management
@@ -331,13 +345,65 @@ var noFreezeMenu = Core.Menus.CreateMenu("No Freeze Menu")
     .NoFreeze();
 ```
 
+### Menu Design API
+
+The new `Design` API provides a cleaner way to customize menu appearance and behavior. Access it via `menu.Builder.Design`.
+
+```csharp
+var menu = Core.Menus.CreateMenu("Styled Menu");
+
+// Configure design settings
+menu.Builder.Design
+    .MaxVisibleItems(10)                                    // Maximum items shown at once
+    .SetColor(new Color(100, 200, 255, 255))               // Menu tint color
+    .SetVerticalScrollStyle(MenuVerticalScrollStyle.Arrows) // Scroll indicators
+    .SetGlobalHorizontalStyle(MenuHorizontalStyle.Wrap)    // Text overflow behavior
+    .OverrideSelectButton("attack")                         // Custom button mappings
+    .OverrideMoveButton("forward", "back")
+    .OverrideExitButton("use");
+
+// Available MenuHorizontalStyle options:
+// - Truncate: Cut off text that's too long
+// - Scroll: Horizontally scroll long text
+// - Wrap: Wrap text to multiple lines
+
+// Available MenuVerticalScrollStyle options:
+// - Arrows: Show up/down arrows for scrolling
+// - PageNumbers: Show current page number
+// - None: No scroll indicators
+```
+
+### Per-Item Overflow Styles
+
+Each menu item can have its own overflow style, overriding the global setting.
+
+```csharp
+menu.Builder
+    .AddButton("Short", player => { })
+    .AddButton("This is a very long button text that needs special handling",
+        player => { },
+        overflowStyle: MenuHorizontalStyle.Scroll)
+    .AddToggle("Long toggle text example", false, null,
+        overflowStyle: MenuHorizontalStyle.Truncate)
+    .AddSlider("Volume", 0, 100, 50, 5, null,
+        overflowStyle: MenuHorizontalStyle.Wrap);
+```
+
 ## Reference
 
 See the following API documentation for more details:
+
+### Core Interfaces
 - [IMenuManager](/docs/api/shared/menus/imenumanager) - Menu manager interface
 - [IMenu](/docs/api/shared/menus/imenu) - Menu interface
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - Menu builder interface
+- [IMenuDesign](/docs/api/shared/menus/imenudesign) - Menu design configuration interface (new!)
 - [IOption](/docs/api/shared/menus/ioption) - Menu option interface
+
+### Styling and Configuration
+- [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle) - Text overflow styles (Truncate, Scroll, Wrap)
+- [MenuVerticalScrollStyle](/docs/api/shared/menus/menuverticalscrollstyle) - Vertical scroll indicators
 - [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - Text size enum
 - [ITextAlign](/docs/api/shared/menus/itextalign) - Text alignment enum
+- [IMenuButtonOverrides](/docs/api/shared/menus/imenubuttonoverrides) - Custom button mappings
 - [MenuSettings](/docs/api/shared/menus/menusettings) - Global menu settings

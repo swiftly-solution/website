@@ -33,7 +33,7 @@ export default function HomePage() {
               </Link>
             </div>
           </div>
-          <div>
+          <div className="hidden md:block">
             <Image src={SwiftlyLogo} alt="SwiftlyS2 Logo" width={512} height={512} className="mx-auto" />
           </div>
         </div>
