@@ -15,12 +15,12 @@ public interface CCSPlayer_PingServices : CPlayerPawnComponent, ISchemaClass<CPl
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCSPlayer_PingServices.cs#L20)
 
 ```csharp
-ref CHandle<CBaseEntity> PlayerPing { get; }
+ref CHandle<CPlayerPing> PlayerPing { get; }
 ```
 
 #### Property Value
 
-- [CHandle](/docs/api/shared/natives/chandle-1)<[CBaseEntity](/docs/api/shared/schemadefinitions/cbaseentity)>
+- [CHandle](/docs/api/shared/natives/chandle-1)<[CPlayerPing](/docs/api/shared/schemadefinitions/cplayerping)>
 
 ### PlayerPingTokens
 

@@ -65,6 +65,7 @@ This callback is a hot path, be careful with it and don't do anything expensive.
 - [EventDelegates.OnMapLoad](/docs/api/shared/events/eventdelegates/onmapload) - Called when a map is loaded.
 - [EventDelegates.OnMapUnload](/docs/api/shared/events/eventdelegates/onmapunload) - Called when a map is unloaded.
 - [EventDelegates.OnPrecacheResource](/docs/api/shared/events/eventdelegates/onprecacheresource) - Called when the game is precaching resources.
+- [EventDelegates.OnSteamAPIActivated](/docs/api/shared/events/eventdelegates/onsteamapiactivated) - Called when Steam API is activated.
 - [EventDelegates.OnTick](/docs/api/shared/events/eventdelegates/ontick) - Called when game has processed a tick. Won't be called if the server is in hibernation.
 This callback is a hot path, be careful with it and don't do anything expensive.
 - [EventDelegates.OnWeaponServicesCanUseHook](/docs/api/shared/events/eventdelegates/onweaponservicescanusehook) - Called when a weapon services can use hook is triggered.

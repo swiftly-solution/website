@@ -34,3 +34,15 @@ ref CUtlVector<uint> Recipients { get; }
 
 - [CUtlVector](/docs/api/-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)>
 
+### SlotPlayerExcludedDueToPrediction
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCopyRecipientFilter.cs#L21)
+
+```csharp
+ref uint SlotPlayerExcludedDueToPrediction { get; }
+```
+
+#### Property Value
+
+- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+

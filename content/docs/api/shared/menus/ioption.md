@@ -86,17 +86,18 @@ bool CanInteract(IPlayer player)
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the player can interact with the option; otherwise, false.
 
-### GetDisplayText(IPlayer)
+### GetDisplayText(IPlayer, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L55)
 
 ```csharp
-string GetDisplayText(IPlayer player)
+string GetDisplayText(IPlayer player, bool updateHorizontalStyle)
 ```
 
 #### Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player requesting the display text.
+- **updateHorizontalStyle**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - Indicates whether to update the horizontal style of the text.
 
 #### Returns
 
@@ -104,7 +105,7 @@ string GetDisplayText(IPlayer player)
 
 ### GetTextSize()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L61)
 
 ```csharp
 IMenuTextSize GetTextSize()
@@ -113,6 +114,18 @@ IMenuTextSize GetTextSize()
 #### Returns
 
 - [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size setting for the option.
+
+### HasSound()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IOption.cs#L67)
+
+```csharp
+bool HasSound()
+```
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the option should play a sound; otherwise, false.
 
 ### ShouldShow(IPlayer)
 

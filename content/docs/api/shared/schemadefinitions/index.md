@@ -444,6 +444,7 @@ title: SchemaDefinitions
 - [CFuncPlat](/docs/api/shared/schemadefinitions/cfuncplat)
 - [CFuncPlatRot](/docs/api/shared/schemadefinitions/cfuncplatrot)
 - [CFuncPropRespawnZone](/docs/api/shared/schemadefinitions/cfuncproprespawnzone)
+- [CFuncRetakeBarrier](/docs/api/shared/schemadefinitions/cfuncretakebarrier)
 - [CFuncRotating](/docs/api/shared/schemadefinitions/cfuncrotating)
 - [CFuncRotator](/docs/api/shared/schemadefinitions/cfuncrotator)
 - [CFuncShatterglass](/docs/api/shared/schemadefinitions/cfuncshatterglass)

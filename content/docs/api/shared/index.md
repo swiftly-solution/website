@@ -27,6 +27,7 @@ title: Shared
 - [SwiftlyS2.Shared.Schemas](/docs/api/shared/schemas)
 - [SwiftlyS2.Shared.Services](/docs/api/shared/services)
 - [SwiftlyS2.Shared.Sounds](/docs/api/shared/sounds)
+- [SwiftlyS2.Shared.SteamAPI](/docs/api/shared/steamapi)
 - [SwiftlyS2.Shared.Translation](/docs/api/shared/translation)
 
 - [Helper.ChatColors](/docs/api/shared/helper/chatcolors)

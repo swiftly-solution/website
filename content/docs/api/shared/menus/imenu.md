@@ -82,7 +82,7 @@ bool HasSound { get; set; }
 
 ### HorizontalStyle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L213)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L212)
 
 ```csharp
 MenuHorizontalStyle? HorizontalStyle { get; set; }
@@ -190,7 +190,7 @@ string Title { get; set; }
 
 ### VerticalScrollStyle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L207)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L206)
 
 ```csharp
 MenuVerticalScrollStyle VerticalScrollStyle { get; set; }
@@ -214,27 +214,45 @@ void Close(IPlayer player)
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to close the menu for.
 
-### IsCurrentOptionSelectable(IPlayer)
+### GetCurrentOption(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L187)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L192)
 
 ```csharp
+IOption? GetCurrentOption(IPlayer player)
+```
+
+#### Parameters
+
+- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to get the current option for.
+
+#### Returns
+
+- [IOption](/docs/api/shared/menus/ioption)? - The currently selected option, or null if no option is selected.
+
+### IsCurrentOptionSelectable(IPlayer)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L181)
+
+```csharp
+[Obsolete("Use GetCurrentOption instead")]
 bool IsCurrentOptionSelectable(IPlayer player)
 ```
 
 #### Parameters
 
-- **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to check the current selection for.
+- **player**: [IPlayer](/docs/api/shared/players/iplayer)
 
 #### Returns
 
-- [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the current option is selectable, false otherwise.
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 ### IsOptionSlider(IPlayer)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L193)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L184)
 
 ```csharp
+[Obsolete("Use GetCurrentOption instead")]
 bool IsOptionSlider(IPlayer player)
 ```
 
@@ -264,17 +282,17 @@ void MoveSelection(IPlayer player, int offset)
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L179)
 
 ```csharp
-void Rerender(IPlayer player, bool updateDisplayText = false)
+void Rerender(IPlayer player, bool updateHorizontalStyle = false)
 ```
 
 #### Parameters
 
 - **player**: [IPlayer](/docs/api/shared/players/iplayer) - The player to re-render the menu for.
-- **updateDisplayText**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True to update display text, false to render without updating display text.
+- **updateHorizontalStyle**: [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True to update horizontal style, false to render without updating horizontal style.
 
 ### SetFreezeState(IPlayer, bool)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L201)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L200)
 
 ```csharp
 void SetFreezeState(IPlayer player, bool freeze)

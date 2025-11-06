@@ -20,6 +20,7 @@ public enum SVC_Messages
 - **svc_HLTVStatus**: 62
 - **svc_HltvFixupOperatorStatus**: 75
 - **svc_Menu**: 57
+- **svc_NextMsgPredicted**: 77
 - **svc_PacketEntities**: 55
 - **svc_PacketReliable**: 61
 - **svc_PeerList**: 60

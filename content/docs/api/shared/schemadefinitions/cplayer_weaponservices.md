@@ -90,7 +90,7 @@ void AmmoUpdated()
 
 ### DropWeapon(CBasePlayerWeapon)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L9)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L10)
 
 ```csharp
 void DropWeapon(CBasePlayerWeapon weapon)
@@ -102,7 +102,7 @@ void DropWeapon(CBasePlayerWeapon weapon)
 
 ### DropWeaponByClass()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L64)
 
 ```csharp
 void DropWeaponByClass<T>() where T : CBasePlayerWeapon
@@ -111,6 +111,30 @@ void DropWeaponByClass<T>() where T : CBasePlayerWeapon
 #### Type Parameters
 
 - **T**:  - The weapon class.
+
+### DropWeaponByDesignerName(string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L46)
+
+```csharp
+void DropWeaponByDesignerName(string designerName)
+```
+
+#### Parameters
+
+- **designerName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The designer name of the weapon to drop.
+
+### DropWeaponBySlot(gear_slot_t)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L28)
+
+```csharp
+void DropWeaponBySlot(gear_slot_t slot)
+```
+
+#### Parameters
+
+- **slot**: [gear_slot_t](/docs/api/shared/schemadefinitions/gear_slot_t) - The slot to drop the weapon from.
 
 ### LastWeaponUpdated()
 
@@ -130,7 +154,7 @@ void MyWeaponsUpdated()
 
 ### RemoveWeapon(CBasePlayerWeapon)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L15)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L16)
 
 ```csharp
 void RemoveWeapon(CBasePlayerWeapon weapon)
@@ -142,7 +166,7 @@ void RemoveWeapon(CBasePlayerWeapon weapon)
 
 ### RemoveWeaponByClass()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L70)
 
 ```csharp
 void RemoveWeaponByClass<T>() where T : CBasePlayerWeapon
@@ -152,9 +176,33 @@ void RemoveWeaponByClass<T>() where T : CBasePlayerWeapon
 
 - **T**:  - The weapon class.
 
+### RemoveWeaponByDesignerName(string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L52)
+
+```csharp
+void RemoveWeaponByDesignerName(string designerName)
+```
+
+#### Parameters
+
+- **designerName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The designer name of the weapon to remove.
+
+### RemoveWeaponBySlot(gear_slot_t)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L34)
+
+```csharp
+void RemoveWeaponBySlot(gear_slot_t slot)
+```
+
+#### Parameters
+
+- **slot**: [gear_slot_t](/docs/api/shared/schemadefinitions/gear_slot_t) - The slot to remove the weapon from.
+
 ### SelectWeapon(CBasePlayerWeapon)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L22)
 
 ```csharp
 void SelectWeapon(CBasePlayerWeapon weapon)
@@ -166,7 +214,7 @@ void SelectWeapon(CBasePlayerWeapon weapon)
 
 ### SelectWeaponByClass()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L76)
 
 ```csharp
 void SelectWeaponByClass<T>() where T : CBasePlayerWeapon
@@ -175,4 +223,28 @@ void SelectWeaponByClass<T>() where T : CBasePlayerWeapon
 #### Type Parameters
 
 - **T**:  - The weapon class.
+
+### SelectWeaponByDesignerName(string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L58)
+
+```csharp
+void SelectWeaponByDesignerName(string designerName)
+```
+
+#### Parameters
+
+- **designerName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The designer name of the weapon to select.
+
+### SelectWeaponBySlot(gear_slot_t)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CPlayer_WeaponServices.cs#L40)
+
+```csharp
+void SelectWeaponBySlot(gear_slot_t slot)
+```
+
+#### Parameters
+
+- **slot**: [gear_slot_t](/docs/api/shared/schemadefinitions/gear_slot_t) - The slot to select the weapon from.
 

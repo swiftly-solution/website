@@ -22,6 +22,18 @@ ref bool BlockersPresent { get; }
 
 - [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
+### BombPlanter
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L27)
+
+```csharp
+ref CHandle<CCSPlayerPawn> BombPlanter { get; }
+```
+
+#### Property Value
+
+- [CHandle](/docs/api/shared/natives/chandle-1)<[CCSPlayerPawn](/docs/api/shared/schemadefinitions/ccsplayerpawn)>
+
 ### BombSite
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L25)
@@ -74,15 +86,23 @@ ref bool RoundInProgress { get; }
 
 ### BlockersPresentUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L28)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L30)
 
 ```csharp
 void BlockersPresentUpdated()
 ```
 
+### BombPlanterUpdated()
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L34)
+
+```csharp
+void BombPlanterUpdated()
+```
+
 ### BombSiteUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L31)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L33)
 
 ```csharp
 void BombSiteUpdated()
@@ -90,7 +110,7 @@ void BombSiteUpdated()
 
 ### FirstSecondHalfRoundUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L32)
 
 ```csharp
 void FirstSecondHalfRoundUpdated()
@@ -98,7 +118,7 @@ void FirstSecondHalfRoundUpdated()
 
 ### MatchSeedUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L29)
 
 ```csharp
 void MatchSeedUpdated()
@@ -106,7 +126,7 @@ void MatchSeedUpdated()
 
 ### RoundInProgressUpdated()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L29)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CRetakeGameRules.cs#L31)
 
 ```csharp
 void RoundInProgressUpdated()

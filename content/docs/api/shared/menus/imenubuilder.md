@@ -100,7 +100,7 @@ IMenuBuilder AddButton(string text, Action<IPlayer, IOption>? onClick, IMenuText
 
 ### AddChoice(string, string[], string?, Action?, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L187)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L206)
 
 ```csharp
 IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice = null, Action<IPlayer, string>? onChange = null, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
@@ -121,7 +121,7 @@ IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice = nu
 
 ### AddChoice(string, string[], string?, Action?, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L213)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L232)
 
 ```csharp
 IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice, Action<IPlayer, IOption, string>? onChange, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
@@ -142,7 +142,7 @@ IMenuBuilder AddChoice(string text, string[] choices, string? defaultChoice, Act
 
 ### AddProgressBar(string, Func, int, IMenuTextSize, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L232)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L251)
 
 ```csharp
 IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWidth = 20, IMenuTextSize size = IMenuTextSize.Medium, MenuHorizontalStyle? overflowStyle = null)
@@ -162,7 +162,7 @@ IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWi
 
 ### AddProgressBar(string, Func, int, MenuHorizontalStyle?)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L243)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L262)
 
 ```csharp
 IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWidth, MenuHorizontalStyle? overflowStyle = null)
@@ -181,7 +181,7 @@ IMenuBuilder AddProgressBar(string text, Func<float> progressProvider, int barWi
 
 ### AddSeparator()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L220)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L239)
 
 ```csharp
 IMenuBuilder AddSeparator()
@@ -307,6 +307,41 @@ IMenuBuilder AddSubmenu(string text, Func<IMenu> submenuBuilder)
 
 - [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
 
+### AddSubmenu(string, Func>, IMenuTextSize)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L184)
+
+```csharp
+IMenuBuilder AddSubmenu(string text, Func<Task<IMenu>> submenuBuilder, IMenuTextSize size = IMenuTextSize.Medium)
+```
+
+#### Parameters
+
+- **text**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The display text for the submenu option.
+- **submenuBuilder**: [Func](https://learn.microsoft.com/dotnet/api/system.func-1)<[Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1)<[IMenu](/docs/api/shared/menus/imenu)>> - An asynchronous function that returns the submenu instance when called.
+- **size**: [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - The text size for the submenu display. Defaults to Medium.
+
+#### Returns
+
+- [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
+
+### AddSubmenu(string, Func>)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L193)
+
+```csharp
+IMenuBuilder AddSubmenu(string text, Func<Task<IMenu>> submenuBuilder)
+```
+
+#### Parameters
+
+- **text**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The display text for the submenu option.
+- **submenuBuilder**: [Func](https://learn.microsoft.com/dotnet/api/system.func-1)<[Task](https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1)<[IMenu](/docs/api/shared/menus/imenu)>> - An asynchronous function that returns the submenu instance when called.
+
+#### Returns
+
+- [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - The current menu builder instance for method chaining.
+
 ### AddText(string, ITextAlign, IMenuTextSize, MenuHorizontalStyle?)
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L136)
@@ -368,7 +403,7 @@ IMenuBuilder AddToggle(string text, bool defaultValue, Action<IPlayer, IOption, 
 
 ### AutoClose(float)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L282)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L301)
 
 ```csharp
 IMenuBuilder AutoClose(float seconds)
@@ -384,7 +419,7 @@ IMenuBuilder AutoClose(float seconds)
 
 ### CloseOnSelect()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L274)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L293)
 
 ```csharp
 IMenuBuilder CloseOnSelect()
@@ -396,7 +431,7 @@ IMenuBuilder CloseOnSelect()
 
 ### EnabledWhen(Func)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L267)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L286)
 
 ```csharp
 IMenuBuilder EnabledWhen(Func<IPlayer, bool> condition)
@@ -412,7 +447,7 @@ IMenuBuilder EnabledWhen(Func<IPlayer, bool> condition)
 
 ### ForceFreeze()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L337)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L356)
 
 ```csharp
 IMenuBuilder ForceFreeze()
@@ -440,7 +475,7 @@ IMenuBuilder HasSound(bool hasSound)
 
 ### MaxVisibleItems(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L322)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L341)
 
 ```csharp
 [Obsolete("Use Design.MaxVisibleItems instead")]
@@ -459,7 +494,7 @@ IMenuBuilder MaxVisibleItems(int count)
 
 ### NoFreeze()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L330)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L349)
 
 ```csharp
 IMenuBuilder NoFreeze()
@@ -471,7 +506,7 @@ IMenuBuilder NoFreeze()
 
 ### OverrideExitButton(params string[])
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L308)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L327)
 
 ```csharp
 [Obsolete("Use Design.OverrideExitButton instead")]
@@ -488,7 +523,7 @@ IMenuBuilder OverrideExitButton(params string[] buttonNames)
 
 ### OverrideMoveButton(params string[])
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L299)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L318)
 
 ```csharp
 [Obsolete("Use Design.OverrideMoveButton instead")]
@@ -505,7 +540,7 @@ IMenuBuilder OverrideMoveButton(params string[] buttonNames)
 
 ### OverrideSelectButton(params string[])
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L290)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L309)
 
 ```csharp
 [Obsolete("Use Design.OverrideSelectButton instead")]
@@ -522,7 +557,7 @@ IMenuBuilder OverrideSelectButton(params string[] buttonNames)
 
 ### SetColor(Color)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L345)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L364)
 
 ```csharp
 [Obsolete("Use Design.SetColor instead")]
@@ -555,7 +590,7 @@ IMenuBuilder SetMenu(IMenu menu)
 
 ### VisibleWhen(Func)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L259)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L278)
 
 ```csharp
 IMenuBuilder VisibleWhen(Func<IPlayer, bool> condition)
@@ -571,7 +606,7 @@ IMenuBuilder VisibleWhen(Func<IPlayer, bool> condition)
 
 ### WithParent(IMenu)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L251)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenuBuilder.cs#L270)
 
 ```csharp
 IMenuBuilder WithParent(IMenu parent)

@@ -46,6 +46,18 @@ Vector EntOrigin { get; set; }
 
 - [Vector](/docs/api/shared/natives/vector)
 
+### Extra
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFireBullets.cs#L63)
+
+```csharp
+CMsgTEFireBullets_Extra Extra { get; }
+```
+
+#### Property Value
+
+- [CMsgTEFireBullets_Extra](/docs/api/shared/protobufdefinitions/cmsgtefirebullets_extra)
+
 ### Inaccuracy
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFireBullets.cs#L36)

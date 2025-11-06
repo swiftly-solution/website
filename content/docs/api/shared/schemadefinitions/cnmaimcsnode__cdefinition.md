@@ -12,7 +12,7 @@ public interface CNmAimCSNode__CDefinition : CNmPassthroughNode__CDefinition, CN
 
 ### BlendTimeSeconds
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L23)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L25)
 
 ```csharp
 ref float BlendTimeSeconds { get; }
@@ -24,7 +24,7 @@ ref float BlendTimeSeconds { get; }
 
 ### EnabledNodeIdx
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L21)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L23)
 
 ```csharp
 ref short EnabledNodeIdx { get; }
@@ -52,6 +52,18 @@ ref short HorizontalAngleNodeIdx { get; }
 
 ```csharp
 ref short VerticalAngleNodeIdx { get; }
+```
+
+#### Property Value
+
+- [short](https://learn.microsoft.com/dotnet/api/system.int16)
+
+### WeaponCategoryNodeIdx
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CNmAimCSNode__CDefinition.cs#L21)
+
+```csharp
+ref short WeaponCategoryNodeIdx { get; }
 ```
 
 #### Property Value

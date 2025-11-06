@@ -14,7 +14,7 @@ public readonly record struct MenuHorizontalStyle : IEquatable<MenuHorizontalSty
 
 ### MenuHorizontalStyle()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L324)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L321)
 
 ```csharp
 public MenuHorizontalStyle()
@@ -24,7 +24,7 @@ public MenuHorizontalStyle()
 
 ### Default
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L334)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L331)
 
 ```csharp
 public static MenuHorizontalStyle Default { get; }
@@ -36,7 +36,7 @@ public static MenuHorizontalStyle Default { get; }
 
 ### MaxWidth
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L292)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L291)
 
 ```csharp
 public required float MaxWidth { get; init; }
@@ -48,7 +48,7 @@ public required float MaxWidth { get; init; }
 
 ### OverflowStyle
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L312)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L309)
 
 ```csharp
 public MenuHorizontalOverflowStyle OverflowStyle { get; init; }
@@ -60,7 +60,7 @@ public MenuHorizontalOverflowStyle OverflowStyle { get; init; }
 
 ### PauseTicks
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L322)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L319)
 
 ```csharp
 public int PauseTicks { get; init; }
@@ -72,7 +72,7 @@ public int PauseTicks { get; init; }
 
 ### TicksPerScroll
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L317)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L314)
 
 ```csharp
 public int TicksPerScroll { get; init; }
@@ -86,7 +86,7 @@ public int TicksPerScroll { get; init; }
 
 ### ScrollLeftFade(float, int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L355)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L352)
 
 ```csharp
 public static MenuHorizontalStyle ScrollLeftFade(float maxWidth, int ticksPerScroll = 16, int pauseTicks = 0)
@@ -104,7 +104,7 @@ public static MenuHorizontalStyle ScrollLeftFade(float maxWidth, int ticksPerScr
 
 ### ScrollLeftLoop(float, int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L373)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L370)
 
 ```csharp
 public static MenuHorizontalStyle ScrollLeftLoop(float maxWidth, int ticksPerScroll = 16, int pauseTicks = 0)
@@ -122,7 +122,7 @@ public static MenuHorizontalStyle ScrollLeftLoop(float maxWidth, int ticksPerScr
 
 ### ScrollRightFade(float, int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L364)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L361)
 
 ```csharp
 public static MenuHorizontalStyle ScrollRightFade(float maxWidth, int ticksPerScroll = 16, int pauseTicks = 0)
@@ -140,7 +140,7 @@ public static MenuHorizontalStyle ScrollRightFade(float maxWidth, int ticksPerSc
 
 ### ScrollRightLoop(float, int, int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L382)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L379)
 
 ```csharp
 public static MenuHorizontalStyle ScrollRightLoop(float maxWidth, int ticksPerScroll = 16, int pauseTicks = 0)
@@ -158,7 +158,7 @@ public static MenuHorizontalStyle ScrollRightLoop(float maxWidth, int ticksPerSc
 
 ### TruncateBothEnds(float)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L346)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L343)
 
 ```csharp
 public static MenuHorizontalStyle TruncateBothEnds(float maxWidth)
@@ -174,7 +174,7 @@ public static MenuHorizontalStyle TruncateBothEnds(float maxWidth)
 
 ### TruncateEnd(float)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L340)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Menus/IMenu.cs#L337)
 
 ```csharp
 public static MenuHorizontalStyle TruncateEnd(float maxWidth)
