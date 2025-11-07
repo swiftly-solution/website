@@ -44,6 +44,89 @@ Revoke a permission from a player.
 Core.Permission.RemovePermission(player.SteamID, "myplugin.vip");
 ```
 
+## Permission Groups
+
+Permission groups allow you to organize permissions into reusable sets that can be assigned to players. This makes it easier to manage permissions for multiple players with similar roles.
+
+### Configuration
+
+Permission groups are configured in the `permissions.jsonc` file located in your server's configuration directory:
+
+```jsonc
+{
+  "Permissions": {
+    "Players": {
+      "76561198135539332": [
+        "admins"
+      ],
+      "76561198012345678": [
+        "moderators"
+      ]
+    },
+    "PermissionGroups": {
+      "__default": [
+        "basic.access"
+      ],
+      "admins": [
+        "admin.*",
+        "admin.box",
+        "myplugin.admin"
+      ],
+      "moderators": [
+        "admin.kick",
+        "admin.mute",
+        "myplugin.moderator"
+      ]
+    }
+  }
+}
+```
+
+### Player Assignment
+
+In the `Players` section, the key is the player's **SteamID64**, and the value is an array of group names that the player belongs to:
+
+```jsonc
+"Players": {
+  "76561198135539332": [
+    "admins"
+  ]
+}
+```
+
+Players can belong to multiple groups:
+
+```jsonc
+"Players": {
+  "76561198135539332": [
+    "admins",
+    "vip"
+  ]
+}
+```
+
+### Default Group
+
+The `__default` group is automatically assigned to all players. Use it to define permissions that every player should have:
+
+```jsonc
+"PermissionGroups": {
+  "__default": [
+    "basic.access",
+    "myplugin.help"
+  ]
+}
+```
+
+### How Groups Work
+
+When you use `Core.Permission.PlayerHasPermission()`, the system checks:
+1. Direct permissions assigned to the player via code
+2. All permissions from groups the player belongs to
+3. Permissions from the `__default` group
+
+Groups support wildcard permissions, so `admin.*` in a group will grant access to all permissions starting with `admin.`.
+
 ## Sub-Permissions
 
 Sub-permissions allow you to create hierarchical permission structures. When a player has a parent permission, they automatically gain access to all its sub-permissions.
