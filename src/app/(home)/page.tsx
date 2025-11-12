@@ -113,7 +113,7 @@ export default function HomePage() {
                   Advanced Menu System
                 </h3>
                 <p className="text-gray-400 text-lg leading-relaxed">
-                  Build interactive in-game menus with ease using SwiftlyS2's advanced menu system.
+                  Build interactive in-game menus with ease using SwiftlyS2{"'"}s advanced menu system.
                   Create dynamic menus, handle user input, and manage menu states seamlessly.
                 </p>
                 <ul className="space-y-3 text-gray-400">
@@ -210,8 +210,8 @@ Core.NetMessage.HookClientMessage<CCLCMsg_Move>((msg, id) => {
                   Network Messages
                 </h3>
                 <p className="text-gray-400 text-lg leading-relaxed">
-                  Full access to Source 2's network message system.
-                  Send and receive both server and client messages, allowing for deep integration with the engine's networking layer.
+                  Full access to Source 2{"'"}s network message system.
+                  Send and receive both server and client messages, allowing for deep integration with the engine{"'"}s networking layer.
                 </p>
                 <ul className="space-y-3 text-gray-400">
                   <li className="flex items-start gap-3">
@@ -238,7 +238,7 @@ Core.NetMessage.HookClientMessage<CCLCMsg_Move>((msg, id) => {
                 </h3>
                 <p className="text-gray-400 text-lg leading-relaxed">
                   Integrate SteamWorks features directly into your plugins.
-                  Access player's Steam profiles, manage user-generated content, and utilize Steam game server functionalities seamlessly.
+                  Access player{"'"}s Steam profiles, manage user-generated content, and utilize Steam game server functionalities seamlessly.
                 </p>
                 <ul className="space-y-3 text-gray-400">
                   <li className="flex items-start gap-3">

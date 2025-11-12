@@ -4,21 +4,23 @@ title: Menus
 
 SwiftlyS2 provides a powerful menu system that allows you to create interactive menus for players. The system uses a fluent builder API for easy menu creation and customization.
 
+## Overview
+
+The menu system is accessed through `Core.Menus` which implements `IMenuManagerAPI`. It provides a comprehensive set of tools for creating dynamic, interactive menus with support for various option types, custom styling, and event handling.
+
 ## Creating a Menu
 
-Use `Core.Menus.CreateMenu` to create a new menu instance, then use the builder to configure it.
+Use `Core.Menus.CreateBuilder()` to create a new menu builder, configure it with the fluent API, then call `Build()` to create the menu instance.
 
 ```csharp
-var menu = Core.Menus.CreateMenu("Menu Title");
-menu.Builder
-    .HasSound(true)
-    .ForceFreeze()
-    .AddButton("Click me", player => {
-        player.PrintToChat("Button clicked!");
-    });
+var menu = Core.Menus.CreateBuilder()
+    .Design.SetMenuTitle("Settings Menu")
+    .EnableSound()
+    .AddOption(new ButtonMenuOption("Click me"))
+    .Build();
 
 // Open the menu for a player
-menu.Show(player);
+Core.Menus.OpenMenuForPlayer(player, menu);
 ```
 
 ## Menu Builder API
@@ -28,198 +30,374 @@ The menu builder provides a fluent API for configuring menus. All builder method
 ### Basic Configuration
 
 ```csharp
-var menu = Core.Menus.CreateMenu("Settings");
-menu.Builder
-    .HasSound(true)           // Enable sound effects
-    .ForceFreeze()            // Freeze player while menu is open
-    .AutoClose(10.0f)         // Auto-close after 10 seconds
-    .CloseOnSelect();         // Close menu when any option is selected
+var builder = Core.Menus.CreateBuilder();
 
-// Design configuration (new API)
-menu.Builder.Design
-    .MaxVisibleItems(7)       // Set max visible items per page
-    .SetColor(new Color(255, 255, 255, 255))  // Set menu color
-    .SetVerticalScrollStyle(MenuVerticalScrollStyle.Arrows);  // Customize scroll style
+builder
+    .EnableSound()                    // Enable sound effects
+    .SetPlayerFrozen(true)            // Freeze player while menu is open
+    .SetAutoCloseDelay(10.0f);        // Auto-close after 10 seconds
+
+// Design configuration
+builder.Design
+    .SetMenuTitle("Main Menu")
+    .SetMaxVisibleItems(5)            // Set max visible items per page (1-5)
+    .SetMenuTitleVisible(true)        // Show/hide title
+    .SetMenuFooterVisible(true)       // Show/hide footer
+    .EnableAutoAdjustVisibleItems()   // Auto-adjust visible items when hiding title/footer
+    .SetGlobalScrollStyle(MenuOptionScrollStyle.CenterFixed);
 ```
 
-### Menu Options
+### Menu Configuration
 
-#### Button Option
-
-A simple button that executes a callback when selected.
+When creating menus directly with `CreateMenu`, you can pass configuration objects:
 
 ```csharp
-menu.Builder
-    .AddButton("Click me", player => {
-        player.PrintToChat("Button clicked!");
-    })
-    .AddButton("With option param", (player, option) => {
-        player.PrintToChat($"Selected: {option.Text}");
-    });
+var config = new MenuConfiguration
+{
+    Title = "Settings",
+    HideTitle = false,
+    HideFooter = false,
+    PlaySound = true,
+    MaxVisibleItems = 5,
+    AutoIncreaseVisibleItems = true,
+    FreezePlayer = false,
+    AutoCloseAfter = 0f
+};
+
+var keybinds = new MenuKeybindOverrides
+{
+    Select = KeyBind.E,
+    Move = KeyBind.W,
+    MoveBack = KeyBind.S,
+    Exit = KeyBind.Esc
+};
+
+var menu = Core.Menus.CreateMenu(
+    configuration: config,
+    keybindOverrides: keybinds,
+    parent: null,
+    optionScrollStyle: MenuOptionScrollStyle.CenterFixed,
+    optionTextStyle: MenuOptionTextStyle.TruncateEnd
+);
 ```
 
-#### Toggle Option
+## Menu Options
 
-A boolean toggle that switches between on/off states.
+SwiftlyS2 provides several built-in menu option types that you can use or extend.
+
+### Button Option
+
+A simple clickable button that executes a callback when selected.
 
 ```csharp
-menu.Builder
-    .AddToggle("Enable Feature", defaultValue: true, (player, enabled) => {
-        player.PrintToChat($"Feature is now {(enabled ? "enabled" : "disabled")}");
-    })
-    .AddToggle("With option param", false, (player, option, enabled) => {
-        player.PrintToChat($"{option.Text}: {enabled}");
-    });
+var button = new ButtonMenuOption("Click me");
+button.Click += async (sender, args) =>
+{
+    args.Player.PrintToChat("Button clicked!");
+    return ValueTask.CompletedTask;
+};
+
+builder.AddOption(button);
 ```
 
-#### Slider Option
+### Toggle Option
 
-A slider that allows selecting numeric values within a range.
+A boolean toggle that switches between on/off states, displaying ✔ or ✘.
 
 ```csharp
-menu.Builder
-    .AddSlider("Volume", min: 0, max: 100, defaultValue: 50, step: 5, (player, value) => {
-        player.PrintToChat($"Volume set to: {value}");
-    })
-    .AddSlider("Sensitivity", 0.1f, 5.0f, 1.0f, 0.1f, (player, option, value) => {
-        player.PrintToChat($"{option.Text}: {value}");
-    });
+var toggle = new ToggleMenuOption("Enable Feature");
+toggle.Click += async (sender, args) =>
+{
+    var isToggled = toggle.GetDisplayText(args.Player, 0).Contains("✔");
+    args.Player.PrintToChat($"Feature is now {(isToggled ? "enabled" : "disabled")}");
+    return ValueTask.CompletedTask;
+};
+
+builder.AddOption(toggle);
 ```
 
-#### Choice Option
+### Slider Option
+
+A slider that allows selecting numeric values within a range with visual feedback.
+
+```csharp
+var slider = new SliderMenuOption(
+    text: "Volume",
+    min: 0f,
+    max: 100f,
+    defaultValue: 50f,
+    step: 5f,
+    totalBars: 10
+);
+
+slider.ValueChanged += (sender, args) =>
+{
+    args.Player.PrintToChat($"Volume set to: {args.NewValue}");
+};
+
+builder.AddOption(slider);
+
+// Get or set slider value
+var currentVolume = slider.GetValue(player);
+slider.SetValue(player, 75f);
+```
+
+### Choice Option
 
 A choice option that cycles through predefined string values.
 
 ```csharp
 string[] difficulties = { "Easy", "Medium", "Hard", "Expert" };
 
-menu.Builder
-    .AddChoice("Difficulty", difficulties, defaultChoice: "Medium", (player, choice) => {
-        player.PrintToChat($"Difficulty set to: {choice}");
-    })
-    .AddChoice("Mode", new[] { "Casual", "Competitive" }, "Casual", (player, option, choice) => {
-        player.PrintToChat($"{option.Text}: {choice}");
-    });
+var choice = new ChoiceMenuOption(
+    text: "Difficulty",
+    choices: difficulties,
+    defaultChoice: "Medium"
+);
+
+choice.ValueChanged += (sender, args) =>
+{
+    args.Player.PrintToChat($"Difficulty changed from {args.OldValue} to {args.NewValue}");
+};
+
+builder.AddOption(choice);
+
+// Get or set choice
+var currentDifficulty = choice.GetSelectedChoice(player);
+choice.SetSelectedChoice(player, "Hard");
 ```
 
-#### Text Option
+### Text Option
 
 Display non-interactive text in the menu.
 
 ```csharp
-menu.Builder
-    .AddText("Welcome to the settings menu!", ITextAlign.Center, IMenuTextSize.Large)
-    .AddText("Configure your preferences below", ITextAlign.Left, IMenuTextSize.Small);
+var text = new TextMenuOption("Welcome to the settings menu!");
+text.TextSize = MenuOptionTextSize.Large;
+text.PlaySound = false;
+
+builder.AddOption(text);
 ```
 
-#### Separator
+### Input Option
 
-Add a visual separator between menu sections.
+Allows players to enter text input through chat.
 
 ```csharp
-menu.Builder
-    .AddButton("Option 1", player => { })
-    .AddButton("Option 2", player => { })
-    .AddSeparator()
-    .AddButton("Option 3", player => { });
+var input = new InputMenuOption(
+    text: "Enter your name",
+    defaultValue: "",
+    maxLength: 16,
+    hintMessage: "Type your name in chat",
+    validator: (value) => !string.IsNullOrWhiteSpace(value) && value.Length >= 3
+);
+
+input.ValueChanged += (sender, args) =>
+{
+    args.Player.PrintToChat($"Name changed to: {args.NewValue}");
+};
+
+builder.AddOption(input);
+
+// Get or set input value
+var currentName = input.GetValue(player);
+input.SetValue(player, "NewName");
 ```
 
-#### Progress Bar
+### Progress Bar Option
 
 Display a progress bar that updates dynamically.
 
 ```csharp
 float progress = 0.0f;
 
-menu.Builder
-    .AddProgressBar("Loading", () => progress, barWidth: 20)
-    .AddProgressBar("Health", () => player.Controller.PlayerPawn.Health / 100f, 15);
+var progressBar = new ProgressBarMenuOption(
+    text: "Loading",
+    progressProvider: () => progress,
+    multiLine: false,
+    showPercentage: true,
+    filledChar: "█",
+    emptyChar: "░"
+);
+
+builder.AddOption(progressBar);
+
+// Update progress externally
+progress = 0.75f; // 75%
+
+// Or set per-player progress provider
+progressBar.SetProgressProvider(player, () => player.Health / 100f);
 ```
 
-### Submenus
+### Submenu Option
 
-Create hierarchical menus with submenus.
+Opens another menu when clicked, with support for lazy loading.
 
 ```csharp
-// Create a submenu
-var submenu = Core.Menus.CreateMenu("Submenu")
-submenu.Builder
-    .AddButton("Back", player => menu.Show(player))
-    .AddButton("Submenu option", player => {
-        player.PrintToChat("Submenu option selected!");
-    });
+// Pre-built submenu
+var submenu = Core.Menus.CreateBuilder()
+    .Design.SetMenuTitle("Submenu")
+    .AddOption(new ButtonMenuOption("Submenu Option"))
+    .Build();
 
-// Add submenu to main menu
-menu.Builder
-    .AddSubmenu("Open Submenu", submenu)
-    .AddSubmenu("Lazy Submenu", () => {
-        // Submenu is created when accessed
-        return Core.Menus.CreateMenu("Lazy Menu");
-    });
+var submenuOption = new SubmenuMenuOption("Open Submenu", submenu);
+builder.AddOption(submenuOption);
+
+// Lazy-loaded submenu (built when clicked)
+var lazySubmenu = new SubmenuMenuOption("Lazy Submenu", () =>
+{
+    return Core.Menus.CreateBuilder()
+        .Design.SetMenuTitle("Dynamically Created")
+        .AddOption(new TextMenuOption("This menu was just created!"))
+        .Build();
+});
+builder.AddOption(lazySubmenu);
+
+// Async lazy-loaded submenu
+var asyncSubmenu = new SubmenuMenuOption("Async Submenu", async () =>
+{
+    await Task.Delay(500); // Simulate loading
+    return Core.Menus.CreateBuilder()
+        .Design.SetMenuTitle("Loaded Menu")
+        .Build();
+});
+builder.AddOption(asyncSubmenu);
 ```
 
-### Async Buttons
+## Menu Option Properties
 
-Execute async operations from menu buttons.
+All menu options inherit from `IMenuOption` and share common properties:
 
 ```csharp
-menu.Builder
-    .AddAsyncButton("Load Data", async player => {
-        player.PrintToChat("Loading...");
-        await Task.Delay(1000);
-        player.PrintToChat("Data loaded!");
-    })
-    .AddAsyncButton("Save Data", async (player, option) => {
-        await SavePlayerDataAsync(player);
-        player.PrintToChat("Data saved!");
-    });
+var option = new ButtonMenuOption("Example");
+
+// Basic properties
+option.Text = "Updated Text";
+option.Visible = true;
+option.Enabled = true;
+option.PlaySound = true;
+option.Tag = customData; // Store custom data
+
+// Text styling
+option.TextSize = MenuOptionTextSize.Large;
+option.TextStyle = MenuOptionTextStyle.ScrollLeftFade;
+option.MaxWidth = 80f;
+
+// Readonly properties
+int lineCount = option.LineCount; // Number of lines this option occupies
+bool closeAfter = option.CloseAfterClick;
 ```
 
-### Conditional Visibility and Enablement
-
-Control when options are visible or enabled.
+### Text Size Options
 
 ```csharp
-menu.Builder
-    .AddButton("Admin Only", player => {
-        player.PrintToChat("Admin action!");
-    })
-    .VisibleWhen(player => Core.Permission.PlayerHasPermission(player.SteamID, "admin"))
-    .EnabledWhen(player => player.Controller.PlayerPawn.Health > 0);
+public enum MenuOptionTextSize
+{
+    ExtraSmall,   // fontSize-xs
+    Small,        // fontSize-s
+    SmallMedium,  // fontSize-sm
+    Medium,       // fontSize-m (default)
+    MediumLarge,  // fontSize-ml
+    Large,        // fontSize-l
+    ExtraLarge    // fontSize-xl
+}
 ```
 
-### Button Overrides
-
-Customize which buttons control menu interactions using the Design API.
+### Text Overflow Styles
 
 ```csharp
-menu.Builder.Design
-    .OverrideSelectButton("attack", "attack2")     // Use attack buttons for selection
-    .OverrideMoveButton("forward", "back")         // Use movement buttons for navigation
-    .OverrideExitButton("duck");                   // Use duck button to exit
+public enum MenuOptionTextStyle
+{
+    TruncateEnd,        // "Very Long Text..." (truncate at end)
+    TruncateBothEnds,   // "...Middle Text..." (keep middle)
+    ScrollLeftFade,     // Scroll left with fade effect
+    ScrollRightFade,    // Scroll right with fade effect
+    ScrollLeftLoop,     // Continuous scroll left
+    ScrollRightLoop     // Continuous scroll right
+}
 ```
 
-### Text Sizing and Overflow
+## Menu Option Events
 
-Control the size of menu text and how overflow is handled.
+Menu options support various events for customization and tracking:
 
 ```csharp
-menu.Builder
-    .AddText("Extra Small", size: IMenuTextSize.ExtraSmall)
-    .AddText("Small", size: IMenuTextSize.Small)
-    .AddText("Medium", size: IMenuTextSize.Medium)          // Default
-    .AddText("Large", size: IMenuTextSize.Large)
-    .AddText("Extra Large", size: IMenuTextSize.ExtraLarge);
+var option = new ButtonMenuOption("Example");
 
-// Control text overflow behavior with MenuHorizontalStyle
-menu.Builder
-    .AddButton("Long text that might overflow", player => { },
-        overflowStyle: MenuHorizontalStyle.Truncate)
-    .AddButton("Another long text", player => { },
-        overflowStyle: MenuHorizontalStyle.Scroll);
+// Property change events
+option.TextChanged += (sender, args) =>
+{
+    Console.WriteLine($"Text changed for option");
+};
 
-// Set global horizontal style for all menu items
-menu.Builder.Design.SetGlobalHorizontalStyle(MenuHorizontalStyle.Wrap);
+option.VisibilityChanged += (sender, args) =>
+{
+    Console.WriteLine($"Visibility changed to: {option.Visible}");
+};
+
+option.EnabledChanged += (sender, args) =>
+{
+    Console.WriteLine($"Enabled changed to: {option.Enabled}");
+};
+
+// Validation event (can cancel interaction)
+option.Validating += (sender, args) =>
+{
+    if (!Core.Permission.PlayerHasPermission(args.Player.SteamID, "admin"))
+    {
+        args.Cancel = true;
+        args.CancelReason = "Admin only!";
+        args.Player.PrintToChat("You don't have permission!");
+    }
+};
+
+// Click event
+option.Click += async (sender, args) =>
+{
+    args.Player.PrintToChat("Option selected!");
+    args.CloseMenu = false; // Set to true to close menu after handling
+    await Task.CompletedTask;
+};
+
+// Formatting events (customize display)
+option.BeforeFormat += (sender, args) =>
+{
+    // Customize text before HTML formatting
+    args.CustomText = $"[CUSTOM] {args.Option.Text}";
+};
+
+option.AfterFormat += (sender, args) =>
+{
+    // Customize HTML after formatting
+    args.CustomText = $"<font color='#FF0000'>{args.CustomText}</font>";
+};
+```
+
+## Hierarchical Menus
+
+Create parent-child menu relationships for navigation:
+
+```csharp
+var mainMenu = Core.Menus.CreateBuilder()
+    .Design.SetMenuTitle("Main Menu")
+    .Build();
+
+var subMenu = Core.Menus.CreateBuilder()
+    .Design.SetMenuTitle("Sub Menu")
+    .BindToParent(mainMenu)  // Set parent relationship
+    .AddOption(new ButtonMenuOption("Back to Main"))
+    .Build();
+
+// The back button can navigate to parent
+var backButton = new ButtonMenuOption("Back");
+backButton.Click += async (sender, args) =>
+{
+    if (subMenu.Parent != null)
+    {
+        Core.Menus.OpenMenuForPlayer(args.Player, subMenu.Parent);
+    }
+    await Task.CompletedTask;
+};
 ```
 
 ## Menu Management
@@ -227,183 +405,174 @@ menu.Builder.Design.SetGlobalHorizontalStyle(MenuHorizontalStyle.Wrap);
 ### Opening and Closing Menus
 
 ```csharp
-// Open a menu
-menu.Show(player);
-Core.Menus.OpenMenu(player, menu);
+// Open a menu for a player
+Core.Menus.OpenMenuForPlayer(player, menu);
 
-// Close a menu
-menu.Close(player);
-Core.Menus.CloseMenuForPlayer(player);
+// Open for all players
+Core.Menus.OpenMenu(menu);
+
+// Close a menu for a player
+Core.Menus.CloseMenuForPlayer(player, menu);
+
+// Close menu for all players who have it open
 Core.Menus.CloseMenu(menu);
-Core.Menus.CloseMenuByTitle("Settings", exact: true);
 
-// Check if menu is open
-bool isOpen = Core.Menus.HasMenuOpen(player);
+// Close all menus for all players
+Core.Menus.CloseAllMenus();
 
-// Get current menu
-IMenu? currentMenu = Core.Menus.GetMenu(player);
+// Check current menu
+IMenuAPI? currentMenu = Core.Menus.GetCurrentMenu(player);
 ```
 
 ### Menu Events
 
-Subscribe to menu events to track interactions.
+Subscribe to global menu manager events:
 
 ```csharp
-// Global events
-Core.Menus.OnMenuOpened += (player, menu) => {
-    Console.WriteLine($"Menu '{menu.Title}' opened for {player.Controller.PlayerName}");
-};
-
-Core.Menus.OnMenuClosed += (player, menu) => {
-    Console.WriteLine($"Menu '{menu.Title}' closed for {player.Controller.PlayerName}");
-};
-
-Core.Menus.OnMenuRendered += (player, menu) => {
-    Console.WriteLine($"Menu '{menu.Title}' rendered for {player.Controller.PlayerName}");
-};
-
-// Per-menu events
-menu.OnOpen += player => {
-    player.PrintToChat("Menu opened!");
-};
-
-menu.OnClose += player => {
-    player.PrintToChat("Menu closed!");
-};
-
-menu.OnMove += player => {
-    // Player moved selection
-};
-
-menu.OnItemSelected += (player, option) => {
-    Console.WriteLine($"Player selected: {option.Text}");
-};
-
-menu.OnItemHovered += (player, option) => {
-    // Player hovered over an option
-};
-
-menu.BeforeRender += player => {
-    // Before menu is rendered
-};
-
-menu.AfterRender += player => {
-    // After menu is rendered
-};
-```
-
-
-## Advanced Features
-
-### Parent Menus
-
-Set a parent menu to create a navigation hierarchy.
-
-```csharp
-var mainMenu = Core.Menus.CreateMenu("Main Menu");
-var subMenu = Core.Menus.CreateMenu("Sub Menu")
-    .Builder
-    .WithParent(mainMenu);
-
-// Now the submenu knows its parent
-```
-
-### Dynamic Menu Content
-
-Rerender menus to update dynamic content.
-
-```csharp
-var dynamicMenu = Core.Menus.CreateMenu("Player List")
-    .Builder
-    .AddText("Online Players:", ITextAlign.Center);
-
-foreach (var p in Core.PlayerManager.GetPlayers())
+Core.Menus.MenuOpened += (sender, args) =>
 {
-    dynamicMenu.Builder.AddButton(p.Controller.PlayerName, player => {
-        player.PrintToChat($"Selected: {p.Controller.PlayerName}");
-    });
+    Console.WriteLine($"Menu '{args.Menu?.Configuration.Title}' opened for {args.Player?.Controller.PlayerName}");
+};
+
+Core.Menus.MenuClosed += (sender, args) =>
+{
+    Console.WriteLine($"Menu '{args.Menu?.Configuration.Title}' closed for {args.Player?.Controller.PlayerName}");
+};
+```
+
+Subscribe to per-menu events:
+
+```csharp
+menu.OptionHovering += (sender, args) =>
+{
+    // Player is hovering over an option
+    var option = args.Options?.FirstOrDefault();
+    Console.WriteLine($"Hovering: {option?.Text}");
+};
+```
+
+## Menu Scroll Styles
+
+Control how the menu scrolls when navigating:
+
+```csharp
+public enum MenuOptionScrollStyle
+{
+    // Selection indicator moves, content stays fixed until edge
+    LinearScroll,
+
+    // Indicator stays centered, options scroll around it (circular)
+    CenterFixed,
+
+    // Indicator moves to center then stays, can move at edges
+    WaitingCenter
 }
 
-// Update menu content
-Core.Scheduler.Repeat(1000, () => {
-    // Rebuild menu with updated player list
-    dynamicMenu.Rerender(player);
-});
+// Set globally for menu
+builder.Design.SetGlobalScrollStyle(MenuOptionScrollStyle.CenterFixed);
+
+// Or when creating menu directly
+var menu = Core.Menus.CreateMenu(
+    configuration: config,
+    keybindOverrides: keybinds,
+    optionScrollStyle: MenuOptionScrollStyle.WaitingCenter
+);
 ```
 
-### Freeze Control
+## Custom Key Bindings
 
-Control player freeze state independently.
+Override default menu controls:
 
 ```csharp
-// Freeze/unfreeze player
-menu.SetFreezeState(player, freeze: true);
-
-// Use NoFreeze() to prevent freezing
-var noFreezeMenu = Core.Menus.CreateMenu("No Freeze Menu")
-    .Builder
-    .NoFreeze();
+builder
+    .SetSelectButton(KeyBind.E | KeyBind.Mouse1)      // Multiple keys with |
+    .SetMoveForwardButton(KeyBind.W)
+    .SetMoveBackwardButton(KeyBind.S)
+    .SetExitButton(KeyBind.Esc | KeyBind.Q);
 ```
 
-### Menu Design API
+## Dynamic Menu Content
 
-The new `Design` API provides a cleaner way to customize menu appearance and behavior. Access it via `menu.Builder.Design`.
+Add and remove options dynamically:
 
 ```csharp
-var menu = Core.Menus.CreateMenu("Styled Menu");
+// Add option to existing menu
+var newOption = new ButtonMenuOption("Dynamic Option");
+menu.AddOption(newOption);
 
-// Configure design settings
-menu.Builder.Design
-    .MaxVisibleItems(10)                                    // Maximum items shown at once
-    .SetColor(new Color(100, 200, 255, 255))               // Menu tint color
-    .SetVerticalScrollStyle(MenuVerticalScrollStyle.Arrows) // Scroll indicators
-    .SetGlobalHorizontalStyle(MenuHorizontalStyle.Wrap)    // Text overflow behavior
-    .OverrideSelectButton("attack")                         // Custom button mappings
-    .OverrideMoveButton("forward", "back")
-    .OverrideExitButton("use");
+// Remove option
+menu.RemoveOption(newOption);
 
-// Available MenuHorizontalStyle options:
-// - Truncate: Cut off text that's too long
-// - Scroll: Horizontally scroll long text
-// - Wrap: Wrap text to multiple lines
+// Move player selection
+menu.MoveToOption(player, specificOption);
+menu.MoveToOptionIndex(player, 2);
 
-// Available MenuVerticalScrollStyle options:
-// - Arrows: Show up/down arrows for scrolling
-// - PageNumbers: Show current page number
-// - None: No scroll indicators
+// Get current selection
+var currentOption = menu.GetCurrentOption(player);
+var currentIndex = menu.GetCurrentOptionIndex(player);
 ```
 
-### Per-Item Overflow Styles
+## Advanced Option Features
 
-Each menu item can have its own overflow style, overriding the global setting.
+### Per-Player Visibility and Enabled State
 
 ```csharp
-menu.Builder
-    .AddButton("Short", player => { })
-    .AddButton("This is a very long button text that needs special handling",
-        player => { },
-        overflowStyle: MenuHorizontalStyle.Scroll)
-    .AddToggle("Long toggle text example", false, null,
-        overflowStyle: MenuHorizontalStyle.Truncate)
-    .AddSlider("Volume", 0, 100, 50, 5, null,
-        overflowStyle: MenuHorizontalStyle.Wrap);
+var option = new ButtonMenuOption("Admin Only");
+
+// Check per-player state
+bool visibleToPlayer = option.GetVisible(player);
+bool enabledForPlayer = option.GetEnabled(player);
+
+// Control with events
+option.Validating += (sender, args) =>
+{
+    // Disable for non-admins
+    if (!IsAdmin(args.Player))
+    {
+        args.Cancel = true;
+    }
+};
 ```
 
-## Reference
+### Custom Option Display
 
-See the following API documentation for more details:
+```csharp
+// Customize how option appears to specific player
+option.BeforeFormat += (sender, args) =>
+{
+    if (IsVIP(args.Player))
+    {
+        args.CustomText = $"[VIP] {args.Option.Text}";
+    }
+};
 
-### Core Interfaces
-- [IMenuManager](/docs/api/shared/menus/imenumanager) - Menu manager interface
-- [IMenu](/docs/api/shared/menus/imenu) - Menu interface
-- [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - Menu builder interface
-- [IMenuDesign](/docs/api/shared/menus/imenudesign) - Menu design configuration interface (new!)
-- [IOption](/docs/api/shared/menus/ioption) - Menu option interface
+option.AfterFormat += (sender, args) =>
+{
+    // Add color for admins
+    if (IsAdmin(args.Player))
+    {
+        args.CustomText = $"<font color='#FFD700'>{args.CustomText}</font>";
+    }
+};
+```
 
-### Styling and Configuration
-- [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle) - Text overflow styles (Truncate, Scroll, Wrap)
-- [MenuVerticalScrollStyle](/docs/api/shared/menus/menuverticalscrollstyle) - Vertical scroll indicators
-- [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - Text size enum
-- [ITextAlign](/docs/api/shared/menus/itextalign) - Text alignment enum
-- [IMenuButtonOverrides](/docs/api/shared/menus/imenubuttonoverrides) - Custom button mappings
-- [MenuSettings](/docs/api/shared/menus/menusettings) - Global menu settings
+### Multi-Line Options
+
+Options can span multiple lines:
+
+```csharp
+public class CustomOption : MenuOptionBase
+{
+    public override int LineCount => 2; // This option uses 2 lines
+
+    public override string GetDisplayText(IPlayer player, int displayLine = 0)
+    {
+        return displayLine switch
+        {
+            1 => "Line 1 content",
+            2 => "Line 2 content",
+            _ => "Line 1 content<br>Line 2 content"
+        };
+    }
+}
+```
