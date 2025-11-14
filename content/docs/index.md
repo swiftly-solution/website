@@ -20,6 +20,7 @@ A list of features:
 - **Events**: Manages event hooks, allowing scripts to react to in-game occurrences.
 - **GameEvents**: Handles triggering and listening for in-game events. All fields are typed.
 - **Memory**: Provides low-level memory manipulation tools for advanced scripting.
+- **Menus**: Provides a easy Menu API with tons of customization, from colors to options and much more.
 - **Hooks**: A hooking system to hook functions, net messages, entity outputs and more.
 - **NetMessages**: Facilitates sending and receiving network messages via protobuf to clients.
 - **Profiler**: Tools for performance analysis and debugging of scripts.
