@@ -36,7 +36,7 @@ IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, ConvarFlag
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L36)
 
 ```csharp
-IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, T? minValue = null, T? maxValue = null, ConvarFlags flags = ConvarFlags.NONE) where T : unmanaged
+IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, T? minValue, T? maxValue, ConvarFlags flags = ConvarFlags.NONE) where T : unmanaged
 ```
 
 #### Parameters
@@ -51,6 +51,54 @@ IConVar<T> Create<T>(string name, string helpMessage, T defaultValue, T? minValu
 #### Returns
 
 - [IConVar](/docs/api/shared/convars/iconvar-1)<T> - The created convar.
+
+#### Type Parameters
+
+- **T**:  - The type of the convar.
+
+### CreateOrFind(string, string, T, ConvarFlags)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L47)
+
+```csharp
+IConVar<T> CreateOrFind<T>(string name, string helpMessage, T defaultValue, ConvarFlags flags = ConvarFlags.NONE)
+```
+
+#### Parameters
+
+- **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the convar.
+- **helpMessage**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The help message of the convar.
+- **defaultValue**: T - The default value of the convar.
+- **flags**: [ConvarFlags](/docs/api/shared/convars/convarflags) - The flags of the convar.
+
+#### Returns
+
+- [IConVar](/docs/api/shared/convars/iconvar-1)<T> - The created or found convar.
+
+#### Type Parameters
+
+- **T**:  - The type of the convar.
+
+### CreateOrFind(string, string, T, T?, T?, ConvarFlags)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Convars/IConVarService.cs#L60)
+
+```csharp
+IConVar<T> CreateOrFind<T>(string name, string helpMessage, T defaultValue, T? minValue, T? maxValue, ConvarFlags flags = ConvarFlags.NONE) where T : unmanaged
+```
+
+#### Parameters
+
+- **name**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the convar.
+- **helpMessage**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The help message of the convar.
+- **defaultValue**: T - The default value of the convar.
+- **minValue**: T? - The min value of the convar.
+- **maxValue**: T? - The max value of the convar.
+- **flags**: [ConvarFlags](/docs/api/shared/convars/convarflags) - The flags of the convar.
+
+#### Returns
+
+- [IConVar](/docs/api/shared/convars/iconvar-1)<T> - The created or found convar.
 
 #### Type Parameters
 

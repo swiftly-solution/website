@@ -20,6 +20,8 @@ public enum EGCItemCustomizationNotification
 - **k_EGCItemCustomizationNotification_CasketTooFull**: 1011
 - **k_EGCItemCustomizationNotification_ClientRedeemFreeReward**: 9219
 - **k_EGCItemCustomizationNotification_ClientRedeemMissionReward**: 9209
+- **k_EGCItemCustomizationNotification_EncapsulateSticker**: 1055
+- **k_EGCItemCustomizationNotification_ExtractSticker**: 1054
 - **k_EGCItemCustomizationNotification_GenerateSouvenir**: 9204
 - **k_EGCItemCustomizationNotification_GraffitiUnseal**: 9185
 - **k_EGCItemCustomizationNotification_NameBaseItem**: 1019

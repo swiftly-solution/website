@@ -1,9 +1,9 @@
 ---
-title: IMenuTextSize
+title: MenuOptionTextSize
 ---
 
 ```csharp
-public enum IMenuTextSize
+public enum MenuOptionTextSize
 ```
 
 ## Fields

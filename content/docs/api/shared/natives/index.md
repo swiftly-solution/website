@@ -92,6 +92,7 @@ and handled within the core.
 - [NodeColor_t](/docs/api/shared/natives/nodecolor_t)
 - [RayType_t](/docs/api/shared/natives/raytype_t)
 - [RnQueryObjectSet](/docs/api/shared/natives/rnqueryobjectset)
+- [RoundEndReason](/docs/api/shared/natives/roundendreason)
 
 - [CUtlRBTree<TValue, TKey>.LessFunc](/docs/api/shared/natives/cutlrbtree-2/lessfunc)
 

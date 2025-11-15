@@ -97,7 +97,7 @@ public void AddAllPlayers()
 
 ### AddRecipient(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L77)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L71)
 
 ```csharp
 public void AddRecipient(int playerid)
@@ -157,7 +157,7 @@ public static CRecipientFilter FromSingle(int player)
 
 ### GetRecipientCount()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L91)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L85)
 
 ```csharp
 public int GetRecipientCount()
@@ -169,7 +169,7 @@ public int GetRecipientCount()
 
 ### RemoveAllPlayers()
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L66)
 
 ```csharp
 public void RemoveAllPlayers()
@@ -177,7 +177,7 @@ public void RemoveAllPlayers()
 
 ### RemoveRecipient(int)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L84)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Natives/Structs/CRecipientFilter.cs#L78)
 
 ```csharp
 public void RemoveRecipient(int playerid)

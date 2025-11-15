@@ -2386,7 +2386,7 @@ void EndMatchMapVoteWinnerUpdated()
 
 ### FindPickerEntity(CBasePlayerController)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L13)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L14)
 
 ```csharp
 T? FindPickerEntity<T>(CBasePlayerController controller) where T : ISchemaClass<T>
@@ -2947,6 +2947,19 @@ void TeamRespawnWaveTimesUpdated()
 ```csharp
 void TechnicalTimeOutUpdated()
 ```
+
+### TerminateRound(RoundEndReason, float)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Core/Modules/Schemas/Extensions/CCSGameRules.cs#L21)
+
+```csharp
+void TerminateRound(RoundEndReason reason, float delay)
+```
+
+#### Parameters
+
+- **reason**: [RoundEndReason](/docs/api/shared/natives/roundendreason) - The reason for ending the round
+- **delay**: [float](https://learn.microsoft.com/dotnet/api/system.single) - The delay before ending the round
 
 ### TerroristTimeOutActiveUpdated()
 

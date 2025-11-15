@@ -2,24 +2,30 @@
 title: Menus
 ---
 
-- [MenuHorizontalStyle](/docs/api/shared/menus/menuhorizontalstyle) - Horizontal text display style configuration for menu options.
-- [MenuSettings](/docs/api/shared/menus/menusettings) - Configuration settings for menu behavior, appearance, and interaction.
-Defines various aspects of menu functionality including navigation, input handling, audio feedback, and display options.
+- [MenuConfiguration](/docs/api/shared/menus/menuconfiguration) - Defines configuration settings that control menu behavior.
+- [MenuEventArgs](/docs/api/shared/menus/menueventargs) - Provides event data for menu-related events.
+- [MenuManagerEventArgs](/docs/api/shared/menus/menumanagereventargs) - Provides event data for menu manager events.
+- [MenuOptionClickEventArgs](/docs/api/shared/menus/menuoptionclickeventargs) - Provides event data for menu option click events.
+- [MenuOptionEventArgs](/docs/api/shared/menus/menuoptioneventargs) - Provides event data for menu option events.
+- [MenuOptionFormattingEventArgs](/docs/api/shared/menus/menuoptionformattingeventargs) - Provides event data for menu option HTML formatting events.
+- [MenuOptionValidatingEventArgs](/docs/api/shared/menus/menuoptionvalidatingeventargs) - Provides event data for menu option validation events.
+- [MenuOptionValueChangedEventArgs<T>](/docs/api/shared/menus/menuoptionvaluechangedeventargs-1) - Event arguments for when a menu option's value changes.
 
-- [IMenu](/docs/api/shared/menus/imenu) - Represents a menu interface that provides functionality for creating and managing interactive menus for players.
-Supports customizable options, events, and rendering behavior.
-- [IMenuBuilder](/docs/api/shared/menus/imenubuilder) - Provides a fluent interface for building and configuring menus with various option types and behaviors.
-Supports method chaining for easy menu construction and customization.
-- [IMenuButtonOverrides](/docs/api/shared/menus/imenubuttonoverrides) - Defines custom button overrides for menu navigation and interaction.
-Allows customization of the default key bindings used for menu operations.
-- [IMenuDesign](/docs/api/shared/menus/imenudesign)
-- [IMenuManager](/docs/api/shared/menus/imenumanager) - Manages menu instances and provides functionality for creating, opening, closing, and tracking menus for players.
-Serves as the central hub for menu operations and maintains menu state across the application.
-- [IOption](/docs/api/shared/menus/ioption) - Represents a menu option that can be displayed and interacted with by players.
+- [MenuKeybindOverrides](/docs/api/shared/menus/menukeybindoverrides) - Custom key bindings for menu actions.
+Each property can be set to override the default bindings, or left null to use defaults.
+- [MenuManagerConfiguration](/docs/api/shared/menus/menumanagerconfiguration) - Configuration settings that control menu behavior, appearance, and player interaction.
 
-- [IMenuTextSize](/docs/api/shared/menus/imenutextsize) - Defines the available text size options for menu items.
-- [ITextAlign](/docs/api/shared/menus/itextalign) - Defines text alignment options for menu text elements.
-Used to control how text is positioned within menu displays.
-- [MenuHorizontalOverflowStyle](/docs/api/shared/menus/menuhorizontaloverflowstyle) - Defines the horizontal text overflow behavior for menu options.
-- [MenuVerticalScrollStyle](/docs/api/shared/menus/menuverticalscrollstyle) - Defines the vertical scroll behavior style for menu navigation.
+- [IMenuAPI](/docs/api/shared/menus/imenuapi) - Represents an interactive menu that can be displayed to players.
+- [IMenuBuilderAPI](/docs/api/shared/menus/imenubuilderapi) - Provides a fluent builder interface for creating and configuring menus.
+All methods support chaining for convenient menu construction.
+- [IMenuDesignAPI](/docs/api/shared/menus/imenudesignapi)
+- [IMenuManagerAPI](/docs/api/shared/menus/imenumanagerapi) - Central manager for creating and controlling all player menus.
+- [IMenuOption](/docs/api/shared/menus/imenuoption) - Represents a menu option that can be displayed and interacted with by players.
+
+- [KeyBind](/docs/api/shared/menus/keybind)
+- [MenuOptionScrollStyle](/docs/api/shared/menus/menuoptionscrollstyle) - Defines how the menu scrolls when navigating between options.
+- [MenuOptionTextSize](/docs/api/shared/menus/menuoptiontextsize) - Defines the available text size options for menu items.
+- [MenuOptionTextStyle](/docs/api/shared/menus/menuoptiontextstyle) - Defines the horizontal text overflow behavior for menu options.
+
+- [AsyncEventHandler<TEventArgs>](/docs/api/shared/menus/asynceventhandler-1) - Represents an asynchronous event handler that returns a ValueTask.
 

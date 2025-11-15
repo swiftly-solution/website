@@ -10,5 +10,6 @@ public enum ECsgoGameEvents
 
 - **GE_FireBulletsId**: 452
 - **GE_PlayerAnimEventId**: 450
+- **GE_PlayerBulletHitId**: 453
 - **GE_RadioIconEventId**: 451
 

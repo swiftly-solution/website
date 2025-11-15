@@ -142,3 +142,15 @@ float Wear { get; set; }
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
 
+### WrappedSticker
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CEconItemPreviewDataBlock_Sticker.cs#L46)
+
+```csharp
+uint WrappedSticker { get; set; }
+```
+
+#### Property Value
+
+- [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+

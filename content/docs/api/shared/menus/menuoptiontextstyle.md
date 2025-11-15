@@ -1,9 +1,9 @@
 ---
-title: MenuHorizontalOverflowStyle
+title: MenuOptionTextStyle
 ---
 
 ```csharp
-public enum MenuHorizontalOverflowStyle
+public enum MenuOptionTextStyle
 ```
 
 ## Fields

@@ -48,7 +48,7 @@ Vector EntOrigin { get; set; }
 
 ### Extra
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFireBullets.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFireBullets.cs#L72)
 
 ```csharp
 CMsgTEFireBullets_Extra Extra { get; }
@@ -130,6 +130,30 @@ uint Player { get; set; }
 
 - [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
+### PlayerInair
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFireBullets.cs#L63)
+
+```csharp
+bool PlayerInair { get; set; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
+### PlayerScoped
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFireBullets.cs#L66)
+
+```csharp
+bool PlayerScoped { get; set; }
+```
+
+#### Property Value
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 ### RecoilIndex
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFireBullets.cs#L39)
@@ -189,6 +213,18 @@ float Spread { get; set; }
 #### Property Value
 
 - [float](https://learn.microsoft.com/dotnet/api/system.single)
+
+### Tick
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Protobufs/Interfaces/CMsgTEFireBullets.cs#L69)
+
+```csharp
+int Tick { get; set; }
+```
+
+#### Property Value
+
+- [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 ### WeaponId
 

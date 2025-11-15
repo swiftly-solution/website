@@ -9,6 +9,7 @@ title: Shared
 - [SwiftlyS2.Shared.Database](/docs/api/shared/database)
 - [SwiftlyS2.Shared.EntitySystem](/docs/api/shared/entitysystem)
 - [SwiftlyS2.Shared.Events](/docs/api/shared/events)
+- [SwiftlyS2.Shared.FileSystem](/docs/api/shared/filesystem)
 - [SwiftlyS2.Shared.GameEventDefinitions](/docs/api/shared/gameeventdefinitions)
 - [SwiftlyS2.Shared.GameEvents](/docs/api/shared/gameevents)
 - [SwiftlyS2.Shared.Helpers](/docs/api/shared/helpers)

@@ -41,6 +41,22 @@ nint? GetInterfaceByName(string name)
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)? - The address of the interface. Return null if not found.
 
+### GetObjectPtrVtableName(nint)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L66)
+
+```csharp
+string? GetObjectPtrVtableName(nint address)
+```
+
+#### Parameters
+
+- **address**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the object pointer.
+
+#### Returns
+
+- [string](https://learn.microsoft.com/dotnet/api/system.string)? - The vtable name. Return null if not found.
+
 ### GetUnmanagedFunctionByAddress(nint)
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L14)
@@ -115,6 +131,39 @@ nint? GetVTableAddress(string library, string vtableName)
 
 - [nint](https://learn.microsoft.com/dotnet/api/system.intptr)? - The address of the vtable. Return null if not found.
 
+### ObjectPtrHasBaseClass(nint, string)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L81)
+
+```csharp
+bool ObjectPtrHasBaseClass(nint address, string baseClassName)
+```
+
+#### Parameters
+
+- **address**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the object pointer.
+- **baseClassName**: [string](https://learn.microsoft.com/dotnet/api/system.string) - The name of the base class.
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the object pointer has the base class, false otherwise.
+
+### ObjectPtrHasVtable(nint)
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L73)
+
+```csharp
+bool ObjectPtrHasVtable(nint address)
+```
+
+#### Parameters
+
+- **address**: [nint](https://learn.microsoft.com/dotnet/api/system.intptr) - The address of the object pointer.
+
+#### Returns
+
+- [bool](https://learn.microsoft.com/dotnet/api/system.boolean) - True if the object pointer has a vtable, false otherwise.
+
 ### ResolveXrefAddress(nint)
 
 [Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L59)
@@ -133,7 +182,7 @@ nint ResolveXrefAddress(nint xrefAddress)
 
 ### ToSchemaClass(nint)
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L68)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Shared/Modules/Memory/IMemoryService.cs#L89)
 
 ```csharp
 T ToSchemaClass<T>(nint address) where T : class, ISchemaClass<T>

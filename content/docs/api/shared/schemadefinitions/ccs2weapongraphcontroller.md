@@ -36,7 +36,7 @@ SchemaUntypedField ActionReset { get; }
 
 ### AttackThrowStrength
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L60)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L63)
 
 ```csharp
 SchemaUntypedField AttackThrowStrength { get; }
@@ -48,7 +48,7 @@ SchemaUntypedField AttackThrowStrength { get; }
 
 ### AttackType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L57)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L60)
 
 ```csharp
 SchemaUntypedField AttackType { get; }
@@ -60,7 +60,7 @@ SchemaUntypedField AttackType { get; }
 
 ### AttackVariation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L63)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L66)
 
 ```csharp
 SchemaUntypedField AttackVariation { get; }
@@ -72,7 +72,7 @@ SchemaUntypedField AttackVariation { get; }
 
 ### DeployVariation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L54)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L57)
 
 ```csharp
 SchemaUntypedField DeployVariation { get; }
@@ -84,7 +84,7 @@ SchemaUntypedField DeployVariation { get; }
 
 ### IdleVariation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L51)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L54)
 
 ```csharp
 SchemaUntypedField IdleVariation { get; }
@@ -96,7 +96,7 @@ SchemaUntypedField IdleVariation { get; }
 
 ### InspectExtraInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L69)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L72)
 
 ```csharp
 SchemaUntypedField InspectExtraInfo { get; }
@@ -108,7 +108,7 @@ SchemaUntypedField InspectExtraInfo { get; }
 
 ### InspectVariation
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L66)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L69)
 
 ```csharp
 SchemaUntypedField InspectVariation { get; }
@@ -120,7 +120,7 @@ SchemaUntypedField InspectVariation { get; }
 
 ### IsUsingLegacyModel
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L48)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L51)
 
 ```csharp
 SchemaUntypedField IsUsingLegacyModel { get; }
@@ -132,7 +132,7 @@ SchemaUntypedField IsUsingLegacyModel { get; }
 
 ### ReloadStage
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L72)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L75)
 
 ```csharp
 SchemaUntypedField ReloadStage { get; }
@@ -142,9 +142,21 @@ SchemaUntypedField ReloadStage { get; }
 
 - [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
 
+### WeaponActionSpeedScale
+
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L24)
+
+```csharp
+SchemaUntypedField WeaponActionSpeedScale { get; }
+```
+
+#### Property Value
+
+- [SchemaUntypedField](/docs/api/shared/schemas/schemauntypedfield)
+
 ### WeaponAmmo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L33)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L36)
 
 ```csharp
 SchemaUntypedField WeaponAmmo { get; }
@@ -156,7 +168,7 @@ SchemaUntypedField WeaponAmmo { get; }
 
 ### WeaponAmmoMax
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L36)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L39)
 
 ```csharp
 SchemaUntypedField WeaponAmmoMax { get; }
@@ -168,7 +180,7 @@ SchemaUntypedField WeaponAmmoMax { get; }
 
 ### WeaponAmmoReserve
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L39)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L42)
 
 ```csharp
 SchemaUntypedField WeaponAmmoReserve { get; }
@@ -180,7 +192,7 @@ SchemaUntypedField WeaponAmmoReserve { get; }
 
 ### WeaponCategory
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L24)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L27)
 
 ```csharp
 SchemaUntypedField WeaponCategory { get; }
@@ -192,7 +204,7 @@ SchemaUntypedField WeaponCategory { get; }
 
 ### WeaponExtraInfo
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L30)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L33)
 
 ```csharp
 SchemaUntypedField WeaponExtraInfo { get; }
@@ -204,7 +216,7 @@ SchemaUntypedField WeaponExtraInfo { get; }
 
 ### WeaponIronsightAmount
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L45)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L48)
 
 ```csharp
 SchemaUntypedField WeaponIronsightAmount { get; }
@@ -216,7 +228,7 @@ SchemaUntypedField WeaponIronsightAmount { get; }
 
 ### WeaponIsSilenced
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L42)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L45)
 
 ```csharp
 SchemaUntypedField WeaponIsSilenced { get; }
@@ -228,7 +240,7 @@ SchemaUntypedField WeaponIsSilenced { get; }
 
 ### WeaponType
 
-[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L27)
+[Source Code](https://github.com/swiftly-solution/swiftlys2/blob/main/managed/src/SwiftlyS2.Generated/Schemas/Interfaces/CCS2WeaponGraphController.cs#L30)
 
 ```csharp
 SchemaUntypedField WeaponType { get; }

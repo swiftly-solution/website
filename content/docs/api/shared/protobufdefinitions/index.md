@@ -388,6 +388,7 @@ title: ProtobufDefinitions
 - [CMsgOpenCrate](/docs/api/shared/protobufdefinitions/cmsgopencrate)
 - [CMsgPartyInviteResponse](/docs/api/shared/protobufdefinitions/cmsgpartyinviteresponse)
 - [CMsgPlaceDecalEvent](/docs/api/shared/protobufdefinitions/cmsgplacedecalevent)
+- [CMsgPlayerBulletHit](/docs/api/shared/protobufdefinitions/cmsgplayerbullethit)
 - [CMsgPlayerInfo](/docs/api/shared/protobufdefinitions/cmsgplayerinfo)
 - [CMsgQAngle](/docs/api/shared/protobufdefinitions/cmsgqangle)
 - [CMsgQuaternion](/docs/api/shared/protobufdefinitions/cmsgquaternion)
